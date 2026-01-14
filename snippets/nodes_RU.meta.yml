@@ -1,5 +1,6 @@
 proxies:
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
   name: 🏴‍☠_1🏴‍☠_1RU_c4226_0007|1.0MB/...
   network: tcp
@@ -14,6 +15,27 @@ proxies:
   type: vless
   udp: true
   uuid: a91e64f0-9295-499d-bf4a-661ad99d4938
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇷🇺RU_2|1.8MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
+    short-id: '!!str 1ed136481e0ede74'
+  server: khabarovsk.geodema.network
+  servername: khabarovsk.geodema.network
+  tls: true
+  type: vless
+  udp: true
+  uuid: a91e64f0-9295-499d-bf4a-661ad99d4938
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -60,33 +82,6 @@ proxies:
   type: vless
   udp: true
   uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: RU_speednode_0019
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: bridge2.pool.sssrvpn.pro
-  servername: fi.reality.tv123.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: RU_speednode_0020
-  port: 443
-  reality-opts:
-    public-key: dEHsPQQSnMJiHJKnJRbbLFKQmwIemUXQsQ1zIYbLZng
-    short-id: '!!str f6'
-  server: 51.250.95.143
-  servername: www.mobile.yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5725a60c-34a5-476d-9ae3-9e43d945ca8f
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: RU_speednode_0021

@@ -46,6 +46,49 @@ proxies:
   server: 223.95.183.132
   type: ss
 - client-fingerprint: chrome
+  name: 🇸🇬SG_1|1.6MB/s
+  network: ws
+  port: 443
+  server: 162.159.16.63
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 🇸🇬SG¹⁺_1|4.8MB/s|0%|GPT⁺|GM|D+...
+  network: ws
+  port: 25059
+  server: 77.93.89.171
+  servername: snippet.danfeng.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.de5.net
+    max-early-data: 2560
+    path: /
+- cipher: aes-128-gcm
+  country: 🇨🇳CN
+  name: 🇸🇬SG²_1|2.6MB/s|3%|GPT⁺|GM|YT|...
+  password: b637f2e47b7827b308ebf399008075d2
+  port: 39398
+  server: 223.95.183.132
+  type: ss
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: SG_speednode_0024
   port: 52800

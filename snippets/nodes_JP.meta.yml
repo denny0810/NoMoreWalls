@@ -1,19 +1,19 @@
 proxies:
-- name: JP4｜机房｜低风险
+- name: '[Trojan] JP4｜机房｜低风险'
   password: 469c8135-8aea-4c7f-8ec2-c5fdfa980b48
   port: 443
   server: tuntro003.instconn.com
   skip-cert-verify: true
   sni: login-staticjpc.jasmine-douyin.top
   type: trojan
-- name: JP
+- name: '[Hysteria2] JP'
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
   server: jp7.dexlos.com
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 日本|@ripaojiedian
+- name: '[Trojan] 日本|@ripaojiedian'
   network: tcp
   password: BxceQaOe
   port: 2053
@@ -21,7 +21,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 日本2|@ripaojiedian
+- name: '[Trojan] 日本2|@ripaojiedian'
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 4006
@@ -29,7 +29,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本3|@ripaojiedian
+- name: '[Trojan] 日本3|@ripaojiedian'
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 1933
@@ -38,13 +38,13 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - cipher: aes-128-gcm
-  name: 日本4|@ripaojiedian
+  name: '[SS] 日本4|@ripaojiedian'
   password: b637f2e47b7827b308ebf399008075d2
   port: 26334
   server: 223.95.183.132
   type: ss
 - client-fingerprint: chrome
-  name: 🇯🇵JP_1|1.4MB/s
+  name: '[VLESS] jpJP_1|1.4MB/s'
   network: ws
   port: 443
   server: 162.159.44.142
@@ -61,7 +61,7 @@ proxies:
     max-early-data: 2560
     path: /
 - encryption: none
-  name: 🇯🇵JP_2|2.4MB/s
+  name: '[VLESS] jpJP_2|2.4MB/s'
   network: ws
   port: 42841
   server: 43.165.190.11
@@ -74,7 +74,7 @@ proxies:
       Host: mot.morisi.ggff.net
     path: /@Marisa_kristi
 - encryption: none
-  name: 🇯🇵JP_3|2.6MB/s
+  name: '[VLESS] jpJP_3|2.6MB/s'
   network: ws
   port: 42841
   server: 43.165.190.11
@@ -90,7 +90,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   delay: 421
-  name: 🇯🇵JP_4|2.0MB/s
+  name: '[VLESS] jpJP_4|2.0MB/s'
   network: ws
   port: 80
   server: 151.101.3.8

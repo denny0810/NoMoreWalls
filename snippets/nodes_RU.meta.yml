@@ -1,19 +1,24 @@
 proxies:
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: '[VLESS] 🏴‍☠_1🏴‍☠_1RU_c4226_0007|1.0MB/...'
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] ruRU²_1|3.4MB/s|X|History|[原生|...'
   network: tcp
-  port: 443
+  port: 7443
   reality-opts:
-    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-    short-id: '!!str 1ed136481e0ede74'
-  server: 91.243.82.82
-  servername: khabarovsk.geodema.network
-  skip-cert-verify: false
+    public-key: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA
+    short-id: '!!str fd88bd27db4cc661'
+  server: 45.139.26.152
+  servername: eh.vk.com
   tls: true
   type: vless
   udp: true
-  uuid: a91e64f0-9295-499d-bf4a-661ad99d4938
+  uuid: 7fc953d6-ae75-46fb-a970-10b57d513487
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -21,35 +26,8 @@ proxies:
     headers: {}
     path:
     - /
-  name: '[VLESS] ruRU²_1|5.7MB/s|GPT⁺|X|Succeed...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: '!!str 17802e8ff84f12df'
-  server: 51.250.65.209
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4371ad14-b981-4699-bedf-83fb79bde3e6
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] RU_speednode_0017'
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 217.198.13.50
-  servername: fi.reality.tv123.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: '[VLESS] RU_speednode_0018'
+  network: tcp
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
@@ -60,33 +38,7 @@ proxies:
   type: vless
   udp: true
   uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] RU_speednode_0019'
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: bridge2.pool.sssrvpn.pro
-  servername: fi.reality.tv123.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] RU_speednode_0020'
-  port: 443
-  reality-opts:
-    public-key: dEHsPQQSnMJiHJKnJRbbLFKQmwIemUXQsQ1zIYbLZng
-    short-id: '!!str f6'
-  server: 51.250.95.143
-  servername: www.mobile.yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5725a60c-34a5-476d-9ae3-9e43d945ca8f
+  xudp: true
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: '[VLESS] RU_speednode_0021'

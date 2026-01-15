@@ -55,22 +55,24 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: '[VLESS] deDE_1|1008KB/s'
+- name: '[VLESS] deDE²_5|4.9MB/s|GPT|X|History'
   network: ws
   port: 2087
   server: api.dark-coffe.com
   servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+    max-early-data: 2048
     path: /
 - client-fingerprint: chrome
-  name: '[VLESS] deDE²_1|3.3MB/s|100%|GPT|X|Suc...'
+  name: '[VLESS] deDE²_1|8.5MB/s|GPT|X|Succeed|...'
   network: ws
   port: 2096
   server: 5.10.214.5
@@ -83,9 +85,115 @@ proxies:
     headers:
       Host: TzS7v35LfD.sMaRtTeChZaAl.InFo
     path: /
+- encryption: none
+  name: '[VLESS] deDE²_2|3.0MB/s|9%|GPT⁺|X|Hist...'
+  network: ws
+  port: 80
+  server: oon.visaups.ir
+  type: vless
+  udp: true
+  uuid: 087d8602-503b-4091-9f05-44c20792083c
+  ws-opts:
+    headers:
+      Host: oon.visaups.ir
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: '[VLESS] deDE²_9|4.1MB/s|25%|GPT⁺|X|His...'
+  network: ws
+  port: 8880
+  server: 25.25.25.0
+  type: vless
+  udp: true
+  uuid: 8e997404-cb62-4fa1-a8c9-c77a32f10153
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+    max-early-data: 8880
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: '[VLESS] deDE²_4|1.6MB/s|X|History'
+  network: ws
+  port: 443
+  server: 5.10.214.5
+  servername: GfV5t2331T.sMaRtTeChZaAl.InFo
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  ws-opts:
+    headers:
+      Host: GfV5t2331T.sMaRtTeChZaAl.InFo
+    path: /
+- name: '[VLESS] deDE²_6|1.9MB/s|GPT|X|History'
+  network: ws
+  port: 2087
+  server: 5.10.214.5
+  servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  ws-opts:
+    headers:
+      Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+    path: /
+- name: '[VLESS] deDE²_11|0.5MB/s|25%|GPT|X|[原生...'
+  network: ws
+  port: 8880
+  server: clean.photoggenic.ir
+  tls: false
+  type: vless
+  udp: true
+  uuid: 8e997404-cb62-4fa1-a8c9-c77a32f10153
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
+    max-early-data: 8880
+    path: /
+  xudp: true
+- encryption: none
+  name: '[VLESS] deDE²_8|4.4MB/s|9%|GPT⁺|X|[原生|...'
+  network: ws
+  port: 2082
+  server: 45.131.4.246
+  type: vless
+  udp: true
+  uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
+  ws-opts:
+    headers:
+      Host: GER.SODOGODPING.IR
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE²_2|11.3MB/s|X|Succeed'
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '[VLESS] atAT²_3|6.6MB/s|18%|GPT⁺|YT-DE...'
+  network: grpc
+  port: 22955
+  reality-opts:
+    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: 152.53.49.144
+  servername: one-piece.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_10|3.6MB/s|X|Succeed'
   network: ws
   port: 2096
   server: api.dark-coffe.com
@@ -101,24 +209,20 @@ proxies:
         AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE²_3|7.1MB/s|100%|GPT⁺|X|Su...'
-  network: ws
-  port: 2087
-  server: api.dark-coffe.com
-  servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  ws-opts:
-    headers:
-      Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2228.0 Safari/537.36
-    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-  xudp: true
+- name: '[Socks5] 🏴‍☠_2deDE²_5|1.1MB/s|0.6MB/s|X...'
+  password: ''
+  port: 1080
+  server: 193.233.254.9
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: '[Socks5] 🏴‍☠_3deDE²_1|0.6MB/s|2.0MB/s|X...'
+  password: ''
+  port: 1080
+  server: 193.233.254.7
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - name: '[VLESS] DE_speednode_0008'
   network: ws
   port: 2087

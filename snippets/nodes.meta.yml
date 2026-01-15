@@ -46,14 +46,10 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_1|0.6MB/s|3%|GPT|X|Histo...'
+  name: '[Vmess] US29｜原生/疑似家宽｜非常安全'
   network: tcp
-  port: 47084
+  port: '47084'
   server: tunnel1.qqa678.com
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
@@ -2010,7 +2006,7 @@ proxies:
   port: 8388
   server: 103.149.182.79
   type: ss
-- name: '[Trojan] hkHK²_2|1.8MB/s|1%|YT|D+|X|[原生...'
+- name: '[Trojan] hkHK²_5|5.1MB/s|1%|YT|D+|X|Suc...'
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 443
@@ -2026,7 +2022,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[Trojan] hkHK²_3|2.2MB/s|2%|YT|NF|D+|X|...'
+- name: '[Trojan] hkHK_3|2.6MB/s'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -2068,11 +2064,12 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - cipher: aes-128-gcm
-  name: '[SS] 日本4|@ripaojiedian'
+  name: '[SS] jpJP_1|1.6MB/s'
   password: b637f2e47b7827b308ebf399008075d2
   port: 26334
   server: 223.95.183.132
   type: ss
+  udp: true
 - name: '[Trojan] 新加坡|@ripaojiedian'
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
@@ -2098,11 +2095,12 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-128-gcm
-  name: '[SS] 新加坡4|@ripaojiedian'
+  name: '[SS] sgSG_3|1.1MB/s'
   password: b637f2e47b7827b308ebf399008075d2
   port: 25819
   server: 223.95.183.132
   type: ss
+  udp: true
 - name: '[Trojan] 美国|@ripaojiedian'
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
@@ -2137,44 +2135,8 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- encryption: none
-  name: '[VLESS] usUS¹⁺_6|3.7MB/s|4%|GPT⁺|GM|YT...'
-  network: ws
-  port: 443
-  server: 162.159.44.142
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
-- name: '[VLESS] deDE²_5|4.9MB/s|GPT|X|History'
-  network: ws
-  port: 2087
-  server: api.dark-coffe.com
-  servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
-    max-early-data: 2048
-    path: /
 - delay: 398
-  name: '[VLESS] hkHK¹-US⁰_5|2.0MB/s|4%|GPT⁺|NF...'
+  name: '[VLESS] usUS¹⁺_6|2.8MB/s|4%|GPT|GM|YT|...'
   network: ws
   port: 443
   server: 162.159.16.63
@@ -2190,36 +2152,325 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
-- name: '[VLESS] sgSG_2|1.4MB/s'
+- cipher: aes-256-gcm
+  country: 🇨🇿CZ
+  delay: 2193
+  name: '[SS] ruRU²_4|2.1MB/s|X|[原生|机房]'
+  password: 9f3d1a6d31468599
+  port: 30312
+  server: 195.58.49.100
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- delay: 1261
+  encryption: none
+  name: '[VLESS] usUS¹⁺_8|4.6MB/s|4%|GPT⁺|YT|TK...'
   network: ws
   port: 443
-  server: staticdelivery.nexusmods.com
-  servername: kb.as129394.me
+  server: cloudflare.182682.xyz
+  servername: l.ayovo.netlib.re
   tls: true
   type: vless
-  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: kb.as129394.me
+      Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
-- name: '[VLESS] sgSG_3|2.5MB/s'
-  network: ws
+  xudp: true
+- name: '[Http] TW_speednode_0028'
+  password: mrwdfNTD8M79LCukCieldrqZWqs=
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: true
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: '[Http] TW_speednode_0029'
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: '[Trojan] hkHK_1|2.8MB/s'
+  password: 61d8077bfb174e171b8283f155a555ad
   port: 443
-  server: store.ubi.com
-  servername: kb.as129394.me
+  server: 58.152.110.111
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] usUS_1|1.0MB/s'
+  password: f96d6b42e30595dc
+  port: 11201
+  server: 15.204.28.84
+  type: ss
+- name: '[VLESS] deDE_1|1.2MB/s'
+  network: ws
+  port: 2087
+  server: api.dark-coffe.com
+  servername: 5JxGp6VrFh.SmArTtEcHzAaL.InFo
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
+  udp: true
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  ws-opts:
+    headers:
+      Host: 5JxGp6VrFh.SmArTtEcHzAaL.InFo
+    path: /
+- name: '[VLESS] deDE_2|1.5MB/s'
+  network: ws
+  port: 2096
+  server: api.dark-coffe.com
+  servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  ws-opts:
+    headers:
+      Host: TzS7v35LfD.sMaRtTeChZaAl.InFo
+    path: /
+- name: '[VLESS] deDE²_11|6.6MB/s|GPT|X|History'
+  network: ws
+  port: 2096
+  server: 5.10.214.0
+  servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  ws-opts:
+    headers:
+      Host: TzS7v35LfD.sMaRtTeChZaAl.InFo
+    path: /
+- name: '[VLESS] deDE_4|1.2MB/s'
+  network: ws
+  port: 2096
+  server: 5.10.214.5
+  servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  ws-opts:
+    headers:
+      Host: TzS7v35LfD.sMaRtTeChZaAl.InFo
+    path: /
+- name: '[Trojan] hkHK²_4|2.6MB/s|2%|NF|D+|X|Suc...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.219
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- auth: zhangyang
+  name: '[Hysteria2] deDE_5|1.6MB/s'
+  password: zhangyang
+  port: 6443
+  server: 130.61.50.75
+  skip-cert-verify: true
+  sni: dash.cloudflare.com
+  type: hysteria2
+  udp: true
+- cipher: aes-128-gcm
+  name: '[SS] sgSG_4|1.7MB/s'
+  password: b637f2e47b7827b308ebf399008075d2
+  port: 45295
+  server: 223.95.183.132
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] usUS_2|2.6MB/s'
+  port: 47084
+  server: tunnel1.qqa678.com
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
+- cipher: aes-128-gcm
+  name: '[SS] sgSG_5|1.4MB/s'
+  password: b637f2e47b7827b308ebf399008075d2
+  port: 28217
+  server: 223.95.183.132
+  type: ss
+- cipher: aes-128-gcm
+  name: '[SS] sgSG_6|1.1MB/s'
+  password: b637f2e47b7827b308ebf399008075d2
+  port: 39398
+  server: 223.95.183.132
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_1|1.0MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.23
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_2|1.0MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.183
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_3|2.2MB/s|GPT⁺|GM|YT-US|...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.214
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_4|1.6MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.144
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_5|1.1MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.81
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_6|1.4MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.240
+  type: ss
+- encryption: none
+  name: '[VLESS] sgSG¹-TR⁰_1|12.5MB/s|GPT|GM|YT...'
+  network: ws
+  port: 80
+  server: 151.101.3.8
+  type: vless
+  udp: true
+  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
+  ws-opts:
+    headers:
+      Host: mitivpn.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /--@v2rayngzendegimamadv2rayngzendegimamadv2rayngzendegimamadv2rayngzendegimamad
+  xudp: true
+- encryption: none
+  name: '[VLESS] deDE²_9|7.0MB/s|9%|GPT⁺|X|Succ...'
+  network: ws
+  port: 2082
+  server: 45.131.4.246
+  type: vless
+  udp: true
+  uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
+  ws-opts:
+    headers:
+      Host: GER.SODOGODPING.IR
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] twTW²_1|13.2MB/s|0%|GPT⁺|YT-CN...'
+  network: ws
+  port: 12888
+  server: gtm1.ktmwan.net
+  servername: baidu.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 1ec49aaf-2990-4c7b-a45c-d190e6ea5438
+  ws-opts:
+    headers:
+      HOST: baidu.com
+      Host: gtm1.ktmwan.net
+    path: /
+- delay: 1518
+  name: '[VLESS] usUS¹⁺_7|3.2MB/s|4%|GPT⁺|GM|YT...'
+  network: ws
+  port: 443
+  server: 104.21.227.134
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: kb.as129394.me
+      Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
+- encryption: none
+  name: '[VLESS] deDE²_1|4.4MB/s|GPT⁺|X|History...'
+  network: ws
+  port: 443
+  server: api.dark-coffe.com
+  servername: GfV5t2331T.sMaRtTeChZaAl.InFo
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  ws-opts:
+    headers:
+      Host: GfV5t2331T.sMaRtTeChZaAl.InFo
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] frFR²_1|1.5MB/s|52%|GPT⁺|X|Suc...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 176.98.177.145
+  servername: de.reality.tv123.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
+  xudp: true
+- encryption: none
+  name: '[VLESS] deDE²_2|4.4MB/s|X|History'
+  network: ws
+  port: 8443
+  server: api.dark-coffe.com
+  servername: TjLwH7cTdH.sMaRtTeChZaAl.InFo
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  ws-opts:
+    headers:
+      Host: TjLwH7cTdH.sMaRtTeChZaAl.InFo
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
+        Gecko) Chrome/26.0.1410.64 Safari/537.31
+    path: /
+  xudp: true
 - delay: 877
-  name: '[VLESS] hkHK¹-US⁰_2|13.8MB/s|GPT|GM|YT...'
+  name: '[VLESS] usUS¹⁺_3|1.5MB/s|GPT⁺|YT|TK|D+...'
   network: ws
   port: 443
   server: 104.18.185.26
@@ -2235,572 +2486,40 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
-- alterId: 2
-  cipher: auto
-  name: '[Vmess] jpJP_2|3.1MB/s'
-  port: 23611
-  server: traffic.a1.szx.gfw250.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b3ed2498-8800-3992-ba32-d3d8c609eeef
-- encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] atAT²_1|1.7MB/s|18%|GPT⁺|TK|NF...'
-  network: grpc
-  port: 22955
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: '6ba85179e30d4fc2'
-  server: dfg.octopusss.net
-  servername: one-piece.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] RU_speednode_0020'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: dEHsPQQSnMJiHJKnJRbbLFKQmwIemUXQsQ1zIYbLZng
-    short-id: 'f6'
-  server: 51.250.95.143
-  servername: www.mobile.yandex.ru
+- name: '[VLESS] deDE²_3|6.4MB/s|9%|GPT⁺|YT-US|...'
+  network: ws
+  port: 80
+  server: 185.143.233.235
+  servername: oon.visaups.ir
   skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5725a60c-34a5-476d-9ae3-9e43d945ca8f
-  xudp: true
-- name: '[VLESS] deDE²_1|8.5MB/s|GPT|X|Succeed|...'
-  network: ws
-  port: 2096
-  server: 5.10.214.5
-  servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  ws-opts:
-    headers:
-      Host: TzS7v35LfD.sMaRtTeChZaAl.InFo
-    path: /
-- cipher: aes-256-cfb
-  country: 🇪🇸 ES
-  name: '[SS] esES²_1|1.8MB/s|20%|GPT⁺|X|His...'
-  password: VcFuyXvND2yQWSFY
-  port: 9054
-  server: 5.188.181.201
-  type: ss
-- delay: 744
-  encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_10|2.3MB/s|GPT⁺|GM|Y...'
-  network: ws
-  port: 80
-  server: 151.101.3.8
-  servername: mitivpn.global.ssl.fastly.net
   tls: false
-  type: vless
-  udp: true
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-  ws-opts:
-    headers:
-      Host: mitivpn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN
-  xudp: true
-- encryption: none
-  name: '[VLESS] deDE²_2|3.0MB/s|9%|GPT⁺|X|Hist...'
-  network: ws
-  port: 80
-  server: oon.visaups.ir
   type: vless
   udp: true
   uuid: 087d8602-503b-4091-9f05-44c20792083c
   ws-opts:
     headers:
       Host: oon.visaups.ir
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
     path: /
-  xudp: true
-- alterId: 0
-  cipher: auto
-  delay: 2235
-  name: '[VLESS] fiFI²_6|7.5MB/s|6%|GPT⁺|YT-US|...'
-  network: ws
-  port: 80
-  server: 146.75.119.82
-  servername: welcomtofreeboarders.com
-  tls: false
-  type: vless
-  udp: true
-  uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
-  ws-opts:
-    headers:
-      Host: welcomtofreeboarders.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
-    path: /ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
-  xudp: true
-- encryption: none
-  name: '[VLESS] deDE²_9|4.1MB/s|25%|GPT⁺|X|His...'
-  network: ws
-  port: 8880
-  server: 25.25.25.0
-  type: vless
-  udp: true
-  uuid: 8e997404-cb62-4fa1-a8c9-c77a32f10153
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
-    max-early-data: 8880
-    path: /
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] RU_speednode_0017'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 217.198.13.50
-  servername: fi.reality.tv123.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
-  xudp: true
-- delay: 633
-  name: '[VLESS] usUS¹⁺_5|2.9MB/s|4%|GPT⁺|GM|YT...'
-  network: ws
-  port: 443
-  server: 162.159.45.232
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /
-- encryption: none
-  name: '[VLESS] fiFI²_3|7.1MB/s|6%|GPT⁺|YT-US|...'
-  network: ws
-  port: 80
-  server: 146.75.119.82
-  type: vless
-  udp: true
-  uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: welcomtofreeboarders.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    max-early-data: 2048
-    path: /ws/
-  xudp: true
-- encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] atAT²_2|1.8MB/s|18%|GPT⁺|NF|D+...'
-  network: grpc
-  port: 22955
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: '6ba85179e30d4fc2'
-  server: 152.53.49.130
-  servername: one-piece.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  xudp: true
-- encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_2|4.7MB/s|GPT⁺|GM|YT...'
-  network: ws
-  port: 80
-  server: 151.101.3.8
-  type: vless
-  udp: true
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-  ws-opts:
-    headers:
-      Host: mitivpn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /---@V2rayBaaz
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] gbGB²_1|6.0MB/s|27%|GPT⁺|NF|D+...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: j_b7jaRqL2-82XSGRL0IYkNJ2Y3hrhhgq5kIBIK76lk
-    short-id: ''
-  server: 38.60.196.27
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e64c5bbb-a4b8-498e-b374-4462d961c8a2
-  xudp: true
-- name: '[VLESS] GB_speednode_0014'
-  network: ws
-  port: 2053
-  server: 25.129.197.138
-  servername: KhAmeneI.DPdNs.OrG
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
-  ws-opts:
-    headers:
-      Host: khamenei.dpdns.org
-    path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
-- client-fingerprint: firefox
-  name: '[VLESS] trTR²_1|5.2MB/s|GPT⁺|X|History...'
-  network: tcp
-  port: 587
-  reality-opts:
-    public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
-    short-id: '916e8258c4a01b02'
-  server: turkiye.torprospeed.ir
-  servername: excoino.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
-- cipher: aes-256-cfb
-  country: 🇪🇸 ES
-  name: '[SS] esES²_2|1.9MB/s|20%|GPT⁺|X|His...'
-  password: JdmRK9gMEqFgs8nP
-  port: 9003
-  server: 5.188.181.201
-  type: ss
-- encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_3|12.9MB/s|GPT⁺|GM|Y...'
-  network: ws
-  port: 80
-  server: 151.101.3.8
-  type: vless
-  udp: true
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-  ws-opts:
-    headers:
-      Host: mitivpn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /--@V2rayBaaz
-  xudp: true
-- name: '[VLESS] deDE²_4|1.6MB/s|X|History'
-  network: ws
-  port: 443
-  server: 5.10.214.5
-  servername: GfV5t2331T.sMaRtTeChZaAl.InFo
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  ws-opts:
-    headers:
-      Host: GfV5t2331T.sMaRtTeChZaAl.InFo
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 1279
-  name: '[Vmess] jpJP²_1|0.6MB/s|3%|GPT⁺|X|[广播|...'
-  network: tcp
-  port: 49303
-  server: cees.owwoedu.com
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5aa4437b-e03c-453e-a81f-0a3516eec742
-- cipher: aes-256-cfb
-  country: 🇪🇸 ES
-  name: '[SS] esES²_3|1.9MB/s|20%|GPT|X|Hist...'
-  password: ZET59LF6DvCC8KVt
-  port: 9005
-  server: 5.188.181.201
-  type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: '[SS] vnVN²_1|0.6MB/s|GPT⁺|X'
+  name: '[SS] vnVN²_1|3.2MB/s|GPT⁺|GM|X|Hist...'
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.144
+  server: 103.186.154.188
   type: ss
-- encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] ruRU²_1|3.4MB/s|X|History|[原生|...'
-  network: tcp
-  port: 7443
-  reality-opts:
-    public-key: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA
-    short-id: 'fd88bd27db4cc661'
-  server: 45.139.26.152
-  servername: eh.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7fc953d6-ae75-46fb-a970-10b57d513487
-  xudp: true
-- encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_9|5.2MB/s|GPT⁺|GM|YT...'
-  network: ws
-  port: 80
-  server: 151.101.3.8
-  type: vless
-  udp: true
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-  ws-opts:
-    headers:
-      Host: mitivpn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /
-  xudp: true
-- encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] usUS²_2|6.9MB/s|6%|GPT⁺|YT-DE|...'
-  network: grpc
-  port: 22955
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: '6ba85179e30d4fc2'
-  server: 5.78.54.69
-  servername: one-piece.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  xudp: true
-- encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] usUS²_3|6.0MB/s|6%|GPT⁺|YT-DE|...'
-  network: grpc
-  port: 22955
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: '6ba85179e30d4fc2'
-  server: 5.78.57.125
-  servername: one-piece.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  xudp: true
-- encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] usUS²_4|6.2MB/s|6%|GPT⁺|YT-DE|...'
-  network: grpc
-  port: 22955
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: '6ba85179e30d4fc2'
-  server: 5.78.72.175
-  servername: one-piece.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] sgSG²_1|5.9MB/s|GPT⁺|X|History'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: 'e55fd8f9c9a9a0ca'
-  server: 217.13.104.134
-  servername: hu.jojack.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4371ad14-b981-4699-bedf-83fb79bde3e6
-  xudp: true
-- name: '[VLESS] deDE²_6|1.9MB/s|GPT|X|History'
-  network: ws
-  port: 2087
-  server: 5.10.214.5
-  servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  ws-opts:
-    headers:
-      Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
-    path: /
-- delay: 1107
-  name: '[Socks5] krKR²_3|8.4MB/s|2%|GPT⁺|GM|YT|...'
-  password: ''
-  port: 1090
-  server: 121.169.46.116
-  skip-cert-verify: true
-  tls: false
-  type: socks5
-  udp: true
-  username: Og%3D%3D
-- country: 🇭🇰 HK
-  name: '[Trojan] hkHK²_1|0.5MB/s|YT|D+|X'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.219
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_5|13.9MB/s|GPT⁺|GM|T...'
-  network: ws
-  port: 80
-  server: 151.101.3.8
-  type: vless
-  udp: true
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-  ws-opts:
-    headers:
-      Host: mitivpn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /JoinPLANB_NETJoinPLANB_NETJoinPLANB_NET
-  xudp: true
-- encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_6|2.2MB/s|GPT|GM|YT|...'
-  network: ws
-  port: 80
-  server: 151.101.3.8
-  type: vless
-  udp: true
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-  ws-opts:
-    headers:
-      Host: mitivpn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /--@v2rayngzendegimamadv2rayngzendegimamadv2rayngzendegimamadv2rayngzendegimamad
-  xudp: true
-- encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_7|3.4MB/s|GPT⁺|GM|YT...'
-  network: ws
-  port: 80
-  server: 151.101.3.8
-  type: vless
-  udp: true
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-  ws-opts:
-    headers:
-      Host: mitivpn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Chrome/12.0.742.100 Safari/534.30
-    path: /--
-  xudp: true
-- encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_8|0.8MB/s|GPT⁺|GM|YT...'
-  network: ws
-  port: 80
-  server: 151.101.3.8
-  type: vless
-  udp: true
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-  ws-opts:
-    headers:
-      Host: mitivpn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/57.0.2987.133 Safari/537.36
-    path: /Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
-  xudp: true
-- name: '[VLESS] deDE²_11|0.5MB/s|25%|GPT|X|[原生...'
-  network: ws
-  port: 8880
-  server: clean.photoggenic.ir
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8e997404-cb62-4fa1-a8c9-c77a32f10153
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
-    max-early-data: 8880
-    path: /
-  xudp: true
-- encryption: none
-  name: '[VLESS] deDE²_8|4.4MB/s|9%|GPT⁺|X|[原生|...'
-  network: ws
-  port: 2082
-  server: 45.131.4.246
-  type: vless
-  udp: true
-  uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
-  ws-opts:
-    headers:
-      Host: GER.SODOGODPING.IR
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /
-  xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[SS] sgSG²_2|13.5MB/s|32%|GPT⁺|GM|Y...'
-  password: ed78b7ec3662e43a
-  port: 11201
-  server: 81.28.13.223
+  name: '[SS] trTR²_1|5.7MB/s|GPT⁺|X|[原生|机房]'
+  password: 3975ce99-b48e-4d87-bf14-ccba008a0100
+  port: 40019
+  server: tur.fastsoonlink.com
   type: ss
   udp: true
-- encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] atAT²_3|6.6MB/s|18%|GPT⁺|YT-DE...'
-  network: grpc
-  port: 22955
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: '6ba85179e30d4fc2'
-  server: 152.53.49.144
-  servername: one-piece.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  xudp: true
 - alterId: 0
   cipher: auto
   country: 🇬🇧GB
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] hkHK²_4|8.3MB/s|0%|YT-CN|NF|D+...'
+  name: '[Vmess] hkHK²_1|9.1MB/s|0%|YT-CN|NF|D+...'
   network: ws
   port: 12890
   server: gtm1.ktmwan.net
@@ -2813,23 +2532,91 @@ proxies:
       HOST: baidu.com
       Host: gtm1.ktmwan.net
     path: /
-- delay: 853
-  name: '[VLESS] usUS¹⁺_3|3.8MB/s|4%|GPT⁺|GM|YT...'
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_2|2.2MB/s|GPT⁺|GM|X'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.156
+  type: ss
+- encryption: none
+  name: '[VLESS] deDE²_7|1.4MB/s|25%|GPT⁺|X|His...'
   network: ws
-  port: 443
-  server: 104.21.224.5
-  servername: l.ayovo.netlib.re
-  tls: true
+  port: 8880
+  server: 25.25.25.0
+  servername: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
+  skip-cert-verify: false
+  tls: false
   type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  udp: true
+  uuid: 8e997404-cb62-4fa1-a8c9-c77a32f10153
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
+      Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
+    max-early-data: 8880
     path: /
+  xudp: true
+- delay: 2851
+  name: '[Socks5] deDE²_5|1.8MB/s|X'
+  password: '@193.233.254.7:'
+  port: 1080
+  server: 193.233.254.7
+  type: socks5
+  username: T2dAMTkzLjIzMy4yNTQuNzo@193.233.254.7
+- alpn:
+  - h3
+  auth: zhangyang
+  name: '[Hysteria2] deDE²_6|0.6MB/s|10%|GPT⁺|YT|TK...'
+  password: zhangyang
+  port: 6443
+  server: 130.61.50.75
+  skip-cert-verify: true
+  sni: dash.cloudflare.com
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  delay: 1239
+  name: '[VLESS] fiFI²_4|7.4MB/s|6%|GPT⁺|X|Succ...'
+  network: ws
+  port: 80
+  server: 146.75.119.82
+  servername: welcomtofreeboarders.com
+  tls: false
+  type: vless
+  udp: true
+  uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
+  ws-opts:
+    headers:
+      Host: welcomtofreeboarders.com
+    path: /ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
+  xudp: true
+- encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '[VLESS] atAT²_1|4.8MB/s|18%|GPT⁺|TK|NF...'
+  network: grpc
+  port: 22955
+  reality-opts:
+    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+    short-id: '6ba85179e30d4fc2'
+  server: dfg.octopusss.net
+  servername: one-piece.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  xudp: true
+- name: '[Socks5] frFR²_2|2.1MB/s|0%|GPT⁺|X'
+  password: ''
+  port: 1080
+  server: 185.194.217.97
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - delay: 1446
-  name: '[VLESS] hkHK¹-US⁰_3|8.9MB/s|GPT⁺|YT|D+...'
+  name: '[VLESS] hkHK¹-US⁰_3|15.5MB/s|4%|GPT⁺|Y...'
   network: ws
   port: 443
   server: 104.16.250.22
@@ -2849,7 +2636,7 @@ proxies:
   country: 🇬🇧GB
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] inIN²_1|10.0MB/s|GPT⁺|YT-CN|X|...'
+  name: '[Vmess] inIN²_1|14.8MB/s|GPT⁺|YT-CN|X|...'
   network: ws
   port: 12887
   server: gtm1.ktmwan.net
@@ -2862,70 +2649,233 @@ proxies:
       HOST: baidu.com
       Host: gtm1.ktmwan.net
     path: /
-- name: '[Socks5] 🏴‍☠_1118.70.151.55:1080-01|4.9...'
-  password: ''
-  port: 1080
-  server: 118.70.151.55
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- cipher: aes-256-gcm
-  delay: 1198
-  name: '[SS] sgSG²_3|2.0MB/s|22%|GPT⁺|GM|YT...'
-  password: d2umVadPT1m/FwIn
-  port: 8388
-  server: 194.87.10.161
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- country: 🇭🇰HK
-  name: '[Trojan] hkHK²_5|0.6MB/s|1%|YT|D+|X|[原生...'
-  network: tcp
-  password: 61d8077bfb174e171b8283f155a555ad
-  port: 443
-  server: 58.152.110.111
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
-  name: '[SS] esES²_4|1.6MB/s|20%|GPT⁺|X|His...'
+  country: 🏁ZZ
+  name: '[SS] vnVN²_4|0.6MB/s|GPT|GM|X|[原生|机...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.116
+  type: ss
+- encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '[VLESS] usUS²_1|0.8MB/s|7%|GPT⁺|GM|YT|...'
+  network: grpc
+  port: 22955
+  reality-opts:
+    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+    short-id: '6ba85179e30d4fc2'
+  server: 178.156.215.144
+  servername: one-piece.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  xudp: true
+- encryption: none
+  name: '[VLESS] sgSG¹-TR⁰_2|6.3MB/s|GPT⁺|GM|YT...'
+  network: ws
+  port: 80
+  server: 151.101.3.8
+  type: vless
+  udp: true
+  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
+  ws-opts:
+    headers:
+      Host: mitivpn.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN
+  xudp: true
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] auAU²_4|8.7MB/s|GPT⁺|YT|X|[广播|...'
+  network: ws
+  port: 12889
+  server: gtm1.ktmwan.net
+  servername: baidu.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 1ec49aaf-2990-4c7b-a45c-d190e6ea5438
+  ws-opts:
+    headers:
+      Host: gtm1.ktmwan.net
+    path: /
+- flow: xtls-rprx-vision
+  name: '[VLESS] RU_speednode_0020'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: dEHsPQQSnMJiHJKnJRbbLFKQmwIemUXQsQ1zIYbLZng
+    short-id: 'f6'
+  server: 51.250.95.143
+  servername: www.mobile.yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5725a60c-34a5-476d-9ae3-9e43d945ca8f
+- encryption: none
+  name: '[VLESS] usUS¹⁺_2|3.4MB/s|4%|GPT⁺|GM|YT...'
+  network: ws
+  port: 443
+  server: 162.159.44.142
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- name: '[VLESS] deDE²_8|6.1MB/s|25%|GPT⁺|X|Suc...'
+  network: ws
+  port: 8880
+  server: clean.photoggenic.ir
+  type: vless
+  udp: true
+  uuid: 8e997404-cb62-4fa1-a8c9-c77a32f10153
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    max-early-data: 8880
+    path: /
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_5|1.9MB/s|GPT⁺|GM|X|Hist...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.154
+  type: ss
+- encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] gbGB²_1|5.8MB/s|27%|GPT⁺|NF|D+...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: j_b7jaRqL2-82XSGRL0IYkNJ2Y3hrhhgq5kIBIK76lk
+    short-id: ''
+  server: 38.60.196.27
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e64c5bbb-a4b8-498e-b374-4462d961c8a2
+  xudp: true
+- cipher: aes-256-cfb
+  name: '[SS] esES²_1|2.2MB/s|20%|GPT⁺|X|Suc...'
   password: UkXRsXvR6buDMG2Y
   port: 9001
   server: 5.188.181.201
   type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_6|1.7MB/s|GPT⁺|GM|X'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.121
+  type: ss
+- encryption: none
+  name: '[VLESS] sgSG¹-TR⁰_3|1.8MB/s|GPT|GM|YT|...'
+  network: ws
+  port: 80
+  server: 151.101.3.8
+  type: vless
+  udp: true
+  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
+  ws-opts:
+    headers:
+      Host: mitivpn.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /--@V2rayAlpha--V2rayAlpha--V2rayAlpha--V2rayAlpha
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🇪🇸 ES
+  name: '[SS] esES²_2|1.9MB/s|20%|GPT⁺|X|His...'
+  password: XPtzA9sCug3SPR4c
+  port: 9025
+  server: 5.188.181.201
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_7|0.6MB/s|GPT⁺|GM|YT-US|...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.137
+  type: ss
+- encryption: none
+  name: '[VLESS] sgSG¹-TR⁰_4|5.8MB/s|GPT⁺|GM|YT...'
+  network: ws
+  port: 80
+  server: 151.101.3.8
+  type: vless
+  udp: true
+  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
+  ws-opts:
+    headers:
+      Host: mitivpn.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /@freeOnlineVPNV2rayAlphaV2rayAlphaV2rayAlpha
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] krKR²_1|8.3MB/s|0%|GPT⁺|YT-CN|...'
+  password: 3975ce99-b48e-4d87-bf14-ccba008a0100
+  port: 40032
+  server: kr.fastsoonlink.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  country: 🇭🇰HK
+  name: '[SS] hkHK²_2|1.1MB/s|0%|YT|NF|D+|X|...'
+  password: asd123456
+  port: 8388
+  server: 103.149.182.105
+  type: ss
+- name: '[Socks5] idID²_1|0.5MB/s|GPT|X|History'
+  password: ''
+  port: 10080
+  server: 8.215.47.191
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: '[VLESS] usUS²_5|6.3MB/s|7%|GPT⁺|YT-DE|...'
+  name: '[VLESS] usUS²_2|6.1MB/s|6%|GPT⁺|YT-DE|...'
   network: grpc
   port: 22955
   reality-opts:
     public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
     short-id: '6ba85179e30d4fc2'
-  server: 5.78.135.163
+  server: 5.78.72.175
   servername: one-piece.com
   tls: true
   type: vless
   udp: true
   uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
   xudp: true
-- encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] usUS²_6|6.4MB/s|6%|GPT⁺|YT-DE|...'
-  network: grpc
-  port: 22955
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: '6ba85179e30d4fc2'
-  server: 5.78.51.158
-  servername: one-piece.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  xudp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_8|3.3MB/s|GPT⁺|GM|X|[原生|...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.183
+  type: ss
 - client-fingerprint: firefox
   name: '[VLESS] GB_speednode_0015'
   network: tcp
@@ -2940,39 +2890,62 @@ proxies:
   type: vless
   udp: true
   uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
-- encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] atAT²_4|5.0MB/s|18%|GPT⁺|TK|NF...'
-  network: grpc
-  port: 22955
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: '[SS] gbGB²_3|0.6MB/s|0%|GPT⁺|X|[广播|...'
+  password: 2602101eff2c9250
+  port: 26138
+  server: 149.102.144.110
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] frFR²_3|6.5MB/s|0%|GPT⁺|X|Hist...'
+  network: ws
+  port: 8080
+  server: zula.ir
+  servername: nasnet-511952424.mcitel.co
+  skip-cert-verify: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      HOST: nasnet-511952424.mcitel.co
+      Host: zula.ir
+    max-early-data: 2560
+    path: /nasnet/cdn
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_9|1.1MB/s|GPT⁺|GM|X|Hist...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.57
+  type: ss
+- client-fingerprint: firefox
+  name: '[VLESS] trTR²_2|5.4MB/s|GPT⁺|X|Succeed...'
+  network: tcp
+  port: 587
   reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: '6ba85179e30d4fc2'
-  server: 152.53.51.24
-  servername: one-piece.com
+    public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
+    short-id: '916e8258c4a01b02'
+  server: turkiye.torprospeed.ir
+  servername: excoino.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  xudp: true
-- auth: 344e80db-5172-4219-a512-82365c8d0bcd
-  name: '[Hysteria2] caCA²_1|5.0MB/s|33%|GPT⁺|YT-CN...'
-  password: 344e80db-5172-4219-a512-82365c8d0bcd
-  port: 25200
-  ports: 25200-26200
-  server: xjp.kaixincloud.top
-  skip-cert-verify: false
-  sni: xjp.kaixincloud.top
-  type: hysteria2
-  udp: true
+  uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
 - cipher: chacha20-ietf-poly1305
-  name: '[SS] nlNL²_1|6.3MB/s|0%|GPT⁺|YT-US|...'
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 45.87.175.180
+  name: '[SS] hkHK²_3|13.5MB/s|0%|GPT⁺|GM|YT...'
+  password: 3975ce99-b48e-4d87-bf14-ccba008a0100
+  port: 40000
+  server: hk.fastsoonlink.com
   type: ss
-- name: '[VLESS] hkHK¹-US⁰_4|2.9MB/s|YT|D+|X|Hi...'
+  udp: true
+- name: '[VLESS] hkHK¹-US⁰_4|13.3MB/s|4%|GPT⁺|Y...'
   network: ws
   port: 443
   server: 104.17.25.173
@@ -2987,45 +2960,183 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
-- name: '[VLESS] gbGB¹-US⁰_1|4.7MB/s|GPT|D+|X|H...'
-  network: ws
-  port: 443
-  server: cloudflare.182682.xyz
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /x-aniu/
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_10|2.3MB/s|GPT|YT-US|X|H...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.211
+  type: ss
+- name: '[Socks5] 🏴‍☠_1🏴‍☠_3deDE²_1|0.6MB/s|2.0M...'
+  password: ''
+  port: 1080
+  server: 193.233.254.7
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - cipher: aes-256-cfb
   country: 🇳🇱NL
-  name: '[SS] nlNL²_2|3.2MB/s|GPT⁺|X|[广播|住宅拨...'
+  name: '[SS] nlNL²_1|3.1MB/s|GPT⁺|X|Succeed...'
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 51.15.17.169
   type: ss
-- delay: 1518
-  name: '[VLESS] usUS¹⁺_7|3.2MB/s|4%|GPT|GM|YT|...'
-  network: ws
+- name: '[Socks5] nlNL²_2|5.5MB/s|7%|GPT⁺|X|Succ...'
+  password: ''
+  port: 1080
+  server: 5.255.117.127
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] ruRU²_1|5.6MB/s|X|[原生|商宽]'
+  password: 3975ce99-b48e-4d87-bf14-ccba008a0100
+  port: 40031
+  server: ru.fastsoonlink.com
+  type: ss
+  udp: true
+- encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '[VLESS] usUS²_3|6.0MB/s|6%|GPT⁺|YT-DE|...'
+  network: grpc
+  port: 22955
+  reality-opts:
+    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+    short-id: '6ba85179e30d4fc2'
+  server: 5.78.54.69
+  servername: one-piece.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] fiFI²_5|2.4MB/s|0%|GPT⁺|D+|X|[...'
+  network: tcp
   port: 443
-  server: 104.21.227.134
-  servername: l.ayovo.netlib.re
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 45.139.78.132
+  servername: fi.reality.tv123.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
+  xudp: true
+- cipher: aes-256-cfb
+  name: '[SS] vnVN²_11|2.1MB/s|GPT⁺|GM|YT-US...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.46
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] twTW²_3|14.1MB/s|0%|GPT⁺|GM|YT...'
+  password: 3975ce99-b48e-4d87-bf14-ccba008a0100
+  port: 40020
+  server: tw.fastsoonlink.com
+  type: ss
+  udp: true
+- flow: xtls-rprx-vision
+  name: '[VLESS] RU_speednode_0019'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: bridge2.pool.sssrvpn.pro
+  servername: fi.reality.tv123.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
+- name: '[Socks5] auAU²_2|6.6MB/s|GPT⁺|X|History'
+  password: ''
+  port: 1080
+  server: 134.199.159.23
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_12|0.8MB/s|GPT⁺|GM|X|[原生...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.196
+  type: ss
+- cipher: aes-256-gcm
+  delay: 1198
+  name: '[SS] sgSG²_1|6.3MB/s|22%|GPT⁺|GM|YT...'
+  password: d2umVadPT1m/FwIn
+  port: 8388
+  server: 194.87.10.161
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_13|0.5MB/s|GPT⁺|X|Histor...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.150
+  type: ss
+- encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] RU_speednode_0017'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 217.198.13.50
+  servername: fi.reality.tv123.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
+  xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] lvLV²_1|6.3MB/s|0%|GPT⁺|X|Succ...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: KX1PfrASrflF1Ra1TcjujnOAK-4sPiEVDSfAPS1DAl8
+    short-id: 'e33013f4'
+  server: 188.253.16.31
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 43135731-165e-4064-872e-7e9447fbebfb
+  xudp: true
+- name: '[VLESS] deDE²_10|6.8MB/s|GPT|X|Succeed'
+  network: ws
+  port: 443
+  server: 5.10.214.5
+  servername: GfV5t2331T.sMaRtTeChZaAl.InFo
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
+      Host: GfV5t2331T.sMaRtTeChZaAl.InFo
     path: /
 - encryption: none
   flow: xtls-rprx-vision
@@ -3046,44 +3157,107 @@ proxies:
   udp: true
   uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
   xudp: true
-- name: '[VLESS] GB_speednode_0012'
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] auAU²_3|7.5MB/s|0%|GPT⁺|YT|D+|...'
+  password: 3975ce99-b48e-4d87-bf14-ccba008a0100
+  port: 40011
+  server: frk.fastsoonlink.com
+  type: ss
+  udp: true
+- encryption: none
+  name: '[VLESS] fiFI²_8|7.1MB/s|6%|GPT⁺|YT-US|...'
   network: ws
-  port: 2053
-  server: 25.129.197.138
-  servername: KhAmeneI.DPdNs.OrG
-  skip-cert-verify: false
+  port: 80
+  server: 146.75.119.82
+  type: vless
+  udp: true
+  uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: welcomtofreeboarders.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    max-early-data: 2048
+    path: /ws/
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🇨🇳 CN
+  name: '[SS] vnVN²_14|2.8MB/s|GPT|YT-US|X'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.239
+  type: ss
+- encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] ruRU²_3|4.2MB/s|X|Succeed|[原生|...'
+  network: tcp
+  port: 7443
+  reality-opts:
+    public-key: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA
+    short-id: 'fd88bd27db4cc661'
+  server: 45.139.26.152
+  servername: eh.vk.com
   tls: true
   type: vless
   udp: true
-  uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
-  ws-opts:
-    headers:
-      Host: KhAmeneI.DPdNs.OrG
-    path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] auAU²_1|6.3MB/s|GPT⁺|GM|YT|X|[...'
-  network: ws
-  port: 12889
-  server: gtm1.ktmwan.net
-  servername: baidu.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 1ec49aaf-2990-4c7b-a45c-d190e6ea5438
-  ws-opts:
-    headers:
-      HOST: baidu.com
-      Host: gtm1.ktmwan.net
-    path: /
+  uuid: 7fc953d6-ae75-46fb-a970-10b57d513487
+  xudp: true
 - encryption: none
-  name: '[VLESS] gbGB¹-US⁰_2|4.4MB/s|GPT|TK|NF|...'
+  name: '[VLESS] sgSG¹-TR⁰_5|3.9MB/s|GPT⁺|GM|YT...'
+  network: ws
+  port: 80
+  server: 151.101.3.8
+  type: vless
+  udp: true
+  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
+  ws-opts:
+    headers:
+      Host: mitivpn.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Chrome/12.0.742.100 Safari/534.30
+    path: /--
+  xudp: true
+- encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '[VLESS] atAT²_2|1.1MB/s|18%|GPT⁺|YT-DE...'
+  network: grpc
+  port: 22955
+  reality-opts:
+    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+    short-id: '6ba85179e30d4fc2'
+  server: 152.53.49.144
+  servername: one-piece.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] sgSG²_2|11.8MB/s|32%|GPT⁺|GM|Y...'
+  password: ed78b7ec3662e43a
+  port: 11201
+  server: 81.28.13.223
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] idID²_2|16.3MB/s|0%|GPT⁺|GM|YT...'
+  password: 3975ce99-b48e-4d87-bf14-ccba008a0100
+  port: 40033
+  server: idn.fastsoonlink.com
+  type: ss
+  udp: true
+- name: '[VLESS] usUS¹⁺_9|5.9MB/s|4%|GPT⁺|GM|YT...'
   network: ws
   port: 443
-  server: cloudflare.182682.xyz
+  server: 162.159.45.232
   servername: l.ayovo.netlib.re
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -3092,99 +3266,69 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: l.ayovo.netlib.re
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     max-early-data: 2560
     path: /
-  xudp: true
-- delay: 1115
-  name: '[VLESS] usUS¹⁺_8|1.6MB/s|GPT|X'
-  network: ws
-  port: 2053
-  server: pages.cloudflare.com
-  servername: ss.sooos.eu.cc
+- encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] fiFI²_9|3.7MB/s|41%|GPT⁺|D+|X|...'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
+    short-id: '58c512b4422e2517'
+  server: 78.153.139.68
+  servername: images.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 6968b310-0a49-7c2e-3dc4-7a972340114a
-  ws-opts:
-    headers:
-      Host: ss.sooos.eu.cc
-    path: /proxyip=sjc.o00o.ooo
-- name: '[Trojan] hkHK²_6|2.1MB/s|2%|YT|D+|X|Suc...'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.219
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] jpJP²_2|9.4MB/s|0%|GPT|YT|TK|N...'
-  network: ws
-  port: 12883
-  server: gtm1.ktmwan.net
-  servername: baidu.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 1ec49aaf-2990-4c7b-a45c-d190e6ea5438
-  ws-opts:
-    headers:
-      HOST: baidu.com
-      Host: gtm1.ktmwan.net
-    path: /
-- encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_11|9.1MB/s|GPT|GM|YT...'
-  network: ws
-  port: 80
-  server: 151.101.3.8
-  type: vless
-  udp: true
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-  ws-opts:
-    headers:
-      Host: mitivpn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /@freeOnlineVPNV2rayAlphaV2rayAlphaV2rayAlpha
+  uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
   xudp: true
-- encryption: none
-  name: '[VLESS] deDE²_10|3.6MB/s|X|Succeed'
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] plPL²_2|6.5MB/s|0%|GPT⁺|D+|X|[...'
+  password: 3975ce99-b48e-4d87-bf14-ccba008a0100
+  port: 40030
+  server: pr.fastsoonlink.com
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_15|3.0MB/s|GPT⁺|GM|X|His...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.222
+  type: ss
+- name: '[VLESS] deDE²_12|7.7MB/s|X|Succeed'
   network: ws
-  port: 2096
-  server: api.dark-coffe.com
-  servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
+  port: 2087
+  server: 5.10.214.5
+  servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
   tls: true
   type: vless
   udp: true
   uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
   ws-opts:
     headers:
-      Host: TzS7v35LfD.sMaRtTeChZaAl.InFo
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-  xudp: true
-- name: '[Socks5] 🏴‍☠_2deDE²_5|1.1MB/s|0.6MB/s|X...'
-  password: ''
-  port: 1080
-  server: 193.233.254.9
-  skip-cert-verify: true
-  type: socks5
-  username: ''
+      Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+    path: /
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_16|2.4MB/s|GPT⁺|YT-US|X|...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.198
+  type: ss
 - alterId: 0
   cipher: auto
   country: 🇬🇧GB
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] twTW²_1|9.9MB/s|0%|GPT⁺|YT-CN|...'
+  name: '[Vmess] sgSG²_4|16.6MB/s|0%|YT-CN|X'
   network: ws
-  port: 12888
+  port: 12901
   server: gtm1.ktmwan.net
   servername: baidu.com
   skip-cert-verify: true
@@ -3192,108 +3336,8 @@ proxies:
   uuid: 1ec49aaf-2990-4c7b-a45c-d190e6ea5438
   ws-opts:
     headers:
-      HOST: baidu.com
       Host: gtm1.ktmwan.net
     path: /
-- flow: xtls-rprx-vision
-  name: '[VLESS] RU_speednode_0019'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: bridge2.pool.sssrvpn.pro
-  servername: fi.reality.tv123.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
-- encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_12|3.5MB/s|GPT⁺|YT|D...'
-  network: ws
-  port: 80
-  server: 151.101.3.8
-  type: vless
-  udp: true
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-  ws-opts:
-    headers:
-      Host: mitivpn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
-    path: /--@V2rayAlpha--V2rayAlpha--V2rayAlpha--V2rayAlpha
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] inIN²_2|3.8MB/s|X|History|[广播|...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: 'c7e42004e5f024be'
-  server: 176.109.104.107
-  servername: sun6-21.userapi.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc61ea7c-92f2-4c2d-b272-32cfe8fdf99f
-  xudp: true
-- name: '[Socks5] nlNL²_3|5.4MB/s|7%|GPT⁺|X|Hist...'
-  password: ''
-  port: 1080
-  server: 5.255.117.127
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] lvLV²_1|6.0MB/s|0%|GPT⁺|X|Hist...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: KX1PfrASrflF1Ra1TcjujnOAK-4sPiEVDSfAPS1DAl8
-    short-id: 'e33013f4'
-  server: 188.253.16.31
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 43135731-165e-4064-872e-7e9447fbebfb
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] frFR²_1|4.5MB/s|52%|GPT|X|[广播|...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 176.98.177.145
-  servername: de.reality.tv123.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
-  xudp: true
-- name: '[Socks5] 🏴‍☠_3deDE²_1|0.6MB/s|2.0MB/s|X...'
-  password: ''
-  port: 1080
-  server: 193.233.254.7
-  skip-cert-verify: true
-  type: socks5
-  username: ''
 - name: '[VLESS] VLESS节点1-xhttp-reality'
   network: xhttp
   port: 11335
@@ -3379,6 +3423,34 @@ proxies:
     headers:
       Host: KhAmeneI.DPdNs.OrG
     path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
+- name: '[VLESS] GB_speednode_0012'
+  network: ws
+  port: 2053
+  server: 25.129.197.138
+  servername: KhAmeneI.DPdNs.OrG
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
+  ws-opts:
+    headers:
+      Host: KhAmeneI.DPdNs.OrG
+    path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
+- name: '[VLESS] GB_speednode_0014'
+  network: ws
+  port: 2053
+  server: 25.129.197.138
+  servername: KhAmeneI.DPdNs.OrG
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
+  ws-opts:
+    headers:
+      Host: khamenei.dpdns.org
+    path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: '[VLESS] LV_speednode_0016'
@@ -3466,23 +3538,6 @@ proxies:
   type: vless
   udp: true
   uuid: 08c7f096-d057-4d53-82fd-c739d372887b
-- name: '[Http] TW_speednode_0028'
-  password: mrwdfNTD8M79LCukCieldrqZWqs=
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: '[Http] TW_speednode_0029'
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - client-fingerprint: ios
   flow: xtls-rprx-vision
   name: '[VLESS] UA_speednode_0030'

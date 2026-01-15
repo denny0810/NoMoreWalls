@@ -38,69 +38,24 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - cipher: aes-128-gcm
-  name: '[SS] 日本4|@ripaojiedian'
+  name: '[SS] jpJP_1|1.6MB/s'
   password: b637f2e47b7827b308ebf399008075d2
   port: 26334
   server: 223.95.183.132
   type: ss
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] usUS¹⁺_6|3.7MB/s|4%|GPT⁺|GM|YT...'
+  udp: true
+- encryption: none
+  name: '[VLESS] sgSG¹-TR⁰_1|12.5MB/s|GPT|GM|YT...'
   network: ws
-  port: 443
-  server: 162.159.44.142
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  tls: true
+  port: 80
+  server: 151.101.3.8
   type: vless
   udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: l.ayovo.netlib.re
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
-    max-early-data: 2560
-    path: /
+      Host: mitivpn.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /--@v2rayngzendegimamadv2rayngzendegimamadv2rayngzendegimamadv2rayngzendegimamad
   xudp: true
-- alterId: 2
-  cipher: auto
-  name: '[Vmess] jpJP_2|3.1MB/s'
-  port: 23611
-  server: traffic.a1.szx.gfw250.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b3ed2498-8800-3992-ba32-d3d8c609eeef
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  delay: 1279
-  name: '[Vmess] jpJP²_1|0.6MB/s|3%|GPT⁺|X|[广播|...'
-  network: tcp
-  port: 49303
-  server: cees.owwoedu.com
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5aa4437b-e03c-453e-a81f-0a3516eec742
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] jpJP²_2|9.4MB/s|0%|GPT|YT|TK|N...'
-  network: ws
-  port: 12883
-  server: gtm1.ktmwan.net
-  servername: baidu.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 1ec49aaf-2990-4c7b-a45c-d190e6ea5438
-  ws-opts:
-    headers:
-      HOST: baidu.com
-      Host: gtm1.ktmwan.net
-    path: /

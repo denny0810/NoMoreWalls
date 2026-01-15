@@ -11,18 +11,15 @@ proxies:
     headers:
       Host: store.timimi.dpdns.org
     path: '%2F%3FBIA_TELEGRAM(%40AZARBAYJAB1)TM(%40AZARBAYJAB1)TM(%40AZARBAYJAB1)TM(%40AZARBAYJAB1)TM(%40AZARBAYJAB1)TM(%40AZARBAYJAB1)'
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 🇺🇸US_7|2.9MB/s
+  name: US29｜原生/疑似家宽｜非常安全
   network: tcp
-  port: 47084
+  port: '47084'
   server: tunnel1.qqa678.com
-  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
-  xudp: true
 - alterId: 0
   cipher: auto
   name: US23｜原生/疑似家宽｜非常安全
@@ -255,75 +252,58 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_speednode_0042
-  network: tcp
-  port: 52800
-  reality-opts:
-    public-key: m1nbh-ENgK8K1buwwZlmdVl-G39XIQChmy9ZhfWcuSk
-    short-id: '!!str 9b5677e8'
-  server: 192.161.60.13
-  servername: www.paypal.com
+- name: GB_speednode_0014
+  network: ws
+  port: 2053
+  server: 25.129.197.138
+  servername: KhAmeneI.DPdNs.OrG
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: beddd73b-ed90-4e76-8a30-492384220878
-- client-fingerprint: chrome
-  delay: 1074
-  name: 🇺🇸US_2|1.1MB/s
+  uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
+  ws-opts:
+    headers:
+      Host: khamenei.dpdns.org
+    path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
+- name: 🇭🇰HK¹-US⁰_2|12.6MB/s|4%|GPT⁺|Y...
   network: ws
   port: 443
-  server: www.visa.com
-  servername: sni.meibidi.pp.ua
+  server: 104.18.185.26
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: sni.meibidi.pp.ua
+      Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
-- client-fingerprint: chrome
-  name: 🇺🇸US_3|2.5MB/s
+- name: 🇺🇸US_3|2.7MB/s
   network: ws
-  port: 443
-  server: 50.62.172.48
-  servername: ww20.allxniu.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: e258977b-e413-4718-a3af-02d75492c349
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: ww20.allxniu.qzz.io
-    max-early-data: 2560
+      Host: epge.muarua.filegear-sg.me
     path: /
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸US_4|1.8MB/s
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: 🇺🇸US_5|3.4MB/s
+  name: 🇺🇸US_4|3.4MB/s
   network: grpc
   port: 22955
   reality-opts:
     public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
     short-id: '!!str 6ba85179e30d4fc2'
-  server: picassooo.info
+  server: 5.161.131.18
   servername: one-piece.com
   tls: true
   type: vless
@@ -332,23 +312,88 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇺🇸US_6|2.5MB/s
-  network: tcp
-  port: 28190
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇺🇸US_5|3.6MB/s
+  network: grpc
+  port: 22955
   reality-opts:
-    public-key: ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno
-    short-id: '!!str '
-  server: 159.89.87.21
-  servername: aws.amazon.com
+    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: 5.78.72.175
+  servername: one-piece.com
   tls: true
   type: vless
   udp: true
-  uuid: 14c80e0e-f7ce-4991-94fc-99a1db4a9b1e
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇺🇸US_6|1.6MB/s
+  network: grpc
+  port: 22955
+  reality-opts:
+    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: 178.156.215.142
+  servername: one-piece.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇺🇸US_7|3.2MB/s
+  network: grpc
+  port: 22955
+  reality-opts:
+    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: 5.78.54.69
+  servername: one-piece.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇺🇸US_8|3.8MB/s
+  network: grpc
+  port: 22955
+  reality-opts:
+    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: 5.78.135.163
+  servername: one-piece.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇺🇸US_9|3.6MB/s
+  network: grpc
+  port: 22955
+  reality-opts:
+    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: 178.156.215.144
+  servername: one-piece.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
   xudp: true
 - country: 🏁ZZ
   name: 🇺🇸US¹-HK⁰_1|1.4MB/s|D+|X|Histo...
@@ -520,22 +565,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰HK¹-US⁰_2|12.6MB/s|4%|GPT⁺|Y...
-  network: ws
-  port: 443
-  server: 104.18.185.26
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /
 - name: US_speednode_0032
   network: ws
   port: 443
@@ -681,6 +710,20 @@ proxies:
     headers:
       Host: 8end0fr.zjde5.de5.net
     path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0042
+  port: 52800
+  reality-opts:
+    public-key: m1nbh-ENgK8K1buwwZlmdVl-G39XIQChmy9ZhfWcuSk
+    short-id: '!!str 9b5677e8'
+  server: 192.161.60.13
+  servername: www.paypal.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: beddd73b-ed90-4e76-8a30-492384220878
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: US_speednode_0044

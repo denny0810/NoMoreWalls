@@ -17,23 +17,23 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 2053
-  server: 43.206.227.6
+  server: 13.115.245.96
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[Trojan] 日本2|@ripaojiedian'
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
-  port: 4006
-  server: 160.16.72.205
+  port: 1933
+  server: 160.16.130.21
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 日本3|@ripaojiedian'
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
-  port: 1933
-  server: 160.16.72.205
+  port: 4006
+  server: 160.16.105.192
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -45,7 +45,7 @@ proxies:
   type: ss
   udp: true
 - encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_1|12.5MB/s|GPT|GM|YT...'
+  name: '[VLESS] sgSG¹-TR⁰_7|1.5MB/s|GPT⁺|GM|YT...'
   network: ws
   port: 80
   server: 151.101.3.8
@@ -59,3 +59,53 @@ proxies:
         (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
     path: /--@v2rayngzendegimamadv2rayngzendegimamadv2rayngzendegimamadv2rayngzendegimamad
   xudp: true
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] jpJP²_1|8.7MB/s|0%|GPT|GM|YT|T...'
+  network: ws
+  port: 12883
+  server: gtm1.ktmwan.net
+  servername: baidu.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 1ec49aaf-2990-4c7b-a45c-d190e6ea5438
+  ws-opts:
+    headers:
+      HOST: baidu.com
+      Host: gtm1.ktmwan.net
+    path: /
+- cipher: aes-128-gcm
+  name: '[SS] jpJP²_2|0.8MB/s|32%|GPT⁺|YT-CN...'
+  password: b637f2e47b7827b308ebf399008075d2
+  port: 53596
+  server: 223.95.183.132
+  type: ss
+  udp: true
+- country: 🇨🇳CN
+  name: '[Trojan] jpJP²_3|10.3MB/s|0%|GPT⁺|YT-CN...'
+  network: tcp
+  password: a545b52f-f4e4-4fcf-a0ec-059a483b5801
+  port: 41273
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] jpJP²_4|11.1MB/s|0%|GPT|GM|YT|...'
+  network: ws
+  port: 12883
+  server: gtm1.ktmwan.net
+  type: vmess
+  udp: true
+  uuid: 1ec49aaf-2990-4c7b-a45c-d190e6ea5438
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /

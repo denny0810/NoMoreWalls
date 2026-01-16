@@ -7,50 +7,24 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] frFR²_1|1.5MB/s|52%|GPT⁺|X|Suc...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 176.98.177.145
-  servername: de.reality.tv123.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
-  xudp: true
-- name: '[Socks5] frFR²_2|2.1MB/s|0%|GPT⁺|X'
+- name: '[Socks5] frFR²_1|0.8MB/s|0%|GPT⁺|X|Succ...'
   password: ''
   port: 1080
   server: 185.194.217.97
   skip-cert-verify: true
   type: socks5
   username: ''
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] frFR²_3|6.5MB/s|0%|GPT⁺|X|Hist...'
-  network: ws
-  port: 8080
-  server: zula.ir
-  servername: nasnet-511952424.mcitel.co
-  skip-cert-verify: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      HOST: nasnet-511952424.mcitel.co
-      Host: zula.ir
-    max-early-data: 2560
-    path: /nasnet/cdn
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] RU_speednode_0018'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 158.160.135.161
+  servername: cdnv-img.perekrestok.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a

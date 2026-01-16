@@ -19,7 +19,7 @@ proxies:
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 3901
-  server: 160.16.124.17
+  server: 160.16.85.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -27,15 +27,15 @@ proxies:
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 544
-  server: 160.16.132.38
+  server: 160.16.130.21
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 新加坡3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 1691
-  server: 43.199.73.206
+  port: 3579
+  server: 54.46.50.46
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -48,7 +48,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   delay: 398
-  name: '[VLESS] usUS¹⁺_6|2.8MB/s|4%|GPT|GM|YT|...'
+  name: '[VLESS] usUS¹⁺_2|5.8MB/s|4%|GPT⁺|GM|YT...'
   network: ws
   port: 443
   server: 162.159.16.63
@@ -65,16 +65,14 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  delay: 1261
-  encryption: none
-  name: '[VLESS] usUS¹⁺_8|4.6MB/s|4%|GPT⁺|YT|TK...'
+  delay: 1902
+  name: '[VLESS] sgSG_2|1013KB/s'
   network: ws
   port: 443
   server: cloudflare.182682.xyz
   servername: l.ayovo.netlib.re
   tls: true
   type: vless
-  udp: true
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
@@ -82,9 +80,8 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
-  xudp: true
 - cipher: aes-128-gcm
-  name: '[SS] sgSG_4|1.7MB/s'
+  name: '[SS] sgSG²_7|0.6MB/s|GPT⁺|YT-CN|TK|...'
   password: b637f2e47b7827b308ebf399008075d2
   port: 45295
   server: 223.95.183.132
@@ -103,7 +100,7 @@ proxies:
   server: 223.95.183.132
   type: ss
 - encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_2|6.3MB/s|GPT⁺|GM|YT...'
+  name: '[VLESS] sgSG¹-TR⁰_1|4.4MB/s|GPT⁺|YT|TK...'
   network: ws
   port: 80
   server: 151.101.3.8
@@ -113,12 +110,76 @@ proxies:
   ws-opts:
     headers:
       Host: mitivpn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/57.0.2987.133 Safari/537.36
+    path: /Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] sgSG²_1|14.3MB/s|32%|GPT⁺|GM|Y...'
+  password: ed78b7ec3662e43a
+  port: 11201
+  server: 81.28.13.223
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] sgSG²_2|16.4MB/s|GPT⁺|GM|YT|TK...'
+  password: 3975ce99-b48e-4d87-bf14-ccba008a0100
+  port: 40005
+  server: sgp.fastsoonlink.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[SS] sgSG²_4|1.9MB/s|0%|GPT⁺|GM|YT|...'
+  password: b637f2e47b7827b308ebf399008075d2
+  port: 47116
+  server: 223.95.183.132
+  type: ss
+  udp: true
+- name: '[Socks5] sgSG²_5|5.4MB/s|GPT⁺|GM|X|Hist...'
+  password: ''
+  port: 7497
+  server: 167.71.220.29
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- encryption: none
+  name: '[VLESS] sgSG¹-TR⁰_5|4.3MB/s|GPT⁺|YT|TK...'
+  network: ws
+  port: 80
+  server: 151.101.3.8
+  type: vless
+  udp: true
+  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
+  ws-opts:
+    headers:
+      Host: mitivpn.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  delay: 744
+  name: '[VLESS] sgSG¹-TR⁰_3|3.1MB/s|GPT⁺|GM|YT...'
+  network: ws
+  port: 80
+  server: 151.101.3.8
+  servername: mitivpn.global.ssl.fastly.net
+  tls: false
+  type: vless
+  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
+  ws-opts:
+    headers:
+      Host: mitivpn.global.ssl.fastly.net
     path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN
-  xudp: true
+- cipher: chacha20-ietf
+  country: 🇭🇰HK
+  name: '[SS] sgSG²_6|14.7MB/s|0%|GM|YT|TK|N...'
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
 - encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_3|1.8MB/s|GPT|GM|YT|...'
+  name: '[VLESS] sgSG¹-TR⁰_4|1.0MB/s|GPT⁺|GM|YT...'
   network: ws
   port: 80
   server: 151.101.3.8
@@ -128,12 +189,19 @@ proxies:
   ws-opts:
     headers:
       Host: mitivpn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
-    path: /--@V2rayAlpha--V2rayAlpha--V2rayAlpha--V2rayAlpha
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /JoinPLANB_NETJoinPLANB_NETJoinPLANB_NET
   xudp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] sgSG²_9|2.0MB/s|GPT⁺|GM|X|Succ...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.156
+  type: ss
 - encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_4|5.8MB/s|GPT⁺|GM|YT...'
+  name: '[VLESS] sgSG¹-TR⁰_6|0.6MB/s|GPT⁺|GM|YT...'
   network: ws
   port: 80
   server: 151.101.3.8
@@ -147,28 +215,6 @@ proxies:
         Chrome/49.0.2623.112 Safari/537.36
     path: /@freeOnlineVPNV2rayAlphaV2rayAlphaV2rayAlpha
   xudp: true
-- encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_5|3.9MB/s|GPT⁺|GM|YT...'
-  network: ws
-  port: 80
-  server: 151.101.3.8
-  type: vless
-  udp: true
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-  ws-opts:
-    headers:
-      Host: mitivpn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Chrome/12.0.742.100 Safari/534.30
-    path: /--
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] sgSG²_2|11.8MB/s|32%|GPT⁺|GM|Y...'
-  password: ed78b7ec3662e43a
-  port: 11201
-  server: 81.28.13.223
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] SG_speednode_0024'

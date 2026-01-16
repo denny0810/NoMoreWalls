@@ -13,13 +13,19 @@ proxies:
     path: '%2F%3FBIA_TELEGRAM(%40AZARBAYJAB1)TM(%40AZARBAYJAB1)TM(%40AZARBAYJAB1)TM(%40AZARBAYJAB1)TM(%40AZARBAYJAB1)TM(%40AZARBAYJAB1)'
 - alterId: 0
   cipher: auto
-  name: '[Vmess] US29｜原生/疑似家宽｜非常安全'
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_8|8.8MB/s|3%|GPT⁺|YT|TK|...'
   network: tcp
-  port: '47084'
+  port: 47084
   server: tunnel1.qqa678.com
+  skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
+  xudp: true
 - alterId: 0
   cipher: auto
   name: '[Vmess] US23｜原生/疑似家宽｜非常安全'
@@ -222,7 +228,7 @@ proxies:
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 5076
-  server: 160.16.85.33
+  server: 160.16.105.192
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -230,15 +236,15 @@ proxies:
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 5076
-  server: 160.16.89.176
+  server: 160.16.85.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 美国3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 2173
-  server: 13.192.183.185
+  port: 1221
+  server: 54.199.172.151
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -259,47 +265,62 @@ proxies:
   uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: '[SS] vnVN²_7|0.6MB/s|GPT⁺|GM|YT-US|...'
+  name: '[SS] vnVN²_1|1.2MB/s|GPT⁺|GM|YT-US|...'
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.137
+  server: 103.186.155.122
   type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_10|2.3MB/s|GPT|YT-US|X|H...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.211
-  type: ss
-- cipher: aes-256-cfb
-  name: '[SS] vnVN²_11|2.1MB/s|GPT⁺|GM|YT-US...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.46
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧 GB
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_2|3.8MB/s|29%|GPT⁺|TK|NF...'
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-opts:
+    path: /
 - cipher: aes-256-gcm
   delay: 1198
-  name: '[SS] sgSG²_1|6.3MB/s|22%|GPT⁺|GM|YT...'
+  name: '[SS] sgSG²_3|10.6MB/s|22%|GPT⁺|GM|Y...'
   password: d2umVadPT1m/FwIn
   port: 8388
   server: 194.87.10.161
   skip-cert-verify: false
   type: ss
   udp: false
-- cipher: aes-256-cfb
-  country: 🇨🇳 CN
-  name: '[SS] vnVN²_14|2.8MB/s|GPT|YT-US|X'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.239
+- alterId: 2
+  cipher: auto
+  country: 🏁 ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_11|5.8MB/s|28%|GPT⁺|YT|N...'
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  servername: v29.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  country: 🇱🇹 LT
+  name: '[SS] nlNL²_2|2.6MB/s|69%|GPT⁺|YT-US...'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.87.175.69
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: '[SS] vnVN²_16|2.4MB/s|GPT⁺|YT-US|X|...'
+  name: '[SS] vnVN²_11|2.0MB/s|GPT⁺|GM|YT-US...'
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.198
+  server: 103.186.155.116
   type: ss
 - name: '[Trojan] US_speednode_0041'
   network: ws

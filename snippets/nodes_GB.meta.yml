@@ -1,4 +1,18 @@
 proxies:
+- client-fingerprint: firefox
+  name: '[VLESS] gbGB²_1|5.4MB/s|0%|GPT⁺|D+|X|S...'
+  network: tcp
+  port: 587
+  reality-opts:
+    public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
+    short-id: '!!str 916e8258c4a01b02'
+  server: england.torprospeed.ir
+  servername: excoino.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -16,37 +30,19 @@ proxies:
   uuid: e64c5bbb-a4b8-498e-b374-4462d961c8a2
   xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] gbGB¹⁺_1|3.2MB/s|4%|GPT⁺|D+|X|...'
-  network: ws
-  port: 443
-  server: visa.com
-  servername: asuka.boringdad.netlib.re
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c0dad-3268-4470-ac57-887c5089db0d
-  ws-opts:
-    headers:
-      Host: asuka.boringdad.netlib.re
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: firefox
-  name: '[VLESS] gbGB²_2|5.3MB/s|0%|GPT⁺|D+|X|H...'
+  flow: xtls-rprx-vision
+  name: '[VLESS] RU_speednode_0023'
   network: tcp
-  port: 587
+  port: 443
   reality-opts:
-    public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
-    short-id: '!!str 916e8258c4a01b02'
-  server: england.torprospeed.ir
-  servername: excoino.com
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 176.98.177.145
+  servername: fi.reality.tv123.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
+  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
 - client-fingerprint: random
   encryption: none
   flow: xtls-rprx-vision
@@ -61,26 +57,6 @@ proxies:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   server: 51.250.93.152
   servername: ya.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] RU_speednode_0032'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: ru-msk-yan-1gbit-02.sssrvpn.pro
-  servername: sun6-20.userapi.com
   skip-cert-verify: false
   tls: true
   type: vless

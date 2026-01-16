@@ -1,4 +1,17 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] SG11｜机房｜低风险'
+  network: ws
+  port: '12901'
+  server: gtm1.ktmwan.net
+  tls: false
+  type: vmess
+  uuid: 4ff18004-8e47-4a8f-bc85-d317d888ed99
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
 - name: '[Trojan] 新加坡|@ripaojiedian'
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
@@ -31,7 +44,7 @@ proxies:
   server: 223.95.183.132
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[SS] sgSG²_1|5.6MB/s|32%|TK|NF|X|Su...'
+  name: '[SS] sgSG²_1|13.5MB/s|32%|GPT⁺|GM|Y...'
   password: ed78b7ec3662e43a
   port: 11201
   server: 81.28.13.223

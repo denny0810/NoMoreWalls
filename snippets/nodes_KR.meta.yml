@@ -1,28 +1,25 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] KR7｜机房｜低风险'
-  network: tcp
-  port: '80'
-  server: 152.70.92.69
+- name: '[Trojan] KR1｜机房｜低风险'
+  password: 9a3c3e80-6a71-4fb4-af58-317f87a02148
+  port: 49214
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+- name: '[Socks5] krKR²_1|0.6MB/s|2%|GPT⁺|GM|X|H...'
+  password: ''
+  port: 1090
+  server: 121.169.46.116
+  skip-cert-verify: true
   tls: false
-  type: vmess
-  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+  type: socks5
+  username: ''
 - name: '[Http] KR_speednode_0014'
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
   skip-cert-verify: true
-  sni: testkr3.ssv.vc
   tls: true
   type: http
   udp: true
   username: test
-- delay: 1107
-  name: '[Socks5] krKR²_1|1.8MB/s|2%|GPT⁺|X|Hist...'
-  port: 1090
-  server: 121.169.46.116
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-  username: Og%3D%3D

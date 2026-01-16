@@ -1,4 +1,43 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] FR5｜机房｜低风险'
+  network: ws
+  port: '12898'
+  server: gtm1.ktmwan.net
+  tls: false
+  type: vmess
+  uuid: 4ff18004-8e47-4a8f-bc85-d317d888ed99
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] FR6｜机房｜低风险'
+  network: ws
+  port: '12886'
+  server: gtm1.ktmwan.net
+  tls: false
+  type: vmess
+  uuid: 4ff18004-8e47-4a8f-bc85-d317d888ed99
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] FR7｜机房｜低风险'
+  network: ws
+  port: '12899'
+  server: gtm1.ktmwan.net
+  tls: false
+  type: vmess
+  uuid: 4ff18004-8e47-4a8f-bc85-d317d888ed99
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
 - name: '[Hysteria2] 🔱 | @ConfigV2RayNG fr'
   password: dongtaiwang.com
   port: 443
@@ -7,24 +46,3 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- name: '[Socks5] frFR²_1|4.4MB/s|GPT⁺|X|History'
-  password: ''
-  port: 1080
-  server: 185.194.217.97
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] RU_speednode_0021'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 158.160.135.161
-  servername: api-maps.yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a

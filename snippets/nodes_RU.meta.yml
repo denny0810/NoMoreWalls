@@ -1,4 +1,11 @@
 proxies:
+- name: '[Socks5] ruRU²_1|3.5MB/s|X|History'
+  password: ''
+  port: 1080
+  server: 31.129.147.102
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -6,7 +13,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: '[VLESS] ruRU²_1|4.7MB/s|X|Succeed|[原生|...'
+  name: '[VLESS] ruRU²_2|4.4MB/s|X|Succeed|[原生|...'
   network: tcp
   port: 7443
   reality-opts:
@@ -18,33 +25,6 @@ proxies:
   type: vless
   udp: true
   uuid: 7fc953d6-ae75-46fb-a970-10b57d513487
-  xudp: true
-- name: '[Socks5] ruRU²_2|2.3MB/s|X|History'
-  password: ''
-  port: 1080
-  server: 78.140.46.48
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] ruRU²_3|1.3MB/s|GPT⁺|X|History...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: '!!str 17802e8ff84f12df'
-  server: 51.250.65.209
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4371ad14-b981-4699-bedf-83fb79bde3e6
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
@@ -73,19 +53,6 @@ proxies:
   type: vless
   udp: true
   uuid: a2affe9a-685f-4063-b22a-27c615a83e74
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: '[VLESS] RU_speednode_0027'
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 51.250.93.152
-  servername: ya.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] RU_speednode_0029'
@@ -100,19 +67,6 @@ proxies:
   type: vless
   udp: true
   uuid: 3d29bd40-5f23-4024-aab6-17258cd55a7e
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] RU_speednode_0030'
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 217.198.13.50
-  servername: fi.reality.tv123.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] RU_speednode_0031'

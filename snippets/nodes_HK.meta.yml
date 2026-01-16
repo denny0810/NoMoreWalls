@@ -461,14 +461,20 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: auto
-  name: '[VLESS] hkHK_1|1.5MB/s'
-  network: none
-  port: 9527
-  server: 43.161.253.78
-  tls: false
+- name: '[VLESS] hkHK_1|1.8MB/s'
+  network: ws
+  port: 443
+  server: 8.223.63.150
+  servername: www.sgxaniu.qzz.io
+  tls: true
   type: vless
-  uuid: d4a23188-85b0-4b46-b84b-f1d36d66c03e
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: www.sgxaniu.qzz.io
+    max-early-data: 2560
+    path: /
 - client-fingerprint: chrome
   encryption: none
   name: '[VLESS] hkHK¹⁺_1|5.3MB/s|X'

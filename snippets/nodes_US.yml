@@ -16,7 +16,7 @@ proxies:
   country: 🇨🇳CN
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] usUS²_8|8.8MB/s|3%|GPT⁺|YT|TK|...'
+  name: '[Vmess] usUS²_6|1.7MB/s|3%|GPT⁺|GM|YT|...'
   network: tcp
   port: 47084
   server: tunnel1.qqa678.com
@@ -265,73 +265,51 @@ proxies:
   uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: '[SS] vnVN²_1|1.2MB/s|GPT⁺|GM|YT-US|...'
+  name: '[SS] vnVN²_6|0.5MB/s|GPT⁺|YT-US|X|S...'
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.122
+  server: 103.186.155.156
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧 GB
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_2|3.8MB/s|29%|GPT⁺|TK|NF...'
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-opts:
-    path: /
+- cipher: chacha20-ietf-poly1305
+  country: 🇳🇱NL
+  name: '[SS] nlNL²_2|2.7MB/s|100%|GPT⁺|YT-U...'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.177
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] usUS²_4|4.3MB/s|60%|GPT⁺|X|His...'
+  password: 5d8680180abdb564
+  port: 45234
+  server: 154.53.34.27
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   delay: 1198
-  name: '[SS] sgSG²_3|10.6MB/s|22%|GPT⁺|GM|Y...'
+  name: '[SS] sgSG²_4|5.4MB/s|22%|GPT⁺|YT-US...'
   password: d2umVadPT1m/FwIn
   port: 8388
   server: 194.87.10.161
   skip-cert-verify: false
   type: ss
   udp: false
-- alterId: 2
-  cipher: auto
-  country: 🏁 ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_11|5.8MB/s|28%|GPT⁺|YT|N...'
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  servername: v29.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /
 - cipher: chacha20-ietf-poly1305
-  country: 🇱🇹 LT
-  name: '[SS] nlNL²_2|2.6MB/s|69%|GPT⁺|YT-US...'
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  country: 🇳🇱 NL
+  name: '[SS] nlNL²_3|6.1MB/s|20%|GPT⁺|YT-US...'
+  password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
-  server: 45.87.175.69
+  server: 82.38.31.214
   type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_11|2.0MB/s|GPT⁺|GM|YT-US...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.116
-  type: ss
-- name: '[Trojan] US_speednode_0041'
+- name: '[Trojan] US_speednode_0047'
   network: ws
-  password: k52nemqqdx9e
-  port: 8443
-  server: 172.64.145.38
-  skip-cert-verify: true
-  sni: 8end0fr.zjde5.de5.net
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: false
+  sni: epge.muarua.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: 8end0fr.zjde5.de5.net
-    path: /?ed=2560
+      Host: epge.muarua.filegear-sg.me
+    path: /

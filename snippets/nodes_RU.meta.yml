@@ -8,13 +8,6 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] ruRU²_1|7.0MB/s|X|Succeed|[原生|...'
-  password: 3975ce99-b48e-4d87-bf14-ccba008a0100
-  port: 40031
-  server: ru.fastsoonlink.com
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -22,7 +15,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: '[VLESS] ruRU²_2|4.4MB/s|X|Succeed|[原生|...'
+  name: '[VLESS] ruRU²_1|4.7MB/s|X|Succeed|[原生|...'
   network: tcp
   port: 7443
   reality-opts:
@@ -35,46 +28,110 @@ proxies:
   udp: true
   uuid: 7fc953d6-ae75-46fb-a970-10b57d513487
   xudp: true
+- name: '[Socks5] ruRU²_2|2.3MB/s|X|History'
+  password: ''
+  port: 1080
+  server: 78.140.46.48
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: '[VLESS] ruRU²_3|0.7MB/s|GPT⁺|X|History...'
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] ruRU²_3|1.3MB/s|GPT⁺|X|History...'
   network: tcp
   port: 443
   reality-opts:
     public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: '!!str 2476f063981ffd92'
-  server: 51.250.87.167
+    short-id: '!!str 17802e8ff84f12df'
+  server: 51.250.65.209
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4371ad14-b981-4699-bedf-83fb79bde3e6
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] RU_speednode_0023'
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 176.98.177.145
+  servername: fi.reality.tv123.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] RU_speednode_0024'
+  port: 47030
+  reality-opts:
+    public-key: cZsRvk8pr8wfYiX1CNxdDjR38tow3HuL6IpBj8P82l8
+    short-id: '!!str e18eda8458cab0d7'
+  server: 185.138.90.31
   servername: api-maps.yandex.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 4371ad14-b981-4699-bedf-83fb79bde3e6
-- client-fingerprint: qq
+  uuid: a2affe9a-685f-4063-b22a-27c615a83e74
+- client-fingerprint: random
   flow: xtls-rprx-vision
-  name: '[VLESS] RU_speednode_0021'
-  port: 8443
+  name: '[VLESS] RU_speednode_0027'
+  port: 443
   reality-opts:
-    public-key: 1L89euUftEWspViGKdG7Ivwj-k1ySPROZEfZWaL5Hhw
-    short-id: '!!str 9c9e61aa'
-  server: cdn-ru4.catconnect.ru
-  servername: www.api-maps.yandex.ru
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 51.250.93.152
+  servername: ya.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 00e3aa57-aad0-4b7c-90ef-8fbdc2175ddb
-- client-fingerprint: qq
+  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[VLESS] RU_speednode_0022'
-  port: 8443
+  name: '[VLESS] RU_speednode_0029'
+  port: 443
   reality-opts:
-    public-key: 1L89euUftEWspViGKdG7Ivwj-k1ySPROZEfZWaL5Hhw
-    short-id: '!!str 9c9e61aa'
-  server: cdn-ru3.catconnect.ru
-  servername: eh.vk.com
+    public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
+    short-id: '!!str 15affa0af66dfc79'
+  server: 158.160.53.57
+  servername: api-maps.yandex.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 00e3aa57-aad0-4b7c-90ef-8fbdc2175ddb
+  uuid: 3d29bd40-5f23-4024-aab6-17258cd55a7e
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] RU_speednode_0030'
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 217.198.13.50
+  servername: fi.reality.tv123.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] RU_speednode_0031'
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 109.71.245.198
+  servername: fi.reality.tv123.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a

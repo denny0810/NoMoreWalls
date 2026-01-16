@@ -38,14 +38,14 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - cipher: aes-128-gcm
-  name: '[SS] jpJP_1|1.6MB/s'
+  name: '[SS] jpJP²_1|0.9MB/s|X|[广播|机房]'
   password: b637f2e47b7827b308ebf399008075d2
   port: 26334
   server: 223.95.183.132
   type: ss
   udp: true
 - encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_7|1.5MB/s|GPT⁺|GM|YT...'
+  name: '[VLESS] sgSG¹-TR⁰_4|4.5MB/s|GPT⁺|YT|TK...'
   network: ws
   port: 80
   server: 151.101.3.8
@@ -59,53 +59,16 @@ proxies:
         (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
     path: /--@v2rayngzendegimamadv2rayngzendegimamadv2rayngzendegimamadv2rayngzendegimamad
   xudp: true
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] jpJP²_1|8.7MB/s|0%|GPT|GM|YT|T...'
-  network: ws
-  port: 12883
-  server: gtm1.ktmwan.net
-  servername: baidu.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 1ec49aaf-2990-4c7b-a45c-d190e6ea5438
-  ws-opts:
-    headers:
-      HOST: baidu.com
-      Host: gtm1.ktmwan.net
-    path: /
-- cipher: aes-128-gcm
-  name: '[SS] jpJP²_2|0.8MB/s|32%|GPT⁺|YT-CN...'
-  password: b637f2e47b7827b308ebf399008075d2
-  port: 53596
-  server: 223.95.183.132
-  type: ss
-  udp: true
-- country: 🇨🇳CN
-  name: '[Trojan] jpJP²_3|10.3MB/s|0%|GPT⁺|YT-CN...'
+- client-fingerprint: chrome
+  name: '[VLESS] jpJP²_2|3.2MB/s|X|[广播|机房]'
   network: tcp
-  password: a545b52f-f4e4-4fcf-a0ec-059a483b5801
-  port: 41273
-  server: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
-  sni: douyin.com
-  type: trojan
+  port: 443
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: '!!str 2da72ce6'
+  server: 154.31.114.125
+  servername: navi.bankrate.com
+  tls: true
+  type: vless
   udp: true
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] jpJP²_4|11.1MB/s|0%|GPT|GM|YT|...'
-  network: ws
-  port: 12883
-  server: gtm1.ktmwan.net
-  type: vmess
-  udp: true
-  uuid: 1ec49aaf-2990-4c7b-a45c-d190e6ea5438
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
+  uuid: e778320b-8bc2-4fa8-a4c6-18cb412d03e6

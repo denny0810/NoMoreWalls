@@ -1301,7 +1301,7 @@ proxies:
   port: 8388
   server: 91.149.236.182
   type: ss
-- name: '[Trojan] 香港3|@ripaojiedian'
+- name: '[Trojan] hkHK²_3|16.5MB/s|2%|YT|D+|X|[原...'
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 443
@@ -1309,7 +1309,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] 香港4|@ripaojiedian'
+- name: '[Trojan] hkHK²_2|2.0MB/s|2%|YT-CN|X|[原生...'
   network: tcp
   password: BxceQaOe
   port: 3830
@@ -1349,14 +1349,18 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] hkHK_3|2.6MB/s'
+- name: '[Trojan] hkHK²_5|7.0MB/s|2%|YT|D+|X|His...'
+  network: tcp
   password: BxceQaOe
   port: 443
   server: 58.152.53.219
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[Trojan] hkHK_5|1.0MB/s'
+  udp: true
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_1|0.6MB/s|2%|YT|D+|X|His...'
+  network: tcp
   password: BxceQaOe
   port: 443
   server: 58.152.53.219
@@ -1364,23 +1368,3 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: chacha20-ietf
-  country: 🇭🇰 HK
-  name: '[SS] hkHK²_1|4.4MB/s|0%|X|History'
-  password: asd123456
-  port: 8388
-  server: 103.149.182.158
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] hkHK²_2|11.9MB/s|0%|YT|NF|X|[广...'
-  network: tcp
-  port: 43525
-  server: faq1.lieerr222.cn
-  servername: faq1.lieerr222.cn
-  skip-cert-verify: true
-  type: vmess
-  uuid: 8e245bc0-219d-4415-8222-398fb091fbd2

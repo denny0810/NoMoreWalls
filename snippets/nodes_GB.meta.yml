@@ -1,6 +1,21 @@
 proxies:
+- encryption: none
+  name: '[VLESS] gbGB¹⁺_1|5.4MB/s|4%|GPT⁺|TK|NF...'
+  network: ws
+  port: 2095
+  server: 104.18.28.7
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: freedom.pusytroller.cf
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /
+  xudp: true
 - client-fingerprint: firefox
-  name: '[VLESS] gbGB²_1|5.4MB/s|0%|GPT⁺|D+|X|S...'
+  name: '[VLESS] gbGB²_1|5.2MB/s|0%|GPT⁺|D+|X|S...'
   network: tcp
   port: 587
   reality-opts:
@@ -13,56 +28,6 @@ proxies:
   type: vless
   udp: true
   uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] GB_speednode_0008'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: j_b7jaRqL2-82XSGRL0IYkNJ2Y3hrhhgq5kIBIK76lk
-  server: 38.60.196.27
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e64c5bbb-a4b8-498e-b374-4462d961c8a2
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] RU_speednode_0023'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 176.98.177.145
-  servername: fi.reality.tv123.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] RU_speednode_0027'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 51.250.93.152
-  servername: ya.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
-  xudp: true
 - name: '[VLESS] GB_speednode_0007'
   network: ws
   port: 2053
@@ -77,6 +42,19 @@ proxies:
     headers:
       Host: khamenei.dpdns.org
     path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] GB_speednode_0008'
+  port: 443
+  reality-opts:
+    public-key: j_b7jaRqL2-82XSGRL0IYkNJ2Y3hrhhgq5kIBIK76lk
+  server: 38.60.196.27
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e64c5bbb-a4b8-498e-b374-4462d961c8a2
 - name: '[VLESS] GB_speednode_0009'
   network: ws
   port: 2053
@@ -91,3 +69,16 @@ proxies:
     headers:
       Host: KhAmeneI.DPdNs.OrG
     path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
+- client-fingerprint: firefox
+  name: '[VLESS] GB_speednode_0011'
+  port: 587
+  reality-opts:
+    public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
+    short-id: '!!str 916e8258c4a01b02'
+  server: turkiye.torprospeed.ir
+  servername: excoino.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441

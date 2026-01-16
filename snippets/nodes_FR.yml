@@ -1,9 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[Vmess] FR5｜机房｜低风险'
+  name: '[Vmess] frFR²_3|7.4MB/s|52%|GPT⁺|X|[广播...'
   network: ws
-  port: '12898'
+  port: 12898
   server: gtm1.ktmwan.net
   tls: false
   type: vmess
@@ -27,9 +27,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[Vmess] FR7｜机房｜低风险'
+  name: '[Vmess] frFR²_2|5.4MB/s|37%|GPT⁺|X|[原生...'
   network: ws
-  port: '12899'
+  port: 12899
   server: gtm1.ktmwan.net
   tls: false
   type: vmess
@@ -37,4 +37,55 @@ proxies:
   ws-opts:
     headers:
       Host: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] frFR²_1|6.3MB/s|37%|GPT⁺|X|[原生...'
+  network: ws
+  port: 12899
+  server: gtm1.ktmwan.net
+  servername: baidu.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4ff18004-8e47-4a8f-bc85-d317d888ed99
+  ws-opts:
+    headers:
+      Host: gtm1.ktmwan.net
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] frFR²_4|4.9MB/s|62%|X|[广播|机房]'
+  network: ws
+  port: 12886
+  server: gtm1.ktmwan.net
+  servername: baidu.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4ff18004-8e47-4a8f-bc85-d317d888ed99
+  ws-opts:
+    headers:
+      Host: gtm1.ktmwan.net
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] frFR²_6|7.4MB/s|52%|GPT⁺|YT-CN...'
+  network: ws
+  port: 12898
+  server: gtm1.ktmwan.net
+  servername: baidu.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4ff18004-8e47-4a8f-bc85-d317d888ed99
+  ws-opts:
+    headers:
+      Host: gtm1.ktmwan.net
     path: /

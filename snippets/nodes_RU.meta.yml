@@ -9,6 +9,13 @@ proxies:
   skip-cert-verify: true
   sni: ru2.nnvpn.io
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  country: 🇱🇻LV
+  name: '[SS] lvLV²_1|2.2MB/s|GPT⁺|YT-RU|D+|...'
+  password: 8afc633eb63227e9
+  port: 57456
+  server: lv.vpnsparta.pro
+  type: ss
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -16,18 +23,18 @@ proxies:
     headers: {}
     path:
     - /
-  name: '[VLESS] ruRU²_1|4.8MB/s|X|Succeed|[原生|...'
+  name: '[VLESS] ruRU²_1|0.5MB/s|GPT⁺|X|History...'
   network: tcp
-  port: 7443
+  port: 443
   reality-opts:
-    public-key: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA
-    short-id: '!!str fd88bd27db4cc661'
-  server: 45.139.26.152
-  servername: eh.vk.com
+    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+    short-id: '!!str 2476f063981ffd92'
+  server: 51.250.87.167
+  servername: api-maps.yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: 7fc953d6-ae75-46fb-a970-10b57d513487
+  uuid: 4371ad14-b981-4699-bedf-83fb79bde3e6
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
@@ -37,6 +44,19 @@ proxies:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   server: 158.160.135.161
   servername: api-maps.yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] RU_speednode_0023'
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 176.98.177.145
+  servername: fi.reality.tv123.ru
   skip-cert-verify: false
   tls: true
   type: vless
@@ -56,6 +76,19 @@ proxies:
   type: vless
   udp: true
   uuid: a2affe9a-685f-4063-b22a-27c615a83e74
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: '[VLESS] RU_speednode_0027'
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 51.250.93.152
+  servername: ya.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] RU_speednode_0032'
@@ -90,19 +123,6 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   server: 109.71.245.198
-  servername: fi.reality.tv123.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] RU_speednode_0033'
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: bridge2.pool.sssrvpn.pro
   servername: fi.reality.tv123.ru
   skip-cert-verify: false
   tls: true

@@ -41,65 +41,25 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: '[SS] sgSG_3|1.1MB/s'
+  name: '[SS] 新加坡4|@ripaojiedian'
   password: b637f2e47b7827b308ebf399008075d2
   port: 25819
   server: 223.95.183.132
   type: ss
-  udp: true
-- client-fingerprint: chrome
-  delay: 398
-  name: '[VLESS] usUS¹⁺_7|5.0MB/s|4%|GPT|GM|YT|...'
+- name: '[VLESS] sgSG_2|1.1MB/s'
   network: ws
   port: 443
-  server: 162.159.16.63
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
+  server: store.ubi.com
+  servername: kb.as129394.me
   tls: true
   type: vless
-  udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: l.ayovo.netlib.re
+      Host: kb.as129394.me
     max-early-data: 2560
     path: /
-- client-fingerprint: chrome
-  delay: 1261
-  name: '[VLESS] usUS¹⁺_6|2.5MB/s|4%|GPT⁺|GM|YT...'
-  network: ws
-  port: 443
-  server: cloudflare.182682.xyz
-  servername: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /
-- cipher: aes-128-gcm
-  name: '[SS] sgSG_4|1.7MB/s'
-  password: b637f2e47b7827b308ebf399008075d2
-  port: 45295
-  server: 223.95.183.132
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: '[SS] sgSG_5|1.4MB/s'
-  password: b637f2e47b7827b308ebf399008075d2
-  port: 28217
-  server: 223.95.183.132
-  type: ss
-- cipher: aes-128-gcm
-  name: '[SS] sgSG_6|1.1MB/s'
-  password: b637f2e47b7827b308ebf399008075d2
-  port: 39398
-  server: 223.95.183.132
-  type: ss
 - client-fingerprint: chrome
   delay: 744
   encryption: none

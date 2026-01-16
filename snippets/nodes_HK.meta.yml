@@ -1342,29 +1342,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[Trojan] hkHK_1|2.8MB/s'
-  password: 61d8077bfb174e171b8283f155a555ad
-  port: 443
-  server: 58.152.110.111
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[Trojan] hkHK_4|1.2MB/s'
-  password: 4843e94d205f3893f588255a591abe94
-  port: 443
-  server: 58.152.110.111
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[Trojan] hkHK²_5|7.0MB/s|2%|YT|D+|X|His...'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.219
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
+- cipher: auto
+  name: '[VLESS] hkHK_1|4.9MB/s'
+  network: none
+  port: 9527
+  server: 43.161.253.78
+  tls: false
+  type: vless
+  uuid: d4a23188-85b0-4b46-b84b-f1d36d66c03e
 - client-fingerprint: chrome
   name: '[Trojan] hkHK²_1|0.6MB/s|2%|YT|D+|X|His...'
   network: tcp
@@ -1373,5 +1358,14 @@ proxies:
   server: 58.152.53.219
   skip-cert-verify: true
   sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: '[Trojan] hkHK²_5|7.0MB/s|2%|YT|D+|X|His...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.219
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true

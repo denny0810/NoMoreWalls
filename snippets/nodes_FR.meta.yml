@@ -46,24 +46,22 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- name: '[Socks5] frFR²_1|3.4MB/s|0%|GPT⁺|X|Hist...'
+- cipher: aes-128-gcm
+  delay: 2441
+  name: '[SS] frFR²_1|8.5MB/s|52%|GPT⁺|TK|NF...'
+  password: be1c6eab-3d70-4cf0-ae9a-b3175c7dfb47
+  plugin: obfs
+  plugin-opts:
+    host: 9962b9147f2651d984febb6ba061f477.baidu.com
+    mode: http
+  port: 36611
+  server: gd.bjnet2.com
+  type: ss
+  udp: true
+- name: '[Socks5] frFR²_2|0.8MB/s|0%|GPT|X|Succe...'
   password: ''
   port: 1080
   server: 185.194.217.97
   skip-cert-verify: true
   type: socks5
   username: ''
-- cipher: aes-256-cfb
-  country: 🇫🇷 FR
-  name: '[SS] frFR²_2|4.7MB/s|GPT⁺|X|[原生|住宅拨...'
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 195.154.119.77
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇺🇸 US
-  name: '[SS] frFR²_3|5.5MB/s|1%|GPT⁺|TK|X|S...'
-  password: amazonskr05
-  port: 443
-  server: 13.38.30.95
-  type: ss

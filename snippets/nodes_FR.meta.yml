@@ -46,3 +46,34 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: UpdateService
+  name: '[VLESS] frFR²_2|5.8MB/s|8%|GPT⁺|YT-RU|...'
+  network: grpc
+  port: 2083
+  reality-opts:
+    public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
+    short-id: '!!str 6da16b1335651b38'
+  server: 213.176.73.206
+  servername: apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+  xudp: true
+- name: '[Socks5] frFR²_1|3.4MB/s|0%|GPT⁺|X'
+  password: ''
+  port: 1080
+  server: 185.194.217.97
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: '[Socks5] frFR²_3|1.5MB/s|X'
+  password: ''
+  port: 1080
+  server: 194.163.167.32
+  skip-cert-verify: true
+  type: socks5
+  username: ''

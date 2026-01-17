@@ -6,16 +6,22 @@ proxies:
   skip-cert-verify: true
   sni: douyin.com
   type: trojan
-- name: '[Socks5] KR2｜家宽｜高风险 (黑名单)'
+- delay: 1107
+  name: '[Socks5] sgSG²_1|0.6MB/s|0%|GPT⁺|X|Hist...'
   port: 1090
   server: 121.169.46.116
+  skip-cert-verify: true
   tls: false
   type: socks5
+  udp: true
   username: Og%3D%3D
-- name: '[Trojan] krKR_1|1.2MB/s'
-  password: 57af5c5b-ea86-443f-981e-146661e7ad2f
-  port: 49214
-  server: xiaozhu1.kkieo555.cn
+- name: '[Http] krKR_1|1.0MB/s'
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
   skip-cert-verify: true
-  sni: xiaozhu1.kkieo555.cn
-  type: trojan
+  sni: testkr3.ssv.vc
+  tls: true
+  type: http
+  udp: true
+  username: test

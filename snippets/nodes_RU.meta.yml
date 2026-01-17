@@ -15,7 +15,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: '[VLESS] plPL²_1|6.3MB/s|0%|GPT⁺|YT-RU|...'
+  name: '[VLESS] plPL²_1|0%|GPT⁺|YT-RU|X'
   network: tcp
   port: 443
   server: 144.31.0.64
@@ -25,22 +25,34 @@ proxies:
   udp: true
   uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
   xudp: true
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: '[VLESS] fiFI²_3|41%|GPT⁺|YT-RU|X'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
+    short-id: '!!str 58c512b4422e2517'
+  server: 78.153.139.68
+  servername: images.apple.com
+  tls: true
+  type: vless
+  uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
 - client-fingerprint: chrome
   encryption: none
-  grpc-opts:
-    grpc-service-name: UpdateService
-  name: '[VLESS] alAL²_1|4.7MB/s|17%|GPT⁺|YT-RU...'
-  network: grpc
-  port: 2083
-  reality-opts:
-    public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
-    short-id: '!!str 6da16b1335651b38'
-  server: 185.177.238.18
-  servername: apple.com
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] fiFI²_5|0%|GPT⁺|YT-RU|X|sinspi...'
+  network: tcp
+  port: 443
+  server: 144.31.90.215
+  servername: ficdn19.suio.me
   tls: true
   type: vless
   udp: true
-  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision

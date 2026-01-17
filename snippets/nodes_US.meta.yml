@@ -405,8 +405,7 @@ proxies:
   udp: true
   uuid: 147ccf68-ca08-4ce9-a507-b0f0d5af119c
 - client-fingerprint: chrome
-  delay: 877
-  name: '[VLESS] hkHK¹-US⁰_3|1.1MB/s|4%|GPT⁺|GM...'
+  name: '[VLESS] usUS_2|1.1MB/s'
   network: ws
   port: 443
   server: 104.18.185.26
@@ -423,9 +422,8 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  delay: 853
   encryption: none
-  name: '[VLESS] usUS¹⁺_7|2.2MB/s|GPT⁺|GM|YT|TK...'
+  name: '[VLESS] usUS_3|1002KB/s'
   network: ws
   port: 443
   server: 104.21.224.5
@@ -438,15 +436,14 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: l.ayovo.netlib.re
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.77 Safari/537.36
     max-early-data: 2560
     path: /
   xudp: true
 - client-fingerprint: chrome
-  delay: 2941
   encryption: none
-  name: '[VLESS] hkHK¹-US⁰_7|2.4MB/s|GPT⁺|YT|X|...'
+  name: '[VLESS] hkHK¹-US⁰_2|4%|GPT⁺|YT|X'
   network: ws
   port: 443
   server: 104.17.25.173
@@ -476,13 +473,113 @@ proxies:
   skip-cert-verify: true
   sni: xiaozhu1.kkieo555.cn
   type: trojan
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: '[SS] usUS²_1|54%|GPT⁺|GM|YT|X'
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.236
+  type: ss
 - client-fingerprint: chrome
-  delay: 1446
-  name: '[VLESS] hkHK¹-US⁰_1|1.8MB/s|GPT|YT|D+|...'
+  encryption: none
+  name: '[VLESS] trTR²_1|GPT⁺|YT-US|X|sinspired...'
+  network: ws
+  port: 2052
+  server: 25.25.25.25
+  type: vless
+  udp: true
+  uuid: 2d09b18d-d92f-4790-b519-13505060728d
+  ws-opts:
+    headers:
+      Host: you.nitronetwork.online
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_4|25%|GPT⁺|YT-US|X'
+  network: ws
+  port: 8880
+  server: clean.photoggenic.ir
+  type: vless
+  udp: true
+  uuid: 8e997404-cb62-4fa1-a8c9-c77a32f10153
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/55.0.2883.87 Safari/537.36
+    max-early-data: 8880
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: '[VLESS] hkHK¹-US⁰_1|4%|GPT⁺|YT|X'
   network: ws
   port: 443
-  server: 104.16.250.22
+  server: 43.161.222.233
+  servername: sni.meibidi.pp.ua
+  tls: true
+  type: vless
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.meibidi.pp.ua
+    max-early-data: 2560
+    path: /
+- cipher: aes-256-cfb
+  country: 🇻🇳VN
+  delay: 1607
+  name: '[SS] vnVN²_1|GPT⁺|YT-US|X'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.163
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] usUS²_2|3%|GPT⁺|GM|YT|X'
+  network: tcp
+  port: 10001
+  reality-opts:
+    public-key: 4jNz4Bw-FZlaX-WtfAdwK0hegY28W_k8AttGd-7hZn4
+    short-id: '!!str fb2c6678'
+  server: 156.229.161.107
+  servername: www.icloud.com
+  tls: true
+  type: vless
+  uuid: 9c79aceb-4649-44ea-9698-b5e9ecf6d6da
+- name: '[Http] usUS²_3|X|sinspired/subs-check'
+  password: ''
+  port: 10000
+  server: 104.129.203.247
+  skip-cert-verify: true
+  tls: false
+  type: http
+  username: ''
+- client-fingerprint: chrome
+  name: '[VLESS] hkHK¹-US⁰_3|4%|GPT⁺|YT|X'
+  network: ws
+  port: 8443
+  server: 104.17.102.95
+  servername: sni.meibidi.pp.ua
+  tls: true
+  type: vless
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.meibidi.pp.ua
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: '[VLESS] usUS¹⁺_1|4%|GPT⁺|GM|YT|X'
+  network: ws
+  port: 443
+  server: 162.159.44.142
   servername: l.ayovo.netlib.re
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -493,50 +590,48 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
-- encryption: none
-  name: '[VLESS] fiFI²_1|6.5MB/s|6%|GPT⁺|YT-US|...'
+- cipher: aes-256-cfb
+  name: '[SS] vnVN²_2|GPT⁺|YT-US|X'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.52
+  type: ss
+- client-fingerprint: chrome
+  name: '[VLESS] gbGB¹-US⁰_1|X'
   network: ws
-  port: 80
-  server: 146.75.119.82
+  port: 443
+  server: 50.62.172.9
+  servername: ww20.allxniu.qzz.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
   type: vless
-  udp: true
-  uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
+  uuid: e258977b-e413-4718-a3af-02d75492c349
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: welcomtofreeboarders.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    max-early-data: 2048
-    path: /ws/
-  xudp: true
+      Host: ww20.allxniu.qzz.io
+    max-early-data: 2560
+    path: /
 - client-fingerprint: chrome
-  delay: 2235
-  name: '[VLESS] fiFI²_5|6.3MB/s|6%|GPT⁺|YT-US|...'
+  name: '[VLESS] deDE²_7|GPT|YT-US|X'
   network: ws
-  port: 80
-  server: 146.75.119.82
-  servername: welcomtofreeboarders.com
-  tls: false
+  port: 2087
+  server: api.dark-coffe.com
+  servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: welcomtofreeboarders.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/68.0.3440.106 Safari/537.36
-    path: /ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
-  xudp: true
-- name: '[Socks5] usUS²_1|1.4MB/s|GPT⁺|X|Succeed'
-  password: ''
-  port: 1080
-  server: 174.138.61.184
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- delay: 2205
-  name: '[VLESS] usUS¹⁺_2|3.1MB/s|4%|GPT⁺|GM|YT...'
+      Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+    max-early-data: 2048
+    path: /
+- client-fingerprint: chrome
+  name: '[VLESS] usUS¹⁺_2|4%|GPT⁺|GM|YT|X'
   network: ws
   port: 443
   server: 162.159.44.142
@@ -549,83 +644,35 @@ proxies:
     headers:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] nlNL²_1|4.3MB/s|50%|GPT⁺|YT-US...'
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.200
-  type: ss
-- client-fingerprint: chrome
-  delay: 1439
+    path: /x-aniu/
+- client-fingerprint: random
   encryption: none
-  name: '[VLESS] hkHK¹-US⁰_5|9.1MB/s|4%|GPT⁺|YT...'
-  network: ws
+  flow: xtls-rprx-vision
+  name: '[VLESS] usUS²_4|67%|GPT|X'
+  network: tcp
   port: 443
-  server: v2.dabache.top
-  servername: sni.meibidi.pp.ua
+  server: s415.okgfwbackxyz.xyz
+  servername: u730537u99a3s415.okgfwbackxyz.xyz
   tls: true
   type: vless
   udp: true
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.meibidi.pp.ua
-    max-early-data: 2560
-    path: /
+  uuid: e32f9c43-b141-3d58-b879-15c6a402e119
   xudp: true
 - client-fingerprint: chrome
-  delay: 1518
-  name: '[VLESS] usUS¹⁺_8|0.6MB/s|4%|GPT⁺|GM|YT...'
+  name: '[VLESS] GB_speednode_0011'
   network: ws
-  port: 443
-  server: 104.21.227.134
-  servername: l.ayovo.netlib.re
+  port: 2053
+  server: 25.129.197.138
+  servername: khamenei.dpdns.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /
-- delay: 633
-  name: '[VLESS] usUS¹⁺_5|2.9MB/s|4%|GPT⁺|GM|YT...'
-  network: ws
-  port: 443
-  server: 162.159.45.232
-  servername: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  delay: 398
-  name: '[VLESS] hkHK¹-US⁰_6|11.1MB/s|4%|GPT⁺|Y...'
-  network: ws
-  port: 443
-  server: 162.159.16.63
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /
+      Host: khamenei.dpdns.org
+    path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
 - name: '[VLESS] US_speednode_0024'
   network: ws
   port: 443

@@ -58,7 +58,7 @@ proxies:
   port: 8388
   server: 194.87.10.161
   type: ss
-- name: '[VLESS] hkHK¹-KR⁰_1|4.7MB/s|D+|X|Histo...'
+- name: '[VLESS] sgSG_1|1.5MB/s'
   network: ws
   port: 443
   server: staticdelivery.nexusmods.com
@@ -72,6 +72,39 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: kb.as129394.me
+    max-early-data: 2560
+    path: /
+- name: '[Http] sgSG²_2|X|sinspired/subs-check'
+  password: ''
+  port: 9090
+  server: 128.199.113.85
+  skip-cert-verify: true
+  tls: false
+  type: http
+  username: ''
+- name: '[Http] sgSG²_3|X|sinspired/subs-check'
+  password: ''
+  port: 9090
+  server: 104.248.151.93
+  skip-cert-verify: true
+  tls: false
+  type: http
+  username: ''
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] 🏴‍☠_6新加坡-05'
+  network: ws
+  port: 443
+  server: 149.104.28.147
+  servername: ww24.sgxaniu.qzz.io
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: ww24.sgxaniu.qzz.io
     max-early-data: 2560
     path: /
 - name: '[VLESS] SG_speednode_0021'

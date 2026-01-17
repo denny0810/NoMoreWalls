@@ -60,11 +60,12 @@ proxies:
   type: ss
 - client-fingerprint: chrome
   delay: 364
-  name: '[VLESS] sgSG_1|1.6MB/s'
+  name: '[VLESS] usUS¹⁺_1|4.8MB/s|4%|GPT⁺|GM|YT...'
   network: ws
   port: 443
   server: 162.159.16.63
   servername: l.ayovo.netlib.re
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -76,7 +77,7 @@ proxies:
     max-early-data: 2560
     path: /
 - cipher: aes-128-gcm
-  name: '[SS] sgSG²_1|7.8MB/s|0%|YT|TK|NF|D+...'
+  name: '[SS] sgSG²_1|13.4MB/s|GPT⁺|YT|D+|X|...'
   password: fe9c3bb2-2372-47bf-bb4f-8faf65d435df
   plugin: obfs
   plugin-opts:
@@ -86,37 +87,7 @@ proxies:
   server: gd.bjnet2.com
   type: ss
   udp: true
-- encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_1|0.7MB/s|GPT⁺|YT|TK...'
-  network: ws
-  port: 80
-  server: 151.101.3.8
-  type: vless
-  udp: true
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-  ws-opts:
-    headers:
-      Host: mitivpn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/57.0.2987.133 Safari/537.36
-    path: /Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
-  xudp: true
-- encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_2|1.0MB/s|GPT⁺|YT|TK...'
-  network: ws
-  port: 80
-  server: 151.101.3.8
-  type: vless
-  udp: true
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-  ws-opts:
-    headers:
-      Host: mitivpn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /JoinPLANB_NETJoinPLANB_NETJoinPLANB_NET
-  xudp: true
-- name: '[VLESS] US_speednode_0044'
+- name: '[VLESS] sgSG¹-TR⁰_1|5.1MB/s|GPT⁺|GM|YT...'
   network: ws
   port: 80
   server: 151.101.3.8
@@ -130,8 +101,25 @@ proxies:
     headers:
       Host: mitivpn.global.ssl.fastly.net
     path: /@freeOnlineVPNV2rayAlphaV2rayAlphaV2rayAlpha
+- client-fingerprint: chrome
+  delay: 744
+  encryption: none
+  name: '[VLESS] sgSG¹-TR⁰_7|6.1MB/s|GPT|GM|YT|...'
+  network: ws
+  port: 80
+  server: 151.101.3.8
+  servername: mitivpn.global.ssl.fastly.net
+  tls: false
+  type: vless
+  udp: true
+  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
+  ws-opts:
+    headers:
+      Host: mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN
+  xudp: true
 - encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_4|1.0MB/s|GPT⁺|YT|TK...'
+  name: '[VLESS] sgSG¹-TR⁰_3|1.9MB/s|GPT⁺|GM|YT...'
   network: ws
   port: 80
   server: 151.101.3.8
@@ -146,7 +134,7 @@ proxies:
     path: /--@V2rayBaaz
   xudp: true
 - encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_5|6.0MB/s|GPT|YT|TK|...'
+  name: '[VLESS] sgSG¹-TR⁰_4|2.0MB/s|GPT⁺|YT|TK...'
   network: ws
   port: 80
   server: 151.101.3.8
@@ -156,11 +144,12 @@ proxies:
   ws-opts:
     headers:
       Host: mitivpn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /JoinPLANB_NETJoinPLANB_NETJoinPLANB_NET
   xudp: true
-- name: '[VLESS] US_speednode_0042'
+- encryption: none
+  name: '[VLESS] sgSG¹-TR⁰_8|7.8MB/s|GPT⁺|YT|TK...'
   network: ws
   port: 80
   server: 151.101.3.8
@@ -173,9 +162,12 @@ proxies:
   ws-opts:
     headers:
       Host: mitivpn.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
     path: /--@V2rayAlpha--V2rayAlpha--V2rayAlpha--V2rayAlpha
+  xudp: true
 - encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_7|13.7MB/s|GPT|YT|TK...'
+  name: '[VLESS] sgSG¹-TR⁰_6|8.2MB/s|GPT⁺|YT|TK...'
   network: ws
   port: 80
   server: 151.101.3.8
@@ -185,7 +177,7 @@ proxies:
   ws-opts:
     headers:
       Host: mitivpn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.112 Safari/537.36
-    path: /
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /--@v2rayngzendegimamadv2rayngzendegimamadv2rayngzendegimamadv2rayngzendegimamad
   xudp: true

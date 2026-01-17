@@ -1,5 +1,5 @@
 proxies:
-- name: '[Trojan] hkHK²_5|1.9MB/s|X|Succeed'
+- name: '[Trojan] hkHK²_6|0.7MB/s|2%|YT|NF|D+|X|...'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -8,13 +8,16 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: '[Trojan] HK13｜家宽｜非常安全'
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_4|15.6MB/s|2%|YT|NF|D+|X...'
+  network: tcp
   password: BxceQaOe
   port: 443
   server: 58.152.53.219
   skip-cert-verify: true
   sni: 58.152.53.219
   type: trojan
+  udp: true
 - name: '[Trojan] HK86｜机房｜低风险'
   password: 30077070-596e-48ea-9400-14c8ed07bd97
   port: 443
@@ -365,7 +368,7 @@ proxies:
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- name: '[Trojan] hkHK²_1|0.6MB/s|2%|YT|NF|D+|X|...'
+- name: '[Trojan] hkHK²_3|14.0MB/s|2%|YT|D+|X|Su...'
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 443
@@ -389,9 +392,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[Vmess] jpJP²_1|0.8MB/s|0%|GPT|GM|YT|N...'
+  name: '[Vmess] HK95｜原生/疑似家宽｜非常安全'
   network: ws
-  port: 12883
+  port: '12883'
   server: gtm1.ktmwan.net
   tls: false
   type: vmess
@@ -422,25 +425,19 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-gcm
-  name: '[SS] 香港2|@ripaojiedian'
-  password: OWsoMhOel+7mcZ+p
-  port: 8388
-  server: 91.149.236.182
-  type: ss
 - name: '[Trojan] 香港4|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 3830
-  server: 95.40.93.39
+  port: 4329
+  server: 13.115.134.113
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[Trojan] 香港5|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 3830
-  server: 95.40.53.47
+  port: 443
+  server: 58.152.110.50
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -454,10 +451,69 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[Trojan] hkHK_1|1.4MB/s'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.219
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf
+  name: '[SS] hkHK_3|1.3MB/s'
+  password: asd123456
+  port: 8388
+  server: 103.149.183.200
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: '[Vmess] hkHK_4|3.4MB/s'
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- country: 🇭🇰 HK
+  name: '[Trojan] hkHK²_1|6.1MB/s|2%|YT|NF|D+|X|...'
+  network: tcp
+  password: 4843e94d205f3893f588255a591abe94
+  port: 443
+  server: 58.152.18.147
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
   country: 🇪🇸ES
-  name: '[SS] hkHK²_6|1.2MB/s|0%|X|Succeed|[...'
+  name: '[SS] hkHK²_7|1.5MB/s|0%|X|Succeed|[...'
   password: 7e1dd4c55bf85da5
   port: 60129
   server: 212.192.15.59
   type: ss
+- country: 🇭🇰 HK
+  name: '[Trojan] hkHK²_8|16.5MB/s|2%|YT|NF|D+|X...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.219
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇸🇬SG
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] hkHK²_9|7.3MB/s|YT|NF|X|Histor...'
+  network: none
+  port: 51000
+  server: 8.217.90.175
+  skip-cert-verify: true
+  type: vmess
+  uuid: 6c82a994-b6ba-48ca-f2ed-11288fe4913b

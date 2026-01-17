@@ -15,31 +15,41 @@ proxies:
 - name: '[Trojan] 新加坡|@ripaojiedian'
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
-  port: 3901
-  server: 160.16.85.33
+  port: 3076
+  server: 160.16.87.174
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 新加坡2|@ripaojiedian'
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
-  port: 544
-  server: 160.16.130.21
+  port: 3901
+  server: 160.16.72.33
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] US_speednode_0036'
+- name: '[Trojan] 新加坡3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
   port: 3579
-  server: 54.46.50.46
+  server: 57.180.49.42
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-  udp: true
-- cipher: aes-128-gcm
+- cipher: aes-256-gcm
   name: '[SS] 新加坡4|@ripaojiedian'
-  password: b637f2e47b7827b308ebf399008075d2
-  port: 25819
-  server: 223.95.183.132
+  password: d2umVadPT1m/FwIn
+  port: 8388
+  server: 194.87.10.161
   type: ss
+- cipher: aes-128-gcm
+  name: '[SS] sgSG²_1|7.8MB/s|0%|YT|TK|NF|D+...'
+  password: fe9c3bb2-2372-47bf-bb4f-8faf65d435df
+  plugin: obfs
+  plugin-opts:
+    host: b271059bbc28a2b13e554ab1b4a88eb0.baidu.com
+    mode: http
+  port: 36604
+  server: gd.bjnet2.com
+  type: ss
+  udp: true

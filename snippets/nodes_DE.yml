@@ -61,26 +61,23 @@ proxies:
     path: '%2Fagrbniuh'
 - alterId: 0
   cipher: auto
-  name: '[Vmess] DE151｜机房｜低风险'
+  country: 🇺🇸 US
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_4|6.2MB/s|29%|GPT⁺|YT-CN...'
   network: tcp
-  port: '180'
+  port: 180
   server: 82.198.246.97
+  servername: trojan.burgerip.co.uk
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- country: 🇩🇪DE
-  name: '[Trojan] deDE²_2|2.1MB/s|1%|GPT⁺|X|Succ...'
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.185.219.138
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
   udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
 - alterId: 0
   cipher: auto
-  name: '[Vmess] deDE²_15|0.5MB/s|0%|GPT|X|[广播|...'
+  name: '[Vmess] deDE²_2|0.6MB/s|0%|GPT⁺|X'
   network: ws
   port: 29578
   server: 5.83.150.108
@@ -89,19 +86,24 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 12929592-a7bd-41eb-ab4d-d804f76c4ff9
+  uuid: 254551f6-ec28-4938-ad0e-0aa4aa1965ec
   ws-opts:
     headers:
       Host: imafake.locker
     path: /speedtest
   xudp: true
-- country: 🇩🇪DE
-  name: '[Trojan] deDE²_17|5.9MB/s|1%|GPT⁺|X|Suc...'
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] deDE²_18|1.4MB/s|GPT⁺|TK|NF|X|...'
   network: tcp
-  password: telegram-id-directvpn
-  port: 22223
-  server: 18.185.219.138
+  port: 30833
+  server: v33.hdacd.com
+  servername: v33.hdacd.com
   skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /

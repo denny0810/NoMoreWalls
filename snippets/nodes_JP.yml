@@ -1,11 +1,14 @@
 proxies:
-- name: '[Trojan] JP29｜机房｜低风险'
+- country: 🇺🇸US
+  name: '[Trojan] jpJP²_1|0.7MB/s|4%|GPT⁺|GM|YT|...'
+  network: tcp
   password: 30077070-596e-48ea-9400-14c8ed07bd97
   port: 443
   server: tuntro003.instconn.com
   skip-cert-verify: true
   sni: login-staticjpc.jasmine-douyin.top
   type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: '[Vmess] JP3｜原生/疑似家宽｜非常安全'
@@ -125,13 +128,19 @@ proxies:
   uuid: 07ab3c93-9e74-4109-9d10-f0ff5f761661
 - alterId: 0
   cipher: auto
-  name: '[Vmess] JP23｜原生/疑似家宽｜非常安全'
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] jpJP²_2|11.3MB/s|3%|GPT⁺|GM|YT...'
   network: tcp
-  port: '49303'
+  port: 49303
   server: cees.owwoedu.com
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 32946f08-ae20-41c8-bf44-44cfc6656137
+  xudp: true
 - alterId: 0
   cipher: auto
   name: '[Vmess] JP24｜原生/疑似家宽｜非常安全'
@@ -143,9 +152,9 @@ proxies:
   uuid: 8e48405f-d44f-4a42-9166-2da043e42008
 - alterId: 0
   cipher: auto
-  name: '[Vmess] jpJP²_2|1.0MB/s|X'
+  name: '[Vmess] JP26｜原生/疑似家宽｜非常安全'
   network: tcp
-  port: 49303
+  port: '49303'
   server: cees.owwoedu.com
   tls: false
   type: vmess
@@ -172,7 +181,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 2053
-  server: 13.115.245.96
+  server: 52.195.185.240
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -180,7 +189,7 @@ proxies:
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 1933
-  server: 160.16.130.21
+  server: 160.16.87.174
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -188,30 +197,7 @@ proxies:
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 4006
-  server: 160.16.105.192
+  server: 160.16.87.174
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- cipher: aes-128-gcm
-  name: '[SS] 日本4|@ripaojiedian'
-  password: b637f2e47b7827b308ebf399008075d2
-  port: 26334
-  server: 223.95.183.132
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] jpJP²_3|14.4MB/s|0%|GPT|GM|YT|...'
-  network: ws
-  port: 12883
-  server: gtm1.ktmwan.net
-  servername: baidu.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 4ff18004-8e47-4a8f-bc85-d317d888ed99
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /

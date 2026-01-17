@@ -31,50 +31,92 @@ proxies:
 - name: '[Trojan] 新加坡|@ripaojiedian'
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
-  port: 3901
-  server: 160.16.85.33
+  port: 3076
+  server: 160.16.87.174
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 新加坡2|@ripaojiedian'
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
-  port: 544
-  server: 160.16.130.21
+  port: 3901
+  server: 160.16.72.33
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] US_speednode_0036'
+- name: '[Trojan] 新加坡3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
   port: 3579
-  server: 54.46.50.46
+  server: 57.180.49.42
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-  udp: true
-- cipher: aes-128-gcm
+- cipher: aes-256-gcm
   name: '[SS] 新加坡4|@ripaojiedian'
-  password: b637f2e47b7827b308ebf399008075d2
-  port: 25819
-  server: 223.95.183.132
+  password: d2umVadPT1m/FwIn
+  port: 8388
+  server: 194.87.10.161
   type: ss
 - client-fingerprint: chrome
-  name: '[VLESS] sgSG_1|1.1MB/s'
+  delay: 364
+  name: '[VLESS] sgSG_1|1.6MB/s'
   network: ws
-  port: 2053
-  server: 1357900.xyz
-  servername: sss.ifree.int.yt
+  port: 443
+  server: 162.159.16.63
+  servername: l.ayovo.netlib.re
   tls: true
   type: vless
   udp: true
-  uuid: 69699799-6abc-b931-6c1d-b5008b031e1c
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
+- cipher: aes-128-gcm
+  name: '[SS] sgSG²_1|7.8MB/s|0%|YT|TK|NF|D+...'
+  password: fe9c3bb2-2372-47bf-bb4f-8faf65d435df
+  plugin: obfs
+  plugin-opts:
+    host: b271059bbc28a2b13e554ab1b4a88eb0.baidu.com
+    mode: http
+  port: 36604
+  server: gd.bjnet2.com
+  type: ss
+  udp: true
+- encryption: none
+  name: '[VLESS] sgSG¹-TR⁰_1|0.7MB/s|GPT⁺|YT|TK...'
+  network: ws
+  port: 80
+  server: 151.101.3.8
+  type: vless
+  udp: true
+  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
   ws-opts:
     headers:
-      Host: sss.ifree.int.yt
-    path: /proxyip=sjc.o00o.ooo
+      Host: mitivpn.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/57.0.2987.133 Safari/537.36
+    path: /Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
+  xudp: true
 - encryption: none
-  name: '[VLESS] US_speednode_0044'
+  name: '[VLESS] sgSG¹-TR⁰_2|1.0MB/s|GPT⁺|YT|TK...'
+  network: ws
+  port: 80
+  server: 151.101.3.8
+  type: vless
+  udp: true
+  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
+  ws-opts:
+    headers:
+      Host: mitivpn.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /JoinPLANB_NETJoinPLANB_NETJoinPLANB_NET
+  xudp: true
+- name: '[VLESS] US_speednode_0044'
   network: ws
   port: 80
   server: 151.101.3.8
@@ -88,9 +130,8 @@ proxies:
     headers:
       Host: mitivpn.global.ssl.fastly.net
     path: /@freeOnlineVPNV2rayAlphaV2rayAlphaV2rayAlpha
-  xudp: true
 - encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_2|5.1MB/s|GPT⁺|GM|YT...'
+  name: '[VLESS] sgSG¹-TR⁰_4|1.0MB/s|GPT⁺|YT|TK...'
   network: ws
   port: 80
   server: 151.101.3.8
@@ -105,7 +146,7 @@ proxies:
     path: /--@V2rayBaaz
   xudp: true
 - encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_3|12.7MB/s|GPT⁺|YT|D...'
+  name: '[VLESS] sgSG¹-TR⁰_5|6.0MB/s|GPT|YT|TK|...'
   network: ws
   port: 80
   server: 151.101.3.8
@@ -115,18 +156,16 @@ proxies:
   ws-opts:
     headers:
       Host: mitivpn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/57.0.2987.133 Safari/537.36
-    path: /Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN
   xudp: true
-- client-fingerprint: chrome
-  delay: 744
-  encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_6|8.4MB/s|GPT|GM|YT|...'
+- name: '[VLESS] US_speednode_0042'
   network: ws
   port: 80
   server: 151.101.3.8
   servername: mitivpn.global.ssl.fastly.net
+  skip-cert-verify: false
   tls: false
   type: vless
   udp: true
@@ -134,10 +173,9 @@ proxies:
   ws-opts:
     headers:
       Host: mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN
-  xudp: true
+    path: /--@V2rayAlpha--V2rayAlpha--V2rayAlpha--V2rayAlpha
 - encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_7|3.6MB/s|GPT|GM|YT|...'
+  name: '[VLESS] sgSG¹-TR⁰_7|13.7MB/s|GPT|YT|TK...'
   network: ws
   port: 80
   server: 151.101.3.8
@@ -147,74 +185,7 @@ proxies:
   ws-opts:
     headers:
       Host: mitivpn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /--@v2rayngzendegimamadv2rayngzendegimamadv2rayngzendegimamadv2rayngzendegimamad
-  xudp: true
-- encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_8|10.4MB/s|GPT⁺|GM|Y...'
-  network: ws
-  port: 80
-  server: 151.101.3.8
-  type: vless
-  udp: true
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-  ws-opts:
-    headers:
-      Host: mitivpn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.112 Safari/537.36
     path: /
-  xudp: true
-- name: '[Socks5] sgSG²_1|11.1MB/s|GPT|X|History'
-  password: ''
-  port: 1080
-  server: 165.22.110.253
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_10|3.1MB/s|GPT⁺|YT|D...'
-  network: ws
-  port: 80
-  server: 151.101.3.8
-  type: vless
-  udp: true
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-  ws-opts:
-    headers:
-      Host: mitivpn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /JoinPLANB_NETJoinPLANB_NETJoinPLANB_NET
-  xudp: true
-- encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_11|9.0MB/s|GPT⁺|GM|Y...'
-  network: ws
-  port: 80
-  server: 151.101.3.8
-  type: vless
-  udp: true
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-  ws-opts:
-    headers:
-      Host: mitivpn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Chrome/12.0.742.100 Safari/534.30
-    path: /--
-  xudp: true
-- encryption: none
-  name: '[VLESS] sgSG¹-TR⁰_12|2.9MB/s|GPT⁺|GM|Y...'
-  network: ws
-  port: 80
-  server: 151.101.3.8
-  type: vless
-  udp: true
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-  ws-opts:
-    headers:
-      Host: mitivpn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /---@V2rayBaaz
   xudp: true

@@ -1,9 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[Vmess] caCA²_2|1.5MB/s|26%|GPT⁺|X|[广播...'
+  name: '[Vmess] CA1｜机房｜低风险'
   network: ws
-  port: 12897
+  port: '12897'
   server: gtm1.ktmwan.net
   tls: false
   type: vmess
@@ -12,20 +12,13 @@ proxies:
     headers:
       Host: baidu.com
     path: /
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] caCA²_3|4.0MB/s|26%|GPT|X|[广播|...'
-  network: ws
-  port: 12897
-  server: gtm1.ktmwan.net
-  servername: baidu.com
+- country: 🇺🇸US
+  name: '[Trojan] caCA²_1|2.2MB/s|4%|GPT⁺|X|[广播|...'
+  network: tcp
+  password: 30077070-596e-48ea-9400-14c8ed07bd97
+  port: 443
+  server: tuntro006.instconn.com
   skip-cert-verify: true
-  type: vmess
-  uuid: 4ff18004-8e47-4a8f-bc85-d317d888ed99
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
+  sni: torontorm1.686911.xyz
+  type: trojan
+  udp: true

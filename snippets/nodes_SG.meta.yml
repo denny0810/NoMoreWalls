@@ -31,37 +31,31 @@ proxies:
 - name: '[Trojan] 新加坡|@ripaojiedian'
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
-  port: 3076
-  server: 160.16.87.174
+  port: 3901
+  server: 160.16.150.76
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 新加坡2|@ripaojiedian'
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
-  port: 3901
-  server: 160.16.72.33
+  port: 544
+  server: 160.16.150.76
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 新加坡3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 3579
-  server: 57.180.49.42
+  port: 804
+  server: 52.196.143.203
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- cipher: aes-256-gcm
-  name: '[SS] 新加坡4|@ripaojiedian'
-  password: d2umVadPT1m/FwIn
-  port: 8388
-  server: 194.87.10.161
-  type: ss
 - client-fingerprint: chrome
   delay: 1439
   encryption: none
-  name: '[VLESS] hkHK¹-US⁰_1|16.6MB/s|4%|GPT⁺|Y...'
+  name: '[VLESS] hkHK¹-US⁰_5|15.3MB/s|4%|GPT⁺|N...'
   network: ws
   port: 443
   server: v2.dabache.top
@@ -81,7 +75,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] usUS¹⁺_5|5.0MB/s|4%|GPT|YT|TK|...'
+  name: '[VLESS] usUS¹⁺_1|13.7MB/s|4%|GPT⁺|YT|D...'
   network: ws
   port: 443
   server: 162.159.16.63
@@ -99,26 +93,36 @@ proxies:
     max-early-data: 2560
     path: /
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] usUS¹⁺_2|0.9MB/s|4%|GPT⁺|YT|TK...'
+- name: '[VLESS] sgSG_3|2.7MB/s'
   network: ws
   port: 443
-  server: cloudflare.182682.xyz
-  servername: l.ayovo.netlib.re
+  server: 8.35.211.39
+  servername: cf.ldy2023.eu.org
   tls: true
   type: vless
   udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  uuid: 80d6cbef-6f0d-4e80-b9d0-d000d052119f
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: l.ayovo.netlib.re
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      Host: cf.ldy2023.eu.org
     max-early-data: 2560
     path: /
-  xudp: true
+- name: '[VLESS] sgSG_4|2.1MB/s'
+  network: ws
+  port: 2053
+  server: 172.64.147.41
+  servername: cf.ldy2023.eu.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 80d6cbef-6f0d-4e80-b9d0-d000d052119f
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cf.ldy2023.eu.org
+    max-early-data: 2560
+    path: /
 - name: '[VLESS] SG_speednode_0021'
   network: ws
   port: 443

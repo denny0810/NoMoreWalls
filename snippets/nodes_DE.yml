@@ -1,9 +1,12 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[Vmess] DE140｜机房｜低风险'
+  client-fingerprint: chrome
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_1|6.1MB/s|29%|GPT⁺|NF|X|...'
   network: tcp
-  port: '180'
+  port: 180
   server: 82.198.246.97
   tls: false
   type: vmess
@@ -32,3 +35,25 @@ proxies:
     headers:
       Host: nodes.830901.xyz
     path: '%2F%3Fed%3D2560'
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] deDE²_9|1.4MB/s|GPT⁺|X'
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  country: 🇩🇪DE
+  name: '[Trojan] deDE²_10|6.5MB/s|1%|GPT⁺|NF|X|...'
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22223
+  server: 3.121.254.171
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true

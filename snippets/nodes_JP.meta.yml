@@ -50,50 +50,41 @@ proxies:
   port: 20291
   server: 167.17.179.197
   type: ss
-- name: '[VLESS] jpJP_1|1.4MB/s'
+- client-fingerprint: chrome
+  delay: 430
+  encryption: none
+  name: '[VLESS] usUS¹⁺_3|3.5MB/s|4%|GPT⁺|GM|YT...'
   network: ws
-  port: 2096
-  server: 172.64.229.220
-  servername: sni.meibidi.pp.ua
+  port: 443
+  server: 162.159.44.142
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.meibidi.pp.ua
-    max-early-data: 2560
-    path: /
-- name: '[VLESS] jpJP_2|2.0MB/s'
-  network: ws
-  port: 2096
-  server: saas.sin.fan
-  servername: sni.meibidi.pp.ua
-  tls: true
-  type: vless
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.meibidi.pp.ua
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  name: '[VLESS] jpJP_3|1.2MB/s'
-  network: ws
-  port: 443
-  server: 162.159.45.232
-  servername: l.ayovo.netlib.re
-  tls: true
-  type: vless
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
-    path: /x-aniu/
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] jpJP_2|3.3MB/s'
+  network: tcp
+  port: 27724
+  reality-opts:
+    public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
+    short-id: '!!str '
+  server: 116.80.44.144
+  servername: www.yahoo.co.jp
+  tls: true
+  type: vless
+  udp: true
+  uuid: ebd8539d-e249-4a39-8f90-e8585e8cc35e
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] JP_speednode_0018'

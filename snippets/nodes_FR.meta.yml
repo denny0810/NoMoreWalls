@@ -48,30 +48,59 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  country: 🇫🇷FR
-  name: '[Trojan] frFR²_1|5.6MB/s|1%|GPT⁺|X|Succ...'
+  encryption: none
+  name: '[VLESS] frFR²_1|6.5MB/s|43%|GPT⁺|YT-US...'
   network: tcp
-  password: telegram-id-directvpn
-  port: 22223
-  server: 15.236.223.157
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
+  port: 3032
+  reality-opts:
+    public-key: 21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI
+    short-id: '!!str '
+  server: fr.locations-service.com
+  servername: refersion.com
+  tls: true
+  type: vless
   udp: true
-- name: '[Socks5] frFR²_3|5.9MB/s|0%|GPT|X|Succe...'
+  uuid: e59083aa-d933-4952-8cf0-eec74f718705
+  xudp: true
+- alpn:
+  - h3
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] frFR_2|2.4MB/s'
+  network: ws
+  port: 443
+  server: 104.21.43.168
+  servername: Ggjd.digikala.lat
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2744521-78b7-4c24-86f2-4f751d1cb7bf
+  ws-opts:
+    headers:
+      Host: private.digikala.lat
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /
+  xudp: true
+- name: '[Socks5] frFR²_2|6.7MB/s|0%|GPT⁺|X'
+  password: ''
+  port: 43145
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: '[Socks5] frFR²_3|2.2MB/s|0%|GPT⁺|X'
+  password: ''
+  port: 10523
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: '[Socks5] frFR²_4|3.4MB/s|0%|GPT⁺|X|Succ...'
   password: ''
   port: 1080
   server: 185.194.217.97
   skip-cert-verify: true
   type: socks5
   username: ''
-- client-fingerprint: chrome
-  country: 🇫🇷FR
-  name: '[Trojan] frFR²_4|5.7MB/s|1%|GPT⁺|X|[广播|...'
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 15.236.223.157
-  skip-cert-verify: true
-  type: trojan
-  udp: true

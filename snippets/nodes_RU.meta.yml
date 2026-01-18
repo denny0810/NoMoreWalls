@@ -3,7 +3,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: UpdateService
-  name: '[VLESS] ruRU²_1|1.4MB/s|YT|TK|X|Succee...'
+  name: '[VLESS] ruRU²_1|1.8MB/s|YT|TK|X|Succee...'
   network: grpc
   port: 2083
   reality-opts:
@@ -18,55 +18,18 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] ruRU²_2|2.5MB/s|GPT|X|Succeed|...'
-  network: tcp
-  port: 443
+  grpc-opts:
+    grpc-service-name: UpdateService
+  name: '[VLESS] ruRU_2|2.1MB/s'
+  network: grpc
+  port: 2083
   reality-opts:
-    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: '!!str 4b523a98e1bbd15b'
-  server: 84.252.139.253
-  servername: sun6-21.userapi.com
+    public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
+    short-id: '!!str 6da16b1335651b38'
+  server: 79.174.92.44
+  servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: f22c9b63-f93b-4650-80d7-937c5422c471
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] ruRU²_3|3.1MB/s|X|Succeed|[原生|...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: LHcascaxOxugVSALgsYx46nB-vuhT7ANOneu0xb6SzQ
-    short-id: '!!str 3b25133dd9e5c23f'
-  server: 146.185.208.60
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7d39c92f-abae-46ff-a669-9e4d1e7e8a62
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] RU_speednode_0019'
-  port: 443
-  reality-opts:
-    public-key: rmjxUM7tGXK1tCx9DN6LujbEflBHixsg8oTsVrdTrDM
-    short-id: '!!str a28842ab2911096b'
-  server: 91.217.10.68
-  servername: kz.fasti.win
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0d93b787-b66b-4696-a036-a0f549764f69

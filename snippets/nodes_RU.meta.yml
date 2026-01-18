@@ -1,45 +1,12 @@
 proxies:
 - client-fingerprint: chrome
   encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] plPL²_1|5.7MB/s|0%|GPT⁺|YT-RU|...'
-  network: tcp
-  port: 443
-  server: 144.31.0.64
-  servername: plcdn1.suio.me
-  tls: true
-  type: vless
-  udp: true
-  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: UpdateService
-  name: '[VLESS] ruRU²_1|5.6MB/s|YT|TK|X|Succee...'
-  network: grpc
-  port: 2083
-  reality-opts:
-    public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
-    short-id: '!!str 6da16b1335651b38'
-  server: 95.163.209.178
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
   http-opts:
     headers: {}
     path:
     - /
-  name: '[VLESS] ruRU²_2|3.6MB/s|GPT|X|Succeed|...'
+  name: '[VLESS] ruRU²_1|4.1MB/s|GPT⁺|X|Succeed...'
   network: tcp
   port: 443
   reality-opts:
@@ -52,16 +19,64 @@ proxies:
   udp: true
   uuid: f22c9b63-f93b-4650-80d7-937c5422c471
   xudp: true
-- client-fingerprint: random
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: '[VLESS] fiFI²_9|2.5MB/s|41%|GPT⁺|YT-RU...'
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] aeAE²_1|5.7MB/s|YT-RU|X|Histor...'
   network: tcp
-  port: 8443
+  port: 443
   reality-opts:
-    public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
-    short-id: '!!str 58c512b4422e2517'
-  server: 78.153.139.68
-  servername: images.apple.com
+    public-key: LHcascaxOxugVSALgsYx46nB-vuhT7ANOneu0xb6SzQ
+    short-id: '!!str 3b25133dd9e5c23f'
+  server: 146.185.208.60
+  servername: max.ru
   tls: true
   type: vless
-  uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
+  udp: true
+  uuid: 7d39c92f-abae-46ff-a669-9e4d1e7e8a62
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: UpdateService
+  name: '[VLESS] ruRU²_3|2.1MB/s|YT|TK|X|Histor...'
+  network: grpc
+  port: 2083
+  reality-opts:
+    public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
+    short-id: '!!str 6da16b1335651b38'
+  server: 79.174.92.44
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+  xudp: true
+- name: '[Socks5] ruRU²_2|0.6MB/s|X'
+  password: ''
+  port: 1080
+  server: 84.252.70.254
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: UpdateService
+  name: '[VLESS] ruRU²_4|3.5MB/s|YT|TK|X|Succee...'
+  network: grpc
+  port: 2083
+  reality-opts:
+    public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
+    short-id: '!!str 6da16b1335651b38'
+  server: 95.163.209.178
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+  xudp: true

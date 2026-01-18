@@ -1,34 +1,25 @@
 proxies:
-- alpn:
-  - h2
-  - http/1.1
-  name: '[Trojan] RU10｜商宽｜非常安全'
-  password: yUHNMwWvenoHBaN5CtqKPwt1CTzXgW
-  port: 443
-  server: ru2.nnvpn.io
-  skip-cert-verify: true
-  sni: ru2.nnvpn.io
-  type: trojan
 - client-fingerprint: chrome
   encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] plPL²_1|6.1MB/s|0%|GPT⁺|YT-RU|...'
-  network: tcp
-  port: 443
-  server: 144.31.0.64
-  servername: plcdn1.suio.me
+  grpc-opts:
+    grpc-service-name: UpdateService
+  name: '[VLESS] ruRU²_1|4.9MB/s|YT|TK|X|Histor...'
+  network: grpc
+  port: 2083
+  reality-opts:
+    public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
+    short-id: '!!str 6da16b1335651b38'
+  server: 95.163.209.178
+  servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
   xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[VLESS] inIN²_1|4.0MB/s|GPT⁺|YT-RU|X|[...'
+  name: '[VLESS] inIN²_1|1.1MB/s|GPT⁺|YT-RU|X|S...'
   network: tcp
   port: 4443
   reality-opts:
@@ -43,9 +34,29 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] czCZ²_1|6.0MB/s|YT-RU|D+|X|[原生...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: LHcascaxOxugVSALgsYx46nB-vuhT7ANOneu0xb6SzQ
+    short-id: '!!str 3b25133dd9e5c23f'
+  server: 146.185.208.60
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7d39c92f-abae-46ff-a669-9e4d1e7e8a62
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
   grpc-opts:
     grpc-service-name: UpdateService
-  name: '[VLESS] ruRU²_1|4.5MB/s|YT|TK|X|Succee...'
+  name: '[VLESS] ruRU²_2|4.4MB/s|YT|TK|X|Succee...'
   network: grpc
   port: 2083
   reality-opts:
@@ -57,4 +68,24 @@ proxies:
   type: vless
   udp: true
   uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] ruRU²_3|3.0MB/s|GPT⁺|X|[原生|机房]'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+    short-id: '!!str 4b523a98e1bbd15b'
+  server: 84.252.139.253
+  servername: sun6-21.userapi.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f22c9b63-f93b-4650-80d7-937c5422c471
   xudp: true

@@ -232,22 +232,33 @@ proxies:
   type: trojan
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: '[SS] usUS²_1|4.7MB/s|54%|GPT⁺|GM|YT...'
+  name: '[SS] usUS²_1|5.5MB/s|54%|GPT⁺|GM|YT...'
   password: shadowsocks
   port: 443
   server: 37.19.198.236
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇳🇱 NL
-  name: '[SS] nlNL²_3|6.2MB/s|50%|GPT⁺|YT-US...'
+  name: '[SS] nlNL²_3|5.9MB/s|50%|GPT⁺|YT-US...'
   password: QCXDxuDlTTMD7jtgHUjIoj
   port: 8080
   server: 151.242.251.153
   type: ss
-- cipher: aes-128-gcm
+- cipher: chacha20-ietf-poly1305
   country: 🇺🇸US
-  name: '[SS] usUS²_2|5.5MB/s|GPT⁺|GM|YT|NF|...'
-  password: shadowsocks
+  name: '[SS] cyCY²_1|5.3MB/s|22%|GPT⁺|YT-US...'
+  password: l668XHPejoSNNuD66BYzyehaCpZexiF7
   port: 443
-  server: 173.244.56.6
+  server: 45.12.136.170
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇱🇹 LT
+  name: '[SS] usUS²_3|5.9MB/s|28%|GPT⁺|GM|YT...'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: e7b7ab7:102816
+    mode: tls
+  port: 2377
+  server: 95.174.71.98
   type: ss

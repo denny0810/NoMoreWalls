@@ -1,10 +1,12 @@
 proxies:
-- name: '[Socks5] DE108｜原生/疑似家宽｜高风险 (黑名单)'
+- name: '[Socks5] 🏴‍☠_2🏴‍☠_1193.233.254.7:1080-0...'
+  password: ''
   port: 1080
   server: 193.233.254.7
+  skip-cert-verify: true
   tls: false
   type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
+  username: ''
 - name: '[Socks5] RU_speednode_0020'
   port: 1080
   server: 193.233.254.8
@@ -12,7 +14,7 @@ proxies:
   type: socks5
   udp: true
   username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
-- name: '[Socks5] 🏴‍☠_2🏴‍☠_4193.233.254.9:1080-0...'
+- name: '[Socks5] 🏴‍☠_1🏴‍☠_2🏴‍☠_4193.233.254.9:1...'
   password: ''
   port: 1080
   server: 193.233.254.9
@@ -53,7 +55,7 @@ proxies:
     headers:
       Host: nodes.830901.xyz
     path: '%2F%3Fed%3D2560'
-- name: '[Hysteria2] deDE²_7|3.6MB/s|18%|GPT⁺|YT|TK...'
+- name: '[Hysteria2] DE144｜机房｜低风险'
   password: 7424db1f-ba68-496d-9426-4018b6a3a23c
   port: 4433
   server: de3.xiaoliyu.cyou
@@ -78,66 +80,47 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE²_1|7.0MB/s|X|History'
+  name: '[VLESS] IR_speednode_0017'
   network: ws
-  port: 8443
+  port: 80
+  server: 185.143.233.235
+  servername: oon.visaups.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 087d8602-503b-4091-9f05-44c20792083c
+  ws-opts:
+    headers:
+      Host: oon.visaups.ir
+    path: /
+- client-fingerprint: chrome
+  delay: 2189
+  name: '[VLESS] deDE²_2|7.8MB/s|X|Succeed'
+  network: ws
+  port: 2096
   server: 5.10.214.0
-  servername: TjLwH7cTdH.sMaRtTeChZaAl.InFo
+  servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
   tls: true
   type: vless
-  udp: true
   uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
   ws-opts:
     headers:
-      Host: TjLwH7cTdH.sMaRtTeChZaAl.InFo
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
+      Host: TzS7v35LfD.sMaRtTeChZaAl.InFo
     path: /
-  xudp: true
+- name: '[Socks5] deDE²_3|5.6MB/s|GPT⁺|X|Succeed'
+  password: ''
+  port: 1080
+  server: 161.35.31.237
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE²_2|6.9MB/s|GPT⁺|X|History...'
-  network: ws
-  port: 443
-  server: 5.10.214.5
-  servername: GfV5t2331T.sMaRtTeChZaAl.InFo
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  ws-opts:
-    headers:
-      Host: GfV5t2331T.sMaRtTeChZaAl.InFo
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE²_3|6.4MB/s|GPT⁺|X'
-  network: ws
-  port: 443
-  server: api.dark-coffe.com
-  servername: GfV5t2331T.sMaRtTeChZaAl.InFo
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  ws-opts:
-    headers:
-      Host: GfV5t2331T.sMaRtTeChZaAl.InFo
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '[VLESS] deDE²_4|0.6MB/s|25%|GPT⁺|X|[原生...'
+  name: '[VLESS] deDE²_4|0.6MB/s|25%|GPT⁺|X|His...'
   network: ws
   port: 8880
   server: clean.photoggenic.ir
-  servername: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
-  tls: false
   type: vless
   udp: true
   uuid: 8e997404-cb62-4fa1-a8c9-c77a32f10153
@@ -145,30 +128,16 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/55.0.2883.87 Safari/537.36
     max-early-data: 8880
     path: /
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] atAT²_2|4.5MB/s|18%|GPT⁺|YT-DE...'
-  network: grpc
-  port: 22955
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: 152.53.51.29
-  servername: one-piece.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
   xudp: true
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: '[VLESS] deDE²_5|7.4MB/s|11%|GPT⁺|YT|TK...'
+  name: '[VLESS] deDE²_5|6.4MB/s|11%|GPT⁺|YT|TK...'
   network: grpc
   port: 22955
   reality-opts:
@@ -182,38 +151,7 @@ proxies:
   uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
   xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] atAT²_3|3.2MB/s|18%|GPT⁺|YT-DE...'
-  network: grpc
-  port: 22955
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: 152.53.48.237
-  servername: one-piece.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  xudp: true
-- client-fingerprint: chrome
-  delay: 2189
-  name: '[VLESS] deDE²_6|9.2MB/s|GPT|X|Succeed'
-  network: ws
-  port: 2096
-  server: 5.10.214.0
-  servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
-  tls: true
-  type: vless
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  ws-opts:
-    headers:
-      Host: TzS7v35LfD.sMaRtTeChZaAl.InFo
-    path: /
-- client-fingerprint: chrome
-  name: '[VLESS] deDE²_8|8.1MB/s|100%|GPT|X|Suc...'
+  name: '[VLESS] deDE²_6|4.8MB/s|GPT⁺|X|Succeed'
   network: ws
   port: 2087
   server: api.dark-coffe.com
@@ -229,52 +167,6 @@ proxies:
       Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
     max-early-data: 2048
     path: /
-- client-fingerprint: chrome
-  country: 🇩🇪DE
-  name: '[Trojan] deDE²_9|6.8MB/s|1%|GPT⁺|TK|NF|...'
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.120.80.249
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: '[Socks5] deDE²_10|5.6MB/s|GPT⁺|X|Succee...'
-  password: ''
-  port: 1080
-  server: 161.35.31.237
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- client-fingerprint: chrome
-  country: 🇩🇪DE
-  name: '[Trojan] deDE²_11|6.6MB/s|1%|GPT⁺|NF|X|...'
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22223
-  server: 3.120.80.249
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] atAT²_4|0.9MB/s|18%|GPT⁺|YT-DE...'
-  network: grpc
-  port: 22955
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: 152.53.51.24
-  servername: one-piece.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] DE_speednode_0004'

@@ -24,7 +24,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[Trojan] HK29｜家宽｜非常安全'
+- name: '[Trojan] hkHK²_4|0.6MB/s|2%|YT|D+|X|His...'
+  network: tcp
   password: BxceQaOe
   port: 443
   server: 58.152.53.219
@@ -150,7 +151,7 @@ proxies:
   skip-cert-verify: true
   sni: 43.206.194.122
   type: trojan
-- name: '[Trojan] hkHK²_3|7.4MB/s|2%|YT|D+|X|Suc...'
+- name: '[Trojan] hkHK²_3|1.6MB/s|2%|YT|NF|D+|X|...'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -201,7 +202,7 @@ proxies:
   skip-cert-verify: true
   sni: douyin.com
   type: trojan
-- name: '[Trojan] hkHK²_2|1.3MB/s|2%|YT-CN|NF|D+...'
+- name: '[Trojan] 香港3|@ripaojiedian'
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 443
@@ -224,7 +225,7 @@ proxies:
   skip-cert-verify: true
   sni: douyin.com
   type: trojan
-- name: '[Trojan] hkHK²_5|9.1MB/s|2%|YT|D+|X|Suc...'
+- name: '[Trojan] hkHK²_7|0.7MB/s|2%|YT|D+|X|Suc...'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -573,8 +574,23 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: ebaa1ae1-fa4d-40d8-958f-d4524d551218
+- country: 🇭🇰 HK
+  name: '[Trojan] hkHK²_1|0.8MB/s|1%|YT|NF|D+|X|...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.110.50
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: '[SS] usUS²_1|5.5MB/s|54%|GPT⁺|GM|YT...'
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.236
+  type: ss
 - country: 🇫🇷FR
-  name: '[Trojan] frFR²_1|5.8MB/s|1%|GPT⁺|X|[广播|...'
+  name: '[Trojan] frFR²_1|5.6MB/s|1%|GPT⁺|X|Succ...'
   network: tcp
   password: telegram-id-directvpn
   port: 22223
@@ -583,14 +599,41 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  country: 🇪🇸 ES
-  name: '[SS] esES²_1|0.8MB/s|20%|GPT⁺|X|[广播...'
-  password: UkXRsXvR6buDMG2Y
-  port: 9001
-  server: 5.188.181.201
+- cipher: chacha20-ietf-poly1305
+  country: 🇳🇱 NL
+  name: '[SS] nlNL²_3|5.9MB/s|50%|GPT⁺|YT-US...'
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 151.242.251.153
   type: ss
-- name: '[Trojan] hkHK²_1|6.7MB/s|2%|YT|NF|D+|X|...'
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: '[SS] cyCY²_1|5.3MB/s|22%|GPT⁺|YT-US...'
+  password: l668XHPejoSNNuD66BYzyehaCpZexiF7
+  port: 443
+  server: 45.12.136.170
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇱🇹 LT
+  name: '[SS] usUS²_3|5.9MB/s|28%|GPT⁺|GM|YT...'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: e7b7ab7:102816
+    mode: tls
+  port: 2377
+  server: 95.174.71.98
+  type: ss
+- country: 🇭🇰 HK
+  name: '[Trojan] hkHK²_5|0.7MB/s|2%|YT|NF|D+|X'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.246
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: '[Trojan] hkHK²_6|1.1MB/s|2%|YT|D+|X|Suc...'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -599,72 +642,20 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: aes-128-gcm
-  name: '[SS] usUS²_1|4.7MB/s|54%|GPT⁺|GM|YT...'
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.236
-  type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸US
-  name: '[SS] fiFI²_4|0.6MB/s|20%|GPT⁺|NF|X|...'
+  name: '[SS] fiFI²_3|0.7MB/s|20%|GPT⁺|X|Suc...'
   password: 17295b92-4e50-425c-af95-ee44c42bc03e
   port: 443
   server: 38.244.209.215
   type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇳🇱 NL
-  name: '[SS] nlNL²_3|6.2MB/s|50%|GPT⁺|YT-US...'
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 151.242.251.153
-  type: ss
-- cipher: aes-256-cfb
-  name: '[SS] esES²_2|0.5MB/s|20%|GPT|X|[广播|...'
-  password: ZET59LF6DvCC8KVt
-  port: 9005
-  server: 5.188.181.201
-  type: ss
-- cipher: aes-128-gcm
-  country: 🇺🇸US
-  name: '[SS] usUS²_2|5.5MB/s|GPT⁺|GM|YT|NF|...'
-  password: shadowsocks
-  port: 443
-  server: 173.244.56.6
-  type: ss
-- name: '[Trojan] inIN²_1|7.0MB/s|GPT⁺|YT|X|Succ...'
-  network: tcp
-  password: M7v%w11Se*
-  port: 443
-  server: hyfuuf6.wsone.icu
-  skip-cert-verify: true
-  sni: hyfuuf6.wsone.icu
-  type: trojan
-- country: 🇩🇪DE
-  name: '[Trojan] deDE²_9|6.8MB/s|1%|GPT⁺|TK|NF|...'
+- country: 🇫🇷FR
+  name: '[Trojan] frFR²_4|5.7MB/s|1%|GPT⁺|X|[广播|...'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
-  server: 3.120.80.249
+  server: 15.236.223.157
   skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  country: 🇳🇱 NL
-  name: '[SS] dkDK²_1|1.2MB/s|0%|GPT⁺|X|Hist...'
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.23.63
-  type: ss
-- country: 🇩🇪DE
-  name: '[Trojan] deDE²_11|6.6MB/s|1%|GPT⁺|NF|X|...'
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22223
-  server: 3.120.80.249
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
 - alterId: 0

@@ -40,9 +40,29 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] usUS¹⁺_2|3.3MB/s|GPT⁺|GM|YT|D+...'
+  network: ws
+  port: 443
+  server: 162.159.16.63
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: chrome
   delay: 1439
   encryption: none
-  name: '[VLESS] hkHK¹-US⁰_5|6.1MB/s|4%|GPT|D+|...'
+  name: '[VLESS] hkHK¹-US⁰_2|1.3MB/s|YT|D+|X|Su...'
   network: ws
   port: 443
   server: v2.dabache.top
@@ -62,10 +82,10 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] sgSG_2|2.4MB/s'
+  name: '[VLESS] sgSG_3|1.6MB/s'
   network: ws
   port: 443
-  server: 162.159.16.63
+  server: cloudflare.182682.xyz
   servername: l.ayovo.netlib.re
   tls: true
   type: vless
@@ -75,57 +95,39 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: l.ayovo.netlib.re
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/57.0.2987.133 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
     max-early-data: 2560
     path: /
   xudp: true
-- name: '[VLESS] sgSG_3|2.7MB/s'
-  network: ws
-  port: 443
-  server: 8.35.211.39
-  servername: cf.ldy2023.eu.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 80d6cbef-6f0d-4e80-b9d0-d000d052119f
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cf.ldy2023.eu.org
-    max-early-data: 2560
-    path: /
-- name: '[VLESS] sgSG_4|2.1MB/s'
-  network: ws
-  port: 2053
-  server: 172.64.147.41
-  servername: cf.ldy2023.eu.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 80d6cbef-6f0d-4e80-b9d0-d000d052119f
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cf.ldy2023.eu.org
-    max-early-data: 2560
-    path: /
 - client-fingerprint: chrome
-  name: '[VLESS] GB_speednode_0013'
+  encryption: none
+  name: '[VLESS] sgSG_4|2.7MB/s'
   network: ws
-  port: 2095
-  server: 25.129.199.122
-  servername: ip6-free2.shakhle.ir.
-  skip-cert-verify: false
-  tls: false
+  port: 8443
+  server: 172.64.145.144
+  servername: sni.meibidi.pp.ua
+  tls: true
   type: vless
   udp: true
-  uuid: 06d4a2dd-b823-4b6a-843e-c159b6858d91
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: ip6-free2.shakhle.ir.
+      Host: sni.meibidi.pp.ua
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    max-early-data: 2560
     path: /
-- name: '[Socks5] sgSG²_2|2.4MB/s|4%|GPT⁺|X'
+  xudp: true
+- cipher: chacha20-ietf
+  country: 🇭🇰HK
+  name: '[SS] sgSG²_1|15.8MB/s|0%|GM|YT|TK|D...'
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
+- name: '[Socks5] sgSG²_2|2.1MB/s|4%|GPT⁺|GM|X|S...'
   password: ''
   port: 10808
   server: 213.35.110.67

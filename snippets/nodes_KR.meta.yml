@@ -1,14 +1,36 @@
 proxies:
-- name: '[Socks5] krKR²_1|2.5MB/s|2%|GPT⁺|GM|X|H...'
+- name: '[Socks5] krKR²_4|1.4MB/s|2%|GPT⁺|GM|X'
+  password: ''
   port: 1090
   server: 121.169.46.116
+  skip-cert-verify: true
   tls: false
   type: socks5
-  username: Og%3D%3D
+  username: ''
 - cipher: aes-256-cfb
   country: 🇰🇷 KR
-  name: '[SS] krKR²_2|0.8MB/s|GPT|YT-CN|TK|N...'
+  name: '[SS] krKR²_2|1.4MB/s|GPT⁺|X|Succeed'
   password: qwerREWQ@@
   port: 44112
   server: 168.126.234.230
   type: ss
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: '[VLESS] krKR_1|2.1MB/s'
+  network: tcp
+  port: 443
+  server: s458.okgg.top
+  servername: u730537ua7f6s458.okgg.top
+  tls: true
+  type: vless
+  uuid: e32f9c43-b141-3d58-b879-15c6a402e119
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: '[VLESS] krKR_2|1.0MB/s'
+  network: tcp
+  port: 443
+  server: s456.okgg.top
+  servername: u730537ufae3s456.okgg.top
+  tls: true
+  type: vless
+  uuid: e32f9c43-b141-3d58-b879-15c6a402e119

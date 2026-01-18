@@ -39,17 +39,22 @@ proxies:
     headers:
       Host: nodes.830901.xyz
     path: '%2F'
-- cipher: aes-256-cfb
-  country: 🇫🇷FR
-  delay: 1410
-  name: '[SS] frFR_1|3.4MB/s'
-  password: amazonskr05
-  port: 443
-  server: 13.38.30.95
-  type: ss
+- client-fingerprint: chrome
+  name: '[Trojan] frFR¹⁺_1|6.0MB/s|4%|GPT⁺|D+|X|...'
+  network: ws
+  password: iwangjie
+  port: 2053
+  server: 141.94.68.216
+  skip-cert-verify: true
+  sni: nodes.830901.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: /%2F
 - client-fingerprint: chrome
   country: 🇫🇷FR
-  name: '[Trojan] frFR²_1|5.7MB/s|1%|GPT⁺|X|Succ...'
+  name: '[Trojan] frFR²_3|5.7MB/s|1%|GPT⁺|X|Succ...'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -60,7 +65,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   country: 🇫🇷FR
-  name: '[Trojan] frFR²_2|5.7MB/s|1%|GPT⁺|X|Succ...'
+  name: '[Trojan] frFR²_4|5.7MB/s|1%|GPT⁺|X|Succ...'
   network: tcp
   password: telegram-id-directvpn
   port: 22223

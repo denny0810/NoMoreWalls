@@ -3,7 +3,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: UpdateService
-  name: '[VLESS] ruRU²_1|1.8MB/s|YT|TK|X|Succee...'
+  name: '[VLESS] ruRU_1|3.1MB/s'
   network: grpc
   port: 2083
   reality-opts:
@@ -20,7 +20,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: UpdateService
-  name: '[VLESS] ruRU_2|2.1MB/s'
+  name: '[VLESS] ruRU²_1|3.9MB/s|YT|TK|X|Histor...'
   network: grpc
   port: 2083
   reality-opts:
@@ -32,4 +32,36 @@ proxies:
   type: vless
   udp: true
   uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] plPL²_1|6.2MB/s|0%|GPT⁺|YT-RU|...'
+  network: tcp
+  port: 443
+  server: 144.31.0.64
+  servername: plcdn1.suio.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] inIN²_2|8.7MB/s|GPT⁺|YT-RU|X|S...'
+  network: tcp
+  port: 4443
+  reality-opts:
+    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
+    short-id: '!!str aa7e96542880027a'
+  server: 45.89.105.24
+  servername: github.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3f688b2a-373a-4be1-846d-b159404b73b2
   xudp: true

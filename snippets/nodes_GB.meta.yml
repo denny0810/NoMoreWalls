@@ -78,16 +78,17 @@ proxies:
     headers:
       Host: khamenei.dpdns.org
     path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
-- client-fingerprint: firefox
-  name: '[VLESS] GB_speednode_0012'
-  port: 587
-  reality-opts:
-    public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
-    short-id: '!!str 916e8258c4a01b02'
-  server: turkiye.torprospeed.ir
-  servername: excoino.com
+- name: '[VLESS] GB_speednode_0013'
+  network: ws
+  port: 2095
+  server: 25.129.199.122
+  servername: ip6-free2.shakhle.ir.
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
+  uuid: 06d4a2dd-b823-4b6a-843e-c159b6858d91
+  ws-opts:
+    headers:
+      Host: ip6-free2.shakhle.ir.
+    path: /

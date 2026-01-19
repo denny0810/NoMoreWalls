@@ -1,25 +1,4 @@
 proxies:
-- name: '[Trojan] JP3｜机房｜低风险'
-  password: 30077070-596e-48ea-9400-14c8ed07bd97
-  port: 443
-  server: tuntro003.instconn.com
-  skip-cert-verify: true
-  sni: login-staticjpc.jasmine-douyin.top
-  type: trojan
-- name: '[Trojan] JP4｜机房｜低风险'
-  password: BxceQaOe
-  port: 2595
-  server: 43.206.194.122
-  skip-cert-verify: true
-  sni: 43.206.194.122
-  type: trojan
-- name: '[Trojan] JP5｜机房｜低风险'
-  password: 4843e94d205f3893f588255a591abe94
-  port: 3423
-  server: 160.16.70.180
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
 - name: '[Hysteria2] JP'
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
@@ -52,35 +31,14 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  delay: 430
-  encryption: none
-  name: '[VLESS] usUS¹⁺_5|1.3MB/s|4%|GPT⁺|GM|YT...'
+  name: '[VLESS] jpJP_2|1.2MB/s'
   network: ws
   port: 443
-  server: 162.159.44.142
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
+  server: v3.dabache.top
+  servername: sni.meibidi.pp.ua
   tls: true
   type: vless
   udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  delay: 2452
-  encryption: none
-  name: '[VLESS] jpJP_2|2.1MB/s'
-  network: ws
-  port: 2096
-  server: cf.3666888.xyz
-  servername: sni.meibidi.pp.ua
-  skip-cert-verify: false
-  tls: true
-  type: vless
   uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
@@ -91,7 +49,7 @@ proxies:
 - client-fingerprint: chrome
   delay: 532
   encryption: none
-  name: '[VLESS] jpJP_3|1.2MB/s'
+  name: '[VLESS] hkHK¹-US⁰_6|10.0MB/s|NF|D+|X'
   network: ws
   port: 2096
   server: 172.64.229.220
@@ -99,6 +57,7 @@ proxies:
   skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
@@ -107,12 +66,12 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  delay: 691
+  delay: 537
   encryption: none
-  name: '[VLESS] jpJP_4|1.9MB/s'
+  name: '[VLESS] jpJP_3|2.2MB/s'
   network: ws
   port: 2096
-  server: vip3.kaixincloud.top
+  server: saas.sin.fan
   servername: sni.meibidi.pp.ua
   skip-cert-verify: false
   tls: true
@@ -125,10 +84,27 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  name: '[VLESS] hkHK¹-US⁰_6|16.3MB/s|GPT⁺|X'
+  name: '[VLESS] jpJP_4|1.7MB/s'
+  network: ws
+  port: 8443
+  server: vip3.kaixincloud.top
+  servername: sni.meibidi.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.meibidi.pp.ua
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: '[VLESS] hkHK¹-US⁰_3|10.7MB/s|YT|X'
   network: ws
   port: 2096
-  server: v3.dabache.top
+  server: cf-cname.xingpingcn.top
   servername: sni.meibidi.pp.ua
   tls: true
   type: vless

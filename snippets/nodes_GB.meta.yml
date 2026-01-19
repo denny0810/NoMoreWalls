@@ -1,46 +1,4 @@
 proxies:
-- name: '[Socks5] gbGB²_1|1.3MB/s|0%|GPT⁺|X'
-  password: ''
-  port: 37883
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] gbGB²_2|1.5MB/s|11%|GPT⁺|X|Suc...'
-  password: ''
-  port: 32499
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] gbGB²_3|0.8MB/s|0%|GPT⁺|X|Succ...'
-  password: ''
-  port: 27047
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] gbGB²_4|3.6MB/s|8%|GPT⁺|X'
-  password: ''
-  port: 44239
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- client-fingerprint: firefox
-  name: '[VLESS] GB_speednode_0011'
-  network: tcp
-  port: 587
-  reality-opts:
-    public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
-    short-id: '!!str 916e8258c4a01b02'
-  server: england.torprospeed.ir
-  servername: excoino.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
 - name: '[VLESS] GB_speednode_0007'
   network: ws
   port: 2053
@@ -111,6 +69,19 @@ proxies:
     headers:
       Host: khamenei.dpdns.org
     path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
+- client-fingerprint: firefox
+  name: '[VLESS] GB_speednode_0011'
+  port: 587
+  reality-opts:
+    public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
+    short-id: '!!str 916e8258c4a01b02'
+  server: england.torprospeed.ir
+  servername: excoino.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
 - name: '[VLESS] GB_speednode_0012'
   network: ws
   port: 2096

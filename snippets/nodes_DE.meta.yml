@@ -8,7 +8,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: '[VLESS] deDE²_1|6.8MB/s|GPT⁺|X|History'
+  name: '[VLESS] deDE²_1|0.8MB/s|X|Succeed|[原生|...'
   network: ws
   port: 80
   server: 185.143.233.235
@@ -23,10 +23,43 @@ proxies:
       Host: oon.visaups.ir
     path: /
 - client-fingerprint: chrome
-  name: '[VLESS] deDE²_2|0.9MB/s|25%|GPT|X|Hist...'
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '[VLESS] atAT²_1|6.6MB/s|20%|GPT⁺|YT-DE...'
+  network: grpc
+  port: 22955
+  reality-opts:
+    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: 152.53.51.24
+  servername: one-piece.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  xudp: true
+- name: '[Socks5] deDE²_2|1.3MB/s|6%|GPT⁺|X|Hist...'
+  password: ''
+  port: 28243
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: '[Socks5] deDE²_3|4.1MB/s|1%|GPT⁺|X|Hist...'
+  password: ''
+  port: 10335
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- client-fingerprint: chrome
+  name: '[VLESS] deDE²_9|1.6MB/s|X|Succeed|[原生|...'
   network: ws
   port: 8880
   server: 25.25.25.0
+  servername: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
+  skip-cert-verify: false
   tls: false
   type: vless
   udp: true
@@ -37,41 +70,52 @@ proxies:
       Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
     max-early-data: 8880
     path: /
+- name: '[Socks5] deDE²_5|3.0MB/s|2%|GPT⁺|X|Hist...'
+  password: ''
+  port: 28171
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: '[Socks5] deDE²_6|1.8MB/s|2%|GPT⁺|X|Hist...'
+  password: ''
+  port: 45195
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: '[Socks5] deDE²_7|4.8MB/s|GPT⁺|X|History'
+  password: ''
+  port: 1080
+  server: 161.35.31.237
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: '[Socks5] deDE²_8|2.6MB/s|2%|GPT⁺|X|Hist...'
+  password: ''
+  port: 39984
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: '[VLESS] deDE²_3|0.8MB/s|TK|NF|D+|X|His...'
+  name: '[VLESS] atAT²_4|3.4MB/s|20%|GPT⁺|YT-DE...'
   network: grpc
   port: 22955
   reality-opts:
     public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
     short-id: '!!str 6ba85179e30d4fc2'
-  server: octopusss5.info
+  server: 152.53.48.237
   servername: one-piece.com
   tls: true
   type: vless
   udp: true
   uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
   xudp: true
-- client-fingerprint: chrome
-  name: '[VLESS] deDE²_4|6.7MB/s|9%|GPT⁺|X|Succ...'
-  network: ws
-  port: 2096
-  server: 25.129.197.138
-  servername: speed1.best-cloud.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0e0bf934-1942-4379-9c98-5cd9aa93140a
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: speed1.best-cloud.ir
-    max-early-data: 2048
-    path: /
-- name: '[Socks5] 🏴‍☠_2🏴‍☠_7deDE²_4|2.5MB/s|Succ...'
+- name: '[Socks5] deDE²_10|0.9MB/s|X|Succeed'
   password: ''
   port: 1080
   server: 193.233.254.9

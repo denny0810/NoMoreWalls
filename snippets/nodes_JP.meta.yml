@@ -70,21 +70,75 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
+  delay: 2452
   encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] jpJP_2|3.3MB/s'
-  network: tcp
-  port: 27724
-  reality-opts:
-    public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
-    short-id: '!!str '
-  server: 116.80.44.144
-  servername: www.yahoo.co.jp
+  name: '[VLESS] jpJP_2|2.1MB/s'
+  network: ws
+  port: 2096
+  server: cf.3666888.xyz
+  servername: sni.meibidi.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.meibidi.pp.ua
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 532
+  encryption: none
+  name: '[VLESS] jpJP_3|1.2MB/s'
+  network: ws
+  port: 2096
+  server: 172.64.229.220
+  servername: sni.meibidi.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.meibidi.pp.ua
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 691
+  encryption: none
+  name: '[VLESS] jpJP_4|1.9MB/s'
+  network: ws
+  port: 2096
+  server: vip3.kaixincloud.top
+  servername: sni.meibidi.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.meibidi.pp.ua
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: '[VLESS] jpJP_5|1.3MB/s'
+  network: ws
+  port: 2096
+  server: v3.dabache.top
+  servername: sni.meibidi.pp.ua
   tls: true
   type: vless
   udp: true
-  uuid: ebd8539d-e249-4a39-8f90-e8585e8cc35e
-  xudp: true
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.meibidi.pp.ua
+    max-early-data: 2560
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

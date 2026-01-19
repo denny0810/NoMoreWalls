@@ -49,39 +49,20 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] frFR²_5|6.1MB/s|43%|GPT⁺|YT-US...'
-  network: tcp
-  port: 3032
+  grpc-opts:
+    grpc-service-name: UpdateService
+  name: '[VLESS] frFR²_1|5.5MB/s|8%|GPT⁺|YT-RU|...'
+  network: grpc
+  port: 2083
   reality-opts:
-    public-key: 21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI
-    short-id: '!!str '
-  server: fr.locations-service.com
-  servername: refersion.com
+    public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
+    short-id: '!!str 6da16b1335651b38'
+  server: 213.176.73.206
+  servername: apple.com
   tls: true
   type: vless
   udp: true
-  uuid: e59083aa-d933-4952-8cf0-eec74f718705
-  xudp: true
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] frFR_2|2.4MB/s'
-  network: ws
-  port: 443
-  server: 104.21.43.168
-  servername: Ggjd.digikala.lat
-  tls: true
-  type: vless
-  udp: true
-  uuid: b2744521-78b7-4c24-86f2-4f751d1cb7bf
-  ws-opts:
-    headers:
-      Host: private.digikala.lat
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
-    path: /
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
   xudp: true
 - name: '[Socks5] frFR²_2|7.3MB/s|0%|GPT⁺|X|Succ...'
   password: ''

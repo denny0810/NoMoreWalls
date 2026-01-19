@@ -3,23 +3,6 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: UpdateService
-  name: '[VLESS] ruRU_1|3.1MB/s'
-  network: grpc
-  port: 2083
-  reality-opts:
-    public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
-    short-id: '!!str 6da16b1335651b38'
-  server: 95.163.209.178
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: UpdateService
   name: '[VLESS] ruRU²_1|3.9MB/s|YT|TK|X|Histor...'
   network: grpc
   port: 2083
@@ -33,6 +16,19 @@ proxies:
   udp: true
   uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
   xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] ruRU_2|1.8MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+    short-id: '!!str 048fe5c8be4bb687'
+  server: 217.12.40.76
+  servername: sun9-38.userapi.com
+  tls: true
+  type: vless
+  uuid: 4371ad14-b981-4699-bedf-83fb79bde3e6
 - client-fingerprint: chrome
   encryption: none
   http-opts:

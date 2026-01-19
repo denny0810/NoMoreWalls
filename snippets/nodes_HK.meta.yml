@@ -49,34 +49,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf
-  name: '[SS] hkHK_1|1.8MB/s'
-  password: asd123456
-  port: 8388
-  server: 103.149.183.200
-  type: ss
-- name: '[Trojan] HK_speednode_0014'
-  password: 4843e94d205f3893f588255a591abe94
-  port: 443
-  server: 58.152.18.124
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- encryption: none
-  name: '[VLESS] hkHK_3|2.4MB/s'
-  network: ws
-  port: 8880
-  server: 141.101.120.42
-  type: vless
-  udp: true
-  uuid: 8a13ed66-d70a-4d32-8052-cbd8e0c5f7f4
-  ws-opts:
-    headers:
-      Host: joss.gvpn2.web.id
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/31.0.1650.57 Safari/537.36
-    path: /Free-VPN-CF-Geo-Project/HK
-  xudp: true
 - client-fingerprint: chrome
   name: '[Trojan] hkHK²_1|0.6MB/s|1%|YT|X|Histor...'
   network: tcp
@@ -102,5 +74,12 @@ proxies:
   server: 58.152.18.124
   skip-cert-verify: true
   sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: '[Trojan] HK_speednode_0014'
+  password: 4843e94d205f3893f588255a591abe94
+  port: 443
+  server: 58.152.18.124
+  skip-cert-verify: true
   type: trojan
   udp: true

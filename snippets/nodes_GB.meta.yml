@@ -1,14 +1,7 @@
 proxies:
-- name: '[Socks5] gbGB²_1|1.2MB/s|6%|GPT⁺|X'
-  password: ''
-  port: 13485
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-  username: ''
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] gbGB²_2|6.7MB/s|0%|GPT⁺|D+|X|[...'
+  name: '[VLESS] gbGB²_1|6.6MB/s|0%|GPT⁺|D+|X|S...'
   network: ws
   port: 443
   server: nv183.momdping.com
@@ -24,79 +17,20 @@ proxies:
         like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /
   xudp: true
-- name: '[Socks5] gbGB²_3|7.1MB/s|8%|GPT⁺|X'
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] gbGB²_2|2.7MB/s|0%|GPT⁺|TK|NF|...'
+  network: none
+  port: 49387
+  server: 38.54.126.139
+  type: vmess
+  uuid: 3dc72a63-866b-423a-dcfb-1b782caf462e
+- name: '[Socks5] gbGB²_3|1.8MB/s|8%|GPT⁺|X'
   password: ''
-  port: 41644
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] gbGB²_4|6.6MB/s|4%|GPT⁺|X'
-  password: ''
-  port: 37453
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- client-fingerprint: chrome
-  name: '[VLESS] gbGB¹-NL⁰_1|1.2MB/s|4%|GPT⁺|D+...'
-  network: ws
-  port: 443
-  server: 50.62.172.13
-  servername: ww2.allxniu.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: ww2.allxniu.qzz.io
-    path: /
-- name: '[Socks5] gbGB²_5|5.0MB/s|4%|GPT⁺|X|Hist...'
-  password: ''
-  port: 27047
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] gbGB²_6|2.7MB/s|6%|GPT⁺|X'
-  password: ''
-  port: 21773
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- client-fingerprint: chrome
-  name: '[VLESS] gbGB¹⁺_1|1.3MB/s|D+|X|[广播|机房]'
-  network: ws
-  port: 443
-  server: 50.62.172.3
-  servername: ww2.allxniu.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: ww2.allxniu.qzz.io
-    path: /
-- name: '[Socks5] gbGB²_7|1.5MB/s|0%|GPT⁺|X|Hist...'
-  password: ''
-  port: 37883
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] gbGB²_8|2.2MB/s|8%|GPT⁺|X'
-  password: ''
-  port: 24551
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] gbGB²_9|5.9MB/s|11%|GPT⁺|X|His...'
-  password: ''
-  port: 32499
+  port: 12237
   server: 37.120.162.180
   skip-cert-verify: true
   type: socks5

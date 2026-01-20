@@ -1,4 +1,128 @@
 proxies:
+- name: '[Hysteria2] DE1｜原生/疑似家宽｜非常安全'
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
+  password: 3b796665-a343-4226-8908-b025fd95fc4f
+  port: 8443
+  server: 85.209.53.178
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[Socks5] DE8｜原生/疑似家宽｜高风险 (黑名单)'
+  port: 1080
+  server: 193.233.254.8
+  tls: false
+  type: socks5
+  username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
+- name: '[Socks5] 🏴‍☠_4deDE²_2|2.6MB/s|History|2...'
+  port: 1080
+  server: 193.233.254.7
+  tls: false
+  type: socks5
+  username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
+- name: '[Socks5] 🏴‍☠_1🏴‍☠_4193.233.254.9:1080-0...'
+  password: ''
+  port: 1080
+  server: 193.233.254.9
+  skip-cert-verify: true
+  tls: false
+  type: socks5
+  username: ''
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] DE69｜机房｜低风险'
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: '[Trojan] DE41｜机房｜低风险'
+  network: ws
+  password: d27597f8-5f8a-4639-b499-126d348effc3
+  port: 2096
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: 17688811607837.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17688811605415.206353.xyz
+    path: '%2Fagrbniuh'
+- name: '[Trojan] DE42｜机房｜低风险'
+  network: ws
+  password: d27597f8-5f8a-4639-b499-126d348effc3
+  port: 2087
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17688811606332.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17688811607950.206353.xyz
+    path: '%2Fagrbniuh'
+- name: '[Trojan] DE43｜机房｜低风险'
+  network: ws
+  password: d27597f8-5f8a-4639-b499-126d348effc3
+  port: 2083
+  server: bestcdn3.868863.xyz
+  skip-cert-verify: true
+  sni: 17688811607228.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17688811602954.206353.xyz
+    path: '%2Fagrbniuh'
+- name: '[Trojan] DE44｜机房｜低风险'
+  network: ws
+  password: d27597f8-5f8a-4639-b499-126d348effc3
+  port: 8443
+  server: bestcdn4.868863.xyz
+  skip-cert-verify: true
+  sni: 17688811601087.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17688811608261.206353.xyz
+    path: '%2Fagrbniuh'
+- name: '[Trojan] DE45｜机房｜低风险'
+  network: ws
+  password: d27597f8-5f8a-4639-b499-126d348effc3
+  port: 2053
+  server: bestcdn5.868863.xyz
+  skip-cert-verify: true
+  sni: 17688811608155.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17688811603672.206353.xyz
+    path: '%2Fagrbniuh'
+- name: '[Hysteria2] DE51｜原生/疑似家宽｜非常安全'
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
+  password: 30e50044-1bb7-4f5a-8110-2c1127653ce5
+  port: 8443
+  server: 85.209.53.178
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[Hysteria2] DE52｜原生/疑似家宽｜非常安全'
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
+  password: 772bf9bf-7808-4933-a9c1-1b9f4f41c1e2
+  port: 8443
+  server: 85.209.53.178
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[Hysteria2] deDE_2|1.3MB/s'
+  password: dongtaiwang.com
+  port: 33550
+  server: 89.144.35.25
+  skip-cert-verify: true
+  sni: apple.com
+  tls: false
+  type: hysteria2
 - name: '[Hysteria2] DE'
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -21,18 +145,52 @@ proxies:
     headers:
       Host: TzS7v35LfD.sMaRtTeChZaAl.InFo
     path: /
-- name: '[Hysteria2] deDE_2|1.3MB/s'
-  password: dongtaiwang.com
-  port: 33550
-  server: 89.144.35.25
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: '[VLESS] deDE²_1|5.3MB/s|6%|GPT⁺|YT|TK|...'
+  name: '[VLESS] atAT²_1|7.0MB/s|20%|GPT⁺|YT-DE...'
+  network: grpc
+  port: 22955
+  reality-opts:
+    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: 152.53.51.24
+  servername: one-piece.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  xudp: true
+- cipher: aes-256-gcm
+  country: 🇩🇪DE
+  name: '[SS] deDE²_1|1.4MB/s|X|Succeed'
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 213.202.208.199
+  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '[VLESS] deDE²_2|7.1MB/s|6%|GPT⁺|YT|TK|...'
+  network: grpc
+  port: 22955
+  reality-opts:
+    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: octopusss5.info
+  servername: one-piece.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '[VLESS] deDE²_3|7.9MB/s|6%|GPT⁺|YT|TK|...'
   network: grpc
   port: 22955
   reality-opts:
@@ -49,78 +207,13 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: '[VLESS] atAT²_1|6.8MB/s|20%|GPT⁺|YT-DE...'
+  name: '[VLESS] atAT²_2|6.7MB/s|20%|GPT⁺|YT-DE...'
   network: grpc
   port: 22955
   reality-opts:
     public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
     short-id: '!!str 6ba85179e30d4fc2'
   server: 152.53.48.237
-  servername: one-piece.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  xudp: true
-- cipher: aes-256-gcm
-  country: 🇩🇪DE
-  name: '[SS] deDE²_3|4.7MB/s|30%|GPT|X|[原生|...'
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 213.202.208.199
-  type: ss
-- name: '[Socks5] deDE²_4|5.5MB/s|GPT⁺|X|Succeed'
-  password: ''
-  port: 1080
-  server: 161.35.31.237
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- client-fingerprint: chrome
-  name: '[VLESS] deDE²_5|7.8MB/s|9%|GPT⁺|X|Hist...'
-  network: ws
-  port: 2096
-  server: 25.129.197.138
-  servername: speed1.best-cloud.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0e0bf934-1942-4379-9c98-5cd9aa93140a
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: speed1.best-cloud.ir
-    max-early-data: 2048
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] atAT²_2|7.0MB/s|20%|GPT⁺|YT-DE...'
-  network: grpc
-  port: 22955
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: 152.53.51.24
-  servername: one-piece.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] atAT²_3|7.3MB/s|20%|GPT⁺|YT-DE...'
-  network: grpc
-  port: 22955
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: 152.53.51.29
   servername: one-piece.com
   tls: true
   type: vless

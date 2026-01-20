@@ -1,4 +1,58 @@
 proxies:
+- name: '[Trojan] SG7｜原生/疑似家宽｜非常安全'
+  password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+  port: 27001
+  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+  skip-cert-verify: true
+  sni: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+  type: trojan
+- name: '[Trojan] SG8｜原生/疑似家宽｜非常安全'
+  password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+  port: 26009
+  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+  skip-cert-verify: true
+  sni: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+  type: trojan
+- name: '[Trojan] SG9｜原生/疑似家宽｜非常安全'
+  password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+  port: 26010
+  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+  skip-cert-verify: true
+  sni: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+  type: trojan
+- client-fingerprint: chrome
+  country: 🇭🇰HK
+  name: '[Trojan] sgSG²_1|16.6MB/s|3%|GPT⁺|GM|YT...'
+  network: tcp
+  password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+  port: 27001
+  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  country: 🇭🇰HK
+  name: '[Trojan] sgSG²_6|16.8MB/s|0%|GPT⁺|YT|TK...'
+  network: tcp
+  password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+  port: 26009
+  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  country: 🇭🇰HK
+  name: '[Trojan] sgSG²_5|7.0MB/s|0%|GPT⁺|GM|YT|...'
+  network: tcp
+  password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+  port: 26010
+  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
 - name: '[Hysteria2] 新加坡1'
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2055
@@ -31,8 +85,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: '[Trojan] sgSG²_1|1.8MB/s|GPT⁺|YT-CN|TK|...'
+- name: '[Trojan] 新加坡3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
   port: 3127
@@ -41,9 +94,8 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  delay: 1439
   encryption: none
-  name: '[VLESS] hkHK¹-US⁰_5|17.3MB/s|GPT|X|His...'
+  name: '[VLESS] hkHK¹-US⁰_12|4.2MB/s|GPT|YT|D+...'
   network: ws
   port: 443
   server: v2.dabache.top
@@ -78,12 +130,14 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
+  delay: 438
   encryption: none
-  name: '[VLESS] hkHK¹-KR⁰_3|12.6MB/s|4%|GPT⁺|Y...'
+  name: '[VLESS] hkHK¹-KR⁰_5|6.4MB/s|4%|GPT⁺|YT...'
   network: ws
   port: 443
   server: staticdelivery.nexusmods.com
   servername: kb.as129394.me
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -95,9 +149,23 @@ proxies:
     max-early-data: 2560
     path: /
   xudp: true
-- name: '[Socks5] sgSG²_2|2.7MB/s|4%|GPT⁺|GM|X|S...'
+- name: '[Socks5] sgSG²_2|1.5MB/s|4%|GPT⁺|X'
   password: ''
-  port: 10808
+  port: 10809
+  server: 146.235.19.84
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: '[Socks5] sgSG²_3|2.2MB/s|GPT|X|History'
+  password: ''
+  port: 10819
+  server: 213.35.110.67
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: '[Socks5] sgSG²_4|1.7MB/s|GPT⁺|X'
+  password: ''
+  port: 10850
   server: 213.35.110.67
   skip-cert-verify: true
   type: socks5

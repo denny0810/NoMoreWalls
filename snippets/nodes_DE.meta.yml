@@ -8,12 +8,14 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[Socks5] DE8｜原生/疑似家宽｜高风险 (黑名单)'
+- name: '[Socks5] deDE²_4|0.6MB/s|GPT|X|History'
+  password: ''
   port: 1080
   server: 193.233.254.8
+  skip-cert-verify: true
   tls: false
   type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
+  username: ''
 - name: '[Socks5] DE53｜原生/疑似家宽｜高风险 (黑名单)'
   port: 1080
   server: 193.233.254.7
@@ -26,15 +28,19 @@ proxies:
   tls: false
   type: socks5
   username: T2dAMTkzLjIzMy4yNTQuOTpAMTkzLjIzMy4yNTQuOTo%3D
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: '[Vmess] DE69｜机房｜低风险'
+  client-fingerprint: chrome
+  name: '[Vmess] usUS²_4|6.1MB/s|25%|GPT⁺|X|His...'
   network: tcp
-  port: '180'
+  port: 180
   server: 82.198.246.97
+  skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
 - name: '[Trojan] DE41｜机房｜低风险'
   network: ws
   password: d27597f8-5f8a-4639-b499-126d348effc3
@@ -150,19 +156,17 @@ proxies:
     path: /ABC
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[VLESS] inIN²_1|2.5MB/s|X|Succeed|[广播|...'
+  name: '[VLESS] deDE_2|1.1MB/s'
   network: tcp
   port: 443
   reality-opts:
     public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '!!str c7e42004e5f024be'
+    short-id: '!!str 2f3e735aedc55aaf'
   server: 95.174.92.156
-  servername: sun6-21.userapi.com
+  servername: carreta.ru
   tls: true
   type: vless
-  udp: true
   uuid: cc61ea7c-92f2-4c2d-b272-32cfe8fdf99f
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] deDE_3|1.1MB/s'
@@ -238,42 +242,41 @@ proxies:
     path: /safeway
   xudp: true
 - client-fingerprint: chrome
+  country: 🇺🇸US
+  name: '[Trojan] deDE²_1|6.0MB/s|1%|GPT⁺|X|[广播|...'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 63.181.195.69
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: '[VLESS] DE_speednode_0003'
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] deDE²_2|0.5MB/s|0%|GPT⁺|D+|X'
   network: tcp
   port: 443
   reality-opts:
-    public-key: 9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU
-    short-id: '!!str 00684d2eae2cdd16'
-  server: 185.94.29.250
-  servername: apple.com
-  skip-cert-verify: false
+    public-key: Uwz6QjH6QTonKba4RVv35LNmhJLA6c2kxtI2nXRQWTg
+    short-id: '!!str 2c60d62e1d95c07a'
+  server: 51.250.35.199
+  servername: eh.vk.com
   tls: true
   type: vless
   udp: true
   uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] atAT²_1|2.6MB/s|20%|GPT⁺|YT-DE...'
-  network: grpc
-  port: 22955
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: 152.53.51.24
-  servername: one-piece.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
   xudp: true
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: '[VLESS] deDE²_2|6.7MB/s|6%|GPT⁺|YT|TK|...'
+  name: '[VLESS] deDE²_3|5.6MB/s|6%|GPT⁺|YT|TK|...'
   network: grpc
   port: 22955
   reality-opts:
@@ -287,22 +290,16 @@ proxies:
   uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
   xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE²_3|7.0MB/s|9%|GPT⁺|X|Succ...'
-  network: ws
+  flow: xtls-rprx-vision
+  name: '[VLESS] DE_speednode_0003'
   port: 443
-  server: 104.18.32.47
-  servername: a.uaesweden.dpdns.org
+  reality-opts:
+    public-key: 9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU
+    short-id: '!!str 00684d2eae2cdd16'
+  server: 185.94.29.250
+  servername: apple.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 945bc0c8-4e27-4ae1-8fbf-13a60dd2550d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: a.uaesweden.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.115 Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a

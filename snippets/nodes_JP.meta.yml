@@ -136,9 +136,10 @@ proxies:
   uuid: 25495f02-66da-4147-9b64-d0e7ff76084b
 - alterId: 0
   cipher: auto
-  name: '[Vmess] JP49｜原生/疑似家宽｜非常安全'
+  client-fingerprint: chrome
+  name: '[Vmess] jpJP²_2|12.1MB/s|3%|GPT|D+|X|[...'
   network: tcp
-  port: '49303'
+  port: 49303
   server: cees.owwoedu.com
   tls: false
   type: vmess
@@ -154,9 +155,10 @@ proxies:
   uuid: 57db38f7-9cd2-4659-b484-487becad8b63
 - alterId: 0
   cipher: auto
-  name: '[Vmess] JP33｜原生/疑似家宽｜非常安全'
+  client-fingerprint: chrome
+  name: '[Vmess] jpJP²_1|7.0MB/s|3%|GPT⁺|YT|X'
   network: tcp
-  port: '49303'
+  port: 49303
   server: cees.owwoedu.com
   tls: false
   type: vmess
@@ -182,39 +184,27 @@ proxies:
   skip-cert-verify: true
   sni: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
   type: trojan
-- client-fingerprint: chrome
-  country: 🇭🇰HK
-  name: '[Trojan] jpJP²_1|14.2MB/s|GPT⁺|GM|YT|TK...'
-  network: tcp
+- name: '[Trojan] JP39｜原生/疑似家宽｜非常安全'
   password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
   port: 27003
   server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
   skip-cert-verify: true
   sni: www.bilibili.com
   type: trojan
-  udp: true
-- client-fingerprint: chrome
-  country: 🇭🇰HK
-  name: '[Trojan] jpJP²_2|7.4MB/s|3%|GPT⁺|YT|TK-...'
-  network: tcp
+- name: '[Trojan] JP40｜原生/疑似家宽｜非常安全'
   password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
   port: 27005
   server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
   skip-cert-verify: true
   sni: www.bilibili.com
   type: trojan
-  udp: true
-- client-fingerprint: chrome
-  country: 🇭🇰HK
-  name: '[Trojan] jpJP²_3|4.5MB/s|GPT⁺|YT|TK-TW|...'
-  network: tcp
+- name: '[Trojan] JP41｜原生/疑似家宽｜非常安全'
   password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
   port: 27006
   server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
   skip-cert-verify: true
   sni: www.bilibili.com
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: '[Vmess] JP50｜原生/疑似家宽｜非常安全'
@@ -256,7 +246,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: '[VLESS] usUS¹⁺_3|3.5MB/s|GPT|YT-HK|D+|...'
+  name: '[VLESS] jpJP_1|1.0MB/s'
   network: ws
   port: 8443
   server: vip3.kaixincloud.top
@@ -273,9 +263,95 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  name: '[VLESS] jpJP_3|1.0MB/s'
+  name: '[VLESS] hkHK¹-US⁰_2|9.9MB/s|GPT|YT|X|H...'
+  network: ws
+  port: 2096
+  server: cf-cname.xingpingcn.top
+  servername: sni.meibidi.pp.ua
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.meibidi.pp.ua
+    max-early-data: 2560
+    path: /
+- name: '[VLESS] jpJP_3|1.7MB/s'
+  network: ws
+  port: 2096
+  server: cf.3666888.xyz
+  servername: sni.meibidi.pp.ua
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.meibidi.pp.ua
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] jpJP_4|1.3MB/s'
+  network: ws
+  port: 2096
+  server: saas.sin.fan
+  servername: sni.meibidi.pp.ua
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.meibidi.pp.ua
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] jpJP_5|1.2MB/s'
   network: ws
   port: 443
+  server: 162.159.45.232
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.75 Safari/537.36
+    max-early-data: 2560
+    path: /x-aniu/
+  xudp: true
+- client-fingerprint: chrome
+  name: '[VLESS] jpJP_6|1.8MB/s'
+  network: ws
+  port: 443
+  server: v3.dabache.top
+  servername: kb.as129394.me
+  tls: true
+  type: vless
+  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: kb.as129394.me
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: '[VLESS] hkHK¹-US⁰_4|5.0MB/s|X|Succeed'
+  network: ws
+  port: 2096
   server: v3.dabache.top
   servername: sni.meibidi.pp.ua
   skip-cert-verify: false
@@ -289,46 +365,3 @@ proxies:
       Host: sni.meibidi.pp.ua
     max-early-data: 2560
     path: /
-- client-fingerprint: chrome
-  delay: 532
-  encryption: none
-  name: '[VLESS] hkHK¹-US⁰_1|10.2MB/s|D+|X|Hist...'
-  network: ws
-  port: 2096
-  server: 172.64.229.220
-  servername: sni.meibidi.pp.ua
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.meibidi.pp.ua
-    max-early-data: 2560
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '[Trojan] jpJP_5|4.6MB/s'
-  password: BxceQaOe
-  port: 2595
-  server: 52.195.11.229
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] JP_speednode_0013'
-  port: 8443
-  reality-opts:
-    public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY
-    short-id: '!!str 7cad5040'
-  server: 85.208.108.136
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 309fa273-6579-4cb2-9143-7cad50401eba

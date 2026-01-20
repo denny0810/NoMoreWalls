@@ -1,16 +1,12 @@
 proxies:
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK²_2|1.1MB/s|1%|D+|X|Succee...'
-  network: tcp
+- name: '[Trojan] HK114｜家宽｜非常安全'
   password: BxceQaOe
   port: 443
   server: 58.152.46.246
   skip-cert-verify: true
   sni: 58.152.46.246
   type: trojan
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK²_7|1.2MB/s|1%|YT|D+|X|Suc...'
-  network: tcp
+- name: '[Trojan] HK2｜家宽｜非常安全'
   password: BxceQaOe
   port: 443
   server: 58.152.46.246
@@ -19,7 +15,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   country: 🇭🇰HK
-  name: '[Trojan] hkHK²_6|12.2MB/s|1%|YT-CN|D+|X...'
+  name: '[Trojan] hkHK²_3|13.5MB/s|1%|YT-CN|NF|D...'
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 443
@@ -30,23 +26,27 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '[Vmess] HK44｜机房｜低风险'
+  client-fingerprint: chrome
+  name: '[Vmess] hkHK²_6|14.2MB/s|5%|YT|NF|D+|X...'
   network: tcp
-  port: '47081'
+  port: 47081
   server: tunnel2.qqa678.com
   tls: false
   type: vmess
   uuid: 940962e9-85c7-43fa-a9ca-d523b15a32a5
 - alterId: 0
   cipher: auto
-  name: '[Vmess] HK146｜机房｜低风险'
+  client-fingerprint: chrome
+  name: '[Vmess] hkHK²_1|4.9MB/s|5%|YT|NF|D+|X|...'
   network: tcp
-  port: '47081'
+  port: 47081
   server: tunnel1.qqa678.com
   tls: false
   type: vmess
   uuid: 940962e9-85c7-43fa-a9ca-d523b15a32a5
-- name: '[Trojan] hkHK_1|2.5MB/s'
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_2|9.9MB/s|1%|YT-CN|NF|D+...'
+  network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 443
   server: 58.152.18.124
@@ -104,9 +104,9 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[Vmess] HK120｜机房｜低风险'
+  name: '[Vmess] hkHK_2|1.4MB/s'
   network: tcp
-  port: '47081'
+  port: 47081
   server: oss-4.qqa678.com
   tls: false
   type: vmess
@@ -137,28 +137,20 @@ proxies:
     headers:
       Host: store.timimi.dpdns.org
     path: '%2F'
-- client-fingerprint: chrome
-  country: 🇭🇰HK
-  name: '[Trojan] hkHK²_8|13.8MB/s|0%|GPT⁺|GM|YT...'
-  network: tcp
+- name: '[Trojan] HK121｜原生/疑似家宽｜非常安全'
   password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
   port: 26003
   server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
   skip-cert-verify: true
   sni: www.bilibili.com
   type: trojan
-  udp: true
-- client-fingerprint: chrome
-  country: 🇭🇰HK
-  name: '[Trojan] hkHK²_4|15.6MB/s|0%|GPT⁺|GM|YT...'
-  network: tcp
+- name: '[Trojan] HK122｜原生/疑似家宽｜非常安全'
   password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
   port: 26004
   server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
   skip-cert-verify: true
   sni: www.bilibili.com
   type: trojan
-  udp: true
 - name: '[Trojan] 香港3|@ripaojiedian'
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
@@ -244,37 +236,28 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] hkHK_3|2.2MB/s'
+  port: 47081
+  server: oss-4.qqa678.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 7d3b2ea8-337b-4979-948f-bc1c1e72b6d5
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] hkHK_4|1.4MB/s'
+  port: 47081
+  server: tunnel2.qqa678.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 940962e9-85c7-43fa-a9ca-d523b15a32a5
 - cipher: chacha20-ietf
-  name: '[SS] hkHK_2|1.2MB/s'
+  country: 🇭🇰HK
+  name: '[SS] hkHK²_5|1.0MB/s|0%|D+|X|[原生|机房...'
   password: asd123456
   port: 8388
-  server: 103.149.182.158
+  server: 103.149.182.79
   type: ss
-- cipher: auto
-  name: '[VLESS] hkHK_3|2.8MB/s'
-  network: none
-  port: 9527
-  server: 43.161.253.78
-  tls: false
-  type: vless
-  uuid: d4a23188-85b0-4b46-b84b-f1d36d66c03e
-- client-fingerprint: chrome
-  country: 🇭🇰 HK
-  name: '[Trojan] hkHK²_1|2.8MB/s|1%|YT|D+|X|His...'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.246
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK²_3|0.9MB/s|1%|YT|D+|X|Suc...'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.246
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true

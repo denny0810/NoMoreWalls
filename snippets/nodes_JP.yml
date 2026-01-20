@@ -136,9 +136,10 @@ proxies:
   uuid: 25495f02-66da-4147-9b64-d0e7ff76084b
 - alterId: 0
   cipher: auto
-  name: '[Vmess] JP49｜原生/疑似家宽｜非常安全'
+  client-fingerprint: chrome
+  name: '[Vmess] jpJP²_2|12.1MB/s|3%|GPT|D+|X|[...'
   network: tcp
-  port: '49303'
+  port: 49303
   server: cees.owwoedu.com
   tls: false
   type: vmess
@@ -154,9 +155,10 @@ proxies:
   uuid: 57db38f7-9cd2-4659-b484-487becad8b63
 - alterId: 0
   cipher: auto
-  name: '[Vmess] JP33｜原生/疑似家宽｜非常安全'
+  client-fingerprint: chrome
+  name: '[Vmess] jpJP²_1|7.0MB/s|3%|GPT⁺|YT|X'
   network: tcp
-  port: '49303'
+  port: 49303
   server: cees.owwoedu.com
   tls: false
   type: vmess
@@ -182,39 +184,27 @@ proxies:
   skip-cert-verify: true
   sni: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
   type: trojan
-- client-fingerprint: chrome
-  country: 🇭🇰HK
-  name: '[Trojan] jpJP²_1|14.2MB/s|GPT⁺|GM|YT|TK...'
-  network: tcp
+- name: '[Trojan] JP39｜原生/疑似家宽｜非常安全'
   password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
   port: 27003
   server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
   skip-cert-verify: true
   sni: www.bilibili.com
   type: trojan
-  udp: true
-- client-fingerprint: chrome
-  country: 🇭🇰HK
-  name: '[Trojan] jpJP²_2|7.4MB/s|3%|GPT⁺|YT|TK-...'
-  network: tcp
+- name: '[Trojan] JP40｜原生/疑似家宽｜非常安全'
   password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
   port: 27005
   server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
   skip-cert-verify: true
   sni: www.bilibili.com
   type: trojan
-  udp: true
-- client-fingerprint: chrome
-  country: 🇭🇰HK
-  name: '[Trojan] jpJP²_3|4.5MB/s|GPT⁺|YT|TK-TW|...'
-  network: tcp
+- name: '[Trojan] JP41｜原生/疑似家宽｜非常安全'
   password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
   port: 27006
   server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
   skip-cert-verify: true
   sni: www.bilibili.com
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: '[Vmess] JP50｜原生/疑似家宽｜非常安全'
@@ -248,12 +238,3 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: '[Trojan] jpJP_5|4.6MB/s'
-  password: BxceQaOe
-  port: 2595
-  server: 52.195.11.229
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true

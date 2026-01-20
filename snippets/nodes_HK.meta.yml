@@ -101,9 +101,9 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[Vmess] hkHK_2|1.4MB/s'
+  name: '[Vmess] HK120｜机房｜低风险'
   network: tcp
-  port: 47081
+  port: '47081'
   server: oss-4.qqa678.com
   tls: false
   type: vmess
@@ -233,24 +233,12 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] hkHK_3|2.2MB/s'
-  port: 47081
-  server: oss-4.qqa678.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 7d3b2ea8-337b-4979-948f-bc1c1e72b6d5
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] hkHK_4|1.4MB/s'
-  port: 47081
-  server: tunnel2.qqa678.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 940962e9-85c7-43fa-a9ca-d523b15a32a5
+- cipher: chacha20-ietf
+  name: '[SS] hkHK_1|1.6MB/s'
+  password: asd123456
+  port: 8388
+  server: 103.149.182.158
+  type: ss
 - cipher: chacha20-ietf
   name: '[SS] hkHK²_1|0.9MB/s|0%|X'
   password: asd123456

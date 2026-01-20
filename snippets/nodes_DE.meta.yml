@@ -129,6 +129,114 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1853
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] deDE_1|2.1MB/s'
+  network: ws
+  port: 443
+  server: 104.18.32.47
+  servername: dump.nootkasound7.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 52c7f779-2cbc-4ec9-d4eb-7f62964e4a4e
+  ws-opts:
+    headers:
+      HOST: dump.nootkasound7.com
+    path: /ABC
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] inIN²_1|2.5MB/s|X|Succeed|[广播|...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: '!!str c7e42004e5f024be'
+  server: 95.174.92.156
+  servername: sun6-21.userapi.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: cc61ea7c-92f2-4c2d-b272-32cfe8fdf99f
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] deDE_3|1.1MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
+    short-id: '!!str '
+  server: 159.195.26.28
+  servername: live.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 84f66368-8a37-468e-ae95-5622255fd4db
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] deDE_4|1.7MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: THd83pRAiz68QKKNCzCdj3hvVq9Wy7NIFeIk1WjRJ1c
+    short-id: '!!str 15cdd4ff88310cf0'
+  server: desrv.fasti.win
+  servername: desrv.fasti.win
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0d93b787-b66b-4696-a036-a0f549764f69
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE_5|2.3MB/s'
+  network: ws
+  port: 2083
+  server: chatgpt.com
+  servername: datisde2.rahagp.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 777f2e94-0f81-469c-a4a4-cfeb073c20ba
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: datisde2.rahagp.ir
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE_6|1.4MB/s'
+  network: ws
+  port: 443
+  server: chatgpt.com
+  servername: new.3315888.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: e61e8f79-d16e-44ba-936b-63b227d7d625
+  ws-opts:
+    headers:
+      Host: new.3315888.xyz
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /safeway
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] DE_speednode_0003'

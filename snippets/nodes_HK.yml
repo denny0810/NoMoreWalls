@@ -42,13 +42,19 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[Trojan] hkHK_1|2.1MB/s'
-  password: BxceQaOe
+- name: '[Trojan] hkHK_1|2.5MB/s'
+  password: 4843e94d205f3893f588255a591abe94
   port: 443
-  server: 58.152.53.219
+  server: 58.152.18.124
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: 58.152.18.124
   type: trojan
+- cipher: chacha20-ietf
+  name: '[SS] hkHK_2|1.2MB/s'
+  password: asd123456
+  port: 8388
+  server: 103.149.182.158
+  type: ss
 - client-fingerprint: chrome
   name: '[Trojan] hkHK²_4|1.2MB/s|1%|YT|NF|D+|X|...'
   network: tcp

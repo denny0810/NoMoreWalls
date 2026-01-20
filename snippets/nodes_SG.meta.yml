@@ -31,7 +31,8 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] 新加坡3|@ripaojiedian'
+- client-fingerprint: chrome
+  name: '[Trojan] sgSG²_1|1.8MB/s|GPT⁺|YT-CN|TK|...'
   network: tcp
   password: BxceQaOe
   port: 3127
@@ -42,7 +43,7 @@ proxies:
 - client-fingerprint: chrome
   delay: 1439
   encryption: none
-  name: '[VLESS] hkHK¹-US⁰_16|16.8MB/s|4%|GPT⁺|...'
+  name: '[VLESS] hkHK¹-US⁰_5|17.3MB/s|GPT|X|His...'
   network: ws
   port: 443
   server: v2.dabache.top
@@ -55,45 +56,18 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: sni.meibidi.pp.ua
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     max-early-data: 2560
     path: /
   xudp: true
-- name: '[Socks5] sgSG²_1|10.1MB/s|4%|GPT⁺|GM|X|...'
+- name: '[Socks5] sgSG²_2|2.7MB/s|4%|GPT⁺|GM|X|S...'
   password: ''
   port: 10808
   server: 213.35.110.67
   skip-cert-verify: true
   type: socks5
   username: ''
-- cipher: chacha20-ietf
-  country: 🇭🇰HK
-  name: '[SS] sgSG²_2|4.8MB/s|0%|GM|YT|TK|NF...'
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  type: ss
-- name: '[Socks5] sgSG²_3|7.8MB/s|4%|GPT⁺|GM|X'
-  password: ''
-  port: 10819
-  server: 213.35.110.67
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] sgSG²_4|4.2MB/s|GPT|X|History|...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '!!str c7e42004e5f024be'
-  server: 95.174.92.156
-  servername: sun6-21.userapi.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc61ea7c-92f2-4c2d-b272-32cfe8fdf99f
-  xudp: true
 - name: '[VLESS] SG_speednode_0026'
   network: ws
   port: 443

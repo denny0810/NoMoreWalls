@@ -49,13 +49,41 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_4|1.2MB/s|1%|YT|NF|D+|X|...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.246
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_2|4.6MB/s|1%|YT|D+|X|Suc...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.246
+  skip-cert-verify: true
+  sni: 58.152.46.246
+  type: trojan
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_3|7.5MB/s|1%|YT|D+|X|His...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.246
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] hkHK¹⁺_1|4.2MB/s|4%|YT|D+|X|[广...'
+  name: '[Vmess] hkHK¹⁺_1|4.3MB/s|0%|YT|D+|X|Su...'
   network: ws
   port: 443
   server: 154.21.201.83
@@ -68,41 +96,22 @@ proxies:
     headers:
       HOST: hk.nbee.pp.ua
     path: /aa
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK²_2|12.2MB/s|1%|YT|NF|D+|X...'
-  network: tcp
-  password: BxceQaOe
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] hkHK¹⁺_2|9.6MB/s|0%|D+|X|[广播|机...'
+  network: ws
   port: 443
-  server: 58.152.46.246
+  server: 104.19.61.72
+  servername: hk.nbee.pp.ua
   skip-cert-verify: true
-  sni: 58.152.46.246
-  type: trojan
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK²_6|12.1MB/s|1%|YT|NF|D+|X...'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.246
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK²_5|0.6MB/s|0%|D+|X|[广播|机房...'
-  network: tcp
-  password: 0949b660-d349-4b5b-b3ce-3349058f7be8
-  port: 31102
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK²_7|0.7MB/s|0%|D+|X|[广播|机房...'
-  network: tcp
-  password: cfc58264-6650-4536-a338-e6bc27095421
-  port: 31102
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
+  tls: true
+  type: vmess
+  uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
+  ws-opts:
+    headers:
+      HOST: hk.nbee.pp.ua
+    path: /aa

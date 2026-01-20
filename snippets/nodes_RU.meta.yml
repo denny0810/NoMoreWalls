@@ -3,7 +3,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: UpdateService
-  name: '[VLESS] ruRU²_1|4.8MB/s|YT|TK|X|Histor...'
+  name: '[VLESS] ruRU²_1|5.7MB/s|YT|TK|X|Succee...'
   network: grpc
   port: 2083
   reality-opts:
@@ -20,7 +20,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: UpdateService
-  name: '[VLESS] ruRU²_2|5.2MB/s|YT|TK|X|Histor...'
+  name: '[VLESS] ruRU_2|3.1MB/s'
   network: grpc
   port: 2083
   reality-opts:
@@ -34,29 +34,21 @@ proxies:
   uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
   xudp: true
 - client-fingerprint: chrome
-  name: '[VLESS] plPL²_1|6.7MB/s|0%|GPT⁺|YT-RU|...'
+  encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] plPL²_1|6.2MB/s|0%|GPT⁺|YT-RU|...'
   network: tcp
   port: 443
-  server: plcdn13.suio.me
-  servername: plcdn13.suio.me
-  tls: true
-  type: vless
-  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] FI_speednode_0007'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
-    short-id: '!!str 58c512b4422e2517'
-  server: 78.153.139.68
-  servername: images.apple.com
-  skip-cert-verify: false
+  server: 144.31.0.64
+  servername: plcdn1.suio.me
   tls: true
   type: vless
   udp: true
-  uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
+  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] RU_speednode_0020'

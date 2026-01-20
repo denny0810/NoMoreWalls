@@ -42,29 +42,24 @@ proxies:
   server: 57.129.69.122
   type: ss
 - cipher: chacha20-ietf-poly1305
-  country: 🇧🇪BE
-  name: '[SS] deDE²_4|1.1MB/s|51%|GPT⁺|X|[广播...'
+  name: '[SS] deDE_4|2.2MB/s'
   password: b2871db02e5f7e2f
   port: 11201
   server: 57.129.35.242
   type: ss
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE²_7|6.4MB/s|GPT⁺|X|Succeed...'
+- encryption: none
+  name: '[VLESS] deDE_5|2.8MB/s'
   network: ws
   port: 8880
   server: 25.25.25.0
-  servername: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
-  skip-cert-verify: false
-  tls: false
   type: vless
   udp: true
   uuid: 8e997404-cb62-4fa1-a8c9-c77a32f10153
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
-    max-early-data: 8880
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /
   xudp: true
 - name: '[VLESS] deDE_6|2.8MB/s'
@@ -83,33 +78,11 @@ proxies:
     max-early-data: 8880
     path: /
   xudp: true
-- name: '[Socks5] deDE²_2|5.5MB/s|GPT⁺|X|Succeed'
-  password: ''
-  port: 1080
-  server: 161.35.31.237
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇮🇷IR
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] deDE²_3|6.6MB/s|9%|GPT⁺|TK|NF|...'
-  network: ws
-  port: 51649
-  server: 91.107.252.110
-  skip-cert-verify: true
-  type: vmess
-  uuid: 6507fcbd-9fb0-4470-8ec4-22f2df436047
-  ws-opts:
-    path: /
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: '[VLESS] deDE²_6|7.7MB/s|6%|GPT⁺|YT|TK|...'
+  name: '[VLESS] deDE²_1|5.3MB/s|6%|GPT⁺|YT|TK|...'
   network: grpc
   port: 22955
   reality-opts:
@@ -126,13 +99,78 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: '[VLESS] atAT²_2|6.3MB/s|20%|GPT⁺|YT-DE...'
+  name: '[VLESS] atAT²_1|6.8MB/s|20%|GPT⁺|YT-DE...'
+  network: grpc
+  port: 22955
+  reality-opts:
+    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: 152.53.48.237
+  servername: one-piece.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  xudp: true
+- cipher: aes-256-gcm
+  country: 🇩🇪DE
+  name: '[SS] deDE²_3|4.7MB/s|30%|GPT|X|[原生|...'
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 213.202.208.199
+  type: ss
+- name: '[Socks5] deDE²_4|5.5MB/s|GPT⁺|X|Succeed'
+  password: ''
+  port: 1080
+  server: 161.35.31.237
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- client-fingerprint: chrome
+  name: '[VLESS] deDE²_5|7.8MB/s|9%|GPT⁺|X|Hist...'
+  network: ws
+  port: 2096
+  server: 25.129.197.138
+  servername: speed1.best-cloud.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0e0bf934-1942-4379-9c98-5cd9aa93140a
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: speed1.best-cloud.ir
+    max-early-data: 2048
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '[VLESS] atAT²_2|7.0MB/s|20%|GPT⁺|YT-DE...'
   network: grpc
   port: 22955
   reality-opts:
     public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
     short-id: '!!str 6ba85179e30d4fc2'
   server: 152.53.51.24
+  servername: one-piece.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '[VLESS] atAT²_3|7.3MB/s|20%|GPT⁺|YT-DE...'
+  network: grpc
+  port: 22955
+  reality-opts:
+    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: 152.53.51.29
   servername: one-piece.com
   tls: true
   type: vless

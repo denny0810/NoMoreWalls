@@ -8,65 +8,49 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE²_6|6.1MB/s|27%|GPT⁺|X|His...'
-  network: ws
-  port: 8880
-  server: clean.photoggenic.ir
-  servername: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8e997404-cb62-4fa1-a8c9-c77a32f10153
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/55.0.2883.87 Safari/537.36
-    max-early-data: 8880
-    path: /
-  xudp: true
-- name: '[Socks5] deDE²_2|5.4MB/s|GPT⁺|X|Succeed'
-  password: ''
-  port: 1080
-  server: 161.35.31.237
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] deDE²_3|0.7MB/s|GPT⁺|X|[广播|机房]'
+  flow: xtls-rprx-vision
+  name: '[VLESS] DK_speednode_0006'
   network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  servername: v33.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: '[VLESS] deDE²_4|7.8MB/s|9%|GPT⁺|X|Hist...'
-  network: ws
-  port: 2096
-  server: 25.129.197.138
-  servername: speed1.best-cloud.ir
+  port: 443
+  reality-opts:
+    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
+  server: 159.195.26.28
+  servername: live.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 0e0bf934-1942-4379-9c98-5cd9aa93140a
+  uuid: 84f66368-8a37-468e-ae95-5622255fd4db
+- name: '[VLESS] deDE_2|1.5MB/s'
+  network: ws
+  port: 2087
+  server: api.dark-coffe.com
+  servername: 5JxGp6VrFh.SmArTtEcHzAaL.InFo
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: speed1.best-cloud.ir
-    max-early-data: 2048
+      Host: 5JxGp6VrFh.SmArTtEcHzAaL.InFo
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] deDE_3|1.3MB/s'
+  password: a3027c931ae07bce
+  port: 27130
+  server: 57.129.69.122
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇧🇪BE
+  name: '[SS] deDE²_4|1.1MB/s|51%|GPT⁺|X|[广播...'
+  password: b2871db02e5f7e2f
+  port: 11201
+  server: 57.129.35.242
+  type: ss
 - client-fingerprint: chrome
-  name: '[VLESS] deDE²_5|0.6MB/s|27%|GPT⁺|X|Suc...'
+  encryption: none
+  name: '[VLESS] deDE²_7|6.4MB/s|GPT⁺|X|Succeed...'
   network: ws
   port: 8880
   server: 25.25.25.0
@@ -82,18 +66,50 @@ proxies:
       Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
     max-early-data: 8880
     path: /
-- name: '[Socks5] deDE²_7|1.8MB/s|1%|GPT⁺|X|Succ...'
+  xudp: true
+- name: '[VLESS] deDE_6|2.8MB/s'
+  network: ws
+  port: 8880
+  server: clean.photoggenic.ir
+  type: vless
+  udp: true
+  uuid: 8e997404-cb62-4fa1-a8c9-c77a32f10153
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2272.104 Safari/537.36
+    max-early-data: 8880
+    path: /
+  xudp: true
+- name: '[Socks5] deDE²_2|5.5MB/s|GPT⁺|X|Succeed'
   password: ''
-  port: 10335
-  server: 37.120.162.180
+  port: 1080
+  server: 161.35.31.237
   skip-cert-verify: true
   type: socks5
   username: ''
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇮🇷IR
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] deDE²_3|6.6MB/s|9%|GPT⁺|TK|NF|...'
+  network: ws
+  port: 51649
+  server: 91.107.252.110
+  skip-cert-verify: true
+  type: vmess
+  uuid: 6507fcbd-9fb0-4470-8ec4-22f2df436047
+  ws-opts:
+    path: /
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: '[VLESS] deDE²_8|5.1MB/s|6%|GPT⁺|TK|NF|...'
+  name: '[VLESS] deDE²_6|7.7MB/s|6%|GPT⁺|YT|TK|...'
   network: grpc
   port: 22955
   reality-opts:
@@ -107,17 +123,33 @@ proxies:
   uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
   xudp: true
 - client-fingerprint: chrome
-  name: '[VLESS] deDE²_9|0.7MB/s|9%|GPT⁺|X|Succ...'
-  network: ws
-  port: 80
-  server: 185.143.233.235
-  servername: oon.visaups.ir
-  skip-cert-verify: false
-  tls: false
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '[VLESS] atAT²_2|6.3MB/s|20%|GPT⁺|YT-DE...'
+  network: grpc
+  port: 22955
+  reality-opts:
+    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: 152.53.51.24
+  servername: one-piece.com
+  tls: true
   type: vless
   udp: true
-  uuid: 087d8602-503b-4091-9f05-44c20792083c
-  ws-opts:
-    headers:
-      Host: oon.visaups.ir
-    path: /
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] DE_speednode_0005'
+  port: 443
+  reality-opts:
+    public-key: 9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU
+    short-id: '!!str 00684d2eae2cdd16'
+  server: 185.94.29.250
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a

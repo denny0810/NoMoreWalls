@@ -12,23 +12,23 @@ proxies:
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 443
-  server: 58.152.18.247
+  server: 58.152.18.98
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 香港4|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 3830
-  server: 54.95.183.161
+  port: 443
+  server: 218.250.156.130
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[Trojan] 香港5|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 2266
-  server: 54.238.101.170
+  port: 4650
+  server: 18.166.15.25
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -42,18 +42,43 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[Trojan] hkHK_1|2.1MB/s'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.219
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] hkHK¹⁺_1|4.2MB/s|4%|YT|D+|X|[广...'
+  network: ws
+  port: 443
+  server: 154.21.201.83
+  servername: hk.nbee.pp.ua
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
+  ws-opts:
+    headers:
+      HOST: hk.nbee.pp.ua
+    path: /aa
 - client-fingerprint: chrome
-  country: 🇭🇰 HK
-  name: '[Trojan] hkHK²_1|10.3MB/s|1%|YT|NF|D+|X...'
+  name: '[Trojan] hkHK²_2|12.2MB/s|1%|YT|NF|D+|X...'
   network: tcp
   password: BxceQaOe
   port: 443
   server: 58.152.46.246
   skip-cert-verify: true
+  sni: 58.152.46.246
   type: trojan
-  udp: true
 - client-fingerprint: chrome
-  name: '[Trojan] hkHK²_2|10.6MB/s|1%|YT|NF|D+|X...'
+  name: '[Trojan] hkHK²_6|12.1MB/s|1%|YT|NF|D+|X...'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -62,40 +87,22 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: '[Trojan] hkHK²_4|4.0MB/s|1%|YT|NF|D+|X|...'
+  name: '[Trojan] hkHK²_5|0.6MB/s|0%|D+|X|[广播|机房...'
   network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.219
+  password: 0949b660-d349-4b5b-b3ce-3349058f7be8
+  port: 31102
+  server: green2.cdntencentmusic.com
   skip-cert-verify: true
-  sni: 58.152.53.219
+  sni: green2.cdntencentmusic.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /QQqun-737805443
-  name: '[Vmess] hkHK²_5|5.8MB/s|0%|YT|D+|X|[原生...'
-  network: http
-  port: 52080
-  server: 61.15.60.153
-  type: vmess
-  uuid: bfb47846-aedb-4ea3-a81f-27895a4ec1bb
-- cipher: chacha20-ietf
-  country: 🇭🇰 HK
-  name: '[SS] hkHK²_6|1.1MB/s|YT|NF|D+|X'
-  password: asd123456
-  port: 8388
-  server: 103.149.182.105
-  type: ss
-- name: '[Trojan] HK_speednode_0013'
-  password: 4843e94d205f3893f588255a591abe94
-  port: 443
-  server: 58.152.18.124
+  udp: true
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_7|0.7MB/s|0%|D+|X|[广播|机房...'
+  network: tcp
+  password: cfc58264-6650-4536-a338-e6bc27095421
+  port: 31102
+  server: green2.cdntencentmusic.com
   skip-cert-verify: true
-  sni: www.nintendogames.net
+  sni: green2.cdntencentmusic.com
   type: trojan
   udp: true

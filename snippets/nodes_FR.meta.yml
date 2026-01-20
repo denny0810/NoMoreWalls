@@ -7,10 +7,41 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  country: 🇧🇪BE
-  name: '[SS] frFR²_1|6.3MB/s|46%|GPT⁺|TK|NF...'
-  password: 27e645dcf11ded1f
-  port: 47000
-  server: 57.128.190.144
-  type: ss
+- alpn:
+  - h3
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] frFR_1|2.6MB/s'
+  network: ws
+  port: 443
+  server: 104.21.43.168
+  servername: Ggjd.digikala.lat
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2744521-78b7-4c24-86f2-4f751d1cb7bf
+  ws-opts:
+    headers:
+      Host: private.digikala.lat
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: UpdateService
+  name: '[VLESS] frFR²_1|5.3MB/s|20%|GPT⁺|YT-RU...'
+  network: grpc
+  port: 2083
+  reality-opts:
+    public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
+    short-id: '!!str 6da16b1335651b38'
+  server: 213.176.73.206
+  servername: apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+  xudp: true

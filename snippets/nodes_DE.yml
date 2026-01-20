@@ -1,15 +1,29 @@
 proxies:
-- alterId: 2
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] deDE_3|1.3MB/s'
+  password: a3027c931ae07bce
+  port: 27130
+  server: 57.129.69.122
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇧🇪BE
+  name: '[SS] deDE²_4|1.1MB/s|51%|GPT⁺|X|[广播...'
+  password: b2871db02e5f7e2f
+  port: 11201
+  server: 57.129.35.242
+  type: ss
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  country: 🇭🇰HK
+  country: 🇮🇷IR
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] deDE²_3|0.7MB/s|GPT⁺|X|[广播|机房]'
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  servername: v33.hdacd.com
+  name: '[Vmess] deDE²_3|6.6MB/s|9%|GPT⁺|TK|NF|...'
+  network: ws
+  port: 51649
+  server: 91.107.252.110
   skip-cert-verify: true
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 6507fcbd-9fb0-4470-8ec4-22f2df436047
+  ws-opts:
+    path: /

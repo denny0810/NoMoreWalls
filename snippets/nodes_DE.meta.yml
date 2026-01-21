@@ -5,7 +5,7 @@ proxies:
   tls: false
   type: socks5
   username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
-- name: '[Socks5] 🏴‍☠_1🏴‍☠_2🏴‍☠_1193.233.254.7:1...'
+- name: '[Socks5] 🏴‍☠_1🏴‍☠_1🏴‍☠_2🏴‍☠_1193.233.25...'
   password: ''
   port: 1080
   server: 193.233.254.7
@@ -13,7 +13,7 @@ proxies:
   tls: false
   type: socks5
   username: ''
-- name: '[Socks5] deDE²_7|1.5MB/s|100%|X|Succeed'
+- name: '[Socks5] 🏴‍☠_3deDE²_7|1.5MB/s|Succeed|0...'
   password: ''
   port: 1080
   server: 193.233.254.9
@@ -47,49 +47,78 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: '[Socks5] deDE²_1|3.1MB/s|2%|GPT⁺|X'
-  password: ''
-  port: 39775
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] deDE²_2|2.9MB/s|0%|GPT⁺|X'
-  password: ''
-  port: 46297
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-  username: ''
 - client-fingerprint: chrome
+  country: 🇺🇸US
+  name: '[Trojan] deDE²_1|5.8MB/s|1%|GPT⁺|X|[广播|...'
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22223
+  server: 63.179.77.17
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '[VLESS] deDE²_2|2.9MB/s|0%|GPT⁺|TK|NF|...'
+  network: grpc
+  port: 2053
+  reality-opts:
+    public-key: isw9UCSqdj1pzN3KpqY634QY4eLCYmDrMgvI1XsQimA
+    short-id: '!!str '
+  server: 64.188.91.193
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b64ff004-ec17-4cbb-9f32-c4eb7f4660e8
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: '[VLESS] DE_speednode_0003'
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] deDE²_3|2.5MB/s|GPT⁺|D+|X|Hist...'
   network: tcp
   port: 443
   reality-opts:
-    public-key: 9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU
-    short-id: '!!str 00684d2eae2cdd16'
-  server: 185.94.29.250
-  servername: apple.com
-  skip-cert-verify: false
+    public-key: Uwz6QjH6QTonKba4RVv35LNmhJLA6c2kxtI2nXRQWTg
+    short-id: '!!str 2c60d62e1d95c07a'
+  server: 51.250.35.199
+  servername: eh.vk.com
   tls: true
   type: vless
   udp: true
   uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-- name: '[Socks5] deDE²_4|3.8MB/s|6%|GPT⁺|X'
-  password: ''
-  port: 18080
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-  username: ''
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '[VLESS] deDE²_4|1.3MB/s|6%|GPT⁺|YT|TK|...'
+  network: grpc
+  port: 22955
+  reality-opts:
+    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: 37.120.175.246
+  servername: one-piece.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   http-opts:
     headers: {}
     path:
     - /
-  name: '[VLESS] deDE²_5|3.9MB/s|GPT⁺|D+|X|Hist...'
+  name: '[VLESS] deDE²_5|1.7MB/s|0%|GPT|X|Succe...'
   network: tcp
   port: 59152
   reality-opts:
@@ -103,13 +132,24 @@ proxies:
   uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
   xudp: true
 - client-fingerprint: chrome
+  country: 🇺🇸US
+  name: '[Trojan] deDE²_6|5.9MB/s|1%|GPT⁺|X|[广播|...'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 63.179.77.17
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
   http-opts:
     headers: {}
     path:
     - /
-  name: '[VLESS] deDE²_6|3.3MB/s|9%|GPT⁺|D+|X|[...'
+  name: '[VLESS] deDE²_7|3.6MB/s|GPT|X|Succeed|...'
   network: tcp
   port: 443
   reality-opts:
@@ -122,3 +162,37 @@ proxies:
   udp: true
   uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
   xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] deDE²_8|5.8MB/s|0%|GPT⁺|NF|D+|...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: trialdays.store
+  servername: trialdays.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: 94b14627-b624-4518-b9b6-9a3aae70f3ac
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] DE_speednode_0003'
+  port: 443
+  reality-opts:
+    public-key: 9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU
+    short-id: '!!str 00684d2eae2cdd16'
+  server: 185.94.29.250
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a

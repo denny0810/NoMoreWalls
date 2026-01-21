@@ -1,13 +1,17 @@
 proxies:
-- name: '[Trojan] HK61｜家宽｜非常安全'
+- client-fingerprint: chrome
+  country: 🇭🇰HK
+  name: '[Trojan] hkHK²_7|15.0MB/s|1%|NF|D+|X|Hi...'
+  network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 443
   server: 58.152.18.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - client-fingerprint: chrome
-  name: '[Trojan] hkHK²_2|0.8MB/s|1%|YT|D+|X|Suc...'
+  name: '[Trojan] hkHK²_1|10.7MB/s|1%|YT|NF|D+|X...'
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 443
@@ -282,3 +286,20 @@ proxies:
   tls: false
   type: vmess
   uuid: bfb47846-aedb-4ea3-a81f-27895a4ec1bb
+- client-fingerprint: chrome
+  country: 🇭🇰 HK
+  name: '[Trojan] hkHK²_4|12.5MB/s|1%|YT|NF|D+|X...'
+  network: tcp
+  password: 4843e94d205f3893f588255a591abe94
+  port: 443
+  server: 58.152.18.124
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf
+  country: 🇭🇰HK
+  name: '[SS] hkHK²_14|0.5MB/s|0%|X'
+  password: asd123456
+  port: 8388
+  server: 103.149.183.113
+  type: ss

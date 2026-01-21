@@ -61,35 +61,32 @@ proxies:
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 544
-  server: 153.121.45.139
+  server: 153.121.65.107
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 新加坡2|@ripaojiedian'
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
-  port: 3076
-  server: 153.121.45.139
+  port: 3901
+  server: 160.16.124.55
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 新加坡3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 3127
-  server: 57.180.20.143
+  port: 1196
+  server: 13.114.140.34
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  delay: 438
-  encryption: none
-  name: '[VLESS] hkHK¹-KR⁰_3|14.0MB/s|GPT|YT|D+...'
+  name: '[VLESS] usUS¹-KR⁰_1|3.2MB/s|GPT⁺|GM|YT...'
   network: ws
   port: 443
-  server: staticdelivery.nexusmods.com
+  server: vip2.kaixincloud.top
   servername: kb.as129394.me
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -100,37 +97,20 @@ proxies:
       Host: kb.as129394.me
     max-early-data: 2560
     path: /
+- cipher: chacha20-ietf-poly1305
+  country: 🇸🇬SG
+  name: '[SS] sgSG²_3|9.9MB/s|37%|GPT⁺|GM|YT...'
+  password: ce1dfbefd0addc9c
+  port: 11201
+  server: 45.135.228.135
+  type: ss
 - client-fingerprint: chrome
-  delay: 1384
   encryption: none
-  name: '[VLESS] usUS¹⁺_8|2.7MB/s|GPT|GM|YT|TK|...'
-  network: ws
-  port: 443
-  server: cloudflare.182682.xyz
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  delay: 420
-  encryption: none
-  name: '[VLESS] usUS¹⁺_7|2.6MB/s|GPT|YT-HK|NF|...'
+  name: '[VLESS] hkHK¹-US⁰_1|1.7MB/s|4%|GPT⁺|GM...'
   network: ws
   port: 443
   server: 162.159.16.63
   servername: l.ayovo.netlib.re
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -144,90 +124,45 @@ proxies:
     max-early-data: 2560
     path: /
   xudp: true
-- name: '[VLESS] sgSG_4|1.6MB/s'
-  network: ws
-  port: 8443
-  server: 172.64.157.136
-  servername: kb.as129394.me
-  tls: true
-  type: vless
-  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: kb.as129394.me
-    max-early-data: 2560
-    path: /
-- name: '[Socks5] sgSG²_1|3.2MB/s|4%|GPT⁺|GM|X|H...'
-  password: ''
-  port: 10808
-  server: 213.35.110.67
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] sgSG²_2|3.4MB/s|4%|GPT|GM|X|Hi...'
-  password: ''
-  port: 10819
-  server: 213.35.110.67
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] sgSG²_3|3.2MB/s|4%|GPT⁺|GM|X'
-  password: ''
-  port: 10810
-  server: 213.35.110.67
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] sgSG²_4|3.3MB/s|0%|GPT|GM|X'
-  password: ''
-  port: 10809
-  server: 213.35.110.67
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] sgSG²_5|0.9MB/s|0%|GPT⁺|NF|D+|...'
-  network: grpc
-  port: 22955
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: 152.53.48.237
-  servername: one-piece.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  xudp: true
-- name: '[Socks5] sgSG²_6|1.6MB/s|4%|GPT|GM|X'
-  password: ''
-  port: 10872
-  server: 213.35.110.67
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] sgSG²_7|1.5MB/s|GPT|X|History'
+- name: '[Socks5] sgSG²_1|11.9MB/s|4%|GPT⁺|GM|X|...'
   password: ''
   port: 10850
   server: 146.235.19.84
   skip-cert-verify: true
   type: socks5
   username: ''
-- name: '[Socks5] sgSG²_8|1.8MB/s|GPT|GM|X'
+- name: '[Socks5] sgSG²_2|10.9MB/s|4%|GPT|X|Succ...'
   password: ''
   port: 10810
-  server: 146.235.19.84
+  server: 213.35.110.67
   skip-cert-verify: true
   type: socks5
   username: ''
-- cipher: chacha20-ietf
-  country: 🇭🇰HK
-  name: '[SS] sgSG²_9|11.0MB/s|0%|YT|X|Histo...'
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] auAU²_2|3.4MB/s|33%|GPT⁺|YT-SG...'
+  password: 78322e4b934870b6
+  port: 47386
+  server: 154.26.156.99
   type: ss
+  udp: true
+- name: '[Socks5] sgSG²_4|9.1MB/s|GPT|X|Succeed'
+  password: ''
+  port: 10872
+  server: 213.35.110.67
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: '[Socks5] sgSG²_5|2.5MB/s|X'
+  password: ''
+  port: 3902
+  server: 138.199.25.13
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: '[Socks5] 🏴‍☠_6sgSG²_4|3.3MB/s|12.9MB/s|...'
+  password: ''
+  port: 10809
+  server: 213.35.110.67
+  skip-cert-verify: true
+  type: socks5
+  username: ''

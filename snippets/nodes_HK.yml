@@ -15,7 +15,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   country: 🇭🇰HK
-  name: '[Trojan] hkHK²_4|4.3MB/s|1%|NF|D+|X|Suc...'
+  name: '[Trojan] hkHK²_3|14.7MB/s|1%|YT|NF|D+|X...'
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 443
@@ -42,9 +42,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 940962e9-85c7-43fa-a9ca-d523b15a32a5
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK²_5|1.7MB/s|1%|YT|NF|D+|X|...'
-  network: tcp
+- name: '[Trojan] HK62｜家宽｜非常安全'
   password: 4843e94d205f3893f588255a591abe94
   port: 443
   server: 58.152.18.124
@@ -102,10 +100,9 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '[Vmess] hkHK²_2|1.7MB/s|5%|YT|NF|D+|X|...'
+  name: '[Vmess] HK120｜机房｜低风险'
   network: tcp
-  port: 47081
+  port: '47081'
   server: oss-4.qqa678.com
   tls: false
   type: vmess
@@ -202,19 +199,28 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] hk 香港2|@ripaojiedian'
+  port: 52080
+  server: 61.15.60.153
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: bfb47846-aedb-4ea3-a81f-27895a4ec1bb
 - name: '[Trojan] 香港4|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 443
-  server: 218.250.156.130
+  port: 3292
+  server: 13.114.140.34
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[Trojan] 香港5|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 4650
-  server: 18.166.15.25
+  port: 3042
+  server: 16.162.252.215
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -228,22 +234,19 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf
-  name: '[SS] hkHK_1|1.6MB/s'
-  password: asd123456
-  port: 8388
-  server: 103.149.182.158
-  type: ss
-- cipher: chacha20-ietf
-  country: 🇭🇰 HK
-  name: '[SS] hkHK²_1|1.0MB/s|0%|X'
-  password: asd123456
-  port: 8388
-  server: 103.141.221.124
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] 香港2|@ripaojiedian'
+  network: tcp
+  port: '52080'
+  server: 61.15.60.153
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bfb47846-aedb-4ea3-a81f-27895a4ec1bb
 - client-fingerprint: chrome
   country: 🇭🇰 HK
-  name: '[Trojan] hkHK²_3|8.6MB/s|1%|YT|NF|D+|X|...'
+  name: '[Trojan] hkHK²_1|14.7MB/s|1%|YT|NF|D+|X...'
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 443
@@ -251,18 +254,13 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] thTH²_3|2.6MB/s|33%|GPT⁺|GM|YT...'
-  network: none
-  port: 15542
-  server: 38.60.200.142
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_2|0.7MB/s|0%|NF|D+|X|[广播...'
+  network: tcp
+  password: e7354b6e-7bf8-4dd1-9926-d6c3cc12416d
+  port: 31102
+  server: green2.cdntencentmusic.com
   skip-cert-verify: true
-  type: vmess
-  uuid: d5cf6d36-f065-4e1b-ca2d-6fe23710603c
-  ws-opts:
-    path: /
+  sni: green2.cdntencentmusic.com
+  type: trojan
+  udp: true

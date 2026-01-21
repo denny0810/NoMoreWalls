@@ -31,12 +31,28 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  delay: 430
-  encryption: none
-  name: '[VLESS] usUS¹⁺_9|2.8MB/s|GPT⁺|GM|YT|NF...'
+  name: '[VLESS] hkHK¹-KR⁰_1|1.5MB/s|GPT|YT|D+|...'
   network: ws
   port: 443
-  server: 162.159.44.142
+  server: vip3.kaixincloud.top
+  servername: kb.as129394.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: kb.as129394.me
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 536
+  encryption: none
+  name: '[VLESS] usUS¹⁺_5|7.2MB/s|GM|YT|TK|NF|D...'
+  network: ws
+  port: 443
+  server: 162.159.45.232
   servername: l.ayovo.netlib.re
   skip-cert-verify: false
   tls: true
@@ -49,4 +65,3 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
-  xudp: true

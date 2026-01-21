@@ -1,46 +1,13 @@
 proxies:
-- name: '[Trojan] SG7｜原生/疑似家宽｜非常安全'
-  password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
-  port: 27001
-  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
-  skip-cert-verify: true
-  sni: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
-  type: trojan
-- name: '[Trojan] SG8｜原生/疑似家宽｜非常安全'
-  password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
-  port: 26009
-  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
-  skip-cert-verify: true
-  sni: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
-  type: trojan
-- name: '[Trojan] SG9｜原生/疑似家宽｜非常安全'
-  password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
-  port: 26010
-  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
-  skip-cert-verify: true
-  sni: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
-  type: trojan
-- name: '[Trojan] SG12｜原生/疑似家宽｜非常安全'
-  password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
-  port: 27001
-  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
-  skip-cert-verify: true
-  sni: www.bilibili.com
-  type: trojan
-- name: '[Trojan] SG13｜原生/疑似家宽｜非常安全'
-  password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
-  port: 26009
-  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
-  skip-cert-verify: true
-  sni: www.bilibili.com
-  type: trojan
-- name: '[Trojan] SG14｜原生/疑似家宽｜非常安全'
-  password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
-  port: 26010
-  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
-  skip-cert-verify: true
-  sni: www.bilibili.com
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] SG15｜机房｜低风险'
+  network: tcp
+  port: '30812'
+  server: v12.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: '[Hysteria2] 新加坡1'
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2055
@@ -82,7 +49,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: '[VLESS] usUS¹-KR⁰_1|3.2MB/s|GPT⁺|GM|YT...'
+  name: '[VLESS] sgSG_1|2.6MB/s'
   network: ws
   port: 443
   server: vip2.kaixincloud.top
@@ -98,19 +65,20 @@ proxies:
     max-early-data: 2560
     path: /
 - cipher: chacha20-ietf-poly1305
-  country: 🇸🇬SG
-  name: '[SS] sgSG²_3|9.9MB/s|37%|GPT⁺|GM|YT...'
+  name: '[SS] sgSG_2|1.3MB/s'
   password: ce1dfbefd0addc9c
   port: 11201
   server: 45.135.228.135
   type: ss
 - client-fingerprint: chrome
+  delay: 420
   encryption: none
-  name: '[VLESS] hkHK¹-US⁰_1|1.7MB/s|4%|GPT⁺|GM...'
+  name: '[VLESS] usUS¹⁺_8|3.2MB/s|4%|GPT⁺|GM|YT...'
   network: ws
   port: 443
   server: 162.159.16.63
   servername: l.ayovo.netlib.re
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -124,45 +92,38 @@ proxies:
     max-early-data: 2560
     path: /
   xudp: true
-- name: '[Socks5] sgSG²_1|11.9MB/s|4%|GPT⁺|GM|X|...'
-  password: ''
-  port: 10850
-  server: 146.235.19.84
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] sgSG²_2|10.9MB/s|4%|GPT|X|Succ...'
+- name: '[Socks5] sgSG²_1|3.2MB/s|4%|GM|X|Succee...'
   password: ''
   port: 10810
   server: 213.35.110.67
   skip-cert-verify: true
   type: socks5
   username: ''
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] auAU²_2|3.4MB/s|33%|GPT⁺|YT-SG...'
-  password: 78322e4b934870b6
-  port: 47386
-  server: 154.26.156.99
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] sgSG²_2|2.4MB/s|GPT|X|Succeed|...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.206
   type: ss
-  udp: true
-- name: '[Socks5] sgSG²_4|9.1MB/s|GPT|X|Succeed'
+- name: '[Socks5] sgSG²_3|1.5MB/s|GPT⁺|X|Succeed'
   password: ''
-  port: 10872
-  server: 213.35.110.67
+  port: 10850
+  server: 146.235.19.84
   skip-cert-verify: true
   type: socks5
   username: ''
-- name: '[Socks5] sgSG²_5|2.5MB/s|X'
+- cipher: chacha20-ietf
+  country: 🇭🇰HK
+  name: '[SS] sgSG²_4|5.3MB/s|0%|GM|YT|NF|D+...'
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
+- name: '[Socks5] sgSG²_5|1.0MB/s|GM|X'
   password: ''
-  port: 3902
-  server: 138.199.25.13
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] 🏴‍☠_6sgSG²_4|3.3MB/s|12.9MB/s|...'
-  password: ''
-  port: 10809
-  server: 213.35.110.67
+  port: 1080
+  server: 182.253.123.120
   skip-cert-verify: true
   type: socks5
   username: ''

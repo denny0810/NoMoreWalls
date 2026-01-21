@@ -1,7 +1,15 @@
 proxies:
+- name: '[Hysteria2] FR2｜机房｜低风险'
+  password: a516b408-e06d-4278-9e6d-5271571ecab5
+  port: 20248
+  server: 51.75.118.149
+  skip-cert-verify: true
+  sni: dash.cloudflare.com
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: '[Vmess] FR1｜机房｜低风险'
+  name: '[Vmess] FR3｜机房｜低风险'
   network: tcp
   port: '30835'
   server: v35.hdacd.com
@@ -17,7 +25,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: '[Trojan] frFR_1|1.8MB/s'
+  name: '[Trojan] frFR²_4|6.6MB/s|GPT⁺|X|History'
   network: ws
   password: humanity
   port: 443
@@ -28,10 +36,10 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
     path: /assignment
-- name: '[Socks5] frFR²_1|0.7MB/s|GPT⁺|X|Succeed'
+- name: '[Socks5] frFR²_1|2.0MB/s|0%|GPT|X|Succe...'
   password: ''
   port: 1080
   server: 185.194.217.97
@@ -40,7 +48,7 @@ proxies:
   username: ''
 - client-fingerprint: chrome
   country: 🇫🇷FR
-  name: '[Trojan] frFR²_2|5.6MB/s|1%|GPT⁺|NF|X|[...'
+  name: '[Trojan] frFR²_2|5.6MB/s|1%|GPT⁺|X|Succ...'
   network: tcp
   password: telegram-id-directvpn
   port: 22223
@@ -49,10 +57,14 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- name: '[Socks5] 🏴‍☠_4frFR²_4|5.9MB/s|1.0MB/s|X...'
-  password: ''
-  port: 18618
-  server: 37.120.162.180
+- client-fingerprint: chrome
+  country: 🇫🇷FR
+  name: '[Trojan] frFR²_3|5.4MB/s|1%|GPT⁺|X|[广播|...'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.36.35.251
   skip-cert-verify: true
-  type: socks5
-  username: ''
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true

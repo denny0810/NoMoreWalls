@@ -24,6 +24,26 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] frFR²_4|4.2MB/s|0%|GPT⁺|D+|X|[...'
+  network: ws
+  port: 8443
+  server: 104.18.32.47
+  servername: NewChat1.ikoOchi.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 725495fc-61fc-4c68-bf27-54bb4459d37d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: NewChat1.ikoOchi.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.115 Safari/537.36
+    max-early-data: 2560
+    path: /api
+  xudp: true
 - cipher: aes-256-cfb
   country: 🇫🇷FR
   name: '[SS] frFR²_1|4.9MB/s|1%|GPT⁺|TK|X|S...'
@@ -45,26 +65,6 @@ proxies:
   skip-cert-verify: true
   type: socks5
   username: ''
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] frFR²_4|4.2MB/s|0%|GPT⁺|D+|X|[...'
-  network: ws
-  port: 8443
-  server: 104.18.32.47
-  servername: NewChat1.ikoOchi.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 725495fc-61fc-4c68-bf27-54bb4459d37d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: NewChat1.ikoOchi.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.115 Safari/537.36
-    max-early-data: 2560
-    path: /api
-  xudp: true
 - client-fingerprint: chrome
   country: 🇫🇷FR
   name: '[Trojan] frFR²_5|5.8MB/s|1%|GPT⁺|X|[广播|...'

@@ -48,31 +48,11 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: '[VLESS] sgSG_1|1.1MB/s'
-  network: ws
-  port: 443
-  server: vip2.kaixincloud.top
-  servername: kb.as129394.me
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: kb.as129394.me
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  delay: 438
-  encryption: none
-  name: '[VLESS] hkHK¹-KR⁰_5|16.8MB/s|GPT|YT|NF...'
+- name: '[VLESS] sgSG_1|1.1MB/s'
   network: ws
   port: 443
   server: staticdelivery.nexusmods.com
   servername: kb.as129394.me
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -84,11 +64,50 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
+  delay: 420
   encryption: none
-  name: '[VLESS] sgSG_3|2.6MB/s'
+  name: '[VLESS] usUS¹⁺_6|3.5MB/s|GPT⁺|GM|YT|TK...'
+  network: ws
+  port: 443
+  server: 162.159.16.63
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] sgSG_3|4.1MB/s'
   network: ws
   port: 443
   server: cloudflare.182682.xyz
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: '[VLESS] sgSG_4|1.2MB/s'
+  network: ws
+  port: 443
+  server: vip2.kaixincloud.top
   servername: snip.qqq.hidns.co
   tls: true
   type: vless
@@ -98,22 +117,31 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: snip.qqq.hidns.co
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /
+- client-fingerprint: random
+  name: '[VLESS] sgSG_5|1.2MB/s'
+  network: ws
+  port: 443
+  server: blog.811520.xyz
+  servername: snip.qqq.hidns.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.qqq.hidns.co
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2228.0 Safari/537.36
     max-early-data: 2560
     path: /
   xudp: true
-- name: '[Socks5] sgSG²_1|0.5MB/s|4%|GPT|X|Histo...'
+- name: '[Socks5] sgSG²_1|0.6MB/s|4%|X'
   password: ''
-  port: 10850
-  server: 213.35.110.67
+  port: 10819
+  server: 146.235.19.84
   skip-cert-verify: true
   type: socks5
   username: ''
-- cipher: chacha20-ietf
-  country: 🇭🇰HK
-  name: '[SS] sgSG²_2|11.5MB/s|X|History'
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  type: ss

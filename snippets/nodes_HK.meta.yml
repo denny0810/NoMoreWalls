@@ -238,13 +238,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 8482671e-846f-45c7-aec4-531c79f775ec
-- name: '[Trojan] hkHK_1|2.5MB/s'
+- client-fingerprint: chrome
+  country: 🇭🇰HK
+  name: '[Trojan] hkHK²_10|13.9MB/s|1%|YT|NF|D+|...'
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 443
   server: 58.152.18.124
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: '[Trojan] 香港4|@ripaojiedian'
   network: tcp
   password: BxceQaOe
@@ -269,17 +273,44 @@ proxies:
   tls: false
   type: vless
   uuid: d4a23188-85b0-4b46-b84b-f1d36d66c03e
-- cipher: aes-256-cfb
-  country: 🇭🇰 HK
-  name: '[SS] hkHK²_6|0.7MB/s|0%|GM|YT-IN|NF...'
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 203.23.128.33
-  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] hkHK²_12|1.9MB/s|0%|GPT|YT|D+|...'
+  network: tcp
+  port: 47081
+  server: oss-4.qqa678.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7d3b2ea8-337b-4979-948f-bc1c1e72b6d5
 - cipher: chacha20-ietf
-  country: 🇭🇰 HK
-  name: '[SS] hkHK²_9|3.4MB/s|0%|X'
+  country: 🇭🇰HK
+  name: '[SS] hkHK²_7|0.9MB/s|0%|YT|D+|X|His...'
   password: asd123456
   port: 8388
-  server: 103.149.182.158
+  server: 103.149.182.79
   type: ss
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_8|9.0MB/s|1%|D+|X|Succee...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.219
+  skip-cert-verify: true
+  sni: 🔒+[By+EbraSha]+b2n.ir/v2ray-configs+|+400+
+  type: trojan
+- client-fingerprint: chrome
+  country: 🇭🇰 HK
+  name: '[Trojan] hkHK²_14|9.0MB/s|1%|D+|X|Histo...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.219
+  skip-cert-verify: true
+  type: trojan
+  udp: true

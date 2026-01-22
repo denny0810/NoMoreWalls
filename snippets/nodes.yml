@@ -575,13 +575,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 8482671e-846f-45c7-aec4-531c79f775ec
-- name: '[Trojan] hkHK_1|2.5MB/s'
+- country: 🇭🇰HK
+  name: '[Trojan] hkHK²_10|13.9MB/s|1%|YT|NF|D+|...'
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 443
   server: 58.152.18.124
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: '[Trojan] 香港4|@ripaojiedian'
   network: tcp
   password: BxceQaOe
@@ -676,15 +679,13 @@ proxies:
   server: 103.186.155.51
   type: ss
 - cipher: aes-256-cfb
-  country: 🇨🇳 CN
-  name: '[SS] vnVN²_2|2.9MB/s|GPT⁺|X|Succeed'
+  name: '[SS] vnVN_1|1.2MB/s'
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.25
   type: ss
 - cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] hkHK²_1|0.5MB/s|GPT⁺|X|Succeed'
+  name: '[SS] vnVN_2|1.3MB/s'
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.41
@@ -701,57 +702,21 @@ proxies:
   port: 38388
   server: 103.186.154.223
   type: ss
-- country: 🇺🇸US
-  name: '[Trojan] frFR²_1|5.6MB/s|1%|GPT⁺|X|Succ...'
+- name: '[Trojan] inIN²_1|7.7MB/s|GPT⁺|YT|X|Hist...'
   network: tcp
-  password: telegram-id-directvpn
-  port: 22223
-  server: 51.44.124.96
+  password: M7v%w11Se*
+  port: 443
+  server: hyfuuf6.wsone.icu
   skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
+  sni: hyfuuf6.wsone.icu
   type: trojan
-  udp: true
-- name: '[Trojan] hkHK²_2|7.2MB/s|1%|YT-CN|D+|X|...'
+- name: '[Trojan] hkHK²_1|11.8MB/s|1%|YT-CN|D+|X...'
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 58.152.53.219
+  server: 58.152.25.130
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  type: trojan
-- country: 🇩🇪DE
-  name: '[Trojan] DE_speednode_0004'
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.196.155.223
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇭🇰 HK
-  name: '[Trojan] hkHK²_3|14.8MB/s|1%|YT-CN|NF|D...'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.130
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_1|0.8MB/s|GPT|X|Succeed'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.128
-  type: ss
-- country: 🇭🇰HK
-  name: '[Trojan] hkHK²_4|14.0MB/s|1%|YT-CN|NF|D...'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.130
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
   type: trojan
   udp: true
 - alterId: 0
@@ -764,7 +729,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '[Vmess] thTH²_2|3.4MB/s|1%|GPT⁺|YT|X|S...'
+  name: '[Vmess] thTH²_2|0.7MB/s|1%|GPT⁺|X|Succ...'
   network: http
   port: 8080
   server: m.modzard.com
@@ -773,59 +738,63 @@ proxies:
   type: vmess
   udp: true
   uuid: f2e17b4d-22fd-44a4-90db-40649717be8e
-- name: '[Trojan] hkHK²_5|5.5MB/s|1%|YT-CN|D+|X|...'
+- name: '[Trojan] usUS²_1|1.0MB/s|21%|GPT⁺|YT-RU...'
+  network: tcp
+  password: 381f2e86233720eacda26d50e9aa26da
+  port: 1281
+  server: 160.16.68.250
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] hkHK²_12|1.9MB/s|0%|GPT|YT|D+|...'
+  network: tcp
+  port: 47081
+  server: oss-4.qqa678.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7d3b2ea8-337b-4979-948f-bc1c1e72b6d5
+- name: '[Trojan] hkHK²_3|7.6MB/s|1%|YT-CN|D+|X|...'
   network: tcp
   password: BxceQaOe
   port: 443
   server: 58.152.53.219
   skip-cert-verify: true
-  sni: 58.152.53.219
-  type: trojan
-- country: 🇺🇸US
-  name: '[Trojan] sgSG²_2|7.1MB/s|GPT⁺|YT-CN|TK|...'
-  network: tcp
-  password: BxceQaOe
-  port: 2673
-  server: 43.198.16.69
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  sni: t.me%252Fripaojiedian
   type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_3|1.7MB/s|X|History'
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  country: 🇭🇰 HK
-  name: '[SS] hkHK²_6|0.7MB/s|0%|GM|YT-IN|NF...'
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 203.23.128.33
-  type: ss
-- name: '[Trojan] hkHK²_7|13.9MB/s|1%|YT-CN|NF|D...'
+- country: 🇭🇰HK
+  name: '[Trojan] hkHK²_5|15.1MB/s|1%|YT-CN|NF|D...'
   network: tcp
   password: BxceQaOe
   port: 443
   server: 58.152.25.130
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: '[SS] esES²_1|0.9MB/s|20%|GPT⁺|X|His...'
-  password: ZET59LF6DvCC8KVt
-  port: 9005
-  server: 5.188.181.201
+- name: '[Trojan] hkHK²_6|9.3MB/s|1%|YT-CN|D+|X|...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.219
+  skip-cert-verify: true
+  sni: 🔒+[By+EbraSha]+b2n.ir/v2ray-configs+|+111+
+  type: trojan
+- cipher: chacha20-ietf
+  country: 🇭🇰HK
+  name: '[SS] hkHK²_7|0.9MB/s|0%|YT|D+|X|His...'
+  password: asd123456
+  port: 8388
+  server: 103.149.182.79
   type: ss
-- name: '[Trojan] hkHK²_8|1.7MB/s|1%|YT-CN|D+|X|...'
+- name: '[Trojan] hkHK²_8|9.0MB/s|1%|D+|X|Succee...'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -834,35 +803,36 @@ proxies:
   sni: 🔒+[By+EbraSha]+b2n.ir/v2ray-configs+|+400+
   type: trojan
 - cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_3|0.6MB/s|GPT⁺|GM|X'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.221
+  country: 🇪🇸 ES
+  name: '[SS] esES²_3|1.5MB/s|20%|GPT|X|Hist...'
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
+  server: 5.188.181.201
   type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_4|0.6MB/s|GPT⁺|YT|X|Succ...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.80
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_5|1.8MB/s|GPT|GM|YT-US|X...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.244
+- name: '[Trojan] hkHK²_11|5.1MB/s|1%|YT-CN|D+|X...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.219
+  skip-cert-verify: true
+  sni: 58.152.53.219
+  type: trojan
+- cipher: chacha20-ietf
+  country: 🇭🇰HK
+  name: '[SS] sgSG²_3|2.4MB/s|0%|X|History|[...'
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
   type: ss
 - cipher: chacha20-ietf-poly1305
-  country: 🇬🇧GB
-  name: '[SS] usUS²_4|5.0MB/s|80%|GPT⁺|NF|X|...'
-  password: 90e3f0733aa4fe2b
-  port: 29551
-  server: 212.56.42.207
+  name: '[SS] uaUA²_1|5.2MB/s|0%|GPT⁺|YT-US|...'
+  password: d27faed8a9b98bd0
+  port: 11201
+  server: 163.171.137.72
   type: ss
+  udp: true
 - country: 🇺🇸US
-  name: '[Trojan] frFR²_4|5.8MB/s|1%|GPT⁺|X|[广播|...'
+  name: '[Trojan] frFR²_6|5.7MB/s|1%|GPT⁺|X|Succ...'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -871,21 +841,7 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- cipher: chacha20-ietf
-  country: 🇭🇰 HK
-  name: '[SS] hkHK²_9|3.4MB/s|0%|X'
-  password: asd123456
-  port: 8388
-  server: 103.149.182.158
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_6|1.1MB/s|GPT|X|Succeed|...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.132
-  type: ss
-- name: '[Trojan] hkHK²_10|6.4MB/s|1%|YT-CN|NF|D...'
+- name: '[Trojan] hkHK²_13|8.7MB/s|1%|YT-CN|D+|X...'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -894,6 +850,23 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- country: 🇭🇰 HK
+  name: '[Trojan] hkHK²_14|9.0MB/s|1%|D+|X|Histo...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.219
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: '[Trojan] hkHK²_15|3.8MB/s|1%|YT-CN|D+|X...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.219
+  skip-cert-verify: true
+  sni: 🔒+[By+EbraSha]+b2n.ir/v2ray-configs+|+334+
+  type: trojan
 - alterId: 0
   cipher: auto
   name: '[Vmess] VMESS节点2-ipv6'
@@ -920,6 +893,13 @@ proxies:
   server: 18.196.155.223
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: '[Trojan] DE_speednode_0004'
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.196.155.223
+  skip-cert-verify: true
   type: trojan
   udp: true
 - name: '[Trojan] FR_speednode_0006'

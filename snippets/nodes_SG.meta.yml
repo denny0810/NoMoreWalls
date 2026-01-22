@@ -1,6 +1,5 @@
 proxies:
-- client-fingerprint: chrome
-  name: '[Trojan] JP_speednode_0010'
+- name: '[Trojan] JP_speednode_0010'
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 3076
@@ -9,14 +8,12 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: '[Socks5] sgSG²_2|0.9MB/s|GPT⁺|X|History'
-  password: ''
+- name: '[Socks5] SG3｜机房｜高风险 (黑名单)'
   port: 10850
   server: 213.35.110.67
-  skip-cert-verify: true
   tls: false
   type: socks5
-  username: ''
+  username: Og%3D%3D
 - name: '[Hysteria2] 新加坡1'
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2055
@@ -63,26 +60,20 @@ proxies:
       Host: kb.as129394.me
     max-early-data: 2560
     path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] usUS¹⁺_1|1.9MB/s|GPT⁺|NF|D+|X|...'
+- name: '[VLESS] sgSG_2|1.4MB/s'
   network: ws
   port: 443
   server: cloudflare.182682.xyz
-  servername: l.ayovo.netlib.re
+  servername: cloudflare.182682.xyz
   tls: true
   type: vless
-  udp: true
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: l.ayovo.netlib.re
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     max-early-data: 2560
     path: /
-  xudp: true
 - name: '[VLESS] sgSG_3|1.6MB/s'
   network: ws
   port: 8443
@@ -97,10 +88,24 @@ proxies:
       Host: kb.as129394.me
     max-early-data: 2560
     path: /
-- name: '[Socks5] sgSG²_3|4.3MB/s|YT|X'
+- name: '[Socks5] sgSG²_1|0.6MB/s|GPT|X|Succeed'
   password: ''
-  port: 1080
-  server: 43.133.37.149
+  port: 57745
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: '[Socks5] sgSG²_2|0.5MB/s|4%|GPT|X|Histo...'
+  password: ''
+  port: 10809
+  server: 146.235.19.84
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: '[Socks5] sgSG²_3|0.7MB/s|GPT⁺|NF|X|Hist...'
+  password: ''
+  port: 10810
+  server: 213.35.110.67
   skip-cert-verify: true
   type: socks5
   username: ''

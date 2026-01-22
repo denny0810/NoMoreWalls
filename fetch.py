@@ -419,16 +419,56 @@ class Node:
         parsed = self.urlparse(url)
         self.data = {'name': unquote(parsed.fragment), 'server': parsed.hostname,
                 'type': 'hysteria2', 'password': unquote(parsed.username)}
-        if ':' in parsed.netloc:
-            ports = parsed.netloc.split(':')[1]
-            if ',' in ports:
-                _, self.data['ports'] = ports.split(',',1)
+        # 修正IPv6地址端口解析
+        netloc = parsed.netloc
+        if netloc.count('@'):
+            netloc = netloc.split('@', 1)[1]
+        if netloc.startswith('['):
+            # IPv6
+            if ']' in netloc:
+                host_end = netloc.index(']')
+                host = netloc[:host_end+1]
+                rest = netloc[host_end+1:]
+                if rest.startswith(':'):
+                    rest = rest[1:]
+                    if ',' in rest:
+                        port, ports = rest.split(',', 1)
+                        try:
+                            self.data['port'] = int(port)
+                        except Exception:
+                            self.data['port'] = parsed.port or 443
+                        self.data['ports'] = ports
+                    else:
+                        try:
+                            self.data['port'] = int(rest)
+                        except Exception:
+                            self.data['port'] = parsed.port or 443
+                else:
+                    self.data['port'] = parsed.port or 443
             else:
-                self.data['port'] = ports
-            try: self.data['port'] = int(self.data['port'])
-            except ValueError: self.data['port'] = 443
+                self.data['port'] = parsed.port or 443
         else:
-            self.data['port'] = 443
+            # IPv4
+            if ':' in netloc:
+                parts = netloc.rsplit(':', 1)
+                if len(parts) == 2:
+                    host, portpart = parts
+                    if ',' in portpart:
+                        port, ports = portpart.split(',', 1)
+                        try:
+                            self.data['port'] = int(port)
+                        except Exception:
+                            self.data['port'] = parsed.port or 443
+                        self.data['ports'] = ports
+                    else:
+                        try:
+                            self.data['port'] = int(portpart)
+                        except Exception:
+                            self.data['port'] = parsed.port or 443
+                else:
+                    self.data['port'] = parsed.port or 443
+            else:
+                self.data['port'] = parsed.port or 443
         self.data['tls'] = False
         if not parsed.query: return
         k = v = ''

@@ -47,95 +47,41 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] deDE_1|2.0MB/s'
-  network: grpc
-  port: 22955
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: 159.195.42.217
-  servername: one-piece.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] DE_speednode_0003'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU
-    short-id: '!!str 00684d2eae2cdd16'
-  server: 185.94.29.250
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_3|1.5MB/s'
-  network: ws
-  port: 1002
-  server: 2.59.134.242
-  servername: ennyfe.zipgd3vx91o.ddns-ip.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: ennyfe.zipgd3vx91o.ddns-ip.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_4|1.5MB/s'
-  network: ws
-  port: 443
-  server: 172.64.155.209
-  servername: main.shieldpath.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7d9e0e9b-3195-421f-9228-be763906a005
-  ws-opts:
-    headers:
-      Host: main.shieldpath.ir
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /thisway
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
   http-opts:
     headers: {}
     path:
     - /
-  name: '[VLESS] RU_speednode_0022'
+  name: '[VLESS] RU_speednode_0026'
   network: tcp
-  port: 47051
+  port: 59152
   reality-opts:
     public-key: y8f0sznQFqvSOPFcFvPcQFfXbz0Ag10ySB4A88OXMy0
     short-id: '!!str effab4f3a0ed698e'
-  server: 51.250.41.54
-  servername: api.security.max.ru
+  server: 51.250.33.87
+  servername: ads.x5.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE_2|2.2MB/s'
+  network: ws
+  port: 2087
+  server: chat.openai.com
+  servername: hfsakjuhfvgasljhdvschat.ftacdnjkop.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 25f1d46a-d15f-4391-894c-31a896987ea6
+  ws-opts:
+    headers:
+      Host: hfsakjuhfvgasljhdvschat.ftacdnjkop.ir
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /https://t.me/NIM_VPN_ir,https://t.me/NIM_VPN_ir
   xudp: true
 - name: '[Socks5] deDE²_1|0.8MB/s|2%|GPT⁺|X'
   password: ''
@@ -274,6 +220,20 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] DE_speednode_0003'
+  port: 443
+  reality-opts:
+    public-key: 9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU
+    short-id: '!!str 00684d2eae2cdd16'
+  server: 185.94.29.250
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
 - name: '[Trojan] DE_speednode_0004'
   password: telegram-id-privatevpns
   port: 22222

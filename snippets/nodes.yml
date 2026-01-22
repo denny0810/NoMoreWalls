@@ -678,30 +678,47 @@ proxies:
   port: 38388
   server: 103.186.155.51
   type: ss
-- cipher: aes-256-cfb
-  name: '[SS] vnVN_1|1.2MB/s'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.25
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] ilIL_1|2.1MB/s'
+  password: d121385f700a6915
+  port: 11201
+  server: 163.171.213.46
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] brBR_1|1.0MB/s'
+  password: a7c205642b302c20
+  port: 11205
+  server: 5.188.4.103
   type: ss
 - cipher: aes-256-cfb
-  name: '[SS] vnVN_2|1.3MB/s'
+  name: '[SS] vnVN_1|1.5MB/s'
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.41
+  server: 103.186.155.134
   type: ss
 - cipher: aes-256-cfb
-  name: '[SS] vnVN_3|1.4MB/s'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.179
+  name: '[SS] usUS_2|1.2MB/s'
+  password: amazonskr05
+  port: 443
+  server: 18.212.222.123
   type: ss
-- cipher: aes-256-cfb
-  name: '[SS] vnVN_4|1.4MB/s'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.223
-  type: ss
+  udp: true
+- name: '[Trojan] usUS_3|1.2MB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/46.0.2490.71 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
 - name: '[Trojan] inIN²_1|7.7MB/s|GPT⁺|YT|X|Hist...'
   network: tcp
   password: M7v%w11Se*

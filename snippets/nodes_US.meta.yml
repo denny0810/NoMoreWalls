@@ -289,11 +289,10 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] hkHK¹-US⁰_1|11.7MB/s|YT|D+|X|S...'
+  name: '[VLESS] usUS_1|2.4MB/s'
   network: ws
   port: 443
-  server: 104.17.25.173
+  server: 104.21.224.5
   servername: l.ayovo.netlib.re
   tls: true
   type: vless
@@ -305,27 +304,30 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
-  xudp: true
+- cipher: aes-256-cfb
+  name: '[SS] usUS_2|1.2MB/s'
+  password: amazonskr05
+  port: 443
+  server: 18.212.222.123
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] usUS_2|2.1MB/s'
+  name: '[Trojan] usUS_3|1.2MB/s'
   network: ws
-  port: 443
-  server: 104.16.250.22
-  servername: l.ayovo.netlib.re
-  tls: true
-  type: vless
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: l.ayovo.netlib.re
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/46.0.2490.71 Safari/537.36
     max-early-data: 2560
-    path: /
-  xudp: true
+    path: /tro8sFW1S91B6sZrM1
 - client-fingerprint: chrome
   delay: 1610
   encryption: none
@@ -337,7 +339,6 @@ proxies:
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
@@ -345,26 +346,6 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
-  xudp: true
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] usUS_4|2.0MB/s'
-  network: tcp
-  port: 30003
-  reality-opts:
-    public-key: hDXY23v5S_49APGptqI_AKB64vUDshlUY1N47AZAogs
-    short-id: '!!str 5c705576253d25'
-  server: 23.148.20.100
-  servername: mensura.cdn-apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5daf1be0-eee4-4e94-8c5b-8d72ea26eb4a
-  xudp: true
 - client-fingerprint: chrome
   name: '[Trojan] usUS²_1|1.0MB/s|21%|GPT⁺|YT-RU...'
   network: tcp
@@ -400,6 +381,25 @@ proxies:
     path: /188.132.192.195=2053
   xudp: true
 - client-fingerprint: chrome
+  delay: 430
+  encryption: none
+  name: '[VLESS] usUS¹⁺_5|1.5MB/s|4%|GPT⁺|GM|YT...'
+  network: ws
+  port: 443
+  server: 162.159.44.142
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
   encryption: none
   name: '[VLESS] usUS¹⁺_3|0.5MB/s|GM|YT|TK|NF|D...'
   network: ws
@@ -419,6 +419,39 @@ proxies:
     max-early-data: 2560
     path: /
   xudp: true
+- client-fingerprint: chrome
+  delay: 536
+  encryption: none
+  name: '[VLESS] usUS¹⁺_4|2.2MB/s|4%|GPT⁺|GM|YT...'
+  network: ws
+  port: 443
+  server: 162.159.45.232
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: '[VLESS] hkHK¹-US⁰_1|11.7MB/s|YT|D+|X|S...'
+  network: ws
+  port: 443
+  server: 104.17.25.173
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
 - client-fingerprint: chrome
   name: '[VLESS] usUS¹⁺_6|2.8MB/s|GPT|GM|TK|NF|...'
   network: ws
@@ -450,6 +483,24 @@ proxies:
   udp: true
   uuid: 3f688b2a-373a-4be1-846d-b159404b73b2
   xudp: true
+- client-fingerprint: chrome
+  delay: 420
+  encryption: none
+  name: '[VLESS] hkHK¹-US⁰_2|4.6MB/s|4%|GPT|YT-...'
+  network: ws
+  port: 443
+  server: 162.159.16.63
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: '[SS] uaUA²_1|5.2MB/s|0%|GPT⁺|YT-US|...'
   password: d27faed8a9b98bd0

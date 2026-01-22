@@ -24,6 +24,46 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] frFR_1|1.7MB/s'
+  network: ws
+  port: 8443
+  server: 162.159.152.4
+  servername: streamchat.ikoochi.ir.
+  tls: true
+  type: vless
+  udp: true
+  uuid: 725495fc-61fc-4c68-bf27-54bb4459d37d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: streamchat.ikoochi.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    max-early-data: 2560
+    path: /api
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] frFR²_4|7.2MB/s|0%|GPT⁺|D+|X|[...'
+  network: ws
+  port: 8443
+  server: 8.6.112.0
+  servername: streamchat.ikoochi.ir.
+  tls: true
+  type: vless
+  udp: true
+  uuid: 725495fc-61fc-4c68-bf27-54bb4459d37d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: streamchat.ikoochi.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    max-early-data: 2560
+    path: /api
+  xudp: true
 - name: '[Socks5] frFR²_1|0.8MB/s|0%|GPT⁺|X'
   password: ''
   port: 44000
@@ -45,26 +85,6 @@ proxies:
   skip-cert-verify: true
   type: socks5
   username: ''
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] frFR²_4|7.2MB/s|0%|GPT⁺|D+|X|[...'
-  network: ws
-  port: 8443
-  server: 8.6.112.0
-  servername: streamchat.ikoochi.ir.
-  tls: true
-  type: vless
-  udp: true
-  uuid: 725495fc-61fc-4c68-bf27-54bb4459d37d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: streamchat.ikoochi.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
-    max-early-data: 2560
-    path: /api
-  xudp: true
 - name: '[Socks5] frFR²_5|1.7MB/s|2%|GPT⁺|X'
   password: ''
   port: 10805

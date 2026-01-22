@@ -25,28 +25,8 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] frFR_1|2.5MB/s'
-  network: ws
-  port: 8443
-  server: 104.18.32.47
-  servername: NewChat1.ikoOchi.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 725495fc-61fc-4c68-bf27-54bb4459d37d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: NewChat1.ikoOchi.ir
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    max-early-data: 2560
-    path: /api
-  xudp: true
-- client-fingerprint: chrome
   country: 🇺🇸US
-  name: '[Trojan] frFR²_1|5.6MB/s|1%|GPT⁺|X|[广播|...'
+  name: '[Trojan] frFR²_1|5.6MB/s|1%|GPT⁺|X|Succ...'
   network: tcp
   password: telegram-id-directvpn
   port: 22223
@@ -55,27 +35,28 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- name: '[Socks5] frFR²_3|2.2MB/s|0%|GPT⁺|X'
+- name: '[Socks5] frFR²_3|4.6MB/s|0%|GPT⁺|X|Hist...'
   password: ''
-  port: 12283
-  server: 37.120.162.180
+  port: 1080
+  server: 185.194.217.97
   skip-cert-verify: true
   type: socks5
   username: ''
 - client-fingerprint: chrome
-  country: 🇫🇷FR
-  name: '[Trojan] frFR²_4|5.6MB/s|1%|GPT⁺|NF|X|[...'
+  country: 🇺🇸US
+  name: '[Trojan] frFR²_4|5.8MB/s|1%|GPT⁺|X|[广播|...'
   network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 51.44.124.96
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: '[Trojan] FR_speednode_0006'
   password: telegram-id-directvpn
   port: 22223
   server: 51.44.124.96
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: '[Socks5] frFR²_5|5.0MB/s|0%|GPT⁺|X|Succ...'
-  password: ''
-  port: 45195
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-  username: ''

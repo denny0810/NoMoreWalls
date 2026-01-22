@@ -10,30 +10,28 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 2053
-  server: 18.181.201.166
+  server: 54.238.172.125
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[Trojan] 日本2|@ripaojiedian'
   network: tcp
-  password: 4843e94d205f3893f588255a591abe94
-  port: 1933
-  server: 160.16.57.238
-  skip-cert-verify: false
+  password: 869e9086806483ca4744a4cb0f3d6e16
+  port: 2053
+  server: 54.238.172.125
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 日本3|@ripaojiedian'
   network: tcp
-  password: 4843e94d205f3893f588255a591abe94
-  port: 4006
-  server: 160.16.117.182
-  skip-cert-verify: false
+  password: 869e9086806483ca4744a4cb0f3d6e16
+  port: 1933
+  server: 160.16.89.176
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
   delay: 536
   encryption: none
-  name: '[VLESS] usUS¹⁺_9|2.4MB/s|4%|GPT⁺|GM|YT...'
+  name: '[VLESS] usUS¹⁺_5|1.6MB/s|4%|GPT⁺|GM|YT...'
   network: ws
   port: 443
   server: 162.159.45.232
@@ -48,3 +46,13 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
+- client-fingerprint: chrome
+  name: '[Trojan] jpJP²_1|1.1MB/s|4%|GPT⁺|X|[广播|...'
+  network: tcp
+  password: 30077070-596e-48ea-9400-14c8ed07bd97
+  port: 443
+  server: tuntro003.instconn.com
+  skip-cert-verify: false
+  sni: login-staticjpc.jasmine-douyin.top
+  type: trojan
+  udp: true

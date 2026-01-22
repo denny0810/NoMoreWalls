@@ -105,27 +105,8 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] RU_speednode_0026'
-  network: tcp
-  port: 59152
-  reality-opts:
-    public-key: y8f0sznQFqvSOPFcFvPcQFfXbz0Ag10ySB4A88OXMy0
-    short-id: '!!str effab4f3a0ed698e'
-  server: 51.250.33.87
-  servername: ads.x5.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-  xudp: true
-- client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE_2|2.2MB/s'
+  name: '[VLESS] deDE_1|1.8MB/s'
   network: ws
   port: 2087
   server: chat.openai.com
@@ -141,127 +122,212 @@ proxies:
         like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /https://t.me/NIM_VPN_ir,https://t.me/NIM_VPN_ir
   xudp: true
-- name: '[Socks5] deDE²_1|5.7MB/s|2%|GPT⁺|X'
-  password: ''
-  port: 25585
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] deDE²_2|1.8MB/s|2%|GPT⁺|X|Hist...'
-  password: ''
-  port: 49857
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-  username: ''
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] deDE²_3|1.9MB/s|0%|GPT|X|Histo...'
-  network: tcp
+  name: '[VLESS] deDE_2|1.4MB/s'
+  network: ws
+  port: 2087
+  server: chat.openai.com
+  servername: hfsakjuhfvgasljhdvschat.ftacdnjkop.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3ac6a403-78ef-4e82-879f-1e54a622efd3
+  ws-opts:
+    headers:
+      Host: hfsakjuhfvgasljhdvschat.ftacdnjkop.ir
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.135 Safari/537.36
+    path: /https://t.me/NIM_VPN_ir,https://t.me/NIM_VPN_ir
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_1|7.5MB/s|9%|GPT⁺|X|[原生|...'
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  type: vless
+  udp: true
+  uuid: 6b1348aa-43de-4c14-af6a-bcbe02b0c7d5
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: Www.speedtest.net.sIgmasigmaboy.site.
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    max-early-data: 2048
+    path: /-ViV2ry@V2RIRAN-TEL--@V2RIRAN-TEL--@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL-@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL--@V2RIRAN
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_2|5.6MB/s|9%|GPT|X'
+  network: ws
   port: 443
-  reality-opts:
-    public-key: Uwz6QjH6QTonKba4RVv35LNmhJLA6c2kxtI2nXRQWTg
-    short-id: '!!str 2c60d62e1d95c07a'
-  server: 51.250.35.199
-  servername: eh.vk.com
+  server: 8.6.112.0
+  servername: starping.starpingshop.org
   tls: true
   type: vless
   udp: true
-  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+  uuid: 72f175f6-e2e4-4bb7-9165-8de10dd6c463
+  ws-opts:
+    headers:
+      Host: starping.starpingshop.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
+        Gecko) Chrome/26.0.1410.64 Safari/537.31
+    path: /
   xudp: true
-- name: '[Socks5] deDE²_4|2.6MB/s|2%|GPT⁺|X|Succ...'
+- client-fingerprint: chrome
+  name: '[VLESS] deDE²_3|7.9MB/s|9%|GPT⁺|X|Hist...'
+  network: ws
+  port: 2096
+  server: 25.129.197.138
+  servername: speed1.best-cloud.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0e0bf934-1942-4379-9c98-5cd9aa93140a
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: speed1.best-cloud.ir
+    max-early-data: 2048
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_4|7.2MB/s|9%|GPT⁺|X|[原生|...'
+  network: ws
+  port: 2053
+  server: 162.159.152.4
+  servername: dnsman.atlassmusic.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 827c5131-6703-4930-a75f-b7f6d4c1938f
+  ws-opts:
+    headers:
+      Host: dnsman.atlassmusic.top
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/34.0.1847.131 Safari/537.36
+    path: /
+  xudp: true
+- name: '[Socks5] deDE²_5|0.6MB/s|GPT⁺|X'
   password: ''
-  port: 40395
-  server: 37.120.162.180
+  port: 9038
+  server: 62.60.131.253
   skip-cert-verify: true
   type: socks5
   username: ''
-- name: '[Socks5] deDE²_5|4.1MB/s|2%|GPT⁺|X'
+- name: '[Socks5] deDE²_6|1.2MB/s|26%|GPT|X'
   password: ''
-  port: 19404
-  server: 37.120.162.180
+  port: 4060
+  server: 62.60.131.194
   skip-cert-verify: true
   type: socks5
   username: ''
-- cipher: chacha20-ietf-poly1305
-  country: 🇧🇪BE
-  name: '[SS] deDE²_6|2.7MB/s|51%|GPT⁺|TK|X|...'
-  password: 420946afc5918c49
-  port: 11201
-  server: 57.129.95.232
-  type: ss
-- name: '[Socks5] deDE²_7|3.7MB/s|2%|GPT⁺|X|Succ...'
+- name: '[Socks5] deDE²_7|3.2MB/s|X'
   password: ''
-  port: 44239
-  server: 37.120.162.180
+  port: 6770
+  server: 62.60.131.197
   skip-cert-verify: true
   type: socks5
   username: ''
 - client-fingerprint: chrome
   encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] deDE²_8|8.0MB/s|20%|GPT⁺|YT|TK...'
-  network: grpc
-  port: 22955
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: octopusss5.info
-  servername: one-piece.com
-  tls: true
+  name: '[VLESS] deDE²_8|8.0MB/s|9%|GPT⁺|X|[原生|...'
+  network: ws
+  port: 80
+  server: www.speedtest.net
   type: vless
   udp: true
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  uuid: 31a097a5-3d8c-4b4a-8dd5-bfac8e388b01
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: Www.speedtest.net.sIgmasigmaboy.site.
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
+        Safari/537.36
+    max-early-data: 2048
+    path: /-ViV2ry@V2RIRAN-TEL--@V2RIRAN-TEL--@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL-@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL--@V2RIRAN
   xudp: true
-- name: '[Socks5] deDE²_9|2.2MB/s|6%|GPT⁺|X|Hist...'
+- name: '[Socks5] deDE²_9|2.8MB/s|26%|GPT⁺|X'
   password: ''
-  port: 55715
-  server: 37.120.162.180
+  port: 5829
+  server: 62.60.131.253
   skip-cert-verify: true
   type: socks5
   username: ''
 - client-fingerprint: chrome
   encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] deDE²_10|7.2MB/s|6%|GPT⁺|YT|TK...'
-  network: grpc
-  port: 22955
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: 37.120.175.246
-  servername: one-piece.com
+  name: '[VLESS] deDE²_10|6.7MB/s|GPT⁺|X'
+  network: ws
+  port: 2096
+  server: 162.159.152.4
+  servername: inbshdh-82726362.poshakhowdy.ir
   tls: true
   type: vless
   udp: true
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  uuid: 16a2ef02-abe9-4135-b60d-3b715a950ace
+  ws-opts:
+    headers:
+      Host: inbshdh-82726362.poshakhowdy.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /چنل‌اصلی@ConfigFast
   xudp: true
-- client-fingerprint: chrome
-  country: 🇩🇪DE
-  name: '[Trojan] deDE²_12|5.8MB/s|1%|GPT⁺|X|[广播...'
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22223
-  server: 3.70.150.185
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_11|7.3MB/s|9%|GPT⁺|X|[原生...'
+  network: ws
+  port: 443
+  server: 162.159.152.4
+  servername: starping.starpingshop.org
+  tls: true
+  type: vless
   udp: true
-- name: '[Socks5] deDE²_13|2.5MB/s|9%|GPT⁺|X|Suc...'
+  uuid: 72f175f6-e2e4-4bb7-9165-8de10dd6c463
+  ws-opts:
+    headers:
+      Host: starping.starpingshop.org
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /
+  xudp: true
+- name: '[Socks5] deDE²_12|3.6MB/s|9%|GPT⁺|X'
   password: ''
-  port: 6825
-  server: 91.107.170.243
+  port: 35856
+  server: 168.119.126.160
   skip-cert-verify: true
   type: socks5
   username: ''
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_13|6.3MB/s|GPT⁺|X|[广播|机房...'
+  network: ws
+  port: 2096
+  server: 162.159.152.4
+  servername: inbshdh-82726362.poshakhowdy.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: fd276fe5-3f9c-467a-a249-aa8ad0bbb4d1
+  ws-opts:
+    headers:
+      Host: inbshdh-82726362.poshakhowdy.ir
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /چنل‌اصلی@ConfigFast
+  xudp: true
 - name: '[Trojan] DE_speednode_0002'
   password: telegram-id-privatevpns
   port: 22222

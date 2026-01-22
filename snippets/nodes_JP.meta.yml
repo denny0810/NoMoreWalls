@@ -39,21 +39,38 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: '[VLESS] jpJP_1|2.3MB/s'
+  delay: 536
+  encryption: none
+  name: '[VLESS] usUS¹⁺_2|4.7MB/s|4%|GPT⁺|GM|YT...'
   network: ws
   port: 443
-  server: vip3.kaixincloud.top
-  servername: kb.as129394.me
+  server: 162.159.45.232
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: kb.as129394.me
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+      Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
-  xudp: true
+- client-fingerprint: chrome
+  delay: 731
+  encryption: none
+  name: '[VLESS] usUS¹⁺_4|5.8MB/s|4%|GPT⁺|GM|YT...'
+  network: ws
+  port: 443
+  server: 162.159.44.142
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /x-aniu/

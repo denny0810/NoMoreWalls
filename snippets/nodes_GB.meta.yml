@@ -1,13 +1,4 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: '[Vmess] GB14｜机房｜低风险'
-  network: tcp
-  port: '30836'
-  server: v36.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -28,37 +19,24 @@ proxies:
   udp: true
   uuid: 3d0b6533-d3ba-4a0d-a46e-27c258ca5c3e
   xudp: true
-- name: '[Socks5] gbGB²_1|0.6MB/s|6%|GPT⁺|X|Succ...'
-  password: ''
-  port: 15159
-  server: 37.120.162.180
+- client-fingerprint: chrome
+  name: '[Trojan] gbGB⁻¹_1|3.3MB/s|GPT'
+  network: ws
+  password: df371b78-abfe-43b0-865a-a0e640e0ca0c
+  port: 443
+  server: zzula.ir
   skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] gbGB²_2|2.6MB/s|8%|GPT|X|Histo...'
+  sni: gulfblue.qzz.io
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /34.42.77.60=443
+- name: '[Socks5] gbGB²_1|1.0MB/s|8%|GPT⁺|X'
   password: ''
-  port: 41859
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] gbGB²_3|1.9MB/s|8%|GPT⁺|X'
-  password: ''
-  port: 30353
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] gbGB²_4|2.1MB/s|6%|GPT⁺|D+|X|[...'
-  password: ''
-  port: 29839
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] gbGB²_5|2.1MB/s|GPT⁺|X|History'
-  password: ''
-  port: 26025
+  port: 35019
   server: 37.120.162.180
   skip-cert-verify: true
   type: socks5

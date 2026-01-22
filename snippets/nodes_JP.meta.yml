@@ -1,4 +1,11 @@
 proxies:
+- name: '[Trojan] JP2｜机房｜低风险'
+  password: 30077070-596e-48ea-9400-14c8ed07bd97
+  port: 443
+  server: tuntro003.instconn.com
+  skip-cert-verify: true
+  sni: login-staticjpc.jasmine-douyin.top
+  type: trojan
 - name: '[Hysteria2] JP'
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
@@ -33,7 +40,7 @@ proxies:
 - client-fingerprint: chrome
   delay: 1103
   encryption: none
-  name: '[VLESS] hkHK¹-KR⁰_6|8.9MB/s|4%|GPT⁺|YT...'
+  name: '[VLESS] hkHK¹-KR⁰_1|16.1MB/s|4%|YT|D+|...'
   network: ws
   port: 443
   server: vip3.kaixincloud.top
@@ -49,4 +56,23 @@ proxies:
       Host: kb.as129394.me
     max-early-data: 2560
     path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] jpJP²_1|0.5MB/s|4%|GPT⁺|GM|X|[...'
+  network: tcp
+  port: 40721
+  reality-opts:
+    public-key: R2gKMF0Tetlnesc1pPkZH9NaOeehw-f5_U9JKG_cLjU
+    short-id: '!!str c588'
+  server: 150.230.4.210
+  servername: www.icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e0aafde7-37e2-486b-eb30-efa71166bf7e
   xudp: true

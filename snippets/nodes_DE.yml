@@ -1,7 +1,67 @@
 proxies:
+- name: '[Trojan] DE1｜机房｜低风险'
+  network: ws
+  password: 50e90b26-760a-4d7c-90f4-751bc92206d7
+  port: 2096
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: 17690660235579.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17690660236476.206353.xyz
+    path: '%2Fagrbniuh'
+- name: '[Trojan] DE2｜机房｜低风险'
+  network: ws
+  password: 50e90b26-760a-4d7c-90f4-751bc92206d7
+  port: 2087
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17690660236802.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17690660238012.206353.xyz
+    path: '%2Fagrbniuh'
+- name: '[Trojan] DE3｜机房｜低风险'
+  network: ws
+  password: 50e90b26-760a-4d7c-90f4-751bc92206d7
+  port: 2083
+  server: bestcdn3.868863.xyz
+  skip-cert-verify: true
+  sni: 17690660237730.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17690660235757.206353.xyz
+    path: '%2Fagrbniuh'
+- name: '[Trojan] DE4｜机房｜低风险'
+  network: ws
+  password: 50e90b26-760a-4d7c-90f4-751bc92206d7
+  port: 8443
+  server: bestcdn4.868863.xyz
+  skip-cert-verify: true
+  sni: 17690660233001.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17690660232579.206353.xyz
+    path: '%2Fagrbniuh'
+- name: '[Trojan] DE5｜机房｜低风险'
+  network: ws
+  password: 50e90b26-760a-4d7c-90f4-751bc92206d7
+  port: 2053
+  server: bestcdn5.868863.xyz
+  skip-cert-verify: true
+  sni: 17690660237689.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17690660232320.206353.xyz
+    path: '%2Fagrbniuh'
 - alterId: 0
   cipher: auto
-  name: '[Vmess] DE74｜机房｜低风险'
+  name: '[Vmess] DE35｜机房｜低风险'
   network: tcp
   port: '180'
   server: 82.198.246.97
@@ -10,13 +70,24 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: '[Vmess] DE46｜机房｜低风险'
+  name: '[Vmess] DE54｜机房｜低风险'
   network: tcp
   port: '30833'
   server: v33.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  country: 🇩🇪DE
+  name: '[Trojan] deDE²_3|5.9MB/s|1%|GPT⁺|X|[广播|...'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.70.150.185
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - name: '[Trojan] DE_speednode_0002'
   password: telegram-id-privatevpns
   port: 22222

@@ -1,28 +1,86 @@
 proxies:
-- name: '[Socks5] DE7｜原生/疑似家宽｜高风险 (黑名单)'
+- name: '[Trojan] DE1｜机房｜低风险'
+  network: ws
+  password: 50e90b26-760a-4d7c-90f4-751bc92206d7
+  port: 2096
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: 17690660235579.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17690660236476.206353.xyz
+    path: '%2Fagrbniuh'
+- name: '[Trojan] DE2｜机房｜低风险'
+  network: ws
+  password: 50e90b26-760a-4d7c-90f4-751bc92206d7
+  port: 2087
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17690660236802.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17690660238012.206353.xyz
+    path: '%2Fagrbniuh'
+- name: '[Trojan] DE3｜机房｜低风险'
+  network: ws
+  password: 50e90b26-760a-4d7c-90f4-751bc92206d7
+  port: 2083
+  server: bestcdn3.868863.xyz
+  skip-cert-verify: true
+  sni: 17690660237730.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17690660235757.206353.xyz
+    path: '%2Fagrbniuh'
+- name: '[Trojan] DE4｜机房｜低风险'
+  network: ws
+  password: 50e90b26-760a-4d7c-90f4-751bc92206d7
+  port: 8443
+  server: bestcdn4.868863.xyz
+  skip-cert-verify: true
+  sni: 17690660233001.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17690660232579.206353.xyz
+    path: '%2Fagrbniuh'
+- name: '[Trojan] DE5｜机房｜低风险'
+  network: ws
+  password: 50e90b26-760a-4d7c-90f4-751bc92206d7
+  port: 2053
+  server: bestcdn5.868863.xyz
+  skip-cert-verify: true
+  sni: 17690660237689.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17690660232320.206353.xyz
+    path: '%2Fagrbniuh'
+- name: '[Socks5] DE51｜原生/疑似家宽｜高风险 (黑名单)'
   port: 1080
   server: 193.233.254.8
   tls: false
   type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
-- name: '[Socks5] DE35｜原生/疑似家宽｜高风险 (黑名单)'
+  username: T2dAMTkzLjIzMy4yNTQuODo%3D
+- name: '[Socks5] DE50｜原生/疑似家宽｜高风险 (黑名单)'
   port: 1080
   server: 193.233.254.7
   tls: false
   type: socks5
-  username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOenBBTVRrekxqSXpNeTR5TlRRdU56b0AxOTMuMjMzLjI1NC43OkAxOTMuMjMzLjI1NC43Og%3D%3D
+  username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOenBBTVRrekxqSXpNeTR5TlRRdU56b0AxOTMuMjMzLjI1NC43Og%3D%3D
 - name: '[Socks5] RU_speednode_0033'
-  password: ''
   port: 1080
   server: 193.233.254.9
-  skip-cert-verify: true
   tls: false
   type: socks5
   udp: true
   username: Og@193.233.254.9
 - alterId: 0
   cipher: auto
-  name: '[Vmess] DE74｜机房｜低风险'
+  name: '[Vmess] DE35｜机房｜低风险'
   network: tcp
   port: '180'
   server: 82.198.246.97
@@ -31,7 +89,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: '[Vmess] DE46｜机房｜低风险'
+  name: '[Vmess] DE54｜机房｜低风险'
   network: tcp
   port: '30833'
   server: v33.hdacd.com
@@ -83,78 +141,11 @@ proxies:
         like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /https://t.me/NIM_VPN_ir,https://t.me/NIM_VPN_ir
   xudp: true
-- name: '[Socks5] deDE²_1|0.8MB/s|2%|GPT⁺|X'
-  password: ''
-  port: 49857
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] deDE²_2|2.3MB/s|6%|GPT⁺|X|Hist...'
-  password: ''
-  port: 55715
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-  username: ''
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: '[VLESS] deDE²_3|7.9MB/s|6%|GPT⁺|YT|TK|...'
-  network: grpc
-  port: 22955
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: octopusss5.info
-  servername: one-piece.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] deDE²_5|2.8MB/s|0%|GPT⁺|X|Succ...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Uwz6QjH6QTonKba4RVv35LNmhJLA6c2kxtI2nXRQWTg
-    short-id: '!!str 2c60d62e1d95c07a'
-  server: 51.250.35.199
-  servername: eh.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE²_6|6.5MB/s|0%|GPT|D+|X|[广...'
-  network: ws
-  port: 8880
-  server: 104.18.26.90
-  type: vless
-  udp: true
-  uuid: 9e5ae650-6de5-4ab0-b305-f97df5ce2cc6
-  ws-opts:
-    headers:
-      Host: servepross.ajorpare.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.101 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] deDE²_7|2.9MB/s|0%|GPT⁺|TK|X|H...'
+  name: '[VLESS] deDE²_1|2.9MB/s|0%|GPT⁺|TK|NF|...'
   network: grpc
   port: 2053
   reality-opts:
@@ -168,31 +159,63 @@ proxies:
   uuid: b64ff004-ec17-4cbb-9f32-c4eb7f4660e8
   xudp: true
 - client-fingerprint: chrome
+  country: 🇩🇪DE
+  name: '[Trojan] deDE²_3|5.9MB/s|1%|GPT⁺|X|[广播|...'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.70.150.185
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: '[Socks5] deDE²_4|2.6MB/s|2%|GPT⁺|X|Hist...'
+  password: ''
+  port: 28629
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: '[Socks5] deDE²_5|5.3MB/s|9%|GPT⁺|X|Hist...'
+  password: ''
+  port: 6825
+  server: 91.107.170.243
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
   http-opts:
     headers: {}
     path:
     - /
-  name: '[VLESS] RU_speednode_0031'
+  name: '[VLESS] FR_speednode_0007'
   network: tcp
   port: 443
   reality-opts:
-    public-key: Uwz6QjH6QTonKba4RVv35LNmhJLA6c2kxtI2nXRQWTg
-    short-id: '!!str 2c60d62e1d95c07a'
-  server: 51.250.33.87
-  servername: eh.vk.com
+    public-key: 9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU
+    short-id: '!!str 00684d2eae2cdd16'
+  server: 185.126.67.73
+  servername: apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
   xudp: true
+- name: '[Socks5] deDE²_7|3.1MB/s|2%|GPT⁺|X|Succ...'
+  password: ''
+  port: 40395
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: '[VLESS] deDE²_9|5.6MB/s|6%|GPT⁺|YT|TK|...'
+  name: '[VLESS] deDE²_8|6.7MB/s|6%|GPT⁺|YT|TK|...'
   network: grpc
   port: 22955
   reality-opts:
@@ -205,13 +228,49 @@ proxies:
   udp: true
   uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
   xudp: true
-- name: '[Socks5] deDE²_10|3.3MB/s|GPT⁺|X|Succee...'
+- name: '[Socks5] deDE²_9|0.6MB/s|2%|GPT⁺|X'
   password: ''
-  port: 40395
+  port: 28239
   server: 37.120.162.180
   skip-cert-verify: true
   type: socks5
   username: ''
+- name: '[Socks5] deDE²_10|4.0MB/s|6%|GPT⁺|X|His...'
+  password: ''
+  port: 13271
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: '[Socks5] deDE²_11|4.0MB/s|2%|GPT⁺|X|His...'
+  password: ''
+  port: 44239
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_12|6.9MB/s|0%|GPT⁺|TK|D+...'
+  network: ws
+  port: 2053
+  server: 162.159.152.4
+  servername: ds2-mx-hel22-protection.iranlease.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec77b9ff-ba31-4b1d-8a81-ee9de133bcf0
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: ds2-mx-hel22-protection.iranlease.com
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
 - name: '[Trojan] DE_speednode_0002'
   password: telegram-id-privatevpns
   port: 22222

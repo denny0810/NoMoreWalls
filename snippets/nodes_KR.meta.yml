@@ -1,9 +1,7 @@
 proxies:
-- name: '[Socks5] krKR²_2|2.5MB/s|5%|GPT⁺|GM|YT|...'
-  password: ''
+- name: '[Socks5] krKR²_1|1.9MB/s|5%|GPT⁺|GM|TK|...'
   port: 1090
   server: 121.169.46.116
-  skip-cert-verify: true
   tls: false
   type: socks5
   username: Og%3D%3D
@@ -16,3 +14,22 @@ proxies:
   tls: false
   type: vmess
   uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[Vmess] krKR²_2|0.9MB/s|GM|YT|X|[广播|机房...'
+  network: http
+  port: 80
+  server: 152.70.92.69
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+  xudp: true

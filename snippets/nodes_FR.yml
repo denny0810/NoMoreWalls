@@ -1,29 +1,22 @@
 proxies:
-- client-fingerprint: chrome
-  country: 🇫🇷FR
-  name: '[Trojan] frFR²_8|5.7MB/s|1%|GPT⁺|X|[广播|...'
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.39.200.50
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  alterId: '0'
+  cipher: auto
+  name: '[Vmess] frFR_1|2.0MB/s'
+  network: ws
+  port: 8443
+  server: 162.159.152.4
+  servername: frsys.fl-dl.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
   udp: true
-- client-fingerprint: chrome
-  country: 🇫🇷FR
-  name: '[Trojan] frFR²_16|5.7MB/s|1%|GPT⁺|X|[广播...'
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.39.200.50
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: '[Trojan] FR_speednode_0006'
-  password: telegram-id-directvpn
-  port: 22223
-  server: 51.44.124.96
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+  uuid: 19e52bf4-1b7d-4bd4-ae66-6ca024436c17
+  ws-opts:
+    headers:
+      Host: frsys.fl-dl.com
+    path: /gbt
+  xudp: true

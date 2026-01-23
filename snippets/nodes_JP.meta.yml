@@ -29,7 +29,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] JP_speednode_0009'
+- name: '[Trojan] 日本3|@ripaojiedian'
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 1933
@@ -37,11 +37,53 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- client-fingerprint: chrome
+  delay: 731
+  encryption: none
+  name: '[VLESS] jpJP_1|2.4MB/s'
+  network: ws
+  port: 443
+  server: 162.159.44.142
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /x-aniu/
+- client-fingerprint: chrome
+  delay: 536
+  encryption: none
+  name: '[VLESS] usUS¹⁺_5|1.8MB/s|4%|GPT|GM|YT|...'
+  network: ws
+  port: 443
+  server: 162.159.45.232
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] jpJP²_1|4.7MB/s|YT-RU|X|[原生|机房...'
+  network: tcp
+  port: 1140
+  server: 203.189.233.201
+  type: vless
   udp: true
-- name: '[Socks5] jpJP²_1|5.6MB/s|YT|X'
-  password: ''
-  port: 7897
-  server: 210.76.193.95
-  skip-cert-verify: true
-  type: socks5
-  username: ''
+  uuid: 08c7f096-d057-4d53-82fd-c739d372887b
+  xudp: true

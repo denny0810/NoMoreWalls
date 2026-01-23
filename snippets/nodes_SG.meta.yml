@@ -8,12 +8,14 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: '[Socks5] SG3｜机房｜高风险 (黑名单)'
+- name: '[Socks5] sgSG²_1|1.2MB/s|GPT⁺|X|History'
+  password: ''
   port: 10850
   server: 213.35.110.67
+  skip-cert-verify: true
   tls: false
   type: socks5
-  username: Og%3D%3D
+  username: ''
 - name: '[Hysteria2] 新加坡1'
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2055
@@ -46,18 +48,13 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  delay: 420
-  encryption: none
-  name: '[VLESS] usUS¹⁺_5|15.3MB/s|4%|GPT|GM|YT...'
+- name: '[VLESS] sgSG_1|1.9MB/s'
   network: ws
   port: 443
   server: 162.159.16.63
   servername: l.ayovo.netlib.re
-  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
@@ -65,7 +62,6 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
-  xudp: true
 - client-fingerprint: chrome
   name: '[VLESS] sgSG_2|2.5MB/s'
   network: ws
@@ -82,45 +78,3 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
-- name: '[Socks5] sgSG²_1|10.7MB/s|4%|GPT⁺|GM|YT...'
-  password: ''
-  port: 10810
-  server: 146.235.19.84
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] sgSG²_2|12.2MB/s|4%|GPT⁺|GM|X|...'
-  password: ''
-  port: 10819
-  server: 213.35.110.67
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] sgSG²_3|11.2MB/s|4%|GPT⁺|GM|X|...'
-  password: ''
-  port: 10850
-  server: 146.235.19.84
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] sgSG²_4|12.5MB/s|4%|GPT⁺|GM|X|...'
-  password: ''
-  port: 10810
-  server: 213.35.110.67
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] sgSG²_5|10.8MB/s|4%|GPT⁺|GM|X|...'
-  password: ''
-  port: 10808
-  server: 213.35.110.67
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] sgSG²_6|13.0MB/s|4%|GPT⁺|X|His...'
-  password: ''
-  port: 10809
-  server: 213.35.110.67
-  skip-cert-verify: true
-  type: socks5
-  username: ''

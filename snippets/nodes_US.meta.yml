@@ -287,7 +287,7 @@ proxies:
 - client-fingerprint: chrome
   delay: 2546
   encryption: none
-  name: '[VLESS] usUS¹⁺_6|0.6MB/s|4%|GPT|GM|YT|...'
+  name: '[VLESS] usUS¹⁺_6|0.8MB/s|4%|GPT⁺|GM|YT...'
   network: ws
   port: 443
   server: 104.21.227.134
@@ -301,13 +301,15 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: l.ayovo.netlib.re
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.75 Safari/537.36
     max-early-data: 2560
     path: /
   xudp: true
 - client-fingerprint: chrome
   delay: 950
   encryption: none
-  name: '[VLESS] usUS¹⁺_3|2.9MB/s|4%|GPT⁺|GM|YT...'
+  name: '[VLESS] usUS¹⁺_7|1.1MB/s|GM|YT|NF|D+|X...'
   network: ws
   port: 443
   server: 104.21.224.5
@@ -321,15 +323,12 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: l.ayovo.netlib.re
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
     max-early-data: 2560
     path: /
-  xudp: true
 - client-fingerprint: chrome
   delay: 1610
   encryption: none
-  name: '[VLESS] hkHK¹-US⁰_2|11.7MB/s|4%|GPT⁺|G...'
+  name: '[VLESS] usUS¹⁺_3|1.1MB/s|4%|GM|YT|NF|D...'
   network: ws
   port: 443
   server: 104.18.185.26
@@ -355,7 +354,7 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: '[VLESS] hkHK¹-US⁰_1|16.4MB/s|4%|GPT⁺|Y...'
+  name: '[VLESS] usUS_5|3.9MB/s'
   network: ws
   port: 443
   server: 104.16.250.22
@@ -373,7 +372,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[VLESS] usUS²_3|6.2MB/s|0%|GPT|YT-RU|D...'
+  name: '[VLESS] usUS_7|2.5MB/s'
   network: tcp
   port: 4443
   reality-opts:
@@ -406,43 +405,50 @@ proxies:
     max-early-data: 2560
     path: /
   xudp: true
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_1|6.4MB/s|43%|GPT⁺|GM|NF...'
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  servername: v29.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[Socks5] usUS²_2|5.6MB/s|GPT⁺|X'
+- client-fingerprint: chrome
+  delay: 430
+  encryption: none
+  name: '[VLESS] usUS¹⁺_8|2.0MB/s|4%|GPT⁺|GM|YT...'
+  network: ws
+  port: 443
+  server: 162.159.44.142
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 731
+  encryption: none
+  name: '[VLESS] usUS¹⁺_5|2.0MB/s|4%|GPT⁺|GM|YT...'
+  network: ws
+  port: 443
+  server: 162.159.44.142
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /x-aniu/
+- name: '[Socks5] usUS²_1|1.6MB/s|29%|GPT⁺|X|His...'
   password: ''
-  port: 5083
-  server: 88.99.27.22
+  port: 1080
+  server: 104.219.236.127
   skip-cert-verify: true
   type: socks5
   username: ''
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁 ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_5|6.5MB/s|43%|GPT⁺|TK|NF...'
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  servername: v8.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /
 - name: '[Trojan] US_speednode_0037'
   network: ws
   password: Aimer

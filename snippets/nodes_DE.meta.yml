@@ -59,23 +59,26 @@ proxies:
     headers:
       Host: 17690660232320.206353.xyz
     path: '%2Fagrbniuh'
-- name: '[Socks5] DE51｜原生/疑似家宽｜高风险 (黑名单)'
-  port: 1080
-  server: 193.233.254.8
-  tls: false
-  type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuODo%3D
-- name: '[Socks5] deDE²_6|2.5MB/s|X|History'
-  port: 1080
-  server: 193.233.254.7
-  tls: false
-  type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
-- name: '[Socks5] RU_speednode_0033'
+- name: '[Socks5] ruRU²_3|2.9MB/s|9%|GPT⁺|X|Hist...'
   password: ''
   port: 1080
-  server: 193.233.254.9
+  server: 193.233.254.8
   skip-cert-verify: true
+  tls: false
+  type: socks5
+  udp: true
+  username: ''
+- name: '[Socks5] deDE²_12|3.1MB/s|X|History'
+  password: ''
+  port: 1080
+  server: 193.233.254.7
+  skip-cert-verify: true
+  tls: false
+  type: socks5
+  username: ''
+- name: '[Socks5] RU_speednode_0033'
+  port: 1080
+  server: 193.233.254.9
   tls: false
   type: socks5
   udp: true
@@ -94,12 +97,9 @@ proxies:
   xudp: true
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] deDE²_2|0.8MB/s|GPT⁺|TK|NF|X|H...'
+  name: '[Vmess] DE54｜机房｜低风险'
   network: tcp
-  port: 30833
+  port: '30833'
   server: v33.hdacd.com
   tls: false
   type: vmess
@@ -158,20 +158,22 @@ proxies:
   udp: true
   uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
 - client-fingerprint: chrome
+  encryption: none
   grpc-opts:
-    grpc-mode: gun
     grpc-service-name: grpc
-  name: '[VLESS] deDE_4|3.1MB/s'
+  name: '[VLESS] deDE²_4|4.1MB/s|0%|GPT⁺|YT|TK|...'
   network: grpc
   port: 2053
   reality-opts:
     public-key: isw9UCSqdj1pzN3KpqY634QY4eLCYmDrMgvI1XsQimA
+    short-id: '!!str '
   server: 64.188.91.193
   servername: eh.vk.com
   tls: true
   type: vless
   udp: true
   uuid: b64ff004-ec17-4cbb-9f32-c4eb7f4660e8
+  xudp: true
 - alpn:
   - h2
   - http/1.1
@@ -194,7 +196,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE²_5|8.2MB/s|9%|GPT⁺|TK|X|S...'
+  name: '[VLESS] deDE²_2|7.7MB/s|9%|GPT⁺|TK|X|S...'
   network: ws
   port: 80
   server: www.speedtest.net
@@ -211,9 +213,8 @@ proxies:
     max-early-data: 2048
     path: /-ViV2ry@V2RIRAN-TEL--@V2RIRAN-TEL--@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL-@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL--@V2RIRAN
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE²_3|8.2MB/s|9%|GPT⁺|TK|NF|...'
+- encryption: none
+  name: '[VLESS] deDE_7|3.2MB/s'
   network: ws
   port: 80
   server: www.speedtest.net
@@ -224,25 +225,35 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: Www.speedtest.net.sIgmasigmaboy.site.
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
     max-early-data: 2048
     path: /-ViV2ry@V2RIRAN-TEL--@V2RIRAN-TEL--@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL-@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL--@V2RIRAN
   xudp: true
-- name: '[Socks5] deDE²_4|1.4MB/s|GPT|X'
-  password: ''
-  port: 5798
-  server: 62.60.131.188
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- client-fingerprint: chrome
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
+  name: '[VLESS] deDE²_1|6.7MB/s|0%|GPT⁺|TK|D+|...'
+  network: ws
+  port: 2053
+  server: 162.159.152.4
+  servername: ds2-mx-hel22-protection.iranlease.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec77b9ff-ba31-4b1d-8a81-ee9de133bcf0
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: ds2-mx-hel22-protection.iranlease.com
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
   name: '[VLESS] RU_speednode_0031'
   network: tcp
   port: 443
@@ -256,34 +267,53 @@ proxies:
   type: vless
   udp: true
   uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-  xudp: true
+- name: '[Socks5] deDE²_7|2.0MB/s|18%|GPT⁺|X'
+  password: ''
+  port: 8561
+  server: 62.60.131.178
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
   http-opts:
     headers: {}
     path:
     - /
-  name: '[VLESS] deDE²_9|4.6MB/s|0%|X|History|[...'
+  name: '[VLESS] deDE²_8|6.4MB/s|GPT|X|History'
   network: tcp
-  port: 443
+  port: 59152
   reality-opts:
-    public-key: Uwz6QjH6QTonKba4RVv35LNmhJLA6c2kxtI2nXRQWTg
-    short-id: '!!str 2c60d62e1d95c07a'
-  server: 51.250.35.199
-  servername: eh.vk.com
+    public-key: y8f0sznQFqvSOPFcFvPcQFfXbz0Ag10ySB4A88OXMy0
+    short-id: '!!str effab4f3a0ed698e'
+  server: 51.250.45.175
+  servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
   uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] deDE²_10|5.3MB/s|GPT⁺|X|[广播|商宽...'
-  password: NQRCh-qm11GH9MaRWX9NdmSdWaGRhFeS
-  port: 22
-  server: 51.250.79.203
-  type: ss
-  udp: true
+- name: '[Socks5] deDE²_9|1.3MB/s|40%|GPT|X'
+  password: ''
+  port: 4319
+  server: 36.255.98.163
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: '[Socks5] deDE²_10|3.1MB/s|0%|GPT⁺|X'
+  password: ''
+  port: 8081
+  server: 62.60.216.191
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: '[Socks5] deDE²_11|1.7MB/s|GPT⁺|X'
+  password: ''
+  port: 5022
+  server: 88.99.69.103
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - name: '[Trojan] DE_speednode_0002'
   password: telegram-id-privatevpns
   port: 22222

@@ -17,18 +17,20 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[Vmess] TW6｜原生/疑似家宽｜非常安全'
+  client-fingerprint: chrome
+  name: '[Vmess] sgSG²_4|0.5MB/s|0%|GPT⁺|GM|X'
   network: tcp
-  port: '2476'
+  port: 2476
   server: 151.242.183.86
   tls: false
   type: vmess
   uuid: 66f7cab7-866d-4c6b-8a08-5c1d6de58e7e
 - alterId: 0
   cipher: auto
-  name: '[Vmess] TW7｜原生/疑似家宽｜非常安全'
+  client-fingerprint: chrome
+  name: '[Vmess] twTW²_1|0.8MB/s|0%|GPT|D+|X'
   network: tcp
-  port: '2476'
+  port: 2476
   server: 151.242.180.13
   tls: false
   type: vmess
@@ -48,3 +50,13 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- name: '[Http] twTW²_2|0.6MB/s|GPT⁺|GM|YT|NF|...'
+  password: mrwdfNTD8M79LCukCieldrqZWqs=
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: true
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=

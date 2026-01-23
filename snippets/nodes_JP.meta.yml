@@ -69,7 +69,7 @@ proxies:
 - client-fingerprint: chrome
   delay: 731
   encryption: none
-  name: '[VLESS] usUS¹⁺_12|3.8MB/s|GM|YT|TK|NF|...'
+  name: '[VLESS] jpJP_1|2.3MB/s'
   network: ws
   port: 443
   server: 162.159.44.142
@@ -84,9 +84,63 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /x-aniu/
-- cipher: aes-256-gcm
-  name: '[SS] 🏴‍☠_3🏴‍☠_3jpJP-18.181.83.133-5...'
-  password: c69374da-2208-4cbd-b81e-cdf88b5e7f53
-  port: 36885
-  server: ss.031.node-for-bigairport.win
-  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] jpJP_2|2.4MB/s'
+  network: ws
+  port: 443
+  server: 172.64.52.157
+  servername: snip.zrfs.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.zrfs.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.87 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  delay: 652
+  encryption: none
+  name: '[VLESS] usUS¹⁺_6|3.4MB/s|4%|GPT|GM|NF|...'
+  network: ws
+  port: 443
+  server: 162.159.45.232
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  country: 🇨🇳CN
+  name: '[Trojan] jpJP²_1|4.4MB/s|X|[原生|机房]'
+  network: tcp
+  password: yUHNMwWvenoHBaN5CtqKPwt1CTzXgW
+  port: 443
+  server: ru2.nnvpn.io
+  skip-cert-verify: true
+  sni: ru2.nnvpn.ioh2,http/1.1
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '[Trojan] jpJP²_2|4.7MB/s|X'
+  network: tcp
+  password: yUHNMwWvenoHBaN5CtqKPwt1CTzXgW
+  port: 443
+  server: ru2.nnvpn.io
+  skip-cert-verify: true
+  sni: ru2.nnvpn.io
+  type: trojan
+  udp: true

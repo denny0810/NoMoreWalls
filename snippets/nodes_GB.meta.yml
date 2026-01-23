@@ -8,13 +8,22 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: rc4-md5
-  country: 🇬🇧GB
-  name: '[SS] gbGB²_1|6.1MB/s|GPT⁺|X|[广播|机房]'
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 146.70.61.37
-  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] gbGB²_2|6.1MB/s|0%|GPT⁺|YT-RU|...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
+    short-id: '!!str feedbacc'
+  server: gb.fasti.win
+  servername: uk.fasti.win
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3d0b6533-d3ba-4a0d-a46e-27c258ca5c3e
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -22,7 +31,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: '[VLESS] gbGB²_2|6.0MB/s|33%|GPT|D+|X|[...'
+  name: '[VLESS] gbGB²_1|5.5MB/s|33%|GPT⁺|D+|X|...'
   network: tcp
   port: 443
   reality-opts:
@@ -35,6 +44,21 @@ proxies:
   udp: true
   uuid: e64c5bbb-a4b8-498e-b374-4462d961c8a2
   xudp: true
+- cipher: rc4-md5
+  country: 🇬🇧GB
+  name: '[SS] gbGB²_3|6.1MB/s|GPT⁺|X|Succeed...'
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.61.37
+  type: ss
+- name: '[Trojan] GB_speednode_0005'
+  password: 6087d8e3-ea9e-48eb-8217-6050ff752f56
+  port: 443
+  server: il.mjt000.com
+  skip-cert-verify: true
+  sni: il.mjt000.com
+  type: trojan
+  udp: true
 - name: '[Trojan] GB_speednode_0006'
   password: 6087d8e3-ea9e-48eb-8217-6050ff752f56
   port: 443

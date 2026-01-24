@@ -1,5 +1,41 @@
 proxies:
 - client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: max.ru
+  name: '[VLESS] seSE²_2|5.5MB/s|0%|GPT⁺|YT|TK|...'
+  network: grpc
+  port: 8080
+  server: 62.182.192.232
+  tls: false
+  type: vless
+  udp: true
+  uuid: d44175ee-d3e2-45d3-b16a-ea2705cbfe7b
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] seSE²_3|4.5MB/s|0%|GPT⁺|D+|X|[...'
+  network: ws
+  port: 443
+  server: 194.104.94.141
+  servername: v2.cybersrv.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7b84b2c-3091-4372-8275-774e7a4659b4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: v2.cybersrv.top
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.118 Safari/537.36
+    max-early-data: 2083
+    path: /wp-admin.php
+  xudp: true
+- client-fingerprint: chrome
   name: '[VLESS] SE_speednode_0059'
   network: ws
   port: 443

@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: '[Trojan] hkHK²_1|0.6MB/s|1%|YT-CN|D+|X|...'
+  name: '[Trojan] hkHK²_8|3.6MB/s|1%|YT-CN|X|Suc...'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -8,7 +8,9 @@ proxies:
   skip-cert-verify: true
   sni: 58.152.25.130
   type: trojan
-- name: '[Trojan] HK67｜家宽｜非常安全'
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_4|4.6MB/s|1%|YT-CN|D+|X|...'
+  network: tcp
   password: BxceQaOe
   port: 443
   server: 58.152.25.130
@@ -103,12 +105,20 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  country: 🇭🇰 HK
-  name: '[Trojan] hkHK²_2|2.2MB/s|1%|NF|D+|X|Suc...'
+  country: 🇭🇰HK
+  name: '[Trojan] hkHK²_1|1.4MB/s|1%|YT|D+|X|His...'
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 58.152.25.130
+  server: 219.76.135.98
   skip-cert-verify: true
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: chacha20-ietf
+  country: 🇭🇰 HK
+  name: '[SS] hkHK²_3|1.1MB/s|0%|X|History'
+  password: asd123456
+  port: 8388
+  server: 103.141.221.124
+  type: ss

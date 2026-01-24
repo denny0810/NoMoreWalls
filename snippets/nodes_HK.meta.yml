@@ -8,7 +8,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: '[Trojan] hkHK²_1|0.6MB/s|1%|YT-CN|D+|X|...'
+  name: '[Trojan] hkHK²_8|3.6MB/s|1%|YT-CN|X|Suc...'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -16,7 +16,9 @@ proxies:
   skip-cert-verify: true
   sni: 58.152.25.130
   type: trojan
-- name: '[Trojan] HK67｜家宽｜非常安全'
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_4|4.6MB/s|1%|YT-CN|D+|X|...'
+  network: tcp
   password: BxceQaOe
   port: 443
   server: 58.152.25.130
@@ -123,31 +125,33 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- encryption: none
-  name: '[VLESS] hkHK_1|2.1MB/s'
-  network: ws
-  port: 8880
-  server: 141.101.120.42
-  type: vless
-  udp: true
-  uuid: 8a13ed66-d70a-4d32-8052-cbd8e0c5f7f4
-  ws-opts:
-    headers:
-      Host: joss.gvpn2.web.id
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /Free-VPN-CF-Geo-Project/HK
-  xudp: true
 - client-fingerprint: chrome
-  country: 🇭🇰 HK
-  name: '[Trojan] hkHK²_2|2.2MB/s|1%|NF|D+|X|Suc...'
+  country: 🇭🇰HK
+  name: '[Trojan] hkHK²_1|1.4MB/s|1%|YT|D+|X|His...'
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 58.152.25.130
+  server: 219.76.135.98
   skip-cert-verify: true
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- client-fingerprint: chrome
+  name: '[VLESS] hkHK²_2|3.3MB/s|X'
+  network: tcp
+  port: 9527
+  server: 43.161.253.78
+  tls: false
+  type: vless
+  udp: true
+  uuid: d4a23188-85b0-4b46-b84b-f1d36d66c03e
+- cipher: chacha20-ietf
+  country: 🇭🇰 HK
+  name: '[SS] hkHK²_3|1.1MB/s|0%|X|History'
+  password: asd123456
+  port: 8388
+  server: 103.141.221.124
+  type: ss
 - client-fingerprint: random
   name: '[VLESS] HK_speednode_0024'
   network: ws

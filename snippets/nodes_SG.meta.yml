@@ -57,7 +57,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[VLESS] sgSG_1|1.2MB/s'
+- name: '[VLESS] sgSG_1|1.0MB/s'
   network: ws
   port: 443
   server: cloudflare.182682.xyz
@@ -74,10 +74,31 @@ proxies:
     max-early-data: 2560
     path: /x-aniu/
 - client-fingerprint: chrome
-  name: '[VLESS] hkHK¹-US⁰_9|7.7MB/s|GPT|YT|D+|...'
+  encryption: none
+  name: '[VLESS] sgSG_2|2.2MB/s'
   network: ws
   port: 443
-  server: v3.dabache.top
+  server: cloudflare.182682.xyz
+  servername: cloudflare.182682.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] sgSG_3|1.3MB/s'
+  network: ws
+  port: 443
+  server: cloudflare.182682.xyz
   servername: snip.zrfs.indevs.in
   tls: true
   type: vless
@@ -87,42 +108,15 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: snip.zrfs.indevs.in
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
     max-early-data: 2560
     path: /
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] sgSG_3|1.5MB/s'
-  port: 37086
-  server: tunnel1.qqa678.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 0863424a-f6e8-4486-b85a-a7144ee89ddc
-- name: '[Socks5] sgSG²_1|0.9MB/s|4%|GPT⁺|X|Hist...'
+  xudp: true
+- name: '[Socks5] sgSG²_1|5.3MB/s|GPT⁺|GM|X'
   password: ''
-  port: 10800
-  server: 146.235.19.84
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] sgSG²_2|1.5MB/s|GPT⁺|X|History'
-  password: ''
-  port: 10850
-  server: 213.35.110.67
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] 🏴‍☠_4sgSG²_3|0.9MB/s|0.9MB/s|X...'
-  password: ''
-  port: 10808
-  server: 146.235.19.84
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] sgSG²_3|1.0MB/s|X'
-  password: ''
-  port: 10907
-  server: 213.35.110.67
+  port: 7497
+  server: 167.71.220.29
   skip-cert-verify: true
   type: socks5
   username: ''

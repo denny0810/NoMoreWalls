@@ -1,15 +1,12 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '[Vmess] jpJP²_1|1.1MB/s|3%|GPT|GM|YT|N...'
+  name: '[Vmess] JP2｜原生/疑似家宽｜非常安全'
   network: tcp
-  port: 47083
+  port: '47083'
   server: tunnel1.qqa678.com
-  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: 0863424a-f6e8-4486-b85a-a7144ee89ddc
 - name: '[Trojan] JP3｜机房｜低风险'
   password: 30077070-596e-48ea-9400-14c8ed07bd97
@@ -63,57 +60,36 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  delay: 536
-  encryption: none
-  name: '[VLESS] usUS¹⁺_6|3.2MB/s|GM|YT|TK|NF|D...'
+- client-fingerprint: random
+  name: '[VLESS] jpJP_1|1.1MB/s'
   network: ws
   port: 443
-  server: 162.159.45.232
-  servername: l.ayovo.netlib.re
+  server: cf.877774.xyz
+  servername: snip.zrfs.indevs.in
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  udp: true
+  uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: l.ayovo.netlib.re
+      Host: snip.zrfs.indevs.in
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  delay: 731
-  encryption: none
-  name: '[VLESS] usUS¹⁺_25|3.1MB/s|4%|GPT⁺|GM|Y...'
-  network: ws
+  name: '[VLESS] jpJP²_1|1.8MB/s|0%|GPT|X'
+  network: tcp
   port: 443
-  server: 162.159.44.142
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: '!!str 2da72ce6'
+  server: 154.31.114.125
+  servername: navi.bankrate.com
   tls: true
   type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /x-aniu/
-- client-fingerprint: chrome
-  name: '[VLESS] jpJP_3|1.0MB/s'
-  network: ws
-  port: 34606
-  server: 45.143.235.209
-  servername: ccffllyy.1412.me
-  tls: true
-  type: vless
-  uuid: 76636b35-e926-4b10-8336-c0d0c48a42b8
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: ccffllyy.1412.me
-    max-early-data: 2048
-    path: /
+  udp: true
+  uuid: 48a6ebb0-a8f2-4b88-993f-cd4db4e3ea00
 - client-fingerprint: chrome
   name: '[VLESS] JP_speednode_0030'
   network: ws

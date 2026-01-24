@@ -67,6 +67,58 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
+  delay: 536
+  encryption: none
+  name: '[VLESS] usUS¹⁺_12|5.8MB/s|4%|GPT⁺|GM|Y...'
+  network: ws
+  port: 443
+  server: 162.159.45.232
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 731
+  encryption: none
+  name: '[VLESS] usUS¹⁺_13|3.1MB/s|4%|GPT|GM|YT...'
+  network: ws
+  port: 443
+  server: 162.159.44.142
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /x-aniu/
+- client-fingerprint: chrome
+  name: '[VLESS] jpJP_3|1.0MB/s'
+  network: ws
+  port: 34606
+  server: 45.143.235.209
+  servername: ccffllyy.1412.me
+  tls: true
+  type: vless
+  uuid: 76636b35-e926-4b10-8336-c0d0c48a42b8
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: ccffllyy.1412.me
+    max-early-data: 2048
+    path: /
+- client-fingerprint: chrome
   name: '[VLESS] JP_speednode_0030'
   network: ws
   port: 34606

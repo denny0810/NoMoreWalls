@@ -100,27 +100,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  delay: 420
-  encryption: none
-  name: '[VLESS] usUS¹⁺_14|1.8MB/s|GPT⁺|YT|NF|D...'
-  network: ws
-  port: 443
-  server: 162.159.16.63
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /
-  xudp: true
-- name: '[VLESS] sgSG_2|1.1MB/s'
+- name: '[VLESS] sgSG_1|1.2MB/s'
   network: ws
   port: 443
   server: cloudflare.182682.xyz
@@ -152,6 +132,15 @@ proxies:
       Host: snip.zrfs.indevs.in
     max-early-data: 2560
     path: /
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] sgSG_3|1.5MB/s'
+  port: 37086
+  server: tunnel1.qqa678.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 0863424a-f6e8-4486-b85a-a7144ee89ddc
 - name: '[Socks5] sgSG²_1|3.4MB/s|X|History'
   password: ''
   port: 1080

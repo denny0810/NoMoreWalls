@@ -635,6 +635,21 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- encryption: none
+  name: '[VLESS] hkHK_1|2.1MB/s'
+  network: ws
+  port: 8880
+  server: 141.101.120.42
+  type: vless
+  udp: true
+  uuid: 8a13ed66-d70a-4d32-8052-cbd8e0c5f7f4
+  ws-opts:
+    headers:
+      Host: joss.gvpn2.web.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /Free-VPN-CF-Geo-Project/HK
+  xudp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

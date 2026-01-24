@@ -1,24 +1,60 @@
 proxies:
-- client-fingerprint: random
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: '[VLESS] FI_speednode_0015'
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] nlNL²_2|6.4MB/s|8%|GPT|YT-RU|X...'
   network: tcp
-  port: 8443
+  port: 4443
   reality-opts:
-    public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
-    short-id: '!!str 58c512b4422e2517'
-  server: 78.153.139.68
-  servername: images.apple.com
-  skip-cert-verify: true
+    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
+    short-id: '!!str aa7e96542880027a'
+  server: 62.84.100.225
+  servername: github.com
   tls: true
   type: vless
   udp: true
-  uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
+  uuid: 6e6609bf-6867-4fa7-b4c3-d5555d67d724
+  xudp: true
+- client-fingerprint: chrome
+  name: '[VLESS] plPL²_2|3.5MB/s|0%|GPT⁺|YT-RU|...'
+  network: tcp
+  port: 4443
+  reality-opts:
+    public-key: Oy9IM1uV6W9P3Pm4EIaW1LPqOP0XaT0jSCi4qITSYAI
+    short-id: '!!str 70cae732'
+  server: 51.250.41.237
+  servername: eh.vk.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 71031aa1-067e-425e-97f5-37875f838a10
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '[VLESS] atAT²_2|6.4MB/s|20%|GPT⁺|YT-RU...'
+  network: grpc
+  port: 22955
+  reality-opts:
+    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: dfg.octopusss.net
+  servername: one-piece.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: UpdateService
-  name: '[VLESS] alAL²_1|4.5MB/s|18%|GPT⁺|YT-RU...'
+  name: '[VLESS] alAL²_1|4.1MB/s|18%|GPT⁺|YT-RU...'
   network: grpc
   port: 2083
   reality-opts:
@@ -31,58 +67,10 @@ proxies:
   udp: true
   uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] atAT²_1|5.4MB/s|20%|GPT⁺|YT-RU...'
-  network: grpc
-  port: 22955
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: 152.53.48.224
-  servername: one-piece.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] ruRU²_1|5.3MB/s|0%|GPT|X|Succe...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: GgiY38LjRI1hS1LKhdqvtJ5SDDO436GvihG-TzEI2XE
-    short-id: '!!str aabbccdd'
-  server: 176.125.240.166
-  servername: apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] atAT²_2|1.6MB/s|20%|GPT⁺|YT-RU...'
-  network: grpc
-  port: 22955
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: 152.53.48.237
-  servername: one-piece.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  xudp: true
-- name: '[Socks5] ruRU²_2|4.8MB/s|X|Succeed'
+- name: '[Socks5] ruRU²_1|4.6MB/s|X|History'
   password: ''
   port: 1080
-  server: 185.175.47.162
+  server: 217.76.39.4
   skip-cert-verify: true
   type: socks5
   username: ''
@@ -169,6 +157,19 @@ proxies:
   udp: true
   uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
 - client-fingerprint: chrome
+  name: '[VLESS] RU_speednode_0054'
+  port: 59152
+  reality-opts:
+    public-key: y8f0sznQFqvSOPFcFvPcQFfXbz0Ag10ySB4A88OXMy0
+    short-id: '!!str effab4f3a0ed698e'
+  server: 51.250.45.175
+  servername: ads.x5.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] RU_speednode_0055'
   port: 443
@@ -195,3 +196,16 @@ proxies:
   type: vless
   udp: true
   uuid: 71031aa1-067e-425e-97f5-37875f838a10
+- client-fingerprint: chrome
+  name: '[VLESS] RU_speednode_0058'
+  port: 59152
+  reality-opts:
+    public-key: y8f0sznQFqvSOPFcFvPcQFfXbz0Ag10ySB4A88OXMy0
+    short-id: '!!str effab4f3a0ed698e'
+  server: 51.250.33.87
+  servername: ads.x5.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a

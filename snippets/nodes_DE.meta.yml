@@ -11,12 +11,12 @@ proxies:
   tls: false
   type: socks5
   username: T2dAMTkzLjIzMy4yNTQuOTo%3D
-- name: '[Socks5] deDE²_3|2.3MB/s|GPT|X|History'
+- name: '[Socks5] DE43｜原生/疑似家宽｜高风险 (黑名单)'
   port: 1080
   server: 193.233.254.7
   tls: false
   type: socks5
-  username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOenBBTVRrekxqSXpNeTR5TlRRdU56b0AxOTMuMjMzLjI1NC43OkAxOTMuMjMzLjI1NC43Og%3D%3D
+  username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo%3D
 - alterId: 0
   cipher: auto
   name: '[Vmess] DE36｜机房｜低风险'
@@ -95,39 +95,6 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE²_1|7.4MB/s|0%|GPT⁺|X|Hist...'
-  network: ws
-  port: 2053
-  server: cdn.halazzon.ir
-  servername: ir6.hnbyme.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: c659ce22-0a02-4d75-8c89-58d99916b846
-  ws-opts:
-    headers:
-      Host: ir6.hnbyme.online
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] DE_speednode_0012'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU
-    short-id: '!!str 00684d2eae2cdd16'
-  server: 185.94.29.250
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] DE_speednode_0010'
   port: 443
@@ -156,3 +123,17 @@ proxies:
   type: vless
   udp: true
   uuid: 8fcaebab-d39a-46eb-b1cc-20ea883c4183
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] DE_speednode_0012'
+  port: 443
+  reality-opts:
+    public-key: 9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU
+    short-id: '!!str 00684d2eae2cdd16'
+  server: 185.94.29.250
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a

@@ -1,31 +1,38 @@
 proxies:
-- name: '[Socks5] DE40｜原生/疑似家宽｜高风险 (黑名单)'
+- name: '[Socks5] deDE²_9|3.0MB/s|X|History'
   port: 1080
   server: 193.233.254.8
   tls: false
   type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuODo%3D
-- name: '[Socks5] 🏴‍☠_4🏴‍☠_3🏴‍☠_1🏴‍☠_2🏴‍☠_1🏴‍☠_4...'
+  udp: true
+  username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
+- delay: 2266
+  name: '[Socks5] deDE²_7|2.9MB/s|GPT|X'
   password: ''
   port: 1080
   server: 193.233.254.9
+  tls: false
+  type: socks5
+  username: Og@193.233.254.9
+- name: '[Socks5] 🏴‍☠_3🏴‍☠_1193.233.254.7:1080-0...'
+  password: ''
+  port: 1080
+  server: 193.233.254.7
   skip-cert-verify: true
   tls: false
   type: socks5
   username: ''
-- name: '[Socks5] 🏴‍☠_2🏴‍☠_3DE144｜原生/疑似家宽｜高风险 (黑...'
-  port: 1080
-  server: 193.233.254.7
-  skip-cert-verify: false
-  tls: false
-  type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
 - alterId: 0
   cipher: auto
-  name: '[Vmess] DE80｜机房｜低风险'
+  client-fingerprint: chrome
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_6|1.0MB/s|25%|GPT⁺|NF|X|...'
   network: tcp
-  port: '180'
+  port: 180
   server: 82.198.246.97
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -139,9 +146,8 @@ proxies:
     max-early-data: 2082
     path: /
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE²_10|8.2MB/s|9%|GPT⁺|TK|X|...'
+- encryption: none
+  name: '[VLESS] deDE_4|2.2MB/s'
   network: ws
   port: 80
   server: www.speedtest.net
@@ -152,8 +158,8 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: Www.speedtest.net.sIgmasigmaboy.site.
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     max-early-data: 2048
     path: /-ViV2ry@V2RIRAN-TEL--@V2RIRAN-TEL--@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL-@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL--@V2RIRAN
   xudp: true
@@ -175,62 +181,6 @@ proxies:
         like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE²_1|2.8MB/s|9%|GPT⁺|X|Hist...'
-  network: ws
-  port: 443
-  server: 162.159.152.4
-  servername: starping.starpingshop.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 72f175f6-e2e4-4bb7-9165-8de10dd6c463
-  ws-opts:
-    headers:
-      Host: starping.starpingshop.org
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /
-  xudp: true
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁 ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] deDE²_12|1.4MB/s|GPT⁺|TK|NF|X|...'
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] deDE²_3|5.6MB/s|0%|GPT⁺|X|Hist...'
-  network: tcp
-  port: 59152
-  reality-opts:
-    public-key: y8f0sznQFqvSOPFcFvPcQFfXbz0Ag10ySB4A88OXMy0
-    short-id: '!!str effab4f3a0ed698e'
-  server: 51.250.45.175
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -238,7 +188,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: '[VLESS] deDE²_11|3.6MB/s|0%|GPT⁺|X|His...'
+  name: '[VLESS] deDE²_5|3.7MB/s|0%|GPT⁺|X|Succ...'
   network: tcp
   port: 443
   reality-opts:
@@ -253,13 +203,47 @@ proxies:
   uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
   xudp: true
 - client-fingerprint: chrome
+  name: '[VLESS] deDE²_2|6.4MB/s|9%|GPT⁺|X|Hist...'
+  network: ws
+  port: 2096
+  server: 25.129.197.138
+  servername: speed1.best-cloud.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0e0bf934-1942-4379-9c98-5cd9aa93140a
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: speed1.best-cloud.ir
+    max-early-data: 2048
+    path: /
+- client-fingerprint: chrome
+  name: '[VLESS] deDE²_3|2.1MB/s|9%|GPT|X'
+  network: ws
+  port: 80
+  server: ip3-fast.tyryqyserver.ir
+  type: vless
+  udp: true
+  uuid: 0dd27137-db17-45b2-b4dd-a6b560080863
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: norbertde1.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    max-early-data: 2052
+    path: /
+  xudp: true
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
   http-opts:
     headers: {}
     path:
     - /
-  name: '[VLESS] deDE²_8|3.0MB/s|0%|GPT⁺|X|Hist...'
+  name: '[VLESS] deDE²_8|4.8MB/s|0%|GPT⁺|D+|X|S...'
   network: tcp
   port: 443
   reality-opts:
@@ -273,9 +257,16 @@ proxies:
   udp: true
   uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
   xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] deDE²_6|5.6MB/s|0%|GPT⁺|X|Hist...'
+  password: NQRCh-qm11GH9MaRWX9NdmSdWaGRhFeS
+  port: 22
+  server: 51.250.79.203
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE²_7|6.5MB/s|0%|GPT⁺|X|Succ...'
+  name: '[VLESS] deDE²_10|6.9MB/s|0%|GPT|X|Succ...'
   network: ws
   port: 2053
   server: cdn.halazzon.ir
@@ -291,17 +282,42 @@ proxies:
         (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
     path: /
   xudp: true
-- client-fingerprint: chrome
-  name: '[VLESS] deDE²_9|2.5MB/s|0%|GPT⁺|D+|X|S...'
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] deDE²_11|6.4MB/s|20%|GPT⁺|TK|D...'
   network: tcp
-  port: 59152
+  port: 443
   reality-opts:
-    public-key: y8f0sznQFqvSOPFcFvPcQFfXbz0Ag10ySB4A88OXMy0
-    short-id: '!!str effab4f3a0ed698e'
-  server: 51.250.33.87
-  servername: ads.x5.ru
-  skip-cert-verify: false
+    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
+    short-id: '!!str '
+  server: 185.163.116.239
+  servername: live.com
   tls: true
   type: vless
   udp: true
-  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+  uuid: 8fcaebab-d39a-46eb-b1cc-20ea883c4183
+  xudp: true
+- client-fingerprint: chrome
+  name: '[VLESS] deDE²_12|9.0MB/s|GPT|NF|X|[原生|...'
+  network: ws
+  port: 80
+  server: ip1-fast.tyryqyserver.ir
+  type: vless
+  udp: true
+  uuid: 0dd27137-db17-45b2-b4dd-a6b560080863
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: norbertde1.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    max-early-data: 2052
+    path: /
+  xudp: true

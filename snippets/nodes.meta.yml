@@ -235,9 +235,9 @@ proxies:
   uuid: 6a9ebc53-0edf-46d9-92c7-1db613651c31
 - alterId: 0
   cipher: auto
-  name: '[Vmess] VN10｜商宽｜非常安全'
+  name: '[Vmess] vnVN_1|1.6MB/s'
   network: tcp
-  port: '43528'
+  port: 43528
   server: faq1.lieerr222.cn
   tls: false
   type: vmess
@@ -483,7 +483,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[Hysteria2] ⚡Telegram = @SOSkeyNET #1'
+- name: '[Hysteria2] @V2rayAlpha--16'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -670,12 +670,12 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- encryption: none
-  name: '[VLESS] jpJP_1|2.6MB/s'
+- name: '[VLESS] sgSG_2|2.5MB/s'
   network: ws
   port: 443
-  server: 162.159.44.142
+  server: 162.159.16.63
   servername: l.ayovo.netlib.re
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -684,28 +684,9 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: l.ayovo.netlib.re
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
     max-early-data: 2560
     path: /
-  xudp: true
-- fingerprint: ''
-  name: '[VLESS] usUS_1|2.1MB/s'
-  network: ws
-  port: 443
-  server: 198.62.62.241
-  servername: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  udp: false
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /
-- name: '[VLESS] jpJP_2|1.4MB/s'
+- name: '[VLESS] jpJP_1|1.0MB/s'
   network: ws
   port: 443
   server: 162.159.45.232
@@ -721,12 +702,12 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
-- name: '[VLESS] usUS_2|1.1MB/s'
+- encryption: none
+  name: '[VLESS] jpJP_3|3.8MB/s'
   network: ws
   port: 443
-  server: 104.17.25.173
+  server: 162.159.44.142
   servername: l.ayovo.netlib.re
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -737,13 +718,12 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
-- encryption: none
-  name: '[VLESS] usUS_4|1.5MB/s'
+  xudp: true
+- name: '[VLESS] usUS_1|1008KB/s'
   network: ws
   port: 443
-  server: 104.21.224.5
+  server: 104.16.147.32
   servername: l.ayovo.netlib.re
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -752,63 +732,17 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: l.ayovo.netlib.re
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
     max-early-data: 2560
     path: /
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] deDE_1|2.8MB/s'
-  network: tcp
-  port: 10100
-  reality-opts:
-    public-key: 2zN5MhusgST2q3NBD1gglc6xTaoTPP9Tmjb9k374QCw
-    short-id: ''
-  server: gcre.segstar.info
-  servername: refersion.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xudp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  encryption: none
-  name: '[VLESS] deDE²_1|2.6MB/s|X|History'
-  network: ws
-  port: 443
-  server: 192.0.54.34
-  servername: cErT.sHakHle.iR
-  tls: true
-  type: vless
-  udp: true
-  uuid: 96dd3618-ae4e-4a9d-89f9-5316296d7814
-  ws-opts:
-    headers:
-      Host: cErT.sHakHle.iR
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.143 Safari/537.36
-    path: /?ed=1024/?TELEGRAM--BYA--CHANEL----@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] jpJP_3|1.7MB/s'
-  port: 47083
-  server: tunnel1.qqa678.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 0e497122-8ee0-44fe-b7be-6c5de6cf938b
-- name: '[VLESS] sgSG_1|2.5MB/s'
+- name: '[VLESS] sgSG_3|1.4MB/s'
   network: ws
   port: 443
   server: cloudflare.182682.xyz
-  servername: cloudflare.182682.xyz
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
@@ -816,25 +750,11 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /x-aniu/
-- name: '[VLESS] sgSG_2|1.3MB/s'
+- delay: 760
+  name: '[VLESS] jpJP_4|3.4MB/s'
   network: ws
   port: 443
-  server: 162.159.16.63
-  servername: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /
-- encryption: none
-  name: '[VLESS] usUS_3|1.5MB/s'
-  network: ws
-  port: 443
-  server: 104.21.227.134
+  server: vip3.kaixincloud.top
   servername: l.ayovo.netlib.re
   tls: true
   type: vless
@@ -844,21 +764,64 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: l.ayovo.netlib.re
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /x-aniu/
+- name: '[VLESS] usUS_2|1.8MB/s'
+  network: ws
+  port: 443
+  server: 162.159.152.4
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
+- name: '[VLESS] hkHK_1|1010KB/s'
+  network: tcp
+  port: 9527
+  server: 43.161.253.78
+  type: vless
+  udp: true
+  uuid: d4a23188-85b0-4b46-b84b-f1d36d66c03e
+  xudp: true
+- fingerprint: ''
+  name: '[Anytls] jpJP_5|2.3MB/s'
+  password: a2d12dc9-c111-45ac-b803-87e48f3484d8
+  port: 443
+  server: 160.16.75.254
+  skip-cert-verify: true
+  sni: gw.alicdn.com
+  type: anytls
+  udp: true
+  username: a2d12dc9-c111-45ac-b803-87e48f3484d8
+- encryption: none
+  name: '[VLESS] hkHK¹-US⁰_1|1.1MB/s|GPT|X|Hist...'
+  network: ws
+  port: 443
+  server: cloudflare.182682.xyz
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     max-early-data: 2560
     path: /
   xudp: true
-- cipher: chacha20-ietf
-  country: 🇭🇰 HK
-  name: '[SS] hkHK²_1|5.0MB/s|0%|X|History'
-  password: asd123456
-  port: 8388
-  server: 103.149.183.200
-  type: ss
 - delay: 1610
   encryption: none
-  name: '[VLESS] hkHK¹-US⁰_1|3.2MB/s|GPT|YT|D+|...'
+  name: '[VLESS] hkHK¹-US⁰_2|9.2MB/s|X|Succeed'
   network: ws
   port: 443
   server: 104.18.185.26
@@ -873,6 +836,13 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_1|0.6MB/s|X|History'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.49
+  type: ss
 - name: '[VLESS] VLESS节点1-xhttp-reality'
   network: xhttp
   port: 23000

@@ -62,27 +62,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] jpJP_1|2.6MB/s'
-  network: ws
-  port: 443
-  server: 162.159.44.142
-  servername: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    max-early-data: 2560
-    path: /
-  xudp: true
-- name: '[VLESS] jpJP_2|1.4MB/s'
+- name: '[VLESS] jpJP_1|1.0MB/s'
   network: ws
   port: 443
   server: 162.159.45.232
@@ -98,12 +78,48 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] jpJP_3|1.7MB/s'
-  port: 47083
-  server: tunnel1.qqa678.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 0e497122-8ee0-44fe-b7be-6c5de6cf938b
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] jpJP_3|3.8MB/s'
+  network: ws
+  port: 443
+  server: 162.159.44.142
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  delay: 760
+  name: '[VLESS] jpJP_4|3.4MB/s'
+  network: ws
+  port: 443
+  server: vip3.kaixincloud.top
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /x-aniu/
+- fingerprint: ''
+  name: '[Anytls] jpJP_5|2.3MB/s'
+  password: a2d12dc9-c111-45ac-b803-87e48f3484d8
+  port: 443
+  server: 160.16.75.254
+  skip-cert-verify: true
+  sni: gw.alicdn.com
+  type: anytls
+  udp: true
+  username: a2d12dc9-c111-45ac-b803-87e48f3484d8

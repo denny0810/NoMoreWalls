@@ -1,14 +1,5 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] JP2｜原生/疑似家宽｜非常安全'
-  network: tcp
-  port: '47083'
-  server: tunnel1.qqa678.com
-  tls: false
-  type: vmess
-  uuid: 0863424a-f6e8-4486-b85a-a7144ee89ddc
-- name: '[Trojan] JP3｜机房｜低风险'
+- name: '[Trojan] JP1｜机房｜低风险'
   password: 30077070-596e-48ea-9400-14c8ed07bd97
   port: 443
   server: tuntro003.instconn.com
@@ -17,18 +8,29 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[Vmess] JP5｜机房｜低风险'
-  network: ws
-  port: '443'
-  server: n1753598445.74qxv.top
-  servername: n1753598445.74qxv.top
-  tls: true
+  name: '[Vmess] JP7｜原生/疑似家宽｜非常安全'
+  network: tcp
+  port: '47083'
+  server: tunnel2.qqa678.com
+  tls: false
   type: vmess
-  uuid: f53b95dc-3ec3-49a2-803a-510e614ae577
-  ws-opts:
-    headers:
-      Host: n1753598445.74qxv.top
-    path: /
+  uuid: 0e497122-8ee0-44fe-b7be-6c5de6cf938b
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] JP8｜原生/疑似家宽｜非常安全'
+  network: tcp
+  port: '47083'
+  server: tunnel1.qqa678.com
+  tls: false
+  type: vmess
+  uuid: 0e497122-8ee0-44fe-b7be-6c5de6cf938b
+- name: '[Hysteria2] JP6｜机房｜低风险'
+  password: f9aa3378-92f4-4c3f-8041-26c1be1d699e
+  port: 37854
+  server: 178.239.124.143
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: '[Hysteria2] JP'
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
@@ -62,7 +64,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] jpJP_1|1.4MB/s'
+  name: '[VLESS] jpJP_1|2.6MB/s'
   network: ws
   port: 443
   server: 162.159.44.142
@@ -80,24 +82,31 @@ proxies:
     max-early-data: 2560
     path: /
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] jpJP_2|2.6MB/s'
+- name: '[VLESS] jpJP_2|1.4MB/s'
   network: ws
-  port: 42841
-  server: 43.165.190.11
-  servername: mot.luyuju.dpdns.org
+  port: 443
+  server: 162.159.45.232
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: mot.luyuju.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] jpJP_3|1.7MB/s'
+  port: 47083
+  server: tunnel1.qqa678.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 0e497122-8ee0-44fe-b7be-6c5de6cf938b
 - client-fingerprint: chrome
   country: 🇬🇧GB
   name: '[Trojan] jpJP²_1|1.0MB/s|0%|GPT⁺|X'

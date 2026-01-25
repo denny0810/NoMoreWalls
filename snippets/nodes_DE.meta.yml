@@ -132,6 +132,48 @@ proxies:
   uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
   xudp: true
 - client-fingerprint: chrome
+  name: '[VLESS] deDE²_1|7.6MB/s|9%|GPT⁺|X|Hist...'
+  network: ws
+  port: 2096
+  server: 25.129.197.138
+  servername: speed1.best-cloud.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0e0bf934-1942-4379-9c98-5cd9aa93140a
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: speed1.best-cloud.ir
+    max-early-data: 2048
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_2|6.4MB/s|X|History'
+  network: ws
+  port: 2053
+  server: xhero.kharabetam.de
+  servername: mrx.xher0.de
+  tls: true
+  type: vless
+  udp: true
+  uuid: 33a57acf-163f-4cdd-8b23-cc52a58f2362
+  ws-opts:
+    headers:
+      Host: mrx.xher0.de
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /IfUknowThenUKnow
+  xudp: true
+- name: '[Socks5] deDE²_3|7.0MB/s|9%|X|History'
+  password: ''
+  port: 6825
+  server: 91.107.170.243
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] DE_speednode_0010'
   port: 443

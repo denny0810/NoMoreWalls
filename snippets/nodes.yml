@@ -477,15 +477,23 @@ proxies:
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 443
-  server: 58.152.18.124
+  server: 58.152.110.193
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 香港4|@ripaojiedian'
   network: tcp
   password: BxceQaOe
+  port: 443
+  server: 58.152.53.45
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '[Trojan] 香港5|@ripaojiedian'
+  network: tcp
+  password: BxceQaOe
   port: 432
-  server: 16.162.90.147
+  server: 43.199.45.223
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -493,23 +501,23 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 2762
-  server: 13.114.168.40
+  server: 18.176.57.17
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[Trojan] 日本2|@ripaojiedian'
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
-  port: 4006
-  server: 160.16.130.21
+  port: 3423
+  server: 160.16.132.38
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 日本3|@ripaojiedian'
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
-  port: 1933
-  server: 160.16.105.192
+  port: 4006
+  server: 160.16.132.38
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -517,15 +525,15 @@ proxies:
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 544
-  server: 160.16.72.205
+  server: 160.16.72.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 新加坡2|@ripaojiedian'
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
-  port: 3076
-  server: 160.16.124.17
+  port: 3901
+  server: 160.16.72.33
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -533,7 +541,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 1691
-  server: 3.112.224.244
+  server: 43.198.102.247
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -541,7 +549,7 @@ proxies:
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 5076
-  server: 160.16.130.21
+  server: 160.16.132.38
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -549,15 +557,15 @@ proxies:
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 5076
-  server: 160.16.85.33
+  server: 160.16.72.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 美国3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 2173
-  server: 18.167.42.188
+  port: 3159
+  server: 43.198.102.247
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -611,7 +619,8 @@ proxies:
   server: 103.186.155.67
   type: ss
 - cipher: aes-256-cfb
-  name: '[SS] vnVN_4|1.1MB/s'
+  country: 🏁ZZ
+  name: '[SS] vnVN²_3|1.6MB/s|X|History|[原生|...'
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.116
@@ -635,11 +644,61 @@ proxies:
   server: 103.186.155.113
   type: ss
 - cipher: aes-256-cfb
-  name: '[SS] vnVN_8|2.0MB/s'
+  country: 🏁ZZ
+  name: '[SS] vnVN²_1|2.7MB/s|X'
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.251
   type: ss
+- name: '[Trojan] frFR²_1|5.9MB/s|50%|X|[原生|机房]'
+  network: tcp
+  password: nodes-b211f28a
+  port: 2083
+  server: node-fr-1.v2sv.top
+  skip-cert-verify: false
+  sni: node-fr-1.v2sv.top
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_1|6.2MB/s|GPT⁺|X|History'
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_2|2.5MB/s|GPT|X'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.253
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] itIT²_1|0.7MB/s|46%|YT-RU|X'
+  password: Q4t8T7hEYY3mD2Fn4wnxyK4X35AUzvR8
+  port: 443
+  server: 176.126.83.121
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_4|2.5MB/s|GPT|X'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.104
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] nlNL²_1|3.6MB/s|X|History|[原生|...'
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.208
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: '[Vmess] VMESS节点2-ipv6'
@@ -658,5 +717,5 @@ proxies:
   name: '[SS] SS节点-ipv6'
   password: alvin9999.com
   port: 12345
-  server: 2a14:7584:d0a1::a
+  server: 2a10:3c80:0:11::2
   type: ss

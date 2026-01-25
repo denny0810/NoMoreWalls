@@ -140,7 +140,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE_4|1.9MB/s'
+  name: '[VLESS] deDE²_3|6.4MB/s|GPT|X|History'
   network: ws
   port: 2053
   server: xhero.kharabetam.de
@@ -152,8 +152,8 @@ proxies:
   ws-opts:
     headers:
       Host: mrx.xher0.de
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: /IfUknowThenUKnow
   xudp: true
 - name: '[Socks5] deDE_5|1.0MB/s'
@@ -176,49 +176,46 @@ proxies:
   type: socks5
   udp: true
   username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE²_1|4.2MB/s|GPT|X|History'
-  network: ws
-  port: 443
-  server: hell1.tawana.lookanet.codes
-  servername: Emergency.electrov2ray.store
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] deDE²_1|1.1MB/s|0%|GPT|X'
+  network: tcp
+  port: 10100
+  reality-opts:
+    public-key: 2zN5MhusgST2q3NBD1gglc6xTaoTPP9Tmjb9k374QCw
+    short-id: '!!str '
+  server: gcre.segstar.info
+  servername: refersion.com
   tls: true
   type: vless
   udp: true
-  uuid: bcb7e22f-5196-45f5-cfc4-969b3e41f554
-  ws-opts:
-    headers:
-      Host: Emergency.electrov2ray.store
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.115 Safari/537.36
-    path: /
+  uuid: 88888888-8888-8888-8888-888888888888
   xudp: true
 - alpn:
-  - h3
-  - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE²_2|4.1MB/s|GPT|X|History'
+  name: '[VLESS] deDE²_2|6.9MB/s|9%|X|[原生|机房]'
   network: ws
   port: 443
-  server: 192.0.54.34
-  servername: cErT.sHakHle.iR
+  server: cf2.asdasdqasd.ir
+  servername: email.20tick.ir
   tls: true
   type: vless
   udp: true
-  uuid: 96dd3618-ae4e-4a9d-89f9-5316296d7814
+  uuid: 9598ddca-ff1e-4f6f-a86e-152513f661ae
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: cErT.sHakHle.iR
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.143 Safari/537.36
-    path: /?ed=1024/?TELEGRAM--BYA--CHANEL----@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
+      Host: 91.20tick.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    max-early-data: 2560
+    path: /
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision

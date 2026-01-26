@@ -1,5 +1,5 @@
 proxies:
-- name: '[Trojan] JP1｜机房｜低风险'
+- name: '[Trojan] JP2｜机房｜低风险'
   password: 30077070-596e-48ea-9400-14c8ed07bd97
   port: 443
   server: tuntro003.instconn.com
@@ -8,30 +8,45 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[Vmess] JP7｜原生/疑似家宽｜非常安全'
+  name: '[Vmess] JP12｜家宽｜非常安全'
   network: tcp
-  port: '47083'
-  server: tunnel2.qqa678.com
+  port: '40770'
+  server: 151.242.183.86
   tls: false
   type: vmess
-  uuid: 0e497122-8ee0-44fe-b7be-6c5de6cf938b
+  uuid: 66f7cab7-866d-4c6b-8a08-5c1d6de58e7e
 - alterId: 0
   cipher: auto
-  name: '[Vmess] 日本4|@ripaojiedian'
+  name: '[Vmess] JP17｜家宽｜非常安全'
   network: tcp
-  port: '47083'
-  server: tunnel1.qqa678.com
-  servername: ''
+  port: '8819'
+  server: 120.236.197.10
   tls: false
   type: vmess
-  uuid: 0e497122-8ee0-44fe-b7be-6c5de6cf938b
-- name: '[Hysteria2] JP6｜机房｜低风险'
-  password: f9aa3378-92f4-4c3f-8041-26c1be1d699e
-  port: 37854
-  server: 178.239.124.143
+  uuid: 66f7cab7-866d-4c6b-8a08-5c1d6de58e7e
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] JP13｜家宽｜非常安全'
+  network: tcp
+  port: '40770'
+  server: 151.242.183.120
+  tls: false
+  type: vmess
+  uuid: 66f7cab7-866d-4c6b-8a08-5c1d6de58e7e
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇮🇷IR
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] jpJP²_1|12.8MB/s|GPT|YT|D+|X'
+  network: tcp
+  port: 40770
+  server: 151.242.180.6
   skip-cert-verify: true
   tls: false
-  type: hysteria2
+  type: vmess
+  uuid: 66f7cab7-866d-4c6b-8a08-5c1d6de58e7e
 - name: '[Hysteria2] JP'
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
@@ -72,3 +87,91 @@ proxies:
   tls: false
   type: vmess
   uuid: 0e497122-8ee0-44fe-b7be-6c5de6cf938b
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] 日本4|@ripaojiedian'
+  network: tcp
+  port: '47083'
+  server: tunnel1.qqa678.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0e497122-8ee0-44fe-b7be-6c5de6cf938b
+- client-fingerprint: chrome
+  delay: 760
+  name: '[VLESS] jpJP_1|2.5MB/s'
+  network: ws
+  port: 443
+  server: vip3.kaixincloud.top
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /x-aniu/
+- client-fingerprint: chrome
+  delay: 986
+  name: '[VLESS] jpJP_2|1.5MB/s'
+  network: ws
+  port: 443
+  server: 162.159.44.142
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: '[VLESS] jpJP_3|1.2MB/s'
+  network: ws
+  port: 443
+  server: cloudflare.182682.xyz
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: '[VLESS] jpJP_4|1.3MB/s'
+  network: ws
+  port: 443
+  server: 162.159.45.232
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /x-aniu/
+- fingerprint: ''
+  name: '[Anytls] jpJP_5|2.3MB/s'
+  password: a2d12dc9-c111-45ac-b803-87e48f3484d8
+  port: 443
+  server: 160.16.75.254
+  skip-cert-verify: true
+  sni: gw.alicdn.com
+  type: anytls
+  udp: true
+  username: a2d12dc9-c111-45ac-b803-87e48f3484d8

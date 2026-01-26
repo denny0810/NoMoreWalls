@@ -1,36 +1,40 @@
 proxies:
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] frFR_1|1.5MB/s'
+  name: '[VLESS] frFR_1|2.0MB/s'
   network: ws
   port: 443
-  server: 69.84.182.20
-  servername: rAyAn-cOnFiG-it-1.pArSa.dPdNs.oRg
+  server: 104.18.32.47
+  servername: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
   tls: true
   type: vless
   udp: true
-  uuid: 684dd578-bc98-445f-9a42-14dd9a210b27
+  uuid: eee3e4b0-0dfc-46af-8c6e-cb4241e9258e
   ws-opts:
     headers:
-      Host: rAyAn-cOnFiG-it-1.pArSa.dPdNs.oRg
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      Host: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/47.0.2526.106 Safari/537.36
     path: /ws
   xudp: true
-- encryption: none
-  name: '[VLESS] frFR_2|2.9MB/s'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[VLESS] frFR²_1|1.4MB/s|GPT|X'
   network: ws
-  port: 2086
-  server: legend.zdshop.ir
+  port: 443
+  server: 188.114.98.0
+  servername: fr.uploadsho.com
+  tls: true
   type: vless
   udp: true
-  uuid: ae139e24-bde3-4438-9a42-1be5e4a0effb
+  uuid: 938f3d53-66b0-4d54-b518-287c27bf1ef0
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: sjcahbjhdbfvksfhkvbhskkskhvbhfhkvbshksfbfvkhfbkhfbvkfskbvfr.certhost.ir
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    max-early-data: 2086
-    path: /
+      Host: fr.uploadsho.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.125 Safari/537.36
+    max-early-data: 2560
+    path: /upload/
   xudp: true

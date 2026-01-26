@@ -1,66 +1,91 @@
 proxies:
-- name: '[Socks5] DE13｜原生/疑似家宽｜高风险 (黑名单)'
+- name: '[Socks5] DE18｜原生/疑似家宽｜高风险 (黑名单)'
   port: 1080
   server: 193.233.254.8
   tls: false
   type: socks5
   username: T2dAMTkzLjIzMy4yNTQuODo%3D
-- name: '[Socks5] DE14｜原生/疑似家宽｜高风险 (黑名单)'
+- name: '[Socks5] DE19｜原生/疑似家宽｜高风险 (黑名单)'
   port: 1080
   server: 193.233.254.9
   tls: false
   type: socks5
   username: T2dAMTkzLjIzMy4yNTQuOTo%3D
-- name: '[Socks5] DE55｜原生/疑似家宽｜高风险 (黑名单)'
+- name: '[Socks5] DE17｜原生/疑似家宽｜高风险 (黑名单)'
   port: 1080
   server: 193.233.254.7
   tls: false
   type: socks5
   username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOem9AMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo%3D
+- name: '[Trojan] DE28｜机房｜低风险'
+  network: ws
+  password: 88cb8ee2-9286-444b-93a5-ccd06f0ea574
+  port: 2096
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: 17694096397944.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17694096398981.206353.xyz
+    path: '%2Fagrbniuh'
+- name: '[Trojan] DE29｜机房｜低风险'
+  network: ws
+  password: 88cb8ee2-9286-444b-93a5-ccd06f0ea574
+  port: 2087
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17694096396716.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17694096399662.206353.xyz
+    path: '%2Fagrbniuh'
+- name: '[Trojan] DE30｜机房｜低风险'
+  network: ws
+  password: 88cb8ee2-9286-444b-93a5-ccd06f0ea574
+  port: 2083
+  server: bestcdn3.868863.xyz
+  skip-cert-verify: true
+  sni: 17694096394208.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17694096397473.206353.xyz
+    path: '%2Fagrbniuh'
+- name: '[Trojan] DE31｜机房｜低风险'
+  network: ws
+  password: 88cb8ee2-9286-444b-93a5-ccd06f0ea574
+  port: 8443
+  server: bestcdn4.868863.xyz
+  skip-cert-verify: true
+  sni: 17694096392249.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17694096395371.206353.xyz
+    path: '%2Fagrbniuh'
+- name: '[Trojan] DE32｜机房｜低风险'
+  network: ws
+  password: 88cb8ee2-9286-444b-93a5-ccd06f0ea574
+  port: 2053
+  server: bestcdn5.868863.xyz
+  skip-cert-verify: true
+  sni: 17694096398199.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17694096397592.206353.xyz
+    path: '%2Fagrbniuh'
 - alterId: 0
   cipher: auto
-  name: '[Vmess] DE56｜机房｜高风险 (黑名单)'
+  name: '[Vmess] DE39｜机房｜高风险 (黑名单)'
   network: tcp
   port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: '[Hysteria2] DE63｜机房｜低风险'
-  password: zhangyang
-  port: 6443
-  server: 130.61.50.75
-  skip-cert-verify: true
-  sni: dash.cloudflare.com
-  tls: false
-  type: hysteria2
-- name: '[Hysteria2] DE59｜原生/疑似家宽｜非常安全'
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
-  password: 052e929f-df99-4e77-b7da-65aab4e2f55a
-  port: 8443
-  server: 185.181.10.186
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[Hysteria2] DE62｜原生/疑似家宽｜非常安全'
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
-  password: 8fcf53f6-7087-4825-8b44-1e22c51bd299
-  port: 8443
-  server: 185.181.10.186
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[Hysteria2] DE61｜原生/疑似家宽｜非常安全'
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
-  password: d1d81655-1466-4695-a54f-bcbb42a62d8f
-  port: 8443
-  server: 185.181.10.186
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: '[Hysteria2] DE'
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -69,23 +94,107 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: '[VLESS] BG_speednode_0002'
-  network: tcp
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE_1|2.3MB/s'
+  network: ws
   port: 8443
-  reality-opts:
-    public-key: llSF90j8PQdR0alqH2OGlh7fEtoxO-xfZW_B4bQ4eSw
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: 87.120.165.175
-  servername: monolithgate.xyz
-  skip-cert-verify: false
+  server: donald.angusvpn1.sbs
+  servername: cloud.nobifay.ir
   tls: true
   type: vless
   udp: true
-  uuid: cc235335-34f0-4f1b-b3e3-5f32e2eeaa89
+  uuid: 1d2c8482-e0cb-42e1-89e4-2249a4ad30bf
+  ws-opts:
+    headers:
+      Host: cloud.nobifay.ir
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: /
+  xudp: true
 - client-fingerprint: chrome
-  delay: 2161
-  http-opts:
+  name: '[VLESS] deDE_2|1.5MB/s'
+  network: ws
+  port: 443
+  server: wiki.makemefree.info
+  servername: home.makemefree.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: 15fc2169-d6f4-4d2c-9933-a2c7305c4c84
+  ws-opts:
+    headers:
+      Host: home.makemefree.info
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /iran
+  xudp: true
+- encryption: none
+  name: '[VLESS] deDE_3|2.1MB/s'
+  network: ws
+  port: 8880
+  server: dns1.turboo-server.space
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: turboo.turbooo-server.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /turboo
+  xudp: true
+- encryption: none
+  name: '[VLESS] deDE_4|1.6MB/s'
+  network: ws
+  port: 8880
+  server: 188.114.98.0
+  type: vless
+  udp: true
+  uuid: e6048367-5c5e-49c9-9350-f21bbfd0de7c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sepah1.neoservers.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    max-early-data: 2080
+    path: /
+  xudp: true
+- encryption: none
+  name: '[VLESS] deDE_5|1.2MB/s'
+  network: ws
+  port: 8880
+  server: netmeli1.iranhostpro.ir
+  type: vless
+  udp: true
+  uuid: e6048367-5c5e-49c9-9350-f21bbfd0de7c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sepah1.neoservers.ir
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+    max-early-data: 2080
+    path: /
+  xudp: true
+- name: '[Socks5] deDE_6|1.0MB/s'
+  password: '@193.233.254.8:'
+  port: 1080
+  server: 193.233.254.8
+  type: socks5
+  username: Og@193.233.254.8
+- client-fingerprint: chrome
+  name: '[Socks5] deDE_7|1.4MB/s'
+  password: '@193.233.254.7:'
+  port: 1080
+  server: 193.233.254.7
+  type: socks5
+  username: Og@193.233.254.7
+- http-opts:
     headers:
       Host:
       - www.speedtest.net
@@ -102,78 +211,6 @@ proxies:
   type: vless
   udp: true
   uuid: 057b649c-54b1-4f68-86b1-90381637a2cf
-- client-fingerprint: chrome
-  name: '[VLESS] deDE_3|2.0MB/s'
-  network: ws
-  port: 2053
-  server: xhero.kharabetam.de
-  servername: mrx.xher0.de
-  tls: true
-  type: vless
-  udp: true
-  uuid: 33a57acf-163f-4cdd-8b23-cc52a58f2362
-  ws-opts:
-    headers:
-      Host: mrx.xher0.de
-    path: /IfUknowThenUKnow
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] deDE_4|3.0MB/s'
-  network: tcp
-  port: 10100
-  reality-opts:
-    public-key: 2zN5MhusgST2q3NBD1gglc6xTaoTPP9Tmjb9k374QCw
-    short-id: '!!str '
-  server: gcre.segstar.info
-  servername: refersion.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] deDE_5|1.3MB/s'
-  network: grpc
-  port: 22955
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: 159.195.43.18
-  servername: one-piece.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  xudp: true
-- encryption: none
-  name: '[VLESS] deDE_6|2.8MB/s'
-  network: ws
-  port: 8088
-  server: fair.iranis.art
-  type: vless
-  udp: true
-  uuid: fbe0d38f-5d9c-4d4e-9dbd-8f96584989e0
-  ws-opts:
-    headers:
-      Host: fair.iranis.art
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: '[SS] deDE²_1|5.2MB/s|GPT|D+|X'
-  password: nodes-b211f28a
-  port: 990
-  server: node-de-1.v2sv.top
-  type: ss
 - alpn:
   - h3
   - h2

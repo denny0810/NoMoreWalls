@@ -244,7 +244,9 @@ proxies:
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- name: '[Trojan] HK159｜家宽｜非常安全'
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_1|0.6MB/s|X'
+  network: tcp
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
@@ -540,15 +542,10 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  country: 🇮🇷IR
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] hkHK²_2|14.2MB/s|0%|X'
+  name: '[Vmess] HK228｜家宽｜非常安全'
   network: tcp
-  port: 48389
+  port: '48389'
   server: 151.242.183.86
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 66f7cab7-866d-4c6b-8a08-5c1d6de58e7e
@@ -657,10 +654,3 @@ proxies:
   tls: false
   type: vless
   uuid: d4a23188-85b0-4b46-b84b-f1d36d66c03e
-- cipher: chacha20-ietf
-  country: 🇭🇰 HK
-  name: '[SS] hkHK²_1|4.9MB/s|0%|NF|X|Histor...'
-  password: asd123456
-  port: 8388
-  server: 103.149.183.200
-  type: ss

@@ -7,8 +7,7 @@ proxies:
   sni: sg12.352343.cc
   tls: false
   type: hysteria2
-- auth: dbR4wwHGOi
-  name: '[Hysteria2] sgSG²_1|8.3MB/s|38%|GPT⁺|YT|X|...'
+- name: '[Hysteria2] SG3｜商宽｜非常安全'
   obfs: salamander
   obfs-password: ikjnsdakjnasfdjkn
   password: dbR4wwHGOi
@@ -18,7 +17,6 @@ proxies:
   sni: go.microsoft.com
   tls: false
   type: hysteria2
-  udp: true
 - name: '[Hysteria2] 新加坡1'
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2055
@@ -35,35 +33,15 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[Trojan] sg 新加坡|@ripaojiedian'
-  password: 869e9086806483ca4744a4cb0f3d6e16
-  port: 544
-  server: 160.16.72.33
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[Trojan] sg 新加坡2|@ripaojiedian'
-  password: 869e9086806483ca4744a4cb0f3d6e16
-  port: 3901
-  server: 160.16.72.33
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[Trojan] sg 新加坡3|@ripaojiedian'
-  password: BxceQaOe
-  port: 1691
-  server: 43.198.102.247
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
 - name: '[Trojan] 新加坡|@ripaojiedian'
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 443
   server: 203.198.122.227
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] 新加坡2|@ripaojiedian'
+- name: '[Trojan] sgSG_1|1.4MB/s'
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 3901
@@ -79,6 +57,23 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- client-fingerprint: chrome
+  delay: 760
+  name: '[VLESS] sgSG_2|1.4MB/s'
+  network: ws
+  port: 443
+  server: vip3.kaixincloud.top
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /x-aniu/
 - alpn:
   - h3
   - h2

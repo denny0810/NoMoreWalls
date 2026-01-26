@@ -13,20 +13,26 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[Trojan] HK40｜家宽｜非常安全'
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_1|4.7MB/s|X|[原生|住宅]'
+  network: tcp
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
   skip-cert-verify: true
   sni: 219.76.135.98
   type: trojan
-- name: '[Trojan] HK59｜家宽｜非常安全'
+  udp: true
+- client-fingerprint: chrome
+  name: '[Trojan] 🏴‍☠_2hkHK²_7|13.9MB/s-CN|[原生|住...'
+  network: tcp
   password: BxceQaOe
   port: 443
   server: 58.152.25.130
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - name: '[Trojan] HK61｜机房｜低风险'
   password: 30077070-596e-48ea-9400-14c8ed07bd97
   port: 443
@@ -57,15 +63,15 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[Trojan] 香港3|@ripaojiedian'
-  network: tcp
+- name: '[Trojan] hk 香港3|@ripaojiedian'
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 443
   server: 58.152.110.193
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] 香港4|@ripaojiedian'
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_2|1.0MB/s|1%|X'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -73,8 +79,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[Trojan] 香港5|@ripaojiedian'
-  network: tcp
+- name: '[Trojan] hk 香港5|@ripaojiedian'
   password: BxceQaOe
   port: 432
   server: 43.199.45.223
@@ -91,3 +96,37 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[Trojan] 香港3|@ripaojiedian'
+  network: tcp
+  password: 869e9086806483ca4744a4cb0f3d6e16
+  port: 443
+  server: 58.152.110.210
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[Trojan] 香港4|@ripaojiedian'
+  network: tcp
+  password: BxceQaOe
+  port: 432
+  server: 18.182.8.233
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '[Trojan] 香港5|@ripaojiedian'
+  network: tcp
+  password: BxceQaOe
+  port: 1867
+  server: 54.250.244.16
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- client-fingerprint: chrome
+  country: 🇭🇰HK
+  name: '[Trojan] hkHK²_3|6.7MB/s|X|History'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.130
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true

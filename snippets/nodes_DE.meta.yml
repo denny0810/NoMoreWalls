@@ -94,106 +94,18 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_1|2.3MB/s'
-  network: ws
-  port: 8443
-  server: donald.angusvpn1.sbs
-  servername: cloud.nobifay.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1d2c8482-e0cb-42e1-89e4-2249a4ad30bf
-  ws-opts:
-    headers:
-      Host: cloud.nobifay.ir
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.102 Safari/537.36
-    path: /
-  xudp: true
 - client-fingerprint: chrome
-  name: '[VLESS] deDE_2|1.5MB/s'
-  network: ws
+  flow: xtls-rprx-vision
+  name: '[VLESS] deDE_1|2.8MB/s'
+  network: tcp
   port: 443
-  server: wiki.makemefree.info
-  servername: home.makemefree.info
+  reality-opts:
+    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
+  server: 159.195.26.28
+  servername: live.com
   tls: true
   type: vless
-  udp: true
-  uuid: 15fc2169-d6f4-4d2c-9933-a2c7305c4c84
-  ws-opts:
-    headers:
-      Host: home.makemefree.info
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /iran
-  xudp: true
-- encryption: none
-  name: '[VLESS] deDE_3|2.1MB/s'
-  network: ws
-  port: 8880
-  server: dns1.turboo-server.space
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: turboo.turbooo-server.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /turboo
-  xudp: true
-- encryption: none
-  name: '[VLESS] deDE_4|1.6MB/s'
-  network: ws
-  port: 8880
-  server: 188.114.98.0
-  type: vless
-  udp: true
-  uuid: e6048367-5c5e-49c9-9350-f21bbfd0de7c
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sepah1.neoservers.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    max-early-data: 2080
-    path: /
-  xudp: true
-- encryption: none
-  name: '[VLESS] deDE_5|1.2MB/s'
-  network: ws
-  port: 8880
-  server: netmeli1.iranhostpro.ir
-  type: vless
-  udp: true
-  uuid: e6048367-5c5e-49c9-9350-f21bbfd0de7c
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sepah1.neoservers.ir
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
-    max-early-data: 2080
-    path: /
-  xudp: true
-- name: '[Socks5] deDE_6|1.0MB/s'
-  password: '@193.233.254.8:'
-  port: 1080
-  server: 193.233.254.8
-  type: socks5
-  username: Og@193.233.254.8
-- client-fingerprint: chrome
-  name: '[Socks5] deDE_7|1.4MB/s'
-  password: '@193.233.254.7:'
-  port: 1080
-  server: 193.233.254.7
-  type: socks5
-  username: Og@193.233.254.7
+  uuid: 84f66368-8a37-468e-ae95-5622255fd4db
 - http-opts:
     headers:
       Host:

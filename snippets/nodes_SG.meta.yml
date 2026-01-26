@@ -91,6 +91,28 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] sgSG_1|3.3MB/s'
+  network: ws
+  port: 8443
+  server: 172.64.152.23
+  servername: page.anjue39.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 97e79a62-f686-4b91-87a7-be39c9e57658
+  ws-opts:
+    headers:
+      Host: page.anjue39.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   name: '[VLESS] SG_speednode_0020'
   network: ws
   port: 443

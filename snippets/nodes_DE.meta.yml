@@ -58,87 +58,20 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- encryption: none
-  name: '[VLESS] deDE_1|2.4MB/s'
-  network: ws
-  port: 80
-  server: 151.101.192.223
-  type: vless
-  udp: true
-  uuid: 5eff824f-da00-4a9f-a6d0-1d8eaa0c37ae
-  ws-opts:
-    headers:
-      Host: goucci.io
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /containers/fi
-  xudp: true
-- encryption: none
-  name: '[VLESS] deDE_2|2.3MB/s'
-  network: ws
-  port: 80
-  server: vpconnect1.pishipishi.pro
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: vpconnect.pishipishi1.pro
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /vpn_connects
-  xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_3|1.7MB/s'
-  network: ws
-  port: 2053
-  server: 69.84.182.98
-  servername: mrx.xher0.de
-  tls: true
-  type: vless
+  name: '[Socks5] deDE_1|1.5MB/s'
+  password: '@193.233.254.7:'
+  port: 1080
+  server: 193.233.254.7
+  type: socks5
+  username: Og@193.233.254.7
+- cipher: aes-128-gcm
+  name: '[SS] deDE_2|2.2MB/s'
+  password: 6H905uR3Pm0Lv7H
+  port: 46045
+  server: mbqg94o.26l6c42.rkzn8ni.vm331.cn
+  type: ss
   udp: true
-  uuid: 33a57acf-163f-4cdd-8b23-cc52a58f2362
-  ws-opts:
-    headers:
-      Host: mrx.xher0.de
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /IfUknowThenUKnow
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_4|1.7MB/s'
-  network: ws
-  port: 2087
-  server: cdn4.eswap.ir
-  servername: ge.adamz.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0a229011-1db0-4dd5-916e-e18c668b4e9e
-  ws-opts:
-    headers:
-      Host: ge.adamz.site
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /kos nane/khameneee/
-  xudp: true
-- encryption: none
-  name: '[VLESS] deDE_5|2.4MB/s'
-  network: ws
-  port: 80
-  server: pypi.org
-  type: vless
-  udp: true
-  uuid: 5eff824f-da00-4a9f-a6d0-1d8eaa0c37ae
-  ws-opts:
-    headers:
-      Host: goucci.io
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.79 Safari/537.36
-    path: /containers/fi
-  xudp: true
 - http-opts:
     headers:
       Host:

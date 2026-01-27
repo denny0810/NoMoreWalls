@@ -36,18 +36,15 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  country: 🇭🇰HK
-  name: '[Trojan] hkHK²_1|0.7MB/s|X|History'
+- name: '[Trojan] 香港3|@ripaojiedian'
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 443
   server: 58.152.110.210
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
-- name: '[Trojan] 香港5|@ripaojiedian'
+- name: '[Trojan] hkHK_2|1018KB/s'
   network: tcp
   password: BxceQaOe
   port: 1867
@@ -66,50 +63,11 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: '[Anytls] hkHK_1|2.0MB/s'
-  password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+  name: '[Anytls] hkHK_1|1.6MB/s'
+  password: 712bdc36-24be-11ee-be53-f23c9313b177
   port: 8300
-  server: 96078085-t9l0g0-tcj7b6-d70y.hkt.east.wctype.com
+  server: d6cc43ac-t9l0g0-tckngf-5fdt.hkt.east.wctype.com
   skip-cert-verify: true
-  sni: 96078085-t9l0g0-tcj7b6-d70y.hkt.east.wctype.com
-  type: anytls
-  udp: true
-- name: '[VLESS] hkHK_2|1011KB/s'
-  network: ws
-  port: 30050
-  server: 83.229.120.141
-  servername: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /
-- cipher: chacha20-ietf
-  country: 🇭🇰HK
-  name: '[SS] hkHK_3|1006KB/s'
-  password: asd123456
-  port: 8388
-  server: 103.149.182.79
-  type: ss
-- client-fingerprint: chrome
-  name: '[Anytls] hkHK²_2|11.7MB/s|1%|D+|X|[原生|住...'
-  password: 92b2a3d4-f353-11ef-b714-f23c93136cb3
-  port: 8300
-  server: 609ff75c-t9lmo0-taedaq-63bp.hkt.east.wctype.com
-  skip-cert-verify: true
-  sni: 609ff75c-t9lmo0-taedaq-63bp.hkt.east.wctype.com
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  name: '[Anytls] hkHK²_3|11.4MB/s|1%|YT|NF|D+|X...'
-  password: d720a490-d56b-11ef-a1cb-f23c9313b177
-  port: 8300
-  server: b7fd6a5e-t9lmo0-t9izwa-64gc.hkt.east.wctype.com
-  skip-cert-verify: true
-  sni: b7fd6a5e-t9lmo0-t9izwa-64gc.hkt.east.wctype.com
+  sni: d6cc43ac-t9l0g0-tckngf-5fdt.hkt.east.wctype.com
   type: anytls
   udp: true

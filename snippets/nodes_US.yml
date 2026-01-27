@@ -8,7 +8,9 @@ proxies:
   tls: false
   type: vmess
   uuid: 2ab2ff5b-9684-4150-bec0-6bd036ae7c26
-- name: '[Trojan] US7｜机房｜低风险'
+- client-fingerprint: chrome
+  name: '[Trojan] usUS²_1|7.4MB/s|0%|GPT⁺|GM|X|[...'
+  network: tcp
   password: 54faef23-3516-4131-b788-8f3853dac8fa
   port: 43533
   server: faq1.lieerr222.cn
@@ -22,7 +24,9 @@ proxies:
   skip-cert-verify: true
   sni: faq1.lieerr222.cn
   type: trojan
-- name: '[Trojan] US9｜机房｜低风险'
+- client-fingerprint: chrome
+  name: '[Trojan] usUS²_2|2.9MB/s|GPT|X|[广播|商宽]'
+  network: tcp
   password: 7b6ab433-b1da-41d0-b69a-55892d6cac4c
   port: 43533
   server: faq1.lieerr222.cn
@@ -94,7 +98,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[Trojan] usUS_3|1.5MB/s'
+- name: '[Trojan] 美国|@ripaojiedian'
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 5076
@@ -102,18 +106,3 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: '[Trojan] usUS_2|2.1MB/s'
-  network: ws
-  password: 2238e2f3-1a01-485e-8c22-24b65764c68b
-  port: 443
-  server: 208.103.161.231
-  skip-cert-verify: false
-  sni: gzjx.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
-    path: /51.91.253.83=8443

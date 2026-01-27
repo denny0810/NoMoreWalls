@@ -1,4 +1,28 @@
 proxies:
+- name: '[Trojan] FR5｜机房｜高风险 (黑名单)'
+  network: ws
+  password: iwangjie
+  port: 2053
+  server: 141.94.68.216
+  skip-cert-verify: true
+  sni: nodes.830901.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: '%2F%3Fed%3D2560'
+- name: '[Trojan] FR3｜机房｜低风险'
+  network: ws
+  password: iwangjie
+  port: 2053
+  server: 141.94.68.216
+  skip-cert-verify: true
+  sni: nodes.830901.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: '%2F'
 - name: '[Socks5] frFR_1|2.5MB/s'
   port: 1080
   server: 185.194.217.97

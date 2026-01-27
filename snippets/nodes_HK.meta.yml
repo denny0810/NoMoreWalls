@@ -668,49 +668,62 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: '[Vmess] hkHK_6|3.0MB/s'
+  client-fingerprint: chrome
+  name: '[Vmess] hkHK²_3|0.7MB/s|X'
   network: ws
   port: 80
   server: hkt.gotochinatown.net
   skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
   ws-opts:
     headers:
       Host: hkt.gotochinatown.net
     path: /
-- auth: 01c6387d-a685-4045-875a-ca778ffce397
-  name: '[Hysteria2] hkHK²_1|5.5MB/s|0%|YT|NF|D+|X|...'
-  password: 01c6387d-a685-4045-875a-ca778ffce397
-  port: 42434
-  server: hkt2.jueduibupao.top
+  xudp: true
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] hkHK²_1|1.5MB/s|1%|D+|X'
+  network: ws
+  port: 80
+  server: 28561085-t8wxs0-ta00rd-1o8ak.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
   skip-cert-verify: true
-  sni: hkt1.jueduibupao.top
-  type: hysteria2
-  udp: true
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK²_2|1.1MB/s|X|History'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.45
+  type: vmess
+  uuid: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+      Host: 28561085-t8wxs0-ta00rd-1o8ak.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] hkHK²_2|0.6MB/s|1%|X|History'
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: hkt.gotochinatown.net
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK²_3|6.4MB/s|1%|D+|X'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.45
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
+  type: vmess
+  uuid: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
+  ws-opts:
+    headers:
+      HOST: hkt.gotochinatown.net
+      Host: hkt.gotochinatown.net
+    path: /
 - client-fingerprint: chrome
   country: 🇭🇰 HK
-  name: '[Trojan] hkHK²_4|7.2MB/s|X|[原生|住宅]'
+  name: '[Trojan] hkHK²_4|0.8MB/s|1%|X|Succeed'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -718,10 +731,21 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf
-  country: 🇭🇰 HK
-  name: '[SS] 🏴‍☠_2hkHK²_1|1.0MB/s|1.1MB/s|X...'
-  password: asd123456
-  port: 8388
-  server: 103.141.221.124
-  type: ss
+- client-fingerprint: chrome
+  name: '[Anytls] hkHK²_5|1.0MB/s|1%|D+|X|[原生|住宅...'
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: 8300
+  server: 686e7463-t9lmo0-tdtx5w-au6.hkt.east.wctype.com
+  skip-cert-verify: true
+  sni: 686e7463-t9lmo0-tdtx5w-au6.hkt.east.wctype.com
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  name: '[Anytls] hkHK²_6|14.6MB/s|1%|YT|NF|D+|X...'
+  password: d720a490-d56b-11ef-a1cb-f23c9313b177
+  port: 8300
+  server: b7fd6a5e-t9lmo0-t9izwa-64gc.hkt.east.wctype.com
+  skip-cert-verify: true
+  sni: b7fd6a5e-t9lmo0-t9izwa-64gc.hkt.east.wctype.com
+  type: anytls
+  udp: true

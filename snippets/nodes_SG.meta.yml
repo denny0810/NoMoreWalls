@@ -78,7 +78,8 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] 新加坡2|@ripaojiedian'
+- client-fingerprint: chrome
+  name: '[Trojan] sgSG²_2|4.0MB/s|GPT⁺|X'
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 3901
@@ -99,7 +100,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: '[VLESS] sgSG¹⁺_1|12.9MB/s|5%|GPT|X'
+  name: '[VLESS] sgSG_1|1.2MB/s'
   network: ws
   port: 443
   server: 34.143.159.175
@@ -115,6 +116,20 @@ proxies:
       Host: page.anjue39.qzz.io
     max-early-data: 2048
     path: /
+- name: '[Socks5] sgSG²_1|12.1MB/s|GPT|X|History'
+  password: ''
+  port: 10808
+  server: 213.35.110.67
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: '[Socks5] 🏴‍☠_1sgSG²_12|1.2MB/s|12.4MB/s...'
+  password: ''
+  port: 10907
+  server: 146.235.19.84
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - alpn:
   - h3
   - h2

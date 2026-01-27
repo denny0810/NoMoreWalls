@@ -44,7 +44,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] hkHK_2|1018KB/s'
+- name: '[Trojan] 香港5|@ripaojiedian'
   network: tcp
   password: BxceQaOe
   port: 1867
@@ -62,12 +62,40 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: '[Vmess] hkHK_1|1.2MB/s'
+  network: ws
+  port: 80
+  server: 0746e6b4-t9mv40-tb08pe-luwe.hkt.gotochinatown.net
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: '[Vmess] hkHK_2|1.0MB/s'
+  network: ws
+  port: 80
+  server: 7c31dbe6-t9mv40-tipjoa-1slop.hkt.gotochinatown.net
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 520b9126-9870-11ef-81b0-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - client-fingerprint: chrome
-  name: '[Anytls] hkHK_1|1.6MB/s'
-  password: 712bdc36-24be-11ee-be53-f23c9313b177
+  name: '[Anytls] hkHK_3|2.8MB/s'
+  password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
   port: 8300
-  server: d6cc43ac-t9l0g0-tckngf-5fdt.hkt.east.wctype.com
+  server: 499f6eb5-t9nhc0-ta37qp-b4pt.hkt.east.wctype.com
   skip-cert-verify: true
-  sni: d6cc43ac-t9l0g0-tckngf-5fdt.hkt.east.wctype.com
+  sni: 499f6eb5-t9nhc0-ta37qp-b4pt.hkt.east.wctype.com
   type: anytls
   udp: true

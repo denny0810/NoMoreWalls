@@ -84,57 +84,9 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: random
-  name: '[VLESS] usUS¹⁺_2|1.9MB/s|D+|X|History'
-  network: ws
-  port: 443
-  server: 8.35.211.198
-  servername: snip.ere.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.ere.de5.net
-    max-early-data: 2560
-    path: /
-- client-fingerprint: random
-  name: '[VLESS] sgSG_2|1.6MB/s'
-  network: ws
-  port: 443
-  server: zrf.cf.090227.xyz
-  servername: snip.ere.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.ere.de5.net
-    max-early-data: 2560
-    path: /
-- client-fingerprint: random
-  name: '[VLESS] sgSG_3|1.1MB/s'
-  network: ws
-  port: 443
-  server: cloudflare.182682.xyz
-  servername: snip.ere.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.ere.de5.net
-    max-early-data: 2560
-    path: /
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] sgSG_4|3.3MB/s'
+  name: '[VLESS] sgSG_1|1.0MB/s'
   network: ws
   port: 443
   server: 172.64.152.23
@@ -152,3 +104,19 @@ proxies:
     max-early-data: 2560
     path: /
   xudp: true
+- client-fingerprint: random
+  name: '[VLESS] sgSG_2|1.9MB/s'
+  network: ws
+  port: 443
+  server: www.shopify.com
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.ere.de5.net
+    max-early-data: 2560
+    path: /

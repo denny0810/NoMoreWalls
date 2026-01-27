@@ -183,13 +183,12 @@ proxies:
   tls: false
   type: socks5
   username: T2dAMTkzLjIzMy4yNTQuOTo%3D
-- name: '[Socks5] deDE_6|2.1MB/s'
+- name: '[Socks5] DE17｜原生/疑似家宽｜高风险 (黑名单)'
   port: 1080
   server: 193.233.254.7
-  skip-cert-verify: false
   tls: false
   type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo%3D
+  username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOem9AMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo%3D
 - name: '[Socks5] KR1｜家宽｜高风险 (黑名单)'
   port: 1090
   server: 121.169.46.116
@@ -966,14 +965,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 66f7cab7-866d-4c6b-8a08-5c1d6de58e7e
-- name: '[Trojan] hkHK_5|2.1MB/s'
+- name: '[Trojan] HK214｜家宽｜非常安全'
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: '[Vmess] HK291｜家宽｜非常安全'
@@ -1284,7 +1282,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[Trojan] hkHK_4|1.5MB/s'
+- name: '[Trojan] 香港3|@ripaojiedian'
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 443
@@ -1292,7 +1290,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: '[Trojan] 香港4|@ripaojiedian'
   network: tcp
   password: BxceQaOe
@@ -1309,7 +1306,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[Trojan] 日本|@ripaojiedian'
+- name: '[Trojan] jpJP_2|2.5MB/s'
   network: tcp
   password: BxceQaOe
   port: 2595
@@ -1392,7 +1389,7 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - delay: 760
-  name: '[VLESS] jpJP_1|1.7MB/s'
+  name: '[VLESS] sgSG_1|2.0MB/s'
   network: ws
   port: 443
   server: vip3.kaixincloud.top
@@ -1408,85 +1405,7 @@ proxies:
     max-early-data: 2560
     path: /x-aniu/
 - client-fingerprint: random
-  name: '[VLESS] usUS_1|1.1MB/s'
-  network: ws
-  port: 443
-  server: 27.50.48.2
-  servername: snip.ere.de5.net
-  tls: true
-  type: vless
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.ere.de5.net
-    max-early-data: 2560
-    path: /
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: '[VLESS] sgSG_1|1.2MB/s'
-  network: ws
-  port: 443
-  server: 34.143.159.175
-  servername: page.anjue39.qzz.io
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 97e79a62-f686-4b91-87a7-be39c9e57658
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: page.anjue39.qzz.io
-    max-early-data: 2048
-    path: /
-- cipher: chacha20-ietf-poly1305
-  country: 🇬🇧GB
-  delay: 1758
-  name: '[SS] gbGB_1|3.1MB/s'
-  password: kaQH3hGdcP80XEDI
-  port: 443
-  server: admin.c2.havij.co
-  type: ss
-- auth: 87ae1c00-89fd-430b-91ad-f55b04e4ab2d
-  name: '[Hysteria2] gbGB_2|2.7MB/s'
-  password: 87ae1c00-89fd-430b-91ad-f55b04e4ab2d
-  port: 48556
-  server: uk1.jueduibupao.top
-  skip-cert-verify: true
-  sni: uk1.jueduibupao.top
-  type: hysteria2
-  udp: true
-- name: '[Anytls] hkHK_2|3.1MB/s'
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  port: 8300
-  server: 1f99c2a2-t9l0g0-t9ijp5-4550.hkt.east.wctype.com
-  skip-cert-verify: true
-  sni: 1f99c2a2-t9l0g0-t9ijp5-4550.hkt.east.wctype.com
-  type: anytls
-  udp: true
-- name: '[Anytls] hkHK_3|1.5MB/s'
-  password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
-  port: 8300
-  server: 54e8635c-t9lmo0-tcm6ys-deip.hkt.east.wctype.com
-  skip-cert-verify: true
-  sni: 54e8635c-t9lmo0-tcm6ys-deip.hkt.east.wctype.com
-  type: anytls
-  udp: true
-- auth: b350a581-5dea-4e96-8977-f600aace1936
-  name: '[Hysteria2] usUS_2|1.5MB/s'
-  password: b350a581-5dea-4e96-8977-f600aace1936
-  port: 21824
-  ports: 21001-21999
-  server: us.xiongchumo.shop
-  skip-cert-verify: false
-  sni: us.xiongchumo.shop
-  type: hysteria2
-  udp: true
-- client-fingerprint: random
-  name: '[VLESS] ❓Other_1|1.1MB/s'
+  name: '[VLESS] sgSG_2|1.4MB/s'
   network: ws
   port: 443
   server: 172.64.148.31
@@ -1502,28 +1421,100 @@ proxies:
     max-early-data: 2560
     path: /
 - encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] gbGB_3|1.8MB/s'
-  network: tcp
-  port: 40721
-  reality-opts:
-    public-key: TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk
-    short-id: 'df8611c07d'
-  server: 140.238.100.35
-  servername: yahoo.com
+  name: '[VLESS] gbGB¹-US⁰_1|4.2MB/s|5%|X|Histo...'
+  network: ws
+  port: 443
+  server: cloudflare.182682.xyz
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: bf3e8944-8d26-47de-8748-b9aa74cce974
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- name: '[Anytls] hkHK_1|2.0MB/s'
+  password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+  port: 8300
+  server: 96078085-t9l0g0-tcj7b6-d70y.hkt.east.wctype.com
+  skip-cert-verify: true
+  sni: 96078085-t9l0g0-tcj7b6-d70y.hkt.east.wctype.com
+  type: anytls
+  udp: true
+- client-fingerprint: random
+  name: '[VLESS] usUS¹⁺_3|2.2MB/s|5%|GPT|NF|D+|...'
+  network: ws
+  port: 443
+  server: 162.159.44.228
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.ere.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: random
+  name: '[VLESS] usUS¹⁺_1|13.2MB/s|5%|GPT|D+|X'
+  network: ws
+  port: 443
+  server: 8.35.211.198
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.ere.de5.net
+    max-early-data: 2560
+    path: /
+- encryption: none
+  name: '[VLESS] deDE_1|2.4MB/s'
+  network: ws
+  port: 80
+  server: 151.101.192.223
+  type: vless
+  udp: true
+  uuid: 5eff824f-da00-4a9f-a6d0-1d8eaa0c37ae
+  ws-opts:
+    headers:
+      Host: goucci.io
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /containers/fi
   xudp: true
 - encryption: none
-  name: '[VLESS] deDE_1|2.1MB/s'
+  name: '[VLESS] deDE_2|2.3MB/s'
+  network: ws
+  port: 80
+  server: vpconnect1.pishipishi.pro
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: vpconnect.pishipishi1.pro
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /vpn_connects
+  xudp: true
+- encryption: none
+  name: '[VLESS] deDE_3|1.7MB/s'
   network: ws
   port: 2053
-  server: xhero.kharabetam.de
+  server: 69.84.182.98
   servername: mrx.xher0.de
   tls: true
   type: vless
@@ -1532,166 +1523,139 @@ proxies:
   ws-opts:
     headers:
       Host: mrx.xher0.de
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.162 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: /IfUknowThenUKnow
   xudp: true
 - encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] chCH_1|2.6MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 138.124.79.4
-  servername: sun6-21.userapi.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d6b1327d-2bec-4366-a3a1-9b1284f95841
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  name: '[VLESS] trTR_1|2.3MB/s'
+  name: '[VLESS] deDE_4|1.7MB/s'
   network: ws
-  port: 8443
-  server: 188.114.98.0
-  servername: abriabri.abriabri.ir
+  port: 2087
+  server: cdn4.eswap.ir
+  servername: ge.adamz.site
   tls: true
   type: vless
   udp: true
-  uuid: cc75f2b2-2fab-4e64-8244-518b226b40e5
+  uuid: 0a229011-1db0-4dd5-916e-e18c668b4e9e
   ws-opts:
     headers:
-      Host: abriabri.abriabri.ir
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /
-  xudp: true
-- encryption: none
-  name: '[VLESS] deDE_2|1.2MB/s'
-  network: ws
-  port: 8443
-  server: 172.64.152.23
-  servername: chat.tk-panshop.top.
-  tls: true
-  type: vless
-  udp: true
-  uuid: 97c9ede9-bab1-45a5-a309-4f74715da80c
-  ws-opts:
-    headers:
-      Host: chat.tk-panshop.top.
+      Host: ge.adamz.site
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /
+    path: /kos nane/khameneee/
   xudp: true
 - encryption: none
-  name: '[VLESS] deDE_3|2.2MB/s'
+  name: '[VLESS] usUS_1|2.5MB/s'
   network: ws
-  port: 8443
-  server: 104.17.74.206
-  servername: chat.tk-panshop.top.
+  port: 443
+  server: cdn.sjdpictures.ir
+  servername: alliedhosting.qzz.io
   tls: true
   type: vless
   udp: true
-  uuid: 97c9ede9-bab1-45a5-a309-4f74715da80c
+  uuid: 50d023be-b1d2-4221-a6b5-6320e61a3ff0
   ws-opts:
     headers:
-      Host: chat.tk-panshop.top.
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /
+      Host: alliedhosting.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/45.0.2454.93 Safari/537.36
+    path: /178.128.80.43=443
   xudp: true
-- alterId: '2'
+- encryption: none
+  name: '[VLESS] deDE_5|2.4MB/s'
+  network: ws
+  port: 80
+  server: pypi.org
+  type: vless
+  udp: true
+  uuid: 5eff824f-da00-4a9f-a6d0-1d8eaa0c37ae
+  ws-opts:
+    headers:
+      Host: goucci.io
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /containers/fi
+  xudp: true
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_1|1.0MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.31
+  type: ss
+  udp: true
+- name: '[Trojan] usUS_2|2.1MB/s'
+  network: ws
+  password: 2238e2f3-1a01-485e-8c22-24b65764c68b
+  port: 443
+  server: 208.103.161.231
+  skip-cert-verify: false
+  sni: gzjx.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /51.91.253.83=8443
+- name: '[Socks5] frFR_1|2.5MB/s'
+  port: 1080
+  server: 185.194.217.97
+  skip-cert-verify: false
+  type: socks5
+- alterId: 0
   cipher: auto
-  name: '[Vmess] usUS_5|1.8MB/s'
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
+  name: '[Vmess] twTW_1|1.5MB/s'
+  port: 43527
+  server: faq1.lieerr222.cn
   skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- encryption: none
-  name: '[VLESS] usUS_6|2.3MB/s'
+  uuid: b3c52ff2-2c1e-49b7-9099-dc955d770ec8
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] twTW_2|1.2MB/s'
+  port: 43527
+  server: faq1.lieerr222.cn
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 076da35f-cb9f-49cb-a496-5f60ca4f2eda
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] jpJP_3|1.1MB/s'
+  port: 47083
+  server: tunnel2.qqa678.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2ab2ff5b-9684-4150-bec0-6bd036ae7c26
+- name: '[VLESS] hkHK_2|1011KB/s'
   network: ws
-  port: 47825
-  server: 172.86.127.136
-  type: vless
-  udp: true
-  uuid: e248ec20-7a33-4af5-91fa-d7f12a1cbd5a
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-        Gecko) Chrome/26.0.1410.64 Safari/537.31
-    path: /
-  xudp: true
-- flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] deDE_4|2.4MB/s'
-  network: tcp
-  port: 10100
-  reality-opts:
-    public-key: 2zN5MhusgST2q3NBD1gglc6xTaoTPP9Tmjb9k374QCw
-    short-id: ''
-  server: gcre.segstar.info
-  servername: refersion.com
+  port: 30050
+  server: 83.229.120.141
+  servername: l.ayovo.netlib.re
   tls: true
   type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xudp: true
-- encryption: none
-  name: '[VLESS] deDE_5|2.6MB/s'
-  network: ws
-  port: 2086
-  server: 104.17.74.206
-  type: vless
-  udp: true
-  uuid: d6a796cc-a899-4f02-984b-e0f173daa30a
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: IIS.narkhesanj.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.71 Safari/537.36
-    max-early-data: 2056
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
     path: /
-  xudp: true
-- alterId: 2
-  cipher: auto
-  name: '[Vmess] hkHK²_3|0.7MB/s|X'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: aes-128-gcm
+  name: '[SS] czCZ_1|2.2MB/s'
+  password: 6H905uR3Pm0Lv7H
+  port: 46060
+  server: mbqg94o.26l6c42.rkzn8ni.vm331.cn
+  type: ss
   udp: true
-  uuid: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-  xudp: true
-- cipher: aes-256-cfb
-  name: '[SS] vnVN_1|1.5MB/s'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.133
+- cipher: chacha20-ietf
+  country: 🇭🇰HK
+  name: '[SS] hkHK_3|1006KB/s'
+  password: asd123456
+  port: 8388
+  server: 103.149.182.79
   type: ss
 - encryption: none
   name: '[VLESS] hkHK¹-US⁰_1|16.1MB/s|5%|GPT|YT...'
@@ -1713,22 +1677,6 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: random
-  name: '[VLESS] usUS¹⁺_1|13.2MB/s|5%|GPT|D+|X'
-  network: ws
-  port: 443
-  server: 8.35.211.198
-  servername: snip.ere.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.ere.de5.net
-    max-early-data: 2560
-    path: /
-- client-fingerprint: random
   name: '[VLESS] hkHK¹-US⁰_2|13.0MB/s|YT-US|X'
   network: ws
   port: 443
@@ -1744,25 +1692,6 @@ proxies:
       Host: snip.ere.de5.net
     max-early-data: 2560
     path: /
-- encryption: none
-  name: '[VLESS] gbGB¹-US⁰_1|4.2MB/s|5%|X|Histo...'
-  network: ws
-  port: 443
-  server: cloudflare.182682.xyz
-  servername: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: '[SS] vnVN²_1|2.4MB/s|X|History'
@@ -1862,6 +1791,22 @@ proxies:
       HOST: hkt.gotochinatown.net
       Host: hkt.gotochinatown.net
     path: /
+- alterId: 2
+  cipher: auto
+  name: '[Vmess] hkHK²_3|0.7MB/s|X'
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+  xudp: true
 - name: '[Socks5] auAU²_1|7.1MB/s|GPT⁺|X|History'
   password: ''
   port: 1080
@@ -1982,22 +1927,6 @@ proxies:
   sni: b7fd6a5e-t9lmo0-t9izwa-64gc.hkt.east.wctype.com
   type: anytls
   udp: true
-- client-fingerprint: random
-  name: '[VLESS] usUS¹⁺_3|2.2MB/s|5%|GPT|NF|D+|...'
-  network: ws
-  port: 443
-  server: 162.159.44.228
-  servername: snip.ere.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.ere.de5.net
-    max-early-data: 2560
-    path: /
 - client-fingerprint: random
   encryption: none
   flow: xtls-rprx-vision

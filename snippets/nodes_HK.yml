@@ -540,15 +540,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 66f7cab7-866d-4c6b-8a08-5c1d6de58e7e
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK_5|2.1MB/s'
+- name: '[Trojan] HK214｜家宽｜非常安全'
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: '[Vmess] HK291｜家宽｜非常安全'
@@ -599,8 +597,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK_4|1.5MB/s'
+- name: '[Trojan] 香港3|@ripaojiedian'
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 443
@@ -608,7 +605,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: '[Trojan] 香港4|@ripaojiedian'
   network: tcp
   password: BxceQaOe
@@ -635,23 +631,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: '[Vmess] hkHK²_3|0.7MB/s|X'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-  xudp: true
+- cipher: chacha20-ietf
+  country: 🇭🇰HK
+  name: '[SS] hkHK_3|1006KB/s'
+  password: asd123456
+  port: 8388
+  server: 103.149.182.79
+  type: ss
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -690,6 +676,23 @@ proxies:
       HOST: hkt.gotochinatown.net
       Host: hkt.gotochinatown.net
     path: /
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: '[Vmess] hkHK²_3|0.7MB/s|X'
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+  xudp: true
 - client-fingerprint: chrome
   country: 🇭🇰 HK
   name: '[Trojan] hkHK²_4|0.8MB/s|1%|X|Succeed'

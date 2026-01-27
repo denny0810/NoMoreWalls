@@ -95,26 +95,75 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[VLESS] sgSG_1|1.2MB/s'
+- client-fingerprint: chrome
+  delay: 760
+  name: '[VLESS] sgSG_1|2.0MB/s'
   network: ws
   port: 443
-  server: 34.143.159.175
-  servername: page.anjue39.qzz.io
+  server: vip3.kaixincloud.top
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /x-aniu/
+- client-fingerprint: random
+  name: '[VLESS] sgSG_2|1.4MB/s'
+  network: ws
+  port: 443
+  server: 172.64.148.31
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.ere.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] gbGB¹-US⁰_1|4.2MB/s|5%|X|Histo...'
+  network: ws
+  port: 443
+  server: cloudflare.182682.xyz
+  servername: l.ayovo.netlib.re
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 97e79a62-f686-4b91-87a7-be39c9e57658
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: page.anjue39.qzz.io
-    max-early-data: 2048
+      Host: l.ayovo.netlib.re
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: random
+  name: '[VLESS] usUS¹⁺_1|13.2MB/s|5%|GPT|D+|X'
+  network: ws
+  port: 443
+  server: 8.35.211.198
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.ere.de5.net
+    max-early-data: 2560
     path: /
 - name: '[Socks5] sgSG²_1|12.1MB/s|GPT|X|History'
   password: ''

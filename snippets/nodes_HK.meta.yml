@@ -546,15 +546,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 66f7cab7-866d-4c6b-8a08-5c1d6de58e7e
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK_5|2.1MB/s'
+- name: '[Trojan] HK214｜家宽｜非常安全'
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: '[Vmess] HK291｜家宽｜非常安全'
@@ -612,8 +610,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK_4|1.5MB/s'
+- name: '[Trojan] 香港3|@ripaojiedian'
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 443
@@ -621,7 +618,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: '[Trojan] 香港4|@ripaojiedian'
   network: tcp
   password: BxceQaOe
@@ -649,40 +645,35 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: '[Anytls] hkHK_2|3.1MB/s'
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  name: '[Anytls] hkHK_1|2.0MB/s'
+  password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
   port: 8300
-  server: 1f99c2a2-t9l0g0-t9ijp5-4550.hkt.east.wctype.com
+  server: 96078085-t9l0g0-tcj7b6-d70y.hkt.east.wctype.com
   skip-cert-verify: true
-  sni: 1f99c2a2-t9l0g0-t9ijp5-4550.hkt.east.wctype.com
+  sni: 96078085-t9l0g0-tcj7b6-d70y.hkt.east.wctype.com
   type: anytls
   udp: true
-- client-fingerprint: chrome
-  name: '[Anytls] hkHK_3|1.5MB/s'
-  password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
-  port: 8300
-  server: 54e8635c-t9lmo0-tcm6ys-deip.hkt.east.wctype.com
-  skip-cert-verify: true
-  sni: 54e8635c-t9lmo0-tcm6ys-deip.hkt.east.wctype.com
-  type: anytls
-  udp: true
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: '[Vmess] hkHK²_3|0.7MB/s|X'
+- name: '[VLESS] hkHK_2|1011KB/s'
   network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+  port: 30050
+  server: 83.229.120.141
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: hkt.gotochinatown.net
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
     path: /
-  xudp: true
+- cipher: chacha20-ietf
+  country: 🇭🇰HK
+  name: '[SS] hkHK_3|1006KB/s'
+  password: asd123456
+  port: 8388
+  server: 103.149.182.79
+  type: ss
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -721,6 +712,23 @@ proxies:
       HOST: hkt.gotochinatown.net
       Host: hkt.gotochinatown.net
     path: /
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: '[Vmess] hkHK²_3|0.7MB/s|X'
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+  xudp: true
 - client-fingerprint: chrome
   country: 🇭🇰 HK
   name: '[Trojan] hkHK²_4|0.8MB/s|1%|X|Succeed'

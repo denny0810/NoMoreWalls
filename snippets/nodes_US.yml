@@ -318,15 +318,18 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: '2'
-  cipher: auto
-  name: '[Vmess] usUS_5|1.8MB/s'
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
+- client-fingerprint: chrome
+  name: '[Trojan] usUS_2|2.1MB/s'
+  network: ws
+  password: 2238e2f3-1a01-485e-8c22-24b65764c68b
+  port: 443
+  server: 208.103.161.231
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: gzjx.dpdns.org
+  type: trojan
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /51.91.253.83=8443

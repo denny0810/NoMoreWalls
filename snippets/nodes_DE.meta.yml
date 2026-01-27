@@ -11,13 +11,12 @@ proxies:
   tls: false
   type: socks5
   username: T2dAMTkzLjIzMy4yNTQuOTo%3D
-- name: '[Socks5] deDE_6|2.1MB/s'
+- name: '[Socks5] DE17｜原生/疑似家宽｜高风险 (黑名单)'
   port: 1080
   server: 193.233.254.7
-  skip-cert-verify: false
   tls: false
   type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo%3D
+  username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOem9AMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo%3D
 - name: '[Trojan] DE28｜机房｜低风险'
   network: ws
   password: 88cb8ee2-9286-444b-93a5-ccd06f0ea574
@@ -95,12 +94,42 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
+- encryption: none
+  name: '[VLESS] deDE_1|2.4MB/s'
+  network: ws
+  port: 80
+  server: 151.101.192.223
+  type: vless
+  udp: true
+  uuid: 5eff824f-da00-4a9f-a6d0-1d8eaa0c37ae
+  ws-opts:
+    headers:
+      Host: goucci.io
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /containers/fi
+  xudp: true
+- encryption: none
+  name: '[VLESS] deDE_2|2.3MB/s'
+  network: ws
+  port: 80
+  server: vpconnect1.pishipishi.pro
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: vpconnect.pishipishi1.pro
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /vpn_connects
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE_1|2.1MB/s'
+  name: '[VLESS] deDE_3|1.7MB/s'
   network: ws
   port: 2053
-  server: xhero.kharabetam.de
+  server: 69.84.182.98
   servername: mrx.xher0.de
   tls: true
   type: vless
@@ -109,81 +138,42 @@ proxies:
   ws-opts:
     headers:
       Host: mrx.xher0.de
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.162 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: /IfUknowThenUKnow
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE_2|1.2MB/s'
+  name: '[VLESS] deDE_4|1.7MB/s'
   network: ws
-  port: 8443
-  server: 172.64.152.23
-  servername: chat.tk-panshop.top.
+  port: 2087
+  server: cdn4.eswap.ir
+  servername: ge.adamz.site
   tls: true
   type: vless
   udp: true
-  uuid: 97c9ede9-bab1-45a5-a309-4f74715da80c
+  uuid: 0a229011-1db0-4dd5-916e-e18c668b4e9e
   ws-opts:
     headers:
-      Host: chat.tk-panshop.top.
+      Host: ge.adamz.site
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_3|2.2MB/s'
-  network: ws
-  port: 8443
-  server: 104.17.74.206
-  servername: chat.tk-panshop.top.
-  tls: true
-  type: vless
-  udp: true
-  uuid: 97c9ede9-bab1-45a5-a309-4f74715da80c
-  ws-opts:
-    headers:
-      Host: chat.tk-panshop.top.
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] deDE_4|2.4MB/s'
-  network: tcp
-  port: 10100
-  reality-opts:
-    public-key: 2zN5MhusgST2q3NBD1gglc6xTaoTPP9Tmjb9k374QCw
-    short-id: '!!str '
-  server: gcre.segstar.info
-  servername: refersion.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+    path: /kos nane/khameneee/
   xudp: true
 - encryption: none
-  name: '[VLESS] deDE_5|2.6MB/s'
+  name: '[VLESS] deDE_5|2.4MB/s'
   network: ws
-  port: 2086
-  server: 104.17.74.206
+  port: 80
+  server: pypi.org
   type: vless
   udp: true
-  uuid: d6a796cc-a899-4f02-984b-e0f173daa30a
+  uuid: 5eff824f-da00-4a9f-a6d0-1d8eaa0c37ae
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: IIS.narkhesanj.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.71 Safari/537.36
-    max-early-data: 2056
-    path: /
+      Host: goucci.io
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /containers/fi
   xudp: true
 - client-fingerprint: chrome
   name: '[VLESS] deDE²_1|6.5MB/s|8%|GPT⁺|X'

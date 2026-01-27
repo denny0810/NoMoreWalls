@@ -1,4 +1,40 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  country: 🇬🇧GB
+  delay: 1758
+  name: '[SS] gbGB_1|3.1MB/s'
+  password: kaQH3hGdcP80XEDI
+  port: 443
+  server: admin.c2.havij.co
+  type: ss
+- auth: 87ae1c00-89fd-430b-91ad-f55b04e4ab2d
+  name: '[Hysteria2] gbGB_2|2.7MB/s'
+  password: 87ae1c00-89fd-430b-91ad-f55b04e4ab2d
+  port: 48556
+  server: uk1.jueduibupao.top
+  skip-cert-verify: true
+  sni: uk1.jueduibupao.top
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] gbGB²_1|2.8MB/s|X'
+  network: tcp
+  port: 40721
+  reality-opts:
+    public-key: TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk
+    short-id: '!!str df8611c07d'
+  server: 140.238.100.35
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bf3e8944-8d26-47de-8748-b9aa74cce974
+  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: '[VLESS] GB_speednode_0012'

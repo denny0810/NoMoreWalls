@@ -229,12 +229,11 @@ proxies:
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- name: '[Trojan] 新加坡|@ripaojiedian'
-  network: tcp
+- name: '[Trojan] HK157｜家宽｜非常安全'
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 443
   server: 203.198.122.227
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] HK158｜原生/疑似家宽｜非常安全'
@@ -244,9 +243,7 @@ proxies:
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK²_1|0.6MB/s|X'
-  network: tcp
+- name: '[Trojan] HK159｜家宽｜非常安全'
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
@@ -549,13 +546,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 66f7cab7-866d-4c6b-8a08-5c1d6de58e7e
-- name: '[Trojan] HK214｜家宽｜非常安全'
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK_5|2.1MB/s'
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: '[Vmess] HK291｜家宽｜非常安全'
@@ -613,7 +612,8 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[Trojan] 香港3|@ripaojiedian'
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK_4|1.5MB/s'
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 443
@@ -621,11 +621,12 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: '[Trojan] 香港4|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 432
-  server: 18.182.8.233
+  port: 443
+  server: 203.198.122.187
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -633,7 +634,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 1867
-  server: 54.250.244.16
+  server: 18.179.118.202
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -647,10 +648,80 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[VLESS] hkHK_1|2.4MB/s'
-  network: tcp
-  port: 9527
-  server: 43.161.253.78
+- client-fingerprint: chrome
+  name: '[Anytls] hkHK_2|3.1MB/s'
+  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  port: 8300
+  server: 1f99c2a2-t9l0g0-t9ijp5-4550.hkt.east.wctype.com
+  skip-cert-verify: true
+  sni: 1f99c2a2-t9l0g0-t9ijp5-4550.hkt.east.wctype.com
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  name: '[Anytls] hkHK_3|1.5MB/s'
+  password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
+  port: 8300
+  server: 54e8635c-t9lmo0-tcm6ys-deip.hkt.east.wctype.com
+  skip-cert-verify: true
+  sni: 54e8635c-t9lmo0-tcm6ys-deip.hkt.east.wctype.com
+  type: anytls
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: '[Vmess] hkHK_6|3.0MB/s'
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: false
   tls: false
-  type: vless
-  uuid: d4a23188-85b0-4b46-b84b-f1d36d66c03e
+  type: vmess
+  uuid: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- auth: 01c6387d-a685-4045-875a-ca778ffce397
+  name: '[Hysteria2] hkHK²_1|5.5MB/s|0%|YT|NF|D+|X|...'
+  password: 01c6387d-a685-4045-875a-ca778ffce397
+  port: 42434
+  server: hkt2.jueduibupao.top
+  skip-cert-verify: true
+  sni: hkt1.jueduibupao.top
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_2|1.1MB/s|X|History'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.45
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_3|6.4MB/s|1%|D+|X'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.45
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  country: 🇭🇰 HK
+  name: '[Trojan] hkHK²_4|7.2MB/s|X|[原生|住宅]'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf
+  country: 🇭🇰 HK
+  name: '[SS] 🏴‍☠_2hkHK²_1|1.0MB/s|1.1MB/s|X...'
+  password: asd123456
+  port: 8388
+  server: 103.141.221.124
+  type: ss

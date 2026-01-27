@@ -11,12 +11,13 @@ proxies:
   tls: false
   type: socks5
   username: T2dAMTkzLjIzMy4yNTQuOTo%3D
-- name: '[Socks5] DE17｜原生/疑似家宽｜高风险 (黑名单)'
+- name: '[Socks5] deDE_6|2.1MB/s'
   port: 1080
   server: 193.233.254.7
+  skip-cert-verify: false
   tls: false
   type: socks5
-  username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOem9AMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo%3D
+  username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo%3D
 - name: '[Trojan] DE28｜机房｜低风险'
   network: ws
   password: 88cb8ee2-9286-444b-93a5-ccd06f0ea574
@@ -95,17 +96,96 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] deDE_1|2.8MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
-  server: 159.195.26.28
-  servername: live.com
+  encryption: none
+  name: '[VLESS] deDE_1|2.1MB/s'
+  network: ws
+  port: 2053
+  server: xhero.kharabetam.de
+  servername: mrx.xher0.de
   tls: true
   type: vless
-  uuid: 84f66368-8a37-468e-ae95-5622255fd4db
+  udp: true
+  uuid: 33a57acf-163f-4cdd-8b23-cc52a58f2362
+  ws-opts:
+    headers:
+      Host: mrx.xher0.de
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.162 Safari/537.36
+    path: /IfUknowThenUKnow
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE_2|1.2MB/s'
+  network: ws
+  port: 8443
+  server: 172.64.152.23
+  servername: chat.tk-panshop.top.
+  tls: true
+  type: vless
+  udp: true
+  uuid: 97c9ede9-bab1-45a5-a309-4f74715da80c
+  ws-opts:
+    headers:
+      Host: chat.tk-panshop.top.
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE_3|2.2MB/s'
+  network: ws
+  port: 8443
+  server: 104.17.74.206
+  servername: chat.tk-panshop.top.
+  tls: true
+  type: vless
+  udp: true
+  uuid: 97c9ede9-bab1-45a5-a309-4f74715da80c
+  ws-opts:
+    headers:
+      Host: chat.tk-panshop.top.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] deDE_4|2.4MB/s'
+  network: tcp
+  port: 10100
+  reality-opts:
+    public-key: 2zN5MhusgST2q3NBD1gglc6xTaoTPP9Tmjb9k374QCw
+    short-id: '!!str '
+  server: gcre.segstar.info
+  servername: refersion.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_2|7.0MB/s|7%|X'
+  network: ws
+  port: 2086
+  server: 104.17.74.206
+  type: vless
+  udp: true
+  uuid: d6a796cc-a899-4f02-984b-e0f173daa30a
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: IIS.narkhesanj.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    max-early-data: 2056
+    path: /
+  xudp: true
 - http-opts:
     headers:
       Host:

@@ -8,9 +8,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 2ab2ff5b-9684-4150-bec0-6bd036ae7c26
-- client-fingerprint: chrome
-  name: '[Trojan] usUS²_1|7.4MB/s|0%|GPT⁺|GM|X|[...'
-  network: tcp
+- name: '[Trojan] US7｜机房｜低风险'
   password: 54faef23-3516-4131-b788-8f3853dac8fa
   port: 43533
   server: faq1.lieerr222.cn
@@ -24,9 +22,7 @@ proxies:
   skip-cert-verify: true
   sni: faq1.lieerr222.cn
   type: trojan
-- client-fingerprint: chrome
-  name: '[Trojan] usUS²_2|2.9MB/s|GPT|X|[广播|商宽]'
-  network: tcp
+- name: '[Trojan] US9｜机房｜低风险'
   password: 7b6ab433-b1da-41d0-b69a-55892d6cac4c
   port: 43533
   server: faq1.lieerr222.cn
@@ -121,39 +117,25 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] usUS_1|2.7MB/s'
-  password: 5d68d91f-ccc5-4c00-b1f6-0d764937f4f6
-  port: 38921
-  server: mofacpdd.til69.com
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] usUS_7|2.0MB/s'
-  network: ws
+  name: '[VLESS] usUS_1|1.1MB/s'
+  network: tcp
   port: 443
-  server: 198.62.62.241
-  servername: l.ayovo.netlib.re
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: '!!str 2da72ce6'
+  server: 136.175.178.165
+  servername: navi.bankrate.com
   tls: true
   type: vless
   udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/56.0.2924.87 Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
+  uuid: a05a955e-608b-45e3-a13a-7db10b2a79e2
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] usUS_3|1.3MB/s'
+  name: '[VLESS] usUS_2|1.0MB/s'
   network: ws
   port: 443
-  server: 185.18.250.245
+  server: 198.62.62.62
   servername: l.ayovo.netlib.re
   tls: true
   type: vless
@@ -166,111 +148,52 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/67.0.3396.87 Safari/537.36
     max-early-data: 2560
-    path: /x-aniu/
+    path: /
   xudp: true
 - client-fingerprint: chrome
-  name: '[Trojan] usUS_4|2.4MB/s'
-  network: ws
-  password: 11fd7d06-a1fb-4a47-a490-e0a62d1e1c0e
-  port: 443
-  server: 103.21.244.2
-  skip-cert-verify: true
-  sni: afrcloud4.mmv.kr
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/31.0.1650.57 Safari/537.36
-    path: /103.6.207.108:8080
-- client-fingerprint: chrome
-  name: '[Trojan] usUS_5|2.2MB/s'
-  network: ws
-  password: 5027e2a4-c4d2-463a-9508-83a2c7d1ad83
-  port: 443
-  server: 216.24.57.250
-  skip-cert-verify: false
-  sni: afrcloud1.mmv.kr
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /5.223.47.32=443
-- client-fingerprint: chrome
-  name: '[Trojan] usUS_6|2.5MB/s'
-  network: ws
-  password: 11fd7d06-a1fb-4a47-a490-e0a62d1e1c0e
-  port: 443
-  server: 104.17.74.206
-  skip-cert-verify: true
-  sni: afrcloud4.mmv.kr
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /36.95.152.58:12137
-- name: '[Trojan] usUS_8|1.0MB/s'
-  password: ae3f0be1-48ba-41ea-aec1-c053573e1a99
-  port: 43534
-  server: faq1.lieerr222.cn
-  skip-cert-verify: true
-  sni: douyin.com
-  type: trojan
-- name: '[Trojan] usUS_9|1.5MB/s'
-  password: e244088c-7edc-4fdd-8e5c-23d9d9fc4695
-  port: 41275
-  server: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
-  sni: douyin.com
-  type: trojan
-- client-fingerprint: chrome
-  delay: 1154
   encryption: none
-  name: '[VLESS] hkHK¹-US⁰_1|15.2MB/s|GPT|YT|NF...'
+  name: '[VLESS] usUS_3|1.4MB/s'
   network: ws
   port: 443
-  server: 104.16.250.22
+  server: 216.205.52.113
   servername: l.ayovo.netlib.re
-  skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: l.ayovo.netlib.re
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
     max-early-data: 2560
     path: /
-- client-fingerprint: random
-  name: '[VLESS] usUS¹⁺_1|0.8MB/s|GPT|D+|X'
-  network: ws
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[VLESS] usUS_4|1.0MB/s'
+  network: tcp
   port: 443
-  server: 8.39.125.179
-  servername: snip.ere.de5.net
+  reality-opts:
+    public-key: _TIQSjojgpdSBoSVXuQjFSqIdPeXjQIQkM5cFSv6Gnc
+    short-id: '!!str 9613864900a8f12d'
+  server: us2.miyazono-kaori.com
+  servername: download-porter.hoyoverse.com
   tls: true
   type: vless
-  udp: true
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.ere.de5.net
-    max-early-data: 2560
-    path: /
+  uuid: 937f8940-ad8a-409f-93c3-4d6249af628f
 - client-fingerprint: chrome
-  name: '[VLESS] hkHK¹-US⁰_2|4.4MB/s|D+|X|Succe...'
+  delay: 731
+  encryption: none
+  name: '[VLESS] usUS¹⁺_1|0.7MB/s|X|History|[原生...'
   network: ws
   port: 443
-  server: 104.16.250.22
+  server: 162.159.44.142
   servername: l.ayovo.netlib.re
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
@@ -279,10 +202,10 @@ proxies:
     max-early-data: 2560
     path: /x-aniu/
 - client-fingerprint: random
-  name: '[VLESS] hkHK¹-US⁰_3|12.5MB/s|D+|X|Hist...'
+  name: '[VLESS] usUS¹⁺_2|6.5MB/s|D+|X'
   network: ws
   port: 443
-  server: staticdelivery.nexusmods.com
+  server: 173.245.59.220
   servername: snip.ere.de5.net
   tls: true
   type: vless

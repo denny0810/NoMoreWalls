@@ -118,8 +118,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 2ab2ff5b-9684-4150-bec0-6bd036ae7c26
-- name: '[Trojan] usUS²_1|7.4MB/s|0%|GPT⁺|GM|X|[...'
-  network: tcp
+- name: '[Trojan] US7｜机房｜低风险'
   password: 54faef23-3516-4131-b788-8f3853dac8fa
   port: 43533
   server: faq1.lieerr222.cn
@@ -137,9 +136,9 @@ proxies:
   uuid: 012e03ba-ff1a-4b78-a2e9-f367d56af706
 - alterId: 0
   cipher: auto
-  name: '[Vmess] sgSG²_2|13.6MB/s|X'
+  name: '[Vmess] SG2｜原生/疑似家宽｜非常安全'
   network: tcp
-  port: 59510
+  port: '59510'
   server: ffiw.owwoedu.com
   tls: false
   type: vmess
@@ -151,8 +150,7 @@ proxies:
   skip-cert-verify: true
   sni: faq1.lieerr222.cn
   type: trojan
-- name: '[Trojan] usUS²_2|2.9MB/s|GPT|X|[广播|商宽]'
-  network: tcp
+- name: '[Trojan] US9｜机房｜低风险'
   password: 7b6ab433-b1da-41d0-b69a-55892d6cac4c
   port: 43533
   server: faq1.lieerr222.cn
@@ -170,9 +168,9 @@ proxies:
   uuid: e97ed422-56d3-429e-9558-3f6ac92da7e5
 - alterId: 0
   cipher: auto
-  name: '[Vmess] sgSG²_1|10.6MB/s|0%|GPT|X'
+  name: '[Vmess] SG4｜原生/疑似家宽｜非常安全'
   network: tcp
-  port: 59510
+  port: '59510'
   server: ffiw.owwoedu.com
   tls: false
   type: vmess
@@ -524,151 +522,19 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] usUS_1|2.7MB/s'
-  password: 5d68d91f-ccc5-4c00-b1f6-0d764937f4f6
-  port: 38921
-  server: mofacpdd.til69.com
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: '[Vmess] hkHK_1|1.7MB/s'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- name: '[Trojan] usUS_4|2.4MB/s'
-  network: ws
-  password: 11fd7d06-a1fb-4a47-a490-e0a62d1e1c0e
-  port: 443
-  server: 103.21.244.2
-  skip-cert-verify: true
-  sni: afrcloud4.mmv.kr
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/31.0.1650.57 Safari/537.36
-    path: /103.6.207.108:8080
-- name: '[Trojan] usUS_5|2.2MB/s'
-  network: ws
-  password: 5027e2a4-c4d2-463a-9508-83a2c7d1ad83
-  port: 443
-  server: 216.24.57.250
-  skip-cert-verify: false
-  sni: afrcloud1.mmv.kr
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /5.223.47.32=443
-- name: '[Trojan] usUS_6|2.5MB/s'
-  network: ws
-  password: 11fd7d06-a1fb-4a47-a490-e0a62d1e1c0e
-  port: 443
-  server: 104.17.74.206
-  skip-cert-verify: true
-  sni: afrcloud4.mmv.kr
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /36.95.152.58:12137
-- name: '[Trojan] usUS_8|1.0MB/s'
-  password: ae3f0be1-48ba-41ea-aec1-c053573e1a99
-  port: 43534
-  server: faq1.lieerr222.cn
-  skip-cert-verify: true
-  sni: douyin.com
-  type: trojan
-- name: '[Trojan] jpJP_4|1.2MB/s'
-  password: 9fd435c0-0f53-4864-b65c-2930970fda71
-  port: 41273
-  server: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
-  sni: douyin.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] jpJP_5|1.2MB/s'
-  port: 59503
-  server: ffiw.owwoedu.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: a1dfedd7-05dd-469a-aef8-fbc95556819a
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] jpJP_6|2.3MB/s'
-  port: 59503
-  server: ffiw.owwoedu.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: eb81a336-f35f-45ff-bd03-9dad688b8ac2
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] twTW_1|2.6MB/s'
-  port: 43527
-  server: faq1.lieerr222.cn
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 3d3ec42c-0fcc-48c4-97d3-f26803c6a475
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] twTW_2|2.1MB/s'
-  port: 43527
-  server: faq1.lieerr222.cn
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 750a65f6-fb0f-4e83-be1f-d0ae9fa4b0a9
-- name: '[Trojan] usUS_9|1.5MB/s'
-  password: e244088c-7edc-4fdd-8e5c-23d9d9fc4695
-  port: 41275
-  server: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
-  sni: douyin.com
-  type: trojan
 - alterId: 0
   cipher: auto
   h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] myMY²_1|3.7MB/s|0%|GPT⁺|GM|X|H...'
-  network: none
-  port: 33651
-  server: 23.27.28.125
+  http-opts:
+    method: GET
+    path:
+    - /QQqun-737805443
+  name: '[Vmess] hkHK²_1|9.3MB/s|X|History|[原生|...'
+  network: http
+  port: 52080
+  server: 61.15.60.153
   type: vmess
-  uuid: 2ef740c4-08ed-4924-a8d8-7517fc987a8a
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_1|1.9MB/s|GPT|X|History'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.227
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_2|1.4MB/s|GPT⁺|X|History'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.68
-  type: ss
+  uuid: bfb47846-aedb-4ea3-a81f-27895a4ec1bb
 - alterId: 0
   cipher: auto
   name: '[Vmess] VMESS节点2-ipv6'

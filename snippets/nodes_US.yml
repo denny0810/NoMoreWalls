@@ -82,12 +82,11 @@ proxies:
   skip-cert-verify: true
   sni: douyin.com
   type: trojan
-- name: '[Trojan] 美国2|@ripaojiedian'
-  network: tcp
+- name: '[Trojan] US21｜机房｜低风险'
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 491
   server: 52.195.170.6
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 美国3|@ripaojiedian'
@@ -101,48 +100,31 @@ proxies:
 - name: '[Trojan] 美国|@ripaojiedian'
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
-  port: 5076
-  server: 18.179.118.202
+  port: 491
+  server: 153.121.39.240
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] usUS_2|2.5MB/s'
-  network: ws
-  password: 42bbf526-5530-470a-aeec-3b919b21c58d
-  port: 54443
-  server: 173.249.201.109
-  skip-cert-verify: true
-  sni: 0000.hkvip.ip-ddns.com
+- name: '[Trojan] 美国2|@ripaojiedian'
+  network: tcp
+  password: 869e9086806483ca4744a4cb0f3d6e16
+  port: 5076
+  server: 153.121.39.240
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
-  udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: 0000.hkvip.ip-ddns.com
-    max-early-data: 2560
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] usUS_4|2.8MB/s'
-  password: 5d68d91f-ccc5-4c00-b1f6-0d764937f4f6
-  port: 38921
-  server: mofacpdd.til69.com
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: '[Trojan] usUS_6|2.0MB/s'
+- name: '[Trojan] usUS_4|2.5MB/s'
   network: ws
-  password: 11fd7d06-a1fb-4a47-a490-e0a62d1e1c0e
-  port: 443
-  server: 103.21.244.208
-  skip-cert-verify: true
-  sni: afrcloud4.mmv.kr
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: false
+  sni: epge.muarua.filegear-sg.me
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /36.95.152.58:12137
+      Host: epge.muarua.filegear-sg.me
+    path: /%2F
 - name: '[Trojan] US_speednode_0034'
   network: ws
   password: 2238e2f3-1a01-485e-8c22-24b65764c68b

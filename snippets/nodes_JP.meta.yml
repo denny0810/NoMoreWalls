@@ -57,11 +57,11 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[Trojan] jpJP_3|4.1MB/s'
+- name: '[Trojan] 日本|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 2595
-  server: 13.158.129.83
+  port: 3760
+  server: 13.159.16.204
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -69,53 +69,20 @@ proxies:
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 1933
-  server: 18.179.118.202
+  server: 153.121.39.240
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 日本3|@ripaojiedian'
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
-  port: 1933
-  server: 52.195.170.6
+  port: 3423
+  server: 202.181.103.246
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: '[VLESS] jpJP_1|1.1MB/s'
-  network: ws
-  port: 443
-  server: 162.159.45.232
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /x-aniu/
-- name: '[VLESS] jpJP_2|1.4MB/s'
-  network: ws
-  port: 443
-  server: 162.159.44.142
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /
 - client-fingerprint: random
-  name: '[VLESS] jpJP_4|1.5MB/s'
+  name: '[VLESS] jpJP_1|1.1MB/s'
   network: ws
   port: 443
   server: 162.159.45.178
@@ -130,26 +97,10 @@ proxies:
       Host: snip.ere.de5.net
     max-early-data: 2560
     path: /
-- name: '[Anytls] jpJP_5|1.2MB/s'
-  password: a2d12dc9-c111-45ac-b803-87e48f3484d8
-  port: 443
-  server: 160.16.75.254
-  skip-cert-verify: true
-  type: anytls
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] jpJP_2|1.9MB/s'
+  password: 5d68d91f-ccc5-4c00-b1f6-0d764937f4f6
+  port: 39841
+  server: mofacpdd.til69.com
+  type: ss
   udp: true
-- client-fingerprint: random
-  name: '[VLESS] jpJP_6|1.4MB/s'
-  network: ws
-  port: 443
-  server: 108.162.198.38
-  servername: snip.ere.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.ere.de5.net
-    max-early-data: 2560
-    path: /

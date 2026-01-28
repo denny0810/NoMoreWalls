@@ -11,13 +11,12 @@ proxies:
   tls: false
   type: socks5
   username: T2dAMTkzLjIzMy4yNTQuOTo%3D
-- name: '[Socks5] deDE_1|2.2MB/s'
+- name: '[Socks5] DE16｜原生/疑似家宽｜高风险 (黑名单)'
   port: 1080
   server: 193.233.254.7
-  skip-cert-verify: false
   tls: false
   type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo%3D
+  username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOem9AMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo%3D
 - alterId: 0
   cipher: auto
   name: '[Vmess] DE29｜机房｜高风险 (黑名单)'
@@ -59,64 +58,12 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] deDE_2|1.4MB/s'
-  network: tcp
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] deDE_1|2.4MB/s'
+  password: gKYygTcRYhc3skc2x6tZ073lYz0DnieX
   port: 443
-  reality-opts:
-    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
-  server: 159.195.26.28
-  servername: live.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 84f66368-8a37-468e-ae95-5622255fd4db
-- encryption: none
-  name: '[VLESS] deDE_3|1.1MB/s'
-  network: ws
-  port: 80
-  server: python.org
-  type: vless
-  udp: true
-  uuid: 6a27158b-fe25-4031-81a0-cee648cde054
-  ws-opts:
-    headers:
-      Host: sfddgg.ug
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /containers/fi
-  xudp: true
-- encryption: none
-  name: '[VLESS] deDE_4|2.2MB/s'
-  network: ws
-  port: 80
-  server: pypi.org
-  type: vless
-  udp: true
-  uuid: 60b06b38-77cc-470a-a3f4-2bcffce72e31
-  ws-opts:
-    headers:
-      Host: sabzeu.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /download
-  xudp: true
-- encryption: none
-  name: '[VLESS] deDE_5|2.7MB/s'
-  network: ws
-  port: 2052
-  server: 104.25.210.3
-  type: vless
-  udp: true
-  uuid: d80e27b6-1dee-466a-8b18-8f64bfd66a60
-  ws-opts:
-    headers:
-      Host: vxpor.positivsis.website
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /
-  xudp: true
+  server: 5.181.21.246
+  type: ss
 - http-opts:
     headers:
       Host:

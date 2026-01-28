@@ -69,39 +69,18 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: '[Anytls] hkHK_1|3.5MB/s'
-  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-  port: 8300
-  server: 0991225d-t9mv40-t9lb2a-1glq.hkt.east.wctype.com
-  skip-cert-verify: true
-  sni: 0991225d-t9mv40-t9lb2a-1glq.hkt.east.wctype.com
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  name: '[Anytls] hkHK_2|2.7MB/s'
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 8300
-  server: 8ff2fd1c-t9mv40-tdtaxw-au6.hkt.east.wctype.com
-  skip-cert-verify: true
-  sni: 8ff2fd1c-t9mv40-tdtaxw-au6.hkt.east.wctype.com
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  name: '[Anytls] hkHK_3|1.3MB/s'
-  password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
-  port: 8300
-  server: ec1c1972-t9lmo0-ta37qp-b4pt.hkt.east.wctype.com
-  skip-cert-verify: true
-  sni: ec1c1972-t9lmo0-ta37qp-b4pt.hkt.east.wctype.com
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  name: '[Anytls] hkHK_4|2.1MB/s'
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 8300
-  server: 686e7463-t9lmo0-tdtx5w-au6.hkt.east.wctype.com
-  skip-cert-verify: true
-  sni: 686e7463-t9lmo0-tdtx5w-au6.hkt.east.wctype.com
-  type: anytls
-  udp: true
+- alterId: 2
+  cipher: auto
+  name: '[Vmess] hkHK_1|1.7MB/s'
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /

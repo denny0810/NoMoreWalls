@@ -113,18 +113,72 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] usUS_4|2.5MB/s'
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] usUS_1|2.7MB/s'
+  password: 5d68d91f-ccc5-4c00-b1f6-0d764937f4f6
+  port: 38921
+  server: mofacpdd.til69.com
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: '[Trojan] usUS_4|2.4MB/s'
   network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
-  sni: epge.muarua.filegear-sg.me
+  password: 11fd7d06-a1fb-4a47-a490-e0a62d1e1c0e
+  port: 443
+  server: 103.21.244.2
+  skip-cert-verify: true
+  sni: afrcloud4.mmv.kr
   type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: epge.muarua.filegear-sg.me
-    path: /%2F
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/31.0.1650.57 Safari/537.36
+    path: /103.6.207.108:8080
+- client-fingerprint: chrome
+  name: '[Trojan] usUS_5|2.2MB/s'
+  network: ws
+  password: 5027e2a4-c4d2-463a-9508-83a2c7d1ad83
+  port: 443
+  server: 216.24.57.250
+  skip-cert-verify: false
+  sni: afrcloud1.mmv.kr
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /5.223.47.32=443
+- client-fingerprint: chrome
+  name: '[Trojan] usUS_6|2.5MB/s'
+  network: ws
+  password: 11fd7d06-a1fb-4a47-a490-e0a62d1e1c0e
+  port: 443
+  server: 104.17.74.206
+  skip-cert-verify: true
+  sni: afrcloud4.mmv.kr
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /36.95.152.58:12137
+- name: '[Trojan] usUS_8|1.0MB/s'
+  password: ae3f0be1-48ba-41ea-aec1-c053573e1a99
+  port: 43534
+  server: faq1.lieerr222.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+- name: '[Trojan] usUS_9|1.5MB/s'
+  password: e244088c-7edc-4fdd-8e5c-23d9d9fc4695
+  port: 41275
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
 - name: '[Trojan] US_speednode_0034'
   network: ws
   password: 2238e2f3-1a01-485e-8c22-24b65764c68b

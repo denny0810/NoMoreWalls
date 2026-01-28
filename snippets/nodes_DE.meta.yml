@@ -11,12 +11,13 @@ proxies:
   tls: false
   type: socks5
   username: T2dAMTkzLjIzMy4yNTQuOTo%3D
-- name: '[Socks5] DE16｜原生/疑似家宽｜高风险 (黑名单)'
+- name: '[Socks5] deDE_6|2.4MB/s'
   port: 1080
   server: 193.233.254.7
+  skip-cert-verify: false
   tls: false
   type: socks5
-  username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOem9AMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo%3D
+  username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo%3D
 - alterId: 0
   cipher: auto
   name: '[Vmess] DE29｜机房｜高风险 (黑名单)'
@@ -68,64 +69,86 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- encryption: none
-  name: '[VLESS] deDE_1|2.5MB/s'
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE_1|1.9MB/s'
   network: ws
-  port: 80
+  port: 2053
   server: 104.18.32.47
+  servername: ir1.airpanel.top
+  tls: true
   type: vless
   udp: true
-  uuid: 1e35b4bf-b270-4c0b-918d-62746eedd2ad
+  uuid: e5f8a9f6-f164-479b-b3b5-b90f213c7145
   ws-opts:
     headers:
-      Host: EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY.
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /?ed
+      Host: ir1.airpanel.top
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/35.0.1916.153 Safari/537.36
+    path: /
   xudp: true
-- encryption: none
-  name: '[VLESS] deDE_2|2.2MB/s'
+- client-fingerprint: chrome
+  name: '[VLESS] deDE_2|1.4MB/s'
   network: ws
-  port: 80
-  server: 104.18.32.47
+  port: 2083
+  server: ip.ali.lat
+  servername: ip.ali.lat
+  tls: true
   type: vless
   udp: true
-  uuid: ba2bb9d8-9baa-45d6-9e0a-38c9cb6a6a9a
+  uuid: 0f4dacd7-8f8f-4326-a849-1b1593e8e711
   ws-opts:
     headers:
-      Host: WeaK-preSSUrE3Ga6bzof92.sPorTlaNd.coMPANY.
+      Host: temp3.ali.lat
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: '[VLESS] deDE_3|1.7MB/s'
+  network: ws
+  port: 80
+  server: nodejs.org
+  type: vless
+  udp: true
+  uuid: 546e91b5-c33e-4b04-b20c-c0fc8f6d9d7f
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: bIZARRe-CEntEryZCvddNcfJ.spORtLand.COmPANY.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    max-early-data: 512
+    path: /
+  xudp: true
+- encryption: none
+  name: '[VLESS] deDE_4|1.9MB/s'
+  network: ws
+  port: 80
+  server: nodejs.org
+  type: vless
+  udp: true
+  uuid: 65fe56c2-78ec-417a-a666-9f393eac8b61
+  ws-opts:
+    headers:
+      Host: everlASTinG-oFfERC4S5Mg1918.SpoRTLand.COMpaNy.
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /?ed
   xudp: true
 - encryption: none
-  name: '[VLESS] deDE_3|2.8MB/s'
-  network: ws
-  port: 80
-  server: 151.101.3.19
-  type: vless
-  udp: true
-  uuid: 0b516cf6-cd76-470c-954d-9374d734f445
-  ws-opts:
-    headers:
-      Host: yalandonya.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-    path: /site
-  xudp: true
-- encryption: none
-  name: '[VLESS] deDE_4|2.9MB/s'
+  name: '[VLESS] deDE_5|1.8MB/s'
   network: ws
   port: 80
   server: 104.18.32.47
   type: vless
   udp: true
-  uuid: a5712440-3cec-4a1b-82e8-767c54acd83a
+  uuid: c5fbb5dd-83bb-43ce-a799-e3e5c29e25da
   ws-opts:
     headers:
-      Host: authENTIC-cABinEtgqc4XfW2ud.spORTLAND.COmPAny.
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
+      Host: gLeEfuL-GrassMcKS7Sr4kw.wiNdleR.co.Uk.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/67.0.3396.99 Safari/537.36
     path: /?ed
   xudp: true
 - http-opts:

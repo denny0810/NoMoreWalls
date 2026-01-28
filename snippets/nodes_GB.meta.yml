@@ -17,19 +17,46 @@ proxies:
   port: 443
   server: admin.c2.havij.co
   type: ss
-- client-fingerprint: edge
+- client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: '[VLESS] gbGB_1|1.0MB/s'
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] gbGB_1|1.5MB/s'
   network: tcp
-  port: 55543
+  port: 443
   reality-opts:
-    public-key: 2tzZ5oGqx3bO9SlM3FEiCa2F1JQ0UgYv7lIURNXft3U
-    short-id: '!!str 4adb5cd13e3a'
-  server: mbqg940.26l6c42.rkzn8ni.vm331.cn
-  servername: www.discoverasr.com
+    public-key: QdYs12kmf0mAXNOEPgMpLN5dbZUlgvRK2zCqynOmqBk
+    short-id: '!!str 20'
+  server: uk2.miyazono-kaori.com
+  servername: www.bp.com
   tls: true
   type: vless
-  uuid: ca2da009-aa7f-46f2-9ca4-c88594ebab9e
+  udp: true
+  uuid: 937f8940-ad8a-409f-93c3-4d6249af628f
+  xudp: true
+- client-fingerprint: ios
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] gbGB_2|2.5MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
+    short-id: '!!str d923'
+  server: uk1.miyazono-kaori.com
+  servername: www.bp.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 937f8940-ad8a-409f-93c3-4d6249af628f
+  xudp: true
 - name: '[Trojan] GB_speednode_0010'
   network: ws
   password: 42bbf526-5530-470a-aeec-3b919b21c58d

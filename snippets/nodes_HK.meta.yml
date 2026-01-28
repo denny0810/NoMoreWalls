@@ -69,6 +69,34 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] hkHK_1|1.5MB/s'
+  network: tcp
+  port: 8080
+  server: p1q2hkdx3a4.ef30mn.starwayvpn.com
+  servername: p1q2hkdx3a4.ef30mn.starwayvpn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 60b0c276-ddbe-4122-baf9-052b37df36ef
+- alterId: 2
+  cipher: auto
+  name: '[Vmess] hkHK_2|1.3MB/s'
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+  xudp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

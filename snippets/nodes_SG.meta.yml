@@ -97,6 +97,55 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: random
+  name: '[VLESS] sgSG_1|1.3MB/s'
+  network: ws
+  port: 443
+  server: 172.64.148.31
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.ere.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: random
+  name: '[VLESS] sgSG_2|2.2MB/s'
+  network: ws
+  port: 443
+  server: www.shopify.com
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.ere.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  fingerprint: ''
+  name: '[VLESS] sgSG_3|3.6MB/s'
+  network: ws
+  port: 443
+  server: 172.64.152.23
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  udp: false
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /x-aniu/
+- client-fingerprint: random
   name: '[VLESS] sgSG²_1|9.8MB/s|X|History'
   network: ws
   port: 443

@@ -125,7 +125,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - auth: dc6a6c45-b13c-4f1d-8729-19b4d8bba4aa
-  name: '[Hysteria2] usUS_1|1.6MB/s'
+  name: '[Hysteria2] usUS_1|3.2MB/s'
   password: dc6a6c45-b13c-4f1d-8729-19b4d8bba4aa
   port: 443
   server: 134.195.101.191
@@ -133,45 +133,78 @@ proxies:
   sni: www.apple.com
   type: hysteria2
   udp: true
-- client-fingerprint: chrome
-  name: '[VLESS] usUS_2|1.3MB/s'
-  network: tcp
+- client-fingerprint: random
+  name: '[VLESS] usUS_2|1.0MB/s'
+  network: ws
   port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: '!!str 2da72ce6'
-  server: 136.175.178.165
-  servername: navi.bankrate.com
+  server: 104.19.118.83
+  servername: snip.ere.de5.net
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 22184d8f-0af2-4213-949f-c96a23dc07ba
-- client-fingerprint: chrome
-  name: '[VLESS] usUS_3|1.2MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: '!!str 2da72ce6'
-  server: 136.175.178.165
-  servername: navi.bankrate.com
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.ere.de5.net
+    max-early-data: 2560
+    path: /
+- name: '[VLESS] usUS_3|1.2MB/s'
+  network: ws
+  port: 2087
+  server: 8.35.211.15
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 07e52cba-3569-4b63-8bcb-92dc4587c489
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
 - client-fingerprint: chrome
-  name: '[VLESS] usUS_4|1.6MB/s'
-  network: tcp
+  encryption: none
+  name: '[VLESS] usUS_4|3.2MB/s'
+  network: ws
   port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: '!!str 2da72ce6'
-  server: 136.175.178.165
-  servername: navi.bankrate.com
+  server: 198.62.62.241
+  servername: l.ayovo.netlib.re
   tls: true
   type: vless
   udp: true
-  uuid: 02250f72-886a-4b0e-9f28-dde701d6a0e7
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: random
+  name: '[VLESS] usUS_5|1.6MB/s'
+  network: ws
+  port: 443
+  server: 154.218.15.198
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.ere.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
 - client-fingerprint: chrome
   delay: 731
   encryption: none

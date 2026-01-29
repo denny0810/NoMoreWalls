@@ -17,6 +17,23 @@ proxies:
   port: 443
   server: admin.c2.havij.co
   type: ss
+- encryption: none
+  name: '[VLESS] gbGB_1|1.5MB/s'
+  network: ws
+  port: 2082
+  server: ip.hamrahto.com
+  type: vless
+  udp: true
+  uuid: 1337825f-0a25-4d5f-8954-8090e94c6fca
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: hm33333.mutee.com.tr
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    max-early-data: 2080
+    path: /api/stream
+  xudp: true
 - name: '[Trojan] GB_speednode_0010'
   network: ws
   password: 42bbf526-5530-470a-aeec-3b919b21c58d

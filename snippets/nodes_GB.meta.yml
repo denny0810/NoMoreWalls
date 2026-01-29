@@ -14,33 +14,17 @@ proxies:
   port: 443
   server: admin.c2.havij.co
   type: ss
-- encryption: none
-  name: '[VLESS] gbGB_1|1.5MB/s'
-  network: ws
-  port: 2082
-  server: ip.hamrahto.com
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: '[VLESS] GB_speednode_0003'
+  port: 443
+  reality-opts:
+    public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
+    short-id: '!!str d923'
+  server: uk1.miyazono-kaori.com
+  servername: www.bp.com
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: 1337825f-0a25-4d5f-8954-8090e94c6fca
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: hm33333.mutee.com.tr
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    max-early-data: 2080
-    path: /api/stream
-  xudp: true
-- name: '[Trojan] GB_speednode_0010'
-  network: ws
-  password: 42bbf526-5530-470a-aeec-3b919b21c58d
-  port: 31687
-  server: 185.245.83.41
-  skip-cert-verify: true
-  sni: 0000.hkvip.ip-ddns.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 0000.hkvip.ip-ddns.com
-    path: /?ed=2560
+  uuid: 937f8940-ad8a-409f-93c3-4d6249af628f

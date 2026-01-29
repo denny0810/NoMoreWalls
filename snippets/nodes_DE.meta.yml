@@ -1,9 +1,12 @@
 proxies:
-- name: '[Socks5] DE17｜原生/疑似家宽｜高风险 (黑名单)'
+- delay: 2582
+  name: '[Socks5] deDE_2|1.3MB/s'
   port: 1080
   server: 193.233.254.8
+  skip-cert-verify: true
   tls: false
   type: socks5
+  udp: true
   username: T2dAMTkzLjIzMy4yNTQuODo%3D
 - name: '[Socks5] DE18｜原生/疑似家宽｜高风险 (黑名单)'
   port: 1080
@@ -11,7 +14,7 @@ proxies:
   tls: false
   type: socks5
   username: T2dAMTkzLjIzMy4yNTQuOTo%3D
-- name: '[Socks5] deDE_6|2.4MB/s'
+- name: '[Socks5] deDE_1|1.1MB/s'
   port: 1080
   server: 193.233.254.7
   skip-cert-verify: false
@@ -69,87 +72,58 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
+- encryption: none
+  name: '[VLESS] deDE_3|2.2MB/s'
+  network: ws
+  port: 80
+  server: 104.18.32.47
+  type: vless
+  udp: true
+  uuid: 1e35b4bf-b270-4c0b-918d-62746eedd2ad
+  ws-opts:
+    headers:
+      Host: EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.125 Safari/537.36
+    path: /?ed
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE_1|1.9MB/s'
+  name: '[VLESS] deDE_4|1.0MB/s'
   network: ws
   port: 2053
-  server: 104.18.32.47
-  servername: ir1.airpanel.top
+  server: ip.ali.lat
+  servername: temp.ali.lat
   tls: true
   type: vless
   udp: true
-  uuid: e5f8a9f6-f164-479b-b3b5-b90f213c7145
+  uuid: 1d48559c-10fc-427d-94e1-c8b7552964a7
   ws-opts:
     headers:
-      Host: ir1.airpanel.top
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/35.0.1916.153 Safari/537.36
+      Host: temp.ali.lat
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: '[VLESS] deDE_2|1.4MB/s'
+  name: '[VLESS] deDE_5|1.9MB/s'
   network: ws
-  port: 2083
+  port: 2087
   server: ip.ali.lat
-  servername: ip.ali.lat
+  servername: temp4.ali.lat
   tls: true
   type: vless
   udp: true
-  uuid: 0f4dacd7-8f8f-4326-a849-1b1593e8e711
+  uuid: c8e81aea-2c89-45f8-9a34-ecb2637e2eed
   ws-opts:
     headers:
-      Host: temp3.ali.lat
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      Host: temp4.ali.lat
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /
-  xudp: true
-- encryption: none
-  name: '[VLESS] deDE_3|1.7MB/s'
-  network: ws
-  port: 80
-  server: nodejs.org
-  type: vless
-  udp: true
-  uuid: 546e91b5-c33e-4b04-b20c-c0fc8f6d9d7f
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: bIZARRe-CEntEryZCvddNcfJ.spORtLand.COmPANY.
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.102 Safari/537.36
-    max-early-data: 512
-    path: /
-  xudp: true
-- encryption: none
-  name: '[VLESS] deDE_4|1.9MB/s'
-  network: ws
-  port: 80
-  server: nodejs.org
-  type: vless
-  udp: true
-  uuid: 65fe56c2-78ec-417a-a666-9f393eac8b61
-  ws-opts:
-    headers:
-      Host: everlASTinG-oFfERC4S5Mg1918.SpoRTLand.COMpaNy.
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /?ed
-  xudp: true
-- encryption: none
-  name: '[VLESS] deDE_5|1.8MB/s'
-  network: ws
-  port: 80
-  server: 104.18.32.47
-  type: vless
-  udp: true
-  uuid: c5fbb5dd-83bb-43ce-a799-e3e5c29e25da
-  ws-opts:
-    headers:
-      Host: gLeEfuL-GrassMcKS7Sr4kw.wiNdleR.co.Uk.
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/67.0.3396.99 Safari/537.36
-    path: /?ed
   xudp: true
 - http-opts:
     headers:

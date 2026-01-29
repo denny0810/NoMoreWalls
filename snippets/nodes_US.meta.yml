@@ -124,29 +124,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  delay: 2830
-  name: '[Vmess] usUS_1|3.0MB/s'
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - auth: dc6a6c45-b13c-4f1d-8729-19b4d8bba4aa
-  name: '[Hysteria2] usUS_2|1.2MB/s'
-  password: dc6a6c45-b13c-4f1d-8729-19b4d8bba4aa
-  port: 35000
-  ports: 35000-39000
-  server: 129.153.25.59
-  skip-cert-verify: true
-  sni: www.lamer.com.hk
-  type: hysteria2
-  udp: true
-- auth: dc6a6c45-b13c-4f1d-8729-19b4d8bba4aa
-  name: '[Hysteria2] usUS_3|2.5MB/s'
+  name: '[Hysteria2] usUS_1|1.6MB/s'
   password: dc6a6c45-b13c-4f1d-8729-19b4d8bba4aa
   port: 443
   server: 134.195.101.191
@@ -154,75 +133,45 @@ proxies:
   sni: www.apple.com
   type: hysteria2
   udp: true
-- client-fingerprint: random
-  name: '[VLESS] usUS_4|2.7MB/s'
-  network: ws
+- client-fingerprint: chrome
+  name: '[VLESS] usUS_2|1.3MB/s'
+  network: tcp
   port: 443
-  server: 27.50.48.8
-  servername: snip.ere.de5.net
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: '!!str 2da72ce6'
+  server: 136.175.178.165
+  servername: navi.bankrate.com
   tls: true
   type: vless
   udp: true
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.ere.de5.net
-    max-early-data: 2560
-    path: /
+  uuid: 22184d8f-0af2-4213-949f-c96a23dc07ba
 - client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] usUS_5|2.4MB/s'
-  network: ws
+  name: '[VLESS] usUS_3|1.2MB/s'
+  network: tcp
   port: 443
-  server: 198.62.62.241
-  servername: l.ayovo.netlib.re
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: '!!str 2da72ce6'
+  server: 136.175.178.165
+  servername: navi.bankrate.com
   tls: true
   type: vless
   udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
+  uuid: 07e52cba-3569-4b63-8bcb-92dc4587c489
 - client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] usUS_6|2.4MB/s'
-  network: ws
+  name: '[VLESS] usUS_4|1.6MB/s'
+  network: tcp
   port: 443
-  server: 216.24.57.250
-  servername: afrcloud1.mmv.kr
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: '!!str 2da72ce6'
+  server: 136.175.178.165
+  servername: navi.bankrate.com
   tls: true
   type: vless
   udp: true
-  uuid: 9591b889-87d1-404e-8430-b4b26bdb85be
-  ws-opts:
-    headers:
-      Host: afrcloud1.mmv.kr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /5.78.50.75=443
-  xudp: true
-- client-fingerprint: chrome
-  name: '[Trojan] usUS_7|2.3MB/s'
-  network: ws
-  password: 5027e2a4-c4d2-463a-9508-83a2c7d1ad83
-  port: 443
-  server: 216.24.57.250
-  skip-cert-verify: false
-  sni: afrcloud1.mmv.kr
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2228.0 Safari/537.36
-    path: /5.223.47.32=443
+  uuid: 02250f72-886a-4b0e-9f28-dde701d6a0e7
 - client-fingerprint: chrome
   delay: 731
   encryption: none

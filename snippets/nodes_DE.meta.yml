@@ -11,12 +11,14 @@ proxies:
   tls: false
   type: socks5
   username: T2dAMTkzLjIzMy4yNTQuOTo%3D
-- name: '[Socks5] DE13｜原生/疑似家宽｜高风险 (黑名单)'
+- name: '[Socks5] deDE_4|1.1MB/s'
+  password: ''
   port: 1080
   server: 193.233.254.7
+  skip-cert-verify: true
   tls: false
   type: socks5
-  username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOem9AMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo%3D
+  username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo@193.233.254.7
 - alterId: 2
   cipher: auto
   name: '[Vmess] DE28｜机房｜低风险'
@@ -53,99 +55,8 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- client-fingerprint: random
-  name: '[VLESS] deDE_1|1006KB/s'
-  network: ws
-  port: 443
-  server: 162.159.153.13
-  servername: snip.ere.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.ere.de5.net
-    max-early-data: 2560
-    path: /
-- client-fingerprint: random
-  name: '[VLESS] deDE_2|1.3MB/s'
-  network: ws
-  port: 443
-  server: www.visa.cn
-  servername: snip.ere.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.ere.de5.net
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  name: '[VLESS] deDE_3|2.6MB/s'
-  network: ws
-  port: 2087
-  server: ip.ali.lat
-  servername: temp4.ali.lat
-  tls: true
-  type: vless
-  udp: true
-  uuid: c8e81aea-2c89-45f8-9a34-ecb2637e2eed
-  ws-opts:
-    headers:
-      Host: temp4.ali.lat
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_4|2.2MB/s'
-  network: ws
-  port: 2096
-  server: ip.ali.lat
-  servername: temporary.ali.lat
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4ac793c2-34d6-4774-946d-88680601f5b4
-  ws-opts:
-    headers:
-      Host: temporary.ali.lat
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_5|2.1MB/s'
-  network: ws
-  port: 2053
-  server: ip.ali.lat
-  servername: temp.ali.lat
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1d48559c-10fc-427d-94e1-c8b7552964a7
-  ws-opts:
-    headers:
-      Host: temp.ali.lat
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2228.0 Safari/537.36
-    path: /
-  xudp: true
 - encryption: none
-  name: '[VLESS] deDE_6|2.2MB/s'
+  name: '[VLESS] deDE_1|1.0MB/s'
   network: ws
   port: 80
   server: 104.18.32.47
@@ -159,13 +70,16 @@ proxies:
         like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /?ed
   xudp: true
-- client-fingerprint: chrome
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE_7|2.1MB/s'
+  name: '[VLESS] deDE_2|2.2MB/s'
   network: ws
   port: 2083
   server: ip.ali.lat
-  servername: ip.ali.lat
+  servername: temp3.ali.lat
   tls: true
   type: vless
   udp: true
@@ -173,23 +87,25 @@ proxies:
   ws-opts:
     headers:
       Host: temp3.ali.lat
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
-        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
-        Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile
+        Safari/537.36
     path: /
   xudp: true
-- encryption: none
-  name: '[VLESS] deDE_8|2.0MB/s'
+- name: '[VLESS] deDE_3|1.2MB/s'
   network: ws
-  port: 8880
-  server: 185.250.41.12
+  port: 80
+  server: nodejs.org
+  tls: false
   type: vless
-  udp: true
-  uuid: 38cc3dff-5114-429f-9a45-fed484086c47
+  uuid: 4c97ec3e-3527-48c5-80ff-b715463896ba
   ws-opts:
     headers:
-      Host: divarcdn.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /
-  xudp: true
+      Host: kindhearted-parkb5rjo2juer.sportland.company.
+    path: /?ed
+- name: '[Socks5] deDE_5|1.3MB/s'
+  password: '@193.233.254.8:'
+  port: 1080
+  server: 193.233.254.8
+  type: socks5
+  username: Og@193.233.254.8

@@ -15,20 +15,6 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[VLESS] twTW_1|2.5MB/s'
-  network: ws
-  port: 43
-  server: 220.128.110.108
-  servername: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] TW_speednode_0015'

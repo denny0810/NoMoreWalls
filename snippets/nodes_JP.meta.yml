@@ -83,7 +83,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] 日本3|@ripaojiedian'
+- name: '[Trojan] jpJP_2|2.5MB/s'
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
   port: 4006
@@ -92,7 +92,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: random
-  name: '[VLESS] jpJP_1|1001KB/s'
+  name: '[VLESS] jpJP_1|1014KB/s'
   network: ws
   port: 443
   server: 108.162.198.31
@@ -108,21 +108,19 @@ proxies:
       Host: snip.ere.de5.net
     max-early-data: 2560
     path: /
-- client-fingerprint: chrome
-  delay: 1543
-  encryption: none
-  name: '[VLESS] jpJP_2|1.7MB/s'
+- client-fingerprint: random
+  name: '[VLESS] jpJP_3|3.3MB/s'
   network: ws
   port: 443
-  server: 162.159.45.232
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
+  server: 162.159.38.208
+  servername: snip.ere.de5.net
   tls: true
   type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  udp: true
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: l.ayovo.netlib.re
+      Host: snip.ere.de5.net
     max-early-data: 2560
     path: /

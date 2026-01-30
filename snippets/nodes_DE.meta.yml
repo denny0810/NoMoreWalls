@@ -53,9 +53,143 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] deDE_1|4.2MB/s'
-  password: cbbcbfd5330475d1
-  port: 11201
-  server: 141.95.106.215
-  type: ss
+- client-fingerprint: random
+  name: '[VLESS] deDE_1|1006KB/s'
+  network: ws
+  port: 443
+  server: 162.159.153.13
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.ere.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: random
+  name: '[VLESS] deDE_2|1.3MB/s'
+  network: ws
+  port: 443
+  server: www.visa.cn
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.ere.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: '[VLESS] deDE_3|2.6MB/s'
+  network: ws
+  port: 2087
+  server: ip.ali.lat
+  servername: temp4.ali.lat
+  tls: true
+  type: vless
+  udp: true
+  uuid: c8e81aea-2c89-45f8-9a34-ecb2637e2eed
+  ws-opts:
+    headers:
+      Host: temp4.ali.lat
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE_4|2.2MB/s'
+  network: ws
+  port: 2096
+  server: ip.ali.lat
+  servername: temporary.ali.lat
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4ac793c2-34d6-4774-946d-88680601f5b4
+  ws-opts:
+    headers:
+      Host: temporary.ali.lat
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE_5|2.1MB/s'
+  network: ws
+  port: 2053
+  server: ip.ali.lat
+  servername: temp.ali.lat
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1d48559c-10fc-427d-94e1-c8b7552964a7
+  ws-opts:
+    headers:
+      Host: temp.ali.lat
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2228.0 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: '[VLESS] deDE_6|2.2MB/s'
+  network: ws
+  port: 80
+  server: 104.18.32.47
+  type: vless
+  udp: true
+  uuid: 1e35b4bf-b270-4c0b-918d-62746eedd2ad
+  ws-opts:
+    headers:
+      Host: EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY.
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /?ed
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE_7|2.1MB/s'
+  network: ws
+  port: 2083
+  server: ip.ali.lat
+  servername: ip.ali.lat
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0f4dacd7-8f8f-4326-a849-1b1593e8e711
+  ws-opts:
+    headers:
+      Host: temp3.ali.lat
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
+        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
+        Mobile Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: '[VLESS] deDE_8|2.0MB/s'
+  network: ws
+  port: 8880
+  server: 185.250.41.12
+  type: vless
+  udp: true
+  uuid: 38cc3dff-5114-429f-9a45-fed484086c47
+  ws-opts:
+    headers:
+      Host: divarcdn.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /
+  xudp: true

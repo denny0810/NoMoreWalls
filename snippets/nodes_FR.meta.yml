@@ -8,24 +8,8 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: '[VLESS] frFR_1|2.5MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: '!!str 175d'
-  server: 195.154.190.120
-  servername: hls-svod.itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] frFR_2|1.8MB/s'
+  name: '[VLESS] frFR_1|1.4MB/s'
   network: tcp
   port: 443
   server: 162.19.10.94
@@ -33,6 +17,54 @@ proxies:
   tls: true
   type: vless
   uuid: 88888888-8888-8888-8888-888888888888
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: randomized
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] frFR_2|1.7MB/s'
+  network: tcp
+  port: 443
+  server: 162.19.10.94
+  servername: nasnet-162191094-direct.sharghdaily.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: randomized
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] frFR_3|2.1MB/s'
+  network: tcp
+  port: 443
+  server: 162.19.10.99
+  servername: nasnet-162191099-direct.sharghdaily.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] frFR_4|1.1MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: '!!str f79448a30d'
+  server: fr01-vlr01.tcp-reset-club.net
+  servername: hls-svod.itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 18a9f78d-caa7-4f94-b07f-81bd56584a7e
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   name: '[VLESS] frFR²_1|2.0MB/s|X|History'

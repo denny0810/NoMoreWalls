@@ -11,14 +11,12 @@ proxies:
   tls: false
   type: socks5
   username: T2dAMTkzLjIzMy4yNTQuOTo%3D
-- name: '[Socks5] deDE_4|1.1MB/s'
-  password: ''
+- name: '[Socks5] DE13｜原生/疑似家宽｜高风险 (黑名单)'
   port: 1080
   server: 193.233.254.7
-  skip-cert-verify: true
   tls: false
   type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo@193.233.254.7
+  username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOem9AMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo%3D
 - alterId: 2
   cipher: auto
   name: '[Vmess] DE28｜机房｜低风险'
@@ -55,57 +53,60 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  name: '[Socks5] deDE_1|1.2MB/s'
+  password: '@193.233.254.7:'
+  port: 1080
+  server: 193.233.254.7
+  type: socks5
+  username: Og@193.233.254.7
 - encryption: none
-  name: '[VLESS] deDE_1|1.0MB/s'
+  name: '[VLESS] deDE_2|2.6MB/s'
   network: ws
   port: 80
   server: 104.18.32.47
   type: vless
   udp: true
-  uuid: 1e35b4bf-b270-4c0b-918d-62746eedd2ad
+  uuid: ba2bb9d8-9baa-45d6-9e0a-38c9cb6a6a9a
   ws-opts:
     headers:
-      Host: EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY.
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      Host: WeaK-preSSUrE3Ga6bzof92.sPorTlaNd.coMPANY.
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
     path: /?ed
   xudp: true
 - alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_2|2.2MB/s'
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[Vmess] deDE_3|1.4MB/s'
   network: ws
-  port: 2083
-  server: ip.ali.lat
-  servername: temp3.ali.lat
+  port: 8080
+  server: tgju.org
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-571296497.iranpress.co
+    max-early-data: 2560
+    path: /nasnet/cdn
+  xudp: true
+- client-fingerprint: chrome
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] deDE_4|1.6MB/s'
+  network: tcp
+  port: 443
+  server: decdn10.suio.me
+  servername: decdn10.suio.me
   tls: true
   type: vless
   udp: true
-  uuid: 0f4dacd7-8f8f-4326-a849-1b1593e8e711
-  ws-opts:
-    headers:
-      Host: temp3.ali.lat
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile
-        Safari/537.36
-    path: /
+  uuid: ba9ddd0d-5ffd-4d40-b76d-df32ecb092a1
   xudp: true
-- name: '[VLESS] deDE_3|1.2MB/s'
-  network: ws
-  port: 80
-  server: nodejs.org
-  tls: false
-  type: vless
-  uuid: 4c97ec3e-3527-48c5-80ff-b715463896ba
-  ws-opts:
-    headers:
-      Host: kindhearted-parkb5rjo2juer.sportland.company.
-    path: /?ed
-- name: '[Socks5] deDE_5|1.3MB/s'
-  password: '@193.233.254.8:'
-  port: 1080
-  server: 193.233.254.8
-  type: socks5
-  username: Og@193.233.254.8

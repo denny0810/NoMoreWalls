@@ -6,15 +6,18 @@ proxies:
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: '[Vmess] US62｜原生/疑似家宽｜非常安全'
+  name: '[Vmess] usUS_2|2.0MB/s'
   network: tcp
-  port: '47084'
+  port: 47084
   server: tunnel2.qqa678.com
+  skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
+  xudp: true
 - alterId: 2
   cipher: auto
   name: '[Vmess] US65｜机房｜低风险'
@@ -103,28 +106,34 @@ proxies:
 - name: '[Trojan] 美国3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 1112
-  server: 52.195.175.115
+  port: 2173
+  server: 95.40.115.216
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - ''
-  alterId: '0'
+- alterId: 2
   cipher: auto
-  name: '[Vmess] usUS_1|2.3MB/s'
-  network: ws
-  port: 2086
-  server: 154.83.2.156
+  name: '[Vmess] usUS_1|1.6MB/s'
+  port: 30829
+  server: v29.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
-  ws-opts:
-    headers:
-      Host: v205.19740822.xyz
-    path: /
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  name: '[VLESS] usUS_3|1.4MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: '!!str 2da72ce6'
+  server: 136.175.178.165
+  servername: navi.bankrate.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: fdf3bd07-b310-487e-ada8-538e19e835f5
   xudp: true
 - client-fingerprint: chrome
   delay: 731

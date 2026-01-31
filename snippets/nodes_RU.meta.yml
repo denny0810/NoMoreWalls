@@ -1,4 +1,21 @@
 proxies:
+- http-opts:
+    headers:
+      Host:
+      - Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN
+    method: GET
+    path:
+    - /
+  name: '[VLESS] IR_speednode_0011'
+  network: http
+  port: 10468
+  server: 185.113.10.198
+  servername: Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3b12e953-96f0-40da-ac32-3038dadf20f7
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] RU_speednode_0017'

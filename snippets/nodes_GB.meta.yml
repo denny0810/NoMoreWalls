@@ -1,4 +1,19 @@
 proxies:
+- encryption: none
+  name: '[VLESS] gbGB_1|2.1MB/s'
+  network: ws
+  port: 2095
+  server: london.dataxshop.ir
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: server.dataxshop.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/31.0.1650.57 Safari/537.36
+    path: /datax_proxy
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] GB_speednode_0009'

@@ -7,13 +7,65 @@ proxies:
   sni: www.lamer.com.hk
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] frFR_1|1.0MB/s'
-  password: pvgz9pq
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] frFR_1|2.2MB/s'
+  network: tcp
   port: 443
-  server: 54.36.174.140
-  type: ss
+  server: 162.19.10.94
+  servername: nasnet-162191094-direct.sharghdaily.co
+  tls: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: randomized
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] frFR_2|1.3MB/s'
+  network: tcp
+  port: 443
+  server: 162.19.10.94
+  servername: nasnet-162191094-direct.sharghdaily.co
+  tls: true
+  type: vless
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] frFR_3|3.2MB/s'
+  network: tcp
+  port: 443
+  server: 162.19.10.99
+  servername: nasnet-162191099-direct.sharghdaily.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] frFR_4|2.0MB/s'
+  network: tcp
+  port: 443
+  server: 162.19.10.94
+  servername: nasnet-162191094-direct.sharghdaily.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   name: '[VLESS] frFR²_1|2.0MB/s|X|History'

@@ -1,33 +1,4 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: '[Vmess] GB14｜机房｜低风险'
-  network: tcp
-  port: '30836'
-  server: v36.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] gbGB_1|1.0MB/s'
-  network: ws
-  port: 443
-  server: SSo.parsonlines.com
-  servername: iranwebfa.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 651b02e9-ec20-4da3-ab25-d939a04e576c
-  ws-opts:
-    headers:
-      Host: cdn-de3.iranwebfa.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /GB
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] GB_speednode_0009'

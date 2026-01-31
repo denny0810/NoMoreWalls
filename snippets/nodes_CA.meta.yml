@@ -1,1 +1,20 @@
-proxies: []
+proxies:
+- name: '[Trojan] CA1｜机房｜低风险'
+  password: 63b21d86-a49c-4936-a634-0b5af3e30433
+  port: 443
+  server: tuntro006.instconn.com
+  skip-cert-verify: true
+  sni: torontorm1.686911.xyz
+  type: trojan
+- client-fingerprint: chrome
+  name: '[VLESS] caCA_1|1.2MB/s'
+  network: ws
+  port: 80
+  server: 104.18.32.47
+  tls: false
+  type: vless
+  uuid: 0b241646-64d0-4837-a4b1-28dd97e59089
+  ws-opts:
+    headers:
+      Host: GLORiOUS-MouNtaiNk9cZ8WOv4a.EcotourISs.co.uK.
+    path: /?ed

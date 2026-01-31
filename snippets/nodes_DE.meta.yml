@@ -1,41 +1,49 @@
 proxies:
-- name: '[Socks5] deDE_10|1.4MB/s'
-  password: ''
+- name: '[Socks5] DE22｜原生/疑似家宽｜高风险 (黑名单)'
+  port: 1080
+  server: 193.233.254.7
+  tls: false
+  type: socks5
+  username: T2dAMTkzLjIzMy4yNTQuNzo%3D
+- name: '[Socks5] DE23｜原生/疑似家宽｜高风险 (黑名单)'
   port: 1080
   server: 193.233.254.8
   tls: false
   type: socks5
-  username: Og@193.233.254.8
-- name: '[Socks5] DE15｜原生/疑似家宽｜高风险 (黑名单)'
+  username: T2dAMTkzLjIzMy4yNTQuODpPZ0AxOTMuMjMzLjI1NC44
+- name: '[Socks5] DE9｜原生/疑似家宽｜高风险 (黑名单)'
   port: 1080
   server: 193.233.254.9
   tls: false
   type: socks5
   username: T2dAMTkzLjIzMy4yNTQuOTo%3D
-- name: '[Socks5] DE13｜原生/疑似家宽｜高风险 (黑名单)'
-  port: 1080
-  server: 193.233.254.7
+- name: '[Hysteria2] DE21｜机房｜低风险'
+  password: 767ed51d-2358-4981-9447-a807c1419e93
+  port: 50000
+  server: 193.122.12.150
+  skip-cert-verify: true
+  sni: fastcdn.hoyoverse.com
   tls: false
-  type: socks5
-  username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOem9AMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo%3D
-- alterId: 2
-  cipher: auto
-  name: '[Vmess] DE28｜机房｜低风险'
-  network: tcp
-  port: '30833'
-  server: v33.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] DE31｜机房｜高风险 (黑名单)'
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  type: hysteria2
+- name: '[Trojan] DE24｜机房｜低风险'
+  password: 63b21d86-a49c-4936-a634-0b5af3e30433
+  port: 443
+  server: tuntro010.instconn.com
+  skip-cert-verify: true
+  sni: frankfurtrm2.686911.xyz
+  type: trojan
+- name: '[Trojan] DE27｜机房｜低风险'
+  network: ws
+  password: f7cecc70-524e-4bea-af14-d7367fdb4080
+  port: 8443
+  server: bestcdn4.868863.xyz
+  skip-cert-verify: true
+  sni: 17698511625136.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17698511625590.206353.xyz
+    path: '%2Fagrbniuh'
 - name: '[Hysteria2] DE'
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -54,34 +62,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[Vmess] deDE_1|2.5MB/s'
-  network: ws
-  port: 8080
-  server: tgju.org
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-571296497.iranpress.co
-    max-early-data: 2560
-    path: /nasnet/cdn
-  xudp: true
-- delay: 2295
-  name: '[Socks5] deDE_2|1.5MB/s'
-  password: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
-  port: 1080
-  server: 193.233.254.7
-  type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
-- name: '[VLESS] deDE_3|1.8MB/s'
+- name: '[VLESS] deDE_1|1.3MB/s'
   network: ws
   port: 80
   server: 104.18.32.47
@@ -92,105 +73,87 @@ proxies:
     headers:
       Host: authENTIC-cABinEtgqc4XfW2ud.spORTLAND.COmPAny.
     path: /?ed
-- client-fingerprint: chrome
-  name: '[VLESS] deDE_4|1.1MB/s'
+- encryption: none
+  name: '[VLESS] deDE_2|1.8MB/s'
   network: ws
-  port: 2083
-  server: 162.159.152.4
-  servername: panel.captainsparo.ir
-  tls: true
+  port: 80
+  server: FASTLY.COM
   type: vless
-  uuid: a861157a-e465-44bf-8a81-338cf1aa030b
+  udp: true
+  uuid: c805b05e-339d-40e0-8787-432d97a27345
   ws-opts:
     headers:
-      Host: panel.captainsparo.ir
-    path: /path
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] deDE_5|1.1MB/s'
-  network: tcp
-  port: 443
-  server: decdn12.suio.me
-  servername: decdn12.suio.me
-  tls: true
-  type: vless
-  udp: true
-  uuid: ba9ddd0d-5ffd-4d40-b76d-df32ecb092a1
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_6|2.1MB/s'
-  network: tcp
-  port: 443
-  server: decdn10.suio.me
-  servername: decdn10.suio.me
-  tls: true
-  type: vless
-  udp: true
-  uuid: ba9ddd0d-5ffd-4d40-b76d-df32ecb092a1
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_7|1.8MB/s'
-  network: ws
-  port: 2083
-  server: 8.6.112.0
-  servername: ds1-mx-fn154-protection.iranlease.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 96d9bcb0-9ad2-48be-85a2-a9ab3a005261
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: ds1-mx-fn154-protection.iranlease.com
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_8|1.4MB/s'
-  network: ws
-  port: 2083
-  server: 63.141.128.13
-  servername: vless.nimatiem.de
-  tls: true
-  type: vless
-  udp: true
-  uuid: acbca706-8110-4107-949a-feb2fa84a04f
-  ws-opts:
-    headers:
-      Host: vless.nimatiem.de
+      Host: mihan-germar2.global.ssl.fastly.net
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
     path: /
+  xudp: true
+- encryption: none
+  name: '[VLESS] deDE_3|1.3MB/s'
+  network: ws
+  port: 80
+  server: 104.18.32.47
+  type: vless
+  udp: true
+  uuid: 1e35b4bf-b270-4c0b-918d-62746eedd2ad
+  ws-opts:
+    headers:
+      Host: EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY.
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /?ed
   xudp: true
 - alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[Vmess] deDE_9|2.9MB/s'
-  network: ws
-  port: 8080
-  server: digitalocean.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] deDE_4|3.1MB/s'
+  network: tcp
+  port: 443
+  server: 57.129.64.102
+  servername: nasnet-5712964102-direct.sharghdaily.co
+  tls: true
+  type: vless
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- name: '[VLESS] deDE_5|1.9MB/s'
+  network: ws
+  port: 80
+  server: nodejs.org
+  tls: false
+  type: vless
+  uuid: 65fe56c2-78ec-417a-a666-9f393eac8b61
+  ws-opts:
+    headers:
+      Host: everlASTinG-oFfERC4S5Mg1918.SpoRTLand.COMpaNy.
+    path: /?ed
+- client-fingerprint: chrome
+  fingerprint: ''
+  name: '[VLESS] deDE_6|1.7MB/s'
+  network: ws
+  port: 2053
+  server: ipbaz.ping-box.com
+  servername: hz.badomzamini.uk
+  tls: true
+  type: vless
+  udp: false
+  uuid: b30299bb-fd03-4a9c-a28b-62f6922ffbff
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: nasnet-571299667.rahavard365.co
+      Host: hz.badomzamini.uk
     max-early-data: 2560
-    path: /NASNET/cdn
-  xudp: true
+    path: /latest
+- client-fingerprint: chrome
+  name: '[Socks5] deDE_7|1.2MB/s'
+  password: '@193.233.254.7:'
+  port: 1080
+  server: 193.233.254.7
+  type: socks5
+  username: Og@193.233.254.7
 - client-fingerprint: chrome
   name: '[VLESS] DE_speednode_0005'
   port: 7008

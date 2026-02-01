@@ -68,11 +68,10 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[Vmess] usUS_3|1.6MB/s'
+  name: '[Vmess] US18｜机房｜低风险'
   network: ws
-  port: 2086
+  port: '2086'
   server: 154.83.2.156
-  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
@@ -105,9 +104,9 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: '[Vmess] usUS_5|1.0MB/s'
+  name: '[Vmess] US21｜机房｜低风险'
   network: tcp
-  port: 30808
+  port: '30808'
   server: v8.hdacd.com
   tls: false
   type: vmess
@@ -145,7 +144,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - auth: e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e
-  name: '[Hysteria2] usUS_1|1.2MB/s'
+  name: '[Hysteria2] usUS_1|1.5MB/s'
   password: e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e
   port: 35000
   ports: 35000-39000
@@ -154,32 +153,6 @@ proxies:
   sni: www.apple.com
   type: hysteria2
   udp: true
-- name: '[VLESS] usUS_2|3.1MB/s'
-  network: ws
-  port: 18521
-  server: 173.249.201.109
-  servername: mot.saghv.filegear-sg.me
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: mot.saghv.filegear-sg.me
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  fingerprint: ''
-  name: '[VLESS] usUS_4|2.5MB/s'
-  network: ws
-  port: 7443
-  server: cl6-ndl.privetnet.ru
-  tls: false
-  type: vless
-  udp: false
-  uuid: fdeecee7-dbed-47f6-bea2-cb0073b5e435
-  ws-opts:
-    headers:
-      Host: cl6-ndl.privetnet.ru
-    path: /vless
 - client-fingerprint: chrome
   delay: 731
   encryption: none

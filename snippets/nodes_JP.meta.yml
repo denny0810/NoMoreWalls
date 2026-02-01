@@ -182,7 +182,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - encryption: none
-  name: '[VLESS] jpJP_1|1.0MB/s'
+  name: '[VLESS] jpJP_1|3.0MB/s'
   network: ws
   port: 80
   server: fs.narton.ir
@@ -198,27 +198,23 @@ proxies:
     max-early-data: 2560
     path: /vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl
   xudp: true
-- name: '[VLESS] jpJP_2|1.6MB/s'
-  network: ws
-  port: 11867
-  server: 8.211.137.100
-  servername: mot.saghv.filegear-sg.me
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: mot.saghv.filegear-sg.me
-    path: /@Marisa_kristi
-- name: '[VLESS] jpJP_3|1.6MB/s'
-  network: ws
-  port: 42841
-  server: 43.165.190.11
-  servername: mot.luyuju.dpdns.org
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: mot.luyuju.dpdns.org
-    path: /@Marisa_kristi
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] jpJP_2|1.3MB/s'
+  port: 8080
+  server: 47.245.35.34
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 800c4b55-6f78-4fd7-9478-cc30547a91fd
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] jpJP_3|4.6MB/s'
+  port: 8080
+  server: 47.74.12.75
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 827f751b-f05c-4dee-8f73-7dce7d320e88

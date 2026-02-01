@@ -176,11 +176,10 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[Vmess] usUS_3|1.6MB/s'
+  name: '[Vmess] US18｜机房｜低风险'
   network: ws
-  port: 2086
+  port: '2086'
   server: 154.83.2.156
-  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
@@ -297,9 +296,9 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: '[Vmess] usUS_5|1.0MB/s'
+  name: '[Vmess] US21｜机房｜低风险'
   network: tcp
-  port: 30808
+  port: '30808'
   server: v8.hdacd.com
   tls: false
   type: vmess
@@ -450,142 +449,92 @@ proxies:
   tls: false
   type: vmess
   uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d
-- cipher: aes-256-cfb
-  delay: 434
-  name: '[SS] krKR_1|1.6MB/s'
-  password: qwerREWQ@@
-  port: 57312
-  server: 222.112.15.141
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] nlNL_1|4.3MB/s'
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.208
-  type: ss
-- cipher: aes-256-cfb
-  name: '[SS] nlNL_2|3.3MB/s'
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.17.169
-  type: ss
 - alterId: 0
   cipher: auto
-  delay: 494
-  name: '[Vmess] deDE_1|1.5MB/s'
-  network: ws
-  port: 8080
-  server: tgju.org
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-571296497.iranpress.co
-    max-early-data: 2560
-    path: /nasnet/cdn
-- cipher: aes-256-cfb
-  delay: 191
-  name: '[SS] krKR_2|1.1MB/s'
-  password: qwerREWQ@@
-  port: 16449
-  server: 218.50.149.114
-  tfo: true
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: '[Vmess] hkHK_1|2.2MB/s'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b585dac6-dc69-11ef-9f1c-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- cipher: aes-256-cfb
-  name: '[SS] ptPT_1|2.2MB/s'
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.112
-  type: ss
-- cipher: aes-256-cfb
-  name: '[SS] vnVN_1|1.8MB/s'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.138
-  type: ss
-- cipher: aes-256-cfb
-  name: '[SS] vnVN_2|1.1MB/s'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.201
-  type: ss
-- cipher: aes-256-cfb
-  name: '[SS] vnVN_3|1.2MB/s'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.210
-  type: ss
-- cipher: aes-256-cfb
-  name: '[SS] vnVN_4|1.8MB/s'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.211
-  type: ss
-- cipher: aes-256-cfb
-  name: '[SS] vnVN_5|1.1MB/s'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.122
-  type: ss
-- cipher: aes-256-cfb
-  name: '[SS] vnVN_6|1.0MB/s'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.225
-  type: ss
-- cipher: aes-256-cfb
-  name: '[SS] vnVN_7|1.4MB/s'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.209
-  type: ss
-- cipher: aes-256-cfb
-  name: '[SS] vnVN_8|1.0MB/s'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.202
-  type: ss
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[Vmess] deDE_3|2.3MB/s'
+  country: 🏁ZZ
+  delay: 821
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] deDE_1|1.0MB/s'
   network: ws
   port: 8080
   server: digitalocean.com
-  skip-cert-verify: false
-  tls: false
+  servername: nasnet-571299667.rahavard365.co
+  skip-cert-verify: true
   type: vmess
-  udp: true
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: nasnet-571299667.rahavard365.co
+      HOST: nasnet-571299667.rahavard365.co
+      Host: digitalocean.com
     max-early-data: 2560
     path: /NASNET/cdn
+- cipher: aes-256-cfb
+  delay: 260
+  name: '[SS] krKR_1|1.3MB/s'
+  password: qwerREWQ@@
+  port: 60692
+  server: 210.217.18.69
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 1083
+  name: '[SS] vnVN_1|1.2MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.222
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] jpJP_2|1.3MB/s'
+  port: 8080
+  server: 47.245.35.34
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 800c4b55-6f78-4fd7-9478-cc30547a91fd
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] jpJP_3|4.6MB/s'
+  port: 8080
+  server: 47.74.12.75
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 827f751b-f05c-4dee-8f73-7dce7d320e88
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] sgSG_1|2.5MB/s'
+  port: 8080
+  server: 47.236.197.234
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 208dadf2-c55a-4539-939d-a0ce2399dcf4
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_2|1.8MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.46
+  type: ss
+  udp: true
+- alterId: '2'
+  cipher: auto
+  name: '[Vmess] sgSG_2|1.3MB/s'
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
 - alterId: 0
   cipher: auto

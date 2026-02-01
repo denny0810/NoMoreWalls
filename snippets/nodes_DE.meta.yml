@@ -1,23 +1,23 @@
 proxies:
-- name: '[Socks5] deDE_3|1.4MB/s'
-  password: ''
+- name: '[Socks5] DE22｜原生/疑似家宽｜高风险 (黑名单)'
   port: 1080
   server: 193.233.254.7
   tls: false
   type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo@193.233.254.7
+  username: T2dAMTkzLjIzMy4yNTQuNzo%3D
 - name: '[Socks5] DE23｜原生/疑似家宽｜高风险 (黑名单)'
   port: 1080
   server: 193.233.254.8
   tls: false
   type: socks5
   username: T2dAMTkzLjIzMy4yNTQuODpPZ0AxOTMuMjMzLjI1NC44
-- name: '[Socks5] DE9｜原生/疑似家宽｜高风险 (黑名单)'
+- name: '[Socks5] deDE_4|1.0MB/s'
+  password: ''
   port: 1080
   server: 193.233.254.9
   tls: false
   type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuOTo%3D
+  username: Og@193.233.254.9
 - name: '[Hysteria2] DE21｜机房｜低风险'
   password: 767ed51d-2358-4981-9447-a807c1419e93
   port: 50000
@@ -63,129 +63,73 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] deDE_1|3.2MB/s'
-  network: tcp
-  port: 443
-  server: 57.129.64.102
-  servername: nasnet-5712964102-direct.sharghdaily.co
-  tls: true
-  type: vless
+- alterId: 0
+  cipher: auto
+  delay: 494
+  name: '[Vmess] deDE_1|1.5MB/s'
+  network: ws
+  port: 8080
+  server: tgju.org
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-  xudp: true
-- name: '[VLESS] deDE_2|2.4MB/s'
-  network: ws
-  port: 80
-  server: nodejs.org
-  tls: false
-  type: vless
-  udp: true
-  uuid: ba2bb9d8-9baa-45d6-9e0a-38c9cb6a6a9a
-  ws-opts:
-    headers:
-      Host: WeaK-preSSUrE3Ga6bzof92.sPorTlaNd.coMPANY.
-    path: /?ed
-- name: '[Socks5] deDE_4|1.4MB/s'
-  password: '@193.233.254.8:'
-  port: 1080
-  server: 193.233.254.8
-  type: socks5
-  username: Og@193.233.254.8
-- name: '[Socks5] deDE_5|2.5MB/s'
-  password: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
-  port: 1080
-  server: 193.233.254.7
-  type: socks5
-  udp: true
-  username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_6|2.2MB/s'
-  network: ws
-  port: 443
-  server: Cold.hamrahto.com
-  servername: hm3333.mutee.com.tr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 68c440f2-f982-459b-b4be-adbf56dbc2c8
-  ws-opts:
-    headers:
-      Host: hm3333.mutee.com.tr
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] deDE_7|3.5MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Ymeaa6zIVOp0ZsRPgt1tgWr64N4NjW3vgS6RgumVSys
-    short-id: '!!str f2f79c0b'
-  server: hpx.lol
-  servername: hpx.lol
-  tls: true
-  type: vless
-  udp: true
-  uuid: 09da6688-1cf3-4318-98c5-aafa59d6e1b9
-  xudp: true
-- encryption: none
-  name: '[VLESS] deDE_8|2.4MB/s'
-  network: ws
-  port: 2082
-  server: ip4.hamrahto.com
-  type: vless
-  udp: true
-  uuid: 68c440f2-f982-459b-b4be-adbf56dbc2c8
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: hm3333.mutee.com.tr
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.109 Safari/537.36
-    max-early-data: 2080
-    path: /api/stream
-  xudp: true
-- encryption: none
-  name: '[VLESS] deDE_9|2.0MB/s'
-  network: ws
-  port: 80
-  server: vpconnect1.pishipishi.pro
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: vpconnect.pishipishi1.pro
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
-    path: /vpn_connects
-  xudp: true
+      Host: nasnet-571296497.iranpress.co
+    max-early-data: 2560
+    path: /nasnet/cdn
 - client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] deDE_10|1.3MB/s'
-  network: grpc
-  port: 7443
+  name: '[VLESS] LV_speednode_0013'
+  network: tcp
+  port: 8443
   reality-opts:
-    public-key: ZkvNs3bATpeAJORHDVkOGHqcRXHB_c4ZSHEkQeosO1o
-    short-id: '!!str 607ceaf696'
-  server: 144.31.166.141
-  servername: api-maps.yandex.ru
+    public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
+    short-id: '!!str 3ca620a7ed5f3196'
+  server: lv.prod.n7.homes
+  servername: sun6-21.userapi.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: c4bfda4b-0652-45a2-86ee-d627e5a2d4a5
+  uuid: f4fec1b0-a67e-4967-b9ea-0bd832b57a4d
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[Vmess] deDE_3|2.3MB/s'
+  network: ws
+  port: 8080
+  server: digitalocean.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-571299667.rahavard365.co
+    max-early-data: 2560
+    path: /NASNET/cdn
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] deDE_5|2.2MB/s'
+  network: tcp
+  port: 350
+  reality-opts:
+    public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
+    short-id: '!!str fd1dff03520d8f56'
+  server: iar.blackhoster.com
+  servername: excoino.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 79a48cba-4a44-4a5c-bfa9-64a53379df2c
   xudp: true
 - client-fingerprint: chrome
   name: '[VLESS] DE_speednode_0005'

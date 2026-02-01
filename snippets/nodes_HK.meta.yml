@@ -132,33 +132,26 @@ proxies:
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
   port: 443
-  server: 58.152.110.210
+  server: 203.198.122.20
   skip-cert-verify: false
   sni: www.nintendogames.net
+  type: trojan
+- name: '[Trojan] 香港4|@ripaojiedian'
+  network: tcp
+  password: BxceQaOe
+  port: 2266
+  server: 43.198.83.39
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[Trojan] 香港5|@ripaojiedian'
   network: tcp
   password: BxceQaOe
   port: 1867
-  server: 54.178.100.75
+  server: 43.207.103.252
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: '[Vmess] 香港2|@ripaojiedian'
-  network: ws
-  port: '80'
-  server: 6f5bbcfb-t8v340-ta7sek-1thts.hkt.gotochinatown.net
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cb96c846-fd6d-11ef-a910-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
 - alterId: 2
   cipher: auto
   name: '[Vmess] 香港|@ripaojiedian'
@@ -169,16 +162,21 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- country: 🇬🇧GB
-  delay: 1914
-  name: '[Trojan] hkHK_1|1.0MB/s'
-  password: 3b3ad340-ec75-4099-97e6-b1971e13cf5b
-  port: 49213
-  server: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
-  sni: xiaozhu1.kkieo555.cn
-  type: trojan
-  udp: true
+- alterId: 2
+  cipher: auto
+  name: '[Vmess] hkHK_1|2.2MB/s'
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b585dac6-dc69-11ef-9f1c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

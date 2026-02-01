@@ -24,41 +24,42 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- name: '[Trojan] 新加坡|@ripaojiedian'
+  network: tcp
+  password: c1d83c0c7d57cead4379ba14a82df69b
+  port: 3076
+  server: 160.16.144.208
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - name: '[Trojan] 新加坡2|@ripaojiedian'
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
   port: 3076
-  server: 153.121.65.107
+  server: 160.16.124.17
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 新加坡3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 1691
-  server: 95.40.115.216
+  port: 2673
+  server: 43.207.103.252
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: '[Vmess] sg 新加坡4|@ripaojiedian'
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: '[Vmess] 新加坡4|@ripaojiedian'
-  network: tcp
-  port: '30845'
-  server: v45.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[VLESS] sgSG_1|1.8MB/s'
+  network: ws
+  port: 4096
+  server: 54.255.217.120
+  servername: mot.saghv.filegear-sg.me
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: mot.saghv.filegear-sg.me
+    path: /@Marisa_kristi
 - client-fingerprint: random
   name: '[VLESS] sgSG²_1|9.8MB/s|X|History'
   network: ws

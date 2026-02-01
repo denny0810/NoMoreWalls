@@ -60,10 +60,11 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[Vmess] US18｜机房｜低风险'
+  name: '[Vmess] usUS_3|1.6MB/s'
   network: ws
-  port: '2086'
+  port: 2086
   server: 154.83.2.156
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
@@ -96,9 +97,9 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: '[Vmess] US21｜机房｜低风险'
+  name: '[Vmess] usUS_5|1.0MB/s'
   network: tcp
-  port: '30808'
+  port: 30808
   server: v8.hdacd.com
   tls: false
   type: vmess
@@ -106,8 +107,8 @@ proxies:
 - name: '[Trojan] 美国|@ripaojiedian'
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 491
-  server: 43.207.157.137
+  port: 5076
+  server: 160.16.72.205
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -115,7 +116,7 @@ proxies:
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
   port: 491
-  server: 57.180.246.207
+  server: 160.16.72.205
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -123,56 +124,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 2173
-  server: 95.40.115.216
+  server: 43.198.83.39
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS_1|1.7MB/s'
-  network: ws
-  port: 443
-  server: cg1c07.waimaojd.com
-  servername: cg1c07.waimaojd.com
-  tls: true
-  type: vmess
-  uuid: be8e3136-b874-4085-bd23-ec3699300490
-  ws-opts:
-    headers:
-      Host: cg1c07.waimaojd.com
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS_2|1.6MB/s'
-  network: ws
-  port: 443
-  server: cg1c01.waimaojd.com
-  servername: cg1c01.waimaojd.com
-  tls: true
-  type: vmess
-  uuid: be8e3136-b874-4085-bd23-ec3699300490
-  ws-opts:
-    headers:
-      Host: cg1c01.waimaojd.com
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 1830
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS_3|1.3MB/s'
-  network: ws
-  port: 443
-  server: cg1c01.waimaojd.com
-  servername: cg1c01.waimaojd.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: be8e3136-b874-4085-bd23-ec3699300490
-  ws-opts:
-    path: /api/v1/graphql

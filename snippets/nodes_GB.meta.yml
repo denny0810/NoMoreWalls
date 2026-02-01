@@ -1,1 +1,18 @@
-proxies: []
+proxies:
+- encryption: none
+  name: '[VLESS] gbGB_1|1.4MB/s'
+  network: ws
+  port: 2086
+  server: hope.zdshop.ir
+  type: vless
+  udp: true
+  uuid: be73cb27-5632-417d-bef5-1906a62a624e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: tadrisonlin-tadrisonlin-tadrisonlin-tadrisonlin-tadrisonlincd1.kiwijuice.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
+    max-early-data: 2086
+    path: /
+  xudp: true

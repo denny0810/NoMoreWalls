@@ -181,24 +181,31 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: 1
-  cipher: auto
-  name: '[Vmess] jpJP_1|2.6MB/s'
-  port: 448
-  server: g4va42c-g05.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- encryption: none
+  name: '[VLESS] jpJP_1|4.6MB/s'
+  network: ws
+  port: 80
+  server: fs.narton.ir
+  type: vless
   udp: true
-  uuid: 8133667f-a211-30d9-8aec-bf1034c6e11e
-- alterId: 1
-  cipher: auto
-  name: '[Vmess] jpJP_2|2.3MB/s'
-  port: 21583
-  server: qoxz4i0-g03.jp01-nn-vm0.entry.fr0528.art
-  servername: qoxz4i0-g03.jp01-nn-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
+  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: mitivpn-s1.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    max-early-data: 2560
+    path: /vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl
+  xudp: true
+- disable-sni: true
+  fingerprint: ''
+  name: '[Anytls] jpJP_3|1.7MB/s'
+  password: a2d12dc9-c111-45ac-b803-87e48f3484d8
+  port: 443
+  server: 160.16.75.254
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
   udp: true
-  uuid: 339cf625-ef70-3be4-8965-5a1e3f384d9f
+  username: a2d12dc9-c111-45ac-b803-87e48f3484d8

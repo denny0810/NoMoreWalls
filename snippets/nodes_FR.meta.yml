@@ -12,7 +12,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: '[Vmess] frFR_1|3.2MB/s'
+  name: '[Vmess] frFR_1|1.8MB/s'
   network: ws
   port: 8080
   server: tgju.org
@@ -32,7 +32,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: '[Vmess] frFR_2|2.7MB/s'
+  name: '[Vmess] frFR_2|2.1MB/s'
   network: ws
   port: 8080
   server: 188.114.98.0
@@ -48,6 +48,50 @@ proxies:
     max-early-data: 2560
     path: /nasnet/cdn
   xudp: true
+- client-fingerprint: firefox
+  name: '[VLESS] frFR_3|3.7MB/s'
+  network: tcp
+  port: 3037
+  reality-opts:
+    public-key: 21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI
+    short-id: '!!str '
+  server: it.locations-service.com
+  servername: refersion.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7cb466f4-7f58-4426-b84a-3e8d740b7c0a
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] frFR_4|2.0MB/s'
+  network: ws
+  port: 443
+  server: 104.24.69.114
+  servername: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
+  tls: true
+  type: vless
+  udp: true
+  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+  ws-opts:
+    headers:
+      Host: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /ws
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] frFR_5|1.5MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: WvNaAxI0W__qfUKbtysH4IwF155YENlv3PG6crCmPkA
+  server: srv16.outlinekeys.com
+  servername: srv16.outlinekeys.com
+  tls: true
+  type: vless
+  uuid: f1870ac5-ab5f-4255-965d-4a0476cb0b1a
 - client-fingerprint: chrome
   encryption: none
   name: '[VLESS] frFR²_1|2.0MB/s|X|History'

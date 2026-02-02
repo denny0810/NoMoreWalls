@@ -143,24 +143,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 427
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: '[Vmess] usUS_1|2.0MB/s'
-  network: http
-  port: 32301
-  server: 104.168.94.41
-  skip-cert-verify: true
-  type: vmess
-  uuid: a2235b72-fd9c-404f-be5a-53b2de0cb798
 - client-fingerprint: chrome
-  name: '[Anytls] usUS_2|1.0MB/s'
+  name: '[Anytls] usUS_1|2.4MB/s'
   password: 6286105c-fb6d-11ef-be96-f23c93136cb3
   port: 8300
   server: 9d304780-t9wqo0-tb7mup-4550.los.west.wctype.com
@@ -169,14 +153,18 @@ proxies:
   type: anytls
   udp: true
 - client-fingerprint: chrome
-  name: '[Anytls] usUS_3|1012KB/s'
-  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-  port: 8300
-  server: 8b56cc1b-t9wqo0-tee5aa-1glq.los.west.wctype.com
-  skip-cert-verify: true
-  sni: 8b56cc1b-t9wqo0-tee5aa-1glq.los.west.wctype.com
-  type: anytls
-  udp: true
+  name: '[VLESS] usUS_2|1.3MB/s'
+  network: ws
+  port: 443
+  server: e581-c1438ccadd39.007770777.xyz
+  servername: e581-c1438ccadd39.007770777.xyz
+  tls: true
+  type: vless
+  uuid: 7f45c040-d0d8-4738-af88-f7eeb1b115ac
+  ws-opts:
+    headers:
+      Host: e581-c1438ccadd39.007770777.xyz
+    path: /1wmMoyLhZyYLc4tF
 - client-fingerprint: chrome
   delay: 731
   encryption: none

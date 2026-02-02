@@ -31,6 +31,33 @@ proxies:
   port: 53532
   server: 210.217.18.68
   type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  delay: 1535
+  name: '[SS] krKR_1|2.5MB/s'
+  password: qwerREWQ@@
+  port: 22045
+  server: 221.150.109.22
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  delay: 543
+  name: '[SS] krKR_2|1.2MB/s'
+  password: qwerREWQ@@
+  port: 64207
+  server: 125.141.26.12
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '[SS] krKR_3|1.9MB/s'
+  password: qwerREWQ@@
+  port: 31156
+  server: 221.150.109.20
+  type: ss
+  udp: true
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: '[VLESS] krKR²_1|9.3MB/s|D+|X'

@@ -66,22 +66,19 @@ proxies:
   skip-cert-verify: true
   sni: xiaozhu1.kkieo555.cn
   type: trojan
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: '[Vmess] usUS_5|1.7MB/s'
+  name: '[Vmess] US18｜机房｜低风险'
   network: ws
-  port: 2086
+  port: '2086'
   server: 154.83.2.156
-  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
   ws-opts:
     headers:
       Host: v205.19740822.xyz
     path: /
-  xudp: true
 - name: '[Trojan] US15｜机房｜低风险'
   password: 572685d1-c0d9-47e6-9764-05b7ada3745f
   port: 41275
@@ -146,70 +143,40 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- auth: e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e
-  name: '[Hysteria2] usUS_1|2.0MB/s'
-  password: e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e
-  port: 443
-  server: 134.195.101.191
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 427
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: '[Vmess] usUS_1|2.0MB/s'
+  network: http
+  port: 32301
+  server: 104.168.94.41
   skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
+  type: vmess
+  uuid: a2235b72-fd9c-404f-be5a-53b2de0cb798
+- client-fingerprint: chrome
+  name: '[Anytls] usUS_2|1.0MB/s'
+  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  port: 8300
+  server: 9d304780-t9wqo0-tb7mup-4550.los.west.wctype.com
+  skip-cert-verify: true
+  sni: 9d304780-t9wqo0-tb7mup-4550.los.west.wctype.com
+  type: anytls
   udp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] usUS_2|2.4MB/s'
-  network: ws
-  port: 443
-  server: 45.130.125.160
-  servername: afrcloud4.c01.kr
-  tls: true
-  type: vless
+  name: '[Anytls] usUS_3|1012KB/s'
+  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+  port: 8300
+  server: 8b56cc1b-t9wqo0-tee5aa-1glq.los.west.wctype.com
+  skip-cert-verify: true
+  sni: 8b56cc1b-t9wqo0-tee5aa-1glq.los.west.wctype.com
+  type: anytls
   udp: true
-  uuid: ea33fc71-2ce3-48e1-93fb-e36142c1e1ee
-  ws-opts:
-    headers:
-      Host: afrcloud4.c01.kr
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
-    path: /213.35.108.135:12596
-  xudp: true
-- encryption: none
-  name: '[VLESS] usUS_3|1.6MB/s'
-  network: ws
-  port: 80
-  server: 104.16.244.232
-  type: vless
-  udp: true
-  uuid: b00d9e6d-227d-4944-8ffd-b1a806196356
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: neuroonvpn.mamadjacki83.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    max-early-data: 2048
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] usUS_4|2.6MB/s'
-  network: ws
-  port: 443
-  server: 188.114.96.3
-  servername: teams.live.com.afrcloud1.c01.kr
-  tls: true
-  type: vless
-  udp: true
-  uuid: a44e0875-210f-4941-9062-89b6361a14c6
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: teams.live.com.afrcloud1.c01.kr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-        Gecko) Chrome/26.0.1410.64 Safari/537.31
-    max-early-data: 512
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
-  xudp: true
 - client-fingerprint: chrome
   delay: 731
   encryption: none

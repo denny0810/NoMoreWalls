@@ -92,11 +92,12 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE_3|2.0MB/s'
+  name: '[VLESS] US_speednode_0040'
   network: ws
   port: 443
   server: afrcloud4.c01.kr
   servername: afrcloud4.c01.kr
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -104,8 +105,6 @@ proxies:
   ws-opts:
     headers:
       Host: afrcloud4.c01.kr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/34.0.1847.131 Safari/537.36
     path: /47.254.255.125=443
   xudp: true
 - client-fingerprint: chrome
@@ -137,9 +136,23 @@ proxies:
   tls: true
   type: vless
   uuid: d2acafd1-1cd4-46a0-8d59-faec9cd23c35
+- name: '[VLESS] DE_speednode_0009'
+  network: ws
+  port: 8881
+  server: dlc-nl1.persianpinggame.ir
+  servername: divarcdn.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 34dae96c-1a41-434f-94b6-5507c3a6d318
+  ws-opts:
+    headers:
+      Host: divarcdn.com
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[VLESS] DE_speednode_0001'
+  name: '[VLESS] DE_speednode_0010'
   port: 350
   reality-opts:
     public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E

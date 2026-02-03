@@ -151,36 +151,19 @@ proxies:
     path: /?ed
   xudp: true
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] deDE²_1|0.7MB/s|X'
-  network: tcp
-  port: 5443
-  reality-opts:
-    public-key: L4Pdk1P9RGI2B8XT9MCASzlD0Ra09bPOGBl_GduLjx0
-    short-id: '!!str ce11cd7625d4f72e'
-  server: 95.163.208.119
-  servername: yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: bbed94d9-1120-4b54-8a9c-72d81e411fb8
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] deDE²_2|1.3MB/s|X'
-  network: tcp
+  name: '[VLESS] deDE²_1|5.9MB/s|X'
+  network: ws
   port: 443
-  server: 57.129.64.102
-  servername: nasnet-5712964102-direct.sharghdaily.co
+  server: 194.76.18.25
+  servername: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xudp: true
+  uuid: 258bad91-733a-4e6a-96f4-11568b97c04a
+  ws-opts:
+    headers:
+      Host: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
+    path: /ws
 - name: '[VLESS] DE_speednode_0009'
   network: ws
   port: 8881

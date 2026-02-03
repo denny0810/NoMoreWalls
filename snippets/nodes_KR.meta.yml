@@ -26,19 +26,30 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
-  name: '[SS] 韩国|@ripaojiedian'
+  client-fingerprint: chrome
+  delay: 432
+  name: '[SS] krKR_1|3.6MB/s'
   password: qwerREWQ@@
-  port: 53532
-  server: 210.217.18.68
+  port: 16449
+  server: 218.50.149.114
+  tfo: true
   type: ss
+  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  delay: 204
-  name: '[SS] krKR_1|2.5MB/s'
+  delay: 2941
+  name: '[SS] krKR_2|1.3MB/s'
   password: qwerREWQ@@
-  port: 23865
-  server: 125.141.31.76
+  port: 6373
+  server: 121.170.203.136
   tfo: true
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '[SS] krKR_3|3.2MB/s'
+  password: qwerREWQ@@
+  port: 35416
+  server: 210.217.18.70
   type: ss
   udp: true
 - client-fingerprint: safari

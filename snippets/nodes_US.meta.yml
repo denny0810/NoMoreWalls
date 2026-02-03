@@ -68,10 +68,11 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[Vmess] US18｜机房｜低风险'
+  name: '[Vmess] usUS_4|2.6MB/s'
   network: ws
-  port: '2086'
+  port: 2086
   server: 154.83.2.156
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
@@ -122,16 +123,16 @@ proxies:
 - name: '[Trojan] 美国|@ripaojiedian'
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 491
-  server: 113.230.22.2
+  port: 443
+  server: 38.180.137.196
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 美国2|@ripaojiedian'
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 5076
-  server: 46.51.237.24
+  port: 443
+  server: 38.180.193.194
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -139,32 +140,68 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 1221
-  server: 43.199.77.22
+  server: 3.112.197.3
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 2
+  cipher: auto
+  name: '[Vmess] usUS_1|2.7MB/s'
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: '[Anytls] usUS_1|2.4MB/s'
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  port: 8300
-  server: 9d304780-t9wqo0-tb7mup-4550.los.west.wctype.com
-  skip-cert-verify: true
-  sni: 9d304780-t9wqo0-tb7mup-4550.los.west.wctype.com
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  name: '[VLESS] usUS_2|1.3MB/s'
+  name: '[VLESS] usUS_2|1.8MB/s'
   network: ws
-  port: 443
-  server: e581-c1438ccadd39.007770777.xyz
-  servername: e581-c1438ccadd39.007770777.xyz
+  port: 2053
+  server: go2.lenovo.com
+  servername: snippet.danfeng21.ndjp.net
   tls: true
   type: vless
-  uuid: 7f45c040-d0d8-4738-af88-f7eeb1b115ac
+  udp: true
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng21.ndjp.net
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: random
+  name: '[VLESS] usUS_3|1.1MB/s'
+  network: ws
+  port: 2083
+  server: 104.19.35.184
+  servername: yxk.longlivecpc.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6ef1b079-e936-4c37-b4b4-8e59baf31eb8
   ws-opts:
     headers:
-      Host: e581-c1438ccadd39.007770777.xyz
-    path: /1wmMoyLhZyYLc4tF
+      Host: yxk.longlivecpc.dpdns.org
+    path: /proxyip=ProxyIP.Oracle.cmliussss.net
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] usUS_5|1.6MB/s'
+  network: ws
+  port: 443
+  server: cdn.zoom.us
+  servername: afrcloud1.c01.kr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 44927ab5-6655-415f-9a12-ed1666f02880
+  ws-opts:
+    headers:
+      Host: afrcloud1.c01.kr
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile
+        Safari/537.36
+    path: /43.218.77.16=1443
+  xudp: true
 - client-fingerprint: chrome
   delay: 731
   encryption: none
@@ -245,20 +282,20 @@ proxies:
       Host: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
     path: /
 - client-fingerprint: chrome
-  name: '[VLESS] US_speednode_0041'
+  name: '[VLESS] US_speednode_0040'
   network: ws
-  port: 2053
-  server: 104.26.12.27
-  servername: snippet.danfeng21.ndjp.net
+  port: 443
+  server: afrcloud4.c01.kr
+  servername: afrcloud4.c01.kr
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  uuid: 2275e858-8aff-44fe-b816-d85c2ab372e5
   ws-opts:
     headers:
-      Host: snippet.danfeng21.ndjp.net
-    path: /danfeng
+      Host: afrcloud4.c01.kr
+    path: /47.254.255.125=443
 - client-fingerprint: randomized
   name: '[VLESS] US_speednode_0042'
   network: ws

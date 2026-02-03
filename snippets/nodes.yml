@@ -176,10 +176,11 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[Vmess] US18｜机房｜低风险'
+  name: '[Vmess] usUS_4|2.6MB/s'
   network: ws
-  port: '2086'
+  port: 2086
   server: 154.83.2.156
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
@@ -322,87 +323,87 @@ proxies:
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
   port: 443
-  server: 203.198.122.20
+  server: 203.198.84.150
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 香港4|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 2826
-  server: 43.199.77.22
+  port: 2266
+  server: 54.46.5.155
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[Trojan] 香港5|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 1867
-  server: 13.230.22.2
+  port: 2266
+  server: 57.181.26.149
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[Trojan] jpJP_1|1.7MB/s'
+- name: '[Trojan] 日本|@ripaojiedian'
   network: tcp
   password: BxceQaOe
   port: 20539
-  server: 46.51.237.24
+  server: 57.181.26.149
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[Trojan] 日本2|@ripaojiedian'
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 3423
-  server: 160.16.106.99
+  port: 443
+  server: 157.120.36.210
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 日本3|@ripaojiedian'
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 4006
-  server: 13.230.22.2
+  port: 443
+  server: 116.80.76.130
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 新加坡|@ripaojiedian'
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 3076
-  server: 160.16.106.99
+  port: 443
+  server: 152.42.254.150
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 新加坡2|@ripaojiedian'
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 3901
-  server: 160.16.106.99
+  port: 443
+  server: 178.128.114.70
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] sgSG_2|3.2MB/s'
+- name: '[Trojan] 新加坡3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 1691
-  server: 13.113.82.107
+  port: 1196
+  server: 57.181.26.149
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[Trojan] 美国|@ripaojiedian'
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 491
-  server: 113.230.22.2
+  port: 443
+  server: 38.180.137.196
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 美国2|@ripaojiedian'
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 5076
-  server: 46.51.237.24
+  port: 443
+  server: 38.180.193.194
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -410,22 +411,19 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 1221
-  server: 43.199.77.22
+  server: 3.112.197.3
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: aes-256-cfb
-  name: '[SS] 韩国|@ripaojiedian'
+  delay: 432
+  name: '[SS] krKR_1|3.6MB/s'
   password: qwerREWQ@@
-  port: 53532
-  server: 210.217.18.68
+  port: 16449
+  server: 218.50.149.114
+  tfo: true
   type: ss
-- cipher: aes-256-cfb
-  name: '[SS] 越南|@ripaojiedian'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.81
-  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   name: '[Vmess] 香港|@ripaojiedian'
@@ -436,11 +434,96 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  delay: 2941
+  name: '[SS] krKR_2|1.3MB/s'
+  password: qwerREWQ@@
+  port: 6373
+  server: 121.170.203.136
+  tfo: true
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: '[Vmess] usUS_1|2.7MB/s'
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: '[SS] krKR_3|3.2MB/s'
+  password: qwerREWQ@@
+  port: 35416
+  server: 210.217.18.70
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '[SS] ptPT_1|2.6MB/s'
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.112
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_1|1.1MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.213
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_2|1.1MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.241
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_3|1.1MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.235
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_4|1.8MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.226
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_5|1.8MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.62
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_6|1.2MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.233
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: '[Vmess] deDE_3|2.3MB/s'
+  network: ws
+  port: 8080
+  server: digitalocean.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-571299667.rahavard365.co
+    max-early-data: 2560
+    path: /NASNET/cdn
+  xudp: true
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: '[Vmess] frFR_1|1.8MB/s'
+  name: '[Vmess] deDE_4|4.0MB/s'
   network: ws
   port: 8080
   server: tgju.org
@@ -452,7 +535,7 @@ proxies:
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: nasnet-162191099.sharghdaily.co
+      Host: nasnet-571296497.iranpress.co
     max-early-data: 2560
     path: /nasnet/cdn
   xudp: true
@@ -460,7 +543,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: '[Vmess] frFR_2|2.1MB/s'
+  name: '[Vmess] frFR_2|2.5MB/s'
   network: ws
   port: 8080
   server: 188.114.98.0
@@ -470,57 +553,10 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: nasnet-162191099.sharghdaily.co
-    max-early-data: 2560
-    path: /nasnet/cdn
+    path: /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
   xudp: true
-- cipher: aes-256-cfb
-  delay: 204
-  name: '[SS] krKR_1|2.5MB/s'
-  password: qwerREWQ@@
-  port: 23865
-  server: 125.141.31.76
-  tfo: true
-  type: ss
-  udp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[Vmess] deDE_1|2.4MB/s'
-  network: ws
-  port: 8080
-  server: 172.64.149.182
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-5712964102.sharghdaily.co
-    max-early-data: 2560
-    path: /nasnet/cdn
-  xudp: true
-- name: '[Trojan] hkHK_1|3.3MB/s'
-  password: BxceQaOe
-  port: 1867
-  server: 13.230.22.2
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: '[Trojan] sgSG_3|3.8MB/s'
-  password: BxceQaOe
-  port: 1691
-  server: 13.113.82.107
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   h2-opts: {}

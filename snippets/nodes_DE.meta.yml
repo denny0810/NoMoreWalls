@@ -52,14 +52,45 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- alpn:
-  - ''
-  alterId: '0'
+- client-fingerprint: chrome
+  name: '[VLESS] US_speednode_0041'
+  network: ws
+  port: 2053
+  server: 104.26.12.27
+  servername: snippet.danfeng21.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng21.ndjp.net
+    path: /danfeng
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE_2|2.2MB/s'
+  network: ws
+  port: 443
+  server: 103.31.4.133
+  servername: rAyAn-cOnFiG-de-1.pAriSa.dPdNs.oRg
+  tls: true
+  type: vless
+  udp: true
+  uuid: 258bad91-733a-4e6a-96f4-11568b97c04a
+  ws-opts:
+    headers:
+      Host: rAyAn-cOnFiG-de-1.pAriSa.dPdNs.oRg
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /ws
+  xudp: true
+- alterId: '0'
   cipher: auto
-  name: '[Vmess] deDE_1|2.4MB/s'
+  name: '[Vmess] deDE_3|2.3MB/s'
   network: ws
   port: 8080
-  server: 172.64.149.182
+  server: digitalocean.com
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -68,74 +99,47 @@ proxies:
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: nasnet-5712964102.sharghdaily.co
+      Host: nasnet-571299667.rahavard365.co
+    max-early-data: 2560
+    path: /NASNET/cdn
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[Vmess] deDE_4|4.0MB/s'
+  network: ws
+  port: 8080
+  server: tgju.org
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-571296497.iranpress.co
     max-early-data: 2560
     path: /nasnet/cdn
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_2|3.0MB/s'
+- encryption: none
+  name: '[VLESS] deDE_5|2.1MB/s'
   network: ws
-  port: 443
-  server: afrcloud2.c01.kr
-  servername: afrcloud2.c01.kr
-  tls: true
+  port: 2052
+  server: nx.cloud1.hosting-ip.zulagaming.icu
   type: vless
   udp: true
-  uuid: f621dd9d-1d76-4325-92dd-7fedaf61c643
+  uuid: 1f00970a-14c1-40d0-9c06-43f513975be1
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: afrcloud2.c01.kr
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /192.3.251.89=443
+      Host: rizai.blogasak.fun.zulagaming.icu.blog.zulagaming.icu
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
+        Gecko) Chrome/11.0.696.3 Safari/534.24
+    max-early-data: 2560
+    path: /
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] US_speednode_0040'
-  network: ws
-  port: 443
-  server: afrcloud4.c01.kr
-  servername: afrcloud4.c01.kr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2275e858-8aff-44fe-b816-d85c2ab372e5
-  ws-opts:
-    headers:
-      Host: afrcloud4.c01.kr
-    path: /47.254.255.125=443
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] deDE_4|4.1MB/s'
-  network: grpc
-  port: 22955
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: 37.120.175.246
-  servername: one-piece.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] deDE_5|1.3MB/s'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: kt-wshmPVd-J1dlU-tsXUoGag2-oFwYQ5UafScaAfzQ
-  server: 46.224.202.128
-  servername: apple.com
-  tls: true
-  type: vless
-  uuid: d2acafd1-1cd4-46a0-8d59-faec9cd23c35
 - name: '[VLESS] DE_speednode_0009'
   network: ws
   port: 8881

@@ -27,67 +27,41 @@ proxies:
 - name: '[Trojan] 新加坡|@ripaojiedian'
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 3076
-  server: 160.16.106.99
+  port: 443
+  server: 152.42.254.150
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 新加坡2|@ripaojiedian'
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 3901
-  server: 160.16.106.99
+  port: 443
+  server: 178.128.114.70
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] sgSG_2|3.2MB/s'
+- name: '[Trojan] 新加坡3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 1691
-  server: 13.113.82.107
+  port: 1196
+  server: 57.181.26.149
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: '[VLESS] sgSG_1|3.0MB/s'
+- client-fingerprint: random
+  name: '[VLESS] sgSG_1|1.0MB/s'
   network: ws
   port: 2053
-  server: cloudflare.seeck.cn
-  servername: snippet.danfeng21.ndjp.net
+  server: 173.245.59.42
+  servername: yxk.longlivecpc.dpdns.org
   tls: true
   type: vless
   udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  uuid: 6ef1b079-e936-4c37-b4b4-8e59baf31eb8
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: snippet.danfeng21.ndjp.net
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  name: '[Trojan] sgSG_3|3.8MB/s'
-  password: BxceQaOe
-  port: 1691
-  server: 13.113.82.107
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: '[VLESS] sgSG_4|2.6MB/s'
-  network: ws
-  port: 2053
-  server: 104.18.43.211
-  servername: jp-aniu.xmmaa.dpdns.org
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jp-aniu.xmmaa.dpdns.org
-    max-early-data: 2560
-    path: /
+      Host: yxk.longlivecpc.dpdns.org
+    path: /proxyip=ProxyIP.Oracle.cmliussss.net
 - client-fingerprint: random
   name: '[VLESS] sgSG²_1|9.8MB/s|X|History'
   network: ws

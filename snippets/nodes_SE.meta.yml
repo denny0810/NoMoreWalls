@@ -1,8 +1,10 @@
 proxies:
-- cipher: aes-256-cfb
-  name: '[SS] seSE_1|1.0MB/s'
-  password: amazonskr05
-  port: 443
-  server: 51.20.96.71
-  type: ss
+- encryption: none
+  name: '[VLESS] seSE_1|2.5MB/s'
+  network: tcp
+  port: 50
+  server: dd.openaccessnode.com
+  type: vless
   udp: true
+  uuid: 31701b5d-ca95-92f9-d684-dae3706161ea
+  xudp: true

@@ -52,163 +52,60 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- encryption: none
-  name: '[VLESS] deDE_1|1.4MB/s'
+- name: '[Http] deDE_1|1.2MB/s'
+  password: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
+  port: 443
+  server: 2838bc6b-t9zts0-tighxj-12hj8.de.oshuawei.com
+  sni: 2838bc6b-t9zts0-tighxj-12hj8.de.oshuawei.com
+  tls: true
+  type: http
+  username: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
+- name: '[Http] deDE_2|1.1MB/s'
+  password: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
+  port: 443
+  server: 43cb0960-t9zts0-tvb36r-1qwom.de.oshuawei.com
+  sni: 43cb0960-t9zts0-tvb36r-1qwom.de.oshuawei.com
+  tls: true
+  type: http
+  username: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[Vmess] deDE_3|2.4MB/s'
   network: ws
-  port: 80
-  server: 104.18.32.47
-  type: vless
-  udp: true
-  uuid: a5712440-3cec-4a1b-82e8-767c54acd83a
-  ws-opts:
-    headers:
-      Host: authENTIC-cABinEtgqc4XfW2ud.spORTLAND.COmPAny.
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /?ed
-  xudp: true
-- encryption: none
-  name: '[VLESS] deDE_2|1.3MB/s'
-  network: ws
-  port: 80
-  server: 104.20.1.252
-  type: vless
-  udp: true
-  uuid: 65fe56c2-78ec-417a-a666-9f393eac8b61
-  ws-opts:
-    headers:
-      Host: everlASTinG-oFfERC4S5Mg1918.SpoRTLand.COMpaNy.
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/31.0.1650.57 Safari/537.36
-    path: /?ed
-  xudp: true
-- client-fingerprint: chrome
-  name: '[VLESS] US_speednode_0041'
-  network: ws
-  port: 2053
-  server: 104.26.12.27
-  servername: snippet.danfeng21.ndjp.net
+  port: 8080
+  server: tgju.org
   skip-cert-verify: false
-  tls: true
-  type: vless
+  tls: false
+  type: vmess
   udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: snippet.danfeng21.ndjp.net
-    path: /danfeng
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] deDE_4|2.9MB/s'
-  network: tcp
-  port: 1080
-  reality-opts:
-    public-key: m-foGonYn9goyv5U_ffQ-DORHxz4bQ88RIJoim_n228
-    short-id: '!!str 3328fe06cadd782e'
-  server: 93.152.217.231
-  servername: sun6-22.userapi.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ca911bd2-e08f-42d8-aefb-3117494d3367
-  xudp: true
-- encryption: none
-  name: '[VLESS] deDE_5|1.6MB/s'
-  network: ws
-  port: 2082
-  server: ip.hamrahto.com
-  type: vless
-  udp: true
-  uuid: 7255b3ba-7484-493f-adaa-0bd7ff6eb3ed
-  ws-opts:
-    headers:
-      Host: hm3.mutee.com.tr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /api/stream
+      Host: nasnet-571296497.iranpress.co
+    max-early-data: 2560
+    path: /nasnet/cdn
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE_6|1.5MB/s'
+  name: '[VLESS] deDE²_1|6.5MB/s|49%|GPT⁺|X|[广播...'
   network: ws
   port: 443
-  server: 103.31.4.133
-  servername: rAyAn-cOnFiG-de-1.pAriSa.dPdNs.oRg
+  server: 208.103.161.110
+  servername: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
   tls: true
   type: vless
   udp: true
   uuid: 258bad91-733a-4e6a-96f4-11568b97c04a
   ws-opts:
     headers:
-      Host: rAyAn-cOnFiG-de-1.pAriSa.dPdNs.oRg
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      Host: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /ws
   xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_7|2.2MB/s'
-  network: ws
-  port: 443
-  server: 162.159.7.198
-  servername: germany.pahlevancompani.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e7a9fe3b-c10f-4a67-8f7b-e22c9c246d8d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: germany.pahlevancompani.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/35.0.1916.153 Safari/537.36
-    max-early-data: 443
-    path: /
-  xudp: true
-- encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] deDE_8|3.6MB/s'
-  network: tcp
-  port: 16866
-  server: ee.tr-mok.sbs
-  type: vless
-  udp: true
-  uuid: d7fe93ce-f944-4640-af74-3344e3b13c04
-  xudp: true
-- client-fingerprint: random
-  name: '[VLESS] deDE_9|1.1MB/s'
-  network: ws
-  port: 2083
-  server: 172.67.74.159
-  servername: yxk.longlivecpc.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6ef1b079-e936-4c37-b4b4-8e59baf31eb8
-  ws-opts:
-    headers:
-      Host: yxk.longlivecpc.dpdns.org
-    path: /proxyip=ProxyIP.Oracle.cmliussss.net
-- client-fingerprint: random
-  name: '[VLESS] deDE_10|2.3MB/s'
-  network: ws
-  port: 2096
-  server: 172.67.75.236
-  servername: yxk.longlivecpc.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6ef1b079-e936-4c37-b4b4-8e59baf31eb8
-  ws-opts:
-    headers:
-      Host: yxk.longlivecpc.dpdns.org
-    path: /proxyip=ProxyIP.Oracle.cmliussss.net
 - name: '[VLESS] DE_speednode_0009'
   network: ws
   port: 8881

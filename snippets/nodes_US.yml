@@ -60,9 +60,10 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[Vmess] US18｜机房｜低风险'
+  client-fingerprint: chrome
+  name: '[Vmess] usUS²_2|4.2MB/s|GPT|X'
   network: ws
-  port: '2086'
+  port: 2086
   server: 154.83.2.156
   tls: false
   type: vmess
@@ -127,10 +128,69 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_2|1.9MB/s|GPT⁺|YT-US|X|H...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.59
-  type: ss
+- client-fingerprint: chrome
+  country: 🇬🇧GB
+  name: '[Trojan] usUS²_1|6.7MB/s|GPT|YT|NF|D+|X...'
+  network: tcp
+  password: 2a5841b3-0a10-48f9-9265-ac3cdf7c335d
+  port: 19216
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+  udp: true
+- alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: '[Vmess] 🏴‍☠_2usUS²_1|1.0MB/s|[广播|机房]|3...'
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- client-fingerprint: chrome
+  country: 🇨🇳CN
+  name: '[Trojan] usUS²_4|6.3MB/s|0%|D+|X'
+  network: tcp
+  password: 9ee2e77f-54cc-45e1-b721-778508a35e12
+  port: 30210
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: xiaozhu1.kkieo555.cn
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: '[Vmess] usUS²_6|5.0MB/s|X'
+  network: http
+  port: 80
+  server: 132.145.154.72
+  servername: a.189.cn
+  skip-cert-verify: true
+  type: vmess
+  uuid: bcb7c581-3c95-4569-a4e7-918141e91ea3
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_7|4.1MB/s|41%|NF|X|Histo...'
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  servername: v29.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

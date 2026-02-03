@@ -68,9 +68,10 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[Vmess] US18｜机房｜低风险'
+  client-fingerprint: chrome
+  name: '[Vmess] usUS²_2|4.2MB/s|GPT|X'
   network: ws
-  port: '2086'
+  port: 2086
   server: 154.83.2.156
   tls: false
   type: vmess
@@ -293,35 +294,124 @@ proxies:
         like Gecko) Chrome/46.0.2490.86 Safari/537.36
     path: /194.127.193.124=24467
   xudp: true
-- name: '[Http] usUS²_1|11.0MB/s|GPT|YT|NF|D+|...'
-  password: c357a728-1211-11f0-9a65-f23c9164ca5d
-  port: 443
-  server: cd2fd5f5-t9zts0-td5oia-1m49t.jp.oshuawei.com
-  sni: cd2fd5f5-t9zts0-td5oia-1m49t.jp.oshuawei.com
-  tls: true
-  type: http
-  username: c357a728-1211-11f0-9a65-f23c9164ca5d
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_2|1.9MB/s|GPT⁺|YT-US|X|H...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.59
-  type: ss
-- client-fingerprint: random
-  name: '[VLESS] hkHK¹-US⁰_1|5.0MB/s|GPT⁺|YT|X|...'
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] usUS¹-SG⁰_1|2.8MB/s|GM|NF|X'
   network: ws
   port: 443
-  server: 172.64.144.213
-  servername: yxk.longlivecpc.dpdns.org
+  server: 45.130.125.160
+  servername: afrcloud4.c01.kr
   tls: true
   type: vless
   udp: true
-  uuid: 6ef1b079-e936-4c37-b4b4-8e59baf31eb8
+  uuid: ea33fc71-2ce3-48e1-93fb-e36142c1e1ee
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: yxk.longlivecpc.dpdns.org
-    path: /proxyip=ProxyIP.Oracle.cmliussss.net
+      Host: afrcloud4.c01.kr
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    max-early-data: 512
+    path: /129.150.58.86:57621/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
+  xudp: true
+- client-fingerprint: chrome
+  country: 🇬🇧GB
+  name: '[Trojan] usUS²_1|6.7MB/s|GPT|YT|NF|D+|X...'
+  network: tcp
+  password: 2a5841b3-0a10-48f9-9265-ac3cdf7c335d
+  port: 19216
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+  udp: true
+- name: '[Http] usUS²_3|7.6MB/s|9%|D+|X|[原生|机房...'
+  password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
+  port: 15229
+  server: 68a3e70f-t9zts0-tb592v-4lg6.cu.oshuawei.com
+  sni: 68a3e70f-t9zts0-tb592v-4lg6.cu.oshuawei.com
+  tls: true
+  type: http
+  username: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
+- alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: '[Vmess] 🏴‍☠_2usUS²_1|1.0MB/s|[广播|机房]|3...'
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- client-fingerprint: chrome
+  country: 🇨🇳CN
+  name: '[Trojan] usUS²_4|6.3MB/s|0%|D+|X'
+  network: tcp
+  password: 9ee2e77f-54cc-45e1-b721-778508a35e12
+  port: 30210
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: xiaozhu1.kkieo555.cn
+  type: trojan
+  udp: true
+- name: '[Http] usUS²_5|2.9MB/s|GPT⁺|X'
+  password: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
+  port: 443
+  server: 1d4403ee-t9zts0-te0v28-1mh67.sj.oshuawei.com
+  sni: 1d4403ee-t9zts0-te0v28-1mh67.sj.oshuawei.com
+  tls: true
+  type: http
+  username: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: '[Vmess] usUS²_6|5.0MB/s|X'
+  network: http
+  port: 80
+  server: 132.145.154.72
+  servername: a.189.cn
+  skip-cert-verify: true
+  type: vmess
+  uuid: bcb7c581-3c95-4569-a4e7-918141e91ea3
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_7|4.1MB/s|41%|NF|X|Histo...'
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  servername: v29.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[Http] usUS²_8|7.9MB/s|9%|X'
+  password: d70a9508-5477-11ef-bf61-f23c913c8d2b
+  port: 15229
+  server: 0ad1e07c-t9zts0-tcj3xn-1o20w.cu.oshuawei.com
+  sni: 0ad1e07c-t9zts0-tcj3xn-1o20w.cu.oshuawei.com
+  tls: true
+  type: http
+  username: d70a9508-5477-11ef-bf61-f23c913c8d2b
+- name: '[Http] usUS²_9|5.7MB/s|GPT|X|[广播|商宽]'
+  password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
+  port: 443
+  server: 4a5864a9-t9zts0-tbicd9-1go3q.se.oshuawei.com
+  sni: 4a5864a9-t9zts0-tbicd9-1go3q.se.oshuawei.com
+  tls: true
+  type: http
+  username: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
 - client-fingerprint: randomized
   name: '[VLESS] US_speednode_0036'
   network: ws

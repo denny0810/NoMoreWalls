@@ -26,56 +26,47 @@ proxies:
         like Gecko) Chrome/58.0.3029.81 Safari/537.36
     path: /ws
   xudp: true
-- client-fingerprint: chrome
-  country: 🇫🇷FR
-  name: '[Trojan] frFR²_1|4.4MB/s|1%|GPT|X'
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22223
-  server: 13.38.161.110
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: '[Http] frFR²_2|4.1MB/s|X'
-  password: c1785de0-212f-11ef-92aa-f23c9164ca5d
+- name: '[Http] frFR²_1|2.1MB/s|X'
+  password: f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b
   port: 443
-  server: ca6467d1-t9zts0-tfpsin-1q3dm.fr.oshuawei.com
-  sni: ca6467d1-t9zts0-tfpsin-1q3dm.fr.oshuawei.com
+  server: 01d9eacf-t9zts0-taxf6m-ieln.fr.oshuawei.com
+  sni: 01d9eacf-t9zts0-taxf6m-ieln.fr.oshuawei.com
   tls: true
   type: http
-  username: c1785de0-212f-11ef-92aa-f23c9164ca5d
+  username: f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b
 - client-fingerprint: chrome
-  country: 🇫🇷FR
-  name: '[Trojan] frFR²_3|0.8MB/s|1%|X'
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.38.161.110
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: '[Vmess] frFR²_4|4.5MB/s|D+|X'
+  encryption: none
+  name: '[VLESS] frFR²_2|6.0MB/s|X'
   network: ws
-  port: 8443
-  server: 162.159.152.4
-  servername: frsys.fl-dl.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
+  port: 80
+  server: 104.18.32.47
+  type: vless
   udp: true
-  uuid: 19e52bf4-1b7d-4bd4-ae66-6ca024436c17
+  uuid: 1e35b4bf-b270-4c0b-918d-62746eedd2ad
   ws-opts:
     headers:
-      Host: frsys.fl-dl.com
-    path: /gbt
+      Host: EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY.
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /?ed
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] frFR²_3|5.5MB/s|X'
+  network: ws
+  port: 443
+  server: 194.76.18.25
+  servername: rAyAn-cOnFiG-it-1.pArSa.dPdNs.oRg
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8388434b-bbc8-4e00-b497-69a7f56f6e24
+  ws-opts:
+    headers:
+      Host: rAyAn-cOnFiG-it-1.pArSa.dPdNs.oRg
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
+    path: /ws
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision

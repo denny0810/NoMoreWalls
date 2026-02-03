@@ -181,18 +181,35 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- encryption: none
-  name: '[VLESS] jpJP_1|3.3MB/s'
+- client-fingerprint: random
+  name: '[VLESS] jpJP_1|1.8MB/s'
   network: ws
-  port: 80
-  server: www.fastly.com
+  port: 2087
+  server: 172.64.229.37
+  servername: yxk.longlivecpc.dpdns.org
+  tls: true
   type: vless
   udp: true
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
+  uuid: 6ef1b079-e936-4c37-b4b4-8e59baf31eb8
   ws-opts:
     headers:
-      Host: mitivpn3.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /--Telegram---MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN
-  xudp: true
+      Host: yxk.longlivecpc.dpdns.org
+    path: /proxyip=ProxyIP.Oracle.cmliussss.net
+- client-fingerprint: chrome
+  country: 🇬🇧GB
+  name: '[Trojan] jpJP²_1|10.8MB/s|0%|NF|X|Histo...'
+  network: tcp
+  password: 7d133fea-64dd-4047-9e8f-c538a385f7a6
+  port: 41273
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  name: '[SS] jpJP²_2|10.9MB/s|0%|GPT⁺|GM|YT...'
+  password: 66f89621-49f0-4788-85ce-f9a62537a8e4
+  port: 48801
+  server: jp01.network-cdn-gw-yd.net
+  type: ss

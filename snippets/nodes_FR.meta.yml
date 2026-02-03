@@ -8,29 +8,11 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] frFR_1|1.7MB/s'
-  network: ws
-  port: 443
-  server: transferwise.com
-  servername: rAyAn-cOnFiG-uk-1.pArSa.dPdNs.oRg
-  tls: true
-  type: vless
-  udp: true
-  uuid: 979b6822-d65a-400d-89f8-30391903ac20
-  ws-opts:
-    headers:
-      Host: rAyAn-cOnFiG-uk-1.pArSa.dPdNs.oRg
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /ws
-  xudp: true
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: '[Vmess] frFR_2|2.5MB/s'
+  name: '[Vmess] frFR_1|2.4MB/s'
   network: ws
   port: 8080
   server: 188.114.98.0
@@ -46,18 +28,21 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] frFR²_1|2.0MB/s|X|History'
-  network: tcp
-  port: 3032
-  reality-opts:
-    public-key: 21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI
-    short-id: '!!str '
-  server: fr.locations-service.com
-  servername: refersion.com
+  name: '[VLESS] frFR²_1|6.7MB/s|42%|GPT|X'
+  network: ws
+  port: 443
+  server: 208.103.161.110
+  servername: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
   tls: true
   type: vless
   udp: true
-  uuid: e59083aa-d933-4952-8cf0-eec74f718705
+  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+  ws-opts:
+    headers:
+      Host: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: /ws
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision

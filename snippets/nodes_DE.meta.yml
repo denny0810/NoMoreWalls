@@ -52,62 +52,11 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: '[VLESS] US_speednode_0041'
-  network: ws
-  port: 2053
-  server: 104.26.12.27
-  servername: snippet.danfeng21.ndjp.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng21.ndjp.net
-    path: /danfeng
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_2|2.2MB/s'
-  network: ws
-  port: 443
-  server: 103.31.4.133
-  servername: rAyAn-cOnFiG-de-1.pAriSa.dPdNs.oRg
-  tls: true
-  type: vless
-  udp: true
-  uuid: 258bad91-733a-4e6a-96f4-11568b97c04a
-  ws-opts:
-    headers:
-      Host: rAyAn-cOnFiG-de-1.pAriSa.dPdNs.oRg
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
-    path: /ws
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: '[Vmess] deDE_3|2.3MB/s'
-  network: ws
-  port: 8080
-  server: digitalocean.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-571299667.rahavard365.co
-    max-early-data: 2560
-    path: /NASNET/cdn
-  xudp: true
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: '[Vmess] deDE_4|4.0MB/s'
+  name: '[Vmess] deDE_1|1.5MB/s'
   network: ws
   port: 8080
   server: tgju.org
@@ -124,21 +73,113 @@ proxies:
     path: /nasnet/cdn
   xudp: true
 - encryption: none
-  name: '[VLESS] deDE_5|2.1MB/s'
+  name: '[VLESS] deDE_2|1.6MB/s'
   network: ws
-  port: 2052
-  server: nx.cloud1.hosting-ip.zulagaming.icu
+  port: 80
+  server: 104.18.32.47
   type: vless
   udp: true
-  uuid: 1f00970a-14c1-40d0-9c06-43f513975be1
+  uuid: 1e35b4bf-b270-4c0b-918d-62746eedd2ad
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: rizai.blogasak.fun.zulagaming.icu.blog.zulagaming.icu
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
-        Gecko) Chrome/11.0.696.3 Safari/534.24
-    max-early-data: 2560
-    path: /
+      Host: EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /?ed
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE_3|1.4MB/s'
+  network: ws
+  port: 443
+  server: vip3.kaixincloud.top
+  servername: apii.onlineshoppingez.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6c7ed63-89db-4ae1-a3f8-7a722921b3b2
+  ws-opts:
+    headers:
+      Host: apii.onlineshoppingez.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /O1w0n3vYgFKYs7EzNAvLPvOp
+  xudp: true
+- encryption: none
+  name: '[VLESS] deDE_4|1.6MB/s'
+  network: ws
+  port: 80
+  server: 104.18.32.47
+  type: vless
+  udp: true
+  uuid: a5712440-3cec-4a1b-82e8-767c54acd83a
+  ws-opts:
+    headers:
+      Host: authENTIC-cABinEtgqc4XfW2ud.spORTLAND.COmPAny.
+      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /?ed
+  xudp: true
+- encryption: none
+  name: '[VLESS] deDE_5|1016KB/s'
+  network: ws
+  port: 80
+  server: 104.20.1.252
+  type: vless
+  udp: true
+  uuid: 4c97ec3e-3527-48c5-80ff-b715463896ba
+  ws-opts:
+    headers:
+      Host: kIndhEArTeD-PARkb5Rjo2juEr.sPorTLaNd.COMpAny.
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.162 Safari/537.36
+    path: /?ed
+  xudp: true
+- encryption: none
+  name: '[VLESS] deDE_6|1.1MB/s'
+  network: ws
+  port: 80
+  server: 104.20.1.252
+  type: vless
+  udp: true
+  uuid: 65fe56c2-78ec-417a-a666-9f393eac8b61
+  ws-opts:
+    headers:
+      Host: everlASTinG-oFfERC4S5Mg1918.SpoRTLand.COMpaNy.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/31.0.1650.57 Safari/537.36
+    path: /?ed
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] deDE²_1|0.7MB/s|X'
+  network: tcp
+  port: 5443
+  reality-opts:
+    public-key: L4Pdk1P9RGI2B8XT9MCASzlD0Ra09bPOGBl_GduLjx0
+    short-id: '!!str ce11cd7625d4f72e'
+  server: 95.163.208.119
+  servername: yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: bbed94d9-1120-4b54-8a9c-72d81e411fb8
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] deDE²_2|1.3MB/s|X'
+  network: tcp
+  port: 443
+  server: 57.129.64.102
+  servername: nasnet-5712964102-direct.sharghdaily.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   xudp: true
 - name: '[VLESS] DE_speednode_0009'
   network: ws

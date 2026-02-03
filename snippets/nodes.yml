@@ -176,11 +176,10 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[Vmess] usUS_4|2.6MB/s'
+  name: '[Vmess] US18｜机房｜低风险'
   network: ws
-  port: 2086
+  port: '2086'
   server: 154.83.2.156
-  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
@@ -416,14 +415,11 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: aes-256-cfb
-  delay: 432
-  name: '[SS] krKR_1|3.6MB/s'
+  name: '[SS] 韩国|@ripaojiedian'
   password: qwerREWQ@@
   port: 16449
   server: 218.50.149.114
-  tfo: true
   type: ss
-  udp: true
 - alterId: 2
   cipher: auto
   name: '[Vmess] 香港|@ripaojiedian'
@@ -434,96 +430,11 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  delay: 2941
-  name: '[SS] krKR_2|1.3MB/s'
-  password: qwerREWQ@@
-  port: 6373
-  server: 121.170.203.136
-  tfo: true
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: '[Vmess] usUS_1|2.7MB/s'
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: '[SS] krKR_3|3.2MB/s'
-  password: qwerREWQ@@
-  port: 35416
-  server: 210.217.18.70
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '[SS] ptPT_1|2.6MB/s'
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.112
-  type: ss
-- cipher: aes-256-cfb
-  name: '[SS] vnVN_1|1.1MB/s'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.213
-  type: ss
-- cipher: aes-256-cfb
-  name: '[SS] vnVN_2|1.1MB/s'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.241
-  type: ss
-- cipher: aes-256-cfb
-  name: '[SS] vnVN_3|1.1MB/s'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.235
-  type: ss
-- cipher: aes-256-cfb
-  name: '[SS] vnVN_4|1.8MB/s'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.226
-  type: ss
-- cipher: aes-256-cfb
-  name: '[SS] vnVN_5|1.8MB/s'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.62
-  type: ss
-- cipher: aes-256-cfb
-  name: '[SS] vnVN_6|1.2MB/s'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.233
-  type: ss
-- alterId: '0'
-  cipher: auto
-  name: '[Vmess] deDE_3|2.3MB/s'
-  network: ws
-  port: 8080
-  server: digitalocean.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-571299667.rahavard365.co
-    max-early-data: 2560
-    path: /NASNET/cdn
-  xudp: true
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: '[Vmess] deDE_4|4.0MB/s'
+  name: '[Vmess] deDE_1|1.5MB/s'
   network: ws
   port: 8080
   server: tgju.org
@@ -543,7 +454,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: '[Vmess] frFR_2|2.5MB/s'
+  name: '[Vmess] frFR_1|2.4MB/s'
   network: ws
   port: 8080
   server: 188.114.98.0
@@ -557,19 +468,246 @@ proxies:
       Host: nasnet-162191099.sharghdaily.co
     path: /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
   xudp: true
-- alterId: 0
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_1|1.1MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.194
+  type: ss
+  udp: true
+- alterId: 2
   cipher: auto
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /QQqun-737805443
-  name: '[Vmess] hkHK²_1|9.3MB/s|X|History|[原生|...'
-  network: http
-  port: 52080
-  server: 61.15.60.153
+  name: '[Vmess] hkHK_1|1.3MB/s'
+  network: ws
+  port: 80
+  server: 9dced0f5-t9w4g0-tighxj-12hj8.hkt.gotochinatown.net
+  tls: false
   type: vmess
-  uuid: bfb47846-aedb-4ea3-a81f-27895a4ec1bb
+  udp: true
+  uuid: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: '[Vmess] hkHK_2|1.0MB/s'
+  network: ws
+  port: 80
+  server: 42904d6c-t9xz40-tcmifz-1s3lb.hkt.gotochinatown.net
+  tls: false
+  type: vmess
+  udp: true
+  uuid: fbf91120-50ba-11ef-a203-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] nlNL_1|2.6MB/s'
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 151.242.251.131
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_2|1.5MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.24
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_3|2.0MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.226
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_4|1.0MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.74
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_5|1.1MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.204
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_6|1.4MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.111
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_7|1.0MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.34
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_8|1.1MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.43
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_1|1.0MB/s|GPT⁺|X|History...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.4
+  type: ss
+- country: 🇨🇳CN
+  name: '[Trojan] usUS²_2|7.8MB/s|0%|GPT|GM|NF|X'
+  network: tcp
+  password: a940d1f5-2c1a-45b7-a140-0d7653d47932
+  port: 41275
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: xiaozhu1.kkieo555.cn
+  type: trojan
+  udp: true
+- country: 🇬🇧GB
+  name: '[Trojan] krKR²_1|10.3MB/s|37%|GPT⁺|D+|X...'
+  network: tcp
+  password: 2fe09a14-a99a-453c-9204-f3a4c9833b32
+  port: 49214
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+  udp: true
+- country: 🇨🇳CN
+  name: '[Trojan] hkHK²_1|8.7MB/s|0%|YT|D+|X|[广播...'
+  network: tcp
+  password: 781f50cf-c6d0-4271-8a00-4ee7c16a908b
+  port: 49213
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇰🇷KR
+  name: '[SS] krKR²_2|9.1MB/s|2%|GPT⁺|X'
+  password: qwerREWQ@@
+  port: 48041
+  server: 125.141.26.15
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  name: '[SS] hkHK²_2|16.3MB/s|0%|GPT|X'
+  password: 66f89621-49f0-4788-85ce-f9a62537a8e4
+  port: 47709
+  server: hk09.network-cdn-gw-yd.net
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  name: '[SS] twTW²_1|1.1MB/s|25%|GM|YT|X'
+  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
+  port: 19822
+  server: 183.240.138.163
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  name: '[SS] hkHK²_3|14.5MB/s|0%|YT-CN|X'
+  password: 66f89621-49f0-4788-85ce-f9a62537a8e4
+  port: 32058
+  server: hk3.network-cdn-gw-yd.net
+  type: ss
+- country: 🇨🇳CN
+  name: '[Trojan] usUS²_3|8.1MB/s|0%|GPT|GM|X|[广...'
+  network: tcp
+  password: 15c914bb-a29c-40bb-acd2-e660e40a7690
+  port: 30210
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: xiaozhu1.kkieo555.cn
+  type: trojan
+  udp: true
+- country: 🇬🇧GB
+  name: '[Trojan] hkHK²_4|0.9MB/s|X'
+  network: tcp
+  password: 147d32f6-ed6d-49fd-b20c-1b7a04d7ede4
+  port: 49213
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+  udp: true
+- country: 🇬🇧GB
+  name: '[Trojan] jpJP²_1|10.8MB/s|0%|NF|X|Histo...'
+  network: tcp
+  password: 7d133fea-64dd-4047-9e8f-c538a385f7a6
+  port: 41273
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  name: '[SS] hkHK²_5|17.0MB/s|0%|YT-CN|X|[原...'
+  password: 66f89621-49f0-4788-85ce-f9a62537a8e4
+  port: 32061
+  server: hk13.network-cdn-gw-yd.net
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] usUS²_4|1.1MB/s|GPT|NF|D+|X|[原...'
+  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
+  port: 19862
+  server: 183.240.138.163
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_2|0.8MB/s|GPT|YT-US|X|Hi...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.235
+  type: ss
+- country: 🇨🇳CN
+  name: '[Trojan] usUS²_5|7.9MB/s|X'
+  network: tcp
+  password: 2f60754f-e725-439a-a76e-701009763a62
+  port: 30210
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: xiaozhu1.kkieo555.cn
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇰🇷KR
+  name: '[SS] krKR²_3|8.9MB/s|GPT|YT|X|[原生|住...'
+  password: qwerREWQ@@
+  port: 54387
+  server: 221.150.109.90
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  name: '[SS] jpJP²_2|10.9MB/s|0%|GPT⁺|GM|YT...'
+  password: 66f89621-49f0-4788-85ce-f9a62537a8e4
+  port: 48801
+  server: jp01.network-cdn-gw-yd.net
+  type: ss
+- country: 🇨🇳CN
+  name: '[Trojan] krKR²_4|8.0MB/s|37%|GPT|YT-CN|...'
+  network: tcp
+  password: 9a3c3e80-6a71-4fb4-af58-317f87a02148
+  port: 49214
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_3|2.1MB/s|GPT⁺|X|History'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.227
+  type: ss
 - alterId: 0
   cipher: auto
   name: '[Vmess] VMESS节点2-ipv6'

@@ -49,7 +49,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: random
-  name: '[VLESS] sgSG_1|1.6MB/s'
+  name: '[VLESS] sgSG_1|1.4MB/s'
   network: ws
   port: 2053
   server: 173.245.59.42
@@ -62,20 +62,143 @@ proxies:
     headers:
       Host: yxk.longlivecpc.dpdns.org
     path: /proxyip=ProxyIP.Oracle.cmliussss.net
-- client-fingerprint: chrome
-  name: '[VLESS] sgSG_2|1.3MB/s'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[VLESS] sgSG_2|1.0MB/s'
   network: ws
   port: 443
-  server: saas.sin.fan
-  servername: 4efd71de.lfree.ccwu.cc
+  server: 194.87.240.67
+  servername: snippet.fgfw.cc.cd
   tls: true
   type: vless
   udp: true
-  uuid: 697f10a9-a849-3fec-7173-a4213b9a6378
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
   ws-opts:
     headers:
-      Host: 4efd71de.lfree.ccwu.cc
-    path: /2026
+      Host: snippet.fgfw.cc.cd
+    path: /danfeng
+- client-fingerprint: random
+  name: '[VLESS] sgSG_3|1.6MB/s'
+  network: ws
+  port: 2083
+  server: 198.41.223.5
+  servername: yxk.longlivecpc.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6ef1b079-e936-4c37-b4b4-8e59baf31eb8
+  ws-opts:
+    headers:
+      Host: yxk.longlivecpc.dpdns.org
+    path: /proxyip=ProxyIP.Oracle.cmliussss.net
+- client-fingerprint: random
+  name: '[VLESS] sgSG_4|1.1MB/s'
+  network: ws
+  port: 2083
+  server: 172.64.146.234
+  servername: yxk.longlivecpc.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6ef1b079-e936-4c37-b4b4-8e59baf31eb8
+  ws-opts:
+    headers:
+      Host: yxk.longlivecpc.dpdns.org
+    path: /proxyip=ProxyIP.Oracle.cmliussss.net
+- client-fingerprint: random
+  name: '[VLESS] sgSG_5|1.3MB/s'
+  network: ws
+  port: 443
+  server: 198.41.223.168
+  servername: yxk.longlivecpc.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6ef1b079-e936-4c37-b4b4-8e59baf31eb8
+  ws-opts:
+    headers:
+      Host: yxk.longlivecpc.dpdns.org
+    path: /proxyip=ProxyIP.Oracle.cmliussss.net
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] sgSG_6|4.7MB/s'
+  network: ws
+  port: 443
+  server: 162.159.13.172
+  servername: 93cb376a.cfncs.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a40064b-0bec-4200-a717-9cd98872d315
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 93cb376a.cfncs.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    max-early-data: 2048
+    path: /
+  xudp: true
+- client-fingerprint: random
+  name: '[VLESS] sgSG_7|3.3MB/s'
+  network: ws
+  port: 443
+  server: 172.64.144.213
+  servername: yxk.longlivecpc.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6ef1b079-e936-4c37-b4b4-8e59baf31eb8
+  ws-opts:
+    headers:
+      Host: yxk.longlivecpc.dpdns.org
+    path: /proxyip=ProxyIP.Oracle.cmliussss.net
+- client-fingerprint: random
+  name: '[VLESS] sgSG_8|1.8MB/s'
+  network: ws
+  port: 2087
+  server: 162.159.40.243
+  servername: yxk.longlivecpc.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6ef1b079-e936-4c37-b4b4-8e59baf31eb8
+  ws-opts:
+    headers:
+      Host: yxk.longlivecpc.dpdns.org
+    path: /proxyip=ProxyIP.Oracle.cmliussss.net
+- client-fingerprint: chrome
+  name: '[VLESS] sgSG_9|2.4MB/s'
+  network: ws
+  port: 443
+  server: vip2.kaixincloud.top
+  servername: teams.live.com.afrcloud1.c01.kr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 21f9985c-d363-4eee-957f-720e9e9f9b8d
+  ws-opts:
+    headers:
+      Host: teams.live.com.afrcloud1.c01.kr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/35.0.1916.153 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: random
+  name: '[VLESS] sgSG_10|1.8MB/s'
+  network: ws
+  port: 2087
+  server: 8.39.125.176
+  servername: yxk.longlivecpc.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6ef1b079-e936-4c37-b4b4-8e59baf31eb8
+  ws-opts:
+    headers:
+      Host: yxk.longlivecpc.dpdns.org
+    path: /proxyip=ProxyIP.Oracle.cmliussss.net
 - auth: ae845cbd-08fb-4346-929a-e28a6f3960a8
   name: '[Hysteria2] sgSG²_1|9.4MB/s|30%|GPT⁺|YT-ID...'
   password: ae845cbd-08fb-4346-929a-e28a6f3960a8

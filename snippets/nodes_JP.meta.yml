@@ -181,11 +181,12 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: random
-  name: '[VLESS] jpJP_1|1.8MB/s'
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] jpJP_1|3.4MB/s'
   network: ws
-  port: 2087
-  server: 172.64.229.37
+  port: 2096
+  server: 108.162.198.154
   servername: yxk.longlivecpc.dpdns.org
   tls: true
   type: vless
@@ -194,7 +195,10 @@ proxies:
   ws-opts:
     headers:
       Host: yxk.longlivecpc.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
     path: /proxyip=ProxyIP.Oracle.cmliussss.net
+  xudp: true
 - cipher: chacha20-ietf-poly1305
   country: 🇨🇳CN
   name: '[SS] jpJP²_1|11.6MB/s|GPT|GM|YT|D+|...'

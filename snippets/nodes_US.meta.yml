@@ -143,31 +143,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: '[VLESS] usUS_1|1.1MB/s'
-  network: ws
-  port: 2053
-  server: 162.159.254.137
-  servername: snippet.danfeng21.ndjp.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng21.ndjp.net
-    max-early-data: 2560
-    path: /danfeng
-- auth: ae845cbd-08fb-4346-929a-e28a6f3960a8
-  name: '[Hysteria2] usUS_2|1.6MB/s'
-  password: ae845cbd-08fb-4346-929a-e28a6f3960a8
-  port: 2056
-  server: in2.shiyuandian.shop
-  skip-cert-verify: true
-  sni: in2.shiyuandian.shop
-  type: hysteria2
-  udp: true
 - client-fingerprint: randomized
   name: '[VLESS] US_speednode_0036'
   network: ws
@@ -228,21 +203,6 @@ proxies:
     headers:
       Host: afrcloud4.c01.kr
     path: /47.254.255.125=443
-- client-fingerprint: chrome
-  name: '[VLESS] US_speednode_0041'
-  network: ws
-  port: 2053
-  server: 104.26.12.27
-  servername: snippet.danfeng21.ndjp.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng21.ndjp.net
-    path: /danfeng
 - client-fingerprint: randomized
   name: '[VLESS] US_speednode_0042'
   network: ws

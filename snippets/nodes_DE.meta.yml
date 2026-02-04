@@ -1,5 +1,5 @@
 proxies:
-- name: '[Socks5] 🏴‍☠_1DE22｜原生/疑似家宽｜高风险 (黑名单)|4....'
+- name: '[Socks5] DE22｜原生/疑似家宽｜高风险 (黑名单)'
   port: 1080
   server: 193.233.254.7
   tls: false
@@ -87,53 +87,58 @@ proxies:
     headers:
       Host: snippet.danfeng21.ndjp.net
     path: /danfeng
-- name: '[Http] deDE²_1|2.1MB/s|9%|GPT⁺|D+|X|[...'
-  password: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9
-  port: 443
-  server: a17f17b9-t9zts0-tgr32b-wj6v.de.oshuawei.com
-  sni: a17f17b9-t9zts0-tgr32b-wj6v.de.oshuawei.com
-  tls: true
-  type: http
-  username: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁 ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] deDE²_3|1.2MB/s|X|History'
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE²_4|5.9MB/s|X'
-  network: ws
-  port: 80
-  server: 104.20.1.252
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] deDE²_1|0.9MB/s|9%|GPT⁺|X|[广播|...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: C1nTKBKNuCc5B1iMqbNBodE9W9lQJovw--jF6yhE8DM
+    short-id: '!!str 9d21bea37f7da010'
+  server: de-01.anotherboring.top
+  servername: mail.yandex.ru
+  tls: true
   type: vless
   udp: true
-  uuid: 65fe56c2-78ec-417a-a666-9f393eac8b61
+  uuid: 045ae46c-40c0-4191-b5d0-b2811d55c827
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_2|6.6MB/s|49%|GPT⁺|X|His...'
+  network: ws
+  port: 443
+  server: 208.103.161.110
+  servername: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
+  tls: true
+  type: vless
+  udp: true
+  uuid: 258bad91-733a-4e6a-96f4-11568b97c04a
   ws-opts:
     headers:
-      Host: everlASTinG-oFfERC4S5Mg1918.SpoRTLand.COMpaNy.
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /?ed
+      Host: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /ws
   xudp: true
-- name: '[Http] deDE²_5|5.4MB/s|GPT|X|[广播|机房]'
-  password: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
+- client-fingerprint: chrome
+  name: '[VLESS] deDE²_4|6.5MB/s|GPT|X|History'
+  network: ws
   port: 443
-  server: a3ddee03-t9zts0-tm23vf-1jk6u.de.oshuawei.com
-  sni: a3ddee03-t9zts0-tm23vf-1jk6u.de.oshuawei.com
+  server: 194.76.18.25
+  servername: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
   tls: true
-  type: http
-  username: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
+  type: vless
+  udp: true
+  uuid: 258bad91-733a-4e6a-96f4-11568b97c04a
+  ws-opts:
+    headers:
+      Host: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
+    path: /ws
 - name: '[VLESS] DE_speednode_0009'
   network: ws
   port: 8881

@@ -52,66 +52,179 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[Vmess] deDE_1|1.2MB/s'
+- client-fingerprint: chrome
+  name: '[VLESS] US_speednode_0041'
   network: ws
-  port: 8080
-  server: tgju.org
+  port: 2053
+  server: 104.26.12.27
+  servername: snippet.danfeng21.ndjp.net
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  tls: true
+  type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng21.ndjp.net
+    path: /danfeng
+- encryption: none
+  name: '[VLESS] deDE_2|1.1MB/s'
+  network: ws
+  port: 80
+  server: 104.18.32.47
+  type: vless
+  udp: true
+  uuid: a5712440-3cec-4a1b-82e8-767c54acd83a
+  ws-opts:
+    headers:
+      Host: authENTIC-cABinEtgqc4XfW2ud.spORTLAND.COmPAny.
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /?ed
+  xudp: true
+- encryption: none
+  name: '[VLESS] deDE_3|2.0MB/s'
+  network: ws
+  port: 80
+  server: 104.18.32.47
+  type: vless
+  udp: true
+  uuid: 1e35b4bf-b270-4c0b-918d-62746eedd2ad
+  ws-opts:
+    headers:
+      Host: everlasting-finance439p1sxxhy.sportland.company.
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /?ed
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE_4|2.0MB/s'
+  network: ws
+  port: 2053
+  server: 188.114.96.30
+  servername: wt1.v2sub.sbs
+  tls: true
+  type: vless
+  udp: true
+  uuid: e7610a7e-7d06-48a7-859d-8887f4e8cb8a
+  ws-opts:
+    headers:
+      Host: wt.v2sub.sbs
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /WioNjdhwowoHsiwow
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE_5|1.2MB/s'
+  network: ws
+  port: 443
+  server: 172.64.53.13
+  servername: germany.pahlevancompani.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e7a9fe3b-c10f-4a67-8f7b-e22c9c246d8d
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: nasnet-571296497.iranpress.co
-    max-early-data: 2560
-    path: /nasnet/cdn
+      Host: germany.pahlevancompani.com
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    max-early-data: 443
+    path: /
   xudp: true
-- name: '[Http] deDE²_3|1.0MB/s|9%|GPT⁺|D+|X'
-  password: 336501b6-51d2-11ee-a993-f23c9164ca5d
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE_6|2.5MB/s'
+  network: ws
   port: 443
-  server: 81af7b98-t9zts0-trhks8-1c9em.de.oshuawei.com
-  sni: 81af7b98-t9zts0-trhks8-1c9em.de.oshuawei.com
+  server: 104.26.3.88
+  servername: germany.pahlevancompani.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e7a9fe3b-c10f-4a67-8f7b-e22c9c246d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: germany.pahlevancompani.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.81 Safari/537.36
+    max-early-data: 443
+    path: /
+  xudp: true
+- name: '[Http] deDE_7|1.5MB/s'
+  password: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9
+  port: 443
+  server: 5d238312-t9zts0-ta2rg6-amya.de.oshuawei.com
+  sni: 5d238312-t9zts0-ta2rg6-amya.de.oshuawei.com
   tls: true
   type: http
-  username: 336501b6-51d2-11ee-a993-f23c9164ca5d
-- name: '[Http] deDE_3|3.0MB/s'
-  password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+  username: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9
+- name: '[Http] deDE_8|1.2MB/s'
+  password: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b
   port: 443
-  server: e879cb5e-t9zts0-tee612-2r82.de.oshuawei.com
-  sni: e879cb5e-t9zts0-tee612-2r82.de.oshuawei.com
+  server: 22227341-t9zts0-tbpu76-1thmd.de.oshuawei.com
+  sni: 22227341-t9zts0-tbpu76-1thmd.de.oshuawei.com
   tls: true
   type: http
-  username: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
-- name: '[Http] deDE_4|1.7MB/s'
-  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
+  username: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b
+- name: '[Http] deDE_9|1.2MB/s'
+  password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
   port: 443
-  server: e6a0ad38-t9zts0-tasftf-duku.de.oshuawei.com
-  sni: e6a0ad38-t9zts0-tasftf-duku.de.oshuawei.com
+  server: 8c8dd530-t9zts0-tbnk1n-ueq.de.oshuawei.com
+  sni: 8c8dd530-t9zts0-tbnk1n-ueq.de.oshuawei.com
   tls: true
   type: http
-  username: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-- name: '[Http] deDE_5|2.1MB/s'
-  password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
+  username: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
+- name: '[Http] deDE_10|1.3MB/s'
+  password: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
   port: 443
-  server: 7c0e00f9-t9zts0-tsdg75-tlhh.de.oshuawei.com
-  sni: 7c0e00f9-t9zts0-tsdg75-tlhh.de.oshuawei.com
+  server: cf108292-t9zts0-tbeopq-1s0a7.de.oshuawei.com
+  sni: cf108292-t9zts0-tbeopq-1s0a7.de.oshuawei.com
   tls: true
   type: http
-  username: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
-- name: '[Http] deDE_6|1.1MB/s'
-  password: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
+  username: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
+- name: '[Http] deDE_11|1.0MB/s'
+  password: 0720c874-35e8-11ef-aa88-f23c913c8d2b
   port: 443
-  server: 9f24277c-t9zts0-tnsc3a-1f0gu.de.oshuawei.com
-  sni: 9f24277c-t9zts0-tnsc3a-1f0gu.de.oshuawei.com
+  server: d102c796-t9zts0-tdq4vj-1l0qa.de.oshuawei.com
+  sni: d102c796-t9zts0-tdq4vj-1l0qa.de.oshuawei.com
   tls: true
   type: http
-  username: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
+  username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+- name: '[Http] deDE_12|1.8MB/s'
+  password: 3437f34e-1b77-11eb-8684-f23c913c8d2b
+  port: 443
+  server: a45529a9-t9zts0-tlm64c-xm0q.de.oshuawei.com
+  sni: a45529a9-t9zts0-tlm64c-xm0q.de.oshuawei.com
+  tls: true
+  type: http
+  username: 3437f34e-1b77-11eb-8684-f23c913c8d2b
+- name: '[Http] deDE_13|2.1MB/s'
+  password: de003c72-0157-11ef-86da-f23c91cfbbc9
+  port: 443
+  server: 2aef052e-t9zts0-tm3dx0-1r9dt.de.oshuawei.com
+  sni: 2aef052e-t9zts0-tm3dx0-1r9dt.de.oshuawei.com
+  tls: true
+  type: http
+  username: de003c72-0157-11ef-86da-f23c91cfbbc9
+- name: '[Http] deDE_14|2.2MB/s'
+  password: fac704ae-0304-11f0-a2ef-f23c91cfbbc9
+  port: 443
+  server: 1ca2f60f-t9zts0-tc67m2-1tjc4.de.oshuawei.com
+  sni: 1ca2f60f-t9zts0-tc67m2-1tjc4.de.oshuawei.com
+  tls: true
+  type: http
+  username: fac704ae-0304-11f0-a2ef-f23c91cfbbc9
 - name: '[Http] deDE²_1|5.7MB/s|9%|GPT|D+|X|[广...'
   password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
   port: 443
@@ -128,6 +241,14 @@ proxies:
   tls: true
   type: http
   username: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9
+- name: '[Http] deDE²_3|1.0MB/s|9%|GPT⁺|D+|X'
+  password: 336501b6-51d2-11ee-a993-f23c9164ca5d
+  port: 443
+  server: 81af7b98-t9zts0-trhks8-1c9em.de.oshuawei.com
+  sni: 81af7b98-t9zts0-trhks8-1c9em.de.oshuawei.com
+  tls: true
+  type: http
+  username: 336501b6-51d2-11ee-a993-f23c9164ca5d
 - client-fingerprint: chrome
   name: '[VLESS] deDE²_4|6.7MB/s|X|Succeed'
   network: ws

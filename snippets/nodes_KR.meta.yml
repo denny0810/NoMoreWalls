@@ -27,9 +27,17 @@ proxies:
   sni: kr2.miyazono-kaori.com
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  name: '[SS] krKR_1|2.9MB/s'
-  password: qwerREWQ@@
-  port: 48720
-  server: 27.255.82.135
-  type: ss
+- name: '[VLESS] krKR_1|1.3MB/s'
+  network: ws
+  port: 443
+  server: mobile.twitter.now.cc
+  servername: 5465765525.ccfly.tech
+  tls: true
+  type: vless
+  uuid: 4c642cae-1a6d-4e51-a1c3-fa5892437aa3
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 5465765525.ccfly.tech
+    max-early-data: 2048
+    path: /

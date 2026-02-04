@@ -135,52 +135,42 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[Http] usUS_1|1.3MB/s'
-  password: b58095f0-52dc-11ef-bc74-f23c91cfbbc9
+- name: '[Http] usUS_1|1001KB/s'
+  password: 47e91fb6-25b8-df52-bc18-3cdc8548192f
   port: 15229
-  server: 282d3f99-t9zts0-tmynyz-1s3mx.cu.oshuawei.com
-  sni: 282d3f99-t9zts0-tmynyz-1s3mx.cu.oshuawei.com
+  server: b19cd606-t9zts0-tc59t3-81nv.cu.oshuawei.com
+  sni: b19cd606-t9zts0-tc59t3-81nv.cu.oshuawei.com
   tls: true
   type: http
-  username: b58095f0-52dc-11ef-bc74-f23c91cfbbc9
-- name: '[Http] usUS_2|1.0MB/s'
-  password: ba7a37e3-033a-e1ab-06f6-9027aa4630f5
-  port: 443
-  server: 8f16bcd8-t9zts0-toa9ad-4w8.sjc.oshuawei.com
-  sni: 8f16bcd8-t9zts0-toa9ad-4w8.sjc.oshuawei.com
+  username: 47e91fb6-25b8-df52-bc18-3cdc8548192f
+- name: '[Http] usUS_2|2.0MB/s'
+  password: 921bd912-ef8a-11ef-8eaf-f23c9164ca5d
+  port: 15229
+  server: 02ec916e-t9zts0-taja66-1t926.cu.oshuawei.com
+  sni: 02ec916e-t9zts0-taja66-1t926.cu.oshuawei.com
   tls: true
   type: http
-  username: ba7a37e3-033a-e1ab-06f6-9027aa4630f5
-- name: '[Http] usUS_3|1.0MB/s'
-  password: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b
-  port: 443
-  server: 2799ac18-t9zts0-tbpu76-1thmd.sjc.oshuawei.com
-  sni: 2799ac18-t9zts0-tbpu76-1thmd.sjc.oshuawei.com
+  username: 921bd912-ef8a-11ef-8eaf-f23c9164ca5d
+- name: '[Http] usUS_3|1.3MB/s'
+  password: fac704ae-0304-11f0-a2ef-f23c91cfbbc9
+  port: 15229
+  server: 1b74ca4f-t9zts0-tc67m2-1tjc4.cu.oshuawei.com
+  sni: 1b74ca4f-t9zts0-tc67m2-1tjc4.cu.oshuawei.com
   tls: true
   type: http
-  username: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b
-- cipher: aes-256-cfb
-  name: '[SS] usUS_4|1.6MB/s'
-  password: amazonskr05
-  port: 443
-  server: 34.236.146.184
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '[SS] usUS_5|1.2MB/s'
-  password: amazonskr05
-  port: 443
-  server: 3.94.168.57
-  type: ss
-  udp: true
-- name: '[Http] usUS_6|2.0MB/s'
-  password: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
-  port: 443
-  server: 1c5b7b72-t9zts0-tnsc3a-1f0gu.sjc.oshuawei.com
-  sni: 1c5b7b72-t9zts0-tnsc3a-1f0gu.sjc.oshuawei.com
-  tls: true
-  type: http
-  username: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
+  username: fac704ae-0304-11f0-a2ef-f23c91cfbbc9
+- name: '[VLESS] usUS_4|1.4MB/s'
+  network: ws
+  port: 80
+  server: ggghju.131.pp.ua
+  servername: GgGhJU.131.pp.uA
+  tls: false
+  type: vless
+  uuid: 98b419ef-83a2-4d1b-a23d-566b7f24477b
+  ws-opts:
+    headers:
+      Host: GggHJU.131.Pp.Ua
+    path: /FHqOdFbetLpTGA5AqzZ2Mj
 - name: '[Http] usUS²_1|1.1MB/s|9%|GPT|D+|X|Su...'
   password: e29de954-ea01-11ef-a271-f23c91cfbbc9
   port: 443
@@ -280,21 +270,6 @@ proxies:
     headers:
       Host: afrcloud4.c01.kr
     path: /47.254.255.125=443
-- client-fingerprint: chrome
-  name: '[VLESS] US_speednode_0041'
-  network: ws
-  port: 2053
-  server: 104.26.12.27
-  servername: snippet.danfeng21.ndjp.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng21.ndjp.net
-    path: /danfeng
 - client-fingerprint: randomized
   name: '[VLESS] US_speednode_0042'
   network: ws

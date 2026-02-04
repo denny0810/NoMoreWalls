@@ -52,7 +52,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 77aad73d-03e7-441b-9bc5-98d13535ba3e
-- name: '[Trojan] HK24｜家宽｜非常安全'
+- name: '[Trojan] hkHK_1|1015KB/s'
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
@@ -181,6 +181,7 @@ proxies:
   network: ws
   port: 2086
   server: 154.83.2.156
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
@@ -319,7 +320,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[Trojan] hkHK_1|1.6MB/s'
+- name: '[Trojan] hkHK_2|1.9MB/s'
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
   port: 443
@@ -331,15 +332,15 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 2266
-  server: 54.46.5.155
+  server: 18.177.138.102
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[Trojan] 香港5|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 2266
-  server: 57.181.26.149
+  port: 443
+  server: 58.152.30.222
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -347,31 +348,23 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 20539
-  server: 57.181.26.149
+  server: 43.206.238.87
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
-  type: trojan
-- name: '[Trojan] 日本2|@ripaojiedian'
-  network: tcp
-  password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 443
-  server: 157.120.36.210
-  skip-cert-verify: false
-  sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 日本3|@ripaojiedian'
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
   port: 443
-  server: 116.80.76.130
+  server: 116.80.60.36
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 新加坡|@ripaojiedian'
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 443
-  server: 152.42.254.150
+  port: 390
+  server: 160.16.87.174
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -379,25 +372,17 @@ proxies:
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
   port: 443
-  server: 178.128.114.70
+  server: 152.42.254.150
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 新加坡3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 1196
-  server: 57.181.26.149
+  port: 3579
+  server: 18.182.62.89
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
-  type: trojan
-- name: '[Trojan] 美国|@ripaojiedian'
-  network: tcp
-  password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 443
-  server: 38.180.137.196
-  skip-cert-verify: false
-  sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 美国2|@ripaojiedian'
   network: tcp
@@ -411,16 +396,25 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 1221
-  server: 3.112.197.3
+  server: 18.182.62.89
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: '[SS] 韩国|@ripaojiedian'
-  password: qwerREWQ@@
-  port: 16449
-  server: 218.50.149.114
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: '[Vmess] 香港2|@ripaojiedian'
+  network: ws
+  port: '80'
+  server: 609a8c34-t9w4g0-thiwul-1gcq2.hkt.gotochinatown.net
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 759bf004-6137-11ec-bd7c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 2
   cipher: auto
   name: '[Vmess] 香港|@ripaojiedian'
@@ -431,36 +425,11 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: '[SS] vnVN_1|1.6MB/s'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.43
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_4|2.6MB/s|X|History'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.246
-  type: ss
-- cipher: aes-256-cfb
-  name: '[SS] vnVN_3|1.2MB/s'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.15
-  type: ss
-- cipher: aes-256-cfb
-  name: '[SS] vnVN_4|1.4MB/s'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.126
-  type: ss
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: '[Vmess] deDE_3|2.4MB/s'
+  name: '[Vmess] deDE_1|3.3MB/s'
   network: ws
   port: 8080
   server: tgju.org
@@ -476,6 +445,118 @@ proxies:
     max-early-data: 2560
     path: /nasnet/cdn
   xudp: true
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] usUS_1|1.5MB/s'
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] gbGB_1|2.4MB/s'
+  password: kaQH3hGdcP80XEDI
+  port: 443
+  server: admin.c2.havij.co
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: '[Vmess] usUS_3|2.9MB/s'
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-128-gcm
+  name: '[SS] gbGB_2|1006KB/s'
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: chengbai02.ascwt179.com
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_1|2.1MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.62
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_1|2.7MB/s|GPT⁺|GM|X|Hist...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.227
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_2|1.4MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.54
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_5|1.9MB/s|GPT⁺|X|Succeed'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.120
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_5|2.0MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.147
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_6|1022KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.143
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_7|1.9MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.242
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_8|1.4MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.186
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_9|1.5MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.62
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_10|1.9MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.124
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_11|2.0MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.224
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇨🇳 CN
+  name: '[SS] vnVN²_8|2.4MB/s|GM|X|History|[...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.43
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_13|1.6MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.64
+  type: ss
 - alterId: 2
   cipher: auto
   country: 🇭🇰HK
@@ -637,13 +718,6 @@ proxies:
       HOST: eb894086-t70f40-t7luxf-tng5.hkt.gotochinatown.net
       Host: eb894086-t70f40-t7luxf-tng5.hkt.gotochinatown.net
     path: /
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_1|2.7MB/s|GPT⁺|GM|X|Hist...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.227
-  type: ss
 - alterId: 2
   cipher: auto
   country: 🇭🇰HK
@@ -950,6 +1024,13 @@ proxies:
       HOST: broadcastlv.chat.bilibili.com
       Host: afb0df67-t8ysg0-tighxj-12hj8.hkt.gotochinatown.net
     path: /
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_4|2.6MB/s|X|History'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.246
+  type: ss
 - alterId: 2
   cipher: auto
   country: 🇭🇰HK
@@ -1115,13 +1196,6 @@ proxies:
       HOST: broadcastlv.chat.bilibili.com
       Host: fb87d6c5-t8wxs0-ta5nd4-e06r.hkt.gotochinatown.net
     path: /
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_5|1.9MB/s|GPT⁺|X|Succeed'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.120
-  type: ss
 - alterId: 2
   cipher: auto
   country: 🇭🇰HK
@@ -1333,13 +1407,6 @@ proxies:
       HOST: 3da0d7be-t70f40-tnkuks-wujn.hkt.gotochinatown.net
       Host: 3da0d7be-t70f40-tnkuks-wujn.hkt.gotochinatown.net
     path: /
-- cipher: aes-256-cfb
-  country: 🇨🇳 CN
-  name: '[SS] vnVN²_8|2.4MB/s|GM|X|History|[...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.43
-  type: ss
 - alterId: 2
   cipher: auto
   country: 🇨🇳CN

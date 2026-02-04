@@ -8,23 +8,43 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[Hysteria2] fr@SimChin_iR جوین شید'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36600
+  server: 206.71.158.37
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] frFR_1|1.8MB/s'
+  name: '[VLESS] frFR_1|1.2MB/s'
   network: ws
   port: 443
-  server: 104.18.32.47
-  servername: rAyAn-cOnFiG-it-1.pAriSa.dPdNs.oRg
+  server: 104.24.69.114
+  servername: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
+  tls: true
+  type: vless
+  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+  ws-opts:
+    headers:
+      Host: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
+    path: /ws
+- client-fingerprint: firefox
+  encryption: none
+  name: '[VLESS] frFR_2|1.8MB/s'
+  network: tcp
+  port: 3039
+  reality-opts:
+    public-key: 21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI
+    short-id: '!!str '
+  server: se.locations-service.com
+  servername: refersion.com
   tls: true
   type: vless
   udp: true
-  uuid: 8388434b-bbc8-4e00-b497-69a7f56f6e24
-  ws-opts:
-    headers:
-      Host: rAyAn-cOnFiG-it-1.pAriSa.dPdNs.oRg
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.81 Safari/537.36
-    path: /ws
+  uuid: d73a9db0-24b5-4592-8ff0-4f0b5329b39f
   xudp: true
 - name: '[Http] frFR²_1|2.1MB/s|X'
   password: f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b

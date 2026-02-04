@@ -27,7 +27,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[Trojan] HK24｜家宽｜非常安全'
+- name: '[Trojan] hkHK_1|1015KB/s'
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
@@ -131,7 +131,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[Trojan] hkHK_1|1.6MB/s'
+- name: '[Trojan] hkHK_2|1.9MB/s'
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
   port: 443
@@ -143,18 +143,33 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 2266
-  server: 54.46.5.155
+  server: 18.177.138.102
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[Trojan] 香港5|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 2266
-  server: 57.181.26.149
+  port: 443
+  server: 58.152.30.222
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 2
+  cipher: auto
+  name: '[Vmess] 香港2|@ripaojiedian'
+  network: ws
+  port: '80'
+  server: 609a8c34-t9w4g0-thiwul-1gcq2.hkt.gotochinatown.net
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 759bf004-6137-11ec-bd7c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 2
   cipher: auto
   name: '[Vmess] 香港|@ripaojiedian'
@@ -165,14 +180,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[Http] hkHK_2|1.3MB/s'
-  password: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b
+- name: '[Http] hkHK_3|1.1MB/s'
+  password: b4e40aa2-74a1-11ed-b0b5-f23c9164ca5d
   port: 5228
-  server: 4d866649-t9zts0-tcr22d-1rsuw.cm4.oshuawei.com
-  sni: 4d866649-t9zts0-tcr22d-1rsuw.cm4.oshuawei.com
+  server: 3a5c4caf-t9zts0-tcfo40-17xo8.cm4.oshuawei.com
+  sni: 3a5c4caf-t9zts0-tcfo40-17xo8.cm4.oshuawei.com
   tls: true
   type: http
-  username: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b
+  username: b4e40aa2-74a1-11ed-b0b5-f23c9164ca5d
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

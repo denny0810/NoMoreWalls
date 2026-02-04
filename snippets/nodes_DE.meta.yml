@@ -72,7 +72,7 @@ proxies:
     max-early-data: 2560
     path: /nasnet/cdn
   xudp: true
-- name: '[Http] deDE_2|1.8MB/s'
+- name: '[Http] deDE²_3|1.0MB/s|9%|GPT⁺|D+|X'
   password: 336501b6-51d2-11ee-a993-f23c9164ca5d
   port: 443
   server: 81af7b98-t9zts0-trhks8-1c9em.de.oshuawei.com
@@ -112,34 +112,24 @@ proxies:
   tls: true
   type: http
   username: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE²_1|6.6MB/s|49%|GPT⁺|X|Suc...'
-  network: ws
+- name: '[Http] deDE²_1|5.7MB/s|9%|GPT|D+|X|[广...'
+  password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
   port: 443
-  server: 208.103.161.110
-  servername: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
-  tls: true
-  type: vless
-  udp: true
-  uuid: 258bad91-733a-4e6a-96f4-11568b97c04a
-  ws-opts:
-    headers:
-      Host: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /ws
-  xudp: true
-- name: '[Http] deDE²_2|0.5MB/s|9%|GPT⁺|D+|X|H...'
-  password: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
-  port: 443
-  server: a3ddee03-t9zts0-tm23vf-1jk6u.de.oshuawei.com
-  sni: a3ddee03-t9zts0-tm23vf-1jk6u.de.oshuawei.com
+  server: bd1509c5-t9zts0-tbao5v-gacy.de.oshuawei.com
+  sni: bd1509c5-t9zts0-tbao5v-gacy.de.oshuawei.com
   tls: true
   type: http
-  username: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
+  username: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
+- name: '[Http] deDE²_2|1.9MB/s|X|History|[广播|...'
+  password: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9
+  port: 443
+  server: a17f17b9-t9zts0-tgr32b-wj6v.de.oshuawei.com
+  sni: a17f17b9-t9zts0-tgr32b-wj6v.de.oshuawei.com
+  tls: true
+  type: http
+  username: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9
 - client-fingerprint: chrome
-  name: '[VLESS] deDE²_3|6.6MB/s|49%|X|Succeed'
+  name: '[VLESS] deDE²_4|6.7MB/s|X|Succeed'
   network: ws
   port: 443
   server: 194.76.18.25
@@ -152,14 +142,24 @@ proxies:
     headers:
       Host: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
     path: /ws
-- name: '[Http] deDE²_4|3.4MB/s|GPT|D+|X|[广播|机...'
-  password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_5|0.8MB/s|X'
+  network: ws
   port: 443
-  server: 28140a0e-t9zts0-tbfs5p-1bonh.de.oshuawei.com
-  sni: 28140a0e-t9zts0-tbfs5p-1bonh.de.oshuawei.com
+  server: 103.31.4.133
+  servername: rAyAn-cOnFiG-de-1.pAriSa.dPdNs.oRg
   tls: true
-  type: http
-  username: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
+  type: vless
+  udp: true
+  uuid: 258bad91-733a-4e6a-96f4-11568b97c04a
+  ws-opts:
+    headers:
+      Host: rAyAn-cOnFiG-de-1.pAriSa.dPdNs.oRg
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
+    path: /ws
+  xudp: true
 - name: '[VLESS] DE_speednode_0009'
   network: ws
   port: 8881

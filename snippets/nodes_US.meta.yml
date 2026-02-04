@@ -135,50 +135,14 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[Http] usUS_1|1001KB/s'
-  password: 47e91fb6-25b8-df52-bc18-3cdc8548192f
-  port: 15229
-  server: b19cd606-t9zts0-tc59t3-81nv.cu.oshuawei.com
-  sni: b19cd606-t9zts0-tc59t3-81nv.cu.oshuawei.com
+- name: '[Http] usUS_1|1.1MB/s'
+  password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
+  port: 443
+  server: 6c6c710e-t9zts0-ta5i1s-1j61y.sjc.oshuawei.com
+  sni: 6c6c710e-t9zts0-ta5i1s-1j61y.sjc.oshuawei.com
   tls: true
   type: http
-  username: 47e91fb6-25b8-df52-bc18-3cdc8548192f
-- name: '[Http] usUS_2|2.0MB/s'
-  password: 921bd912-ef8a-11ef-8eaf-f23c9164ca5d
-  port: 15229
-  server: 02ec916e-t9zts0-taja66-1t926.cu.oshuawei.com
-  sni: 02ec916e-t9zts0-taja66-1t926.cu.oshuawei.com
-  tls: true
-  type: http
-  username: 921bd912-ef8a-11ef-8eaf-f23c9164ca5d
-- name: '[Http] usUS_3|1.3MB/s'
-  password: fac704ae-0304-11f0-a2ef-f23c91cfbbc9
-  port: 15229
-  server: 1b74ca4f-t9zts0-tc67m2-1tjc4.cu.oshuawei.com
-  sni: 1b74ca4f-t9zts0-tc67m2-1tjc4.cu.oshuawei.com
-  tls: true
-  type: http
-  username: fac704ae-0304-11f0-a2ef-f23c91cfbbc9
-- name: '[VLESS] usUS_4|1.4MB/s'
-  network: ws
-  port: 80
-  server: ggghju.131.pp.ua
-  servername: GgGhJU.131.pp.uA
-  tls: false
-  type: vless
-  uuid: 98b419ef-83a2-4d1b-a23d-566b7f24477b
-  ws-opts:
-    headers:
-      Host: GggHJU.131.Pp.Ua
-    path: /FHqOdFbetLpTGA5AqzZ2Mj
-- name: '[Http] usUS²_1|0.9MB/s|X'
-  password: 34ddff9e-049d-444d-8bee-ae45928019ef
-  port: 4449
-  server: 4-n67hzkyu.mix.dexiansheng.com
-  sni: 4-n67hzkyu.mix.dexiansheng.com
-  tls: true
-  type: http
-  username: walless
+  username: f13f964e-f06c-11ec-a858-f23c91cfbbc9
 - client-fingerprint: chrome
   encryption: none
   name: '[VLESS] usUS¹-SG⁰_1|7.5MB/s|GPT|YT|TK|...'
@@ -199,6 +163,30 @@ proxies:
     max-early-data: 2560
     path: /danfeng
   xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] usUS_3|2.4MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QNeqTtf7YHPKRQmBQuk15pdy5NqgLcmFi8nSUby64GQ
+    short-id: '!!str 0f4dacf08722a99f'
+  server: tmc.langry.ru
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3209ec50-2909-4972-83cb-93349f9d94fd
+  xudp: true
+- name: '[Http] usUS²_1|0.9MB/s|X'
+  password: 34ddff9e-049d-444d-8bee-ae45928019ef
+  port: 4449
+  server: 4-n67hzkyu.mix.dexiansheng.com
+  sni: 4-n67hzkyu.mix.dexiansheng.com
+  tls: true
+  type: http
+  username: walless
 - alpn:
   - h2
   client-fingerprint: chrome
@@ -285,6 +273,21 @@ proxies:
     headers:
       Host: afrcloud4.c01.kr
     path: /47.254.255.125=443
+- client-fingerprint: chrome
+  name: '[VLESS] US_speednode_0041'
+  network: ws
+  port: 2053
+  server: 104.26.12.27
+  servername: snippet.danfeng21.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng21.ndjp.net
+    path: /danfeng
 - client-fingerprint: randomized
   name: '[VLESS] US_speednode_0042'
   network: ws

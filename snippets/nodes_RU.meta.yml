@@ -1,6 +1,37 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
+  name: '[VLESS] ruRU_1|2.5MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 0A5HG2mLQuxhnmuc12J2VJiXKS8KlQrSN0gnm42kOUE
+    short-id: '!!str d817'
+  server: 109.172.87.92
+  servername: ozon.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8df8d701-38b4-5175-89ef-7447a1250e67
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] ruRU_2|2.7MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 0A5HG2mLQuxhnmuc12J2VJiXKS8KlQrSN0gnm42kOUE
+    short-id: '!!str d817'
+  server: 109.172.87.92
+  servername: ozon.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: '[VLESS] RU_speednode_0026'
   port: 443
   reality-opts:

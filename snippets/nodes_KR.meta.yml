@@ -27,20 +27,28 @@ proxies:
   sni: kr2.miyazono-kaori.com
   tls: false
   type: hysteria2
-- name: '[VLESS] krKR_1|1.3MB/s'
-  network: ws
+- cipher: aes-256-cfb
+  name: '[SS] krKR_1|2.2MB/s'
+  password: qwerREWQ@@
+  port: 19203
+  server: 121.170.203.147
+  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] krKR_2|1.2MB/s'
+  network: tcp
   port: 443
-  server: mobile.twitter.now.cc
-  servername: 5465765525.ccfly.tech
+  reality-opts:
+    public-key: MUr-0xaCfV0855VUaQnAKaPB1uzb_0W6GWRWH141pDQ
+    short-id: '!!str 0a77acf82203e11f'
+  server: kr-most.asbndx.com
+  servername: kr-most.asbndx.com
   tls: true
   type: vless
-  uuid: 4c642cae-1a6d-4e51-a1c3-fa5892437aa3
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: 5465765525.ccfly.tech
-    max-early-data: 2048
-    path: /
+  udp: true
+  uuid: 3209ec50-2909-4972-83cb-93349f9d94fd
+  xudp: true
 - cipher: aes-256-cfb
   country: 🇰🇷KR
   name: '[SS] krKR²_2|9.7MB/s|X|History'

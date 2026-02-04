@@ -18,30 +18,33 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '[Http] frFR_1|1014KB/s'
-  password: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
-  port: 443
-  server: 0a35a22d-t9zts0-th9kx9-1os43.fr.oshuawei.com
-  sni: 0a35a22d-t9zts0-th9kx9-1os43.fr.oshuawei.com
-  tls: true
-  type: http
-  username: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
-- name: '[Http] frFR_2|1.5MB/s'
-  password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
-  port: 443
-  server: 4417fd10-t9zts0-tcw58g-1p0be.fr.oshuawei.com
-  sni: 4417fd10-t9zts0-tcw58g-1p0be.fr.oshuawei.com
-  tls: true
-  type: http
-  username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
-- name: '[Http] frFR_3|1.0MB/s'
-  password: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
-  port: 443
-  server: dd3f2f5e-t9zts0-tkp3tl-1s09x.fr.oshuawei.com
-  sni: dd3f2f5e-t9zts0-tkp3tl-1s09x.fr.oshuawei.com
-  tls: true
-  type: http
-  username: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[Vmess] frFR_1|1.5MB/s'
+  network: ws
+  port: 8080
+  server: tgju.org
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-162191099.sharghdaily.co
+    max-early-data: 2560
+    path: /nasnet/cdn
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] frFR_2|3.7MB/s'
+  password: hnITSVgdQOQF6aCT4YIizv
+  port: 5223
+  server: 51.254.142.162
+  type: ss
+  udp: true
 - name: '[Http] frFR²_1|1.9MB/s|GPT|X'
   password: b58095f0-52dc-11ef-bc74-f23c91cfbbc9
   port: 443

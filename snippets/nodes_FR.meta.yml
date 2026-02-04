@@ -18,77 +18,20 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: '[VLESS] frFR_1|1.2MB/s'
-  network: ws
+- cipher: aes-256-cfb
+  name: '[SS] frFR_1|3.2MB/s'
+  password: amazonskr05
   port: 443
-  server: 104.24.69.114
-  servername: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
-  tls: true
-  type: vless
-  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
-  ws-opts:
-    headers:
-      Host: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
-    path: /ws
-- client-fingerprint: firefox
-  encryption: none
-  name: '[VLESS] frFR_2|1.8MB/s'
-  network: tcp
-  port: 3039
-  reality-opts:
-    public-key: 21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI
-    short-id: '!!str '
-  server: se.locations-service.com
-  servername: refersion.com
-  tls: true
-  type: vless
+  server: 15.188.147.212
+  type: ss
   udp: true
-  uuid: d73a9db0-24b5-4592-8ff0-4f0b5329b39f
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: '[Vmess] frFR²_1|0.8MB/s|GPT|X|Succeed'
-  network: ws
-  port: 8080
-  server: 188.114.98.0
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] frFR_2|1.7MB/s'
+  password: hnITSVgdQOQF6aCT4YIizv
+  port: 5223
+  server: 51.254.142.162
+  type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nasnet-162191099.sharghdaily.co
-    path: /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
-  xudp: true
-- name: '[Http] frFR²_2|1.5MB/s|X|Succeed'
-  password: f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b
-  port: 443
-  server: 01d9eacf-t9zts0-taxf6m-ieln.fr.oshuawei.com
-  sni: 01d9eacf-t9zts0-taxf6m-ieln.fr.oshuawei.com
-  tls: true
-  type: http
-  username: f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] frFR²_3|4.7MB/s|21%|X|Succeed'
-  network: ws
-  port: 443
-  server: 194.76.18.25
-  servername: rAyAn-cOnFiG-it-1.pArSa.dPdNs.oRg
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8388434b-bbc8-4e00-b497-69a7f56f6e24
-  ws-opts:
-    headers:
-      Host: rAyAn-cOnFiG-it-1.pArSa.dPdNs.oRg
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
-    path: /ws
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] FR_speednode_0012'

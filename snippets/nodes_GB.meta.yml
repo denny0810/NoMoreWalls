@@ -1,20 +1,8 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] gbGB_1|2.4MB/s'
-  password: kaQH3hGdcP80XEDI
-  port: 443
-  server: admin.c2.havij.co
-  type: ss
-- cipher: aes-128-gcm
-  name: '[SS] gbGB_2|1006KB/s'
-  password: JVrsLLN1tkN8oXZO
-  port: 13223
-  server: chengbai02.ascwt179.com
-  type: ss
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[VLESS] gbGB²_1|5.9MB/s|GPT|X'
+  name: '[VLESS] gbGB²_1|1.0MB/s|GPT|X|Succeed|...'
   network: tcp
   port: 443
   reality-opts:
@@ -27,22 +15,6 @@ proxies:
   udp: true
   uuid: 56d1d355-92c9-4a9c-91e4-327d29d9a82f
   xudp: true
-- name: '[Http] 🏴‍☠_1gb 英国 | GBR 4|1.9MB/s|X'
-  password: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
-  port: 443
-  server: 4152686e-t9zts0-t9x9zr-1lkt0.uk.oshuawei.com
-  sni: 4152686e-t9zts0-t9x9zr-1lkt0.uk.oshuawei.com
-  tls: true
-  type: http
-  username: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
-- name: '[Http] gbGB²_2|0.8MB/s|GPT|X'
-  password: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
-  port: 443
-  server: 0b517612-t9zts0-tcq5zn-19qpt.uk.oshuawei.com
-  sni: 0b517612-t9zts0-tcq5zn-19qpt.uk.oshuawei.com
-  tls: true
-  type: http
-  username: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] GB_speednode_0014'

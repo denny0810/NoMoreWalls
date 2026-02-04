@@ -56,7 +56,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: '[Vmess] deDE_1|3.3MB/s'
+  name: '[Vmess] deDE_1|1.2MB/s'
   network: ws
   port: 8080
   server: tgju.org
@@ -72,44 +72,49 @@ proxies:
     max-early-data: 2560
     path: /nasnet/cdn
   xudp: true
-- client-fingerprint: chrome
-  name: '[VLESS] US_speednode_0041'
-  network: ws
-  port: 2053
-  server: 104.26.12.27
-  servername: snippet.danfeng21.ndjp.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng21.ndjp.net
-    path: /danfeng
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] deDE²_1|0.9MB/s|9%|GPT⁺|X|[广播|...'
-  network: tcp
+- name: '[Http] deDE_2|1.8MB/s'
+  password: 336501b6-51d2-11ee-a993-f23c9164ca5d
   port: 443
-  reality-opts:
-    public-key: C1nTKBKNuCc5B1iMqbNBodE9W9lQJovw--jF6yhE8DM
-    short-id: '!!str 9d21bea37f7da010'
-  server: de-01.anotherboring.top
-  servername: mail.yandex.ru
+  server: 81af7b98-t9zts0-trhks8-1c9em.de.oshuawei.com
+  sni: 81af7b98-t9zts0-trhks8-1c9em.de.oshuawei.com
   tls: true
-  type: vless
-  udp: true
-  uuid: 045ae46c-40c0-4191-b5d0-b2811d55c827
-  xudp: true
+  type: http
+  username: 336501b6-51d2-11ee-a993-f23c9164ca5d
+- name: '[Http] deDE_3|3.0MB/s'
+  password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+  port: 443
+  server: e879cb5e-t9zts0-tee612-2r82.de.oshuawei.com
+  sni: e879cb5e-t9zts0-tee612-2r82.de.oshuawei.com
+  tls: true
+  type: http
+  username: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+- name: '[Http] deDE_4|1.7MB/s'
+  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
+  port: 443
+  server: e6a0ad38-t9zts0-tasftf-duku.de.oshuawei.com
+  sni: e6a0ad38-t9zts0-tasftf-duku.de.oshuawei.com
+  tls: true
+  type: http
+  username: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
+- name: '[Http] deDE_5|2.1MB/s'
+  password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
+  port: 443
+  server: 7c0e00f9-t9zts0-tsdg75-tlhh.de.oshuawei.com
+  sni: 7c0e00f9-t9zts0-tsdg75-tlhh.de.oshuawei.com
+  tls: true
+  type: http
+  username: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
+- name: '[Http] deDE_6|1.1MB/s'
+  password: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
+  port: 443
+  server: 9f24277c-t9zts0-tnsc3a-1f0gu.de.oshuawei.com
+  sni: 9f24277c-t9zts0-tnsc3a-1f0gu.de.oshuawei.com
+  tls: true
+  type: http
+  username: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE²_2|6.6MB/s|49%|GPT⁺|X|His...'
+  name: '[VLESS] deDE²_1|6.6MB/s|49%|GPT⁺|X|Suc...'
   network: ws
   port: 443
   server: 208.103.161.110
@@ -125,8 +130,16 @@ proxies:
         like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /ws
   xudp: true
+- name: '[Http] deDE²_2|0.5MB/s|9%|GPT⁺|D+|X|H...'
+  password: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
+  port: 443
+  server: a3ddee03-t9zts0-tm23vf-1jk6u.de.oshuawei.com
+  sni: a3ddee03-t9zts0-tm23vf-1jk6u.de.oshuawei.com
+  tls: true
+  type: http
+  username: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
 - client-fingerprint: chrome
-  name: '[VLESS] deDE²_4|6.5MB/s|GPT|X|History'
+  name: '[VLESS] deDE²_3|6.6MB/s|49%|X|Succeed'
   network: ws
   port: 443
   server: 194.76.18.25
@@ -139,6 +152,14 @@ proxies:
     headers:
       Host: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
     path: /ws
+- name: '[Http] deDE²_4|3.4MB/s|GPT|D+|X|[广播|机...'
+  password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
+  port: 443
+  server: 28140a0e-t9zts0-tbfs5p-1bonh.de.oshuawei.com
+  sni: 28140a0e-t9zts0-tbfs5p-1bonh.de.oshuawei.com
+  tls: true
+  type: http
+  username: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
 - name: '[VLESS] DE_speednode_0009'
   network: ws
   port: 8881

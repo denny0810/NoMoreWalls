@@ -171,14 +171,60 @@ proxies:
     headers:
       Host: GggHJU.131.Pp.Ua
     path: /FHqOdFbetLpTGA5AqzZ2Mj
-- name: '[Http] usUS²_1|12.0MB/s|GPT⁺|NF|D+|X'
-  password: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9
-  port: 443
-  server: c06023d0-t9zts0-tk5ls1-z7a1.jp.oshuawei.com
-  sni: c06023d0-t9zts0-tk5ls1-z7a1.jp.oshuawei.com
+- name: '[Http] usUS²_1|0.9MB/s|X'
+  password: 34ddff9e-049d-444d-8bee-ae45928019ef
+  port: 4449
+  server: 4-n67hzkyu.mix.dexiansheng.com
+  sni: 4-n67hzkyu.mix.dexiansheng.com
   tls: true
   type: http
-  username: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9
+  username: walless
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] usUS¹-SG⁰_1|7.5MB/s|GPT|YT|TK|...'
+  network: ws
+  port: 2053
+  server: 104.17.73.206
+  servername: snippet.fgfw.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.fgfw.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    max-early-data: 2560
+    path: /danfeng
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: '[VLESS] usUS²_2|9.8MB/s|41%|GPT⁺|X'
+  network: ws
+  port: 8443
+  server: www.ntu.edu.sg
+  servername: rncf.wwxgxn.cfd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 572a0d47-567c-4085-a2de-69cc41365a27
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: rncf.wwxgxn.cfd
+    max-early-data: 2560
+    path: /sayuri
+- name: '[Http] usUS²_3|6.7MB/s|GPT⁺|NF|X'
+  password: 6e3ee1de-381f-11ee-87f9-f23c91cfbbc9
+  port: 15229
+  server: 66678375-t9zts0-tnqudu-1mim2.cu.oshuawei.com
+  sni: 66678375-t9zts0-tnqudu-1mim2.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 6e3ee1de-381f-11ee-87f9-f23c91cfbbc9
 - client-fingerprint: randomized
   name: '[VLESS] US_speednode_0036'
   network: ws

@@ -48,38 +48,54 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[Http] sgSG²_1|7.9MB/s|44%|GPT⁺|GM|YT...'
-  password: 5edb4d21-6cc1-4d46-8823-9a0e14d83455
-  port: 4449
-  server: 4-ndsrzkgg.mix.dexiansheng.com
-  sni: 4-ndsrzkgg.mix.dexiansheng.com
-  tls: true
-  type: http
-  username: walless
-- name: '[Http] sgSG²_2|2.9MB/s|GPT⁺|X'
-  password: 5edb4d21-6cc1-4d46-8823-9a0e14d83455
-  port: 4446
-  server: 4-nqvrfftt.mix.dexiansheng.com
-  sni: 4-nqvrfftt.mix.dexiansheng.com
-  tls: true
-  type: http
-  username: walless
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: '[Vmess] sgSG²_3|6.5MB/s|X|History'
+- client-fingerprint: chrome
+  name: '[VLESS] sgSG_1|1.4MB/s'
   network: ws
-  port: 8080
-  server: tgju.org
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  port: 2053
+  server: v2.dabache.top
+  servername: snippet.fgfw.de5.net
+  tls: true
+  type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: nasnet-571296497.iranpress.co
+      Host: snippet.fgfw.de5.net
     max-early-data: 2560
-    path: /nasnet/cdn
-  xudp: true
+    path: /danfeng
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] sgSG²_2|15.4MB/s|48%|GPT⁺|GM|Y...'
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  servername: v45.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[Socks5] sgSG²_3|13.8MB/s|GPT|X'
+  password: ''
+  port: 10880
+  server: 213.35.110.67
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] sgSG²_5|1.0MB/s|GPT⁺|X|History'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.176
+  type: ss
+- cipher: aes-128-gcm
+  country: 🏁ZZ
+  name: '[SS] sgSG²_9|10.8MB/s|0%|GPT⁺|GM|YT...'
+  password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
+  port: 50008
+  server: lh2.cac.cab
+  type: ss

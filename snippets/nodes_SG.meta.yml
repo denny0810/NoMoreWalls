@@ -48,42 +48,20 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[Trojan] sgSG_1|1.4MB/s'
+- client-fingerprint: chrome
+  name: '[VLESS] sgSG_1|3.1MB/s'
   network: ws
-  password: a9570330-769d-11ef-90dc-1577c1651679
-  port: 443
-  server: 104.18.1.196
-  skip-cert-verify: false
-  sni: sg-trojan.andfree.my.id
-  type: trojan
-  ws-opts:
-    headers:
-      Host: sg-trojan.andfree.my.id
-    path: /%2Fwelcome
-- encryption: none
-  name: '[VLESS] sgSG_2|3.3MB/s'
-  network: ws
-  port: 80
-  server: 162.159.14.88
+  port: 2053
+  server: 1357900.xyz
+  servername: snippet.danfeng.gleeze.com
+  tls: true
   type: vless
   udp: true
-  uuid: 55cb8179-ce11-4ec8-a03c-333f797265f9
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: long-forest-ac72.salari1382m.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.101 Safari/537.36
-    max-early-data: 2048
-    path: /
-  xudp: true
-- name: '[Socks5] sgSG²_1|0.8MB/s|X'
-  password: ''
-  port: 10807
-  server: 213.35.110.67
-  skip-cert-verify: true
-  type: socks5
-  username: ''
+      Host: snippet.danfeng.gleeze.com
+    path: /danfeng
 - client-fingerprint: chrome
   name: '[VLESS] SG_speednode_0035'
   port: 443

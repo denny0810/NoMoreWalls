@@ -68,11 +68,10 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[Vmess] usUS_2|1.4MB/s'
+  name: '[Vmess] US18｜机房｜低风险'
   network: ws
-  port: 2086
+  port: '2086'
   server: 154.83.2.156
-  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
@@ -144,33 +143,152 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: randomized
-  name: '[VLESS] US_speednode_0042'
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] usUS_1|1.2MB/s'
   network: ws
-  port: 2095
-  server: www.epicgames.com
-  servername: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+  port: 80
+  server: vvbght.932.pp.ua
+  servername: vvbght.932.pp.ua
   skip-cert-verify: false
   tls: false
-  type: vless
+  type: vmess
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  uuid: 4115f84d-3b03-4b03-babf-21b36b2f9c03
   ws-opts:
     headers:
-      Host: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
-    path: /
-- name: '[VLESS] usUS_3|2.5MB/s'
+      Host: vvbght.932.pp.ua
+    path: /GgigazFGDLgFWDItkD5XgXAL
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] usUS_2|1.2MB/s'
   network: ws
-  port: 18521
-  server: 173.249.201.109
-  servername: mot.saghv.filegear-sg.me
+  port: 2053
+  server: 104.17.73.206
+  servername: snippet.fgfw.de5.net
   tls: true
   type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
+  udp: true
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.fgfw.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/56.0.2924.87 Safari/537.36
+    max-early-data: 2560
+    path: /danfeng
+  xudp: true
+- cipher: aes-256-cfb
+  name: '[SS] usUS_3|1.8MB/s'
+  password: amazonskr05
+  port: 443
+  server: 13.217.198.211
+  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] usUS_4|1.2MB/s'
+  network: ws
+  port: 2096
+  server: 141.11.203.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: mot.saghv.filegear-sg.me
-    path: /@Marisa_kristi
+      Host: sni.jpmj.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] usUS_5|1.7MB/s'
+  network: ws
+  port: 2096
+  server: 162.120.94.138
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] usUS_6|1.8MB/s'
+  network: ws
+  port: 2096
+  server: 25.129.198.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] usUS_7|1.7MB/s'
+  network: ws
+  port: 2096
+  server: 45.12.30.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  xudp: true
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] usUS_8|1.2MB/s'
+  network: tcp
+  port: 443
+  server: s415.okgfwbackxyz.xyz
+  servername: u729804u99a3s415.okgfwbackxyz.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: c2b6ef4f-58b5-34df-a9b2-b9423df641d9
+  xudp: true
+- client-fingerprint: chrome
+  name: '[VLESS] usUS_9|1.9MB/s'
+  network: ws
+  port: 2053
+  server: 104.17.71.206
+  servername: snippet.sheilabelinda.ndjp.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.sheilabelinda.ndjp.net
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /danfeng
+  xudp: true
 - client-fingerprint: randomized
   name: '[VLESS] US_speednode_0036'
   network: ws
@@ -231,3 +349,33 @@ proxies:
     headers:
       Host: afrcloud4.c01.kr
     path: /47.254.255.125=443
+- client-fingerprint: chrome
+  name: '[VLESS] US_speednode_0041'
+  network: ws
+  port: 2053
+  server: 104.26.12.27
+  servername: snippet.danfeng21.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng21.ndjp.net
+    path: /danfeng
+- client-fingerprint: randomized
+  name: '[VLESS] US_speednode_0042'
+  network: ws
+  port: 2095
+  server: www.epicgames.com
+  servername: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+    path: /

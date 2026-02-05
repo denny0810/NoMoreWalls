@@ -162,20 +162,26 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: '[Vmess] hkHK²_1|1.0MB/s|0%|GPT⁺|GM|YT|...'
-  network: ws
-  port: 52511
-  server: aflzzul.meiquankongjian.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] hkHK_1|1.2MB/s'
+  password: 66f89621-49f0-4788-85ce-f9a62537a8e4
+  port: 32058
+  server: hk3.network-cdn-gw-yd.net
+  type: ss
   udp: true
-  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
-  ws-opts:
-    headers:
-      Host: aflzzul.meiquankongjian.com
-    path: /564dfa20/
-  xudp: true
+- name: '[Http] hkHK²_1|14.0MB/s|X'
+  password: <password>
+  port: 8443
+  server: cc416daa-ta1og0-trftb1-1psmw.hkt.cdnhuawei.com
+  sni: cc416daa-ta1og0-trftb1-1psmw.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: 42bb6d36-97c7-11ee-be7f-f23c9164ca5d
+- name: '[Http] hkHK²_2|13.6MB/s|X'
+  password: <password>
+  port: 8443
+  server: 8875d66c-t9zts0-trhks8-1c9em.hkt.cdnhuawei.com
+  sni: 8875d66c-t9zts0-trhks8-1c9em.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: 336501b6-51d2-11ee-a993-f23c9164ca5d

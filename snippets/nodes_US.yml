@@ -60,11 +60,10 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[Vmess] usUS_2|1.4MB/s'
+  name: '[Vmess] US18｜机房｜低风险'
   network: ws
-  port: 2086
+  port: '2086'
   server: 154.83.2.156
-  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
@@ -128,3 +127,25 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] usUS_1|1.2MB/s'
+  network: ws
+  port: 80
+  server: vvbght.932.pp.ua
+  servername: vvbght.932.pp.ua
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4115f84d-3b03-4b03-babf-21b36b2f9c03
+  ws-opts:
+    headers:
+      Host: vvbght.932.pp.ua
+    path: /GgigazFGDLgFWDItkD5XgXAL
+- cipher: aes-256-cfb
+  name: '[SS] usUS_3|1.8MB/s'
+  password: amazonskr05
+  port: 443
+  server: 13.217.198.211
+  type: ss

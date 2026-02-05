@@ -1,1 +1,26 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: '[VLESS] seSE_1|1.7MB/s'
+  network: tcp
+  port: 443
+  server: secdn18.suio.me
+  servername: secdn18.suio.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] seSE_2|2.1MB/s'
+  network: tcp
+  port: 503
+  reality-opts:
+    public-key: aNLPNNyjIC7QYLe7MpF4nxxHhO421dBSZaQgsDd1szs
+    short-id: '!!str 1d64e9805b4f9ae3'
+  server: dd.openaccessnode.com
+  servername: refersion.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 31701b5d-ca95-92f9-d684-dae3706161ea
+  xudp: true

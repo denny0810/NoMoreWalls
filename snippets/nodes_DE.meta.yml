@@ -1,10 +1,12 @@
 proxies:
-- name: '[Socks5] DE22｜原生/疑似家宽｜高风险 (黑名单)'
+- name: '[Socks5] 🏴‍☠_1deDE²_3|4.0MB/s|History|1...'
+  password: ''
   port: 1080
   server: 193.233.254.7
+  skip-cert-verify: true
   tls: false
   type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuNzo%3D
+  username: ''
 - name: '[Socks5] DE23｜原生/疑似家宽｜高风险 (黑名单)'
   port: 1080
   server: 193.233.254.8
@@ -52,39 +54,139 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  name: '[VLESS] deDE_1|2.3MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: RHUQAGJ_MYNKsZt2XO_DATEm1cQh0Rdpz83DTCGSKl0
+    short-id: '!!str 740d6f2e'
+  server: 0ru84.tcpdoor.net
+  servername: 0ru84.tcpdoor.net
+  tls: true
+  type: vless
+  uuid: 40ecece1-edd9-4543-99c7-529ee594135d
 - client-fingerprint: chrome
-  name: '[VLESS] deDE_1|3.4MB/s'
+  flow: xtls-rprx-vision
+  name: '[VLESS] DE_speednode_0010'
+  network: tcp
+  port: 350
+  reality-opts:
+    public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
+    short-id: '!!str fd1dff03520d8f56'
+  server: iar.blackhoster.com
+  servername: excoino.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 79a48cba-4a44-4a5c-bfa9-64a53379df2c
+- client-fingerprint: chrome
+  name: '[VLESS] US_speednode_0041'
   network: ws
   port: 2053
-  server: notability.com
+  server: 104.26.12.27
   servername: snippet.danfeng21.ndjp.net
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: snippet.danfeng21.ndjp.net
-    max-early-data: 2560
     path: /danfeng
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_2|2.5MB/s'
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[Vmess] deDE_4|2.5MB/s'
   network: ws
+  port: 8080
+  server: 172.64.149.182
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-5712964102.sharghdaily.co
+    max-early-data: 2560
+    path: /nasnet/cdn
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] deDE²_2|1.6MB/s|GPT|X|History'
+  network: tcp
   port: 443
-  server: creativecommons.org
-  servername: DiprOX.pages.DEV
+  server: 57.129.64.102
+  servername: nasnet-5712964102-direct.sharghdaily.co
   tls: true
   type: vless
   udp: true
-  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE_6|3.2MB/s'
+  network: ws
+  port: 443
+  server: 104.26.14.85
+  servername: germany.pahlevancompani.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e7a9fe3b-c10f-4a67-8f7b-e22c9c246d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: germany.pahlevancompani.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    max-early-data: 443
+    path: /
+  xudp: true
+- encryption: none
+  name: '[VLESS] deDE_7|3.0MB/s'
+  network: ws
+  port: 80
+  server: 104.20.1.252
+  type: vless
+  udp: true
+  uuid: 4c97ec3e-3527-48c5-80ff-b715463896ba
   ws-opts:
     headers:
-      Host: diprox.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /assets
+      Host: kIndhEArTeD-PARkb5Rjo2juEr.sPorTLaNd.COMpAny.
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /?ed
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: '[Vmess] deDE²_1|4.7MB/s|GPT|X|Succeed'
+  network: ws
+  port: 8080
+  server: tgju.org
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-571296497.iranpress.co
+    max-early-data: 2560
+    path: /nasnet/cdn
   xudp: true
 - name: '[VLESS] DE_speednode_0009'
   network: ws
@@ -100,17 +202,3 @@ proxies:
     headers:
       Host: divarcdn.com
     path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] DE_speednode_0010'
-  port: 350
-  reality-opts:
-    public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
-    short-id: '!!str fd1dff03520d8f56'
-  server: iar.blackhoster.com
-  servername: excoino.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 79a48cba-4a44-4a5c-bfa9-64a53379df2c

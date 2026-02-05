@@ -160,36 +160,37 @@ proxies:
 - name: '[Trojan] 日本|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 20539
-  server: 43.206.238.87
+  port: 26378
+  server: 18.183.170.92
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- name: '[Trojan] 日本2|@ripaojiedian'
+  network: tcp
+  password: 5fb072e0ddd631cf66cf752b09210480
+  port: 3423
+  server: 202.181.103.246
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - name: '[Trojan] 日本3|@ripaojiedian'
   network: tcp
-  password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 443
-  server: 116.80.60.36
+  password: 5fb072e0ddd631cf66cf752b09210480
+  port: 3423
+  server: 160.16.214.104
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] jpJP_1|2.5MB/s'
-  network: ws
+  name: '[VLESS] jpJP²_1|0.6MB/s|0%|X|History'
+  network: tcp
   port: 443
-  server: 108.162.198.154
-  servername: DiprOX.pages.DEV
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: '!!str 2da72ce6'
+  server: 154.31.114.125
+  servername: navi.bankrate.com
   tls: true
   type: vless
   udp: true
-  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: diprox.pages.dev
-      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
-        like Gecko) Chrome/5.0.342.1 Safari/533.2
-    max-early-data: 2560
-    path: /?TELEGRAM-YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy
-  xudp: true
+  uuid: c1104d93-eba3-48d6-ba63-10574bdaa8b3

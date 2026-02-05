@@ -68,10 +68,11 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[Vmess] US18｜机房｜低风险'
+  name: '[Vmess] usUS_2|1.4MB/s'
   network: ws
-  port: '2086'
+  port: 2086
   server: 154.83.2.156
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
@@ -104,13 +105,19 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: '[Vmess] US21｜机房｜低风险'
+  client-fingerprint: chrome
+  country: 🏁 ZZ
+  http-opts: {}
+  name: '[Vmess] usUS²_2|7.0MB/s|41%|GPT⁺|GM|X|...'
   network: tcp
-  port: '30808'
+  port: 30808
   server: v8.hdacd.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /
 - name: '[Hysteria2] 美国2'
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
@@ -119,33 +126,60 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
+- name: '[Trojan] 美国|@ripaojiedian'
+  network: tcp
+  password: 5fb072e0ddd631cf66cf752b09210480
+  port: 443
+  server: 38.180.190.13
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - name: '[Trojan] 美国2|@ripaojiedian'
   network: tcp
-  password: c1d83c0c7d57cead4379ba14a82df69b
+  password: 5fb072e0ddd631cf66cf752b09210480
   port: 443
-  server: 38.180.193.194
+  server: 38.180.107.76
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 美国3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 1221
-  server: 18.182.62.89
+  port: 4569
+  server: 52.194.248.81
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[Http] usUS_1|1.1MB/s'
-  password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
-  port: 443
-  server: 6c6c710e-t9zts0-ta5i1s-1j61y.sjc.oshuawei.com
-  sni: 6c6c710e-t9zts0-ta5i1s-1j61y.sjc.oshuawei.com
+- client-fingerprint: randomized
+  name: '[VLESS] US_speednode_0042'
+  network: ws
+  port: 2095
+  server: www.epicgames.com
+  servername: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+    path: /
+- name: '[VLESS] usUS_3|2.5MB/s'
+  network: ws
+  port: 18521
+  server: 173.249.201.109
+  servername: mot.saghv.filegear-sg.me
   tls: true
-  type: http
-  username: f13f964e-f06c-11ec-a858-f23c91cfbbc9
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: mot.saghv.filegear-sg.me
+    path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] usUS¹-SG⁰_1|7.5MB/s|GPT|YT|TK|...'
+  name: '[VLESS] usUS¹-SG⁰_1|6.0MB/s|5%|GPT|GM|...'
   network: ws
   port: 2053
   server: 104.17.73.206
@@ -163,56 +197,45 @@ proxies:
     max-early-data: 2560
     path: /danfeng
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] usUS_3|2.4MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: QNeqTtf7YHPKRQmBQuk15pdy5NqgLcmFi8nSUby64GQ
-    short-id: '!!str 0f4dacf08722a99f'
-  server: tmc.langry.ru
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3209ec50-2909-4972-83cb-93349f9d94fd
-  xudp: true
-- name: '[Http] usUS²_1|0.9MB/s|X'
-  password: 34ddff9e-049d-444d-8bee-ae45928019ef
-  port: 4449
-  server: 4-n67hzkyu.mix.dexiansheng.com
-  sni: 4-n67hzkyu.mix.dexiansheng.com
-  tls: true
-  type: http
-  username: walless
-- alpn:
-  - h2
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: '[VLESS] usUS²_2|9.8MB/s|41%|GPT⁺|X'
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_1|1.5MB/s|4%|GPT⁺|X|Succ...'
   network: ws
-  port: 8443
-  server: www.ntu.edu.sg
-  servername: rncf.wwxgxn.cfd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 572a0d47-567c-4085-a2de-69cc41365a27
+  port: 2086
+  server: 154.83.2.156
+  servername: v205.19740822.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: rncf.wwxgxn.cfd
-    max-early-data: 2560
-    path: /sayuri
-- name: '[Http] usUS²_3|6.7MB/s|GPT⁺|NF|X'
-  password: 6e3ee1de-381f-11ee-87f9-f23c91cfbbc9
-  port: 15229
-  server: 66678375-t9zts0-tnqudu-1mim2.cu.oshuawei.com
-  sni: 66678375-t9zts0-tnqudu-1mim2.cu.oshuawei.com
-  tls: true
-  type: http
-  username: 6e3ee1de-381f-11ee-87f9-f23c91cfbbc9
+      HOST: v205.19740822.xyz
+    path: /
+- cipher: aes-256-cfb
+  country: 🇺🇸 US
+  name: '[SS] usUS²_3|5.1MB/s|1%|GPT⁺|GM|YT|...'
+  password: amazonskr05
+  port: 443
+  server: 13.217.198.211
+  type: ss
+- name: '[Socks5] usUS²_4|5.6MB/s|GPT|X|History'
+  password: ''
+  port: 1080
+  server: 174.138.61.184
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] 🏴‍☠_3vnVN²_18|1.4MB/s-US|[原生|机...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.55
+  type: ss
 - client-fingerprint: randomized
   name: '[VLESS] US_speednode_0036'
   network: ws
@@ -273,33 +296,3 @@ proxies:
     headers:
       Host: afrcloud4.c01.kr
     path: /47.254.255.125=443
-- client-fingerprint: chrome
-  name: '[VLESS] US_speednode_0041'
-  network: ws
-  port: 2053
-  server: 104.26.12.27
-  servername: snippet.danfeng21.ndjp.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng21.ndjp.net
-    path: /danfeng
-- client-fingerprint: randomized
-  name: '[VLESS] US_speednode_0042'
-  network: ws
-  port: 2095
-  server: www.epicgames.com
-  servername: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
-    path: /

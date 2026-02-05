@@ -1,24 +1,26 @@
 proxies:
-- name: '[Socks5] DE22｜原生/疑似家宽｜高风险 (黑名单)'
+- name: '[Socks5] 🏴‍☠_2🏴‍☠_1193.233.254.7:1080-0...'
+  password: ''
   port: 1080
   server: 193.233.254.7
+  skip-cert-verify: true
   tls: false
   type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuNzo%3D
-- name: '[Socks5] DE23｜原生/疑似家宽｜高风险 (黑名单)'
+  username: ''
+- name: '[Socks5] 🏴‍☠_3DE23｜原生/疑似家宽｜高风险 (黑名单)|2....'
   port: 1080
   server: 193.233.254.8
   tls: false
   type: socks5
   username: T2dAMTkzLjIzMy4yNTQuODpPZ0AxOTMuMjMzLjI1NC44
-- name: '[Socks5] deDE_5|1.0MB/s'
+- name: '[Socks5] 🏴‍☠_1🏴‍☠_4193.233.254.9:1080-0...'
   password: ''
   port: 1080
   server: 193.233.254.9
   skip-cert-verify: true
   tls: false
   type: socks5
-  username: Og@193.233.254.9
+  username: ''
 - name: '[Hysteria2] DE21｜机房｜低风险'
   password: 767ed51d-2358-4981-9447-a807c1419e93
   port: 50000
@@ -54,76 +56,159 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- encryption: none
-  name: '[VLESS] deDE_1|2.1MB/s'
+- client-fingerprint: chrome
+  name: '[VLESS] deDE_1|1.1MB/s'
   network: ws
-  port: 80
-  server: 104.20.1.252
+  port: 2053
+  server: 104.26.12.27
+  servername: snippet.danfeng21.ndjp.net
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: 4c97ec3e-3527-48c5-80ff-b715463896ba
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
   ws-opts:
     headers:
-      Host: kIndhEArTeD-PARkb5Rjo2juEr.sPorTLaNd.COMpAny.
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /?ed
-  xudp: true
-- name: '[VLESS] deDE_2|2.0MB/s'
+      Host: snippet.danfeng21.ndjp.net
+    path: /danfeng
+- client-fingerprint: chrome
+  name: '[VLESS] usUS¹-SG⁰_5|6.6MB/s|GPT|GM|YT|...'
+  network: ws
+  port: 2053
+  server: singapore.com
+  servername: snippet.danfeng21.ndjp.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng21.ndjp.net
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  country: 🇩🇪DE
+  name: '[Trojan] deDE²_1|3.5MB/s|6%|GPT⁺|D+|X'
+  network: tcp
+  password: cd3603df-3a01-4a16-8987-3a4cc000583b
+  port: 38846
+  server: vde4.stablep.top
+  skip-cert-verify: true
+  sni: vde4.stablep.top
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  country: 🇩🇪DE
+  name: '[Trojan] deDE²_2|3.5MB/s|6%|GPT⁺|D+|X'
+  network: tcp
+  password: 73cd406b-1bec-4302-81ad-2809f2c55990
+  port: 38846
+  server: vde4.stablep.top
+  skip-cert-verify: true
+  sni: vde4.stablep.top
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  country: 🇩🇪DE
+  name: '[Trojan] deDE²_3|3.0MB/s|6%|GPT⁺|D+|X'
+  network: tcp
+  password: 8bb14fbc-db35-41d9-9c46-a99590511f69
+  port: 38846
+  server: vde4.stablep.top
+  skip-cert-verify: true
+  sni: vde4.stablep.top
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_4|6.5MB/s|GPT⁺|X|History'
   network: ws
   port: 80
   server: 104.18.32.47
-  tls: false
   type: vless
   udp: true
   uuid: 1e35b4bf-b270-4c0b-918d-62746eedd2ad
   ws-opts:
     headers:
-      Host: everlasting-finance439p1sxxhy.sportland.company.
+      Host: EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY.
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
     path: /?ed
-- name: '[VLESS] deDE_3|2.0MB/s'
-  network: ws
-  port: 80
-  server: 104.18.32.47
-  tls: false
-  type: vless
-  uuid: a5712440-3cec-4a1b-82e8-767c54acd83a
-  ws-opts:
-    headers:
-      Host: authENTIC-cABinEtgqc4XfW2ud.spORTLAND.COmPAny.
-    path: /?ed
+  xudp: true
 - client-fingerprint: chrome
-  fingerprint: ''
-  name: '[VLESS] deDE_4|2.6MB/s'
+  country: 🇩🇪DE
+  name: '[Trojan] deDE²_6|3.5MB/s|6%|GPT⁺|D+|X'
+  network: tcp
+  password: a2f34326-dc35-45c9-8391-53606ee23b0c
+  port: 38846
+  server: vde4.stablep.top
+  skip-cert-verify: true
+  sni: vde4.stablep.top
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  country: 🇩🇪DE
+  name: '[Trojan] deDE²_7|3.6MB/s|6%|GPT⁺|D+|X'
+  network: tcp
+  password: 3ace63c8-08e1-47bc-a1c7-b65f2dfc7d4a
+  port: 38846
+  server: vde4.stablep.top
+  skip-cert-verify: true
+  sni: vde4.stablep.top
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  country: 🇩🇪DE
+  name: '[Trojan] deDE²_8|1.8MB/s|6%|GPT⁺|D+|X'
+  network: tcp
+  password: 8e4fd409-bc1b-43c6-840c-72409891b954
+  port: 38846
+  server: vde4.stablep.top
+  skip-cert-verify: true
+  sni: vde4.stablep.top
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  country: 🇩🇪DE
+  name: '[Trojan] deDE²_10|3.6MB/s|6%|GPT⁺|NF|D+...'
+  network: tcp
+  password: 3efa5fe6-488a-47d4-8139-78d2e032cc68
+  port: 38846
+  server: vde4.stablep.top
+  skip-cert-verify: true
+  sni: vde4.stablep.top
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  country: 🇩🇪DE
+  name: '[Trojan] deDE²_11|3.5MB/s|6%|GPT⁺|D+|X'
+  network: tcp
+  password: 19677066-9cd1-448d-b3e4-7f98d0d608e5
+  port: 38846
+  server: vde4.stablep.top
+  skip-cert-verify: true
+  sni: vde4.stablep.top
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '[VLESS] DE_speednode_0003'
   network: ws
   port: 443
-  server: creativecommons.org
-  servername: DiprOX.pages.DEV
+  server: 23.165.200.241
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: false
-  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
-  ws-opts:
-    headers:
-      Host: DiprOX.pages.DEV
-    path: /assets
-- name: '[VLESS] DE_speednode_0009'
-  network: ws
-  port: 8881
-  server: dlc-nl1.persianpinggame.ir
-  servername: divarcdn.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
   udp: true
-  uuid: 34dae96c-1a41-434f-94b6-5507c3a6d318
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: divarcdn.com
-    path: /
+      Host: sni.111000.indevs.in
+    path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[VLESS] DE_speednode_0010'
+  name: '[VLESS] DE_speednode_0004'
   port: 350
   reality-opts:
     public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E

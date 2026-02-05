@@ -182,20 +182,46 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] jpJP_1|2.5MB/s'
+  name: '[VLESS] US_speednode_0036'
   network: ws
-  port: 42734
-  server: 103.238.129.215
-  servername: sni.jpmj.dev
+  port: 2053
+  server: 1357900.xyz
+  servername: snippet.danfeng.gleeze.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
   ws-opts:
     headers:
-      Host: sni.jpmj.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-  xudp: true
+      Host: snippet.danfeng.gleeze.com
+    path: /danfeng
+- client-fingerprint: chrome
+  name: '[VLESS] jpJP_2|1.5MB/s'
+  network: ws
+  port: 2053
+  server: v2.dabache.top
+  servername: snippet.fgfw.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.fgfw.de5.net
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: '[VLESS] jpJP²_1|2.1MB/s|0%|X'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: '!!str 2da72ce6'
+  server: 154.31.114.125
+  servername: navi.bankrate.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5bd2e197-30a5-4684-9778-5bdb9ec764fe

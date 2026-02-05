@@ -15,14 +15,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: '[Trojan] HK20｜家宽｜非常安全'
+- name: '[Trojan] hkHK²_6|1.2MB/s|0%|D+|X|Histor...'
+  network: tcp
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[Trojan] HK2｜家宽｜非常安全'
+  udp: true
+- name: '[Trojan] hkHK²_4|6.1MB/s|0%|YT-CN|D+|X|...'
+  network: tcp
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
@@ -52,7 +55,8 @@ proxies:
   tls: false
   type: vmess
   uuid: 77aad73d-03e7-441b-9bc5-98d13535ba3e
-- name: '[Trojan] HK24｜家宽｜非常安全'
+- name: '[Trojan] hkHK²_2|4.3MB/s|0%|YT-CN|X|His...'
+  network: tcp
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
@@ -424,57 +428,673 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] hkHK_1|1.2MB/s'
-  password: 66f89621-49f0-4788-85ce-f9a62537a8e4
-  port: 32058
-  server: hk3.network-cdn-gw-yd.net
+- cipher: aes-256-cfb
+  name: '[SS] frFR_1|2.1MB/s'
+  password: amazonskr05
+  port: 443
+  server: 13.38.75.96
   type: ss
+- country: 🇮🇷IR
+  name: '[Trojan] aeAE²_1|3.4MB/s|10%|GPT⁺|D+|X'
+  network: tcp
+  password: 3ace63c8-08e1-47bc-a1c7-b65f2dfc7d4a
+  port: 38834
+  server: v3fr2.stablep.top
+  skip-cert-verify: true
+  sni: v3fr2.stablep.top
+  type: trojan
+  udp: true
+- country: 🇩🇪DE
+  name: '[Trojan] deDE²_1|3.5MB/s|6%|GPT⁺|D+|X'
+  network: tcp
+  password: cd3603df-3a01-4a16-8987-3a4cc000583b
+  port: 38846
+  server: vde4.stablep.top
+  skip-cert-verify: true
+  sni: vde4.stablep.top
+  type: trojan
+  udp: true
+- country: 🇩🇪DE
+  name: '[Trojan] deDE²_2|3.5MB/s|6%|GPT⁺|D+|X'
+  network: tcp
+  password: 73cd406b-1bec-4302-81ad-2809f2c55990
+  port: 38846
+  server: vde4.stablep.top
+  skip-cert-verify: true
+  sni: vde4.stablep.top
+  type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: '[Vmess] usUS_1|1.2MB/s'
+  country: 🇮🇷IR
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] fiFI²_1|1.3MB/s|10%|GPT⁺|D+|X'
   network: ws
-  port: 80
-  server: vvbght.932.pp.ua
-  servername: vvbght.932.pp.ua
-  skip-cert-verify: false
-  tls: false
+  port: 38825
+  server: v3fi2.stablep.top
+  servername: v3fi2.stablep.top
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  udp: true
-  uuid: 4115f84d-3b03-4b03-babf-21b36b2f9c03
+  uuid: a2f34326-dc35-45c9-8391-53606ee23b0c
   ws-opts:
     headers:
-      Host: vvbght.932.pp.ua
-    path: /GgigazFGDLgFWDItkD5XgXAL
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] frFR_1|2.7MB/s'
-  password: hnITSVgdQOQF6aCT4YIizv
-  port: 5223
-  server: 51.254.142.162
-  type: ss
-  udp: true
+      HOST: v3fi2.stablep.top
+    path: /fi2-5
+- alterId: 0
+  cipher: auto
+  country: 🇮🇷IR
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] fiFI²_2|2.2MB/s|10%|GPT⁺|D+|X'
+  network: ws
+  port: 38825
+  server: v3fi2.stablep.top
+  servername: v3fi2.stablep.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 19677066-9cd1-448d-b3e4-7f98d0d608e5
+  ws-opts:
+    headers:
+      HOST: v3fi2.stablep.top
+    path: /fi2-5
 - cipher: aes-256-cfb
-  name: '[SS] usUS_3|1.8MB/s'
+  country: 🇺🇸 US
+  name: '[SS] usUS²_1|4.5MB/s|GPT|GM|YT|NF|X...'
   password: amazonskr05
   port: 443
   server: 13.217.198.211
   type: ss
+- country: 🇩🇪DE
+  name: '[Trojan] deDE²_3|3.0MB/s|6%|GPT⁺|D+|X'
+  network: tcp
+  password: 8bb14fbc-db35-41d9-9c46-a99590511f69
+  port: 38846
+  server: vde4.stablep.top
+  skip-cert-verify: true
+  sni: vde4.stablep.top
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: '[SS] ruRU²_1|4.6MB/s|25%|X|History'
+  password: gYCYXfkUQEs2TaJQ
+  port: 9038
+  server: 194.116.173.21
+  type: ss
+- country: 🇬🇧GB
+  name: '[Trojan] gbGB²_1|3.6MB/s|6%|GPT⁺|NF|D+|...'
+  network: tcp
+  password: 73cd406b-1bec-4302-81ad-2809f2c55990
+  port: 38844
+  server: uk1.stablenode.top
+  skip-cert-verify: true
+  sni: uk1.stablenode.top
+  type: trojan
+  udp: true
+- country: 🇫🇷FR
+  name: '[Trojan] frFR²_1|5.8MB/s|1%|GPT⁺|X'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 35.181.255.155
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
+  country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] usUS²_1|8.9MB/s|28%|GPT⁺|NF|X|...'
+  name: '[Vmess] hkHK²_1|4.3MB/s|6%|GPT⁺|GM|YT|...'
+  network: ws
+  port: 38801
+  server: hk33.stablep.top
+  servername: hk33.stablep.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 73cd406b-1bec-4302-81ad-2809f2c55990
+  ws-opts:
+    headers:
+      HOST: hk33.stablep.top
+    path: /hk33-1
+- country: 🇪🇸ES
+  name: '[Trojan] usUS²_2|1.3MB/s|10%|GPT⁺|X'
+  network: tcp
+  password: 3efa5fe6-488a-47d4-8139-78d2e032cc68
+  port: 38813
+  server: us9.stablep.top
+  skip-cert-verify: true
+  sni: us9.stablep.top
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] nlNL²_2|2.5MB/s|44%|GPT⁺|YT-US...'
+  network: ws
+  port: 2053
+  server: nextmi.hajmyab.ir
+  servername: app.hajmyab.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
+  ws-opts:
+    headers:
+      HOST: app.hajmyab.ir
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] hkHK²_3|4.7MB/s|1%|YT|D+|X'
+  network: ws
+  port: 80
+  server: 17b4b220-t8pj40-t9uin7-19ord.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+      Host: 17b4b220-t8pj40-t9uin7-19ord.hkt.gotochinatown.net
+    path: /
+- country: 🇮🇷IR
+  name: '[Trojan] aeAE²_2|2.8MB/s|10%|GPT⁺|D+|X'
+  network: tcp
+  password: 3efa5fe6-488a-47d4-8139-78d2e032cc68
+  port: 38834
+  server: v3fr2.stablep.top
+  skip-cert-verify: true
+  sni: v3fr2.stablep.top
+  type: trojan
+  udp: true
+- country: 🇬🇧GB
+  name: '[Trojan] gbGB²_2|3.6MB/s|6%|GPT⁺|D+|X'
+  network: tcp
+  password: cd3603df-3a01-4a16-8987-3a4cc000583b
+  port: 38844
+  server: uk1.stablenode.top
+  skip-cert-verify: true
+  sni: uk1.stablenode.top
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇮🇷IR
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] fiFI²_3|3.1MB/s|10%|GPT⁺|D+|X'
+  network: ws
+  port: 38825
+  server: v3fi2.stablep.top
+  servername: v3fi2.stablep.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8bb14fbc-db35-41d9-9c46-a99590511f69
+  ws-opts:
+    headers:
+      HOST: v3fi2.stablep.top
+    path: /fi2-5
+- country: 🇬🇧GB
+  name: '[Trojan] gbGB²_3|3.6MB/s|6%|GPT⁺|D+|X'
+  network: tcp
+  password: 19677066-9cd1-448d-b3e4-7f98d0d608e5
+  port: 38844
+  server: uk1.stablenode.top
+  skip-cert-verify: true
+  sni: uk1.stablenode.top
+  type: trojan
+  udp: true
+- country: 🇮🇷IR
+  name: '[Trojan] aeAE²_3|3.4MB/s|10%|GPT⁺|D+|X'
+  network: tcp
+  password: 8bb14fbc-db35-41d9-9c46-a99590511f69
+  port: 38833
+  server: v3fr2.stablep.top
+  skip-cert-verify: true
+  sni: v3fr2.stablep.top
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: '[SS] krKR²_1|0.7MB/s|0%|GPT|GM|YT|X...'
+  password: qwerREWQ@@
+  port: 19203
+  server: 121.170.203.147
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] deDE²_5|0.7MB/s|42%|GPT⁺|YT-RU...'
+  password: i9lip2dJ8kV4wJQ0pJuRr6
+  port: 443
+  server: 185.100.159.79
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] usUS²_3|4.2MB/s|54%|GPT⁺|NF|X|...'
+  password: 5d8680180abdb564
+  port: 45234
+  server: 154.53.34.27
+  type: ss
+  udp: true
+- country: 🇩🇪DE
+  name: '[Trojan] deDE²_6|3.5MB/s|6%|GPT⁺|D+|X'
+  network: tcp
+  password: a2f34326-dc35-45c9-8391-53606ee23b0c
+  port: 38846
+  server: vde4.stablep.top
+  skip-cert-verify: true
+  sni: vde4.stablep.top
+  type: trojan
+  udp: true
+- country: 🇬🇧GB
+  name: '[Trojan] gbGB²_4|3.6MB/s|6%|GPT⁺|D+|X'
+  network: tcp
+  password: 3efa5fe6-488a-47d4-8139-78d2e032cc68
+  port: 38844
+  server: uk1.stablenode.top
+  skip-cert-verify: true
+  sni: uk1.stablenode.top
+  type: trojan
+  udp: true
+- country: 🇮🇷IR
+  name: '[Trojan] aeAE²_4|3.6MB/s|10%|GPT⁺|D+|X|...'
+  network: tcp
+  password: 19677066-9cd1-448d-b3e4-7f98d0d608e5
+  port: 38833
+  server: v3fr2.stablep.top
+  skip-cert-verify: true
+  sni: v3fr2.stablep.top
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇮🇷IR
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] fiFI²_4|3.1MB/s|10%|GPT⁺|D+|X'
+  network: ws
+  port: 38825
+  server: v3fi2.stablep.top
+  servername: v3fi2.stablep.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3efa5fe6-488a-47d4-8139-78d2e032cc68
+  ws-opts:
+    headers:
+      HOST: v3fi2.stablep.top
+    path: /fi2-5
+- country: 🇮🇷IR
+  name: '[Trojan] aeAE²_5|1.6MB/s|10%|GPT⁺|D+|X'
+  network: tcp
+  password: cd3603df-3a01-4a16-8987-3a4cc000583b
+  port: 38833
+  server: v3fr2.stablep.top
+  skip-cert-verify: true
+  sni: v3fr2.stablep.top
+  type: trojan
+  udp: true
+- country: 🇬🇧GB
+  name: '[Trojan] gbGB²_5|3.6MB/s|6%|GPT⁺|D+|X'
+  network: tcp
+  password: 8e4fd409-bc1b-43c6-840c-72409891b954
+  port: 38844
+  server: uk1.stablenode.top
+  skip-cert-verify: true
+  sni: uk1.stablenode.top
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] hkHK²_7|4.3MB/s|6%|GPT⁺|YT|D+|...'
+  network: ws
+  port: 38802
+  server: hk33.stablep.top
+  servername: hk33.stablep.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 19677066-9cd1-448d-b3e4-7f98d0d608e5
+  ws-opts:
+    headers:
+      HOST: hk33.stablep.top
+    path: /hk33-2
+- country: 🇪🇸ES
+  name: '[Trojan] usUS²_5|0.7MB/s|10%|GPT⁺|X'
+  network: tcp
+  password: 8bb14fbc-db35-41d9-9c46-a99590511f69
+  port: 38821
+  server: us9.stablep.top
+  skip-cert-verify: true
+  sni: us9.stablep.top
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] hkHK²_8|4.3MB/s|6%|GPT⁺|YT|D+|...'
+  network: ws
+  port: 38802
+  server: hk33.stablep.top
+  servername: hk33.stablep.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: cd3603df-3a01-4a16-8987-3a4cc000583b
+  ws-opts:
+    headers:
+      HOST: hk33.stablep.top
+    path: /hk33-2
+- country: 🇮🇷IR
+  name: '[Trojan] aeAE²_6|3.7MB/s|10%|GPT⁺|X'
+  network: tcp
+  password: 8e4fd409-bc1b-43c6-840c-72409891b954
+  port: 38833
+  server: v3fr2.stablep.top
+  skip-cert-verify: true
+  sni: v3fr2.stablep.top
+  type: trojan
+  udp: true
+- country: 🇩🇪DE
+  name: '[Trojan] deDE²_7|3.6MB/s|6%|GPT⁺|D+|X'
+  network: tcp
+  password: 3ace63c8-08e1-47bc-a1c7-b65f2dfc7d4a
+  port: 38846
+  server: vde4.stablep.top
+  skip-cert-verify: true
+  sni: vde4.stablep.top
+  type: trojan
+  udp: true
+- country: 🇬🇧GB
+  name: '[Trojan] gbGB²_6|3.6MB/s|6%|GPT⁺|NF|D+|...'
+  network: tcp
+  password: a2f34326-dc35-45c9-8391-53606ee23b0c
+  port: 38844
+  server: uk1.stablenode.top
+  skip-cert-verify: true
+  sni: uk1.stablenode.top
+  type: trojan
+  udp: true
+- country: 🇭🇰HK
+  name: '[Trojan] hkHK²_9|0.9MB/s|0%|X|History'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- country: 🇩🇪DE
+  name: '[Trojan] deDE²_8|1.8MB/s|6%|GPT⁺|D+|X'
+  network: tcp
+  password: 8e4fd409-bc1b-43c6-840c-72409891b954
+  port: 38846
+  server: vde4.stablep.top
+  skip-cert-verify: true
+  sni: vde4.stablep.top
+  type: trojan
+  udp: true
+- country: 🇮🇷IR
+  name: '[Trojan] aeAE²_7|1.7MB/s|10%|GPT⁺|D+|X'
+  network: tcp
+  password: 8bb14fbc-db35-41d9-9c46-a99590511f69
+  port: 38834
+  server: v3fr2.stablep.top
+  skip-cert-verify: true
+  sni: v3fr2.stablep.top
+  type: trojan
+  udp: true
+- country: 🇮🇷IR
+  name: '[Trojan] aeAE²_8|3.2MB/s|10%|GPT⁺|X|[广播...'
+  network: tcp
+  password: 8e4fd409-bc1b-43c6-840c-72409891b954
+  port: 38834
+  server: v3fr2.stablep.top
+  skip-cert-verify: true
+  sni: v3fr2.stablep.top
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] hkHK²_10|1.5MB/s|0%|GPT⁺|YT|D+...'
   network: ws
   port: 52513
   server: aflzzul.meiquankongjian.com
+  servername: aflzzul.meiquankongjian.com
+  skip-cert-verify: true
   type: vmess
-  udp: true
   uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
   ws-opts:
     headers:
+      HOST: aflzzul.meiquankongjian.com
       Host: aflzzul.meiquankongjian.com
     path: /564dfa20/
+- country: 🇩🇪DE
+  name: '[Trojan] deDE²_10|3.6MB/s|6%|GPT⁺|NF|D+...'
+  network: tcp
+  password: 3efa5fe6-488a-47d4-8139-78d2e032cc68
+  port: 38846
+  server: vde4.stablep.top
+  skip-cert-verify: true
+  sni: vde4.stablep.top
+  type: trojan
+  udp: true
+- country: 🇮🇷IR
+  name: '[Trojan] aeAE²_9|1.9MB/s|10%|GPT⁺|D+|X'
+  network: tcp
+  password: a2f34326-dc35-45c9-8391-53606ee23b0c
+  port: 38834
+  server: v3fr2.stablep.top
+  skip-cert-verify: true
+  sni: v3fr2.stablep.top
+  type: trojan
+  udp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[Vmess] nlNL²_5|1.4MB/s|44%|GPT⁺|X'
+  network: ws
+  port: 2053
+  server: nextmi.hajmyab.ir
+  servername: yakxvtfbyk.hajmyab.ir
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
+  ws-opts:
+    headers:
+      Host: app.hajmyab.ir
+    path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] hkHK²_11|4.3MB/s|6%|GPT⁺|GM|YT...'
+  network: ws
+  port: 38801
+  server: hk33.stablep.top
+  servername: hk33.stablep.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 19677066-9cd1-448d-b3e4-7f98d0d608e5
+  ws-opts:
+    headers:
+      HOST: hk33.stablep.top
+    path: /hk33-1
+- country: 🇭🇰 HK
+  name: '[Trojan] hkHK²_12|1.7MB/s|YT-CN|NF|X|Hi...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇩🇪DE
+  name: '[Trojan] deDE²_11|3.5MB/s|6%|GPT⁺|D+|X'
+  network: tcp
+  password: 19677066-9cd1-448d-b3e4-7f98d0d608e5
+  port: 38846
+  server: vde4.stablep.top
+  skip-cert-verify: true
+  sni: vde4.stablep.top
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇮🇷IR
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] fiFI²_5|1.8MB/s|10%|GPT⁺|D+|X'
+  network: ws
+  port: 38825
+  server: v3fi2.stablep.top
+  servername: v3fi2.stablep.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3ace63c8-08e1-47bc-a1c7-b65f2dfc7d4a
+  ws-opts:
+    headers:
+      HOST: v3fi2.stablep.top
+    path: /fi2-5
+- country: 🇬🇧GB
+  name: '[Trojan] gbGB²_7|3.6MB/s|6%|GPT⁺|D+|X'
+  network: tcp
+  password: 8bb14fbc-db35-41d9-9c46-a99590511f69
+  port: 38844
+  server: uk1.stablenode.top
+  skip-cert-verify: true
+  sni: uk1.stablenode.top
+  type: trojan
+  udp: true
+- country: 🇪🇸ES
+  name: '[Trojan] usUS²_7|1.1MB/s|GPT⁺|D+|X'
+  network: tcp
+  password: 19677066-9cd1-448d-b3e4-7f98d0d608e5
+  port: 38822
+  server: us9.stablep.top
+  skip-cert-verify: true
+  sni: us9.stablep.top
+  type: trojan
+  udp: true
+- country: 🇪🇸ES
+  name: '[Trojan] usUS²_8|1.0MB/s|GPT|X'
+  network: tcp
+  password: 3ace63c8-08e1-47bc-a1c7-b65f2dfc7d4a
+  port: 38822
+  server: us9.stablep.top
+  skip-cert-verify: true
+  sni: us9.stablep.top
+  type: trojan
+  udp: true
+- country: 🇮🇷IR
+  name: '[Trojan] aeAE²_10|1.5MB/s|10%|GPT⁺|X'
+  network: tcp
+  password: 19677066-9cd1-448d-b3e4-7f98d0d608e5
+  port: 38834
+  server: v3fr2.stablep.top
+  skip-cert-verify: true
+  sni: v3fr2.stablep.top
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] hkHK²_13|1.8MB/s|1%|YT|D+|X'
+  network: ws
+  port: 80
+  server: 203a83c0-t70f40-t9uin7-19ord.hkt.gotochinatown.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 203a83c0-t70f40-t9uin7-19ord.hkt.gotochinatown.net
+    path: /
+- country: 🇬🇧GB
+  name: '[Trojan] gbGB²_8|3.5MB/s|6%|GPT|D+|X'
+  network: tcp
+  password: 3ace63c8-08e1-47bc-a1c7-b65f2dfc7d4a
+  port: 38844
+  server: uk1.stablenode.top
+  skip-cert-verify: true
+  sni: uk1.stablenode.top
+  type: trojan
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: '[Vmess] sgSG²_3|6.5MB/s|X|History'
+  network: ws
+  port: 8080
+  server: tgju.org
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-571296497.iranpress.co
+    max-early-data: 2560
+    path: /nasnet/cdn
+  xudp: true
+- country: 🇫🇷FR
+  name: '[Trojan] frFR²_2|5.7MB/s|1%|GPT⁺|X'
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22223
+  server: 35.181.255.155
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇮🇷IR
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] fiFI²_6|2.0MB/s|10%|GPT⁺|D+|X'
+  network: ws
+  port: 38825
+  server: v3fi2.stablep.top
+  servername: v3fi2.stablep.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: cd3603df-3a01-4a16-8987-3a4cc000583b
+  ws-opts:
+    headers:
+      HOST: v3fi2.stablep.top
+    path: /fi2-5
 - alterId: 0
   cipher: auto
   name: '[Vmess] VMESS节点2-ipv6'
@@ -495,11 +1115,3 @@ proxies:
   port: 12345
   server: 2a10:3c80:0:11::2
   type: ss
-- name: '[Trojan] IN_speednode_0022'
-  password: M7v%w11Se*
-  port: 443
-  server: amanm.wsone.icu
-  skip-cert-verify: true
-  sni: amanm.wsone.icu
-  type: trojan
-  udp: true

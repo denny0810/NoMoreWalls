@@ -48,44 +48,38 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: '[VLESS] sgSG_1|3.1MB/s'
+- name: '[Http] sgSG²_1|7.9MB/s|44%|GPT⁺|GM|YT...'
+  password: 5edb4d21-6cc1-4d46-8823-9a0e14d83455
+  port: 4449
+  server: 4-ndsrzkgg.mix.dexiansheng.com
+  sni: 4-ndsrzkgg.mix.dexiansheng.com
+  tls: true
+  type: http
+  username: walless
+- name: '[Http] sgSG²_2|2.9MB/s|GPT⁺|X'
+  password: 5edb4d21-6cc1-4d46-8823-9a0e14d83455
+  port: 4446
+  server: 4-nqvrfftt.mix.dexiansheng.com
+  sni: 4-nqvrfftt.mix.dexiansheng.com
+  tls: true
+  type: http
+  username: walless
+- alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: '[Vmess] sgSG²_3|6.5MB/s|X|History'
   network: ws
-  port: 2053
-  server: 1357900.xyz
-  servername: snippet.danfeng.gleeze.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.gleeze.com
-    path: /danfeng
-- name: '[Socks5] sgSG²_1|7.9MB/s|X|History'
-  password: ''
-  port: 10809
-  server: 146.235.19.84
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] sgSG²_2|4.1MB/s|GPT|X'
-  password: ''
-  port: 10919
-  server: 213.35.110.67
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- client-fingerprint: chrome
-  name: '[VLESS] SG_speednode_0035'
-  port: 443
-  reality-opts:
-    public-key: DNdTBHyztOVJOBJQX91YXEhNkWbSAntqUoTFBHc6Clw
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: 8.222.196.37
-  servername: get.adobe.com
+  port: 8080
+  server: tgju.org
   skip-cert-verify: false
-  tls: true
-  type: vless
+  tls: false
+  type: vmess
   udp: true
-  uuid: 5c183802-747d-4d2f-a6f1-aff2d5d78401
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-571296497.iranpress.co
+    max-early-data: 2560
+    path: /nasnet/cdn
+  xudp: true

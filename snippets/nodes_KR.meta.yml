@@ -1,12 +1,10 @@
 proxies:
-- name: '[Socks5] krKR²_2|0.9MB/s|4%|GPT|X|Histo...'
-  password: ''
+- name: '[Socks5] krKR²_2|0.8MB/s|GPT|X|History'
   port: 1090
   server: 121.169.46.116
-  skip-cert-verify: true
   tls: false
   type: socks5
-  username: ''
+  username: T2clM0QlM0Q6
 - name: '[Hysteria2] KR4｜机房｜低风险'
   obfs: salamander
   obfs-password: MKsqfibVxwhZ3pCf
@@ -27,3 +25,20 @@ proxies:
   sni: kr2.miyazono-kaori.com
   tls: false
   type: hysteria2
+- cipher: aes-256-cfb
+  name: '[SS] krKR²_1|0.7MB/s|0%|GPT|GM|YT|X...'
+  password: qwerREWQ@@
+  port: 19203
+  server: 121.170.203.147
+  type: ss
+  udp: true
+- name: '[Http] krKR²_3|3.4MB/s|10%|GPT|X|Hist...'
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  sni: testkr3.ssv.vc
+  tls: true
+  type: http
+  udp: true
+  username: test

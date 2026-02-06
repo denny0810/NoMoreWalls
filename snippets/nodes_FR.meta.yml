@@ -8,10 +8,24 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[VLESS] frFR_1|1.3MB/s'
+- client-fingerprint: chrome
+  name: '[VLESS] frFR_1|1.1MB/s'
   network: ws
   port: 2053
-  server: 217.60.36.183
+  server: platform.wise.com
+  servername: snippet.fgfw.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ccwu.cc
+    path: /danfeng
+- name: '[VLESS] frFR_2|2.5MB/s'
+  network: ws
+  port: 8443
+  server: 95.182.98.38
   servername: sni.111000.indevs.in
   tls: true
   type: vless
@@ -20,23 +34,23 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- alterId: '0'
-  cipher: auto
-  name: '[Vmess] frFR_2|3.4MB/s'
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] frFR_3|2.4MB/s'
   network: ws
-  port: 8080
-  server: 188.114.98.0
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  port: 8443
+  server: 45.156.27.152
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: nasnet-162191099.sharghdaily.co
-    max-early-data: 2560
-    path: /nasnet/cdn
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
   xudp: true
 - alpn:
   - h3

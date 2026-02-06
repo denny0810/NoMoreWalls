@@ -8,7 +8,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 542f6e13-9542-470c-974a-d31c0a05a37d
-- name: '[Trojan] sgSG_4|1.0MB/s'
+- name: '[Trojan] 新加坡|@ripaojiedian'
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
   port: 3076
@@ -16,14 +16,16 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] 新加坡2|@ripaojiedian'
+- client-fingerprint: chrome
+  name: '[Trojan] sgSG²_3|0.6MB/s|GPT⁺|YT|X'
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
   port: 3901
   server: 160.16.236.32
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: '[Trojan] 新加坡3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
@@ -32,42 +34,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  country: 🇧🇩BD
-  name: '[Trojan] sgSG²_2|7.9MB/s|GPT|YT|D+|X'
-  network: tcp
-  password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
-  port: 49899
-  server: 14e297c343de34f9a70f81ab7d4f6b76.lh.gtm.cac.cab
-  skip-cert-verify: true
-  sni: tcsg1.bilibili.com
-  type: trojan
-  udp: true
-- cipher: aes-128-gcm
-  country: 🏁ZZ
-  name: '[SS] sgSG²_3|15.4MB/s|0%|GPT⁺|GM|YT...'
-  password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
-  port: 50008
-  server: lh2.cac.cab
-  type: ss
-- cipher: aes-128-gcm
-  country: 🏁ZZ
-  name: '[SS] sgSG²_5|13.2MB/s|0%|GPT⁺|GM|YT...'
-  password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
-  port: 50006
-  server: lh2.cac.cab
-  type: ss
-- cipher: aes-128-gcm
-  country: 🏁ZZ
-  name: '[SS] sgSG²_6|16.0MB/s|0%|GPT⁺|GM|YT...'
-  password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
-  port: 50005
-  server: lh2.cac.cab
-  type: ss
-- cipher: aes-128-gcm
-  country: 🏁ZZ
-  name: '[SS] sgSG²_7|9.3MB/s|0%|GPT⁺|GM|YT|...'
-  password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
-  port: 50007
-  server: lh2.cac.cab
-  type: ss

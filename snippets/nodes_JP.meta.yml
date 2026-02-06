@@ -157,7 +157,8 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[Trojan] 日本|@ripaojiedian'
+- client-fingerprint: chrome
+  name: '[Trojan] jpJP²_1|10.8MB/s|0%|GPT⁺|YT-CN...'
   network: tcp
   password: BxceQaOe
   port: 26378
@@ -173,7 +174,8 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] 日本3|@ripaojiedian'
+- client-fingerprint: chrome
+  name: '[Trojan] jpJP²_6|8.1MB/s|GPT|YT-RU|X'
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
   port: 3423
@@ -181,24 +183,24 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - client-fingerprint: chrome
-  name: '[VLESS] jpJP_1|1.5MB/s'
+  name: '[VLESS] US_speednode_0036'
   network: ws
   port: 2053
-  server: vip3.kaixincloud.top
-  servername: snippet.fgfw.ccwu.cc
+  server: 1357900.xyz
+  servername: snippet.danfeng.gleeze.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: snippet.fgfw.ccwu.cc
-    max-early-data: 2560
+      Host: snippet.danfeng.gleeze.com
     path: /danfeng
 - client-fingerprint: chrome
-  name: '[VLESS] jpJP²_1|0.8MB/s|0%|GPT|X'
+  name: '[VLESS] jpJP²_2|1.6MB/s|0%|GPT⁺|X'
   network: tcp
   port: 443
   reality-opts:
@@ -209,90 +211,51 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 35f2f529-968d-4727-b57a-bcc39a3fd2ae
-- cipher: aes-128-gcm
-  country: 🏁ZZ
-  name: '[SS] jpJP²_2|15.2MB/s|0%|GPT⁺|GM|YT...'
-  password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
-  port: 50010
-  server: lh2.cac.cab
-  type: ss
+  uuid: ea460dc3-0b19-4652-b5e2-f1ad74aadee6
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] jpJP²_3|9.3MB/s|0%|GPT⁺|YT-RU|...'
-  network: tcp
-  port: 27724
-  reality-opts:
-    public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
-    short-id: '!!str '
-  server: 116.80.44.144
-  servername: www.yahoo.co.jp
+  name: '[VLESS] jpJP²_3|6.6MB/s|32%|GPT⁺|X'
+  network: ws
+  port: 443
+  server: 69.84.182.13
+  servername: jp1-jp1.aiopen.sbs
   tls: true
   type: vless
   udp: true
-  uuid: ebd8539d-e249-4a39-8f90-e8585e8cc35e
-  xudp: true
-- cipher: aes-128-gcm
-  country: 🏁ZZ
-  name: '[SS] jpJP²_4|13.0MB/s|0%|GPT⁺|GM|YT...'
-  password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
-  port: 50012
-  server: lh2.cac.cab
-  type: ss
-- name: '[Socks5] jpJP²_5|9.8MB/s|33%|GPT⁺|GM|X'
+  uuid: 271ad593-3c8d-4bea-a785-350ddad205c9
+  ws-opts:
+    headers:
+      Host: jp1-jp1.aiopen.sbs
+    path: /kbjc/jp1
+- client-fingerprint: chrome
+  name: '[VLESS] jpJP²_4|0.5MB/s|GPT|X'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: '!!str 2da72ce6'
+  server: 154.31.114.125
+  servername: navi.bankrate.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ab47df8a-d1f3-43ea-ae3e-5bcc5c7f6a1d
+- client-fingerprint: chrome
+  name: '[VLESS] jpJP²_5|1.7MB/s|0%|X'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: '!!str 2da72ce6'
+  server: 154.31.114.125
+  servername: navi.bankrate.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e1a7e7fe-b863-4ccf-a6e0-2736c5af2374
+- name: '[Socks5] jpJP²_7|10.3MB/s|33%|GPT⁺|X|Su...'
   password: ''
   port: 18791
   server: 141.98.197.133
   skip-cert-verify: true
   type: socks5
   username: ''
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] jpJP²_6|9.1MB/s|0%|GPT|GM|YT|N...'
-  network: ws
-  port: 12883
-  server: gtm1.ktmwan.net
-  servername: baidu.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
-  ws-opts:
-    headers:
-      HOST: baidu.com
-      Host: gtm1.ktmwan.net
-    path: /
-- client-fingerprint: chrome
-  name: '[VLESS] jpJP²_7|1.2MB/s|X|History|[广播|...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: '!!str 2da72ce6'
-  server: 154.31.114.125
-  servername: navi.bankrate.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 03c766ab-6537-4752-8211-51d575d3a9be
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: '[Vmess] jpJP²_8|11.8MB/s|0%|GPT|GM|YT|...'
-  network: ws
-  port: 12883
-  server: gtm1.ktmwan.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-  xudp: true

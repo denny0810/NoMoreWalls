@@ -24,7 +24,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[Trojan] sgSG_4|1.0MB/s'
+- name: '[Trojan] 新加坡|@ripaojiedian'
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
   port: 3076
@@ -32,14 +32,16 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] 新加坡2|@ripaojiedian'
+- client-fingerprint: chrome
+  name: '[Trojan] sgSG²_3|0.6MB/s|GPT⁺|YT|X'
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
   port: 3901
   server: 160.16.236.32
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: '[Trojan] 新加坡3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
@@ -49,28 +51,13 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: '[VLESS] sgSG_1|1003KB/s'
-  network: ws
-  port: 2053
-  server: vip1.kaixincloud.top
-  servername: snippet.danfeng21.ndjp.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng21.ndjp.net
-    path: /danfeng
-- client-fingerprint: chrome
-  name: '[VLESS] sgSG_2|1.5MB/s'
+  name: '[VLESS] sgSG_1|1.1MB/s'
   network: ws
   port: 443
-  server: vip1.kaixincloud.top
+  server: 172.64.34.97
   servername: 5465765525.ccfly.tech
   tls: true
   type: vless
-  udp: true
   uuid: 4c642cae-1a6d-4e51-a1c3-fa5892437aa3
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
@@ -79,78 +66,31 @@ proxies:
     max-early-data: 2048
     path: /
 - client-fingerprint: chrome
-  name: '[VLESS] sgSG_3|1.3MB/s'
+  name: '[VLESS] sgSG_2|1.0MB/s'
   network: ws
-  port: 2053
-  server: cloudflare.seeck.cn
-  servername: snippet.danfeng21.ndjp.net
+  port: 443
+  server: 162.159.40.69
+  servername: 5465765525.ccfly.tech
   tls: true
   type: vless
-  udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  uuid: 4c642cae-1a6d-4e51-a1c3-fa5892437aa3
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: snippet.danfeng21.ndjp.net
-    max-early-data: 2560
-    path: /danfeng
-- name: '[Socks5] sgSG²_1|12.6MB/s|X'
-  password: ''
-  port: 10807
-  server: 146.235.19.84
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- client-fingerprint: chrome
-  country: 🇧🇩BD
-  name: '[Trojan] sgSG²_2|7.9MB/s|GPT|YT|D+|X'
-  network: tcp
-  password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
-  port: 49899
-  server: 14e297c343de34f9a70f81ab7d4f6b76.lh.gtm.cac.cab
-  skip-cert-verify: true
-  sni: tcsg1.bilibili.com
-  type: trojan
-  udp: true
-- cipher: aes-128-gcm
-  country: 🏁ZZ
-  name: '[SS] sgSG²_3|15.4MB/s|0%|GPT⁺|GM|YT...'
-  password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
-  port: 50008
-  server: lh2.cac.cab
-  type: ss
-- name: '[Socks5] sgSG²_4|12.8MB/s|X'
+      Host: 5465765525.ccfly.tech
+    max-early-data: 2048
+    path: /
+- name: '[Socks5] sgSG²_1|0.5MB/s|GPT|X|History'
   password: ''
   port: 1080
-  server: 165.22.110.253
+  server: 188.166.211.102
   skip-cert-verify: true
   type: socks5
   username: ''
-- cipher: aes-128-gcm
-  country: 🏁ZZ
-  name: '[SS] sgSG²_5|13.2MB/s|0%|GPT⁺|GM|YT...'
-  password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
-  port: 50006
-  server: lh2.cac.cab
-  type: ss
-- cipher: aes-128-gcm
-  country: 🏁ZZ
-  name: '[SS] sgSG²_6|16.0MB/s|0%|GPT⁺|GM|YT...'
-  password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
-  port: 50005
-  server: lh2.cac.cab
-  type: ss
-- cipher: aes-128-gcm
-  country: 🏁ZZ
-  name: '[SS] sgSG²_7|9.3MB/s|0%|GPT⁺|GM|YT|...'
-  password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
-  port: 50007
-  server: lh2.cac.cab
-  type: ss
-- name: '[Socks5] sgSG²_8|10.3MB/s|GPT|X'
+- name: '[Socks5] sgSG²_4|0.8MB/s|GPT|GM|X'
   password: ''
-  port: 10852
-  server: 213.35.110.67
+  port: 5555
+  server: 8.219.216.82
   skip-cert-verify: true
   type: socks5
   username: ''

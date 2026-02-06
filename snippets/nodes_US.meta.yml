@@ -188,7 +188,7 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  name: '[VLESS] usUS¹-KR⁰_1|4.1MB/s|GPT⁺|GM|YT...'
+  name: '[VLESS] usUS¹⁺_1|2.0MB/s|5%|D+|X|Succe...'
   network: ws
   port: 443
   server: 104.17.76.224
@@ -332,27 +332,10 @@ proxies:
   uuid: c2b6ef4f-58b5-34df-a9b2-b9423df641d9
   xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] US_speednode_0050'
+  name: '[VLESS] usUS¹-SG⁰_1|1.0MB/s|5%|GPT⁺|YT...'
   network: ws
   port: 2053
-  server: 104.17.73.206
-  servername: snippet.fgfw.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.de5.net
-    path: /danfeng
-  xudp: true
-- client-fingerprint: chrome
-  name: '[VLESS] usUS¹-SG⁰_2|1.3MB/s|5%|GPT⁺|GM...'
-  network: ws
-  port: 2053
-  server: go2.lenovo.com
+  server: cloudflare.seeck.cn
   servername: snippet.danfeng21.ndjp.net
   tls: true
   type: vless
@@ -365,28 +348,10 @@ proxies:
     max-early-data: 2560
     path: /danfeng
 - client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] usUS¹⁺_1|7.6MB/s|GPT⁺|GM|YT|NF...'
-  network: ws
-  port: 443
-  server: 104.17.73.206
-  servername: o00o.snip.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3321a819-889d-40b3-b8fa-f34208827ef1
-  ws-opts:
-    headers:
-      Host: o00o.snip.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/37.0.2062.120 Safari/537.36
-    path: /Tel-@V2rayAlpha
-  xudp: true
-- client-fingerprint: chrome
-  name: '[VLESS] usUS¹-SG⁰_3|0.7MB/s|GPT|GM|YT|...'
+  name: '[VLESS] usUS¹-SG⁰_2|0.8MB/s|YT|NF|D+|X...'
   network: ws
   port: 2053
-  server: cloudflare.seeck.cn
+  server: go2.lenovo.com
   servername: snippet.danfeng21.ndjp.net
   tls: true
   type: vless
@@ -413,8 +378,81 @@ proxies:
     headers:
       Host: snippet.sheilabelinda.ndjp.net
     path: /danfeng
+- name: '[Socks5] usUS²_1|4.9MB/s|GPT⁺|X|Succeed'
+  password: ''
+  port: 1080
+  server: 192.241.156.17
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - client-fingerprint: chrome
-  name: '[VLESS] usUS¹-SG⁰_5|4.6MB/s|GM|YT|NF|D...'
+  name: '[VLESS] usUS¹-SG⁰_4|1.0MB/s|5%|GPT⁺|GM...'
+  network: ws
+  port: 2053
+  server: 104.19.73.126
+  servername: snippet.danfeng21.ndjp.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng21.ndjp.net
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] usUS¹⁺_2|1.6MB/s|5%|GPT⁺|NF|D+...'
+  network: ws
+  port: 443
+  server: 104.17.73.206
+  servername: o00o.snip.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3321a819-889d-40b3-b8fa-f34208827ef1
+  ws-opts:
+    headers:
+      Host: o00o.snip.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/37.0.2062.120 Safari/537.36
+    path: /Tel-@V2rayAlpha
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] usUS²_2|1.3MB/s|7%|GPT⁺|YT-RU|...'
+  network: tcp
+  port: 5443
+  reality-opts:
+    public-key: fN0jSTqScsS-N3lRjtdgMoKsm3y2IJB9-z84Ewg_p2M
+    short-id: '!!str 7c41e6ab7c162a95'
+  server: 185.247.185.6
+  servername: sun6-22.userapi.com:443
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd0aba07-3b28-48a2-8cbb-49be72420089
+  xudp: true
+- client-fingerprint: chrome
+  name: '[VLESS] usUS¹-SG⁰_5|6.6MB/s|GPT|GM|YT|...'
+  network: ws
+  port: 2053
+  server: singapore.com
+  servername: snippet.danfeng21.ndjp.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng21.ndjp.net
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: '[VLESS] usUS¹-SG⁰_6|3.3MB/s|GPT|GM|YT|...'
   network: ws
   port: 2053
   server: china.embassy.gov.au
@@ -430,11 +468,64 @@ proxies:
     max-early-data: 2560
     path: /danfeng
 - client-fingerprint: chrome
-  name: '[VLESS] US_speednode_0052'
+  name: '[VLESS] usUS¹-SG⁰_8|0.6MB/s|GPT|GM|YT|...'
   network: ws
   port: 2053
-  server: china.embassy.gov.au
-  servername: snippet.danfeng.gleeze.com
+  server: 104.18.11.192
+  servername: snippet.danfeng21.ndjp.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng21.ndjp.net
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] nlNL²_8|7.4MB/s|GPT⁺|YT-US|X'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SySMR9yW2kna78L7nmfkSYeQ-DkS7nIx98AsTsHy0gM
+    short-id: '!!str 7fec027d1852df40'
+  server: nl.zeepo.ir
+  servername: tgju.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b414c86c-671f-5804-22e3-f1e31661a103
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] usUS²_3|6.2MB/s|0%|GPT⁺|X'
+  network: tcp
+  port: 4443
+  reality-opts:
+    public-key: DLqBw8458S7vERpm_w4NMGz1kNp7b7uIjwCgStZERyo
+    short-id: '!!str '
+  server: pryanik.net.ru
+  servername: sun6-21.userapi.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57df620f-96b1-4f2b-a6ff-043ce11b6995
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] US_speednode_0050'
+  network: ws
+  port: 2053
+  server: 104.17.73.206
+  servername: snippet.fgfw.de5.net
   skip-cert-verify: false
   tls: true
   type: vless
@@ -442,47 +533,45 @@ proxies:
   uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
   ws-opts:
     headers:
-      Host: snippet.danfeng.gleeze.com
+      Host: snippet.fgfw.de5.net
     path: /danfeng
-- name: '[Socks5] usUS²_1|4.9MB/s|GPT⁺|X|History'
+  xudp: true
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_4|6.7MB/s|41%|GPT⁺|NF|X|...'
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[Socks5] usUS²_5|1.8MB/s|0%|GPT|YT-CN|N...'
   password: ''
-  port: 1080
-  server: 192.241.156.17
+  port: 4781
+  server: 210.75.240.178
   skip-cert-verify: true
   type: socks5
   username: ''
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] usUS¹-SG⁰_9|1.4MB/s|GPT|GM|YT|...'
+  name: '[VLESS] caCA²_5|3.8MB/s|32%|GPT|YT-US|...'
   network: ws
-  port: 2053
-  server: 104.17.73.206
-  servername: snippet.fgfw.de5.net
-  tls: true
+  port: 80
+  server: 172.66.128.71
   type: vless
   udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  uuid: 6abc2840-25fd-4dd7-b1aa-0892fe98f2d9
   ws-opts:
     headers:
-      Host: snippet.fgfw.de5.net
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /danfeng?ed=
+      Host: MySterIOUS-chECk94Bl5oXQ6C.eCoTOUriSs.cO.uK.
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /?ed
   xudp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_2|3.4MB/s|0%|GPT⁺|GM|YT|...'
-  network: tcp
-  port: 23916
-  server: vm1.as7akp.cn
-  servername: vm1.as7akp.cn
-  skip-cert-verify: true
-  type: vmess
-  uuid: 72aaf68b-fca5-48fa-9ba3-b0a6fb9990d2
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: '[VLESS] US_speednode_0012'
@@ -986,6 +1075,21 @@ proxies:
   ws-opts:
     headers:
       Host: snippet.danfeng21.ndjp.net
+    path: /danfeng
+- client-fingerprint: chrome
+  name: '[VLESS] US_speednode_0052'
+  network: ws
+  port: 2053
+  server: china.embassy.gov.au
+  servername: snippet.danfeng.gleeze.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.gleeze.com
     path: /danfeng
 - name: '[VLESS] US_speednode_0053'
   network: ws

@@ -1,19 +1,59 @@
 proxies:
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] gbGB²_1|7.6MB/s|0%|GPT⁺|D+|X|S...'
-  network: ws
-  port: 8080
-  server: digitalocean.com
+  flow: xtls-rprx-vision
+  name: '[VLESS] gbGB²_1|5.5MB/s|0%|GPT|X|Succe...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: 109.120.188.166
+  servername: ads.x5.ru
+  tls: true
   type: vless
   udp: true
-  uuid: a460ed1b-e063-496c-9057-784547c0c81c
-  ws-opts:
-    headers:
-      Host: dildodod.decoreland.ir.
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/34.0.1847.131 Safari/537.36
-    path: /
+  uuid: 7bc30425-1c2f-4823-b629-90f599a4cbfe
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] gbGB²_2|4.6MB/s|10%|GPT⁺|X'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
+    short-id: '!!str d923'
+  server: uk1.miyazono-kaori.com
+  servername: www.bp.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2e82cda5-e020-4c63-8271-e58a00831447
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] gbGB²_3|5.3MB/s|10%|GPT⁺|X'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QdYs12kmf0mAXNOEPgMpLN5dbZUlgvRK2zCqynOmqBk
+    short-id: '!!str 20'
+  server: uk2.miyazono-kaori.com
+  servername: www.bp.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2e82cda5-e020-4c63-8271-e58a00831447
   xudp: true
 - client-fingerprint: chrome
   name: '[VLESS] GB_speednode_0007'

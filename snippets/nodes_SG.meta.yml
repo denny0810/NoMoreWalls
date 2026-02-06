@@ -49,39 +49,44 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: '[VLESS] sgSG_1|1.1MB/s'
+  name: '[VLESS] US_speednode_0036'
   network: ws
-  port: 443
-  server: 172.64.34.97
-  servername: 5465765525.ccfly.tech
+  port: 2053
+  server: 1357900.xyz
+  servername: snippet.danfeng.gleeze.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 4c642cae-1a6d-4e51-a1c3-fa5892437aa3
+  udp: true
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: 5465765525.ccfly.tech
-    max-early-data: 2048
-    path: /
+      Host: snippet.danfeng.gleeze.com
+    path: /danfeng
 - client-fingerprint: chrome
-  name: '[VLESS] sgSG_2|1.0MB/s'
+  encryption: none
+  name: '[VLESS] sgSG_2|3.3MB/s'
   network: ws
   port: 443
-  server: 162.159.40.69
-  servername: 5465765525.ccfly.tech
+  server: 162.159.12.151
+  servername: sni.111000.indevs.in
   tls: true
   type: vless
-  uuid: 4c642cae-1a6d-4e51-a1c3-fa5892437aa3
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: 5465765525.ccfly.tech
-    max-early-data: 2048
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    max-early-data: 2560
     path: /
-- name: '[Socks5] sgSG²_1|0.6MB/s|GPT⁺|GM|X|Succ...'
-  password: ''
-  port: 5555
-  server: 8.219.216.82
-  skip-cert-verify: true
-  type: socks5
-  username: ''
+  xudp: true
+- cipher: chacha20-ietf
+  country: 🇭🇰HK
+  name: '[SS] sgSG²_1|6.8MB/s|0%|GM|D+|X|His...'
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss

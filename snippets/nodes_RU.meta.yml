@@ -1,8 +1,21 @@
 proxies:
-- name: '[Socks5] ruRU²_1|0.7MB/s|X'
-  password: ''
-  port: 1080
-  server: 188.235.142.248
-  skip-cert-verify: true
-  type: socks5
-  username: ''
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] nlNL²_5|6.5MB/s|21%|GPT|YT-RU|...'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: P-3bYKbPp5YeCefayC3S3PvLanBv_lp0p_5qfrjbM34
+    short-id: '!!str 39a1eb3ec417cd66'
+  server: 62.133.61.141
+  servername: ir.ozone.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 59edf6dc-b1f7-4017-8107-aae4f61a173c
+  xudp: true

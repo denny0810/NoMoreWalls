@@ -127,33 +127,35 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
+- alterId: 2
   cipher: auto
-  delay: 2755
-  name: '[Vmess] usUS_5|1.3MB/s'
-  network: ws
-  port: 80
-  server: cvfgt.00890604.xyz
-  servername: cvfgt.00890604.xyz
+  client-fingerprint: chrome
+  delay: 1154
+  name: '[Vmess] caCA²_2|7.3MB/s|GPT⁺|GM|YT-US|...'
+  network: tcp
+  port: 30846
+  server: v46.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 827beb2a-f97a-4b23-b733-adef30c98e17
-  ws-opts:
-    headers:
-      Host: cvfgt.00890604.xyz
-    path: /HISLfofvqzd3a3izxYyZXOF
-- alterId: 2
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  country: 🇭🇰HK
+  country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] usUS²_4|6.7MB/s|41%|GPT⁺|NF|X|...'
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
+  name: '[Vmess] usUS²_2|0.7MB/s|0%|GPT⁺|X|Hist...'
+  network: ws
+  port: 2083
+  server: v1.dabache.top
+  servername: blog.dezh.store
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 698ba3c2-e501-42c3-8dc4-2d44e7099454
+  ws-opts:
+    headers:
+      HOST: blog.dezh.store
+    path: /ws

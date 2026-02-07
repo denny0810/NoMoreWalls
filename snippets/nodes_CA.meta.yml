@@ -6,38 +6,8 @@ proxies:
   skip-cert-verify: true
   sni: torontorm1.686911.xyz
   type: trojan
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  delay: 1154
-  name: '[Vmess] caCA_1|1.9MB/s'
-  network: tcp
-  port: 30846
-  server: v46.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] caCA²_1|4.2MB/s|32%|GPT|GM|YT|...'
-  network: ws
-  port: 80
-  server: 172.66.128.70
-  type: vless
-  udp: true
-  uuid: 3775d133-dc3a-4a02-8095-5c70c328ae9f
-  ws-opts:
-    headers:
-      Host: HUge-ActOR48bf36fHJV.ecOTouriSS.co.uK.
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
-    path: /?ed
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] caCA²_2|3.6MB/s|26%|GPT⁺|GM|YT...'
+- encryption: none
+  name: '[VLESS] caCA_1|1.0MB/s'
   network: ws
   port: 80
   server: 173.245.49.254
@@ -47,17 +17,57 @@ proxies:
   ws-opts:
     headers:
       Host: fiT-acADEmyw21824Ac8c.ECoToURISs.cO.Uk.
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
     path: /?ed
   xudp: true
 - client-fingerprint: chrome
-  name: '[VLESS] fiFI¹-CA⁰_1|0.8MB/s|D+|X|[广播|机...'
+  encryption: none
+  name: '[VLESS] fiFI¹-CA⁰_1|5.2MB/s|D+|X|Histo...'
   network: ws
   port: 443
-  server: 81.85.72.197
+  server: 94.237.114.211
   servername: sni.111000.indevs.in
-  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] nlNL¹-CA⁰_1|0.6MB/s|D+|X|[广播|机...'
+  network: ws
+  port: 443
+  server: 5.129.217.197
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: '[VLESS] nlNL¹-CA⁰_2|3.7MB/s|5%|GPT|D+|...'
+  network: ws
+  port: 8443
+  server: 143.20.236.203
+  servername: sni.111000.indevs.in
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -70,7 +80,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] nlNL¹-CA⁰_1|5.8MB/s|5%|GPT⁺|D+...'
+  name: '[VLESS] nlNL¹-CA⁰_3|7.1MB/s|GPT⁺|D+|X|...'
   network: ws
   port: 443
   server: 188.165.3.169
@@ -89,102 +99,29 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: '[VLESS] nlNL¹-CA⁰_3|4.8MB/s|5%|GPT⁺|D+...'
-  network: ws
-  port: 2053
-  server: 85.234.107.140
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.111000.indevs.in
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] nlNL¹-CA⁰_4|4.4MB/s|GPT|D+|X|[...'
+  name: '[VLESS] nlNL¹-CA⁰_4|0.7MB/s|GPT|D+|X'
   network: ws
   port: 443
-  server: 5.39.219.35
+  server: 91.84.101.53
   servername: sni.111000.indevs.in
   tls: true
   type: vless
   udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: sni.111000.indevs.in
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    max-early-data: 2560
-    path: /
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳 @app_bedal
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] nlNL¹-CA⁰_5|5.5MB/s|5%|GPT|D+|...'
+  name: '[VLESS] nlNL¹-CA⁰_5|0.6MB/s|5%|D+|X|[广...'
   network: ws
   port: 443
-  server: 5.34.180.231
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.111000.indevs.in
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '[VLESS] nlNL¹-CA⁰_6|3.5MB/s|GPT|D+|X|S...'
-  network: ws
-  port: 8443
-  server: 143.20.236.203
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.111000.indevs.in
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  name: '[VLESS] nlNL¹-CA⁰_7|1.9MB/s|D+|X|Succe...'
-  network: ws
-  port: 2053
-  server: 103.90.75.41
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.111000.indevs.in
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] nlNL¹-CA⁰_8|6.2MB/s|GPT⁺|D+|X|...'
-  network: ws
-  port: 443
-  server: 5.129.229.74
+  server: 5.129.214.10
   servername: sni.111000.indevs.in
   tls: true
   type: vless
@@ -195,21 +132,7 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.86 Safari/537.36
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
     max-early-data: 2560
     path: /
   xudp: true
-- client-fingerprint: chrome
-  name: '[VLESS] nlNL¹-CA⁰_9|5.6MB/s|GPT|D+|X|S...'
-  network: ws
-  port: 2053
-  server: 85.234.107.140
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2

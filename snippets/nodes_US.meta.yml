@@ -68,14 +68,12 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[Vmess] usUS_4|1.1MB/s'
+  name: '[Vmess] US18｜机房｜低风险'
   network: ws
-  port: 2086
+  port: '2086'
   server: 154.83.2.156
-  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
   ws-opts:
     headers:
@@ -151,8 +149,239 @@ proxies:
   port: 443
   server: 13.217.198.211
   type: ss
+- name: '[VLESS] usUS_1|1.6MB/s'
+  network: ws
+  port: 2096
+  server: 25.129.199.238
+  servername: sni.jpmj.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.jpmj.dev
+    max-early-data: 2560
+    path: /
+- name: '[VLESS] usUS_2|1.2MB/s'
+  network: ws
+  port: 2096
+  server: 14.102.228.238
+  servername: sni.jpmj.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.jpmj.dev
+    max-early-data: 2560
+    path: /
+- name: '[VLESS] usUS_3|2.1MB/s'
+  network: ws
+  port: 2096
+  server: 25.25.25.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  name: '[VLESS] usUS¹-CA⁰_2|5.5MB/s|GPT⁺|GM|YT...'
+  flow: xtls-rprx-vision
+  name: '[VLESS] usUS_4|1.5MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: qDDTR04DF-3UmwgHVoImoIHAo_SuLzIBcdE19SG1cQ4
+    short-id: '!!str d3b332c28e'
+  server: us1.miyazono-kaori.com
+  servername: download-porter.hoyoverse.com
+  tls: true
+  type: vless
+  uuid: 2e82cda5-e020-4c63-8271-e58a00831447
+- name: '[VLESS] usUS_5|1.1MB/s'
+  network: ws
+  port: 2096
+  server: 92.53.190.138
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: '[VLESS] usUS_6|2.4MB/s'
+  network: ws
+  port: 2096
+  server: 185.156.19.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: '[VLESS] usUS_7|1.6MB/s'
+  network: ws
+  port: 2096
+  server: 37.0.6.138
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: '[VLESS] usUS_8|1.1MB/s'
+  network: ws
+  port: 443
+  server: 135.84.74.135
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: '[VLESS] usUS_9|1.0MB/s'
+  network: ws
+  port: 2096
+  server: 198.71.232.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: '[VLESS] usUS_10|1.2MB/s'
+  network: ws
+  port: 2096
+  server: 209.94.90.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] usUS_11|1.0MB/s'
+  network: ws
+  port: 2096
+  server: 167.68.42.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] usUS¹-CA⁰_3|1.8MB/s|GPT|X|Hist...'
+  network: ws
+  port: 2096
+  server: 25.129.198.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] usUS_13|1.0MB/s'
+  network: ws
+  port: 2096
+  server: 190.93.244.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] usUS_14|1.2MB/s'
+  network: ws
+  port: 2096
+  server: 45.12.31.138
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] usUS_15|2.5MB/s'
+  network: ws
+  port: 443
+  server: 104.18.32.47
+  servername: dev.twistsparrow.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: fef4a93d-eb4f-4657-b56b-32a0dc060045
+  ws-opts:
+    headers:
+      Host: dev.twistsparrow.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: '[VLESS] usUS¹-CA⁰_2|5.7MB/s|YT|TK|D+|X...'
+  network: ws
+  port: 2096
+  server: 190.93.244.138
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  name: '[VLESS] usUS¹-CA⁰_4|1.6MB/s|GM|X|Succe...'
   network: ws
   port: 2096
   server: 185.251.81.238
@@ -165,148 +394,26 @@ proxies:
     headers:
       Host: sni.jpmj.dev
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: '[VLESS] usUS_2|1.7MB/s'
+- client-fingerprint: chrome
+  name: '[VLESS] usUS¹-CA⁰_5|7.5MB/s|5%|GPT⁺|NF...'
   network: ws
   port: 2096
-  server: 5.10.214.238
-  servername: sni.jpmj.dev
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  delay: 1401
-  name: '[VLESS] usUS_3|1.8MB/s'
-  network: ws
-  port: 2096
-  server: 162.120.94.138
+  server: 190.93.244.138
   servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] usUS_5|2.4MB/s'
-  network: ws
-  port: 443
-  server: 185.16.110.1
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.111000.indevs.in
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] usUS_6|1.7MB/s'
-  network: ws
-  port: 443
-  server: 185.16.110.0
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.111000.indevs.in
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] usUS¹-SG⁰_4|4.0MB/s|YT|NF|D+|X...'
-  network: ws
-  port: 2053
-  server: 104.17.73.206
-  servername: snippet.fgfw.de5.net
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.de5.net
-    path: /danfeng
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] usUS_8|2.0MB/s'
-  network: ws
-  port: 2096
-  server: 185.18.250.238
-  servername: sni.jpmj.dev
-  tls: true
-  type: vless
-  udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: sni.jpmj.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+      Host: sni.111000.indevs.in
     max-early-data: 2560
     path: /
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[Trojan] usUS_9|1.5MB/s'
-  network: ws
-  password: 5196aae7-1479-4f3c-978b-68e74977b509
-  port: 443
-  server: mkouy.99890604.xyz
-  skip-cert-verify: false
-  sni: mkouy.99890604.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /mSZVb4DmOGWZIKMBivnR3
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] usUS_10|2.1MB/s'
-  network: ws
-  port: 2053
-  server: convera.com
-  servername: snippet.danfeng.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.de5.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /danfeng
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] usUS¹⁺_1|4.4MB/s|GPT|YT|NF|D+|...'
+  name: '[VLESS] usUS¹⁺_1|6.5MB/s|5%|GPT|GM|YT|...'
   network: ws
   port: 443
   server: 104.17.73.206
@@ -323,25 +430,10 @@ proxies:
     path: /Tel-@V2rayAlpha
   xudp: true
 - client-fingerprint: chrome
-  name: '[VLESS] usUS¹-SG⁰_1|2.0MB/s|YT-HK|NF|D...'
-  network: ws
-  port: 2053
-  server: 1357900.xyz
-  servername: snippet.danfeng.gleeze.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.gleeze.com
-    path: /danfeng
-- client-fingerprint: chrome
-  name: '[VLESS] usUS¹-CA⁰_1|3.5MB/s|GPT|GM|YT|...'
+  name: '[VLESS] usUS¹-CA⁰_6|0.8MB/s|5%|GPT⁺|GM...'
   network: ws
   port: 2096
-  server: 162.251.82.238
+  server: 92.53.191.238
   servername: sni.jpmj.dev
   tls: true
   type: vless
@@ -350,228 +442,10 @@ proxies:
   ws-opts:
     headers:
       Host: sni.jpmj.dev
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- client-fingerprint: chrome
-  name: '[VLESS] usUS¹-SG⁰_2|1.5MB/s|GPT|GM|YT|...'
-  network: ws
-  port: 2053
-  server: singapore.com
-  servername: snippet.danfeng21.ndjp.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng21.ndjp.net
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  name: '[VLESS] usUS¹-CA⁰_3|4.1MB/s|5%|GPT⁺|D+...'
-  network: ws
-  port: 2053
-  server: 199.119.137.95
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.111000.indevs.in
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  name: '[VLESS] usUS¹-CA⁰_4|3.4MB/s|5%|NF|D+|X...'
-  network: ws
-  port: 2096
-  server: 190.93.244.138
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- client-fingerprint: chrome
-  name: '[VLESS] 🏴‍☠_1frFR¹-US⁰_1|6.4MB/s|[广播|机...'
-  network: ws
-  port: 2053
-  server: 31.59.121.155
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: '[VLESS] usUS¹-SG⁰_5|2.8MB/s|GPT|GM|YT|...'
-  network: ws
-  port: 2053
-  server: 104.18.11.192
-  servername: snippet.danfeng21.ndjp.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng21.ndjp.net
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  name: '[VLESS] usUS¹-SG⁰_6|0.9MB/s|GPT⁺|GM|YT...'
-  network: ws
-  port: 2053
-  server: cloudflare.seeck.cn
-  servername: snippet.danfeng21.ndjp.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng21.ndjp.net
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  name: '[VLESS] usUS¹-CA⁰_5|6.0MB/s|5%|GPT|GM|...'
-  network: ws
-  port: 2096
-  server: 14.102.228.238
-  servername: sni.jpmj.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.jpmj.dev
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  name: '[VLESS] usUS¹-SG⁰_11|3.8MB/s|YT|NF|D+|...'
-  network: ws
-  port: 2053
-  server: 104.17.71.206
-  servername: snippet.sheilabelinda.ndjp.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.sheilabelinda.ndjp.net
-    path: /danfeng
-- client-fingerprint: chrome
-  name: '[VLESS] usUS¹-CA⁰_6|3.2MB/s|5%|GPT|GM|...'
-  network: ws
-  port: 2096
-  server: 162.120.94.138
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.111000.indevs.in
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  name: '[VLESS] usUS¹-CA⁰_7|3.8MB/s|GPT⁺|GM|YT...'
-  network: ws
-  port: 2096
-  server: 103.116.7.138
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
     path: /?ed=2560&Telegram🇨🇳@WangCai2
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] usUS¹-SG⁰_8|4.1MB/s|NF|D+|X|Hi...'
-  network: ws
-  port: 2053
-  server: 104.17.73.206
-  servername: snippet.fgfw.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.de5.net
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /danfeng?ed=
-  xudp: true
-- client-fingerprint: chrome
-  name: '[VLESS] usUS¹-SG⁰_9|0.9MB/s|GPT⁺|GM|YT...'
-  network: ws
-  port: 2053
-  server: 104.19.73.126
-  servername: snippet.danfeng21.ndjp.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng21.ndjp.net
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  name: '[VLESS] usUS¹-CA⁰_8|4.8MB/s|0%|GPT|GM|...'
-  network: ws
-  port: 2096
-  server: 185.7.240.238
-  servername: sni.jpmj.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- client-fingerprint: chrome
-  name: '[VLESS] usUS¹-CA⁰_9|6.1MB/s|GPT|GM|YT|...'
-  network: ws
-  port: 2096
-  server: 25.26.27.238
-  servername: sni.jpmj.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] usUS¹⁺_2|3.3MB/s|5%|GPT⁺|GM|YT...'
+  name: '[VLESS] usUS¹⁺_2|7.0MB/s|5%|GPT|GM|NF|...'
   network: ws
   port: 443
   server: 104.17.73.206
@@ -588,44 +462,10 @@ proxies:
     path: /Tel-@v2rayngzendegimamad@v2rayngzendegimamad
   xudp: true
 - client-fingerprint: chrome
-  delay: 2273
-  name: '[VLESS] usUS¹-SG⁰_12|2.1MB/s|GPT|GM|YT...'
-  network: ws
-  port: 2053
-  server: docker.1panel.live
-  servername: snippet.443888.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.443888.xyz
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  name: '[VLESS] usUS¹-CA⁰_10|5.3MB/s|5%|GPT|GM...'
+  name: '[VLESS] usUS¹-CA⁰_7|1.1MB/s|GPT|X|Succ...'
   network: ws
   port: 2096
-  server: 25.26.27.238
-  servername: sni.jpmj.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.jpmj.dev
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  name: '[VLESS] usUS¹-CA⁰_11|4.1MB/s|5%|GPT|GM...'
-  network: ws
-  port: 2096
-  server: 185.170.166.138
+  server: 103.116.7.138
   servername: sni.111000.indevs.in
   tls: true
   type: vless

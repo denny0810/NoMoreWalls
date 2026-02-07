@@ -15,7 +15,8 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: '[Trojan] HK20｜家宽｜非常安全'
+- name: '[Trojan] hkHK²_5|5.2MB/s|0%|D+|X|Histor...'
+  network: tcp
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
@@ -52,15 +53,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 77aad73d-03e7-441b-9bc5-98d13535ba3e
-- name: '[Trojan] hkHK²_3|1.8MB/s|0%|X|History'
-  network: tcp
+- name: '[Trojan] HK24｜家宽｜非常安全'
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
   skip-cert-verify: true
   sni: 219.76.135.98
   type: trojan
-- name: '[Trojan] HK10｜家宽｜非常安全'
+- name: '[Trojan] hkHK²_4|6.9MB/s|YT-CN|D+|X|His...'
+  network: tcp
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
@@ -177,14 +178,12 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[Vmess] usUS_4|1.1MB/s'
+  name: '[Vmess] US18｜机房｜低风险'
   network: ws
-  port: 2086
+  port: '2086'
   server: 154.83.2.156
-  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
   ws-opts:
     headers:
@@ -433,39 +432,139 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  delay: 1154
-  name: '[Vmess] caCA_1|1.9MB/s'
-  network: tcp
-  port: 30846
-  server: v46.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - http/1.1
-  name: '[Trojan] usUS_9|1.5MB/s'
+- name: '[Trojan] sgSG_2|3.3MB/s'
   network: ws
-  password: 5196aae7-1479-4f3c-978b-68e74977b509
+  password: 5a2c16f9
   port: 443
-  server: mkouy.99890604.xyz
+  server: cf.090227.xyz
   skip-cert-verify: false
-  sni: mkouy.99890604.xyz
+  sni: pg.hhhhh.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: pg.hhhhh.eu.org
+    path: /
+- name: '[Trojan] sgSG_3|2.7MB/s'
+  network: ws
+  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
+  port: 443
+  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
+  skip-cert-verify: false
+  sni: _acme-challenge.sb.cloudns.biz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: _acme-challenge.sb.cloudns.biz
+    path: /%2F
+- name: '[Trojan] frFR_1|2.5MB/s'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.32.47
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /assignment
+- cipher: aes-128-gcm
+  name: '[SS] frFR²_3|4.6MB/s|GPT⁺|X|[原生|住宅拨...'
+  password: Hc2yn6UjVCbaPO33TQ93MUtofOLRHm7A
+  port: 18292
+  server: 195.154.202.112
+  type: ss
+  udp: true
+- name: '[Trojan] frFR_3|2.4MB/s'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.152.23
+  skip-cert-verify: false
+  sni: www.gossipglove.com
   type: trojan
   udp: true
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /mSZVb4DmOGWZIKMBivnR3
-- alpn:
-  - ''
-  alterId: '0'
+        like Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /assignment
+- name: '[Trojan] frFR_4|1.7MB/s'
+  network: ws
+  password: humanity
+  port: 443
+  server: www.calmlunch.com
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /assignment
+- country: 🇭🇰HK
+  name: '[Trojan] hkHK²_1|17.3MB/s|0%|YT-CN|NF|D...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 218.250.156.130
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- alterId: '0'
   cipher: auto
-  name: '[Vmess] frFR_1|2.4MB/s'
+  name: '[Vmess] frFR²_1|1.0MB/s|GPT|X|History'
+  network: ws
+  port: 8080
+  server: 188.114.98.0
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nasnet-162191099.sharghdaily.co
+    path: /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
+  xudp: true
+- name: '[Trojan] HK_speednode_0034'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.36
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- name: '[Trojan] hkHK²_3|7.3MB/s|0%|GPT⁺|GM|YT|...'
+  network: tcp
+  password: 6abb8aed-172b-4b9d-933b-47fc9f60a6e0
+  port: 21115
+  server: cdnfire.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdnfire.xiaomispeed.com
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🏁 ZZ
+  http-opts: {}
+  name: '[Vmess] deDE²_5|0.8MB/s|X|History'
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: '[Vmess] deDE²_7|6.8MB/s|GPT|X|History|...'
   network: ws
   port: 8080
   server: tgju.org
@@ -477,62 +576,146 @@ proxies:
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: nasnet-162191099.sharghdaily.co
+      Host: nasnet-571296497.iranpress.co
     max-early-data: 2560
     path: /nasnet/cdn
   xudp: true
-- country: 🇺🇸US
-  name: '[Trojan] deDE²_1|5.9MB/s|1%|GPT⁺|X|[广播|...'
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 63.182.112.185
+- alterId: 0
+  cipher: auto
+  country: 🇯🇵JP
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] jpJP²_3|1.9MB/s|10%|GPT⁺|GM|YT...'
+  network: ws
+  port: 443
+  server: tokyo01.zgjok.com
+  servername: tokyo01.zgjok.com
   skip-cert-verify: true
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
-- country: 🇬🇧GB
-  name: '[Trojan] jpJP²_1|10.7MB/s|0%|GPT⁺|YT-CN...'
-  network: tcp
-  password: a6764ddc-0ffa-4cd7-a107-6323b6fc35a6
-  port: 41273
-  server: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
-  sni: douyin.com
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  country: 🇪🇸 ES
-  name: '[SS] esES²_1|1.8MB/s|26%|GPT⁺|X|His...'
-  password: EXN3S3eQpjE7EJu8
-  port: 9027
-  server: 5.188.181.201
+  uuid: e6d5d668-2091-41d9-9bff-df0a1c5107ec
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  country: 🇬🇧GB
+  name: '[SS] nlNL²_2|1.9MB/s|GPT⁺|X|[广播|机房]'
+  password: a5870dda-48fc-43d3-bfa6-f99cf4958690
+  port: 29305
+  server: nl2.bot-tg.shop
   type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: '[SS] hkHK²_1|11.8MB/s|1%|YT|NF|X'
-  password: b0c9d775-32f7-459a-b24d-ecda7c9f3720
-  port: 11688
-  server: ss.020.node-for-bigairport.win
-  type: ss
-- country: 🇺🇸US
-  name: '[Trojan] deDE²_3|3.0MB/s|1%|GPT⁺|X|[广播|...'
+- name: '[Trojan] hkHK²_6|9.0MB/s|0%|GPT⁺|GM|YT|...'
   network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 63.181.75.67
+  password: 279483de-d842-412c-bc6a-d75afe58eac6
+  port: 21115
+  server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
+  sni: cdnfire.xiaomispeed.com
   type: trojan
   udp: true
-- name: '[Trojan] HK_speednode_0034'
+- country: 🇭🇰 HK
+  name: '[Trojan] hkHK²_7|2.6MB/s|0%|NF|D+|X|Suc...'
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 112.120.31.36
+  server: 219.76.135.98
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[Vmess] frFR²_4|2.8MB/s|X|History'
+  network: ws
+  port: 8080
+  server: 104.21.69.44
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nasnet-511952424.mcitel.co
+    path: /nasnet/cdn
+  xudp: true
+- cipher: aes-256-cfb
+  name: '[SS] krKR²_3|1.7MB/s|0%|GPT⁺|YT-CN|...'
+  password: qwerREWQ@@
+  port: 4469
+  server: 168.126.234.247
+  type: ss
+  udp: true
+- country: 🇭🇰 HK
+  name: '[Trojan] hkHK²_8|16.6MB/s|0%|YT-CN|NF|D...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 218.250.156.130
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇭🇰HK
+  name: '[Trojan] hkHK²_9|16.1MB/s|0%|YT-CN|D+|X...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 218.250.156.130
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
+- name: '[Trojan] twTW²_1|7.3MB/s|0%|GPT⁺|GM|YT|...'
+  network: tcp
+  password: 6abb8aed-172b-4b9d-933b-47fc9f60a6e0
+  port: 22231
+  server: cdnfire.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdnfire.xiaomispeed.com
+  type: trojan
+  udp: true
+- country: 🇫🇷FR
+  name: '[Trojan] frFR²_7|1.6MB/s|1%|GPT⁺|X|[广播|...'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 15.236.88.17
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇫🇷FR
+  name: '[Trojan] frFR²_8|5.5MB/s|1%|GPT⁺|X'
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22223
+  server: 15.236.88.17
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇨🇳 CN
+  name: '[Trojan] sgSG²_1|8.5MB/s|GPT⁺|GM|YT|X|[...'
+  network: tcp
+  password: 5fb072e0ddd631cf66cf752b09210480
+  port: 2760
+  server: 43.249.193.101
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: '[Trojan] hkHK¹-KR⁰_1|1.5MB/s|GPT|X'
+  network: ws
+  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
+  port: 443
+  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
+  skip-cert-verify: false
+  sni: _acme-challenge.sb.cloudns.biz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /
 - country: 🇭🇰 HK
   name: '[Trojan] HK_speednode_0031'
   network: tcp
@@ -542,68 +725,38 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- country: 🇭🇰 HK
-  name: '[Trojan] hkHK²_6|14.5MB/s|0%|YT-CN|NF|D...'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 218.250.156.130
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: '[SS] krKR²_2|0.8MB/s|0%|D+|X|Histor...'
-  password: qwerREWQ@@
-  port: 4469
-  server: 168.126.234.247
-  type: ss
-  udp: true
-- name: '[Trojan] HK_speednode_0030'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.36
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- country: 🇭🇰HK
-  name: '[Trojan] hkHK²_8|3.2MB/s|0%|YT-CN|NF|D+...'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- country: 🇭🇰 HK
-  name: '[Trojan] hkHK²_9|2.4MB/s|D+|X|History'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] deDE²_7|6.8MB/s|49%|GPT⁺|X|His...'
+- name: '[Trojan] nlNL²_6|6.4MB/s|GPT⁺|X|[广播|住宅拨...'
   network: ws
-  port: 8080
-  server: tgju.org
-  servername: nasnet-571296497.iranpress.co
+  password: humanity
+  port: 443
+  server: www.multiplydose.com
   skip-cert-verify: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      HOST: nasnet-571296497.iranpress.co
-      Host: tgju.org
-    path: /nasnet/cdn
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] sgSG²_2|1.3MB/s|GPT⁺|X|[原生|机房]'
+  network: ws
+  port: 443
+  server: v3.dabache.top
+  servername: blog.dezh.store
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e83b705e-4541-4ea3-9c2d-e7e9eb1f29c8
+  ws-opts:
+    headers:
+      HOST: blog.dezh.store
+    path: /
 - alterId: 0
   cipher: auto
   name: '[Vmess] VMESS节点2-ipv6'
@@ -637,6 +790,14 @@ proxies:
     headers:
       Host: nodes.830901.xyz
     path: /?ed=2560
+- name: '[Trojan] HK_speednode_0030'
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.36
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - name: '[Trojan] US_speednode_0079'
   network: ws
   password: Aimer

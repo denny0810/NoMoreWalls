@@ -60,14 +60,12 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[Vmess] usUS_4|1.1MB/s'
+  name: '[Vmess] US18｜机房｜低风险'
   network: ws
-  port: 2086
+  port: '2086'
   server: 154.83.2.156
-  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
   ws-opts:
     headers:
@@ -135,23 +133,6 @@ proxies:
   port: 443
   server: 13.217.198.211
   type: ss
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[Trojan] usUS_9|1.5MB/s'
-  network: ws
-  password: 5196aae7-1479-4f3c-978b-68e74977b509
-  port: 443
-  server: mkouy.99890604.xyz
-  skip-cert-verify: false
-  sni: mkouy.99890604.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /mSZVb4DmOGWZIKMBivnR3
 - name: '[Trojan] US_speednode_0079'
   network: ws
   password: Aimer

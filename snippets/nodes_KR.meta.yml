@@ -1,10 +1,10 @@
 proxies:
-- name: '[Socks5] krKR²_3|4.4MB/s|4%|GPT⁺|X|Succ...'
+- name: '[Socks5] krKR²_1|9.3MB/s|4%|GM|X|Histor...'
   port: 1090
   server: 121.169.46.116
   tls: false
   type: socks5
-  username: Og%3D%3D
+  username: T2clM0QlM0Q6
 - name: '[Hysteria2] KR4｜机房｜低风险'
   obfs: salamander
   obfs-password: MKsqfibVxwhZ3pCf
@@ -25,18 +25,27 @@ proxies:
   sni: kr2.miyazono-kaori.com
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  name: '[SS] krKR²_2|0.8MB/s|0%|D+|X|Histor...'
-  password: qwerREWQ@@
-  port: 4469
-  server: 168.126.234.247
-  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] krKR_1|4.6MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+    short-id: '!!str '
+  server: 47.80.13.85
+  servername: api.company-target.com
+  tls: true
+  type: vless
   udp: true
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  xudp: true
 - name: '[Http] KR_speednode_0038'
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
   skip-cert-verify: true
+  sni: testkr3.ssv.vc
   tls: true
   type: http
   udp: true

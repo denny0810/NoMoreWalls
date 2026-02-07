@@ -1,24 +1,33 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] ruRU_1|1.7MB/s'
+  name: '[VLESS] RU_speednode_0071'
   network: tcp
   port: 443
   reality-opts:
-    public-key: sbvKAdRy_0h33iRxgGwHAD1HC62WGwlkWwj0S5ptJEU
-    short-id: '!!str 9c2378562188c3cb'
-  server: 212.113.123.230
-  servername: ru.denditop.site
+    public-key: tYFlc_8tzrwDisZbxlHj06rw_YE154TVYeEBuwOQZHE
+    short-id: '!!str 8a6605e7'
+  server: 45.139.26.213
+  servername: www.yandex.ru
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: e4f5077b-3628-450c-92f9-b129b8a641a7
-  xudp: true
+  uuid: 8ff544c5-303c-46f4-80fe-8e8e166fd981
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] RU_speednode_0062'
+  port: 443
+  reality-opts:
+    public-key: --Hfd0J48lUn9F6lHE3NJn8M-MdjeWTQDWMtJshhYAk
+    short-id: '!!str deadbeefcafebabe'
+  server: 185.241.195.45
+  servername: ads.x5.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 46254027-2890-4224-9c7b-4bfede00175b
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] RU_speednode_0063'
@@ -47,6 +56,20 @@ proxies:
   type: vless
   udp: true
   uuid: 4603e54d-b023-4947-83e7-70025416f306
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] RU_speednode_0065'
+  port: 443
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: '!!str f4b4a6365558ea2e'
+  server: 89.169.128.105
+  servername: yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00c01f55-e31a-41cd-872b-938cda90afc3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] RU_speednode_0067'
@@ -102,20 +125,6 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] RU_speednode_0071'
-  port: 443
-  reality-opts:
-    public-key: tYFlc_8tzrwDisZbxlHj06rw_YE154TVYeEBuwOQZHE
-    short-id: '!!str 8a6605e7'
-  server: 45.139.26.213
-  servername: www.yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8ff544c5-303c-46f4-80fe-8e8e166fd981
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] RU_speednode_0072'

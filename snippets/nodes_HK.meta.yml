@@ -27,7 +27,9 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[Trojan] HK24｜家宽｜非常安全'
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_3|1.8MB/s|0%|X|History'
+  network: tcp
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
@@ -162,24 +164,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] hkHK_1|1.5MB/s'
-  port: 25210
-  server: ncgddx.gdsxrk.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 623787ef-7786-4572-abf5-0180892558aa
-- name: '[Http] hkHK_2|1.0MB/s'
-  password: <password>
-  port: 8443
-  server: 6df231b9-t9zts0-tb74a6-1q9g2.hkt.cdnhuawei.com
-  sni: 6df231b9-t9zts0-tb74a6-1q9g2.hkt.cdnhuawei.com
-  tls: true
-  type: http
-  username: 9d80dd14-ac44-11ee-a116-f23c9164ca5d
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: '[SS] hkHK²_1|11.8MB/s|1%|YT|NF|X'
+  password: b0c9d775-32f7-459a-b24d-ecda7c9f3720
+  port: 11688
+  server: ss.020.node-for-bigairport.win
+  type: ss
 - client-fingerprint: chrome
   name: '[Trojan] HK_speednode_0034'
   network: tcp
@@ -188,6 +179,16 @@ proxies:
   server: 112.120.31.36
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  country: 🇭🇰 HK
+  name: '[Trojan] HK_speednode_0031'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.36
+  skip-cert-verify: true
   type: trojan
   udp: true
 - client-fingerprint: chrome
@@ -200,10 +201,13 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: '[Trojan] HK_speednode_0031'
+- client-fingerprint: chrome
+  country: 🇭🇰 HK
+  name: '[Trojan] hkHK²_9|2.4MB/s|D+|X|History'
+  network: tcp
   password: BxceQaOe
   port: 443
-  server: 112.120.31.36
+  server: 219.76.135.98
   skip-cert-verify: true
   type: trojan
   udp: true

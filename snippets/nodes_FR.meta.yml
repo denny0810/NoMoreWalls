@@ -8,19 +8,35 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[VLESS] frFR_1|1.4MB/s'
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[Vmess] frFR_1|2.4MB/s'
   network: ws
-  port: 2053
-  server: 31.59.120.161
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 8080
+  server: tgju.org
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      Host: nasnet-162191099.sharghdaily.co
+    max-early-data: 2560
+    path: /nasnet/cdn
+  xudp: true
+- name: '[Socks5] frFR²_1|0.7MB/s|GPT|X'
+  password: ''
+  port: 1080
+  server: 194.163.182.6
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - client-fingerprint: chrome
+  encryption: none
   name: '[VLESS] FR_speednode_0019'
   network: tcp
   port: 3032
@@ -33,6 +49,27 @@ proxies:
   type: vless
   udp: true
   uuid: e59083aa-d933-4952-8cf0-eec74f718705
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] frFR²_4|5.7MB/s|4%|GPT⁺|X|[广播|...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: NbZDyyn7jiy3X59fcoVyL6WsCkE4K-sfOKQ383JAHD8
+    short-id: '!!str 04c9953800'
+  server: fr2.miyazono-kaori.com
+  servername: www.edf.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2e82cda5-e020-4c63-8271-e58a00831447
+  xudp: true
 - client-fingerprint: chrome
   name: '[VLESS] FR_speednode_0017'
   network: ws

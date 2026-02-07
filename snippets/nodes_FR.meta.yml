@@ -8,11 +8,62 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: '[VLESS] FR_speednode_0006'
+- name: '[VLESS] frFR_1|1.6MB/s'
   network: ws
-  port: 443
-  server: 94.131.9.202
+  port: 8443
+  server: 31.59.121.155
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  country: 🇫🇷FR
+  name: '[Trojan] frFR²_1|5.3MB/s|1%|GPT⁺|X|[广播|...'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.39.246.81
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  country: 🇫🇷FR
+  name: '[Trojan] frFR²_2|5.0MB/s|1%|GPT⁺|X|[广播|...'
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22223
+  server: 13.39.246.81
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: '[Vmess] frFR²_4|7.3MB/s|42%|GPT⁺|X|His...'
+  network: ws
+  port: 8080
+  server: 188.114.98.0
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nasnet-162191099.sharghdaily.co
+    path: /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
+  xudp: true
+- client-fingerprint: chrome
+  name: '[VLESS] FR_speednode_0017'
+  network: ws
+  port: 8443
+  server: 188.130.207.158
   servername: sni.111000.indevs.in
   skip-cert-verify: false
   tls: true
@@ -22,4 +73,58 @@ proxies:
   ws-opts:
     headers:
       Host: sni.111000.indevs.in
+    path: /?ed=2560
+- name: '[VLESS] FR_speednode_0018'
+  network: ws
+  port: 8443
+  server: 46.8.224.150
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: '[VLESS] FR_speednode_0019'
+  port: 3032
+  reality-opts:
+    public-key: 21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI
+  server: fr.locations-service.com
+  servername: refersion.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e59083aa-d933-4952-8cf0-eec74f718705
+- client-fingerprint: chrome
+  name: '[VLESS] FR_speednode_0020'
+  network: ws
+  port: 8443
+  server: 95.182.98.38
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560
+- name: '[Trojan] FR_speednode_0021'
+  network: ws
+  password: iwangjie
+  port: 2053
+  server: 135.125.232.253
+  skip-cert-verify: true
+  sni: nodes.830901.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
     path: /?ed=2560

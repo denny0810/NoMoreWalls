@@ -27,8 +27,8 @@ proxies:
 - name: '[Trojan] 新加坡|@ripaojiedian'
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 3076
-  server: 160.16.89.176
+  port: 3901
+  server: 52.198.102.170
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -36,36 +36,21 @@ proxies:
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
   port: 3901
-  server: 160.16.236.32
+  server: 160.16.70.180
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 新加坡3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 8041
-  server: 3.112.215.135
+  port: 381
+  server: 52.68.254.155
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: '[VLESS] US_speednode_0036'
-  network: ws
-  port: 2053
-  server: 1357900.xyz
-  servername: snippet.danfeng.gleeze.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.gleeze.com
-    path: /danfeng
-- client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] sgSG_2|3.3MB/s'
+  name: '[VLESS] sgSG_1|1.7MB/s'
   network: ws
   port: 443
   server: 162.159.12.151
@@ -83,10 +68,17 @@ proxies:
     max-early-data: 2560
     path: /
   xudp: true
-- cipher: chacha20-ietf
-  country: 🇭🇰HK
-  name: '[SS] sgSG²_1|6.8MB/s|0%|GM|D+|X|His...'
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
+- name: '[Socks5] sgSG²_1|11.6MB/s|X|History'
+  password: ''
+  port: 10805
+  server: 213.35.110.67
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] sgSG²_2|0.7MB/s|GPT⁺|X|History...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.132
   type: ss

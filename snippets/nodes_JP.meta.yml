@@ -160,16 +160,16 @@ proxies:
 - name: '[Trojan] 日本|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 26378
-  server: 52.194.222.6
+  port: 20539
+  server: 43.206.227.236
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[Trojan] 日本2|@ripaojiedian'
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 3423
-  server: 160.16.124.55
+  port: 1933
+  server: 52.198.102.170
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -177,12 +177,12 @@ proxies:
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
   port: 3423
-  server: 160.16.116.227
+  server: 160.16.63.16
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: '[VLESS] jpJP²_1|6.7MB/s|32%|GPT⁺|X|Suc...'
+  name: '[VLESS] jpJP²_1|6.6MB/s|32%|GPT⁺|X|Suc...'
   network: ws
   port: 443
   server: 69.84.182.13
@@ -195,3 +195,29 @@ proxies:
     headers:
       Host: jp1-jp1.aiopen.sbs
     path: /kbjc/jp1
+- client-fingerprint: chrome
+  name: '[VLESS] jpJP²_2|1.9MB/s|0%|GPT⁺|X|Hist...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: '!!str 2da72ce6'
+  server: 154.31.114.125
+  servername: navi.bankrate.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5bd2e197-30a5-4684-9778-5bdb9ec764fe
+- client-fingerprint: chrome
+  name: '[VLESS] jpJP²_3|0.5MB/s|0%|GPT⁺|X|Hist...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: '!!str 2da72ce6'
+  server: 154.31.114.125
+  servername: navi.bankrate.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 03c766ab-6537-4752-8211-51d575d3a9be

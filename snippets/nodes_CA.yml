@@ -1,8 +1,23 @@
 proxies:
-- name: '[Trojan] CA1｜机房｜低风险'
+- client-fingerprint: chrome
+  name: '[Trojan] caCA²_2|1.0MB/s|10%|GPT⁺|X|[广播...'
+  network: tcp
   password: 63b21d86-a49c-4936-a634-0b5af3e30433
   port: 443
   server: tuntro006.instconn.com
   skip-cert-verify: true
   sni: torontorm1.686911.xyz
   type: trojan
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  delay: 1154
+  name: '[Vmess] caCA_1|2.0MB/s'
+  network: tcp
+  port: 30846
+  server: v46.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

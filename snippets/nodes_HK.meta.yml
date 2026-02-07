@@ -1,17 +1,12 @@
 proxies:
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK²_10|11.4MB/s|0%|YT-CN|D+|...'
-  network: tcp
+- name: '[Trojan] HK20｜家宽｜非常安全'
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK²_5|7.3MB/s|0%|YT-CN|D+|X|...'
-  network: tcp
+- name: '[Trojan] HK2｜家宽｜非常安全'
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
@@ -39,9 +34,7 @@ proxies:
   skip-cert-verify: true
   sni: 219.76.135.98
   type: trojan
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK²_2|5.5MB/s|0%|YT-CN|D+|X|...'
-  network: tcp
+- name: '[Trojan] HK10｜家宽｜非常安全'
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
@@ -169,6 +162,24 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] hkHK_1|1.5MB/s'
+  port: 25210
+  server: ncgddx.gdsxrk.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 623787ef-7786-4572-abf5-0180892558aa
+- name: '[Http] hkHK_2|1.0MB/s'
+  password: <password>
+  port: 8443
+  server: 6df231b9-t9zts0-tb74a6-1q9g2.hkt.cdnhuawei.com
+  sni: 6df231b9-t9zts0-tb74a6-1q9g2.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: 9d80dd14-ac44-11ee-a116-f23c9164ca5d
 - client-fingerprint: chrome
   name: '[Trojan] HK_speednode_0034'
   network: tcp
@@ -180,23 +191,8 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: '[Trojan] hkHK²_6|1.1MB/s|0%|D+|X|[广播|机房...'
+  name: '[Trojan] HK_speednode_0030'
   network: tcp
-  password: 35d730a7-b0d3-4aea-b44a-b7d5072a91fd
-  port: 21101
-  server: cdnfire.xiaomispeed.com
-  sni: cdnfire.xiaomispeed.com
-  type: trojan
-  udp: true
-- name: '[Http] hkHK²_9|0.7MB/s|NF|D+|X|Histor...'
-  password: <password>
-  port: 8443
-  server: 8875d66c-t9zts0-trhks8-1c9em.hkt.cdnhuawei.com
-  sni: 8875d66c-t9zts0-trhks8-1c9em.hkt.cdnhuawei.com
-  tls: true
-  type: http
-  username: 336501b6-51d2-11ee-a993-f23c9164ca5d
-- name: '[Trojan] HK_speednode_0030'
   password: BxceQaOe
   port: 443
   server: 112.120.31.36
@@ -218,6 +214,19 @@ proxies:
   reality-opts:
     public-key: 4cfuj5otn8-uhPUe23OhB6KY8I42AxxJNt4lWIpg_AU
   server: 2.hk.2.cdn-bilibili.cn
+  servername: www.icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: '[VLESS] HK_speednode_0033'
+  port: 443
+  reality-opts:
+    public-key: 4cfuj5otn8-uhPUe23OhB6KY8I42AxxJNt4lWIpg_AU
+  server: 2.hk.1.cdn-bilibili.cn
   servername: www.icloud.com
   skip-cert-verify: false
   tls: true

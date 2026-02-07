@@ -1,11 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
   name: '[VLESS] CH_speednode_0006'
   network: tcp
   port: 443
@@ -19,24 +14,3 @@ proxies:
   type: vless
   udp: true
   uuid: d6b1327d-2bec-4366-a3a1-9b1284f95841
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] chCH²_3|5.9MB/s|29%|GPT⁺|D+|X|...'
-  network: tcp
-  port: 4443
-  reality-opts:
-    public-key: DLqBw8458S7vERpm_w4NMGz1kNp7b7uIjwCgStZERyo
-    short-id: '!!str '
-  server: just-server.ru
-  servername: sun6-21.userapi.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c580e6f8-96d5-4b81-a958-d309cda653ff
-  xudp: true

@@ -1,5 +1,5 @@
 proxies:
-- name: '[Socks5] KR3｜家宽｜高风险 (黑名单)'
+- name: '[Socks5] krKR²_1|2.7MB/s|4%|GPT⁺|YT|X|H...'
   port: 1090
   server: 121.169.46.116
   tls: false
@@ -31,7 +31,25 @@ proxies:
   port: 4469
   server: 168.126.234.247
   type: ss
-- name: '[Socks5] krKR²_1|8.4MB/s|GPT⁺|GM|X'
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] krKR_1|1.1MB/s'
+  network: ws
+  port: 10068
+  server: 121.191.68.246
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
+- name: '[Socks5] krKR²_2|8.2MB/s|GPT⁺|GM|X|Succ...'
   password: ''
   port: 5555
   server: 8.220.247.98
@@ -43,7 +61,6 @@ proxies:
   port: 30446
   server: testkr3.ssv.vc
   skip-cert-verify: true
-  sni: testkr3.ssv.vc
   tls: true
   type: http
   udp: true

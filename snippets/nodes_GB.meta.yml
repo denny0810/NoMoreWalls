@@ -1,4 +1,24 @@
 proxies:
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] gbGB²_1|4.8MB/s|10%|GPT⁺|X|His...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
+    short-id: '!!str d923'
+  server: uk1.miyazono-kaori.com
+  servername: www.bp.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2e82cda5-e020-4c63-8271-e58a00831447
+  xudp: true
 - name: '[VLESS] GB_speednode_0022'
   network: ws
   port: 2096

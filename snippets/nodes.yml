@@ -15,15 +15,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: '[Trojan] HK20｜家宽｜非常安全'
+- name: '[Trojan] hkHK²_3|7.3MB/s|0%|YT-CN|D+|X|...'
+  network: tcp
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[Trojan] hkHK²_8|0.5MB/s|0%|D+|X|Succee...'
-  network: tcp
+  udp: true
+- name: '[Trojan] HK2｜家宽｜非常安全'
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
@@ -60,7 +61,8 @@ proxies:
   skip-cert-verify: true
   sni: 219.76.135.98
   type: trojan
-- name: '[Trojan] HK10｜家宽｜非常安全'
+- name: '[Trojan] hkHK²_2|2.7MB/s|0%|NF|X|Histor...'
+  network: tcp
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
@@ -452,30 +454,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS_3|2.0MB/s'
-  network: ws
-  port: 2083
-  server: hgtrojan.zabc.net
-  servername: hgtrojan.zabc.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
-  ws-opts:
-    headers:
-      HOST: hgtrojan.zabc.net
-    path: /e6395c20
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] nlNL_1|2.9MB/s'
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.208
-  type: ss
-- name: '[Trojan] sgSG_2|3.5MB/s'
+- name: '[Trojan] sgSG_1|1.6MB/s'
   network: ws
   password: 5a2c16f9
   port: 443
@@ -487,7 +466,7 @@ proxies:
     headers:
       Host: pg.hhhhh.eu.org
     path: /
-- name: '[Trojan] sgSG_3|2.7MB/s'
+- name: '[Trojan] sgSG_2|1.3MB/s'
   network: ws
   password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
   port: 443
@@ -499,80 +478,7 @@ proxies:
     headers:
       Host: _acme-challenge.sb.cloudns.biz
     path: /%2F
-- cipher: aes-256-cfb
-  name: '[SS] esES_1|1.8MB/s'
-  password: KnJGad3FqTvjqbaX
-  port: 9014
-  server: 5.188.181.201
-  type: ss
-- name: '[Trojan] nlNL²_4|6.4MB/s|GPT|X|History|...'
-  network: ws
-  password: humanity
-  port: 443
-  server: www.multiplydose.com
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
-    path: /assignment
-- alpn:
-  - h2
-  alterId: '0'
-  cipher: auto
-  name: '[Vmess] aeAE_1|2.0MB/s'
-  network: ws
-  port: 443
-  server: ::ffff:ac40:9bd1
-  servername: bedrid.denizhosting.me
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ffece2a9-0296-46a9-8db8-742d29d240ff
-  ws-opts:
-    headers:
-      Host: bedrid.denizhosting.me
-    path: /ISwpYVR8SjxXcUZEUzVfNURTUC8lV29DXSgsKH1SN0g1JVpDHU1cWigKAC8QRltMCi86ABw4JV14HVMn
-  xudp: true
-- name: '[Trojan] nlNL²_6|5.3MB/s|GPT⁺|X|Succeed...'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.32.47
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /assignment
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[Vmess] deDE_6|1.5MB/s'
-  network: ws
-  port: 8080
-  server: digitalocean.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-571299667.rahavard365.co
-    max-early-data: 2560
-    path: /NASNET/cdn
-  xudp: true
-- name: '[Trojan] frFR_1|2.2MB/s'
+- name: '[Trojan] frFR²_3|6.6MB/s|GPT|X|History|...'
   network: ws
   password: humanity
   port: 443
@@ -583,45 +489,53 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
-        Gecko) Chrome/11.0.696.3 Safari/534.24
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /assignment
-- name: '[Trojan] nlNL²_11|3.3MB/s|GPT⁺|X'
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] frFR_2|1.8MB/s'
+  network: ws
+  port: 8443
+  server: 172.64.152.23
+  servername: frsys.fl-dl.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 19e52bf4-1b7d-4bd4-ae66-6ca024436c17
+  ws-opts:
+    headers:
+      Host: frsys.fl-dl.com
+    path: /gbt
+- name: '[Trojan] plPL_1|2.2MB/s'
   network: ws
   password: humanity
   port: 443
   server: 172.64.152.23
+  skip-cert-verify: false
+  sni: www.creationlong.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
+- name: '[Trojan] nlNL_1|1.6MB/s'
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.98.0
   skip-cert-verify: false
   sni: www.multiplydose.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
     path: /assignment
-- name: '[Trojan] HK_speednode_0034'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.36
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  country: 🇮🇷IR
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] sgSG²_2|8.1MB/s|48%|GPT⁺|X'
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[Trojan] frFR²_2|6.3MB/s|GPT⁺|X|[原生|住宅拨...'
+- name: '[Trojan] frFR²_9|6.5MB/s|GPT|X|Succeed|...'
   network: ws
   password: humanity
   port: 443
@@ -635,153 +549,59 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/70.0.3538.110 Safari/537.36
     path: /assignment
-- country: 🇭🇰 HK
-  name: '[Trojan] hkHK²_2|10.0MB/s|0%|YT-CN|NF|D...'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 218.250.156.130
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: '[Trojan] HK_speednode_0030'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.36
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf
-  country: 🇭🇰 HK
-  name: '[SS] hkHK²_4|3.9MB/s|0%|YT-CN|NF|D+...'
-  password: asd123456
-  port: 8388
-  server: 103.149.183.200
-  type: ss
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[Vmess] sgSG²_3|0.8MB/s|18%|X'
-  network: ws
-  port: 8443
-  server: 217.217.255.99
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 83049bda-8d53-44bc-f71c-f6b03c1ca482
-  ws-opts:
-    headers: {}
-    path: /
-  xudp: true
-- cipher: aes-256-cfb
-  name: '[SS] esES²_1|2.2MB/s|X|History'
-  password: ZET59LF6DvCC8KVt
-  port: 9005
-  server: 5.188.181.201
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: '[SS] clCL²_1|1.1MB/s|0%|GPT⁺|X'
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 38.54.20.59
-  type: ss
-- country: 🇭🇰 HK
-  name: '[Trojan] HK_speednode_0031'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.36
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf
-  country: 🇭🇰 HK
-  name: '[SS] hkHK²_7|0.9MB/s|NF|D+|X|Histor...'
-  password: asd123456
-  port: 8388
-  server: 103.141.221.124
-  type: ss
-- name: '[Trojan] nlNL²_7|6.5MB/s|GPT⁺|X|[广播|住宅拨...'
+- name: '[Trojan] frFR_4|2.2MB/s'
   network: ws
   password: humanity
   port: 443
-  server: 188.114.98.0
+  server: 172.64.152.23
   skip-cert-verify: false
-  sni: www.multiplydose.com
+  sni: www.calmlunch.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
     path: /assignment
-- alterId: 0
-  cipher: auto
-  country: 🇯🇵JP
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] jpJP²_1|13.6MB/s|GPT⁺|GM|X|[广播...'
-  network: ws
-  port: 443
-  server: n1753598445.74qxv.top
-  servername: n1753598445.74qxv.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f53b95dc-3ec3-49a2-803a-510e614ae577
-  ws-opts:
-    path: /
-- cipher: aes-256-cfb
-  country: 🇹🇼TW
-  name: '[SS] twTW²_1|4.7MB/s|0%|GPT⁺|GM|YT-...'
-  password: qwerREWQ@@
-  port: 41632
-  server: 185.189.160.105
-  type: ss
-- name: '[Trojan] nlNL²_9|6.2MB/s|GPT⁺|X|[广播|住宅拨...'
+- name: '[Trojan] plPL_2|1.0MB/s'
   network: ws
   password: humanity
   port: 443
-  server: 188.114.96.3
+  server: 104.18.7.147
   skip-cert-verify: false
-  sni: www.multiplydose.com
+  sni: www.creationlong.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /assignment
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: '[Vmess] jpJP²_2|13.7MB/s|GPT⁺|GM|YT|X|...'
-  network: ws
-  port: 443
-  server: n1753598445.74qxv.top
-  servername: n1753598445.74qxv.top
-  skip-cert-verify: false
-  tls: true
-  type: vmess
+- country: 🇺🇸US
+  name: '[Trojan] frFR²_1|1.5MB/s|1%|GPT⁺|X|[广播|...'
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22223
+  server: 51.44.43.148
+  skip-cert-verify: true
+  type: trojan
   udp: true
-  uuid: f53b95dc-3ec3-49a2-803a-510e614ae577
-  ws-opts:
-    headers:
-      Host: n1753598445.74qxv.top
-    path: /
-  xudp: true
+- country: 🇺🇸US
+  name: '[Trojan] frFR²_2|5.6MB/s|1%|GPT⁺|X|[广播|...'
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22223
+  server: 51.44.43.148
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] nlNL²_10|6.5MB/s|44%|GPT⁺|X|Hi...'
+  name: '[Vmess] nlNL²_1|2.7MB/s|X|Succeed'
   network: ws
   port: 2053
   server: nextmi.hajmyab.ir
@@ -794,69 +614,124 @@ proxies:
     headers:
       HOST: app.hajmyab.ir
     path: /
-- alterId: '0'
-  cipher: auto
-  name: '[Vmess] deDE²_5|7.2MB/s|49%|GPT⁺|NF|X|...'
-  network: ws
-  port: 8080
-  server: tgju.org
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- country: 🇭🇰HK
+  name: '[Trojan] hkHK²_1|11.8MB/s|0%|YT-CN|NF|D...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 218.250.156.130
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-571296497.iranpress.co
-    max-early-data: 2560
-    path: /nasnet/cdn
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: '[Trojan] plPL²_6|6.3MB/s|GPT|X|Succeed|...'
+- name: '[Trojan] frFR²_4|6.5MB/s|GPT|X|History'
   network: ws
   password: humanity
   port: 443
   server: 188.114.98.0
   skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.115 Safari/537.36
-    path: /assignment
-- name: '[Trojan] plPL²_5|6.3MB/s|GPT⁺|X|[广播|住宅拨...'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.7.147
-  skip-cert-verify: false
-  sni: www.creationlong.org
+  sni: www.calmlunch.com
   type: trojan
   udp: true
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.109 Safari/537.36
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: /assignment
-- alterId: 2
-  cipher: auto
-  name: '[Vmess] deDE²_6|1.3MB/s|GPT⁺|NF|X|Hist...'
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[Trojan] frFR²_3|6.9MB/s|GPT⁺|X|[原生|住宅拨...'
+- name: '[Trojan] nlNL²_4|6.7MB/s|GPT⁺|X|History...'
   network: ws
   password: humanity
   port: 443
-  server: 188.114.96.3
+  server: www.multiplydose.com
+  skip-cert-verify: true
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
+        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
+        Mobile Safari/537.36
+    path: /assignment
+- name: '[Trojan] HK_speednode_0034'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.36
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇪🇸 ES
+  name: '[SS] esES²_1|1.6MB/s|26%|X|History|...'
+  password: EXN3S3eQpjE7EJu8
+  port: 9027
+  server: 5.188.181.201
+  type: ss
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] hkHK²_9|0.8MB/s|GPT|NF|X|[原生|住...'
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+      Host: hkt.gotochinatown.net
+    path: /
+- country: 🇺🇸US
+  name: '[Trojan] frFR²_5|0.6MB/s|1%|GPT|X|[广播|机...'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 51.44.43.148
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_1|6.2MB/s|41%|GPT|YT-CN|...'
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[Vmess] nlNL²_5|6.7MB/s|44%|GPT⁺|YT-US...'
+  network: ws
+  port: 2053
+  server: nextmi.hajmyab.ir
+  servername: yakxvtfbyk.hajmyab.ir
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
+  ws-opts:
+    headers:
+      Host: app.hajmyab.ir
+    path: /
+  xudp: true
+- name: '[Trojan] frFR²_6|3.4MB/s|GPT|X|History'
+  network: ws
+  password: humanity
+  port: 443
+  server: www.calmlunch.com
   skip-cert-verify: false
   sni: www.calmlunch.com
   type: trojan
@@ -864,21 +739,128 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
     path: /assignment
 - alterId: 2
   cipher: auto
-  country: 🇨🇳CN
+  country: 🇮🇷IR
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] usUS²_1|6.5MB/s|X|History|[原生|...'
+  name: '[Vmess] sgSG²_3|14.0MB/s|48%|GPT⁺|GM|Y...'
   network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  servername: v29.hdacd.com
+  port: 30845
+  server: v45.hdacd.com
   skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[Trojan] hkHK²_6|14.9MB/s|0%|YT-CN|NF|D...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 218.250.156.130
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] hkHK²_7|1.9MB/s|1%|YT|X'
+  network: ws
+  port: 80
+  server: 3b26251a-t8wxs0-ta2rg6-amya.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+      Host: 3b26251a-t8wxs0-ta2rg6-amya.hkt.gotochinatown.net
+    path: /
+- country: 🇺🇸US
+  name: '[Trojan] frFR²_8|2.0MB/s|1%|GPT⁺|X|Hist...'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 51.44.43.148
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] hkHK²_8|1.3MB/s|1%|YT|D+|X'
+  network: ws
+  port: 80
+  server: b680583e-t8lts0-t9szn4-19xg1.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+      Host: b680583e-t8lts0-t9szn4-19xg1.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] deDE²_12|1.4MB/s|NF|X|History|...'
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  servername: v33.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[Trojan] nlNL²_12|5.3MB/s|GPT⁺|X|Succee...'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.32.47
+  skip-cert-verify: false
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /assignment
+- country: 🇭🇰 HK
+  name: '[Trojan] hkHK²_10|2.1MB/s|D+|X|History'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] hkHK²_11|0.7MB/s|1%|D+|X|[原生|住...'
+  network: ws
+  port: 80
+  server: 2a2cb25f-t70f40-t8hh31-amya.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+      Host: 2a2cb25f-t70f40-t8hh31-amya.hkt.gotochinatown.net
+    path: /
 - alterId: 0
   cipher: auto
   name: '[Vmess] VMESS节点2-ipv6'
@@ -912,6 +894,21 @@ proxies:
     headers:
       Host: nodes.830901.xyz
     path: /?ed=2560
+- name: '[Trojan] HK_speednode_0030'
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.36
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: '[Trojan] HK_speednode_0031'
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.36
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: '[Trojan] US_speednode_0079'
   network: ws
   password: Aimer

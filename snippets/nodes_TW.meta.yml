@@ -7,23 +7,30 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  country: 🇹🇼TW
-  name: '[SS] twTW²_1|4.7MB/s|0%|GPT⁺|GM|YT-...'
-  password: qwerREWQ@@
-  port: 41632
-  server: 185.189.160.105
-  type: ss
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: '[VLESS] twTW²_2|7.3MB/s|GPT⁺|GM|YT|NF|...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ev0T0oHwKzoTLJJ-enihK36_fOhb6Wdt5XMMj9QtCh0
-  server: 2.tw.1.cdn-bilibili.cn
-  servername: www.icloud.com
+- name: '[Http] twTW_1|1.5MB/s'
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] twTW_2|1.5MB/s'
+  network: ws
+  port: 10443
+  server: 203.69.248.40
+  servername: sni.111000.indevs.in
   tls: true
   type: vless
   udp: true
-  uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true

@@ -1,31 +1,12 @@
 proxies:
 - client-fingerprint: chrome
   encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] ruRU²_1|0.6MB/s|X|[广播|商宽]'
-  network: tcp
-  port: 10001
-  reality-opts:
-    public-key: aBNzDaD-NL93hiwCTKg4paOppKc1RNAICxBjHFJrOy8
-    short-id: '!!str 9c9bb63c'
-  server: 193.163.203.36
-  servername: www.intel.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6a3f4da1-687a-4bde-9943-df057315857c
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
   http-opts:
     headers: {}
     path:
     - /
-  name: '[VLESS] nlNL²_2|4.8MB/s|0%|GPT⁺|YT-RU|...'
+  name: '[VLESS] nlNL²_7|4.3MB/s|0%|GPT⁺|YT-RU|...'
   network: tcp
   port: 8443
   reality-opts:
@@ -38,26 +19,6 @@ proxies:
   udp: true
   uuid: e6ec1d89-17fc-4de7-af89-81cd51022526
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] ruRU²_2|2.3MB/s|X|[广播|商宽]'
-  network: ws
-  port: 18570
-  server: 193.163.203.36
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88e148ba-1e39-45e9-8aef-6b207411435a
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.85 Safari/537.36
-    path: /
-  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -65,38 +26,18 @@ proxies:
     headers: {}
     path:
     - /
-  name: '[VLESS] nlNL²_8|5.8MB/s|0%|GPT⁺|YT-RU|...'
+  name: '[VLESS] nlNL²_9|0.5MB/s|0%|GPT⁺|YT-RU|...'
   network: tcp
-  port: 22231
+  port: 8443
   reality-opts:
-    public-key: gtur4bFCYQzGf7M6B40RpdBHl6g1epPNhJCMqKPoVng
+    public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
     short-id: '!!str '
-  server: nl8.ultima.foundation
-  servername: nl.ultima.foundation
+  server: 144.31.92.241
+  servername: apple.com
   tls: true
   type: vless
   udp: true
-  uuid: e44c7a66-0d05-42bc-a37b-bfed2a4fbcc1
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] nlNL²_11|6.7MB/s|0%|GPT⁺|YT-RU...'
-  network: tcp
-  port: 22231
-  reality-opts:
-    public-key: gtur4bFCYQzGf7M6B40RpdBHl6g1epPNhJCMqKPoVng
-    short-id: '!!str '
-  server: nl3.ultima.foundation
-  servername: nl.ultima.foundation
-  tls: true
-  type: vless
-  udp: true
-  uuid: e44c7a66-0d05-42bc-a37b-bfed2a4fbcc1
+  uuid: e6ec1d89-17fc-4de7-af89-81cd51022526
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision

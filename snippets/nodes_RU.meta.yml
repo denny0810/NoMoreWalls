@@ -1,11 +1,24 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  country: 🇮🇹IT
-  name: '[SS] ruRU²_1|2.5MB/s|0%|GPT⁺|YT|TK-...'
-  password: lLnx2omiW2tGzAWnMIXTSK
-  port: 29052
-  server: 217.65.79.67
-  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] czCZ²_1|5.6MB/s|20%|GPT⁺|YT-RU...'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: yrB2VhJUvGCCHXLP6XOmn5QM1wcthYLvLZqvQzt2THc
+    short-id: '!!str 5fe811ec9283ce51'
+  server: 144.31.218.76
+  servername: m.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 05dc09d5-5c56-454b-a34e-6ef743d91e1a
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] RU_speednode_0062'
@@ -48,20 +61,6 @@ proxies:
   type: vless
   udp: true
   uuid: 4603e54d-b023-4947-83e7-70025416f306
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] RU_speednode_0065'
-  port: 443
-  reality-opts:
-    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
-    short-id: '!!str f4b4a6365558ea2e'
-  server: 89.169.128.105
-  servername: yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00c01f55-e31a-41cd-872b-938cda90afc3
 - name: '[VLESS] RU_speednode_0066'
   network: ws
   port: 80
@@ -90,19 +89,6 @@ proxies:
   type: vless
   udp: true
   uuid: e8da176f-e24e-4af1-a386-53a6a5396248
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] RU_speednode_0068'
-  port: 443
-  reality-opts:
-    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
-  server: nld14.freednet.org
-  servername: www.cybo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6fd9f786-d974-49d0-b5c4-397678de69a2
 - name: '[VLESS] RU_speednode_0069'
   network: ws
   port: 2053

@@ -1,18 +1,18 @@
 proxies:
-- name: '[Socks5] DE22｜原生/疑似家宽｜高风险 (黑名单)'
-  port: 1080
-  server: 193.233.254.7
-  tls: false
-  type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuNzo%3D
-- name: '[Socks5] 🏴‍☠_2🏴‍☠_2193.233.254.8:1080-0...'
+- name: '[Socks5] deDE²_4|3.2MB/s|9%|GPT⁺|X|Hist...'
   password: ''
   port: 1080
-  server: 193.233.254.8
+  server: 193.233.254.7
   skip-cert-verify: true
   tls: false
   type: socks5
   username: ''
+- name: '[Socks5] deDE²_2|2.4MB/s|GPT|X|History'
+  port: 1080
+  server: 193.233.254.8
+  tls: false
+  type: socks5
+  username: T2dAMTkzLjIzMy4yNTQuODpPZ0AxOTMuMjMzLjI1NC44
 - name: '[Socks5] DE9｜原生/疑似家宽｜高风险 (黑名单)'
   port: 1080
   server: 193.233.254.9
@@ -55,10 +55,10 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: '[VLESS] deDE¹-CA⁰_1|6.0MB/s|5%|GPT|NF|...'
+  name: '[VLESS] deDE¹-CA⁰_1|5.8MB/s|0%|D+|X|Hi...'
   network: ws
-  port: 2053
-  server: 188.241.241.123
+  port: 443
+  server: 92.42.96.223
   servername: sni.111000.indevs.in
   skip-cert-verify: false
   tls: true
@@ -71,143 +71,218 @@ proxies:
       Host: sni.111000.indevs.in
     max-early-data: 2560
     path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_2|2.4MB/s'
+- name: '[VLESS] deDE_2|1.4MB/s'
   network: ws
-  port: 2096
-  server: www.speedtest.net
-  servername: hetz.x-smm.com
+  port: 443
+  server: 5.253.188.238
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 3f0f36f5-f091-45c5-88c9-4bcc545b922c
-  ws-opts:
-    headers:
-      Host: hetz.x-smm.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.106 Safari/537.36
-    path: /45.76.183.217=49292
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  name: '[VLESS] deDE_3|1.7MB/s'
-  network: ws
-  port: 8443
-  server: cf.mahdi383ir.website
-  servername: kh2tiyozkxybazdibomyhih.mahdi383ir.website
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8edf51a7-a211-428d-9685-e6c71959ab9f
-  ws-opts:
-    headers:
-      Host: kh2tiyozkxybazdibomyhih.mahdi383ir.website
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_4|1.5MB/s'
-  network: ws
-  port: 2083
-  server: cf.mahdi383ir.website
-  servername: kh2tiyozkxybazdibomyhih.mahdi383ir.website
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a923f93-30d2-4f8b-ba28-afc637901e54
-  ws-opts:
-    headers:
-      Host: kh2tiyozkxybazdibomyhih.mahdi383ir.website
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_5|1.2MB/s'
-  network: ws
-  port: 8443
-  server: 190.93.245.72
-  servername: Begaman.esportplusnews.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8f589e71-52a2-4958-ad0c-9141e001e154
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: Begaman.esportplusnews.top
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
-    max-early-data: 512
-    path: /T.Me.@V2RayyNGvpn
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_6|1.5MB/s'
-  network: ws
-  port: 2087
-  server: f1.springpaatogh8.store
-  servername: digikala.sorza.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 41c55d8d-44dd-4437-90ff-4c1eb869a67c
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: gamepc.sorza.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
+      Host: sni.111000.indevs.in
     max-early-data: 2560
     path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE²_1|7.2MB/s|49%|GPT⁺|X|His...'
+- name: '[VLESS] deDE_3|1.7MB/s'
   network: ws
   port: 80
   server: 104.18.32.47
+  tls: false
   type: vless
   udp: true
   uuid: 1e35b4bf-b270-4c0b-918d-62746eedd2ad
   ws-opts:
     headers:
       Host: EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY.
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
     path: /?ed
-  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE²_2|7.7MB/s|49%|GPT⁺|X|His...'
+  name: '[VLESS] deDE_4|1.4MB/s'
   network: ws
-  port: 80
-  server: 104.20.1.252
+  port: 2053
+  server: 104.21.224.5
+  servername: ir1.airpanel.top
+  tls: true
   type: vless
   udp: true
-  uuid: 4c97ec3e-3527-48c5-80ff-b715463896ba
+  uuid: e5f8a9f6-f164-479b-b3b5-b90f213c7145
   ws-opts:
     headers:
-      Host: kIndhEArTeD-PARkb5Rjo2juEr.sPorTLaNd.COMpAny.
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.118 Safari/537.36
-    path: /?ed
+      Host: ir1.airpanel.top
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  encryption: none
+  name: '[VLESS] deDE_5|1.0MB/s'
+  network: ws
+  port: 2053
+  server: cf.mahdi383ir.website
+  servername: kh2tiyozkxybazdibomyhih.mahdi383ir.website
+  tls: true
+  type: vless
+  udp: true
+  uuid: c3ffa4ee-fbbe-45e3-f737-db2f381f557e
+  ws-opts:
+    headers:
+      Host: kh2tiyozkxybazdibomyhih.mahdi383ir.website
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[Vmess] deDE_6|1.5MB/s'
+  network: ws
+  port: 8080
+  server: digitalocean.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-571299667.rahavard365.co
+    max-early-data: 2560
+    path: /NASNET/cdn
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: '[VLESS] deDE_7|2.5MB/s'
+  network: ws
+  port: 2096
+  server: cf.mahdi383ir.website
+  servername: kh2tiyozkxybazdibomyhih.mahdi383ir.website
+  tls: true
+  type: vless
+  udp: true
+  uuid: cdddbb3f-5481-4d12-e3ee-597f97910d21
+  ws-opts:
+    headers:
+      Host: kh2tiyozkxybazdibomyhih.mahdi383ir.website
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: '[VLESS] deDE_8|2.2MB/s'
+  network: ws
+  port: 80
+  server: 104.24.206.21
+  type: vless
+  udp: true
+  uuid: ffa11e82-fa9b-4be1-81a9-c1d48a363df8
+  ws-opts:
+    headers:
+      Host: fancy-sky-db95.mehradrivaldo.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
+    path: /
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE²_6|5.8MB/s|GPT⁺|D+|X|Succ...'
+  name: '[VLESS] deDE²_7|0.8MB/s|0%|GPT⁺|D+|X|H...'
+  network: ws
+  port: 2083
+  server: 8.6.112.0
+  servername: ds1-mx-fn154-protection.iranlease.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 96d9bcb0-9ad2-48be-85a2-a9ab3a005261
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: ds1-mx-fn154-protection.iranlease.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_1|6.6MB/s|0%|GPT⁺|D+|X|[...'
+  network: ws
+  port: 443
+  server: 104.18.32.47
+  servername: dev.twistsparrow.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: fef4a93d-eb4f-4657-b56b-32a0dc060045
+  ws-opts:
+    headers:
+      Host: dev.twistsparrow.xyz
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_3|6.4MB/s|0%|GPT|D+|X|Su...'
+  network: ws
+  port: 443
+  server: 188.114.98.0
+  servername: dev.twistsparrow.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: fef4a93d-eb4f-4657-b56b-32a0dc060045
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: dev.twistsparrow.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    max-early-data: 512
+    path: /?Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: '[Vmess] deDE²_5|7.2MB/s|49%|GPT⁺|NF|X|...'
+  network: ws
+  port: 8080
+  server: tgju.org
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-571296497.iranpress.co
+    max-early-data: 2560
+    path: /nasnet/cdn
+  xudp: true
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: '[Vmess] deDE²_6|1.3MB/s|GPT⁺|NF|X|Hist...'
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_8|6.4MB/s|0%|GPT⁺|D+|X|S...'
   network: ws
   port: 443
   server: 188.114.98.0
@@ -225,54 +300,9 @@ proxies:
     max-early-data: 512
     path: /?TELEGRAM-YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy
   xudp: true
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] 🏴‍☠_1deDE²_9|1.4MB/s|1.1MB/s|X...'
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE²_7|5.3MB/s|50%|GPT⁺|X|Suc...'
-  network: tcp
-  port: 33431
-  reality-opts:
-    public-key: DQjRDYsGHriGDOyYw4ikOCgg8fnPoK6Hw74wuio7qyk
-    short-id: '!!str cceca309a6cd013a'
-  server: gfnfhyhttgbrtgbrtgbrtttyht7.arenafile.com
-  servername: www.icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 931269c0-c592-4935-9bd4-bfec4eafb1d2
-  xudp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] deDE²_8|7.3MB/s|49%|GPT⁺|X|His...'
-  network: ws
-  port: 8080
-  server: tgju.org
-  servername: nasnet-571296497.iranpress.co
-  skip-cert-verify: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      HOST: nasnet-571296497.iranpress.co
-      Host: tgju.org
-    path: /nasnet/cdn
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE²_9|6.4MB/s|0%|GPT⁺|X|[广播|...'
+  name: '[VLESS] deDE²_9|6.2MB/s|0%|GPT⁺|D+|X|S...'
   network: ws
   port: 443
   server: 188.114.98.0
@@ -285,10 +315,10 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: dev.twistsparrow.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.76 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
     max-early-data: 512
-    path: /?Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY
+    path: /
   xudp: true
 - client-fingerprint: chrome
   name: '[VLESS] DE_speednode_0008'

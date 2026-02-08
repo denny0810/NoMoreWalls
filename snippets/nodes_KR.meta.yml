@@ -1,10 +1,10 @@
 proxies:
-- name: '[Socks5] krKR²_1|1.1MB/s|4%|GPT⁺|GM|X|S...'
+- name: '[Socks5] KR3｜家宽｜高风险 (黑名单)'
   port: 1090
   server: 121.169.46.116
   tls: false
   type: socks5
-  username: T2clM0QlM0Q6
+  username: Og%3D%3D
 - name: '[Hysteria2] KR4｜机房｜低风险'
   obfs: salamander
   obfs-password: MKsqfibVxwhZ3pCf
@@ -31,11 +31,19 @@ proxies:
   port: 4469
   server: 168.126.234.247
   type: ss
+- name: '[Socks5] krKR²_1|8.4MB/s|GPT⁺|GM|X'
+  password: ''
+  port: 5555
+  server: 8.220.247.98
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - name: '[Http] KR_speednode_0038'
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
   skip-cert-verify: true
+  sni: testkr3.ssv.vc
   tls: true
   type: http
   udp: true

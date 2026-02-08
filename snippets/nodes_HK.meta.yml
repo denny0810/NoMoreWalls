@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: '[Trojan] hkHK²_5|5.2MB/s|0%|D+|X|Histor...'
+  name: '[Trojan] hkHK²_2|4.7MB/s|0%|YT-CN|D+|X|...'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -8,7 +8,9 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[Trojan] HK2｜家宽｜非常安全'
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_4|6.5MB/s|0%|X|History'
+  network: tcp
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
@@ -37,7 +39,7 @@ proxies:
   sni: 219.76.135.98
   type: trojan
 - client-fingerprint: chrome
-  name: '[Trojan] hkHK²_4|6.9MB/s|YT-CN|D+|X|His...'
+  name: '[Trojan] hkHK²_3|6.2MB/s|0%|YT-CN|D+|X|...'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -136,26 +138,32 @@ proxies:
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
   port: 3373
-  server: 43.207.108.97
+  server: 54.95.118.21
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 香港4|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 4183
-  server: 43.206.227.236
+  port: 2266
+  server: 13.231.5.152
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[Trojan] 香港5|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 3292
-  server: 52.68.254.155
+  port: 2266
+  server: 52.196.168.206
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] 香港2|@ripaojiedian'
+  password: 66f89621-49f0-4788-85ce-f9a62537a8e4
+  port: 32058
+  server: hk3.network-cdn-gw-yd.net
+  type: ss
 - alterId: 2
   cipher: auto
   name: '[Vmess] 香港|@ripaojiedian'
@@ -166,6 +174,21 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[Trojan] HK_speednode_0031'
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.36
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: '[Http] hkHK²_1|8.8MB/s|D+|X|History|[...'
+  password: <password>
+  port: 8443
+  server: cc416daa-ta1og0-trftb1-1psmw.hkt.cdnhuawei.com
+  sni: cc416daa-ta1og0-trftb1-1psmw.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: 42bb6d36-97c7-11ee-be7f-f23c9164ca5d
 - client-fingerprint: chrome
   name: '[Trojan] HK_speednode_0034'
   network: tcp
@@ -174,56 +197,6 @@ proxies:
   server: 112.120.31.36
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK²_3|7.3MB/s|0%|GPT⁺|GM|YT|...'
-  network: tcp
-  password: 6abb8aed-172b-4b9d-933b-47fc9f60a6e0
-  port: 21115
-  server: cdnfire.xiaomispeed.com
-  skip-cert-verify: true
-  sni: cdnfire.xiaomispeed.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK²_6|9.0MB/s|0%|GPT⁺|GM|YT|...'
-  network: tcp
-  password: 279483de-d842-412c-bc6a-d75afe58eac6
-  port: 21115
-  server: cdnfire.xiaomispeed.com
-  skip-cert-verify: true
-  sni: cdnfire.xiaomispeed.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  country: 🇭🇰 HK
-  name: '[Trojan] hkHK²_7|2.6MB/s|0%|NF|D+|X|Suc...'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: '[Http] hkHK²_10|7.3MB/s|X|History'
-  password: mrwdfNTD8M79LCukCieldrqZWqs=
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: true
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- client-fingerprint: chrome
-  country: 🇭🇰 HK
-  name: '[Trojan] HK_speednode_0031'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.36
-  skip-cert-verify: true
   type: trojan
   udp: true
 - name: '[Trojan] HK_speednode_0030'

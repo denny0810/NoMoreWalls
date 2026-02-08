@@ -11,77 +11,53 @@ proxies:
 - name: '[Trojan] 新加坡|@ripaojiedian'
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 3901
-  server: 52.198.102.170
+  port: 3076
+  server: 13.231.53.184
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 新加坡2|@ripaojiedian'
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 3901
-  server: 160.16.70.180
+  port: 544
+  server: 160.16.130.21
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 新加坡3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 381
-  server: 52.68.254.155
+  port: 8041
+  server: 43.199.59.14
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[Trojan] sgSG_2|3.3MB/s'
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: cf.090227.xyz
-  skip-cert-verify: false
-  sni: pg.hhhhh.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: pg.hhhhh.eu.org
-    path: /
-- name: '[Trojan] sgSG_3|2.7MB/s'
-  network: ws
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-  port: 443
-  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
-  skip-cert-verify: false
-  sni: _acme-challenge.sb.cloudns.biz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: _acme-challenge.sb.cloudns.biz
-    path: /%2F
-- client-fingerprint: chrome
-  country: 🇨🇳 CN
-  name: '[Trojan] sgSG²_1|8.5MB/s|GPT⁺|GM|YT|X|[...'
-  network: tcp
-  password: 5fb072e0ddd631cf66cf752b09210480
-  port: 2760
-  server: 43.249.193.101
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  country: 🏁ZZ
+  country: 🇪🇸ES
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] sgSG²_2|1.3MB/s|GPT⁺|X|[原生|机房]'
+  name: '[Vmess] sgSG²_3|0.8MB/s|18%|GPT⁺|YT|X|...'
   network: ws
-  port: 443
-  server: v3.dabache.top
-  servername: blog.dezh.store
+  port: 8443
+  server: 217.217.255.99
   skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: e83b705e-4541-4ea3-9c2d-e7e9eb1f29c8
+  uuid: 83049bda-8d53-44bc-f71c-f6b03c1ca482
   ws-opts:
-    headers:
-      HOST: blog.dezh.store
     path: /
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] sgSG²_2|6.5MB/s|48%|GPT⁺|GM|YT...'
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  servername: v45.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

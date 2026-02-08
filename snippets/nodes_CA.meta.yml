@@ -6,17 +6,39 @@ proxies:
   skip-cert-verify: true
   sni: torontorm1.686911.xyz
   type: trojan
-- name: '[VLESS] caCA_1|1.0MB/s'
+- client-fingerprint: chrome
+  name: '[VLESS] deDE¹-CA⁰_5|5.2MB/s|GPT|TK|D+|...'
+  network: ws
+  port: 2053
+  server: 188.241.241.123
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.111000.indevs.in
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] caCA²_1|2.3MB/s|26%|GPT⁺|X|Suc...'
   network: ws
   port: 80
-  server: 104.18.32.47
-  tls: false
+  server: 173.245.49.254
   type: vless
-  uuid: 6abc2840-25fd-4dd7-b1aa-0892fe98f2d9
+  udp: true
+  uuid: 4a8d4562-7192-4e83-8a24-75515a1666a3
   ws-opts:
     headers:
-      Host: MySterIOUS-chECk94Bl5oXQ6C.eCoTOUriSs.cO.uK.
+      Host: fiT-acADEmyw21824Ac8c.ECoToURISs.cO.Uk.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
     path: /?ed
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   name: '[VLESS] nlNL¹-CA⁰_1|6.0MB/s|GPT⁺|D+|X|...'
@@ -74,22 +96,6 @@ proxies:
       Host: sni.111000.indevs.in
     max-early-data: 2560
     path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] caCA²_1|2.3MB/s|26%|GPT⁺|X|Suc...'
-  network: ws
-  port: 80
-  server: 173.245.49.254
-  type: vless
-  udp: true
-  uuid: 4a8d4562-7192-4e83-8a24-75515a1666a3
-  ws-opts:
-    headers:
-      Host: fiT-acADEmyw21824Ac8c.ECoToURISs.cO.Uk.
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /?ed
-  xudp: true
 - client-fingerprint: chrome
   encryption: none
   name: '[VLESS] nlNL¹-CA⁰_4|5.5MB/s|5%|GPT|D+|...'

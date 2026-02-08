@@ -48,60 +48,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[Trojan] sgSG_1|1.6MB/s'
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: cf.090227.xyz
-  skip-cert-verify: false
-  sni: pg.hhhhh.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: pg.hhhhh.eu.org
-    path: /
-- name: '[Trojan] sgSG_2|1.3MB/s'
-  network: ws
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-  port: 443
-  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
-  skip-cert-verify: false
-  sni: _acme-challenge.sb.cloudns.biz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: _acme-challenge.sb.cloudns.biz
-    path: /%2F
-- name: '[VLESS] sgSG_3|2.1MB/s'
-  network: ws
-  port: 443
-  server: 162.159.17.65
-  servername: qw.ssdxz.cn
-  tls: true
-  type: vless
-  uuid: 29ff2954-dfea-4d20-8089-059cfa861453
-  ws-opts:
-    headers:
-      Host: qw.ssdxz.cn
-    path: /torrent/proxyip=ProxyIP.SG.CMLiussss.net/proxyip=tw.william.us.ci
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] sgSG_4|1.1MB/s'
-  network: ws
-  port: 443
-  server: 34.143.159.175
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-  xudp: true
 - client-fingerprint: chrome
   encryption: none
   name: '[VLESS] hkHK¹-CA⁰_2|2.0MB/s|YT|D+|X|Su...'
@@ -122,3 +68,9 @@ proxies:
     max-early-data: 2560
     path: /
   xudp: true
+- cipher: chacha20-ietf
+  name: '[SS] sgSG_2|2.5MB/s'
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss

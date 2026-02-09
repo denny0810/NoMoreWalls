@@ -1,19 +1,24 @@
 proxies:
-- name: '[Socks5] deDE²_4|2.3MB/s|X|History'
+- name: '[Socks5] 🏴‍☠_7🏴‍☠_1DE22｜原生/疑似家宽｜高风险 (黑名...'
   port: 1080
   server: 193.233.254.7
   tls: false
   type: socks5
-  username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOenBBTVRrekxqSXpNeTR5TlRRdU56b0AxOTMuMjMzLjI1NC43OkAxOTMuMjMzLjI1NC43Og%3D%3D
-- name: '[Socks5] DE35｜原生/疑似家宽｜高风险 (黑名单)'
+  username: T2dAMTkzLjIzMy4yNTQuNzo%3D
+- delay: 2266
+  name: '[Socks5] 🏴‍☠_8🏴‍☠_3DE41｜原生/疑似家宽｜高风险 (黑名...'
+  password: ''
   port: 1080
   server: 193.233.254.9
+  skip-cert-verify: true
   tls: false
   type: socks5
   username: T2dAMTkzLjIzMy4yNTQuOTo%3D
-- name: '[Socks5] deDE²_1|1.4MB/s|X'
+- name: '[Socks5] 🏴‍☠_5deDE²_1|1.4MB/s|2.8MB/s|X...'
+  password: ''
   port: 1080
   server: 193.233.254.8
+  skip-cert-verify: true
   tls: false
   type: socks5
   username: VDJkQU1Ua3pMakl6TXk0eU5UUXVPRHBBTVRrekxqSXpNeTR5TlRRdU9EbyUzRDo%3D
@@ -29,17 +34,15 @@ proxies:
 - alpn:
   - h3
   congestion-controller: bbr
-  name: '[TUIC] deDE_1|1.0MB/s'
+  name: '[TUIC] DE23｜原生/疑似家宽｜非常安全'
   password: 08030894-57a7-49e8-83a5-0b99d7a1b820
   port: 1443
   server: 94.159.107.136
   skip-cert-verify: true
   sni: de2.587458.xyz
   type: tuic
-  udp: true
   udp-relay-mode: native
   uuid: 08030894-57a7-49e8-83a5-0b99d7a1b820
-  version: 5
 - name: '[Trojan] DE27｜机房｜低风险'
   network: ws
   password: 077da111-33ac-4453-a37d-69e7ccc647a0
@@ -102,9 +105,10 @@ proxies:
     path: '%2Fagrbniuh'
 - alterId: 2
   cipher: auto
-  name: '[Vmess] DE41｜机房｜低风险'
+  client-fingerprint: chrome
+  name: '[Vmess] deDE²_6|0.6MB/s|GPT⁺|X|History...'
   network: tcp
-  port: '30833'
+  port: 30833
   server: v33.hdacd.com
   tls: false
   type: vmess
@@ -152,13 +156,29 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_11|7.4MB/s|47%|GPT⁺|X|Hi...'
+  network: ws
+  port: 80
+  server: 104.18.32.47
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1e35b4bf-b270-4c0b-918d-62746eedd2ad
+  ws-opts:
+    headers:
+      Host: EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY.
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /?ed
+  xudp: true
 - alterId: '0'
   cipher: auto
-  client-fingerprint: chrome
-  name: '[Vmess] deDE²_2|0.9MB/s|47%|GPT|NF|X|H...'
+  name: '[Vmess] deDE_2|2.2MB/s'
   network: ws
   port: 8080
-  server: digitalocean.com
+  server: tgju.org
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -167,20 +187,225 @@ proxies:
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: nasnet-571299667.rahavard365.co
+      Host: nasnet-571296497.iranpress.co
     max-early-data: 2560
-    path: /NASNET/cdn
+    path: /nasnet/cdn
+  xudp: true
+- alpn:
+  - http/1.1
+  alterId: '0'
+  cipher: auto
+  name: '[Vmess] deDE_3|2.8MB/s'
+  network: ws
+  port: 80
+  server: de2c.buzzon.shop
+  servername: de2c.buzzon.shop
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: acadd87c-c8b4-4b6b-989b-64263e4d0329
+  ws-opts:
+    headers:
+      Host: de2c.buzzon.shop
+    path: /q4smKQlj08hW5NThds106
   xudp: true
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: ardai60.ardaserver.site
-  name: '[VLESS] deDE²_3|4.8MB/s|43%|GPT⁺|YT|TK...'
-  network: grpc
-  port: 34012
-  server: ardai60.ardaserver.site
+  encryption: none
+  name: '[VLESS] deDE_4|2.9MB/s'
+  network: ws
+  port: 8443
+  server: 57.129.63.144
+  servername: sni.111000.dynv6.net
+  tls: true
   type: vless
   udp: true
-  uuid: f98972c7-497c-415c-80d9-089350141603
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.116 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- encryption: none
+  name: '[VLESS] deDE_5|2.5MB/s'
+  network: ws
+  port: 80
+  server: 104.18.32.47
+  type: vless
+  udp: true
+  uuid: a5712440-3cec-4a1b-82e8-767c54acd83a
+  ws-opts:
+    headers:
+      Host: authENTIC-cABinEtgqc4XfW2ud.spORTLAND.COmPAny.
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /?ed
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE¹-CA⁰_1|7.8MB/s|GPT⁺|D+|X|...'
+  network: ws
+  port: 443
+  server: 192.46.239.191
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_7|6.5MB/s|6%|GPT⁺|X|Hist...'
+  network: ws
+  port: 2083
+  server: 192.200.160.228
+  servername: de.elterido.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f846e5c-56f9-4670-8be2-5b00d2a107c0
+  ws-opts:
+    headers:
+      Host: de.elterido.ir
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /api03
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE_8|3.2MB/s'
+  network: ws
+  port: 2053
+  server: 104.24.196.20
+  servername: kh2tiyozkxybazdibomyhih.mahdi383ir.website
+  tls: true
+  type: vless
+  udp: true
+  uuid: c3ffa4ee-fbbe-45e3-f737-db2f381f557e
+  ws-opts:
+    headers:
+      Host: kh2tiyozkxybazdibomyhih.mahdi383ir.website
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2272.101 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_3|5.5MB/s|6%|GPT|X|[原生|机...'
+  network: ws
+  port: 443
+  server: de2c.buzzon.shop
+  servername: de2c.buzzon.shop
+  tls: true
+  type: vless
+  udp: true
+  uuid: acadd87c-c8b4-4b6b-989b-64263e4d0329
+  ws-opts:
+    headers:
+      Host: de2c.buzzon.shop
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /aRzHt7ShW5NThds106
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: '[VLESS] deDE_10|2.2MB/s'
+  network: ws
+  port: 8443
+  server: cf.mahdi383ir.website
+  servername: kh2tiyozkxybazdibomyhih.mahdi383ir.website
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8edf51a7-a211-428d-9685-e6c71959ab9f
+  ws-opts:
+    headers:
+      Host: kh2tiyozkxybazdibomyhih.mahdi383ir.website
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
+        Gecko) Chrome/11.0.696.3 Safari/534.24
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  country: 🇺🇸US
+  name: '[Trojan] deDE²_2|5.5MB/s|1%|GPT⁺|X|[广播|...'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 63.182.1.131
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_5|6.9MB/s|6%|GPT|X|[原生|机...'
+  network: ws
+  port: 80
+  server: ip1-fast.tyryqyserver.ir
+  type: vless
+  udp: true
+  uuid: 6da7b024-d51a-4b7f-a59f-e4edf0a7d85d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: norbertde1.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    max-early-data: 2052
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  country: 🇩🇪DE
+  name: '[Trojan] deDE²_8|4.2MB/s|GPT⁺|X|[广播|商宽]'
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22223
+  server: 18.199.2.96
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alpn:
+  - http/1.1
+  alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: '[Vmess] deDE²_10|5.6MB/s|6%|X'
+  network: ws
+  port: 443
+  server: de2c.buzzon.shop
+  servername: de2c.buzzon.shop
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: acadd87c-c8b4-4b6b-989b-64263e4d0329
+  ws-opts:
+    headers:
+      Host: de2c.buzzon.shop
+    path: /q4smKQlj08hW5NThds106
   xudp: true
 - client-fingerprint: chrome
   name: '[VLESS] DE_speednode_0008'

@@ -60,9 +60,10 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[Vmess] US18｜机房｜低风险'
+  client-fingerprint: chrome
+  name: '[Vmess] usUS²_5|0.7MB/s|4%|GPT|GM|YT-C...'
   network: ws
-  port: '2086'
+  port: 2086
   server: 154.83.2.156
   tls: false
   type: vmess
@@ -96,68 +97,52 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: '[Vmess] US21｜机房｜低风险'
+  client-fingerprint: chrome
+  country: 🏁 ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_6|4.2MB/s|41%|GPT|GM|YT-...'
   network: tcp
-  port: '30808'
+  port: 30808
   server: v8.hdacd.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /
 - name: '[Trojan] 美国|@ripaojiedian'
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 276
-  server: 153.121.38.213
+  port: 127
+  server: 54.250.24.198
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 美国2|@ripaojiedian'
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 276
-  server: 3.112.14.249
+  port: 127
+  server: 160.16.85.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 美国3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 1221
-  server: 18.166.210.2
+  port: 2569
+  server: 43.199.47.199
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS_7|1.2MB/s'
-  network: ws
-  port: 2083
-  server: hgtrojan.zabc.net
-  servername: hgtrojan.zabc.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
-  ws-opts:
-    headers:
-      HOST: hgtrojan.zabc.net
-    path: /e6395c20
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] usUS_8|1.1MB/s'
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: '[Vmess] usUS_11|2.9MB/s'
-  port: 30829
-  server: v29.hdacd.com
+  client-fingerprint: chrome
+  delay: 1154
+  name: '[Vmess] usUS²_1|6.4MB/s|GPT⁺|X|History'
+  network: tcp
+  port: 30846
+  server: v46.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -165,19 +150,42 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[Vmess] usUS_12|2.0MB/s'
+  client-fingerprint: chrome
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_4|8.0MB/s|GPT⁺|X|History...'
   network: ws
   port: 443
-  server: BBBbBb.tAiWAn2028.IndEvs.In
-  servername: BBBbBb.tAiWAn2028.IndEvs.In
-  skip-cert-verify: false
+  server: vip1.kaixincloud.top
+  servername: blog.dezh.store
+  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc
+  uuid: e83b705e-4541-4ea3-9c2d-e7e9eb1f29c8
   ws-opts:
     headers:
-      Host: BbBbBB.taIwAN2028.InDeVs.iN
-    path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd
+      HOST: blog.dezh.store
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_9|1.0MB/s|0%|GPT⁺|X|Hist...'
+  network: ws
+  port: 443
+  server: 104.19.50.23
+  servername: blog.dezh.store
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e83b705e-4541-4ea3-9c2d-e7e9eb1f29c8
+  ws-opts:
+    headers:
+      HOST: blog.dezh.store
+    path: /
 - name: '[Trojan] US_speednode_0079'
   network: ws
   password: Aimer

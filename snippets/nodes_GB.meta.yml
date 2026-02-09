@@ -1,35 +1,23 @@
 proxies:
-- name: '[VLESS] gbGB_1|1.3MB/s'
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] gbGB_1|2.7MB/s'
   network: ws
-  port: 8443
-  server: 95.164.18.202
+  port: 443
+  server: 57.128.177.22
   servername: sni.111000.indevs.in
   tls: true
   type: vless
+  udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] gbGB²_1|3.5MB/s|25%|GPT⁺|X|[广播...'
-  network: tcp
-  port: 4443
-  reality-opts:
-    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
-    short-id: '!!str aa7e96542880027a'
-  server: 5.181.21.101
-  servername: github.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3cceef33-56ff-4f21-8479-2e1719e04886
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    max-early-data: 2560
+    path: /
   xudp: true
 - name: '[VLESS] GB_speednode_0022'
   network: ws

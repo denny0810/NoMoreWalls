@@ -27,50 +27,46 @@ proxies:
 - name: '[Trojan] 新加坡|@ripaojiedian'
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 3076
-  server: 13.231.53.184
+  port: 3901
+  server: 160.16.138.24
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 新加坡2|@ripaojiedian'
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 544
-  server: 160.16.130.21
+  port: 3901
+  server: 153.121.45.139
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 新加坡3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 8041
-  server: 43.199.59.14
+  port: 381
+  server: 43.198.233.56
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] hkHK¹-CA⁰_2|2.0MB/s|YT|D+|X|Su...'
-  network: ws
-  port: 2096
-  server: vip1.kaixincloud.top
-  servername: sni.111000.indevs.in
+- name: '[Socks5] sgSG²_1|5.5MB/s|X|History'
+  password: ''
+  port: 10872
+  server: 213.35.110.67
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: '[Http] sgSG²_2|8.9MB/s|44%|GPT⁺|GM|YT...'
+  password: 5edb4d21-6cc1-4d46-8823-9a0e14d83455
+  port: 4449
+  server: 4-ndsrzkgg.mix.dexiansheng.com
+  sni: 4-ndsrzkgg.mix.dexiansheng.com
   tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.111000.indevs.in
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
-- cipher: chacha20-ietf
-  name: '[SS] sgSG_2|2.5MB/s'
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
+  type: http
+  username: walless
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] sgSG²_3|0.8MB/s|GPT⁺|X|History'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.42
   type: ss

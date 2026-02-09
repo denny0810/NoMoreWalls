@@ -7,7 +7,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: '[Trojan] hkHK²_5|8.1MB/s|0%|NF|D+|X|His...'
+  name: '[Trojan] hkHK²_14|9.7MB/s|0%|NF|D+|X|Su...'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -29,7 +29,9 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[Trojan] HK24｜家宽｜非常安全'
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_11|4.8MB/s|0%|D+|X|Histo...'
+  network: tcp
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
@@ -130,7 +132,8 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[Trojan] 香港3|@ripaojiedian'
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_8|12.0MB/s|1%|D+|X|[原生|住...'
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
   port: 3373
@@ -138,7 +141,8 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] 香港4|@ripaojiedian'
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_5|14.3MB/s|1%|YT-CN|NF|D...'
   network: tcp
   password: BxceQaOe
   port: 4183
@@ -170,62 +174,28 @@ proxies:
   country: 🇭🇰HK
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] hkHK²_1|17.0MB/s|1%|GPT⁺|YT|NF...'
+  name: '[Vmess] hkHK²_1|1.4MB/s|1%|YT|X'
   network: ws
   port: 80
-  server: hkt.gotochinatown.net
+  server: e70cd76c-t8wxs0-ta6lxc-jjv2.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
   skip-cert-verify: true
   type: vmess
-  uuid: 0114339c-488d-11ee-8792-f23c9164ca5d
+  uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
   ws-opts:
     headers:
-      Host: hkt.gotochinatown.net
+      HOST: broadcastlv.chat.bilibili.com
+      Host: e70cd76c-t8wxs0-ta6lxc-jjv2.hkt.gotochinatown.net
     path: /
-- cipher: aes-256-gcm
-  country: 🇪🇸ES
-  name: '[SS] hkHK²_4|1.7MB/s|40%|X|History|...'
-  password: TjWj6hhm0XXkWvKL
-  port: 8388
-  server: 212.192.12.201
-  type: ss
 - client-fingerprint: chrome
-  country: 🇭🇰 HK
-  name: '[Trojan] HK_speednode_0031'
+  country: 🇭🇰HK
+  name: '[Trojan] hkHK²_2|6.2MB/s|0%|X|Succeed'
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 112.120.31.36
+  server: 219.76.135.98
   skip-cert-verify: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] hkHK²_7|3.4MB/s|0%|GPT⁺|D+|X|[...'
-  network: tcp
-  port: 4443
-  reality-opts:
-    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
-    short-id: '!!str aa7e96542880027a'
-  server: 138.249.117.155
-  servername: github.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3cceef33-56ff-4f21-8479-2e1719e04886
-  xudp: true
-- client-fingerprint: chrome
-  name: '[Trojan] HK_speednode_0034'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.36
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
 - alterId: 2
@@ -233,7 +203,7 @@ proxies:
   client-fingerprint: chrome
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] hkHK²_9|14.5MB/s|1%|GPT⁺|YT|NF...'
+  name: '[Vmess] hkHK²_3|0.9MB/s|1%|D+|X'
   network: ws
   port: 80
   server: a3cefe89-t8ysg0-ta42cg-1phla.hkt.gotochinatown.net
@@ -242,26 +212,33 @@ proxies:
   uuid: 467f2940-77cd-11ee-b5ed-f23c9164ca5d
   ws-opts:
     headers:
-      Host: broadcastlv.chat.bilibili.com
+      Host: a3cefe89-t8ysg0-ta42cg-1phla.hkt.gotochinatown.net
     path: /
+- cipher: chacha20-ietf
+  country: 🇭🇰 HK
+  name: '[SS] hkHK²_6|1.0MB/s|0%|YT|NF|D+|X|...'
+  password: asd123456
+  port: 8388
+  server: 103.149.182.105
+  type: ss
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
   country: 🇭🇰HK
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] hkHK²_10|14.0MB/s|1%|GPT|YT|NF...'
+  name: '[Vmess] hkHK²_10|7.1MB/s|1%|D+|X|Histo...'
   network: ws
   port: 80
-  server: bc655391-t70f40-tbpkla-1otc2.hkt.gotochinatown.net
+  server: 7d1c5b1e-t8nog0-ta42cg-1phla.hkt.gotochinatown.net
   servername: broadcastlv.chat.bilibili.com
   skip-cert-verify: true
   type: vmess
-  uuid: 0114339c-488d-11ee-8792-f23c9164ca5d
+  uuid: 467f2940-77cd-11ee-b5ed-f23c9164ca5d
   ws-opts:
     headers:
       HOST: broadcastlv.chat.bilibili.com
-      Host: bc655391-t70f40-tbpkla-1otc2.hkt.gotochinatown.net
+      Host: 7d1c5b1e-t8nog0-ta42cg-1phla.hkt.gotochinatown.net
     path: /
 - alterId: 2
   cipher: auto
@@ -269,25 +246,56 @@ proxies:
   country: 🇭🇰HK
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] hkHK²_11|16.0MB/s|1%|YT|NF|D+|...'
+  name: '[Vmess] hkHK²_12|5.0MB/s|1%|D+|X'
   network: ws
   port: 80
   server: hkt.gotochinatown.net
   servername: hkt.gotochinatown.net
   skip-cert-verify: true
   type: vmess
-  uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
+  uuid: 0114339c-488d-11ee-8792-f23c9164ca5d
   ws-opts:
     headers:
       HOST: hkt.gotochinatown.net
       Host: hkt.gotochinatown.net
     path: /
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] hkHK²_16|3.4MB/s|1%|YT|D+|X'
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- cipher: aes-256-gcm
+  country: 🇪🇸ES
+  name: '[SS] hkHK²_15|1.7MB/s|D+|X|Succeed'
+  password: TjWj6hhm0XXkWvKL
+  port: 8388
+  server: 212.192.12.201
+  type: ss
 - name: '[Trojan] HK_speednode_0030'
   password: BxceQaOe
   port: 443
   server: 112.120.31.36
   skip-cert-verify: true
   sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: '[Trojan] HK_speednode_0031'
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.36
+  skip-cert-verify: true
   type: trojan
   udp: true
 - client-fingerprint: safari
@@ -303,3 +311,11 @@ proxies:
   type: vless
   udp: true
   uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
+- name: '[Trojan] HK_speednode_0034'
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.36
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true

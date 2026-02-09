@@ -68,10 +68,9 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '[Vmess] usUS²_5|0.7MB/s|4%|GPT|GM|YT-C...'
+  name: '[Vmess] US18｜机房｜低风险'
   network: ws
-  port: 2086
+  port: '2086'
   server: 154.83.2.156
   tls: false
   type: vmess
@@ -105,20 +104,13 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  country: 🏁 ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_6|4.2MB/s|41%|GPT|GM|YT-...'
+  name: '[Vmess] US21｜机房｜低风险'
   network: tcp
-  port: 30808
+  port: '30808'
   server: v8.hdacd.com
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /
 - name: '[Hysteria2] 美国2'
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
@@ -153,7 +145,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE²_8|6.3MB/s|0%|GPT⁺|D+|X|H...'
+  name: '[VLESS] deDE²_4|7.0MB/s|0%|GPT|D+|X|Su...'
   network: ws
   port: 443
   server: ipbaz.ping-box.com
@@ -189,99 +181,31 @@ proxies:
   udp: true
   uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
   xudp: true
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  delay: 1154
-  name: '[Vmess] usUS²_1|6.4MB/s|GPT⁺|X|History'
-  network: tcp
-  port: 30846
-  server: v46.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] usUS¹⁺_1|6.7MB/s|5%|GPT⁺|GM|YT...'
+  name: '[VLESS] usUS¹-CA⁰_1|4.5MB/s|5%|GPT|GM|...'
   network: ws
-  port: 443
-  server: 104.17.73.206
-  servername: o00o.snip.qzz.io
+  port: 2096
+  server: 162.120.94.138
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 3321a819-889d-40b3-b8fa-f34208827ef1
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: o00o.snip.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/37.0.2062.120 Safari/537.36
-    path: /Tel-@V2rayAlpha
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] caCA²_1|1.7MB/s|GPT|YT-US|X|Hi...'
-  network: ws
-  port: 80
-  server: nodejs.org
-  type: vless
-  udp: true
-  uuid: 6abc2840-25fd-4dd7-b1aa-0892fe98f2d9
-  ws-opts:
-    headers:
-      Host: MySterIOUS-chECk94Bl5oXQ6C.eCoTOUriSs.cO.uK.
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /?ed
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] usUS²_3|5.7MB/s|76%|GPT⁺|X|[广播...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 0d6fEYI5nZ_puQdJ5J9Sn7ExAs53DZzbpfxghHt_u2E
-    short-id: '!!str 7c81a04a4b20'
-  server: 150.241.90.13
-  servername: monolithgate.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ad961404-6249-4a11-9577-d1e81f6b198f
-  xudp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_4|8.0MB/s|GPT⁺|X|History...'
-  network: ws
-  port: 443
-  server: vip1.kaixincloud.top
-  servername: blog.dezh.store
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e83b705e-4541-4ea3-9c2d-e7e9eb1f29c8
-  ws-opts:
-    headers:
-      HOST: blog.dezh.store
+      Host: sni.111000.indevs.in
+    max-early-data: 2560
     path: /
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] usUS¹-CA⁰_1|4.4MB/s|GPT|GM|YT|...'
+  name: '[VLESS] usUS¹-CA⁰_11|6.5MB/s|5%|GM|YT|...'
   network: ws
   port: 2096
   server: 5.10.214.238
   servername: sni.jpmj.dev
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -294,65 +218,66 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] usUS²_7|5.7MB/s|0%|GPT⁺|X|[广播|...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
-    short-id: '!!str '
-  server: pl.griffon-guard.com
-  servername: apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6ec1d89-17fc-4de7-af89-81cd51022526
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] usUS²_8|3.2MB/s|0%|GPT⁺|D+|X'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: DEwHJJPG8V6AUWTCV-jF7ObVMxa-QktiKILmh6FZnHM
-    short-id: '!!str '
-  server: 144.31.233.74
-  servername: ya.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
-  xudp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_9|1.0MB/s|0%|GPT⁺|X|Hist...'
-  network: ws
-  port: 443
-  server: 104.19.50.23
-  servername: blog.dezh.store
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e83b705e-4541-4ea3-9c2d-e7e9eb1f29c8
-  ws-opts:
-    headers:
-      HOST: blog.dezh.store
-    path: /
-- client-fingerprint: chrome
-  name: '[VLESS] usUS¹-CA⁰_2|1.6MB/s|GPT|GM|YT|...'
+  name: '[VLESS] usUS¹-CA⁰_3|5.9MB/s|5%|GPT|GM|...'
   network: ws
   port: 2096
-  server: 25.129.199.238
+  server: 92.53.191.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  name: '[VLESS] usUS¹-CA⁰_4|5.5MB/s|5%|GM|YT|T...'
+  network: ws
+  port: 2096
+  server: 103.116.7.138
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_7|0.8MB/s|GPT|GM|YT-US|X...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.41
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_8|2.2MB/s|GPT⁺|YT-US|X|S...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.42
+  type: ss
+- client-fingerprint: chrome
+  name: '[VLESS] usUS¹-CA⁰_5|6.3MB/s|5%|GPT⁺|GM...'
+  network: ws
+  port: 2096
+  server: 25.26.27.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: '[VLESS] usUS¹-CA⁰_6|2.4MB/s|GPT|GM|YT|...'
+  network: ws
+  port: 2096
+  server: 14.102.228.238
   servername: sni.jpmj.dev
   skip-cert-verify: false
   tls: true
@@ -366,24 +291,10 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  name: '[VLESS] usUS¹-CA⁰_3|4.7MB/s|5%|GPT|GM|...'
+  name: '[VLESS] usUS¹-CA⁰_7|3.4MB/s|5%|GPT⁺|D+...'
   network: ws
-  port: 2096
-  server: 103.116.7.138
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- client-fingerprint: chrome
-  name: '[VLESS] usUS¹-CA⁰_4|4.7MB/s|GPT|YT-HK|...'
-  network: ws
-  port: 2096
-  server: 190.93.244.138
+  port: 2053
+  server: 199.119.137.95
   servername: sni.111000.indevs.in
   skip-cert-verify: false
   tls: true
@@ -396,6 +307,116 @@ proxies:
       Host: sni.111000.indevs.in
     max-early-data: 2560
     path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] sgSG²_4|2.3MB/s|GPT⁺|YT-US|NF|...'
+  network: ws
+  port: 40874
+  server: 43.153.61.80
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] caCA²_2|6.4MB/s|26%|GPT⁺|YT-US...'
+  network: ws
+  port: 80
+  server: 173.245.49.254
+  type: vless
+  udp: true
+  uuid: 4a8d4562-7192-4e83-8a24-75515a1666a3
+  ws-opts:
+    headers:
+      Host: fiT-acADEmyw21824Ac8c.ECoToURISs.cO.Uk.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /?ed
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] usUS¹-CA⁰_8|5.6MB/s|5%|GPT|GM|...'
+  network: ws
+  port: 2096
+  server: 185.18.250.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.jpmj.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] usUS¹-CA⁰_9|4.2MB/s|5%|GPT|GM|...'
+  network: ws
+  port: 443
+  server: 162.159.12.151
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: '[VLESS] usUS¹-CA⁰_10|6.3MB/s|GPT⁺|GM|Y...'
+  network: ws
+  port: 2096
+  server: 185.7.240.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] usUS²_1|5.6MB/s|0%|GPT⁺|X|[广播|...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
+    short-id: '!!str '
+  server: 144.31.248.157
+  servername: apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6ec1d89-17fc-4de7-af89-81cd51022526
+  xudp: true
 - name: '[VLESS] US_speednode_0074'
   network: ws
   port: 2096

@@ -60,7 +60,7 @@ proxies:
         Chrome/68.0.3440.106 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: '[Trojan] frFR²_2|8.8MB/s|GPT⁺|X|History...'
+  name: '[Trojan] frFR_5|2.1MB/s'
   network: ws
   password: humanity
   port: 443
@@ -71,8 +71,8 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
   name: '[Trojan] frFR_6|2.0MB/s'
@@ -146,7 +146,8 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: '[Vmess] frFR_10|2.5MB/s'
+  client-fingerprint: chrome
+  name: '[Vmess] frFR²_2|6.5MB/s|42%|GPT⁺|YT-US...'
   network: ws
   port: 8080
   server: 188.114.98.0
@@ -161,33 +162,35 @@ proxies:
     path: /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
   xudp: true
 - client-fingerprint: chrome
-  name: '[Trojan] frFR²_1|6.6MB/s|GPT⁺|X|History...'
+  name: '[Trojan] frFR²_1|6.4MB/s|GPT⁺|X|History...'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.32.47
-  skip-cert-verify: true
+  server: 188.114.96.3
+  skip-cert-verify: false
   sni: www.calmlunch.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: '[VLESS] FR_speednode_0019'
-  network: tcp
-  port: 3032
-  reality-opts:
-    public-key: 21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI
-  server: fr.locations-service.com
-  servername: refersion.com
+  name: '[Trojan] frFR²_3|5.8MB/s|GPT⁺|X|History...'
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.96.3
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: www.gossipglove.com
+  type: trojan
   udp: true
-  uuid: e59083aa-d933-4952-8cf0-eec74f718705
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /assignment
 - client-fingerprint: chrome
   name: '[VLESS] FR_speednode_0017'
   network: ws
@@ -217,6 +220,18 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: /?ed=2560
+- client-fingerprint: chrome
+  name: '[VLESS] FR_speednode_0019'
+  port: 3032
+  reality-opts:
+    public-key: 21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI
+  server: fr.locations-service.com
+  servername: refersion.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e59083aa-d933-4952-8cf0-eec74f718705
 - client-fingerprint: chrome
   name: '[VLESS] FR_speednode_0020'
   network: ws

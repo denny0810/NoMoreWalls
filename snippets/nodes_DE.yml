@@ -70,19 +70,13 @@ proxies:
     path: '%2Fagrbniuh'
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  country: 🏁 ZZ
-  http-opts: {}
-  name: '[Vmess] deDE²_9|1.2MB/s|X|History'
+  name: '[Vmess] DE41｜机房｜低风险'
   network: tcp
-  port: 30833
+  port: '30833'
   server: v33.hdacd.com
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /
 - name: '[Trojan] DE47｜原生/疑似家宽｜非常安全'
   network: tcp
   password: 5c036c72-d2dc-414d-a75d-e72b8c4ef1ab
@@ -91,11 +85,10 @@ proxies:
   skip-cert-verify: true
   sni: www.volcengine.com
   type: trojan
-- alpn:
-  - ''
-  alterId: '0'
+- alterId: '0'
   cipher: auto
-  name: '[Vmess] deDE_2|2.3MB/s'
+  client-fingerprint: chrome
+  name: '[Vmess] deDE²_2|0.9MB/s|47%|GPT|NF|X|H...'
   network: ws
   port: 8080
   server: digitalocean.com
@@ -111,22 +104,3 @@ proxies:
     max-early-data: 2560
     path: /NASNET/cdn
   xudp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] deDE²_10|6.6MB/s|49%|GPT⁺|X|Hi...'
-  network: ws
-  port: 8080
-  server: tgju.org
-  servername: nasnet-571296497.iranpress.co
-  skip-cert-verify: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      HOST: nasnet-571296497.iranpress.co
-      Host: tgju.org
-    path: /nasnet/cdn

@@ -16,33 +16,23 @@ proxies:
   skip-cert-verify: true
   sni: www.volcengine.com
   type: trojan
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[Vmess] frFR_3|2.5MB/s'
-  network: ws
-  port: 8080
-  server: tgju.org
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- client-fingerprint: chrome
+  country: 🇫🇷FR
+  name: '[Trojan] frFR²_1|5.6MB/s|1%|GPT⁺|X|[广播|...'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.37.8.196
+  skip-cert-verify: true
+  type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-162191099.sharghdaily.co
-    max-early-data: 2560
-    path: /nasnet/cdn
-  xudp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   country: 🇨🇴CO
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] frFR²_2|6.5MB/s|42%|GPT|X'
+  name: '[Vmess] frFR²_2|4.1MB/s|43%|GPT⁺|X|His...'
   network: ws
   port: 8080
   server: 188.114.98.0
@@ -51,47 +41,9 @@ proxies:
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       HOST: nasnet-162191099.sharghdaily.co
-    max-early-data: 2560
-    path: /nasnet/cdn
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: '[Vmess] frFR²_4|6.3MB/s|42%|GPT⁺|X|Suc...'
-  network: ws
-  port: 8080
-  server: 188.114.98.0
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nasnet-162191099.sharghdaily.co
     path: /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: '[Vmess] frFR²_5|7.2MB/s|X|History'
-  network: ws
-  port: 8080
-  server: 104.21.69.44
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nasnet-511952424.mcitel.co
-    path: /nasnet/cdn
-  xudp: true
 - name: '[Trojan] FR_speednode_0021'
   network: ws
   password: iwangjie

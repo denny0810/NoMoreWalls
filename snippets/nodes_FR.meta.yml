@@ -17,83 +17,22 @@ proxies:
   sni: www.volcengine.com
   type: trojan
 - client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] FR_speednode_0019'
+  country: 🇫🇷FR
+  name: '[Trojan] frFR²_1|5.6MB/s|1%|GPT⁺|X|[广播|...'
   network: tcp
-  port: 3032
-  reality-opts:
-    public-key: 21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI
-  server: fr.locations-service.com
-  servername: refersion.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.37.8.196
+  skip-cert-verify: true
+  type: trojan
   udp: true
-  uuid: e59083aa-d933-4952-8cf0-eec74f718705
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] frFR_2|1.7MB/s'
-  network: ws
-  port: 8443
-  server: 188.114.98.224
-  servername: vds.rahedarro.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 25aa9915-8061-4a5d-8fd8-b26c222d5b4c
-  ws-opts:
-    headers:
-      Host: vds.rahedarro.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: /block
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[Vmess] frFR_3|2.5MB/s'
-  network: ws
-  port: 8080
-  server: tgju.org
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-162191099.sharghdaily.co
-    max-early-data: 2560
-    path: /nasnet/cdn
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] frFR_4|1.5MB/s'
-  network: ws
-  port: 8443
-  server: bouquetberlin.org
-  servername: bouquetberlin.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: e88e5f91-db2f-4e20-892b-081a4f0f5cf7
-  ws-opts:
-    headers:
-      Host: bouquetberlin.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.109 Safari/537.36
-    path: /vlessws
-  xudp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   country: 🇨🇴CO
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] frFR²_2|6.5MB/s|42%|GPT|X'
+  name: '[Vmess] frFR²_2|4.1MB/s|43%|GPT⁺|X|His...'
   network: ws
   port: 8080
   server: 188.114.98.0
@@ -102,47 +41,9 @@ proxies:
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       HOST: nasnet-162191099.sharghdaily.co
-    max-early-data: 2560
-    path: /nasnet/cdn
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: '[Vmess] frFR²_4|6.3MB/s|42%|GPT⁺|X|Suc...'
-  network: ws
-  port: 8080
-  server: 188.114.98.0
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nasnet-162191099.sharghdaily.co
     path: /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: '[Vmess] frFR²_5|7.2MB/s|X|History'
-  network: ws
-  port: 8080
-  server: 104.21.69.44
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nasnet-511952424.mcitel.co
-    path: /nasnet/cdn
-  xudp: true
 - client-fingerprint: chrome
   name: '[VLESS] FR_speednode_0017'
   network: ws
@@ -172,6 +73,18 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: /?ed=2560
+- client-fingerprint: chrome
+  name: '[VLESS] FR_speednode_0019'
+  port: 3032
+  reality-opts:
+    public-key: 21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI
+  server: fr.locations-service.com
+  servername: refersion.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e59083aa-d933-4952-8cf0-eec74f718705
 - client-fingerprint: chrome
   name: '[VLESS] FR_speednode_0020'
   network: ws

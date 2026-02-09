@@ -1,54 +1,32 @@
 proxies:
+- cipher: aes-256-cfb
+  name: '[SS] ruRU_1|2.1MB/s'
+  password: gYCYXfkUQEs2TaJQ
+  port: 9038
+  server: 194.116.173.21
+  type: ss
 - client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] ruRU_1|2.7MB/s'
-  network: grpc
+  flow: xtls-rprx-vision
+  name: '[VLESS] RU_speednode_0071'
+  network: tcp
   port: 443
   reality-opts:
-    public-key: kz54nOxv8IOst-C_GQO5cf6106be0UakNbCEXiDuhHA
-    short-id: '!!str 3863adb3'
-  server: 87.239.111.227
-  servername: m.vk.ru
+    public-key: tYFlc_8tzrwDisZbxlHj06rw_YE154TVYeEBuwOQZHE
+    short-id: '!!str 8a6605e7'
+  server: 45.139.26.213
+  servername: www.yandex.ru
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 895f94cb-5567-4731-bc2c-2f89a54bafe4
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] ruRU²_2|0.6MB/s|X'
-  network: tcp
-  port: 4443
-  server: ru2.ultima.foundation
-  type: vless
-  udp: true
-  uuid: e44c7a66-0d05-42bc-a37b-bfed2a4fbcc1
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] ruRU²_3|0.8MB/s|X|Succeed|[广播|...'
-  network: tcp
-  port: 10001
-  reality-opts:
-    public-key: aBNzDaD-NL93hiwCTKg4paOppKc1RNAICxBjHFJrOy8
-    short-id: '!!str 9c9bb63c'
-  server: 193.163.203.36
-  servername: www.intel.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6a3f4da1-687a-4bde-9943-df057315857c
-  xudp: true
+  uuid: 8ff544c5-303c-46f4-80fe-8e8e166fd981
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_12|1.7MB/s|GPT|GM|YT-RU|...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.53
+  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] RU_speednode_0062'
@@ -133,6 +111,19 @@ proxies:
   type: vless
   udp: true
   uuid: e8da176f-e24e-4af1-a386-53a6a5396248
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] RU_speednode_0068'
+  port: 443
+  reality-opts:
+    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+  server: nld14.freednet.org
+  servername: www.cybo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6fd9f786-d974-49d0-b5c4-397678de69a2
 - name: '[VLESS] RU_speednode_0069'
   network: ws
   port: 2053
@@ -161,20 +152,6 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] RU_speednode_0071'
-  port: 443
-  reality-opts:
-    public-key: tYFlc_8tzrwDisZbxlHj06rw_YE154TVYeEBuwOQZHE
-    short-id: '!!str 8a6605e7'
-  server: 45.139.26.213
-  servername: www.yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8ff544c5-303c-46f4-80fe-8e8e166fd981
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] RU_speednode_0072'

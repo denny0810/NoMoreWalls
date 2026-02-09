@@ -8,72 +8,50 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: '[Trojan] frFR_4|2.5MB/s'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.152.23
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/68.0.3440.106 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: '[Trojan] frFR_5|2.1MB/s'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.152.23
-  skip-cert-verify: false
-  sni: www.gossipglove.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: '[Trojan] frFR_6|2.0MB/s'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.32.47
-  skip-cert-verify: false
-  sni: www.gossipglove.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-        Gecko) Chrome/26.0.1410.64 Safari/537.31
-    path: /assignment
-- client-fingerprint: chrome
-  name: '[Trojan] frFR_9|2.6MB/s'
-  network: ws
-  password: humanity
-  port: 443
-  server: www.gossipglove.com
-  skip-cert-verify: false
-  sni: www.gossipglove.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /assignment
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
+  name: '[Vmess] frFR_3|2.5MB/s'
+  network: ws
+  port: 8080
+  server: tgju.org
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-162191099.sharghdaily.co
+    max-early-data: 2560
+    path: /nasnet/cdn
+  xudp: true
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: '[Vmess] frFR²_2|6.5MB/s|42%|GPT⁺|YT-US...'
+  country: 🇨🇴CO
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] frFR²_2|6.5MB/s|42%|GPT|X'
+  network: ws
+  port: 8080
+  server: 188.114.98.0
+  servername: nasnet-162191099.sharghdaily.co
+  skip-cert-verify: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      HOST: nasnet-162191099.sharghdaily.co
+    max-early-data: 2560
+    path: /nasnet/cdn
+- alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: '[Vmess] frFR²_4|6.3MB/s|42%|GPT⁺|X|Suc...'
   network: ws
   port: 8080
   server: 188.114.98.0
@@ -87,36 +65,25 @@ proxies:
       Host: nasnet-162191099.sharghdaily.co
     path: /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
   xudp: true
-- client-fingerprint: chrome
-  name: '[Trojan] frFR²_1|6.4MB/s|GPT⁺|X|History...'
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: '[Vmess] frFR²_5|7.2MB/s|X|History'
   network: ws
-  password: humanity
-  port: 443
-  server: 188.114.96.3
+  port: 8080
+  server: 104.21.69.44
   skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: '[Trojan] frFR²_3|5.8MB/s|GPT⁺|X|History...'
-  network: ws
-  password: humanity
-  port: 443
-  server: 188.114.96.3
-  skip-cert-verify: false
-  sni: www.gossipglove.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /assignment
+      Host: nasnet-511952424.mcitel.co
+    path: /nasnet/cdn
+  xudp: true
 - name: '[Trojan] FR_speednode_0021'
   network: ws
   password: iwangjie

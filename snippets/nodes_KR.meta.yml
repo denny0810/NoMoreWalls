@@ -1,12 +1,10 @@
 proxies:
-- name: '[Socks5] krKR²_1|1.0MB/s|4%|GPT⁺|X|Hist...'
-  password: ''
+- name: '[Socks5] krKR²_3|0.6MB/s|4%|GPT⁺|X|Hist...'
   port: 1090
   server: 121.169.46.116
-  skip-cert-verify: true
   tls: false
   type: socks5
-  username: ''
+  username: Og%3D%3D
 - name: '[Hysteria2] KR4｜机房｜低风险'
   obfs: salamander
   obfs-password: MKsqfibVxwhZ3pCf
@@ -27,6 +25,31 @@ proxies:
   sni: kr2.miyazono-kaori.com
   tls: false
   type: hysteria2
+- cipher: aes-256-cfb
+  name: '[SS] vnVN²_16|1.4MB/s|GPT⁺|GM|YT-KR...'
+  password: qwerREWQ@@
+  port: 41632
+  server: 103.238.214.82
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] krKR²_4|8.0MB/s|10%|GPT⁺|GM|YT...'
+  network: ws
+  port: 2096
+  server: dv4.789900.xyz
+  servername: dv4.789900.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05
+  ws-opts:
+    headers:
+      Host: dv4.789900.xyz
+    path: /0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05-vm
 - name: '[Http] KR_speednode_0038'
   password: test.+
   port: 30446

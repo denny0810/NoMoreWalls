@@ -111,8 +111,7 @@ proxies:
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK²_7|7.1MB/s|0%|YT-CN|D+|X|...'
+- name: '[Trojan] HK30｜家宽｜非常安全'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -120,8 +119,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
-- name: '[Trojan] HK31｜家宽｜非常安全'
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_2|0.9MB/s|0%|D+|X|Histor...'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -130,7 +129,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: '[Trojan] hkHK²_5|3.0MB/s|0%|YT-CN|D+|X|...'
+  name: '[Trojan] hkHK²_1|2.7MB/s|D+|X|Succeed'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -139,7 +138,7 @@ proxies:
   sni: 219.76.135.98
   type: trojan
 - client-fingerprint: chrome
-  name: '[Trojan] hkHK²_8|5.2MB/s|0%|D+|X|Histor...'
+  name: '[Trojan] hkHK²_4|2.4MB/s|NF|X|Succeed'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -293,7 +292,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: '[Trojan] hkHK²_6|15.2MB/s|2%|YT|NF|D+|X...'
+  name: '[Trojan] hkHK²_6|3.3MB/s|2%|YT|NF|D+|X|...'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -320,7 +319,7 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: '[Trojan] hkHK²_2|9.3MB/s|2%|YT|D+|X|[原生...'
+  name: '[Trojan] hkHK²_5|3.9MB/s|2%|YT|D+|X|Suc...'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -329,59 +328,11 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  country: 🇪🇸ES
-  name: '[SS] hkHK²_4|2.4MB/s|35%|X|History|...'
-  password: TjWj6hhm0XXkWvKL
-  port: 8388
-  server: 212.192.12.201
-  type: ss
-- name: '[Trojan] HK_speednode_0030'
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.36
+- name: '[Http] hkHK²_8|15.1MB/s|2%|D+|X|Histo...'
+  password: ''
+  port: 7897
+  server: 101.36.224.130
   skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: '[Trojan] HK_speednode_0031'
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.36
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: '[VLESS] HK_speednode_0032'
-  port: 443
-  reality-opts:
-    public-key: 4cfuj5otn8-uhPUe23OhB6KY8I42AxxJNt4lWIpg_AU
-  server: 2.hk.2.cdn-bilibili.cn
-  servername: www.icloud.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: '[VLESS] HK_speednode_0033'
-  port: 443
-  reality-opts:
-    public-key: 4cfuj5otn8-uhPUe23OhB6KY8I42AxxJNt4lWIpg_AU
-  server: 2.hk.1.cdn-bilibili.cn
-  servername: www.icloud.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
-- name: '[Trojan] HK_speednode_0034'
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.36
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
+  tls: false
+  type: http
+  username: ''

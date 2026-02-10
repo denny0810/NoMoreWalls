@@ -374,9 +374,29 @@ proxies:
   server: 138.199.42.68
   type: ss
   udp: true
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_1|4.2MB/s|35%|GPT⁺|NF|X|...'
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_9|0.5MB/s|GPT⁺|YT-US|X|H...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.231
+  type: ss
 - client-fingerprint: chrome
   country: 🇺🇸US
-  name: '[Trojan] usUS²_1|1.5MB/s|14%|GPT⁺|GM|NF...'
+  name: '[Trojan] usUS²_2|1.5MB/s|GPT|GM|NF|D+|X...'
   network: tcp
   password: hSA6YXe15O
   port: 443
@@ -385,68 +405,3 @@ proxies:
   sni: Telegram🇨🇳 @WangCai2
   type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  delay: 1154
-  name: '[Vmess] 🏴‍☠_3usUS²_1|7.2MB/s|History|[...'
-  network: tcp
-  port: 30846
-  server: v46.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_5|2.8MB/s|GPT⁺|YT-US|X|H...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.204
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇮🇷IR
-  name: '[SS] itIT²_1|6.2MB/s|35%|GPT⁺|YT-US...'
-  password: b2ca8061-cf93-403f-a150-c26fb26610f7
-  port: 46253
-  server: 151.242.180.5
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_9|2.4MB/s|GPT⁺|YT-US|X|H...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.114
-  type: ss
-- client-fingerprint: chrome
-  country: 🇺🇸US
-  name: '[Trojan] usUS²_3|1.0MB/s|14%|GPT⁺|GM|NF...'
-  network: tcp
-  password: hSA6YXe15O
-  port: 443
-  server: 104.11.86.252
-  skip-cert-verify: true
-  sni: Telegram @WangCai2
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: '[SS] vnVN²_22|2.2MB/s|GPT⁺|GM|YT-US...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.213
-  type: ss
-  udp: true
-- name: '[Trojan] US_speednode_0079'
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
-  sni: epge.muarua.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
-    path: /

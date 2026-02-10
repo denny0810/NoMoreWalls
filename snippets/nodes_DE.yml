@@ -1,12 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_2|3.9MB/s|22%|GPT⁺|NF|X|...'
+  name: '[Vmess] DE50｜机房｜高风险 (黑名单)'
   network: tcp
-  port: 180
+  port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess
@@ -74,12 +71,15 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
+  country: 🇭🇰HK
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] deDE²_10|0.8MB/s|X|History'
+  name: '[Vmess] 🏴‍☠_6deDE²_3|0.7MB/s|[广播|机房]|0...'
   network: tcp
   port: 30833
   server: v33.hdacd.com
+  servername: v33.hdacd.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -91,63 +91,32 @@ proxies:
   skip-cert-verify: true
   sni: www.volcengine.com
   type: trojan
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: '[Vmess] deDE_1|2.3MB/s'
+  client-fingerprint: chrome
+  country: 🇺🇸US
+  fingerprint: ''
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] deDE²_9|6.7MB/s|6%|GPT⁺|TK|X|S...'
   network: ws
-  port: 8080
-  server: tgju.org
-  skip-cert-verify: false
+  port: 80
+  server: de2c.buzzon.shop
+  servername: de2c.buzzon.shop
+  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  udp: false
+  uuid: acadd87c-c8b4-4b6b-989b-64263e4d0329
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: nasnet-571296497.iranpress.co
-    max-early-data: 2560
-    path: /nasnet/cdn
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: '[Vmess] deDE_8|1.9MB/s'
-  network: ws
-  port: 8080
-  server: digitalocean.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-571299667.rahavard365.co
-    max-early-data: 2560
-    path: /NASNET/cdn
-  xudp: true
+      HOST: de2c.buzzon.shop
+      Host: de2c.buzzon.shop
+    path: /q4smKQlj08hW5NThds106
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '[Trojan] deDE_10|2.9MB/s'
-  network: ws
-  password: bddcb397-6f52-458e-9937-dfbf69db1e48
-  port: 443
-  server: w.janebimashin.shop
-  skip-cert-verify: false
-  sni: de3c.buzzon.shop
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /KpY6QO5BT7YVIROnda
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[Trojan] deDE²_13|6.8MB/s|6%|GPT⁺|X|[原生...'
+  name: '[Trojan] deDE²_1|6.7MB/s|6%|GPT⁺|X|Succ...'
   network: ws
   password: acadd87c-c8b4-4b6b-989b-64263e4d0329
   port: 443
@@ -167,7 +136,7 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] deDE²_8|6.7MB/s|47%|GPT|X|Hist...'
+  name: '[Vmess] deDE²_3|7.5MB/s|47%|GPT|X|Succ...'
   network: ws
   port: 8080
   server: tgju.org
@@ -180,22 +149,42 @@ proxies:
       HOST: nasnet-571296497.iranpress.co
       Host: tgju.org
     path: /nasnet/cdn
-- alterId: 0
+- alterId: '0'
   cipher: auto
   client-fingerprint: chrome
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] deDE²_12|6.5MB/s|6%|GPT⁺|TK|X|...'
+  name: '[Vmess] deDE²_6|6.3MB/s|47%|GPT⁺|X|His...'
   network: ws
-  port: 80
+  port: 8080
+  server: tgju.org
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-571296497.iranpress.co
+    max-early-data: 2560
+    path: /nasnet/cdn
+  xudp: true
+- alpn:
+  - http/1.1
+  alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: '[Vmess] deDE²_15|1.6MB/s|6%|GPT⁺|X|His...'
+  network: ws
+  port: 443
   server: de2c.buzzon.shop
   servername: de2c.buzzon.shop
-  skip-cert-verify: true
+  skip-cert-verify: false
+  tls: true
   type: vmess
+  udp: true
   uuid: acadd87c-c8b4-4b6b-989b-64263e4d0329
   ws-opts:
     headers:
-      HOST: de2c.buzzon.shop
       Host: de2c.buzzon.shop
     path: /q4smKQlj08hW5NThds106
+  xudp: true

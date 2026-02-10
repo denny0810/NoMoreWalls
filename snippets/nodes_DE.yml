@@ -77,29 +77,69 @@ proxies:
     headers:
       Host: 17707072625920.206353.xyz
     path: '%2Fagrbniuh'
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] deDE²_2|4.1MB/s|6%|GPT⁺|NF|X|S...'
-  network: ws
-  port: 80
-  server: de2c.buzzon.shop
-  servername: de2c.buzzon.shop
-  skip-cert-verify: true
-  type: vmess
-  uuid: acadd87c-c8b4-4b6b-989b-64263e4d0329
-  ws-opts:
-    headers:
-      HOST: de2c.buzzon.shop
-      Host: de2c.buzzon.shop
-    path: /q4smKQlj08hW5NThds106
 - client-fingerprint: chrome
   country: 🇩🇪DE
-  name: '[Trojan] DE_speednode_0014'
+  name: '[Trojan] deDE²_1|1.1MB/s|1%|GPT⁺|X|[广播|...'
   network: tcp
+  password: telegram-id-directvpn
+  port: 22223
+  server: 52.28.55.17
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  country: 🇩🇪DE
+  name: '[Trojan] deDE²_4|1.1MB/s|1%|GPT⁺|X|[广播|...'
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22223
+  server: 52.28.55.17
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  country: 🇩🇪DE
+  name: '[Trojan] deDE²_5|2.3MB/s|1%|GPT|X|[广播|商...'
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22223
+  server: 3.69.95.50
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: '[Vmess] deDE²_8|4.8MB/s|X'
+  network: ws
+  port: 8080
+  server: 172.64.149.182
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-5712964102.sharghdaily.co
+    max-early-data: 2560
+    path: /nasnet/cdn
+  xudp: true
+- client-fingerprint: chrome
+  country: 🇩🇪DE
+  name: '[Trojan] deDE²_9|5.8MB/s|1%|GPT⁺|TK|X|[...'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 52.28.55.17
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: '[Trojan] DE_speednode_0014'
   password: telegram-id-directvpn
   port: 22223
   server: 3.77.68.129
@@ -107,30 +147,10 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  country: 🇩🇪DE
-  name: '[Trojan] DE_speednode_0016'
-  network: tcp
+- name: '[Trojan] DE_speednode_0016'
   password: telegram-id-directvpn
   port: 22223
   server: 18.195.91.205
   skip-cert-verify: true
   type: trojan
   udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[Trojan] deDE²_6|1.0MB/s|6%|GPT⁺|X|Succ...'
-  network: ws
-  password: acadd87c-c8b4-4b6b-989b-64263e4d0329
-  port: 443
-  server: de2c.buzzon.shop
-  skip-cert-verify: false
-  sni: de2c.buzzon.shop
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /C7Uxy5S9pAi1VhW5NThds106

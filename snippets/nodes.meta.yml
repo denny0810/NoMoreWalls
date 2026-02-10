@@ -162,7 +162,7 @@ proxies:
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- name: '[Socks5] krKR²_2|1.2MB/s|GPT⁺|X|History'
+- name: '[Socks5] KR4｜家宽｜高风险 (黑名单)'
   port: 1090
   server: 121.169.46.116
   tls: false
@@ -189,13 +189,15 @@ proxies:
   tls: false
   type: socks5
   username: VDJkQU1Ua3pMakl6TXk0eU5UUXVPRHBBTVRrekxqSXpNeTR5TlRRdU9EbyUzRDo%3D
-- name: '[Socks5] DE148｜原生/疑似家宽｜高风险 (黑名单)'
+- name: '[Socks5] 🏴‍☠_3🏴‍☠_1193.233.254.7:1080-0...'
+  password: ''
   port: 1080
   server: 193.233.254.7
+  skip-cert-verify: true
   tls: false
   type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuNzo%3D
-- name: '[Trojan] HK30｜家宽｜非常安全'
+  username: ''
+- name: '[Trojan] hkHK²_3|4.4MB/s|0%|X|History|[...'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -203,7 +205,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[Trojan] hkHK²_2|0.9MB/s|0%|D+|X|Histor...'
+  udp: true
+- name: '[Trojan] hkHK²_12|3.4MB/s|0%|YT-CN|D+|X...'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -211,7 +214,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[Trojan] hkHK²_1|2.7MB/s|D+|X|Succeed'
+- name: '[Trojan] hkHK²_14|5.9MB/s|0%|YT-CN|D+|X...'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -219,7 +222,7 @@ proxies:
   skip-cert-verify: true
   sni: 219.76.135.98
   type: trojan
-- name: '[Trojan] hkHK²_4|2.4MB/s|NF|X|Succeed'
+- name: '[Trojan] hkHK²_15|3.2MB/s|0%|YT-CN|D+|X...'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -1066,7 +1069,8 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[Hysteria2] Telegram:@config_proxy 💦'
+- country: 🇹🇼TW
+  name: '[Hysteria2] vnVN¹⁺_2|0.9MB/s|GPT⁺|NF|X|[广播...'
   password: 0db758b4-e2ea-4716-bc9f-089bf6a1a30b
   port: 50017
   server: zz.9966663.xyz
@@ -1074,6 +1078,7 @@ proxies:
   sni: do-vnyear.9966663.xyz
   tls: false
   type: hysteria2
+  udp: true
 - name: '[Hysteria2] All_7--@V2rayAlpha'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
@@ -1165,7 +1170,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] hkHK²_6|3.3MB/s|2%|YT|NF|D+|X|...'
+- name: '[Trojan] 香港4|@ripaojiedian'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -1467,18 +1472,153 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] sgSG²_1|11.6MB/s|0%|YT-CN|X|[广...'
+  network: ws
+  port: 12901
+  server: gtm1.ktmwan.net
+  type: vmess
+  udp: true
+  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- name: '[VLESS] deDE¹-CA⁰_1|5.0MB/s|D+|X|[广播|机...'
+  network: ws
+  port: 443
+  server: 77.221.140.170
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.111000.dynv6.net
+    max-early-data: 2560
+    path: /
+- encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] plPL²_1|5.6MB/s|12%|GPT|YT-RU|...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: hSTtlpXKAYVVu5ybX3hQfq8dfsUrO_HoFVgfGGoCHVw
+    short-id: 'a7ab02dfcc1f2c04'
+  server: 195.3.223.143
+  servername: pl.jojack.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: dd9c0ccd-1aeb-4f2d-9ab1-5f6996518c77
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_1|1.6MB/s|GPT⁺|GM|YT-US|...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.24
+  type: ss
+- country: 🇩🇪DE
+  name: '[Trojan] deDE²_1|1.1MB/s|1%|GPT⁺|X|[广播|...'
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22223
+  server: 52.28.55.17
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  encryption: none
+  name: '[VLESS] deDE²_2|6.8MB/s|6%|GPT⁺|YT-US|...'
+  network: ws
+  port: 443
+  server: 172.67.193.88
+  servername: MAHANteAm.noD32Cpu.iR
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: MAHANteAm.noD32Cpu.iR
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /assets
+  xudp: true
+- alterId: 0
+  cipher: auto
   country: 🇧🇬BG
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] ruRU²_1|4.5MB/s|X'
+  name: '[Vmess] ruRU²_1|2.7MB/s|X|[广播|机房]'
   network: ws
-  port: 41982
+  port: 43403
   server: 94.156.181.190
   servername: imafake.locker
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 9631096d-3032-4942-9446-bdf12665682b
+  uuid: c6e0562f-7ad1-40fb-a255-26194b2de84a
+  ws-opts:
+    headers:
+      HOST: imafake.locker
+    path: /speedtest
+- flow: xtls-rprx-vision
+  name: '[VLESS] DE_speednode_0015'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU
+    short-id: '00684d2eae2cdd16'
+  server: 45.145.43.147
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] jpJP²_2|7.5MB/s|0%|GPT|GM|YT|N...'
+  network: ws
+  port: 12883
+  server: gtm1.ktmwan.net
+  servername: baidu.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
+  ws-opts:
+    headers:
+      Host: gtm1.ktmwan.net
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇧🇬BG
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] ruRU²_2|4.7MB/s|X|[广播|机房]'
+  network: ws
+  port: 40446
+  server: 94.156.181.190
+  servername: imafake.locker
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: c6e0562f-7ad1-40fb-a255-26194b2de84a
   ws-opts:
     headers:
       HOST: imafake.locker
@@ -1488,21 +1628,675 @@ proxies:
   country: 🇧🇬BG
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] ruRU²_2|1.7MB/s|X'
+  name: '[Vmess] ruRU²_3|5.2MB/s|X|[广播|机房]'
   network: ws
-  port: 49360
+  port: 44818
   server: 94.156.181.190
   servername: imafake.locker
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 4f3cfda3-a255-40eb-8801-71f9fffb19d6
+  uuid: c6e0562f-7ad1-40fb-a255-26194b2de84a
+  ws-opts:
+    headers:
+      HOST: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  country: 🇧🇬BG
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] ruRU²_4|4.5MB/s|X|[广播|机房]'
+  network: ws
+  port: 48983
+  server: 94.156.181.190
+  servername: imafake.locker
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: c6e0562f-7ad1-40fb-a255-26194b2de84a
+  ws-opts:
+    headers:
+      HOST: imafake.locker
+    path: /speedtest
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] deDE¹⁺_1|5.6MB/s|0%|GPT⁺|X|His...'
+  network: tcp
+  port: 443
+  server: 20.218.137.249
+  servername: jina-20218137249-direct.yektanet.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] sgSG²_2|15.5MB/s|0%|YT-CN|X|[广...'
+  network: ws
+  port: 12901
+  server: gtm1.ktmwan.net
+  servername: baidu.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
+  ws-opts:
+    headers:
+      HOST: baidu.com
+      Host: gtm1.ktmwan.net
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_4|6.4MB/s|GPT|TK|NF|X|Hi...'
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - http/1.1
+  encryption: none
+  name: '[VLESS] usUS¹-SG⁰_1|0.7MB/s|TK|D+|X|Hi...'
+  network: ws
+  port: 443
+  server: 172.67.180.92
+  servername: web.abcallcenter.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: web.abcallcenter.com
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /--Telegram---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: '[Vmess] frFR²_1|6.0MB/s|43%|GPT⁺|X|His...'
+  network: ws
+  port: 8080
+  server: 188.114.98.0
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nasnet-162191099.sharghdaily.co
+    path: /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
+  xudp: true
+- alterId: 2
+  cipher: auto
+  country: 🏁 ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_5|3.9MB/s|35%|GPT⁺|YT-CN...'
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /
+- encryption: none
+  name: '[VLESS] fiFI²_1|6.4MB/s|GPT|X|Succeed'
+  network: ws
+  port: 80
+  server: 151.101.9.80
+  type: vless
+  udp: true
+  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
+  ws-opts:
+    headers:
+      Host: adspeedx23.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] hkHK²_4|9.3MB/s|0%|GPT⁺|GM|YT-...'
+  network: ws
+  port: 12890
+  server: gtm1.ktmwan.net
+  type: vmess
+  udp: true
+  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
+  ws-opts:
+    headers:
+      Host: gtm1.ktmwan.net
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇧🇬BG
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] ruRU²_5|5.4MB/s|X|[广播|机房]'
+  network: ws
+  port: 45563
+  server: 94.156.181.190
+  servername: imafake.locker
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: b2da9920-b0a7-4354-9e26-3833ab8d00d0
+  ws-opts:
+    headers:
+      HOST: imafake.locker
+    path: /speedtest
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_2|1.3MB/s|GPT⁺|X|History'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.27
+  type: ss
+- name: '[Http] hkHK²_5|10.8MB/s|2%|NF|D+|X|Hi...'
+  password: <password>
+  port: 8443
+  server: 8875d66c-t9zts0-trhks8-1c9em.hkt.cdnhuawei.com
+  sni: 8875d66c-t9zts0-trhks8-1c9em.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: 336501b6-51d2-11ee-a993-f23c9164ca5d
+- cipher: aes-256-cfb
+  country: 🇨🇳 CN
+  name: '[SS] vnVN²_3|0.6MB/s|GPT⁺|GM|X|Hist...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.131
+  type: ss
+- country: 🇩🇪DE
+  name: '[Trojan] deDE²_4|1.1MB/s|1%|GPT⁺|X|[广播|...'
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22223
+  server: 52.28.55.17
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_4|1.9MB/s|GPT⁺|X|History'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.116
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_5|1.7MB/s|GPT⁺|GM|YT-US|...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.85
+  type: ss
+- encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] plPL²_2|3.9MB/s|0%|GPT⁺|X'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: '31'
+  server: pol01-vls01.tcp-reset-club.net
+  servername: hls-svod.itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6178d1c9-884d-4390-98b0-801aa3ad3ad8
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_6|2.0MB/s|GPT⁺|X|History'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.226
+  type: ss
+- country: 🇫🇷FR
+  name: '[Trojan] frFR²_2|5.3MB/s|1%|GPT⁺|X|[广播|...'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 35.181.88.119
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- encryption: none
+  name: '[VLESS] AU_speednode_0001'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: DbZWMfQTZQQrOJDgnWetu1ChTlXISZWKt4Kn_G0YyUI
+  server: 43.250.54.175
+  servername: fonts.gstatic.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ed6dd416-1339-4dbe-8562-c9786d41041b
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: '[Vmess] jpJP²_3|9.7MB/s|0%|GPT|GM|YT|D...'
+  network: ws
+  port: 12883
+  server: gtm1.ktmwan.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_7|2.7MB/s|GPT⁺|GM|X|Hist...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.227
+  type: ss
+- encryption: none
+  name: '[VLESS] frFR²_3|2.8MB/s|28%|GPT⁺|X|His...'
+  network: tcp
+  port: 6244
+  server: fr.sv9.ir
+  type: vless
+  udp: true
+  uuid: a9db840e-9568-42d6-aa71-c93a9ef16f81
+  xudp: true
+- alterId: 2
+  cipher: auto
+  country: 🏁 ZZ
+  http-opts: {}
+  name: '[Vmess] sgSG²_3|7.7MB/s|X'
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /
+- cipher: aes-256-cfb
+  country: 🇨🇳 CN
+  name: '[SS] vnVN²_8|2.2MB/s|GPT⁺|GM|X|Hist...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.249
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇧🇬BG
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] ruRU²_6|5.4MB/s|X|[广播|机房]'
+  network: ws
+  port: 43600
+  server: 94.156.181.190
+  servername: imafake.locker
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: c6e0562f-7ad1-40fb-a255-26194b2de84a
+  ws-opts:
+    headers:
+      HOST: imafake.locker
+    path: /speedtest
+- alpn:
+  - http/1.1
+  encryption: none
+  name: '[VLESS] usUS²_3|0.9MB/s|6%|GPT⁺|X'
+  network: ws
+  port: 443
+  server: 172.67.213.180
+  servername: usc.ketabv.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: d453b11a-5988-4b9a-9aca-5cfb9b336946
+  ws-opts:
+    headers:
+      Host: usc.ketabv.ir
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /V9RZyjTD5QiH08HK8A2L9XMg
+  xudp: true
+- alterId: 0
+  cipher: auto
+  country: 🇧🇬BG
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] ruRU²_7|4.8MB/s|X|[广播|机房]'
+  network: ws
+  port: 48202
+  server: 94.156.181.190
+  servername: imafake.locker
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: c6e0562f-7ad1-40fb-a255-26194b2de84a
+  ws-opts:
+    headers:
+      HOST: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  country: 🇧🇬BG
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] ruRU²_8|5.4MB/s|X|[广播|机房]'
+  network: ws
+  port: 48737
+  server: 94.156.181.190
+  servername: imafake.locker
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: fa8f8911-2e9b-494e-9a8d-f80239ee2214
+  ws-opts:
+    headers:
+      HOST: imafake.locker
+    path: /speedtest
+- name: '[Socks5] nlNL²_3|5.8MB/s|GPT|X|History'
+  password: ''
+  port: 1080
+  server: 161.35.82.57
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- alterId: 0
+  cipher: auto
+  country: 🇧🇬BG
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] ruRU²_9|4.9MB/s|X|[广播|机房]'
+  network: ws
+  port: 41982
+  server: 94.156.181.190
+  servername: imafake.locker
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: c6e0562f-7ad1-40fb-a255-26194b2de84a
+  ws-opts:
+    headers:
+      HOST: imafake.locker
+    path: /speedtest
+- name: '[Socks5] sgSG²_4|9.4MB/s|GPT⁺|X'
+  password: ''
+  port: 8888
+  server: 178.128.212.127
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- country: 🇩🇪DE
+  name: '[Trojan] deDE²_5|2.3MB/s|1%|GPT|X|[广播|商...'
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22223
+  server: 3.69.95.50
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇧🇬BG
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] ruRU²_10|4.6MB/s|X'
+  network: ws
+  port: 45563
+  server: 94.156.181.190
+  servername: imafake.locker
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: c6e0562f-7ad1-40fb-a255-26194b2de84a
+  ws-opts:
+    headers:
+      HOST: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  country: 🇧🇬BG
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] ruRU²_11|5.9MB/s|X|[广播|机房]'
+  network: ws
+  port: 47396
+  server: 94.156.181.190
+  servername: imafake.locker
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: fa8f8911-2e9b-494e-9a8d-f80239ee2214
+  ws-opts:
+    headers:
+      HOST: imafake.locker
+    path: /speedtest
+- cipher: aes-256-cfb
+  name: '[SS] vnVN²_9|0.6MB/s|GPT⁺|GM|YT-US|...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.44
+  type: ss
+  udp: true
+- flow: xtls-rprx-vision
+  name: '[VLESS] RU_speednode_0026'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 7IOtSp0-n2_uNS5nMO9ywZbn2HibMRGy0KbLad3szXc
+    short-id: 'b8cf9578640a9edf'
+  server: 176.109.106.241
+  servername: eh.vk.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 07cd9dbe-21ac-4871-817d-c772687e4b7c
+- name: '[Trojan] hkHK²_7|7.6MB/s|2%|YT|D+|X|Suc...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 203.198.123.162
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- country: 🇭🇰 HK
+  name: '[Trojan] hkHK²_8|9.2MB/s|2%|YT|NF|D+|X|...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 203.198.123.162
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: '[Http] hkHK²_9|14.2MB/s|2%|YT-CN|D+|X...'
+  password: ''
+  port: 7897
+  server: 101.36.224.130
+  skip-cert-verify: true
+  tls: false
+  type: http
+  username: ''
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] hkHK²_10|8.5MB/s|0%|GPT⁺|GM|YT...'
+  network: ws
+  port: 12890
+  server: gtm1.ktmwan.net
+  type: vmess
+  udp: true
+  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇧🇬BG
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] ruRU²_13|6.0MB/s|X|[广播|机房]'
+  network: ws
+  port: 45563
+  server: 94.156.181.190
+  servername: imafake.locker
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: fa8f8911-2e9b-494e-9a8d-f80239ee2214
+  ws-opts:
+    headers:
+      HOST: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  country: 🇧🇬BG
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] ruRU²_14|4.5MB/s|X|[广播|机房]'
+  network: ws
+  port: 49840
+  server: 94.156.181.190
+  servername: imafake.locker
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: fa8f8911-2e9b-494e-9a8d-f80239ee2214
   ws-opts:
     headers:
       HOST: imafake.locker
     path: /speedtest
 - encryption: none
-  name: '[VLESS] hkHK¹-SG⁰_1|1.5MB/s|5%|GPT⁺|YT...'
+  name: '[VLESS] deDE¹-CA⁰_2|6.4MB/s|X|History|...'
+  network: ws
+  port: 443
+  server: 192.46.239.191
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- country: 🇭🇰 HK
+  name: '[Trojan] hkHK²_11|2.1MB/s|0%|YT-CN|X|Hi...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf
+  country: 🇭🇰HK
+  name: '[SS] sgSG²_5|6.1MB/s|GM|D+|X|Histor...'
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇧🇬BG
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] ruRU²_15|4.4MB/s|X'
+  network: ws
+  port: 46172
+  server: 94.156.181.190
+  servername: imafake.locker
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: fa8f8911-2e9b-494e-9a8d-f80239ee2214
+  ws-opts:
+    headers:
+      HOST: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  country: 🇧🇬BG
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] ruRU²_16|3.5MB/s|X'
+  network: ws
+  port: 49573
+  server: 94.156.181.190
+  servername: imafake.locker
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: fa8f8911-2e9b-494e-9a8d-f80239ee2214
+  ws-opts:
+    headers:
+      HOST: imafake.locker
+    path: /speedtest
+- name: '[Socks5] ruRU²_17|1.0MB/s|X'
+  password: ''
+  port: 1080
+  server: 185.244.77.62
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- country: 🇭🇰HK
+  name: '[Trojan] hkHK²_13|5.4MB/s|0%|D+|X|Succe...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_10|2.4MB/s|GPT⁺|GM|X|His...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.4
+  type: ss
+- encryption: none
+  name: '[VLESS] hkHK¹-SG⁰_1|17.4MB/s|5%|GPT⁺|Y...'
   network: ws
   port: 2053
   server: bestcf.030101.xyz
@@ -1520,565 +2314,231 @@ proxies:
     max-early-data: 2560
     path: /danfeng
   xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] usUS²_6|5.0MB/s|0%|GPT⁺|GM|YT|...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: a0utGrRVTHL53cH4poHif9aPJNNQ10nhiMSdx8n1kGk
+    short-id: '5a2d4f49'
+  server: 104.167.197.27
+  servername: azure.microsoft.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c5f8c9a4-916d-45c3-aad3-cd3ed706c5dd
+  xudp: true
+- name: '[VLESS] deDE²_6|2.2MB/s|6%|GPT⁺|X|[原生|...'
+  network: tcp
+  port: 2018
+  reality-opts:
+    public-key: pY4Vwx68IazGJq4BPHFVAXzmQhOz9DmKjpNM2CSxehc
+    short-id: '83f404'
+  server: riali22.carpet-carpet-carped.ir
+  servername: ub.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 352f047c-3176-4271-9bc6-3f7d33ee03c7
+  xudp: true
+- name: '[VLESS] gbGB¹-CA⁰_1|6.6MB/s|GPT⁺|TK|NF...'
+  network: ws
+  port: 443
+  server: 135.84.74.118
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.111000.dynv6.net
+    max-early-data: 2560
+    path: /
+- name: '[Socks5] nlNL²_4|4.4MB/s|18%|GPT|X|Hist...'
+  password: ''
+  port: 1080
+  server: 5.255.117.250
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_11|1.0MB/s|GPT⁺|X|Histor...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.168
+  type: ss
+- alterId: 64
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_7|4.1MB/s|X'
+  network: ws
+  port: 37009
+  server: 137.175.49.107
+  servername: www.86838014.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.86838014.xyz
+    path: /path/1736589576858
+- encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] frFR²_6|2.3MB/s|GPT|X|[广播|机房]'
+  network: tcp
+  port: 37928
+  server: 135.125.174.103
+  type: vless
+  udp: true
+  uuid: 88181007-9bb3-4e6c-826d-4400b191b8d7
+  xudp: true
+- name: '[Http] krKR²_1|0.5MB/s|GPT|NF|D+|X|Hi...'
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  sni: testkr3.ssv.vc
+  tls: true
+  type: http
+  udp: true
+  username: test
+- name: '[VLESS] deDE²_7|5.4MB/s|6%|GPT⁺|X|[原生|...'
+  network: ws
+  port: 80
+  server: 140.248.159.164
+  type: vless
+  udp: true
+  uuid: 505997ba-cbdb-466e-a3ad-69c6a4553b38
+  ws-opts:
+    headers:
+      Host: ahlekarbala.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
+    path: /containers/fi
+  xudp: true
 - country: 🇫🇷FR
-  name: '[Trojan] FR_speednode_0017'
+  name: '[Trojan] frFR²_7|1.5MB/s|1%|GPT⁺|X|[广播|...'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
-  server: 35.180.72.19
+  server: 35.181.88.119
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_3|4.7MB/s|X'
-  network: ws
-  port: 43710
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c09f13ce-2cca-49b6-ad1e-597566cc89c6
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_4|4.7MB/s|X|[广播|机房]'
-  network: ws
-  port: 41982
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3786e67a-41eb-4b92-b31e-417e89493b93
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- encryption: none
-  name: '[VLESS] deDE²_1|0.7MB/s|47%|GPT|X|Succ...'
-  network: ws
-  port: 80
-  server: 104.18.32.47
-  type: vless
-  udp: true
-  uuid: 1e35b4bf-b270-4c0b-918d-62746eedd2ad
-  ws-opts:
-    headers:
-      Host: EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY.
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: /?ed
-  xudp: true
-- cipher: aes-256-cfb
   country: 🏁ZZ
-  name: '[SS] vnVN²_1|1.6MB/s|GPT|X|History|...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.245
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_2|1.9MB/s|GPT⁺|GM|X|Succ...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.85
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] ruRU²_5|5.0MB/s|X'
-  network: ws
-  port: 47937
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3786e67a-41eb-4b92-b31e-417e89493b93
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] deDE²_2|4.1MB/s|6%|GPT⁺|NF|X|S...'
-  network: ws
-  port: 80
-  server: de2c.buzzon.shop
-  servername: de2c.buzzon.shop
+  name: '[Vmess] nlNL²_5|5.8MB/s|0%|GPT⁺|YT-US|...'
+  network: tcp
+  port: 40553
+  server: 194.29.79.171
   skip-cert-verify: true
   type: vmess
-  uuid: acadd87c-c8b4-4b6b-989b-64263e4d0329
-  ws-opts:
-    headers:
-      HOST: de2c.buzzon.shop
-      Host: de2c.buzzon.shop
-    path: /q4smKQlj08hW5NThds106
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_3|2.0MB/s|GPT⁺|GM|X|Succ...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.22
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_4|0.7MB/s|GPT⁺|GM|X|Hist...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.67
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_6|4.8MB/s|X|[广播|机房]'
-  network: ws
-  port: 49360
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3b475934-cb2a-4d96-b260-5e50cca5d430
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_7|3.6MB/s|X|[广播|机房]'
-  network: ws
-  port: 45927
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3b475934-cb2a-4d96-b260-5e50cca5d430
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_8|5.4MB/s|X|[广播|机房]'
-  network: ws
-  port: 42866
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c09f13ce-2cca-49b6-ad1e-597566cc89c6
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_9|5.3MB/s|X'
-  network: ws
-  port: 48942
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c50f9480-2e1d-40db-9458-630e79636663
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_10|4.7MB/s|X|[广播|机房]'
-  network: ws
-  port: 44818
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6d600864-32da-49fd-baf4-7df051762454
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_11|5.0MB/s|X|[广播|机房]'
-  network: ws
-  port: 45927
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: b01d1e26-2f84-48da-88a1-1d06a77857f3
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] 🏴‍☠_1bgBG_157|4.8MB/s|X'
-  network: ws
-  port: 43600
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c50f9480-2e1d-40db-9458-630e79636663
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] 🏴‍☠_2bgBG_406|4.7MB/s|X'
-  network: ws
-  port: 43710
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3b475934-cb2a-4d96-b260-5e50cca5d430
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_12|4.4MB/s|X|[广播|机房]'
-  network: ws
-  port: 47281
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3786e67a-41eb-4b92-b31e-417e89493b93
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] 🏴‍☠_3bgBG_352|5.0MB/s|X'
-  network: ws
-  port: 43847
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f1a513d2-c32a-49dc-8e64-d4f8a2f1e001
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_13|4.7MB/s|X|[广播|机房]'
-  network: ws
-  port: 42711
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 54a0bf6d-f2b5-4b2a-942c-798fb129527e
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_14|4.9MB/s|X|[广播|机房]'
-  network: ws
-  port: 44972
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d0e97ee2-c6de-48f8-bd4a-8e63a9cd9e89
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] bgBG²_1|4.9MB/s|X|[广播|机房]'
-  network: ws
-  port: 49573
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3b475934-cb2a-4d96-b260-5e50cca5d430
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] bgBG²_2|5.8MB/s|X|[广播|机房]'
-  network: ws
-  port: 47396
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f1a513d2-c32a-49dc-8e64-d4f8a2f1e001
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] gbGB²_1|6.1MB/s|22%|GPT⁺|YT-RU...'
-  network: grpc
-  port: 5432
+  uuid: 49cf4c1d-087d-4be6-adb7-2f6939214203
+- flow: xtls-rprx-vision
+  name: '[VLESS] RU_speednode_0034'
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: r6_et-HNS6OcTf79Yk_A6y8l5lF-EU2Et_thotTHlgk
-    short-id: '538b84e2'
-  server: gbr11.tcpdoor.net
-  servername: www.samsung.com
+    public-key: tYFlc_8tzrwDisZbxlHj06rw_YE154TVYeEBuwOQZHE
+    short-id: '8a6605e7'
+  server: 45.139.26.213
+  servername: www.yandex.ru
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 895f94cb-5567-4731-bc2c-2f89a54bafe4
-  xudp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_5|2.1MB/s|GPT⁺|X|History...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.81
-  type: ss
-- alterId: 0
+  uuid: 8ff544c5-303c-46f4-80fe-8e8e166fd981
+- alterId: '0'
   cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_15|5.4MB/s|X'
+  name: '[Vmess] deDE²_8|4.8MB/s|X'
   network: ws
-  port: 44972
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
+  port: 8080
+  server: 172.64.149.182
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: b01d1e26-2f84-48da-88a1-1d06a77857f3
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      HOST: imafake.locker
-    path: /speedtest
-- country: 🇩🇪DE
-  name: '[Trojan] DE_speednode_0014'
+      Host: nasnet-5712964102.sharghdaily.co
+    max-early-data: 2560
+    path: /nasnet/cdn
+  xudp: true
+- country: 🇫🇷FR
+  name: '[Trojan] frFR²_8|1.1MB/s|1%|GPT⁺|X|[广播|...'
   network: tcp
   password: telegram-id-directvpn
   port: 22223
-  server: 3.77.68.129
+  server: 35.181.88.119
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: '[Socks5] 🏴‍☠_2🏴‍☠_343.163.124.13:20000-...'
+  password: ''
+  port: 20000
+  server: 43.163.124.13
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- cipher: aes-256-cfb
+  country: 🇨🇳 CN
+  name: '[SS] vnVN²_12|0.6MB/s|GPT⁺|X'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.148
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_13|1.9MB/s|GPT⁺|GM|YT|X|...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.129
+  type: ss
+- cipher: chacha20-ietf
+  country: 🇭🇰 HK
+  name: '[SS] hkHK²_16|0.9MB/s|0%|X|History'
+  password: asd123456
+  port: 8388
+  server: 103.141.221.124
+  type: ss
+- name: '[Socks5] auAU²_1|7.6MB/s|GPT⁺|X|History'
+  password: ''
+  port: 1080
+  server: 134.199.159.23
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- country: 🇩🇪DE
+  name: '[Trojan] deDE²_9|5.8MB/s|1%|GPT⁺|TK|X|[...'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 52.28.55.17
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- country: 🇩🇪DE
-  name: '[Trojan] DE_speednode_0016'
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22223
-  server: 18.195.91.205
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] bgBG²_3|5.6MB/s|X|[广播|机房]'
-  network: ws
-  port: 42347
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3786e67a-41eb-4b92-b31e-417e89493b93
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_16|4.8MB/s|X|[广播|机房]'
-  network: ws
-  port: 41982
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c09f13ce-2cca-49b6-ad1e-597566cc89c6
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_17|5.4MB/s|X|[广播|机房]'
-  network: ws
-  port: 49048
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 54a0bf6d-f2b5-4b2a-942c-798fb129527e
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- cipher: aes-256-cfb
-  country: 🇪🇸 ES
-  name: '[SS] 🏴‍☠_4esES²_1|0.8MB/s|[广播|机房]|1...'
-  password: UkXRsXvR6buDMG2Y
-  port: 9001
-  server: 5.188.181.201
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] 🏴‍☠_5bgBG_94|4.8MB/s|X'
-  network: ws
-  port: 42764
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: b01d1e26-2f84-48da-88a1-1d06a77857f3
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_6|0.7MB/s|GPT⁺|X|History...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.230
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] bgBG²_4|5.4MB/s|X|[广播|机房]'
-  network: ws
-  port: 43205
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c50f9480-2e1d-40db-9458-630e79636663
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_18|5.7MB/s|X|[广播|机房]'
-  network: ws
-  port: 43019
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 54a0bf6d-f2b5-4b2a-942c-798fb129527e
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
 - encryption: none
   flow: xtls-rprx-vision
   name: '[VLESS] NL_speednode_0025'
@@ -2093,830 +2553,6 @@ proxies:
   type: vless
   udp: true
   uuid: d33b839f-9d1d-480b-a3f8-f647af157cd7
-  xudp: true
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_19|5.5MB/s|X|[广播|机房]'
-  network: ws
-  port: 40446
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 54a0bf6d-f2b5-4b2a-942c-798fb129527e
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- encryption: none
-  name: '[VLESS] fiFI²_1|5.9MB/s|X|Succeed'
-  network: ws
-  port: 80
-  server: 146.75.26.36
-  type: vless
-  udp: true
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.112 Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
-- name: '[Trojan] hkHK²_5|3.9MB/s|2%|YT|D+|X|Suc...'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 203.198.123.162
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_20|5.4MB/s|X'
-  network: ws
-  port: 48942
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3786e67a-41eb-4b92-b31e-417e89493b93
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_1|4.2MB/s|35%|GPT⁺|NF|X|...'
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_21|4.6MB/s|X|[广播|机房]'
-  network: ws
-  port: 40920
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 54a0bf6d-f2b5-4b2a-942c-798fb129527e
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_22|5.5MB/s|X|[广播|机房]'
-  network: ws
-  port: 49573
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 54a0bf6d-f2b5-4b2a-942c-798fb129527e
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_7|1.5MB/s|GPT⁺|GM|X|Succ...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.149
-  type: ss
-- http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] deDE²_5|6.8MB/s|1%|GPT⁺|TK|NF|...'
-  network: tcp
-  port: 443
-  server: 3.70.253.134
-  type: vless
-  udp: true
-  uuid: 0154d742-3233-4c61-f81c-7407fcf28b87
-  xudp: true
-- encryption: none
-  name: '[VLESS] AU_speednode_0001'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: DbZWMfQTZQQrOJDgnWetu1ChTlXISZWKt4Kn_G0YyUI
-  server: 43.250.54.175
-  servername: fonts.gstatic.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ed6dd416-1339-4dbe-8562-c9786d41041b
-  xudp: true
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_23|5.5MB/s|X|[广播|机房]'
-  network: ws
-  port: 44262
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 54a0bf6d-f2b5-4b2a-942c-798fb129527e
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_8|1.6MB/s|X|Succeed|[原生|...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.56
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_24|5.4MB/s|X|[广播|机房]'
-  network: ws
-  port: 46172
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c50f9480-2e1d-40db-9458-630e79636663
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] bgBG²_5|4.7MB/s|X|[广播|机房]'
-  network: ws
-  port: 49573
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3786e67a-41eb-4b92-b31e-417e89493b93
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_25|5.0MB/s|X|[广播|机房]'
-  network: ws
-  port: 42711
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e1cc26b3-df0b-477b-afb0-53659a25e978
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_26|4.7MB/s|X|[广播|机房]'
-  network: ws
-  port: 40446
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e1cc26b3-df0b-477b-afb0-53659a25e978
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_27|5.4MB/s|X|[广播|机房]'
-  network: ws
-  port: 44460
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 54a0bf6d-f2b5-4b2a-942c-798fb129527e
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_28|4.1MB/s|X|[广播|机房]'
-  network: ws
-  port: 48737
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c50f9480-2e1d-40db-9458-630e79636663
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_29|3.3MB/s|X|[广播|机房]'
-  network: ws
-  port: 44972
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c50f9480-2e1d-40db-9458-630e79636663
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_30|3.7MB/s|X|[广播|机房]'
-  network: ws
-  port: 42764
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c50f9480-2e1d-40db-9458-630e79636663
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_31|3.8MB/s|X|[广播|机房]'
-  network: ws
-  port: 41982
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c50f9480-2e1d-40db-9458-630e79636663
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_32|4.7MB/s|X|[广播|机房]'
-  network: ws
-  port: 45577
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 54a0bf6d-f2b5-4b2a-942c-798fb129527e
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_9|0.5MB/s|GPT⁺|YT-US|X|H...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.231
-  type: ss
-- country: 🇭🇰HK
-  name: '[Trojan] hkHK²_7|1.4MB/s|0%|YT-CN|X|His...'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] 🏴‍☠_6bgBG_353|5.9MB/s|X'
-  network: ws
-  port: 43847
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e1cc26b3-df0b-477b-afb0-53659a25e978
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_33|5.6MB/s|X|[广播|机房]'
-  network: ws
-  port: 42347
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 54a0bf6d-f2b5-4b2a-942c-798fb129527e
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] 🏴‍☠_7bgBG_154|5.0MB/s|X'
-  network: ws
-  port: 47281
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 27104fae-f047-4993-902a-9368d8a3e9bc
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] 🏴‍☠_8bgBG_99|5.4MB/s|X'
-  network: ws
-  port: 42764
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 27104fae-f047-4993-902a-9368d8a3e9bc
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_10|1.3MB/s|GPT⁺|GM|X|His...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.24
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_35|4.9MB/s|X|[广播|机房]'
-  network: ws
-  port: 41982
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 27104fae-f047-4993-902a-9368d8a3e9bc
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_34|3.9MB/s|X|[广播|机房]'
-  network: ws
-  port: 44424
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c50f9480-2e1d-40db-9458-630e79636663
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] bgBG²_6|5.9MB/s|X|[广播|机房]'
-  network: ws
-  port: 43205
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 27104fae-f047-4993-902a-9368d8a3e9bc
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_36|4.7MB/s|X|[广播|机房]'
-  network: ws
-  port: 42192
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c50f9480-2e1d-40db-9458-630e79636663
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_11|1.9MB/s|GPT⁺|GM|X|Suc...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.211
-  type: ss
-- alpn:
-  - h2
-  - http/1.1
-  encryption: none
-  name: '[VLESS] itIT²_1|1.5MB/s|X|[原生|住宅拨号]'
-  network: ws
-  port: 8443
-  server: italy2.bluehorizonjournal.site
-  servername: italy2.bluehorizonjournal.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: 811632c6-f03f-42e8-a2c6-a9457f23e2fa
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: italy2.bluehorizonjournal.site
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/32.0.1700.107 Safari/537.36
-    max-early-data: 2560
-    path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
-  xudp: true
-- alpn:
-  - http/1.1
-  name: '[Trojan] deDE²_6|1.0MB/s|6%|GPT⁺|X|Succ...'
-  network: ws
-  password: acadd87c-c8b4-4b6b-989b-64263e4d0329
-  port: 443
-  server: de2c.buzzon.shop
-  skip-cert-verify: false
-  sni: de2c.buzzon.shop
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /C7Uxy5S9pAi1VhW5NThds106
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_37|4.8MB/s|X|[广播|机房]'
-  network: ws
-  port: 49573
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c50f9480-2e1d-40db-9458-630e79636663
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_38|5.4MB/s|X|[广播|机房]'
-  network: ws
-  port: 47396
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 54a0bf6d-f2b5-4b2a-942c-798fb129527e
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] 🏴‍☠_9bgBG_98|5.3MB/s|X'
-  network: ws
-  port: 42764
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 35f332d0-0b05-4cc6-91cb-ec0d4465055f
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] 🏴‍☠_10bgBG_273|5.4MB/s|X'
-  network: ws
-  port: 42347
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3b475934-cb2a-4d96-b260-5e50cca5d430
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] 🏴‍☠_11bgBG_358|5.5MB/s|X'
-  network: ws
-  port: 43847
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 35f332d0-0b05-4cc6-91cb-ec0d4465055f
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] 🏴‍☠_12bgBG_424|4.8MB/s|X'
-  network: ws
-  port: 43019
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3786e67a-41eb-4b92-b31e-417e89493b93
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_39|5.8MB/s|X|[广播|机房]'
-  network: ws
-  port: 40920
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c50f9480-2e1d-40db-9458-630e79636663
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_40|5.6MB/s|X|[广播|机房]'
-  network: ws
-  port: 43403
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3b475934-cb2a-4d96-b260-5e50cca5d430
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] 🏴‍☠_13bgBG_293|5.5MB/s|X'
-  network: ws
-  port: 42896
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 35f332d0-0b05-4cc6-91cb-ec0d4465055f
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_41|5.5MB/s|X|[广播|机房]'
-  network: ws
-  port: 43164
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c50f9480-2e1d-40db-9458-630e79636663
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] ruRU²_42|3.7MB/s|X|[广播|机房]'
-  network: ws
-  port: 48942
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3b475934-cb2a-4d96-b260-5e50cca5d430
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] 🏴‍☠_14bgBG_194|4.1MB/s|X'
-  network: ws
-  port: 44710
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 35f332d0-0b05-4cc6-91cb-ec0d4465055f
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- name: '[Http] hkHK²_8|15.1MB/s|2%|D+|X|Histo...'
-  password: ''
-  port: 7897
-  server: 101.36.224.130
-  skip-cert-verify: true
-  tls: false
-  type: http
-  username: ''
-- country: 🇺🇸US
-  name: '[Trojan] usUS²_2|1.5MB/s|GPT|GM|NF|D+|X...'
-  network: tcp
-  password: hSA6YXe15O
-  port: 443
-  server: 104.11.86.252
-  skip-cert-verify: true
-  sni: Telegram🇨🇳 @WangCai2
-  type: trojan
-  udp: true
-- encryption: none
-  name: '[VLESS] fiFI²_2|6.3MB/s|6%|GPT⁺|X|Succ...'
-  network: ws
-  port: 80
-  server: 151.101.9.80
-  type: vless
-  udp: true
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.79 Safari/537.36
-    path: /
-  xudp: true
-- alpn:
-  - http/1.1
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] deDE¹⁺_1|0.8MB/s|X|Succeed'
-  network: tcp
-  port: 443
-  server: 20.79.160.49
-  servername: jina-207916049-direct.yektanet.co
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
   xudp: true
 - name: '[VLESS] group->v2ray VLESS节点1-xhttp-re...'
   network: xhttp
@@ -2993,19 +2629,29 @@ proxies:
   type: http
   udp: true
   username: c870fe5a-0729-11f0-8cf9-f23c93136cb3
-- flow: xtls-rprx-vision
-  name: '[VLESS] DE_speednode_0015'
-  port: 443
-  reality-opts:
-    public-key: 9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU
-    short-id: '00684d2eae2cdd16'
-  server: 45.145.43.147
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- name: '[Trojan] DE_speednode_0014'
+  password: telegram-id-directvpn
+  port: 22223
+  server: 3.77.68.129
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
   udp: true
-  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+- name: '[Trojan] DE_speednode_0016'
+  password: telegram-id-directvpn
+  port: 22223
+  server: 18.195.91.205
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: '[Trojan] FR_speednode_0017'
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 35.180.72.19
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - name: '[Trojan] ID_speednode_0019'
   password: M7v%w11Se*
   port: 443
@@ -3041,19 +2687,6 @@ proxies:
     headers:
       Host: blog.zanborak-shop.ir
     path: /
-- flow: xtls-rprx-vision
-  name: '[VLESS] RU_speednode_0026'
-  port: 443
-  reality-opts:
-    public-key: 7IOtSp0-n2_uNS5nMO9ywZbn2HibMRGy0KbLad3szXc
-    short-id: 'b8cf9578640a9edf'
-  server: 176.109.106.241
-  servername: eh.vk.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 07cd9dbe-21ac-4871-817d-c772687e4b7c
 - flow: xtls-rprx-vision
   name: '[VLESS] RU_speednode_0027'
   port: 8443
@@ -3145,19 +2778,6 @@ proxies:
   type: vless
   udp: true
   uuid: c9246b70-3eca-4825-84b0-16c32e3124a7
-- flow: xtls-rprx-vision
-  name: '[VLESS] RU_speednode_0034'
-  port: 443
-  reality-opts:
-    public-key: tYFlc_8tzrwDisZbxlHj06rw_YE154TVYeEBuwOQZHE
-    short-id: '8a6605e7'
-  server: 45.139.26.213
-  servername: www.yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8ff544c5-303c-46f4-80fe-8e8e166fd981
 - name: '[VLESS] SE_speednode_0035'
   network: ws
   port: 443

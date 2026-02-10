@@ -423,30 +423,30 @@ proxies:
 - name: '[Trojan] 美国|@ripaojiedian'
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 127
-  server: 54.250.24.198
+  port: 276
+  server: 160.16.72.205
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 美国2|@ripaojiedian'
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 127
-  server: 160.16.85.33
+  port: 276
+  server: 43.207.149.110
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] 美国3|@ripaojiedian'
+- client-fingerprint: chrome
+  name: '[Trojan] usUS²_3|7.8MB/s|26%|GPT|YT-CN|...'
   network: tcp
   password: BxceQaOe
-  port: 2569
-  server: 43.199.47.199
+  port: 3159
+  server: 18.163.2.13
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: '[SS] usUS²_6|4.8MB/s|40%|GPT⁺|YT|NF...'
+  name: '[SS] usUS_1|2.5MB/s'
   password: shadowsocks
   port: 443
   server: 37.19.198.236
@@ -461,71 +461,88 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  country: 🇺🇸US
-  name: '[Trojan] usUS²_1|4.4MB/s|14%|GPT⁺|NF|X|...'
-  network: tcp
-  password: hSA6YXe15O
-  port: 443
-  server: 104.11.86.252
-  skip-cert-verify: true
-  sni: Telegram🇨🇳 @WangCai2
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_4|0.9MB/s|GPT⁺|YT-US|X|H...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.28
-  type: ss
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_7|6.4MB/s|35%|GPT⁺|YT-CN...'
+  delay: 1154
+  name: '[Vmess] usUS²_1|7.2MB/s|GPT⁺|GM|YT|X|H...'
   network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  servername: v29.hdacd.com
+  port: 30846
+  server: v46.hdacd.com
   skip-cert-verify: true
+  tls: false
   type: vmess
+  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /
 - cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_8|1.6MB/s|GPT⁺|GM|YT-US|...'
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|YT-US|...'
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.67
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_10|0.8MB/s|GPT⁺|GM|YT-US...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.116
+  server: 103.186.154.49
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  name: '[SS] vnVN²_11|2.1MB/s|GPT⁺|GM|YT-US...'
+  name: '[SS] vnVN²_3|2.7MB/s|GPT⁺|GM|YT-US|...'
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.46
+  server: 103.186.154.211
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇨🇴CO
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] frFR²_3|7.0MB/s|43%|GPT⁺|YT-US...'
+  network: ws
+  port: 8080
+  server: 188.114.98.0
+  servername: nasnet-162191099.sharghdaily.co
+  skip-cert-verify: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      HOST: nasnet-162191099.sharghdaily.co
+    path: /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
 - cipher: aes-256-cfb
   country: 🇨🇳 CN
-  name: '[SS] vnVN²_12|1.8MB/s|GPT⁺|GM|YT-US...'
+  name: '[SS] vnVN²_5|3.3MB/s|GPT⁺|GM|YT-US|...'
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.249
+  server: 103.186.155.8
   type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN²_6|1.1MB/s|GPT|GM|YT-US|X...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.213
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇨🇴CO
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] frFR²_5|6.5MB/s|43%|GPT⁺|YT-US...'
+  network: ws
+  port: 8080
+  server: 188.114.98.0
+  servername: nasnet-162191099.sharghdaily.co
+  skip-cert-verify: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      HOST: nasnet-162191099.sharghdaily.co
+    max-early-data: 2560
+    path: /nasnet/cdn
 - client-fingerprint: chrome
   country: 🇺🇸US
-  name: '[Trojan] usUS²_5|4.7MB/s|14%|GPT⁺|GM|NF...'
+  name: '[Trojan] usUS²_4|2.9MB/s|GPT⁺|GM|NF|D+|...'
   network: tcp
   password: hSA6YXe15O
   port: 443
@@ -534,19 +551,92 @@ proxies:
   sni: Telegram @WangCai2
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_17|2.7MB/s|GPT⁺|YT-US|X|...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.119
-  type: ss
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    headers:
+      Host:
+      - zula.ir
+    path:
+    - /
+  name: '[Vmess] usUS²_5|1.0MB/s|0%|GPT⁺|X'
+  network: http
+  port: 58223
+  server: a1.perspolisgamebooster.ir
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9012211c-9bbb-45cc-992c-fd87b700d909
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: '[SS] vnVN²_21|2.5MB/s|GPT⁺|YT-US|X|...'
+  name: '[SS] vnVN²_16|2.2MB/s|GPT⁺|GM|YT-US...'
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.254
+  server: 103.186.154.245
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_17|2.6MB/s|GPT⁺|GM|YT-US...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.46
+  type: ss
+- alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: '[Vmess] frFR²_8|6.7MB/s|43%|GPT⁺|YT-US...'
+  network: ws
+  port: 8080
+  server: 188.114.98.0
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nasnet-162191099.sharghdaily.co
+    path: /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🇨🇳 CN
+  name: '[SS] vnVN²_21|2.7MB/s|GPT⁺|GM|YT-US...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.131
+  type: ss
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: '[Vmess] frFR²_9|6.5MB/s|43%|GPT⁺|YT-US...'
+  network: ws
+  port: 8080
+  server: 188.114.98.0
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-162191099.sharghdaily.co
+    max-early-data: 2560
+    path: /nasnet/cdn
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_22|1.9MB/s|GPT⁺|GM|YT-US...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.149
   type: ss
 - name: '[Trojan] US_speednode_0079'
   network: ws

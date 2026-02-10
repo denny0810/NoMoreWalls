@@ -29,7 +29,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: '[VLESS] ruRU²_1|5.7MB/s|YT|X|[原生|机房]'
+  name: '[VLESS] ruRU_2|3.4MB/s'
   network: tcp
   port: 443
   reality-opts:
@@ -49,7 +49,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: '[VLESS] ruRU²_5|5.3MB/s|X|[原生|机房]'
+  name: '[VLESS] ruRU_3|2.5MB/s'
   network: tcp
   port: 443
   reality-opts:
@@ -69,7 +69,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: '[VLESS] ruRU²_3|5.4MB/s|YT|X|[原生|机房]'
+  name: '[VLESS] ruRU_4|2.8MB/s'
   network: tcp
   port: 443
   reality-opts:
@@ -102,13 +102,77 @@ proxies:
   udp: true
   uuid: e4f5077b-3628-450c-92f9-b129b8a641a7
   xudp: true
-- name: '[Socks5] ruRU²_2|6.4MB/s|X|Succeed'
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] nlNL²_1|5.9MB/s|0%|GPT⁺|YT-RU|...'
+  network: tcp
+  port: 443
+  server: usa69.openbypass.org
+  servername: usa69.openbypass.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 93741b49-1a11-4882-b02f-10fb78bf0d22
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺 RU
+  name: '[SS] nlNL²_3|6.0MB/s|1%|GPT⁺|YT-RU|...'
+  password: 7kJQs2RYHhViTYWaf1RobB
+  port: 7749
+  server: 77.246.97.187
+  type: ss
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] nlNL²_6|5.9MB/s|0%|GPT⁺|YT-RU|...'
+  network: ws
+  port: 8443
+  server: usa69.openbypass.org
+  servername: usa69.openbypass.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 93741b49-1a11-4882-b02f-10fb78bf0d22
+  ws-opts:
+    headers:
+      Host: usa69.openbypass.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /ws-vless/
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '[VLESS] ruRU²_2|6.4MB/s|YT|X|History|[...'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: kz54nOxv8IOst-C_GQO5cf6106be0UakNbCEXiDuhHA
+    short-id: '!!str 3863adb3'
+  server: 87.239.111.227
+  servername: m.vk.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 895f94cb-5567-4731-bc2c-2f89a54bafe4
+  xudp: true
+- name: '[Socks5] ruRU²_3|5.3MB/s|X|Succeed'
   password: ''
   port: 1080
   server: 37.200.67.75
   skip-cert-verify: true
   type: socks5
   username: ''
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺RU
+  name: '[SS] ruRU²_4|5.5MB/s|YT|X|[原生|机房]'
+  password: 2y47yYOoHa7FgIsyqQ82tw
+  port: 1080
+  server: 87.228.9.43
+  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] RU_speednode_0062'
@@ -165,6 +229,20 @@ proxies:
   type: vless
   udp: true
   uuid: 00c01f55-e31a-41cd-872b-938cda90afc3
+- name: '[VLESS] RU_speednode_0066'
+  network: ws
+  port: 80
+  server: nl-90w-c.southnetworks.cloud
+  servername: nl-90w-c.southnetworks.cloud
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e08f1ad7-0c60-446d-baec-08b3b69bb3d0
+  ws-opts:
+    headers:
+      Host: nl-90w-c.southnetworks.cloud
+    path: /getWorkerUpdates
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] RU_speednode_0067'

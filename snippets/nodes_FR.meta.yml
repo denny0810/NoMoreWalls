@@ -17,33 +17,60 @@ proxies:
   sni: www.volcengine.com
   type: trojan
 - client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] frFR²_1|0.5MB/s|26%|X|[广播|机房]'
+  name: '[Trojan] frFR²_1|6.8MB/s|GPT|X|History'
   network: ws
-  port: 8443
-  server: poli.appleseraj.ir
-  servername: franyr.appleseraj.ir
-  tls: true
-  type: vless
+  password: humanity
+  port: 443
+  server: www.gossipglove.com
+  skip-cert-verify: false
+  sni: www.gossipglove.com
+  type: trojan
   udp: true
-  uuid: 6324d103-f5a4-4e27-a1f2-4fe9cb0ab5bf
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: franyr.appleseraj.ir
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
-        Safari/537.36
-    max-early-data: 2048
-    path: /
-  xudp: true
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /assignment
+- client-fingerprint: chrome
+  name: '[Trojan] frFR²_2|8.5MB/s|GPT|X|History'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.152.23
+  skip-cert-verify: false
+  sni: www.gossipglove.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /assignment
 - client-fingerprint: chrome
   country: 🇺🇸US
-  name: '[Trojan] frFR²_2|2.5MB/s|1%|GPT⁺|X|[广播|...'
+  name: '[Trojan] frFR²_4|5.7MB/s|1%|GPT⁺|X|[广播|...'
   network: tcp
   password: telegram-id-directvpn
   port: 22223
-  server: 15.224.3.139
+  server: 51.45.13.145
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: '[Socks5] frFR²_6|0.5MB/s|0%|X|History'
+  password: ''
+  port: 1080
+  server: 194.163.167.32
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- client-fingerprint: chrome
+  country: 🇺🇸US
+  name: '[Trojan] frFR²_7|6.0MB/s|1%|GPT⁺|X|[广播|...'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 51.45.13.145
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan

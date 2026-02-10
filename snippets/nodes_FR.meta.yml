@@ -17,6 +17,26 @@ proxies:
   sni: www.volcengine.com
   type: trojan
 - client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] frFR_1|1.8MB/s'
+  network: tcp
+  port: 2096
+  reality-opts:
+    public-key: 6G6julG6n7bkD8JvdLdGSniDXf9AYV12PGYNPQgg7xQ
+    short-id: '!!str f77d05d1bf4d'
+  server: france.alpacalounge.com
+  servername: fr.alpacalounge.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a4ed2e0b-85d9-4a13-884c-eae6bb4f1800
+  xudp: true
+- client-fingerprint: chrome
   name: '[Trojan] frFR²_1|6.8MB/s|GPT|X|History'
   network: ws
   password: humanity

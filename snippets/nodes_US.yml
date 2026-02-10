@@ -445,22 +445,25 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-128-gcm
-  name: '[SS] usUS_1|2.5MB/s'
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.236
-  type: ss
-- alterId: 2
+- alpn:
+  - http/1.1
+  alterId: '0'
   cipher: auto
-  name: '[Vmess] usUS_2|2.0MB/s'
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  tls: false
+  name: '[Vmess] usUS_1|1.5MB/s'
+  network: ws
+  port: 443
+  server: w.janebimashin.shop
+  servername: usc.buzzon.shop
+  skip-cert-verify: false
+  tls: true
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 2ba742a0-5c32-489b-8f05-72fd9b8e2729
+  ws-opts:
+    headers:
+      Host: usc.buzzon.shop
+    path: /D55BL12U5K8A2L9XMg
+  xudp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

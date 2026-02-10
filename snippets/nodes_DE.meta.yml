@@ -160,24 +160,9 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE²_7|7.6MB/s|47%|GPT⁺|X|Suc...'
-  network: ws
-  port: 80
-  server: 104.18.32.47
-  tls: false
-  type: vless
-  udp: true
-  uuid: 1e35b4bf-b270-4c0b-918d-62746eedd2ad
-  ws-opts:
-    headers:
-      Host: EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY.
-    path: /?ed
-  xudp: true
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] deDE_2|2.2MB/s'
+  name: '[Vmess] deDE_1|2.3MB/s'
   network: ws
   port: 8080
   server: tgju.org
@@ -194,107 +179,11 @@ proxies:
     path: /nasnet/cdn
   xudp: true
 - alpn:
-  - http/1.1
-  alterId: '0'
-  cipher: auto
-  name: '[Vmess] deDE_3|2.8MB/s'
-  network: ws
-  port: 80
-  server: de2c.buzzon.shop
-  servername: de2c.buzzon.shop
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: acadd87c-c8b4-4b6b-989b-64263e4d0329
-  ws-opts:
-    headers:
-      Host: de2c.buzzon.shop
-    path: /q4smKQlj08hW5NThds106
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_4|2.9MB/s'
-  network: ws
-  port: 8443
-  server: 57.129.63.144
-  servername: sni.111000.dynv6.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.111000.dynv6.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.116 Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE²_9|6.5MB/s|47%|GPT|X|[广播|...'
-  network: ws
-  port: 80
-  server: 104.18.32.47
-  type: vless
-  udp: true
-  uuid: a5712440-3cec-4a1b-82e8-767c54acd83a
-  ws-opts:
-    headers:
-      Host: authENTIC-cABinEtgqc4XfW2ud.spORTLAND.COmPAny.
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    path: /?ed
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_6|2.7MB/s'
-  network: ws
-  port: 443
-  server: 192.46.239.191
-  servername: sni.111000.dynv6.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.111000.dynv6.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
-- alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE²_14|6.6MB/s|6%|GPT⁺|X|[原生...'
-  network: ws
-  port: 2083
-  server: 192.200.160.228
-  servername: de.elterido.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9f846e5c-56f9-4670-8be2-5b00d2a107c0
-  ws-opts:
-    headers:
-      Host: de.elterido.ir
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /api03
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_8|3.2MB/s'
+  name: '[VLESS] deDE_2|1.6MB/s'
   network: ws
   port: 2053
   server: 104.24.196.20
@@ -311,44 +200,269 @@ proxies:
     path: /
   xudp: true
 - alpn:
-  - http/1.1
+  - h2
   client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE_9|2.4MB/s'
-  network: ws
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] deDE_3|2.4MB/s'
+  network: tcp
   port: 443
-  server: de2c.buzzon.shop
-  servername: de2c.buzzon.shop
+  reality-opts:
+    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
+    short-id: '!!str '
+  server: 178.162.240.165
+  servername: www.samsung.com
   tls: true
   type: vless
   udp: true
-  uuid: acadd87c-c8b4-4b6b-989b-64263e4d0329
-  ws-opts:
-    headers:
-      Host: de2c.buzzon.shop
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /aRzHt7ShW5NThds106
+  uuid: a60e3576-21fa-4c50-bc09-7cc5f60ac1d3
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] deDE_4|1.0MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+    short-id: '!!str '
+  server: deu659.webunlocked.org
+  servername: www.fh-aachen.de
+  tls: true
+  type: vless
+  udp: true
+  uuid: c9051f7b-f42c-45a8-adaa-58822b353f59
   xudp: true
 - alpn:
   - h2
   - http/1.1
-  client-fingerprint: firefox
-  name: '[VLESS] deDE_10|2.2MB/s'
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_5|7.0MB/s|6%|GPT⁺|X|[原生|...'
   network: ws
-  port: 8443
+  port: 443
+  server: 172.67.193.88
+  servername: MAHANteAm.noD32Cpu.iR
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: MAHANteAm.noD32Cpu.iR
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /assets
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] deDE¹⁺_2|5.6MB/s|5%|GPT⁺|D+|X|...'
+  network: tcp
+  port: 443
+  server: 20.218.137.249
+  servername: jina-20218137249-direct.yektanet.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_17|4.4MB/s|6%|GPT⁺|X|[原生...'
+  network: ws
+  port: 2082
+  server: cf.mahdi383ir.website
+  type: vless
+  udp: true
+  uuid: 48ce9313-4913-4100-eedf-bccf3f956dec
+  ws-opts:
+    headers:
+      Host: kh23h5k47xoocggw85cwt1mkdzi9vad4zoe2kfk.mahdi383ir.website
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /mahdi_383ir
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: '[Vmess] deDE_8|1.9MB/s'
+  network: ws
+  port: 8080
+  server: digitalocean.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-571299667.rahavard365.co
+    max-early-data: 2560
+    path: /NASNET/cdn
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE_9|2.5MB/s'
+  network: ws
+  port: 2053
+  server: 188.114.98.0
+  servername: AzRPiNG1.mEliSHeKaN.SItE
+  tls: true
+  type: vless
+  udp: true
+  uuid: d7c862e5-e507-4dc8-8506-43d5d9de7387
+  ws-opts:
+    headers:
+      Host: azrping.melishekan.site
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: /eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[Trojan] deDE_10|2.9MB/s'
+  network: ws
+  password: bddcb397-6f52-458e-9937-dfbf69db1e48
+  port: 443
+  server: w.janebimashin.shop
+  skip-cert-verify: false
+  sni: de3c.buzzon.shop
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /KpY6QO5BT7YVIROnda
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE_11|1.1MB/s'
+  network: ws
+  port: 2053
   server: cf.mahdi383ir.website
   servername: kh2tiyozkxybazdibomyhih.mahdi383ir.website
   tls: true
   type: vless
   udp: true
-  uuid: 8edf51a7-a211-428d-9685-e6c71959ab9f
+  uuid: c3ffa4ee-fbbe-45e3-f737-db2f381f557e
   ws-opts:
     headers:
       Host: kh2tiyozkxybazdibomyhih.mahdi383ir.website
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
-        Gecko) Chrome/11.0.696.3 Safari/534.24
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[Trojan] deDE²_13|6.8MB/s|6%|GPT⁺|X|[原生...'
+  network: ws
+  password: acadd87c-c8b4-4b6b-989b-64263e4d0329
+  port: 443
+  server: de2c.buzzon.shop
+  skip-cert-verify: false
+  sni: de2c.buzzon.shop
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /C7Uxy5S9pAi1VhW5NThds106
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[VLESS] deDE_13|1.6MB/s'
+  network: ws
+  port: 8443
+  server: argonshop1.parsianboton.ir
+  servername: 111.parsianboton.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1fd1d4af-9638-4fee-8276-f22fcaa46725
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 111.parsianboton.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    max-early-data: 80
+    path: /
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: '[VLESS] deDE_14|2.3MB/s'
+  network: ws
+  port: 2096
+  server: cf.mahdi383ir.website
+  servername: kh2tiyozkxybazdibomyhih.mahdi383ir.website
+  tls: true
+  type: vless
+  udp: true
+  uuid: cdddbb3f-5481-4d12-e3ee-597f97910d21
+  ws-opts:
+    headers:
+      Host: kh2tiyozkxybazdibomyhih.mahdi383ir.website
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE_15|1.6MB/s'
+  network: ws
+  port: 2083
+  server: cf.mahdi383ir.website
+  servername: kh2tiyozkxybazdibomyhih.mahdi383ir.website
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a923f93-30d2-4f8b-ba28-afc637901e54
+  ws-opts:
+    headers:
+      Host: kh2tiyozkxybazdibomyhih.mahdi383ir.website
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.115 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_15|4.7MB/s|6%|GPT⁺|X|[原生...'
+  network: ws
+  port: 443
+  server: de3c.buzzon.shop
+  servername: de3c.buzzon.shop
+  tls: true
+  type: vless
+  udp: true
+  uuid: bddcb397-6f52-458e-9937-dfbf69db1e48
+  ws-opts:
+    headers:
+      Host: de3c.buzzon.shop
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /sy5RZsmo3iYVIROnda
   xudp: true
 - alpn:
   - h2
@@ -373,6 +487,27 @@ proxies:
     max-early-data: 512
     path: /T.Me.@V2RayyNGvpn
   xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_14|6.6MB/s|6%|GPT⁺|X|[原生...'
+  network: ws
+  port: 2083
+  server: 192.200.160.228
+  servername: de.elterido.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f846e5c-56f9-4670-8be2-5b00d2a107c0
+  ws-opts:
+    headers:
+      Host: de.elterido.ir
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /api03
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   http-opts:
@@ -387,26 +522,20 @@ proxies:
   udp: true
   uuid: 5e4b538f-4c9c-4b16-b0e9-5357b2dfeaf9
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE²_5|7.0MB/s|6%|GPT⁺|X|[原生|...'
+  name: '[VLESS] deDE²_7|7.6MB/s|47%|GPT⁺|X|Suc...'
   network: ws
-  port: 443
-  server: 172.67.193.88
-  servername: MAHANteAm.noD32Cpu.iR
-  tls: true
+  port: 80
+  server: 104.18.32.47
+  tls: false
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 1e35b4bf-b270-4c0b-918d-62746eedd2ad
   ws-opts:
     headers:
-      Host: MAHANteAm.noD32Cpu.iR
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
-    path: /assets
+      Host: EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY.
+    path: /?ed
   xudp: true
 - alpn:
   - http/1.1
@@ -442,20 +571,21 @@ proxies:
       HOST: nasnet-571296497.iranpress.co
       Host: tgju.org
     path: /nasnet/cdn
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
+- client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] deDE¹⁺_2|5.6MB/s|5%|GPT⁺|D+|X|...'
-  network: tcp
-  port: 443
-  server: 20.218.137.249
-  servername: jina-20218137249-direct.yektanet.co
-  tls: true
+  name: '[VLESS] deDE²_9|6.5MB/s|47%|GPT|X|[广播|...'
+  network: ws
+  port: 80
+  server: 104.18.32.47
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: a5712440-3cec-4a1b-82e8-767c54acd83a
+  ws-opts:
+    headers:
+      Host: authENTIC-cABinEtgqc4XfW2ud.spORTLAND.COmPAny.
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /?ed
   xudp: true
 - alterId: 0
   cipher: auto
@@ -476,59 +606,6 @@ proxies:
       HOST: de2c.buzzon.shop
       Host: de2c.buzzon.shop
     path: /q4smKQlj08hW5NThds106
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[Trojan] deDE²_13|6.8MB/s|6%|GPT⁺|X|[原生...'
-  network: ws
-  password: acadd87c-c8b4-4b6b-989b-64263e4d0329
-  port: 443
-  server: de2c.buzzon.shop
-  skip-cert-verify: false
-  sni: de2c.buzzon.shop
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /C7Uxy5S9pAi1VhW5NThds106
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE²_15|4.7MB/s|6%|GPT⁺|X|[原生...'
-  network: ws
-  port: 443
-  server: de3c.buzzon.shop
-  servername: de3c.buzzon.shop
-  tls: true
-  type: vless
-  udp: true
-  uuid: bddcb397-6f52-458e-9937-dfbf69db1e48
-  ws-opts:
-    headers:
-      Host: de3c.buzzon.shop
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /sy5RZsmo3iYVIROnda
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE²_17|4.4MB/s|6%|GPT⁺|X|[原生...'
-  network: ws
-  port: 2082
-  server: cf.mahdi383ir.website
-  type: vless
-  udp: true
-  uuid: 48ce9313-4913-4100-eedf-bccf3f956dec
-  ws-opts:
-    headers:
-      Host: kh23h5k47xoocggw85cwt1mkdzi9vad4zoe2kfk.mahdi383ir.website
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
-    path: /mahdi_383ir
-  xudp: true
 - client-fingerprint: chrome
   name: '[VLESS] DE_speednode_0008'
   network: ws

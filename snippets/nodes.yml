@@ -864,55 +864,27 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] usUS_3|1.4MB/s'
-  network: ws
-  port: 80
-  server: mmkio.tc6.ccwu.cc
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  ws-opts:
-    headers:
-      Host: mmkio.tc6.ccwu.cc
-    path: /kFK9O5cl8ZycyrxcJWNVFC21
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  fingerprint: ''
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] deDE²_2|4.1MB/s|6%|GPT⁺|NF|X|S...'
-  network: ws
-  port: 80
-  server: de2c.buzzon.shop
-  servername: de2c.buzzon.shop
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: false
-  uuid: acadd87c-c8b4-4b6b-989b-64263e4d0329
-  ws-opts:
-    headers:
-      HOST: de2c.buzzon.shop
-      Host: de2c.buzzon.shop
-    path: /q4smKQlj08hW5NThds106
-- cipher: aes-256-cfb
-  country: 🇪🇸 ES
-  name: '[SS] 🏴‍☠_4esES²_1|0.8MB/s|[广播|机房]|1...'
-  password: UkXRsXvR6buDMG2Y
-  port: 9001
-  server: 5.188.181.201
+- cipher: aes-256-gcm
+  name: '[SS] sgSG_2|3.4MB/s'
+  password: ec8a5fb8-3a94-48a6-890a-4a80aa70b501
+  port: 39126
+  server: 120.233.205.224
+  tfo: true
   type: ss
-- cipher: rc4-md5
-  name: '[SS] usUS_4|1.7MB/s'
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 138.199.42.68
+- cipher: aes-256-gcm
+  name: '[SS] thTH_1|1.8MB/s'
+  password: ec8a5fb8-3a94-48a6-890a-4a80aa70b501
+  port: 39270
+  server: 183.240.179.204
+  tfo: true
   type: ss
-  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] inIN_1|1.0MB/s'
+  password: b2ca8061-cf93-403f-a150-c26fb26610f7
+  port: 43611
+  server: 151.242.180.25
+  tfo: true
+  type: ss
 - alterId: 0
   cipher: auto
   country: 🇧🇬BG
@@ -1027,6 +999,24 @@ proxies:
     headers:
       HOST: imafake.locker
     path: /speedtest
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] deDE²_2|4.1MB/s|6%|GPT⁺|NF|X|S...'
+  network: ws
+  port: 80
+  server: de2c.buzzon.shop
+  servername: de2c.buzzon.shop
+  skip-cert-verify: true
+  type: vmess
+  uuid: acadd87c-c8b4-4b6b-989b-64263e4d0329
+  ws-opts:
+    headers:
+      HOST: de2c.buzzon.shop
+      Host: de2c.buzzon.shop
+    path: /q4smKQlj08hW5NThds106
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: '[SS] vnVN²_3|2.0MB/s|GPT⁺|GM|X|Succ...'
@@ -1391,6 +1381,13 @@ proxies:
     headers:
       HOST: imafake.locker
     path: /speedtest
+- cipher: aes-256-cfb
+  country: 🇪🇸 ES
+  name: '[SS] 🏴‍☠_4esES²_1|0.8MB/s|[广播|机房]|1...'
+  password: UkXRsXvR6buDMG2Y
+  port: 9001
+  server: 5.188.181.201
+  type: ss
 - alterId: 0
   cipher: auto
   country: 🇧🇬BG

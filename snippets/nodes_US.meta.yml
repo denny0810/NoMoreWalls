@@ -415,39 +415,13 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] usUS_1|1.6MB/s'
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: '[Trojan] usUS_2|1.1MB/s'
-  network: ws
-  password: 5196aae7-1479-4f3c-978b-68e74977b509
-  port: 443
-  server: mkouy.99890604.xyz
-  skip-cert-verify: false
-  sni: mkouy.99890604.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mkouy.99890604.xyz
-    path: /%2FmSZVb4DmOGWZIKMBivnR3
-- name: '[Trojan] usUS_3|1.6MB/s'
-  network: ws
-  password: 2bfe58f7-da1d-45df-ab43-7c665b20ee29
-  port: 443
-  server: gbnh.7777112.xyz
-  skip-cert-verify: false
-  sni: gbnh.7777112.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: gbnh.7777112.xyz
-    path: /%2F2cO5FH0xUmT9oqnbBhmKb8nOkg
+- name: '[Anytls] usUS_1|1.1MB/s'
+  password: 437bd464-b524-3812-ac02-85483bcf7407
+  port: 9999
+  server: 159.65.79.17
+  skip-cert-verify: true
+  tfo: true
+  type: anytls
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -534,27 +508,6 @@ proxies:
   uuid: 3b134252-e7c2-43df-98b7-da204104aa79
   ws-opts:
     path: /
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE²_3|6.3MB/s|6%|GPT⁺|YT-US|...'
-  network: ws
-  port: 443
-  server: 172.67.193.88
-  servername: MAHANteAm.noD32Cpu.iR
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: MAHANteAm.noD32Cpu.iR
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
-    path: /assets
-  xudp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -656,13 +609,6 @@ proxies:
   uuid: 17e96792-d8c3-4741-9c34-e5d1c11d754f
   ws-opts:
     path: /
-- cipher: chacha20-ietf-poly1305
-  country: 🇷🇺RU
-  name: '[SS] ruRU²_2|5.0MB/s|YT-US|X|[原生|机房...'
-  password: 5y5cwrCR8Iun5nlMSFS8uJ
-  port: 62238
-  server: 95.142.47.40
-  type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: '[SS] vnVN²_11|1.8MB/s|GPT⁺|GM|YT-US...'

@@ -316,15 +316,22 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK²_17|10.3MB/s|2%|YT|NF|D+|...'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 203.198.123.162
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
+- cipher: aes-128-gcm
+  name: '[SS] hkHK_1|3.5MB/s'
+  password: ere0lttoc0c
+  port: 8511
+  server: 119.147.134.49
+  tfo: true
+  type: ss
+  udp: false
+- name: '[Http] hkHK_2|1.4MB/s'
+  password: <password>
+  port: 8443
+  server: 9ea0b168-t9zts0-tfjz9x-1t5n1.hkt.cdnhuawei.com
+  sni: 9ea0b168-t9zts0-tfjz9x-1t5n1.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
 - name: '[Http] hkHK²_1|10.2MB/s|D+|X|Succeed|...'
   password: <password>
   port: 8443
@@ -373,3 +380,12 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_17|10.3MB/s|2%|YT|NF|D+|...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 203.198.123.162
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan

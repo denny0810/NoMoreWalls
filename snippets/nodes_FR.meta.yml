@@ -22,26 +22,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  client-fingerprint: chrome
-  name: '[Vmess] frFR²_1|7.6MB/s|43%|GPT⁺|X|Suc...'
-  network: ws
-  port: 8080
-  server: 188.114.98.0
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nasnet-162191099.sharghdaily.co
-    path: /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[Vmess] frFR_2|2.4MB/s'
+  name: '[Vmess] frFR_1|2.5MB/s'
   network: ws
   port: 8080
   server: tgju.org
@@ -57,23 +38,51 @@ proxies:
     max-early-data: 2560
     path: /nasnet/cdn
   xudp: true
+- encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] frFR_3|1.8MB/s'
+  network: tcp
+  port: 37928
+  server: 135.125.174.103
+  type: vless
+  udp: true
+  uuid: 88181007-9bb3-4e6c-826d-4400b191b8d7
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] frFR_3|2.6MB/s'
-  network: ws
-  port: 2083
-  server: flowershopsalzburg.de
-  servername: flowershopsalzburg.de
+  flow: xtls-rprx-vision
+  name: '[VLESS] frFR_4|2.7MB/s'
+  network: tcp
+  port: 2096
+  reality-opts:
+    public-key: 6G6julG6n7bkD8JvdLdGSniDXf9AYV12PGYNPQgg7xQ
+    short-id: '!!str f77d05d1bf4d'
+  server: france.alpacalounge.com
+  servername: fr.alpacalounge.com
   tls: true
   type: vless
   udp: true
-  uuid: d94b374a-9584-4a40-9b1d-3e697b5551f4
+  uuid: a4ed2e0b-85d9-4a13-884c-eae6bb4f1800
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: '[Vmess] frFR²_1|7.6MB/s|43%|GPT⁺|X|Suc...'
+  network: ws
+  port: 8080
+  server: 188.114.98.0
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: flowershopsalzburg.de
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
-    path: /vlessws
+      Host: nasnet-162191099.sharghdaily.co
+    path: /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
   xudp: true
 - name: '[Socks5] frFR²_3|1.7MB/s|0%|GPT|X|Histo...'
   password: ''

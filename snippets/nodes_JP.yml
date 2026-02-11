@@ -34,38 +34,34 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] asLocal ISP_1|9.4MB/s|GPT|D+|X...'
+  name: '[Vmess] jpJP_1|2.4MB/s'
   network: ws
   port: 12883
   server: gtm1.ktmwan.net
   servername: baidu.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
-  ws-opts:
-    headers:
-      HOST: baidu.com
-      Host: gtm1.ktmwan.net
-    path: /
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: '[Vmess] jpJP²_1|13.2MB/s|0%|GPT|X|Succ...'
-  network: ws
-  port: 12883
-  server: gtm1.ktmwan.net
   skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
   ws-opts:
     headers:
-      Host: baidu.com
+      Host: gtm1.ktmwan.net
     path: /
-  xudp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] jpJP²_1|2.8MB/s|10%|GPT⁺|GM|YT...'
+  network: ws
+  port: 47481
+  server: 23.27.169.224
+  servername: 23.27.169.224
+  skip-cert-verify: true
+  type: vmess
+  uuid: 1f1f1067-f260-4d48-9e3f-875e750b7acf
+  ws-opts:
+    headers:
+      HOST: 23.27.169.224
+    path: /arki

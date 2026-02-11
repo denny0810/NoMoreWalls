@@ -28,10 +28,36 @@ proxies:
     max-early-data: 2560
     path: /nasnet/cdn
   xudp: true
-- alterId: '0'
+- client-fingerprint: chrome
+  country: 🇺🇸US
+  name: '[Trojan] frFR²_3|5.5MB/s|1%|X'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 51.45.54.119
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '[Trojan] frFR¹⁺_1|0.6MB/s|5%|D+|X|Histo...'
+  network: ws
+  password: iwangjie
+  port: 2053
+  server: 141.94.68.216
+  skip-cert-verify: true
+  sni: nodes.830901.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: /%2F
+- alpn:
+  - ''
+  alterId: '0'
   cipher: auto
   client-fingerprint: chrome
-  name: '[Vmess] frFR²_1|7.6MB/s|43%|GPT⁺|X|Suc...'
+  name: '[Vmess] frFR²_5|3.0MB/s|43%|GPT⁺|X|His...'
   network: ws
   port: 8080
   server: 188.114.98.0
@@ -41,21 +67,12 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: nasnet-162191099.sharghdaily.co
-    path: /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
+    max-early-data: 2560
+    path: /nasnet/cdn
   xudp: true
-- client-fingerprint: chrome
-  country: 🇺🇸US
-  name: '[Trojan] frFR²_4|5.2MB/s|1%|GPT⁺|X|[广播|...'
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22223
-  server: 51.45.54.119
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
 - name: '[Trojan] FR_speednode_0017'
   password: telegram-id-privatevpns
   port: 22222

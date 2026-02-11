@@ -40,35 +40,40 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-128-gcm
-  name: '[SS] sgSG_1|3.4MB/s'
+  name: '[SS] sgSG_1|2.4MB/s'
   password: ere0lttoc0c
   port: 8541
   server: 119.147.134.49
   tfo: true
   type: ss
   udp: false
-- name: '[Anytls] sgSG_2|1.4MB/s'
-  password: 88608372-0158-46de-87fe-dade16dd7266
-  port: 12002
-  server: 160.16.196.122
+- cipher: chacha20-ietf
+  country: 🇭🇰HK
+  name: '[SS] sgSG²_1|14.4MB/s|0%|D+|X|Histo...'
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
+- name: '[Socks5] sgSG²_2|4.7MB/s|0%|GPT⁺|GM|YT|...'
+  password: ''
+  port: 8080
+  server: 123.56.83.35
   skip-cert-verify: true
-  tfo: true
-  type: anytls
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] sgSG²_1|2.6MB/s|X|History'
+  type: socks5
+  username: ''
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] sgSG²_3|3.6MB/s|0%|GPT⁺|X|Hist...'
   network: tcp
-  port: 443
-  server: 20.218.137.249
-  servername: jina-20218137249-direct.yektanet.co
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xudp: true
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   name: '[VLESS] SG_speednode_0037'
   port: 44519

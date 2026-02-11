@@ -1,13 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] SG4｜机房｜低风险'
-  network: tcp
-  port: '19231'
-  server: jy-sg.kunlun07dns.com
-  tls: false
-  type: vmess
-  uuid: 48d361a8-e9a1-3c28-9b51-47775d62077e
 - name: '[Trojan] 新加坡|@ripaojiedian'
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
@@ -32,3 +23,11 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- cipher: aes-128-gcm
+  name: '[SS] sgSG_1|3.4MB/s'
+  password: ere0lttoc0c
+  port: 8541
+  server: 119.147.134.49
+  tfo: true
+  type: ss
+  udp: false

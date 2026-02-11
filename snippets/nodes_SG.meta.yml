@@ -1,23 +1,4 @@
 proxies:
-- name: '[Hysteria2] SG1｜原生/疑似家宽｜非常安全'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA%3D%3D
-  password: c7730b65-c3c7-44a6-b1be-9d72d36679d1
-  port: 10115
-  server: sg2.pddwdf.store
-  skip-cert-verify: true
-  sni: sg2.pddwdf.store
-  tls: false
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] SG4｜机房｜低风险'
-  network: tcp
-  port: '19231'
-  server: jy-sg.kunlun07dns.com
-  tls: false
-  type: vmess
-  uuid: 48d361a8-e9a1-3c28-9b51-47775d62077e
 - name: '[Hysteria2] 新加坡1'
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2055
@@ -58,27 +39,36 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[Anytls] sgSG_1|1.2MB/s'
+- cipher: aes-128-gcm
+  name: '[SS] sgSG_1|3.4MB/s'
+  password: ere0lttoc0c
+  port: 8541
+  server: 119.147.134.49
+  tfo: true
+  type: ss
+  udp: false
+- name: '[Anytls] sgSG_2|1.4MB/s'
   password: 88608372-0158-46de-87fe-dade16dd7266
   port: 12002
-  server: 160.16.149.149
+  server: 160.16.196.122
   skip-cert-verify: true
   tfo: true
   type: anytls
-- name: '[Socks5] sgSG²_1|6.4MB/s|GPT|X|History'
-  password: ''
-  port: 10814
-  server: 146.235.19.84
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Socks5] sgSG²_2|2.0MB/s|GPT⁺|X|History'
-  password: ''
-  port: 8888
-  server: 178.128.212.127
-  skip-cert-verify: true
-  type: socks5
-  username: ''
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] sgSG²_1|2.6MB/s|X|History'
+  network: tcp
+  port: 443
+  server: 20.218.137.249
+  servername: jina-20218137249-direct.yektanet.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
 - client-fingerprint: chrome
   name: '[VLESS] SG_speednode_0037'
   port: 44519

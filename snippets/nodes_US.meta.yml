@@ -410,53 +410,19 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: randomized
-  name: '[VLESS] usUS_1|2.7MB/s'
-  network: ws
-  port: 2095
-  server: www.udemy.com
-  servername: cnmfangbinxing.cnmfangbinxing-nmsl.workers.dev
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-nmsl.workers.dev
-    path: /
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[Vmess] usUS_2|2.4MB/s'
-  network: ws
-  port: 2086
-  server: hb.seacloudmachinery.com
-  servername: hb.seacloudmachinery.com
-  skip-cert-verify: false
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] usUS_1|3.3MB/s'
+  network: tcp
+  port: 39982
+  reality-opts:
+    public-key: AAh8yvsTNeWykXgjATwHMGIH69Mjz89CJFeMWIE7Rkg
+    short-id: '!!str abb171d477da'
+  server: 23.106.156.250
+  servername: www.icloud.com
   tls: true
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers: {}
-    path: /telegram id @rootface
-  xudp: true
-- encryption: none
-  name: '[VLESS] usUS_3|2.6MB/s'
-  network: ws
-  port: 80
-  server: 104.16.244.232
   type: vless
-  udp: true
-  uuid: b00d9e6d-227d-4944-8ffd-b1a806196356
-  ws-opts:
-    headers:
-      Host: neuroonvpn.mamadjacki83.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.77 Safari/537.36
-    path: /%2F%3Fed%3D2048
-  xudp: true
+  uuid: 95bc55a8-b8ad-4ede-8fcc-e940fa6862ce
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

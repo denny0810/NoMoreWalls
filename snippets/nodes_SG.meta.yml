@@ -40,20 +40,21 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- encryption: none
-  name: '[VLESS] sgSG_1|1.4MB/s'
+- name: '[VLESS] sgSG_1|1.0MB/s'
   network: ws
-  port: 80
-  server: 172.64.156.188
+  port: 8080
+  server: 198.41.222.50
   type: vless
   udp: true
-  uuid: 53342b53-157e-4475-9f3a-40439434e689
+  uuid: 27950cc1-85b4-4ecc-ad3a-4507360504af
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: c.iamdt.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /
+      Host: 031.electrocellco-cf-031.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /eyJqdW5rIjoiQjE1UDBKNGN6UnEzNjg2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIxMy4yMTEuMjkiLCIzMS40NC4yLjU3IiwiNzcuMjQ2LjEwOC4xMzAiXX0=
   xudp: true
 - client-fingerprint: chrome
   encryption: none

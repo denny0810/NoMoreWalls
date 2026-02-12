@@ -74,12 +74,10 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[Vmess] jpJP_1|2.2MB/s'
+  name: '[Vmess] HK20｜原生/疑似家宽｜非常安全'
   network: ws
-  port: 12883
+  port: '12883'
   server: gtm1.ktmwan.net
-  servername: baidu.com
-  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
@@ -332,6 +330,13 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- cipher: chacha20-ietf
+  name: '[SS] hkHK_1|1.4MB/s'
+  password: asd123456
+  port: 8388
+  server: 103.149.183.200
+  type: ss
+  udp: true
 - cipher: chacha20-ietf
   country: 🇭🇰HK
   name: '[SS] hkHK²_1|0.9MB/s|X|History'

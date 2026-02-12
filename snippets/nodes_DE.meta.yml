@@ -164,76 +164,137 @@ proxies:
   udp: true
   uuid: e9cb4760-49e1-4091-a3b4-995dda32433e
   xudp: true
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🏁 ZZ
+  http-opts: {}
+  name: '[Vmess] deDE²_6|1.3MB/s|GPT⁺|X|History'
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /
+- alpn:
+  - channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] deDE²_2|2.1MB/s|8%|GPT|X|[广播|机...'
+  network: tcp
+  port: 50043
+  reality-opts:
+    public-key: DG904eM7xGecwV_nhjX73c-7g_fGEv8BgjbeAmTE8Bs
+    short-id: '!!str 505c94b8c65afb0a'
+  server: mg34mdd-87asdh.de.vkproxy.com
+  servername: sun9-45.userapi.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f631168d-d92e-47f9-819e-46ed51b58218
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE²_2|2.7MB/s|47%|GPT⁺|X|Suc...'
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] deDE²_3|1.8MB/s|0%|GPT⁺|D+|X|[...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
+    short-id: '!!str 4daa022e84f8edf2'
+  server: de.cdn.stun.su
+  servername: de.cdn.stun.su
+  tls: true
+  type: vless
+  udp: true
+  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_4|1.8MB/s|GPT|X|[原生|机房]'
+  network: ws
+  port: 443
+  server: 172.67.193.88
+  servername: MAHANteAm.noD32Cpu.iR
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: MAHANteAm.noD32Cpu.iR
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /assets
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_5|1.0MB/s|GPT|X|History|...'
   network: ws
   port: 80
   server: 104.18.32.47
-  tls: false
+  type: vless
+  udp: true
+  uuid: a5712440-3cec-4a1b-82e8-767c54acd83a
+  ws-opts:
+    headers:
+      Host: authENTIC-cABinEtgqc4XfW2ud.spORTLAND.COmPAny.
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /?ed
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_7|4.7MB/s|47%|GPT|X|Succ...'
+  network: ws
+  port: 80
+  server: 104.18.32.47
   type: vless
   udp: true
   uuid: 1e35b4bf-b270-4c0b-918d-62746eedd2ad
   ws-opts:
     headers:
       Host: EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY.
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
     path: /?ed
   xudp: true
-- name: '[Socks5] deDE²_3|0.6MB/s|GPT|X|Succeed'
+- name: '[Socks5] deDE²_8|1.2MB/s|X|Succeed'
   password: ''
   port: 1080
   server: 193.233.254.9
   skip-cert-verify: true
   type: socks5
   username: ''
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] deDE²_4|0.6MB/s|GPT|X|History'
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_9|0.7MB/s|1%|GPT⁺|X|[广播|...'
   network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] deDE²_5|2.0MB/s|47%|GPT|X|Succ...'
-  network: ws
-  port: 8080
-  server: tgju.org
-  servername: nasnet-571296497.iranpress.co
-  skip-cert-verify: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      HOST: nasnet-571296497.iranpress.co
-      Host: tgju.org
-    path: /nasnet/cdn
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: '[Vmess] deDE²_6|1.6MB/s|47%|GPT⁺|X|Suc...'
-  network: ws
-  port: 8080
-  server: tgju.org
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  port: 443
+  reality-opts:
+    public-key: iv8v94q9qxkMw5WSUc0obloyLVFNTsfyy9Y3FaGlj1k
+    short-id: '!!str efd29b2d25'
+  server: 64.188.64.59
+  servername: yandex.ru
+  tls: true
+  type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-571296497.iranpress.co
-    max-early-data: 2560
-    path: /nasnet/cdn
+  uuid: 12cb9911-a48d-4147-85cc-68dd678e94c6
   xudp: true
 - name: '[Trojan] DE_speednode_0014'
   password: telegram-id-directvpn

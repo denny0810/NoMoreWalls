@@ -8,25 +8,34 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] frFR²_2|1.4MB/s|10%|GPT⁺|X'
+- client-fingerprint: chrome
+  country: 🇫🇷FR
+  name: '[Trojan] frFR²_2|5.2MB/s|1%|GPT⁺|X|[广播|...'
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8LWgKu6h8cXgOAixKaKPdGponKkAeQaq-IszDEQ4ojM
-    short-id: '!!str 3bdec72a5a0ffd84'
-  server: fr.cdn.stun.su
-  servername: fr.cdn.stun.su
-  tls: true
-  type: vless
+  password: telegram-id-directvpn
+  port: 22223
+  server: 13.38.185.255
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
   udp: true
-  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
-  xudp: true
+- client-fingerprint: chrome
+  country: 🇫🇷FR
+  name: '[Trojan] frFR²_3|0.5MB/s|1%|GPT⁺|X|[广播|...'
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22223
+  server: 13.38.185.255
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  country: 🇫🇷FR
+  name: '[Trojan] frFR²_5|2.1MB/s|1%|GPT⁺|X|[广播|...'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.38.185.255
+  skip-cert-verify: true
+  type: trojan
+  udp: true

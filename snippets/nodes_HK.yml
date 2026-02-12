@@ -1,11 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[Vmess] jpJP_1|4.1MB/s'
+  client-fingerprint: chrome
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] jpJP²_1|0.5MB/s|0%|YT|D+|X|His...'
   network: ws
   port: 12883
   server: gtm1.ktmwan.net
-  skip-cert-verify: false
+  servername: baidu.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
@@ -13,7 +18,8 @@ proxies:
     headers:
       Host: gtm1.ktmwan.net
     path: /
-- name: '[Trojan] HK23｜家宽｜非常安全'
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_1|1.3MB/s|YT|D+|X|Histor...'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -271,3 +277,23 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  country: 🇭🇰 HK
+  name: '[Trojan] hkHK²_3|2.3MB/s|2%|YT|NF|D+|X|...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 203.198.123.162
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_5|12.2MB/s|2%|YT|X|Histo...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 203.198.123.162
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true

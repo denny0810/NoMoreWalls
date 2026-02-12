@@ -18,12 +18,27 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - ''
-  alterId: '0'
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] frFR_3|2.5MB/s'
+  network: ws
+  port: 2083
+  server: entrainmentworld.de
+  servername: entrainmentworld.de
+  tls: true
+  type: vless
+  udp: true
+  uuid: c61fd003-1ad7-44fb-9bfc-da6382c6f4d3
+  ws-opts:
+    headers:
+      Host: entrainmentworld.de
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /vlessws
+  xudp: true
+- alterId: '0'
   cipher: auto
-  client-fingerprint: chrome
-  name: '[Vmess] frFR²_1|1.2MB/s|GPT⁺|X|Succeed...'
+  name: '[Vmess] frFR_4|2.3MB/s'
   network: ws
   port: 8080
   server: 188.114.98.0
@@ -33,30 +48,36 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: nasnet-162191099.sharghdaily.co
-    max-early-data: 2560
-    path: /nasnet/cdn
+    path: /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] frFR²_3|5.9MB/s|43%|GPT⁺|YT-RU...'
+  network: tcp
+  port: 52042
+  reality-opts:
+    public-key: Z23_1wSIy1CNUEB7YEJwPZzCEsMTmzTNGe_h5bzEMHY
+    short-id: '!!str 8e8dcb9a67bf43f1'
+  server: 185.156.72.124
+  servername: yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: f557eadb-1715-4c0b-aaae-f9b9577d827d
   xudp: true
 - client-fingerprint: chrome
   country: 🇫🇷FR
-  name: '[Trojan] frFR²_2|3.0MB/s|1%|GPT⁺|X|[广播|...'
+  name: '[Trojan] frFR²_2|5.9MB/s|1%|GPT⁺|X|[广播|...'
   network: tcp
   password: telegram-id-directvpn
   port: 22223
-  server: 13.38.208.62
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  country: 🇫🇷FR
-  name: '[Trojan] frFR²_3|0.6MB/s|1%|GPT|X'
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22223
-  server: 13.39.0.222
+  server: 35.181.139.200
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
@@ -67,7 +88,7 @@ proxies:
   country: 🇨🇴CO
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] frFR²_4|0.9MB/s|43%|GPT⁺|X|Suc...'
+  name: '[Vmess] frFR²_4|7.4MB/s|43%|GPT⁺|X|Suc...'
   network: ws
   port: 8080
   server: 188.114.98.0
@@ -79,6 +100,22 @@ proxies:
     headers:
       HOST: nasnet-162191099.sharghdaily.co
     path: /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] frFR²_5|1.6MB/s|5%|GPT⁺|X|Hist...'
+  network: tcp
+  port: 2096
+  reality-opts:
+    public-key: 6G6julG6n7bkD8JvdLdGSniDXf9AYV12PGYNPQgg7xQ
+    short-id: '!!str f77d05d1bf4d'
+  server: france.alpacalounge.com
+  servername: fr.alpacalounge.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a4ed2e0b-85d9-4a13-884c-eae6bb4f1800
+  xudp: true
 - name: '[Trojan] FR_speednode_0017'
   password: telegram-id-privatevpns
   port: 22222

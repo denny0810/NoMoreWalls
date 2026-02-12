@@ -59,17 +59,6 @@ proxies:
     headers:
       Host: 17708924954898.206353.xyz
     path: '%2Fagrbniuh'
-- client-fingerprint: chrome
-  country: 🇩🇪DE
-  name: '[Trojan] deDE²_2|0.6MB/s|GPT|X|[广播|商宽]'
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22223
-  server: 3.72.188.159
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
 - alterId: '0'
   cipher: auto
   client-fingerprint: chrome
@@ -89,6 +78,35 @@ proxies:
     max-early-data: 2560
     path: /nasnet/cdn
   xudp: true
+- alterId: '0'
+  cipher: auto
+  name: '[Vmess] deDE_3|1.9MB/s'
+  network: ws
+  port: 8080
+  server: digitalocean.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-571299667.rahavard365.co
+    max-early-data: 2560
+    path: /NASNET/cdn
+  xudp: true
+- client-fingerprint: chrome
+  country: 🇩🇪DE
+  name: '[Trojan] deDE²_2|0.6MB/s|GPT|X|[广播|商宽]'
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22223
+  server: 3.72.188.159
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

@@ -784,7 +784,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[Trojan] jpJP_2|2.9MB/s'
+- name: '[Trojan] jpJP_1|2.9MB/s'
   password: a8f3baf4-0694-4f73-bebc-9e7f3ea01b95
   port: 30003
   server: jp10.jsyjiedian8.com
@@ -792,6 +792,105 @@ proxies:
   sni: jsygouer.weixin-baidu-qq.com
   type: trojan
   udp: true
+- alterId: 2
+  cipher: auto
+  name: '[Vmess] usUS_1|2.1MB/s'
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] usUS_3|2.1MB/s'
+  network: ws
+  port: 80
+  server: mmkio.tc6.ccwu.cc
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+  ws-opts:
+    headers:
+      Host: mmkio.tc6.ccwu.cc
+    path: /kFK9O5cl8ZycyrxcJWNVFC21
+- alterId: '0'
+  cipher: auto
+  name: '[Vmess] deDE²_8|6.9MB/s|47%|GPT⁺|X|His...'
+  network: ws
+  port: 8080
+  server: tgju.org
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-571296497.iranpress.co
+    max-early-data: 2560
+    path: /nasnet/cdn
+  xudp: true
+- cipher: chacha20-ietf
+  name: '[SS] hkHK_1|2.3MB/s'
+  password: asd123456
+  port: 8388
+  server: 103.149.183.200
+  type: ss
+  udp: true
+- alterId: '2'
+  cipher: auto
+  name: '[Vmess] usUS_4|2.3MB/s'
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- cipher: chacha20-ietf
+  name: '[SS] sgSG_1|2.7MB/s'
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: '[Vmess] deDE_3|1.9MB/s'
+  network: ws
+  port: 8080
+  server: digitalocean.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-571299667.rahavard365.co
+    max-early-data: 2560
+    path: /NASNET/cdn
+  xudp: true
+- name: '[Trojan] nlNL_2|2.1MB/s'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.180.92
+  skip-cert-verify: false
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /assignment
 - country: 🇩🇪DE
   name: '[Trojan] deDE²_2|0.6MB/s|GPT|X|[广播|商宽]'
   network: tcp
@@ -909,24 +1008,6 @@ proxies:
   port: 38388
   server: 103.186.154.165
   type: ss
-- alterId: '0'
-  cipher: auto
-  name: '[Vmess] deDE²_8|6.9MB/s|47%|GPT⁺|X|His...'
-  network: ws
-  port: 8080
-  server: tgju.org
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-571296497.iranpress.co
-    max-early-data: 2560
-    path: /nasnet/cdn
-  xudp: true
 - country: 🇭🇰 HK
   name: '[Trojan] hkHK²_3|2.3MB/s|2%|YT|NF|D+|X|...'
   network: tcp

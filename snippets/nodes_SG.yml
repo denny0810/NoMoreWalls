@@ -15,7 +15,8 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] 新加坡3|@ripaojiedian'
+- client-fingerprint: chrome
+  name: '[Trojan] sgSG²_3|6.7MB/s|GPT⁺|YT-CN|X|[...'
   network: tcp
   password: BxceQaOe
   port: 1196
@@ -23,34 +24,22 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁 ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] sgSG²_4|10.0MB/s|45%|GPT⁺|GM|Y...'
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  country: 🇬🇧GB
+  country: 🇭🇰HK
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] sgSG²_3|14.9MB/s|18%|GPT⁺|GM|Y...'
-  network: none
-  port: 17310
-  server: 82.21.80.224
+  name: '[Vmess] sgSG²_5|0.7MB/s|X|History'
+  network: ws
+  port: 443
+  server: 112.119.8.12
+  servername: sg.dalxy.eu.org
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 656920dc-ed05-4f41-8c49-bdff41e383a9
+  uuid: a88a71fa-ed7c-48d3-89e0-74a00d605d88
   ws-opts:
-    path: /
+    headers:
+      HOST: sg.dalxy.eu.org
+    path: /a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm

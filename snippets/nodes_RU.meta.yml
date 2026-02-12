@@ -1,11 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
   name: '[VLESS] RU_speednode_0026'
   network: tcp
   port: 443
@@ -19,7 +14,6 @@ proxies:
   type: vless
   udp: true
   uuid: 07cd9dbe-21ac-4871-817d-c772687e4b7c
-  xudp: true
 - client-fingerprint: chrome
   encryption: none
   name: '[VLESS] ruRU_2|3.0MB/s'
@@ -52,71 +46,13 @@ proxies:
   udp: true
   uuid: 895f94cb-5567-4731-bc2c-2f89a54bafe4
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] nlNL²_1|6.3MB/s|0%|GPT⁺|YT-RU|...'
-  network: tcp
-  port: 4443
-  reality-opts:
-    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
-    short-id: '!!str aa7e96542880027a'
-  server: 5.129.214.27
-  servername: github.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 04dd5782-5e3b-43b4-b36c-e2331574ef0c
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] ruRU²_1|0.8MB/s|X|History|[广播|...'
-  network: tcp
-  port: 10001
-  reality-opts:
-    public-key: aBNzDaD-NL93hiwCTKg4paOppKc1RNAICxBjHFJrOy8
-    short-id: '!!str 9c9bb63c'
-  server: 193.163.203.36
-  servername: www.intel.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6a3f4da1-687a-4bde-9943-df057315857c
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] nlNL²_9|6.3MB/s|0%|GPT⁺|YT-RU|...'
-  network: tcp
-  port: 443
-  server: eng8.worldunlocked.org
-  servername: eng8.worldunlocked.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f11556f-5230-4ba2-a982-634e7580a439
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] ruRU²_4|4.8MB/s|YT|X|[原生|机房]'
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: 4NjqiB_FliKff9bP2ASI3WWuhfuyviPeKoz1DyZJQDE
-    short-id: '!!str 574aa52c'
-  server: 185.86.144.32
-  servername: www.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 895f94cb-5567-4731-bc2c-2f89a54bafe4
-  xudp: true
+- name: '[Socks5] ruRU²_1|1.4MB/s|X'
+  password: ''
+  port: 1080
+  server: 185.209.29.226
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] RU_speednode_0027'

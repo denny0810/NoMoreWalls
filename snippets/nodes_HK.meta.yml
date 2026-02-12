@@ -1,6 +1,5 @@
 proxies:
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK²_5|0.8MB/s|2%|YT|NF|D+|X|...'
+- name: '[Trojan] HK1｜家宽｜非常安全'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -75,25 +74,19 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] jpJP²_3|10.6MB/s|0%|GPT|GM|YT|...'
+  name: '[Vmess] jpJP_1|2.2MB/s'
   network: ws
   port: 12883
   server: gtm1.ktmwan.net
   servername: baidu.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
   ws-opts:
     headers:
       Host: gtm1.ktmwan.net
     path: /
-  xudp: true
 - name: '[Trojan] HK15｜原生/疑似家宽｜非常安全'
   network: ws
   password: 3e3df21c-9db1-4df0-9c52-60684afae25f
@@ -330,7 +323,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[Trojan] 香港5|@ripaojiedian'
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_5|3.5MB/s|2%|YT-CN|D+|X|...'
   network: tcp
   password: BxceQaOe
   port: 2826
@@ -338,20 +332,38 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  country: 🇭🇰 HK
-  name: '[Trojan] hkHK²_3|1.1MB/s|2%|YT|X|Histor...'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 203.198.123.162
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf
-  country: 🇭🇰 HK
-  name: '[SS] hkHK²_6|1.0MB/s|NF|X|History'
+  country: 🇭🇰HK
+  name: '[SS] hkHK²_1|0.9MB/s|X|History'
   password: asd123456
   port: 8388
-  server: 103.149.182.105
+  server: 103.149.183.113
   type: ss
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] nlNL²_3|1.3MB/s|10%|GPT⁺|YT-HK...'
+  network: tcp
+  port: 52016
+  server: su.khodkhodamspeedplus.cyou
+  type: vless
+  udp: true
+  uuid: 1dff2194-f783-4ad3-8307-cd8b72345f80
+  xudp: true
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: '[VLESS] hkHK²_2|2.6MB/s|2%|X|Succeed'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 4cfuj5otn8-uhPUe23OhB6KY8I42AxxJNt4lWIpg_AU
+  server: 2.hk.1.cdn-bilibili.cn
+  servername: www.icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4

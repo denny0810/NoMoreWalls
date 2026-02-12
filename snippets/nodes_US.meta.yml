@@ -384,7 +384,8 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '[Trojan] 美国|@ripaojiedian'
+- client-fingerprint: chrome
+  name: '[Trojan] usUS²_2|4.1MB/s|27%|GPT⁺|YT|NF...'
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 1281
@@ -392,6 +393,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: '[Trojan] 美国2|@ripaojiedian'
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
@@ -409,7 +411,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: randomized
-  name: '[VLESS] usUS¹⁺_2|6.0MB/s|GPT⁺|GM|YT|NF...'
+  name: '[VLESS] usUS_1|2.7MB/s'
   network: ws
   port: 2095
   server: www.udemy.com
@@ -455,71 +457,11 @@ proxies:
         Chrome/70.0.3538.77 Safari/537.36
     path: /%2F%3Fed%3D2048
   xudp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇷🇺RU
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_1|6.7MB/s|X|Succeed'
-  network: ws
-  port: 443
-  server: 213.241.198.199
-  servername: ous3.dean52.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-  ws-opts:
-    headers:
-      HOST: ous3.dean52.top
-    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁 ZZ
-  http-opts: {}
-  name: '[Vmess] usUS²_2|6.2MB/s|GPT⁺|YT-CN|X|H...'
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] usUS²_3|4.6MB/s|0%|GPT⁺|GM|X|S...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: a0utGrRVTHL53cH4poHif9aPJNNQ10nhiMSdx8n1kGk
-    short-id: '!!str 5a2d4f49'
-  server: 104.167.197.27
-  servername: azure.microsoft.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c5f8c9a4-916d-45c3-aad3-cd3ed706c5dd
-  xudp: true
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_14|0.7MB/s|GPT⁺|GM|YT-US...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.46
-  type: ss
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
   delay: 1154
-  name: '[Vmess] usUS²_5|8.2MB/s|GPT|GM|X|Histo...'
+  name: '[Vmess] usUS²_3|5.2MB/s|X|Succeed'
   network: tcp
   port: 30846
   server: v46.hdacd.com
@@ -528,101 +470,6 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_17|2.7MB/s|GPT⁺|GM|YT-US...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.246
-  type: ss
-- client-fingerprint: randomized
-  name: '[VLESS] US_speednode_0053'
-  network: ws
-  port: 2095
-  server: ns.cloudflare.com
-  servername: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
-    path: /
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: '[Vmess] frFR²_6|6.7MB/s|43%|GPT|YT-US|...'
-  network: ws
-  port: 8080
-  server: 188.114.98.0
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-162191099.sharghdaily.co
-    max-early-data: 2560
-    path: /nasnet/cdn
-  xudp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_6|7.3MB/s|X|History'
-  network: ws
-  port: 443
-  server: 141.11.203.199
-  servername: ous3.dean52.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-  ws-opts:
-    headers:
-      HOST: ous3.dean52.top
-    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
-- cipher: aes-256-cfb
-  country: 🇨🇳 CN
-  name: '[SS] vnVN²_20|0.7MB/s|GPT⁺|GM|YT-US...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.20
-  type: ss
-- name: '[Socks5] usUS²_7|5.9MB/s|0%|GPT⁺|X|Hist...'
-  password: ''
-  port: 1080
-  server: 205.185.113.92
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: '[Vmess] deDE²_9|7.2MB/s|47%|GPT⁺|YT-US...'
-  network: ws
-  port: 8080
-  server: tgju.org
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-571296497.iranpress.co
-    max-early-data: 2560
-    path: /nasnet/cdn
-  xudp: true
 - client-fingerprint: randomized
   name: '[VLESS] US_speednode_0043'
   network: ws
@@ -762,6 +609,21 @@ proxies:
   network: ws
   port: 2095
   server: cf.090227.xyz
+  servername: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: '[VLESS] US_speednode_0053'
+  network: ws
+  port: 2095
+  server: ns.cloudflare.com
   servername: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
   skip-cert-verify: false
   tls: false

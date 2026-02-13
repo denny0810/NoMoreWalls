@@ -340,68 +340,35 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] usUS_1|2.5MB/s'
-  port: 180
-  server: 82.198.246.97
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  delay: 685
+  name: '[SS] usUS_1|2.6MB/s'
+  password: hbhO0xomsJzhO24F
+  port: 443
+  server: 64.176.215.70
+  type: ss
+- name: '[Hysteria2] usUS_2|2.8MB/s'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 6dfbef3b-f718-4053-806f-c9657e2fd943
+  port: 12345
+  server: us.jljd.xyz
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- encryption: none
-  name: '[VLESS] usUS_2|2.6MB/s'
-  network: ws
-  port: 80
-  server: 104.16.244.232
-  type: vless
-  udp: true
-  uuid: b00d9e6d-227d-4944-8ffd-b1a806196356
-  ws-opts:
-    headers:
-      Host: neuroonvpn.mamadjacki83.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /%2F%3Fed%3D2048
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] usUS_3|3.2MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
-    short-id: '!!str '
-  server: us.axinode.sbs
-  servername: apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] usUS_4|2.7MB/s'
+  sni: us.jljd.xyz
+  type: hysteria2
+- name: '[VLESS] usUS_3|1.2MB/s'
   network: ws
   port: 443
-  server: 104.19.58.118
-  servername: us1-us1.aiopen.sbs
+  server: 212.22.76.20
+  servername: WangCai.443888.xyz
   tls: true
   type: vless
-  udp: true
-  uuid: f7d33985-dfa7-45a1-8649-26235a90c810
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: us1-us1.aiopen.sbs
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /kbjc/us1
-  xudp: true
+      Host: WangCai.443888.xyz
+    path: /danfeng?ed=2560&Telegram🇨🇳@WangCai2
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -433,19 +400,6 @@ proxies:
   type: vless
   udp: true
   uuid: c6977f74-e620-4748-a2d3-4351a588c659
-- client-fingerprint: chrome
-  name: '[VLESS] US_speednode_0014'
-  port: 443
-  reality-opts:
-    public-key: iv8v94q9qxkMw5WSUc0obloyLVFNTsfyy9Y3FaGlj1k
-    short-id: '!!str efd29b2d25'
-  server: 64.188.64.59
-  servername: yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 12cb9911-a48d-4147-85cc-68dd678e94c6
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] US_speednode_0015'

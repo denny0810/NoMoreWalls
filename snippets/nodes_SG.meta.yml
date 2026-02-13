@@ -68,13 +68,32 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- delay: 398
-  name: '[Anytls] sgSG_1|2.0MB/s'
-  password: d607a577-978c-487a-a2ad-788e4129162a
-  port: 18443
-  server: 42.2.28.64
-  skip-cert-verify: true
-  type: anytls
+- name: '[VLESS] sgSG_1|1.1MB/s'
+  network: ws
+  port: 2096
+  server: 208.103.161.220
+  servername: WangCai.443888.xyz
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: /danfeng?ed=2560&Telegram🇨🇳@WangCai2
+- name: '[VLESS] sgSG_2|1.8MB/s'
+  network: ws
+  port: 443
+  server: 162.159.6.53
+  servername: z.linglingqi.dpdns.org
+  tls: true
+  type: vless
+  uuid: 919f16d2-ae91-4589-8bb2-a672890e3537
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: z.linglingqi.dpdns.org
+    max-early-data: 2048
+    path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

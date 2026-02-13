@@ -737,6 +737,16 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: '[Hysteria2] 🪝24@oneclickvpnkeys'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36400
+  server: 206.71.158.37
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
 - name: '[Hysteria2] 💫62@oneclickvpnkeys'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
@@ -885,7 +895,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[Trojan] 日本|@ripaojiedian'
+- delay: 1288
+  name: '[Trojan] jpJP_3|3.7MB/s'
   network: tcp
   password: BxceQaOe
   port: 2595
@@ -893,6 +904,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+  udp: true
 - name: '[Trojan] 日本2|@ripaojiedian'
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
@@ -971,424 +983,194 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] huHU_1|1.8MB/s'
-  network: tcp
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  delay: 685
+  name: '[SS] usUS_1|2.6MB/s'
+  password: hbhO0xomsJzhO24F
   port: 443
-  reality-opts:
-    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
-    short-id: '2715592069f36fe7'
-  server: 89.169.128.105
-  servername: yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3c5c4ccc-b502-42cb-8c42-cfa714db4767
-  xudp: true
-- delay: 398
-  name: '[Anytls] sgSG_1|2.0MB/s'
-  password: d607a577-978c-487a-a2ad-788e4129162a
-  port: 18443
-  server: 42.2.28.64
+  server: 64.176.215.70
+  type: ss
+- auth: 41aec03d-4345-4bff-9bab-69d36d80033c
+  name: '[Hysteria2] jpJP_2|1.2MB/s'
+  password: 41aec03d-4345-4bff-9bab-69d36d80033c
+  port: 2056
+  server: sg1.eyucdn.xyz
   skip-cert-verify: true
-  type: anytls
+  sni: sg1.eyucdn.xyz
+  type: hysteria2
+  udp: true
+- name: '[Hysteria2] usUS_2|2.8MB/s'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 6dfbef3b-f718-4053-806f-c9657e2fd943
+  port: 12345
+  server: us.jljd.xyz
+  skip-cert-verify: false
+  sni: us.jljd.xyz
+  type: hysteria2
 - flow: xtls-rprx-vision
-  name: '[VLESS] RU_speednode_0011'
+  name: '[VLESS] nlNL_1|1.0MB/s'
+  network: tcp
+  port: 993
+  reality-opts:
+    public-key: 0xVsi6JYS-gJFUILwuePsB32jvWtxRT_okJSmcWEQEc
+  server: 155.212.37.10
+  servername: speed.cloudflare.com
+  tls: true
+  type: vless
+  uuid: c10999b4-7f93-5a50-3908-1467b1e52ae2
+- flow: xtls-rprx-vision
+  name: '[VLESS] ruRU_1|2.0MB/s'
   network: tcp
   port: 443
   reality-opts:
-    public-key: tYFlc_8tzrwDisZbxlHj06rw_YE154TVYeEBuwOQZHE
-    short-id: '8a6605e7'
-  server: 45.139.26.213
-  servername: www.yandex.ru
-  skip-cert-verify: false
+    public-key: h4mwlDeT6Rqx41RIMeaPi-qsugZ0JkKcyRU65_K64Ek
+    short-id: '0a0d3cae'
+  server: s53.buzzvpn.online
+  servername: ads.x5.ru
   tls: true
   type: vless
-  udp: true
-  uuid: 8ff544c5-303c-46f4-80fe-8e8e166fd981
-- name: '[VLESS] jpJP_1|1.4MB/s'
+  uuid: 545f6499-bee2-454c-96db-0fc028d128f6
+- name: '[VLESS] sgSG_1|1.1MB/s'
   network: ws
-  port: 443
-  server: 69.84.182.13
-  servername: jp1-jp1.aiopen.sbs
+  port: 2096
+  server: 208.103.161.220
+  servername: WangCai.443888.xyz
   tls: true
   type: vless
-  udp: true
-  uuid: f7d33985-dfa7-45a1-8649-26235a90c810
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: jp1-jp1.aiopen.sbs
-    path: /kbjc/jp1
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] usUS_1|2.5MB/s'
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-256-cfb
-  name: '[SS] vnVN_1|1.0MB/s'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.107
-  type: ss
+      Host: WangCai.443888.xyz
+    path: /danfeng?ed=2560&Telegram🇨🇳@WangCai2
+- name: '[VLESS] sgSG_2|1.8MB/s'
+  network: ws
+  port: 443
+  server: 162.159.6.53
+  servername: z.linglingqi.dpdns.org
+  tls: true
+  type: vless
+  uuid: 919f16d2-ae91-4589-8bb2-a672890e3537
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: z.linglingqi.dpdns.org
+    max-early-data: 2048
+    path: /
+- name: '[VLESS] usUS_3|1.2MB/s'
+  network: ws
+  port: 443
+  server: 212.22.76.20
+  servername: WangCai.443888.xyz
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: /danfeng?ed=2560&Telegram🇨🇳@WangCai2
 - encryption: none
   flow: xtls-rprx-vision
   http-opts:
     headers: {}
     path:
     - /
-  name: '[VLESS] RU_speednode_0008'
+  name: '[VLESS] gbGB_1|1.0MB/s'
   network: tcp
-  port: 8443
+  port: 443
   reality-opts:
-    public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
-    short-id: '48fccabc158a4c22'
-  server: 158.160.223.36
+    public-key: SlyS4DeFZ7Ic9r8wc-FNpxfQvCqzEe05RsmhZ4jsYm0
+    short-id: '3cc8ceccd9de7f'
+  server: 84.54.48.238
+  servername: www.amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a25806c0-0e09-46a2-bd27-a94e92285ce9
+  xudp: true
+- encryption: none
+  name: '[VLESS] trTR_1|1.9MB/s'
+  network: ws
+  port: 2052
+  server: 190.93.247.55
+  type: vless
+  udp: true
+  uuid: bb8d67a9-1a7a-4e0f-97ae-28bd9d95b6f4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: speak-teammates.rxpgain.top
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/56.0.2924.87 Safari/537.36
+    max-early-data: 1024
+    path: /t.me.V2RayyNGvpn
+  xudp: true
+- encryption: none
+  name: '[VLESS] US_speednode_0014'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: iv8v94q9qxkMw5WSUc0obloyLVFNTsfyy9Y3FaGlj1k
+    short-id: 'efd29b2d25'
+  server: 64.188.64.59
   servername: yandex.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 11e41a32-6672-48a0-b9cb-c8694242ecff
+  uuid: 12cb9911-a48d-4147-85cc-68dd678e94c6
   xudp: true
-- encryption: none
+- alpn:
+  - networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-
+  encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] atAT_1|2.5MB/s'
+  name: '[VLESS] frFR_3|2.9MB/s'
   network: tcp
   port: 443
   reality-opts:
-    public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
-    short-id: '8dc4fccb2bcfc99d'
-  server: at.jojack.ru
-  servername: at.jojack.ru
+    public-key: 8LWgKu6h8cXgOAixKaKPdGponKkAeQaq-IszDEQ4ojM
+    short-id: '3bdec72a5a0ffd84'
+  server: fr.cdn.stun.su
+  servername: fr.cdn.stun.su
   tls: true
   type: vless
   udp: true
   uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
   xudp: true
-- encryption: none
-  name: '[VLESS] usUS_2|2.6MB/s'
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[Vmess] deDE_2|1.5MB/s'
   network: ws
-  port: 80
-  server: 104.16.244.232
-  type: vless
-  udp: true
-  uuid: b00d9e6d-227d-4944-8ffd-b1a806196356
-  ws-opts:
-    headers:
-      Host: neuroonvpn.mamadjacki83.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /%2F%3Fed%3D2048
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] usUS_3|3.2MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
-    short-id: ''
-  server: us.axinode.sbs
-  servername: apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] huHU_2|2.3MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
-    short-id: 'f4b4a6365558ea2e'
-  server: 89.169.128.105
-  servername: yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 80d277e5-d30a-49c6-8987-cb4d2cc79ee5
-  xudp: true
-- encryption: none
-  grpc-opts:
-    grpc-service-name: TunService
-  name: '[VLESS] uaUA_1|2.5MB/s'
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: VxlbLM9ypmP8KyH65M6nPgArl19XOyREm9oNUlCN2yA
-    short-id: ''
-  server: 91.218.122.10
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c10999b4-7f93-5a50-3908-1467b1e52ae2
-  xudp: true
-- encryption: none
-  name: '[VLESS] cyCY_1|2.0MB/s'
-  network: ws
-  port: 80
-  server: 140.248.159.164
-  type: vless
-  udp: true
-  uuid: 98aaebaa-bf4f-4e25-96f2-844691440360
-  ws-opts:
-    headers:
-      Host: helimeligodi.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
-    path: /containers/fi
-  xudp: true
-- encryption: none
-  name: '[VLESS] trTR_1|1.6MB/s'
-  network: tcp
-  port: 11777
-  reality-opts:
-    public-key: Yx7qVnlZif4zOda3OjieAZm352SaGzy0bNT67xNKGxQ
-    short-id: 'a6f7168a7c3e2f77'
-  server: 77.83.245.193
-  servername: yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 40a7f95c-f861-4f04-9a6e-55d624c7582c
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] deDE_1|2.2MB/s'
-  network: tcp
-  port: 443
-  server: deu542.globalunlock.org
-  servername: deu542.globalunlock.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee750cca-f549-4e78-8648-a6b762953e70
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] ruRU_2|2.7MB/s'
-  network: tcp
-  port: 4443
-  reality-opts:
-    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
-    short-id: 'aa7e96542880027a'
-  server: 45.87.153.176
-  servername: github.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 19a868ea-af90-44f0-88c5-f73570831c00
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] deDE_2|3.1MB/s'
-  password: i9lip2dJ8kV4wJQ0pJuRr6
-  port: 443
-  server: 185.100.159.79
-  type: ss
-  udp: true
-- encryption: none
-  name: '[VLESS] deDE_3|2.4MB/s'
-  network: ws
-  port: 80
-  server: theverge.com
-  type: vless
-  udp: true
-  uuid: 98aaebaa-bf4f-4e25-96f2-844691440360
-  ws-opts:
-    headers:
-      Host: declanrice.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /containers/fi
-  xudp: true
-- encryption: none
-  name: '[VLESS] usUS_4|2.7MB/s'
-  network: ws
-  port: 443
-  server: 104.19.58.118
-  servername: us1-us1.aiopen.sbs
-  tls: true
-  type: vless
-  udp: true
-  uuid: f7d33985-dfa7-45a1-8649-26235a90c810
-  ws-opts:
-    headers:
-      Host: us1-us1.aiopen.sbs
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /kbjc/us1
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] fiFI_1|3.1MB/s'
-  password: E6GbjW3IZ4Wokvz4VYLj4o
-  port: 45380
-  server: 38.244.137.202
-  type: ss
-  udp: true
-- encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] trTR_2|2.6MB/s'
-  network: tcp
-  port: 55995
-  reality-opts:
-    public-key: 03o2GgCnGTMjiq6JgImPcshhE_c0-JIGqE0N2FIDf3Q
-    short-id: '738dec11e1b60e1e'
-  server: 83.217.9.74
-  servername: yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 23dc5280-1003-45f8-81ab-fbb06757d67d
-  xudp: true
-- name: '[Trojan] deDE_4|2.3MB/s'
-  network: ws
-  password: pYIoKUPGpWeTYXEx3HjR7s97B
-  port: 443
-  server: free-de-2.undef.network
-  skip-cert-verify: true
-  sni: free-de-2.undef.network
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
-        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
-        Mobile Safari/537.36
-    path: /f2fc2a1f
-- encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] mdMD_1|2.8MB/s'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0
-    short-id: '72b11c6ddbcfecf1'
-  server: braskivo.ru
-  servername: ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: c3cb51a2-9f85-40f4-848f-fde89920bb90
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] ruRU_3|2.7MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 7IOtSp0-n2_uNS5nMO9ywZbn2HibMRGy0KbLad3szXc
-    short-id: 'b8cf9578640a9edf'
-  server: 176.109.106.241
-  servername: eh.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 07cd9dbe-21ac-4871-817d-c772687e4b7c
-  xudp: true
-- encryption: none
-  name: '[VLESS] RU_speednode_0007'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 1HeKf_8KDjfzXfUi9P7WBaGStMvr96TKdUbofpkwBzQ
-    short-id: '8bd29483ded126b4'
-  server: meow-msc.nethcloud.top
-  servername: wikihow.com
+  port: 8080
+  server: digitalocean.com
   skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: bf9931be-a7fd-46b3-9919-b858299e9f65
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] deDE_5|2.2MB/s'
-  network: tcp
-  port: 443
-  server: 20.79.162.37
-  servername: jina-207916237-direct.yektanet.co
-  tls: true
-  type: vless
+  tls: false
+  type: vmess
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-571299667.rahavard365.co
+    max-early-data: 2560
+    path: /NASNET/cdn
   xudp: true
 - encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] fiFI_2|3.5MB/s'
-  network: tcp
-  port: 46000
-  server: 65.109.221.182
-  type: vless
-  udp: true
-  uuid: b8773ac0-5d39-455d-a05b-a5f14d194049
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] esES_2|2.2MB/s'
+  name: '[VLESS] nlNL_2|3.4MB/s'
   network: tcp
   port: 443
   reality-opts:
-    public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
-    short-id: '48fccabc158a4c22'
-  server: 158.160.223.36
-  servername: yandex.ru
+    public-key: ICOLwK5XaCT4d8pyRuDBwoT8WLp84_WfU0pUu3htBlE
+    short-id: 'eb'
+  server: 62.50.146.224
+  servername: s3.firstvds.ru
   tls: true
   type: vless
   udp: true
-  uuid: 636dac2e-9a58-49a6-84f5-313a03761131
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] deDE_6|2.1MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: L-7MZ5IB5uSmLn34BQsBOF8XaDN3B2as4ye-nWkJEzI
-    short-id: 'c94200f439d4dedb'
-  server: de.podpiska.vip
-  servername: uspehudacha.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b35f9f2b-85cc-4e41-b2ae-a59ded4f4ce0
+  uuid: 5e01c65c-c662-4cf6-8d4f-7721f8ae523c
   xudp: true
 - country: 🇵🇱PL
   name: '[Trojan] sgSG²_1|0.6MB/s|GPT⁺|YT-CN|X|[...'
@@ -1638,6 +1420,31 @@ proxies:
   type: vless
   udp: true
   uuid: 570d1a03-6acf-40ca-819e-1049906235d9
+- name: '[VLESS] RU_speednode_0007'
+  port: 8443
+  reality-opts:
+    public-key: 1HeKf_8KDjfzXfUi9P7WBaGStMvr96TKdUbofpkwBzQ
+    short-id: '8bd29483ded126b4'
+  server: meow-msc.nethcloud.top
+  servername: wikihow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: bf9931be-a7fd-46b3-9919-b858299e9f65
+- flow: xtls-rprx-vision
+  name: '[VLESS] RU_speednode_0008'
+  port: 8443
+  reality-opts:
+    public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
+    short-id: '48fccabc158a4c22'
+  server: 158.160.223.36
+  servername: yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 11e41a32-6672-48a0-b9cb-c8694242ecff
 - flow: xtls-rprx-vision
   name: '[VLESS] RU_speednode_0009'
   port: 8443
@@ -1664,6 +1471,19 @@ proxies:
   type: vless
   udp: true
   uuid: e8accc46-c511-42fb-919b-9283799a88a1
+- flow: xtls-rprx-vision
+  name: '[VLESS] RU_speednode_0011'
+  port: 443
+  reality-opts:
+    public-key: tYFlc_8tzrwDisZbxlHj06rw_YE154TVYeEBuwOQZHE
+    short-id: '8a6605e7'
+  server: 45.139.26.213
+  servername: www.yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8ff544c5-303c-46f4-80fe-8e8e166fd981
 - client-fingerprint: ios
   flow: xtls-rprx-vision
   name: '[VLESS] US_speednode_0013'
@@ -1678,18 +1498,6 @@ proxies:
   type: vless
   udp: true
   uuid: c6977f74-e620-4748-a2d3-4351a588c659
-- name: '[VLESS] US_speednode_0014'
-  port: 443
-  reality-opts:
-    public-key: iv8v94q9qxkMw5WSUc0obloyLVFNTsfyy9Y3FaGlj1k
-    short-id: 'efd29b2d25'
-  server: 64.188.64.59
-  servername: yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 12cb9911-a48d-4147-85cc-68dd678e94c6
 - flow: xtls-rprx-vision
   name: '[VLESS] US_speednode_0015'
   port: 443

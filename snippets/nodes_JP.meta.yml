@@ -6,7 +6,8 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[Trojan] 日本|@ripaojiedian'
+- delay: 1288
+  name: '[Trojan] jpJP_3|3.7MB/s'
   network: tcp
   password: BxceQaOe
   port: 2595
@@ -14,6 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+  udp: true
 - name: '[Trojan] 日本2|@ripaojiedian'
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
@@ -31,20 +33,15 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: '[VLESS] jpJP_1|1.4MB/s'
-  network: ws
-  port: 443
-  server: 69.84.182.13
-  servername: jp1-jp1.aiopen.sbs
-  tls: true
-  type: vless
+- auth: 41aec03d-4345-4bff-9bab-69d36d80033c
+  name: '[Hysteria2] jpJP_2|1.2MB/s'
+  password: 41aec03d-4345-4bff-9bab-69d36d80033c
+  port: 2056
+  server: sg1.eyucdn.xyz
+  skip-cert-verify: true
+  sni: sg1.eyucdn.xyz
+  type: hysteria2
   udp: true
-  uuid: f7d33985-dfa7-45a1-8649-26235a90c810
-  ws-opts:
-    headers:
-      Host: jp1-jp1.aiopen.sbs
-    path: /kbjc/jp1
 - alterId: '0'
   cipher: auto
   client-fingerprint: chrome

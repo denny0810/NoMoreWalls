@@ -82,108 +82,64 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] deDE_1|4.7MB/s'
-  network: ws
-  port: 8080
-  server: tgju.org
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-571296497.iranpress.co
-    max-early-data: 2560
-    path: /nasnet/cdn
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE_2|2.0MB/s'
-  network: ws
-  port: 8443
-  server: ::ffff:ac40:9bd1
-  servername: Begaman.esportplusnews.top
+  flow: xtls-rprx-vision
+  name: '[VLESS] deDE²_10|3.9MB/s|43%|GPT⁺|X|Su...'
+  network: tcp
+  port: 443
+  server: deu542.globalunlock.org
+  servername: deu542.globalunlock.org
   tls: true
   type: vless
   udp: true
-  uuid: d0ddb29a-9e15-436c-a608-8af06c303803
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: Begaman.esportplusnews.top
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    max-early-data: 512
-    path: /T.Me.@V2RayyNGvpn
+  uuid: ee750cca-f549-4e78-8648-a6b762953e70
   xudp: true
-- alterId: '0'
-  cipher: auto
-  name: '[Vmess] deDE_3|1.9MB/s'
-  network: ws
-  port: 8080
-  server: digitalocean.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] deDE²_8|5.2MB/s|43%|GPT⁺|YT-RU...'
+  password: i9lip2dJ8kV4wJQ0pJuRr6
+  port: 443
+  server: 185.100.159.79
+  type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-571299667.rahavard365.co
-    max-early-data: 2560
-    path: /NASNET/cdn
-  xudp: true
 - encryption: none
-  name: '[VLESS] deDE_4|4.7MB/s'
-  network: tcp
-  port: 16126
-  server: 91.107.191.68
+  name: '[VLESS] deDE_3|2.4MB/s'
+  network: ws
+  port: 80
+  server: theverge.com
   type: vless
   udp: true
-  uuid: 52d45a9f-4e5a-4d9a-93d0-486b7d740967
+  uuid: 98aaebaa-bf4f-4e25-96f2-844691440360
+  ws-opts:
+    headers:
+      Host: declanrice.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /containers/fi
   xudp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] deDE_5|2.8MB/s'
-  network: tcp
+- client-fingerprint: chrome
+  name: '[Trojan] deDE²_4|1.4MB/s|0%|GPT⁺|X'
+  network: ws
+  password: pYIoKUPGpWeTYXEx3HjR7s97B
   port: 443
-  reality-opts:
-    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
-    short-id: '!!str '
-  server: 89.58.51.144
-  servername: live.com
-  tls: true
-  type: vless
+  server: free-de-2.undef.network
+  skip-cert-verify: true
+  sni: free-de-2.undef.network
+  type: trojan
   udp: true
-  uuid: 426b17cf-400c-417f-8b36-459a01e57351
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    path: /f2fc2a1f
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] deDE_6|2.0MB/s'
+  name: '[VLESS] deDE_5|2.2MB/s'
   network: tcp
   port: 443
-  server: 20.79.160.49
-  servername: jina-207916049-direct.yektanet.co
+  server: 20.79.162.37
+  servername: jina-207916237-direct.yektanet.co
   tls: true
   type: vless
   udp: true
@@ -192,38 +148,18 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[VLESS] deDE²_5|5.5MB/s|43%|GPT⁺|YT-RU...'
+  name: '[VLESS] deDE_6|2.1MB/s'
   network: tcp
   port: 443
   reality-opts:
-    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
-    short-id: '!!str '
-  server: deu342.netliberated.org
-  servername: www.screwfix.com
+    public-key: L-7MZ5IB5uSmLn34BQsBOF8XaDN3B2as4ye-nWkJEzI
+    short-id: '!!str c94200f439d4dedb'
+  server: de.podpiska.vip
+  servername: uspehudacha.com
   tls: true
   type: vless
   udp: true
-  uuid: d1b2bc90-fc7b-4ce3-81fb-86e198ca080c
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_8|1.8MB/s'
-  network: ws
-  port: 443
-  server: 188.114.97.3
-  servername: de003c.ketabv.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5b6f9f99-f3ab-42fb-8841-0e3c00767d35
-  ws-opts:
-    headers:
-      Host: de003c.ketabv.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /FpI9q4T7OfjWkDFAPOBAo3YF
+  uuid: b35f9f2b-85cc-4e41-b2ae-a59ded4f4ce0
   xudp: true
 - name: '[Socks5] 🏴‍☠_4🏴‍☠_1193.233.254.7:1080-0...'
   password: ''
@@ -250,21 +186,6 @@ proxies:
     headers:
       Host: cdge.avaaaal.ir
     path: /
-- client-fingerprint: chrome
-  name: '[Trojan] deDE²_4|1.4MB/s|0%|GPT⁺|X'
-  network: ws
-  password: pYIoKUPGpWeTYXEx3HjR7s97B
-  port: 443
-  server: free-de-2.undef.network
-  skip-cert-verify: true
-  sni: free-de-2.undef.network
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
-    path: /f2fc2a1f
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -316,17 +237,6 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
   xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] deDE²_10|3.9MB/s|43%|GPT⁺|X|Su...'
-  network: tcp
-  port: 443
-  server: deu542.globalunlock.org
-  servername: deu542.globalunlock.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee750cca-f549-4e78-8648-a6b762953e70
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] DE_speednode_0001'

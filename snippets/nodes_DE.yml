@@ -59,40 +59,28 @@ proxies:
     headers:
       Host: 17708924954898.206353.xyz
     path: '%2Fagrbniuh'
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] deDE_1|4.7MB/s'
-  network: ws
-  port: 8080
-  server: tgju.org
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-571296497.iranpress.co
-    max-early-data: 2560
-    path: /nasnet/cdn
-- alterId: '0'
-  cipher: auto
-  name: '[Vmess] deDE_3|1.9MB/s'
-  network: ws
-  port: 8080
-  server: digitalocean.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] deDE²_8|5.2MB/s|43%|GPT⁺|YT-RU...'
+  password: i9lip2dJ8kV4wJQ0pJuRr6
+  port: 443
+  server: 185.100.159.79
+  type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: '[Trojan] deDE²_4|1.4MB/s|0%|GPT⁺|X'
+  network: ws
+  password: pYIoKUPGpWeTYXEx3HjR7s97B
+  port: 443
+  server: free-de-2.undef.network
+  skip-cert-verify: true
+  sni: free-de-2.undef.network
+  type: trojan
+  udp: true
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: nasnet-571299667.rahavard365.co
-    max-early-data: 2560
-    path: /NASNET/cdn
-  xudp: true
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    path: /f2fc2a1f
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -110,18 +98,3 @@ proxies:
     headers:
       Host: cdge.avaaaal.ir
     path: /
-- client-fingerprint: chrome
-  name: '[Trojan] deDE²_4|1.4MB/s|0%|GPT⁺|X'
-  network: ws
-  password: pYIoKUPGpWeTYXEx3HjR7s97B
-  port: 443
-  server: free-de-2.undef.network
-  skip-cert-verify: true
-  sni: free-de-2.undef.network
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
-    path: /f2fc2a1f

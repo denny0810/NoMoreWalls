@@ -59,33 +59,21 @@ proxies:
     headers:
       Host: 17708924954898.206353.xyz
     path: '%2Fagrbniuh'
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[Vmess] deDE_2|1.5MB/s'
-  network: ws
-  port: 8080
-  server: digitalocean.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] deDE_1|1.0MB/s'
+  password: 78c2e39121c820fb
+  port: 11201
+  server: 51.89.10.72
+  tfo: true
+  type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-571299667.rahavard365.co
-    max-early-data: 2560
-    path: /NASNET/cdn
-  xudp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] deDE²_1|0.6MB/s|X|Succeed|[广播|...'
+  name: '[Vmess] deDE²_1|0.7MB/s|GPT⁺|X|Succeed...'
   network: ws
   port: 8080
   server: tgju.org
@@ -98,3 +86,14 @@ proxies:
       HOST: nasnet-571296497.iranpress.co
       Host: tgju.org
     path: /nasnet/cdn
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] deDE²_2|0.7MB/s|X|History|[广播|...'
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

@@ -1,10 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[Vmess] HK24｜原生/疑似家宽｜非常安全'
+  client-fingerprint: chrome
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] jpJP²_1|0.7MB/s|0%|GPT|YT|D+|X...'
   network: ws
-  port: '12883'
+  port: 12883
   server: gtm1.ktmwan.net
+  servername: baidu.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
@@ -20,9 +26,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  delay: 1247
-  name: '[Trojan] hkHK²_1|0.8MB/s|X'
+- name: '[Trojan] HK8｜家宽｜非常安全'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -30,7 +34,6 @@ proxies:
   skip-cert-verify: true
   sni: 203.198.123.162
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: '[Vmess] HK14｜机房｜低风险'
@@ -286,6 +289,20 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: '[VLESS] hkHK²_1|2.1MB/s|D+|X|History'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 4cfuj5otn8-uhPUe23OhB6KY8I42AxxJNt4lWIpg_AU
+  server: 2.hk.1.cdn-bilibili.cn
+  servername: www.icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: '[VLESS] HK_speednode_0002'

@@ -316,52 +316,17 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  delay: 685
-  name: '[SS] usUS_1|2.6MB/s'
-  password: hbhO0xomsJzhO24F
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: bkIJxIKIVWvLpZeLB7Jy3
+  name: '[Vmess] usUS_1|1.3MB/s'
+  network: grpc
   port: 443
-  server: 64.176.215.70
-  type: ss
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁 ZZ
-  http-opts: {}
-  name: '[Vmess] usUS²_1|2.3MB/s|X|History'
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
+  server: 104.233.211.85.sslip.io
+  servername: 104.233.211.85.sslip.io
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_2|2.3MB/s|35%|GPT⁺|YT-CN...'
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_3|1.7MB/s|GPT⁺|X|Succeed'
-  network: tcp
-  port: 30846
-  server: v46.hdacd.com
-  servername: v46.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  udp: true
+  uuid: a5e71861-2fba-4040-a8e4-a215305f37c4

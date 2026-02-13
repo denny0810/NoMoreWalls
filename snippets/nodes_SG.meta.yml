@@ -55,15 +55,15 @@ proxies:
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 3901
-  server: 160.16.144.208
+  server: 153.121.39.240
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 新加坡3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 1196
-  server: 95.40.77.248
+  port: 3579
+  server: 95.40.55.141
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -73,7 +73,58 @@ proxies:
   port: 8388
   server: 103.36.91.32
   type: ss
-- name: '[Socks5] sgSG²_1|3.8MB/s|0%|GPT⁺|GM|YT|...'
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] sgSG²_7|10.3MB/s|45%|GPT⁺|GM|Y...'
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  servername: v45.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /
+- name: '[Http] sgSG²_3|5.6MB/s|0%|GPT⁺|GM|YT|...'
+  password: 5edb4d21-6cc1-4d46-8823-9a0e14d83455
+  port: 4446
+  server: 4-nqvrfftt.mix.dexiansheng.com
+  sni: 4-nqvrfftt.mix.dexiansheng.com
+  tls: true
+  type: http
+  username: walless
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] sgSG²_4|2.0MB/s|GPT|X|[原生|机房]'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.5
+  type: ss
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] sgSG²_5|5.8MB/s|0%|D+|X|Histor...'
+  network: tcp
+  port: 443
+  server: 20.79.162.37
+  servername: jina-207916237-direct.yektanet.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- name: '[Socks5] sgSG²_6|4.5MB/s|0%|GPT⁺|GM|YT|...'
   password: ''
   port: 8080
   server: 123.56.83.35

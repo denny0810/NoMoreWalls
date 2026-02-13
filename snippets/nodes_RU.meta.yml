@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] ruRU²_6|1.5MB/s|21%|GPT|X|Hist...'
+  name: '[VLESS] ruRU_1|1.4MB/s'
   network: tcp
   port: 8443
   reality-opts:
@@ -50,45 +50,20 @@ proxies:
   uuid: 04dd5782-5e3b-43b4-b36c-e2331574ef0c
   xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[VLESS] ruRU²_1|1.8MB/s|X|History|[原生|...'
-  network: grpc
+  flow: xtls-rprx-vision
+  name: '[VLESS] ruRU²_1|0.8MB/s|X|History'
+  network: tcp
   port: 443
   reality-opts:
-    public-key: kz54nOxv8IOst-C_GQO5cf6106be0UakNbCEXiDuhHA
-    short-id: '!!str 3863adb3'
-  server: 87.239.111.227
-  servername: m.vk.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 895f94cb-5567-4731-bc2c-2f89a54bafe4
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] RU_speednode_0007'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 1HeKf_8KDjfzXfUi9P7WBaGStMvr96TKdUbofpkwBzQ
-    short-id: '!!str 8bd29483ded126b4'
-  server: meow-msc.nethcloud.top
-  servername: wikihow.com
+    public-key: 7IOtSp0-n2_uNS5nMO9ywZbn2HibMRGy0KbLad3szXc
+    short-id: '!!str b8cf9578640a9edf'
+  server: 185.39.206.226
+  servername: eh.vk.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: bf9931be-a7fd-46b3-9919-b858299e9f65
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇷🇺RU
-  name: '[SS] ruRU²_3|2.1MB/s|3%|GPT⁺|NF|X|[...'
-  password: YjAwZ
-  port: 8388
-  server: 45.10.164.100
-  type: ss
+  uuid: 07cd9dbe-21ac-4871-817d-c772687e4b7c
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -96,41 +71,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: '[VLESS] RU_speednode_0011'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: tYFlc_8tzrwDisZbxlHj06rw_YE154TVYeEBuwOQZHE
-    short-id: '!!str 8a6605e7'
-  server: 45.139.26.213
-  servername: www.yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8ff544c5-303c-46f4-80fe-8e8e166fd981
-  xudp: true
-- client-fingerprint: chrome
-  name: '[VLESS] ruRU²_5|7.1MB/s|GPT|X'
-  network: ws
-  port: 2052
-  server: vip2.kaixincloud.top
-  tls: false
-  type: vless
-  udp: true
-  uuid: 25b7069d-a1e0-4053-8469-a54ec1ce8f56
-  ws-opts:
-    headers:
-      Host: rOugh-preseNCEUROCy1N6YY.sEOtOOLsfOryou.cO.UK
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] ruRU²_9|3.8MB/s|X|History|[原生|...'
+  name: '[VLESS] ruRU²_3|5.9MB/s|X|Succeed|[原生|...'
   network: tcp
   port: 443
   reality-opts:
@@ -144,58 +85,60 @@ proxies:
   udp: true
   uuid: 07cd9dbe-21ac-4871-817d-c772687e4b7c
   xudp: true
-- name: '[Socks5] ruRU²_8|4.8MB/s|X|History'
+- name: '[Socks5] ruRU²_4|6.8MB/s|X|History'
+  password: ''
+  port: 8443
+  server: 147.45.231.249
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: '[Socks5] ruRU²_5|5.9MB/s|X|History'
   password: ''
   port: 1080
-  server: 147.45.124.194
+  server: 37.200.67.75
   skip-cert-verify: true
   type: socks5
   username: ''
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] ruRU²_10|4.8MB/s|21%|GPT|X|[原生...'
+  name: '[VLESS] nlNL²_4|6.2MB/s|80%|GPT⁺|YT-RU...'
   network: tcp
-  port: 4443
+  port: 993
   reality-opts:
-    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
-    short-id: '!!str aa7e96542880027a'
-  server: 45.87.153.176
-  servername: github.com
+    public-key: 0xVsi6JYS-gJFUILwuePsB32jvWtxRT_okJSmcWEQEc
+    short-id: '!!str '
+  server: 155.212.37.10
+  servername: speed.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: 19a868ea-af90-44f0-88c5-f73570831c00
+  uuid: c10999b4-7f93-5a50-3908-1467b1e52ae2
   xudp: true
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] RU_speednode_0008'
+  name: '[VLESS] RU_speednode_0007'
   port: 8443
   reality-opts:
-    public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
-    short-id: '!!str 48fccabc158a4c22'
-  server: 158.160.223.36
-  servername: yandex.ru
+    public-key: 1HeKf_8KDjfzXfUi9P7WBaGStMvr96TKdUbofpkwBzQ
+    short-id: '!!str 8bd29483ded126b4'
+  server: meow-msc.nethcloud.top
+  servername: wikihow.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 11e41a32-6672-48a0-b9cb-c8694242ecff
+  uuid: bf9931be-a7fd-46b3-9919-b858299e9f65
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[VLESS] RU_speednode_0009'
-  port: 8443
+  name: '[VLESS] RU_speednode_0011'
+  port: 443
   reality-opts:
-    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
-    short-id: '!!str f4b4a6365558ea2e'
-  server: 89.169.128.105
-  servername: yandex.ru
+    public-key: tYFlc_8tzrwDisZbxlHj06rw_YE154TVYeEBuwOQZHE
+    short-id: '!!str 8a6605e7'
+  server: 45.139.26.213
+  servername: www.yandex.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 3c5c4ccc-b502-42cb-8c42-cfa714db4767
+  uuid: 8ff544c5-303c-46f4-80fe-8e8e166fd981

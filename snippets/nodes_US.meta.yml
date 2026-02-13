@@ -310,22 +310,28 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '[Trojan] 美国|@ripaojiedian'
+- client-fingerprint: chrome
+  country: 🇯🇵JP
+  name: '[Trojan] usUS²_1|2.0MB/s|26%|GPT⁺|X'
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 40548
   server: 160.16.57.238
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] 美国2|@ripaojiedian'
+  udp: true
+- client-fingerprint: chrome
+  country: 🇧🇪BE
+  name: '[Trojan] usUS²_2|2.2MB/s|26%|GPT⁺|NF|X|...'
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 2890
   server: 57.180.14.50
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: '[Trojan] 美国3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
@@ -380,7 +386,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] usUS²_6|8.3MB/s|0%|GPT⁺|GM|YT|...'
+  name: '[VLESS] usUS_4|2.7MB/s'
   network: ws
   port: 443
   server: 104.19.58.118
@@ -392,172 +398,27 @@ proxies:
   ws-opts:
     headers:
       Host: us1-us1.aiopen.sbs
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
     path: /kbjc/us1
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] usUS²_1|5.0MB/s|0%|GPT⁺|GM|X|S...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: a0utGrRVTHL53cH4poHif9aPJNNQ10nhiMSdx8n1kGk
-    short-id: '!!str 5a2d4f49'
-  server: 104.167.197.27
-  servername: azure.microsoft.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c5f8c9a4-916d-45c3-aad3-cd3ed706c5dd
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: '[Vmess] deDE²_1|6.7MB/s|47%|GPT⁺|YT-US...'
-  network: ws
-  port: 8080
-  server: 172.64.149.182
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-5712964102.sharghdaily.co
-    max-early-data: 2560
-    path: /nasnet/cdn
-  xudp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_1|2.0MB/s|GPT|GM|YT-US|X...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.236
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_2|1.3MB/s|50%|X|Succeed|...'
-  network: ws
-  port: 8443
-  server: 104.17.77.77
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      HOST: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  country: 🇭🇰HK
+  country: 🇨🇳CN
+  delay: 1154
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] usUS²_8|3.7MB/s|YT-CN|NF|X|His...'
+  name: '[Vmess] usUS²_4|4.4MB/s|X|History'
   network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  servername: v8.hdacd.com
+  port: 30846
+  server: v46.hdacd.com
+  servername: v46.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: '[VLESS] HK_speednode_0002'
-  network: tcp
-  port: 1314
-  reality-opts:
-    public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
-    short-id: '!!str 4b070735'
-  server: 42.2.28.64
-  servername: buylite.music.apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d607a577-978c-487a-a2ad-788e4129162a
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] usUS²_5|5.7MB/s|GPT⁺|GM|YT|NF|...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
-  server: 47.251.25.74
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 18805ff3-b420-45de-af18-93be14024ae8
-- cipher: aes-256-cfb
-  country: 🇨🇳 CN
-  name: '[SS] vnVN²_10|2.1MB/s|GPT⁺|GM|YT-US...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.36
-  type: ss
-- cipher: rc4-md5
-  country: 🇺🇸US
-  name: '[SS] aeAE²_1|1.0MB/s|15%|GPT⁺|YT-US...'
-  password: b13c4c021cec2c0b
-  port: 11201
-  server: 154.90.55.15
-  type: ss
-- name: '[Socks5] usUS²_7|5.1MB/s|GPT⁺|X|Succeed'
-  password: ''
-  port: 1080
-  server: 192.241.156.17
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_24|2.4MB/s|GPT|GM|YT-US|...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.150
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_26|2.5MB/s|GPT⁺|YT-US|X|...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.69
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] nlNL²_7|0.6MB/s|39%|GPT⁺|YT-US...'
-  network: ws
-  port: 2053
-  server: nextmi.hajmyab.ir
-  servername: app.hajmyab.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
-  ws-opts:
-    headers:
-      HOST: app.hajmyab.ir
-    path: /
 - client-fingerprint: ios
   flow: xtls-rprx-vision
   name: '[VLESS] US_speednode_0013'
@@ -572,6 +433,19 @@ proxies:
   type: vless
   udp: true
   uuid: c6977f74-e620-4748-a2d3-4351a588c659
+- client-fingerprint: chrome
+  name: '[VLESS] US_speednode_0014'
+  port: 443
+  reality-opts:
+    public-key: iv8v94q9qxkMw5WSUc0obloyLVFNTsfyy9Y3FaGlj1k
+    short-id: '!!str efd29b2d25'
+  server: 64.188.64.59
+  servername: yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 12cb9911-a48d-4147-85cc-68dd678e94c6
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] US_speednode_0015'

@@ -15,7 +15,8 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] 日本3|@ripaojiedian'
+- client-fingerprint: chrome
+  name: '[Trojan] jpJP²_3|0.9MB/s|0%|GPT|X|[原生|住...'
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 400
@@ -26,7 +27,7 @@ proxies:
 - alterId: '0'
   cipher: auto
   client-fingerprint: chrome
-  name: '[Vmess] jpJP²_2|4.5MB/s|0%|GPT|GM|YT|D...'
+  name: '[Vmess] jpJP²_1|0.7MB/s|0%|GPT|YT|NF|D...'
   network: ws
   port: 12883
   server: gtm1.ktmwan.net
@@ -40,3 +41,14 @@ proxies:
       Host: baidu.com
     path: /
   xudp: true
+- client-fingerprint: chrome
+  country: 🇭🇰HK
+  name: '[Trojan] jpJP²_4|2.4MB/s|0%|GPT⁺|X|[广播|...'
+  network: tcp
+  password: a8f3baf4-0694-4f73-bebc-9e7f3ea01b95
+  port: 30003
+  server: jp10.jsyjiedian8.com
+  skip-cert-verify: true
+  sni: jsygouer.weixin-baidu-qq.com
+  type: trojan
+  udp: true

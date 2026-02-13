@@ -1,15 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] jpJP²_2|1.4MB/s|GPT|GM|D+|X|Su...'
+  name: '[Vmess] HK24｜原生/疑似家宽｜非常安全'
   network: ws
-  port: 12883
+  port: '12883'
   server: gtm1.ktmwan.net
-  servername: baidu.com
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
@@ -25,7 +20,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[Trojan] HK8｜家宽｜非常安全'
+- delay: 1247
+  name: '[Trojan] hkHK²_1|0.8MB/s|X'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -33,6 +29,7 @@ proxies:
   skip-cert-verify: true
   sni: 203.198.123.162
   type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: '[Vmess] HK14｜机房｜低风险'
@@ -694,7 +691,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[Trojan] hkHK²_1|1.1MB/s|2%|YT-CN|D+|X|...'
+- name: '[Trojan] 香港5|@ripaojiedian'
   network: tcp
   password: BxceQaOe
   port: 2826
@@ -720,7 +717,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] jpJP²_3|0.9MB/s|0%|GPT|X|[原生|住...'
+- name: '[Trojan] 日本3|@ripaojiedian'
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 400
@@ -744,7 +741,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] sgSG²_2|0.6MB/s|GPT⁺|YT-CN|X'
+- name: '[Trojan] 新加坡3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
   port: 3579
@@ -752,26 +749,22 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- country: 🇯🇵JP
-  name: '[Trojan] usUS²_1|2.0MB/s|26%|GPT⁺|X'
+- name: '[Trojan] 美国|@ripaojiedian'
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 40548
   server: 160.16.57.238
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
-- country: 🇧🇪BE
-  name: '[Trojan] usUS²_2|2.2MB/s|26%|GPT⁺|NF|X|...'
+- name: '[Trojan] 美国2|@ripaojiedian'
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 2890
   server: 57.180.14.50
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: '[Trojan] 美国3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
@@ -818,54 +811,22 @@ proxies:
     max-early-data: 2560
     path: /NASNET/cdn
   xudp: true
-- country: 🇵🇱PL
-  name: '[Trojan] sgSG²_1|0.6MB/s|GPT⁺|YT-CN|X|[...'
+- country: 🇭🇰HK
+  name: '[Trojan] jpJP²_1|0.9MB/s|GPT⁺|GM|YT|D+|...'
   network: tcp
-  password: BxceQaOe
-  port: 3579
-  server: 95.40.55.141
+  password: a8f3baf4-0694-4f73-bebc-9e7f3ea01b95
+  port: 30003
+  server: jp10.jsyjiedian8.com
   skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  sni: jsygouer.weixin-baidu-qq.com
   type: trojan
   udp: true
-- alterId: '0'
-  cipher: auto
-  name: '[Vmess] jpJP²_1|0.7MB/s|0%|GPT|YT|NF|D...'
-  network: ws
-  port: 12883
-  server: gtm1.ktmwan.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-  xudp: true
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 1154
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_4|4.4MB/s|X|History'
-  network: tcp
-  port: 30846
-  server: v46.hdacd.com
-  servername: v46.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] deDE²_1|0.6MB/s|GPT|X|History|...'
+  name: '[Vmess] deDE²_1|0.6MB/s|X|Succeed|[广播|...'
   network: ws
   port: 8080
   server: tgju.org
@@ -878,51 +839,41 @@ proxies:
       HOST: nasnet-571296497.iranpress.co
       Host: tgju.org
     path: /nasnet/cdn
-- country: 🇭🇰HK
-  name: '[Trojan] jpJP²_4|2.4MB/s|0%|GPT⁺|X|[广播|...'
-  network: tcp
-  password: a8f3baf4-0694-4f73-bebc-9e7f3ea01b95
-  port: 30003
-  server: jp10.jsyjiedian8.com
-  skip-cert-verify: true
-  sni: jsygouer.weixin-baidu-qq.com
-  type: trojan
-  udp: true
-- country: 🇭🇰 HK
-  name: '[Trojan] hkHK²_2|2.0MB/s|YT|D+|X|Histor...'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 203.198.123.162
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
+- alterId: 2
   cipher: auto
+  country: 🏁 ZZ
+  http-opts: {}
+  name: '[Vmess] usUS²_1|2.3MB/s|X|History'
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] deDE²_2|0.7MB/s|GPT⁺|X|Succeed'
-  network: ws
-  port: 8443
-  server: dll.avaaaal.ir
-  servername: cdge.avaaaal.ir
-  tls: true
+  name: '[Vmess] usUS²_2|2.3MB/s|35%|GPT⁺|YT-CN...'
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: true
   type: vmess
-  uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
-  ws-opts:
-    headers:
-      Host: cdge.avaaaal.ir
-    path: /
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
   country: 🇨🇳CN
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] sgSG²_3|0.7MB/s|45%|GPT⁺|GM|YT...'
+  name: '[Vmess] usUS²_3|1.7MB/s|GPT⁺|X|Succeed'
   network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  servername: v45.hdacd.com
+  port: 30846
+  server: v46.hdacd.com
+  servername: v46.hdacd.com
   skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

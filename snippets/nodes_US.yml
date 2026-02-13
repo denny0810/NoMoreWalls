@@ -292,28 +292,22 @@ proxies:
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- client-fingerprint: chrome
-  country: 🇯🇵JP
-  name: '[Trojan] usUS²_1|2.0MB/s|26%|GPT⁺|X'
+- name: '[Trojan] 美国|@ripaojiedian'
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 40548
   server: 160.16.57.238
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
-- client-fingerprint: chrome
-  country: 🇧🇪BE
-  name: '[Trojan] usUS²_2|2.2MB/s|26%|GPT⁺|NF|X|...'
+- name: '[Trojan] 美国2|@ripaojiedian'
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 2890
   server: 57.180.14.50
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: '[Trojan] 美国3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
@@ -333,17 +327,41 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  country: 🇨🇳CN
-  delay: 1154
+  country: 🏁 ZZ
+  http-opts: {}
+  name: '[Vmess] usUS²_1|2.3MB/s|X|History'
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇭🇰HK
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] usUS²_4|4.4MB/s|X|History'
+  name: '[Vmess] usUS²_2|2.3MB/s|35%|GPT⁺|YT-CN...'
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_3|1.7MB/s|GPT⁺|X|Succeed'
   network: tcp
   port: 30846
   server: v46.hdacd.com
   servername: v46.hdacd.com
   skip-cert-verify: true
-  tls: false
   type: vmess
-  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

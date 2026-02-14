@@ -302,52 +302,224 @@ proxies:
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- name: '[Hysteria2] 美国2'
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2056
-  server: mg2.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg2.mangshe.xyz
-  tls: false
-  type: hysteria2
 - name: '[Trojan] 美国|@ripaojiedian'
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
-  port: 40548
-  server: 160.16.57.238
+  port: 2890
+  server: 54.64.61.41
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 美国2|@ripaojiedian'
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
-  port: 2890
-  server: 57.180.14.50
+  port: 1281
+  server: 160.16.236.32
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 美国3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 3159
-  server: 43.207.89.113
+  port: 28680
+  server: 18.162.45.213
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: bkIJxIKIVWvLpZeLB7Jy3
-  name: '[Vmess] usUS_1|1.3MB/s'
-  network: grpc
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] usUS²_5|5.4MB/s|0%|GPT⁺|X|Hist...'
+  network: tcp
   port: 443
-  server: 104.233.211.85.sslip.io
-  servername: 104.233.211.85.sslip.io
-  skip-cert-verify: true
+  reality-opts:
+    public-key: a0utGrRVTHL53cH4poHif9aPJNNQ10nhiMSdx8n1kGk
+    short-id: '!!str 5a2d4f49'
+  server: 104.167.197.27
+  servername: azure.microsoft.com
   tls: true
+  type: vless
+  udp: true
+  uuid: c5f8c9a4-916d-45c3-aad3-cd3ed706c5dd
+  xudp: true
+- alterId: 2
+  cipher: auto
+  name: '[Vmess] usUS_2|2.4MB/s'
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: true
+  tls: false
   type: vmess
   udp: true
-  uuid: a5e71861-2fba-4040-a8e4-a215305f37c4
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: '0'
+  cipher: auto
+  name: '[Vmess] usUS_3|2.3MB/s'
+  network: ws
+  port: 80
+  server: vvvbnhj.kk4.ccwu.cc
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+  ws-opts:
+    headers:
+      Host: vvvbnhj.kk4.ccwu.cc
+    path: /kFK9O5cl8ZycyrxcJWNVFC21
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[Trojan] usUS_4|2.3MB/s'
+  network: ws
+  password: dd39bb7d-2bea-41b5-be20-fa228a45f639
+  port: 443
+  server: iiiiii9.huangshang.us.ci
+  skip-cert-verify: false
+  sni: iiiiiI9.hUANgShaNG.uS.Ci
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /tSROScnWofV7ia41dH
+- name: '[Http] usUS²_1|3.1MB/s|11%|GPT⁺|GM|NF...'
+  password: 34ddff9e-049d-444d-8bee-ae45928019ef
+  port: 4449
+  server: 4-n67hzkyu.mix.dexiansheng.com
+  sni: 4-n67hzkyu.mix.dexiansheng.com
+  tls: true
+  type: http
+  username: walless
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_11|5.5MB/s|GPT⁺|YT-CN|NF...'
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  servername: v8.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_3|8.8MB/s|0%|GPT⁺|YT-CN|...'
+  network: ws
+  port: 12885
+  server: gtm1.ktmwan.net
+  servername: baidu.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4ff18004-8e47-4a8f-bc85-d317d888ed99
+  ws-opts:
+    headers:
+      HOST: baidu.com
+      Host: gtm1.ktmwan.net
+    path: /
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_4|6.2MB/s|35%|GPT|YT-CN|...'
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  servername: v29.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] deDE²_7|6.7MB/s|6%|GPT⁺|YT-US|...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 10afHwCh2N-Qeqsskwvp9gLC0JrOA-CSfuRbgcK7YkA
+    short-id: '!!str d9a8dad452a7644f'
+  server: de.zeepo.ir
+  servername: miro.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 97cfc877-9d44-24c7-81c5-6180d4e4cecb
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  name: '[SS] usUS²_7|7.9MB/s|0%|GPT⁺|X|[广播|...'
+  password: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf
+  port: 47394
+  server: jpus.fastcokeasdasd.com
+  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] nlNL²_6|6.1MB/s|0%|GPT⁺|YT-US|...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ICOLwK5XaCT4d8pyRuDBwoT8WLp84_WfU0pUu3htBlE
+    short-id: '!!str eb'
+  server: 62.50.146.224
+  servername: s3.firstvds.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5e01c65c-c662-4cf6-8d4f-7721f8ae523c
+  xudp: true
+- country: 🇺🇸US
+  name: '[Hysteria2] usUS²_8|4.6MB/s|22%|GPT⁺|GM|YT...'
+  password: 7dd10318-28fd-413f-81f0-cd0a286e4779
+  port: 2056
+  server: mg5.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg5.mangshe.xyz
+  type: hysteria2
+  udp: true
+- cipher: aes-256-cfb
+  name: '[SS] vnVN²_8|1.1MB/s|GPT⁺|YT-US|X|H...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.54
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  name: '[SS] usUS²_9|7.4MB/s|8%|GPT⁺|GM|YT|...'
+  password: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf
+  port: 40793
+  server: jpus.fastcokeasdasd.com
+  type: ss
+- name: '[Socks5] usUS²_10|5.2MB/s|GPT⁺|X|Histor...'
+  password: ''
+  port: 1080
+  server: 192.241.156.17
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  name: '[SS] trTR²_1|2.8MB/s|GPT⁺|YT-US|D+|...'
+  password: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf
+  port: 53355
+  server: eu.fastcokeasdasd.com
+  type: ss
 - client-fingerprint: ios
   flow: xtls-rprx-vision
   name: '[VLESS] US_speednode_0013'
@@ -362,19 +534,6 @@ proxies:
   type: vless
   udp: true
   uuid: c6977f74-e620-4748-a2d3-4351a588c659
-- client-fingerprint: chrome
-  name: '[VLESS] US_speednode_0014'
-  port: 443
-  reality-opts:
-    public-key: iv8v94q9qxkMw5WSUc0obloyLVFNTsfyy9Y3FaGlj1k
-    short-id: '!!str efd29b2d25'
-  server: 64.188.64.59
-  servername: yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 12cb9911-a48d-4147-85cc-68dd678e94c6
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] US_speednode_0015'

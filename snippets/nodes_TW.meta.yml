@@ -7,29 +7,28 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[Http] twTW²_1|1.7MB/s|GPT|D+|X|Histo...'
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: '[Http] twTW²_2|2.1MB/s|GPT⁺|YT|X|Hist...'
-  password: mrwdfNTD8M79LCukCieldrqZWqs=
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] twTW²_1|16.8MB/s|0%|GPT⁺|YT-CN...'
+  network: ws
+  port: 12888
+  server: gtm1.ktmwan.net
+  servername: baidu.com
   skip-cert-verify: true
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: '[Socks5] twTW²_3|1.0MB/s|X|Succeed'
-  password: ''
-  port: 1080
-  server: 141.11.42.163
-  skip-cert-verify: true
-  type: socks5
-  username: ''
+  type: vmess
+  uuid: 4ff18004-8e47-4a8f-bc85-d317d888ed99
+  ws-opts:
+    headers:
+      Host: gtm1.ktmwan.net
+    path: /
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  name: '[SS] twTW²_2|7.0MB/s|GPT⁺|GM|YT|NF|...'
+  password: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf
+  port: 21073
+  server: tw.fastcokeasdasd.com
+  type: ss

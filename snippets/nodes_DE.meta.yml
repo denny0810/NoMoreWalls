@@ -79,59 +79,235 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] deDE_1|1.0MB/s'
-  password: 78c2e39121c820fb
-  port: 11201
-  server: 51.89.10.72
-  tfo: true
-  type: ss
+- auth: 7dd10318-28fd-413f-81f0-cd0a286e4779
+  name: '[Hysteria2] deDE²_6|1.7MB/s|25%|GPT⁺|YT|TK...'
+  password: 7dd10318-28fd-413f-81f0-cd0a286e4779
+  port: 2056
+  server: nlb1.mangshe.xyz
+  skip-cert-verify: true
+  sni: nlb1.mangshe.xyz
+  type: hysteria2
   udp: true
-- encryption: none
-  name: '[VLESS] deDE_2|1.4MB/s'
-  network: ws
-  port: 80
-  server: vpn.nnet.online
+- auth: 7dd10318-28fd-413f-81f0-cd0a286e4779
+  name: '[Hysteria2] deDE_2|1.8MB/s'
+  password: 7dd10318-28fd-413f-81f0-cd0a286e4779
+  port: 2056
+  server: nlb4.mangshe.xyz
+  skip-cert-verify: true
+  sni: nlb4.mangshe.xyz
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] deDE²_9|0.7MB/s|43%|GPT⁺|X|His...'
+  network: tcp
+  port: 443
+  server: deu542.globalunlock.org
+  servername: deu542.globalunlock.org
+  tls: true
   type: vless
   udp: true
-  uuid: 79d24ca6-8f75-4653-9a9c-2d4ee38f4b88
+  uuid: ee750cca-f549-4e78-8648-a6b762953e70
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE_4|2.0MB/s'
+  network: ws
+  port: 443
+  server: 185.238.228.46
+  servername: hotchoclate.graphapp.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: a992c7a6-832b-4243-a294-d34783d0294c
   ws-opts:
     headers:
-      Host: nnet.online
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/47.0.2526.106 Safari/537.36
-    path: /vless-ntls
+      Host: hotchoclate.graphapp.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /v2rayroad
+  xudp: true
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '[Vmess] deDE_5|1.8MB/s'
+  network: ws
+  port: 8080
+  server: 104.19.173.68
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-571299667.rahavard365.co
+    max-early-data: 2560
+    path: /NASNET/cdn
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] deDE²_2|6.1MB/s|0%|GPT⁺|YT-RU|...'
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: WckOSneVajAzpH0sZSAFAWPnmwuuEXKZrTICNj5_hHU
+    short-id: '!!str 4a5b6c7d'
+  server: 89.106.89.112
+  servername: www.ibm.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 07cd9dbe-21ac-4871-817d-c772687e4b7c
+  xudp: true
+- country: 🇩🇪DE
+  name: '[Hysteria2] deDE²_1|6.0MB/s|0%|GPT⁺|YT|TK|...'
+  password: 7dd10318-28fd-413f-81f0-cd0a286e4779
+  port: 2056
+  server: flkf2.mangshe.xyz
+  skip-cert-verify: true
+  sni: flkf2.mangshe.xyz
+  type: hysteria2
+  udp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: '[VLESS] deDE²_3|4.6MB/s|0%|GPT⁺|D+|X|[...'
+  network: ws
+  port: 8443
+  server: deu153.worldunbarred.org
+  servername: deu153.worldunbarred.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d3b4e0b-9fa4-4bc7-a0fd-99a8d34a12e2
+  ws-opts:
+    headers:
+      Host: deu153.worldunbarred.org
+    path: /ws-vless/
+- alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: '[Vmess] deDE²_4|6.5MB/s|47%|GPT⁺|X|His...'
+  network: ws
+  port: 8080
+  server: tgju.org
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-571296497.iranpress.co
+    max-early-data: 2560
+    path: /nasnet/cdn
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] deDE²_5|4.3MB/s|0%|GPT⁺|X|[广播|...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+    short-id: '!!str 4fa44664f6a566d3'
+  server: germany.scroogethebest.com
+  servername: germany.scroogethebest.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_8|6.3MB/s|13%|GPT⁺|TK-NL...'
+  network: tcp
+  port: 2280
+  reality-opts:
+    public-key: 3O9CVvzD_0omAKw17VJoL0NlezpzxRAHNIbOWGBto2I
+    short-id: '!!str faf804ddc2e49f6c'
+  server: 192.76.160.216
+  servername: tgju.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3fa2f5cd-0cbc-4e4f-bce1-a59ae090eef4
   xudp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] deDE²_1|0.7MB/s|GPT⁺|X|Succeed...'
+  name: '[Vmess] deDE²_10|6.5MB/s|6%|GPT⁺|X|His...'
   network: ws
-  port: 8080
-  server: tgju.org
-  servername: nasnet-571296497.iranpress.co
-  skip-cert-verify: true
+  port: 8443
+  server: dll.avaaaal.ir
+  servername: cdge.avaaaal.ir
+  tls: true
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
   ws-opts:
     headers:
-      HOST: nasnet-571296497.iranpress.co
-      Host: tgju.org
-    path: /nasnet/cdn
-- alterId: 2
+      Host: cdge.avaaaal.ir
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] deDE²_11|5.2MB/s|43%|GPT⁺|NF|X...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: vegx20Xc9XIkr8nfdEB7LZnficXNURVnDbB8_ND97Dw
+    short-id: '!!str '
+  server: de.connectv.net
+  servername: de.connectv.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3d285ec0-cde0-4d81-af2e-5f6b9adc3f35
+  xudp: true
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  country: 🇨🇳CN
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] deDE²_2|0.7MB/s|X|History|[广播|...'
+  name: '[Vmess] deDE²_12|0.5MB/s|8%|GPT⁺|D+|X|...'
   network: tcp
-  port: 30833
-  server: v33.hdacd.com
+  port: 13646
+  server: eu.fastcokeasdasd.com
+  servername: eu.fastcokeasdasd.com
+  skip-cert-verify: true
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf
+- client-fingerprint: chrome
+  name: '[VLESS] US_speednode_0014'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: iv8v94q9qxkMw5WSUc0obloyLVFNTsfyy9Y3FaGlj1k
+    short-id: '!!str efd29b2d25'
+  server: 64.188.64.59
+  servername: yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 12cb9911-a48d-4147-85cc-68dd678e94c6
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] DE_speednode_0001'

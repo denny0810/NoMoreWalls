@@ -27,14 +27,6 @@ proxies:
     headers:
       Host: sg.dalxy.eu.org
     path: /a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm
-- name: '[Hysteria2] 新加坡1'
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2055
-  server: xjp1.mangshe.xyz
-  skip-cert-verify: true
-  sni: xjp1.mangshe.xyz
-  tls: false
-  type: hysteria2
 - name: '[Hysteria2] SG'
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
@@ -47,7 +39,7 @@ proxies:
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 3901
-  server: 43.207.73.82
+  server: 160.16.89.176
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -62,8 +54,65 @@ proxies:
 - name: '[Trojan] 新加坡3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 3579
-  server: 95.40.55.141
+  port: 3127
+  server: 43.207.67.101
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇸🇬SG
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] sgSG²_1|0.7MB/s|GPT|YT|X'
+  network: ws
+  port: 443
+  server: 128.199.255.242
+  servername: sg.dalxy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a88a71fa-ed7c-48d3-89e0-74a00d605d88
+  ws-opts:
+    headers:
+      HOST: sg.dalxy.eu.org
+    path: /a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm
+- cipher: aes-128-gcm
+  country: 🇨🇳CN
+  name: '[SS] sgSG²_4|17.5MB/s|8%|GPT⁺|GM|YT...'
+  password: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf
+  port: 43461
+  server: sgp.fastcokeasdasd.com
+  type: ss
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇮🇷IR
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] sgSG²_8|10.4MB/s|45%|GPT⁺|GM|Y...'
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  servername: v45.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  name: '[SS] sgSG²_6|12.5MB/s|8%|GPT⁺|GM|YT...'
+  password: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf
+  port: 29631
+  server: sgp.fastcokeasdasd.com
+  type: ss
+- name: '[Http] sgSG²_9|9.8MB/s|41%|GPT⁺|GM|YT...'
+  password: 5edb4d21-6cc1-4d46-8823-9a0e14d83455
+  port: 4449
+  server: 4-ndsrzkgg.mix.dexiansheng.com
+  sni: 4-ndsrzkgg.mix.dexiansheng.com
+  tls: true
+  type: http
+  username: walless

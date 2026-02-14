@@ -1,39 +1,11 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] ruRU_1|1.3MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: sbvKAdRy_0h33iRxgGwHAD1HC62WGwlkWwj0S5ptJEU
-    short-id: '!!str 9c2378562188c3cb'
-  server: 212.113.123.230
-  servername: ru.denditop.site
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] ruRU_1|1.9MB/s'
+  password: hyeRslWhyBanRDW6PyTiSC
+  port: 65330
+  server: 212.192.14.73
+  type: ss
   udp: true
-  uuid: e4f5077b-3628-450c-92f9-b129b8a641a7
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] ruRU_2|1.6MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 7IOtSp0-n2_uNS5nMO9ywZbn2HibMRGy0KbLad3szXc
-    short-id: '!!str b8cf9578640a9edf'
-  server: 185.39.206.226
-  servername: eh.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 07cd9dbe-21ac-4871-817d-c772687e4b7c
-  xudp: true
 - client-fingerprint: chrome
   name: '[VLESS] RU_speednode_0007'
   port: 8443

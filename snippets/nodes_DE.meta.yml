@@ -99,72 +99,59 @@ proxies:
   tls: false
   type: hysteria2
 - alpn:
-  - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE_1|1.5MB/s'
-  network: ws
+  flow: xtls-rprx-vision
+  name: '[VLESS] deDE_1|1.3MB/s'
+  network: tcp
   port: 443
-  server: 172.67.193.88
-  servername: MAHANteAm.noD32Cpu.iR
+  server: 20.218.137.249
+  servername: jina-20218137249-direct.yektanet.co
   tls: true
   type: vless
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: MAHANteAm.noD32Cpu.iR
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.167 Safari/537.36
-    path: /assets
   xudp: true
-- auth: 7dd10318-28fd-413f-81f0-cd0a286e4779
-  name: '[Hysteria2] deDE_3|2.2MB/s'
-  password: 7dd10318-28fd-413f-81f0-cd0a286e4779
-  port: 2056
-  server: nlb3.mangshe.xyz
-  skip-cert-verify: true
-  sni: nlb3.mangshe.xyz
-  type: hysteria2
-  udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE_4|2.0MB/s'
-  network: ws
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] deDE_2|1.6MB/s'
+  network: tcp
   port: 443
-  server: 185.238.228.46
-  servername: hotchoclate.graphapp.ir
+  reality-opts:
+    public-key: jtECS8GeY0dRcVtbUgGiQ_AUIllOwrkldFQnlzp0TRs
+    short-id: '!!str ed62673442aeef4d'
+  server: access-de4.agveit.pro
+  servername: access-de4.agveit.pro
   tls: true
   type: vless
   udp: true
-  uuid: a992c7a6-832b-4243-a294-d34783d0294c
-  ws-opts:
-    headers:
-      Host: hotchoclate.graphapp.ir
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /v2rayroad
+  uuid: 637bd1f3-f097-4fa2-a62d-322f1aede2fe
   xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[Vmess] deDE_5|1.2MB/s'
-  network: ws
-  port: 8080
-  server: 104.19.174.68
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] deDE_3|1.3MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 10afHwCh2N-Qeqsskwvp9gLC0JrOA-CSfuRbgcK7YkA
+    short-id: '!!str d9a8dad452a7644f'
+  server: 188.245.209.90
+  servername: miro.com
+  tls: true
+  type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-571299667.rahavard365.co
-    max-early-data: 2560
-    path: /NASNET/cdn
+  uuid: 97cfc877-9d44-24c7-81c5-6180d4e4cecb
   xudp: true
 - alterId: 0
   cipher: auto

@@ -13,20 +13,6 @@ proxies:
     headers:
       Host: sg.dalxy.eu.org
     path: /a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] SG2｜商宽｜非常安全'
-  network: ws
-  port: '35951'
-  server: 36.50.90.241
-  servername: sg.dalxy.eu.org
-  tls: true
-  type: vmess
-  uuid: a88a71fa-ed7c-48d3-89e0-74a00d605d88
-  ws-opts:
-    headers:
-      Host: sg.dalxy.eu.org
-    path: /a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm
 - name: '[Hysteria2] 新加坡1'
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2055
@@ -67,39 +53,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] sgSG_1|2.1MB/s'
-  network: ws
-  port: 443
-  server: support.zoom.us
-  servername: zero.seaseus.pp.ua
-  tls: true
-  type: vless
-  udp: true
-  uuid: a7209c7e-b96f-4c95-8ff7-090f3d642d19
-  ws-opts:
-    headers:
-      Host: zero.seaseus.pp.ua
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /seaseus
-  xudp: true
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] sgSG²_1|0.7MB/s|45%|GPT⁺|YT|X|...'
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  servername: v45.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

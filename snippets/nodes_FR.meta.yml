@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: '[Vmess] FR1｜机房｜低风险'
+  name: '[Vmess] FR2｜机房｜低风险'
   network: tcp
   port: '30835'
   server: v35.hdacd.com
@@ -14,7 +14,7 @@ proxies:
   delay: 875
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] frFR_1|3.1MB/s'
+  name: '[Vmess] frFR_1|1.2MB/s'
   network: ws
   port: 8080
   server: tgju.org
@@ -33,10 +33,10 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: '[Vmess] frFR_2|2.8MB/s'
+  name: '[Vmess] frFR_2|2.1MB/s'
   network: ws
   port: 8080
-  server: 104.26.14.85
+  server: tgju.org
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -48,26 +48,4 @@ proxies:
       Host: nasnet-162191099.sharghdaily.co
     max-early-data: 2560
     path: /nasnet/cdn
-  xudp: true
-- alpn:
-  - networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] frFR²_1|0.5MB/s|GPT|D+|X|Succe...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8LWgKu6h8cXgOAixKaKPdGponKkAeQaq-IszDEQ4ojM
-    short-id: '!!str 3bdec72a5a0ffd84'
-  server: fr.cdn.stun.su
-  servername: fr.cdn.stun.su
-  tls: true
-  type: vless
-  udp: true
-  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
   xudp: true

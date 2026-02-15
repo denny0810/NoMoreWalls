@@ -1,1 +1,18 @@
-proxies: []
+proxies:
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[Trojan] caCA_1|2.0MB/s'
+  network: ws
+  password: c52d2de2-fc6d-490c-8421-132f87615736
+  port: 443
+  server: bgty6.852224.xyz
+  skip-cert-verify: false
+  sni: bgty6.852224.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /PDbJ6Qn4xImwtg6PusRbe

@@ -7,3 +7,40 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- name: '[Trojan] twTW_1|2.5MB/s'
+  network: ws
+  password: 5a2c16f9
+  port: 43
+  server: 220.128.110.108
+  skip-cert-verify: false
+  sni: 5c.hhhhh.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 5c.hhhhh.eu.org
+    path: /220.128.110.108:43
+- name: '[Trojan] twTW_2|1.3MB/s'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 114.33.57.170
+  skip-cert-verify: false
+  sni: 5c.hhhhh.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 5c.hhhhh.eu.org
+    path: /114.33.57.170:443
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] twTW_3|1.1MB/s'
+  network: tcp
+  port: 38355
+  reality-opts:
+    public-key: SHxJvBnoYzKJI2KphnyStiT7vJE1EXHSenPf0ZVQtD4
+    short-id: '!!str ed0b4abd06d6'
+  server: tw3.miyazono-kaori.com
+  servername: www.wistron.com
+  tls: true
+  type: vless
+  uuid: 0ca4d383-8463-4a5a-af24-d9a115fde26e

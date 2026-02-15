@@ -69,15 +69,18 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: '[Vmess] DE13｜机房｜高风险 (黑名单)'
+  name: '[Vmess] usUS_3|1.1MB/s'
   network: tcp
-  port: '180'
+  port: 180
   server: 82.198.246.97
+  skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
 - name: '[Trojan] US13｜机房｜低风险'
   network: ws
   password: f0defe70-4c27-4d66-bada-0240e4f49880
@@ -590,28 +593,6 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[Vmess] usUS_3|1.0MB/s'
-  network: ws
-  port: 80
-  server: 1.ae1.indevs.in
-  servername: 1.AE1.InDeVs.In
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0c6b96bc-5e3a-4500-8497-6dead1965609
-  ws-opts:
-    headers:
-      Host: 1.aE1.InDevs.In
-    path: /KHtPvNZl371C8NsbbZ1wwDhJ3
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] gbGB_1|2.6MB/s'
-  password: kaQH3hGdcP80XEDI
-  port: 443
-  server: admin.c2.havij.co
-  type: ss
-- alterId: 0
-  cipher: auto
   country: 🇺🇸US
   delay: 875
   h2-opts: {}
@@ -629,28 +610,52 @@ proxies:
       HOST: nasnet-571296497.iranpress.co
       Host: tgju.org
     path: /nasnet/cdn
-- alterId: 2
-  cipher: auto
-  name: '[Vmess] usUS_4|2.7MB/s'
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[Trojan] twTW_1|2.5MB/s'
+  network: ws
+  password: 5a2c16f9
+  port: 43
+  server: 220.128.110.108
+  skip-cert-verify: false
+  sni: 5c.hhhhh.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 5c.hhhhh.eu.org
+    path: /220.128.110.108:43
+- name: '[Trojan] twTW_2|1.3MB/s'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 114.33.57.170
+  skip-cert-verify: false
+  sni: 5c.hhhhh.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 5c.hhhhh.eu.org
+    path: /114.33.57.170:443
 - cipher: aes-256-cfb
-  name: '[SS] seSE_1|3.0MB/s'
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 121.127.46.147
-  type: ss
-- cipher: aes-256-cfb
-  name: '[SS] vnVN_1|1.2MB/s'
+  name: '[SS] vnVN_1|1.1MB/s'
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.198
+  server: 103.186.155.23
   type: ss
+- alpn:
+  - http/1.1
+  name: '[Trojan] caCA_1|2.0MB/s'
+  network: ws
+  password: c52d2de2-fc6d-490c-8421-132f87615736
+  port: 443
+  server: bgty6.852224.xyz
+  skip-cert-verify: false
+  sni: bgty6.852224.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /PDbJ6Qn4xImwtg6PusRbe
 - alpn:
   - ''
   alterId: '0'
@@ -670,31 +675,6 @@ proxies:
       Host: cdge.avaaaal.ir
     path: /
   xudp: true
-- alterId: '0'
-  cipher: auto
-  name: '[Vmess] deDE²_2|2.5MB/s|47%|GPT⁺|X|Suc...'
-  network: ws
-  port: 8080
-  server: tgju.org
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-571296497.iranpress.co
-    max-early-data: 2560
-    path: /nasnet/cdn
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] nlNL²_2|2.4MB/s|35%|GPT⁺|NF|X|...'
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.101
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -729,6 +709,24 @@ proxies:
       HOST: nasnet-162191099.sharghdaily.co
     max-early-data: 2560
     path: /nasnet/cdn
+- alterId: '0'
+  cipher: auto
+  name: '[Vmess] deDE²_2|2.5MB/s|47%|GPT⁺|X|Suc...'
+  network: ws
+  port: 8080
+  server: tgju.org
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-571296497.iranpress.co
+    max-early-data: 2560
+    path: /nasnet/cdn
+  xudp: true
 - country: 🇭🇰 HK
   name: '[Trojan] hkHK²_3|2.6MB/s|D+|X|Succeed|[...'
   network: tcp
@@ -771,6 +769,13 @@ proxies:
   ws-opts:
     path: /
   xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] nlNL²_2|2.4MB/s|35%|GPT⁺|NF|X|...'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.101
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   delay: 1154

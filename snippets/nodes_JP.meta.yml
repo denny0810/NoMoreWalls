@@ -39,6 +39,30 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- name: '[VLESS] jpJP_1|1.1MB/s'
+  network: ws
+  port: 443
+  server: 43.207.241.129
+  servername: a926adb5.lfree.ccwu.cc
+  tls: true
+  type: vless
+  uuid: 69905933-1b12-24fd-4ded-568ee4322895
+  ws-opts:
+    headers:
+      Host: a926adb5.lfree.ccwu.cc
+    path: /socks5=44fa737d:1bab4a4504ca@38.96.191.150:21719
+- name: '[VLESS] jpJP_2|1.4MB/s'
+  network: ws
+  port: 443
+  server: 8.209.202.241
+  servername: a926adb5.lfree.ccwu.cc
+  tls: true
+  type: vless
+  uuid: 69905933-1b12-24fd-4ded-568ee4322895
+  ws-opts:
+    headers:
+      Host: a926adb5.lfree.ccwu.cc
+    path: /socks5=44fa737d:1bab4a4504ca@38.96.191.150:21719
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

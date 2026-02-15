@@ -45,19 +45,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[VLESS] sgSG_1|1.4MB/s'
-  network: ws
-  port: 443
-  server: cm.cf.090227.xyz
-  servername: a926adb5.lfree.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 69905933-1b12-24fd-4ded-568ee4322895
-  ws-opts:
-    headers:
-      Host: a926adb5.lfree.ccwu.cc
-    path: /socks5=44fa737d:1bab4a4504ca@38.96.191.150:21719
-- name: '[VLESS] sgSG_2|1.7MB/s'
+- name: '[VLESS] sgSG_1|1.2MB/s'
   network: ws
   port: 443
   server: mfa.gov.ua
@@ -69,10 +57,10 @@ proxies:
     headers:
       Host: a926adb5.lfree.ccwu.cc
     path: /socks5=44fa737d:1bab4a4504ca@38.96.191.150:21719
-- name: '[VLESS] sgSG_3|1008KB/s'
+- name: '[VLESS] sgSG_2|1.8MB/s'
   network: ws
   port: 443
-  server: 34.92.187.216
+  server: cm.cf.090227.xyz
   servername: a926adb5.lfree.ccwu.cc
   tls: true
   type: vless
@@ -81,10 +69,16 @@ proxies:
     headers:
       Host: a926adb5.lfree.ccwu.cc
     path: /socks5=44fa737d:1bab4a4504ca@38.96.191.150:21719
-- name: '[Socks5] 🏴‍☠_1sgSG²_8|1.8MB/s|1.1MB/s|X...'
-  password: ''
-  port: 10810
-  server: 146.235.19.84
-  skip-cert-verify: true
-  type: socks5
-  username: ''
+- name: '[VLESS] sgSG_3|3.3MB/s'
+  network: ws
+  port: 443
+  server: 13.228.123.13
+  servername: a926adb5.lfree.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 69905933-1b12-24fd-4ded-568ee4322895
+  ws-opts:
+    headers:
+      Host: a926adb5.lfree.ccwu.cc
+    path: /socks5=44fa737d:1bab4a4504ca@38.96.191.150:21719

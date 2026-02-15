@@ -326,56 +326,27 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- auth: 7dd10318-28fd-413f-81f0-cd0a286e4779
-  name: '[Hysteria2] usUS_1|2.6MB/s'
-  password: 7dd10318-28fd-413f-81f0-cd0a286e4779
-  port: 2056
-  server: mg6.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg6.mangshe.xyz
-  type: hysteria2
-  udp: true
-- client-fingerprint: chrome
-  name: '[VLESS] usUS_2|1.6MB/s'
-  network: tcp
+- name: '[Http] usUS_1|1.5MB/s'
+  password: f7d95364-607b-11ee-93af-f23c91369f2d
+  port: 15229
+  server: 8839b57d-tam1s0-tv7zgh-1ijh5.cu.oshuawei.com
+  sni: 8839b57d-tam1s0-tv7zgh-1ijh5.cu.oshuawei.com
+  tls: true
+  type: http
+  username: f7d95364-607b-11ee-93af-f23c91369f2d
+- name: '[VLESS] usUS_2|1.2MB/s'
+  network: ws
   port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: '!!str 2da72ce6'
-  server: 174.136.205.68
-  servername: navi.bankrate.com
+  server: bestcf.030101.xyz
+  servername: a926adb5.lfree.ccwu.cc
   tls: true
   type: vless
   udp: true
-  uuid: c1104d93-eba3-48d6-ba63-10574bdaa8b3
-- encryption: none
-  name: '[VLESS] usUS_4|1.1MB/s'
-  network: tcp
-  port: 2323
-  server: 94.183.150.57
-  type: vless
-  udp: true
-  uuid: e6056cc5-1ec5-4dad-a5c1-ffe4ccde51b8
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] usUS_5|1.5MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: i00_tpIO0Oe2TV2lxm2BLm6QUzzkncyJtauMa7Rn500
-    short-id: '!!str b91a73752053b039'
-  server: 144.31.128.47
-  servername: se-mirror.api.akenai.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: a607f07f-2937-4c2c-aec6-363e0688abd2
-  xudp: true
+  uuid: 69905933-1b12-24fd-4ded-568ee4322895
+  ws-opts:
+    headers:
+      Host: a926adb5.lfree.ccwu.cc
+    path: /socks5=44fa737d:1bab4a4504ca@38.96.191.150:21719
 - client-fingerprint: ios
   flow: xtls-rprx-vision
   name: '[VLESS] US_speednode_0013'

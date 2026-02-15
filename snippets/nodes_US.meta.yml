@@ -326,27 +326,309 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[Http] usUS_1|1.5MB/s'
-  password: f7d95364-607b-11ee-93af-f23c91369f2d
-  port: 15229
-  server: 8839b57d-tam1s0-tv7zgh-1ijh5.cu.oshuawei.com
-  sni: 8839b57d-tam1s0-tv7zgh-1ijh5.cu.oshuawei.com
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] usUS_1|1.8MB/s'
+  network: ws
+  port: 80
+  server: dvgt.zem.indevs.in
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c558328b-eb46-424c-b9e0-574770f0b072
+  ws-opts:
+    headers:
+      Host: dvgt.zem.indevs.in
+    path: /7sOz0p4SzU1D6XNC0BXGtJ
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] usUS_2|1.1MB/s'
+  network: ws
+  port: 80
+  server: jjkm.zem.indevs.in
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c558328b-eb46-424c-b9e0-574770f0b072
+  ws-opts:
+    headers:
+      Host: jjkm.zem.indevs.in
+    path: /7sOz0p4SzU1D6XNC0BXGtJ
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '[VLESS] usUS_3|3.0MB/s'
+  network: tcp
+  port: 1314
+  reality-opts:
+    public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
+    short-id: '!!str 4b070735'
+  server: hkt-home.xn--9kqp42aims.top
+  servername: buylite.music.apple.com
   tls: true
-  type: http
-  username: f7d95364-607b-11ee-93af-f23c91369f2d
-- name: '[VLESS] usUS_2|1.2MB/s'
+  type: vless
+  uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6
+- client-fingerprint: chrome
+  name: '[VLESS] usUS_4|1010KB/s'
+  network: ws
+  port: 80
+  server: ghju.apocalypse.cc.cd
+  servername: ghju.apocalypse.cc.cd
+  tls: false
+  type: vless
+  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
+  ws-opts:
+    headers:
+      Host: ghju.apocalypse.cc.cd
+    path: /XR8So0uqFVa3vY9ZbxgW4
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] usUS_5|1.3MB/s'
+  network: ws
+  port: 80
+  server: cvfg.ae1autumn.cc.cd
+  servername: cvfg.ae1autumn.cc.cd
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
+  ws-opts:
+    headers:
+      Host: cvfg.ae1autumn.cc.cd
+    path: /YsmRouA9ZbxgW4
+- client-fingerprint: chrome
+  name: '[VLESS] usUS_6|1.2MB/s'
+  network: ws
+  port: 80
+  server: o98.zem.indevs.in
+  servername: o98.zem.indevs.in
+  tls: false
+  type: vless
+  uuid: c558328b-eb46-424c-b9e0-574770f0b072
+  ws-opts:
+    headers:
+      Host: o98.zem.indevs.in
+    path: /v8clafFSnPXNC0BXGtJ
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] usUS_7|2.4MB/s'
   network: ws
   port: 443
-  server: bestcf.030101.xyz
-  servername: a926adb5.lfree.ccwu.cc
+  server: ko.890604.filegear-sg.me
+  servername: ko.890604.filegear-sg.me
   tls: true
   type: vless
   udp: true
-  uuid: 69905933-1b12-24fd-4ded-568ee4322895
+  uuid: b020865b-7404-4894-ba65-a7414b10cda3
   ws-opts:
     headers:
-      Host: a926adb5.lfree.ccwu.cc
-    path: /socks5=44fa737d:1bab4a4504ca@38.96.191.150:21719
+      Host: ko.890604.filegear-sg.me
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
+    path: /15ZYK3adOPjqSc7fzeJr
+  xudp: true
+- name: '[Anytls] usUS_8|1019KB/s'
+  password: 437bd464-b524-3812-ac02-85483bcf7407
+  port: 9999
+  server: 167.71.154.0
+  skip-cert-verify: true
+  tfo: true
+  type: anytls
+- name: '[Anytls] usUS_9|1007KB/s'
+  password: 437bd464-b524-3812-ac02-85483bcf7407
+  port: 19999
+  server: 165.22.129.57
+  skip-cert-verify: true
+  tfo: true
+  type: anytls
+- client-fingerprint: random
+  host: navi.bankrate.com
+  name: '[VLESS] usUS_10|1.1MB/s'
+  network: tcp
+  path: /
+  port: 443
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: '!!str 2da72ce6'
+  server: 174.136.205.68
+  servername: navi.bankrate.com
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  uuid: 2b4c8da0-6593-41ff-b431-fbe813a130c4
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_1|2.6MB/s|GPT⁺|YT-US|X'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.23
+  type: ss
+- auth: 7dd10318-28fd-413f-81f0-cd0a286e4779
+  name: '[Hysteria2] usUS²_1|3.4MB/s|0%|GPT⁺|YT-CN|...'
+  password: 7dd10318-28fd-413f-81f0-cd0a286e4779
+  port: 2056
+  server: mg2.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg2.mangshe.xyz
+  type: hysteria2
+  udp: true
+- name: '[Socks5] usUS²_2|4.8MB/s|GPT⁺|X|History'
+  password: ''
+  port: 1080
+  server: 192.241.156.17
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_9|5.3MB/s|33%|GPT⁺|GM|YT...'
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  servername: v29.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] usUS²_4|6.0MB/s|34%|GPT⁺|GM|YT...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: '!!str 31'
+  server: us01-gmn-vlr01.tcp-reset-club.net
+  servername: hls-svod.itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0a50ec22-5b9d-4f74-a72f-4447c0bbab83
+  xudp: true
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_8|3.7MB/s|35%|GPT⁺|YT-CN...'
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] usUS²_6|2.9MB/s|0%|GPT⁺|X|Hist...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: a0utGrRVTHL53cH4poHif9aPJNNQ10nhiMSdx8n1kGk
+    short-id: '!!str 5a2d4f49'
+  server: 104.167.197.27
+  servername: azure.microsoft.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c5f8c9a4-916d-45c3-aad3-cd3ed706c5dd
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_7|0.7MB/s|GPT⁺|GM|YT-US|...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.146
+  type: ss
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_7|8.2MB/s|GPT⁺|X|History'
+  network: tcp
+  port: 30846
+  server: v46.hdacd.com
+  servername: v46.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: '[Vmess] deDE²_5|6.9MB/s|47%|GPT⁺|YT-US...'
+  network: ws
+  port: 8080
+  server: tgju.org
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-571296497.iranpress.co
+    max-early-data: 2560
+    path: /nasnet/cdn
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_9|2.6MB/s|GPT⁺|YT-US|X|[...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.210
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_11|2.2MB/s|GPT|GM|YT-US|...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.137
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN²_15|0.7MB/s|GPT⁺|GM|YT-US...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.205
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] usUS²_10|2.5MB/s|0%|GPT⁺|X|[广播...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: xJIswEHrphk8LCn-DyJxw4uypPkouxPgNsfiyjRU-3w
+    short-id: '!!str 41a0b29e95aaea87'
+  server: ae.cdn.stun.su
+  servername: ae.cdn.stun.su
+  tls: true
+  type: vless
+  udp: true
+  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
+  xudp: true
 - client-fingerprint: ios
   flow: xtls-rprx-vision
   name: '[VLESS] US_speednode_0013'

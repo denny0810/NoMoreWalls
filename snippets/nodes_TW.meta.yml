@@ -7,3 +7,124 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] twTW_1|1.6MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: KJgODVMTQcncG_l1ZCDhzn8gEgMU2YRl2Yw2je6moWY
+    short-id: '!!str c0d856ec'
+  server: tw1.miyazono-kaori.com
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5dc07e5e-59dd-41f2-96b1-e8a8133a0dbc
+- name: '[Trojan] twTW_2|1.7MB/s'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 114.33.57.170
+  skip-cert-verify: false
+  sni: 5c.hhhhh.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 5c.hhhhh.eu.org
+    path: /114.33.57.170:443
+- name: '[Trojan] twTW_3|1.7MB/s'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 125.228.141.233
+  skip-cert-verify: false
+  sni: 5c.hhhhh.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 5c.hhhhh.eu.org
+    path: /125.228.141.233:443
+- name: '[Http] twTW²_2|7.9MB/s|GPT⁺|GM|YT|NF|...'
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: '[Anytls] twTW_5|1.0MB/s'
+  password: 437bd464-b524-3812-ac02-85483bcf7407
+  port: 55450
+  server: 114.37.211.12
+  skip-cert-verify: true
+  tfo: true
+  type: anytls
+- name: '[Anytls] twTW_6|1.5MB/s'
+  password: 437bd464-b524-3812-ac02-85483bcf7407
+  port: 55326
+  server: 114.37.211.12
+  skip-cert-verify: true
+  tfo: true
+  type: anytls
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  host: academy.nvidia.com
+  name: '[VLESS] twTW_7|2.8MB/s'
+  network: tcp
+  port: 60101
+  reality-opts:
+    public-key: uQgwZVJcw4Gf06rPfllYdyqp-ZH5xQ2BnRMxoSR8DT8
+    short-id: '!!str d69b618d'
+  server: 111.243.121.219
+  servername: academy.nvidia.com
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  uuid: 437bd464-b524-3812-ac02-85483bcf7407
+- name: '[Http] twTW²_1|10.3MB/s|GPT⁺|GM|YT|NF...'
+  password: mrwdfNTD8M79LCukCieldrqZWqs=
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: true
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: chrome
+  name: '[Trojan] twTW¹⁺_1|1.8MB/s|GPT⁺|GM|YT|D+...'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 125.228.141.233
+  skip-cert-verify: false
+  sni: 5c.hhhhh.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /125.228.141.233:443
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇹🇼TW
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] twTW²_3|5.8MB/s|GPT⁺|GM|YT|NF|...'
+  network: ws
+  port: 14610
+  server: akh1.alibabaapi6.com
+  servername: akh1.alibabaapi6.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: a2f33600-7ff1-46c4-abc9-7deb843e88a3
+  ws-opts:
+    headers:
+      HOST: akh1.alibabaapi6.com
+      Host: akh1.alibabaapi6.com
+    path: /5e60be4f/

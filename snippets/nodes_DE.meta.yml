@@ -83,13 +83,21 @@ proxies:
     path: /NASNET/cdn?ed=2560
 - alterId: 2
   cipher: auto
-  name: '[Vmess] DE11｜机房｜低风险'
+  client-fingerprint: chrome
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] deDE²_7|0.8MB/s|GPT⁺|X|History...'
   network: tcp
-  port: '30833'
+  port: 30833
   server: v33.hdacd.com
+  servername: v33.hdacd.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /
 - name: '[Hysteria2] DE'
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -98,6 +106,183 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE_1|2.8MB/s'
+  network: ws
+  port: 443
+  server: 172.67.193.88
+  servername: MAHANteAm.noD32Cpu.iR
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: MAHANteAm.noD32Cpu.iR
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /assets
+  xudp: true
+- encryption: none
+  name: '[VLESS] deDE_2|1.8MB/s'
+  network: ws
+  port: 80
+  server: imgur.com
+  type: vless
+  udp: true
+  uuid: 49af75d4-31d0-4322-b425-630be07030e1
+  ws-opts:
+    headers:
+      Host: diarasup2.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.75 Safari/537.36
+    path: /download
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] deDE²_1|1.0MB/s|24%|GPT⁺|X|[原生...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
+    short-id: '!!str '
+  server: 217.154.194.55
+  servername: azure.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f0b15f64-db59-438c-b1b6-f1b83db52240
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] deDE²_2|1.8MB/s|D+|X|[广播|机房]'
+  network: tcp
+  port: 50855
+  reality-opts:
+    public-key: 3iQ5QX52pIjouDXoPSfrQRvpqaOTqG26IJLctU7McAY
+    short-id: '!!str 02'
+  server: tes1.api-tel.xyz
+  servername: ea.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 853d23ee-38c6-41bb-a51c-8aea6a25b0bd
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] deDE²_3|0.9MB/s|X'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wgoLhL4pRP0y6fu6He4qW_ElohCM_ANWJF3HEoUhNz4
+    short-id: '!!str 9c2378562188c3cb'
+  server: 144.31.85.153
+  servername: germany.denditop.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: b39aca97-e9f2-4a94-b87f-8748299846cd
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_6|5.9MB/s|0%|GPT⁺|D+|X|[...'
+  network: ws
+  port: 2048
+  server: 185.254.99.224
+  type: vless
+  udp: true
+  uuid: 5b4f94ec-c460-4f67-b987-b5e6f2bbea5d
+  ws-opts:
+    headers:
+      Host: ads.x5.ru
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_8|8.0MB/s|6%|GPT⁺|X|[原生|...'
+  network: ws
+  port: 2053
+  server: www.speedtest.net
+  servername: dl.immerchauffage.ir.
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: dl.immerchauffage.ir.
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    max-early-data: 2048
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_9|3.0MB/s|GPT|X'
+  network: ws
+  port: 80
+  server: telegram-NpvV2rayFilter.fastlynew.hosting-ip.com
+  type: vless
+  udp: true
+  uuid: e4a6331b-e3e7-4f4e-b46a-8c31bf44bf83
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: moodaontw.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    max-early-data: 2056
+    path: /@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--/@HqV2RayNG--@HqV2RayNG
+  xudp: true
+- auth: 7dd10318-28fd-413f-81f0-cd0a286e4779
+  name: '[Hysteria2] deDE²_10|0.5MB/s|25%|GPT⁺|TK|D...'
+  password: 7dd10318-28fd-413f-81f0-cd0a286e4779
+  port: 2056
+  server: nlb1.mangshe.xyz
+  skip-cert-verify: true
+  sni: nlb1.mangshe.xyz
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] deDE²_11|5.1MB/s|43%|GPT⁺|X|[广...'
+  network: tcp
+  port: 443
+  server: 138.124.186.157
+  servername: deu542.globalunlock.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee750cca-f549-4e78-8648-a6b762953e70
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] DE_speednode_0001'

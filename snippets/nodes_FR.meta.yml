@@ -8,24 +8,37 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 875
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] frFR_1|1.2MB/s'
-  network: ws
-  port: 8080
-  server: tgju.org
-  servername: nasnet-162191099.sharghdaily.co
-  skip-cert-verify: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      HOST: nasnet-162191099.sharghdaily.co
-      Host: tgju.org
-    max-early-data: 2560
-    path: /nasnet/cdn
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] frFR²_2|5.9MB/s|GPT⁺|D+|X'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8LWgKu6h8cXgOAixKaKPdGponKkAeQaq-IszDEQ4ojM
+    short-id: '!!str 3bdec72a5a0ffd84'
+  server: 95.182.97.115
+  servername: fr.cdn.stun.su
+  tls: true
+  type: vless
+  udp: true
+  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] frFR²_3|5.9MB/s|43%|GPT⁺|D+|X|...'
+  network: tcp
+  port: 443
+  server: fr.1323.world
+  servername: b12a6eea4807ca4e.1323.world
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0e90f352-e9bc-4834-8ff6-49ba887eded4
+  xudp: true

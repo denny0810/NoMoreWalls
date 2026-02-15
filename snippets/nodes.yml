@@ -1,17 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[Vmess] HK5｜原生/疑似家宽｜非常安全'
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] jpJP²_5|12.2MB/s|0%|GPT|GM|YT|...'
   network: ws
-  port: '12883'
+  port: 12883
   server: gtm1.ktmwan.net
+  servername: baidu.com
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
   ws-opts:
     headers:
       Host: gtm1.ktmwan.net
     path: /
+  xudp: true
 - alterId: 2
   cipher: auto
   name: '[Vmess] US53｜机房｜低风险'
@@ -407,7 +414,7 @@ proxies:
     headers:
       Host: 17710527842135.206356.xyz
     path: '%2Fdmusicmuaawe'
-- name: '[Trojan] HK11｜家宽｜非常安全'
+- name: '[Trojan] hkHK²_9|16.4MB/s|2%|YT|NF|D+|X...'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -430,13 +437,20 @@ proxies:
     path: /NASNET/cdn?ed=2560
 - alterId: 2
   cipher: auto
-  name: '[Vmess] DE11｜机房｜低风险'
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] deDE²_7|0.8MB/s|GPT⁺|X|History...'
   network: tcp
-  port: '30833'
+  port: 30833
   server: v33.hdacd.com
+  servername: v33.hdacd.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /
 - alterId: 2
   cipher: auto
   name: '[Vmess] JP3｜机房｜低风险'
@@ -576,35 +590,255 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 875
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] frFR_1|1.2MB/s'
-  network: ws
-  port: 8080
-  server: tgju.org
-  servername: nasnet-162191099.sharghdaily.co
-  skip-cert-verify: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      HOST: nasnet-162191099.sharghdaily.co
-      Host: tgju.org
-    max-early-data: 2560
-    path: /nasnet/cdn
 - cipher: chacha20-ietf-poly1305
-  name: '[SS] nlNL_1|1.5MB/s'
+  name: '[SS] nlNL_1|2.0MB/s'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.208
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] inIN²_3|0.9MB/s|GPT⁺|YT|D+|X|[...'
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 34411
+  server: ldu.izenny.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] usUS_1|1.8MB/s'
+  network: ws
+  port: 80
+  server: dvgt.zem.indevs.in
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c558328b-eb46-424c-b9e0-574770f0b072
+  ws-opts:
+    headers:
+      Host: dvgt.zem.indevs.in
+    path: /7sOz0p4SzU1D6XNC0BXGtJ
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] usUS_2|1.1MB/s'
+  network: ws
+  port: 80
+  server: jjkm.zem.indevs.in
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c558328b-eb46-424c-b9e0-574770f0b072
+  ws-opts:
+    headers:
+      Host: jjkm.zem.indevs.in
+    path: /7sOz0p4SzU1D6XNC0BXGtJ
+- name: '[Trojan] twTW_2|1.7MB/s'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 114.33.57.170
+  skip-cert-verify: false
+  sni: 5c.hhhhh.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 5c.hhhhh.eu.org
+    path: /114.33.57.170:443
+- name: '[Trojan] twTW_3|1.7MB/s'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 125.228.141.233
+  skip-cert-verify: false
+  sni: 5c.hhhhh.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 5c.hhhhh.eu.org
+    path: /125.228.141.233:443
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] trTR_1|1.4MB/s'
+  network: ws
+  port: 80
+  server: TM_AZARBAYJAB1.SERV.9.pagES.DEV
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  ws-opts:
+    headers:
+      Host: tr1-smart.adelping.com
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
+- cipher: chacha20-ietf
+  country: 🇭🇰HK
+  name: '[SS] sgSG²_1|0.5MB/s|0%|GM|X|Histor...'
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] usUS_5|1.3MB/s'
+  network: ws
+  port: 80
+  server: cvfg.ae1autumn.cc.cd
+  servername: cvfg.ae1autumn.cc.cd
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
+  ws-opts:
+    headers:
+      Host: cvfg.ae1autumn.cc.cd
+    path: /YsmRouA9ZbxgW4
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_1|2.6MB/s|GPT⁺|YT-US|X'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.23
+  type: ss
+- name: '[Trojan] inIN²_1|7.9MB/s|GPT⁺|GM|YT|X|H...'
+  network: tcp
+  password: M7v%w11Se*
+  port: 443
+  server: hyfuuf6.wsone.icu
+  skip-cert-verify: true
+  sni: hyfuuf6.wsone.icu
+  type: trojan
+- cipher: aes-256-cfb
+  country: 🇨🇳 CN
+  name: '[SS] vnVN²_2|1.8MB/s|GPT⁺|GM|X|[原生|...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.38
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇯🇵JP
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] jpJP²_2|1.4MB/s|9%|GPT⁺|GM|YT|...'
+  network: ws
+  port: 443
+  server: tokyo01.zgjok.com
+  servername: tokyo01.zgjok.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: e6d5d668-2091-41d9-9bff-df0a1c5107ec
+  ws-opts:
+    headers:
+      HOST: tokyo01.zgjok.com
+    path: /
+- name: '[Trojan] hkHK²_8|14.8MB/s|2%|YT|NF|D+|X...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.208
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_9|5.3MB/s|33%|GPT⁺|GM|YT...'
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  servername: v29.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /
+- name: '[Trojan] twTW¹⁺_1|1.8MB/s|GPT⁺|GM|YT|D+...'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 125.228.141.233
+  skip-cert-verify: false
+  sni: 5c.hhhhh.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /125.228.141.233:443
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_8|3.7MB/s|35%|GPT⁺|YT-CN...'
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  country: 🇨🇳 CN
+  name: '[SS] vnVN²_3|2.5MB/s|GPT⁺|X|[原生|机房]'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.21
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇨🇳 CN
+  name: '[SS] vnVN²_4|0.5MB/s|GPT⁺|X|[原生|机房]'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.80
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_5|2.1MB/s|GPT⁺|X|History...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.185
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] ilIL²_1|0.8MB/s|4%|X|[广播|机房]'
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 18140
+  server: ldu.izenny.com
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_6|2.3MB/s|GPT⁺|GM|X|Hist...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.40
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_7|0.7MB/s|GPT⁺|GM|YT-US|...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.146
+  type: ss
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_7|8.2MB/s|GPT⁺|X|History'
+  network: tcp
+  port: 30846
+  server: v46.hdacd.com
+  servername: v46.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - country: 🇭🇰 HK
-  name: '[Trojan] hkHK²_1|1.4MB/s|2%|YT|D+|X|Suc...'
+  name: '[Trojan] hkHK²_3|6.6MB/s|2%|YT|NF|D+|X|...'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -612,6 +846,193 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- country: 🇹🇼TW
+  name: '[Trojan] hkHK²_4|0.5MB/s|0%|D+|X|[广播|机房...'
+  network: tcp
+  password: b2e15b49-6606-4c62-baff-7015390b3c6a
+  port: 31101
+  server: 220.130.58.136
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_8|1.2MB/s|GPT⁺|GM|X|Hist...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.214
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: '[Vmess] deDE²_5|6.9MB/s|47%|GPT⁺|YT-US...'
+  network: ws
+  port: 8080
+  server: tgju.org
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-571296497.iranpress.co
+    max-early-data: 2560
+    path: /nasnet/cdn
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_9|2.6MB/s|GPT⁺|YT-US|X|[...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.210
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN²_10|0.5MB/s|GPT|X|[原生|机房]'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.150
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_11|2.2MB/s|GPT|GM|YT-US|...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.137
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_12|2.3MB/s|X|History|[原生...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.188
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: '[Vmess] jpJP²_3|12.0MB/s|0%|GPT|GM|YT|...'
+  network: ws
+  port: 12883
+  server: gtm1.ktmwan.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_13|2.8MB/s|GPT⁺|GM|X|[原生...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.2
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇹🇼TW
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] twTW²_3|5.8MB/s|GPT⁺|GM|YT|NF|...'
+  network: ws
+  port: 14610
+  server: akh1.alibabaapi6.com
+  servername: akh1.alibabaapi6.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: a2f33600-7ff1-46c4-abc9-7deb843e88a3
+  ws-opts:
+    headers:
+      HOST: akh1.alibabaapi6.com
+      Host: akh1.alibabaapi6.com
+    path: /5e60be4f/
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] sgSG²_3|8.3MB/s|45%|GPT⁺|GM|YT...'
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  servername: v45.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: '[SS] vnVN²_15|0.7MB/s|GPT⁺|GM|YT-US...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.205
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] brBR²_1|2.1MB/s|GPT⁺|X'
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 55936
+  server: ldu.izenny.com
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '[SS] hkHK²_10|1.9MB/s|0%|YT|NF|D+|X...'
+  password: qwerREWQ@@
+  port: 41632
+  server: 112.213.102.188
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_16|1.1MB/s|GPT⁺|X'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.113
+  type: ss
+- country: 🇭🇰HK
+  name: '[Trojan] hkHK²_11|16.6MB/s|2%|YT|D+|X|H...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.208
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇨🇳 CN
+  name: '[SS] vnVN²_17|1.4MB/s|GPT⁺|YT|X|[原生...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.53
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] nlNL²_6|0.8MB/s|X|History'
+  network: ws
+  port: 2053
+  server: 192.200.160.173
+  servername: app.hajmyab.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
+  ws-opts:
+    headers:
+      HOST: app.hajmyab.ir
+    path: /
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_18|3.2MB/s|GPT⁺|GM|X|His...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.28
+  type: ss
 - alterId: 0
   cipher: auto
   name: '[Vmess] VMESS节点2-ipv6'

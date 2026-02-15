@@ -45,40 +45,32 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[VLESS] sgSG_1|1.2MB/s'
-  network: ws
-  port: 443
-  server: mfa.gov.ua
-  servername: a926adb5.lfree.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 69905933-1b12-24fd-4ded-568ee4322895
-  ws-opts:
-    headers:
-      Host: a926adb5.lfree.ccwu.cc
-    path: /socks5=44fa737d:1bab4a4504ca@38.96.191.150:21719
-- name: '[VLESS] sgSG_2|1.8MB/s'
-  network: ws
-  port: 443
-  server: cm.cf.090227.xyz
-  servername: a926adb5.lfree.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 69905933-1b12-24fd-4ded-568ee4322895
-  ws-opts:
-    headers:
-      Host: a926adb5.lfree.ccwu.cc
-    path: /socks5=44fa737d:1bab4a4504ca@38.96.191.150:21719
-- name: '[VLESS] sgSG_3|3.3MB/s'
-  network: ws
-  port: 443
-  server: 13.228.123.13
-  servername: a926adb5.lfree.ccwu.cc
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] sgSG²_3|8.3MB/s|45%|GPT⁺|GM|YT...'
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  servername: v45.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] sgSG²_4|2.3MB/s|D+|X|[广播|商宽]'
+  network: tcp
+  port: 34574
+  reality-opts:
+    public-key: jHheKC9Sq9ma4qmDE6nT0Sin4256U9BTuCbdi_WTiys
+    short-id: '!!str 820988f321c21e98'
+  server: 77.83.245.188
+  servername: yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: 69905933-1b12-24fd-4ded-568ee4322895
-  ws-opts:
-    headers:
-      Host: a926adb5.lfree.ccwu.cc
-    path: /socks5=44fa737d:1bab4a4504ca@38.96.191.150:21719
+  uuid: b7921b64-e415-44a4-a0ea-62bc634346c3
+  xudp: true

@@ -1,33 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] jpJP²_4|2.1MB/s|0%|GPT|GM|YT|D...'
+  name: '[Vmess] HK5｜原生/疑似家宽｜非常安全'
   network: ws
-  port: 12883
+  port: '12883'
   server: gtm1.ktmwan.net
-  servername: baidu.com
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
   ws-opts:
     headers:
       Host: gtm1.ktmwan.net
     path: /
-  xudp: true
 - name: '[Socks5] HK4｜家宽｜非常安全'
   port: 443
   server: a3f83f3b-t7bj40-tg010c-1r7od.hkt2.cdnhuawei.com
   tls: false
   type: socks5
   username: NmQ1NjQzNmMtMTUwZC0xMWYwLWIwYzgtZjIzYzkxM2M4ZDJiOjxwYXNzd29yZD4%3D
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK²_5|1.4MB/s|2%|YT|D+|X|[原生...'
+- name: '[Trojan] HK11｜家宽｜非常安全'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -91,9 +82,17 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[Http] hkHK²_1|2.9MB/s|NF|D+|X|Histor...'
+  password: <password>
+  port: 8443
+  server: cc416daa-ta1og0-trftb1-1psmw.hkt.cdnhuawei.com
+  sni: cc416daa-ta1og0-trftb1-1psmw.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: 42bb6d36-97c7-11ee-be7f-f23c9164ca5d
 - client-fingerprint: chrome
   country: 🇭🇰 HK
-  name: '[Trojan] hkHK²_3|2.6MB/s|D+|X|Succeed|[...'
+  name: '[Trojan] hkHK²_2|1.1MB/s|2%|X|Succeed|[...'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -101,17 +100,19 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  country: 🇭🇰HK
-  name: '[Trojan] hkHK²_6|0.6MB/s|2%|YT|D+|X|Suc...'
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: '[VLESS] hkHK²_3|0.6MB/s|2%|D+|X|Succee...'
   network: tcp
-  password: BxceQaOe
   port: 443
-  server: 58.152.25.208
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
+  reality-opts:
+    public-key: 4cfuj5otn8-uhPUe23OhB6KY8I42AxxJNt4lWIpg_AU
+  server: 2.hk.1.cdn-bilibili.cn
+  servername: www.icloud.com
+  tls: true
+  type: vless
   udp: true
+  uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: '[VLESS] HK_speednode_0002'

@@ -27,32 +27,33 @@ proxies:
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 3423
-  server: 57.180.43.205
+  server: 52.195.215.231
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 日本3|@ripaojiedian'
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
-  port: 193
-  server: 160.16.132.38
+  port: 3423
+  server: 35.77.86.187
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: '[VLESS] jpJP_1|1.0MB/s'
+- client-fingerprint: chrome
+  country: 🇭🇰HK
+  name: '[Trojan] jpJP²_3|1.0MB/s|0%|GPT⁺|GM|YT|...'
   network: tcp
-  port: 20418
-  reality-opts:
-    public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
-    short-id: '!!str 4b070735'
-  server: hkt1.xn--9kqp42aims.top
-  servername: buylite.music.apple.com
-  tls: true
-  type: vless
+  password: a8f3baf4-0694-4f73-bebc-9e7f3ea01b95
+  port: 30003
+  server: jp10.jsyjiedian8.com
+  skip-cert-verify: true
+  sni: jsygouer.weixin-baidu-qq.com
+  type: trojan
   udp: true
-  uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6
+  ws-opts:
+    headers:
+      Host: jp10.jsyjiedian8.com
+    path: /
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: '[VLESS] JP_speednode_0004'

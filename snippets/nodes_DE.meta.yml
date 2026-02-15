@@ -83,9 +83,12 @@ proxies:
     path: /NASNET/cdn?ed=2560
 - alterId: 2
   cipher: auto
-  name: '[Vmess] DE11｜机房｜低风险'
+  client-fingerprint: chrome
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] 🏴‍☠_1deDE²_9|1.4MB/s|0.7MB/s|X...'
   network: tcp
-  port: '30833'
+  port: 30833
   server: v33.hdacd.com
   tls: false
   type: vmess
@@ -98,78 +101,241 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] deDE_1|1.3MB/s'
+- flow: xtls-rprx-vision
+  name: '[VLESS] deDE_1|1.7MB/s'
   network: tcp
   port: 443
-  server: 20.218.137.249
-  servername: jina-20218137249-direct.yektanet.co
+  server: 20.79.162.37
+  servername: jina-207916237-direct.yektanet.co
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] deDE_2|1.1MB/s'
+  network: tcp
+  port: 443
+  server: 20.79.160.49
+  servername: jina-207916049-direct.yektanet.co
   tls: true
   type: vless
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] deDE_2|1.6MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: jtECS8GeY0dRcVtbUgGiQ_AUIllOwrkldFQnlzp0TRs
-    short-id: '!!str ed62673442aeef4d'
-  server: access-de4.agveit.pro
-  servername: access-de4.agveit.pro
-  tls: true
-  type: vless
-  udp: true
-  uuid: 637bd1f3-f097-4fa2-a62d-322f1aede2fe
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] deDE_3|1.3MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 10afHwCh2N-Qeqsskwvp9gLC0JrOA-CSfuRbgcK7YkA
-    short-id: '!!str d9a8dad452a7644f'
-  server: 188.245.209.90
-  servername: miro.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 97cfc877-9d44-24c7-81c5-6180d4e4cecb
-  xudp: true
-- alterId: 0
+- alpn:
+  - ''
+  alterId: 0
   cipher: auto
   client-fingerprint: chrome
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] deDE²_1|0.6MB/s|X|History'
+  name: '[Vmess] deDE²_8|6.6MB/s|GPT|X|History|...'
   network: ws
   port: 8443
   server: dll.avaaaal.ir
   servername: cdge.avaaaal.ir
+  skip-cert-verify: false
   tls: true
   type: vmess
+  udp: true
   uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
   ws-opts:
     headers:
       Host: cdge.avaaaal.ir
     path: /
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: '[Vmess] deDE²_6|6.6MB/s|47%|GPT⁺|YT-US...'
+  network: ws
+  port: 8080
+  server: tgju.org
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-571296497.iranpress.co
+    max-early-data: 2560
+    path: /nasnet/cdn
+  xudp: true
+- client-fingerprint: chrome
+  fingerprint: ''
+  name: '[VLESS] deDE_5|2.0MB/s'
+  network: ws
+  port: 443
+  server: 172.67.173.29
+  servername: cdn-nodes.maviks.eu
+  tls: true
+  type: vless
+  udp: false
+  uuid: 4a73fddb-e8c2-45fe-ad2c-e5bde13e51a6
+  ws-opts:
+    headers:
+      Host: cdn-nodes.maviks.eu
+    path: /pLmdwS3fSrE9WwdgE3LdG2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] deDE_6|2.5MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TtGqqsFCFZIPPnULMW6jGNZiZvObUc4smzRJJ-dpAhg
+    short-id: '!!str e54858300ed5'
+  server: 213.165.60.92
+  servername: ge.alpacalounge.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b358dfad-0403-47f4-9eb6-2a2a9768c1c9
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE_7|2.7MB/s'
+  network: ws
+  port: 443
+  server: poli.appleseraj.ir
+  servername: duseldorf.appleseraj.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: fd42b237-7f9b-4285-b378-7ad1857deb07
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: duseldorf.appleseraj.ir
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
+        Safari/537.36
+    max-early-data: 2048
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_3|6.9MB/s|6%|GPT⁺|X|[原生|...'
+  network: ws
+  port: 80
+  server: vpnazadie.voicesofiran.org
+  servername: digikala.com
+  type: vless
+  udp: true
+  uuid: 8960cdff-0f33-42f5-8b69-8157069542db
+  ws-opts:
+    headers:
+      Host: voicesofiran.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
+    path: /vless-ntls
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[Vmess] deDE²_4|6.3MB/s|13%|GPT⁺|NF|X|...'
+  network: http
+  port: 46065
+  server: 65.109.254.90
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8d6d1604-f776-4e16-8276-629092f01b5d
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_5|7.7MB/s|6%|GPT⁺|X|[原生|...'
+  network: ws
+  port: 80
+  server: vpnazadie.voicesofiran.org
+  type: vless
+  udp: true
+  uuid: f92f1657-f560-466d-9b75-c784d5d52912
+  ws-opts:
+    headers:
+      Host: voicesofiran.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /vless-ntls
+  xudp: true
+- name: '[Socks5] deDE²_7|2.1MB/s|6%|GPT|X'
+  password: ''
+  port: 2000
+  server: 91.107.254.36
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- client-fingerprint: chrome
+  name: '[VLESS] US_speednode_0014'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: iv8v94q9qxkMw5WSUc0obloyLVFNTsfyy9Y3FaGlj1k
+    short-id: '!!str efd29b2d25'
+  server: 64.188.64.59
+  servername: yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 12cb9911-a48d-4147-85cc-68dd678e94c6
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE²_10|6.5MB/s|GPT|X'
+  network: ws
+  port: 443
+  server: vpnazadie.voicesofiran.org
+  servername: voicesofiran.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8960cdff-0f33-42f5-8b69-8157069542db
+  ws-opts:
+    headers:
+      Host: voicesofiran.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: /vless-tls
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] deDE²_11|2.3MB/s|20%|GPT⁺|NF|X...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: RNoJ4GaXpjzQVkzBDtTc_XEQkMfM_6aqKcJqQRxXSHM
+    short-id: '!!str 9c2378562188c3cb'
+  server: 194.99.21.132
+  servername: de.kickvpn.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: c73b5c37-0c2b-4d78-8a48-d32bba7432b4
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] DE_speednode_0001'

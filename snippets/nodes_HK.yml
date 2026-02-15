@@ -5,7 +5,7 @@ proxies:
   country: 🇬🇧GB
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] jpJP²_4|5.0MB/s|0%|GPT|GM|YT|N...'
+  name: '[Vmess] jpJP²_4|2.1MB/s|0%|GPT|GM|YT|D...'
   network: ws
   port: 12883
   server: gtm1.ktmwan.net
@@ -20,7 +20,8 @@ proxies:
       Host: gtm1.ktmwan.net
     path: /
   xudp: true
-- name: '[Trojan] HK11｜家宽｜非常安全'
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_5|1.4MB/s|2%|YT|D+|X|[原生...'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -71,28 +72,19 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] hkHK²_8|16.0MB/s|2%|GPT⁺|YT|NF...'
-  network: ws
-  port: 80
-  server: 9ff1414d-t70f40-t9p7yj-1ijh5.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
+- client-fingerprint: chrome
+  country: 🇭🇰 HK
+  name: '[Trojan] hkHK²_3|2.6MB/s|D+|X|Succeed|[...'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.208
   skip-cert-verify: true
-  type: vmess
-  uuid: f7d95364-607b-11ee-93af-f23c91369f2d
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-      Host: 9ff1414d-t70f40-t9p7yj-1ijh5.hkt.gotochinatown.net
-    path: /
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
   country: 🇭🇰HK
-  name: '[Trojan] hkHK²_4|9.9MB/s|2%|YT|NF|X|His...'
+  name: '[Trojan] hkHK²_6|0.6MB/s|2%|YT|D+|X|Suc...'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -101,84 +93,3 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇭🇰 HK
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] hkHK²_11|13.2MB/s|2%|GPT⁺|YT|N...'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: f7d95364-607b-11ee-93af-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK²_6|6.0MB/s|2%|YT|NF|D+|X|...'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.208
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  country: 🇭🇰 HK
-  name: '[Trojan] hkHK²_7|11.0MB/s|2%|YT|D+|X|[原...'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.208
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇪🇸ES
-  name: '[SS] hkHK²_9|2.2MB/s|35%|X|History|...'
-  password: TjWj6hhm0XXkWvKL
-  port: 8388
-  server: 212.192.12.201
-  type: ss
-- cipher: chacha20-ietf
-  country: 🇭🇰 HK
-  name: '[SS] hkHK²_12|0.9MB/s|0%|X|History'
-  password: asd123456
-  port: 8388
-  server: 103.149.183.200
-  type: ss
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK²_13|6.4MB/s|0%|YT|D+|X|[广...'
-  network: tcp
-  password: c49812ff-c1ee-4abb-8eee-52bfc16ef923
-  port: 31103
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] hkHK²_14|10.0MB/s|0%|YT|D+|X|[...'
-  network: ws
-  port: 19202
-  server: mlmainaaa.7yq.top
-  servername: shoutingtoutiao3.10010.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b6cfe5d2-19e9-436d-b862-1935c62dcb14
-  ws-opts:
-    headers:
-      HOST: shoutingtoutiao3.10010.com
-      Host: mlmainaaa.7yq.top
-    path: /

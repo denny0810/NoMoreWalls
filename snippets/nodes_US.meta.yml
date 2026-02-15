@@ -346,13 +346,8 @@ proxies:
   type: hysteria2
   udp: true
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] usUS²_4|1.6MB/s|0%|GPT⁺|X|Hist...'
+  name: '[VLESS] usUS_2|2.2MB/s'
   network: tcp
   port: 443
   reality-opts:
@@ -364,7 +359,6 @@ proxies:
   type: vless
   udp: true
   uuid: c5f8c9a4-916d-45c3-aad3-cd3ed706c5dd
-  xudp: true
 - alterId: 0
   cipher: auto
   name: '[Vmess] usUS_3|1.0MB/s'
@@ -426,123 +420,41 @@ proxies:
         like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /?ed=2048#TELEGRAM-anotherme_night---#TELEGRAM-anotherme_night---#TELEGRAM-anotherme_night---#TELEGRAM-anotherme_night---#TELEGRAM-anotherme_night
   xudp: true
-- name: '[Socks5] usUS²_1|4.7MB/s|GPT⁺|X|History'
-  password: ''
-  port: 1080
-  server: 192.241.156.17
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] ruRU²_2|2.7MB/s|21%|GPT|YT-US|...'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: LHlFdzprRH3N8OxZK5WrGSu5vtr0_fu6iLzHAFNt9AM
-    short-id: '!!str 3543d68a'
-  server: 109.176.229.97
-  servername: tgju.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: cdeedd27-4b50-4f5b-b0c4-1967cc972f93
-  xudp: true
-- alterId: 2
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  country: 🇭🇰HK
+  country: 🇷🇺 RU
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] usUS²_12|6.8MB/s|35%|GPT⁺|X|Hi...'
+  name: '[Vmess] usUS²_2|1.2MB/s|5%|GPT⁺|GM|D+|...'
   network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  servername: v8.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_2|1.3MB/s|GPT⁺|YT-US|X|[...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.61
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_3|1.5MB/s|GPT⁺|GM|YT-US|...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.13
-  type: ss
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: '[Vmess] usUS²_3|6.2MB/s|5%|GPT⁺|GM|YT|...'
-  network: raw
   port: 31350
   server: c86s3.portablesubmarines.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: 5f7e4a08-757a-48fa-8ed8-38599c684851
-  xudp: true
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁 ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_8|6.8MB/s|33%|GPT|GM|NF|...'
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     path: /
-- name: '[Http] usUS²_6|4.6MB/s|11%|GPT⁺|GM|X|...'
-  password: 34ddff9e-049d-444d-8bee-ae45928019ef
-  port: 4449
-  server: 4-n67hzkyu.mix.dexiansheng.com
-  sni: 4-n67hzkyu.mix.dexiansheng.com
-  tls: true
-  type: http
-  username: walless
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] nlNL²_11|5.2MB/s|39%|GPT⁺|YT-U...'
+  xudp: true
+- client-fingerprint: chrome
+  country: 🏁ZZ
+  name: '[VLESS] hkHK¹-US⁰_1|1.4MB/s|5%|GPT|D+|...'
   network: ws
-  port: 2053
-  server: 192.200.160.173
-  servername: app.hajmyab.ir
+  port: 2095
+  server: www.fbi.gov
+  servername: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      HOST: app.hajmyab.ir
-    path: /
-- name: '[Anytls] usUS²_9|5.7MB/s|GPT⁺|GM|YT|TK|...'
-  password: 437bd464-b524-3812-ac02-85483bcf7407
-  port: 19999
-  server: 165.22.142.169
-  skip-cert-verify: true
-  type: anytls
-  udp: true
+      Host: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
+    path: /fp=randomized
 - client-fingerprint: chrome
-  name: '[VLESS] usUS²_10|4.4MB/s|11%|GPT⁺|NF|X'
+  name: '[VLESS] usUS²_3|0.9MB/s|X'
   network: tcp
   port: 443
   reality-opts:
@@ -553,33 +465,83 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: d71cd588-72c1-4780-9e70-e73e5c212bb5
+  uuid: 7e84aacd-0d09-436e-ae2d-7831d23df654
+- client-fingerprint: chrome
+  country: 🏁ZZ
+  name: '[VLESS] hkHK¹-US⁰_2|5.0MB/s|5%|GPT⁺|YT...'
+  network: ws
+  port: 2095
+  server: cloudflare-dns.com
+  servername: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
+  skip-cert-verify: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
+    path: /fp=randomized
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  delay: 1154
+  name: '[Vmess] usUS²_4|5.4MB/s|GPT⁺|GM|YT|X|H...'
+  network: tcp
+  port: 30846
+  server: v46.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: '[Vmess] usUS²_5|1.4MB/s|5%|GPT⁺|GM|NF|...'
+  network: raw
+  port: 31350
+  server: c86s3.portablesubmarines.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f7e4a08-757a-48fa-8ed8-38599c684851
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] usUS²_11|2.5MB/s|0%|GPT⁺|X|[广播...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: i00_tpIO0Oe2TV2lxm2BLm6QUzzkncyJtauMa7Rn500
-    short-id: '!!str b91a73752053b039'
-  server: 144.31.128.47
-  servername: se-mirror.api.akenai.click
+  name: '[VLESS] usUS¹-CA⁰_1|2.4MB/s|YT|D+|X|[原...'
+  network: ws
+  port: 2096
+  server: 147.185.161.238
+  servername: sni.jpmj.dev
   tls: true
   type: vless
   udp: true
-  uuid: a607f07f-2937-4c2c-aec6-363e0688abd2
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /?ed=2560&telegram🇨🇳+@wangcai2
   xudp: true
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_8|1.6MB/s|GPT|GM|YT-US|X...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.19
-  type: ss
+- client-fingerprint: chrome
+  country: 🏁ZZ
+  name: '[VLESS] usUS¹⁺_1|1.4MB/s|5%|GPT|D+|X|[...'
+  network: ws
+  port: 2095
+  server: www.npmjs.com
+  servername: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
+  skip-cert-verify: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
+    path: /fp=randomized
 - client-fingerprint: ios
   flow: xtls-rprx-vision
   name: '[VLESS] US_speednode_0013'
@@ -594,6 +556,19 @@ proxies:
   type: vless
   udp: true
   uuid: c6977f74-e620-4748-a2d3-4351a588c659
+- client-fingerprint: chrome
+  name: '[VLESS] US_speednode_0014'
+  port: 443
+  reality-opts:
+    public-key: iv8v94q9qxkMw5WSUc0obloyLVFNTsfyy9Y3FaGlj1k
+    short-id: '!!str efd29b2d25'
+  server: 64.188.64.59
+  servername: yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 12cb9911-a48d-4147-85cc-68dd678e94c6
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] US_speednode_0015'

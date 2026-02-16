@@ -1,59 +1,25 @@
 proxies:
-- name: '[Trojan] twTW_2|1.7MB/s'
+- name: '[Trojan] twTW_1|1.1MB/s'
   network: ws
   password: 5a2c16f9
-  port: 443
-  server: 114.33.57.170
-  skip-cert-verify: false
-  sni: 5c.hhhhh.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 5c.hhhhh.eu.org
-    path: /114.33.57.170:443
-- name: '[Trojan] twTW_3|1.7MB/s'
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 125.228.141.233
-  skip-cert-verify: false
-  sni: 5c.hhhhh.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 5c.hhhhh.eu.org
-    path: /125.228.141.233:443
-- client-fingerprint: chrome
-  name: '[Trojan] twTW¹⁺_1|1.8MB/s|GPT⁺|GM|YT|D+...'
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 125.228.141.233
-  skip-cert-verify: false
+  port: 43
+  server: 220.128.110.108
   sni: 5c.hhhhh.eu.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /125.228.141.233:443
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇹🇼TW
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] twTW²_3|5.8MB/s|GPT⁺|GM|YT|NF|...'
+      Host: 5c.hhhhh.eu.org
+    path: /220.128.110.108:43
+- name: '[Trojan] twTW_2|3.0MB/s'
   network: ws
-  port: 14610
-  server: akh1.alibabaapi6.com
-  servername: akh1.alibabaapi6.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: a2f33600-7ff1-46c4-abc9-7deb843e88a3
+  password: 5a2c16f9
+  port: 443
+  server: 125.228.236.138
+  skip-cert-verify: false
+  sni: 5c.hhhhh.eu.org
+  type: trojan
   ws-opts:
     headers:
-      HOST: akh1.alibabaapi6.com
-      Host: akh1.alibabaapi6.com
-    path: /5e60be4f/
+      Host: 5c.hhhhh.eu.org
+    path: /125.228.236.138:443

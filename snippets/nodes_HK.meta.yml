@@ -5,7 +5,7 @@ proxies:
   country: 🇬🇧GB
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] jpJP²_1|0.6MB/s|0%|GPT|YT|X|Hi...'
+  name: '[Vmess] jpJP²_4|1.3MB/s|0%|GPT|GM|YT|N...'
   network: ws
   port: 12883
   server: gtm1.ktmwan.net
@@ -13,20 +13,21 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
   ws-opts:
     headers:
       HOST: baidu.com
       Host: gtm1.ktmwan.net
     path: /
+  xudp: true
 - name: '[Socks5] HK4｜家宽｜非常安全'
   port: 443
   server: a3f83f3b-t7bj40-tg010c-1r7od.hkt2.cdnhuawei.com
   tls: false
   type: socks5
   username: NmQ1NjQzNmMtMTUwZC0xMWYwLWIwYzgtZjIzYzkxM2M4ZDJiOjxwYXNzd29yZD4%3D
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK²_1|1.7MB/s|2%|NF|D+|X|His...'
+- name: '[Trojan] HK11｜家宽｜非常安全'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -102,16 +103,6 @@ proxies:
   sni: alhy.maocf1.top
   type: hysteria2
   up: ''
-- client-fingerprint: chrome
-  name: '[Trojan] hkHK²_2|1.4MB/s|2%|YT|D+|X|His...'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.208
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: '[VLESS] HK_speednode_0002'

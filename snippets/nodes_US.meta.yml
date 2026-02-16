@@ -362,7 +362,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: '[VLESS] usUS_3|2.4MB/s'
+  name: '[VLESS] usUS²_4|5.8MB/s|0%|GPT⁺|X|[广播|...'
   network: tcp
   port: 443
   reality-opts:
@@ -375,10 +375,15 @@ proxies:
   udp: true
   uuid: f8ffc2f3-9d01-41f8-9b8a-833ea3176318
   xudp: true
-- client-fingerprint: random
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
   host: azure.microsoft.com
-  name: '[VLESS] usUS_4|2.1MB/s'
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] usUS²_7|3.4MB/s|0%|GPT⁺|GM|YT|...'
   network: tcp
   path: /
   port: 443
@@ -391,28 +396,162 @@ proxies:
   tfo: true
   tls: true
   type: vless
+  udp: true
   uuid: c5f8c9a4-916d-45c3-aad3-cd3ed706c5dd
-- alterId: 2
+  xudp: true
+- name: '[Http] usUS²_1|5.5MB/s|0%|GPT⁺|X|[广播|...'
+  password: 32315324-cf6b-11ed-979b-f23c9164ca5d
+  port: 443
+  server: 897380fc-tanwg0-tc4j28-nx3b.se.oshuawei.com
+  sni: 897380fc-tanwg0-tc4j28-nx3b.se.oshuawei.com
+  tls: true
+  type: http
+  username: 32315324-cf6b-11ed-979b-f23c9164ca5d
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] usUS²_2|3.3MB/s|17%|GPT⁺|YT-AE...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: xJIswEHrphk8LCn-DyJxw4uypPkouxPgNsfiyjRU-3w
+    short-id: '!!str 41a0b29e95aaea87'
+  server: ae.cdn.stun.su
+  servername: ae.cdn.stun.su
+  tls: true
+  type: vless
+  udp: true
+  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] usUS¹-CA⁰_1|5.6MB/s|5%|TK|NF|D...'
+  network: ws
+  port: 2096
+  server: 45.130.125.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.jpmj.dev
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_3|1.0MB/s|GPT⁺|YT-US|X|H...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.104
+  type: ss
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  country: 🇨🇳CN
+  country: 🇬🇧GB
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] usUS²_1|3.8MB/s|X|History|[原生|...'
+  name: '[Vmess] usUS²_3|1.1MB/s|48%|GPT⁺|GM|YT...'
   network: tcp
-  port: 30846
-  server: v46.hdacd.com
-  servername: v46.hdacd.com
+  port: 57449
+  server: 157.173.206.47
   skip-cert-verify: true
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 4f6d0ce6-0406-447c-f307-21a6aa7fe6b2
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_8|0.7MB/s|GPT⁺|GM|YT-US|...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.2
+  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] ruRU²_2|0.9MB/s|20%|GPT|YT-US|...'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: LHlFdzprRH3N8OxZK5WrGSu5vtr0_fu6iLzHAFNt9AM
+    short-id: '!!str 3543d68a'
+  server: 109.176.229.97
+  servername: tgju.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: cdeedd27-4b50-4f5b-b0c4-1967cc972f93
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_9|1.6MB/s|GPT⁺|YT-US|X|H...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.203
+  type: ss
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '[VLESS] usUS²_5|4.5MB/s|4%|GPT⁺|YT-HK|...'
+  network: tcp
+  port: 20417
+  reality-opts:
+    public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
+    short-id: '!!str 4b070735'
+  server: hkt1.xn--9kqp42aims.top
+  servername: buylite.music.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_17|1.2MB/s|GPT⁺|YT-US|X|...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.12
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_18|1.5MB/s|GPT⁺|YT-US|X|...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.192
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_25|1.2MB/s|GPT⁺|GM|YT-US...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.30
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_28|0.8MB/s|GPT⁺|GM|YT-US...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.197
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_29|0.5MB/s|GPT⁺|GM|YT-US...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.45
+  type: ss
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
   country: 🇨🇳CN
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] 🏴‍☠_1usUS²_4|3.1MB/s|[原生|机房]|2...'
+  name: '[Vmess] usUS²_6|6.7MB/s|33%|GPT⁺|YT|X|...'
   network: tcp
   port: 30829
   server: v29.hdacd.com
@@ -420,15 +559,26 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- auth: 7dd10318-28fd-413f-81f0-cd0a286e4779
-  name: '[Hysteria2] usUS²_3|0.8MB/s|0%|GPT⁺|TK|NF|...'
-  password: 7dd10318-28fd-413f-81f0-cd0a286e4779
-  port: 2056
-  server: mg2.mangshe.xyz
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_32|1.9MB/s|GPT⁺|YT-US|X|...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.41
+  type: ss
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_8|6.3MB/s|33%|X|History'
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
   skip-cert-verify: true
-  sni: mg2.mangshe.xyz
-  type: hysteria2
-  udp: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: ios
   flow: xtls-rprx-vision
   name: '[VLESS] US_speednode_0013'
@@ -443,19 +593,6 @@ proxies:
   type: vless
   udp: true
   uuid: c6977f74-e620-4748-a2d3-4351a588c659
-- client-fingerprint: chrome
-  name: '[VLESS] US_speednode_0014'
-  port: 443
-  reality-opts:
-    public-key: iv8v94q9qxkMw5WSUc0obloyLVFNTsfyy9Y3FaGlj1k
-    short-id: '!!str efd29b2d25'
-  server: 64.188.64.59
-  servername: yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 12cb9911-a48d-4147-85cc-68dd678e94c6
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] US_speednode_0015'

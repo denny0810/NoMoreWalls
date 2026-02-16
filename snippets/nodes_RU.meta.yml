@@ -1,6 +1,11 @@
 proxies:
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
   name: '[VLESS] RU_speednode_0011'
   network: tcp
   port: 443
@@ -14,6 +19,7 @@ proxies:
   type: vless
   udp: true
   uuid: 8ff544c5-303c-46f4-80fe-8e8e166fd981
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -34,6 +40,55 @@ proxies:
   udp: true
   uuid: 1eea1e0b-6388-491c-b310-5524e8384808
   xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] plPL²_3|6.4MB/s|6%|GPT⁺|YT-RU|...'
+  network: tcp
+  port: 443
+  server: 144.31.2.20
+  servername: plcdn18.suio.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_11|1.4MB/s|GPT⁺|GM|YT-RU...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.50
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] ruRU²_3|3.9MB/s|YT|X|[原生|机房]'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24
+    short-id: '!!str bbfb4f7a53e22dd3'
+  server: spb.roblugo.su
+  servername: spb.roblugo.su
+  tls: true
+  type: vless
+  udp: true
+  uuid: 32561144-434f-4752-a731-f35cd191ba4a
+  xudp: true
+- name: '[Socks5] ruRU²_4|1.6MB/s|X'
+  password: ''
+  port: 1080
+  server: 31.130.131.142
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - client-fingerprint: chrome
   name: '[VLESS] RU_speednode_0007'
   port: 8443

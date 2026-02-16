@@ -7,7 +7,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[Http] twTW_1|1.6MB/s'
+- name: '[Http] twTW²_1|4.9MB/s|GPT⁺|GM|YT|NF|...'
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -16,3 +16,49 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: chrome
+  country: 🇹🇼TW
+  name: '[Trojan] twTW²_2|10.2MB/s|4%|GPT⁺|GM|YT...'
+  network: tcp
+  password: 50eecad1-ca84-4e02-b45f-dfd3f43bc7a3
+  port: 22231
+  server: cdnfire.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdnfire.xiaomispeed.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  name: '[SS] twTW²_3|0.6MB/s|4%|GPT⁺|GM|D+|...'
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 43076
+  server: ldu.izenny.com
+  type: ss
+- client-fingerprint: chrome
+  name: '[Trojan] twTW¹⁺_1|0.8MB/s|GPT|GM|YT|D+|...'
+  network: ws
+  password: 5a2c16f9
+  port: 43
+  server: 220.128.110.108
+  sni: 5c.hhhhh.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 5c.hhhhh.eu.org
+    path: /220.128.110.108:43
+- client-fingerprint: chrome
+  name: '[Trojan] twTW¹⁺_2|11.2MB/s|GPT⁺|GM|YT|D...'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 125.228.141.233
+  skip-cert-verify: false
+  sni: 5c.hhhhh.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /125.228.141.233:443

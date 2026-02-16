@@ -1,5 +1,26 @@
 proxies:
 - client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] ruRU_1|2.7MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+    short-id: '!!str 3f200574d011010f'
+  server: 51.250.4.119
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64a3a23c-363a-4bee-9401-f5c42eea5a27
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
   name: '[VLESS] RU_speednode_0007'
   network: tcp
   port: 8443
@@ -13,28 +34,26 @@ proxies:
   type: vless
   udp: true
   uuid: bf9931be-a7fd-46b3-9919-b858299e9f65
-- name: '[Anytls] ruRU_2|1.8MB/s'
-  password: b2ca8061-cf93-403f-a150-c26fb26610f7
-  port: 25741
-  server: 46.17.40.31
-  skip-cert-verify: true
-  tfo: true
-  type: anytls
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[VLESS] ruRU_3|1.8MB/s'
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] ruRU_3|2.0MB/s'
   network: tcp
   port: 443
   reality-opts:
-    public-key: 7IOtSp0-n2_uNS5nMO9ywZbn2HibMRGy0KbLad3szXc
-    short-id: '!!str b8cf9578640a9edf'
-  server: 176.109.106.241
-  servername: eh.vk.com
+    public-key: OBR2JYROQB8odK5glVW_KLnsWl3UZ-voyGq_9ihQgTI
+    short-id: '!!str d49d578f280fd83a'
+  server: 51.250.23.190
+  servername: stats.vk-portal.net
   tls: true
   type: vless
   udp: true
-  uuid: 07cd9dbe-21ac-4871-817d-c772687e4b7c
+  uuid: 30c04389-bbcb-431f-9d47-a8ad24406bd4
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision

@@ -32,30 +32,20 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[Socks5] jpJP²_3|1.8MB/s|36%|GPT|GM|X'
-  password: ''
-  port: 5555
-  server: 64.176.34.132
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: '[Vmess] jpJP²_5|8.4MB/s|0%|GPT|YT|NF|D...'
-  network: ws
-  port: 12883
-  server: gtm1.ktmwan.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '[VLESS] jpJP_1|1.8MB/s'
+  network: tcp
+  port: 20517
+  reality-opts:
+    public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
+    short-id: '!!str 4b070735'
+  server: hkt.xn--9kqp42aims.top
+  servername: buylite.music.apple.com
+  tls: true
+  type: vless
   udp: true
-  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-  xudp: true
+  uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: '[VLESS] JP_speednode_0004'

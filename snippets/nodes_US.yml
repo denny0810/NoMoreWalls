@@ -326,21 +326,40 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: '[SS] usUS_1|1.2MB/s'
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 104.192.226.106
-  type: ss
-- name: '[Trojan] usUS_2|2.3MB/s'
-  network: ws
-  password: 1338f666-2fcc-4538-bc29-1ebf89624383
-  port: 443
-  server: u8.ok8.ccwu.cc
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] usUS_1|2.5MB/s'
+  port: 180
+  server: 82.198.246.97
   skip-cert-verify: false
-  sni: u8.ok8.ccwu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: u8.ok8.ccwu.cc
-    path: /%2FXCLcnSashhgSVE3HOw1VI85y
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_1|3.8MB/s|X|History|[原生|...'
+  network: tcp
+  port: 30846
+  server: v46.hdacd.com
+  servername: v46.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] 🏴‍☠_1usUS²_4|3.1MB/s|[原生|机房]|2...'
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  servername: v29.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

@@ -326,24 +326,15 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: '[SS] usUS_1|1.2MB/s'
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 104.192.226.106
-  type: ss
-- name: '[Trojan] usUS_2|2.3MB/s'
-  network: ws
-  password: 1338f666-2fcc-4538-bc29-1ebf89624383
-  port: 443
-  server: u8.ok8.ccwu.cc
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] usUS_1|2.5MB/s'
+  port: 180
+  server: 82.198.246.97
   skip-cert-verify: false
-  sni: u8.ok8.ccwu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: u8.ok8.ccwu.cc
-    path: /%2FXCLcnSashhgSVE3HOw1VI85y
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -351,38 +342,18 @@ proxies:
     headers: {}
     path:
     - /
-  name: '[VLESS] usUS_4|2.8MB/s'
+  name: '[VLESS] usUS_2|2.9MB/s'
   network: tcp
   port: 443
   reality-opts:
-    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
-    short-id: '!!str 4fa44664f6a566d3'
-  server: usa.scroogethebest.com
-  servername: usa.scroogethebest.com
+    public-key: cRoPQAxIR43_cZ5Ow5BP4L7fb60sI3EcG39ldWI0rDo
+    short-id: '!!str a1b223d4'
+  server: 144.31.104.228
+  servername: de.darknet.run
   tls: true
   type: vless
   udp: true
-  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] usUS_5|2.9MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: xJIswEHrphk8LCn-DyJxw4uypPkouxPgNsfiyjRU-3w
-    short-id: '!!str 41a0b29e95aaea87'
-  server: ae.cdn.stun.su
-  servername: ae.cdn.stun.su
-  tls: true
-  type: vless
-  udp: true
-  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
+  uuid: 8c6302ee-8eb9-488c-9888-b7a5eb48fccd
   xudp: true
 - client-fingerprint: chrome
   encryption: none
@@ -391,35 +362,73 @@ proxies:
     headers: {}
     path:
     - /
-  name: '[VLESS] usUS_6|3.1MB/s'
+  name: '[VLESS] usUS_3|2.4MB/s'
   network: tcp
   port: 443
   reality-opts:
-    public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
-    short-id: '!!str '
-  server: 142.248.80.157
-  servername: apple.com
+    public-key: Ptlv1A0hHK3qw92t9cjKNJjaYCJnglNDGzPDOc4OZ1I
+    short-id: '!!str a59201a59450'
+  server: 144.31.180.212
+  servername: www.microsoft.com
   tls: true
   type: vless
   udp: true
-  uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
+  uuid: f8ffc2f3-9d01-41f8-9b8a-833ea3176318
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] usUS_7|1.8MB/s'
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  host: azure.microsoft.com
+  name: '[VLESS] usUS_4|2.1MB/s'
   network: tcp
+  path: /
   port: 443
-  server: 144.31.128.38
-  servername: secdn22.suio.me
+  reality-opts:
+    public-key: a0utGrRVTHL53cH4poHif9aPJNNQ10nhiMSdx8n1kGk
+    short-id: '!!str 5a2d4f49'
+  server: 104.167.197.27
+  servername: azure.microsoft.com
+  skip-cert-verify: true
+  tfo: true
   tls: true
   type: vless
+  uuid: c5f8c9a4-916d-45c3-aad3-cd3ed706c5dd
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_1|3.8MB/s|X|History|[原生|...'
+  network: tcp
+  port: 30846
+  server: v46.hdacd.com
+  servername: v46.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] 🏴‍☠_1usUS²_4|3.1MB/s|[原生|机房]|2...'
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  servername: v29.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- auth: 7dd10318-28fd-413f-81f0-cd0a286e4779
+  name: '[Hysteria2] usUS²_3|0.8MB/s|0%|GPT⁺|TK|NF|...'
+  password: 7dd10318-28fd-413f-81f0-cd0a286e4779
+  port: 2056
+  server: mg2.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg2.mangshe.xyz
+  type: hysteria2
   udp: true
-  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
-  xudp: true
 - client-fingerprint: ios
   flow: xtls-rprx-vision
   name: '[VLESS] US_speednode_0013'

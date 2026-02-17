@@ -1,20 +1,13 @@
 proxies:
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  country: 🏁 ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] deDE²_5|0.6MB/s|X|Succeed'
+  name: '[Vmess] DE5｜机房｜低风险'
   network: tcp
-  port: 30833
+  port: '30833'
   server: v33.hdacd.com
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /
 - name: '[Hysteria2] DE'
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -54,11 +47,7 @@ proxies:
   client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] deDE¹⁺_1|0.9MB/s|GPT⁺|D+|X|His...'
+  name: '[VLESS] deDE_3|2.5MB/s'
   network: tcp
   port: 443
   server: 20.79.162.37
@@ -148,72 +137,3 @@ proxies:
         like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
     path: /
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] deDE²_1|5.2MB/s|GPT⁺|X'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 4YI0QbJYHCyl4-VWZPWAMccOmUW0c_XDE_rEZc-dNC0
-    short-id: '!!str '
-  server: 51.250.22.166
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a8214f18-5d5b-409f-a98a-458a85bce22b
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] deDE²_2|0.5MB/s|5%|GPT⁺|X|Succ...'
-  network: tcp
-  port: 16574
-  reality-opts:
-    public-key: gO-n2qZkxjjKmCCd8e-VBH0zOIC7u8FVJN3gnySnEUc
-    short-id: '!!str ad03f1556dfa4ed0'
-  server: 46.225.140.178
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: bdf97c06-ae1f-47e9-b47a-9d9ff47b5820
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] deDE²_3|1.1MB/s|0%|GPT|X|Histo...'
-  network: tcp
-  port: 20501
-  reality-opts:
-    public-key: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk
-    short-id: '!!str 9153'
-  server: 501.gp68knq.com
-  servername: img14.360buyimg.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8a9c07c4-05e3-419c-875c-16893c28f1d8
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] DE_speednode_0001'
-  port: 443
-  reality-opts:
-    public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
-    short-id: '!!str 4daa022e84f8edf2'
-  server: de.cdn.stun.su
-  servername: de.cdn.stun.su
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6

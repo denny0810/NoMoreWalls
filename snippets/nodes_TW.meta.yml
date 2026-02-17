@@ -7,12 +7,41 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[Http] twTW²_1|2.2MB/s|GPT⁺|GM|YT|X|H...'
-  password: exaxgqkKkd0TAMrCxeonWg==
+- client-fingerprint: chrome
+  name: '[Trojan] twTW¹⁺_1|9.7MB/s|GPT⁺|GM|YT|D+...'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 114.33.57.170
+  skip-cert-verify: false
+  sni: 5c.hhhhh.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /114.33.57.170:443
+- name: '[Http] twTW²_1|5.8MB/s|GPT⁺|GM|YT|NF|...'
+  password: mrwdfNTD8M79LCukCieldrqZWqs=
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: twmoon1-cdn-route.couldflare-cdn.com
   tls: true
   type: http
+  udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: chrome
+  name: '[Trojan] twTW¹⁺_2|0.6MB/s|GPT⁺|GM|YT|D+...'
+  network: ws
+  password: 5a2c16f9
+  port: 43
+  server: 220.128.110.108
+  sni: 5c.hhhhh.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 5c.hhhhh.eu.org
+    path: /220.128.110.108:43

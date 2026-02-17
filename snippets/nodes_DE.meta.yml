@@ -84,15 +84,19 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
+  country: 🏁 ZZ
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] deDE²_4|0.5MB/s|GPT|X|History'
+  name: '[Vmess] deDE²_5|0.6MB/s|X|Succeed'
   network: tcp
   port: 30833
   server: v33.hdacd.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /
 - name: '[Hysteria2] DE'
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -101,50 +105,130 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] US_speednode_0014'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: iv8v94q9qxkMw5WSUc0obloyLVFNTsfyy9Y3FaGlj1k
-    short-id: '!!str efd29b2d25'
-  server: 64.188.64.59
-  servername: yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 12cb9911-a48d-4147-85cc-68dd678e94c6
-  xudp: true
 - auth: 7dd10318-28fd-413f-81f0-cd0a286e4779
-  name: '[Hysteria2] deDE_2|1.0MB/s'
+  name: '[Hysteria2] deDE_1|2.3MB/s'
   password: 7dd10318-28fd-413f-81f0-cd0a286e4779
   port: 2056
-  server: nlb4.mangshe.xyz
+  server: flkf3.mangshe.xyz
   skip-cert-verify: true
-  sni: nlb4.mangshe.xyz
+  sni: flkf3.mangshe.xyz
   type: hysteria2
   udp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
+  name: '[VLESS] deDE_2|3.2MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
+    short-id: '!!str '
+  server: 217.154.194.55
+  servername: azure.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f0b15f64-db59-438c-b1b6-f1b83db52240
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
   http-opts:
     headers: {}
     path:
     - /
-  name: '[VLESS] deDE²_1|1.2MB/s|0%|GPT⁺|X|Hist...'
+  name: '[VLESS] deDE¹⁺_1|0.9MB/s|GPT⁺|D+|X|His...'
   network: tcp
   port: 443
-  reality-opts:
-    public-key: wgoLhL4pRP0y6fu6He4qW_ElohCM_ANWJF3HEoUhNz4
-    short-id: '!!str 9c2378562188c3cb'
-  server: 144.31.85.153
-  servername: germany.denditop.site
+  server: 20.79.162.37
+  servername: jina-207916237-direct.yektanet.co
   tls: true
   type: vless
   udp: true
-  uuid: b39aca97-e9f2-4a94-b87f-8748299846cd
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] deDE_4|2.4MB/s'
+  network: tcp
+  port: 443
+  server: deu67.worldunlocker.org
+  servername: deu67.worldunlocker.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57db3ca4-9874-4a91-8ab5-9f67fbc01a3b
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] deDE_5|2.0MB/s'
+  network: tcp
+  port: 443
+  server: deu549.worldbypass.org
+  servername: deu549.worldbypass.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 405ba2d6-7fcb-4cdd-9c77-4ecc616d77c8
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] deDE_6|2.0MB/s'
+  network: tcp
+  port: 3130
+  reality-opts:
+    public-key: dQYahYS6055ghu03hkvNxv9geHCJHqASFVbXs3v1jDw
+    short-id: '!!str e99768d076c05ab2'
+  server: ir.grbr.private-link.lornanet.ir
+  servername: rEfErSion.Com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 427f826f-6510-b8f8-2848-6b4e6b9325ac
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE_7|2.0MB/s'
+  network: ws
+  port: 443
+  server: 208.103.161.110
+  servername: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ccd06a2-5616-47e3-9763-f9696959d7ad
+  ws-opts:
+    headers:
+      Host: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Chrome/12.0.742.100 Safari/534.30
+    path: /ws
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[VLESS] deDE_8|1.1MB/s'
+  network: ws
+  port: 2087
+  server: cd3.reata.ir
+  servername: iranvatanam.yasharteam.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a171c02d-4009-4136-98b1-ec339255d3d6
+  ws-opts:
+    headers:
+      Host: iranvatanam.yasharteam.com
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /
   xudp: true
 - client-fingerprint: chrome
   encryption: none
@@ -153,50 +237,18 @@ proxies:
     headers: {}
     path:
     - /
-  name: '[VLESS] deDE²_6|4.6MB/s|0%|GPT⁺|NF|D+|...'
+  name: '[VLESS] deDE²_1|5.2MB/s|GPT⁺|X'
   network: tcp
   port: 443
   reality-opts:
-    public-key: o29JCvEwwDcIW6ZQu06m6Vyxko6pXaNjzNd-jGcwABU
-    short-id: '!!str f1a3d4b6de93aa3a'
-  server: 144.31.139.71
-  servername: de.gagtubelol.com
+    public-key: 4YI0QbJYHCyl4-VWZPWAMccOmUW0c_XDE_rEZc-dNC0
+    short-id: '!!str '
+  server: 51.250.22.166
+  servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: 192f7c25-0c3a-4089-a67b-5138c5d5d561
-  xudp: true
-- client-fingerprint: chrome
-  country: 🇩🇪DE
-  name: '[Trojan] deDE²_2|6.8MB/s|1%|GPT⁺|TK|NF|...'
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22223
-  server: 3.123.112.209
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE²_3|7.5MB/s|X|[原生|机房]'
-  network: ws
-  port: 2087
-  server: video1.u-gift.ir
-  servername: iranvatanam.yasharteam.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 98143ed1-3ad2-4f5a-9993-1bdfebfde44a
-  ws-opts:
-    headers:
-      Host: iranvatanam.yasharteam.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /
+  uuid: a8214f18-5d5b-409f-a98a-458a85bce22b
   xudp: true
 - client-fingerprint: chrome
   encryption: none
@@ -204,7 +256,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: '[VLESS] deDE²_5|6.9MB/s|5%|GPT⁺|X|[广播|...'
+  name: '[VLESS] deDE²_2|0.5MB/s|5%|GPT⁺|X|Succ...'
   network: tcp
   port: 16574
   reality-opts:
@@ -218,24 +270,24 @@ proxies:
   uuid: bdf97c06-ae1f-47e9-b47a-9d9ff47b5820
   xudp: true
 - client-fingerprint: chrome
-  country: 🇩🇪DE
-  name: '[Trojan] deDE²_8|6.6MB/s|1%|GPT⁺|TK|X|[...'
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.123.112.209
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] DE_speednode_0001'
+  name: '[VLESS] deDE²_3|1.1MB/s|0%|GPT|X|Histo...'
   network: tcp
+  port: 20501
+  reality-opts:
+    public-key: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk
+    short-id: '!!str 9153'
+  server: 501.gp68knq.com
+  servername: img14.360buyimg.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8a9c07c4-05e3-419c-875c-16893c28f1d8
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] DE_speednode_0001'
   port: 443
   reality-opts:
     public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
@@ -247,4 +299,3 @@ proxies:
   type: vless
   udp: true
   uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
-  xudp: true

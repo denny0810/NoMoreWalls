@@ -5,7 +5,7 @@ proxies:
   country: 🇬🇧GB
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] jpJP²_4|1.3MB/s|0%|GPT|GM|YT|N...'
+  name: '[Vmess] jpJP²_6|6.7MB/s|0%|GPT|GM|YT|D...'
   network: ws
   port: 12883
   server: gtm1.ktmwan.net
@@ -57,7 +57,8 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[Trojan] 香港3|@ripaojiedian'
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_6|2.9MB/s|1%|YT|D+|X|[原生...'
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 3373
@@ -65,7 +66,8 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] 香港4|@ripaojiedian'
+- client-fingerprint: chrome
+  name: '[Trojan] hkHK²_7|2.4MB/s|1%|YT|D+|X|[原生...'
   network: tcp
   password: BxceQaOe
   port: 54548
@@ -91,6 +93,25 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[Http] hkHK²_1|0.9MB/s|X|History'
+  password: <password>
+  port: 8443
+  server: 8875d66c-t9zts0-trhks8-1c9em.hkt.cdnhuawei.com
+  sni: 8875d66c-t9zts0-trhks8-1c9em.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: 336501b6-51d2-11ee-a993-f23c9164ca5d
+- client-fingerprint: chrome
+  country: 🇧🇪BE
+  name: '[Trojan] hkHK²_3|5.5MB/s|1%|YT|D+|X|[原生...'
+  network: tcp
+  password: BxceQaOe
+  port: 54548
+  server: 57.180.15.194
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: '[VLESS] HK_speednode_0002'

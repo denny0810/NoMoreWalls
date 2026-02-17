@@ -11,27 +11,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] frFR²_6|6.4MB/s|10%|GPT⁺|YT-RU...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8LWgKu6h8cXgOAixKaKPdGponKkAeQaq-IszDEQ4ojM
-    short-id: '!!str 3bdec72a5a0ffd84'
-  server: 95.182.97.115
-  servername: fr.cdn.stun.su
-  tls: true
-  type: vless
-  udp: true
-  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] frFR²_3|3.0MB/s|GPT⁺|YT-RU|X|H...'
+  name: '[VLESS] frFR_1|1.6MB/s'
   network: tcp
   port: 443
   reality-opts:
@@ -46,25 +26,9 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] frFR²_1|0.8MB/s|4%|GPT⁺|X|[广播|...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 2rjzbqQ49m-jpfzhiuBNb8Izwwjw0dIg5JAKdv-B2kE
-    short-id: '!!str d1d42381ba35'
-  server: 185.120.59.245
-  servername: apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
   grpc-opts:
     grpc-service-name: xyz
-  name: '[VLESS] frFR²_2|4.6MB/s|X'
+  name: '[VLESS] frFR²_2|2.4MB/s|0%|GPT⁺|TK-PL|...'
   network: grpc
   port: 8443
   reality-opts:
@@ -77,17 +41,64 @@ proxies:
   udp: true
   uuid: 7a7aa0d2-5311-45fc-80b0-9f46f3546793
   xudp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] frFR²_7|2.8MB/s|3%|GPT⁺|X|Hist...'
-  network: tcp
+- cipher: aes-256-cfb
+  country: 🇫🇷FR
+  name: '[SS] frFR²_1|1.4MB/s|1%|GPT⁺|X|[广播|...'
+  password: amazonskr05
   port: 443
-  server: fr.1323.world
-  servername: b12a6eea4807ca4e.1323.world
+  server: 15.237.40.110
+  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] frFR²_3|5.6MB/s|0%|GPT⁺|D+|X|[...'
+  network: ws
+  port: 443
+  server: v2.dabache.top
+  servername: jorge.eventcp10800free.com
   tls: true
   type: vless
   udp: true
-  uuid: 0e90f352-e9bc-4834-8ff6-49ba887eded4
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: jorge.eventcp10800free.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /?ed=2095@digi_config@digi_config@digi_config@digi_config@digi_config@digi_config@digi_config@digi_config@digi_config@digi_config@digi_config
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] frFR²_4|1.1MB/s|44%|GPT⁺|X|[原生...'
+  network: ws
+  port: 443
+  server: 194.76.18.25
+  servername: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
+  tls: true
+  type: vless
+  udp: true
+  uuid: e65a5cbc-5663-4f7d-ad7d-800e86ba487d
+  ws-opts:
+    headers:
+      Host: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/57.0.2987.133 Safari/537.36
+    path: /ws
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] frFR²_5|1.9MB/s|GPT⁺|X|[原生|机房]'
+  network: ws
+  port: 443
+  server: 194.76.18.25
+  servername: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+  tls: true
+  type: vless
+  udp: true
+  uuid: e65a5cbc-5663-4f7d-ad7d-800e86ba487d
+  ws-opts:
+    headers:
+      Host: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /ws
   xudp: true

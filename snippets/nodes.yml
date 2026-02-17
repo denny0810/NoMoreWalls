@@ -4,7 +4,7 @@ proxies:
   country: 🇬🇧GB
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] jpJP²_4|1.3MB/s|0%|GPT|GM|YT|N...'
+  name: '[Vmess] jpJP²_6|6.7MB/s|0%|GPT|GM|YT|D...'
   network: ws
   port: 12883
   server: gtm1.ktmwan.net
@@ -438,15 +438,19 @@ proxies:
     path: /NASNET/cdn?ed=2560
 - alterId: 2
   cipher: auto
+  country: 🏁 ZZ
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] deDE²_4|0.5MB/s|GPT|X|History'
+  name: '[Vmess] deDE²_5|0.6MB/s|X|Succeed'
   network: tcp
   port: 30833
   server: v33.hdacd.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /
 - alterId: 2
   cipher: auto
   name: '[Vmess] JP3｜机房｜低风险'
@@ -480,7 +484,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[Trojan] 香港3|@ripaojiedian'
+- name: '[Trojan] hkHK²_6|2.9MB/s|1%|YT|D+|X|[原生...'
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 3373
@@ -488,7 +492,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] 香港4|@ripaojiedian'
+- name: '[Trojan] hkHK²_7|2.4MB/s|1%|YT|D+|X|[原生...'
   network: tcp
   password: BxceQaOe
   port: 54548
@@ -552,7 +556,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[Trojan] 美国|@ripaojiedian'
+- name: '[Trojan] usUS_4|2.0MB/s'
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 1281
@@ -586,171 +590,101 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[Trojan] twTW_2|1.3MB/s'
-  network: ws
-  password: 5a2c16f9
+- cipher: aes-256-cfb
+  name: '[SS] usUS_2|2.8MB/s'
+  password: qwerREWQ@@
+  port: 41632
+  server: 140.174.186.5
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[SS] usUS_3|3.3MB/s'
+  password: shadowsocks
   port: 443
-  server: 125.228.141.233
-  skip-cert-verify: true
-  sni: 5c.hhhhh.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 5c.hhhhh.eu.org
-    path: /125.228.141.233:443
-- name: '[Trojan] twTW¹⁺_1|0.8MB/s|GPT|GM|YT|D+|...'
-  network: ws
-  password: 5a2c16f9
-  port: 43
-  server: 220.128.110.108
-  sni: 5c.hhhhh.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 5c.hhhhh.eu.org
-    path: /220.128.110.108:43
-- name: '[Trojan] twTW_4|3.2MB/s'
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 114.33.57.170
-  skip-cert-verify: false
-  sni: 5c.hhhhh.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 5c.hhhhh.eu.org
-    path: /114.33.57.170:443
-- cipher: aes-256-cfb
-  name: '[SS] vnVN_1|1.0MB/s'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.47
+  server: 37.19.198.236
   type: ss
 - cipher: aes-256-cfb
-  name: '[SS] vnVN_2|1.0MB/s'
+  name: '[SS] vnVN_1|1009KB/s'
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.14
+  server: 103.186.155.12
   type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_32|1.9MB/s|GPT⁺|YT-US|X|...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.41
-  type: ss
-- cipher: aes-256-cfb
-  name: '[SS] vnVN²_16|1.5MB/s|GPT⁺|GM|X|His...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.236
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] nlNL_1|2.4MB/s'
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.189
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_1|2.1MB/s|GPT⁺|X|History...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.185
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_2|1.9MB/s|GPT⁺|X|History...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.37
-  type: ss
-- country: 🇹🇼TW
-  name: '[Trojan] twTW²_2|10.2MB/s|4%|GPT⁺|GM|YT...'
-  network: tcp
-  password: 50eecad1-ca84-4e02-b45f-dfd3f43bc7a3
-  port: 22231
-  server: cdnfire.xiaomispeed.com
-  skip-cert-verify: true
-  sni: cdnfire.xiaomispeed.com
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_3|1.0MB/s|GPT⁺|YT-US|X|H...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.104
-  type: ss
-- country: 🇺🇸US
-  name: '[Trojan] mdMD²_5|3.2MB/s|20%|GPT⁺|YT-RU...'
-  network: tcp
-  password: Tn2Bf0iRwJkJQgDk6gX6x81RB
-  port: 443
-  server: 94.131.122.254
-  skip-cert-verify: true
-  sni: hl-freedom-2.undef.network
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 94.131.122.254
-    path: /f2fc2a1f
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_4|2.1MB/s|GPT⁺|X|History...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.113
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_5|1.1MB/s|GPT⁺|X|History'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.36
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_6|1.5MB/s|GPT⁺|GM|X|Hist...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.253
-  type: ss
 - cipher: aes-256-cfb
   country: 🇨🇳 CN
-  name: '[SS] vnVN²_7|1.7MB/s|GPT⁺|GM|X|Hist...'
+  name: '[SS] vnVN²_1|1.0MB/s|GPT⁺|GM|X|Succ...'
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.24
   type: ss
-- alterId: 0
+- alterId: 2
   cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
+  country: 🏁 ZZ
   http-opts: {}
-  name: '[Vmess] usUS²_3|1.1MB/s|48%|GPT⁺|GM|YT...'
+  name: '[Vmess] sgSG²_1|6.0MB/s|0%|GPT⁺|X|Hist...'
   network: tcp
-  port: 57449
-  server: 157.173.206.47
+  port: 30808
+  server: v8.hdacd.com
   skip-cert-verify: true
   type: vmess
-  uuid: 4f6d0ce6-0406-447c-f307-21a6aa7fe6b2
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🏁 ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_7|5.0MB/s|X|History'
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  servername: v29.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: '[SS] vnVN²_8|0.7MB/s|GPT⁺|GM|YT-US|...'
+  name: '[SS] vnVN²_2|0.7MB/s|GPT⁺|GM|X|Hist...'
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.2
+  server: 103.186.155.225
   type: ss
 - cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_9|1.6MB/s|GPT⁺|YT-US|X|H...'
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_3|1.7MB/s|GPT⁺|GM|X|Hist...'
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.203
+  server: 103.186.154.218
   type: ss
+- cipher: aes-256-cfb
+  country: 🇫🇷FR
+  name: '[SS] frFR²_1|1.4MB/s|1%|GPT⁺|X|[广播|...'
+  password: amazonskr05
+  port: 443
+  server: 15.237.40.110
+  type: ss
+- country: 🇧🇪BE
+  name: '[Trojan] hkHK²_3|5.5MB/s|1%|YT|D+|X|[原生...'
+  network: tcp
+  password: BxceQaOe
+  port: 54548
+  server: 57.180.15.194
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] jpJP²_3|0.9MB/s|0%|GPT|GM|YT|D...'
+  name: '[Vmess] jpJP²_3|1.5MB/s|0%|GPT|GM|YT|D...'
   network: ws
   port: 12883
   server: gtm1.ktmwan.net
@@ -765,248 +699,84 @@ proxies:
     path: /
   xudp: true
 - cipher: aes-256-cfb
-  name: '[SS] vnVN²_10|1.4MB/s|GPT⁺|GM|YT-KR...'
-  password: qwerREWQ@@
-  port: 41632
-  server: 103.238.214.82
+  country: 🇨🇳 CN
+  name: '[SS] vnVN²_4|0.6MB/s|GPT⁺|X|History'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.38
   type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_5|0.7MB/s|GPT⁺|X|Succeed'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.185
+  type: ss
+- alterId: 2
+  cipher: auto
+  delay: 1154
+  name: '[Vmess] usUS²_4|1.4MB/s|GPT⁺|X|History'
+  network: tcp
+  port: 30846
+  server: v46.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_6|2.2MB/s|GPT⁺|GM|X|Succ...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.113
+  type: ss
+- country: 🇮🇷IR
+  name: '[Trojan] usUS²_8|3.0MB/s|0%|YT|TK|NF|D+...'
+  network: tcp
+  password: 347ca311-8fc2-499c-8fe1-bd0ecb50f1b3
+  port: 43642
+  server: 5.34.222.4
+  skip-cert-verify: true
+  sni: iepl.usq1.cat.bilibili.com
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_7|0.5MB/s|GPT⁺|X|History...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.47
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  country: 🇨🇳CN
-  name: '[SS] twTW²_3|0.6MB/s|4%|GPT⁺|GM|D+|...'
+  name: '[SS] inIN²_1|0.9MB/s|GPT⁺|YT|D+|X|H...'
   password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 43076
+  port: 34411
   server: ldu.izenny.com
   type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_11|1.4MB/s|GPT⁺|GM|YT-RU...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.50
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_12|1.1MB/s|GPT⁺|GM|X'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.17
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇷🇺RU
-  name: '[SS] frFR²_5|4.8MB/s|44%|GPT⁺|YT-RU...'
-  password: mFdfoC1KdWUVLqBvCWgljg
-  port: 20
-  server: ss.sps1.sbs
-  type: ss
-- country: 🇺🇸US
-  name: '[Trojan] mdMD²_3|4.5MB/s|20%|GPT⁺|YT-RU...'
+  udp: true
+- country: 🇮🇷IR
+  name: '[Trojan] jpJP²_5|2.6MB/s|0%|GPT|GM|YT|D...'
   network: tcp
-  password: jJT7gd5O9vwJzL6RiXpxxXIAL
-  port: 443
-  server: hl-freedom-2.undef.network
+  password: 347ca311-8fc2-499c-8fe1-bd0ecb50f1b3
+  port: 43074
+  server: 5.34.222.4
   skip-cert-verify: true
-  sni: hl-freedom-2.undef.network
+  sni: iepl.jpz2.cat.bilibili.com
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: hl-freedom-2.undef.network
-    path: /f2fc2a1f
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_13|1.9MB/s|GPT⁺|GM|X|His...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.210
-  type: ss
-- country: 🇩🇪DE
-  name: '[Trojan] deDE²_2|6.8MB/s|1%|GPT⁺|TK|NF|...'
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22223
-  server: 3.123.112.209
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_14|1.8MB/s|GPT⁺|X|Histor...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.237
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_15|1.2MB/s|GPT⁺|X|Histor...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.180
-  type: ss
-- name: '[Trojan] twTW¹⁺_2|11.2MB/s|GPT⁺|GM|YT|D...'
+- name: '[Trojan] twTW¹⁺_1|4.2MB/s|GPT⁺|GM|YT|D+...'
   network: ws
   password: 5a2c16f9
-  port: 443
-  server: 125.228.141.233
-  skip-cert-verify: false
+  port: 43
+  server: 220.128.110.108
   sni: 5c.hhhhh.eu.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /125.228.141.233:443
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_17|1.2MB/s|GPT⁺|YT-US|X|...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.12
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_18|1.5MB/s|GPT⁺|YT-US|X|...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.192
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇨🇳 CN
-  name: '[SS] vnVN²_19|2.5MB/s|GPT⁺|YT|X|His...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.53
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_20|0.8MB/s|GPT⁺|X|Histor...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.77
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_21|1.2MB/s|GPT⁺|GM|X'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.58
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_22|2.2MB/s|GPT⁺|GM|X|His...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.45
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_23|2.7MB/s|GPT⁺|GM|X|His...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.214
-  type: ss
-- cipher: aes-256-cfb
-  name: '[SS] vnVN²_24|2.3MB/s|GPT⁺|GM|X|His...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.250
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_25|1.2MB/s|GPT⁺|GM|YT-US...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.30
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_26|2.3MB/s|GPT⁺|GM|YT|X|...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.201
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_27|2.3MB/s|GPT⁺|GM|X|His...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.220
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_28|0.8MB/s|GPT⁺|GM|YT-US...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.197
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_29|0.5MB/s|GPT⁺|GM|YT-US...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.45
-  type: ss
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_6|6.7MB/s|33%|GPT⁺|YT|X|...'
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  servername: v29.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- country: 🇩🇪DE
-  name: '[Trojan] deDE²_8|6.6MB/s|1%|GPT⁺|TK|X|[...'
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.123.112.209
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_30|0.9MB/s|GPT⁺|X|Histor...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.53
-  type: ss
-- country: 🇺🇸US
-  name: '[Trojan] mdMD²_4|2.5MB/s|20%|GPT⁺|X|[广播...'
-  network: tcp
-  password: Tn2Bf0iRwJkJQgDk6gX6x81RB
-  port: 443
-  server: hl-freedom-2.undef.network
-  skip-cert-verify: true
-  sni: hl-freedom-2.undef.network
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  country: 🇨🇳 CN
-  name: '[SS] vnVN²_31|1.0MB/s|GPT⁺|GM|X|His...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.225
-  type: ss
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_8|6.3MB/s|33%|X|History'
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      Host: 5c.hhhhh.eu.org
+    path: /220.128.110.108:43
 - alterId: 0
   cipher: auto
   name: '[Vmess] VMESS节点2-ipv6'

@@ -8,23 +8,57 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - h2
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   encryption: none
+  flow: xtls-rprx-vision
   http-opts:
     headers: {}
     path:
     - /
-  name: '[VLESS] frFR²_7|2.8MB/s|3%|GPT⁺|X|Hist...'
+  name: '[VLESS] frFR²_6|6.4MB/s|10%|GPT⁺|YT-RU...'
   network: tcp
   port: 443
-  server: fr.1323.world
-  servername: b12a6eea4807ca4e.1323.world
+  reality-opts:
+    public-key: 8LWgKu6h8cXgOAixKaKPdGponKkAeQaq-IszDEQ4ojM
+    short-id: '!!str 3bdec72a5a0ffd84'
+  server: 95.182.97.115
+  servername: fr.cdn.stun.su
   tls: true
   type: vless
   udp: true
-  uuid: 0e90f352-e9bc-4834-8ff6-49ba887eded4
+  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] frFR²_3|3.0MB/s|GPT⁺|YT-RU|X|H...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+    short-id: '!!str 4fa44664f6a566d3'
+  server: fran.scroogethebest.com
+  servername: fran.scroogethebest.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] frFR²_1|0.8MB/s|4%|GPT⁺|X|[广播|...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 2rjzbqQ49m-jpfzhiuBNb8Izwwjw0dIg5JAKdv-B2kE
+    short-id: '!!str d1d42381ba35'
+  server: 185.120.59.245
+  servername: apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   xudp: true
 - client-fingerprint: chrome
   encryption: none
@@ -43,68 +77,17 @@ proxies:
   udp: true
   uuid: 7a7aa0d2-5311-45fc-80b0-9f46f3546793
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] frFR_3|2.0MB/s'
-  network: ws
-  port: 443
-  server: v2.dabache.top
-  servername: jorge.eventcp10800free.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: jorge.eventcp10800free.com
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /?ed=2095@digi_config@digi_config@digi_config@digi_config@digi_config@digi_config@digi_config@digi_config@digi_config@digi_config@digi_config
-  xudp: true
 - alpn:
   - h2
   client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] frFR_4|3.2MB/s'
+  name: '[VLESS] frFR²_7|2.8MB/s|3%|GPT⁺|X|Hist...'
   network: tcp
   port: 443
-  reality-opts:
-    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
-    short-id: '!!str '
-  server: 45.132.96.60
-  servername: yimg.com
+  server: fr.1323.world
+  servername: b12a6eea4807ca4e.1323.world
   tls: true
   type: vless
   udp: true
-  uuid: 1ca56379-e44b-4694-bee8-9874ca8fd248
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] frFR_5|1.4MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8LWgKu6h8cXgOAixKaKPdGponKkAeQaq-IszDEQ4ojM
-    short-id: '!!str 3bdec72a5a0ffd84'
-  server: fr.cdn.stun.su
-  servername: fr.cdn.stun.su
-  tls: true
-  type: vless
-  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] frFR²_1|0.8MB/s|4%|GPT⁺|X|[广播|...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 2rjzbqQ49m-jpfzhiuBNb8Izwwjw0dIg5JAKdv-B2kE
-    short-id: '!!str d1d42381ba35'
-  server: 185.120.59.245
-  servername: apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 0e90f352-e9bc-4834-8ff6-49ba887eded4
   xudp: true

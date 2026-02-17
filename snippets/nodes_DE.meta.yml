@@ -101,63 +101,31 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[Vmess] deDE_1|2.5MB/s'
-  network: ws
-  port: 8080
-  server: tgju.org
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-571296497.iranpress.co
-    max-early-data: 2560
-    path: /nasnet/cdn
-  xudp: true
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] deDE_2|1.3MB/s'
+  encryption: none
+  name: '[VLESS] US_speednode_0014'
   network: tcp
   port: 443
   reality-opts:
-    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
-    short-id: '!!str '
-  server: 217.154.194.55
-  servername: azure.com
+    public-key: iv8v94q9qxkMw5WSUc0obloyLVFNTsfyy9Y3FaGlj1k
+    short-id: '!!str efd29b2d25'
+  server: 64.188.64.59
+  servername: yandex.ru
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f0b15f64-db59-438c-b1b6-f1b83db52240
+  uuid: 12cb9911-a48d-4147-85cc-68dd678e94c6
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_3|2.3MB/s'
-  network: ws
-  port: 2087
-  server: 1234.wordpresscrt.ir
-  servername: mehdi-cd.wordpresscrt.ir
-  tls: true
-  type: vless
+- auth: 7dd10318-28fd-413f-81f0-cd0a286e4779
+  name: '[Hysteria2] deDE_2|1.0MB/s'
+  password: 7dd10318-28fd-413f-81f0-cd0a286e4779
+  port: 2056
+  server: nlb4.mangshe.xyz
+  skip-cert-verify: true
+  sni: nlb4.mangshe.xyz
+  type: hysteria2
   udp: true
-  uuid: ff9fef0b-b3cd-4583-8841-b7ef1843880f
-  ws-opts:
-    headers:
-      Host: mehdi-cd.wordpresscrt.ir
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: /path
-  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -177,6 +145,26 @@ proxies:
   type: vless
   udp: true
   uuid: b39aca97-e9f2-4a94-b87f-8748299846cd
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] deDE²_6|4.6MB/s|0%|GPT⁺|NF|D+|...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: o29JCvEwwDcIW6ZQu06m6Vyxko6pXaNjzNd-jGcwABU
+    short-id: '!!str f1a3d4b6de93aa3a'
+  server: 144.31.139.71
+  servername: de.gagtubelol.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 192f7c25-0c3a-4089-a67b-5138c5d5d561
   xudp: true
 - client-fingerprint: chrome
   country: 🇩🇪DE
@@ -228,42 +216,6 @@ proxies:
   type: vless
   udp: true
   uuid: bdf97c06-ae1f-47e9-b47a-9d9ff47b5820
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] deDE²_6|4.6MB/s|0%|GPT⁺|NF|D+|...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: o29JCvEwwDcIW6ZQu06m6Vyxko6pXaNjzNd-jGcwABU
-    short-id: '!!str f1a3d4b6de93aa3a'
-  server: 144.31.139.71
-  servername: de.gagtubelol.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 192f7c25-0c3a-4089-a67b-5138c5d5d561
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] US_speednode_0014'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: iv8v94q9qxkMw5WSUc0obloyLVFNTsfyy9Y3FaGlj1k
-    short-id: '!!str efd29b2d25'
-  server: 64.188.64.59
-  servername: yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 12cb9911-a48d-4147-85cc-68dd678e94c6
   xudp: true
 - client-fingerprint: chrome
   country: 🇩🇪DE

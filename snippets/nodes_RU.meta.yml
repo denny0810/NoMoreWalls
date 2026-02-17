@@ -6,6 +6,26 @@ proxies:
     headers: {}
     path:
     - /
+  name: '[VLESS] ruRU_1|1.5MB/s'
+  network: tcp
+  port: 23411
+  reality-opts:
+    public-key: 0Z7LFqDUF568Df972BbYorpeykKnN-Z98jHjDBnRbCE
+    short-id: '!!str b69808'
+  server: icshstor.site
+  servername: icshstor.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1eea1e0b-6388-491c-b310-5524e8384808
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
   name: '[VLESS] RU_speednode_0011'
   network: tcp
   port: 443
@@ -19,26 +39,6 @@ proxies:
   type: vless
   udp: true
   uuid: 8ff544c5-303c-46f4-80fe-8e8e166fd981
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] ruRU_2|2.1MB/s'
-  network: tcp
-  port: 23411
-  reality-opts:
-    public-key: 0Z7LFqDUF568Df972BbYorpeykKnN-Z98jHjDBnRbCE
-    short-id: '!!str b69808'
-  server: icshstor.site
-  servername: icshstor.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1eea1e0b-6388-491c-b310-5524e8384808
   xudp: true
 - client-fingerprint: chrome
   encryption: none
@@ -89,6 +89,22 @@ proxies:
   skip-cert-verify: true
   type: socks5
   username: ''
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] plPL²_8|6.2MB/s|6%|YT-RU|X|[广播...'
+  network: tcp
+  port: 443
+  server: 144.31.4.67
+  servername: plcdn14.suio.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
+  xudp: true
 - client-fingerprint: chrome
   name: '[VLESS] RU_speednode_0007'
   port: 8443

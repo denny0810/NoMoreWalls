@@ -306,7 +306,7 @@ proxies:
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 1281
-  server: 54.95.11.131
+  server: 153.121.38.213
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -321,60 +321,11 @@ proxies:
 - name: '[Trojan] 美国3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 2569
-  server: 43.198.96.56
+  port: 38780
+  server: 57.181.39.168
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] usUS_1|2.5MB/s'
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] usUS_2|2.9MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: cRoPQAxIR43_cZ5Ow5BP4L7fb60sI3EcG39ldWI0rDo
-    short-id: '!!str a1b223d4'
-  server: 144.31.104.228
-  servername: de.darknet.run
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8c6302ee-8eb9-488c-9888-b7a5eb48fccd
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] usUS²_4|5.8MB/s|0%|GPT⁺|X|[广播|...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Ptlv1A0hHK3qw92t9cjKNJjaYCJnglNDGzPDOc4OZ1I
-    short-id: '!!str a59201a59450'
-  server: 144.31.180.212
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f8ffc2f3-9d01-41f8-9b8a-833ea3176318
-  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -398,6 +349,72 @@ proxies:
   type: vless
   udp: true
   uuid: c5f8c9a4-916d-45c3-aad3-cd3ed706c5dd
+  xudp: true
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '[VLESS] usUS²_5|4.5MB/s|4%|GPT⁺|YT-HK|...'
+  network: tcp
+  port: 20417
+  reality-opts:
+    public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
+    short-id: '!!str 4b070735'
+  server: hkt1.xn--9kqp42aims.top
+  servername: buylite.music.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] usUS_3|2.5MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24
+    short-id: '!!str bbfb4f7a53e22dd3'
+  server: nl.roblugo.su
+  servername: nl.roblugo.su
+  tls: true
+  type: vless
+  udp: true
+  uuid: 32561144-434f-4752-a731-f35cd191ba4a
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] usUS_4|3.1MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
+    short-id: '!!str '
+  server: 142.248.80.157
+  servername: apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
+  xudp: true
+- client-fingerprint: chrome
+  name: '[VLESS] usUS_5|1.3MB/s'
+  network: ws
+  port: 443
+  server: rfgt.0ok.ccwu.cc
+  servername: rfgt.0ok.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 077a4330-7cb0-4d4b-8feb-7ceb3cd43f69
+  ws-opts:
+    headers:
+      Host: rfgt.0ok.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.81 Safari/537.36
+    path: /7ZHQqqDZuBdYKaAHx8c
   xudp: true
 - name: '[Http] usUS²_1|5.5MB/s|0%|GPT⁺|X|[广播|...'
   password: 32315324-cf6b-11ed-979b-f23c9164ca5d
@@ -496,20 +513,22 @@ proxies:
   port: 38388
   server: 103.186.155.203
   type: ss
-- client-fingerprint: edge
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: '[VLESS] usUS²_5|4.5MB/s|4%|GPT⁺|YT-HK|...'
+  name: '[VLESS] usUS²_4|5.8MB/s|0%|GPT⁺|X|[广播|...'
   network: tcp
-  port: 20417
+  port: 443
   reality-opts:
-    public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
-    short-id: '!!str 4b070735'
-  server: hkt1.xn--9kqp42aims.top
-  servername: buylite.music.apple.com
+    public-key: Ptlv1A0hHK3qw92t9cjKNJjaYCJnglNDGzPDOc4OZ1I
+    short-id: '!!str a59201a59450'
+  server: 144.31.180.212
+  servername: www.microsoft.com
   tls: true
   type: vless
   udp: true
-  uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6
+  uuid: f8ffc2f3-9d01-41f8-9b8a-833ea3176318
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: '[SS] vnVN²_17|1.2MB/s|GPT⁺|YT-US|X|...'
@@ -559,13 +578,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_32|1.9MB/s|GPT⁺|YT-US|X|...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.41
-  type: ss
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

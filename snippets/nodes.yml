@@ -483,48 +483,48 @@ proxies:
 - name: '[Trojan] 香港3|@ripaojiedian'
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
-  port: 4856
-  server: 43.206.192.192
+  port: 3373
+  server: 18.183.109.29
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 香港4|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 2826
-  server: 43.198.96.56
+  port: 54548
+  server: 57.180.15.194
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[Trojan] 香港5|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 54548
-  server: 43.198.108.86
+  port: 443
+  server: 43.207.105.49
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[Trojan] 日本|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 20539
-  server: 57.180.12.68
+  port: 2595
+  server: 43.206.226.70
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[Trojan] 日本2|@ripaojiedian'
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
-  port: 400
-  server: 153.121.70.134
+  port: 193
+  server: 160.16.85.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 日本3|@ripaojiedian'
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
-  port: 3423
-  server: 160.16.130.21
+  port: 400
+  server: 160.16.231.103
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -532,7 +532,7 @@ proxies:
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 3901
-  server: 160.16.124.55
+  server: 160.16.138.24
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -547,8 +547,8 @@ proxies:
 - name: '[Trojan] 新加坡3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 3127
-  server: 43.198.96.56
+  port: 2673
+  server: 43.199.161.245
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -556,7 +556,7 @@ proxies:
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 1281
-  server: 54.95.11.131
+  server: 153.121.38.213
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -571,8 +571,8 @@ proxies:
 - name: '[Trojan] 美国3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 2569
-  server: 43.198.96.56
+  port: 38780
+  server: 57.181.39.168
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -586,47 +586,67 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] usUS_1|2.5MB/s'
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[Vmess] deDE_1|2.5MB/s'
+- name: '[Trojan] twTW_2|1.3MB/s'
   network: ws
-  port: 8080
-  server: tgju.org
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  password: 5a2c16f9
+  port: 443
+  server: 125.228.141.233
+  skip-cert-verify: true
+  sni: 5c.hhhhh.eu.org
+  type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: nasnet-571296497.iranpress.co
-    max-early-data: 2560
-    path: /nasnet/cdn
-  xudp: true
-- cipher: aes-256-cfb
-  name: '[SS] nlNL_1|3.3MB/s'
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.17.169
-  type: ss
+      Host: 5c.hhhhh.eu.org
+    path: /125.228.141.233:443
+- name: '[Trojan] twTW¹⁺_1|0.8MB/s|GPT|GM|YT|D+|...'
+  network: ws
+  password: 5a2c16f9
+  port: 43
+  server: 220.128.110.108
+  sni: 5c.hhhhh.eu.org
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] ilIL_1|1.2MB/s'
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 18140
-  server: ldu.izenny.com
+  ws-opts:
+    headers:
+      Host: 5c.hhhhh.eu.org
+    path: /220.128.110.108:43
+- name: '[Trojan] twTW_4|3.2MB/s'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 114.33.57.170
+  skip-cert-verify: false
+  sni: 5c.hhhhh.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 5c.hhhhh.eu.org
+    path: /114.33.57.170:443
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_1|1.0MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.47
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN_2|1.0MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.14
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_32|1.9MB/s|GPT⁺|YT-US|X|...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.41
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] vnVN²_16|1.5MB/s|GPT⁺|GM|X|His...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.236
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -758,18 +778,6 @@ proxies:
   port: 43076
   server: ldu.izenny.com
   type: ss
-- name: '[Trojan] twTW¹⁺_1|0.8MB/s|GPT|GM|YT|D+|...'
-  network: ws
-  password: 5a2c16f9
-  port: 43
-  server: 220.128.110.108
-  sni: 5c.hhhhh.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 5c.hhhhh.eu.org
-    path: /220.128.110.108:43
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: '[SS] vnVN²_11|1.4MB/s|GPT⁺|GM|YT-RU...'
@@ -836,13 +844,6 @@ proxies:
   port: 38388
   server: 103.186.154.180
   type: ss
-- cipher: aes-256-cfb
-  name: '[SS] vnVN²_16|1.5MB/s|GPT⁺|GM|X|His...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.236
-  type: ss
-  udp: true
 - name: '[Trojan] twTW¹⁺_2|11.2MB/s|GPT⁺|GM|YT|D...'
   network: ws
   password: 5a2c16f9
@@ -993,13 +994,6 @@ proxies:
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.225
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_32|1.9MB/s|GPT⁺|YT-US|X|...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.41
   type: ss
 - alterId: 2
   cipher: auto

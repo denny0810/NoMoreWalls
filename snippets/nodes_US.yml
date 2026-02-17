@@ -26,7 +26,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[Trojan] usUS_4|2.0MB/s'
+- name: '[Trojan] 美国|@ripaojiedian'
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 1281
@@ -50,16 +50,15 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: '[SS] usUS_2|2.8MB/s'
-  password: qwerREWQ@@
-  port: 41632
-  server: 140.174.186.5
-  type: ss
+- alterId: '0'
+  cipher: auto
+  name: '[Vmess] usUS_2|1.1MB/s'
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-128-gcm
-  name: '[SS] usUS_3|3.3MB/s'
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.236
-  type: ss
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true

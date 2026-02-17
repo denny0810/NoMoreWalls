@@ -16,92 +16,9 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- auth: 7dd10318-28fd-413f-81f0-cd0a286e4779
-  name: '[Hysteria2] deDE_1|2.3MB/s'
-  password: 7dd10318-28fd-413f-81f0-cd0a286e4779
-  port: 2056
-  server: flkf3.mangshe.xyz
-  skip-cert-verify: true
-  sni: flkf3.mangshe.xyz
-  type: hysteria2
-  udp: true
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] deDE_2|3.2MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
-    short-id: '!!str '
-  server: 217.154.194.55
-  servername: azure.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f0b15f64-db59-438c-b1b6-f1b83db52240
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] deDE_3|2.5MB/s'
-  network: tcp
-  port: 443
-  server: 20.79.162.37
-  servername: jina-207916237-direct.yektanet.co
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] deDE_4|2.4MB/s'
-  network: tcp
-  port: 443
-  server: deu67.worldunlocker.org
-  servername: deu67.worldunlocker.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57db3ca4-9874-4a91-8ab5-9f67fbc01a3b
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] deDE_5|2.0MB/s'
-  network: tcp
-  port: 443
-  server: deu549.worldbypass.org
-  servername: deu549.worldbypass.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 405ba2d6-7fcb-4cdd-9c77-4ecc616d77c8
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] deDE_6|2.0MB/s'
-  network: tcp
-  port: 3130
-  reality-opts:
-    public-key: dQYahYS6055ghu03hkvNxv9geHCJHqASFVbXs3v1jDw
-    short-id: '!!str e99768d076c05ab2'
-  server: ir.grbr.private-link.lornanet.ir
-  servername: rEfErSion.Com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 427f826f-6510-b8f8-2848-6b4e6b9325ac
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_7|2.0MB/s'
+  name: '[VLESS] deDE_1|1.1MB/s'
   network: ws
   port: 443
   server: 208.103.161.110
@@ -117,23 +34,62 @@ proxies:
         Chrome/12.0.742.100 Safari/534.30
     path: /ws
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[VLESS] deDE_8|1.1MB/s'
-  network: ws
-  port: 2087
-  server: cd3.reata.ir
-  servername: iranvatanam.yasharteam.com
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] deDE_2|1.0MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: sxyxV0_y1o09gKJBL9AJJyRSEg6MiYK0j-kb5unzHh4
+    short-id: '!!str 6bb3c7f9f97b45b8'
+  server: nl.jojack.ru
+  servername: nl.jojack.ru
+  tls: true
+  type: vless
+  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
+- name: '[VLESS] deDE_3|2.3MB/s'
+  network: tcp
+  port: 443
+  server: decdn9.suio.me
+  servername: decdn9.suio.me
+  tls: true
+  type: vless
+  uuid: da11d62c-1996-4d2c-b2e6-e89c7a1265e9
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] deDE_4|1.7MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: d1PrrLqIGVQSZ5jUaLe-R67Ey8TJZN8WVkIJh0Xa_zc
+    short-id: '!!str '
+  server: 144.31.196.208
+  servername: de-convert.webedg.net
   tls: true
   type: vless
   udp: true
-  uuid: a171c02d-4009-4136-98b1-ec339255d3d6
+  uuid: 3bf002f8-b951-4dd5-b372-8d46ccd5f24b
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] deDE_5|2.3MB/s'
+  network: ws
+  port: 8443
+  server: bouquetberlin.org
+  servername: bouquetberlin.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 453c3861-eaf4-4c60-94e0-e57a2c9d2fcf
   ws-opts:
     headers:
-      Host: iranvatanam.yasharteam.com
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /
+      Host: bouquetberlin.org
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+    path: /vlessws
   xudp: true

@@ -36,7 +36,7 @@ proxies:
   sni: mgwx.pddwdf.store
   tls: false
   type: hysteria2
-- name: '[Trojan] usUS_4|2.0MB/s'
+- name: '[Trojan] 美国|@ripaojiedian'
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 1281
@@ -60,54 +60,33 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: '[SS] usUS_2|2.8MB/s'
-  password: qwerREWQ@@
-  port: 41632
-  server: 140.174.186.5
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: '[SS] usUS_3|3.3MB/s'
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.236
-  type: ss
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] usUS_5|1.7MB/s'
+- alterId: '0'
+  cipher: auto
+  name: '[Vmess] usUS_2|1.1MB/s'
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: wgoLhL4pRP0y6fu6He4qW_ElohCM_ANWJF3HEoUhNz4
-    short-id: '!!str 9c2378562188c3cb'
-  server: usa.denditop.site
-  servername: usa.denditop.site
-  tls: true
-  type: vless
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  uuid: b39aca97-e9f2-4a94-b87f-8748299846cd
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[VLESS] usUS_6|2.2MB/s'
+  name: '[VLESS] usUS_3|1.8MB/s'
   network: tcp
   port: 443
   reality-opts:
-    public-key: Ptlv1A0hHK3qw92t9cjKNJjaYCJnglNDGzPDOc4OZ1I
-    short-id: '!!str a59201a59450'
-  server: 144.31.180.212
-  servername: www.microsoft.com
+    public-key: xJIswEHrphk8LCn-DyJxw4uypPkouxPgNsfiyjRU-3w
+    short-id: '!!str 41a0b29e95aaea87'
+  server: ae.cdn.stun.su
+  servername: ae.cdn.stun.su
   tls: true
   type: vless
   udp: true
-  uuid: f8ffc2f3-9d01-41f8-9b8a-833ea3176318
+  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
   xudp: true
 - client-fingerprint: chrome
   encryption: none
@@ -116,18 +95,18 @@ proxies:
     headers: {}
     path:
     - /
-  name: '[VLESS] usUS_7|2.4MB/s'
+  name: '[VLESS] usUS_4|1.9MB/s'
   network: tcp
   port: 443
   reality-opts:
-    public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
-    short-id: '!!str '
-  server: us.axinode.sbs
-  servername: apple.com
+    public-key: cRoPQAxIR43_cZ5Ow5BP4L7fb60sI3EcG39ldWI0rDo
+    short-id: '!!str a1b223d4'
+  server: 144.31.104.228
+  servername: de.darknet.run
   tls: true
   type: vless
   udp: true
-  uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
+  uuid: 8c6302ee-8eb9-488c-9888-b7a5eb48fccd
   xudp: true
 - client-fingerprint: ios
   flow: xtls-rprx-vision

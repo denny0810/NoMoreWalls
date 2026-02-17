@@ -9,6 +9,19 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] frFR_1|1.3MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8LWgKu6h8cXgOAixKaKPdGponKkAeQaq-IszDEQ4ojM
+    short-id: '!!str 3bdec72a5a0ffd84'
+  server: 95.182.97.115
+  servername: fr.cdn.stun.su
+  tls: true
+  type: vless
+  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
   name: '[VLESS] frFR²_1|0.6MB/s|GPT|X|History'
@@ -23,21 +36,4 @@ proxies:
   type: vless
   udp: true
   uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: xyz
-  name: '[VLESS] frFR_2|2.9MB/s'
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: wSQIBnAc0cYO9JitaNcgZ2LwkTix0_dXVpDjnZxDrCE
-    short-id: '!!str '
-  server: 95.163.211.158
-  servername: eh.vk.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7a7aa0d2-5311-45fc-80b0-9f46f3546793
   xudp: true

@@ -31,6 +31,19 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- client-fingerprint: random
+  name: '[VLESS] sgSG_1|3.1MB/s'
+  network: ws
+  port: 2053
+  server: 162.159.36.27
+  servername: d657fa2a.lfree.ccwu.cc
+  tls: true
+  type: vless
+  uuid: 6991c683-9978-0f82-ef9d-fb9c8a053b34
+  ws-opts:
+    headers:
+      Host: d657fa2a.lfree.ccwu.cc
+    path: /socks5=44fa737d:1bab4a4504ca@38.96.191.150:21719
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] DE_speednode_0001'

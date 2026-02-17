@@ -251,50 +251,53 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] gbGB_1|2.6MB/s'
-  password: kaQH3hGdcP80XEDI
-  port: 443
-  server: admin.c2.havij.co
-  type: ss
-- cipher: aes-256-cfb
-  name: '[SS] vnVN_1|1.1MB/s'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.37
-  type: ss
-- cipher: aes-256-cfb
-  name: '[SS] vnVN_2|1.0MB/s'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.247
-  type: ss
-- cipher: chacha20-ietf
-  name: '[SS] hkHK_2|1.8MB/s'
-  password: asd123456
-  port: 8388
-  server: 103.149.183.200
-  type: ss
-  udp: true
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: '[Vmess] usUS_2|1.1MB/s'
-  network: tcp
-  port: 180
-  server: 82.198.246.97
+  name: '[Vmess] deDE_1|1.7MB/s'
+  network: ws
+  port: 8443
+  server: dll.avaaaal.ir
+  servername: dll.avaaaal.ir
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
+  ws-opts:
+    headers:
+      Host: cdge.avaaaal.ir
+    path: /
+- cipher: aes-256-cfb
+  name: '[SS] esES_1|1.0MB/s'
+  password: S7KwUu7yBy58S3Ga
+  port: 9042
+  server: 5.188.181.201
+  type: ss
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[Vmess] deDE_2|1.4MB/s'
+  network: ws
+  port: 8080
+  server: 172.64.149.182
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-5712964102.sharghdaily.co
+    max-early-data: 2560
+    path: /nasnet/cdn
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] mxMX_1|1.4MB/s'
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 20149
-  server: ldu.izenny.com
+- cipher: aes-256-cfb
+  name: '[SS] ruRU_2|1.3MB/s'
+  password: gYCYXfkUQEs2TaJQ
+  port: 9038
+  server: 194.116.173.21
   type: ss
-  udp: true
 - alterId: 2
   cipher: auto
   country: 🏁 ZZ

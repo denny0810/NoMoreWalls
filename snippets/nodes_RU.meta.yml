@@ -1,39 +1,23 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] ruRU_1|1.6MB/s'
+  name: '[VLESS] ruRU_1|1.8MB/s'
   network: tcp
   port: 443
   reality-opts:
-    public-key: sbvKAdRy_0h33iRxgGwHAD1HC62WGwlkWwj0S5ptJEU
-    short-id: '!!str 9c2378562188c3cb'
-  server: 212.113.123.230
-  servername: ru.denditop.site
+    public-key: ICOdUjV4l0pQKechbg5GIDyo0mvDH373CR1dcWxXCXg
+    short-id: '!!str 7baebcace7b4d3a6'
+  server: yandex.plansv.tech
+  servername: yandex.plansv.tech
   tls: true
   type: vless
-  udp: true
-  uuid: e4f5077b-3628-450c-92f9-b129b8a641a7
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] ruRU_3|2.7MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24
-    short-id: '!!str bbfb4f7a53e22dd3'
-  server: spb.roblugo.su
-  servername: spb.roblugo.su
-  tls: true
-  type: vless
-  udp: true
-  uuid: 32561144-434f-4752-a731-f35cd191ba4a
-  xudp: true
+  uuid: e5ef4914-5a87-46c1-a62b-0b8dfb3dbcb8
+- cipher: aes-256-cfb
+  name: '[SS] ruRU_2|1.3MB/s'
+  password: gYCYXfkUQEs2TaJQ
+  port: 9038
+  server: 194.116.173.21
+  type: ss
 - client-fingerprint: chrome
   name: '[VLESS] RU_speednode_0007'
   port: 8443

@@ -16,59 +16,89 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] deDE_1|1.7MB/s'
+  network: ws
+  port: 8443
+  server: dll.avaaaal.ir
+  servername: dll.avaaaal.ir
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
+  ws-opts:
+    headers:
+      Host: cdge.avaaaal.ir
+    path: /
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[Vmess] deDE_2|1.4MB/s'
+  network: ws
+  port: 8080
+  server: 172.64.149.182
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-5712964102.sharghdaily.co
+    max-early-data: 2560
+    path: /nasnet/cdn
+  xudp: true
+- encryption: none
+  name: '[VLESS] deDE_3|2.1MB/s'
+  network: ws
+  port: 8080
+  server: cdn2.glitchfm.ir
+  type: vless
+  udp: true
+  uuid: fadad685-7427-40eb-8cc4-1d75979dc55f
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: kernal04.ivy-net.ir
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    max-early-data: 2052
+    path: /wp-admin.php
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE_1|1.1MB/s'
+  name: '[VLESS] deDE_4|2.1MB/s'
   network: ws
   port: 443
-  server: 208.103.161.110
-  servername: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
+  server: cdnjs.com
+  servername: kh2dmg6jzcc3tk5qjk88uua1mqmllu3ab8ftomg.mahdi383ir.website
   tls: true
   type: vless
   udp: true
-  uuid: 9ccd06a2-5616-47e3-9763-f9696959d7ad
+  uuid: fe595ea9-e641-46db-cf94-38afef601315
   ws-opts:
     headers:
-      Host: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Chrome/12.0.742.100 Safari/534.30
-    path: /ws
+      Host: kh2d2db3vlp4ldh885do6w0pp5286wqow0p0kdg.mahdi383ir.website
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /@mahdi_383ir
   xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] deDE_2|1.0MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: sxyxV0_y1o09gKJBL9AJJyRSEg6MiYK0j-kb5unzHh4
-    short-id: '!!str 6bb3c7f9f97b45b8'
-  server: nl.jojack.ru
-  servername: nl.jojack.ru
-  tls: true
-  type: vless
-  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
-- name: '[VLESS] deDE_3|2.3MB/s'
-  network: tcp
-  port: 443
-  server: decdn9.suio.me
-  servername: decdn9.suio.me
-  tls: true
-  type: vless
-  uuid: da11d62c-1996-4d2c-b2e6-e89c7a1265e9
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] deDE_4|1.7MB/s'
+  name: '[VLESS] deDE_5|1.3MB/s'
   network: tcp
   port: 443
   reality-opts:
     public-key: d1PrrLqIGVQSZ5jUaLe-R67Ey8TJZN8WVkIJh0Xa_zc
     short-id: '!!str '
-  server: 144.31.196.208
+  server: de-convert.webedg.net
   servername: de-convert.webedg.net
   tls: true
   type: vless
@@ -77,21 +107,21 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE_5|2.3MB/s'
+  name: '[VLESS] deDE_6|1.7MB/s'
   network: ws
-  port: 8443
-  server: bouquetberlin.org
-  servername: bouquetberlin.org
+  port: 443
+  server: 69.84.182.20
+  servername: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
   tls: true
   type: vless
   udp: true
-  uuid: 453c3861-eaf4-4c60-94e0-e57a2c9d2fcf
+  uuid: 9ccd06a2-5616-47e3-9763-f9696959d7ad
   ws-opts:
     headers:
-      Host: bouquetberlin.org
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
-        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
-    path: /vlessws
+      Host: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /ws
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision

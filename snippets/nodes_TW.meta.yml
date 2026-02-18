@@ -15,8 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: 45.32.28.232
   type: trojan
-- client-fingerprint: chrome
-  name: '[Trojan] twTW¹⁺_1|5.5MB/s|GPT⁺|GM|YT|D+...'
+- name: '[Trojan] twTW_1|1.2MB/s'
   network: ws
   password: 5a2c16f9
   port: 43
@@ -24,12 +23,32 @@ proxies:
   skip-cert-verify: false
   sni: 5c.hhhhh.eu.org
   type: trojan
-  udp: true
   ws-opts:
     headers:
       Host: 5c.hhhhh.eu.org
     path: /220.128.110.108:43
-- name: '[Http] twTW²_1|9.3MB/s|GPT⁺|GM|YT|NF|...'
+- name: '[Trojan] twTW_2|2.4MB/s'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 114.33.57.170
+  skip-cert-verify: false
+  sni: 5c.hhhhh.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 5c.hhhhh.eu.org
+    path: /%2F%2F114.33.57.170%3A443
+- name: '[Http] twTW_3|1.3MB/s'
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: '[Http] twTW²_1|1.1MB/s|GPT|X|Succeed|...'
   password: mrwdfNTD8M79LCukCieldrqZWqs=
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com

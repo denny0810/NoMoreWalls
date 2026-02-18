@@ -2,21 +2,22 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '[Vmess] jpJP²_3|11.3MB/s|0%|GPT|GM|YT|...'
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] jpJP²_2|1.6MB/s|0%|GPT|NF|D+|X...'
   network: ws
   port: 12883
   server: gtm1.ktmwan.net
   servername: baidu.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
   ws-opts:
     headers:
       Host: gtm1.ktmwan.net
     path: /
-  xudp: true
 - alterId: 2
   cipher: auto
   name: '[Vmess] hk 香港|@ripaojiedian'
@@ -66,15 +67,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[Trojan] hkHK_1|1.7MB/s'
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 125.228.236.138
-  skip-cert-verify: false
-  sni: 5c.hhhhh.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 5c.hhhhh.eu.org
-    path: /125.228.236.138:443

@@ -1,17 +1,23 @@
 proxies:
-- cipher: aes-256-cfb
-  name: '[SS] ruRU_1|1.1MB/s'
-  password: gYCYXfkUQEs2TaJQ
-  port: 9038
-  server: 194.116.173.21
-  type: ss
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
+  name: '[VLESS] ruRU_1|2.4MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 7IOtSp0-n2_uNS5nMO9ywZbn2HibMRGy0KbLad3szXc
+    short-id: '!!str b8cf9578640a9edf'
+  server: 185.39.206.226
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 07cd9dbe-21ac-4871-817d-c772687e4b7c
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
   name: '[VLESS] RU_speednode_0011'
   network: tcp
   port: 443
@@ -33,288 +39,19 @@ proxies:
     headers: {}
     path:
     - /
-  name: '[VLESS] ruRU²_15|5.5MB/s|GPT⁺|X|[原生|机房...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: '!!str f85b0cdd7d20c84c'
-  server: 81.200.151.79
-  servername: m.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7cacb8f2-37d0-4bed-a41c-1d3f246a3ffd
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] ruRU²_9|5.3MB/s|YT|X|[原生|机房]'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ICOdUjV4l0pQKechbg5GIDyo0mvDH373CR1dcWxXCXg
-    short-id: '!!str 7baebcace7b4d3a6'
-  server: yandex.plansv.tech
-  servername: yandex.plansv.tech
-  tls: true
-  type: vless
-  udp: true
-  uuid: e5ef4914-5a87-46c1-a62b-0b8dfb3dbcb8
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] ruRU²_11|6.0MB/s|YT|X|[原生|机房]'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: '!!str 95ec618532fa065e'
-  server: 95.163.211.13
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64a3a23c-363a-4bee-9401-f5c42eea5a27
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] ruRU_6|2.5MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: '!!str 4b523a98e1bbd15b'
-  server: 51.250.87.167
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 01896982-f9df-4bd5-8f32-914253db2e61
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] ruRU²_1|5.1MB/s|X|[原生|机房]'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: '!!str a76ea384b29a4f79'
-  server: 95.163.211.13
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7cacb8f2-37d0-4bed-a41c-1d3f246a3ffd
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] ruRU²_14|5.8MB/s|YT|X|History|...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 7IOtSp0-n2_uNS5nMO9ywZbn2HibMRGy0KbLad3szXc
-    short-id: '!!str b8cf9578640a9edf'
-  server: 185.39.206.226
-  servername: eh.vk.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 07cd9dbe-21ac-4871-817d-c772687e4b7c
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇷🇺RU
-  name: '[SS] ruRU²_3|1.0MB/s|YT|X|[原生|机房]'
-  password: hgMI6Wzzubcowo0Zviw61A
-  port: 36219
-  server: 89.169.45.184
-  type: ss
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] ruRU²_4|1.2MB/s|GPT⁺|X|[原生|机房]'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: '!!str 4b523a98e1bbd15b'
-  server: 51.250.0.147
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 01896982-f9df-4bd5-8f32-914253db2e61
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] ruRU²_5|5.4MB/s|GPT⁺|X|[原生|机房]'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: '!!str 4a3ad88ff867a295'
-  server: 51.250.4.119
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7cacb8f2-37d0-4bed-a41c-1d3f246a3ffd
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] fiFI²_1|4.5MB/s|20%|GPT⁺|YT-RU...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: sD1iqg83KrKItMvNo2ZwDO95VEWUtgPOJVC3wkIKOGw
-    short-id: '!!str c2dff04e461775a6'
-  server: s2.plansv.tech
-  servername: s2.plansv.tech
-  tls: true
-  type: vless
-  udp: true
-  uuid: e5ef4914-5a87-46c1-a62b-0b8dfb3dbcb8
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] ruRU²_6|6.0MB/s|GPT⁺|X|[原生|机房]'
+  name: '[VLESS] ruRU_3|2.5MB/s'
   network: tcp
   port: 443
   reality-opts:
     public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
     short-id: '!!str c8597fb67d55d9c4'
-  server: 51.250.86.102
+  server: 51.250.0.147
   servername: api-maps.yandex.ru
   tls: true
   type: vless
   udp: true
   uuid: 7cacb8f2-37d0-4bed-a41c-1d3f246a3ffd
   xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] ruRU²_7|6.2MB/s|X|[原生|机房]'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: u0F-nCZA6l-VwJifa3S2-uD3P-Q6vaARIvkQYnoCAnk
-    short-id: '!!str 0b4511d5e6db11a2'
-  server: msk-1.ummavpn.com
-  servername: msk-1.ummavpn.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 69dac49c-06ee-4d59-8a81-32515fcda263
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] ruRU²_8|0.6MB/s|GPT⁺|X|[原生|机房]'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: '!!str 7426b0c03ef009dc'
-  server: 51.250.83.255
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7cacb8f2-37d0-4bed-a41c-1d3f246a3ffd
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇮🇷IR
-  name: '[SS] auAU²_1|5.8MB/s|YT-RU|NF|X|[原生...'
-  password: zjjqxLqjDGFYESR36fj2sjnHBgEv98po
-  port: 1080
-  server: 82.97.242.53
-  type: ss
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] ruRU²_12|1.7MB/s|GPT⁺|X|[原生|机房...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: '!!str 048fe5c8be4bb687'
-  server: 51.250.87.167
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7cacb8f2-37d0-4bed-a41c-1d3f246a3ffd
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] ruRU²_13|0.7MB/s|GPT⁺|X|[原生|机房...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: '!!str 43df3983229a1c73'
-  server: 51.250.4.119
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64a3a23c-363a-4bee-9401-f5c42eea5a27
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] trTR²_3|5.6MB/s|GPT⁺|YT-RU|D+|...'
-  password: ixfXBq6dfMQQFiEz6PBcTy
-  port: 18685
-  server: 62.60.233.220
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   name: '[VLESS] RU_speednode_0007'
   port: 8443

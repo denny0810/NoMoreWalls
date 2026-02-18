@@ -2,21 +2,22 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '[Vmess] jpJP²_3|11.3MB/s|0%|GPT|GM|YT|...'
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] jpJP²_2|1.6MB/s|0%|GPT|NF|D+|X...'
   network: ws
   port: 12883
   server: gtm1.ktmwan.net
   servername: baidu.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
   ws-opts:
     headers:
       Host: gtm1.ktmwan.net
     path: /
-  xudp: true
 - name: '[Hysteria2] hk HK'
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
@@ -73,25 +74,19 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[Trojan] hkHK_1|1.7MB/s'
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 125.228.236.138
-  skip-cert-verify: false
-  sni: 5c.hhhhh.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 5c.hhhhh.eu.org
-    path: /125.228.236.138:443
-- name: '[Socks5] hkHK²_2|2.4MB/s|0%|X|History'
-  password: ''
-  port: 5555
-  server: 27.124.9.8
-  skip-cert-verify: true
-  type: socks5
-  username: ''
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[VLESS] hkHK_1|1.3MB/s'
+  network: tcp
+  port: 15416
+  reality-opts:
+    public-key: H0oYX4GJe45zWXvrPdMzSKhmmrd2aqKFEk1Z2Dy9SBM
+    short-id: '!!str bd997a55'
+  server: 43.199.30.94
+  servername: www.lamer.com.hk
+  tls: true
+  type: vless
+  uuid: 399a4aac-e5ed-44b6-ac00-4f0d02f72537
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: '[VLESS] HK_speednode_0002'

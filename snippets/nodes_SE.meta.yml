@@ -1,18 +1,17 @@
 proxies:
-- encryption: none
-  name: '[VLESS] seSE_1|1.5MB/s'
-  network: ws
-  port: 2086
-  server: hope.zdshop.ir
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] seSE²_1|5.0MB/s|1%|GPT⁺|X|Hist...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1he5EyHxI595x0mNkFNxOebUOQZGVGIy_c92bn1qO2o
+    short-id: '!!str ac31827454d7f693'
+  server: 87.121.105.127
+  servername: cdnjs.com
+  tls: true
   type: vless
   udp: true
-  uuid: bc20990c-a88e-4852-8e3b-f5b3ff4ae56a
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: new-sens-2.certhost.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
-    max-early-data: 2086
-    path: /
+  uuid: 0c57c801-c2e2-4af0-8dd5-05e0d080a5e8
   xudp: true

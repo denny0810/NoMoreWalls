@@ -1,18 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[Vmess] DE12｜机房｜低风险'
+  client-fingerprint: chrome
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] deDE²_4|5.9MB/s|5%|GPT⁺|X|Hist...'
   network: ws
-  port: '8443'
+  port: 8443
   server: dll.avaaaal.ir
-  servername: dll.avaaaal.ir
+  servername: cdge.avaaaal.ir
+  skip-cert-verify: false
   tls: true
   type: vmess
+  udp: true
   uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
   ws-opts:
     headers:
       Host: cdge.avaaaal.ir
     path: /
+  xudp: true
 - alterId: 0
   cipher: auto
   name: '[Vmess] DE18｜机房｜高风险 (黑名单)'
@@ -22,34 +28,3 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[Vmess] deDE_1|2.3MB/s'
-  network: ws
-  port: 8080
-  server: 172.64.149.182
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-5712964102.sharghdaily.co
-    max-early-data: 2560
-    path: /nasnet/cdn
-  xudp: true
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] deDE²_1|0.5MB/s|X|History|[广播|...'
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

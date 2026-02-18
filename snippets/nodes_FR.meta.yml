@@ -8,13 +8,37 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] frFR_1|2.4MB/s'
+  network: tcp
+  port: 443
+  server: fr.1323.world
+  servername: b12a6eea4807ca4e.1323.world
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0e90f352-e9bc-4834-8ff6-49ba887eded4
+  xudp: true
+- client-fingerprint: chrome
+  country: 🇫🇷FR
+  name: '[Trojan] frFR²_1|5.5MB/s|1%|GPT⁺|X|[广播|...'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 35.180.167.247
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
   encryption: none
   http-opts:
     headers: {}
     path:
     - /
-  name: '[VLESS] frFR_1|1.2MB/s'
+  name: '[VLESS] frFR²_3|4.6MB/s|GPT⁺|X|History...'
   network: tcp
   port: 17401
   reality-opts:
@@ -22,6 +46,7 @@ proxies:
     short-id: '!!str 8ef4455ba637425b'
   server: 195.154.200.13
   servername: itunes.apple.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -29,17 +54,20 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] frFR_2|2.1MB/s'
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] frFR²_4|5.5MB/s|42%|GPT|D+|X|H...'
   network: tcp
-  port: 443
+  port: 52042
   reality-opts:
-    public-key: FFMIZGGtmpMeCKluwyQ2qjgReo6EU8xwM7oLB-ysa2k
-    short-id: '!!str 59611200'
-  server: 57.128.191.90
-  servername: dl.google.com
+    public-key: Z23_1wSIy1CNUEB7YEJwPZzCEsMTmzTNGe_h5bzEMHY
+    short-id: '!!str 8e8dcb9a67bf43f1'
+  server: 185.156.72.124
+  servername: yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: ac754349-a3d5-4eca-990e-1119c0cff4d5
+  uuid: f557eadb-1715-4c0b-aaae-f9b9577d827d
   xudp: true

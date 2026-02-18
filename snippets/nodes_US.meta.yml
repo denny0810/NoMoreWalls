@@ -50,25 +50,9 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] usUS_1|1.1MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: xJIswEHrphk8LCn-DyJxw4uypPkouxPgNsfiyjRU-3w
-    short-id: '!!str 41a0b29e95aaea87'
-  server: 144.31.128.129
-  servername: ae.cdn.stun.su
-  tls: true
-  type: vless
-  udp: true
-  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
-  xudp: true
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] usUS_2|1.3MB/s'
+  name: '[Vmess] usUS_1|1.0MB/s'
   network: ws
   port: 80
   server: t65.o1o.indevs.in
@@ -82,11 +66,135 @@ proxies:
       Host: t65.O1o.InDEVS.in
     path: /GgigazFGDLgFWDItkD5XgXAL
   xudp: true
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[VLESS] usUS¹-SG⁰_1|6.9MB/s|GPT⁺|GM|YT...'
+  network: ws
+  port: 443
+  server: 104.18.190.134
+  servername: pa-7oa.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0194f069-ebfd-49c2-b90f-bd9b1412c2b0
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: pa-7oa.pages.dev
+    max-early-data: 2048
+    path: /
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[VLESS] usUS_3|1.8MB/s'
+  network: ws
+  port: 443
+  server: 104.17.212.227
+  servername: pa-7oa.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0194f069-ebfd-49c2-b90f-bd9b1412c2b0
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: pa-7oa.pages.dev
+    max-early-data: 2048
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] usUS_4|3.5MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
+    short-id: '!!str '
+  server: 142.248.80.157
+  servername: apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] usUS²_5|3.1MB/s|17%|GPT|X|Hist...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: xJIswEHrphk8LCn-DyJxw4uypPkouxPgNsfiyjRU-3w
+    short-id: '!!str 41a0b29e95aaea87'
+  server: ae.cdn.stun.su
+  servername: ae.cdn.stun.su
+  tls: true
+  type: vless
+  udp: true
+  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] usUS²_2|4.7MB/s|20%|GPT⁺|YT-RU...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: vegx20Xc9XIkr8nfdEB7LZnficXNURVnDbB8_ND97Dw
+    short-id: '!!str '
+  server: us.connectv.net
+  servername: us.connectv.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: d38ee50c-c3d5-402f-907a-ab6ba229d774
+  xudp: true
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_1|4.0MB/s|33%|GPT⁺|NF|X|...'
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  servername: v8.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_9|1.7MB/s|GPT|GM|YT-US|X...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.31
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_11|2.9MB/s|GPT⁺|YT-US|X|...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.64
+  type: ss
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
   delay: 1154
-  name: '[Vmess] usUS²_1|2.5MB/s|NF|X|History|[...'
+  name: '[Vmess] usUS²_3|6.3MB/s|X|Succeed|[原生|...'
   network: tcp
   port: 30846
   server: v46.hdacd.com
@@ -95,20 +203,50 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  country: 🏁 ZZ
+  country: 🇬🇧GB
+  h2-opts: {}
   http-opts: {}
-  name: '[Vmess] usUS²_2|2.5MB/s|X|History'
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
+  name: '[Vmess] usUS²_4|0.6MB/s|0%|GPT⁺|YT-CN|...'
+  network: ws
+  port: 12885
+  server: gtm1.ktmwan.net
+  servername: baidu.com
   skip-cert-verify: true
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 7a563730-15e6-4db9-acb1-1c3eee4d5b26
   ws-opts:
+    headers:
+      HOST: baidu.com
+      Host: gtm1.ktmwan.net
     path: /
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_19|1.0MB/s|GPT⁺|GM|YT-US...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.149
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_20|0.5MB/s|GPT⁺|YT-US|X|...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.41
+  type: ss
+- client-fingerprint: chrome
+  country: 🇮🇷IR
+  name: '[Trojan] 🏴‍☠_2usUS²_1|2.2MB/s|2.0MB/s|D...'
+  network: tcp
+  password: 347ca311-8fc2-499c-8fe1-bd0ecb50f1b3
+  port: 43642
+  server: 5.34.222.4
+  skip-cert-verify: true
+  sni: iepl.usq1.cat.bilibili.com
+  type: trojan
+  udp: true
 - client-fingerprint: ios
   flow: xtls-rprx-vision
   name: '[VLESS] US_speednode_0013'

@@ -11,3 +11,20 @@ proxies:
     headers:
       Host: sweden.vmaxpanel.com
     path: '%2Famd'
+- encryption: none
+  name: '[VLESS] seSE_1|1.5MB/s'
+  network: ws
+  port: 2086
+  server: hope.zdshop.ir
+  type: vless
+  udp: true
+  uuid: bc20990c-a88e-4852-8e3b-f5b3ff4ae56a
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: new-sens-2.certhost.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    max-early-data: 2086
+    path: /
+  xudp: true

@@ -50,17 +50,46 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: '0'
+  cipher: auto
+  name: '[Vmess] usUS_2|1.3MB/s'
+  network: ws
+  port: 80
+  server: t65.o1o.indevs.in
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4115f84d-3b03-4b03-babf-21b36b2f9c03
+  ws-opts:
+    headers:
+      Host: t65.O1o.InDEVS.in
+    path: /GgigazFGDLgFWDItkD5XgXAL
+  xudp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_1|2.0MB/s|33%|GPT⁺|X|His...'
+  delay: 1154
+  name: '[Vmess] usUS²_1|2.5MB/s|NF|X|History|[...'
   network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  servername: v8.hdacd.com
+  port: 30846
+  server: v46.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🏁 ZZ
+  http-opts: {}
+  name: '[Vmess] usUS²_2|2.5MB/s|X|History'
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
   skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /

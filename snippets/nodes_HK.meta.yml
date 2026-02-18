@@ -5,7 +5,7 @@ proxies:
   country: 🇬🇧GB
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] jpJP²_2|1.6MB/s|0%|GPT|NF|D+|X...'
+  name: '[Vmess] jpJP²_2|0.9MB/s|GPT|YT|D+|X|Hi...'
   network: ws
   port: 12883
   server: gtm1.ktmwan.net
@@ -13,11 +13,14 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
   ws-opts:
     headers:
+      HOST: baidu.com
       Host: gtm1.ktmwan.net
     path: /
+  xudp: true
 - name: '[Hysteria2] hk HK'
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
@@ -74,19 +77,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] hkHK_1|1.3MB/s'
-  network: tcp
-  port: 15416
-  reality-opts:
-    public-key: H0oYX4GJe45zWXvrPdMzSKhmmrd2aqKFEk1Z2Dy9SBM
-    short-id: '!!str bd997a55'
-  server: 43.199.30.94
-  servername: www.lamer.com.hk
+- name: '[Http] hkHK_2|1.7MB/s'
+  password: <password>
+  port: 8443
+  server: bc50d550-t9zts0-tbeopq-1s0a7.hkt.cdnhuawei.com
+  sni: bc50d550-t9zts0-tbeopq-1s0a7.hkt.cdnhuawei.com
   tls: true
-  type: vless
-  uuid: 399a4aac-e5ed-44b6-ac00-4f0d02f72537
+  type: http
+  username: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: '[VLESS] HK_speednode_0002'

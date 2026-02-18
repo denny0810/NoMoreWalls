@@ -1,10 +1,16 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: '[Vmess] DE5｜机房｜低风险'
+  client-fingerprint: chrome
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] deDE²_7|1.0MB/s|GPT|X|History'
   network: tcp
-  port: '30833'
+  port: 30833
   server: v33.hdacd.com
+  servername: v33.hdacd.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -18,31 +24,9 @@ proxies:
   type: hysteria2
 - alpn:
   - ''
-  alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] deDE²_8|6.7MB/s|5%|GPT⁺|X|Hist...'
-  network: ws
-  port: 8443
-  server: dll.avaaaal.ir
-  servername: cdge.avaaaal.ir
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
-  ws-opts:
-    headers:
-      Host: cdge.avaaaal.ir
-    path: /
-  xudp: true
-- alpn:
-  - ''
   alterId: '0'
   cipher: auto
-  name: '[Vmess] deDE_2|1.4MB/s'
+  name: '[Vmess] deDE_1|1.4MB/s'
   network: ws
   port: 8080
   server: 172.64.149.182
@@ -58,105 +42,30 @@ proxies:
     max-early-data: 2560
     path: /nasnet/cdn
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] frFR²_2|2.7MB/s|GPT|X'
-  network: ws
-  port: 8080
-  server: cdn2.glitchfm.ir
-  type: vless
-  udp: true
-  uuid: fadad685-7427-40eb-8cc4-1d75979dc55f
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: kernal04.ivy-net.ir
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    max-early-data: 2052
-    path: /wp-admin.php
-  xudp: true
 - alpn:
-  - h2
-  - http/1.1
+  - ''
+  alterId: '0'
+  cipher: auto
   client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_4|2.1MB/s'
+  name: '[Vmess] deDE²_6|6.3MB/s|5%|GPT⁺|X|Succ...'
   network: ws
-  port: 443
-  server: cdnjs.com
-  servername: kh2dmg6jzcc3tk5qjk88uua1mqmllu3ab8ftomg.mahdi383ir.website
+  port: 8443
+  server: dll.avaaaal.ir
+  servername: dll.avaaaal.ir
+  skip-cert-verify: false
   tls: true
-  type: vless
+  type: vmess
   udp: true
-  uuid: fe595ea9-e641-46db-cf94-38afef601315
+  uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
   ws-opts:
     headers:
-      Host: kh2d2db3vlp4ldh885do6w0pp5286wqow0p0kdg.mahdi383ir.website
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /@mahdi_383ir
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] deDE_5|1.3MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: d1PrrLqIGVQSZ5jUaLe-R67Ey8TJZN8WVkIJh0Xa_zc
-    short-id: '!!str '
-  server: de-convert.webedg.net
-  servername: de-convert.webedg.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3bf002f8-b951-4dd5-b372-8d46ccd5f24b
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_6|1.7MB/s'
-  network: ws
-  port: 443
-  server: 69.84.182.20
-  servername: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ccd06a2-5616-47e3-9763-f9696959d7ad
-  ws-opts:
-    headers:
-      Host: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.86 Safari/537.36
-    path: /ws
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] fiFI²_1|1.9MB/s|6%|GPT⁺|YT-DE|...'
-  network: ws
-  port: 2082
-  server: 108.162.198.154
-  type: vless
-  udp: true
-  uuid: 8b35c58e-04fd-41e1-a7af-73378f8ce08b
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: wallet.stock-photo.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    max-early-data: 2048
+      Host: cdge.avaaaal.ir
     path: /
   xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] deDE²_1|0.7MB/s|24%|GPT⁺|X|His...'
+  name: '[VLESS] deDE_3|2.4MB/s'
   network: tcp
   port: 443
   reality-opts:
@@ -169,6 +78,92 @@ proxies:
   udp: true
   uuid: f0b15f64-db59-438c-b1b6-f1b83db52240
   xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] deDE_4|3.0MB/s'
+  network: tcp
+  port: 443
+  server: 4.185.113.10
+  servername: jina-418511310-direct.yektanet.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] deDE²_3|5.6MB/s|5%|GPT⁺|NF|D+|...'
+  network: tcp
+  port: 443
+  server: 20.218.137.249
+  servername: jina-20218137249-direct.yektanet.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- client-fingerprint: chrome
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] deDE²_1|3.1MB/s|0%|GPT⁺|X|Hist...'
+  network: tcp
+  port: 2086
+  server: a11.api-tel.ir
+  type: vless
+  udp: true
+  uuid: 0696d558-118e-4613-8262-59fe272cac59
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] deDE¹⁺_1|5.6MB/s|100%|GPT⁺|D+|...'
+  network: tcp
+  port: 443
+  server: 20.79.160.49
+  servername: jina-207916049-direct.yektanet.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- name: '[Socks5] deDE²_4|3.8MB/s|24%|GPT⁺|X|His...'
+  password: ''
+  port: 1080
+  server: 217.154.207.198
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] deDE¹⁺_2|4.4MB/s|5%|GPT⁺|D+|X|...'
+  network: tcp
+  port: 443
+  server: 20.79.162.37
+  servername: jina-207916237-direct.yektanet.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -176,7 +171,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: '[VLESS] deDE²_2|4.6MB/s|0%|GPT⁺|X|Hist...'
+  name: '[VLESS] deDE²_5|4.9MB/s|0%|GPT⁺|TK|NF|...'
   network: tcp
   port: 443
   reality-opts:
@@ -189,128 +184,33 @@ proxies:
   udp: true
   uuid: b39aca97-e9f2-4a94-b87f-8748299846cd
   xudp: true
-- name: '[Socks5] deDE²_4|0.5MB/s|GPT⁺|X'
-  password: ''
-  port: 1080
-  server: 37.220.83.112
-  skip-cert-verify: true
-  type: socks5
-  username: ''
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] deDE²_5|4.7MB/s|0%|GPT|TK|X|Hi...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: o29JCvEwwDcIW6ZQu06m6Vyxko6pXaNjzNd-jGcwABU
-    short-id: '!!str f1a3d4b6de93aa3a'
-  server: 144.31.139.71
-  servername: de.gagtubelol.com
-  tls: true
+  encryption: mlkem768x25519plus.native.0rtt.jg1YgNFyOMWZTDGBfLaD0TC9StfclQx_yyck7YOSry8
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '[VLESS] fiFI²_3|6.1MB/s|6%|GPT⁺|YT-DE|...'
+  network: grpc
+  port: 34224
+  server: 65.109.229.174
   type: vless
   udp: true
-  uuid: 192f7c25-0c3a-4089-a67b-5138c5d5d561
+  uuid: 32609032-c9d6-487c-a1fd-0e4b09661e1d
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE²_6|6.6MB/s|46%|GPT⁺|X|[广播...'
-  network: ws
-  port: 443
-  server: 208.103.161.110
-  servername: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ccd06a2-5616-47e3-9763-f9696959d7ad
-  ws-opts:
-    headers:
-      Host: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
-        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
-        Mobile Safari/537.36
-    path: /ws
-  xudp: true
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_15|1.7MB/s|GPT⁺|GM|YT-DE...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.144
-  type: ss
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] fiFI²_3|0.8MB/s|6%|GPT⁺|YT-DE|...'
+  name: '[VLESS] deDE¹⁺_3|6.5MB/s|5%|GPT⁺|X|[广播...'
   network: ws
   port: 2082
-  server: 45.142.120.85
+  server: cdnjs.com
   type: vless
   udp: true
-  uuid: 8b35c58e-04fd-41e1-a7af-73378f8ce08b
+  uuid: 48ce9313-4913-4100-eedf-bccf3f956dec
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: wallet.stock-photo.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
-    max-early-data: 2048
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] fiFI²_4|1.2MB/s|6%|GPT⁺|YT-DE|...'
-  network: ws
-  port: 2082
-  server: www.speedtest.net
-  type: vless
-  udp: true
-  uuid: 8b35c58e-04fd-41e1-a7af-73378f8ce08b
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: wallet.stock-photo.ir
+      Host: kh23h5k47xoocggw85cwt1mkdzi9vad4zoe2kfk.mahdi383ir.website
       User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    max-early-data: 2048
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] fiFI²_5|1.5MB/s|6%|GPT⁺|YT-DE|...'
-  network: ws
-  port: 2082
-  server: 188.244.122.136
-  type: vless
-  udp: true
-  uuid: 8b35c58e-04fd-41e1-a7af-73378f8ce08b
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: wallet.stock-photo.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    max-early-data: 2048
-    path: /
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] deDE²_9|2.7MB/s|X'
-  network: tcp
-  port: 443
-  server: 4.185.113.10
-  servername: jina-418511310-direct.yektanet.co
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /@mahdi_383ir
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision

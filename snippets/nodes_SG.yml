@@ -18,24 +18,14 @@ proxies:
 - name: '[Trojan] 新加坡3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 2673
-  server: 43.199.161.245
+  port: 381
+  server: 57.180.245.83
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] sgSG²_3|9.1MB/s|43%|GPT⁺|GM|YT...'
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  servername: v45.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] 新加坡4|@ripaojiedian'
+  password: 049d354a-2cf1-4956-b6d8-d04aa4969b64
+  port: 22350
+  server: assets-cfnode67.cloudflarecdn-edge.rfsconfig.com
+  type: ss

@@ -2,22 +2,18 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] jpJP²_4|6.7MB/s|0%|GPT|GM|YT|D...'
+  name: '[Vmess] jpJP²_3|11.3MB/s|0%|GPT|GM|YT|...'
   network: ws
   port: 12883
   server: gtm1.ktmwan.net
   servername: baidu.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
   ws-opts:
     headers:
-      HOST: baidu.com
       Host: gtm1.ktmwan.net
     path: /
   xudp: true
@@ -30,11 +26,17 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] 香港2|@ripaojiedian'
+  password: 049d354a-2cf1-4956-b6d8-d04aa4969b64
+  port: 10015
+  server: assets-cfnode67.cloudflarecdn-edge.rfsconfig.com
+  type: ss
 - name: '[Trojan] 香港3|@ripaojiedian'
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 3373
-  server: 18.183.109.29
+  server: 46.51.224.113
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -42,15 +44,15 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 54548
-  server: 57.180.15.194
+  server: 95.40.2.208
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[Trojan] 香港5|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 443
-  server: 43.207.105.49
+  port: 54548
+  server: 57.180.245.83
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -64,47 +66,15 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: '[Vmess] hkHK²_1|15.6MB/s|4%|GPT⁺|GM|YT...'
-  network: tcp
-  port: 13852
-  server: 45.207.157.29
+- name: '[Trojan] hkHK_1|1.7MB/s'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 125.228.236.138
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 845764df-ecb3-4b13-bed2-bf1551b68e9a
-  xudp: true
-- cipher: chacha20-ietf
-  country: 🇭🇰HK
-  name: '[SS] hkHK²_3|0.7MB/s|0%|YT|X|Histor...'
-  password: asd123456
-  port: 8388
-  server: 103.149.183.113
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇭🇰HK
-  name: '[SS] hkHK²_6|15.0MB/s|0%|X|History'
-  password: 176c983f-6a7f-4a96-9865-891a6c48ec86
-  port: 50000
-  server: a001.standard-nodes-chickenfarms.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] hkHK²_8|15.9MB/s|4%|GPT⁺|GM|YT...'
-  network: none
-  port: 13852
-  server: 45.207.157.29
-  skip-cert-verify: true
-  type: vmess
-  uuid: 845764df-ecb3-4b13-bed2-bf1551b68e9a
+  sni: 5c.hhhhh.eu.org
+  type: trojan
   ws-opts:
-    path: /
+    headers:
+      Host: 5c.hhhhh.eu.org
+    path: /125.228.236.138:443

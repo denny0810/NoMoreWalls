@@ -12,28 +12,28 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 2595
-  server: 43.206.226.70
+  server: 13.158.130.64
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[Trojan] 日本2|@ripaojiedian'
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
-  port: 193
-  server: 160.16.85.33
+  port: 3423
+  server: 18.181.199.98
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 日本3|@ripaojiedian'
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
-  port: 400
-  server: 160.16.231.103
+  port: 3423
+  server: 160.16.124.17
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: '[VLESS] jpJP²_1|2.5MB/s|0%|GPT⁺|X|Hist...'
+  name: '[VLESS] jpJP²_1|0.9MB/s|0%|X|History'
   network: tcp
   port: 443
   reality-opts:
@@ -44,24 +44,33 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: ea460dc3-0b19-4652-b5e2-f1ad74aadee6
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: '[Vmess] jpJP²_2|1.6MB/s|0%|GPT|GM|YT|D...'
-  network: ws
-  port: 12883
-  server: gtm1.ktmwan.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  uuid: 35f2f529-968d-4727-b57a-bcc39a3fd2ae
+- client-fingerprint: chrome
+  name: '[VLESS] jpJP²_2|1.5MB/s|X|History'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: '!!str 2da72ce6'
+  server: 154.31.114.125
+  servername: navi.bankrate.com
+  tls: true
+  type: vless
   udp: true
-  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-  xudp: true
+  uuid: ab47df8a-d1f3-43ea-ae3e-5bcc5c7f6a1d
+- client-fingerprint: chrome
+  name: '[VLESS] jpJP²_4|2.8MB/s|X|History'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: '!!str 2da72ce6'
+  server: 154.31.114.125
+  servername: navi.bankrate.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c1104d93-eba3-48d6-ba63-10574bdaa8b3
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: '[VLESS] JP_speednode_0004'

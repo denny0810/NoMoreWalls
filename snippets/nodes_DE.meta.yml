@@ -26,32 +26,18 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: '[VLESS] deDE_1|1.1MB/s'
+  name: '[VLESS] deDE_1|1.4MB/s'
   network: tcp
   port: 443
-  server: 93.94.51.186
-  servername: deu549.worldbypass.org
+  reality-opts:
+    public-key: sxyxV0_y1o09gKJBL9AJJyRSEg6MiYK0j-kb5unzHh4
+    short-id: '!!str 6bb3c7f9f97b45b8'
+  server: 80.75.212.10
+  servername: nl.jojack.ru
   tls: true
   type: vless
-  udp: true
-  uuid: 405ba2d6-7fcb-4cdd-9c77-4ecc616d77c8
-  xudp: true
-- name: '[VLESS] deDE_3|1.6MB/s'
-  network: ws
-  port: 80
-  server: z.ssl.fastly.net
-  type: vless
-  udp: true
-  uuid: 837b6716-6901-4b4d-a49f-2b6ac9306aa3
-  ws-opts:
-    headers:
-      Host: gerrma.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /
-  xudp: true
+  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] DE_speednode_0001'

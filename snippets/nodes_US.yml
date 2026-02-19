@@ -51,15 +51,22 @@ proxies:
     path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
 - alterId: 0
   cipher: auto
-  name: '[Vmess] US112｜机房｜低风险'
+  client-fingerprint: chrome
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_3|0.6MB/s|50%|GPT|X'
   network: ws
-  port: '80'
+  port: 80
   server: jnm.1x2.indevs.in
+  servername: jnm.1x2.indevs.in
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   ws-opts:
     headers:
+      HOST: jnm.1x2.indevs.in
       Host: jnm.1x2.indevs.in
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alpn:
@@ -373,17 +380,21 @@ proxies:
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alterId: 0
   cipher: auto
-  name: '[Vmess] US104｜机房｜低风险'
+  client-fingerprint: chrome
+  name: '[Vmess] usUS²_1|1.3MB/s|50%|X'
   network: ws
-  port: '80'
+  port: 80
   server: nnmj.1x5.indevs.in
+  skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   ws-opts:
     headers:
       Host: nnmj.1x5.indevs.in
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
+  xudp: true
 - alterId: 0
   cipher: auto
   name: '[Vmess] US54｜机房｜低风险'

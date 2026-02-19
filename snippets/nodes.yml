@@ -7,20 +7,27 @@ proxies:
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- alterId: 0
+- alpn:
+  - ''
+  alterId: '0'
   cipher: auto
-  name: '[Vmess] AE7｜未知 (None)｜非常安全'
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] trTR²_2|3.8MB/s|0%|GPT|X|Histo...'
   network: ws
-  port: '8443'
+  port: 8443
   server: dll.avaaaal.ir
   servername: dll.avaaaal.ir
+  skip-cert-verify: false
   tls: true
   type: vmess
+  udp: true
   uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
   ws-opts:
     headers:
       Host: cdge.avaaaal.ir
     path: /
+  xudp: true
 - alpn:
   - http/1.1
   name: '[Trojan] US4｜机房｜低风险'
@@ -65,15 +72,21 @@ proxies:
     path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
 - alterId: 0
   cipher: auto
-  name: '[Vmess] US112｜机房｜低风险'
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_3|0.6MB/s|50%|GPT|X'
   network: ws
-  port: '80'
+  port: 80
   server: jnm.1x2.indevs.in
+  servername: jnm.1x2.indevs.in
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   ws-opts:
     headers:
+      HOST: jnm.1x2.indevs.in
       Host: jnm.1x2.indevs.in
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alpn:
@@ -403,17 +416,20 @@ proxies:
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alterId: 0
   cipher: auto
-  name: '[Vmess] US104｜机房｜低风险'
+  name: '[Vmess] usUS²_1|1.3MB/s|50%|X'
   network: ws
-  port: '80'
+  port: 80
   server: nnmj.1x5.indevs.in
+  skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   ws-opts:
     headers:
       Host: nnmj.1x5.indevs.in
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
+  xudp: true
 - alterId: 0
   cipher: auto
   name: '[Vmess] US54｜机房｜低风险'
@@ -891,9 +907,9 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[Vmess] DE21｜机房｜低风险'
+  name: '[Vmess] deDE²_1|0.6MB/s|GPT⁺|X|History'
   network: tcp
-  port: '30833'
+  port: 30833
   server: v33.hdacd.com
   tls: false
   type: vmess
@@ -1212,31 +1228,59 @@ proxies:
   uuid: 0e4e55e2-eca1-48ad-8669-da0440006556
 - cipher: chacha20-ietf-poly1305
   country: 🇮🇷IR
-  name: '[SS] itIT²_1|0.6MB/s|33%|GPT⁺|X|Suc...'
+  name: '[SS] egEG¹⁺_1|2.5MB/s|5%|GPT⁺|X|His...'
   password: 13df5feb-756e-4627-bcee-497f3c81bab4
-  port: 46253
+  port: 56052
   server: f.sdnlv0.cn
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇮🇷IR
-  name: '[SS] brBR²_1|1.6MB/s|8%|GPT⁺|X|Succ...'
-  password: 13df5feb-756e-4627-bcee-497f3c81bab4
-  port: 11270
-  server: f.sdnlv0.cn
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇮🇷IR
-  name: '[SS] plPL²_1|2.2MB/s|33%|GPT⁺|X|Suc...'
-  password: 13df5feb-756e-4627-bcee-497f3c81bab4
-  port: 42295
-  server: f.sdnlv0.cn
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇮🇷IR
-  name: '[SS] sgSG²_1|1.3MB/s|0%|GPT⁺|YT-CN|...'
+  name: '[SS] sgSG²_1|3.9MB/s|0%|GPT⁺|YT-CN|...'
   password: 13df5feb-756e-4627-bcee-497f3c81bab4
   port: 20600
   server: xgrr.sdnlv0.cn
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇮🇷IR
+  name: '[SS] sgSG²_2|7.0MB/s|4%|GPT⁺|GM|YT|...'
+  password: 13df5feb-756e-4627-bcee-497f3c81bab4
+  port: 33220
+  server: xgrr.sdnlv0.cn
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇮🇷IR
+  name: '[SS] isIS²_1|5.0MB/s|GPT|X|History|...'
+  password: 13df5feb-756e-4627-bcee-497f3c81bab4
+  port: 36086
+  server: f.sdnlv0.cn
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_1|1.4MB/s|GPT⁺|X|History'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.4
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇮🇷IR
+  name: '[SS] jpJP²_1|1.1MB/s|X|History'
+  password: 13df5feb-756e-4627-bcee-497f3c81bab4
+  port: 48973
+  server: xgrr.sdnlv0.cn
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇮🇷IR
+  name: '[SS] gbGB²_1|0.9MB/s|100%|GPT⁺|D+|X...'
+  password: 13df5feb-756e-4627-bcee-497f3c81bab4
+  port: 31032
+  server: f.sdnlv0.cn
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_2|0.9MB/s|GPT⁺|X|History'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.227
   type: ss
 - alterId: 0
   cipher: auto

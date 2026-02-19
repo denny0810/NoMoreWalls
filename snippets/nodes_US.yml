@@ -50,6 +50,39 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] usUS_1|1.0MB/s'
+  network: ws
+  port: 80
+  server: gnju.o09.indevs.in
+  servername: gnju.o09.indevs.in
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4115f84d-3b03-4b03-babf-21b36b2f9c03
+  ws-opts:
+    headers:
+      Host: gnju.o09.indevs.in
+    path: /GgigazFGDLgFWDItkD5XgXAL
+- client-fingerprint: chrome
+  name: '[Trojan] usUS_4|2.6MB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

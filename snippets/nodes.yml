@@ -85,12 +85,12 @@ proxies:
       Host: gtm1.ktmwan.net
     path: /
   xudp: true
-- name: '[Trojan] hkHK_2|2.0MB/s'
+- name: '[Trojan] 台湾|@ripaojiedian'
   network: tcp
   password: 736cd94d-7b94-3e44-8106-3419f64eaf09
   port: 3462
   server: a12.taipeicitygovernment.org.ua
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 45.32.28.232
   type: trojan
 - name: '[Trojan] HK22｜家宽｜非常安全'
@@ -199,7 +199,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 0e4e55e2-eca1-48ad-8669-da0440006556
-- name: '[Trojan] 香港3|@ripaojiedian'
+- name: '[Trojan] hkHK_1|1.0MB/s'
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 443
@@ -315,35 +315,45 @@ proxies:
   tls: false
   type: vmess
   uuid: 0e4e55e2-eca1-48ad-8669-da0440006556
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] gbGB_1|2.4MB/s'
-  password: kaQH3hGdcP80XEDI
-  port: 443
-  server: 131.145.23.4
-  type: ss
-- alpn:
-  - http/1.1
-  name: '[Trojan] nlNL_1|1.9MB/s'
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] usUS_1|1.0MB/s'
   network: ws
-  password: '123456'
-  port: 2053
-  server: bpbg.anguswen.top
+  port: 80
+  server: gnju.o09.indevs.in
+  servername: gnju.o09.indevs.in
   skip-cert-verify: false
-  sni: bpBG.anGusWen.TOp
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4115f84d-3b03-4b03-babf-21b36b2f9c03
+  ws-opts:
+    headers:
+      Host: gnju.o09.indevs.in
+    path: /GgigazFGDLgFWDItkD5XgXAL
+- name: '[Trojan] usUS_4|2.6MB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: bpBG.anGusWen.TOp
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
     max-early-data: 2560
-    path: /eyJqdW5rIjoiZkdPanhyQWgiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19
+    path: /tro8sFW1S91B6sZrM1
 - cipher: chacha20-ietf-poly1305
-  name: '[SS] mxMX_1|2.0MB/s'
+  name: '[SS] sgSG_3|2.0MB/s'
   password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 20149
+  port: 28063
   server: ldu.izenny.com
   type: ss
+  udp: true
 - cipher: aes-256-gcm
   country: 🇬🇧GB
   name: '[SS] frFR²_1|0.6MB/s|GPT⁺|X|Succeed...'

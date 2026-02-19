@@ -1,4 +1,13 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: '[Vmess] SG13｜机房｜低风险'
+  network: tcp
+  port: '30845'
+  server: v45.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: '[Trojan] 新加坡|@ripaojiedian'
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
@@ -30,10 +39,3 @@ proxies:
   server: ldu.izenny.com
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇮🇷IR
-  name: '[SS] sgSG²_1|3.8MB/s|4%|GPT|X|Histo...'
-  password: 13df5feb-756e-4627-bcee-497f3c81bab4
-  port: 33220
-  server: xgrr.sdnlv0.cn
-  type: ss

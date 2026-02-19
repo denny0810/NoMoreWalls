@@ -11,31 +11,49 @@ proxies:
 - name: '[Trojan] 日本|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 2595
-  server: 13.158.130.64
+  port: 3760
+  server: 13.192.184.146
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[Trojan] 日本2|@ripaojiedian'
   network: tcp
-  password: 9372cb81c7b0ad903f91f2f8a4d3f02b
+  password: 64a59181551b5773e390bd717a7b7c06
   port: 3423
-  server: 18.181.199.98
+  server: 160.16.72.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 日本3|@ripaojiedian'
   network: tcp
-  password: 9372cb81c7b0ad903f91f2f8a4d3f02b
+  password: 64a59181551b5773e390bd717a7b7c06
   port: 3423
-  server: 160.16.124.17
+  server: 160.15.70.180
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - cipher: chacha20-ietf-poly1305
   country: 🇮🇷IR
-  name: '[SS] jpJP²_2|6.3MB/s|0%|GPT⁺|YT-CN|...'
+  name: '[SS] jpJP²_2|15.1MB/s|0%|GPT⁺|YT-CN...'
   password: 13df5feb-756e-4627-bcee-497f3c81bab4
   port: 48973
   server: xgrr.sdnlv0.cn
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] jpJP²_5|2.4MB/s|0%|GPT|GM|YT|D...'
+  network: ws
+  port: 12883
+  server: 183.240.138.169
+  servername: gtm1.ktmwan.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
+  ws-opts:
+    headers:
+      HOST: gtm1.ktmwan.net
+    path: /

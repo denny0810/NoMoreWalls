@@ -1,13 +1,19 @@
 proxies:
 - name: '[Socks5] KR_speednode_0005'
-  password: ''
   port: 1090
   server: 121.169.46.116
-  skip-cert-verify: true
   tls: false
   type: socks5
   udp: true
   username: Og%3D%3D
+- name: '[Hysteria2] KR5｜机房｜低风险'
+  password: 1fe714a1-d35e-4fb4-b3c7-6037eeef2cfc
+  port: 23001
+  server: kr3.xn--mesx36n.com
+  skip-cert-verify: true
+  sni: kr3.xn--mesx36n.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] krKR_1|2.6MB/s'
@@ -22,27 +28,3 @@ proxies:
   type: vless
   udp: true
   uuid: 399a4aac-e5ed-44b6-ac00-4f0d02f72537
-- cipher: chacha20-ietf-poly1305
-  country: 🇮🇷IR
-  name: '[SS] krKR²_1|5.4MB/s|4%|GPT|X'
-  password: 13df5feb-756e-4627-bcee-497f3c81bab4
-  port: 44081
-  server: xgrr.sdnlv0.cn
-  type: ss
-- name: '[Socks5] krKR²_3|4.6MB/s|2%|X|History'
-  password: ''
-  port: 6881
-  server: 123.214.62.25
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[Http] krKR²_5|9.9MB/s|8%|GPT⁺|YT|X|H...'
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  sni: testkr3.ssv.vc
-  tls: true
-  type: http
-  udp: true
-  username: test

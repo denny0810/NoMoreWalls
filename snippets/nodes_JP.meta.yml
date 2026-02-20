@@ -1,4 +1,12 @@
 proxies:
+- name: '[Hysteria2] JP12｜机房｜低风险'
+  password: 1fe714a1-d35e-4fb4-b3c7-6037eeef2cfc
+  port: 23001
+  server: jp1.xn--mesx36n.com
+  skip-cert-verify: true
+  sni: jp1.xn--mesx36n.com
+  tls: false
+  type: hysteria2
 - name: '[Trojan] 日本|@ripaojiedian'
   network: tcp
   password: BxceQaOe
@@ -23,19 +31,13 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: '[VLESS] jpJP²_1|3.0MB/s|0%|GPT|X|Histo...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: '!!str 2da72ce6'
-  server: 154.31.114.125
-  servername: navi.bankrate.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c1104d93-eba3-48d6-ba63-10574bdaa8b3
+- cipher: chacha20-ietf-poly1305
+  country: 🇮🇷IR
+  name: '[SS] jpJP²_1|1.7MB/s|0%|GPT⁺|D+|X|H...'
+  password: 13df5feb-756e-4627-bcee-497f3c81bab4
+  port: 48973
+  server: xgrr.sdnlv0.cn
+  type: ss
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: '[VLESS] JP_speednode_0004'

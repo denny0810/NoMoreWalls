@@ -1,21 +1,11 @@
 proxies:
-- name: '[Trojan] US170｜家宽｜非常安全'
-  network: tcp
-  password: bbde1e79-49d4-448a-a81d-38bfbba3480d
-  port: 35501
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] trTR²_3|7.0MB/s|0%|GPT⁺|YT-DE|...'
+  name: '[Vmess] trTR_1|1.2MB/s'
   network: ws
   port: 8443
   server: dll.avaaaal.ir
-  servername: cdge.avaaaal.ir
+  servername: dll.avaaaal.ir
   skip-cert-verify: false
   tls: true
   type: vmess
@@ -26,769 +16,33 @@ proxies:
       Host: cdge.avaaaal.ir
     path: /
   xudp: true
-- alpn:
-  - http/1.1
-  name: '[Trojan] US4｜机房｜低风险'
-  network: ws
-  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  port: 443
-  server: nmk9o.1yy.ccwu.cc
-  skip-cert-verify: true
-  sni: nmk9o.1yy.ccwu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: nmk9o.1yy.ccwu.cc
-    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- alpn:
-  - http/1.1
-  name: '[Trojan] US5｜机房｜低风险'
-  network: ws
-  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  port: 443
-  server: nmkiy.1x8.indevs.in
-  skip-cert-verify: true
-  sni: nmkiy.1x8.indevs.in
-  type: trojan
-  ws-opts:
-    headers:
-      Host: nmkiy.1x8.indevs.in
-    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- alpn:
-  - http/1.1
-  name: '[Trojan] US6｜机房｜低风险'
-  network: ws
-  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  port: 443
-  server: m9o0.1xq.indevs.in
-  skip-cert-verify: true
-  sni: m9o0.1xq.indevs.in
-  type: trojan
-  ws-opts:
-    headers:
-      Host: m9o0.1xq.indevs.in
-    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
 - alterId: 0
   cipher: auto
-  name: '[Vmess] US112｜机房｜低风险'
-  network: ws
-  port: '80'
-  server: jnm.1x2.indevs.in
-  tls: false
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: jnm.1x2.indevs.in
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alpn:
-  - http/1.1
-  name: '[Trojan] US8｜机房｜低风险'
-  network: ws
-  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  port: 443
-  server: nmjk.1hh.ccwu.cc
-  skip-cert-verify: true
-  sni: nmjk.1hh.ccwu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: nmjk.1hh.ccwu.cc
-    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] US113｜机房｜低风险'
-  network: ws
-  port: '80'
-  server: nmki.1yy.ccwu.cc
-  tls: false
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: nmki.1yy.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] US114｜机房｜低风险'
-  network: ws
-  port: '443'
-  server: nmjk.1hh.ccwu.cc
-  servername: nmjk.1hh.ccwu.cc
-  tls: true
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: nmjk.1hh.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] US115｜机房｜低风险'
-  network: ws
-  port: '80'
-  server: bgn.1dd.ccwu.cc
-  tls: false
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: bgn.1dd.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alpn:
-  - http/1.1
-  name: '[Trojan] US12｜机房｜低风险'
-  network: ws
-  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  port: 443
-  server: bghy.1x9.indevs.in
-  skip-cert-verify: true
-  sni: bghy.1x9.indevs.in
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bghy.1x9.indevs.in
-    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] US119｜机房｜低风险'
-  network: ws
-  port: '80'
-  server: nmkiy.1x8.indevs.in
-  tls: false
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: nmkiy.1x8.indevs.in
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alpn:
-  - http/1.1
-  name: '[Trojan] US19｜机房｜低风险'
-  network: ws
-  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  port: 443
-  server: bnhhy.1ll.ccwu.cc
-  skip-cert-verify: true
-  sni: bnhhy.1ll.ccwu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bnhhy.1ll.ccwu.cc
-    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- alpn:
-  - http/1.1
-  name: '[Trojan] US23｜机房｜低风险'
-  network: ws
-  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  port: 443
-  server: mkii.1x4.indevs.in
-  skip-cert-verify: true
-  sni: mkii.1x4.indevs.in
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mkii.1x4.indevs.in
-    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- alpn:
-  - http/1.1
-  name: '[Trojan] US24｜机房｜低风险'
-  network: ws
-  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  port: 443
-  server: kklo.1xq.indevs.in
-  skip-cert-verify: true
-  sni: kklo.1xq.indevs.in
-  type: trojan
-  ws-opts:
-    headers:
-      Host: kklo.1xq.indevs.in
-    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] US125｜机房｜低风险'
-  network: ws
-  port: '80'
-  server: bfbg.2nn.ccwu.cc
-  tls: false
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: bfbg.2nn.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alpn:
-  - http/1.1
-  name: '[Trojan] US27｜机房｜低风险'
-  network: ws
-  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  port: 443
-  server: ki90.1yy.ccwu.cc
-  skip-cert-verify: true
-  sni: ki90.1yy.ccwu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ki90.1yy.ccwu.cc
-    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] US128｜机房｜低风险'
-  network: ws
-  port: '80'
-  server: yyhju.1x6.indevs.in
-  tls: false
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: yyhju.1x6.indevs.in
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] US129｜机房｜低风险'
-  network: ws
-  port: '80'
-  server: mkiuy.1x9.indevs.in
-  tls: false
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: mkiuy.1x9.indevs.in
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] US131｜机房｜低风险'
-  network: ws
-  port: '80'
-  server: yyynm.2nn.ccwu.cc
-  tls: false
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: yyynm.2nn.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- name: '[Trojan] US175｜家宽｜非常安全'
-  network: tcp
-  password: 8595b855-e4c4-40cd-834d-d34bb65ec928
-  port: 35501
-  server: 220.130.58.136
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- alpn:
-  - http/1.1
-  name: '[Trojan] US39｜机房｜低风险'
-  network: ws
-  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  port: 443
-  server: mkiuy.1x9.indevs.in
-  skip-cert-verify: true
-  sni: mkiuy.1x9.indevs.in
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mkiuy.1x9.indevs.in
-    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- name: '[Trojan] US136｜家宽｜非常安全'
-  network: tcp
-  password: 47d9af53-24a8-4593-a439-a73b88ad53ae
-  port: 35501
-  server: 220.130.58.136
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: '[Vmess] US87｜机房｜低风险'
-  network: tcp
-  port: '30809'
-  server: v9.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[Trojan] US172｜家宽｜非常安全'
-  network: tcp
-  password: 66c62e1a-8037-4154-ad0b-7a0ec415f46c
-  port: 35501
-  server: 220.130.58.136
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '[Trojan] US173｜家宽｜非常安全'
-  network: tcp
-  password: 11cfbea5-eae4-4654-8aa9-a9481f38dc42
-  port: 35501
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '[Trojan] US140｜家宽｜非常安全'
-  network: tcp
-  password: f976ac58-b52a-4a54-9c8e-3d49fd365232
-  port: 35501
-  server: 220.130.58.136
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '[Trojan] US171｜家宽｜非常安全'
-  network: tcp
-  password: 92953fc6-f497-43af-9d6d-f3b5589df318
-  port: 35501
-  server: 220.130.58.136
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '[Trojan] HK24｜原生/疑似家宽｜高风险 (黑名单)'
-  network: tcp
-  password: 36325a98-46a4-4770-977a-9a9570e0bcc6
-  port: 31103
-  server: 220.130.58.136
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '[Trojan] US169｜家宽｜非常安全'
-  network: tcp
-  password: 0a169d7d-a30f-4d90-af1b-55f6ef6afcb7
-  port: 35501
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '[Trojan] HK25｜原生/疑似家宽｜高风险 (黑名单)'
-  network: tcp
-  password: 852a0251-7fbd-4a07-a365-352695af950c
-  port: 31103
-  server: 220.130.58.136
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] US144｜机房｜低风险'
-  network: ws
-  port: '443'
-  server: bghy.1x9.indevs.in
-  servername: bghy.1x9.indevs.in
-  tls: true
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: bghy.1x9.indevs.in
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] US50｜机房｜低风险'
-  network: ws
-  port: '443'
-  server: nhj.1jj.ccwu.cc
-  servername: nhj.1jj.ccwu.cc
-  tls: true
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: nhj.1jj.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] US161｜机房｜低风险'
-  network: ws
-  port: '80'
-  server: gbnh.0nn.ccwu.cc
-  tls: false
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: gbnh.0nn.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] US104｜机房｜低风险'
-  network: ws
-  port: '80'
-  server: nnmj.1x5.indevs.in
-  tls: false
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: nnmj.1x5.indevs.in
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] US54｜机房｜低风险'
-  network: ws
-  port: '443'
-  server: gbnh.1oo.ccwu.cc
-  servername: gbnh.1oo.ccwu.cc
-  tls: true
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: gbnh.1oo.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] US55｜机房｜低风险'
-  network: ws
-  port: '443'
-  server: kklo.1yy.ccwu.cc
-  servername: kklo.1yy.ccwu.cc
-  tls: true
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: kklo.1yy.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] US162｜机房｜低风险'
-  network: ws
-  port: '80'
-  server: bnhhy.1ll.ccwu.cc
-  tls: false
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: bnhhy.1ll.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] US163｜机房｜低风险'
-  network: ws
-  port: '443'
-  server: yyhju.1x6.indevs.in
-  servername: yyhju.1x6.indevs.in
-  tls: true
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: yyhju.1x6.indevs.in
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alpn:
-  - http/1.1
-  name: '[Trojan] US58｜机房｜低风险'
-  network: ws
-  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  port: 443
-  server: mjki.1nn.ccwu.cc
-  skip-cert-verify: true
-  sni: mjki.1nn.ccwu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mjki.1nn.ccwu.cc
-    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] US164｜机房｜低风险'
-  network: ws
-  port: '443'
-  server: bnj.0nn.ccwu.cc
-  servername: bnj.0nn.ccwu.cc
-  tls: true
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: bnj.0nn.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] US93｜机房｜低风险'
-  network: ws
-  port: '80'
-  server: kklo.1xq.indevs.in
-  tls: false
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: kklo.1xq.indevs.in
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] US102｜机房｜低风险'
-  network: ws
-  port: '443'
-  server: bgn.1dd.ccwu.cc
-  servername: bgn.1dd.ccwu.cc
-  tls: true
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: bgn.1dd.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alpn:
-  - http/1.1
-  name: '[Trojan] US63｜机房｜低风险'
-  network: ws
-  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  port: 443
-  server: nmki.1qq.ccwu.cc
-  skip-cert-verify: true
-  sni: nmki.1qq.ccwu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: nmki.1qq.ccwu.cc
-    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] US165｜机房｜低风险'
-  network: ws
-  port: '443'
-  server: mkjhu.2nn.ccwu.cc
-  servername: mkjhu.2nn.ccwu.cc
-  tls: true
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: mkjhu.2nn.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] US166｜机房｜低风险'
-  network: ws
-  port: '80'
-  server: nnmkl.2nn.ccwu.cc
-  tls: false
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: nnmkl.2nn.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] US167｜机房｜低风险'
-  network: ws
-  port: '80'
-  server: vfgty6.2nn.ccwu.cc
-  tls: false
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: vfgty6.2nn.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alpn:
-  - http/1.1
-  name: '[Trojan] US69｜机房｜低风险'
-  network: ws
-  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  port: 443
-  server: nhj.1jj.ccwu.cc
-  skip-cert-verify: true
-  sni: nhj.1jj.ccwu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: nhj.1jj.ccwu.cc
-    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] US168｜机房｜低风险'
-  network: ws
-  port: '80'
-  server: mmhhj.2nn.ccwu.cc
-  tls: false
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: mmhhj.2nn.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alpn:
-  - http/1.1
-  name: '[Trojan] US72｜机房｜低风险'
-  network: ws
-  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  port: 443
-  server: bgt.1x2.indevs.in
-  skip-cert-verify: true
-  sni: bgt.1x2.indevs.in
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bgt.1x2.indevs.in
-    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] IN3｜家宽｜非常安全'
-  network: tcp
-  port: '9000'
-  server: id2.wpairplane.com
-  tls: false
-  type: vmess
-  uuid: 77aad73d-03e7-441b-9bc5-98d13535ba3e
-- name: '[Trojan] HK17｜原生/疑似家宽｜高风险 (黑名单)'
-  network: tcp
-  password: 0a169d7d-a30f-4d90-af1b-55f6ef6afcb7
-  port: 31103
-  server: 220.130.58.136
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: '[Vmess] FR12｜机房｜低风险'
-  network: tcp
-  port: '30835'
-  server: v35.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] DE35｜机房｜高风险 (黑名单)'
+  name: '[Vmess] DE37｜机房｜高风险 (黑名单)'
   network: tcp
   port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: '[Trojan] US92｜机房｜低风险'
-  network: ws
-  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  port: 443
-  server: m9o0.1xq.indevs.in
-  skip-cert-verify: true
-  sni: m9o0.1xq.indevs.in
-  type: trojan
-  ws-opts:
-    headers:
-      Host: m9o0.1xq.indevs.in
-    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- name: '[Trojan] US96｜机房｜低风险'
-  network: ws
-  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  port: 443
-  server: mjki.1nn.ccwu.cc
-  skip-cert-verify: true
-  sni: mjki.1nn.ccwu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mjki.1nn.ccwu.cc
-    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- name: '[Trojan] US99｜机房｜低风险'
-  network: ws
-  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  port: 443
-  server: nmki.1qq.ccwu.cc
-  skip-cert-verify: true
-  sni: nmki.1qq.ccwu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: nmki.1qq.ccwu.cc
-    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- name: '[Trojan] US105｜机房｜低风险'
-  network: ws
-  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  port: 443
-  server: bgt.1x2.indevs.in
-  skip-cert-verify: true
-  sni: bgt.1x2.indevs.in
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bgt.1x2.indevs.in
-    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- name: '[Trojan] US107｜机房｜低风险'
-  network: ws
-  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  port: 443
-  server: bghy.1x9.indevs.in
-  skip-cert-verify: true
-  sni: bghy.1x9.indevs.in
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bghy.1x9.indevs.in
-    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: '[Vmess] US111｜机房｜低风险'
-  network: ws
-  port: '80'
-  server: m9o0.1xq.indevs.in
+  name: '[Vmess] US4｜机房｜低风险'
+  network: tcp
+  port: '30808'
+  server: v8.hdacd.com
   tls: false
   type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: m9o0.1xq.indevs.in
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- name: '[Trojan] HK20｜原生/疑似家宽｜高风险 (黑名单)'
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[Trojan] HK32｜原生/疑似家宽｜非常安全'
   network: tcp
-  password: 125f929b-dbde-43b9-b498-695f1cd45d68
+  password: 4250b3bb-d1ae-4e77-bf71-4069e0d2c383
   port: 31101
   server: 220.130.58.136
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- name: '[Trojan] HK21｜原生/疑似家宽｜高风险 (黑名单)'
-  network: tcp
-  password: 5f6ded93-4ab8-4a99-9c84-b19b9993f27c
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '[Trojan] HK22｜原生/疑似家宽｜高风险 (黑名单)'
-  network: tcp
-  password: b2e15b49-6606-4c62-baff-7015390b3c6a
-  port: 31101
-  server: 220.130.58.136
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '[Trojan] US174｜家宽｜非常安全'
-  network: tcp
-  password: a1a00c82-5356-4a49-8944-1cd0f94168bb
-  port: 35501
-  server: 220.130.58.136
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '[Trojan] HK23｜原生/疑似家宽｜高风险 (黑名单)'
-  network: tcp
-  password: 6790a94c-4ea8-4a1e-979e-31716839427a
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '[Trojan] HK26｜原生/疑似家宽｜高风险 (黑名单)'
-  network: tcp
-  password: bef1e608-83df-4935-8169-8a345f5643e9
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '[Trojan] HK27｜原生/疑似家宽｜高风险 (黑名单)'
-  network: tcp
-  password: adf2550f-8b87-4ea1-aa80-e7fc8f65a68a
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '[Trojan] HK28｜原生/疑似家宽｜高风险 (黑名单)'
+- name: '[Trojan] HK6｜原生/疑似家宽｜非常安全'
   network: tcp
   password: 26635779-8ce6-4c07-ae5d-f3769ec95ddd
   port: 31101
@@ -796,231 +50,110 @@ proxies:
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- name: '[Trojan] HK29｜原生/疑似家宽｜高风险 (黑名单)'
-  network: tcp
-  password: 987525bc-99a3-461e-a50f-a0a667d06ed7
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '[Trojan] HK30｜原生/疑似家宽｜高风险 (黑名单)'
-  network: tcp
-  password: fdeb5068-b9c7-486c-8ccf-8d2b744bd839
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
 - alterId: 2
   cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_7|6.8MB/s|33%|GPT⁺|GM|X|...'
+  name: '[Vmess] US7｜机房｜低风险'
   network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_5|7.2MB/s|33%|GPT|YT-CN|...'
-  network: tcp
-  port: 30829
+  port: '30829'
   server: v29.hdacd.com
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[Trojan] US150｜家宽｜非常安全'
-  network: tcp
-  password: 415e1712-0170-42dd-a4cd-5e95bef256db
-  port: 35501
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '[Trojan] US153｜家宽｜非常安全'
-  network: tcp
-  password: 125f929b-dbde-43b9-b498-695f1cd45d68
-  port: 35501
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '[Trojan] US157｜家宽｜非常安全'
-  network: tcp
-  password: 5f6ded93-4ab8-4a99-9c84-b19b9993f27c
-  port: 35501
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '[Trojan] US158｜家宽｜非常安全'
-  network: tcp
-  password: 47d9af53-24a8-4593-a439-a73b88ad53ae
-  port: 35501
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '[Trojan] US159｜家宽｜非常安全'
-  network: tcp
-  password: bb49a889-3816-4cef-a3e1-235b00ccc3e3
-  port: 35501
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '[Trojan] HK35｜原生/疑似家宽｜高风险 (黑名单)'
-  network: tcp
-  password: fe040a20-827e-42eb-994f-ec16d4ae5aa4
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '[Trojan] HK36｜原生/疑似家宽｜高风险 (黑名单)'
-  network: tcp
-  password: 4250b3bb-d1ae-4e77-bf71-4069e0d2c383
-  port: 31103
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '[Trojan] HK37｜原生/疑似家宽｜高风险 (黑名单)'
-  network: tcp
-  password: 45d5fe0e-5a37-4881-ace7-df1c9046ba91
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
 - alterId: 2
   cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] deDE²_7|0.8MB/s|GPT⁺|X|History...'
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  servername: v33.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: '[Vmess] US179｜机房｜低风险'
+  name: '[Vmess] US20｜机房｜低风险'
   network: tcp
   port: '30809'
-  server: 151.242.183.218
+  server: v9.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] US180｜机房｜高风险 (黑名单)'
+- alpn:
+  - http/1.1
+  name: '[Trojan] US13｜机房｜低风险'
   network: ws
-  port: '20861'
-  server: b3620512-57e1-7cf9-210c-72423b8c9bb5.yy4.ovh
-  tls: false
-  type: vmess
-  uuid: 047b8664-9b3c-4010-baba-229cbf7fa433
+  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  port: 443
+  server: nmki.1qq.ccwu.cc
+  skip-cert-verify: true
+  sni: nmki.1qq.ccwu.cc
+  type: trojan
   ws-opts:
     headers:
-      Host: tms.dingtalk.com
-    path: /
-- name: '[Trojan] US200｜家宽｜非常安全'
-  network: tcp
-  password: 66c62e1a-8037-4154-ad0b-7a0ec415f46c
-  port: 35501
-  server: 220.130.58.136
+      Host: nmki.1qq.ccwu.cc
+    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
+- alpn:
+  - http/1.1
+  name: '[Trojan] US14｜机房｜低风险'
+  network: ws
+  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  port: 443
+  server: bgt.1x2.indevs.in
   skip-cert-verify: true
-  sni: 220.130.58.136
+  sni: bgt.1x2.indevs.in
   type: trojan
-- name: '[Trojan] US201｜家宽｜非常安全'
-  network: tcp
-  password: 47d9af53-24a8-4593-a439-a73b88ad53ae
-  port: 35501
-  server: 220.130.58.136
-  skip-cert-verify: true
-  sni: 220.130.58.136
-  type: trojan
-- name: '[Trojan] US202｜家宽｜非常安全'
-  network: tcp
-  password: ba222255-00e9-434d-88f0-e0c22ac529f4
-  port: 35501
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '[Trojan] HK43｜原生/疑似家宽｜高风险 (黑名单)'
-  network: tcp
-  password: 04e5b584-1850-483d-a844-9ad624a4ca8e
-  port: 31101
-  server: 220.130.58.136
-  skip-cert-verify: true
-  sni: 220.130.58.136
-  type: trojan
-- name: '[Trojan] HK44｜原生/疑似家宽｜高风险 (黑名单)'
-  network: tcp
-  password: 04e5b584-1850-483d-a844-9ad624a4ca8e
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '[Trojan] HK45｜原生/疑似家宽｜高风险 (黑名单)'
-  network: tcp
-  password: 6f038cee-6ba1-4941-bce5-de1969f37405
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '[Trojan] US203｜家宽｜非常安全'
-  network: tcp
-  password: 8595b855-e4c4-40cd-834d-d34bb65ec928
-  port: 35501
-  server: 220.130.58.136
-  skip-cert-verify: true
-  sni: 220.130.58.136
-  type: trojan
-- name: '[Trojan] US206｜家宽｜非常安全'
-  network: tcp
-  password: 20a3d819-ca7f-48a6-ba20-f7021e8dbbbe
-  port: 35502
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '[Trojan] US207｜家宽｜非常安全'
-  network: tcp
-  password: 45d5fe0e-5a37-4881-ace7-df1c9046ba91
-  port: 35502
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
+  ws-opts:
+    headers:
+      Host: bgt.1x2.indevs.in
+    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
 - alterId: 2
   cipher: auto
-  name: '[Vmess] SG13｜机房｜低风险'
+  name: '[Vmess] FR9｜机房｜低风险'
   network: tcp
-  port: '30845'
-  server: v45.hdacd.com
+  port: '30835'
+  server: v35.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[Trojan] PL21｜机房｜低风险'
+- name: '[Trojan] US31｜机房｜低风险'
+  network: ws
+  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  port: 443
+  server: nmki.1qq.ccwu.cc
+  skip-cert-verify: true
+  sni: nmki.1qq.ccwu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nmki.1qq.ccwu.cc
+    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
+- name: '[Trojan] US32｜机房｜低风险'
+  network: ws
+  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  port: 443
+  server: bgt.1x2.indevs.in
+  skip-cert-verify: true
+  sni: bgt.1x2.indevs.in
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bgt.1x2.indevs.in
+    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
+- name: '[Trojan] HK16｜原生/疑似家宽｜非常安全'
+  network: tcp
+  password: 45d5fe0e-5a37-4881-ace7-df1c9046ba91
+  port: 31101
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '[Trojan] HK22｜原生/疑似家宽｜非常安全'
+  network: tcp
+  password: 04e5b584-1850-483d-a844-9ad624a4ca8e
+  port: 31101
+  server: 220.130.58.136
+  skip-cert-verify: true
+  sni: 220.130.58.136
+  type: trojan
+- name: '[Trojan] HK23｜原生/疑似家宽｜非常安全'
+  network: tcp
+  password: 04e5b584-1850-483d-a844-9ad624a4ca8e
+  port: 31101
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '[Trojan] PL18｜机房｜低风险'
   network: ws
   password: humanity
   port: 443
@@ -1032,55 +165,197 @@ proxies:
     headers:
       Host: www.creationlong.org
     path: '%2Fassignment'
-- name: '[Trojan] SK1｜商宽｜非常安全'
+- name: '[Trojan] HK30｜原生/疑似家宽｜非常安全'
   network: tcp
-  password: af4b064a9c39472fb34ad8b113acdc6b
-  port: 443
-  server: 5.180.55.152
+  password: 858fc0a5-69ad-48e3-8c6d-e4375cca8fc9
+  port: 31102
+  server: 220.130.58.136
   skip-cert-verify: true
-  sni: 5.180.55.152
+  sni: green2.cdntencentmusic.com
   type: trojan
-- name: '[Trojan] US222｜机房｜低风险'
+- name: '[Trojan] HK31｜原生/疑似家宽｜非常安全'
   network: tcp
-  password: af4b064a9c39472fb34ad8b113acdc6b
-  port: 443
-  server: 38.54.29.52
+  password: 5f6ded93-4ab8-4a99-9c84-b19b9993f27c
+  port: 31102
+  server: green2.cdntencentmusic.com
   skip-cert-verify: true
-  sni: 38.54.29.52
+  sni: green2.cdntencentmusic.com
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[Vmess] GB22｜机房｜低风险'
+  name: '[Vmess] GB18｜机房｜低风险'
   network: tcp
   port: '30836'
-  server: 151.242.183.218
+  server: v36.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[Trojan] HK56｜原生/疑似家宽｜高风险 (黑名单)'
+- alterId: 2
+  cipher: auto
+  name: '[Vmess] US54｜机房｜低风险'
   network: tcp
-  password: bb49a889-3816-4cef-a3e1-235b00ccc3e3
+  port: '30804'
+  server: v4.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[Trojan] HK35｜原生/疑似家宽｜非常安全'
+  network: tcp
+  password: 54952640-8e23-4faa-96ae-061e431a9913
+  port: 31102
+  server: 220.130.58.136
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '[Trojan] HK36｜原生/疑似家宽｜非常安全'
+  network: tcp
+  password: 0a169d7d-a30f-4d90-af1b-55f6ef6afcb7
+  port: 31103
+  server: 220.130.58.136
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '[Trojan] US55｜机房｜高风险 (黑名单)'
+  network: ws
+  password: trojan
+  port: 8443
+  server: 109.234.211.66
+  skip-cert-verify: true
+  sni: store.timimi.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: store.timimi.dpdns.org
+    path: '%2F'
+- name: '[Trojan] HK39｜原生/疑似家宽｜非常安全'
+  network: tcp
+  password: fdd6c2d0-2eaf-4e95-bfaa-432beb680ca9
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '[Trojan] SE2｜机房｜低风险'
+  network: ws
+  password: T9BpZIVMNv
+  port: 8443
+  server: vip3.kaixincloud.top
+  skip-cert-verify: true
+  sni: sweden.vmaxpanel.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sweden.vmaxpanel.com
+    path: '%2Famd'
+- name: '[Trojan] HK53｜原生/疑似家宽｜非常安全'
+  network: tcp
+  password: fe040a20-827e-42eb-994f-ec16d4ae5aa4
   port: 31101
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- name: '[Trojan] US226｜家宽｜非常安全'
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] HK57｜机房｜低风险'
   network: tcp
-  password: c5355528-55a2-45df-b8fd-a48ce3c41413
-  port: 35502
-  server: 220.130.58.136
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '[Trojan] US227｜家宽｜非常安全'
+  port: '32975'
+  server: 47.242.225.0
+  tls: false
+  type: vmess
+  uuid: ebaad525-e2cf-4c18-8ae9-41af29ac4b9c
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] HK58｜机房｜低风险'
+  network: ws
+  port: '443'
+  server: n1761214906.wpg27.xyz
+  servername: n1761214906.wpg27.xyz
+  tls: true
+  type: vmess
+  uuid: c28a6258-7baa-40fc-8a51-87f59c847cd7
+  ws-opts:
+    headers:
+      Host: n1761214906.wpg27.xyz
+    path: /
+- name: '[Trojan] US70｜家宽｜非常安全'
   network: tcp
-  password: 92953fc6-f497-43af-9d6d-f3b5589df318
-  port: 35502
-  server: green2.cdntencentmusic.com
+  password: hSA6YXe15O
+  port: 443
+  server: 104.11.86.252
   skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
+  sni: 104.11.86.252
   type: trojan
+- name: '[Trojan] US68｜家宽｜非常安全'
+  network: tcp
+  password: hSA6YXe15O
+  port: 443
+  server: 104.11.86.252
+  skip-cert-verify: true
+  sni: Telegram%20%20%20%20%20%20%20%20%20%20%20%20%2B%40WangCai2
+  type: trojan
+- name: '[Trojan] US69｜家宽｜非常安全'
+  network: tcp
+  password: hSA6YXe15O
+  port: 443
+  server: 104.11.86.252
+  skip-cert-verify: true
+  sni: Telegram%20%2B%40WangCai2
+  type: trojan
+- name: '[Trojan] US71｜家宽｜非常安全'
+  network: tcp
+  password: hSA6YXe15O
+  port: 443
+  server: 104.11.86.252
+  skip-cert-verify: true
+  sni: Telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2
+  type: trojan
+- name: '[Trojan] US72｜家宽｜非常安全'
+  network: tcp
+  password: hSA6YXe15O
+  port: 443
+  server: 104.11.86.252
+  skip-cert-verify: true
+  sni: Telegram%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%40WangCai2
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] US74｜机房｜低风险'
+  network: ws
+  port: '2083'
+  server: hgtrojan.zabc.net
+  servername: hgtrojan.zabc.net
+  tls: true
+  type: vmess
+  uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
+  ws-opts:
+    headers:
+      Host: hgtrojan.zabc.net
+    path: /e6395c20
+- name: '[Trojan] US76｜机房｜低风险'
+  network: ws
+  password: trojan
+  port: 2087
+  server: 109.234.211.66
+  skip-cert-verify: true
+  sni: store.timimi.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: store.timimi.dpdns.org
+    path: '%2F%3FBIA_TELEGRAM(%40AZARBAYJAB1)TM(%40AZARBAYJAB1)TM(%40AZARBAYJAB1)TM(%40AZARBAYJAB1)TM(%40AZARBAYJAB1)TM(%40AZARBAYJAB1)'
+- name: '[Trojan] US80｜机房｜低风险'
+  network: ws
+  password: trojan
+  port: 2087
+  server: 109.234.211.66
+  skip-cert-verify: true
+  sni: store.timimi.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: store.timimi.dpdns.org
+    path: '%2F%3FBIA_TELEGRAM%2B(%40AZARBAYJAB1)%2BTM%2B(%40AZARBAYJAB1)%2BTM%2B(%40AZARBAYJAB1)%2BTM%2B(%40AZARBAYJAB1)%2BTM%2B(%40AZARBAYJAB1)%2BTM%2B(%40AZARBAYJAB1)'
 - cipher: aes-256-cfb
   name: '[SS] tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -1288,7 +563,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: '[Vmess] frFR²_6|5.2MB/s|0%|GPT⁺|YT-US|...'
+  name: '[Vmess] frFR_4|3.5MB/s'
   network: http
   port: 2085
   server: 82.152.98.198
@@ -1308,7 +583,7 @@ proxies:
       - fast.com
     path:
     - /
-  name: '[Vmess] frFR²_2|0.8MB/s|0%|GPT⁺|YT-US|...'
+  name: '[Vmess] frFR_5|3.3MB/s'
   network: http
   port: 2085
   server: 82.152.98.88
@@ -1318,244 +593,70 @@ proxies:
   udp: true
   uuid: 8aa8d990-dea8-431f-b62d-cc70f3ba4de8
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇮🇷IR
-  name: '[SS] brBR²_1|2.8MB/s|8%|GPT⁺|X|Hist...'
-  password: 13df5feb-756e-4627-bcee-497f3c81bab4
-  port: 11270
-  server: f.sdnlv0.cn
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇪🇸 ES
-  name: '[SS] esES²_1|1.9MB/s|24%|X|History|...'
-  password: GA9KzeEgvfxNrgmM
-  port: 9019
-  server: 5.188.181.201
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] mxMX²_1|1.6MB/s|4%|GPT⁺|YT|X|H...'
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 20149
-  server: ldu.izenny.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇮🇷IR
-  name: '[SS] egEG¹⁺_1|7.6MB/s|5%|GPT⁺|X|Suc...'
-  password: 13df5feb-756e-4627-bcee-497f3c81bab4
-  port: 56052
-  server: f.sdnlv0.cn
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_1|0.7MB/s|GPT⁺|GM|X|Hist...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.241
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇮🇷IR
-  name: '[SS] krKR²_1|5.4MB/s|4%|GPT|X'
-  password: 13df5feb-756e-4627-bcee-497f3c81bab4
-  port: 44081
-  server: xgrr.sdnlv0.cn
-  type: ss
-- cipher: aes-128-gcm
-  country: 🇨🇳CN
-  name: '[SS] gbGB²_1|0.9MB/s|D+|X'
-  password: JVrsLLN1tkN8oXZO
-  port: 13223
-  server: chengbai02.ascwt179.com
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_2|1.8MB/s|GPT⁺|YT-US|X|H...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.123
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_3|1.8MB/s|GPT|X|[原生|机房]'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.195
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇨🇳 CN
-  name: '[SS] vnVN²_4|1.2MB/s|GPT|GM|X|Histo...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.20
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇮🇷IR
-  name: '[SS] twTW²_1|10.8MB/s|0%|GPT⁺|YT-CN...'
-  password: 13df5feb-756e-4627-bcee-497f3c81bab4
-  port: 42980
-  server: xgrr.sdnlv0.cn
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇮🇷IR
-  name: '[SS] myMY²_1|2.1MB/s|GPT⁺|YT-CN|D+|...'
-  password: 13df5feb-756e-4627-bcee-497f3c81bab4
-  port: 44106
-  server: xgrr.sdnlv0.cn
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇨🇳 CN
-  name: '[SS] egEG²_1|8.4MB/s|2%|GPT⁺|GM|NF|...'
-  password: ec8a5fb8-3a94-48a6-890a-4a80aa70b501
-  port: 39350
-  server: 112.82.223.176
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_5|2.2MB/s|GPT|YT-US|X|Hi...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.51
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇨🇳CN
-  name: '[SS] 🏴‍☠_1Relay_cnCN-usUS_192|10.7M...'
-  password: ec8a5fb8-3a94-48a6-890a-4a80aa70b501
-  port: 39286
-  server: 120.240.179.11
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇮🇷IR
-  name: '[SS] sgSG²_2|6.1MB/s|0%|GPT⁺|YT-CN|...'
-  password: 13df5feb-756e-4627-bcee-497f3c81bab4
-  port: 20600
-  server: xgrr.sdnlv0.cn
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇬🇧GB
-  name: '[SS] gbGB²_2|5.1MB/s|1%|GPT⁺|TK|X|H...'
-  password: W74XFALLLuw6m5IA
-  port: 443
-  server: 51.104.204.185
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇮🇷IR
-  name: '[SS] plPL²_5|6.6MB/s|33%|GPT⁺|NF|D+...'
-  password: 13df5feb-756e-4627-bcee-497f3c81bab4
-  port: 42295
-  server: f.sdnlv0.cn
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇮🇷IR
-  name: '[SS] sgSG²_4|8.5MB/s|4%|GPT⁺|YT|NF|...'
-  password: 13df5feb-756e-4627-bcee-497f3c81bab4
-  port: 33220
-  server: xgrr.sdnlv0.cn
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇮🇷IR
-  name: '[SS] twTW²_2|12.9MB/s|0%|GPT⁺|YT-CN...'
-  password: 13df5feb-756e-4627-bcee-497f3c81bab4
-  port: 24868
-  server: xgrr.sdnlv0.cn
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] ilIL²_1|0.5MB/s|4%|X|History|[...'
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 18140
-  server: ldu.izenny.com
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇸🇬SG
-  name: '[SS] sgSG²_5|2.7MB/s|2%|GPT⁺|GM|YT|...'
-  password: ZhPF8pQXyZquTNeZmSPn6WtsOGv22RRyPkD+rPL/wQU=
-  port: 38591
-  server: 54.151.202.83
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_6|2.3MB/s|GPT⁺|X|History'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.58
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇨🇳CN
-  name: '[SS] mxMX²_2|1.2MB/s|4%|GPT⁺|X'
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 20149
-  server: 183.232.137.2
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_7|1.4MB/s|GPT⁺|GM|X|Hist...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.63
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇮🇷IR
-  name: '[SS] hkHK²_2|8.6MB/s|33%|YT-CN|NF|D...'
-  password: 13df5feb-756e-4627-bcee-497f3c81bab4
-  port: 14941
-  server: xgrr.sdnlv0.cn
-  type: ss
 - alterId: 0
   cipher: auto
-  country: 🇬🇧GB
+  name: '[Vmess] 🏴‍☠_1US180｜机房｜高风险 (黑名单)|3.7MB/...'
+  network: ws
+  port: 20861
+  server: b3620512-57e1-7cf9-210c-72423b8c9bb5.yy4.ovh
+  tls: false
+  type: vmess
+  uuid: 047b8664-9b3c-4010-baba-229cbf7fa433
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 2
+  cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] sgSG²_6|0.8MB/s|14%|GPT⁺|D+|X|...'
-  network: none
-  port: 17310
-  server: 82.21.80.224
-  skip-cert-verify: true
-  tls: true
+  name: '[Vmess] deDE²_1|0.9MB/s|X|History'
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
   type: vmess
-  uuid: 656920dc-ed05-4f41-8c49-bdff41e383a9
-  ws-opts:
-    path: /
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_8|1.9MB/s|GPT⁺|GM|X|Hist...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.43
-  type: ss
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
-  name: '[SS] brBR²_2|2.1MB/s|4%|GPT⁺|X|Hist...'
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 55936
-  server: ldu.izenny.com
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: '[SS] vnVN²_9|2.0MB/s|GPT⁺|GM|X|Hist...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.16
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_10|1.6MB/s|GPT⁺|X|Histor...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.48
+  country: 🇮🇷IR
+  name: '[SS] itIT²_1|2.1MB/s|33%|GPT⁺|X|His...'
+  password: 13df5feb-756e-4627-bcee-497f3c81bab4
+  port: 46253
+  server: f.sdnlv0.cn
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇮🇷IR
-  name: '[SS] gbGB²_3|6.1MB/s|100%|GPT⁺|NF|D...'
+  name: '[SS] jpJP²_1|1.7MB/s|0%|GPT⁺|D+|X|H...'
+  password: 13df5feb-756e-4627-bcee-497f3c81bab4
+  port: 48973
+  server: xgrr.sdnlv0.cn
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇮🇷IR
+  name: '[SS] isIS²_1|1.8MB/s|GPT⁺|X|History...'
+  password: 13df5feb-756e-4627-bcee-497f3c81bab4
+  port: 36086
+  server: f.sdnlv0.cn
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇮🇷IR
+  name: '[SS] caCA²_1|1.6MB/s|0%|YT-AU|X|His...'
+  password: 13df5feb-756e-4627-bcee-497f3c81bab4
+  port: 15783
+  server: f.sdnlv0.cn
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇮🇷IR
+  name: '[SS] gbGB²_1|2.3MB/s|100%|GPT⁺|X|Su...'
   password: 13df5feb-756e-4627-bcee-497f3c81bab4
   port: 31032
   server: f.sdnlv0.cn
   type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_11|1.7MB/s|GPT|X|Succeed'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.4
+- cipher: aes-256-gcm
+  country: 🇨🇳 CN
+  name: '[SS] ilIL²_1|3.8MB/s|4%|GPT⁺|X'
+  password: ec8a5fb8-3a94-48a6-890a-4a80aa70b501
+  port: 39302
+  server: 120.240.179.11
   type: ss
 - alterId: 0
   cipher: auto

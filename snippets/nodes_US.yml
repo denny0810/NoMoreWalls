@@ -51,22 +51,15 @@ proxies:
     path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_3|0.6MB/s|50%|GPT|X'
+  name: '[Vmess] US112｜机房｜低风险'
   network: ws
-  port: 80
+  port: '80'
   server: jnm.1x2.indevs.in
-  servername: jnm.1x2.indevs.in
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   ws-opts:
     headers:
-      HOST: jnm.1x2.indevs.in
       Host: jnm.1x2.indevs.in
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alpn:
@@ -380,21 +373,17 @@ proxies:
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '[Vmess] usUS²_1|1.3MB/s|50%|X'
+  name: '[Vmess] US104｜机房｜低风险'
   network: ws
-  port: 80
+  port: '80'
   server: nnmj.1x5.indevs.in
-  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   ws-opts:
     headers:
       Host: nnmj.1x5.indevs.in
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
-  xudp: true
 - alterId: 0
   cipher: auto
   name: '[Vmess] US54｜机房｜低风险'
@@ -681,13 +670,17 @@ proxies:
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- alterId: '2'
+- alterId: 2
   cipher: auto
-  name: '[Vmess] usUS_2|1.6MB/s'
+  client-fingerprint: chrome
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_7|6.8MB/s|33%|GPT⁺|GM|X|...'
   network: tcp
   port: 30808
   server: v8.hdacd.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
@@ -695,10 +688,15 @@ proxies:
   xudp: true
 - alterId: 2
   cipher: auto
-  name: '[Vmess] US147｜机房｜低风险'
+  client-fingerprint: chrome
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_5|7.2MB/s|33%|GPT|YT-CN|...'
   network: tcp
-  port: '30829'
+  port: 30829
   server: v29.hdacd.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -840,7 +838,7 @@ proxies:
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 1281
-  server: 160.16.116.227
+  server: 160.16.106.99
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -848,15 +846,15 @@ proxies:
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 1281
-  server: 160.16.236.32
+  server: 160.16.72.205
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 美国3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 9718
-  server: 13.192.185.89
+  port: 38780
+  server: 54.238.211.1
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -877,3 +875,57 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/37.0.2062.120 Safari/537.36
     path: /y1moM5CyNvYMZlzsYHmsMrnO
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_2|1.8MB/s|GPT⁺|YT-US|X|H...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.123
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_5|2.2MB/s|GPT|YT-US|X|Hi...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.51
+  type: ss
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    headers:
+      Host:
+      - fast.com
+    path:
+    - /
+  name: '[Vmess] frFR²_2|0.8MB/s|0%|GPT⁺|YT-US|...'
+  network: http
+  port: 2085
+  server: 82.152.98.88
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8aa8d990-dea8-431f-b62d-cc70f3ba4de8
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[Vmess] frFR²_6|5.2MB/s|0%|GPT⁺|YT-US|...'
+  network: http
+  port: 2085
+  server: 82.152.98.198
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 052ceb67-79c7-45da-ba4b-42e659bb81fa
+  xudp: true

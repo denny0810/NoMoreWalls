@@ -20,7 +20,7 @@ proxies:
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 3901
-  server: 160.16.72.205
+  server: 13.231.178.109
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -28,7 +28,7 @@ proxies:
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 3901
-  server: 153.121.39.240
+  server: 18.183.98.127
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -39,6 +39,14 @@ proxies:
   server: 57.180.245.83
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
+  type: trojan
+- name: '[Trojan] 新加坡4|@ripaojiedian'
+  network: tcp
+  password: 736cd94d-7b94-3e44-8106-3419f64eaf09
+  port: 443
+  server: sg.singaporenodeserverone.co.ua
+  skip-cert-verify: true
+  sni: 45.32.28.232
   type: trojan
 - client-fingerprint: chrome
   name: '[VLESS] sgSG_1|1.1MB/s'
@@ -56,16 +64,46 @@ proxies:
     path: /seaseus
 - cipher: chacha20-ietf-poly1305
   country: 🇮🇷IR
-  name: '[SS] sgSG²_1|3.9MB/s|0%|GPT⁺|YT-CN|...'
+  name: '[SS] sgSG²_2|6.1MB/s|0%|GPT⁺|YT-CN|...'
   password: 13df5feb-756e-4627-bcee-497f3c81bab4
   port: 20600
   server: xgrr.sdnlv0.cn
   type: ss
   udp: true
+- name: '[Socks5] sgSG²_3|13.9MB/s|0%|GPT⁺|GM|X'
+  password: ''
+  port: 1080
+  server: 206.206.126.140
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - cipher: chacha20-ietf-poly1305
   country: 🇮🇷IR
-  name: '[SS] sgSG²_2|7.0MB/s|4%|GPT⁺|GM|YT|...'
+  name: '[SS] sgSG²_4|8.5MB/s|4%|GPT⁺|YT|NF|...'
   password: 13df5feb-756e-4627-bcee-497f3c81bab4
   port: 33220
   server: xgrr.sdnlv0.cn
   type: ss
+- cipher: aes-256-gcm
+  country: 🇸🇬SG
+  name: '[SS] sgSG²_5|2.7MB/s|2%|GPT⁺|GM|YT|...'
+  password: ZhPF8pQXyZquTNeZmSPn6WtsOGv22RRyPkD+rPL/wQU=
+  port: 38591
+  server: 54.151.202.83
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] sgSG²_6|0.8MB/s|14%|GPT⁺|D+|X|...'
+  network: none
+  port: 17310
+  server: 82.21.80.224
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 656920dc-ed05-4f41-8c49-bdff41e383a9
+  ws-opts:
+    path: /

@@ -683,9 +683,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -869,73 +867,72 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] usUS_1|2.4MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
-  server: 142.248.80.157
-  servername: apple.com
-  tls: true
-  type: vless
-  uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
-- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] usUS_3|1.1MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ytMHU3SjhXFJPj8bZh4kIV12PPELb9NdfrNIrUsnIX0
-    short-id: '!!str 9c3cfaba3eb6c929'
-  server: 77.110.125.83
-  servername: web.max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ea8eaf21-76f8-4ef2-8397-aa1d693487a3
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[Trojan] usUS_4|1.1MB/s'
-  network: ws
-  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  port: 443
-  server: nmki.1qq.ccwu.cc
-  skip-cert-verify: false
-  sni: nmki.1qq.ccwu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/37.0.2062.120 Safari/537.36
-    path: /y1moM5CyNvYMZlzsYHmsMrnO
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] usUS²_2|3.8MB/s|17%|GPT⁺|X|His...'
+  name: '[VLESS] usUS²_8|3.9MB/s|17%|GPT⁺|X|His...'
   network: tcp
   port: 443
   reality-opts:
     public-key: xJIswEHrphk8LCn-DyJxw4uypPkouxPgNsfiyjRU-3w
     short-id: '!!str 41a0b29e95aaea87'
-  server: ae.cdn.stun.su
+  server: 144.31.128.129
   servername: ae.cdn.stun.su
   tls: true
   type: vless
   udp: true
   uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] usUS_2|1.5MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
+    short-id: '!!str '
+  server: 142.248.80.157
+  servername: apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] usUS²_9|3.6MB/s|GPT⁺|X|[广播|商宽]'
+  network: tcp
+  port: 443
+  server: 144.31.128.67
+  servername: nlcdn12.suio.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8664a37d-40c9-47f0-8619-d9199651be2c
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] usUS²_4|4.0MB/s|17%|GPT⁺|X|[广播...'
+  network: tcp
+  port: 443
+  server: 144.31.128.68
+  servername: nlcdn13.suio.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8664a37d-40c9-47f0-8619-d9199651be2c
   xudp: true
 - client-fingerprint: chrome
   encryption: none
@@ -961,19 +958,23 @@ proxies:
   username: ''
 - client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] irIR²_1|7.0MB/s|0%|GPT|YT-US|D...'
-  network: ws
-  port: 59036
-  server: 85.133.204.179
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] usUS²_2|3.8MB/s|17%|GPT⁺|X|His...'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: xJIswEHrphk8LCn-DyJxw4uypPkouxPgNsfiyjRU-3w
+    short-id: '!!str 41a0b29e95aaea87'
+  server: ae.cdn.stun.su
+  servername: ae.cdn.stun.su
+  tls: true
   type: vless
   udp: true
-  uuid: 8c26c19d-123d-454d-9529-ff737d0450f6
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /
+  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
   xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
@@ -990,22 +991,6 @@ proxies:
   tls: true
   type: http
   username: walless
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] usUS²_4|4.0MB/s|17%|GPT⁺|X|[广播...'
-  network: tcp
-  port: 443
-  server: 144.31.128.68
-  servername: nlcdn13.suio.me
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8664a37d-40c9-47f0-8619-d9199651be2c
-  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: '[SS] vnVN²_5|2.2MB/s|GPT|YT-US|X|Hi...'
@@ -1013,78 +998,6 @@ proxies:
   port: 38388
   server: 103.186.154.51
   type: ss
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  http-opts:
-    headers:
-      Host:
-      - fast.com
-    path:
-    - /
-  name: '[Vmess] frFR²_2|0.8MB/s|0%|GPT⁺|YT-US|...'
-  network: http
-  port: 2085
-  server: 82.152.98.88
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8aa8d990-dea8-431f-b62d-cc70f3ba4de8
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] usUS²_8|3.9MB/s|17%|GPT⁺|X|His...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: xJIswEHrphk8LCn-DyJxw4uypPkouxPgNsfiyjRU-3w
-    short-id: '!!str 41a0b29e95aaea87'
-  server: 144.31.128.129
-  servername: ae.cdn.stun.su
-  tls: true
-  type: vless
-  udp: true
-  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] usUS²_9|3.6MB/s|GPT⁺|X|[广播|商宽]'
-  network: tcp
-  port: 443
-  server: 144.31.128.67
-  servername: nlcdn12.suio.me
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8664a37d-40c9-47f0-8619-d9199651be2c
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[Vmess] frFR²_6|5.2MB/s|0%|GPT⁺|YT-US|...'
-  network: http
-  port: 2085
-  server: 82.152.98.198
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 052ceb67-79c7-45da-ba4b-42e659bb81fa
-  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision

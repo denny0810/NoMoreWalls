@@ -232,7 +232,7 @@ proxies:
   tls: false
   type: vmess
   uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- name: '[Trojan] 香港3|@ripaojiedian'
+- name: '[Trojan] hkHK_1|4.1MB/s'
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 2255
@@ -276,6 +276,34 @@ proxies:
   tls: false
   type: vmess
   uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- name: '[Hysteria2] hkHK_2|1.8MB/s'
+  obfs: salamander
+  obfs-password: ZWI4MWQ5YmMzOWY2NzlhMA==
+  password: 6dfbef3b-f718-4053-806f-c9657e2fd943
+  port: 12344
+  server: 212.192.12.146
+  skip-cert-verify: true
+  sni: hkfree.jljd.xyz
+  tfo: true
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  name: '[VLESS] hkHK_3|1.6MB/s'
+  network: ws
+  port: 443
+  server: 139.196.41.153
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.94 Safari/537.36
+    path: /gs5=6666:6666@47.239.178.125:6666
+  xudp: true
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: '[VLESS] HK_speednode_0002'

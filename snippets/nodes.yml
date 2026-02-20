@@ -824,9 +824,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
 - alterId: 2
   cipher: auto
   country: 🇭🇰HK
@@ -1107,7 +1105,7 @@ proxies:
   tls: false
   type: vmess
   uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- name: '[Trojan] 香港3|@ripaojiedian'
+- name: '[Trojan] hkHK_1|4.1MB/s'
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 2255
@@ -1163,7 +1161,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] 新加坡|@ripaojiedian'
+- name: '[Trojan] sgSG_1|1.1MB/s'
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 3901
@@ -1239,65 +1237,87 @@ proxies:
   tls: false
   type: vmess
   uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- cipher: chacha20-ietf-poly1305
-  country: 🇬🇧GB
-  name: '[SS] gbGB²_2|5.1MB/s|1%|GPT⁺|TK|X|H...'
-  password: W74XFALLLuw6m5IA
-  port: 443
-  server: 51.104.204.185
+- cipher: aes-256-cfb
+  name: '[SS] dkDK_1|1.5MB/s'
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.36.27.94
   type: ss
-- cipher: aes-256-gcm
-  name: '[SS] frFR_1|2.3MB/s'
-  password: 0grLqKvDT37qyj54d9QxRo1SKIQNazCpxpECt7sHIq4=
-  port: 8443
-  server: 51.195.203.247
-  type: ss
-  udp: true
-- cipher: chacha20-ietf
-  name: '[SS] ❓Other_1|1.8MB/s'
-  password: asd123456
-  port: 8388
-  server: 103.149.183.200
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇮🇷IR
-  name: '[SS] sgSG²_2|6.1MB/s|0%|GPT⁺|YT-CN|...'
-  password: 13df5feb-756e-4627-bcee-497f3c81bab4
-  port: 20600
-  server: xgrr.sdnlv0.cn
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] mxMX²_1|1.6MB/s|4%|GPT⁺|YT|X|H...'
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 20149
-  server: ldu.izenny.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇮🇷IR
-  name: '[SS] twTW²_2|12.9MB/s|0%|GPT⁺|YT-CN...'
-  password: 13df5feb-756e-4627-bcee-497f3c81bab4
-  port: 24868
-  server: xgrr.sdnlv0.cn
-  type: ss
-  udp: true
 - alpn:
-  - http/1.1
-  name: '[Trojan] usUS_4|1.1MB/s'
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[Vmess] ❓Other_1|2.0MB/s'
   network: ws
-  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  port: 443
-  server: nmki.1qq.ccwu.cc
+  port: 8080
+  server: tgju.org
   skip-cert-verify: false
-  sni: nmki.1qq.ccwu.cc
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-5712964102.sharghdaily.co
+    max-early-data: 2560
+    path: /nasnet/cdn
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: '[Vmess] gbGB_1|1.0MB/s'
+  network: ws
+  port: 443
+  server: sg.ok12345.ggff.net
+  servername: jp.japansb3.ggff.net
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 83d2c530-d9e1-4648-b32b-4850272e093e
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/37.0.2062.120 Safari/537.36
-    path: /y1moM5CyNvYMZlzsYHmsMrnO
+      Host: jp.japansb3.ggff.net
+    path: /
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[Vmess] frFR²_6|5.2MB/s|0%|GPT⁺|YT-US|...'
+  network: http
+  port: 2085
+  server: 82.152.98.198
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 052ceb67-79c7-45da-ba4b-42e659bb81fa
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - fast.com
+    path:
+    - /
+  name: '[Vmess] frFR²_2|0.8MB/s|0%|GPT⁺|YT-US|...'
+  network: http
+  port: 2085
+  server: 82.152.98.88
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8aa8d990-dea8-431f-b62d-cc70f3ba4de8
+  xudp: true
 - cipher: chacha20-ietf-poly1305
   country: 🇮🇷IR
   name: '[SS] brBR²_1|2.8MB/s|8%|GPT⁺|X|Hist...'
@@ -1312,6 +1332,13 @@ proxies:
   port: 9019
   server: 5.188.181.201
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] mxMX²_1|1.6MB/s|4%|GPT⁺|YT|X|H...'
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 20149
+  server: ldu.izenny.com
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   country: 🇮🇷IR
   name: '[SS] egEG¹⁺_1|7.6MB/s|5%|GPT⁺|X|Suc...'
@@ -1389,32 +1416,26 @@ proxies:
   port: 38388
   server: 103.186.154.51
   type: ss
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - fast.com
-    path:
-    - /
-  name: '[Vmess] frFR²_2|0.8MB/s|0%|GPT⁺|YT-US|...'
-  network: http
-  port: 2085
-  server: 82.152.98.88
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8aa8d990-dea8-431f-b62d-cc70f3ba4de8
-  xudp: true
 - cipher: aes-256-gcm
   country: 🇨🇳CN
   name: '[SS] 🏴‍☠_1Relay_cnCN-usUS_192|10.7M...'
   password: ec8a5fb8-3a94-48a6-890a-4a80aa70b501
   port: 39286
   server: 120.240.179.11
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇮🇷IR
+  name: '[SS] sgSG²_2|6.1MB/s|0%|GPT⁺|YT-CN|...'
+  password: 13df5feb-756e-4627-bcee-497f3c81bab4
+  port: 20600
+  server: xgrr.sdnlv0.cn
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇬🇧GB
+  name: '[SS] gbGB²_2|5.1MB/s|1%|GPT⁺|TK|X|H...'
+  password: W74XFALLLuw6m5IA
+  port: 443
+  server: 51.104.204.185
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇮🇷IR
@@ -1428,6 +1449,13 @@ proxies:
   name: '[SS] sgSG²_4|8.5MB/s|4%|GPT⁺|YT|NF|...'
   password: 13df5feb-756e-4627-bcee-497f3c81bab4
   port: 33220
+  server: xgrr.sdnlv0.cn
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇮🇷IR
+  name: '[SS] twTW²_2|12.9MB/s|0%|GPT⁺|YT-CN...'
+  password: 13df5feb-756e-4627-bcee-497f3c81bab4
+  port: 24868
   server: xgrr.sdnlv0.cn
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -1501,24 +1529,6 @@ proxies:
   server: ldu.izenny.com
   type: ss
   udp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[Vmess] frFR²_6|5.2MB/s|0%|GPT⁺|YT-US|...'
-  network: http
-  port: 2085
-  server: 82.152.98.198
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 052ceb67-79c7-45da-ba4b-42e659bb81fa
-  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: '[SS] vnVN²_9|2.0MB/s|GPT⁺|GM|X|Hist...'

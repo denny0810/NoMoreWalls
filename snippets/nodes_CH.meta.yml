@@ -1,17 +1,17 @@
 proxies:
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] chCH_1|2.1MB/s'
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] chCH_1|1.3MB/s'
   network: tcp
-  port: 3130
-  reality-opts:
-    public-key: dQYahYS6055ghu03hkvNxv9geHCJHqASFVbXs3v1jDw
-    short-id: '!!str e99768d076c05ab2'
-  server: ir.grbr.private-link.lornanet.ir
-  servername: rEfErSion.Com
+  port: 443
+  server: lvcdn4.suio.me
+  servername: lvcdn4.suio.me
   tls: true
   type: vless
   udp: true
-  uuid: 4ed6948d-0beb-f7ca-18e8-b4259eeb0dbb
+  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
   xudp: true

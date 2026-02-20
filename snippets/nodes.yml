@@ -1,21 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[Vmess] trTR_1|1.2MB/s'
+  name: '[Vmess] AE12｜未知 (None)｜非常安全'
   network: ws
-  port: 8443
+  port: '8443'
   server: dll.avaaaal.ir
   servername: dll.avaaaal.ir
-  skip-cert-verify: false
   tls: true
   type: vmess
-  udp: true
   uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
   ws-opts:
     headers:
       Host: cdge.avaaaal.ir
     path: /
-  xudp: true
 - alterId: 0
   cipher: auto
   name: '[Vmess] DE37｜机房｜高风险 (黑名单)'
@@ -380,7 +377,7 @@ proxies:
   tls: false
   type: vmess
   uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- name: '[Trojan] hkHK_1|4.1MB/s'
+- name: '[Trojan] 香港3|@ripaojiedian'
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 2255
@@ -436,7 +433,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[Trojan] sgSG_1|1.1MB/s'
+- name: '[Trojan] 新加坡|@ripaojiedian'
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 3901
@@ -512,152 +509,91 @@ proxies:
   tls: false
   type: vmess
   uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- cipher: aes-256-cfb
-  name: '[SS] dkDK_1|1.5MB/s'
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.36.27.94
-  type: ss
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[Vmess] ❓Other_1|2.0MB/s'
-  network: ws
-  port: 8080
-  server: tgju.org
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-5712964102.sharghdaily.co
-    max-early-data: 2560
-    path: /nasnet/cdn
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: '[Vmess] gbGB_1|1.0MB/s'
-  network: ws
-  port: 443
-  server: sg.ok12345.ggff.net
-  servername: jp.japansb3.ggff.net
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 83d2c530-d9e1-4648-b32b-4850272e093e
-  ws-opts:
-    headers:
-      Host: jp.japansb3.ggff.net
-    path: /
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[Vmess] frFR_4|3.5MB/s'
-  network: http
-  port: 2085
-  server: 82.152.98.198
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 052ceb67-79c7-45da-ba4b-42e659bb81fa
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - fast.com
-    path:
-    - /
-  name: '[Vmess] frFR_5|3.3MB/s'
-  network: http
-  port: 2085
-  server: 82.152.98.88
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8aa8d990-dea8-431f-b62d-cc70f3ba4de8
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] 🏴‍☠_1US180｜机房｜高风险 (黑名单)|3.7MB/...'
-  network: ws
-  port: 20861
-  server: b3620512-57e1-7cf9-210c-72423b8c9bb5.yy4.ovh
-  tls: false
-  type: vmess
-  uuid: 047b8664-9b3c-4010-baba-229cbf7fa433
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 2
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] deDE²_1|0.9MB/s|X|History'
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
   country: 🇮🇷IR
-  name: '[SS] itIT²_1|2.1MB/s|33%|GPT⁺|X|His...'
+  name: '[SS] itIT²_1|1.3MB/s|33%|GPT⁺|D+|X|...'
   password: 13df5feb-756e-4627-bcee-497f3c81bab4
   port: 46253
   server: f.sdnlv0.cn
   type: ss
+  udp: true
+- delay: 2578
+  name: '[Trojan] bhBH_1|1.5MB/s'
+  password: M7v%w11Se*
+  port: 443
+  server: blaab.wsone.icu
+  skip-cert-verify: true
+  sni: blaab.wsone.icu
+  type: trojan
 - cipher: chacha20-ietf-poly1305
   country: 🇮🇷IR
-  name: '[SS] jpJP²_1|1.7MB/s|0%|GPT⁺|D+|X|H...'
+  name: '[SS] plPL²_1|1.9MB/s|33%|GPT⁺|X|His...'
   password: 13df5feb-756e-4627-bcee-497f3c81bab4
-  port: 48973
-  server: xgrr.sdnlv0.cn
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇮🇷IR
-  name: '[SS] isIS²_1|1.8MB/s|GPT⁺|X|History...'
-  password: 13df5feb-756e-4627-bcee-497f3c81bab4
-  port: 36086
+  port: 42295
   server: f.sdnlv0.cn
   type: ss
+- alpn:
+  - http/1.1
+  name: '[Trojan] usUS_5|2.1MB/s'
+  network: ws
+  password: eed4a583-b20e-4787-bbdb-09018156e53f
+  port: 443
+  server: bnhju.8mm.ccwu.cc
+  skip-cert-verify: false
+  sni: bnhju.8mm.ccwu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /8uSIAS1cIyvZXFAbvQEN
+- alterId: '0'
+  cipher: auto
+  name: '[Vmess] usUS_6|1.7MB/s'
+  network: ws
+  port: 80
+  server: njui.9jj.ccwu.cc
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: eed4a583-b20e-4787-bbdb-09018156e53f
+  ws-opts:
+    headers:
+      Host: njui.9jj.ccwu.cc
+    path: /cI9XtKvjiIyvZXFAbvQEN
+  xudp: true
+- alpn:
+  - http/1.1
+  name: '[Trojan] usUS_7|1.6MB/s'
+  network: ws
+  password: 5f6c3f92-7220-4275-b34d-57c04db3f967
+  port: 443
+  server: nnggnjj.6yy.ccwu.cc
+  skip-cert-verify: false
+  sni: nnggnjj.6yy.ccwu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    path: /pdfbAl1zmvpSIH8OSONBms
 - cipher: chacha20-ietf-poly1305
   country: 🇮🇷IR
-  name: '[SS] caCA²_1|1.6MB/s|0%|YT-AU|X|His...'
-  password: 13df5feb-756e-4627-bcee-497f3c81bab4
-  port: 15783
-  server: f.sdnlv0.cn
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇮🇷IR
-  name: '[SS] gbGB²_1|2.3MB/s|100%|GPT⁺|X|Su...'
+  name: '[SS] gbGB²_1|1.6MB/s|GPT|D+|X|Succe...'
   password: 13df5feb-756e-4627-bcee-497f3c81bab4
   port: 31032
   server: f.sdnlv0.cn
   type: ss
-- cipher: aes-256-gcm
-  country: 🇨🇳 CN
-  name: '[SS] ilIL²_1|3.8MB/s|4%|GPT⁺|X'
-  password: ec8a5fb8-3a94-48a6-890a-4a80aa70b501
-  port: 39302
-  server: 120.240.179.11
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] itIT²_2|2.0MB/s|33%|GPT⁺|D+|X'
+  password: 13df5feb-756e-4627-bcee-497f3c81bab4
+  port: 46253
+  server: 151.242.183.219
   type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: '[Vmess] VMESS节点2-ipv6'

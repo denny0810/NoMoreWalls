@@ -10,6 +10,25 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] ruRU_1|1.4MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: W4hZiiPSnSBqrrYkD0z6J_DVR8wTfP5epmuQ6RbV_Sc
+    short-id: '!!str 43dcff53849b81e6'
+  server: dubaiski.cloud
+  servername: yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: e2a10e9f-2d3e-4d49-ab59-d2ea39dfa3d1
+  xudp: true
+- client-fingerprint: chrome
   name: '[VLESS] RU_speednode_0007'
   port: 8443
   reality-opts:

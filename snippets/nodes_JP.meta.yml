@@ -1,9 +1,5 @@
 proxies:
-- down: ''
-  fingerprint: ''
-  name: '[Hysteria2] jpJP_2|2.5MB/s'
-  obfs: ''
-  obfs-password: ''
+- name: '[Hysteria2] JP12｜机房｜低风险'
   password: 1fe714a1-d35e-4fb4-b3c7-6037eeef2cfc
   port: 23001
   server: jp1.xn--mesx36n.com
@@ -11,7 +7,6 @@ proxies:
   sni: jp1.xn--mesx36n.com
   tls: false
   type: hysteria2
-  up: ''
 - name: '[Trojan] 日本|@ripaojiedian'
   network: tcp
   password: BxceQaOe
@@ -36,18 +31,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[VLESS] jpJP_1|1.8MB/s'
-  network: ws
-  port: 443
-  server: 69.84.182.13
-  servername: jp1-jp1.aiopen.sbs
-  tls: true
-  type: vless
-  uuid: 0e44ea97-cd2c-4aa6-9159-b1224d3b38ce
-  ws-opts:
-    headers:
-      Host: jp1-jp1.aiopen.sbs
-    path: /kbjc/jp1
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: '[VLESS] JP_speednode_0004'

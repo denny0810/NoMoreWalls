@@ -21,7 +21,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '[VLESS] deDE_1|2.0MB/s'
+  name: '[VLESS] deDE_1|1.2MB/s'
   network: ws
   port: 8443
   server: 104.18.32.47
@@ -36,43 +36,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/39.0.2171.95 Safari/537.36
     path: /
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE_2|2.0MB/s'
-  network: ws
-  port: 443
-  server: 172.67.193.88
-  servername: MAHANteAm.noD32Cpu.iR
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: MAHANteAm.noD32Cpu.iR
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assets
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] deDE_3|2.7MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 89k_GeNAta4HE_jN21mGc7hUl1j2UksyobhfffvpoBw
-    short-id: '!!str 9b8f1a24bbddbd6f'
-  server: api.melonpanel.ir
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eb4c9648-346d-4efb-9ee7-acc08a3a2ed7
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision

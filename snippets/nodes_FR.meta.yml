@@ -54,7 +54,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: '[VLESS] frFR_2|2.7MB/s'
+  name: '[VLESS] frFR²_1|5.6MB/s|0%|GPT⁺|X|Hist...'
   network: tcp
   port: 443
   reality-opts:
@@ -66,4 +66,38 @@ proxies:
   type: vless
   udp: true
   uuid: 70b49349-9c87-497e-818c-46006e1c3ce0
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[VLESS] frFR²_3|2.9MB/s|X'
+  network: tcp
+  port: 6870
+  reality-opts:
+    public-key: sGkQutu-jNzzINkigXEr4zm6us4c5KvT6FRSOKEliyY
+    short-id: '!!str a3ec090d35b64be8'
+  server: mtn2-fr.ip-venzo.com
+  servername: ip-venzo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c805b05e-339d-40e0-8787-432d97a27345
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] frFR²_5|5.9MB/s|42%|GPT|D+|X|H...'
+  network: tcp
+  port: 52042
+  reality-opts:
+    public-key: Z23_1wSIy1CNUEB7YEJwPZzCEsMTmzTNGe_h5bzEMHY
+    short-id: '!!str 8e8dcb9a67bf43f1'
+  server: 185.156.72.124
+  servername: yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: f557eadb-1715-4c0b-aaae-f9b9577d827d
   xudp: true

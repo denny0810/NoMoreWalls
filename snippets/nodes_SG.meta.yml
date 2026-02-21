@@ -1,9 +1,10 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: '[Vmess] SG1｜机房｜低风险'
+  client-fingerprint: chrome
+  name: '[Vmess] sgSG²_5|0.6MB/s|43%|GPT⁺|GM|YT...'
   network: tcp
-  port: '30845'
+  port: 30845
   server: v45.hdacd.com
   tls: false
   type: vmess
@@ -55,3 +56,40 @@ proxies:
   port: 8388
   server: 103.36.91.32
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] sgSG²_1|2.6MB/s|14%|GPT|GM|YT|...'
+  network: none
+  port: 17310
+  server: 82.21.80.224
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 656920dc-ed05-4f41-8c49-bdff41e383a9
+- name: '[Http] sgSG²_2|13.7MB/s|42%|GPT|TK|NF...'
+  password: 5edb4d21-6cc1-4d46-8823-9a0e14d83455
+  port: 4449
+  server: 4-ndsrzkgg.mix.dexiansheng.com
+  sni: 4-ndsrzkgg.mix.dexiansheng.com
+  tls: true
+  type: http
+  username: walless
+- name: '[Socks5] sgSG²_3|0.7MB/s|0%|GPT⁺|GM|X|H...'
+  password: ''
+  port: 1080
+  server: 206.206.126.140
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: '[Http] sgSG²_4|6.1MB/s|0%|GPT⁺|X|Hist...'
+  password: 5edb4d21-6cc1-4d46-8823-9a0e14d83455
+  port: 4446
+  server: 4-nqvrfftt.mix.dexiansheng.com
+  sni: 4-nqvrfftt.mix.dexiansheng.com
+  tls: true
+  type: http
+  username: walless

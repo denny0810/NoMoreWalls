@@ -18,10 +18,16 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[Vmess] US15｜机房｜低风险'
+  client-fingerprint: chrome
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_9|1.6MB/s|33%|GPT|X|Hist...'
   network: tcp
-  port: '30829'
+  port: 30829
   server: v29.hdacd.com
+  servername: v29.hdacd.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -343,13 +349,14 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
+  client-fingerprint: chrome
   http-opts:
     headers:
       Host:
       - fast.com
     path:
     - /
-  name: '[Vmess] usUS_7|4.7MB/s'
+  name: '[Vmess] usUS²_11|7.6MB/s|46%|GPT⁺|YT|T...'
   network: http
   port: 2085
   server: Cpannel.iranucshop.ir
@@ -359,3 +366,33 @@ proxies:
   udp: true
   uuid: 2c72c667-093c-47a5-a108-493c93282b57
   xudp: true
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_10|8.2MB/s|33%|GPT⁺|GM|N...'
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_5|1.5MB/s|GPT⁺|YT-US|X|[...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.174
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_6|1.5MB/s|GPT⁺|YT-US|X|H...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.60
+  type: ss

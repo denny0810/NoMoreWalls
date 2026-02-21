@@ -8,19 +8,26 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] gbGB_1|1.5MB/s'
+  password: kaQH3hGdcP80XEDI
+  port: 443
+  server: admin.c2.havij.co
+  type: ss
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] gbGB_1|2.2MB/s'
-  network: tcp
-  port: 1320
-  reality-opts:
-    public-key: y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic
-    short-id: '!!str '
-  server: DEMO.MAHOSHID.IR
-  servername: yahoo.com
+  name: '[VLESS] gbGB_4|1.2MB/s'
+  network: ws
+  port: 8443
+  server: F3.HaMrAhCoNf.Ir
+  servername: uiuyoyw.hamrahconfig.ir
   tls: true
   type: vless
   udp: true
-  uuid: 5f2f7bd1-3cbf-4c44-a863-a89276337190
+  uuid: ce837763-c7dc-4df6-9336-8edd2a0fcf3f
+  ws-opts:
+    headers:
+      Host: app-core-06.hamrahconfig.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /
   xudp: true

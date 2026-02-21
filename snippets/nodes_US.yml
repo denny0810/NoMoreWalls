@@ -16,18 +16,15 @@ proxies:
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- alterId: '2'
+- alterId: 2
   cipher: auto
-  name: '[Vmess] usUS_6|1.8MB/s'
+  name: '[Vmess] US15｜机房｜低风险'
   network: tcp
-  port: 30829
+  port: '30829'
   server: v29.hdacd.com
-  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
 - alterId: 2
   cipher: auto
   name: '[Vmess] US16｜机房｜低风险'
@@ -307,60 +304,12 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[Trojan] usUS_1|2.1MB/s'
-  network: ws
-  password: 4115f84d-3b03-4b03-babf-21b36b2f9c03
-  port: 443
-  server: tyu.bb1.ccwu.cc
-  skip-cert-verify: false
-  sni: tYu.BB1.Ccwu.cC
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tYu.BB1.Ccwu.cC
-    path: /%2Fr862SIwqItkD5XgXAL
-- name: '[Trojan] usUS_2|1.7MB/s'
-  network: ws
-  password: 4115f84d-3b03-4b03-babf-21b36b2f9c03
-  port: 443
-  server: xxd.nu0.de5.net
-  skip-cert-verify: false
-  sni: xxD.nU0.De5.Net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: xxD.nU0.De5.Net
-    path: /%2Fr862SIwqItkD5XgXAL
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - fast.com
-    path:
-    - /
-  name: '[Vmess] usUS_5|4.7MB/s'
-  network: http
-  port: 2085
-  server: Cpannel.iranucshop.ir
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2c72c667-093c-47a5-a108-493c93282b57
-  xudp: true
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  delay: 1154
-  name: '[Vmess] usUS²_1|0.8MB/s|X|History'
-  network: tcp
-  port: 30846
-  server: v46.hdacd.com
+- client-fingerprint: chrome
+  name: '[Trojan] usUS_3|2.4MB/s'
+  password: 347ca311-8fc2-499c-8fe1-bd0ecb50f1b3
+  port: 43642
+  server: 5.34.222.4
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: iepl.usq1.cat.bilibili.com
+  type: trojan
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

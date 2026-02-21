@@ -1,205 +1,298 @@
 proxies:
-- alterId: 2
+- alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_9|7.8MB/s|GPT⁺|GM|YT|NF|...'
+  name: '[Vmess] US1｜机房｜低风险'
   network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
+  port: '2085'
+  server: cpannel.iranucshop.ir
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
+  uuid: 2c72c667-093c-47a5-a108-493c93282b57
+- name: '[Trojan] US76｜家宽｜非常安全'
+  network: tcp
+  password: 6f038cee-6ba1-4941-bce5-de1969f37405
+  port: 35502
+  server: 220.130.58.136
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- alterId: '2'
   cipher: auto
-  client-fingerprint: chrome
-  country: 🏁 ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] usUS²_15|7.3MB/s|33%|GPT|NF|X|...'
+  name: '[Vmess] usUS_6|1.8MB/s'
   network: tcp
   port: 30829
   server: v29.hdacd.com
-  servername: v29.hdacd.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /
+  xudp: true
 - alterId: 2
   cipher: auto
-  name: '[Vmess] US20｜机房｜低风险'
+  name: '[Vmess] US16｜机房｜低风险'
   network: tcp
   port: '30809'
   server: v9.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - http/1.1
-  name: '[Trojan] US13｜机房｜低风险'
-  network: ws
-  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  port: 443
-  server: nmki.1qq.ccwu.cc
-  skip-cert-verify: true
-  sni: nmki.1qq.ccwu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: nmki.1qq.ccwu.cc
-    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- alpn:
-  - http/1.1
-  name: '[Trojan] US14｜机房｜低风险'
-  network: ws
-  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  port: 443
-  server: bgt.1x2.indevs.in
-  skip-cert-verify: true
-  sni: bgt.1x2.indevs.in
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bgt.1x2.indevs.in
-    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- name: '[Trojan] US31｜机房｜低风险'
-  network: ws
-  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  port: 443
-  server: nmki.1qq.ccwu.cc
-  skip-cert-verify: true
-  sni: nmki.1qq.ccwu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: nmki.1qq.ccwu.cc
-    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- name: '[Trojan] US32｜机房｜低风险'
-  network: ws
-  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  port: 443
-  server: bgt.1x2.indevs.in
-  skip-cert-verify: true
-  sni: bgt.1x2.indevs.in
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bgt.1x2.indevs.in
-    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- name: '[Hysteria2] US44｜原生/疑似家宽｜非常安全'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA%3D%3D
-  password: c7730b65-c3c7-44a6-b1be-9d72d36679d1
-  port: 42586
-  server: de.pddwdf.store
-  skip-cert-verify: true
-  sni: de.pddwdf.store
-  tls: false
-  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: '[Vmess] US54｜机房｜低风险'
+  name: '[Vmess] US41｜机房｜低风险'
   network: tcp
   port: '30804'
   server: v4.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[Trojan] US55｜机房｜高风险 (黑名单)'
-  network: ws
-  password: trojan
-  port: 8443
-  server: 109.234.211.66
-  skip-cert-verify: true
-  sni: store.timimi.dpdns.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: store.timimi.dpdns.org
-    path: '%2F'
-- name: '[Trojan] US70｜家宽｜非常安全'
+- name: '[Trojan] US89｜家宽｜非常安全'
   network: tcp
-  password: hSA6YXe15O
-  port: 443
-  server: 104.11.86.252
+  password: fe040a20-827e-42eb-994f-ec16d4ae5aa4
+  port: 35501
+  server: green2.cdntencentmusic.com
   skip-cert-verify: true
-  sni: 104.11.86.252
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '[Trojan] US90｜家宽｜非常安全'
+  network: tcp
+  password: 04e5b584-1850-483d-a844-9ad624a4ca8e
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '[Trojan] US67｜家宽｜非常安全'
+  network: tcp
+  password: ba222255-00e9-434d-88f0-e0c22ac529f4
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
   type: trojan
 - name: '[Trojan] US68｜家宽｜非常安全'
   network: tcp
-  password: hSA6YXe15O
-  port: 443
-  server: 104.11.86.252
+  password: 47d9af53-24a8-4593-a439-a73b88ad53ae
+  port: 35501
+  server: green2.cdntencentmusic.com
   skip-cert-verify: true
-  sni: Telegram%20%20%20%20%20%20%20%20%20%20%20%20%2B%40WangCai2
+  sni: green2.cdntencentmusic.com
   type: trojan
-- name: '[Trojan] US69｜家宽｜非常安全'
-  network: tcp
-  password: hSA6YXe15O
-  port: 443
-  server: 104.11.86.252
+- alpn:
+  - http/1.1
+  name: '[Trojan] US114｜机房｜低风险'
+  network: ws
+  password: '!!str 123456'
+  port: 8443
+  server: bpbg.anguswen.top
   skip-cert-verify: true
-  sni: Telegram%20%2B%40WangCai2
+  sni: BpBg.ANGusWeN.top
   type: trojan
-- name: '[Trojan] US71｜家宽｜非常安全'
-  network: tcp
-  password: hSA6YXe15O
-  port: 443
-  server: 104.11.86.252
-  skip-cert-verify: true
-  sni: Telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2
-  type: trojan
-- name: '[Trojan] US72｜家宽｜非常安全'
-  network: tcp
-  password: hSA6YXe15O
-  port: 443
-  server: 104.11.86.252
-  skip-cert-verify: true
-  sni: Telegram%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%40WangCai2
-  type: trojan
-- alterId: 0
+  ws-opts:
+    headers:
+      Host: BpBg.ANGusWeN.top
+    path: '%2FeyJqdW5rIjoiTUp4VFNoMTRLbSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0%3D'
+- alterId: 2
   cipher: auto
-  name: '[Vmess] US74｜机房｜低风险'
-  network: ws
-  port: '2083'
-  server: hgtrojan.zabc.net
-  servername: hgtrojan.zabc.net
-  tls: true
+  name: '[Vmess] US80｜机房｜低风险'
+  network: tcp
+  port: '30824'
+  server: v24.hdacd.com
+  tls: false
   type: vmess
-  uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
-  ws-opts:
-    headers:
-      Host: hgtrojan.zabc.net
-    path: /e6395c20
-- name: '[Trojan] US76｜机房｜低风险'
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[Trojan] US75｜机房｜高风险 (黑名单)'
   network: ws
-  password: trojan
-  port: 2087
-  server: 109.234.211.66
+  password: '!!str 123456'
+  port: 8443
+  server: bpbg.anguswen.top
   skip-cert-verify: true
-  sni: store.timimi.dpdns.org
+  sni: BpBg.ANGusWeN.top
   type: trojan
   ws-opts:
     headers:
-      Host: store.timimi.dpdns.org
-    path: '%2F%3FBIA_TELEGRAM(%40AZARBAYJAB1)TM(%40AZARBAYJAB1)TM(%40AZARBAYJAB1)TM(%40AZARBAYJAB1)TM(%40AZARBAYJAB1)TM(%40AZARBAYJAB1)'
-- name: '[Trojan] US80｜机房｜低风险'
-  network: ws
-  password: trojan
-  port: 2087
-  server: 109.234.211.66
+      Host: BpBg.ANGusWeN.top
+    path: '%2FeyJqdW5rIjoiTUp4VFNoMTRLbSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0%3D%3Fed%3D2560'
+- name: '[Trojan] US77｜家宽｜非常安全'
+  network: tcp
+  password: 26635779-8ce6-4c07-ae5d-f3769ec95ddd
+  port: 35502
+  server: green2.cdntencentmusic.com
   skip-cert-verify: true
-  sni: store.timimi.dpdns.org
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '[Trojan] US78｜家宽｜非常安全'
+  network: tcp
+  password: 4250b3bb-d1ae-4e77-bf71-4069e0d2c383
+  port: 35502
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '[Trojan] US79｜家宽｜非常安全'
+  network: tcp
+  password: 415e1712-0170-42dd-a4cd-5e95bef256db
+  port: 35502
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '[Hysteria2] US82｜机房｜低风险'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA%3D%3D
+  password: c7730b65-c3c7-44a6-b1be-9d72d36679d1
+  port: 10666
+  server: mgwx.pddwdf.store
+  skip-cert-verify: true
+  sni: mgwx.pddwdf.store
+  tls: false
+  type: hysteria2
+- name: '[Trojan] US84｜家宽｜非常安全'
+  network: tcp
+  password: bbde1e79-49d4-448a-a81d-38bfbba3480d
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '[Trojan] US85｜家宽｜非常安全'
+  network: tcp
+  password: f976ac58-b52a-4a54-9c8e-3d49fd365232
+  port: 35501
+  server: 220.130.58.136
+  skip-cert-verify: true
+  sni: 220.130.58.136
+  type: trojan
+- name: '[Trojan] US86｜家宽｜非常安全'
+  network: tcp
+  password: 92953fc6-f497-43af-9d6d-f3b5589df318
+  port: 35501
+  server: 220.130.58.136
+  skip-cert-verify: true
+  sni: 220.130.58.136
+  type: trojan
+- name: '[Trojan] US87｜家宽｜非常安全'
+  network: tcp
+  password: 11cfbea5-eae4-4654-8aa9-a9481f38dc42
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '[Trojan] US88｜家宽｜非常安全'
+  network: tcp
+  password: a1a00c82-5356-4a49-8944-1cd0f94168bb
+  port: 35501
+  server: 220.130.58.136
+  skip-cert-verify: true
+  sni: 220.130.58.136
+  type: trojan
+- name: '[Trojan] US91｜家宽｜非常安全'
+  network: tcp
+  password: 0a169d7d-a30f-4d90-af1b-55f6ef6afcb7
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '[Trojan] US129｜机房｜高风险 (黑名单)'
+  network: ws
+  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  port: 443
+  server: blackshadow.dpdns.org
+  skip-cert-verify: true
+  sni: blackshadow.dpdns.org
   type: trojan
   ws-opts:
     headers:
-      Host: store.timimi.dpdns.org
-    path: '%2F%3FBIA_TELEGRAM%2B(%40AZARBAYJAB1)%2BTM%2B(%40AZARBAYJAB1)%2BTM%2B(%40AZARBAYJAB1)%2BTM%2B(%40AZARBAYJAB1)%2BTM%2B(%40AZARBAYJAB1)%2BTM%2B(%40AZARBAYJAB1)'
+      Host: blackshadow.dpdns.org
+    path: '%2F195.123.218.174-443'
+- name: '[Trojan] US97｜家宽｜非常安全'
+  network: tcp
+  password: 4250b3bb-d1ae-4e77-bf71-4069e0d2c383
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '[Trojan] US98｜家宽｜非常安全'
+  network: tcp
+  password: 36325a98-46a4-4770-977a-9a9570e0bcc6
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '[Trojan] US99｜家宽｜非常安全'
+  network: tcp
+  password: e3492f89-0cee-4034-8074-22b23ca9a3f4
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '[Trojan] US100｜家宽｜非常安全'
+  network: tcp
+  password: c18f286e-372a-49ab-947c-0888bce67b91
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- alpn:
+  - http/1.1
+  name: '[Trojan] US113｜机房｜低风险'
+  network: ws
+  password: '!!str 123456'
+  port: 8443
+  server: bpbg.anguswen.top
+  skip-cert-verify: true
+  sni: BpBg.ANGusWeN.top
+  type: trojan
+  ws-opts:
+    path: '%2FeyJqdW5rIjoiTUp4VFNoMTRLbSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0%3D'
+- name: '[Trojan] US130｜机房｜高风险 (黑名单)'
+  network: ws
+  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  port: 443
+  server: blackshadow.dpdns.org
+  skip-cert-verify: true
+  sni: blackshadow.dpdns.org
+  type: trojan
+  ws-opts:
+    path: '%2F195.123.218.174-443'
+- name: '[Trojan] US140｜家宽｜非常安全'
+  network: tcp
+  password: 3f7a5195-4708-4e23-8ec5-ff514c784c54
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '[Trojan] US141｜家宽｜非常安全'
+  network: tcp
+  password: 6f038cee-6ba1-4941-bce5-de1969f37405
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '[Trojan] US142｜家宽｜非常安全'
+  network: tcp
+  password: 9e410848-a58b-4e0f-b913-c46629b45f6b
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '[Trojan] US143｜家宽｜非常安全'
+  network: tcp
+  password: 6b7745ef-30c1-40d7-b0fd-c2d8a171c450
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
 - name: '[Trojan] 美国|@ripaojiedian'
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
@@ -224,175 +317,66 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] usUS_1|1.9MB/s'
-  port: 180
-  server: 82.198.246.97
+- name: '[Trojan] usUS_1|2.1MB/s'
+  network: ws
+  password: 4115f84d-3b03-4b03-babf-21b36b2f9c03
+  port: 443
+  server: tyu.bb1.ccwu.cc
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] usUS_2|2.6MB/s'
-  network: tcp
+  sni: tYu.BB1.Ccwu.cC
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tYu.BB1.Ccwu.cC
+    path: /%2Fr862SIwqItkD5XgXAL
+- name: '[Trojan] usUS_2|1.7MB/s'
+  network: ws
+  password: 4115f84d-3b03-4b03-babf-21b36b2f9c03
   port: 443
-  server: 144.31.128.67
-  servername: nlcdn12.suio.me
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8664a37d-40c9-47f0-8619-d9199651be2c
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] usUS_3|2.6MB/s'
-  network: tcp
-  port: 443
-  server: 144.31.128.68
-  servername: nlcdn13.suio.me
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8664a37d-40c9-47f0-8619-d9199651be2c
-  xudp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] usUS²_5|6.7MB/s|3%|GPT⁺|X|[广播|...'
+  server: xxd.nu0.de5.net
+  skip-cert-verify: false
+  sni: xxD.nU0.De5.Net
+  type: trojan
+  ws-opts:
+    headers:
+      Host: xxD.nU0.De5.Net
+    path: /%2Fr862SIwqItkD5XgXAL
+- name: '[VLESS] usUS_3|1.1MB/s'
   network: ws
   port: 8443
-  server: proxy.rahmancloud.ir
-  servername: proxy.rahmancloud.ir
+  server: 45.130.125.69
+  servername: zh.hollowspot.ir
   tls: true
   type: vless
-  udp: true
-  uuid: 6b279ab4-10e8-4e66-fb5d-9092c6709a1e
+  uuid: cff6f361-828a-43c8-a8b5-8d10b32e57fb
   ws-opts:
     headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      Host: zh.hollowspot.ir
     path: /
-  xudp: true
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[VLESS] usUS_5|3.1MB/s'
-  network: tcp
+  name: '[VLESS] usUS_4|1.1MB/s'
+  network: ws
   port: 443
-  reality-opts:
-    public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
-    short-id: '!!str '
-  server: 142.248.80.157
-  servername: apple.com
+  server: 104.19.58.118
+  servername: us1-us1.aiopen.sbs
   tls: true
   type: vless
-  udp: true
-  uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[Trojan] usUS_6|1.7MB/s'
-  network: ws
-  password: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
-  port: 443
-  server: yhj.huangshang2026.indevs.in
-  skip-cert-verify: true
-  sni: yhj.huangshang2026.indevs.in
-  type: trojan
-  udp: true
+  uuid: 0e44ea97-cd2c-4aa6-9159-b1224d3b38ce
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    path: /ElrtQ8CAz6RgfMaiN9LMya
-- name: '[Socks5] usUS²_3|1.2MB/s|GPT⁺|X'
-  password: ''
-  port: 50161
-  server: 216.126.234.4
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: '[SS] usUS²_4|1.8MB/s|38%|GPT⁺|GM|YT...'
-  password: hbhO0xomsJzhO24F
-  port: 443
-  server: 64.176.215.70
-  type: ss
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] usUS²_7|3.9MB/s|17%|GPT⁺|X|[广播...'
-  network: tcp
-  port: 443
-  server: 144.31.128.69
-  servername: nlcdn14.suio.me
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8664a37d-40c9-47f0-8619-d9199651be2c
-  xudp: true
-- name: '[Http] usUS²_8|2.5MB/s|12%|GPT⁺|NF|X|...'
-  password: 34ddff9e-049d-444d-8bee-ae45928019ef
-  port: 4449
-  server: 4-n67hzkyu.mix.dexiansheng.com
-  sni: 4-n67hzkyu.mix.dexiansheng.com
-  tls: true
-  type: http
-  username: walless
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[VLESS] usUS²_10|3.9MB/s|17%|GPT⁺|X|Hi...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: xJIswEHrphk8LCn-DyJxw4uypPkouxPgNsfiyjRU-3w
-    short-id: '!!str 41a0b29e95aaea87'
-  server: 144.31.128.129
-  servername: ae.cdn.stun.su
-  tls: true
-  type: vless
-  udp: true
-  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE²_8|6.9MB/s|5%|GPT⁺|YT-US|...'
-  network: tcp
-  port: 65510
-  server: g.xo-connection.ir
-  servername: x.xo-connection.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2253e7d8-05c1-4079-9eac-845a015f8ff4
-  xudp: true
+      Host: us1-us1.aiopen.sbs
+    path: /kbjc/us1
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  client-fingerprint: chrome
   http-opts:
     headers:
       Host:
       - fast.com
     path:
     - /
-  name: '[Vmess] usUS²_11|7.6MB/s|46%|GPT⁺|GM|Y...'
+  name: '[Vmess] usUS_5|4.7MB/s'
   network: http
   port: 2085
   server: Cpannel.iranucshop.ir
@@ -405,82 +389,11 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[VLESS] gbGB²_1|6.1MB/s|YT-US|X'
-  network: tcp
-  port: 5710
-  reality-opts:
-    public-key: dQYahYS6055ghu03hkvNxv9geHCJHqASFVbXs3v1jDw
-    short-id: '!!str e99768d076c05ab2'
-  server: irancel.hamrah.comyahooo.iranusa.lorna.lornanet.ir
-  servername: www.varzesh3.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53f16931-63ed-1471-0326-d60b900beb52
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
   http-opts:
     headers: {}
     path:
     - /
-  name: '[VLESS] usUS²_13|4.8MB/s|GPT⁺|NF|X|[广播...'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: u4S6MmhgEOkPjlLVZ6twDLy-V9JIpLtyj8vDobOVM0w
-    short-id: '!!str 1c8eebcb20f6d0ce'
-  server: 38.180.138.72
-  servername: nyc.cdn.stun.su
-  tls: true
-  type: vless
-  udp: true
-  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
-  xudp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_9|1.4MB/s|GPT⁺|GM|YT-US|...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.141
-  type: ss
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] deDE²_11|6.7MB/s|5%|GPT⁺|YT-US...'
-  network: ws
-  port: 443
-  server: 172.67.193.88
-  servername: MAHANteAm.noD32Cpu.iR
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: MAHANteAm.noD32Cpu.iR
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
-    path: /assets
-  xudp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: '[SS] vnVN²_10|2.3MB/s|GPT⁺|YT-US|X|...'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.78
-  type: ss
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] usUS²_16|5.3MB/s|17%|GPT⁺|X|Hi...'
+  name: '[VLESS] usUS_7|1.0MB/s'
   network: tcp
   port: 443
   reality-opts:
@@ -493,32 +406,39 @@ proxies:
   udp: true
   uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
   xudp: true
-- alterId: '0'
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[VLESS] usUS_8|2.4MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: xJIswEHrphk8LCn-DyJxw4uypPkouxPgNsfiyjRU-3w
+    short-id: '!!str 41a0b29e95aaea87'
+  server: 144.31.128.129
+  servername: ae.cdn.stun.su
+  tls: true
+  type: vless
+  udp: true
+  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
+  xudp: true
+- alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: '[Vmess] deDE²_12|6.0MB/s|46%|GPT⁺|YT-U...'
-  network: ws
-  port: 8080
-  server: 172.64.149.182
-  skip-cert-verify: false
+  delay: 1154
+  name: '[Vmess] usUS²_1|0.8MB/s|X|History'
+  network: tcp
+  port: 30846
+  server: v46.hdacd.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-5712964102.sharghdaily.co
-    max-early-data: 2560
-    path: /nasnet/cdn
-  xudp: true
-- name: '[Socks5] usUS²_17|4.2MB/s|GPT⁺|X|Histor...'
-  password: ''
-  port: 1080
-  server: 192.241.156.17
-  skip-cert-verify: true
-  type: socks5
-  username: ''
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: ios
   flow: xtls-rprx-vision
   name: '[VLESS] US_speednode_0013'
@@ -533,6 +453,19 @@ proxies:
   type: vless
   udp: true
   uuid: c6977f74-e620-4748-a2d3-4351a588c659
+- client-fingerprint: chrome
+  name: '[VLESS] US_speednode_0014'
+  port: 443
+  reality-opts:
+    public-key: iv8v94q9qxkMw5WSUc0obloyLVFNTsfyy9Y3FaGlj1k
+    short-id: '!!str efd29b2d25'
+  server: 64.188.64.59
+  servername: yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 12cb9911-a48d-4147-85cc-68dd678e94c6
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[VLESS] US_speednode_0015'

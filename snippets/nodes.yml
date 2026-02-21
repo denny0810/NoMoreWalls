@@ -15,19 +15,28 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[Vmess] DE37｜机房｜高风险 (黑名单)'
+  country: 🇬🇧 GB
+  http-opts: {}
+  name: '[Vmess] usUS²_6|0.7MB/s|29%|GPT⁺|NF|X|...'
   network: tcp
-  port: '180'
+  port: 180
   server: 82.198.246.97
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-opts:
+    path: /
 - alterId: 2
   cipher: auto
-  name: '[Vmess] US4｜机房｜低风险'
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_9|7.8MB/s|GPT⁺|GM|YT|NF|...'
   network: tcp
-  port: '30808'
+  port: 30808
   server: v8.hdacd.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -49,13 +58,20 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[Vmess] US7｜机房｜低风险'
+  country: 🏁 ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] usUS²_15|7.3MB/s|33%|GPT|NF|X|...'
   network: tcp
-  port: '30829'
+  port: 30829
   server: v29.hdacd.com
+  servername: v29.hdacd.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /
 - alterId: 2
   cipher: auto
   name: '[Vmess] US20｜机房｜低风险'
@@ -368,60 +384,43 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] hk 香港2|@ripaojiedian'
-  port: 9006
-  server: select-hk.ddnskunlun.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
 - name: '[Trojan] 香港3|@ripaojiedian'
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
-  port: 2255
-  server: 57.180.15.244
+  port: 4856
+  server: 13.159.21.118
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 香港4|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 3292
-  server: 43.198.82.55
+  port: 2826
+  server: 13.192.236.37
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[Trojan] 香港5|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 3292
-  server: 52.195.228.102
+  port: 54548
+  server: 16.163.31.145
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  type: trojan
-- name: '[Trojan] 台湾|@ripaojiedian'
-  network: tcp
-  password: 736cd94d-7b94-3e44-8106-3419f64eaf09
-  port: 3462
-  server: a03.taipeicitygovernment.cn.ua
-  skip-cert-verify: true
-  sni: 45.32.28.232
   type: trojan
 - name: '[Trojan] 日本|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 26378
-  server: 52.195.228.102
+  port: 20539
+  server: 13.115.245.122
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[Trojan] 日本2|@ripaojiedian'
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
-  port: 400
-  server: 153.121.51.29
+  port: 3423
+  server: 160.16.144.208
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -429,15 +428,15 @@ proxies:
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 193
-  server: 160.16.105.192
+  server: 153.121.39.240
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 新加坡|@ripaojiedian'
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
-  port: 3901
-  server: 13.231.178.109
+  port: 3419
+  server: 52.192.209.59
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -445,7 +444,7 @@ proxies:
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 3901
-  server: 18.183.98.127
+  server: 43.206.236.80
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -457,38 +456,47 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[Trojan] 新加坡4|@ripaojiedian'
-  network: tcp
-  password: 736cd94d-7b94-3e44-8106-3419f64eaf09
-  port: 443
-  server: sg.singaporenodeserverone.co.ua
-  skip-cert-verify: true
-  sni: 45.32.28.232
-  type: trojan
 - name: '[Trojan] 美国|@ripaojiedian'
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
-  port: 1281
-  server: 160.16.106.99
+  port: 4920
+  server: 13.114.30.172
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 美国2|@ripaojiedian'
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
-  port: 1281
-  server: 160.16.72.205
+  port: 4920
+  server: 52.192.209.59
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 美国3|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 38780
-  server: 54.238.211.1
+  port: 9718
+  server: 16.163.143.47
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: '[Trojan] 日本4|@ripaojiedian'
+  network: tcp
+  password: 736cd94d-7b94-3e44-8106-3419f64eaf09
+  port: 2053
+  server: 05.tokyometropolis.kiev.ua
+  skip-cert-verify: true
+  sni: 45.32.28.232
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] tw 台湾|@ripaojiedian'
+  port: 16811
+  server: ipv6-tw02.cnddns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
 - alterId: 2
   cipher: auto
   name: '[Vmess] 香港|@ripaojiedian'
@@ -501,26 +509,368 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[Vmess] 香港2|@ripaojiedian'
+  name: '[Vmess] 台湾|@ripaojiedian'
   network: tcp
-  port: '9006'
-  server: select-hk.ddnskunlun.com
+  port: '16811'
+  server: ipv6-tw02.cnddns.com
   servername: ''
   tls: false
   type: vmess
   uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
 - alterId: 0
   cipher: auto
-  country: 🇨🇳CN
+  name: '[Vmess] usUS_1|1.9MB/s'
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - fast.com
+    method: GET
+    path:
+    - /
+  name: '[Vmess] frFR_1|2.0MB/s'
+  network: http
+  port: 2085
+  server: 82.152.98.88
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8aa8d990-dea8-431f-b62d-cc70f3ba4de8
+- cipher: aes-256-gcm
+  name: '[SS] ❓Other_1|2.6MB/s'
+  password: ec8a5fb8-3a94-48a6-890a-4a80aa70b501
+  port: 39350
+  server: 112.82.223.176
+  type: ss
+- cipher: aes-256-cfb
+  name: '[SS] esES_1|1.6MB/s'
+  password: S7KwUu7yBy58S3Ga
+  port: 9042
+  server: 5.188.181.201
+  type: ss
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[Vmess] deDE_2|3.5MB/s'
+  network: ws
+  port: 8080
+  server: tgju.org
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-5712964102.sharghdaily.co
+    max-early-data: 2560
+    path: /nasnet/cdn
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[Vmess] frFR²_5|2.3MB/s|0%|GPT⁺|YT-US|...'
+  network: http
+  port: 2085
+  server: 82.152.98.198
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 052ceb67-79c7-45da-ba4b-42e659bb81fa
+  xudp: true
+- alpn:
+  - http/1.1
+  name: '[Trojan] usUS_6|1.7MB/s'
+  network: ws
+  password: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  port: 443
+  server: yhj.huangshang2026.indevs.in
+  skip-cert-verify: true
+  sni: yhj.huangshang2026.indevs.in
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /ElrtQ8CAz6RgfMaiN9LMya
+- alterId: 2
+  cipher: auto
+  country: 🏁 ZZ
   h2-opts: {}
   http-opts: {}
-  name: '[Vmess] hkHK²_1|1.7MB/s|0%|NF|D+|X|[广播...'
+  name: '[Vmess] sgSG²_4|6.2MB/s|43%|GPT⁺|GM|YT...'
   network: tcp
-  port: 10001
-  server: 27.44.141.89
+  port: 30845
+  server: v45.hdacd.com
+  servername: v45.hdacd.com
   skip-cert-verify: true
   type: vmess
-  uuid: 0e4e55e2-eca1-48ad-8669-da0440006556
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /
+- cipher: aes-256-cfb
+  country: 🇨🇳 CN
+  name: '[SS] vnVN²_1|2.0MB/s|GPT⁺|X|[原生|机房]'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.22
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇨🇳 CN
+  name: '[SS] vnVN²_2|2.3MB/s|GPT⁺|X|History...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.36
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_3|2.3MB/s|GPT⁺|GM|YT|X|H...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.83
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: '[SS] usUS²_4|1.8MB/s|38%|GPT⁺|GM|YT...'
+  password: hbhO0xomsJzhO24F
+  port: 443
+  server: 64.176.215.70
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺RU
+  name: '[SS] ruRU²_1|6.1MB/s|X|[原生|机房]'
+  password: BShcek5ydIWbXEnhI2vIym
+  port: 42320
+  server: 62.113.114.116
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇨🇳 CN
+  name: '[SS] vnVN²_4|2.5MB/s|GPT⁺|X|History'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.112
+  type: ss
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] deDE²_3|0.7MB/s|GPT⁺|X|History...'
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  servername: v33.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] inIN²_1|0.6MB/s|X|History|[广播|...'
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 34411
+  server: ldu.izenny.com
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_5|1.5MB/s|GPT⁺|X|History...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.176
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_6|1.8MB/s|GPT⁺|X|History'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.134
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_7|1.4MB/s|GPT⁺|X|History'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.199
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_8|2.7MB/s|GPT⁺|GM|X|Hist...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.211
+  type: ss
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - fast.com
+    path:
+    - /
+  name: '[Vmess] usUS²_11|7.6MB/s|46%|GPT⁺|GM|Y...'
+  network: http
+  port: 2085
+  server: Cpannel.iranucshop.ir
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2c72c667-093c-47a5-a108-493c93282b57
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  name: '[SS] inIN²_2|1.3MB/s|GPT⁺|D+|X|[广播|...'
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 34411
+  server: 183.232.137.2
+  type: ss
+- country: 🇮🇷IR
+  name: '[Trojan] jpJP²_6|5.1MB/s|0%|GPT⁺|GM|YT|...'
+  network: tcp
+  password: 347ca311-8fc2-499c-8fe1-bd0ecb50f1b3
+  port: 43074
+  server: 5.34.222.4
+  skip-cert-verify: true
+  sni: iepl.jpz2.cat.bilibili.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] hkHK²_3|8.6MB/s|46%|X'
+  network: tcp
+  port: 9006
+  server: select-hk.ddnskunlun.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  name: '[SS] mxMX²_1|0.6MB/s|4%|GPT⁺|X|Hist...'
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 20149
+  server: 183.232.137.2
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇹🇼TW
+  name: '[SS] twTW²_4|7.7MB/s|0%|GPT⁺|GM|YT-...'
+  password: qwerREWQ@@
+  port: 41632
+  server: 185.189.160.105
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇪🇸ES
+  name: '[SS] esES²_2|1.5MB/s|24%|GPT⁺|X|His...'
+  password: dU3DSNS8wYPXzEKw
+  port: 9029
+  server: 5.188.181.201
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_9|1.4MB/s|GPT⁺|GM|YT-US|...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.141
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_10|2.3MB/s|GPT⁺|YT-US|X|...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.78
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇨🇳CN
+  name: '[SS] thTH²_1|10.3MB/s|0%|GPT|X'
+  password: ec8a5fb8-3a94-48a6-890a-4a80aa70b501
+  port: 39270
+  server: 183.240.179.204
+  type: ss
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  country: 🇰🇷 KR
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: '[Vmess] krKR²_5|2.5MB/s|4%|GPT⁺|GM|YT|...'
+  network: http
+  port: 80
+  server: 152.70.92.69
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+  xudp: true
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] sgSG²_7|13.3MB/s|14%|GPT⁺|GM|Y...'
+  network: none
+  port: 17310
+  server: 82.21.80.224
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 656920dc-ed05-4f41-8c49-bdff41e383a9
+  ws-opts:
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: '[Vmess] deDE²_12|6.0MB/s|46%|GPT⁺|YT-U...'
+  network: ws
+  port: 8080
+  server: 172.64.149.182
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-5712964102.sharghdaily.co
+    max-early-data: 2560
+    path: /nasnet/cdn
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: '[SS] vnVN²_11|2.5MB/s|GPT⁺|GM|X|His...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.16
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: '[SS] vnVN²_12|2.4MB/s|GPT⁺|X|Histor...'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.229
+  type: ss
 - alterId: 0
   cipher: auto
   name: '[Vmess] VMESS节点2-ipv6'

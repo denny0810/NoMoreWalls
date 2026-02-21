@@ -142,36 +142,27 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] hk 香港2|@ripaojiedian'
-  port: 9006
-  server: select-hk.ddnskunlun.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
 - name: '[Trojan] 香港3|@ripaojiedian'
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
-  port: 2255
-  server: 57.180.15.244
+  port: 4856
+  server: 13.159.21.118
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 香港4|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 3292
-  server: 43.198.82.55
+  port: 2826
+  server: 13.192.236.37
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[Trojan] 香港5|@ripaojiedian'
   network: tcp
   password: BxceQaOe
-  port: 3292
-  server: 52.195.228.102
+  port: 54548
+  server: 16.163.31.145
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -185,29 +176,33 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] 香港2|@ripaojiedian'
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[VLESS] hkHK_1|2.9MB/s'
   network: tcp
-  port: '9006'
-  server: select-hk.ddnskunlun.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+  port: 20295
+  reality-opts:
+    public-key: uw3OxiklmD3l7W_KaOWu9GpNxJwvxErfVZQHyL1IH0s
+    short-id: '!!str 01af1ac2395e'
+  server: luckincoffee-hk-01.monet.mom
+  servername: swdist.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a5db5a13-1bf2-4b28-88d4-5b385ece52ed
+  xudp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: '[Vmess] hkHK²_1|1.7MB/s|0%|NF|D+|X|[广播...'
+  name: '[Vmess] hkHK²_3|8.6MB/s|46%|X'
   network: tcp
-  port: 10001
-  server: 27.44.141.89
-  skip-cert-verify: true
+  port: 9006
+  server: select-hk.ddnskunlun.com
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: 0e4e55e2-eca1-48ad-8669-da0440006556
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: '[VLESS] HK_speednode_0002'

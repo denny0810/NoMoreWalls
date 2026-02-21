@@ -8,3 +8,40 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - fast.com
+    method: GET
+    path:
+    - /
+  name: '[Vmess] frFR_1|2.0MB/s'
+  network: http
+  port: 2085
+  server: 82.152.98.88
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8aa8d990-dea8-431f-b62d-cc70f3ba4de8
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[Vmess] frFR²_5|2.3MB/s|0%|GPT⁺|YT-US|...'
+  network: http
+  port: 2085
+  server: 82.152.98.198
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 052ceb67-79c7-45da-ba4b-42e659bb81fa
+  xudp: true

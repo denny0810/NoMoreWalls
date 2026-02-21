@@ -2,8 +2,8 @@ proxies:
 - name: '[Trojan] 新加坡|@ripaojiedian'
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
-  port: 3901
-  server: 13.231.178.109
+  port: 3419
+  server: 52.192.209.59
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -11,7 +11,7 @@ proxies:
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 3901
-  server: 18.183.98.127
+  server: 43.206.236.80
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -23,11 +23,35 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[Trojan] 新加坡4|@ripaojiedian'
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🏁 ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] sgSG²_4|6.2MB/s|43%|GPT⁺|GM|YT...'
   network: tcp
-  password: 736cd94d-7b94-3e44-8106-3419f64eaf09
-  port: 443
-  server: sg.singaporenodeserverone.co.ua
+  port: 30845
+  server: v45.hdacd.com
+  servername: v45.hdacd.com
   skip-cert-verify: true
-  sni: 45.32.28.232
-  type: trojan
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: '[Vmess] sgSG²_7|13.3MB/s|14%|GPT⁺|GM|Y...'
+  network: none
+  port: 17310
+  server: 82.21.80.224
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 656920dc-ed05-4f41-8c49-bdff41e383a9
+  ws-opts:
+    path: /

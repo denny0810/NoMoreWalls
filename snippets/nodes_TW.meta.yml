@@ -7,11 +7,48 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[Trojan] 台湾|@ripaojiedian'
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] tw 台湾|@ripaojiedian'
+  port: 16811
+  server: ipv6-tw02.cnddns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- alterId: 0
+  cipher: auto
+  name: '[Vmess] 台湾|@ripaojiedian'
   network: tcp
-  password: 736cd94d-7b94-3e44-8106-3419f64eaf09
-  port: 3462
-  server: a03.taipeicitygovernment.cn.ua
+  port: '16811'
+  server: ipv6-tw02.cnddns.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- name: '[Http] twTW²_1|1.6MB/s|GPT⁺|GM|YT|NF|...'
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: '[Http] twTW²_2|5.5MB/s|GPT⁺|GM|YT|TK|...'
+  password: mrwdfNTD8M79LCukCieldrqZWqs=
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
   skip-cert-verify: true
-  sni: 45.32.28.232
-  type: trojan
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: '[Socks5] twTW²_3|12.4MB/s|0%|X|History'
+  password: ''
+  port: 1080
+  server: 141.11.42.163
+  skip-cert-verify: true
+  type: socks5
+  username: ''

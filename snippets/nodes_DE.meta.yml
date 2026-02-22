@@ -1,14 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 2|[Vmess] DE51｜机房｜高风险 (黑名单)
+  name: 1|[Vmess] DE51｜机房｜高风险 (黑名单)
   network: tcp
   port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 4|[Hysteria2] DE
+- name: 3|[Hysteria2] DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -16,88 +16,21 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 8|[VLESS] deDE_1|2.0MB/s
-  network: tcp
+- name: 7|[Http] deDE_1|2.0MB/s
+  password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443
-  server: decdn16.suio.me
-  servername: decdn16.suio.me
+  server: 9984e840-taz0g0-tcf050-1rdqg.de.oshuawei.com
+  sni: 9984e840-taz0g0-tcf050-1rdqg.de.oshuawei.com
   tls: true
-  type: vless
-  udp: true
-  uuid: 8664a37d-40c9-47f0-8619-d9199651be2c
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 8|[VLESS] deDE_5|1.1MB/s
-  network: tcp
-  port: 25451
-  reality-opts:
-    public-key: JlMOb8hVg1VOrRlMLdXpv8IADp-R4I-cIT856hz_Cg0
-    short-id: '!!str f686d19cd7b8b3df'
-  server: 93.94.51.13
-  servername: yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a90f4742-2f30-47b5-9f17-b6ab04cc98e8
-  xudp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 8|[VLESS] deDE_3|1.3MB/s
-  network: ws
-  port: 8443
-  server: 188.114.98.0
-  servername: 111.parsianboton.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: dc2fec90-ec84-42dc-b5d4-d6371818b4d9
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: 111.parsianboton.ir
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    max-early-data: 80
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 8|[VLESS] deDE_4|1.4MB/s
-  network: tcp
-  port: 443
-  server: decdn15.suio.me
-  servername: decdn15.suio.me
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8664a37d-40c9-47f0-8619-d9199651be2c
-  xudp: true
+  type: http
+  username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
   country: 🇭🇰HK
   h2-opts: {}
   http-opts: {}
-  name: 9|[Vmess] deDE²_1|0.8MB/s|GPT⁺|X|History
+  name: 8|[Vmess] deDE²_1|0.8MB/s|GPT⁺|X|History
   network: tcp
   port: 30833
   server: v33.hdacd.com
@@ -107,7 +40,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|[VLESS] DE_speednode_0001
+  name: 10|[VLESS] DE_speednode_0001
   port: 443
   reality-opts:
     public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA

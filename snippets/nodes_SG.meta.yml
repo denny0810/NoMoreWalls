@@ -50,12 +50,26 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- cipher: chacha20-ietf
-  name: '[SS] sgSG_1|2.7MB/s'
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  type: ss
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[VLESS] sgSG_1|1.6MB/s'
+  network: ws
+  port: 443
+  server: 198.41.211.211
+  servername: sa.anjue39.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: a8ea783c-dc54-4b17-96e4-144d1af2cb75
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sa.anjue39.qzz.io
+    max-early-data: 2048
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

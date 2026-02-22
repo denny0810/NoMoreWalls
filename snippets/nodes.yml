@@ -837,107 +837,49 @@ proxies:
   tls: false
   type: vmess
   uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - fast.com
-    path:
-    - /
-  name: '[Vmess] frFR_1|1.1MB/s'
-  network: http
-  port: 2085
-  server: 82.152.98.88
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8aa8d990-dea8-431f-b62d-cc70f3ba4de8
-  xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[SS] nlNL_1|2.5MB/s'
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.191
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] usUS_2|1.1MB/s'
-  network: ws
+  name: '[SS] gbGB²_2|6.0MB/s|0%|GPT⁺|X|Hist...'
+  password: kaQH3hGdcP80XEDI
   port: 443
-  server: vvbnhju.191292.xyz
-  servername: vvbnhju.191292.xyz
+  server: admin.c2.havij.co
+  type: ss
+  udp: true
+- name: '[Trojan] usUS_1|1.4MB/s'
+  network: ws
+  password: 4115f84d-3b03-4b03-babf-21b36b2f9c03
+  port: 443
+  server: aq.voa.ccwu.cc
   skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: b9bb332d-5e0d-41af-adac-49362dde8661
+  sni: aQ.voA.cCWu.cc
+  type: trojan
   ws-opts:
     headers:
-      Host: vvbnhju.191292.xyz
-    path: /iqjxVCqiIAaLCt5Q2GkKGWRMg
-- cipher: chacha20-ietf
-  name: '[SS] sgSG_1|2.7MB/s'
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
+      Host: aQ.voA.cCWu.cc
+    path: /%2Fr862SIwqItkD5XgXAL
+- cipher: aes-256-cfb
+  name: '[SS] esES_1|1.3MB/s'
+  password: TN2YqghxeFDKZfLU
+  port: 9037
+  server: 5.188.181.201
   type: ss
-- cipher: chacha20-ietf
-  name: '[SS] hkHK_1|1011KB/s'
-  password: asd123456
-  port: 8388
-  server: 103.149.182.105
-  type: ss
-- name: '[Trojan] ❓Other_1|2.6MB/s'
-  password: 347ca311-8fc2-499c-8fe1-bd0ecb50f1b3
-  port: 43074
-  server: 5.34.222.4
+- country: 🇮🇷 IR
+  name: '[Trojan] deDE²_6|0.6MB/s|0%|GPT⁺|X|[广播|...'
+  network: tcp
+  password: pYIoKUPGpWeTYXEx3HjR7s97B
+  port: 443
+  server: free-de-2.undef.network
   skip-cert-verify: true
-  sni: iepl.jpz2.cat.bilibili.com
+  sni: free-de-2.undef.network
   type: trojan
   udp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - fast.com
-    path:
-    - /
-  name: '[Vmess] usUS_5|3.4MB/s'
-  network: http
-  port: 2085
-  server: cpannel.iranucshop.ir
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- name: '[Trojan] usUS_2|2.4MB/s'
+  password: 347ca311-8fc2-499c-8fe1-bd0ecb50f1b3
+  port: 43642
+  server: 5.34.222.4
+  skip-cert-verify: true
+  sni: iepl.usq1.cat.bilibili.com
+  type: trojan
   udp: true
-  uuid: 2c72c667-093c-47a5-a108-493c93282b57
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - fast.com
-    path:
-    - /
-  name: '[Vmess] usUS²_11|7.6MB/s|46%|GPT⁺|YT|T...'
-  network: http
-  port: 2085
-  server: Cpannel.iranucshop.ir
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2c72c667-093c-47a5-a108-493c93282b57
-  xudp: true
 - alterId: 0
   cipher: auto
   country: 🇬🇧GB
@@ -990,16 +932,6 @@ proxies:
   port: 38388
   server: 103.186.154.252
   type: ss
-- country: 🇮🇷 IR
-  name: '[Trojan] deDE²_6|0.6MB/s|0%|GPT⁺|X|[广播|...'
-  network: tcp
-  password: pYIoKUPGpWeTYXEx3HjR7s97B
-  port: 443
-  server: free-de-2.undef.network
-  skip-cert-verify: true
-  sni: free-de-2.undef.network
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   country: 🇨🇳CN
   name: '[SS] inIN²_1|1.0MB/s|GPT⁺|D+|X|Hist...'
@@ -1151,13 +1083,6 @@ proxies:
   udp: true
   uuid: 191ceb3f-eca1-43ae-bf13-9cc3cee4c0a7
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[SS] gbGB²_2|6.0MB/s|0%|GPT⁺|X|Hist...'
-  password: kaQH3hGdcP80XEDI
-  port: 443
-  server: admin.c2.havij.co
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: '[SS] vnVN²_11|1.9MB/s|GPT⁺|GM|X'
@@ -1172,6 +1097,26 @@ proxies:
   port: 38388
   server: 103.186.155.109
   type: ss
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - fast.com
+    path:
+    - /
+  name: '[Vmess] usUS²_11|7.6MB/s|46%|GPT⁺|YT|T...'
+  network: http
+  port: 2085
+  server: Cpannel.iranucshop.ir
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2c72c667-093c-47a5-a108-493c93282b57
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: '[SS] vnVN²_13|1.9MB/s|GPT⁺|X|Histor...'

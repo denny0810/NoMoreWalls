@@ -17,6 +17,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[Hysteria2] 新加坡1'
+  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  port: 2055
+  server: xjp1.mangshe.xyz
+  skip-cert-verify: true
+  sni: xjp1.mangshe.xyz
+  tls: false
+  type: hysteria2
 - name: '[Hysteria2] SG'
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
@@ -49,23 +57,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[VLESS] sgSG_1|1.6MB/s'
-  network: ws
-  port: 443
-  server: 198.41.211.211
-  servername: sa.anjue39.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: a8ea783c-dc54-4b17-96e4-144d1af2cb75
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sa.anjue39.qzz.io
-    max-early-data: 2048
-    path: /

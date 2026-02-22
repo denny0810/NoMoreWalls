@@ -28,28 +28,8 @@ proxies:
   ws-opts:
     path: '%2Fassignment'
 - client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] frFR_1|2.7MB/s'
-  network: tcp
-  port: 19547
-  reality-opts:
-    public-key: -zsPOGrZY1Dlb6eypa5V_OPaLBpT66FX3cSo0mNX8SI
-    short-id: '!!str 47ee5c592c1672cf'
-  server: 109.172.55.157
-  servername: yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f9cdb2e1-939c-4470-b322-14b7313dec48
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: '[VLESS] frFR_2|2.1MB/s'
+  name: '[VLESS] frFR_1|1.3MB/s'
   network: tcp
   port: 443
   reality-opts:
@@ -59,90 +39,4 @@ proxies:
   servername: fran.scroogethebest.com
   tls: true
   type: vless
-  udp: true
   uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] frFR_3|3.0MB/s'
-  network: tcp
-  port: 13760
-  reality-opts:
-    public-key: ktZ1lxOpDoIq3mk39kNAi1uK0z3qTA6f-6u2KbQmICg
-    short-id: '!!str 58a8787420b6a153'
-  server: 109.172.55.232
-  servername: yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5fad3ad2-1a94-40d0-85bb-51eb83f5c7df
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: xyz
-  name: '[VLESS] frFR_4|2.0MB/s'
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: wSQIBnAc0cYO9JitaNcgZ2LwkTix0_dXVpDjnZxDrCE
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: 95.163.211.158
-  servername: eh.vk.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 03dd7e7c-8d2a-4cd2-b920-f5ed564fc8c4
-  xudp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] frFR_5|2.6MB/s'
-  network: tcp
-  port: 443
-  server: 109.172.55.122
-  servername: b12a6eea4807ca4e.1323.world
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0e90f352-e9bc-4834-8ff6-49ba887eded4
-  xudp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: '[VLESS] frFR_6|2.2MB/s'
-  network: tcp
-  port: 443
-  server: fr.1323.world
-  servername: b12a6eea4807ca4e.1323.world
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0e90f352-e9bc-4834-8ff6-49ba887eded4
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[VLESS] frFR_7|2.4MB/s'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
-    short-id: '!!str 4fa44664f6a566d3'
-  server: 185.171.202.55
-  servername: fran.scroogethebest.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
-  xudp: true

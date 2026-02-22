@@ -104,7 +104,9 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - alterId: 2
   cipher: auto
   name: '[Vmess] US16｜机房｜低风险'
@@ -838,44 +840,11 @@ proxies:
   type: vmess
   uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
 - cipher: chacha20-ietf-poly1305
-  name: '[SS] gbGB_1|2.6MB/s'
-  password: kaQH3hGdcP80XEDI
-  port: 443
-  server: admin.c2.havij.co
+  name: '[SS] nlNL_1|1.3MB/s'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.101
   type: ss
-- name: '[Trojan] usUS_1|1.4MB/s'
-  network: ws
-  password: 4115f84d-3b03-4b03-babf-21b36b2f9c03
-  port: 443
-  server: aq.voa.ccwu.cc
-  skip-cert-verify: false
-  sni: aQ.voA.cCWu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: aQ.voA.cCWu.cc
-    path: /%2Fr862SIwqItkD5XgXAL
-- cipher: aes-256-cfb
-  name: '[SS] esES_1|1.3MB/s'
-  password: TN2YqghxeFDKZfLU
-  port: 9037
-  server: 5.188.181.201
-  type: ss
-- name: '[Trojan] deDE_2|1.9MB/s'
-  password: pYIoKUPGpWeTYXEx3HjR7s97B
-  port: 443
-  server: free-de-2.undef.network
-  skip-cert-verify: true
-  sni: free-de-2.undef.network
-  type: trojan
-  udp: true
-- name: '[Trojan] usUS_2|2.4MB/s'
-  password: 347ca311-8fc2-499c-8fe1-bd0ecb50f1b3
-  port: 43642
-  server: 5.34.222.4
-  skip-cert-verify: true
-  sni: iepl.usq1.cat.bilibili.com
-  type: trojan
   udp: true
 - alterId: 2
   cipher: auto

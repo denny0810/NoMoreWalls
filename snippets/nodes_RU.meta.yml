@@ -1,5 +1,5 @@
 proxies:
-- name: 2|[Hysteria2] RU2｜机房｜低风险
+- name: 0|[Hysteria2] RU2｜机房｜低风险
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA%3D%3D
   password: 395b3e3c-5713-4852-99b8-3d4702e5a5e6
@@ -10,7 +10,82 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 11|[VLESS] RU_speednode_0007
+  encryption: none
+  name: 7|[VLESS] ruRU_1|2.6MB/s
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
+    short-id: '!!str 3ca620a7ed5f3196'
+  server: de.prod.n7.homes
+  servername: sun6-21.userapi.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 010c8bf7-0a43-404f-a6c5-2427acb4d476
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7|[VLESS] ruRU_2|2.4MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+    short-id: '!!str 4a3ad88ff867a295'
+  server: 51.250.4.119
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2019c04-5b7c-4be4-a65c-ca5ea90bf8fd
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7|[VLESS] ruRU_3|3.7MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+    short-id: '!!str a76ea384b29a4f79'
+  server: 37.9.4.211
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: b4f272ea-cd4f-4df9-9929-1c6b49c0b6ac
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7|[VLESS] ruRU_4|2.6MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
+    short-id: '!!str '
+  server: 193.57.137.228
+  servername: wikimedia.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: c40601cb-64e9-4f16-91c6-e8cdbaf100af
+  xudp: true
+- client-fingerprint: chrome
+  name: 10|[VLESS] RU_speednode_0007
   port: 8443
   reality-opts:
     public-key: 1HeKf_8KDjfzXfUi9P7WBaGStMvr96TKdUbofpkwBzQ
@@ -24,7 +99,7 @@ proxies:
   uuid: bf9931be-a7fd-46b3-9919-b858299e9f65
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|[VLESS] RU_speednode_0008
+  name: 10|[VLESS] RU_speednode_0008
   port: 8443
   reality-opts:
     public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
@@ -38,7 +113,7 @@ proxies:
   uuid: 11e41a32-6672-48a0-b9cb-c8694242ecff
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|[VLESS] RU_speednode_0009
+  name: 10|[VLESS] RU_speednode_0009
   port: 8443
   reality-opts:
     public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
@@ -52,7 +127,7 @@ proxies:
   uuid: 3c5c4ccc-b502-42cb-8c42-cfa714db4767
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|[VLESS] RU_speednode_0010
+  name: 10|[VLESS] RU_speednode_0010
   port: 443
   reality-opts:
     public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
@@ -66,7 +141,7 @@ proxies:
   uuid: e8accc46-c511-42fb-919b-9283799a88a1
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|[VLESS] RU_speednode_0011
+  name: 10|[VLESS] RU_speednode_0011
   port: 443
   reality-opts:
     public-key: tYFlc_8tzrwDisZbxlHj06rw_YE154TVYeEBuwOQZHE

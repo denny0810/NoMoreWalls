@@ -1,12 +1,12 @@
 proxies:
-- name: 4|[Hysteria2] JP
+- name: 3|[Hysteria2] JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
   server: jp7.dexlos.com
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 6,7|[Trojan] 日本|@ripaojiedian
+- name: 5,6|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 26378
@@ -14,7 +14,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 6,7|[Trojan] 日本2|@ripaojiedian
+- name: 5,6|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 3423
@@ -22,7 +22,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 6,7|[Trojan] 日本3|@ripaojiedian
+- name: 5,6|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 3423
@@ -30,7 +30,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 6,7|[Trojan] 日本4|@ripaojiedian
+- name: 5,6|[Trojan] 日本4|@ripaojiedian
   network: tcp
   password: 736cd94d-7b94-3e44-8106-3419f64eaf09
   port: 2053
@@ -39,7 +39,7 @@ proxies:
   sni: 45.32.28.232
   type: trojan
 - delay: 907
-  name: 8|[Http] jpJP_1|1.4MB/s
+  name: 7|[Http] jpJP_1|1.4MB/s
   password: 0b869f32-657e-11ee-a90c-f23c9313b177
   port: 3235
   server: 3f125d66-taz0g0-tfmj6h-24c4.h2tkydc2.cdnbytescm.com
@@ -50,7 +50,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 9|[VLESS] jpJP²_1|1.6MB/s|X|History
+  name: 8|[VLESS] jpJP²_1|1.6MB/s|X|History
   network: tcp
   port: 27724
   reality-opts:
@@ -63,17 +63,3 @@ proxies:
   udp: true
   uuid: ebd8539d-e249-4a39-8f90-e8585e8cc35e
   xudp: true
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 11|[VLESS] JP_speednode_0004
-  port: 48816
-  reality-opts:
-    public-key: fk4uHkIWXJ5MbcsFASbAhKlC5gV9m-XovXftmIDSuxo
-    short-id: '!!str 21280d81'
-  server: 38.207.130.145
-  servername: www.python.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 570d1a03-6acf-40ca-819e-1049906235d9

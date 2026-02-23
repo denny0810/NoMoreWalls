@@ -1,14 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 2|[Vmess] DE51｜机房｜高风险 (黑名单)
+  name: 0|[Vmess] DE51｜机房｜高风险 (黑名单)
   network: tcp
   port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 4|[Hysteria2] DE
+- name: 3|[Hysteria2] DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -17,7 +17,7 @@ proxies:
   tls: false
   type: hysteria2
 - delay: 1386
-  name: 8|[Http] deDE_1|1.1MB/s
+  name: 7|[Http] deDE_1|1.1MB/s
   password: 167db97c-ee01-11ef-b737-f23c91cfbbc9
   port: 443
   server: beda2e48-taz0g0-tkex6b-1tdqt.de.oshuawei.com
@@ -27,7 +27,7 @@ proxies:
   username: 167db97c-ee01-11ef-b737-f23c91cfbbc9
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 8|[VLESS] deDE_2|1.2MB/s
+  name: 7|[VLESS] deDE_2|1.2MB/s
   network: tcp
   port: 443
   server: 4.182.217.232
@@ -37,7 +37,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 8|[VLESS] deDE_3|1.1MB/s
+  name: 7|[VLESS] deDE_3|1.1MB/s
   network: tcp
   port: 443
   server: 20.218.137.249
@@ -48,7 +48,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 8|[VLESS] deDE_4|1.1MB/s
+  name: 7,10|[VLESS] RU_speednode_0011
   network: tcp
   port: 443
   reality-opts:
@@ -56,6 +56,7 @@ proxies:
     short-id: '!!str 1bbbfaf553e63d8c'
   server: 158.160.188.11
   servername: max.ru
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -67,7 +68,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 8|[VLESS] deDE_5|1.9MB/s
+  name: 7|[VLESS] deDE_5|1.9MB/s
   network: tcp
   port: 443
   server: decdn15.suio.me
@@ -81,7 +82,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 8|[VLESS] deDE_6|1.8MB/s
+  name: 7|[VLESS] deDE_6|1.8MB/s
   network: ws
   port: 443
   server: botdyqs.samanidempire.org
@@ -102,7 +103,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 8|[VLESS] deDE_7|1.7MB/s
+  name: 7|[VLESS] deDE_7|1.7MB/s
   network: ws
   port: 2087
   server: ip-data.turkserver.ir
@@ -124,7 +125,7 @@ proxies:
   country: 🇭🇰HK
   h2-opts: {}
   http-opts: {}
-  name: 9|[Vmess] deDE²_1|0.8MB/s|GPT⁺|X|History
+  name: 8|[Vmess] deDE²_1|0.8MB/s|GPT⁺|X|History
   network: tcp
   port: 30833
   server: v33.hdacd.com
@@ -132,17 +133,3 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|[VLESS] DE_speednode_0001
-  port: 443
-  reality-opts:
-    public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
-    short-id: '!!str 4daa022e84f8edf2'
-  server: de.cdn.stun.su
-  servername: de.cdn.stun.su
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6

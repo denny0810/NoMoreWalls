@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 2|[Vmess] GB16｜机房｜低风险
+  name: 0|[Vmess] GB16｜机房｜低风险
   network: tcp
   port: '30836'
   server: v36.hdacd.com
@@ -18,7 +18,7 @@ proxies:
       - fast.com
     path:
     - /
-  name: 8|[Vmess] gbGB_1|1.1MB/s
+  name: 7|[Vmess] gbGB_1|1.1MB/s
   network: http
   port: 2086
   server: 87.120.219.124
@@ -28,3 +28,16 @@ proxies:
   udp: true
   uuid: e6a866ca-1756-44ed-9866-a9949f2bad38
   xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|[VLESS] GB_speednode_0004
+  port: 443
+  reality-opts:
+    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
+  server: 217.154.194.55
+  servername: azure.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f0b15f64-db59-438c-b1b6-f1b83db52240

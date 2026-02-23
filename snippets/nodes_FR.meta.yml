@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] FR13｜机房｜低风险
+  name: 2|[Vmess] FR13｜机房｜低风险
   network: tcp
   port: '2085'
   server: 82.152.98.198
@@ -10,14 +10,14 @@ proxies:
   uuid: 052ceb67-79c7-45da-ba4b-42e659bb81fa
 - alterId: 2
   cipher: auto
-  name: 1|[Vmess] FR18｜机房｜低风险
+  name: 2|[Vmess] FR18｜机房｜低风险
   network: tcp
   port: '30835'
   server: v35.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 1|[Trojan] FR19｜机房｜低风险
+- name: 2|[Trojan] FR19｜机房｜低风险
   network: ws
   password: humanity
   port: 443
@@ -29,7 +29,7 @@ proxies:
     path: '%2Fassignment'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 7|[VLESS] frFR_1|1.1MB/s
+  name: 8|[VLESS] frFR_1|1.6MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -39,18 +39,26 @@ proxies:
   tls: true
   type: vless
   uuid: 70b49349-9c87-497e-818c-46006e1c3ce0
+- name: 8|[Http] frFR_2|1.3MB/s
+  password: 167db97c-ee01-11ef-b737-f23c91cfbbc9
+  port: 443
+  server: 6c786f6e-taz0g0-tkex6b-1tdqt.fr.oshuawei.com
+  sni: 6c786f6e-taz0g0-tkex6b-1tdqt.fr.oshuawei.com
+  tls: true
+  type: http
+  username: 167db97c-ee01-11ef-b737-f23c91cfbbc9
 - client-fingerprint: chrome
   encryption: none
-  name: 7|[VLESS] frFR_2|2.2MB/s
+  name: 8|[VLESS] frFR_3|2.2MB/s
   network: tcp
-  port: 8443
+  port: 13760
   reality-opts:
-    public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
-    short-id: '!!str 3ca620a7ed5f3196'
-  server: fr.prod.n7.homes
-  servername: sun6-21.userapi.com
+    public-key: ktZ1lxOpDoIq3mk39kNAi1uK0z3qTA6f-6u2KbQmICg
+    short-id: '!!str 58a8787420b6a153'
+  server: 109.172.55.232
+  servername: yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: 010c8bf7-0a43-404f-a6c5-2427acb4d476
+  uuid: 5fad3ad2-1a94-40d0-85bb-51eb83f5c7df
   xudp: true

@@ -1,14 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0|[Vmess] DE51｜机房｜高风险 (黑名单)
+  name: 1|[Vmess] DE51｜机房｜高风险 (黑名单)
   network: tcp
   port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 3|[Hysteria2] DE
+- name: 4|[Hysteria2] DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -16,116 +16,13 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- delay: 1386
-  name: 7|[Http] deDE_1|1.1MB/s
-  password: 167db97c-ee01-11ef-b737-f23c91cfbbc9
-  port: 443
-  server: beda2e48-taz0g0-tkex6b-1tdqt.de.oshuawei.com
-  sni: beda2e48-taz0g0-tkex6b-1tdqt.de.oshuawei.com
-  tls: true
-  type: http
-  username: 167db97c-ee01-11ef-b737-f23c91cfbbc9
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 7|[VLESS] deDE_2|1.2MB/s
-  network: tcp
-  port: 443
-  server: 4.182.217.232
-  servername: jina-4182217232-direct.yektanet.co
-  tls: true
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 7|[VLESS] deDE_3|1.1MB/s
-  network: tcp
-  port: 443
-  server: 20.218.137.249
-  servername: jina-20218137249-direct.yektanet.co
-  tls: true
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 7,10|[VLESS] RU_speednode_0011
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: iobA_bK3A-Mj4IF65agM5VbKQdbI1FDtq4WaOPkRwU4
-    short-id: '!!str 1bbbfaf553e63d8c'
-  server: 158.160.188.11
-  servername: max.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e7bf2367-a233-4d37-b7ef-2c017413febe
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 7|[VLESS] deDE_5|1.9MB/s
-  network: tcp
-  port: 443
-  server: decdn15.suio.me
-  servername: decdn15.suio.me
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8664a37d-40c9-47f0-8619-d9199651be2c
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] deDE_6|1.8MB/s
-  network: ws
-  port: 443
-  server: botdyqs.samanidempire.org
-  servername: botdyqs.samanidempire.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 66498e5b-1bcc-4ae3-83f8-56777999b60c
-  ws-opts:
-    headers:
-      Host: botdyqs.samanidempire.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /14dcc7e1
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] deDE_7|1.7MB/s
-  network: ws
-  port: 2087
-  server: ip-data.turkserver.ir
-  servername: all-dm2.netsnap.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: c805b05e-339d-40e0-8787-432d97a27345
-  ws-opts:
-    headers:
-      Host: all-dm2.netsnap.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /
-  xudp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
   country: 🇭🇰HK
   h2-opts: {}
   http-opts: {}
-  name: 8|[Vmess] deDE²_1|0.8MB/s|GPT⁺|X|History
+  name: 9|[Vmess] deDE²_1|0.8MB/s|GPT⁺|X|History
   network: tcp
   port: 30833
   server: v33.hdacd.com

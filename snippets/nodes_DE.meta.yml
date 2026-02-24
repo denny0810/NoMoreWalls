@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] DE51｜机房｜高风险 (黑名单)
+  name: 2|[Vmess] DE51｜机房｜高风险 (黑名单)
   network: tcp
   port: '180'
   server: 82.198.246.97
@@ -16,6 +16,80 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  name: 8|[VLESS] deDE_1|1.8MB/s
+  network: ws
+  port: 443
+  server: 143.20.160.38
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 8|[VLESS] deDE_4|1.2MB/s
+  network: tcp
+  port: 443
+  server: 20.79.160.49
+  servername: jina-207916049-direct.yektanet.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 8|[VLESS] deDE_3|2.4MB/s
+  network: tcp
+  port: 443
+  server: 4.182.217.232
+  servername: jina-4182217232-direct.yektanet.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 8|[VLESS] deDE_5|1.2MB/s
+  network: tcp
+  port: 443
+  server: 4.182.217.232
+  servername: jina-4182217232-direct.yektanet.co
+  tls: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] deDE_6|2.2MB/s
+  network: ws
+  port: 443
+  server: fastly3.hamrahflow.ir
+  servername: default.ssl.fastly.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8e4fcf27-21c4-4b8d-8e2b-6da9b1d4efd2
+  ws-opts:
+    headers:
+      Host: Valsiin.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /
+  xudp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

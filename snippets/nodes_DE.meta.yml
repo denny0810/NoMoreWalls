@@ -1,14 +1,89 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] DE51｜机房｜高风险 (黑名单)
+  name: 0|[Vmess] DE38｜机房｜高风险 (黑名单)
   network: tcp
   port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 4|[Hysteria2] DE
+- name: 0|[Trojan] DE10｜机房｜低风险
+  network: ws
+  password: 92544946-dea2-4cd9-bd5b-32be565a5a62
+  port: 2096
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: 17718944724033.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17718944728465.206353.xyz
+    path: '%2Fagrbniuh'
+- name: 0|[Trojan] DE11｜机房｜低风险
+  network: ws
+  password: 92544946-dea2-4cd9-bd5b-32be565a5a62
+  port: 2087
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17718944724754.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17718944722378.206353.xyz
+    path: '%2Fagrbniuh'
+- name: 0|[Trojan] DE12｜机房｜低风险
+  network: ws
+  password: 92544946-dea2-4cd9-bd5b-32be565a5a62
+  port: 2083
+  server: bestcdn3.868863.xyz
+  skip-cert-verify: true
+  sni: 17718944726676.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17718944722695.206353.xyz
+    path: '%2Fagrbniuh'
+- name: 0|[Trojan] DE13｜机房｜低风险
+  network: ws
+  password: 92544946-dea2-4cd9-bd5b-32be565a5a62
+  port: 8443
+  server: bestcdn4.868863.xyz
+  skip-cert-verify: true
+  sni: 17718944722097.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17718944729315.206353.xyz
+    path: '%2Fagrbniuh'
+- name: 0|[Trojan] DE14｜机房｜低风险
+  network: ws
+  password: 92544946-dea2-4cd9-bd5b-32be565a5a62
+  port: 2053
+  server: bestcdn5.868863.xyz
+  skip-cert-verify: true
+  sni: 17718944725042.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17718944724973.206353.xyz
+    path: '%2Fagrbniuh'
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 0,8|[Vmess] deDE²_1|0.8MB/s|GPT⁺|X|History
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  servername: v33.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 3|[Hysteria2] DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -17,7 +92,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 8|[VLESS] deDE_1|1.8MB/s
+  name: 7|[VLESS] deDE_1|1.1MB/s
   network: ws
   port: 443
   server: 143.20.160.38
@@ -31,76 +106,102 @@ proxies:
       Host: sni.111000.v6.navy
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
+  name: 7|[VLESS] deDE_2|2.5MB/s
+  network: ws
+  port: 2053
+  server: 188.241.241.3
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
   http-opts:
     headers: {}
     path:
     - /
-  name: 8|[VLESS] deDE_4|1.2MB/s
+  name: 7|[VLESS] deDE_3|1.1MB/s
   network: tcp
   port: 443
-  server: 20.79.160.49
-  servername: jina-207916049-direct.yektanet.co
+  reality-opts:
+    public-key: 0o5DqDHe9Pbrsxvqi1iD8i1kiZA4rtWUcOU1FYOEjF8
+    short-id: '!!str cb5c4079828962c2'
+  server: access-de6.agveit.pro
+  servername: access-de6.agveit.pro
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 18ca149b-4d45-4943-a298-4412229ff9ef
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7|[VLESS] deDE_4|1004KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: m4crJITYp5A-TVwE4LEmASnNX4M08SZ5DUGPC90lKxA
+    short-id: '!!str 1a045ca3f7620675'
+  server: access-de5.agveit.pro
+  servername: access-de5.agveit.pro
+  tls: true
+  type: vless
+  udp: true
+  uuid: 18ca149b-4d45-4943-a298-4412229ff9ef
   xudp: true
 - alpn:
+  - h3
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: 8|[VLESS] deDE_3|2.4MB/s
-  network: tcp
-  port: 443
-  server: 4.182.217.232
-  servername: jina-4182217232-direct.yektanet.co
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 8|[VLESS] deDE_5|1.2MB/s
-  network: tcp
-  port: 443
-  server: 4.182.217.232
-  servername: jina-4182217232-direct.yektanet.co
-  tls: true
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  encryption: none
-  name: 8|[VLESS] deDE_6|2.2MB/s
+  name: 7|[VLESS] deDE_5|2.1MB/s
   network: ws
-  port: 443
-  server: fastly3.hamrahflow.ir
-  servername: default.ssl.fastly.net
+  port: 2053
+  server: cf.mtpmio.com
+  servername: api.mtpmio.com
   tls: true
   type: vless
   udp: true
-  uuid: 8e4fcf27-21c4-4b8d-8e2b-6da9b1d4efd2
+  uuid: a2b5ed44-6d39-4a41-97e1-c643508d73d9
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: Valsiin.com
+      Host: api.mtpmio.com
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    max-early-data: 1024
+    path: /api
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 7|[VLESS] deDE_6|1001KB/s
+  network: ws
+  port: 2053
+  server: www.speedtest.net
+  servername: dl.immerchauffage.ir.
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: dl.immerchauffage.ir.
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    max-early-data: 2048
     path: /
   xudp: true
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 9|[Vmess] deDE²_1|0.8MB/s|GPT⁺|X|History
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  servername: v33.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

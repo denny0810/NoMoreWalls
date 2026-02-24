@@ -107,3 +107,17 @@ proxies:
   udp: true
   uuid: 9345f815-6ab0-4504-97f8-17539662676a
   xudp: true
+- name: 11|[VLESS] DE_speednode_0005
+  network: ws
+  port: 443
+  server: 185.219.84.221
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: /

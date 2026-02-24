@@ -1,5 +1,25 @@
 proxies:
 - client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 8|[VLESS] ruRU_1|2.5MB/s
+  network: tcp
+  port: 23335
+  reality-opts:
+    public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
+    short-id: '!!str 67b1e94e4dd1ef90'
+  server: 4.cdnconn.com
+  servername: icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
+  xudp: true
+- client-fingerprint: chrome
   name: 11|[VLESS] RU_speednode_0018
   port: 443
   reality-opts:

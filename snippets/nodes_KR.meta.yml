@@ -1,5 +1,5 @@
 proxies:
-- name: 2|[Socks5] KR160｜家宽｜高风险 (黑名单)
+- name: 0|[Socks5] KR160｜家宽｜高风险 (黑名单)
   port: 1090
   server: 121.169.46.116
   tls: false
@@ -7,43 +7,7 @@ proxies:
   username: T2clM0QlM0Q6
 - client-fingerprint: chrome
   encryption: none
-  name: 8|[VLESS] krKR_1|1.2MB/s
-  network: ws
-  port: 10903
-  server: 14.37.103.127
-  servername: tn1rr.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: tn1rr.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /sg-lnd
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 8|[VLESS] krKR_2|1006KB/s
-  network: ws
-  port: 11681
-  server: 183.104.233.94
-  servername: tn1rr.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: tn1rr.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
-    path: /sg-lnd
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 8|[VLESS] krKR_3|1.0MB/s
+  name: 8|[VLESS] krKR_1|2.4MB/s
   network: ws
   port: 12134
   server: 218.157.145.120
@@ -59,12 +23,39 @@ proxies:
         (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /sg-lnd
   xudp: true
-- name: 11|[Http] KR_speednode_0011
+- client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] krKR_2|1.4MB/s
+  network: ws
+  port: 10903
+  server: 14.37.103.127
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /sg-lnd
+  xudp: true
+- name: 8,11|[Http] KR_speednode_0011
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
   skip-cert-verify: true
+  sni: testkr3.ssv.vc
   tls: true
   type: http
   udp: true
   username: test
+- name: 8|[Http] krKR_4|2.4MB/s
+  password: 21a74582-f139-11ed-ab21-f23c913c8d2b
+  port: 31433
+  server: f772fb18-tb4kg0-td81f9-146qr.kr.oshuawei.com
+  sni: f772fb18-tb4kg0-td81f9-146qr.kr.oshuawei.com
+  tls: true
+  type: http
+  username: 21a74582-f139-11ed-ab21-f23c913c8d2b

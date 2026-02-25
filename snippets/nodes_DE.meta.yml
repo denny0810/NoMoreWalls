@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 2|[Vmess] DE14｜机房｜高风险 (黑名单)
+  name: 0|[Vmess] DE14｜机房｜高风险 (黑名单)
   network: tcp
   port: '180'
   server: 82.198.246.97
@@ -14,7 +14,7 @@ proxies:
   country: 🇭🇰HK
   h2-opts: {}
   http-opts: {}
-  name: 2,9|[Vmess] deDE²_1|0.8MB/s|GPT⁺|X|History
+  name: 0,9|[Vmess] deDE²_1|0.8MB/s|GPT⁺|X|History
   network: tcp
   port: 30833
   server: v33.hdacd.com
@@ -23,7 +23,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 2|[Trojan] DE9｜机房｜低风险
+- name: 0|[Trojan] DE9｜机房｜低风险
   network: ws
   password: 8be1f222-92fc-4e84-a6e9-26c74713e3d3
   port: 2096
@@ -35,7 +35,7 @@ proxies:
     headers:
       Host: 17720002265289.206353.xyz
     path: '%2Fagrbniuh'
-- name: 2|[Trojan] DE10｜机房｜低风险
+- name: 0|[Trojan] DE10｜机房｜低风险
   network: ws
   password: 8be1f222-92fc-4e84-a6e9-26c74713e3d3
   port: 2087
@@ -47,7 +47,7 @@ proxies:
     headers:
       Host: 17720002265968.206353.xyz
     path: '%2Fagrbniuh'
-- name: 2|[Trojan] DE11｜机房｜低风险
+- name: 0|[Trojan] DE11｜机房｜低风险
   network: ws
   password: 8be1f222-92fc-4e84-a6e9-26c74713e3d3
   port: 2083
@@ -59,7 +59,7 @@ proxies:
     headers:
       Host: 17720002264893.206353.xyz
     path: '%2Fagrbniuh'
-- name: 2|[Trojan] DE12｜机房｜低风险
+- name: 0|[Trojan] DE12｜机房｜低风险
   network: ws
   password: 8be1f222-92fc-4e84-a6e9-26c74713e3d3
   port: 8443
@@ -71,7 +71,7 @@ proxies:
     headers:
       Host: 17720002261418.206353.xyz
     path: '%2Fagrbniuh'
-- name: 2|[Hysteria2] DE15｜机房｜低风险
+- name: 0|[Hysteria2] DE15｜机房｜低风险
   password: b5f85b3e-9211-4989-ae50-5a3fd510f9ba
   port: 8080
   server: de.892622.xyz
@@ -87,3 +87,89 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc-vless
+  name: 8|[VLESS] deDE_1|2.0MB/s
+  network: grpc
+  port: 8443
+  server: deu469.unboundworld.org
+  servername: deu469.unboundworld.org
+  tls: true
+  type: vless
+  uuid: cc9f7840-757a-430b-bddc-a73478bea434
+- client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] deDE_2|2.4MB/s
+  network: ws
+  port: 2016
+  server: 45.145.42.211
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /sg-lnd
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] deDE_3|2.4MB/s
+  network: ws
+  port: 2082
+  server: 104.18.4.130
+  type: vless
+  udp: true
+  uuid: 20d439ac-16aa-4538-ab92-b683ad1ead5f
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: war.does.not.determine.who.is.right_only.who.is.left.2.0.2.6.cEphAlon.BeauTy
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2228.0 Safari/537.36
+    max-early-data: 1024
+    path: /@cephalon_ala-@cephalon_ala-@cephalon_ala-@cephalon_ala-@cephalon_ala-@cephalon_ala-@cephalon_ala-@cephalon_ala-@cephalon_ala-@cephalon_ala
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] deDE_4|2.4MB/s
+  network: ws
+  port: 443
+  server: 172.67.193.88
+  servername: MAHANteAm.noD32Cpu.iR
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: MAHANteAm.noD32Cpu.iR
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /assets
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] deDE_5|1.8MB/s
+  network: ws
+  port: 443
+  server: 94.125.101.247
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /sg-lnd
+  xudp: true

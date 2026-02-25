@@ -91,32 +91,6 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: grpc-vless
-  name: 8|[VLESS] deDE_1|2.6MB/s
-  network: grpc
-  port: 8443
-  server: deu469.unboundworld.org
-  servername: deu469.unboundworld.org
-  tls: true
-  type: vless
-  uuid: cc9f7840-757a-430b-bddc-a73478bea434
-- client-fingerprint: firefox
-  fingerprint: ''
-  name: 8|[VLESS] deDE_2|1.8MB/s
-  network: ws
-  port: 2053
-  server: 159.195.60.150
-  servername: info.marfanet.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: f81fac6d-88e7-45e3-b19e-084527859fba
-  ws-opts:
-    headers:
-      Host: info.marfanet.com
-    path: /api/v1/events
 - name: 11|[VLESS] DE_speednode_0005
   network: ws
   port: 443

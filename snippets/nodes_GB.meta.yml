@@ -1,18 +1,32 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 8|[SS] gbGB_1|2.4MB/s
+  password: kaQH3hGdcP80XEDI
+  port: 443
+  server: admin.c2.havij.co
+  type: ss
 - client-fingerprint: chrome
-  name: 8|[VLESS] gbGB_1|1.7MB/s
+  fingerprint: ''
+  name: 8|[VLESS] gbGB_2|2.5MB/s
   network: ws
-  port: 8443
-  server: 57.128.178.79
-  servername: sni.111000.v6.navy
+  port: 443
+  server: 198.62.62.248
+  servername: tar.alabama-tigr.info
   tls: true
   type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: false
+  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
   ws-opts:
     headers:
-      Host: sni.111000.v6.navy
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      Host: tar.alabama-tigr.info
+    path: /love
+- cipher: chacha20-ietf-poly1305
+  name: 8|[SS] gbGB_3|2.5MB/s
+  password: kaQH3hGdcP80XEDI
+  port: 443
+  server: 20.108.41.100
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   name: 11|[VLESS] GB_speednode_0011
   port: 443

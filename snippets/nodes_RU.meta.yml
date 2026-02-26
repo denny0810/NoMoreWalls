@@ -1,33 +1,14 @@
 proxies:
-- name: 1|[Socks5] RU1｜家宽｜高风险 (代理)
+- name: 2|[Socks5] RU1｜家宽｜高风险 (代理)
   port: 1080
   server: 46.146.220.247
   tls: false
   type: socks5
   username: Og%3D%3D
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 8|[VLESS] ruRU_1|2.6MB/s
+  name: 8,11|[VLESS] RU_speednode_0012
   network: tcp
-  port: 23335
-  reality-opts:
-    public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
-    short-id: '!!str '
-  server: 45.139.26.246
-  servername: icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|[VLESS] RU_speednode_0012
   port: 23335
   reality-opts:
     public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik

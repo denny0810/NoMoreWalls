@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] CA1｜机房｜低风险
+  name: 2|[Vmess] CA1｜机房｜低风险
   network: ws
   port: '2083'
   server: youxuan.513514.xyz
@@ -13,3 +13,19 @@ proxies:
     headers:
       Host: afeicloudca.54141528.xyz
     path: /ca
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 8|[VLESS] caCA_2|2.2MB/s
+  network: tcp
+  port: 10006
+  reality-opts:
+    public-key: XUVBEFyxevBwoGwVlo31vXMR_wQ0h0UnhzC4jCeakkc
+    short-id: '!!str 590bdc3b6dad'
+  server: hk.tfree.top
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  xudp: true

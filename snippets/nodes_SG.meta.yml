@@ -1,5 +1,5 @@
 proxies:
-- name: 1|[Hysteria2] SG8｜机房｜低风险
+- name: 2|[Hysteria2] SG8｜机房｜低风险
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA%3D%3D
   password: de0c4b78-82d5-4f30-8d57-5302748b6af9
@@ -33,7 +33,8 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 6,7|[Trojan] 新加坡2|@ripaojiedian
+- client-fingerprint: chrome
+  name: 6,7,8|[Trojan] sgSG_1|2.0MB/s
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 3901
@@ -41,7 +42,8 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 6,7|[Trojan] 新加坡3|@ripaojiedian
+- client-fingerprint: chrome
+  name: 6,7,8|[Trojan] sgSG_2|1.7MB/s
   network: tcp
   password: BxceQaOe
   port: 52951
@@ -49,54 +51,19 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: safari
-  encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 8|[VLESS] sgSG_1|2.0MB/s
-  network: tcp
-  port: 50000
-  reality-opts:
-    public-key: XcaJjk49Yof0-ZTuwFlFvBqd_QJC_uabiIWC1g6rvAk
-    short-id: '!!str 1f7bfe'
-  server: zf.sg1000.eu.cc
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 83d2c530-d9e1-4648-b32b-4850272e093e
-  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 8,11|[VLESS] US_speednode_0032
-  network: raw
-  port: 50000
-  reality-opts:
-    public-key: XcaJjk49Yof0-ZTuwFlFvBqd_QJC_uabiIWC1g6rvAk
-    short-id: '!!str 1f7bfe'
-  server: zf.sg1000.eu.cc
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
+  name: 8|[VLESS] sgSG_3|2.1MB/s
+  network: ws
+  port: 80
+  server: 198.41.222.191
   type: vless
   udp: true
-  uuid: 7473f95b-5a12-4972-b882-9fcd41ceff72
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 8,11|[VLESS] US_speednode_0039
-  network: raw
-  port: 50000
-  reality-opts:
-    public-key: XcaJjk49Yof0-ZTuwFlFvBqd_QJC_uabiIWC1g6rvAk
-    short-id: '!!str 1f7bfe'
-  server: zf.sg1000.eu.cc
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e2273e4a-ae8f-4937-baa0-a68860e22e61
+  uuid: e388fffb-03b0-4227-ac2c-2b5cec1f5c34
+  ws-opts:
+    headers:
+      Host: leecher56.matinheydri.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /
   xudp: true

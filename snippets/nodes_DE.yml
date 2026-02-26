@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] DE14｜机房｜高风险 (黑名单)
+  name: 2|[Vmess] DE14｜机房｜高风险 (黑名单)
   network: tcp
   port: '180'
   server: 82.198.246.97
@@ -14,7 +14,7 @@ proxies:
   country: 🇭🇰HK
   h2-opts: {}
   http-opts: {}
-  name: 1,9|[Vmess] deDE²_1|0.8MB/s|GPT⁺|X|History
+  name: 2,9|[Vmess] deDE²_1|0.8MB/s|GPT⁺|X|History
   network: tcp
   port: 30833
   server: v33.hdacd.com
@@ -23,7 +23,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 1|[Trojan] DE9｜机房｜低风险
+- name: 2|[Trojan] DE9｜机房｜低风险
   network: ws
   password: 8be1f222-92fc-4e84-a6e9-26c74713e3d3
   port: 2096
@@ -35,7 +35,7 @@ proxies:
     headers:
       Host: 17720002265289.206353.xyz
     path: '%2Fagrbniuh'
-- name: 1|[Trojan] DE10｜机房｜低风险
+- name: 2|[Trojan] DE10｜机房｜低风险
   network: ws
   password: 8be1f222-92fc-4e84-a6e9-26c74713e3d3
   port: 2087
@@ -47,7 +47,7 @@ proxies:
     headers:
       Host: 17720002265968.206353.xyz
     path: '%2Fagrbniuh'
-- name: 1|[Trojan] DE11｜机房｜低风险
+- name: 2|[Trojan] DE11｜机房｜低风险
   network: ws
   password: 8be1f222-92fc-4e84-a6e9-26c74713e3d3
   port: 2083
@@ -59,7 +59,7 @@ proxies:
     headers:
       Host: 17720002264893.206353.xyz
     path: '%2Fagrbniuh'
-- name: 1|[Trojan] DE12｜机房｜低风险
+- name: 2|[Trojan] DE12｜机房｜低风险
   network: ws
   password: 8be1f222-92fc-4e84-a6e9-26c74713e3d3
   port: 8443
@@ -71,3 +71,25 @@ proxies:
     headers:
       Host: 17720002261418.206353.xyz
     path: '%2Fagrbniuh'
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: 8|[Vmess] deDE_3|2.1MB/s
+  network: ws
+  port: 443
+  server: ip3.phonoma.ir
+  servername: cdn.olaf.space
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9bd3b246-212d-4994-b1c3-cda8ed02fce6
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn.olaf.space
+    max-early-data: 2560
+    path: /
+  xudp: true

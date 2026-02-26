@@ -5,29 +5,12 @@ proxies:
   tls: false
   type: socks5
   username: Og%3D%3D
-- client-fingerprint: chrome
-  encryption: none
-  name: 8|[VLESS] krKR_1|1.1MB/s
-  network: ws
-  port: 10525
-  server: 125.136.152.137
-  servername: tn1rr.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: tn1rr.qzz.io
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
-        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
-    path: /sg-lnd
-  xudp: true
-- name: 11|[Http] KR_speednode_0011
+- name: 8,11|[Http] KR_speednode_0011
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
   skip-cert-verify: true
+  sni: testkr3.ssv.vc
   tls: true
   type: http
   udp: true

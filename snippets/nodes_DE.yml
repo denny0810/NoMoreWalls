@@ -50,12 +50,18 @@ proxies:
     headers:
       Host: 17720802366278.206353.xyz
     path: '%2Fagrbniuh'
-- alterId: 0
+- alpn:
+  - ''
+  alterId: '0'
   cipher: auto
-  name: 2|[Vmess] DE22｜机房｜高风险 (黑名单)
+  client-fingerprint: chrome
+  name: 2,8|[Vmess] usUS_1|2.1MB/s
   network: tcp
-  port: '180'
+  port: 180
   server: 82.198.246.97
+  skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true

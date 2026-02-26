@@ -30,26 +30,14 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  encryption: none
-  name: 8|[VLESS] jpJP_1|2.5MB/s
-  network: ws
-  port: 443
-  server: saas.sin.fan
-  servername: 53e5ab44.lfree.cn.mt
+- name: 8|[Http] jpJP_1|2.1MB/s
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: 8201
+  server: d827ca6e-tb6f40-tdtaxw-au6.tkodc1mpro.wkuaishou.com
+  sni: d827ca6e-tb6f40-tdtaxw-au6.tkodc1mpro.wkuaishou.com
   tls: true
-  type: vless
-  udp: true
-  uuid: 699fca60-533f-4436-38db-7881c2150fe2
-  ws-opts:
-    headers:
-      Host: 53e5ab44.lfree.cn.mt
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /socks5=44fa737d:1bab4a4504ca@38.96.191.150:21719
-  xudp: true
+  type: http
+  username: 1b609740-eec2-11ef-8543-f23c93136cb3
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision

@@ -1,12 +1,12 @@
 proxies:
-- name: 3|[Hysteria2] JP
+- name: 4|[Hysteria2] JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
   server: jp7.dexlos.com
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 5,6|[Trojan] 日本|@ripaojiedian
+- name: 6,7|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 26378
@@ -14,7 +14,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 5,6|[Trojan] 日本2|@ripaojiedian
+- name: 6,7|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 400
@@ -22,7 +22,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 日本3|@ripaojiedian
+- name: 6,7|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 3423
@@ -30,10 +30,30 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] jpJP_1|2.5MB/s
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: 53e5ab44.lfree.cn.mt
+  tls: true
+  type: vless
+  udp: true
+  uuid: 699fca60-533f-4436-38db-7881c2150fe2
+  ws-opts:
+    headers:
+      Host: 53e5ab44.lfree.cn.mt
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /socks5=44fa737d:1bab4a4504ca@38.96.191.150:21719
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 8|[VLESS] jpJP²_1|1.6MB/s|X|History
+  name: 9|[VLESS] jpJP²_1|1.6MB/s|X|History
   network: tcp
   port: 27724
   reality-opts:

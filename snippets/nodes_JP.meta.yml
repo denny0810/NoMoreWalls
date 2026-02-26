@@ -1,50 +1,12 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 1|[Vmess] JP36｜机房｜低风险
-  network: ws
-  port: '2053'
-  server: youxuan.513514.xyz
-  servername: afeiosaka.54141528.xyz
-  tls: true
-  type: vmess
-  uuid: de0c4b78-82d5-4f30-8d57-5302748b6af9
-  ws-opts:
-    headers:
-      Host: afeiosaka.54141528.xyz
-    path: /jp
-- name: 1|[Hysteria2] JP38｜机房｜低风险
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA%3D%3D
-  password: de0c4b78-82d5-4f30-8d57-5302748b6af9
-  port: 35685
-  server: afeiosaka.54141528.xyz
-  skip-cert-verify: true
-  sni: afeiosaka.54141528.xyz
-  tls: false
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 1|[Vmess] JP39｜机房｜低风险
-  network: ws
-  port: '8443'
-  server: t1.620720.xyz
-  servername: t1.620720.xyz
-  tls: true
-  type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: t1.620720.xyz
-    path: /
-- name: 3|[Hysteria2] JP
+- name: 4|[Hysteria2] JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
   server: jp7.dexlos.com
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 5,6|[Trojan] 日本|@ripaojiedian
+- name: 6,7|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 26378
@@ -52,7 +14,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 5,6|[Trojan] 日本2|@ripaojiedian
+- name: 6,7|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 400
@@ -60,7 +22,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 日本3|@ripaojiedian
+- name: 6,7|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 3423
@@ -71,7 +33,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 8|[VLESS] jpJP²_1|1.6MB/s|X|History
+  name: 9|[VLESS] jpJP²_1|1.6MB/s|X|History
   network: tcp
   port: 27724
   reality-opts:

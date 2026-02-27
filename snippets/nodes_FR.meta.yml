@@ -1,7 +1,16 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: 2|[Vmess] FR5｜机房｜低风险
+  network: tcp
+  port: '30835'
+  server: v35.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   encryption: none
-  name: 8|[VLESS] frFR_1|2.0MB/s
+  name: 8,11|[VLESS] FR_speednode_0005
   network: tcp
   port: 61873
   reality-opts:
@@ -9,6 +18,7 @@ proxies:
     short-id: '!!str 34d8e80d8fa40501'
   server: 45.95.233.85
   servername: yandex.ru
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -16,12 +26,12 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|[VLESS] FR_speednode_0005
+  name: 11|[VLESS] FR_speednode_0004
   port: 443
   reality-opts:
     public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
     short-id: '!!str 4fa44664f6a566d3'
-  server: fran.scroogethebest.com
+  server: 185.171.202.58
   servername: fran.scroogethebest.com
   skip-cert-verify: false
   tls: true

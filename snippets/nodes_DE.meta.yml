@@ -50,21 +50,15 @@ proxies:
     headers:
       Host: 17720802366278.206353.xyz
     path: '%2Fagrbniuh'
-- alpn:
-  - ''
-  alterId: '0'
+- alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 2,8|[Vmess] usUS_1|2.1MB/s
+  name: 2|[Vmess] DE22｜机房｜高风险 (黑名单)
   network: tcp
-  port: 180
+  port: '180'
   server: 82.198.246.97
-  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
 - name: 4|[Hysteria2] DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -73,55 +67,61 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: 8|[Vmess] deDE_1|2.0MB/s
+  network: ws
+  port: 443
+  server: germany.spacegate.ir
+  servername: germany.spacegate.ir
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f2ab4c63-d860-40d5-b3dd-c5f93beb223f
+  ws-opts:
+    headers: {}
+    path: /
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 8,11|[VLESS] GB_speednode_0007
+  name: 8|[VLESS] deDE_2|2.5MB/s
+  network: ws
+  port: 2053
+  server: 95.181.161.158
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /sg-lnd
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 8|[VLESS] deDE_3|1.1MB/s
   network: tcp
   port: 443
   reality-opts:
-    public-key: kWxGUQ6QtaU-SCCt8Ht-POUPS6Ue6w-KyHjxb1AYQ1w
-    short-id: '!!str 2e0f'
-  server: 217.154.38.156
-  servername: yahoo.com
-  skip-cert-verify: false
+    public-key: w8WltGLAGvOi6tsvnTQ80309byZo0Wo_Gs3fr8F6ixE
+    short-id: '!!str 331a54c7ab4b'
+  server: 158.160.171.167
+  servername: 84.img.avito.st
   tls: true
   type: vless
   udp: true
-  uuid: 2a8391ef-383c-4321-ac25-89b50973ab73
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 8|[VLESS] deDE_2|1.4MB/s
-  network: ws
-  port: 2053
-  server: 207.244.199.59
-  servername: tn1rr.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: tn1rr.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /sg-lnd
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 8|[VLESS] deDE_3|1.8MB/s
-  network: ws
-  port: 2016
-  server: 45.145.42.211
-  servername: tn1rr.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: tn1rr.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /sg-lnd
+  uuid: 53fa2131-611e-413f-8b1a-3aed45529a52
   xudp: true

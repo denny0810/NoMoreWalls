@@ -1,23 +1,26 @@
 proxies:
-- client-fingerprint: chrome
+- name: 8|[Anytls] ruRU_1|1.7MB/s
+  password: b2ca8061-cf93-403f-a150-c26fb26610f7
+  port: 25741
+  server: 46.17.40.31
+  skip-cert-verify: true
+  tfo: true
+  type: anytls
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 8|[VLESS] ruRU_1|1.6MB/s
+  name: 8|[VLESS] ruRU_2|2.0MB/s
   network: tcp
   port: 443
-  reality-opts:
-    public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
-    short-id: '!!str d8c6b58bcbb0c323'
-  server: 5.188.141.18
-  servername: max.ru
+  server: crghxqxyoy-518237151-direct.bahame.co
+  servername: crghxqxyoy-518237151-direct.bahame.co
   tls: true
   type: vless
   udp: true
-  uuid: 8e0d168b-f984-07d0-865f-88b9a46fb48f
+  uuid: 88888888-8888-8888-8888-888888888888
   xudp: true
 - client-fingerprint: chrome
   encryption: none
@@ -26,18 +29,18 @@ proxies:
     headers: {}
     path:
     - /
-  name: 8|[VLESS] ruRU_2|2.7MB/s
+  name: 8|[VLESS] ruRU_3|1.6MB/s
   network: tcp
-  port: 443
+  port: 8443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 185.39.206.22
-  servername: www.jobinvest.ru
+    public-key: xvvrurW0HVr8EtgNTG-alZweqKnO-PNtpl8n-sGUGCo
+    short-id: '!!str 5b53a1a319f9c803'
+  server: ru-tw-yt.connect-opengate.cv
+  servername: shiftline.xyz
   tls: true
   type: vless
   udp: true
-  uuid: f23b2b7e-c876-4f7f-bca5-20a4f57c3864
+  uuid: 05f0c31f-d127-4a4e-a43c-b040ba8e42d0
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision

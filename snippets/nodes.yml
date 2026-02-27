@@ -410,20 +410,15 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - ''
-  alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 2,8|[Vmess] usUS_1|2.1MB/s
+  name: 2|[Vmess] DE22｜机房｜高风险 (黑名单)
   network: tcp
-  port: 180
+  port: '180'
   server: 82.198.246.97
-  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
 - alterId: 0
   cipher: auto
   name: 2|[Vmess] TR1｜商宽｜非常安全
@@ -711,41 +706,30 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 8|[Vmess] usUS_4|2.4MB/s
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- cipher: aes-256-cfb
-  country: 🇪🇸ES
-  name: 8|[SS] ❓Other_1|1.6MB/s
-  password: JdmRK9gMEqFgs8nP
-  port: 9003
-  server: 5.188.181.201
+- cipher: chacha20-ietf
+  name: 8|[SS] hkHK_1|1.2MB/s
+  password: asd123456
+  port: 8388
+  server: 103.149.183.200
   type: ss
+  udp: true
 - alpn:
-  - ''
+  - h2
+  - http/1.1
   alterId: '0'
   cipher: auto
-  name: 8|[Vmess] sgSG_3|2.2MB/s
+  name: 8|[Vmess] deDE_1|2.0MB/s
   network: ws
-  port: 80
-  server: 104.17.148.22
+  port: 443
+  server: germany.spacegate.ir
+  servername: germany.spacegate.ir
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: 2632e7db-a0ce-4d20-9368-1473f6de239c
+  uuid: f2ab4c63-d860-40d5-b3dd-c5f93beb223f
   ws-opts:
-    headers:
-      Host: speedtest.net.newpath.xyz-my.eu.org
+    headers: {}
     path: /
   xudp: true
 - alterId: 2
@@ -761,23 +745,3 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 10|[Vmess] VMESS节点2-ipv6
-  network: ws
-  port: '23456'
-  server: 2a14:7584:d0a2::a
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bd48e0ac-e90e-4451-a4f2-abf061cfb890
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /alvin9999.com
-- cipher: aes-256-gcm
-  name: 10|[SS] group->ss SS节点-ipv6
-  password: alvin9999.com
-  port: 12345
-  server: 2a14:7584:d0a1::a
-  type: ss

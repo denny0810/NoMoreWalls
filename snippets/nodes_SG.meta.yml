@@ -62,7 +62,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   encryption: none
-  name: 8|[VLESS] sgSG_1|1.4MB/s
+  name: 8|[VLESS] sgSG_1|2.0MB/s
   network: ws
   port: 443
   server: 18.136.94.186
@@ -80,7 +80,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 8|[VLESS] sgSG_2|1.3MB/s
+  name: 8|[VLESS] sgSG_2|1.9MB/s
   network: ws
   port: 443
   server: 47.128.223.32
@@ -96,28 +96,9 @@ proxies:
         Chrome/68.0.3440.106 Safari/537.36
     path: /sg-lnd
   xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: 8|[Vmess] sgSG_3|2.2MB/s
-  network: ws
-  port: 80
-  server: 104.17.148.22
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2632e7db-a0ce-4d20-9368-1473f6de239c
-  ws-opts:
-    headers:
-      Host: speedtest.net.newpath.xyz-my.eu.org
-    path: /
-  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 8|[VLESS] sgSG_4|1.6MB/s
+  name: 8|[VLESS] sgSG_3|1.1MB/s
   network: ws
   port: 80
   server: yes.hate-me.eu.org
@@ -130,4 +111,20 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/68.0.3440.106 Safari/537.36
     path: /vless
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] sgSG_4|3.1MB/s
+  network: ws
+  port: 80
+  server: 198.41.222.191
+  type: vless
+  udp: true
+  uuid: e388fffb-03b0-4227-ac2c-2b5cec1f5c34
+  ws-opts:
+    headers:
+      Host: leecher56.matinheydri.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    path: /
   xudp: true

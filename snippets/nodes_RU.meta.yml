@@ -1,26 +1,66 @@
 proxies:
-- name: 7|[Anytls] ruRU_1|1.7MB/s
-  password: b2ca8061-cf93-403f-a150-c26fb26610f7
-  port: 25741
-  server: 46.17.40.31
-  skip-cert-verify: true
-  tfo: true
-  type: anytls
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: 7|[VLESS] ruRU_2|2.0MB/s
-  network: tcp
+  name: 8|[VLESS] ruRU_1|1.3MB/s
+  network: ws
   port: 443
-  server: crghxqxyoy-518237151-direct.bahame.co
-  servername: crghxqxyoy-518237151-direct.bahame.co
+  server: 212.193.153.187
+  servername: lk-cdn.deploy-assure.ru
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 01638edd-ddd2-07d0-b437-48761495d07e
+  ws-opts:
+    headers:
+      Host: lk-cdn.deploy-assure.ru
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: //
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] ruRU_2|1.0MB/s
+  network: ws
+  port: 443
+  server: 212.193.153.187
+  servername: lk-cdn.deploy-assure.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 17c4e377-ea15-07d0-98b2-3e348c9ff5d9
+  ws-opts:
+    headers:
+      Host: lk-cdn.deploy-assure.ru
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: //
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] ruRU_3|1.7MB/s
+  network: ws
+  port: 443
+  server: 46.235.186.203
+  servername: lk-cdn.deploy-assure.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 17c4e377-ea15-07d0-98b2-3e348c9ff5d9
+  ws-opts:
+    headers:
+      Host: lk-cdn.deploy-assure.ru
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: //
   xudp: true
 - client-fingerprint: chrome
   encryption: none
@@ -29,22 +69,42 @@ proxies:
     headers: {}
     path:
     - /
-  name: 7|[VLESS] ruRU_3|1.6MB/s
+  name: 8|[VLESS] ruRU_4|1.5MB/s
   network: tcp
-  port: 8443
+  port: 443
   reality-opts:
-    public-key: xvvrurW0HVr8EtgNTG-alZweqKnO-PNtpl8n-sGUGCo
-    short-id: '!!str 5b53a1a319f9c803'
-  server: ru-tw-yt.connect-opengate.cv
-  servername: shiftline.xyz
+    public-key: sMMDn89-fJAD7VgeTJbdQTmyyUoyRucoMLMvVMm8hAM
+    short-id: '!!str cfdbaa7f996dd0e9'
+  server: 37.139.34.237
+  servername: eh.vk.com
   tls: true
   type: vless
   udp: true
-  uuid: 05f0c31f-d127-4a4e-a43c-b040ba8e42d0
+  uuid: 8409d5d2-ae02-4027-b5a5-c3cca340ca6c
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 8|[VLESS] ruRU_5|1.2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: LCxSn-zcFxBKKztCytR-Wzjt3VwezZs2jN6FtZPQ3n0
+    short-id: '!!str '
+  server: 51.250.103.29
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4b5fdaeb-518d-4411-b668-eaf4cb757ff2
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] RU_speednode_0012
+  name: 11|[VLESS] RU_speednode_0012
   port: 23335
   reality-opts:
     public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
@@ -57,7 +117,7 @@ proxies:
   uuid: e384913f-8863-47b4-8858-a84b68abb4a6
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] RU_speednode_0013
+  name: 11|[VLESS] RU_speednode_0013
   port: 18443
   reality-opts:
     public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
@@ -71,7 +131,7 @@ proxies:
   uuid: 1c4aceb6-bff7-4737-8c5d-43afb3dc350b
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] RU_speednode_0015
+  name: 11|[VLESS] RU_speednode_0015
   port: 443
   reality-opts:
     public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
@@ -85,7 +145,7 @@ proxies:
   uuid: 9a599b2e-5455-44d5-9a72-5c76f28e93e3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] RU_speednode_0016
+  name: 11|[VLESS] RU_speednode_0016
   port: 443
   reality-opts:
     public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg

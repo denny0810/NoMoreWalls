@@ -20,15 +20,7 @@ proxies:
     headers:
       Host: jike1-sgovh02.bilibili.com
     path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
-- name: 3|[Hysteria2] 新加坡1
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2055
-  server: xjp1.mangshe.xyz
-  skip-cert-verify: true
-  sni: xjp1.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 3|[Hysteria2] SG
+- name: 4|[Hysteria2] SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: sg3.oomz.ru
@@ -36,7 +28,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 5,6|[Trojan] 新加坡|@ripaojiedian
+- name: 6,7|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 3419
@@ -44,7 +36,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 新加坡2|@ripaojiedian
+- name: 6,7|[Trojan] 新加坡2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 3419
@@ -52,7 +44,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 新加坡3|@ripaojiedian
+- name: 6,7|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 41973
@@ -62,7 +54,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   encryption: none
-  name: 7|[VLESS] sgSG_1|2.0MB/s
+  name: 8|[VLESS] sgSG_1|3.3MB/s
   network: ws
   port: 443
   server: 18.136.94.186
@@ -77,54 +69,4 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/40.0.2214.111 Safari/537.36
     path: /sg-lnd
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] sgSG_2|1.9MB/s
-  network: ws
-  port: 443
-  server: 47.128.223.32
-  servername: tn1rr.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: tn1rr.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/68.0.3440.106 Safari/537.36
-    path: /sg-lnd
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] sgSG_3|1.1MB/s
-  network: ws
-  port: 80
-  server: yes.hate-me.eu.org
-  type: vless
-  udp: true
-  uuid: dc5ca27e-8ab3-476a-94a4-7b29a0c00b3f
-  ws-opts:
-    headers:
-      Host: cdn.who.int.path.xyz-my.eu.org
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
-    path: /vless
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] sgSG_4|3.1MB/s
-  network: ws
-  port: 80
-  server: 198.41.222.191
-  type: vless
-  udp: true
-  uuid: e388fffb-03b0-4227-ac2c-2b5cec1f5c34
-  ws-opts:
-    headers:
-      Host: leecher56.matinheydri.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    path: /
   xudp: true

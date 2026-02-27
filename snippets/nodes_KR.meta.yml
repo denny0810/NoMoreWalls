@@ -5,7 +5,25 @@ proxies:
   tls: false
   type: socks5
   username: Og%3D%3D
-- name: 10|[Http] KR_speednode_0011
+- client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] krKR_1|1000KB/s
+  network: ws
+  port: 19690
+  server: 175.214.198.39
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /sg-lnd
+  xudp: true
+- name: 11|[Http] KR_speednode_0011
   password: test.+
   port: 30446
   server: testkr3.ssv.vc

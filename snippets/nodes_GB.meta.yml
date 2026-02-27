@@ -8,8 +8,48 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 5|[Hysteria2] gb/@en_vpn/کانفیگ های بیشتر
+  password: ad49d6ea-c453-4a2e-b36a-2b71a3e0ed12
+  port: 65535
+  server: 132.145.28.17
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
-  name: 10|[VLESS] GB_speednode_0007
+  name: 8,11|[VLESS] US_speednode_0038
+  network: ws
+  port: 443
+  server: 198.62.62.248
+  servername: tar.alabama-tigr.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+  ws-opts:
+    headers:
+      Host: tar.alabama-tigr.info
+    path: /love
+- client-fingerprint: chrome
+  name: 8|[VLESS] gbGB_2|2.6MB/s
+  network: ws
+  port: 2053
+  server: strong.zdshop.ir
+  servername: d4919d443597019e.kiWiJuiCe.IR.
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2ad1f949-c156-42e3-8f57-b07101e7b4fc
+  ws-opts:
+    headers:
+      Host: 03f57dedd63685ef.kiWiJuiCe.IR.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 11|[VLESS] GB_speednode_0007
   port: 443
   reality-opts:
     public-key: kWxGUQ6QtaU-SCCt8Ht-POUPS6Ue6w-KyHjxb1AYQ1w

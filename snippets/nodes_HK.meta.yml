@@ -70,7 +70,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 65482777-4fbd-4a11-a65d-cd1c5fdf96cb
-- name: 3|[Hysteria2] hk HK
+- name: 4|[Hysteria2] hk HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
   server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
@@ -79,14 +79,14 @@ proxies:
   type: hysteria2
 - alterId: 2
   cipher: auto
-  name: 5|[Vmess] hk 香港|@ripaojiedian
+  name: 6|[Vmess] hk 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 5,6|[Trojan] 香港3|@ripaojiedian
+- name: 6,7|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 4856
@@ -94,7 +94,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 香港4|@ripaojiedian
+- name: 6,7|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 2399
@@ -102,7 +102,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 5,6|[Trojan] 香港5|@ripaojiedian
+- name: 6,7|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 54548
@@ -112,7 +112,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 6|[Vmess] 香港|@ripaojiedian
+  name: 7|[Vmess] 香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -120,18 +120,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf
-  name: 7|[SS] hkHK_1|1.2MB/s
-  password: asd123456
-  port: 8388
-  server: 103.149.183.200
-  type: ss
-  udp: true
-- name: 7|[Http] hkHK_2|1.0MB/s
-  password: <password>
-  port: 8443
-  server: 90d955b3-t9zts0-trg4wh-z65w.hkt.cdnhuawei.com
-  sni: 90d955b3-t9zts0-trg4wh-z65w.hkt.cdnhuawei.com
-  tls: true
-  type: http
-  username: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9

@@ -5,7 +5,7 @@ proxies:
   country: 🇭🇰HK
   h2-opts: {}
   http-opts: {}
-  name: 1,8|[Vmess] deDE²_1|0.8MB/s|GPT⁺|X|History
+  name: 1,9|[Vmess] deDE²_1|0.8MB/s|GPT⁺|X|History
   network: tcp
   port: 30833
   server: v33.hdacd.com
@@ -59,7 +59,7 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 3|[Hysteria2] DE
+- name: 4|[Hysteria2] DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -67,32 +67,57 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- alpn:
-  - h2
-  - http/1.1
-  alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: 7|[Vmess] deDE_1|2.0MB/s
+- client-fingerprint: chrome
+  name: 8|[VLESS] deDE_1|2.0MB/s
   network: ws
-  port: 443
-  server: germany.spacegate.ir
-  servername: germany.spacegate.ir
-  skip-cert-verify: false
+  port: 2096
+  server: wiki.makemefree.info
+  servername: home.makemefree.info
   tls: true
-  type: vmess
-  udp: true
-  uuid: f2ab4c63-d860-40d5-b3dd-c5f93beb223f
+  type: vless
+  uuid: 0a0d8e6f-8747-4ff6-afe0-e70aa97e7de8
   ws-opts:
-    headers: {}
+    headers:
+      Host: home.makemefree.info
+    path: /iran?ed:2560
+- client-fingerprint: chrome
+  name: 8|[VLESS] deDE_2|1.0MB/s
+  network: ws
+  port: 8443
+  server: F1.HaMrAhCoNf.Ir
+  servername: uiuyoyw.secoxi.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: 929b0c34-a05f-4e5d-bd5d-396c5b6dd4e7
+  ws-opts:
+    headers:
+      Host: app-core-05.secoxi.site
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 7|[VLESS] deDE_2|2.5MB/s
+  name: 8|[VLESS] deDE_3|1.3MB/s
+  network: tcp
+  port: 56864
+  reality-opts:
+    public-key: AIt19ZFk_JxCvW7OOwUn4mhE_1alZJlNj-xnQOpPZCI
+    short-id: '!!str 2e3c82922ef98049'
+  server: 93.94.51.19
+  servername: yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 87580984-c2ef-4f44-9c7e-0b216f99aa87
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] deDE_4|1.5MB/s
   network: ws
   port: 2053
-  server: 95.181.161.158
+  server: 77.221.148.30
   servername: tn1rr.qzz.io
   tls: true
   type: vless
@@ -101,27 +126,27 @@ proxies:
   ws-opts:
     headers:
       Host: tn1rr.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.112 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
     path: /sg-lnd
   xudp: true
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
   http-opts:
     headers: {}
     path:
     - /
-  name: 7|[VLESS] deDE_3|1.1MB/s
+  name: 8|[VLESS] deDE_5|1.1MB/s
   network: tcp
-  port: 443
+  port: 6443
   reality-opts:
-    public-key: w8WltGLAGvOi6tsvnTQ80309byZo0Wo_Gs3fr8F6ixE
-    short-id: '!!str 331a54c7ab4b'
-  server: 158.160.171.167
-  servername: 84.img.avito.st
+    public-key: 20kWWWp6YwJujT1penAu1FD_uvm6dcJoj2w-ZZ-JVSk
+    short-id: '!!str 9dfefbaf7319b348'
+  server: 5.188.143.115
+  servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: 53fa2131-611e-413f-8b1a-3aed45529a52
+  uuid: 8409d5d2-ae02-4027-b5a5-c3cca340ca6c
   xudp: true

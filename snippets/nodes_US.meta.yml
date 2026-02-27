@@ -378,15 +378,15 @@ proxies:
   skip-cert-verify: true
   sni: douyin.com
   type: trojan
-- name: 3|[Hysteria2] 美国2
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2056
-  server: mg2.mangshe.xyz
+- name: 5|[Hysteria2] us/@en_vpn/کانفیگ های بیشتر
+  password: ad49d6ea-c453-4a2e-b36a-2b71a3e0ed12
+  port: 50000
+  server: 208.87.242.163
   skip-cert-verify: true
-  sni: mg2.mangshe.xyz
+  sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 5,6|[Trojan] 美国|@ripaojiedian
+- name: 6,7|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 4920
@@ -394,7 +394,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 美国2|@ripaojiedian
+- name: 6,7|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 4920
@@ -402,7 +402,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 美国3|@ripaojiedian
+- name: 6,7|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 38780
@@ -411,41 +411,11 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: 7,10|[VLESS] US_speednode_0037
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 1xMt7stxzh55Xy31H180TZNMvRYNkhEE86StqE4CtDs
-    short-id: '!!str 2f2a'
-  server: 66.179.82.126
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b1267991-59ff-4b67-b141-97e3ced4e7c8
-- client-fingerprint: chrome
   encryption: none
-  name: 7|[VLESS] usUS_2|1.9MB/s
+  name: 8|[VLESS] usUS_1|1.2MB/s
   network: ws
-  port: 80
-  server: www.ptnk.sry-vpn.com
-  type: vless
-  udp: true
-  uuid: 4dc817f7-2595-4330-a1b0-e35e7c6b803a
-  ws-opts:
-    headers:
-      Host: www.ptnk.sry-vpn.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /vless
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] usUS_3|1.2MB/s
-  network: ws
-  port: 443
-  server: 185.139.228.126
+  port: 2096
+  server: 109.176.239.8
   servername: tn1rr.qzz.io
   tls: true
   type: vless
@@ -454,33 +424,125 @@ proxies:
   ws-opts:
     headers:
       Host: tn1rr.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.76 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
     path: /sg-lnd
   xudp: true
 - client-fingerprint: chrome
-  name: 7|[VLESS] usUS_4|1.8MB/s
+  encryption: none
+  name: 8|[VLESS] usUS_2|2.0MB/s
   network: ws
   port: 2096
-  server: 173.245.49.128
-  servername: la.ordak.dpdns.org
+  server: 185.156.19.8
+  servername: tn1rr.qzz.io
   tls: true
   type: vless
   udp: true
-  uuid: 3f333027-7697-4342-baa5-7721198fa929
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: la.ordak.dpdns.org
-    max-early-data: 2560
-    path: /fl
+      Host: tn1rr.qzz.io
+      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
+        Chrome/v1.0.0 Safari/538.1
+    path: /sg-lnd
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] usUS_3|1.6MB/s
+  network: ws
+  port: 2096
+  server: 160.153.136.8
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.77 Safari/537.36
+    path: /sg-lnd
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] usUS_4|1.2MB/s
+  network: ws
+  port: 2096
+  server: 185.7.240.8
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /sg-lnd
+  xudp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 8|[Vmess] usUS_5|2.6MB/s
+  network: ws
+  port: 52513
+  server: aflzzul.meiquankongjian.com
+  servername: aflzzul.meiquankongjian.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+  ws-opts:
+    headers:
+      Host: aflzzul.meiquankongjian.com
+    path: /564dfa20/
+  xudp: true
+- client-fingerprint: firefox
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 8|[VLESS] usUS_6|1.2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6EHNPzcEE2WdKQg7fsx4scOL3YLED1BiU6KRc_AGJxE
+    short-id: '!!str 1eb6b72a'
+  server: 38.247.3.248
+  servername: apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 40ecece1-edd9-4543-99c7-529ee594135d
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] usUS_7|1.4MB/s
+  network: ws
+  port: 8443
+  server: 45.143.129.96
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /sg-lnd
+  xudp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
   country: 🇨🇳CN
   h2-opts: {}
   http-opts: {}
-  name: 8|[Vmess] usUS²_1|1.5MB/s|X|Succeed
+  name: 9|[Vmess] usUS²_1|1.5MB/s|X|Succeed
   network: tcp
   port: 30829
   server: v29.hdacd.com
@@ -489,7 +551,7 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0019
+  name: 11|[VLESS] US_speednode_0019
   network: ws
   port: 2095
   server: www.fbi.gov
@@ -504,7 +566,7 @@ proxies:
       Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0020
+  name: 11|[VLESS] US_speednode_0020
   network: ws
   port: 2095
   server: www.npmjs.com
@@ -519,7 +581,7 @@ proxies:
       Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0021
+  name: 11|[VLESS] US_speednode_0021
   network: ws
   port: 2095
   server: developers.cloudflare.com
@@ -534,7 +596,7 @@ proxies:
       Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0022
+  name: 11|[VLESS] US_speednode_0022
   network: ws
   port: 2095
   server: www.udemy.com
@@ -549,7 +611,7 @@ proxies:
       Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0024
+  name: 11|[VLESS] US_speednode_0024
   network: ws
   port: 2095
   server: cf.090227.xyz
@@ -564,7 +626,7 @@ proxies:
       Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0025
+  name: 11|[VLESS] US_speednode_0025
   network: ws
   port: 2095
   server: blog.cloudflare.com
@@ -579,7 +641,7 @@ proxies:
       Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0026
+  name: 11|[VLESS] US_speednode_0026
   network: ws
   port: 2095
   server: cloudflare-dns.com
@@ -594,7 +656,7 @@ proxies:
       Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0027
+  name: 11|[VLESS] US_speednode_0027
   network: ws
   port: 2095
   server: ns.cloudflare.com
@@ -609,7 +671,7 @@ proxies:
       Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0028
+  name: 11|[VLESS] US_speednode_0028
   network: ws
   port: 2095
   server: openai.com
@@ -624,7 +686,7 @@ proxies:
       Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0029
+  name: 11|[VLESS] US_speednode_0029
   network: ws
   port: 2095
   server: support.cloudflare.com
@@ -639,7 +701,7 @@ proxies:
       Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0030
+  name: 11|[VLESS] US_speednode_0030
   network: ws
   port: 2095
   server: www.epicgames.com
@@ -655,7 +717,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0031
+  name: 11|[VLESS] US_speednode_0031
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -668,7 +730,7 @@ proxies:
   udp: true
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - client-fingerprint: chrome
-  name: 10|[VLESS] US_speednode_0032
+  name: 11|[VLESS] US_speednode_0032
   port: 50000
   reality-opts:
     public-key: XcaJjk49Yof0-ZTuwFlFvBqd_QJC_uabiIWC1g6rvAk
@@ -681,7 +743,7 @@ proxies:
   udp: true
   uuid: 7473f95b-5a12-4972-b882-9fcd41ceff72
 - client-fingerprint: chrome
-  name: 10|[VLESS] US_speednode_0033
+  name: 11|[VLESS] US_speednode_0033
   port: 50000
   reality-opts:
     public-key: XcaJjk49Yof0-ZTuwFlFvBqd_QJC_uabiIWC1g6rvAk
@@ -694,7 +756,7 @@ proxies:
   udp: true
   uuid: 35249ead-311e-4cb9-ab36-17406ccf6b84
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0034
+  name: 11|[VLESS] US_speednode_0034
   network: ws
   port: 2095
   server: www.temu.com
@@ -709,7 +771,7 @@ proxies:
       Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0035
+  name: 11|[VLESS] US_speednode_0035
   network: ws
   port: 2095
   server: www.shopify.com
@@ -725,7 +787,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0036
+  name: 11|[VLESS] US_speednode_0036
   port: 23335
   reality-opts:
     public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
@@ -738,22 +800,20 @@ proxies:
   udp: true
   uuid: e384913f-8863-47b4-8858-a84b68abb4a6
 - client-fingerprint: chrome
-  name: 10|[VLESS] US_speednode_0038
-  network: ws
+  name: 11|[VLESS] US_speednode_0037
   port: 443
-  server: 198.62.62.248
-  servername: tar.alabama-tigr.info
+  reality-opts:
+    public-key: 1xMt7stxzh55Xy31H180TZNMvRYNkhEE86StqE4CtDs
+    short-id: '!!str 2f2a'
+  server: 66.179.82.126
+  servername: yahoo.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
-  ws-opts:
-    headers:
-      Host: tar.alabama-tigr.info
-    path: /love
+  uuid: b1267991-59ff-4b67-b141-97e3ced4e7c8
 - client-fingerprint: chrome
-  name: 10|[VLESS] US_speednode_0039
+  name: 11|[VLESS] US_speednode_0039
   port: 50000
   reality-opts:
     public-key: XcaJjk49Yof0-ZTuwFlFvBqd_QJC_uabiIWC1g6rvAk

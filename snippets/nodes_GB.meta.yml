@@ -1,14 +1,14 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 1|[Vmess] GB4｜机房｜低风险
+  name: 2|[Vmess] GB4｜机房｜低风险
   network: tcp
   port: '30836'
   server: v36.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 1|[Hysteria2] GB6｜机房｜低风险
+- name: 2|[Hysteria2] GB6｜机房｜低风险
   password: cac966c1-b596-48ff-ab7c-6d58f8d6ca04
   port: 65535
   server: 132.145.52.10
@@ -16,7 +16,7 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: 1|[Hysteria2] GB8｜机房｜低风险
+- name: 2|[Hysteria2] GB8｜机房｜低风险
   password: cac966c1-b596-48ff-ab7c-6d58f8d6ca04
   port: 65535
   server: 132.145.28.17
@@ -24,7 +24,7 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: 4|[Hysteria2] gb/@en_vpn/کانفیگ های بیشتر
+- name: 5|[Hysteria2] gb/@en_vpn/کانفیگ های بیشتر
   password: ad49d6ea-c453-4a2e-b36a-2b71a3e0ed12
   port: 65535
   server: 132.145.28.17
@@ -32,22 +32,15 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 10|[VLESS] GB_speednode_0006
-  port: 443
-  reality-opts:
-    public-key: kWxGUQ6QtaU-SCCt8Ht-POUPS6Ue6w-KyHjxb1AYQ1w
-    short-id: '!!str 2e0f'
-  server: 217.154.38.156
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a8391ef-383c-4321-ac25-89b50973ab73
 - client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: 10|[VLESS] GB_speednode_0008
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 9,11|[VLESS] GB_speednode_0008
+  network: tcp
   port: 443
   reality-opts:
     public-key: 2HWC3TKZmYDORsrGqTTOITNFBp6ANhwgERK6lPcVbic
@@ -59,3 +52,38 @@ proxies:
   type: vless
   udp: true
   uuid: ec5796b3-678b-4b11-9c1d-a53171dfd897
+  xudp: true
+- client-fingerprint: chrome
+  name: 9,11|[VLESS] US_speednode_0026
+  network: ws
+  port: 443
+  server: 198.62.62.248
+  servername: tar.alabama-tigr.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+  ws-opts:
+    headers:
+      Host: tar.alabama-tigr.info
+    path: /love
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 9|[VLESS] gbGB²_4|5.5MB/s|67%|GPT⁺|X|[原生...
+  network: tcp
+  port: 55057
+  reality-opts:
+    public-key: uSzNQq_GJZGbq4SHtEsqBY93C2acsM-K-QACZC-J6Eo
+    short-id: '!!str aa5f8562357295ff'
+  server: 87.120.219.99
+  servername: yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d837e94-967d-43a8-8e36-440ddfa4fd15
+  xudp: true

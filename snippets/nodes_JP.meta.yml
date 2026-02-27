@@ -1,12 +1,12 @@
 proxies:
-- name: 3|[Hysteria2] JP
+- name: 4|[Hysteria2] JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
   server: jp7.dexlos.com
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 5,6|[Trojan] 日本|@ripaojiedian
+- name: 6,7|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 2762
@@ -14,7 +14,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 5,6|[Trojan] 日本2|@ripaojiedian
+- name: 6,7|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 400
@@ -22,7 +22,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 日本3|@ripaojiedian
+- name: 6,7|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 3423
@@ -32,7 +32,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   encryption: none
-  name: 7|[VLESS] jpJP_1|2.2MB/s
+  name: 8|[VLESS] jpJP_1|2.2MB/s
   network: ws
   port: 16356
   server: 203.137.166.75
@@ -48,3 +48,14 @@ proxies:
         like Gecko) Chrome/66.0.3359.117 Safari/537.36
     path: /sg-lnd
   xudp: true
+- client-fingerprint: chrome
+  country: 🇭🇰HK
+  name: 9|[Trojan] jpJP²_1|13.4MB/s|0%|YT|D+|X|[广...
+  network: tcp
+  password: 984c7793-1447-4af5-9200-d514ad6fe329
+  port: 30204
+  server: jp04.jsyjiedian8.com
+  skip-cert-verify: true
+  sni: jsygouer.weixin-baidu-qq.com
+  type: trojan
+  udp: true

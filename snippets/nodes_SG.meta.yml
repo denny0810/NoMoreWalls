@@ -1,5 +1,5 @@
 proxies:
-- name: 1|[Trojan] SG6｜机房｜低风险
+- name: 2|[Trojan] SG6｜机房｜低风险
   network: tcp
   password: 984c7793-1447-4af5-9200-d514ad6fe329
   port: 45005
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: jsygouer.weixin-baidu-qq.com
   type: trojan
-- name: 3|[Hysteria2] SG
+- name: 4|[Hysteria2] SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: sg3.oomz.ru
@@ -15,7 +15,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 5,6|[Trojan] 新加坡|@ripaojiedian
+- name: 6,7|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 3419
@@ -23,7 +23,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 新加坡2|@ripaojiedian
+- name: 6,7|[Trojan] 新加坡2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 3419
@@ -31,7 +31,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 新加坡3|@ripaojiedian
+- name: 6,7|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 41973
@@ -41,7 +41,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   encryption: none
-  name: 7|[VLESS] sgSG_1|3.8MB/s
+  name: 8|[VLESS] sgSG_1|3.8MB/s
   network: ws
   port: 443
   server: 18.136.94.186
@@ -59,7 +59,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 7|[VLESS] sgSG_2|2.5MB/s
+  name: 8|[VLESS] sgSG_2|2.5MB/s
   network: ws
   port: 443
   server: 47.128.223.32
@@ -77,7 +77,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 7|[VLESS] sgSG_3|1.0MB/s
+  name: 8|[VLESS] sgSG_3|1.0MB/s
   network: ws
   port: 8443
   server: 54.169.254.130
@@ -96,10 +96,50 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 8|[Vmess] sgSG²_1|2.9MB/s|GPT⁺|GM|X|Hist...
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 9|[Vmess] sgSG²_5|4.0MB/s|43%|GPT⁺|X|His...
   network: tcp
   port: 30845
   server: v45.hdacd.com
-  tls: false
+  servername: v45.hdacd.com
+  skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 9,11|[VLESS] BG_speednode_0002
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: juH5xrivuMuDd3Qp_P-CTHfvnQIVetUgDe7XwpJvLkE
+    short-id: '!!str a56b26c2'
+  server: 178.239.122.108
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec5796b3-678b-4b11-9c1d-a53171dfd897
+- cipher: chacha20-ietf-poly1305
+  country: 🇩🇪DE
+  name: 9|[SS] sgSG²_3|0.6MB/s|0%|GPT⁺|GM|YT|...
+  password: b4b78f5d-f4ec-4eae-8f83-9e4ed9e16326
+  port: 46614
+  server: hd117-xjp-jd.huidu51.com
+  type: ss
+- name: 9|[Socks5] sgSG²_4|12.4MB/s|GPT⁺|GM|X
+  password: ''
+  port: 1080
+  server: 159.223.53.194
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: 9|[Socks5] sgSG²_6|1.1MB/s|2%|GPT⁺|X
+  password: ''
+  port: 20005
+  server: 43.160.195.20
+  skip-cert-verify: true
+  type: socks5
+  username: ''

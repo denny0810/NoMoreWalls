@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 1|[Vmess] FR5｜机房｜低风险
+  name: 2|[Vmess] FR5｜机房｜低风险
   network: tcp
   port: '30835'
   server: v35.hdacd.com
@@ -9,8 +9,50 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
+  encryption: none
+  name: 9|[VLESS] frFR²_1|1.0MB/s|X
+  network: tcp
+  port: 8080
+  reality-opts:
+    public-key: w28tNIWZCfW4X9aQDLwXECK3pU59zihJ0GIMA13u5X8
+    short-id: '!!str '
+  server: 51.250.43.209
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 621d5f40-707c-40f0-8b5c-253d38e1d0cb
+  xudp: true
+- name: 9|[Socks5] frFR²_2|3.1MB/s|GPT⁺|X
+  password: ''
+  port: 1080
+  server: 173.249.5.133
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- client-fingerprint: chrome
+  encryption: none
+  name: 9|[VLESS] frFR²_4|0.9MB/s|0%|GPT⁺|X
+  network: ws
+  port: 2053
+  server: ip3.iranvatanam.com
+  servername: info.iranvatanam.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8cdd2e6d-21f7-4d49-9c84-5f7df73b9db8
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: info.iranvatanam.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    max-early-data: 2052
+    path: /
+  xudp: true
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] FR_speednode_0004
+  name: 11|[VLESS] FR_speednode_0004
   port: 443
   reality-opts:
     public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
@@ -23,7 +65,7 @@ proxies:
   udp: true
   uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
 - client-fingerprint: chrome
-  name: 10|[VLESS] FR_speednode_0005
+  name: 11|[VLESS] FR_speednode_0005
   port: 61873
   reality-opts:
     public-key: wEU32qHhiQq-FDYUvuEl7_HAM6r5nDh6M4F8WGnEhjE

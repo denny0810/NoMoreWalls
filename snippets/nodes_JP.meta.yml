@@ -1,12 +1,12 @@
 proxies:
-- name: 4|[Hysteria2] JP
+- name: 3|[Hysteria2] JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
   server: jp7.dexlos.com
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 6,7|[Trojan] 日本|@ripaojiedian
+- name: 5,6|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 2762
@@ -14,7 +14,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 6,7|[Trojan] 日本2|@ripaojiedian
+- name: 5,6|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 400
@@ -22,7 +22,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 6,7|[Trojan] 日本3|@ripaojiedian
+- name: 5,6|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 3423
@@ -30,35 +30,21 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 8|[Vmess] jpJP_1|2.6MB/s
-  network: tcp
-  port: 23611
-  server: traffic.a1.szx.gfw250.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 84c279fe-4dd8-3da8-849d-47445db903a7
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 8|[VLESS] jpJP_2|4.8MB/s
-  network: tcp
-  port: 47890
-  reality-opts:
-    public-key: ibfdGc1ZnbbvUw_KiQma_wa79ICu6qo-8Fnp5uKObmo
-    short-id: '!!str acf17c7fd15185'
-  server: jp3.miyazono-kaori.com
-  servername: www.toshiba.co.jp
+  name: 7|[VLESS] jpJP_1|2.2MB/s
+  network: ws
+  port: 16356
+  server: 203.137.166.75
+  servername: tn1rr.qzz.io
   tls: true
   type: vless
   udp: true
-  uuid: 069de822-fe1c-426d-ac4a-68346f642bcc
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    path: /sg-lnd
   xudp: true

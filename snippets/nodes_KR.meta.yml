@@ -1,5 +1,5 @@
 proxies:
-- name: 2|[Socks5] KR168｜家宽｜高风险 (代理/黑名单)
+- name: 1|[Socks5] KR168｜家宽｜高风险 (代理/黑名单)
   port: 1090
   server: 121.169.46.116
   tls: false
@@ -7,10 +7,10 @@ proxies:
   username: Og%3D%3D
 - client-fingerprint: chrome
   encryption: none
-  name: 8|[VLESS] krKR_1|1000KB/s
+  name: 7|[VLESS] krKR_1|1.0MB/s
   network: ws
-  port: 19690
-  server: 175.214.198.39
+  port: 18765
+  server: 59.29.89.197
   servername: tn1rr.qzz.io
   tls: true
   type: vless
@@ -19,11 +19,29 @@ proxies:
   ws-opts:
     headers:
       Host: tn1rr.qzz.io
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/35.0.1916.153 Safari/537.36
     path: /sg-lnd
   xudp: true
-- name: 9|[Http] krKR²_1|3.7MB/s|GPT|X|[广播|机房]
+- client-fingerprint: chrome
+  encryption: none
+  name: 7|[VLESS] krKR_2|1.0MB/s
+  network: ws
+  port: 12134
+  server: 218.157.145.120
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /sg-lnd
+  xudp: true
+- name: 8|[Http] krKR²_1|3.7MB/s|GPT|X|[广播|机房]
   password: bd515574-3b10-11ee-ac14-f23c9164ca5d
   port: 31433
   server: 71ec55a3-tb89s0-tu0ezx-1m7l4.kr.oshuawei.com

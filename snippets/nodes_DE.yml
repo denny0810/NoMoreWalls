@@ -1,14 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 2|[Vmess] DE19｜机房｜高风险 (黑名单)
+  client-fingerprint: chrome
+  h2-opts: {}
+  http-opts: {}
+  name: 1,9|[Vmess] usUS²_6|0.7MB/s|38%|GPT⁺|NF|X|...
   network: tcp
-  port: '180'
+  port: 180
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 2|[Trojan] DE12｜机房｜低风险
+- name: 1|[Trojan] DE12｜机房｜低风险
   network: ws
   password: e4b6a49c-c806-499d-87ef-977a5c92758e
   port: 2087
@@ -20,7 +23,7 @@ proxies:
     headers:
       Host: 17722563346712.206353.xyz
     path: '%2Fagrbniuh'
-- name: 2|[Trojan] DE13｜机房｜低风险
+- name: 1|[Trojan] DE13｜机房｜低风险
   network: ws
   password: e4b6a49c-c806-499d-87ef-977a5c92758e
   port: 8443

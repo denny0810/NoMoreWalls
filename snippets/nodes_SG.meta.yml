@@ -1,5 +1,5 @@
 proxies:
-- name: 2|[Trojan] SG7｜机房｜低风险
+- name: 1|[Trojan] SG7｜机房｜低风险
   network: tcp
   password: 984c7793-1447-4af5-9200-d514ad6fe329
   port: 45005
@@ -9,7 +9,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 2|[Vmess] SG14｜机房｜低风险
+  name: 1|[Vmess] SG14｜机房｜低风险
   network: tcp
   port: '17229'
   server: 151.242.183.239
@@ -49,23 +49,8 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: 8|[VLESS] sgSG_1|2.7MB/s
-  network: ws
-  port: 443
-  server: ip4.xianjin.ltd
-  servername: sg.xianjin.ltd
-  tls: true
-  type: vless
-  uuid: d2fe1afc-6f63-4654-804b-c1285812aac4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sg.xianjin.ltd
-    max-early-data: 2560
-    path: /wang-vl
-- client-fingerprint: chrome
   encryption: none
-  name: 8|[VLESS] sgSG_2|2.6MB/s
+  name: 8|[VLESS] sgSG_1|1.5MB/s
   network: ws
   port: 443
   server: 47.128.223.32
@@ -81,21 +66,17 @@ proxies:
         like Gecko) Chrome/66.0.3359.117 Safari/537.36
     path: /sg-lnd
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 8|[VLESS] sgSG_3|1.3MB/s
-  network: ws
-  port: 8443
-  server: 54.169.254.130
-  servername: tn1rr.qzz.io
+- cipher: chacha20-ietf
+  name: 8|[SS] sgSG_2|1.7MB/s
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
+- name: 9|[Http] sgSG²_1|12.8MB/s|46%|GPT⁺|GM|Y...
+  password: 5edb4d21-6cc1-4d46-8823-9a0e14d83455
+  port: 4449
+  server: 4-ndsrzkgg.mix.dexiansheng.com
+  sni: 4-ndsrzkgg.mix.dexiansheng.com
   tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: tn1rr.qzz.io
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /sg-lnd
-  xudp: true
+  type: http
+  username: walless

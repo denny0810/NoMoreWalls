@@ -1,14 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] DE19｜机房｜高风险 (黑名单)
+  name: 2|[Vmess] DE19｜机房｜高风险 (黑名单)
   network: tcp
   port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 1|[Trojan] DE12｜机房｜低风险
+- name: 2|[Trojan] DE12｜机房｜低风险
   network: ws
   password: e4b6a49c-c806-499d-87ef-977a5c92758e
   port: 2087
@@ -20,7 +20,7 @@ proxies:
     headers:
       Host: 17722563346712.206353.xyz
     path: '%2Fagrbniuh'
-- name: 1|[Trojan] DE13｜机房｜低风险
+- name: 2|[Trojan] DE13｜机房｜低风险
   network: ws
   password: e4b6a49c-c806-499d-87ef-977a5c92758e
   port: 8443
@@ -32,7 +32,7 @@ proxies:
     headers:
       Host: 17722563345611.206353.xyz
     path: '%2Fagrbniuh'
-- name: 3|[Hysteria2] DE
+- name: 4|[Hysteria2] DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -41,19 +41,27 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 7|[VLESS] deDE_1|2.0MB/s
+  encryption: none
+  name: 8|[VLESS] deDE_1|1.7MB/s
   network: ws
-  port: 8443
-  server: F2.HaMrAhCoNf.Ir
-  servername: uiuyoyw.secoxi.site
+  port: 2016
+  server: 45.145.42.211
+  servername: tn1rr.qzz.io
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: 929b0c34-a05f-4e5d-bd5d-396c5b6dd4e7
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: app-core-05.secoxi.site
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] deDE_2|1.1MB/s
+  network: tcp
+  port: 25565
+  server: tcp2.bntabriz.ir
+  type: vless
+  udp: true
+  uuid: 4c92c0f8-350b-cff2-f31a-67faf556397d
   xudp: true

@@ -1,5 +1,5 @@
 proxies:
-- name: 1|[Trojan] SG7｜机房｜低风险
+- name: 2|[Trojan] SG7｜机房｜低风险
   network: tcp
   password: 984c7793-1447-4af5-9200-d514ad6fe329
   port: 45005
@@ -9,14 +9,14 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] SG14｜机房｜低风险
+  name: 2|[Vmess] SG14｜机房｜低风险
   network: tcp
   port: '17229'
   server: 151.242.183.239
   tls: false
   type: vmess
   uuid: 4d178008-8f7c-4b4b-b425-87d6117f1c87
-- name: 3|[Hysteria2] SG
+- name: 4|[Hysteria2] SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: sg3.oomz.ru
@@ -24,7 +24,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 5,6|[Trojan] 新加坡|@ripaojiedian
+- name: 6,7|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 3419
@@ -32,7 +32,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 新加坡2|@ripaojiedian
+- name: 6,7|[Trojan] 新加坡2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 3419
@@ -40,7 +40,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 新加坡3|@ripaojiedian
+- name: 6,7|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 15363
@@ -49,40 +49,53 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] sgSG_1|3.3MB/s
+  name: 8|[VLESS] sgSG_1|2.7MB/s
   network: ws
-  port: 2087
-  server: www.shopify.com
-  servername: zqqfxrv1z.fx01.ccwu.cc
+  port: 443
+  server: ip4.xianjin.ltd
+  servername: sg.xianjin.ltd
+  tls: true
+  type: vless
+  uuid: d2fe1afc-6f63-4654-804b-c1285812aac4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sg.xianjin.ltd
+    max-early-data: 2560
+    path: /wang-vl
+- client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] sgSG_2|2.6MB/s
+  network: ws
+  port: 443
+  server: 47.128.223.32
+  servername: tn1rr.qzz.io
   tls: true
   type: vless
   udp: true
-  uuid: 77777777-6663-4ef2-b26b-ed2d70642678
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: zqqfxrv1z.fx01.ccwu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    max-early-data: 2560
-    path: /
+      Host: tn1rr.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    path: /sg-lnd
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 7|[VLESS] sgSG_2|3.0MB/s
+  name: 8|[VLESS] sgSG_3|1.3MB/s
   network: ws
-  port: 80
-  server: 162.159.34.235
+  port: 8443
+  server: 54.169.254.130
+  servername: tn1rr.qzz.io
+  tls: true
   type: vless
   udp: true
-  uuid: 0ca855d9-7c03-40eb-929b-919f934abdc3
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: amirvpn.amirhm00100.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
+      Host: tn1rr.qzz.io
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    max-early-data: 2048
-    path: /
+    path: /sg-lnd
   xudp: true

@@ -5,39 +5,29 @@ proxies:
   tls: false
   type: socks5
   username: Og%3D%3D
-- client-fingerprint: chrome
-  encryption: none
-  name: 8|[VLESS] krKR_1|1.0MB/s
-  network: ws
-  port: 18765
-  server: 59.29.89.197
-  servername: tn1rr.qzz.io
+- name: 8|[Http] krKR_1|1.8MB/s
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  sni: testkr3.ssv.vc
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: tn1rr.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/35.0.1916.153 Safari/537.36
-    path: /sg-lnd
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 8|[VLESS] krKR_2|1.0MB/s
-  network: ws
-  port: 12134
-  server: 218.157.145.120
-  servername: tn1rr.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: tn1rr.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /sg-lnd
-  xudp: true
+  username: test
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇰🇷KR
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 8|[Vmess] krKR_2|1.0MB/s
+  network: http
+  port: 80
+  server: 152.70.92.69
+  skip-cert-verify: true
+  type: vmess
+  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b

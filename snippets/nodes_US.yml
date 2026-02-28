@@ -368,8 +368,8 @@ proxies:
 - name: 6,7|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
-  port: 4920
-  server: 160.16.130.21
+  port: 1281
+  server: 52.195.185.238
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -377,18 +377,65 @@ proxies:
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 4920
-  server: 160.16.124.17
+  server: 160.16.72.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 6,7|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 38780
-  server: 54.46.4.240
+  port: 45285
+  server: 18.162.51.53
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 8,9|[SS] usUS²_8|4.0MB/s|0%|GPT⁺|GM|YT|...
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 46197
+  server: ldu.izenny.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: 8|[Vmess] usUS_5|1.2MB/s
+  network: ws
+  port: 80
+  server: rfghnj.0gg.ccwu.cc
+  tls: false
+  type: vmess
+  udp: false
+  uuid: 8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba
+  ws-opts:
+    headers:
+      Host: rfghnj.0gg.ccwu.cc
+    path: /y3ME81hpTJWwd4RJBAQ5Ah
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: 8|[Vmess] usUS_6|1.3MB/s
+  network: ws
+  port: 80
+  server: fbnhu.0wu.ccwu.cc
+  tls: false
+  type: vmess
+  udp: false
+  uuid: 8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba
+  ws-opts:
+    headers:
+      Host: fbnhu.0wu.ccwu.cc
+    path: /y3ME81hpTJWwd4RJBAQ5Ah
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: 8,9|[SS] usUS²_9|5.9MB/s|GPT⁺|GM|YT|TK|...
+  password: b4b78f5d-f4ec-4eae-8f83-9e4ed9e16326
+  port: 46623
+  server: hd117-mg-jd.huidu51.com
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 9|[SS] usUS²_4|1.6MB/s|0%|GPT⁺|YT|X|[...
   password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
@@ -416,20 +463,6 @@ proxies:
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.73
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 9|[SS] usUS²_8|4.0MB/s|0%|GPT⁺|GM|YT|...
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 46197
-  server: ldu.izenny.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 9|[SS] usUS²_9|5.9MB/s|GPT⁺|GM|YT|TK|...
-  password: b4b78f5d-f4ec-4eae-8f83-9e4ed9e16326
-  port: 46623
-  server: hd117-mg-jd.huidu51.com
   type: ss
 - alpn:
   - ''

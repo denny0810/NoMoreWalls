@@ -1,12 +1,21 @@
 proxies:
-- name: 4|[Hysteria2] JP
+- alterId: 0
+  cipher: auto
+  name: 1|[Vmess] JP29｜机房｜低风险
+  network: tcp
+  port: '28429'
+  server: 151.242.183.239
+  tls: false
+  type: vmess
+  uuid: 4d178008-8f7c-4b4b-b425-87d6117f1c87
+- name: 3|[Hysteria2] JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
   server: jp7.dexlos.com
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 6,7|[Trojan] 日本|@ripaojiedian
+- name: 5,6|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 2595
@@ -14,7 +23,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 6,7|[Trojan] 日本2|@ripaojiedian
+- name: 5,6|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 400
@@ -22,7 +31,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 6,7|[Trojan] 日本3|@ripaojiedian
+- name: 5,6|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 3423
@@ -32,7 +41,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   encryption: none
-  name: 8|[VLESS] jpJP_1|2.3MB/s
+  name: 7|[VLESS] jpJP_1|2.3MB/s
   network: ws
   port: 16356
   server: 203.137.166.75
@@ -51,7 +60,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 8|[Vmess] jpJP_2|1.5MB/s
+  name: 7|[Vmess] jpJP_2|1.5MB/s
   network: tcp
   port: 23611
   server: traffic.a1.szx.gfw250.com
@@ -63,7 +72,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 8|[Vmess] jpJP_3|1.8MB/s
+  name: 7|[Vmess] jpJP_3|1.8MB/s
   network: tcp
   port: 23618
   server: traffic.a1.szx.gfw250.com
@@ -75,7 +84,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 8|[Vmess] jpJP_4|1.5MB/s
+  name: 7|[Vmess] jpJP_4|1.5MB/s
   network: tcp
   port: 23617
   server: traffic.a1.szx.gfw250.com
@@ -85,7 +94,7 @@ proxies:
   udp: true
   uuid: 308ad03a-c3a5-3af8-ba1d-590bcce73034
 - client-fingerprint: chrome
-  name: 8|[VLESS] jpJP_5|3.6MB/s
+  name: 7|[VLESS] jpJP_5|3.6MB/s
   network: ws
   port: 2083
   server: v1.dabache.top

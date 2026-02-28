@@ -1,17 +1,16 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 2|[Vmess] FR5｜机房｜低风险
-  network: tcp
-  port: '30835'
-  server: v35.hdacd.com
+- name: 1|[Hysteria2] FR4｜机房｜低风险
+  password: dc6a6c45-b13c-4f1d-8729-19b4d8bba4aa
+  port: 443
+  server: 129.151.251.122
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
   tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  type: hysteria2
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 9|[VLESS] frFR²_1|0.9MB/s|GPT|D+|X|Histo...
+  name: 8|[VLESS] frFR²_1|0.9MB/s|GPT|D+|X|Histo...
   network: tcp
   port: 443
   reality-opts:
@@ -31,7 +30,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 9|[VLESS] frFR²_2|0.6MB/s|0%|GPT|X|Histo...
+  name: 8|[VLESS] frFR²_2|0.6MB/s|0%|GPT|X|Histo...
   network: tcp
   port: 443
   reality-opts:
@@ -46,7 +45,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|[VLESS] FR_speednode_0004
+  name: 10|[VLESS] FR_speednode_0004
   port: 443
   reality-opts:
     public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
@@ -59,7 +58,7 @@ proxies:
   udp: true
   uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
 - client-fingerprint: chrome
-  name: 11|[VLESS] FR_speednode_0005
+  name: 10|[VLESS] FR_speednode_0005
   port: 61873
   reality-opts:
     public-key: wEU32qHhiQq-FDYUvuEl7_HAM6r5nDh6M4F8WGnEhjE

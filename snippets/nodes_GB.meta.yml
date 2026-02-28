@@ -1,14 +1,14 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 2|[Vmess] GB4｜机房｜低风险
+  name: 1|[Vmess] GB4｜机房｜低风险
   network: tcp
   port: '30836'
   server: v36.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 2|[Hysteria2] GB6｜机房｜低风险
+- name: 1|[Hysteria2] GB6｜机房｜低风险
   password: cac966c1-b596-48ff-ab7c-6d58f8d6ca04
   port: 65535
   server: 132.145.52.10
@@ -16,7 +16,7 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: 2|[Hysteria2] GB8｜机房｜低风险
+- name: 1|[Hysteria2] GB8｜机房｜低风险
   password: cac966c1-b596-48ff-ab7c-6d58f8d6ca04
   port: 65535
   server: 132.145.28.17
@@ -43,35 +43,18 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 8,9,11|[VLESS] US_speednode_0026
+  name: 8|[VLESS] gbGB_1|1.6MB/s
   network: ws
   port: 443
-  server: 198.62.62.248
-  servername: tar.alabama-tigr.info
-  skip-cert-verify: false
+  server: 198.62.62.235
+  servername: bank.alaska-tigr.info
   tls: true
   type: vless
-  udp: true
   uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
   ws-opts:
     headers:
-      Host: tar.alabama-tigr.info
+      Host: bank.alaska-tigr.info
     path: /love
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 8|[VLESS] gbGB_2|2.4MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: LhjLy9DWO6RY22K9aaZAzuaR2utp2orv8GM9Y8dWGSE
-    short-id: '!!str 15affa0af66dfc79'
-  server: 84.54.48.210
-  servername: deepl.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 22fc4701-8c86-4d4f-a858-8f5921d83977
-  xudp: true
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -93,6 +76,21 @@ proxies:
   udp: true
   uuid: ec5796b3-678b-4b11-9c1d-a53171dfd897
   xudp: true
+- client-fingerprint: chrome
+  name: 9,11|[VLESS] US_speednode_0026
+  network: ws
+  port: 443
+  server: 198.62.62.248
+  servername: tar.alabama-tigr.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+  ws-opts:
+    headers:
+      Host: tar.alabama-tigr.info
+    path: /love
 - client-fingerprint: chrome
   encryption: none
   http-opts:

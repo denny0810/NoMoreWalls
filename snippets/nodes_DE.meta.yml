@@ -1,14 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 2|[Vmess] DE26｜机房｜高风险 (黑名单)
+  name: 1|[Vmess] DE26｜机房｜高风险 (黑名单)
   network: tcp
   port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 2|[Trojan] DE7｜机房｜低风险
+- name: 1|[Trojan] DE7｜机房｜低风险
   network: ws
   password: 0997a4f7-63ba-4f41-b210-83a7f18ea2c3
   port: 2096
@@ -20,7 +20,7 @@ proxies:
     headers:
       Host: 17721875623503.206353.xyz
     path: '%2Fagrbniuh'
-- name: 2|[Trojan] DE8｜机房｜低风险
+- name: 1|[Trojan] DE8｜机房｜低风险
   network: ws
   password: 0997a4f7-63ba-4f41-b210-83a7f18ea2c3
   port: 2087
@@ -32,7 +32,7 @@ proxies:
     headers:
       Host: 17721875625998.206353.xyz
     path: '%2Fagrbniuh'
-- name: 2|[Trojan] DE9｜机房｜低风险
+- name: 1|[Trojan] DE9｜机房｜低风险
   network: ws
   password: 0997a4f7-63ba-4f41-b210-83a7f18ea2c3
   port: 2083
@@ -44,7 +44,7 @@ proxies:
     headers:
       Host: 17721875622448.206353.xyz
     path: '%2Fagrbniuh'
-- name: 2|[Trojan] DE10｜机房｜低风险
+- name: 1|[Trojan] DE10｜机房｜低风险
   network: ws
   password: 0997a4f7-63ba-4f41-b210-83a7f18ea2c3
   port: 8443
@@ -56,7 +56,7 @@ proxies:
     headers:
       Host: 17721875622975.206353.xyz
     path: '%2Fagrbniuh'
-- name: 2|[Trojan] DE27｜机房｜低风险
+- name: 1|[Trojan] DE27｜机房｜低风险
   network: tcp
   password: af4b064a9c39472fb34ad8b113acdc6b
   port: 443
@@ -73,49 +73,21 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 8,9|[VLESS] deDE²_3|5.6MB/s|0%|GPT⁺|D+|X|[...
-  network: tcp
-  port: 443
-  server: xbn-05.palmcraft.net
-  servername: xbn-05.palmcraft.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: ec5796b3-678b-4b11-9c1d-a53171dfd897
-- client-fingerprint: chrome
-  encryption: none
-  name: 8,9,11|[VLESS] GB_speednode_0006
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: kWxGUQ6QtaU-SCCt8Ht-POUPS6Ue6w-KyHjxb1AYQ1w
-    short-id: '!!str 2e0f'
-  server: 217.154.38.156
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a8391ef-383c-4321-ac25-89b50973ab73
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 8|[VLESS] deDE_3|2.4MB/s
+  name: 8|[VLESS] deDE_1|2.0MB/s
   network: ws
-  port: 2053
-  server: 207.244.199.59
-  servername: tn1rr.qzz.io
+  port: 8443
+  server: F2.HaMrAhCoNf.Ir
+  servername: uiuyoyw.secoxi.site
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 929b0c34-a05f-4e5d-bd5d-396c5b6dd4e7
   ws-opts:
     headers:
-      Host: tn1rr.qzz.io
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/44.0.2403.157 Safari/537.36
-    path: /sg-lnd
+      Host: app-core-05.secoxi.site
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /
   xudp: true
 - client-fingerprint: chrome
   encryption: none
@@ -153,6 +125,17 @@ proxies:
   udp: true
   uuid: 87580984-c2ef-4f44-9c7e-0b216f99aa87
   xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 9|[VLESS] deDE²_3|5.6MB/s|0%|GPT⁺|D+|X|[...
+  network: tcp
+  port: 443
+  server: xbn-05.palmcraft.net
+  servername: xbn-05.palmcraft.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec5796b3-678b-4b11-9c1d-a53171dfd897
 - name: 9|[Socks5] deDE²_6|4.9MB/s|10%|GPT⁺|X
   password: ''
   port: 1080
@@ -215,6 +198,20 @@ proxies:
         like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /access
   xudp: true
+- client-fingerprint: chrome
+  name: 9,11|[VLESS] GB_speednode_0006
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: kWxGUQ6QtaU-SCCt8Ht-POUPS6Ue6w-KyHjxb1AYQ1w
+    short-id: '!!str 2e0f'
+  server: 217.154.38.156
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a8391ef-383c-4321-ac25-89b50973ab73
 - name: 9|[Socks5] deDE²_11|5.6MB/s|10%|GPT|X
   password: ''
   port: 1080

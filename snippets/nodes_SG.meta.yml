@@ -1,5 +1,5 @@
 proxies:
-- name: 2|[Trojan] SG6｜机房｜低风险
+- name: 1|[Trojan] SG6｜机房｜低风险
   network: tcp
   password: 984c7793-1447-4af5-9200-d514ad6fe329
   port: 45005
@@ -39,6 +39,44 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- client-fingerprint: chrome
+  encryption: none
+  name: 8,9|[VLESS] usUS¹-KR⁰_1|3.9MB/s|GPT⁺|GM|D+...
+  network: ws
+  port: 2087
+  server: www.shopify.com
+  servername: zqqfxrv1z.fx01.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77777777-6663-4ef2-b26b-ed2d70642678
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: zqqfxrv1z.fx01.ccwu.cc
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] sgSG_2|3.0MB/s
+  network: ws
+  port: 80
+  server: 162.159.34.235
+  type: vless
+  udp: true
+  uuid: 0ca855d9-7c03-40eb-929b-919f934abdc3
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: amirvpn.amirhm00100.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    max-early-data: 2048
+    path: /
+  xudp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

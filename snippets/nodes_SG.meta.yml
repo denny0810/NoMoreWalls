@@ -1,5 +1,5 @@
 proxies:
-- name: 1|[Trojan] SG6｜机房｜低风险
+- name: 2|[Trojan] SG6｜机房｜低风险
   network: tcp
   password: 984c7793-1447-4af5-9200-d514ad6fe329
   port: 45005
@@ -41,7 +41,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   encryption: none
-  name: 8,9|[VLESS] usUS¹-KR⁰_1|3.9MB/s|GPT⁺|GM|D+...
+  name: 8|[VLESS] sgSG_1|3.3MB/s
   network: ws
   port: 2087
   server: www.shopify.com
@@ -54,8 +54,8 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: zqqfxrv1z.fx01.ccwu.cc
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
     max-early-data: 2560
     path: /
   xudp: true
@@ -77,53 +77,3 @@ proxies:
     max-early-data: 2048
     path: /
   xudp: true
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 9|[Vmess] sgSG²_5|4.0MB/s|43%|GPT⁺|X|His...
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  servername: v45.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 9,11|[VLESS] BG_speednode_0002
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: juH5xrivuMuDd3Qp_P-CTHfvnQIVetUgDe7XwpJvLkE
-    short-id: '!!str a56b26c2'
-  server: 178.239.122.108
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ec5796b3-678b-4b11-9c1d-a53171dfd897
-- cipher: chacha20-ietf-poly1305
-  country: 🇩🇪DE
-  name: 9|[SS] sgSG²_3|0.6MB/s|0%|GPT⁺|GM|YT|...
-  password: b4b78f5d-f4ec-4eae-8f83-9e4ed9e16326
-  port: 46614
-  server: hd117-xjp-jd.huidu51.com
-  type: ss
-- name: 9|[Socks5] sgSG²_4|12.4MB/s|GPT⁺|GM|X
-  password: ''
-  port: 1080
-  server: 159.223.53.194
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: 9|[Socks5] sgSG²_6|1.1MB/s|2%|GPT⁺|X
-  password: ''
-  port: 20005
-  server: 43.160.195.20
-  skip-cert-verify: true
-  type: socks5
-  username: ''

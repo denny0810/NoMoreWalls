@@ -1,11 +1,44 @@
 proxies:
-- name: 8|[Anytls] ruRU_1|2.5MB/s
-  password: b2ca8061-cf93-403f-a150-c26fb26610f7
-  port: 25741
-  server: 46.17.40.31
-  skip-cert-verify: true
-  tfo: true
-  type: anytls
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 8|[VLESS] ruRU_1|1.2MB/s
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: 59iHd67rGlyJBUpDq5NXC91EB0U4AXtSlOjAQsW2D14
+    short-id: '!!str '
+  server: 51.250.14.48
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: a49ab68c-9f5c-4ea0-9721-6550456544a9
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 8|[VLESS] ruRU_2|1.1MB/s
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: 59iHd67rGlyJBUpDq5NXC91EB0U4AXtSlOjAQsW2D14
+    short-id: '!!str '
+  server: 51.250.14.48
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06f28052-0704-4e9f-8c08-0e8e9bc968f9
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 11|[VLESS] RU_speednode_0011

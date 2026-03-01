@@ -39,36 +39,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 8|[VLESS] jpJP_1|1.1MB/s
-  network: ws
-  port: 443
-  server: 162.159.38.89
-  servername: vz.anjue39.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3dfd98df-0b86-4dad-985f-5fed51084bd5
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: vz.anjue39.qzz.io
-    max-early-data: 2048
-    path: /
-- fingerprint: ''
-  name: 8|[Anytls] jpJP_2|1.0MB/s
-  password: d1a8458f-5569-40cd-8520-256cae1dae31
-  port: 443
-  server: jpgs.xn--99-c72c.top
-  skip-cert-verify: true
-  sni: gw.alicdn.com
-  type: anytls
-  udp: true
-  username: d1a8458f-5569-40cd-8520-256cae1dae31
 - name: 9|[Http] jpJP²_1|2.0MB/s|25%|GPT|X|Succ...
   password: fc5ba91a-acd7-11ef-97e0-f23c9164ca5d
   port: 27233

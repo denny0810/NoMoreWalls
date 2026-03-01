@@ -4,14 +4,14 @@ proxies:
   client-fingerprint: chrome
   h2-opts: {}
   http-opts: {}
-  name: 1,8|[Vmess] usUS²_6|0.7MB/s|38%|GPT⁺|NF|X|...
+  name: 2,9|[Vmess] usUS²_6|0.7MB/s|38%|GPT⁺|NF|X|...
   network: tcp
   port: 180
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 1|[Trojan] DE12｜机房｜低风险
+- name: 2|[Trojan] DE12｜机房｜低风险
   network: ws
   password: e4b6a49c-c806-499d-87ef-977a5c92758e
   port: 2087
@@ -23,7 +23,7 @@ proxies:
     headers:
       Host: 17722563346712.206353.xyz
     path: '%2Fagrbniuh'
-- name: 1|[Trojan] DE13｜机房｜低风险
+- name: 2|[Trojan] DE13｜机房｜低风险
   network: ws
   password: e4b6a49c-c806-499d-87ef-977a5c92758e
   port: 8443
@@ -35,7 +35,7 @@ proxies:
     headers:
       Host: 17722563345611.206353.xyz
     path: '%2Fagrbniuh'
-- name: 3|[Hysteria2] DE
+- name: 4|[Hysteria2] DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -43,7 +43,7 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: '3,4|[Hysteria2] کانال تلگرام : Free_VPN_CH@'
+- name: '4,5|[Hysteria2] کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -58,7 +58,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 7|[VLESS] deDE_1|1.9MB/s
+  name: 8|[VLESS] deDE_1|1.7MB/s
   network: ws
   port: 443
   server: 104.20.59.63
@@ -73,58 +73,44 @@ proxies:
       Host: vz.anjue39.qzz.io
     max-early-data: 2048
     path: /
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] deDE_2|2.0MB/s
+  network: ws
+  port: 443
+  server: 162.159.10.81
+  servername: MAHANteAm.noD32Cpu.iR
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: MAHANteAm.noD32Cpu.iR
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /assets
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 7|[VLESS] deDE_2|1.4MB/s
+  name: 8|[VLESS] deDE_3|1.3MB/s
   network: tcp
   port: 443
   reality-opts:
-    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
-    short-id: '!!str 4fa44664f6a566d3'
-  server: 5.254.85.152
-  servername: germany.scroogethebest.com
+    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+    short-id: '!!str 048fe5c8be4bb687'
+  server: 51.250.3.183
+  servername: api-maps.yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
+  uuid: 64aafe63-ef36-4da5-8bf9-838d767bfe74
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] deDE_3|2.1MB/s
-  network: ws
-  port: 2053
-  server: 95.181.161.158
-  servername: tn1rr.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: tn1rr.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /sg-lnd
-  xudp: true
-- client-fingerprint: chrome
-  name: 7|[VLESS] deDE_4|2.6MB/s
-  network: ws
-  port: 443
-  server: 195.26.231.93
-  servername: tn1rr.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: tn1rr.qzz.io
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /sg-lnd
-  xudp: true
-- name: 8|[Socks5] deDE²_1|4.5MB/s|GPT|X
+- name: 9|[Socks5] deDE²_1|4.5MB/s|GPT|X
   password: ''
   port: 1080
   server: 193.233.254.77

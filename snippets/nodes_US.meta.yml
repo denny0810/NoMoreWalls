@@ -373,21 +373,73 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: 8|[VLESS] usUS_1|1.0MB/s
+  encryption: mlkem768x25519plus.native.0rtt.NGplMLyreaoaVn402Lit3NEx0F-zDvzK4e4LRAUC_EM
+  name: 8|[VLESS] usUS_1|2.1MB/s
   network: ws
-  port: 443
-  server: kkko9.191288.xyz
-  servername: KKkO9.191288.Xyz
+  port: 2053
+  server: cf.3666888.xyz
+  servername: us01-cdn.nekohub.xyz
   tls: true
   type: vless
   udp: true
-  uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc
+  uuid: 5781d3c7-a91e-4e93-9769-65de4f3dda0f
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: us01.nekohub.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    max-early-data: 4096
+    path: /vless_ws
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] usUS_2|1.5MB/s
+  network: ws
+  port: 443
+  server: bfgh.9no.ccwu.cc
+  servername: bfgh.9no.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: eed4a583-b20e-4787-bbdb-09018156e53f
   ws-opts:
     headers:
-      Host: KKkO9.191288.Xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /s2VHv9VUVzg35A6ueyyZnWd
+      Host: bfgh.9no.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /hf5eEFaMIyvZXFAbvQEN
+  xudp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: e9fKNGws5QOzdjv6FWWwqHfDg
+  name: 8|[VLESS] usUS_3|2.5MB/s
+  network: grpc
+  port: 443
+  server: nnmjjui.1xb.ccwu.cc
+  servername: nnmjjui.1xb.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 025cb923-a637-4d35-a504-0c1d7a277617
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] usUS_4|1.9MB/s
+  network: ws
+  port: 443
+  server: gh.iran2028.indevs.in
+  servername: gh.iran2028.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: gh.iran2028.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/37.0.2062.120 Safari/537.36
+    path: /9NojP751adPiN9LMya
   xudp: true
 - alpn:
   - ''

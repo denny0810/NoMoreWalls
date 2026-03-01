@@ -463,15 +463,30 @@ proxies:
     headers:
       Host: openlist.ikun6.dpdns.org
     path: /MY2026
-- name: 9|[Http] usUS²_1|8.6MB/s|16%|GPT⁺|NF|D+...
-  password: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
-  port: 15229
-  server: 44f07857-t9zts0-tb5rbt-1kcpe.cu.oshuawei.com
-  sni: 44f07857-t9zts0-tb5rbt-1kcpe.cu.oshuawei.com
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: 9|[Vmess] usUS²_2|7.0MB/s|3%|GPT⁺|GM|YT|...
+  network: raw
+  port: 31350
+  server: c86s3.portablesubmarines.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f7e4a08-757a-48fa-8ed8-38599c684851
+  xudp: true
+- name: 9|[Http] usUS²_1|11.1MB/s|16%|GPT⁺|GM|Y...
+  password: c357a728-1211-11f0-9a65-f23c9164ca5d
+  port: 443
+  server: cd2fd5f5-t9zts0-td5oia-1m49t.jp.oshuawei.com
+  sni: cd2fd5f5-t9zts0-td5oia-1m49t.jp.oshuawei.com
   tls: true
   type: http
-  username: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
-- name: 9|[Http] usUS²_2|4.1MB/s|100%|GPT|X|His...
+  username: c357a728-1211-11f0-9a65-f23c9164ca5d
+- name: 9|[Http] usUS²_3|6.4MB/s|100%|GPT⁺|X|Su...
   password: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
   port: 443
   server: 1f8e697e-ta3j40-tsw0xs-19ord.se.oshuawei.com
@@ -479,64 +494,52 @@ proxies:
   tls: true
   type: http
   username: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
-- name: 9|[Http] usUS²_3|5.3MB/s|GPT|X|History
-  password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
-  port: 443
-  server: 4a5864a9-t9zts0-tbicd9-1go3q.se.oshuawei.com
-  sni: 4a5864a9-t9zts0-tbicd9-1go3q.se.oshuawei.com
+- client-fingerprint: chrome
+  encryption: none
+  name: 9|[VLESS] usUS¹-SG⁰_1|1.3MB/s|D+|X|Histo...
+  network: ws
+  port: 2053
+  server: bestcf.030101.xyz
+  servername: snippet.fgfw.eu.org
   tls: true
-  type: http
-  username: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 9|[Vmess] usUS²_4|5.4MB/s|GPT|NF|X|Histo...
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  servername: v29.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: 9|[SS] usUS²_5|1.7MB/s|X|History|[广播|...
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 12589
-  server: ldu.izenny.com
-  type: ss
+  type: vless
   udp: true
-- alterId: 2
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.fgfw.eu.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    max-early-data: 2560
+    path: /danfeng
+  xudp: true
+- name: 9|[Http] usUS²_4|12.2MB/s|16%|GPT⁺|GM|Y...
+  password: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
+  port: 443
+  server: cea3f67a-tatgg0-ttk5iz-i8ie.jp.oshuawei.com
+  sni: cea3f67a-tatgg0-ttk5iz-i8ie.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  country: 🇭🇰HK
   h2-opts: {}
   http-opts: {}
-  name: 9|[Vmess] usUS²_7|0.9MB/s|X|History
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 9|[Http] usUS²_8|8.2MB/s|16%|GPT|X|Hist...
-  password: d70a9508-5477-11ef-bf61-f23c913c8d2b
-  port: 15229
-  server: 0ad1e07c-t9zts0-tcj3xn-1o20w.cu.oshuawei.com
-  sni: 0ad1e07c-t9zts0-tcj3xn-1o20w.cu.oshuawei.com
-  tls: true
-  type: http
-  username: d70a9508-5477-11ef-bf61-f23c913c8d2b
-- name: 9|[Http] usUS²_9|4.8MB/s|GPT|NF|X|Histo...
-  password: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
+  name: 9|[Vmess] usUS²_5|4.8MB/s|GPT|YT|X|[原生|机...
+  network: ws
   port: 443
-  server: 059be268-t9zts0-tpaqgu-1smhu.se.oshuawei.com
-  sni: 059be268-t9zts0-tpaqgu-1smhu.se.oshuawei.com
+  server: cg1c14.waimaojd.com
+  servername: cg1c14.waimaojd.com
   tls: true
-  type: http
-  username: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
+  type: vmess
+  udp: true
+  uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10
+  ws-opts:
+    headers:
+      Host: cg1c14.waimaojd.com
+    path: /api/v1/graphql
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 11|[VLESS] US_speednode_0014

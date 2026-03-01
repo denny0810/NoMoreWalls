@@ -1,12 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  h2-opts: {}
-  http-opts: {}
-  name: 2,9|[Vmess] usUS²_6|0.7MB/s|38%|GPT⁺|NF|X|...
+  name: 2|[Vmess] DE19｜机房｜高风险 (黑名单)
   network: tcp
-  port: 180
+  port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess
@@ -110,10 +107,19 @@ proxies:
   udp: true
   uuid: 64aafe63-ef36-4da5-8bf9-838d767bfe74
   xudp: true
-- name: 9|[Socks5] deDE²_1|4.5MB/s|GPT|X
-  password: ''
-  port: 1080
-  server: 193.233.254.77
-  skip-cert-verify: true
-  type: socks5
-  username: ''
+- name: 9|[Http] deDE²_1|8.1MB/s|8%|GPT⁺|NF|D+|...
+  password: 336501b6-51d2-11ee-a993-f23c9164ca5d
+  port: 443
+  server: 81af7b98-t9zts0-trhks8-1c9em.de.oshuawei.com
+  sni: 81af7b98-t9zts0-trhks8-1c9em.de.oshuawei.com
+  tls: true
+  type: http
+  username: 336501b6-51d2-11ee-a993-f23c9164ca5d
+- name: 9|[Http] deDE²_2|7.8MB/s|8%|GPT⁺|X|Hist...
+  password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
+  port: 443
+  server: bd1509c5-t9zts0-tbao5v-gacy.de.oshuawei.com
+  sni: bd1509c5-t9zts0-tbao5v-gacy.de.oshuawei.com
+  tls: true
+  type: http
+  username: 20f87b02-0eaa-11eb-8684-f23c913c8d2b

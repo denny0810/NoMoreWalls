@@ -1,11 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 2,9|[Vmess] usUS²_6|0.7MB/s|38%|GPT⁺|NF|X|...
+  name: 2|[Vmess] DE19｜机房｜高风险 (黑名单)
   network: tcp
-  port: 180
+  port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess
@@ -616,122 +614,65 @@ proxies:
   port: 8080
   server: 82.38.31.214
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 9|[SS] twTW²_1|0.9MB/s|X
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 25612
-  server: ldu.izenny.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇨🇳CN
-  name: 9|[SS] mdMD²_1|1.7MB/s|22%|GPT⁺|X
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 18244
-  server: ldu.izenny.com
-  type: ss
-- alterId: 2
+- alpn:
+  - ''
+  alterId: '0'
   cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 9|[Vmess] usUS²_4|5.4MB/s|GPT|NF|X|Histo...
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  servername: v29.hdacd.com
-  skip-cert-verify: true
+  name: 9|[Vmess] usUS²_2|7.0MB/s|3%|GPT⁺|GM|YT|...
+  network: raw
+  port: 31350
+  server: c86s3.portablesubmarines.com
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: 9|[SS] usUS²_5|1.7MB/s|X|History|[广播|...
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 12589
-  server: ldu.izenny.com
-  type: ss
   udp: true
-- alterId: 2
-  cipher: auto
+  uuid: 5f7e4a08-757a-48fa-8ed8-38599c684851
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 9|[SS] vnVN²_3|2.1MB/s|GPT⁺|GM|YT|X|H...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.179
+  type: ss
+- cipher: chacha20-ietf
   country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 9|[Vmess] usUS²_7|0.9MB/s|X|History
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  name: 9|[SS] sgSG²_1|1.1MB/s|0%|D+|X|Histor...
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 9|[Vmess] 🏴‍☠_1Relay_-usUS_521|8.4MB/s|X
+  name: 9|[Vmess] usUS²_5|4.8MB/s|GPT|YT|X|[原生|机...
   network: ws
   port: 443
-  server: cg1c11.waimaojd.com
-  servername: cg1c11.waimaojd.com
+  server: cg1c14.waimaojd.com
+  servername: cg1c14.waimaojd.com
   tls: true
   type: vmess
   udp: true
   uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10
   ws-opts:
     headers:
-      Host: cg1c11.waimaojd.com
+      Host: cg1c14.waimaojd.com
     path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  country: 🇯🇵JP
-  h2-opts: {}
-  http-opts: {}
-  name: 9|[Vmess] jpJP²_4|4.4MB/s|0%|GPT⁺|YT-CN|...
-  network: ws
-  port: 443
-  server: w13.luoli.de
-  servername: w13.luoli.de
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 42a99644-b90b-3627-8809-a2d6c4078b59
-  ws-opts:
-    headers:
-      HOST: w13.luoli.de
-    path: /v2ws
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 9|[Vmess] ruRU²_1|1.3MB/s|X
-  network: ws
-  port: 443
-  server: cg1c08.waimaojd.com
-  servername: cg1c08.waimaojd.com
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10
-  ws-opts:
-    headers:
-      Host: cg1c08.waimaojd.com
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  country: 🇯🇵JP
-  h2-opts: {}
-  http-opts: {}
-  name: 9|[Vmess] jpJP²_5|4.4MB/s|0%|GPT⁺|GM|YT|...
-  network: ws
-  port: 443
-  server: w12.luoli.de
-  servername: w12.luoli.de
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 42a99644-b90b-3627-8809-a2d6c4078b59
-  ws-opts:
-    headers:
-      HOST: w12.luoli.de
-    path: /v2ws
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 9|[SS] vnVN²_4|3.1MB/s|GM|X|History
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.239
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 9|[SS] vnVN²_5|1.8MB/s|X|History|[原生|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.176
+  type: ss
 - alterId: 0
   cipher: auto
   name: 10|[Vmess] VMESS节点2-ipv6

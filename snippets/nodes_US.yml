@@ -364,37 +364,36 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 2
+- alpn:
+  - ''
+  alterId: '0'
   cipher: auto
   client-fingerprint: chrome
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 9|[Vmess] usUS²_4|5.4MB/s|GPT|NF|X|Histo...
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  servername: v29.hdacd.com
-  skip-cert-verify: true
+  name: 9|[Vmess] usUS²_2|7.0MB/s|3%|GPT⁺|GM|YT|...
+  network: raw
+  port: 31350
+  server: c86s3.portablesubmarines.com
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: 9|[SS] usUS²_5|1.7MB/s|X|History|[广播|...
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 12589
-  server: ldu.izenny.com
-  type: ss
   udp: true
-- alterId: 2
+  uuid: 5f7e4a08-757a-48fa-8ed8-38599c684851
+  xudp: true
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  country: 🇭🇰HK
   h2-opts: {}
   http-opts: {}
-  name: 9|[Vmess] usUS²_7|0.9MB/s|X|History
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
+  name: 9|[Vmess] usUS²_5|4.8MB/s|GPT|YT|X|[原生|机...
+  network: ws
+  port: 443
+  server: cg1c14.waimaojd.com
+  servername: cg1c14.waimaojd.com
+  tls: true
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  udp: true
+  uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10
+  ws-opts:
+    headers:
+      Host: cg1c14.waimaojd.com
+    path: /api/v1/graphql

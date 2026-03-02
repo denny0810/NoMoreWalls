@@ -1,38 +1,50 @@
 proxies:
+- name: 1|[Trojan] DE11｜机房｜低风险
+  network: ws
+  password: 08f7246f-182a-4e04-a84b-d30094a2442b
+  port: 2087
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17724352329422.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17724352322839.206353.xyz
+    path: '%2Fagrbniuh'
+- name: 1|[Trojan] DE12｜机房｜低风险
+  network: ws
+  password: 08f7246f-182a-4e04-a84b-d30094a2442b
+  port: 2083
+  server: bestcdn3.868863.xyz
+  skip-cert-verify: true
+  sni: 17724352328530.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17724352322338.206353.xyz
+    path: '%2Fagrbniuh'
+- name: 1|[Trojan] DE13｜机房｜低风险
+  network: ws
+  password: 08f7246f-182a-4e04-a84b-d30094a2442b
+  port: 8443
+  server: bestcdn4.868863.xyz
+  skip-cert-verify: true
+  sni: 17724352329463.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17724352322146.206353.xyz
+    path: '%2Fagrbniuh'
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] DE19｜机房｜高风险 (黑名单)
+  name: 1|[Vmess] DE23｜机房｜高风险 (黑名单)
   network: tcp
   port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 1|[Trojan] DE12｜机房｜低风险
-  network: ws
-  password: e4b6a49c-c806-499d-87ef-977a5c92758e
-  port: 2087
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17722563344998.206353.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17722563346712.206353.xyz
-    path: '%2Fagrbniuh'
-- name: 1|[Trojan] DE13｜机房｜低风险
-  network: ws
-  password: e4b6a49c-c806-499d-87ef-977a5c92758e
-  port: 8443
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17722563349478.206353.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17722563345611.206353.xyz
-    path: '%2Fagrbniuh'
-- name: 3|[Hysteria2] DE
+- name: 4|[Hysteria2] DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -40,7 +52,7 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: '3,4|[Hysteria2] کانال تلگرام : Free_VPN_CH@'
+- name: '4,5|[Hysteria2] کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -50,24 +62,23 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 7|[VLESS] deDE_1|1.8MB/s
-  network: ws
-  port: 8443
-  server: F2.HaMrAhCoNf.Ir
-  servername: sp.secoxi.site
+- name: 8|[Http] deDE_1|1.8MB/s
+  password: 989aa406-ea9b-11ef-97da-f23c91cfbbc9
+  port: 443
+  server: d0863a93-tbbz40-tcc9uq-1rnrp.de.oshuawei.com
+  sni: d0863a93-tbbz40-tcc9uq-1rnrp.de.oshuawei.com
   tls: true
-  type: vless
-  udp: true
-  uuid: ec356038-494e-407d-a89b-f17adad85e02
-  ws-opts:
-    headers:
-      Host: p3-sync-06.secoxi.site
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.118 Safari/537.36
-    path: /
-  xudp: true
-- name: 8|[Http] deDE²_1|8.0MB/s|8%|GPT|X|Succe...
+  type: http
+  username: 989aa406-ea9b-11ef-97da-f23c91cfbbc9
+- name: 8|[Http] deDE_2|1.7MB/s
+  password: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
+  port: 443
+  server: 95a1ee29-tb4kg0-tcjfxp-1p1b.de.oshuawei.com
+  sni: 95a1ee29-tb4kg0-tcjfxp-1p1b.de.oshuawei.com
+  tls: true
+  type: http
+  username: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
+- name: 9|[Http] deDE²_1|8.0MB/s|8%|GPT|X|Succe...
   password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
   port: 443
   server: bd1509c5-t9zts0-tbao5v-gacy.de.oshuawei.com

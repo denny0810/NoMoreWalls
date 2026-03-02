@@ -1,5 +1,5 @@
 proxies:
-- name: 1|[Trojan] HK13｜家宽｜非常安全
+- name: 2|[Trojan] HK13｜家宽｜非常安全
   network: tcp
   password: 984c7793-1447-4af5-9200-d514ad6fe329
   port: 14011
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: jsygouer.weixin-baidu-qq.com
   type: trojan
-- name: 1|[Trojan] HK36｜原生/疑似家宽｜非常安全
+- name: 2|[Trojan] HK36｜原生/疑似家宽｜非常安全
   network: tcp
   password: 5f6ded93-4ab8-4a99-9c84-b19b9993f27c
   port: 31101
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- name: 1|[Trojan] HK37｜原生/疑似家宽｜非常安全
+- name: 2|[Trojan] HK37｜原生/疑似家宽｜非常安全
   network: tcp
   password: 125f929b-dbde-43b9-b498-695f1cd45d68
   port: 31101
@@ -66,3 +66,10 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf
+  name: 8|[SS] hkHK_1|1.8MB/s
+  password: asd123456
+  port: 8388
+  server: 103.149.183.200
+  type: ss
+  udp: true

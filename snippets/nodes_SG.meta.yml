@@ -1,5 +1,5 @@
 proxies:
-- name: 1|[Trojan] SG7｜机房｜低风险
+- name: 2|[Trojan] SG7｜机房｜低风险
   network: tcp
   password: 984c7793-1447-4af5-9200-d514ad6fe329
   port: 45005
@@ -9,7 +9,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] SG14｜机房｜低风险
+  name: 2|[Vmess] SG14｜机房｜低风险
   network: tcp
   port: '17229'
   server: 151.242.183.239
@@ -48,10 +48,19 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- cipher: chacha20-ietf
-  country: 🇭🇰HK
-  name: 9|[SS] sgSG²_1|1.1MB/s|0%|D+|X|Histor...
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  type: ss
+- name: 9|[Http] sgSG²_1|0.7MB/s|8%|GPT⁺|D+|X|S...
+  password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
+  port: 443
+  server: ec3f9e3d-t9zts0-tbao5v-gacy.sg.oshuawei.com
+  sni: ec3f9e3d-t9zts0-tbao5v-gacy.sg.oshuawei.com
+  tls: true
+  type: http
+  username: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
+- name: 9|[Http] sgSG²_2|0.9MB/s|X
+  password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+  port: 443
+  server: 0cf6af18-tbbz40-tee612-2r82.se.oshuawei.com
+  sni: 0cf6af18-tbbz40-tee612-2r82.se.oshuawei.com
+  tls: true
+  type: http
+  username: 03573f46-e944-11eb-a8bf-f23c91cfbbc9

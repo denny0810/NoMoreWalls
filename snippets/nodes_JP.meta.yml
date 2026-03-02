@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] JP29｜机房｜低风险
+  name: 2|[Vmess] JP29｜机房｜低风险
   network: tcp
   port: '28429'
   server: 151.242.183.239
@@ -39,43 +39,3 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  name: 8|[VLESS] jpJP_1|2.5MB/s
-  network: ws
-  port: 80
-  server: 162.159.38.62
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: vip.yaml7.ggff.net
-    max-early-data: 2048
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: 8|[VLESS] jpJP_2|2.8MB/s
-  network: ws
-  port: 80
-  server: 162.159.45.207
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: vip.yaml7.ggff.net
-    max-early-data: 2048
-    path: /
-- name: 9|[Http] jpJP²_1|2.0MB/s|25%|GPT|X|Succ...
-  password: fc5ba91a-acd7-11ef-97e0-f23c9164ca5d
-  port: 27233
-  server: ec008a95-t9zts0-tryjtz-12ach.cm4.oshuawei.com
-  sni: ec008a95-t9zts0-tryjtz-12ach.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: fc5ba91a-acd7-11ef-97e0-f23c9164ca5d

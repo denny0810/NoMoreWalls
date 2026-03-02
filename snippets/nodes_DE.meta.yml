@@ -1,14 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] DE19｜机房｜高风险 (黑名单)
+  name: 2|[Vmess] DE19｜机房｜高风险 (黑名单)
   network: tcp
   port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 1|[Trojan] DE12｜机房｜低风险
+- name: 2|[Trojan] DE12｜机房｜低风险
   network: ws
   password: e4b6a49c-c806-499d-87ef-977a5c92758e
   port: 2087
@@ -20,7 +20,7 @@ proxies:
     headers:
       Host: 17722563346712.206353.xyz
     path: '%2Fagrbniuh'
-- name: 1|[Trojan] DE13｜机房｜低风险
+- name: 2|[Trojan] DE13｜机房｜低风险
   network: ws
   password: e4b6a49c-c806-499d-87ef-977a5c92758e
   port: 8443
@@ -51,46 +51,23 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 8|[VLESS] deDE_1|2.0MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: '!!str 2476f063981ffd92'
-  server: 51.250.65.209
-  servername: api-maps.yandex.ru
+  name: 8|[VLESS] deDE_1|1.8MB/s
+  network: ws
+  port: 8443
+  server: F2.HaMrAhCoNf.Ir
+  servername: sp.secoxi.site
   tls: true
   type: vless
   udp: true
-  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 8|[VLESS] deDE_2|2.4MB/s
-  network: ws
-  port: 80
-  server: 104.20.63.52
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  uuid: ec356038-494e-407d-a89b-f17adad85e02
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: vip.yaml7.ggff.net
-    max-early-data: 2048
+      Host: p3-sync-06.secoxi.site
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.118 Safari/537.36
     path: /
-- name: 9|[Http] deDE²_1|8.1MB/s|8%|GPT⁺|NF|D+|...
-  password: 336501b6-51d2-11ee-a993-f23c9164ca5d
-  port: 443
-  server: 81af7b98-t9zts0-trhks8-1c9em.de.oshuawei.com
-  sni: 81af7b98-t9zts0-trhks8-1c9em.de.oshuawei.com
-  tls: true
-  type: http
-  username: 336501b6-51d2-11ee-a993-f23c9164ca5d
-- name: 9|[Http] deDE²_2|7.8MB/s|8%|GPT⁺|X|Hist...
+  xudp: true
+- name: 9|[Http] deDE²_1|8.0MB/s|8%|GPT|X|Succe...
   password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
   port: 443
   server: bd1509c5-t9zts0-tbao5v-gacy.de.oshuawei.com

@@ -2,7 +2,7 @@ proxies:
 - alpn:
   - h3
   congestion-controller: bbr
-  name: 1|[TUIC] GB26｜机房｜低风险
+  name: 2|[TUIC] GB26｜机房｜低风险
   password: 08030894-57a7-49e8-83a5-0b99d7a1b820
   port: 1443
   server: 185.85.242.177
@@ -19,11 +19,49 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: 9|[Http] gbGB²_1|1.5MB/s|GPT|X
-  password: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
+- client-fingerprint: chrome
+  encryption: none
+  name: 8,9|[VLESS] gbGB²_1|7.4MB/s|21%|GPT⁺|X|His...
+  network: ws
   port: 443
-  server: 093b9fb1-tbbz40-titr5n-1hhyy.uk.oshuawei.com
-  sni: 093b9fb1-tbbz40-titr5n-1hhyy.uk.oshuawei.com
+  server: 198.62.62.248
+  servername: tar.alabama-tigr.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+  ws-opts:
+    headers:
+      Host: tar.alabama-tigr.info
+    path: /love
+  xudp: true
+- client-fingerprint: chrome
+  name: 8|[VLESS] gbGB_2|1.5MB/s
+  network: ws
+  port: 443
+  server: 198.62.62.235
+  servername: bank.alaska-tigr.info
+  tls: true
+  type: vless
+  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+  ws-opts:
+    headers:
+      Host: bank.alaska-tigr.info
+    path: /love
+- name: 9|[Http] 🏴‍☠_1gb 英国 | GBR|5.3MB/s|GPT⁺|...
+  password: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9
+  port: 443
+  server: d94a8db6-tbdts0-tbc0ig-1ssud.uk.oshuawei.com
+  sni: d94a8db6-tbdts0-tbc0ig-1ssud.uk.oshuawei.com
   tls: true
   type: http
-  username: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
+  username: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9
+- name: 9|[Http] gbGB²_2|5.4MB/s|X|History|[原生|...
+  password: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
+  port: 443
+  server: 0b517612-t9zts0-tcq5zn-19qpt.uk.oshuawei.com
+  sni: 0b517612-t9zts0-tcq5zn-19qpt.uk.oshuawei.com
+  tls: true
+  type: http
+  username: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d

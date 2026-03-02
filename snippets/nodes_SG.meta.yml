@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] SG11｜机房｜高风险 (黑名单)
+  name: 2|[Vmess] SG11｜机房｜高风险 (黑名单)
   network: ws
   port: '12901'
   server: 85.211.242.85
@@ -12,7 +12,7 @@ proxies:
     headers:
       Host: baidu.com
     path: /
-- name: 1|[Hysteria2] SG13｜机房｜低风险
+- name: 2|[Hysteria2] SG13｜机房｜低风险
   password: f95eeec4-01fd-44a7-9e12-b217f41af26e
   port: 51747
   server: 5.180.78.153
@@ -52,15 +52,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 8|[Http] sgSG_1|2.4MB/s
-  password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
-  port: 17235
-  server: a96d7ea6-tbbz40-tds6bp-1hzyr.cm4.oshuawei.com
-  sni: a96d7ea6-tbbz40-tds6bp-1hzyr.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
-- name: 8|[Http] sgSG_2|1.8MB/s
+- name: 8|[Http] sgSG_1|2.3MB/s
   password: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
   port: 17235
   server: 354b50fb-tbbz40-th9kx9-1os43.cm4.oshuawei.com
@@ -68,19 +60,28 @@ proxies:
   tls: true
   type: http
   username: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
-- name: 9|[Http] sgSG²_1|0.7MB/s|8%|GPT⁺|D+|X|S...
-  password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
-  port: 443
-  server: ec3f9e3d-t9zts0-tbao5v-gacy.sg.oshuawei.com
-  sni: ec3f9e3d-t9zts0-tbao5v-gacy.sg.oshuawei.com
+- name: 8|[Http] sgSG_2|2.0MB/s
+  password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
+  port: 17235
+  server: a96d7ea6-tbbz40-tds6bp-1hzyr.cm4.oshuawei.com
+  sni: a96d7ea6-tbbz40-tds6bp-1hzyr.cm4.oshuawei.com
   tls: true
   type: http
-  username: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
-- name: 9|[Http] sgSG²_2|0.9MB/s|X
-  password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
-  port: 443
-  server: 0cf6af18-tbbz40-tee612-2r82.se.oshuawei.com
-  sni: 0cf6af18-tbbz40-tee612-2r82.se.oshuawei.com
-  tls: true
-  type: http
-  username: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+  username: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 9|[Vmess] sgSG²_4|14.2MB/s|44%|GM|YT|X|H...
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  servername: v45.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /

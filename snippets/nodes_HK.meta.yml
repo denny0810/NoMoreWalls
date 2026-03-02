@@ -1,5 +1,5 @@
 proxies:
-- name: 1|[Trojan] HK13｜家宽｜非常安全
+- name: 2|[Trojan] HK13｜家宽｜非常安全
   network: tcp
   password: 984c7793-1447-4af5-9200-d514ad6fe329
   port: 14011
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: jsygouer.weixin-baidu-qq.com
   type: trojan
-- name: 1|[Trojan] HK36｜原生/疑似家宽｜非常安全
+- name: 2|[Trojan] HK36｜原生/疑似家宽｜非常安全
   network: tcp
   password: 5f6ded93-4ab8-4a99-9c84-b19b9993f27c
   port: 31101
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- name: 1|[Trojan] HK37｜原生/疑似家宽｜非常安全
+- name: 2|[Trojan] HK37｜原生/疑似家宽｜非常安全
   network: tcp
   password: 125f929b-dbde-43b9-b498-695f1cd45d68
   port: 31101
@@ -43,15 +43,15 @@ proxies:
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 331
-  server: 13.231.56.214
+  server: 160.16.72.205
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 6,7|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1359
-  server: 52.199.90.129
+  port: 54548
+  server: 18.166.31.170
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -59,7 +59,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 504
-  server: 18.162.142.234
+  server: 95.40.63.159
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -73,6 +73,38 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 8|[Http] hkHK_1|1.2MB/s
+  password: <password>
+  port: 8443
+  server: 0535d23a-ta1og0-thiwul-1gcq2.hkt.cdnhuawei.com
+  sni: 0535d23a-ta1og0-thiwul-1gcq2.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: 759bf004-6137-11ec-bd7c-f23c913c8d2b
+- name: 8|[Http] hkHK_2|1.1MB/s
+  password: <password>
+  port: 8443
+  server: 9870b91e-t9zts0-tbac1z-1j3zm.hkt.cdnhuawei.com
+  sni: 9870b91e-t9zts0-tbac1z-1j3zm.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: 6ce63b80-8b5b-11ef-b635-f23c9164ca5d
+- name: 8|[Http] hkHK_3|1.3MB/s
+  password: <password>
+  port: 8443
+  server: 3f38a75b-ta1og0-tgplbc-hkb8.hkt.cdnhuawei.com
+  sni: 3f38a75b-ta1og0-tgplbc-hkb8.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: 21a70fd2-c69c-11eb-8673-f23c9164ca5d
+- name: 8|[Http] hkHK_4|1.2MB/s
+  password: <password>
+  port: 8443
+  server: 90d955b3-t9zts0-trg4wh-z65w.hkt.cdnhuawei.com
+  sni: 90d955b3-t9zts0-trg4wh-z65w.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9
 - name: 9|[Http] hkHK²_1|4.5MB/s|1%|NF|D+|X|His...
   password: <password>
   port: 8443

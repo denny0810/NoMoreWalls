@@ -1,14 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] DE19｜机房｜高风险 (黑名单)
+  name: 2|[Vmess] DE19｜机房｜高风险 (黑名单)
   network: tcp
   port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 1|[Trojan] DE12｜机房｜低风险
+- name: 2|[Trojan] DE12｜机房｜低风险
   network: ws
   password: e4b6a49c-c806-499d-87ef-977a5c92758e
   port: 2087
@@ -20,7 +20,7 @@ proxies:
     headers:
       Host: 17722563346712.206353.xyz
     path: '%2Fagrbniuh'
-- name: 1|[Trojan] DE13｜机房｜低风险
+- name: 2|[Trojan] DE13｜机房｜低风险
   network: ws
   password: e4b6a49c-c806-499d-87ef-977a5c92758e
   port: 8443
@@ -51,43 +51,37 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.AuLaWzZ9SpBJgHdNgPL-CJTYw06STE6mO-sd-ZF7IFA
-  name: 8|[VLESS] deDE_1|2.1MB/s
-  network: ws
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 8|[VLESS] deDE_1|2.0MB/s
+  network: tcp
   port: 443
-  server: cf.tencentapp.cn
-  servername: dg01-cdn.nekohub.xyz
+  reality-opts:
+    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+    short-id: '!!str 2476f063981ffd92'
+  server: 51.250.65.209
+  servername: api-maps.yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: 5781d3c7-a91e-4e93-9769-65de4f3dda0f
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: dg01.nekohub.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    max-early-data: 4096
-    path: /vless_ws
+  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 8|[VLESS] deDE_2|1.7MB/s
+  name: 8|[VLESS] deDE_2|2.4MB/s
   network: ws
   port: 80
-  server: 104.24.45.247
+  server: 104.20.63.52
+  skip-cert-verify: false
+  tls: false
   type: vless
-  udp: true
-  uuid: 2e71d8fc-d2e8-44fc-89bd-c8a449a193aa
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: odd-bread-435d.ahmadrezasteamacc.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.67 Safari/537.36
+      Host: vip.yaml7.ggff.net
     max-early-data: 2048
     path: /
-  xudp: true
 - name: 9|[Http] deDE²_1|8.1MB/s|8%|GPT⁺|NF|D+|...
   password: 336501b6-51d2-11ee-a993-f23c9164ca5d
   port: 443

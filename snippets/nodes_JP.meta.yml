@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] JP29｜机房｜低风险
+  name: 2|[Vmess] JP29｜机房｜低风险
   network: tcp
   port: '28429'
   server: 151.242.183.239
@@ -18,16 +18,16 @@ proxies:
 - name: 6,7|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 32536
-  server: 52.199.90.129
+  port: 3022
+  server: 54.249.220.183
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 6,7|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
-  port: 34818
-  server: 57.180.8.230
+  port: 2001
+  server: 160.16.72.205
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -35,10 +35,42 @@ proxies:
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 2001
-  server: 160.16.70.180
+  server: 160.16.106.99
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] jpJP_1|2.5MB/s
+  network: ws
+  port: 80
+  server: 162.159.38.62
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vip.yaml7.ggff.net
+    max-early-data: 2048
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] jpJP_2|2.8MB/s
+  network: ws
+  port: 80
+  server: 162.159.45.207
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vip.yaml7.ggff.net
+    max-early-data: 2048
+    path: /
 - name: 9|[Http] jpJP²_1|2.0MB/s|25%|GPT|X|Succ...
   password: fc5ba91a-acd7-11ef-97e0-f23c9164ca5d
   port: 27233

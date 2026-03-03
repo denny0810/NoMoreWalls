@@ -1,50 +1,62 @@
 proxies:
-- name: 1|[Trojan] DE11｜机房｜低风险
-  network: ws
-  password: 08f7246f-182a-4e04-a84b-d30094a2442b
-  port: 2087
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17724352329422.206353.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17724352322839.206353.xyz
-    path: '%2Fagrbniuh'
-- name: 1|[Trojan] DE12｜机房｜低风险
-  network: ws
-  password: 08f7246f-182a-4e04-a84b-d30094a2442b
-  port: 2083
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17724352328530.206353.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17724352322338.206353.xyz
-    path: '%2Fagrbniuh'
-- name: 1|[Trojan] DE13｜机房｜低风险
-  network: ws
-  password: 08f7246f-182a-4e04-a84b-d30094a2442b
-  port: 8443
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17724352329463.206353.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17724352322146.206353.xyz
-    path: '%2Fagrbniuh'
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] DE23｜机房｜高风险 (黑名单)
+  name: 2|[Vmess] DE29｜机房｜高风险 (黑名单)
   network: tcp
   port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 3|[Hysteria2] DE
+- name: 2|[Trojan] DE18｜机房｜低风险
+  network: ws
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2096
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215603866.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17725215608498.206353.xyz
+    path: '%2Fagrbniuh'
+- name: 2|[Trojan] DE19｜机房｜低风险
+  network: ws
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2087
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215607467.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17725215608933.206353.xyz
+    path: '%2Fagrbniuh'
+- name: 2|[Trojan] DE20｜机房｜低风险
+  network: ws
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2083
+  server: bestcdn3.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215602903.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17725215602520.206353.xyz
+    path: '%2Fagrbniuh'
+- name: 2|[Trojan] DE21｜机房｜低风险
+  network: ws
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 8443
+  server: bestcdn4.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215601176.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17725215603496.206353.xyz
+    path: '%2Fagrbniuh'
+- name: 4|[Hysteria2] DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -52,7 +64,7 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: '3,4|[Hysteria2] کانال تلگرام : Free_VPN_CH@'
+- name: '4,5|[Hysteria2] کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -62,55 +74,50 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 7,8|[Http] deDE²_2|7.7MB/s|10%|GPT⁺|D+|X|...
-  password: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
-  port: 443
-  server: 40a3d2c7-tbbz40-tifnix-1ro8s.de.oshuawei.com
-  sni: 40a3d2c7-tbbz40-tifnix-1ro8s.de.oshuawei.com
-  tls: true
-  type: http
-  username: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
-- name: 7|[Http] deDE_2|1.1MB/s
-  password: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
-  port: 443
-  server: 79b073c7-tbbz40-tvb36r-1qwom.de.oshuawei.com
-  sni: 79b073c7-tbbz40-tvb36r-1qwom.de.oshuawei.com
-  tls: true
-  type: http
-  username: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 7|[VLESS] deDE_3|1.0MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6r6uq4tZym5wRhJ5uti-h-UvN6uatQodMcG8rBU79Q4
-  server: squad-2-de.vps-m.ru
-  servername: booking.com
+- client-fingerprint: random
+  encryption: none
+  name: 8|[VLESS] deDE_1|1.3MB/s
+  network: ws
+  port: 8443
+  server: 136.244.95.103
+  servername: lirpeuijr.chinav.indevs.in
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 0509acee-63e3-4364-95cc-21c601f059be
-- name: 7|[Http] deDE_4|1.1MB/s
-  password: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: lirpeuijr.chinav.indevs.in
+    path: /danfeng
+- name: 9|[Http] deDE²_1|7.4MB/s|10%|GPT⁺|D+|X
+  password: c11ff50c-f582-11ee-94df-f23c9164ca5d
   port: 443
-  server: 95a1ee29-tb4kg0-tcjfxp-1p1b.de.oshuawei.com
-  sni: 95a1ee29-tb4kg0-tcjfxp-1p1b.de.oshuawei.com
+  server: 84274a64-tbdts0-tl09la-1q91p.de.oshuawei.com
+  sni: 84274a64-tbdts0-tl09la-1q91p.de.oshuawei.com
   tls: true
   type: http
-  username: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
-- name: 8|[Http] deDE²_1|7.7MB/s|10%|GPT|D+|X|S...
-  password: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
+  username: c11ff50c-f582-11ee-94df-f23c9164ca5d
+- name: 9|[Http] deDE²_2|7.4MB/s|10%|GPT⁺|NF|X|...
+  password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
   port: 443
-  server: b3e47d68-tbdts0-tr9h64-1f1f1.de.oshuawei.com
-  sni: b3e47d68-tbdts0-tr9h64-1f1f1.de.oshuawei.com
+  server: bd1509c5-t9zts0-tbao5v-gacy.de.oshuawei.com
+  sni: bd1509c5-t9zts0-tbao5v-gacy.de.oshuawei.com
   tls: true
   type: http
-  username: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
-- name: 8|[Http] deDE²_3|7.7MB/s|10%|GPT⁺|TK|D+...
-  password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+  username: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
+- name: 9|[Http] deDE²_3|7.6MB/s|X|History|[广播|...
+  password: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9
   port: 443
-  server: 5905107a-ta1og0-tgzvop-hns7.de.oshuawei.com
-  sni: 5905107a-ta1og0-tgzvop-hns7.de.oshuawei.com
+  server: a17f17b9-t9zts0-tgr32b-wj6v.de.oshuawei.com
+  sni: a17f17b9-t9zts0-tgr32b-wj6v.de.oshuawei.com
   tls: true
   type: http
-  username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+  username: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9
+- name: 9|[Http] deDE²_4|6.8MB/s|10%|X|History
+  password: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
+  port: 443
+  server: a3ddee03-t9zts0-tm23vf-1jk6u.de.oshuawei.com
+  sni: a3ddee03-t9zts0-tm23vf-1jk6u.de.oshuawei.com
+  tls: true
+  type: http
+  username: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9

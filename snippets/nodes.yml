@@ -1,165 +1,394 @@
 proxies:
 - alterId: 0
+  cipher: none
+  name: 2|[Vmess] CA1｜机房｜低风险
+  network: ws
+  port: '443'
+  server: ca2.xvmess.site
+  servername: '6777'
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ca2.xvmess.site
+    path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.COM-TO-KEEP-THIS-SERVER-ALIVE
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  name: 2|[Trojan] US16｜机房｜低风险
+  network: ws
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  port: 443
+  server: 104.17.137.155
+  skip-cert-verify: true
+  sni: sg680.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sg680.pages.dev
+    path: '%2F'
+- alterId: 0
   cipher: auto
-  name: 1|[Vmess] US68｜机房｜低风险
+  name: 2|[Vmess] DE29｜机房｜高风险 (黑名单)
   network: tcp
-  port: '31350'
-  server: c86s3.portablesubmarines.com
+  port: '180'
+  server: 82.198.246.97
   tls: false
   type: vmess
-  uuid: 5f7e4a08-757a-48fa-8ed8-38599c684851
-- alterId: 0
-  cipher: auto
-  name: 1|[Vmess] ID1｜家宽｜非常安全
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 2|[Trojan] US55｜机房｜低风险
   network: ws
-  port: '8443'
-  server: 38.55.193.207
-  servername: mn1ray.jagoanvip.xyz
-  tls: true
-  type: vmess
-  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2087
+  server: bestcdn0.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215604454.682637.xyz
+  type: trojan
   ws-opts:
     headers:
-      Host: mn1ray.jagoanvip.xyz
-    path: /vvip
-- alterId: 0
-  cipher: auto
-  name: 1|[Vmess] ID2｜家宽｜非常安全
+      Host: 17725215604099.682637.xyz
+    path: '%2Fahyrtuyjykl'
+- name: 2|[Trojan] US56｜机房｜低风险
   network: ws
-  port: '443'
-  server: 38.55.194.87
-  servername: mn1ray.jagoanvip.xyz
-  tls: true
-  type: vmess
-  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2087
+  server: bestcdn0.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215609408.682637.xyz
+  type: trojan
   ws-opts:
     headers:
-      Host: mn1ray.jagoanvip.xyz
-    path: /vvip
-- alterId: 0
-  cipher: auto
-  name: 1|[Vmess] ID3｜家宽｜非常安全
+      Host: 17725215608114.682637.xyz
+    path: '%2Fahyrtuyjykl'
+- name: 2|[Trojan] US57｜机房｜低风险
   network: ws
-  port: '443'
-  server: 8.223.63.150
-  servername: mn1ray.jagoanvip.xyz
-  tls: true
-  type: vmess
-  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2087
+  server: bestcdn0.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215601317.682637.xyz
+  type: trojan
   ws-opts:
     headers:
-      Host: mn1ray.jagoanvip.xyz
-    path: /vvip
-- alterId: 0
-  cipher: auto
-  name: 1|[Vmess] ID4｜家宽｜非常安全
+      Host: 17725215607171.682637.xyz
+    path: '%2Fahyrtuyjykl'
+- name: 2|[Trojan] US58｜机房｜低风险
   network: ws
-  port: '443'
-  server: 124.243.138.124
-  servername: mn1ray.jagoanvip.xyz
-  tls: true
-  type: vmess
-  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2087
+  server: bestcdn0.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215607342.682637.xyz
+  type: trojan
   ws-opts:
     headers:
-      Host: mn1ray.jagoanvip.xyz
-    path: /vvip
-- alterId: 0
-  cipher: auto
-  name: 1|[Vmess] ID5｜家宽｜非常安全
+      Host: 17725215605379.682637.xyz
+    path: '%2Fahyrtuyjykl'
+- name: 2|[Trojan] US59｜机房｜低风险
   network: ws
-  port: '443'
-  server: 34.143.159.175
-  servername: mn1ray.jagoanvip.xyz
-  tls: true
-  type: vmess
-  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2096
+  server: bestcdn0.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215608802.682637.xyz
+  type: trojan
   ws-opts:
     headers:
-      Host: mn1ray.jagoanvip.xyz
-    path: /vvip
-- alterId: 0
-  cipher: auto
-  name: 1|[Vmess] ID6｜家宽｜非常安全
+      Host: 17725215607126.682637.xyz
+    path: '%2Fahyrtuyjykl'
+- name: 2|[Trojan] US60｜机房｜低风险
   network: ws
-  port: '443'
-  server: 18.143.76.130
-  servername: mn1ray.jagoanvip.xyz
-  tls: true
-  type: vmess
-  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 8443
+  server: bestcdn0.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215601286.682637.xyz
+  type: trojan
   ws-opts:
     headers:
-      Host: mn1ray.jagoanvip.xyz
-    path: /vvip
-- alterId: 0
-  cipher: auto
-  name: 1|[Vmess] ID7｜家宽｜非常安全
+      Host: 17725215608285.682637.xyz
+    path: '%2Fahyrtuyjykl'
+- name: 2|[Trojan] US61｜机房｜低风险
   network: ws
-  port: '12596'
-  server: 213.35.108.135
-  servername: mn1ray.jagoanvip.xyz
-  tls: true
-  type: vmess
-  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 8443
+  server: bestcdn0.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215604158.682637.xyz
+  type: trojan
   ws-opts:
     headers:
-      Host: mn1ray.jagoanvip.xyz
-    path: /vvip
-- alterId: 0
-  cipher: auto
-  name: 1|[Vmess] ID8｜家宽｜非常安全
+      Host: 17725215602477.682637.xyz
+    path: '%2Fahyrtuyjykl'
+- name: 2|[Trojan] US62｜机房｜低风险
   network: ws
-  port: '443'
-  server: 47.76.218.163
-  servername: mn1ray.jagoanvip.xyz
-  tls: true
-  type: vmess
-  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2053
+  server: bestcdn0.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215609612.682637.xyz
+  type: trojan
   ws-opts:
     headers:
-      Host: mn1ray.jagoanvip.xyz
-    path: /vvip
-- alterId: 0
-  cipher: auto
-  name: 1|[Vmess] ID15｜家宽｜非常安全
+      Host: 17725215605765.682637.xyz
+    path: '%2Fahyrtuyjykl'
+- name: 2|[Trojan] US63｜机房｜低风险
   network: ws
-  port: '14670'
-  server: 155.248.186.103
-  servername: mn1ray.jagoanvip.xyz
-  tls: true
-  type: vmess
-  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2053
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215603192.206352.xyz
+  type: trojan
   ws-opts:
     headers:
-      Host: mn1ray.jagoanvip.xyz
-    path: /vvip
-- alterId: 0
-  cipher: auto
-  name: 1|[Vmess] ID17｜家宽｜非常安全
+      Host: 17725215604725.206352.xyz
+    path: '%2Fagraeabtegrrh'
+- name: 2|[Trojan] DE18｜机房｜低风险
   network: ws
-  port: '2087'
-  server: 103.224.80.7
-  servername: mn1ray.jagoanvip.xyz
-  tls: true
-  type: vmess
-  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2096
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215603866.206353.xyz
+  type: trojan
   ws-opts:
     headers:
-      Host: mn1ray.jagoanvip.xyz
-    path: /vvip
-- alterId: 2
-  cipher: auto
-  name: 1|[Vmess] US3｜机房｜低风险
-  network: tcp
-  port: '30809'
-  server: v9.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      Host: 17725215608498.206353.xyz
+    path: '%2Fagrbniuh'
+- name: 2|[Trojan] US64｜机房｜低风险
+  network: ws
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2087
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215603457.206355.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17725215603633.206355.xyz
+    path: '%2Fvideomuaawe'
+- name: 2|[Trojan] US65｜机房｜低风险
+  network: ws
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2087
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215609555.206356.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17725215607373.206356.xyz
+    path: '%2Fdmusicmuaawe'
+- name: 2|[Trojan] US66｜机房｜低风险
+  network: ws
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2087
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215607104.168381.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17725215609163.168381.xyz
+    path: '%2Ftianboephth'
+- name: 2|[Trojan] US67｜机房｜低风险
+  network: ws
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2083
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215607662.206352.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17725215607883.206352.xyz
+    path: '%2Fagraeabtegrrh'
+- name: 2|[Trojan] DE19｜机房｜低风险
+  network: ws
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2087
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215607467.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17725215608933.206353.xyz
+    path: '%2Fagrbniuh'
+- name: 2|[Trojan] US68｜机房｜低风险
+  network: ws
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2096
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215607851.206355.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17725215607305.206355.xyz
+    path: '%2Fvideomuaawe'
+- name: 2|[Trojan] US69｜机房｜低风险
+  network: ws
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2096
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215604674.206356.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17725215604033.206356.xyz
+    path: '%2Fdmusicmuaawe'
+- name: 2|[Trojan] US70｜机房｜低风险
+  network: ws
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2096
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215609263.168381.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17725215607294.168381.xyz
+    path: '%2Ftianboephth'
+- name: 2|[Trojan] US71｜机房｜低风险
+  network: ws
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2087
+  server: bestcdn3.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215603694.206352.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17725215602970.206352.xyz
+    path: '%2Fagraeabtegrrh'
+- name: 2|[Trojan] DE20｜机房｜低风险
+  network: ws
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2083
+  server: bestcdn3.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215602903.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17725215602520.206353.xyz
+    path: '%2Fagrbniuh'
+- name: 2|[Trojan] US72｜机房｜低风险
+  network: ws
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2053
+  server: bestcdn3.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215604855.206355.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17725215608020.206355.xyz
+    path: '%2Fvideomuaawe'
+- name: 2|[Trojan] US73｜机房｜低风险
+  network: ws
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2053
+  server: bestcdn3.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215601852.206356.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17725215604457.206356.xyz
+    path: '%2Fdmusicmuaawe'
+- name: 2|[Trojan] US74｜机房｜低风险
+  network: ws
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2053
+  server: bestcdn3.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215603595.168381.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17725215601711.168381.xyz
+    path: '%2Ftianboephth'
+- name: 2|[Trojan] US75｜机房｜低风险
+  network: ws
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2096
+  server: bestcdn4.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215603332.206352.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17725215601401.206352.xyz
+    path: '%2Fagraeabtegrrh'
+- name: 2|[Trojan] DE21｜机房｜低风险
+  network: ws
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 8443
+  server: bestcdn4.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215601176.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17725215603496.206353.xyz
+    path: '%2Fagrbniuh'
+- name: 2|[Trojan] US76｜机房｜低风险
+  network: ws
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2083
+  server: bestcdn4.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215608094.206355.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17725215608116.206355.xyz
+    path: '%2Fvideomuaawe'
+- name: 2|[Trojan] US77｜机房｜低风险
+  network: ws
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2083
+  server: bestcdn4.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215608980.206356.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17725215603067.206356.xyz
+    path: '%2Fdmusicmuaawe'
+- name: 2|[Trojan] US78｜机房｜低风险
+  network: ws
+  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
+  port: 2083
+  server: bestcdn4.868863.xyz
+  skip-cert-verify: true
+  sni: 17725215604585.168381.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17725215606695.168381.xyz
+    path: '%2Ftianboephth'
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  name: 2|[Trojan] US79｜机房｜低风险
+  network: ws
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  port: 443
+  server: cf.cloudflare.182682.xyz
+  skip-cert-verify: true
+  sni: snll668.sxi.ndjp.net
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snll668.sxi.ndjp.net
+    path: '%2F'
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] ID31｜家宽｜非常安全
+  name: 2|[Vmess] ID10｜家宽｜非常安全
   network: ws
   port: '8443'
   server: 175.29.23.104
@@ -171,599 +400,107 @@ proxies:
     headers:
       Host: mn1ray.jagoanvip.xyz
     path: /vvip
-- alterId: 0
-  cipher: auto
-  name: 1|[Vmess] ID30｜家宽｜非常安全
-  network: ws
-  port: '443'
-  server: 38.55.194.138
-  servername: mn1ray.jagoanvip.xyz
-  tls: true
-  type: vmess
-  uuid: 462d9694-62b5-4781-a287-61a422b920e8
-  ws-opts:
-    headers:
-      Host: mn1ray.jagoanvip.xyz
-    path: /vvip
-- alterId: 0
-  cipher: auto
-  name: 1|[Vmess] ID28｜家宽｜非常安全
-  network: ws
-  port: '41079'
-  server: 43.163.6.135
-  servername: mn1ray.jagoanvip.xyz
-  tls: true
-  type: vmess
-  uuid: 462d9694-62b5-4781-a287-61a422b920e8
-  ws-opts:
-    headers:
-      Host: mn1ray.jagoanvip.xyz
-    path: /vvip
-- alterId: 0
-  cipher: auto
-  name: 1|[Vmess] ID33｜家宽｜非常安全
-  network: ws
-  port: '443'
-  server: 83.229.121.113
-  servername: mn1ray.jagoanvip.xyz
-  tls: true
-  type: vmess
-  uuid: 462d9694-62b5-4781-a287-61a422b920e8
-  ws-opts:
-    headers:
-      Host: mn1ray.jagoanvip.xyz
-    path: /vvip
-- alterId: 0
-  cipher: auto
-  name: 1|[Vmess] ID16｜家宽｜非常安全
-  network: ws
-  port: '17534'
-  server: 213.35.127.9
-  servername: mn1ray.jagoanvip.xyz
-  tls: true
-  type: vmess
-  uuid: 462d9694-62b5-4781-a287-61a422b920e8
-  ws-opts:
-    headers:
-      Host: mn1ray.jagoanvip.xyz
-    path: /vvip
-- alterId: 0
-  cipher: auto
-  name: 1|[Vmess] ID32｜家宽｜非常安全
-  network: ws
-  port: '443'
-  server: 43.161.254.121
-  servername: mn1ray.jagoanvip.xyz
-  tls: true
-  type: vmess
-  uuid: 462d9694-62b5-4781-a287-61a422b920e8
-  ws-opts:
-    headers:
-      Host: mn1ray.jagoanvip.xyz
-    path: /vvip
-- name: 1|[Trojan] US48｜机房｜低风险
-  network: ws
-  password: 08f7246f-182a-4e04-a84b-d30094a2442b
-  port: 2087
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17724352321577.682637.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17724352329010.682637.xyz
-    path: '%2Fahyrtuyjykl'
-- name: 1|[Trojan] US49｜机房｜低风险
-  network: ws
-  password: 08f7246f-182a-4e04-a84b-d30094a2442b
-  port: 2087
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17724352328188.682637.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17724352321972.682637.xyz
-    path: '%2Fahyrtuyjykl'
-- name: 1|[Trojan] US50｜机房｜低风险
-  network: ws
-  password: 08f7246f-182a-4e04-a84b-d30094a2442b
-  port: 2087
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17724352328870.682637.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17724352324548.682637.xyz
-    path: '%2Fahyrtuyjykl'
-- name: 1|[Trojan] US51｜机房｜低风险
-  network: ws
-  password: 08f7246f-182a-4e04-a84b-d30094a2442b
-  port: 2087
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17724352323872.682637.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17724352322805.682637.xyz
-    path: '%2Fahyrtuyjykl'
-- name: 1|[Trojan] US52｜机房｜低风险
-  network: ws
-  password: 08f7246f-182a-4e04-a84b-d30094a2442b
-  port: 2096
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17724352321363.682637.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17724352327101.682637.xyz
-    path: '%2Fahyrtuyjykl'
-- name: 1|[Trojan] US53｜机房｜低风险
-  network: ws
-  password: 08f7246f-182a-4e04-a84b-d30094a2442b
-  port: 8443
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17724352328625.682637.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17724352329906.682637.xyz
-    path: '%2Fahyrtuyjykl'
-- name: 1|[Trojan] US54｜机房｜低风险
-  network: ws
-  password: 08f7246f-182a-4e04-a84b-d30094a2442b
-  port: 2053
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17724352326540.682637.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17724352328350.682637.xyz
-    path: '%2Fahyrtuyjykl'
-- name: 1|[Trojan] US55｜机房｜低风险
-  network: ws
-  password: 08f7246f-182a-4e04-a84b-d30094a2442b
-  port: 2053
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17724352325511.206352.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17724352324663.206352.xyz
-    path: '%2Fagraeabtegrrh'
-- name: 1|[Trojan] US56｜机房｜低风险
-  network: ws
-  password: 08f7246f-182a-4e04-a84b-d30094a2442b
-  port: 2083
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17724352325404.206352.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17724352329095.206352.xyz
-    path: '%2Fagraeabtegrrh'
-- name: 1|[Trojan] DE11｜机房｜低风险
-  network: ws
-  password: 08f7246f-182a-4e04-a84b-d30094a2442b
-  port: 2087
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17724352329422.206353.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17724352322839.206353.xyz
-    path: '%2Fagrbniuh'
-- name: 1|[Trojan] US57｜机房｜低风险
-  network: ws
-  password: 08f7246f-182a-4e04-a84b-d30094a2442b
-  port: 2096
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17724352323129.206355.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17724352327059.206355.xyz
-    path: '%2Fvideomuaawe'
-- name: 1|[Trojan] US58｜机房｜低风险
-  network: ws
-  password: 08f7246f-182a-4e04-a84b-d30094a2442b
-  port: 2096
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17724352328670.206356.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17724352323131.206356.xyz
-    path: '%2Fdmusicmuaawe'
-- name: 1|[Trojan] US59｜机房｜低风险
-  network: ws
-  password: 08f7246f-182a-4e04-a84b-d30094a2442b
-  port: 2096
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17724352321850.168381.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17724352327160.168381.xyz
-    path: '%2Ftianboephth'
-- name: 1|[Trojan] US60｜机房｜低风险
-  network: ws
-  password: 08f7246f-182a-4e04-a84b-d30094a2442b
-  port: 2087
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17724352327399.206352.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17724352327048.206352.xyz
-    path: '%2Fagraeabtegrrh'
-- name: 1|[Trojan] DE12｜机房｜低风险
-  network: ws
-  password: 08f7246f-182a-4e04-a84b-d30094a2442b
-  port: 2083
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17724352328530.206353.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17724352322338.206353.xyz
-    path: '%2Fagrbniuh'
-- name: 1|[Trojan] US61｜机房｜低风险
-  network: ws
-  password: 08f7246f-182a-4e04-a84b-d30094a2442b
-  port: 2053
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17724352325874.206355.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17724352321258.206355.xyz
-    path: '%2Fvideomuaawe'
-- name: 1|[Trojan] US62｜机房｜低风险
-  network: ws
-  password: 08f7246f-182a-4e04-a84b-d30094a2442b
-  port: 2053
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17724352321921.206356.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17724352323956.206356.xyz
-    path: '%2Fdmusicmuaawe'
-- name: 1|[Trojan] US63｜机房｜低风险
-  network: ws
-  password: 08f7246f-182a-4e04-a84b-d30094a2442b
-  port: 2053
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17724352328773.168381.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17724352325220.168381.xyz
-    path: '%2Ftianboephth'
-- name: 1|[Trojan] US64｜机房｜低风险
-  network: ws
-  password: 08f7246f-182a-4e04-a84b-d30094a2442b
-  port: 2096
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17724352324785.206352.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17724352322843.206352.xyz
-    path: '%2Fagraeabtegrrh'
-- name: 1|[Trojan] DE13｜机房｜低风险
-  network: ws
-  password: 08f7246f-182a-4e04-a84b-d30094a2442b
-  port: 8443
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17724352329463.206353.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17724352322146.206353.xyz
-    path: '%2Fagrbniuh'
-- name: 1|[Trojan] US65｜机房｜低风险
-  network: ws
-  password: 08f7246f-182a-4e04-a84b-d30094a2442b
-  port: 2083
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17724352324125.206355.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17724352323259.206355.xyz
-    path: '%2Fvideomuaawe'
-- name: 1|[Trojan] US66｜机房｜低风险
-  network: ws
-  password: 08f7246f-182a-4e04-a84b-d30094a2442b
-  port: 2083
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17724352329127.206356.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17724352328233.206356.xyz
-    path: '%2Fdmusicmuaawe'
-- name: 1|[Trojan] US67｜机房｜低风险
-  network: ws
-  password: 08f7246f-182a-4e04-a84b-d30094a2442b
-  port: 2083
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17724352329822.168381.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17724352329739.168381.xyz
-    path: '%2Ftianboephth'
 - alterId: 2
   cipher: auto
-  name: 1|[Vmess] FR11｜机房｜低风险
+  name: 2|[Vmess] US85｜机房｜低风险
   network: tcp
-  port: '30835'
-  server: v35.hdacd.com
+  port: '30804'
+  server: v4.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 2|[Trojan] IQ1｜机房｜低风险
+  network: tcp
+  password: af4b064a9c39472fb34ad8b113acdc6b
+  port: 443
+  server: 154.93.37.237
+  skip-cert-verify: true
+  sni: 154.93.37.237
+  type: trojan
+- name: 2|[Trojan] MD1｜商宽｜非常安全
+  network: tcp
+  password: af4b064a9c39472fb34ad8b113acdc6b
+  port: 443
+  server: 45.142.212.145
+  skip-cert-verify: true
+  sni: 45.142.212.145
+  type: trojan
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  name: 2|[Trojan] US91｜机房｜低风险
+  network: ws
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  port: 443
+  server: 172.64.52.45
+  skip-cert-verify: true
+  sni: sg680.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sg680.pages.dev
+    path: '%2F'
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  name: 2|[Trojan] HK57｜机房｜低风险
+  network: ws
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  port: 443
+  server: 108.162.198.96
+  skip-cert-verify: true
+  sni: sg680.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sg680.pages.dev
+    path: '%2F'
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  name: 2|[Trojan] HK62｜机房｜低风险
+  network: ws
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  port: 443
+  server: 104.16.158.249
+  skip-cert-verify: true
+  sni: sg680.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sg680.pages.dev
+    path: '%2F'
+- alterId: 2
+  cipher: auto
+  name: 2|[Vmess] GB10｜机房｜低风险
+  network: tcp
+  port: '30836'
+  server: v36.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] DE23｜机房｜高风险 (黑名单)
+  name: 2|[Vmess] SG31｜机房｜低风险
   network: tcp
-  port: '180'
-  server: 82.198.246.97
+  port: '30812'
+  server: v12.hdacd.com
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - http/1.1
-  name: 1|[Trojan] US77｜机房｜低风险
-  network: ws
-  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  port: 443
-  server: bgt.1x2.indevs.in
-  skip-cert-verify: true
-  sni: bgt.1x2.indevs.in
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bgt.1x2.indevs.in
-    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- alterId: 0
-  cipher: auto
-  name: 1|[Vmess] IN3｜机房｜低风险
-  network: ws
-  port: '12887'
-  server: 85.211.242.85
-  tls: false
-  type: vmess
-  uuid: cd99e4a6-912e-49f1-9fec-9dc0b3fb4fa3
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|[Vmess] AU2｜机房｜低风险
-  network: ws
-  port: '12889'
-  server: 85.211.242.85
-  tls: false
-  type: vmess
-  uuid: cd99e4a6-912e-49f1-9fec-9dc0b3fb4fa3
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|[Vmess] SG11｜机房｜高风险 (黑名单)
-  network: ws
-  port: '12901'
-  server: 85.211.242.85
-  tls: false
-  type: vmess
-  uuid: cd99e4a6-912e-49f1-9fec-9dc0b3fb4fa3
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-- name: 1|[Trojan] US109｜家宽｜非常安全
-  network: tcp
-  password: 92953fc6-f497-43af-9d6d-f3b5589df318
-  port: 35502
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: 1|[Trojan] US115｜机房｜低风险
-  network: ws
-  password: f95eeec4-01fd-44a7-9e12-b217f41af26e
-  port: 443
-  server: 23.227.38.166
-  skip-cert-verify: true
-  sni: ni5qwas2a6ysde23.usgogo202510.top
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ni5qwas2a6ysde23.usgogo202510.top
-    path: '%2Fimages'
-- name: 1|[Trojan] US116｜机房｜低风险
-  network: ws
-  password: f95eeec4-01fd-44a7-9e12-b217f41af26e
-  port: 443
-  server: 23.227.38.113
-  skip-cert-verify: true
-  sni: ni5qwas2a6ysde23.usgogo202510.top
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ni5qwas2a6ysde23.usgogo202510.top
-    path: '%2Fimages'
-- name: 1|[Trojan] CA3｜商宽｜非常安全
-  network: ws
-  password: f95eeec4-01fd-44a7-9e12-b217f41af26e
-  port: 443
-  server: 141.193.213.60
-  skip-cert-verify: true
-  sni: 5qfg26y3xj2zjlmr.catimecsgo.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 5qfg26y3xj2zjlmr.catimecsgo.xyz
-    path: '%2Fimages'
-- name: 1|[Trojan] CA4｜商宽｜非常安全
-  network: ws
-  password: f95eeec4-01fd-44a7-9e12-b217f41af26e
-  port: 443
-  server: cloudflare.182682.xyz
-  skip-cert-verify: true
-  sni: 5qfg26y3xj2zjlmr.catimecsgo.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 5qfg26y3xj2zjlmr.catimecsgo.xyz
-    path: '%2Fimages'
-- name: 1|[Trojan] HK34｜商宽｜非常安全
-  network: ws
-  password: f95eeec4-01fd-44a7-9e12-b217f41af26e
-  port: 443
-  server: 23.227.38.178
-  skip-cert-verify: true
-  sni: q6clkp794liy3y90.hktimecsgo.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: q6clkp794liy3y90.hktimecsgo.xyz
-    path: '%2Fimages'
-- name: 1|[Trojan] CY6｜商宽｜非常安全
-  network: ws
-  password: f95eeec4-01fd-44a7-9e12-b217f41af26e
-  port: 443
-  server: 23.227.38.84
-  skip-cert-verify: true
-  sni: 9l3ysxf7rj3nz549.tkgogocsgo.top
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 9l3ysxf7rj3nz549.tkgogocsgo.top
-    path: '%2Fimages'
-- name: 1|[Trojan] US117｜商宽｜非常安全
-  network: ws
-  password: f95eeec4-01fd-44a7-9e12-b217f41af26e
-  port: 443
-  server: 23.227.38.43
-  skip-cert-verify: true
-  sni: ukmp1pz6n5doe90u.tkgogocsgo.top
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ukmp1pz6n5doe90u.tkgogocsgo.top
-    path: '%2Fimages'
-- name: 1|[Trojan] US118｜商宽｜非常安全
-  network: ws
-  password: f95eeec4-01fd-44a7-9e12-b217f41af26e
-  port: 443
-  server: 666.cloudflare.182682.xyz
-  skip-cert-verify: true
-  sni: ukmp1pz6n5doe90u.tkgogocsgo.top
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ukmp1pz6n5doe90u.tkgogocsgo.top
-    path: '%2Fimages'
-- name: 1|[Trojan] US119｜商宽｜非常安全
-  network: ws
-  password: f95eeec4-01fd-44a7-9e12-b217f41af26e
-  port: 443
-  server: 141.193.213.199
-  skip-cert-verify: true
-  sni: ukmp1pz6n5doe90u.tkgogocsgo.top
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ukmp1pz6n5doe90u.tkgogocsgo.top
-    path: '%2Fimages'
-- alterId: 0
-  cipher: auto
-  name: 1|[Vmess] US124｜机房｜低风险
-  network: ws
-  port: '443'
-  server: 192.0.63.199
-  servername: ous3.dean52.top
-  tls: true
-  type: vmess
-  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-  ws-opts:
-    headers:
-      Host: ous3.dean52.top
-    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
-- alterId: 0
-  cipher: auto
-  name: 1|[Vmess] KR21｜机房｜低风险
-  network: ws
-  port: '8443'
-  server: c7.620720.xyz
-  servername: c7.620720.xyz
-  tls: true
-  type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: c7.620720.xyz
-    path: /
-- name: 1|[Trojan] TH17｜机房｜低风险
-  network: tcp
-  password: af4b064a9c39472fb34ad8b113acdc6b
-  port: 443
-  server: 103.76.182.28
-  skip-cert-verify: true
-  sni: 103.76.182.28
-  type: trojan
-- name: 1|[Trojan] ID39｜机房｜低风险
-  network: tcp
-  password: af4b064a9c39472fb34ad8b113acdc6b
-  port: 443
-  server: 103.67.79.156
-  skip-cert-verify: true
-  sni: 103.67.79.156
-  type: trojan
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
-  name: '5,6|[SS] tg频道:@ripaojiedian #1'
+  name: '6,7|[SS] tg频道:@ripaojiedian #1'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: 5|[Vmess] hk 香港|@ripaojiedian
+  name: 6|[Vmess] hk 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 5,6|[Trojan] 香港3|@ripaojiedian
+- name: 6,7|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 331
@@ -771,7 +508,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 香港4|@ripaojiedian
+- name: 6,7|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 388
@@ -779,7 +516,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 5,6|[Trojan] 香港5|@ripaojiedian
+- name: 6,7|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 2826
@@ -787,7 +524,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 5,6|[Trojan] 日本|@ripaojiedian
+- name: 6,7|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 21508
@@ -795,7 +532,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 5,6|[Trojan] 日本2|@ripaojiedian
+- name: 6,7|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 34818
@@ -803,7 +540,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 日本3|@ripaojiedian
+- name: 6,7|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 2001
@@ -811,7 +548,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 新加坡|@ripaojiedian
+- name: 6,7|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 3419
@@ -819,7 +556,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 新加坡2|@ripaojiedian
+- name: 6,7|[Trojan] 新加坡2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 3419
@@ -827,7 +564,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 新加坡3|@ripaojiedian
+- name: 6,7|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 25343
@@ -835,7 +572,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 5,6|[Trojan] 美国|@ripaojiedian
+- name: 6,7|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4920
@@ -843,7 +580,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 美国2|@ripaojiedian
+- name: 6,7|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4920
@@ -851,7 +588,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 美国3|@ripaojiedian
+- name: 6,7|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 45947
@@ -861,7 +598,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 6|[Vmess] 香港|@ripaojiedian
+  name: 7|[Vmess] 香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -870,86 +607,179 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
-  name: 7|[SS] nlNL_1|3.2MB/s
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.99
+  name: 8|[SS] twTW_1|1.9MB/s
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 18148
+  server: ldu.izenny.com
   type: ss
-- name: 7|[Trojan] jpJP_2|2.6MB/s
-  network: ws
-  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
-  port: 443
-  server: 172.64.52.251
-  skip-cert-verify: false
-  sni: sg680.pages.dev
-  type: trojan
   udp: true
+- alpn:
+  - http/1.1
+  name: 8|[Trojan] usUS_9|1.6MB/s
+  network: ws
+  password: cff35335-31c1-4f2c-8df3-2b81243a31ac
+  port: 443
+  server: cvbghyu.s890604.qzz.io
+  sni: cvbghyu.s890604.qzz.io
+  type: trojan
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /
+      Host: cvbghyu.s890604.qzz.io
+    path: /bMBDBFUkQJNcweCiw4wIIiqp
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 9|[SS] vnVN²_1|1.6MB/s|GPT⁺|X|History...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.187
+  type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  name: 8|[SS] vnVN²_1|1.6MB/s|GPT⁺|X|Succeed...
+  name: 9|[SS] vnVN²_2|2.7MB/s|GPT⁺|GM|X|Hist...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.200
+  server: 103.186.154.16
   type: ss
-- country: 🇸🇬SG
-  name: 8|[Trojan] sgSG²_2|0.8MB/s|X|[广播|商宽]
-  network: tcp
-  password: aZsk43TyWBpjt@A
-  port: 443
-  server: vpn.qinfen180.cn
-  skip-cert-verify: true
-  sni: vpn.qinfen180.cn
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  name: 8|[SS] vnVN²_2|2.8MB/s|GPT⁺|X|History
+  name: 9|[SS] vnVN²_3|1.3MB/s|GPT⁺|GM|YT|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.240
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇨🇳 CN
-  name: 8|[SS] vnVN²_3|0.7MB/s|GPT⁺|YT-RU|X|H...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.21
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 8|[SS] usUS²_8|5.8MB/s|32%|GPT⁺|GM|YT...
-  password: eLNjcszqsz1OfvSl
-  port: 443
-  server: 207.246.77.149
+  server: 103.186.154.25
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 8|[SS] vnVN²_4|2.7MB/s|GPT⁺|GM|YT|X|H...
+  name: 9|[SS] vnVN²_4|2.3MB/s|X|History|[原生|...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.198
+  server: 103.186.154.226
   type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 9|[Vmess] 🏴‍☠_2usUS²_9|6.7MB/s|2.3MB/s|X...
+  network: ws
+  port: 443
+  server: 166.62.113.199
+  servername: ous3.dean52.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+  ws-opts:
+    headers:
+      HOST: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  name: 8|[SS] vnVN²_5|1.7MB/s|X
+  name: 9|[SS] vnVN²_5|1.6MB/s|GPT⁺|YT|X|Hist...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.16
+  server: 103.186.155.132
+  type: ss
+- alterId: 2
+  cipher: auto
+  country: 🇮🇷IR
+  h2-opts: {}
+  http-opts: {}
+  name: 9|[Vmess] sgSG²_4|4.5MB/s|X|History
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  servername: v45.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  name: 9|[SS] mdMD²_1|2.0MB/s|21%|GPT|X|Hist...
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 18244
+  server: ldu.izenny.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 9|[SS] mxMX²_1|1.1MB/s|4%|GPT⁺|YT|X|H...
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 20149
+  server: ldu.izenny.com
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 9|[SS] vnVN²_6|1.7MB/s|GPT⁺|YT|X|Hist...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.53
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇳🇱NL
+  h2-opts: {}
+  http-opts: {}
+  name: 9|[Vmess] usUS²_9|6.8MB/s|4%|GPT⁺|YT|NF|...
+  network: ws
+  port: 443
+  server: 94.247.142.199
+  servername: ous3.dean52.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+  ws-opts:
+    headers:
+      HOST: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+- cipher: chacha20-ietf-poly1305
+  name: 9|[SS] usUS²_10|2.3MB/s|0%|GPT|GM|X|H...
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 46197
+  server: ldu.izenny.com
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 9|[SS] vnVN²_7|3.3MB/s|GPT⁺|GM|YT-US|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.136
+  type: ss
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 9|[Vmess] usUS²_16|7.2MB/s|0%|GPT|X|Hist...
+  network: ws
+  port: 2086
+  server: hb.seacloudmachinery.com
+  servername: hb.seacloudmachinery.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers: {}
+    path: /telegram id @rootface
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 9|[SS] vnVN²_8|1.1MB/s|GPT|GM|X|Histo...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.205
   type: ss
 - cipher: aes-256-gcm
-  name: 9|[SS] group->ss SS节点-ipv6
+  name: 10|[SS] group->ss SS节点-ipv6
   password: alvin9999.com
   port: 12345
   server: 2a14:7584:d0a1::a
   type: ss
 - alterId: 0
   cipher: auto
-  name: 9|[Vmess] VMESS节点2-ipv6
+  name: 10|[Vmess] VMESS节点2-ipv6
   network: ws
   port: '23456'
   server: 2a14:7584:d0a2::a

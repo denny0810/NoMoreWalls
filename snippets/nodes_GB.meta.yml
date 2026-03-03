@@ -1,48 +1,10 @@
 proxies:
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: 1|[TUIC] GB26｜机房｜低风险
-  password: 08030894-57a7-49e8-83a5-0b99d7a1b820
-  port: 1443
-  server: 185.85.242.177
-  skip-cert-verify: true
-  sni: gbr1.587458.xyz
-  type: tuic
-  udp-relay-mode: native
-  uuid: 08030894-57a7-49e8-83a5-0b99d7a1b820
-- client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] gbGB_1|2.2MB/s
-  network: ws
-  port: 443
-  server: 198.62.62.248
-  servername: tar.alabama-tigr.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
-  ws-opts:
-    headers:
-      Host: tar.alabama-tigr.info
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /love
-  xudp: true
-- client-fingerprint: chrome
-  name: 7|[VLESS] gbGB_2|2.3MB/s
-  network: ws
-  port: 443
-  server: 198.62.62.235
-  servername: bank.alaska-tigr.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
-  ws-opts:
-    headers:
-      Host: bank.alaska-tigr.info
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /love
-  xudp: true
+- alterId: 2
+  cipher: auto
+  name: 2|[Vmess] GB10｜机房｜低风险
+  network: tcp
+  port: '30836'
+  server: v36.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

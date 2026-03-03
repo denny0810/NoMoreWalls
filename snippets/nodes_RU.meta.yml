@@ -1,34 +1,15 @@
 proxies:
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 7|[VLESS] ruRU_1|1.1MB/s
-  network: tcp
-  port: 52006
-  reality-opts:
-    public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
-    short-id: '!!str d8c6b58bcbb0c323'
-  server: 5.188.140.209
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 42f74a8c-f2cd-07d0-b5a9-78d93d0ca69b
-  xudp: true
-- cipher: aes-256-cfb
-  country: 🇨🇳 CN
-  name: 8|[SS] vnVN²_3|0.7MB/s|GPT⁺|YT-RU|X|H...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.21
-  type: ss
+- name: 2|[Hysteria2] RU2｜机房｜低风险
+  password: 1bfe8d6f-6545-4215-a8a1-35f1d4393bac
+  port: 16666
+  server: mosike.zuomomo.top
+  skip-cert-verify: true
+  sni: mosike.zuomomo.top
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] RU_speednode_0011
+  name: 11|[VLESS] RU_speednode_0011
   port: 443
   reality-opts:
     public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
@@ -42,7 +23,7 @@ proxies:
   uuid: 72adc5b8-146a-4bfe-921b-5c9e1df016e0
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] RU_speednode_0012
+  name: 11|[VLESS] RU_speednode_0012
   port: 18122
   reality-opts:
     public-key: b8y-G1s0KMtKBVZR9b70nVrFvYma0FyDGV-ACq5qxyk

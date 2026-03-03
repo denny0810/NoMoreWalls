@@ -1,18 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] SG11｜机房｜高风险 (黑名单)
-  network: ws
-  port: '12901'
-  server: 85.211.242.85
+  name: 2|[Vmess] SG31｜机房｜低风险
+  network: tcp
+  port: '30812'
+  server: v12.hdacd.com
   tls: false
   type: vmess
-  uuid: cd99e4a6-912e-49f1-9fec-9dc0b3fb4fa3
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-- name: 5,6|[Trojan] 新加坡|@ripaojiedian
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 6,7|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 3419
@@ -20,7 +16,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 新加坡2|@ripaojiedian
+- name: 6,7|[Trojan] 新加坡2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 3419
@@ -28,7 +24,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 新加坡3|@ripaojiedian
+- name: 6,7|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 25343
@@ -36,14 +32,18 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  country: 🇸🇬SG
-  name: 8|[Trojan] sgSG²_2|0.8MB/s|X|[广播|商宽]
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇮🇷IR
+  h2-opts: {}
+  http-opts: {}
+  name: 9|[Vmess] sgSG²_4|4.5MB/s|X|History
   network: tcp
-  password: aZsk43TyWBpjt@A
-  port: 443
-  server: vpn.qinfen180.cn
+  port: 30845
+  server: v45.hdacd.com
+  servername: v45.hdacd.com
   skip-cert-verify: true
-  sni: vpn.qinfen180.cn
-  type: trojan
-  udp: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

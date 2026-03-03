@@ -455,176 +455,103 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  name: 8|[VLESS] usUS_1|1.2MB/s
-  network: ws
-  port: 443
-  server: 63.141.128.188
-  servername: d2-us1.djwstlsweb.top
+- name: 8|[Http] usUS_1|1.3MB/s
+  password: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
+  port: 15229
+  server: e862c9f3-tbdts0-tg010c-1r7od.cu.oshuawei.com
+  sni: e862c9f3-tbdts0-tg010c-1r7od.cu.oshuawei.com
   tls: true
-  type: vless
-  udp: true
-  uuid: edd0d9b9-d2ef-40a0-af10-0dca357351e3
-  ws-opts:
-    headers:
-      Host: d2-us1.djwstlsweb.top
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
-        Safari/537.36
-    path: /djjc/us1
-  xudp: true
-- client-fingerprint: ios
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 8|[VLESS] usUS_2|1.2MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: qkP2pqQ3NHNBkyzqsC2W9wChp3OfeXdVjOhUv8vQW0o
-    short-id: '!!str aac4df9d05a5ba8f'
-  server: 129.153.71.226
-  servername: iosapps.itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: edd0d9b9-d2ef-40a0-af10-0dca357351e3
-  xudp: true
-- fingerprint: ''
-  name: 8|[Anytls] usUS_3|1.1MB/s
-  password: 5bd0677c-092a-44fc-bc46-4d0701e29520
-  port: 18443
-  server: us-sje.baipiao0721-dns78655.eu
-  skip-cert-verify: true
-  sni: us-sje.baipiao0721-dns78655.eu
-  type: anytls
-  udp: true
-  username: 5bd0677c-092a-44fc-bc46-4d0701e29520
+  type: http
+  username: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
 - alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: 8|[Vmess] usUS_4|2.3MB/s
-  network: ws
-  port: 52513
-  server: aflzzul.meiquankongjian.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
-  ws-opts:
-    headers:
-      Host: aflzzul.meiquankongjian.com
-    path: /564dfa20/
-  xudp: true
-- client-fingerprint: chrome
+  - h3
+  client-fingerprint: random
   encryption: none
-  name: 8|[VLESS] usUS_5|1.8MB/s
+  name: 8|[VLESS] usUS_2|1.6MB/s
   network: ws
   port: 8443
-  server: 92.243.74.4
-  servername: snll300.sni-1.snx.loc.cc
-  skip-cert-verify: false
+  server: 154.208.10.70
+  servername: 6f221d78.mfree.ccwu.cc
   tls: true
   type: vless
-  uuid: 5ac6e21d-be89-2f3b-6f88-c7f89ea12ec1
+  udp: true
+  uuid: 69a647a9-c60f-1366-ec63-1332eb2d2105
   ws-opts:
     headers:
-      Host: snll300.sni-1.snx.loc.cc
-    path: /
+      Host: 6f221d78.mfree.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 8|[VLESS] usUS_6|2.0MB/s
+  name: 8|[VLESS] usUS_3|1.2MB/s
   network: ws
   port: 80
-  server: 104.19.163.160
+  server: nnhhhjuuu.1xa.ccwu.cc
+  servername: nnhhhjuuu.1xa.ccwu.cc
   type: vless
   udp: true
-  uuid: 0ca855d9-7c03-40eb-929b-919f934abdc3
+  uuid: 2bfded8d-6a7c-4c18-aaa5-fc65b955d50c
+  ws-opts:
+    headers:
+      Host: nnhhhjuuu.1xa.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /HoBSIvRY1m5xOEJ3dX414bl
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] usUS_4|1.6MB/s
+  network: ws
+  port: 8880
+  server: africa.visa.com
+  type: vless
+  udp: true
+  uuid: 623d675e-8748-4881-ac0f-dc1a10b595b1
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: amirvpn.amirhm00100.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-    max-early-data: 2048
+      Host: vahidasd1988-se08ot-3.vahidasd1988.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    max-early-data: 2560
     path: /
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 8|[VLESS] usUS_7|1.2MB/s
+  name: 8|[VLESS] usUS_5|2.2MB/s
   network: ws
-  port: 443
-  server: ggghju.131.pp.ua
-  servername: ggGHJu.131.PP.ua
-  tls: true
+  port: 80
+  server: bbnhj.taipei101.eu.cc
+  servername: bbnhj.taipei101.eu.cc
   type: vless
-  udp: true
-  uuid: 98b419ef-83a2-4d1b-a23d-566b7f24477b
-  ws-opts:
-    headers:
-      Host: gGGHJu.131.PP.UA
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /FHqOdFbetLpTGA5AqzZ2Mj
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: 8|[Vmess] usUS_8|1.5MB/s
-  network: ws
-  port: 443
-  server: kki.huangzi.eu.cc
-  servername: kki.huangzi.eu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vmess
   udp: true
   uuid: 5f6c3f92-7220-4275-b34d-57c04db3f967
   ws-opts:
     headers:
-      Host: kki.huangzi.eu.cc
-    path: /KnuT4XBUucXkOSONBms
+      Host: bbnhj.taipei101.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /F24D1rlC85bVBOSONBms
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 8|[VLESS] usUS_9|1.3MB/s
-  network: tcp
+  name: 8|[VLESS] usUS_6|1.1MB/s
+  network: ws
   port: 443
-  reality-opts:
-    public-key: 2s4DLPlhc3evv3LN-qV-nXdjQtJ7jQ35i--PE8JeeG4
-    short-id: '!!str '
-  server: 144.31.234.98
-  servername: retn.net
+  server: 104.21.94.18
+  servername: bbnhj.taipei101.eu.cc
   tls: true
   type: vless
   udp: true
-  uuid: fd325093-cdb5-4a73-980e-af2ec0444310
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: 8|[Vmess] usUS_10|2.0MB/s
-  network: ws
-  port: 443
-  server: 8.34.146.199
-  servername: ous3.dean52.top
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+  uuid: 5f6c3f92-7220-4275-b34d-57c04db3f967
   ws-opts:
     headers:
-      Host: ous3.dean52.top
-    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+      Host: bbnhj.taipei101.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.71 Safari/537.36
+    path: /F24D1rlC85bVBOSONBms
   xudp: true
 - name: 9|[Http] usUS²_1|1.5MB/s|GPT|X|History
   password: 448aff24-b2e6-11ef-97e0-f23c9164ca5d

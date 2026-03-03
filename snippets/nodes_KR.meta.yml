@@ -19,3 +19,31 @@ proxies:
     headers:
       Host: c7.620720.xyz
     path: /
+- name: 8|[Http] krKR_1|1.0MB/s
+  password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
+  port: 31433
+  server: c4236c58-tbbz40-tds6bp-1hzyr.kr.oshuawei.com
+  sni: c4236c58-tbbz40-tds6bp-1hzyr.kr.oshuawei.com
+  tls: true
+  type: http
+  username: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
+- alpn:
+  - h3
+  client-fingerprint: random
+  encryption: none
+  name: 8|[VLESS] krKR_2|1017KB/s
+  network: ws
+  port: 11000
+  server: 59.27.133.60
+  servername: 6f221d78.mfree.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 69a647a9-c60f-1366-ec63-1332eb2d2105
+  ws-opts:
+    headers:
+      Host: 6f221d78.mfree.ccwu.cc
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
+        Gecko) Chrome/11.0.696.3 Safari/534.24
+    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
+  xudp: true

@@ -23,25 +23,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- fingerprint: ''
-  name: 8|[Anytls] jpJP_1|1.4MB/s
-  password: f0090017-9a4a-4eaf-b88a-9c1554ffd0d1
-  port: 8443
-  server: jp.iij.sakura.baipiao0721-dns78655.eu
-  skip-cert-verify: true
-  sni: gw.alicdn.com
-  type: anytls
-  udp: true
-  username: f0090017-9a4a-4eaf-b88a-9c1554ffd0d1
-- name: 8|[Http] jpJP_2|2.8MB/s
-  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-  port: 27233
-  server: f92cda0d-tbbz40-tbx7k8-1pr35.cm4.oshuawei.com
-  sni: f92cda0d-tbbz40-tbx7k8-1pr35.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-- name: 9|[Http] jpJP²_1|5.3MB/s|GPT|X
+- name: 8,9|[Http] jpJP²_1|5.3MB/s|GPT|X
   password: f7d95364-607b-11ee-93af-f23c91369f2d
   port: 27233
   server: 1e5459d1-tbdts0-tv7zgh-1ijh5.cm4.oshuawei.com
@@ -49,6 +31,58 @@ proxies:
   tls: true
   type: http
   username: f7d95364-607b-11ee-93af-f23c91369f2d
+- client-fingerprint: chrome
+  name: 8|[Trojan] jpJP_2|2.6MB/s
+  network: ws
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  port: 443
+  server: 172.64.52.251
+  skip-cert-verify: false
+  sni: sg680.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /
+- client-fingerprint: chrome
+  name: 8|[VLESS] jpJP_3|3.3MB/s
+  network: ws
+  port: 443
+  server: 108.162.198.109
+  servername: we.090881.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29ff2954-dfea-4d20-8089-059cfa861453
+  ws-opts:
+    headers:
+      Host: we.090881.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /products/proxyip=ProxyIP.SG.CMLiussss.net/proxyip=ProxyIP.SG.CMLiussss.net
+  xudp: true
+- alpn:
+  - h3
+  client-fingerprint: random
+  encryption: none
+  name: 8|[VLESS] jpJP_4|1.3MB/s
+  network: ws
+  port: 443
+  server: 8.222.82.26
+  servername: 6f221d78.mfree.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 69a647a9-c60f-1366-ec63-1332eb2d2105
+  ws-opts:
+    headers:
+      Host: 6f221d78.mfree.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
+  xudp: true
 - client-fingerprint: chrome
   name: 9|[VLESS] jpJP²_2|3.0MB/s|GPT⁺|X|History...
   network: tcp

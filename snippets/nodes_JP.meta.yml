@@ -23,14 +23,24 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 8|[Http] jpJP_1|2.6MB/s
-  password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
+- fingerprint: ''
+  name: 8|[Anytls] jpJP_1|1.4MB/s
+  password: f0090017-9a4a-4eaf-b88a-9c1554ffd0d1
+  port: 8443
+  server: jp.iij.sakura.baipiao0721-dns78655.eu
+  skip-cert-verify: true
+  sni: gw.alicdn.com
+  type: anytls
+  udp: true
+  username: f0090017-9a4a-4eaf-b88a-9c1554ffd0d1
+- name: 8|[Http] jpJP_2|2.8MB/s
+  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
   port: 27233
-  server: 8263a146-tbdts0-tds6bp-1hzyr.cm4.oshuawei.com
-  sni: 8263a146-tbdts0-tds6bp-1hzyr.cm4.oshuawei.com
+  server: f92cda0d-tbbz40-tbx7k8-1pr35.cm4.oshuawei.com
+  sni: f92cda0d-tbbz40-tbx7k8-1pr35.cm4.oshuawei.com
   tls: true
   type: http
-  username: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
+  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
 - client-fingerprint: chrome
   name: 9|[VLESS] jpJP²_1|1.3MB/s|0%|GPT⁺|X|Hist...
   network: tcp

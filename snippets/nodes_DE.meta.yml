@@ -66,25 +66,46 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 8|[Http] deDE_1|1.8MB/s
+  password: 22308988-8548-11ea-a22e-f23c91cfbbc9
+  port: 443
+  server: e2080f27-tbbz40-tiaexf-ufc0.de.oshuawei.com
+  sni: e2080f27-tbbz40-tiaexf-ufc0.de.oshuawei.com
+  tls: true
+  type: http
+  username: 22308988-8548-11ea-a22e-f23c91cfbbc9
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 8|[VLESS] deDE_1|2.6MB/s
+  name: 8|[VLESS] deDE_2|1.0MB/s
   network: tcp
-  port: 443
+  port: 22443
   reality-opts:
-    public-key: EyzTSZxq5qlUT2xW0l7VP-DzIh2ucabMan9ekEv9Owo
-    short-id: '!!str '
-  server: test.spectrum.vu
-  servername: test.spectrum.vu
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: '!!str 48720c'
+  server: gb01-vlr01.tcp-reset-club.net
+  servername: hls-svod.itunes.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 4bc7d558-1943-44de-bd82-56920bc9383e
+  uuid: 46c9a909-2e81-4f6f-b999-def280062188
+  xudp: true
+- client-fingerprint: chrome
+  name: 8|[VLESS] deDE_3|1.8MB/s
+  network: ws
+  port: 8443
+  server: F2.HaMrAhCoNf.Ir
+  servername: sp.secoxi.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec356038-494e-407d-a89b-f17adad85e02
+  ws-opts:
+    headers:
+      Host: p3-sync-06.secoxi.site
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /
   xudp: true
 - client-fingerprint: chrome
   country: 🇺🇸US

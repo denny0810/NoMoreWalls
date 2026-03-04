@@ -1,14 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 2|[Vmess] SG31｜机房｜低风险
+  name: 1|[Vmess] SG31｜机房｜低风险
   network: tcp
   port: '30812'
   server: v12.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 4|[Hysteria2] SG
+- name: 3|[Hysteria2] SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: sg3.oomz.ru
@@ -16,106 +16,39 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 6,7|[Trojan] 新加坡|@ripaojiedian
+- name: 5,6|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 3419
-  server: 52.68.27.2
+  port: 4674
+  server: 153.121.45.139
   skip-cert-verify: false
   sni: www.nintendogames.net
+  tfo: false
   type: trojan
-- name: 6,7|[Trojan] 新加坡2|@ripaojiedian
+- name: 5,6|[Trojan] 新加坡2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 3419
-  server: 57.180.36.84
+  port: 4674
+  server: 13.115.155.105
   skip-cert-verify: true
   sni: www.nintendogames.net
+  tfo: false
   type: trojan
-- name: 6,7|[Trojan] 新加坡3|@ripaojiedian
+- name: 5,6|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 25343
-  server: 18.162.41.211
+  server: 43.199.64.100
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
+  tfo: true
   type: trojan
-- name: 8|[Http] sgSG_1|2.8MB/s
-  password: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
-  port: 17235
-  server: 004afddd-tbbz40-tjsm26-6gn6.cm4.oshuawei.com
-  sni: 004afddd-tbbz40-tjsm26-6gn6.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
-- name: 8|[Http] sgSG_2|1.3MB/s
-  password: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
-  port: 17235
-  server: 1e3b2e0f-tbdts0-tjsm26-6gn6.cm4.oshuawei.com
-  sni: 1e3b2e0f-tbdts0-tjsm26-6gn6.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
 - client-fingerprint: chrome
-  name: 8|[VLESS] sgSG_3|1.2MB/s
-  network: ws
-  port: 42956
-  server: 129.150.50.144
-  servername: d674a177.mfree.ccwu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 69a4ca7d-7a5d-2bb4-742a-09988927a171
-  ws-opts:
-    headers:
-      Host: d674a177.mfree.ccwu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.86 Safari/537.36
-    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
-  xudp: true
-- client-fingerprint: chrome
-  name: 8|[VLESS] sgSG_4|1.2MB/s
-  network: ws
-  port: 443
-  server: 162.159.34.231
-  servername: wu.090881.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 29ff2954-dfea-4d20-8089-059cfa861453
-  ws-opts:
-    headers:
-      Host: wu.090881.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /products/proxyip=ProxyIP.SG.CMLiussss.net/proxyip=ProxyIP.SG.CMLiussss.net
-  xudp: true
-- client-fingerprint: random
-  name: 8|[VLESS] sgSG_5|1.3MB/s
-  network: ws
-  port: 443
-  server: nekocloud.tencentapp.cn
-  servername: d674a177.mfree.ccwu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 69a4ca7d-7a5d-2bb4-742a-09988927a171
-  ws-opts:
-    headers:
-      Host: d674a177.mfree.ccwu.cc
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
-        Safari/537.36
-    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
-  xudp: true
-- alpn:
-  - h3
-  client-fingerprint: random
   encryption: none
-  name: 8|[VLESS] sgSG_6|1.2MB/s
+  name: 7|[VLESS] sgSG_1|1.4MB/s
   network: ws
   port: 443
-  server: 172.64.154.196
+  server: 198.41.223.180
   servername: c0.ttlive4.dns-dynamic.net
   skip-cert-verify: false
   tls: true
@@ -127,10 +60,25 @@ proxies:
     path: /proxyip=sjc.o00o.ooo
 - client-fingerprint: chrome
   encryption: none
-  name: 8|[VLESS] sgSG_7|1.3MB/s
+  name: 7|[VLESS] sgSG_2|1.1MB/s
   network: ws
   port: 443
-  server: 198.41.223.173
+  server: 172.64.151.125
+  servername: 7c4bec62.zrf-623.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 47702dbb-6607-4d76-80e9-cd75327be3e7
+  ws-opts:
+    headers:
+      Host: 7c4bec62.zrf-623.pages.dev
+    path: /proxyip=sjc.o00o.ooo:443
+- client-fingerprint: chrome
+  encryption: none
+  name: 7|[VLESS] sgSG_3|1.2MB/s
+  network: ws
+  port: 443
+  server: cdn.262832.xyz
   servername: c0.ttlive4.dns-dynamic.net
   skip-cert-verify: false
   tls: true
@@ -146,7 +94,7 @@ proxies:
   country: 🇮🇷IR
   h2-opts: {}
   http-opts: {}
-  name: 9|[Vmess] sgSG²_4|4.5MB/s|X|History
+  name: 8|[Vmess] sgSG²_4|4.5MB/s|X|History
   network: tcp
   port: 30845
   server: v45.hdacd.com
@@ -155,14 +103,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 9|[Socks5] sgSG²_3|13.7MB/s|1%|GPT|X
+- name: 8|[Socks5] sgSG²_3|13.7MB/s|1%|GPT|X
   password: ''
   port: 1080
   server: 18.138.241.37
   skip-cert-verify: true
   type: socks5
   username: ''
-- name: 9|[Http] sgSG²_5|0.9MB/s|0%|GPT|X|Histo...
+- name: 8|[Http] sgSG²_5|0.9MB/s|0%|GPT|X|Histo...
   password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
   port: 443
   server: 4a5864a9-t9zts0-tbicd9-1go3q.se.oshuawei.com

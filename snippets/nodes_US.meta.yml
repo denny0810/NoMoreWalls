@@ -31,9 +31,10 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 2|[Vmess] US87｜机房｜低风险
+  client-fingerprint: chrome
+  name: 2,9|[Vmess] usUS²_9|5.3MB/s|X|History
   network: tcp
-  port: '30829'
+  port: 30829
   server: v29.hdacd.com
   tls: false
   type: vmess
@@ -93,22 +94,136 @@ proxies:
         like Gecko) Chrome/45.0.2454.93 Safari/537.36
     path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
   xudp: true
-- name: 9|[Http] usUS²_1|12.2MB/s|21%|GPT⁺|GM|Y...
+- name: 9|[Http] usUS²_1|8.0MB/s|21%|GPT⁺|NF|D+...
+  password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
+  port: 15229
+  server: 68a3e70f-t9zts0-tb592v-4lg6.cu.oshuawei.com
+  sni: 68a3e70f-t9zts0-tb592v-4lg6.cu.oshuawei.com
+  tls: true
+  type: http
+  username: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
+- name: 9|[Http] usUS²_2|5.8MB/s|100%|GPT|NF|X|...
+  password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+  port: 443
+  server: 0cf6af18-tbbz40-tee612-2r82.se.oshuawei.com
+  sni: 0cf6af18-tbbz40-tee612-2r82.se.oshuawei.com
+  tls: true
+  type: http
+  username: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+- name: 9|[Http] usUS²_3|5.8MB/s|100%|GPT⁺|NF|X...
+  password: 448aff24-b2e6-11ef-97e0-f23c9164ca5d
+  port: 443
+  server: c7feb51e-t9zts0-tc48kl-1szgv.se.oshuawei.com
+  sni: c7feb51e-t9zts0-tc48kl-1szgv.se.oshuawei.com
+  tls: true
+  type: http
+  username: 448aff24-b2e6-11ef-97e0-f23c9164ca5d
+- name: 9|[Http] usUS²_4|12.4MB/s|21%|GPT⁺|GM|Y...
   password: e3975a05-b89e-11ec-a50d-f23c91cfbbc9
   port: 443
-  server: 61e6cc25-tbbz40-thntyd-1f596.jp.oshuawei.com
-  sni: 61e6cc25-tbbz40-thntyd-1f596.jp.oshuawei.com
+  server: e58f69a0-tbdts0-thntyd-1f596.jp.oshuawei.com
+  sni: e58f69a0-tbdts0-thntyd-1f596.jp.oshuawei.com
   tls: true
   type: http
   username: e3975a05-b89e-11ec-a50d-f23c91cfbbc9
-- name: 9|[Http] usUS²_2|12.5MB/s|GPT⁺|X|Histor...
-  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇺🇦UA
+  h2-opts: {}
+  http-opts: {}
+  name: 9|[Vmess] usUS²_5|7.1MB/s|GPT|X|History
+  network: ws
   port: 443
-  server: 1475bf4a-tbdts0-tei4of-1qxa1.jp.oshuawei.com
-  sni: 1475bf4a-tbdts0-tei4of-1qxa1.jp.oshuawei.com
+  server: 45.67.215.199
+  servername: ous3.dean52.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+  ws-opts:
+    headers:
+      HOST: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+- name: 9|[Socks5] usUS²_6|3.9MB/s|0%|X
+  password: ''
+  port: 7070
+  server: 20.83.154.79
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 9|[Vmess] usUS²_7|5.4MB/s|GPT⁺|X|History
+  network: ws
+  port: 443
+  server: 192.200.160.199
+  servername: ous3.dean52.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+  ws-opts:
+    headers:
+      HOST: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 9|[Vmess] usUS²_8|6.3MB/s|GPT|X|History
+  network: ws
+  port: 443
+  server: 45.40.146.199
+  servername: ous3.dean52.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+  ws-opts:
+    headers:
+      HOST: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+- cipher: chacha20-ietf-poly1305
+  name: 9|[SS] usUS²_10|1.3MB/s|GPT|X|History
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 46197
+  server: ldu.izenny.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇷🇺RU
+  h2-opts: {}
+  http-opts: {}
+  name: 9|[Vmess] usUS²_11|7.8MB/s|GPT|YT|NF|X|H...
+  network: ws
+  port: 443
+  server: 213.241.198.199
+  servername: ous3.dean52.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+  ws-opts:
+    headers:
+      HOST: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+- name: 9|[Http] usUS²_12|4.4MB/s|GPT⁺|X|Histor...
+  password: 94d40708-8273-11ea-8fc9-f23c913c8d2b
+  port: 443
+  server: e3776d27-t9zts0-tbck4p-mv7m.se.oshuawei.com
+  sni: e3776d27-t9zts0-tbck4p-mv7m.se.oshuawei.com
   tls: true
   type: http
-  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+  username: 94d40708-8273-11ea-8fc9-f23c913c8d2b
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 11|[VLESS] US_speednode_0017

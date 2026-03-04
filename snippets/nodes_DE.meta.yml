@@ -1,62 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] DE29｜机房｜高风险 (黑名单)
+  name: 1|[Vmess] DE28｜机房｜高风险 (黑名单)
   network: tcp
   port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 1|[Trojan] DE18｜机房｜低风险
-  network: ws
-  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
-  port: 2096
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17725215603866.206353.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17725215608498.206353.xyz
-    path: '%2Fagrbniuh'
-- name: 1|[Trojan] DE19｜机房｜低风险
-  network: ws
-  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
-  port: 2087
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17725215607467.206353.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17725215608933.206353.xyz
-    path: '%2Fagrbniuh'
-- name: 1|[Trojan] DE20｜机房｜低风险
-  network: ws
-  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
-  port: 2083
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17725215602903.206353.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17725215602520.206353.xyz
-    path: '%2Fagrbniuh'
-- name: 1|[Trojan] DE21｜机房｜低风险
-  network: ws
-  password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
-  port: 8443
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17725215601176.206353.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17725215603496.206353.xyz
-    path: '%2Fagrbniuh'
-- name: 3|[Hysteria2] DE
+- name: 4|[Hysteria2] DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -64,7 +16,7 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: '3,4|[Hysteria2] کانال تلگرام : Free_VPN_CH@'
+- name: '4,5|[Hysteria2] کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -74,17 +26,34 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 7|[Http] deDE_1|1.7MB/s
-  password: 921bd912-ef8a-11ef-8eaf-f23c9164ca5d
+- name: 8|[Http] deDE_1|2.1MB/s
+  password: 22308988-8548-11ea-a22e-f23c91cfbbc9
   port: 443
-  server: b6b70e2f-tbbz40-tc4rkx-1t926.de.oshuawei.com
-  sni: b6b70e2f-tbbz40-tc4rkx-1t926.de.oshuawei.com
+  server: e2080f27-tbbz40-tiaexf-ufc0.de.oshuawei.com
+  sni: e2080f27-tbbz40-tiaexf-ufc0.de.oshuawei.com
   tls: true
   type: http
-  username: 921bd912-ef8a-11ef-8eaf-f23c9164ca5d
-- client-fingerprint: random
+  username: 22308988-8548-11ea-a22e-f23c91cfbbc9
+- client-fingerprint: chrome
   encryption: none
-  name: 7|[VLESS] deDE_2|1.1MB/s
+  name: 8|[VLESS] deDE_2|2.1MB/s
+  network: ws
+  port: 8443
+  server: ip.hamrahto.com
+  servername: hm33333.mutee.com.tr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8e32b948-54ca-41c6-b02b-5eb79a8316fc
+  ws-opts:
+    headers:
+      Host: hm33333.mutee.com.tr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: random
+  name: 11|[VLESS] DE_speednode_0005
   network: ws
   port: 8443
   server: 136.244.95.103
@@ -92,59 +61,9 @@ proxies:
   skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
       Host: lirpeuijr.chinav.indevs.in
     path: /danfeng
-- name: 7|[Http] deDE_3|1.3MB/s
-  password: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
-  port: 443
-  server: 79b073c7-tbbz40-tvb36r-1qwom.de.oshuawei.com
-  sni: 79b073c7-tbbz40-tvb36r-1qwom.de.oshuawei.com
-  tls: true
-  type: http
-  username: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
-- name: 7|[Http] deDE_4|1.1MB/s
-  password: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b
-  port: 443
-  server: e687e153-tbbz40-tfu2fs-lj7z.de.oshuawei.com
-  sni: e687e153-tbbz40-tfu2fs-lj7z.de.oshuawei.com
-  tls: true
-  type: http
-  username: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b
-- client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] deDE_5|1.6MB/s
-  network: ws
-  port: 2053
-  server: 188.241.241.3
-  servername: sni.111000.dynv6.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.101 Safari/537.36
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-  xudp: true
-- client-fingerprint: chrome
-  name: 7|[VLESS] deDE_6|2.0MB/s
-  network: ws
-  port: 555
-  server: 194.9.6.73
-  servername: sni.111000.dynv6.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-  xudp: true

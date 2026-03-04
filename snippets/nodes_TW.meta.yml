@@ -1,5 +1,5 @@
 proxies:
-- name: 3|[Hysteria2] TW
+- name: 4|[Hysteria2] TW
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: tw.oomz.ru
@@ -7,3 +7,18 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 8|[VLESS] twTW_1|1.7MB/s
+  network: tcp
+  port: 41191
+  reality-opts:
+    public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE
+    short-id: '!!str 693b25e06841ac7f'
+  server: cdn.tw4.cocoduck.org
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6a62060e-3f1f-4254-8faa-2c2f4f0fa28b

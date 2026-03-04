@@ -1,14 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0|[Vmess] DE29｜机房｜高风险 (黑名单)
+  name: 2|[Vmess] DE29｜机房｜高风险 (黑名单)
   network: tcp
   port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 0|[Trojan] DE18｜机房｜低风险
+- name: 2|[Trojan] DE18｜机房｜低风险
   network: ws
   password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
   port: 2096
@@ -20,7 +20,7 @@ proxies:
     headers:
       Host: 17725215608498.206353.xyz
     path: '%2Fagrbniuh'
-- name: 0|[Trojan] DE19｜机房｜低风险
+- name: 2|[Trojan] DE19｜机房｜低风险
   network: ws
   password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
   port: 2087
@@ -32,7 +32,7 @@ proxies:
     headers:
       Host: 17725215608933.206353.xyz
     path: '%2Fagrbniuh'
-- name: 0|[Trojan] DE20｜机房｜低风险
+- name: 2|[Trojan] DE20｜机房｜低风险
   network: ws
   password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
   port: 2083
@@ -44,7 +44,7 @@ proxies:
     headers:
       Host: 17725215602520.206353.xyz
     path: '%2Fagrbniuh'
-- name: 0|[Trojan] DE21｜机房｜低风险
+- name: 2|[Trojan] DE21｜机房｜低风险
   network: ws
   password: 89d646c5-8e96-4702-bdd4-4ac4ca41c645
   port: 8443
@@ -56,7 +56,7 @@ proxies:
     headers:
       Host: 17725215603496.206353.xyz
     path: '%2Fagrbniuh'
-- name: 3|[Hysteria2] DE
+- name: 4|[Hysteria2] DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -64,7 +64,7 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: '3,4|[Hysteria2] کانال تلگرام : Free_VPN_CH@'
+- name: '4,5|[Hysteria2] کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -74,57 +74,77 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 7,8|[Http] deDE²_1|7.4MB/s|10%|GPT⁺|D+|X
-  password: c11ff50c-f582-11ee-94df-f23c9164ca5d
+- name: 8|[Http] deDE_1|1.7MB/s
+  password: 921bd912-ef8a-11ef-8eaf-f23c9164ca5d
   port: 443
-  server: 84274a64-tbdts0-tl09la-1q91p.de.oshuawei.com
-  sni: 84274a64-tbdts0-tl09la-1q91p.de.oshuawei.com
+  server: b6b70e2f-tbbz40-tc4rkx-1t926.de.oshuawei.com
+  sni: b6b70e2f-tbbz40-tc4rkx-1t926.de.oshuawei.com
   tls: true
   type: http
-  username: c11ff50c-f582-11ee-94df-f23c9164ca5d
-- cipher: chacha20-ietf-poly1305
-  name: 7|[SS] deDE_2|3.6MB/s
-  password: kDt8cG1TLg4uB0nUMOAu
-  port: 1080
-  server: 91.107.144.0
-  type: ss
-  udp: true
-- client-fingerprint: chrome
+  username: 921bd912-ef8a-11ef-8eaf-f23c9164ca5d
+- client-fingerprint: random
   encryption: none
-  name: 7|[VLESS] deDE_3|1017KB/s
+  name: 8|[VLESS] deDE_2|1.1MB/s
   network: ws
   port: 8443
-  server: 152.228.134.153
-  servername: sni.111000.dynv6.net
+  server: 136.244.95.103
+  servername: lirpeuijr.chinav.indevs.in
   skip-cert-verify: false
   tls: true
   type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: lirpeuijr.chinav.indevs.in
+    path: /danfeng
+- name: 8|[Http] deDE_3|1.3MB/s
+  password: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
+  port: 443
+  server: 79b073c7-tbbz40-tvb36r-1qwom.de.oshuawei.com
+  sni: 79b073c7-tbbz40-tvb36r-1qwom.de.oshuawei.com
+  tls: true
+  type: http
+  username: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
+- name: 8|[Http] deDE_4|1.1MB/s
+  password: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b
+  port: 443
+  server: e687e153-tbbz40-tfu2fs-lj7z.de.oshuawei.com
+  sni: e687e153-tbbz40-tfu2fs-lj7z.de.oshuawei.com
+  tls: true
+  type: http
+  username: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b
+- client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] deDE_5|1.6MB/s
+  network: ws
+  port: 2053
+  server: 188.241.241.3
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: sni.111000.dynv6.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 8|[Http] deDE²_2|7.4MB/s|10%|GPT⁺|NF|X|...
-  password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
-  port: 443
-  server: bd1509c5-t9zts0-tbao5v-gacy.de.oshuawei.com
-  sni: bd1509c5-t9zts0-tbao5v-gacy.de.oshuawei.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.101 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  name: 8|[VLESS] deDE_6|2.0MB/s
+  network: ws
+  port: 555
+  server: 194.9.6.73
+  servername: sni.111000.dynv6.net
   tls: true
-  type: http
-  username: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
-- name: 8|[Http] deDE²_3|7.6MB/s|X|History|[广播|...
-  password: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9
-  port: 443
-  server: a17f17b9-t9zts0-tgr32b-wj6v.de.oshuawei.com
-  sni: a17f17b9-t9zts0-tgr32b-wj6v.de.oshuawei.com
-  tls: true
-  type: http
-  username: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9
-- name: 8|[Http] deDE²_4|6.8MB/s|10%|X|History
-  password: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
-  port: 443
-  server: a3ddee03-t9zts0-tm23vf-1jk6u.de.oshuawei.com
-  sni: a3ddee03-t9zts0-tm23vf-1jk6u.de.oshuawei.com
-  tls: true
-  type: http
-  username: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true

@@ -55,11 +55,10 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 2,8,9|[Vmess] usUS²_9|5.3MB/s|X|History
+  name: 2,9|[Vmess] usUS²_9|5.3MB/s|X|History
   network: tcp
   port: 30829
   server: v29.hdacd.com
-  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -134,7 +133,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 6,7|[Trojan] 香港5|@ripaojiedian
+- name: 6,7,8|[Trojan] hkHK_3|2.1MB/s
   network: tcp
   password: BxceQaOe
   port: 17255
@@ -224,76 +223,35 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  fingerprint: ''
-  name: 8|[Vmess] usUS_5|3.1MB/s
-  network: ws
-  port: 2053
-  server: usaapp1.jisuyun.top
-  servername: usaapp1.jisuyun.top
-  tls: true
-  type: vmess
-  udp: false
-  uuid: 4b80aa86-4354-40bb-d2a3-47126cff0bea
-  ws-opts:
-    headers:
-      Host: usaapp1.jisuyun.top
-    path: /usavm
-- alterId: '0'
-  cipher: auto
-  name: 8|[Vmess] twTW_2|3.3MB/s
-  network: ws
-  port: 5203
-  server: v1.cdn.b0dhnd0s6j.ewddns.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3fa3cc38-9ad1-444d-883e-21fbdc4532af
-  ws-opts:
-    headers:
-      Host: v1.cdn.b0dhnd0s6j.ewddns.net
-    path: /
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 8|[Vmess] hkHK_3|1.4MB/s
-  network: ws
-  port: 5104
-  server: v1.cdn.b0dhnd0s6j.ewddns.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3fa3cc38-9ad1-444d-883e-21fbdc4532af
-  ws-opts:
-    headers:
-      Host: v1.cdn.b0dhnd0s6j.ewddns.net
-    path: /
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 8|[Vmess] twTW_3|1.1MB/s
-  network: ws
-  port: 5202
-  server: v1.cdn.b0dhnd0s6j.ewddns.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3fa3cc38-9ad1-444d-883e-21fbdc4532af
-  ws-opts:
-    headers:
-      Host: v1.cdn.b0dhnd0s6j.ewddns.net
-    path: /
-  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|[SS] nlNL_1|1.3MB/s
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.35
+  type: ss
 - cipher: aes-256-cfb
-  name: 8|[SS] esES_1|1.5MB/s
-  password: ZET59LF6DvCC8KVt
-  port: 9005
+  name: 8|[SS] esES_1|1.4MB/s
+  password: S7KwUu7yBy58S3Ga
+  port: 9042
   server: 5.188.181.201
   type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 8|[Vmess] hkHK_4|1.3MB/s
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 9|[SS] vnVN²_1|2.5MB/s|GPT⁺|GM|X|Hist...

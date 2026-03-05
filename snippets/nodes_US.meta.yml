@@ -32,11 +32,10 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 2,8,9|[Vmess] usUS²_9|5.3MB/s|X|History
+  name: 2,9|[Vmess] usUS²_9|5.3MB/s|X|History
   network: tcp
   port: 30829
   server: v29.hdacd.com
-  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -64,7 +63,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 8|[Hysteria2] usUS_1|4.7MB/s
+- name: 8|[Hysteria2] usUS_1|2.5MB/s
   password: nfeIIOqUAjDo0mUL
   port: 8443
   server: 107.175.220.71
@@ -72,104 +71,56 @@ proxies:
   sni: bing.com
   tfo: false
   type: hysteria2
-- client-fingerprint: chrome
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 8|[VLESS] usUS_2|1.7MB/s
+  name: 8|[VLESS] usUS_2|1.1MB/s
   network: tcp
-  port: 443
+  port: 1314
   reality-opts:
-    public-key: 0avHPgwKcQEgcKbhMAoO6NR8vj90Gw2NGzWqg37cMkQ
-    short-id: '!!str 7291f48ae856f540'
-  server: us-01.vitalik.space
-  servername: us-01.vitalik.space
+    public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
+    short-id: '!!str 4b070735'
+  server: hkt-home.xn--9kqp42aims.top
+  servername: buylite.music.apple.com
   tls: true
   type: vless
-  uuid: 2478528e-ecad-4134-a7cc-878f08a76865
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 8,11|[VLESS] NN_speednode_0013
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
-  server: 142.248.80.157
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
-  xudp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: 8|[Vmess] usUS_5|3.1MB/s
-  network: ws
-  port: 2053
-  server: usaapp1.jisuyun.top
-  servername: usaapp1.jisuyun.top
-  tls: true
-  type: vmess
-  udp: false
-  uuid: 4b80aa86-4354-40bb-d2a3-47126cff0bea
-  ws-opts:
-    headers:
-      Host: usaapp1.jisuyun.top
-    path: /usavm
-- down: ''
-  fingerprint: ''
-  name: 8|[Hysteria2] usUS_6|1.5MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 772bd54a-c493-4329-9bfb-7ffe4593c0bc
-  port: 51000
-  server: 129.146.215.233
-  skip-cert-verify: true
-  sni: cn.cremedelamer.com
-  type: hysteria2
-  up: ''
+  uuid: 07043942-12a4-4f28-b4a8-f7509bad7931
 - client-fingerprint: chrome
   encryption: none
-  name: 8|[VLESS] usUS_7|2.1MB/s
-  network: ws
-  port: 18443
-  server: 23.185.200.228
-  servername: c0.ttlive4.dns-dynamic.net
-  tls: true
+  grpc-opts:
+    grpc-service-name: violet
+  name: 8|[VLESS] usUS_3|1.0MB/s
+  network: grpc
+  port: 443
+  server: usbad.osaip.net
   type: vless
   udp: true
-  uuid: 055e3bd2-10f8-4d9c-8f7d-70b9f659e476
-  ws-opts:
-    headers:
-      Host: c0.ttlive4.dns-dynamic.net
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /proxyip=sjc.o00o.ooo
+  uuid: d159bef0-4572-45c3-ace7-cda0fd138241
   xudp: true
+- name: 8|[Http] usUS_4|1.8MB/s
+  password: 47e91fb6-25b8-df52-bc18-3cdc8548192f
+  port: 15229
+  server: 35552794-tbdts0-tc59t3-81nv.cu.oshuawei.com
+  sni: 35552794-tbdts0-tc59t3-81nv.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 47e91fb6-25b8-df52-bc18-3cdc8548192f
 - client-fingerprint: chrome
   encryption: none
-  name: 8|[VLESS] usUS_8|2.5MB/s
+  name: 8|[VLESS] usUS_5|1.4MB/s
   network: ws
   port: 443
-  server: 172.66.44.101
-  servername: SAnYuuu.pAGeS.Dev
+  server: 104.19.54.189
+  servername: bvqq.dks.edukg.dpdns.org
   tls: true
   type: vless
   udp: true
-  uuid: 2a667767-995c-4892-9719-f52c3db2b0f2
+  uuid: ac84e665-e4f4-5c3e-691a-505b017be859
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: sanyuuu.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    max-early-data: 2560
-    path: /eyJqdW5rIjoiVFo3Y0VvcXYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
+      Host: bvqq.dks.edukg.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
+    path: /
   xudp: true
 - name: 9|[Http] usUS²_1|8.0MB/s|21%|GPT⁺|NF|D+...
   password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d

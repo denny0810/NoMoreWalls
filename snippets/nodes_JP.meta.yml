@@ -45,15 +45,37 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- down: ''
-  fingerprint: ''
-  name: 8|[Hysteria2] jpJP_1|1.3MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 07043942-12a4-4f28-b4a8-f7509bad7931
-  port: 65500
-  server: 212.135.212.31
-  skip-cert-verify: true
-  sni: gw.alicdn.com
-  type: hysteria2
-  up: ''
+- client-fingerprint: chrome
+  name: 8|[VLESS] jpJP_1|1.2MB/s
+  network: ws
+  port: 443
+  server: cf.cloudflare.182682.xyz
+  servername: sb9e.9kx.edueu.dpdns.org
+  tls: true
+  type: vless
+  uuid: 8ae7cac7-36f7-d208-367d-2322dcb73973
+  ws-opts:
+    headers:
+      Host: sb9e.9kx.edueu.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 8|[VLESS] jpJP_2|1.8MB/s
+  network: ws
+  port: 443
+  server: cf.877774.xyz
+  servername: n518.kqa.eduin.indevs.in
+  tls: true
+  type: vless
+  uuid: 8ae7cac7-36f7-d208-367d-2322dcb73973
+  ws-opts:
+    headers:
+      Host: n518.kqa.eduin.indevs.in
+    path: /
+- name: 8|[Http] jpJP_3|1.4MB/s
+  password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+  port: 27233
+  server: 186cc0fb-tbdts0-tblgxo-1o8ak.cm4.oshuawei.com
+  sni: 186cc0fb-tbdts0-tblgxo-1o8ak.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: 8bb68d04-6973-11ee-b518-f23c9164ca5d

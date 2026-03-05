@@ -41,6 +41,26 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- alpn:
+  - h3
+  client-fingerprint: random
+  encryption: none
+  name: 8|[VLESS] sgSG_1|1.9MB/s
+  network: ws
+  port: 443
+  server: 43.160.244.124
+  servername: 6f221d78.mfree.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 69a647a9-c60f-1366-ec63-1332eb2d2105
+  ws-opts:
+    headers:
+      Host: 6f221d78.mfree.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
+  xudp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

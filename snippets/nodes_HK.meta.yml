@@ -31,7 +31,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 6,7|[Trojan] 香港5|@ripaojiedian
+- client-fingerprint: chrome
+  name: 6,7,8|[Trojan] hkHK_3|2.1MB/s
   network: tcp
   password: BxceQaOe
   port: 17255
@@ -49,38 +50,55 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 8|[Http] hkHK_1|1.8MB/s
-  password: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
-  port: 5228
-  server: bc47462b-tbbz40-tg010c-1r7od.cm4.oshuawei.com
-  sni: bc47462b-tbbz40-tg010c-1r7od.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
-- name: 8|[Http] hkHK_2|1.1MB/s
-  password: <password>
-  port: 8443
-  server: 5e10aa15-t9zts0-toa9ad-4w8.hkt.cdnhuawei.com
-  sni: 5e10aa15-t9zts0-toa9ad-4w8.hkt.cdnhuawei.com
-  tls: true
-  type: http
-  username: ba7a37e3-033a-e1ab-06f6-9027aa4630f5
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: 8|[Vmess] hkHK_3|1.4MB/s
+- client-fingerprint: chrome
+  name: 8|[VLESS] hkHK_1|2.3MB/s
   network: ws
-  port: 5104
-  server: v1.cdn.b0dhnd0s6j.ewddns.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3fa3cc38-9ad1-444d-883e-21fbdc4532af
+  port: 47790
+  server: 36.50.90.241
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: v1.cdn.b0dhnd0s6j.ewddns.net
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 8|[Vmess] hkHK_4|1.3MB/s
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
     path: /
+- alpn:
+  - h3
+  client-fingerprint: random
+  encryption: none
+  name: 8|[VLESS] hkHK_5|4.2MB/s
+  network: ws
+  port: 26688
+  server: 45.121.138.23
+  servername: 6f221d78.mfree.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 69a647a9-c60f-1366-ec63-1332eb2d2105
+  ws-opts:
+    headers:
+      Host: 6f221d78.mfree.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
+        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
   xudp: true
 - name: 9|[Http] hkHK²_1|7.1MB/s|D+|X|[原生|住宅]
   password: <password>

@@ -1,14 +1,5 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 2|[Vmess] DE28｜机房｜高风险 (黑名单)
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 4|[Hysteria2] DE
+- name: 2|[Hysteria2] DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -16,7 +7,7 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: '4,5|[Hysteria2] کانال تلگرام : Free_VPN_CH@'
+- name: '2,3|[Hysteria2] کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -26,23 +17,15 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 8|[Http] deDE_1|2.0MB/s
-  password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
+- name: 6|[Http] deDE_1|1.8MB/s
+  password: 94d40708-8273-11ea-8fc9-f23c913c8d2b
   port: 443
-  server: 9c76e455-tbdts0-tcscqp-4lg6.de.oshuawei.com
-  sni: 9c76e455-tbdts0-tcscqp-4lg6.de.oshuawei.com
+  server: 622296bc-tbbz40-tbck4p-mv7m.de.oshuawei.com
+  sni: 622296bc-tbbz40-tbck4p-mv7m.de.oshuawei.com
   tls: true
   type: http
-  username: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
-- name: 9|[Http] deDE²_1|7.9MB/s|10%|GPT|D+|X|[...
-  password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
-  port: 443
-  server: bf698b31-tbdts0-tc4puo-m0b9.de.oshuawei.com
-  sni: bf698b31-tbdts0-tc4puo-m0b9.de.oshuawei.com
-  tls: true
-  type: http
-  username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
-- name: 9|[Http] deDE²_2|7.7MB/s|10%|X
+  username: 94d40708-8273-11ea-8fc9-f23c913c8d2b
+- name: 6,7|[Http] deDE²_2|7.7MB/s|10%|X
   password: 467f2940-77cd-11ee-b5ed-f23c9164ca5d
   port: 443
   server: 884603d9-tbdts0-tbpyfo-1phla.de.oshuawei.com
@@ -50,8 +33,16 @@ proxies:
   tls: true
   type: http
   username: 467f2940-77cd-11ee-b5ed-f23c9164ca5d
+- name: 7|[Http] deDE²_1|7.9MB/s|10%|GPT|D+|X|[...
+  password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+  port: 443
+  server: bf698b31-tbdts0-tc4puo-m0b9.de.oshuawei.com
+  sni: bf698b31-tbdts0-tc4puo-m0b9.de.oshuawei.com
+  tls: true
+  type: http
+  username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
 - client-fingerprint: random
-  name: 11|[VLESS] DE_speednode_0005
+  name: 9|[VLESS] DE_speednode_0005
   network: ws
   port: 8443
   server: 136.244.95.103

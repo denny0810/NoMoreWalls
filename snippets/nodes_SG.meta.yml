@@ -1,14 +1,5 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 2|[Vmess] SG30｜机房｜低风险
-  network: tcp
-  port: '30812'
-  server: v12.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 4|[Hysteria2] SG
+- name: 2|[Hysteria2] SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: sg3.oomz.ru
@@ -16,15 +7,14 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 6,7|[Trojan] 新加坡|@ripaojiedian
+- name: 5|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4674
   server: 13.230.112.99
-  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 6,7|[Trojan] 新加坡2|@ripaojiedian
+- name: 5|[Trojan] 新加坡2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 3419
@@ -32,7 +22,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 6,7|[Trojan] 新加坡3|@ripaojiedian
+- name: 5|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 38312
@@ -40,34 +30,55 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alpn:
-  - h3
-  client-fingerprint: random
-  encryption: none
-  name: 8|[VLESS] sgSG_1|1.9MB/s
+- client-fingerprint: chrome
+  name: 6|[VLESS] sgSG_1|1.2MB/s
   network: ws
   port: 443
-  server: 43.160.244.124
-  servername: 6f221d78.mfree.ccwu.cc
+  server: cf.cloudflare.182682.xyz
+  servername: sb9e.9kx.edueu.dpdns.org
   tls: true
   type: vless
-  udp: true
-  uuid: 69a647a9-c60f-1366-ec63-1332eb2d2105
+  uuid: 8ae7cac7-36f7-d208-367d-2322dcb73973
   ws-opts:
     headers:
-      Host: 6f221d78.mfree.ccwu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
-  xudp: true
-- name: 9|[Socks5] sgSG²_1|13.1MB/s|GPT⁺|GM|X|Suc...
+      Host: sb9e.9kx.edueu.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 6|[VLESS] sgSG_2|1.1MB/s
+  network: ws
+  port: 443
+  server: 162.159.34.231
+  servername: w5xo.gc7.snl.cc.cd
+  tls: true
+  type: vless
+  uuid: 8ae7cac7-36f7-d208-367d-2322dcb73973
+  ws-opts:
+    headers:
+      Host: w5xo.gc7.snl.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: 6|[VLESS] sgSG_3|1.1MB/s
+  network: ws
+  port: 2087
+  server: www.shopify.com
+  servername: xsfvxv55x1.fx03.ccwu.cc
+  tls: true
+  type: vless
+  uuid: 77777777-6663-4ef2-b26b-ed2d70642678
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: xsfvxv55x1.fx03.ccwu.cc
+    max-early-data: 2560
+    path: /
+- name: 7|[Socks5] sgSG²_1|13.1MB/s|GPT⁺|GM|X|Suc...
   password: ''
   port: 1080
   server: 159.223.53.194
   skip-cert-verify: true
   type: socks5
   username: ''
-- name: 9|[Http] sgSG²_2|3.8MB/s|10%|GPT⁺|D+|X
+- name: 7|[Http] sgSG²_2|3.8MB/s|10%|GPT⁺|D+|X
   password: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
   port: 443
   server: 90a5419f-tbdts0-tpftcp-13x18.sg.oshuawei.com
@@ -77,12 +88,12 @@ proxies:
   username: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  name: 9|[SS] sgSG²_3|1.1MB/s|GM|X|History
+  name: 7|[SS] sgSG²_3|1.1MB/s|GM|X|History
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.24
   type: ss
-- name: 9|[Socks5] sgSG²_4|13.1MB/s|0%|GPT|X
+- name: 7|[Socks5] sgSG²_4|13.1MB/s|0%|GPT|X
   password: ''
   port: 10833
   server: 146.235.19.84

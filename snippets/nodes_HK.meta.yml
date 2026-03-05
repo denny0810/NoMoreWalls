@@ -1,5 +1,5 @@
 proxies:
-- name: 2|[Hysteria2] hk HK
+- name: 3|[Hysteria2] hk HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
   server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
@@ -8,22 +8,22 @@ proxies:
   type: hysteria2
 - alterId: 2
   cipher: auto
-  name: 5|[Vmess] 香港|@ripaojiedian
-  network: tcp
-  port: '30807'
+  name: 5|[Vmess] hk 香港|@ripaojiedian
+  port: 30807
   server: v10.hdacd.com
-  servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 5|[Trojan] 香港3|@ripaojiedian
+- name: 5,6|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 331
   server: 3.112.130.96
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5|[Trojan] 香港4|@ripaojiedian
+- name: 5,6|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 388
@@ -31,7 +31,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 5|[Trojan] 香港5|@ripaojiedian
+- name: 5,6|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 17255
@@ -39,11 +39,21 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 2
+  cipher: auto
+  name: 6|[Vmess] 香港|@ripaojiedian
+  network: tcp
+  port: '30807'
+  server: v10.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
   - h3
   client-fingerprint: random
   encryption: none
-  name: 6|[VLESS] hkHK_1|1.9MB/s
+  name: 7|[VLESS] hkHK_1|1.9MB/s
   network: ws
   port: 26688
   server: 45.121.138.23
@@ -60,7 +70,7 @@ proxies:
     path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
   xudp: true
 - client-fingerprint: chrome
-  name: 6|[VLESS] hkHK_2|1.7MB/s
+  name: 7|[VLESS] hkHK_2|1.7MB/s
   network: ws
   port: 26688
   server: 45.121.138.23
@@ -75,7 +85,7 @@ proxies:
 - client-fingerprint: edge
   encryption: none
   flow: xtls-rprx-vision
-  name: 6|[VLESS] hkHK_3|1004KB/s
+  name: 7|[VLESS] hkHK_3|1004KB/s
   network: tcp
   port: 1314
   reality-opts:
@@ -93,7 +103,7 @@ proxies:
   client-fingerprint: chrome
   h2-opts: {}
   http-opts: {}
-  name: 7|[Vmess] hkHK²_1|1.0MB/s|0%|D+|X|[原生|住宅...
+  name: 8|[Vmess] hkHK²_1|1.0MB/s|0%|D+|X|[原生|住宅...
   network: ws
   port: 80
   server: 23958471-t9sf40-tcuz7t-1ta58.hkt.gotochinatown.net
@@ -109,7 +119,7 @@ proxies:
   country: 🇭🇰HK
   h2-opts: {}
   http-opts: {}
-  name: 7|[Vmess] hkHK²_2|0.8MB/s|0%|D+|X|[原生|住宅...
+  name: 8|[Vmess] hkHK²_2|0.8MB/s|0%|D+|X|[原生|住宅...
   network: ws
   port: 80
   server: 2a9cc89a-t70f40-t7hjku-1rgxu.hkt.gotochinatown.net
@@ -127,7 +137,7 @@ proxies:
   country: 🇭🇰HK
   h2-opts: {}
   http-opts: {}
-  name: 7|[Vmess] hkHK²_5|1.0MB/s|D+|X
+  name: 8|[Vmess] hkHK²_5|1.0MB/s|D+|X
   network: ws
   port: 80
   server: hkt.gotochinatown.net
@@ -145,7 +155,7 @@ proxies:
   client-fingerprint: chrome
   country: 🇭🇰 HK
   http-opts: {}
-  name: 7|[Vmess] hkHK²_4|0.9MB/s|0%|X|History|[...
+  name: 8|[Vmess] hkHK²_4|0.9MB/s|0%|X|History|[...
   network: ws
   port: 80
   server: hkt.gotochinatown.net
@@ -158,7 +168,7 @@ proxies:
       HOST: broadcastlv.chat.bilibili.com
       Host: hkt.gotochinatown.net
     path: /
-- name: 7|[Http] hkHK²_6|9.7MB/s|2%|X|History
+- name: 8|[Http] hkHK²_6|9.7MB/s|2%|X|History
   password: <password>
   port: 8443
   server: 8875d66c-t9zts0-trhks8-1c9em.hkt.cdnhuawei.com
@@ -166,35 +176,8 @@ proxies:
   tls: true
   type: http
   username: 336501b6-51d2-11ee-a993-f23c9164ca5d
-- name: 9|[Http] HK_speednode_0009
-  password: <password>
-  port: 8443
-  server: 6df231b9-t9zts0-tb74a6-1q9g2.hkt.cdnhuawei.com
-  tls: true
-  type: http
+- name: 10|[Socks5] HK_speednode_0012
+  port: 58367
+  server: 156.254.114.47
+  type: socks5
   udp: true
-  username: 9d80dd14-ac44-11ee-a116-f23c9164ca5d
-- name: 9|[Http] HK_speednode_0010
-  password: <password>
-  port: 8443
-  server: 9e8b2077-t9zts0-tdq4vj-1l0qa.hkt.cdnhuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
-- name: 9|[Http] HK_speednode_0011
-  password: <password>
-  port: 8443
-  server: f868c076-t9zts0-tqx9ef-1k0yf.hkt.cdnhuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 9cc3c03e-21fd-11ee-a642-f23c91369f2d
-- name: 9|[Http] HK_speednode_0012
-  password: <password>
-  port: 8443
-  server: 3d60a50f-ta1og0-tkp3tl-1s09x.hkt.cdnhuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d

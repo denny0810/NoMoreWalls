@@ -1,10 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 2,9|[Vmess] sgSG²_1|6.2MB/s|GPT⁺|YT|X|[原生|...
+  name: 2|[Vmess] SG30｜机房｜低风险
   network: tcp
-  port: 30812
+  port: '30812'
   server: v12.hdacd.com
   tls: false
   type: vmess
@@ -61,30 +60,32 @@ proxies:
         like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
   xudp: true
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇮🇷IR
-  h2-opts: {}
-  http-opts: {}
-  name: 9|[Vmess] sgSG²_2|1.8MB/s|44%|GPT⁺|GM|X|...
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 9|[Socks5] sgSG²_3|13.7MB/s|GPT|X|History
-  password: ''
-  port: 1080
-  server: 165.22.110.253
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: 9|[Socks5] sgSG²_4|6.3MB/s|GPT⁺|X|History
+- name: 9|[Socks5] sgSG²_1|13.1MB/s|GPT⁺|GM|X|Suc...
   password: ''
   port: 1080
   server: 159.223.53.194
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: 9|[Http] sgSG²_2|3.8MB/s|10%|GPT⁺|D+|X
+  password: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
+  port: 443
+  server: 90a5419f-tbdts0-tpftcp-13x18.sg.oshuawei.com
+  sni: 90a5419f-tbdts0-tpftcp-13x18.sg.oshuawei.com
+  tls: true
+  type: http
+  username: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 9|[SS] sgSG²_3|1.1MB/s|GM|X|History
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.24
+  type: ss
+- name: 9|[Socks5] sgSG²_4|13.1MB/s|0%|GPT|X
+  password: ''
+  port: 10833
+  server: 146.235.19.84
   skip-cert-verify: true
   type: socks5
   username: ''

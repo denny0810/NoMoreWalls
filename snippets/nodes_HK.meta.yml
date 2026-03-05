@@ -100,23 +100,84 @@ proxies:
         (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
     path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
   xudp: true
-- name: 9|[Http] hkHK²_1|7.1MB/s|D+|X|[原生|住宅]
-  password: <password>
-  port: 8443
-  server: 02d5920d-tbdts0-thntyd-1f596.hkt.cdnhuawei.com
-  sni: 02d5920d-tbdts0-thntyd-1f596.hkt.cdnhuawei.com
-  tls: true
-  type: http
-  username: e3975a05-b89e-11ec-a50d-f23c91cfbbc9
-- name: 9,11|[Http] HK_speednode_0010
-  password: <password>
-  port: 8443
-  server: 9e8b2077-t9zts0-tdq4vj-1l0qa.hkt.cdnhuawei.com
-  sni: 9e8b2077-t9zts0-tdq4vj-1l0qa.hkt.cdnhuawei.com
-  tls: true
-  type: http
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  h2-opts: {}
+  http-opts: {}
+  name: 9|[Vmess] hkHK²_1|1.0MB/s|0%|D+|X|[原生|住宅...
+  network: ws
+  port: 80
+  server: 23958471-t9sf40-tcuz7t-1ta58.hkt.gotochinatown.net
+  type: vmess
+  uuid: e2d8b574-e089-11ef-9cc7-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 9|[Vmess] hkHK²_2|0.8MB/s|0%|D+|X|[原生|住宅...
+  network: ws
+  port: 80
+  server: 2a9cc89a-t70f40-t7hjku-1rgxu.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: ea93064c-176c-11f0-885d-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: 2a9cc89a-t70f40-t7hjku-1rgxu.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 9|[Vmess] hkHK²_5|1.0MB/s|D+|X
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
   udp: true
-  username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+  uuid: 9141f048-0b70-11ef-9eb1-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇭🇰 HK
+  http-opts: {}
+  name: 9|[Vmess] hkHK²_4|0.9MB/s|0%|X|History|[...
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+      Host: hkt.gotochinatown.net
+    path: /
+- name: 9|[Http] hkHK²_6|9.7MB/s|2%|X|History
+  password: <password>
+  port: 8443
+  server: 8875d66c-t9zts0-trhks8-1c9em.hkt.cdnhuawei.com
+  sni: 8875d66c-t9zts0-trhks8-1c9em.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: 336501b6-51d2-11ee-a993-f23c9164ca5d
 - name: 11|[Http] HK_speednode_0009
   password: <password>
   port: 8443
@@ -125,6 +186,14 @@ proxies:
   type: http
   udp: true
   username: 9d80dd14-ac44-11ee-a116-f23c9164ca5d
+- name: 11|[Http] HK_speednode_0010
+  password: <password>
+  port: 8443
+  server: 9e8b2077-t9zts0-tdq4vj-1l0qa.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
 - name: 11|[Http] HK_speednode_0011
   password: <password>
   port: 8443

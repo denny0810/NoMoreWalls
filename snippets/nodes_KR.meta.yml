@@ -1,11 +1,14 @@
 proxies:
-- name: 9|[Http] krKR²_1|11.3MB/s|GPT⁺|X|Histor...
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  sni: testkr3.ssv.vc
+- client-fingerprint: chrome
+  name: 8|[VLESS] krKR_1|2.2MB/s
+  network: ws
+  port: 20256
+  server: 112.168.144.172
+  servername: sb9e.9kx.edueu.dpdns.org
   tls: true
-  type: http
-  udp: true
-  username: test
+  type: vless
+  uuid: 8ae7cac7-36f7-d208-367d-2322dcb73973
+  ws-opts:
+    headers:
+      Host: sb9e.9kx.edueu.dpdns.org
+    path: /

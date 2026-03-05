@@ -32,41 +32,39 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 2,9|[Vmess] usUS²_9|5.3MB/s|X|History
+  name: 2,8,9|[Vmess] usUS²_9|5.3MB/s|X|History
   network: tcp
   port: 30829
   server: v29.hdacd.com
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 6,7|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 4019
-  server: 54.178.70.68
+  port: 3057
+  server: 18.181.193.208
   skip-cert-verify: false
   sni: www.nintendogames.net
-  tfo: false
   type: trojan
 - name: 6,7|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4920
-  server: 153.121.45.139
+  server: 13.230.112.99
   skip-cert-verify: false
   sni: www.nintendogames.net
-  tfo: false
   type: trojan
 - name: 6,7|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4864
-  server: 18.166.249.43
+  port: 50446
+  server: 54.250.253.77
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  tfo: true
   type: trojan
-- name: 8|[Hysteria2] usUS_1|2.2MB/s
+- name: 8|[Hysteria2] usUS_1|4.7MB/s
   password: nfeIIOqUAjDo0mUL
   port: 8443
   server: 107.175.220.71
@@ -74,25 +72,104 @@ proxies:
   sni: bing.com
   tfo: false
   type: hysteria2
-- alpn:
-  - h3
-  client-fingerprint: random
-  encryption: none
-  name: 8|[VLESS] usUS_2|3.1MB/s
-  network: ws
-  port: 26688
-  server: 45.121.138.23
-  servername: 6f221d78.mfree.ccwu.cc
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 8|[VLESS] usUS_2|1.7MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 0avHPgwKcQEgcKbhMAoO6NR8vj90Gw2NGzWqg37cMkQ
+    short-id: '!!str 7291f48ae856f540'
+  server: us-01.vitalik.space
+  servername: us-01.vitalik.space
+  tls: true
+  type: vless
+  uuid: 2478528e-ecad-4134-a7cc-878f08a76865
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 8,11|[VLESS] NN_speednode_0013
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
+  server: 142.248.80.157
+  servername: apple.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 69a647a9-c60f-1366-ec63-1332eb2d2105
+  uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
+  xudp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: 8|[Vmess] usUS_5|3.1MB/s
+  network: ws
+  port: 2053
+  server: usaapp1.jisuyun.top
+  servername: usaapp1.jisuyun.top
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 4b80aa86-4354-40bb-d2a3-47126cff0bea
   ws-opts:
     headers:
-      Host: 6f221d78.mfree.ccwu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/45.0.2454.93 Safari/537.36
-    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
+      Host: usaapp1.jisuyun.top
+    path: /usavm
+- down: ''
+  fingerprint: ''
+  name: 8|[Hysteria2] usUS_6|1.5MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 772bd54a-c493-4329-9bfb-7ffe4593c0bc
+  port: 51000
+  server: 129.146.215.233
+  skip-cert-verify: true
+  sni: cn.cremedelamer.com
+  type: hysteria2
+  up: ''
+- client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] usUS_7|2.1MB/s
+  network: ws
+  port: 18443
+  server: 23.185.200.228
+  servername: c0.ttlive4.dns-dynamic.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 055e3bd2-10f8-4d9c-8f7d-70b9f659e476
+  ws-opts:
+    headers:
+      Host: c0.ttlive4.dns-dynamic.net
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /proxyip=sjc.o00o.ooo
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] usUS_8|2.5MB/s
+  network: ws
+  port: 443
+  server: 172.66.44.101
+  servername: SAnYuuu.pAGeS.Dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a667767-995c-4892-9719-f52c3db2b0f2
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sanyuuu.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    max-early-data: 2560
+    path: /eyJqdW5rIjoiVFo3Y0VvcXYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
   xudp: true
 - name: 9|[Http] usUS²_1|8.0MB/s|21%|GPT⁺|NF|D+...
   password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d

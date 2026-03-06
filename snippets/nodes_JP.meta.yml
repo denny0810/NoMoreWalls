@@ -1,5 +1,5 @@
 proxies:
-- name: 6,7|[Trojan] 日本|@ripaojiedian
+- name: 5,6|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 3022
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 6,7|[Trojan] 日本2|@ripaojiedian
+- name: 5,6|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 34818
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 6,7|[Trojan] 日本3|@ripaojiedian
+- name: 5,6|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4937
@@ -24,7 +24,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 8|[VLESS] jpJP_1|1.7MB/s
+  name: 7|[VLESS] jpJP_1|1.7MB/s
   network: ws
   port: 443
   server: 45.135.160.57
@@ -40,7 +40,7 @@ proxies:
         Gecko) Chrome/41.0.2272.76 Safari/537.36
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
   xudp: true
-- name: 9|[Http] jpJP²_1|9.7MB/s|GPT⁺|X
+- name: 8|[Http] jpJP²_1|9.7MB/s|GPT⁺|X
   password: ea93064c-176c-11f0-885d-f23c91cfbbc9
   port: 27233
   server: 39d5dc08-tbhj40-tcwhvi-1rgxu.cm4.oshuawei.com
@@ -48,3 +48,17 @@ proxies:
   tls: true
   type: http
   username: ea93064c-176c-11f0-885d-f23c91cfbbc9
+- name: 10|[VLESS] JP_speednode_0020
+  network: ws
+  port: 443
+  server: 188.253.26.128
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560

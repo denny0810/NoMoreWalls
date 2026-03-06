@@ -1,5 +1,5 @@
 proxies:
-- name: 4|[Hysteria2] TW
+- name: 3|[Hysteria2] TW
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: tw.oomz.ru
@@ -7,3 +7,68 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] twTW_1|1006KB/s
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 25612
+  server: ldu.izenny.com
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 7|[VLESS] twTW_2|2.7MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: YpRldYiKUICUFKdAHhvvKip65u9EcV8IDcZHE3E6WUQ
+    short-id: '!!str 94f93da0fb16'
+  server: tw3.miyazono-kaori.com
+  servername: www.wistron.com
+  tls: true
+  type: vless
+  uuid: f6c7016b-6f94-4a32-975c-013f2494d312
+- name: 7,8|[Http] twTW²_1|0.7MB/s|GPT⁺|GM|YT|NF|...
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: random
+  name: 7|[VLESS] twTW_4|1.6MB/s
+  network: ws
+  port: 43
+  server: 220.128.110.108
+  servername: 6f221d78.mfree.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 69a6c1d3-9637-2e38-8f5c-4e75cd624317
+  ws-opts:
+    headers:
+      Host: 6f221d78.mfree.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7|[VLESS] twTW_5|1.6MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: KJgODVMTQcncG_l1ZCDhzn8gEgMU2YRl2Yw2je6moWY
+    short-id: '!!str c0d856ec'
+  server: tw1.miyazono-kaori.com
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f6c7016b-6f94-4a32-975c-013f2494d312
+  xudp: true

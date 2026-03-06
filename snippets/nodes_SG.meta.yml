@@ -1,5 +1,5 @@
 proxies:
-- name: 4|[Hysteria2] SG
+- name: 3|[Hysteria2] SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: sg3.oomz.ru
@@ -7,21 +7,23 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 7|[Trojan] 新加坡|@ripaojiedian
+- name: 5,6|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4674
   server: 54.250.6.236
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 7|[Trojan] 新加坡2|@ripaojiedian
+- name: 5,6|[Trojan] 新加坡2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4674
   server: 13.114.100.13
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 7|[Trojan] 新加坡3|@ripaojiedian
+- name: 5,6|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 1717
@@ -29,67 +31,119 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: 8|[VLESS] sgSG_1|2.5MB/s
+- client-fingerprint: random
+  name: 7|[VLESS] sgSG_1|1.2MB/s
   network: ws
   port: 2087
-  server: www.shopify.com
-  servername: xsfvxv55x1.fx03.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 77777777-6663-4ef2-b26b-ed2d70642678
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: xsfvxv55x1.fx03.ccwu.cc
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: 8|[VLESS] sgSG_2|2.0MB/s
-  network: ws
-  port: 443
-  server: cf.cloudflare.182682.xyz
-  servername: qtto.6xp.snl.cc.cd
+  server: 172.64.151.170
+  servername: lirpeuijr.chinav.indevs.in
   tls: true
   type: vless
   udp: true
-  uuid: 8ae7cac7-36f7-d208-367d-2322dcb73973
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: qtto.6xp.snl.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      Host: lirpeuijr.chinav.indevs.in
+    path: /danfeng
+- client-fingerprint: chrome
+  name: 7|[VLESS] sgSG_2|1.4MB/s
+  network: ws
+  port: 8443
+  server: 43.160.248.66
+  servername: 002.ljk-clouflare.dns.army
+  tls: true
+  type: vless
+  uuid: e3713ba4-a8fc-44ec-b401-3b736e67718d
+  ws-opts:
+    headers:
+      Host: 002.ljk-clouflare.dns.army
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  name: 7|[VLESS] sgSG_3|1.1MB/s
+  network: ws
+  port: 443
+  server: 103.241.62.245
+  servername: 002.ljk-clouflare.dns.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3713ba4-a8fc-44ec-b401-3b736e67718d
+  ws-opts:
+    headers:
+      Host: 002.ljk-clouflare.dns.army
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.115 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  name: 7|[VLESS] sgSG_4|2.2MB/s
+  network: ws
+  port: 443
+  server: 172.64.158.23
+  servername: lirpeuijr.chinav.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: lirpeuijr.chinav.indevs.in
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /danfeng
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 7|[VLESS] sgSG_5|1.8MB/s
+  network: ws
+  port: 8443
+  server: partner.zoom.us
+  servername: darknet-free.alexid.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 39eb8c33-ee7f-4980-b3e5-684aaf390f56
+  ws-opts:
+    headers:
+      Host: darknet-free.alexid.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /
   xudp: true
-- name: 9|[Http] sgSG²_1|17.1MB/s|24%|GPT⁺|YT|X...
-  password: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
-  port: 17235
-  server: 821c24d2-tbbz40-tdh9w7-ahsb.cm4.oshuawei.com
-  sni: 821c24d2-tbbz40-tdh9w7-ahsb.cm4.oshuawei.com
+- client-fingerprint: random
+  name: 7|[VLESS] sgSG_6|3.3MB/s
+  network: ws
+  port: 443
+  server: 8.39.125.61
+  servername: lirpeuijr.chinav.indevs.in
   tls: true
-  type: http
-  username: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
-- name: 9|[Socks5] sgSG²_4|9.7MB/s|GPT⁺|X|Succeed
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: lirpeuijr.chinav.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/46.0.2490.71 Safari/537.36
+    path: /danfeng
+  xudp: true
+- name: 8|[Socks5] sgSG²_1|0.9MB/s|X|History
   password: ''
   port: 1080
-  server: 159.223.53.194
+  server: 165.22.110.253
   skip-cert-verify: true
   type: socks5
   username: ''
-- name: 9|[Http] sgSG²_5|17.7MB/s|24%|GPT|YT|X|...
-  password: d076280a-0d5f-11f0-8a7b-f23c913c8d2b
-  port: 17235
-  server: 7a85143d-tbhj40-tcum62-se45.cm4.oshuawei.com
-  sni: 7a85143d-tbhj40-tcum62-se45.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: d076280a-0d5f-11f0-8a7b-f23c913c8d2b
-- name: 9|[Http] sgSG²_6|5.9MB/s|10%|D+|X|Succe...
-  password: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
-  port: 443
-  server: 90a5419f-tbdts0-tpftcp-13x18.sg.oshuawei.com
-  sni: 90a5419f-tbdts0-tpftcp-13x18.sg.oshuawei.com
-  tls: true
-  type: http
-  username: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 8|[Vmess] sgSG²_2|1.6MB/s|39%|GPT⁺|X|His...
+  network: tcp
+  port: 30812
+  server: v12.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

@@ -1,21 +1,40 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: 8|[VLESS] krKR_1|1.1MB/s
+- client-fingerprint: random
+  name: 7|[VLESS] krKR_1|1.2MB/s
   network: ws
-  port: 50000
-  server: kr-tls01.gunyoung.top
-  servername: cloud-newcf.hwoong.top
+  port: 18063
+  server: 112.185.79.74
+  servername: 6f221d78.mfree.ccwu.cc
   tls: true
   type: vless
   udp: true
-  uuid: 7524fe71-0287-455d-bf0d-143ece42736c
+  uuid: 69a6c1d3-9637-2e38-8f5c-4e75cd624317
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: cloud-newcf.hwoong.top
-      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    max-early-data: 2560
-    path: /
+      Host: 6f221d78.mfree.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
   xudp: true
+- client-fingerprint: random
+  name: 7|[VLESS] krKR_2|1.1MB/s
+  network: ws
+  port: 21245
+  server: 119.205.121.128
+  servername: 6f221d78.mfree.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 69a6c1d3-9637-2e38-8f5c-4e75cd624317
+  ws-opts:
+    headers:
+      Host: 6f221d78.mfree.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/55.0.2883.87 Safari/537.36
+    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
+  xudp: true
+- name: 8|[Socks5] krKR²_1|1.5MB/s|6%|GPT|X|Histo...
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  username: Og%3D%3D

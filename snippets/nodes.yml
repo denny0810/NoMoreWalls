@@ -1,28 +1,28 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 7|[SS] tg频道:@ripaojiedian
+  name: '5,6|[SS] tg频道:@ripaojiedian #1'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: 7|[Vmess] 香港|@ripaojiedian
-  network: tcp
-  port: '30807'
+  name: 5|[Vmess] hk 香港|@ripaojiedian
+  port: 30807
   server: v10.hdacd.com
-  servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 7|[Trojan] 香港3|@ripaojiedian
+- name: 5,6|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 443
   server: 58.152.18.189
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 7|[Trojan] 香港4|@ripaojiedian
+- name: 5,6|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 38301
@@ -30,7 +30,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 7|[Trojan] 香港5|@ripaojiedian
+- name: 5,6|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 38301
@@ -38,7 +38,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 7|[Trojan] 日本|@ripaojiedian
+- name: 5,6|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 3022
@@ -46,35 +46,39 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 7|[Trojan] 日本2|@ripaojiedian
+- name: 5,6|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 34818
   server: 54.250.6.236
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 7|[Trojan] 日本3|@ripaojiedian
+- name: 5,6|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4937
   server: 13.114.100.13
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 7|[Trojan] 新加坡|@ripaojiedian
+- name: 5,6|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4674
   server: 54.250.6.236
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 7|[Trojan] 新加坡2|@ripaojiedian
+- name: 5,6|[Trojan] 新加坡2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4674
   server: 13.114.100.13
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 7|[Trojan] 新加坡3|@ripaojiedian
+- name: 5,6|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 1717
@@ -82,21 +86,23 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 7|[Trojan] 美国|@ripaojiedian
+- name: 5,6|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4019
   server: 13.114.100.13
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 7|[Trojan] 美国2|@ripaojiedian
+- name: 5,6|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4019
   server: 54.250.6.236
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 7|[Trojan] 美国3|@ripaojiedian
+- name: 5,6|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 28680
@@ -104,418 +110,156 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 8|[Vmess] usUS_9|2.3MB/s
-  network: http
-  port: 13485
-  server: 66.103.210.150
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 10f0133c-39c5-4224-f53d-ec4491114a59
-  xudp: true
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 9|[SS] vnVN²_1|2.0MB/s|GPT⁺|YT-US|X|H...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.186
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 9|[SS] vnVN²_2|0.6MB/s|GPT⁺|X|History...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.149
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 9|[Vmess] usUS²_1|6.7MB/s|4%|GPT⁺|X|Hist...
-  network: ws
-  port: 443
-  server: 45.40.150.199
-  servername: ous3.dean52.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-  ws-opts:
-    headers:
-      HOST: ous3.dean52.top
-    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 9|[Vmess] usUS²_2|6.4MB/s|4%|GPT⁺|X|Hist...
-  network: ws
-  port: 443
-  server: 45.40.146.199
-  servername: ous3.dean52.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-  ws-opts:
-    headers:
-      HOST: ous3.dean52.top
-    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
-- alterId: 0
-  cipher: auto
-  country: 🇱🇹LT
-  h2-opts: {}
-  http-opts: {}
-  name: 9|[Vmess] usUS²_3|7.6MB/s|4%|GPT⁺|YT|TK|...
-  network: ws
-  port: 443
-  server: 89.116.46.199
-  servername: ous3.dean52.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-  ws-opts:
-    headers:
-      HOST: ous3.dean52.top
-    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 9|[SS] vnVN²_3|2.1MB/s|GPT⁺|YT-US|X|S...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.253
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 9|[SS] vnVN²_4|1.4MB/s|X|History
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.75
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 9|[SS] usUS²_7|5.4MB/s|GPT|X
-  password: yoNzQ7Q6qbC1Mx5QpGvdPsHpRsqkvQxk
-  port: 9443
-  server: 144.31.131.32
-  type: ss
-- cipher: aes-256-cfb
-  name: 9|[SS] vnVN²_5|1.4MB/s|GPT⁺|GM|YT|X|H...
-  password: qwerREWQ@@
-  port: 41632
-  server: 103.238.214.82
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 9|[Vmess] usUS²_8|7.6MB/s|4%|GPT⁺|YT|X
-  network: ws
-  port: 443
-  server: 94.247.142.199
-  servername: ous3.dean52.top
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-  ws-opts:
-    headers:
-      Host: ous3.dean52.top
-    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 9|[SS] sgSG²_2|12.0MB/s|0%|GPT|GM|YT-...
-  password: PYEU2YIb0XkFGakKZ04OnP
-  port: 18571
-  server: 209.74.82.156
-  type: ss
 - alterId: 2
   cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 9|[Vmess] hkHK²_1|2.2MB/s|GPT⁺|X
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇺🇦UA
-  h2-opts: {}
-  http-opts: {}
-  name: 9|[Vmess] usUS²_9|6.7MB/s|GPT|X|History
-  network: ws
-  port: 443
-  server: 45.67.215.199
-  servername: ous3.dean52.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-  ws-opts:
-    headers:
-      HOST: ous3.dean52.top
-    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
-- alterId: 0
-  cipher: auto
-  country: 🇭🇰 HK
-  h2-opts: {}
-  http-opts: {}
-  name: 9|[Vmess] hkHK²_2|2.2MB/s|GPT|X
+  name: 6|[Vmess] 香港|@ripaojiedian
   network: tcp
-  port: 30003
-  server: a.cdn-bilibili.cn
-  skip-cert-verify: true
-  type: vmess
-  uuid: 69de9a52-36b0-4265-a3cf-d06bcefe713d
-  ws-opts:
-    path: /
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 9|[SS] vnVN²_6|1.0MB/s|X|History
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.116
-  type: ss
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 9|[Vmess] hkHK²_3|2.9MB/s|0%|NF|X|[原生|机房...
-  network: tcp
-  port: 35760
-  server: 149.88.95.217
-  skip-cert-verify: false
+  port: '30807'
+  server: v10.hdacd.com
+  servername: ''
   tls: false
   type: vmess
-  udp: true
-  uuid: 17e96792-d8c3-4741-9c34-e5d1c11d754f
-  xudp: true
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 9|[SS] vnVN²_7|1.9MB/s|GPT|YT-US|X|Hi...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.84
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 9|[Vmess] usUS²_10|7.2MB/s|4%|GPT|X|Hist...
-  network: ws
-  port: 443
-  server: 69.84.182.199
-  servername: ous3.dean52.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-  ws-opts:
-    headers:
-      HOST: ous3.dean52.top
-    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  name: 9|[SS] ruRU²_1|0.7MB/s|X|History
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 38.60.223.8
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇨🇳 CN
-  name: 9|[SS] vnVN²_8|2.6MB/s|GPT|YT-US|X|Hi...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.33
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 9|[Vmess] usUS²_11|7.7MB/s|4%|GPT⁺|X|His...
-  network: ws
-  port: 443
-  server: 147.185.161.199
-  servername: ous3.dean52.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-  ws-opts:
-    headers:
-      HOST: ous3.dean52.top
-    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 9|[SS] vnVN²_9|2.3MB/s|GPT⁺|X|History
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.47
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇮🇱 IL
-  http-opts: {}
-  name: 9|[Vmess] hkHK²_4|0.5MB/s|YT-US|X|Histor...
-  network: none
-  port: 35760
-  server: 149.88.95.217
-  skip-cert-verify: true
-  type: vmess
-  uuid: 17e96792-d8c3-4741-9c34-e5d1c11d754f
-  ws-opts:
-    path: /
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
-  name: 9|[SS] mxMX²_1|5.9MB/s|4%|GPT⁺|X|Hist...
+  name: 7|[SS] twTW_1|1006KB/s
   password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 20149
+  port: 25612
   server: ldu.izenny.com
   type: ss
   udp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 9|[SS] vnVN²_10|1.5MB/s|X|History
+  name: 8|[SS] vnVN²_1|2.8MB/s|GPT|X|Succeed|...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.42
   type: ss
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 9|[Vmess] hkHK²_5|7.2MB/s|0%|GPT|X
-  network: ws
-  port: 80
-  server: 0bba3742-t8nog0-tlvq5w-1jcwu.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: f93486ce-cc84-11ed-9e98-f23c913c8d2b
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-      Host: 0bba3742-t8nog0-tlvq5w-1jcwu.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 9|[Vmess] hkHK²_6|6.3MB/s|YT|D+|X|Histor...
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: f860f2da-5035-11ed-bb74-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
 - cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 9|[SS] vnVN²_11|2.4MB/s|GPT⁺|X|Succee...
+  country: 🏁ZZ
+  name: 8|[SS] vnVN²_2|0.8MB/s|GPT⁺|GM|X|Hist...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.235
+  server: 103.186.155.9
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 8|[SS] vnVN²_3|2.3MB/s|X|History|[原生|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.177
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 8|[SS] vnVN²_4|2.3MB/s|GPT⁺|X|Succeed
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.116
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 8|[SS] vnVN²_5|2.5MB/s|GPT⁺|GM|X|Hist...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.213
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  name: 9|[SS] vnVN²_12|2.9MB/s|GPT|GM|X|Hist...
+  name: 8|[SS] vnVN²_6|1.3MB/s|GPT⁺|X|Succeed
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.31
+  server: 103.186.155.84
   type: ss
 - alterId: 2
   cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 9|[Vmess] hkHK²_7|5.5MB/s|GPT⁺|X
-  network: ws
-  port: 80
-  server: 84146e14-t6r5s0-tiuovf-v3c2.hkt.gotochinatown.net
-  servername: 84146e14-t6r5s0-tiuovf-v3c2.hkt.gotochinatown.net
-  skip-cert-verify: true
+  name: 8|[Vmess] 🏴‍☠_1frFR²_3|0.5MB/s|[广播|机房]|0...
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  tls: false
   type: vmess
-  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-  ws-opts:
-    headers:
-      HOST: 84146e14-t6r5s0-tiuovf-v3c2.hkt.gotochinatown.net
-      Host: 84146e14-t6r5s0-tiuovf-v3c2.hkt.gotochinatown.net
-    path: /
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 8|[SS] vnVN²_9|2.0MB/s|GPT⁺|GM|X|Hist...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.4
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  name: 8|[SS] cyCY²_1|0.7MB/s|X
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 59906
+  server: ldu.izenny.com
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 8|[SS] vnVN²_10|2.8MB/s|X|History
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.111
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 8|[SS] vnVN²_11|0.9MB/s|GPT⁺|X|Histor...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.117
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 8|[SS] vnVN²_12|2.1MB/s|GPT|X|History...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.242
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 8|[SS] vnVN²_13|1.3MB/s|GPT|X|History
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.246
+  type: ss
+- cipher: aes-256-cfb
+  name: 8|[SS] vnVN²_14|1.2MB/s|X|History
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.248
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 9|[Vmess] usUS²_15|4.9MB/s|X|History
-  network: ws
-  port: 8443
-  server: 3h-unitedstates3.09vpn.com
-  servername: 3h-unitedstates3.09vpn.com
-  skip-cert-verify: true
-  tls: true
+  name: 8|[Vmess] sgSG²_2|1.6MB/s|39%|GPT⁺|X|His...
+  network: tcp
+  port: 30812
+  server: v12.hdacd.com
+  tls: false
   type: vmess
-  uuid: 0c17318b-d8e7-4816-a6a2-ab873a3bcc8b
-  ws-opts:
-    path: /vmess/
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  name: 9|[SS] vnVN²_13|2.7MB/s|GPT|X|History...
+  name: 8|[SS] vnVN²_15|1.6MB/s|GPT⁺|GM|YT|X|...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.61
+  server: 103.186.154.57
   type: ss
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 9|[Vmess] hkHK²_9|5.3MB/s|0%|GPT⁺|YT|D+|...
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 8|[SS] vnVN²_16|2.3MB/s|X|History|[原生...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.37
+  type: ss
 - cipher: aes-256-gcm
-  name: 10|[SS] group->ss SS节点-ipv6
+  name: 9|[SS] group->ss SS节点-ipv6
   password: alvin9999.com
   port: 12345
   server: 2a14:7584:d0a1::a
   type: ss
 - alterId: 0
   cipher: auto
-  name: 10|[Vmess] VMESS节点2-ipv6
+  name: 9|[Vmess] VMESS节点2-ipv6
   network: ws
   port: '23456'
   server: 2a14:7584:d0a2::a

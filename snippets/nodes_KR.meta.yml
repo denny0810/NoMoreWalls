@@ -1,14 +1,21 @@
 proxies:
 - client-fingerprint: chrome
-  name: 8|[VLESS] krKR_1|2.2MB/s
+  encryption: none
+  name: 8|[VLESS] krKR_1|1.1MB/s
   network: ws
-  port: 20256
-  server: 112.168.144.172
-  servername: sb9e.9kx.edueu.dpdns.org
+  port: 50000
+  server: kr-tls01.gunyoung.top
+  servername: cloud-newcf.hwoong.top
   tls: true
   type: vless
-  uuid: 8ae7cac7-36f7-d208-367d-2322dcb73973
+  udp: true
+  uuid: 7524fe71-0287-455d-bf0d-143ece42736c
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: sb9e.9kx.edueu.dpdns.org
+      Host: cloud-newcf.hwoong.top
+      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    max-early-data: 2560
     path: /
+  xudp: true

@@ -18,10 +18,27 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 8|[VLESS] deDE_1|1.0MB/s
+  name: 8|[VLESS] deDE_1|2.1MB/s
+  network: ws
+  port: 443
+  server: 213.165.37.2
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.111000.dynv6.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: 8|[VLESS] deDE_2|1.7MB/s
   network: ws
   port: 2053
-  server: 188.241.241.123
+  server: 188.241.241.3
   servername: sni.111000.dynv6.net
   tls: true
   type: vless
@@ -30,34 +47,62 @@ proxies:
     headers:
       Host: sni.111000.dynv6.net
     path: /?ed=2560&Telegram🇨🇳@WangCai2
-- client-fingerprint: random
-  name: 8|[VLESS] deDE_2|1.1MB/s
-  network: ws
-  port: 2053
-  server: 91.107.188.49
-  servername: k7ryegiaeu.chinam.eu.org
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 8|[VLESS] deDE_3|1.2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: '!!str c39cc7310a'
+  server: 87.229.97.154
+  servername: yahoo.com
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: k7ryegiaeu.chinam.eu.org
-    path: /danfeng
-- client-fingerprint: random
-  name: 8|[VLESS] deDE_3|1.1MB/s
-  network: ws
-  port: 8443
-  server: 152.228.135.72
-  servername: k7ryegiaeu.chinam.eu.org
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 8|[VLESS] deDE_4|2.5MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ZGwYjRp5RxlVpHUTPzi7pB4ZZuDU5FZEaFgBM71teiQ
+    short-id: '!!str 0669a3e6b300d069'
+  server: 217.13.105.19
+  servername: eh.vk.com
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: k7ryegiaeu.chinam.eu.org
-    path: /danfeng
+  uuid: 928beba1-eef6-478a-b06f-db6bc020e078
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 8|[VLESS] deDE_5|2.3MB/s
+  network: tcp
+  port: 5443
+  reality-opts:
+    public-key: RVs7ZIQ7v3MIiCru0IttBEoTSrln5Au_8aSmyJq8pjM
+    short-id: '!!str 5cae63084b3281f3'
+  server: 217.13.105.19
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 928beba1-eef6-478a-b06f-db6bc020e078
+  xudp: true
 - name: 9|[Socks5] deDE²_1|4.7MB/s|8%|X|History
   password: ''
   port: 1080

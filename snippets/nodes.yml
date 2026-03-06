@@ -17,48 +17,48 @@ proxies:
 - name: 6,7|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 331
-  server: 3.112.130.96
+  port: 443
+  server: 58.152.18.189
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 6,7|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 388
-  server: 3.112.203.220
+  port: 38301
+  server: 43.198.203.251
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 6,7|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 17255
-  server: 16.162.45.33
+  port: 38301
+  server: 43.199.159.207
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 6,7|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 21508
-  server: 52.195.220.53
+  port: 3022
+  server: 13.192.170.234
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 6,7|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 4937
-  server: 13.230.112.99
+  port: 34818
+  server: 54.250.6.236
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 6,7|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 34818
-  server: 18.181.193.208
+  port: 4937
+  server: 13.114.100.13
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -66,47 +66,47 @@ proxies:
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4674
-  server: 13.230.112.99
+  server: 54.250.6.236
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 6,7|[Trojan] 新加坡2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 3419
-  server: 13.230.112.99
-  skip-cert-verify: true
+  port: 4674
+  server: 13.114.100.13
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 6,7|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 38312
-  server: 43.207.117.112
+  port: 1717
+  server: 95.40.10.51
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 6,7|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 3057
-  server: 18.181.193.208
+  port: 4019
+  server: 13.114.100.13
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 6,7|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 4920
-  server: 13.230.112.99
+  port: 4019
+  server: 54.250.6.236
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 6,7|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 50446
-  server: 54.250.253.77
+  port: 28680
+  server: 54.199.30.7
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -120,83 +120,24 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: 8,9|[SS] mxMX²_1|5.9MB/s|4%|GPT⁺|X|Hist...
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 20149
-  server: ldu.izenny.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|[SS] twTW_1|1.1MB/s
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 25612
-  server: ldu.izenny.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|[SS] usUS_3|1.3MB/s
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 12589
-  server: ldu.izenny.com
-  type: ss
-  udp: true
-- alterId: '0'
+- alpn:
+  - ''
+  alterId: '0'
   cipher: auto
-  name: 8|[Vmess] hkHK_4|2.2MB/s
-  network: ws
-  port: 5102
-  server: v1.cdn.b0dhnd0s6j.ewddns.net
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 8|[Vmess] usUS_9|2.3MB/s
+  network: http
+  port: 13485
+  server: 66.103.210.150
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 3fa3cc38-9ad1-444d-883e-21fbdc4532af
-  ws-opts:
-    headers:
-      Host: v1.cdn.b0dhnd0s6j.ewddns.net
-    path: /
+  uuid: 10f0133c-39c5-4224-f53d-ec4491114a59
   xudp: true
-- alterId: 0
-  cipher: auto
-  country: 🇭🇰 HK
-  h2-opts: {}
-  http-opts: {}
-  name: 8,9|[Vmess] hkHK²_2|2.2MB/s|GPT|X
-  network: tcp
-  port: 30003
-  server: a.cdn-bilibili.cn
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 69de9a52-36b0-4265-a3cf-d06bcefe713d
-  ws-opts:
-    path: /
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 8|[Vmess] hkHK_5|3.0MB/s
-  network: ws
-  port: 5101
-  server: v1.cdn.b0dhnd0s6j.ewddns.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3fa3cc38-9ad1-444d-883e-21fbdc4532af
-  ws-opts:
-    headers:
-      Host: v1.cdn.b0dhnd0s6j.ewddns.net
-    path: /
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|[SS] cyCY_1|1.0MB/s
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 59906
-  server: ldu.izenny.com
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 9|[SS] vnVN²_1|2.0MB/s|GPT⁺|YT-US|X|H...
@@ -351,6 +292,20 @@ proxies:
     headers:
       HOST: ous3.dean52.top
     path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+- alterId: 0
+  cipher: auto
+  country: 🇭🇰 HK
+  h2-opts: {}
+  http-opts: {}
+  name: 9|[Vmess] hkHK²_2|2.2MB/s|GPT|X
+  network: tcp
+  port: 30003
+  server: a.cdn-bilibili.cn
+  skip-cert-verify: true
+  type: vmess
+  uuid: 69de9a52-36b0-4265-a3cf-d06bcefe713d
+  ws-opts:
+    path: /
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 9|[SS] vnVN²_6|1.0MB/s|X|History
@@ -449,6 +404,13 @@ proxies:
   uuid: 17e96792-d8c3-4741-9c34-e5d1c11d754f
   ws-opts:
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 9|[SS] mxMX²_1|5.9MB/s|4%|GPT⁺|X|Hist...
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 20149
+  server: ldu.izenny.com
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 9|[SS] vnVN²_10|1.5MB/s|X|History

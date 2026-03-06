@@ -11,28 +11,28 @@ proxies:
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4674
-  server: 13.230.112.99
+  server: 54.250.6.236
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 6,7|[Trojan] 新加坡2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 3419
-  server: 13.230.112.99
-  skip-cert-verify: true
+  port: 4674
+  server: 13.114.100.13
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 6,7|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 38312
-  server: 43.207.117.112
+  port: 1717
+  server: 95.40.10.51
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: 8|[VLESS] sgSG_1|1.4MB/s
+  name: 8|[VLESS] sgSG_1|2.5MB/s
   network: ws
   port: 2087
   server: www.shopify.com
@@ -47,20 +47,23 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  name: 8|[VLESS] sgSG_2|1.4MB/s
+  encryption: none
+  name: 8|[VLESS] sgSG_2|2.0MB/s
   network: ws
   port: 443
-  server: 162.159.11.46
-  servername: vz-4vx.pages.dev
+  server: cf.cloudflare.182682.xyz
+  servername: qtto.6xp.snl.cc.cd
   tls: true
   type: vless
-  uuid: 3dfd98df-0b86-4dad-985f-5fed51084bd5
+  udp: true
+  uuid: 8ae7cac7-36f7-d208-367d-2322dcb73973
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: vz-4vx.pages.dev
-    max-early-data: 2048
+      Host: qtto.6xp.snl.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /
+  xudp: true
 - name: 9|[Http] sgSG²_1|17.1MB/s|24%|GPT⁺|YT|X...
   password: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
   port: 17235

@@ -2,34 +2,46 @@ proxies:
 - name: 6,7|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 3057
-  server: 18.181.193.208
+  port: 4019
+  server: 13.114.100.13
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 6,7|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 4920
-  server: 13.230.112.99
+  port: 4019
+  server: 54.250.6.236
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 6,7|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 50446
-  server: 54.250.253.77
+  port: 28680
+  server: 54.199.30.7
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 8|[SS] usUS_3|1.3MB/s
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 12589
-  server: ldu.izenny.com
-  type: ss
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 8|[Vmess] usUS_9|2.3MB/s
+  network: http
+  port: 13485
+  server: 66.103.210.150
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
+  uuid: 10f0133c-39c5-4224-f53d-ec4491114a59
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 9|[SS] vnVN²_1|2.0MB/s|GPT⁺|YT-US|X|H...

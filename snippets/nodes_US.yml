@@ -1,19 +1,21 @@
 proxies:
-- name: 7|[Trojan] 美国|@ripaojiedian
+- name: 5,6|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4019
   server: 13.114.100.13
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 7|[Trojan] 美国2|@ripaojiedian
+- name: 5,6|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4019
   server: 54.250.6.236
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 7|[Trojan] 美国3|@ripaojiedian
+- name: 5,6|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 28680
@@ -24,7 +26,7 @@ proxies:
 - alterId: '0'
   cipher: auto
   client-fingerprint: chrome
-  name: 8|[Vmess] usUS_3|2.2MB/s
+  name: 7|[Vmess] usUS_3|2.2MB/s
   network: ws
   port: 12885
   server: gtm1.ktmwan.net
@@ -38,3 +40,27 @@ proxies:
       Host: baidu.com
     path: /
   xudp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 8|[Vmess] usUS²_1|1.9MB/s|7%|GPT⁺|GM|NF|...
+  network: http
+  port: 80
+  server: 132.145.154.72
+  servername: a.189.cn
+  skip-cert-verify: true
+  type: vmess
+  uuid: bcb7c581-3c95-4569-a4e7-918141e91ea3
+- cipher: chacha20-ietf-poly1305
+  name: 8|[SS] usUS²_2|2.9MB/s|0%|GPT⁺|GM|YT|...
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 12589
+  server: ldu.izenny.com
+  type: ss
+  udp: true

@@ -1,4 +1,13 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 2|[Vmess] SG15｜机房｜低风险
+  network: tcp
+  port: '30812'
+  server: v12.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 4|[Hysteria2] SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
@@ -7,22 +16,24 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 7|[Trojan] 新加坡|@ripaojiedian
+- name: 6,7|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 3419
   server: 160.16.124.17
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 7|[Trojan] 新加坡2|@ripaojiedian
+- name: 6,7|[Trojan] 新加坡2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 3419
   server: 153.121.65.107
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 7,8|[Trojan] sgSG_4|2.2MB/s
+  name: 6,7,8|[Trojan] sgSG_4|2.2MB/s
   network: tcp
   password: BxceQaOe
   port: 52951

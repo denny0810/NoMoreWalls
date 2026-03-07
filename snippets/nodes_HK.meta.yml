@@ -1,4 +1,29 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: 2|[Vmess] HK29｜家宽｜非常安全
+  network: ws
+  port: '80'
+  server: d7d6992d-t5bb40-tdvaex-1ixuf.hkt.gotochinatown.net
+  tls: false
+  type: vmess
+  uuid: dcbaee4d-2204-11ed-b659-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: '12306'
+  name: 2|[Vmess] HK41｜家宽｜非常安全
+  network: grpc
+  port: '443'
+  server: hk02.653ebeeb-5f60-4be5-958d-7bf4839cdccd.ef6616fd-5b06-482f-9d64-183745659cbf.byteprivatelink.com
+  servername: www.12306.cn
+  tls: true
+  type: vmess
+  uuid: d5359b9e-4f4f-49e4-ab8b-f6a0d19bce28
 - name: 4|[Hysteria2] hk HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
@@ -6,6 +31,40 @@ proxies:
   sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
   tls: false
   type: hysteria2
+- alterId: 2
+  cipher: auto
+  name: 6|[Vmess] hk 香港|@ripaojiedian
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  name: 6,7,8|[Trojan] hkHK_2|2.5MB/s
+  network: tcp
+  password: f7dbed8b1ca85124e793ba6c0bcfd0db
+  port: 921
+  server: 54.250.4.226
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 6,7|[Trojan] 香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 388
+  server: 57.180.10.241
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 6,7|[Trojan] 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 6313
+  server: 13.112.192.191
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 7|[Vmess] 香港|@ripaojiedian
@@ -16,31 +75,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 7,8|[Trojan] hkHK_2|2.5MB/s
-  network: tcp
-  password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 921
-  server: 54.250.4.226
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 7|[Trojan] 香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 388
-  server: 57.180.10.241
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 7|[Trojan] 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 6313
-  server: 13.112.192.191
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - name: 9|[Socks5] hkHK²_1|6.5MB/s|0%|X
   password: ''
   port: 1080

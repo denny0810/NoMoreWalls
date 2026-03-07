@@ -40,3 +40,63 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- cipher: chacha20-ietf
+  name: 8|[SS] sgSG_1|2.2MB/s
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 8|[VLESS] sgSG_2|1.7MB/s
+  network: ws
+  port: 8443
+  server: partner.zoom.us
+  servername: darknet-free.alexid.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 39eb8c33-ee7f-4980-b3e5-684aaf390f56
+  ws-opts:
+    headers:
+      Host: darknet-free.alexid.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 8|[VLESS] sgSG_3|1.7MB/s
+  network: ws
+  port: 8443
+  server: ev.zoom.us
+  servername: darknet-free.alexid.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 39eb8c33-ee7f-4980-b3e5-684aaf390f56
+  ws-opts:
+    headers:
+      Host: darknet-free.alexid.org
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
+        Gecko) Chrome/11.0.696.3 Safari/534.24
+    path: /
+  xudp: true
+- name: 9|[Socks5] sgSG²_1|11.5MB/s|X
+  password: ''
+  port: 10820
+  server: 146.235.19.84
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: 9|[Socks5] sgSG²_3|0.7MB/s|0%|GPT⁺|X
+  password: ''
+  port: 1080
+  server: 124.156.207.229
+  skip-cert-verify: true
+  type: socks5
+  username: ''

@@ -35,19 +35,10 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- auth: ae845cbd-08fb-4346-929a-e28a6f3960a8
-  name: 9|[Hysteria2] deDE²_1|0.5MB/s|31%|GPT⁺|X|[广播...
-  obfs: salamander
-  obfs-password: 8qEG16vXX8gARc3y
-  password: ae845cbd-08fb-4346-929a-e28a6f3960a8
-  port: 2056
-  server: de1.shiyuandian.shop
-  skip-cert-verify: true
-  sni: de1.shiyuandian.shop
-  type: hysteria2
-  udp: true
 - client-fingerprint: firefox
-  name: 11|[VLESS] DE_speednode_0002
+  encryption: none
+  name: 9,11|[VLESS] DE_speednode_0002
+  network: tcp
   port: 2280
   reality-opts:
     public-key: 3O9CVvzD_0omAKw17VJoL0NlezpzxRAHNIbOWGBto2I
@@ -59,3 +50,4 @@ proxies:
   type: vless
   udp: true
   uuid: 3fa2f5cd-0cbc-4e4f-bce1-a59ae090eef4
+  xudp: true

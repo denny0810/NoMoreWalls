@@ -1,1 +1,69 @@
-proxies: []
+proxies:
+- client-fingerprint: ios
+  encryption: none
+  grpc-opts:
+    grpc-service-name: ssp
+  name: 8|[VLESS] ruRU_1|1.1MB/s
+  network: grpc
+  port: 443
+  server: s716.okgfw.top
+  servername: u710297uee28s716.okgfw.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: f81b7cb0-70c6-3d1a-9b30-c95b1227f6ed
+  xudp: true
+- client-fingerprint: ios
+  encryption: none
+  grpc-opts:
+    grpc-service-name: ssp
+  name: 8|[VLESS] ruRU_2|1.0MB/s
+  network: grpc
+  port: 443
+  server: s717.okgfw.top
+  servername: u710297u64bes717.okgfw.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: f81b7cb0-70c6-3d1a-9b30-c95b1227f6ed
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 8|[VLESS] ruRU_3|2.4MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: whYmACpNNY4B3Yv8iBJ9AmxokZL2Tb7O210utmzvGSo
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: scvad1tel-ru.golden-cards.me
+  servername: avatars.mds.yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: a774f61d-a518-4c61-902f-807797da6caf
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 9|[VLESS] ruRU²_1|2.5MB/s|GPT⁺|X
+  network: tcp
+  port: 52006
+  reality-opts:
+    public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
+    short-id: '!!str d8c6b58bcbb0c323'
+  server: 109.120.191.66
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 10a4c929-0643-07d0-9b89-0b823adaa2a8
+  xudp: true

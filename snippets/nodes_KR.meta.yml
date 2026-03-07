@@ -1,9 +1,33 @@
 proxies:
-- name: 2,9|[Socks5] krKR²_3|0.5MB/s|6%|X|History
-  password: ''
+- name: 2,9|[Socks5] krKR²_1|1.0MB/s|6%|GPT|X|Histo...
   port: 1090
   server: 121.169.46.116
-  skip-cert-verify: true
   tls: false
   type: socks5
-  username: ''
+  username: T2clM0QlM0Q6
+- client-fingerprint: chrome
+  delay: 2054
+  name: 8|[Trojan] krKR_1|2.5MB/s
+  network: ws
+  password: trojan
+  port: 29999
+  server: 211.220.198.181
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- name: 9|[Http] krKR²_2|1.1MB/s|GPT|X|History
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  sni: testkr3.ssv.vc
+  tls: true
+  type: http
+  udp: true
+  username: test

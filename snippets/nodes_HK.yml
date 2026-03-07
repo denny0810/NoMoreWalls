@@ -1,9 +1,10 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 2|[Vmess] HK29｜家宽｜非常安全
+  client-fingerprint: chrome
+  name: 2,8|[Vmess] hkHK_1|2.9MB/s
   network: ws
-  port: '80'
+  port: 80
   server: d7d6992d-t5bb40-tdvaex-1ixuf.hkt.gotochinatown.net
   tls: false
   type: vmess
@@ -67,3 +68,19 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  delay: 1299
+  name: 8|[Trojan] hkHK_2|1.3MB/s
+  network: ws
+  password: trojan
+  port: 7000
+  server: 202.85.53.77
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /

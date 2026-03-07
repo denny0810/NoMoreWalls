@@ -1,9 +1,10 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 2|[Vmess] HK29｜家宽｜非常安全
+  client-fingerprint: chrome
+  name: 2,8|[Vmess] hkHK_1|2.9MB/s
   network: ws
-  port: '80'
+  port: 80
   server: d7d6992d-t5bb40-tdvaex-1ixuf.hkt.gotochinatown.net
   tls: false
   type: vmess
@@ -75,22 +76,25 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: 8|[VLESS] hkHK_1|3.2MB/s
+  delay: 1299
+  name: 8|[Trojan] hkHK_2|1.3MB/s
   network: ws
-  port: 443
-  server: 68.64.179.105
-  servername: apk.arises.dynv6.net
-  tls: true
-  type: vless
-  uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863
+  password: trojan
+  port: 7000
+  server: 202.85.53.77
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: apk.arises.dynv6.net
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-- name: 9|[Socks5] hkHK²_1|6.5MB/s|0%|X
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- name: 9|[Socks5] hkHK²_2|1.8MB/s|2%|X
   password: ''
-  port: 1080
-  server: 38.55.105.63
+  port: 8888
+  server: 38.246.249.217
   skip-cert-verify: true
   type: socks5
   username: ''

@@ -1,5 +1,5 @@
 proxies:
-- name: 3|[Hysteria2] TW
+- name: 4|[Hysteria2] TW
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: tw.oomz.ru
@@ -7,46 +7,19 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 7|[SS] twTW_1|1.8MB/s
-  password: de158a17-cb18-47ad-8c4d-1c8499d82dd8
-  port: 13368
-  server: bbb.whtjdasha.com
-  type: ss
-  udp: true
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: 7|[Vmess] twTW_2|1015KB/s
-  network: ws
-  port: 12888
-  server: gtm1.ktmwan.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bbd785de-9793-4453-be40-6a3fdc418203
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-  xudp: true
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 7|[VLESS] twTW_3|2.9MB/s
+  name: 8|[VLESS] twTW_2|1.6MB/s
   network: tcp
   port: 443
   reality-opts:
-    public-key: YpRldYiKUICUFKdAHhvvKip65u9EcV8IDcZHE3E6WUQ
-    short-id: '!!str 94f93da0fb16'
-  server: tw3.miyazono-kaori.com
-  servername: www.wistron.com
+    public-key: KJgODVMTQcncG_l1ZCDhzn8gEgMU2YRl2Yw2je6moWY
+    short-id: '!!str c0d856ec'
+  server: tw1.miyazono-kaori.com
+  servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: f6c7016b-6f94-4a32-975c-013f2494d312
+  uuid: 726dd73e-e06b-4665-a2c6-38a2277c499b
   xudp: true

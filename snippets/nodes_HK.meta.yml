@@ -1,5 +1,5 @@
 proxies:
-- name: 3|[Hysteria2] hk HK
+- name: 4|[Hysteria2] hk HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
   server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
@@ -8,40 +8,40 @@ proxies:
   type: hysteria2
 - alterId: 2
   cipher: auto
-  name: 5|[Vmess] hk 香港|@ripaojiedian
+  name: 6|[Vmess] hk 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 5,6|[Trojan] 香港3|@ripaojiedian
+- name: 6,7|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 443
-  server: 58.152.18.189
+  port: 921
+  server: 54.250.4.226
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 香港4|@ripaojiedian
+- name: 6,7|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 38301
-  server: 43.198.203.251
+  port: 388
+  server: 57.180.10.241
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 5,6|[Trojan] 香港5|@ripaojiedian
+- name: 6,7|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 38301
-  server: 43.199.159.207
+  port: 6313
+  server: 13.112.192.191
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 6|[Vmess] 香港|@ripaojiedian
+  name: 7|[Vmess] 香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -49,40 +49,18 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] hkHK_1|1.1MB/s
-  network: ws
-  port: 443
-  server: 8.223.63.150
-  servername: w5xo.gc7.snl.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8ae7cac7-36f7-d208-367d-2322dcb73973
-  ws-opts:
-    headers:
-      Host: w5xo.gc7.snl.cc.cd
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: /
-  xudp: true
 - alterId: '0'
   cipher: auto
   client-fingerprint: chrome
-  name: 7|[Vmess] hkHK_2|2.5MB/s
-  network: ws
-  port: 12890
-  server: gtm1.ktmwan.net
+  name: 8|[Vmess] hkHK_1|1.4MB/s
+  network: tcp
+  port: 30003
+  server: a.cdn-bilibili.cn
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: bbd785de-9793-4453-be40-6a3fdc418203
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
+  uuid: 69de9a52-36b0-4265-a3cf-d06bcefe713d
   xudp: true
 - alterId: 2
   cipher: auto
@@ -90,7 +68,7 @@ proxies:
   country: 🇭🇰 HK
   h2-opts: {}
   http-opts: {}
-  name: 8|[Vmess] hkHK²_4|6.9MB/s|0%|GPT|YT|X
+  name: 9|[Vmess] hkHK²_4|6.9MB/s|0%|GPT|YT|X
   network: ws
   port: 80
   server: hkt.gotochinatown.net
@@ -109,7 +87,7 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 8|[Vmess] hkHK²_2|16.0MB/s|0%|GPT⁺|YT|NF...
+  name: 9|[Vmess] hkHK²_2|16.0MB/s|0%|GPT⁺|YT|NF...
   network: tcp
   port: 25210
   server: ncgddx.gdsxrk.com
@@ -122,7 +100,7 @@ proxies:
   country: 🇭🇰 HK
   h2-opts: {}
   http-opts: {}
-  name: 8|[Vmess] hkHK²_5|6.8MB/s|0%|YT|D+|X|[原生...
+  name: 9|[Vmess] hkHK²_5|6.8MB/s|0%|YT|D+|X|[原生...
   network: ws
   port: 80
   server: hkt.gotochinatown.net
@@ -133,12 +111,12 @@ proxies:
     headers:
       Host: hkt.gotochinatown.net
     path: /
-- name: 10|[Socks5] HK_speednode_0015
+- name: 11|[Socks5] HK_speednode_0015
   port: 50161
   server: 13.70.6.6
   type: socks5
   udp: true
-- name: 10|[VLESS] HK_speednode_0017
+- name: 11|[VLESS] HK_speednode_0017
   network: ws
   port: 1443
   server: 43.161.217.205
@@ -154,7 +132,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] HK_speednode_0018
+  name: 11|[VLESS] HK_speednode_0018
   port: 443
   reality-opts:
     public-key: JEH14p4YvGvmDdBct-yekywfh8xcbbHjTBoBteh_qSs
@@ -167,7 +145,7 @@ proxies:
   udp: true
   uuid: f6c7016b-6f94-4a32-975c-013f2494d312
 - client-fingerprint: random
-  name: 10|[VLESS] HK_speednode_0019
+  name: 11|[VLESS] HK_speednode_0019
   network: ws
   port: 443
   server: 103.177.249.122

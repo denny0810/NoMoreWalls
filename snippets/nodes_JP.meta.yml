@@ -1,77 +1,29 @@
 proxies:
-- name: 5,6|[Trojan] 日本|@ripaojiedian
+- name: 6,7|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3022
-  server: 13.192.170.234
+  port: 4945
+  server: 57.180.10.241
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 5,6|[Trojan] 日本2|@ripaojiedian
-  network: tcp
-  password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 34818
-  server: 54.250.6.236
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 5,6|[Trojan] 日本3|@ripaojiedian
+- name: 6,7|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4937
-  server: 13.114.100.13
+  server: 153.121.65.107
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] jpJP_1|1.1MB/s
-  network: ws
-  port: 443
-  server: cf.cloudflare.182682.xyz
-  servername: qtto.6xp.snl.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8ae7cac7-36f7-d208-367d-2322dcb73973
-  ws-opts:
-    headers:
-      Host: qtto.6xp.snl.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] jpJP_2|1.2MB/s
-  network: ws
-  port: 443
-  server: 108.162.198.96
-  servername: qtto.6xp.snl.cc.cd
+- name: 6,7|[Trojan] 日本3|@ripaojiedian
+  network: tcp
+  password: f7dbed8b1ca85124e793ba6c0bcfd0db
+  port: 34818
+  server: 153.121.65.107
   skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 8ae7cac7-36f7-d208-367d-2322dcb73973
-  ws-opts:
-    headers:
-      Host: qtto.6xp.snl.cc.cd
-    path: /
-- client-fingerprint: random
-  encryption: none
-  name: 7|[VLESS] jpJP_3|2.1MB/s
-  network: ws
-  port: 2087
-  server: 172.64.53.111
-  servername: k7ryegiaeu.chinam.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: k7ryegiaeu.chinam.eu.org
-    path: /danfeng
-- name: 10|[VLESS] JP_speednode_0020
+  sni: www.nintendogames.net
+  type: trojan
+- name: 11|[VLESS] JP_speednode_0020
   network: ws
   port: 443
   server: 188.253.26.128

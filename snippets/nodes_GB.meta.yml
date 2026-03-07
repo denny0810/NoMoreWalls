@@ -1,6 +1,60 @@
 proxies:
 - client-fingerprint: chrome
-  name: 8|[VLESS] gbGB²_1|2.3MB/s|GPT|X|History|...
+  flow: xtls-rprx-vision
+  name: 8,11|[VLESS] GB_speednode_0014
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
+    short-id: '!!str d923'
+  server: uk1.miyazono-kaori.com
+  servername: www.bp.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f6c7016b-6f94-4a32-975c-013f2494d312
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 8|[VLESS] gbGB_2|1.4MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QdYs12kmf0mAXNOEPgMpLN5dbZUlgvRK2zCqynOmqBk
+    short-id: '!!str 20'
+  server: uk2.miyazono-kaori.com
+  servername: www.bp.com
+  tls: true
+  type: vless
+  uuid: f6c7016b-6f94-4a32-975c-013f2494d312
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 8|[VLESS] gbGB_3|1021KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QdYs12kmf0mAXNOEPgMpLN5dbZUlgvRK2zCqynOmqBk
+    short-id: '!!str 20'
+  server: uk2.miyazono-kaori.com
+  servername: www.bp.com
+  tls: true
+  type: vless
+  uuid: 726dd73e-e06b-4665-a2c6-38a2277c499b
+- client-fingerprint: chrome
+  name: 8|[VLESS] gbGB_4|2.1MB/s
+  network: ws
+  port: 443
+  server: 198.62.62.124
+  servername: war.connecticut-haloo.info
+  tls: true
+  type: vless
+  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+  ws-opts:
+    headers:
+      Host: war.connecticut-haloo.info
+    path: /love
+- client-fingerprint: chrome
+  name: 9|[VLESS] gbGB²_1|2.3MB/s|GPT|X|History|...
   network: ws
   port: 443
   server: 198.62.62.248
@@ -14,7 +68,7 @@ proxies:
     headers:
       Host: tar.alabama-tigr.info
     path: /love
-- name: 10|[VLESS] GB_speednode_0013
+- name: 11|[VLESS] GB_speednode_0013
   network: ws
   port: 443
   server: 165.227.237.209
@@ -28,17 +82,3 @@ proxies:
     headers:
       Host: sni.111000.dynv6.net
     path: /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|[VLESS] GB_speednode_0014
-  port: 443
-  reality-opts:
-    public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
-    short-id: '!!str d923'
-  server: uk1.miyazono-kaori.com
-  servername: www.bp.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f6c7016b-6f94-4a32-975c-013f2494d312

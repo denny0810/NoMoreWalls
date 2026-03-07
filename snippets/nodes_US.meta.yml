@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 6,7,8|[Trojan] usUS_3|1020KB/s
+  name: 7,8|[Trojan] usUS_3|1020KB/s
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4920
@@ -8,15 +8,14 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 6,7|[Trojan] 美国2|@ripaojiedian
+- name: 7|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4019
   server: 160.16.130.21
-  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 6,7|[Trojan] 美国3|@ripaojiedian
+- name: 7|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 2960
@@ -123,44 +122,13 @@ proxies:
       Host: jflsjlaf.pages.dev
     max-early-data: 2560
     path: /
-- client-fingerprint: random
-  name: 9|[VLESS] usUS¹-SG⁰_1|1.9MB/s|GM|TK|X
-  network: ws
-  port: 443
-  server: 172.67.70.64
-  servername: snippet.sh21.eu.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.sh21.eu.org
-    path: /danfeng
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 9|[Vmess] usUS²_1|1.9MB/s|7%|GPT⁺|GM|NF|...
-  network: http
-  port: 80
-  server: 132.145.154.72
-  servername: a.189.cn
-  skip-cert-verify: true
-  type: vmess
-  uuid: bcb7c581-3c95-4569-a4e7-918141e91ea3
-- cipher: chacha20-ietf-poly1305
-  name: 9|[SS] usUS²_2|2.9MB/s|0%|GPT⁺|GM|YT|...
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 12589
-  server: ldu.izenny.com
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 9|[SS] vnVN²_9|2.2MB/s|GPT|GM|YT-US|X...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.123
   type: ss
-  udp: true
 - name: 11|[VLESS] US_speednode_0034
   network: ws
   port: 2053

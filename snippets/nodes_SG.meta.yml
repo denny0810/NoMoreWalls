@@ -23,7 +23,8 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 6,7|[Trojan] 新加坡3|@ripaojiedian
+- client-fingerprint: chrome
+  name: 6,7,8|[Trojan] sgSG_4|2.2MB/s
   network: tcp
   password: BxceQaOe
   port: 52951
@@ -31,30 +32,63 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: 8|[VLESS] sgSG_1|1.1MB/s
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 8|[VLESS] sgSG_2|1.9MB/s
   network: ws
-  port: 2053
-  server: cloudflare.seeck.cn
-  servername: kfaq8uz96.chinav.eu.org
+  port: 8443
+  server: news.zoom.us
+  servername: darknet-free.alexid.org
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 39eb8c33-ee7f-4980-b3e5-684aaf390f56
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: kfaq8uz96.chinav.eu.org
-    max-early-data: 2560
-    path: /danfeng
+      Host: darknet-free.alexid.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 8|[VLESS] sgSG_3|1.6MB/s
+  network: ws
+  port: 8443
+  server: ev.zoom.us
+  servername: darknet-free.alexid.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 39eb8c33-ee7f-4980-b3e5-684aaf390f56
+  ws-opts:
+    headers:
+      Host: darknet-free.alexid.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 8|[Trojan] sgSG_5|3.2MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 52951
+  server: 95.40.88.242
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 8,9|[Vmess] sgSG²_2|1.7MB/s|GPT|GM|X|Succe...
+  name: 9|[Vmess] sgSG²_2|1.7MB/s|GPT|GM|X|Succe...
   network: tcp
   port: 30812
   server: v12.hdacd.com
-  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

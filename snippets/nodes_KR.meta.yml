@@ -1,81 +1,30 @@
 proxies:
-- name: 2|[Socks5] KR4｜家宽｜高风险 (黑名单)
+- name: 1|[Socks5] KR4｜家宽｜高风险 (黑名单)
   port: 1090
   server: 121.169.46.116
   tls: false
   type: socks5
   username: T2clM0QlM0Q6
 - client-fingerprint: chrome
-  delay: 2054
-  name: 8|[Trojan] krKR_1|1.2MB/s
+  name: 8|[VLESS] krKR_1|1011KB/s
   network: ws
-  password: trojan
-  port: 29999
-  server: 211.220.198.181
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
+  port: 11717
+  server: 121.157.190.209
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
 - client-fingerprint: chrome
-  delay: 914
-  name: 8|[Trojan] krKR_2|1.8MB/s
-  network: ws
-  password: trojan
-  port: 14534
-  server: 211.252.47.147
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  delay: 1318
-  name: 8|[Trojan] krKR_3|1.2MB/s
-  network: ws
-  password: trojan
-  port: 11310
-  server: 211.106.184.129
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  delay: 938
-  name: 8|[Trojan] krKR_4|1.3MB/s
+  delay: 1772
+  name: 8|[Trojan] krKR_2|2.0MB/s
   network: ws
   password: trojan
   port: 11434
-  server: 118.35.208.37
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  delay: 2068
-  name: 8|[Trojan] krKR_5|1.4MB/s
-  network: ws
-  password: trojan
-  port: 20000
-  server: 211.110.32.47
+  server: 114.207.99.233
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan

@@ -1,15 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 2|[Vmess] JP3｜家宽｜非常安全
+  name: 1|[Vmess] JP3｜家宽｜非常安全
   network: tcp
   port: '8443'
   server: 31.58.223.134
   tls: false
   type: vmess
   uuid: 78cdc6b7-8b14-47d6-bf09-3167bc5124fb
-- client-fingerprint: chrome
-  name: 6,7,8|[Trojan] jpJP_1|3.6MB/s
+- name: 6,7|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -33,19 +32,20 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  delay: 2152
-  name: 8|[Trojan] jpJP_2|1.4MB/s
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: 8|[Vmess] jpJP_1|3.7MB/s
   network: ws
-  password: trojan
-  port: 587
-  server: 217.142.250.195
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
+  port: 443
+  server: highspeedtesting01.publicvm.com
+  servername: highspeedtesting01.publicvm.com
+  tls: true
+  type: vmess
+  udp: false
+  uuid: a301c77c-e549-494e-a1e2-b386412f4d11
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
+      Host: highspeedtesting01.publicvm.com
+    path: /gredfbgr

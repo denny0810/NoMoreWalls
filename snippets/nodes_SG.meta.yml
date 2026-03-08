@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] SG15｜机房｜低风险
+  name: 2|[Vmess] SG15｜机房｜低风险
   network: tcp
   port: '30812'
   server: v12.hdacd.com
@@ -32,7 +32,8 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 6,7|[Trojan] 新加坡3|@ripaojiedian
+- client-fingerprint: chrome
+  name: 6,7,8|[Trojan] sgSG_1|2.1MB/s
   network: tcp
   password: BxceQaOe
   port: 41973
@@ -40,51 +41,24 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- cipher: chacha20-ietf
-  name: 8|[SS] sgSG_1|2.2MB/s
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  type: ss
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 8|[VLESS] sgSG_2|1.7MB/s
+- client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] sgSG_2|2.2MB/s
   network: ws
-  port: 8443
-  server: partner.zoom.us
-  servername: darknet-free.alexid.org
-  tls: true
+  port: 8880
+  server: wangcai139.cloudflare.182682.xyz
+  servername: Telegram-channel-WangCai2
   type: vless
   udp: true
-  uuid: 39eb8c33-ee7f-4980-b3e5-684aaf390f56
+  uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: darknet-free.alexid.org
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.86 Safari/537.36
-    path: /
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 8|[VLESS] sgSG_3|1.7MB/s
-  network: ws
-  port: 8443
-  server: ev.zoom.us
-  servername: darknet-free.alexid.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 39eb8c33-ee7f-4980-b3e5-684aaf390f56
-  ws-opts:
-    headers:
-      Host: darknet-free.alexid.org
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
-        Gecko) Chrome/11.0.696.3 Safari/534.24
-    path: /
+      Host: frejd.11258.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    max-early-data: 2560
+    path: /Telegram🇨🇳@WangCai2/
   xudp: true
 - name: 9|[Socks5] sgSG²_1|11.5MB/s|X
   password: ''

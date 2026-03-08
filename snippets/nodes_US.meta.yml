@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 1|[Vmess] US56｜机房｜低风险
+  name: 2|[Vmess] US56｜机房｜低风险
   network: tcp
   port: '30804'
   server: v4.hdacd.com
@@ -10,14 +10,14 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 1|[Vmess] US58｜机房｜低风险
+  name: 2|[Vmess] US58｜机房｜低风险
   network: tcp
   port: '30824'
   server: v24.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 1|[Trojan] US59｜家宽｜非常安全
+- name: 2|[Trojan] US59｜家宽｜非常安全
   network: tcp
   password: adf2550f-8b87-4ea1-aa80-e7fc8f65a68a
   port: 35502
@@ -27,7 +27,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] US60｜机房｜低风险
+  name: 2|[Vmess] US60｜机房｜低风险
   network: ws
   port: '443'
   server: gbnh.1oo.ccwu.cc
@@ -41,7 +41,7 @@ proxies:
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alpn:
   - http/1.1
-  name: 1|[Trojan] US61｜机房｜低风险
+  name: 2|[Trojan] US61｜机房｜低风险
   network: ws
   password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   port: 443
@@ -53,7 +53,7 @@ proxies:
     headers:
       Host: mjki.1nn.ccwu.cc
     path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- name: 1|[Trojan] US62｜机房｜低风险
+- name: 2|[Trojan] US62｜机房｜低风险
   network: ws
   password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   port: 443
@@ -89,7 +89,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 8|[Hysteria2] usUS_1|2.5MB/s
+- name: 8|[Hysteria2] usUS_1|1.8MB/s
   password: alvin9999.com
   port: 30088
   server: 157.254.223.24
@@ -97,71 +97,54 @@ proxies:
   sni: apple.com
   tfo: false
   type: hysteria2
-- fingerprint: ''
-  name: 8|[Anytls] usUS_2|1.1MB/s
-  password: ae74dd32-c336-4be4-9c15-f6108292b3e5
-  port: 12053
-  server: us1.anliangjifei.top
-  skip-cert-verify: true
-  sni: us1.anliangjifei.top
-  type: anytls
-  udp: true
-  username: ae74dd32-c336-4be4-9c15-f6108292b3e5
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: violet
-  name: 8|[VLESS] usUS_3|1.0MB/s
-  network: grpc
-  port: 443
-  server: usbad.osaip.net
-  tls: false
-  type: vless
-  udp: true
-  uuid: e5b2f2a5-cdd6-4ad7-a6a2-e031cc8b6d18
-- client-fingerprint: chrome
-  name: 8|[VLESS] usUS_4|1.1MB/s
+  name: 8|[Trojan] usUS_2|2.0MB/s
   network: ws
-  port: 80
-  server: 104.21.68.186
-  servername: fgHjU.1XL.CcwU.Cc
-  tls: false
-  type: vless
-  uuid: f2651ec7-3234-4340-8efc-f070901a02e5
-  ws-opts:
-    headers:
-      Host: fgHju.1xL.CCwu.Cc
-    path: /bMr5KXQVVEJM1JyJ
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 8,9|[SS] usUS²_2|3.1MB/s|0%|GPT⁺|X|[广播|...
-  password: yoNzQ7Q6qbC1Mx5QpGvdPsHpRsqkvQxk
-  port: 9443
-  server: 144.31.131.64
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  delay: 1190
-  name: 8|[Trojan] usUS_6|2.1MB/s
-  network: ws
-  password: trojan
-  port: 8001
-  server: 178.157.50.221
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: false
+  sni: epge.muarua.filegear-sg.me
   type: trojan
+  udp: true
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /
 - client-fingerprint: chrome
-  delay: 1344
-  name: 8|[Trojan] usUS_7|2.2MB/s
+  flow: xtls-rprx-vision
+  name: 8|[VLESS] usUS_3|1.1MB/s
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
+    short-id: '!!str a20d3ed244c76426'
+  server: 144.31.131.161
+  servername: rus.speedload.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dd1a15d-1426-413a-a3b8-a645788bc844
+  xudp: true
+- client-fingerprint: chrome
+  name: 8|[VLESS] usUS_4|2.8MB/s
+  network: tcp
+  port: 18959
+  reality-opts:
+    public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
+    short-id: '!!str d557c6895d014075'
+  server: 157.254.223.44
+  servername: itunes.apple.com
+  tls: true
+  type: vless
+  uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
+- client-fingerprint: chrome
+  delay: 2362
+  name: 8|[Trojan] usUS_5|1.8MB/s
   network: ws
   password: trojan
-  port: 28006
+  port: 28080
   server: 38.83.41.89
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
@@ -172,6 +155,24 @@ proxies:
       Host: jflsjlaf.pages.dev
     max-early-data: 2560
     path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 8|[VLESS] usUS_6|1.1MB/s
+  network: ws
+  port: 80
+  server: 104.18.125.5
+  type: vless
+  udp: true
+  uuid: 17ebee4e-97ea-4cad-8737-cc228478ca9d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: lively-brook-c471.nedena3319.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    max-early-data: 2048
+    path: /
+  xudp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -194,6 +195,13 @@ proxies:
   sni: apple.com
   type: hysteria2
   udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: 9|[SS] usUS²_2|3.1MB/s|0%|GPT⁺|X|[广播|...
+  password: yoNzQ7Q6qbC1Mx5QpGvdPsHpRsqkvQxk
+  port: 9443
+  server: 144.31.131.64
+  type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 9|[SS] vnVN²_2|0.6MB/s|GPT|YT-US|X|Hi...

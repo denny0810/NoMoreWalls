@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] DE8｜机房｜高风险 (黑名单)
+  name: 2|[Vmess] DE8｜机房｜高风险 (黑名单)
   network: tcp
   port: '180'
   server: 82.198.246.97
@@ -10,10 +10,26 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: 1|[Vmess] DE9｜机房｜低风险
+  name: 2|[Vmess] DE9｜机房｜低风险
   network: tcp
   port: '30833'
   server: v33.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  delay: 2230
+  name: 8|[Trojan] deDE_4|1.1MB/s
+  network: ws
+  password: trojan
+  port: 8444
+  server: 38.180.48.182
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /

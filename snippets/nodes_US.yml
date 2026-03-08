@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 1|[Vmess] US56｜机房｜低风险
+  name: 2|[Vmess] US56｜机房｜低风险
   network: tcp
   port: '30804'
   server: v4.hdacd.com
@@ -10,14 +10,14 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 1|[Vmess] US58｜机房｜低风险
+  name: 2|[Vmess] US58｜机房｜低风险
   network: tcp
   port: '30824'
   server: v24.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 1|[Trojan] US59｜家宽｜非常安全
+- name: 2|[Trojan] US59｜家宽｜非常安全
   network: tcp
   password: adf2550f-8b87-4ea1-aa80-e7fc8f65a68a
   port: 35502
@@ -27,7 +27,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] US60｜机房｜低风险
+  name: 2|[Vmess] US60｜机房｜低风险
   network: ws
   port: '443'
   server: gbnh.1oo.ccwu.cc
@@ -41,7 +41,7 @@ proxies:
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alpn:
   - http/1.1
-  name: 1|[Trojan] US61｜机房｜低风险
+  name: 2|[Trojan] US61｜机房｜低风险
   network: ws
   password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   port: 443
@@ -53,7 +53,7 @@ proxies:
     headers:
       Host: mjki.1nn.ccwu.cc
     path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- name: 1|[Trojan] US62｜机房｜低风险
+- name: 2|[Trojan] US62｜机房｜低风险
   network: ws
   password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   port: 443
@@ -89,36 +89,27 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 8,9|[SS] usUS²_2|3.1MB/s|0%|GPT⁺|X|[广播|...
-  password: yoNzQ7Q6qbC1Mx5QpGvdPsHpRsqkvQxk
-  port: 9443
-  server: 144.31.131.64
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  delay: 1190
-  name: 8|[Trojan] usUS_6|2.1MB/s
+  name: 8|[Trojan] usUS_2|2.0MB/s
   network: ws
-  password: trojan
-  port: 8001
-  server: 178.157.50.221
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: false
+  sni: epge.muarua.filegear-sg.me
   type: trojan
+  udp: true
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /
 - client-fingerprint: chrome
-  delay: 1344
-  name: 8|[Trojan] usUS_7|2.2MB/s
+  delay: 2362
+  name: 8|[Trojan] usUS_5|1.8MB/s
   network: ws
   password: trojan
-  port: 28006
+  port: 28080
   server: 38.83.41.89
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
@@ -142,6 +133,13 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 69de9a52-36b0-4265-a3cf-d06bcefe713d
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: 9|[SS] usUS²_2|3.1MB/s|0%|GPT⁺|X|[广播|...
+  password: yoNzQ7Q6qbC1Mx5QpGvdPsHpRsqkvQxk
+  port: 9443
+  server: 144.31.131.64
+  type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 9|[SS] vnVN²_2|0.6MB/s|GPT|YT-US|X|Hi...

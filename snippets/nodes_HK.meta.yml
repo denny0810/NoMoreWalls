@@ -1,10 +1,9 @@
 proxies:
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: 1,8|[Vmess] hkHK_1|2.9MB/s
+  name: 2|[Vmess] HK29｜家宽｜非常安全
   network: ws
-  port: 80
+  port: '80'
   server: d7d6992d-t5bb40-tdvaex-1ixuf.hkt.gotochinatown.net
   tls: false
   type: vmess
@@ -17,7 +16,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: '12306'
-  name: 1|[Vmess] HK41｜家宽｜非常安全
+  name: 2|[Vmess] HK41｜家宽｜非常安全
   network: grpc
   port: '443'
   server: hk02.653ebeeb-5f60-4be5-958d-7bf4839cdccd.ef6616fd-5b06-482f-9d64-183745659cbf.byteprivatelink.com
@@ -76,19 +75,18 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  delay: 1299
-  name: 8|[Trojan] hkHK_2|1.3MB/s
+  name: 8|[VLESS] hkHK_1|1.1MB/s
   network: ws
-  password: trojan
   port: 7000
   server: 202.85.53.77
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
+  servername: kuangbao.xiejiang.dpdns.org
+  tls: true
+  type: vless
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: jflsjlaf.pages.dev
+      Host: kuangbao.xiejiang.dpdns.org
     max-early-data: 2560
     path: /
 - name: 9|[Socks5] hkHK²_2|1.8MB/s|2%|X

@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] SG15｜机房｜低风险
+  name: 2|[Vmess] SG15｜机房｜低风险
   network: tcp
   port: '30812'
   server: v12.hdacd.com
@@ -10,7 +10,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] DE8｜机房｜高风险 (黑名单)
+  name: 2|[Vmess] DE8｜机房｜高风险 (黑名单)
   network: tcp
   port: '180'
   server: 82.198.246.97
@@ -19,7 +19,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: 1|[Vmess] US56｜机房｜低风险
+  name: 2|[Vmess] US56｜机房｜低风险
   network: tcp
   port: '30804'
   server: v4.hdacd.com
@@ -28,9 +28,9 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 1,8|[Vmess] hkHK_1|2.9MB/s
+  name: 2|[Vmess] HK29｜家宽｜非常安全
   network: ws
-  port: 80
+  port: '80'
   server: d7d6992d-t5bb40-tdvaex-1ixuf.hkt.gotochinatown.net
   tls: false
   type: vmess
@@ -43,7 +43,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: '12306'
-  name: 1|[Vmess] HK41｜家宽｜非常安全
+  name: 2|[Vmess] HK41｜家宽｜非常安全
   network: grpc
   port: '443'
   server: hk02.653ebeeb-5f60-4be5-958d-7bf4839cdccd.ef6616fd-5b06-482f-9d64-183745659cbf.byteprivatelink.com
@@ -53,7 +53,7 @@ proxies:
   uuid: d5359b9e-4f4f-49e4-ab8b-f6a0d19bce28
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] JP3｜家宽｜非常安全
+  name: 2|[Vmess] JP3｜家宽｜非常安全
   network: tcp
   port: '8443'
   server: 31.58.223.134
@@ -62,14 +62,14 @@ proxies:
   uuid: 78cdc6b7-8b14-47d6-bf09-3167bc5124fb
 - alterId: 2
   cipher: auto
-  name: 1|[Vmess] US58｜机房｜低风险
+  name: 2|[Vmess] US58｜机房｜低风险
   network: tcp
   port: '30824'
   server: v24.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 1|[Trojan] US59｜家宽｜非常安全
+- name: 2|[Trojan] US59｜家宽｜非常安全
   network: tcp
   password: adf2550f-8b87-4ea1-aa80-e7fc8f65a68a
   port: 35502
@@ -79,7 +79,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] US60｜机房｜低风险
+  name: 2|[Vmess] US60｜机房｜低风险
   network: ws
   port: '443'
   server: gbnh.1oo.ccwu.cc
@@ -93,7 +93,7 @@ proxies:
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alpn:
   - http/1.1
-  name: 1|[Trojan] US61｜机房｜低风险
+  name: 2|[Trojan] US61｜机房｜低风险
   network: ws
   password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   port: 443
@@ -105,7 +105,7 @@ proxies:
     headers:
       Host: mjki.1nn.ccwu.cc
     path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- name: 1|[Trojan] US62｜机房｜低风险
+- name: 2|[Trojan] US62｜机房｜低风险
   network: ws
   password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   port: 443
@@ -119,7 +119,7 @@ proxies:
     path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
 - alterId: 2
   cipher: auto
-  name: 1|[Vmess] DE9｜机房｜低风险
+  name: 2|[Vmess] DE9｜机房｜低风险
   network: tcp
   port: '30833'
   server: v33.hdacd.com
@@ -128,7 +128,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] NL2｜机房｜低风险
+  name: 2|[Vmess] NL2｜机房｜低风险
   network: tcp
   port: '30830'
   server: v30.hdacd.com
@@ -174,7 +174,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 6,7|[Trojan] 日本|@ripaojiedian
+- name: 6,7,8|[Trojan] jpJP_1|3.6MB/s
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -214,7 +214,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 6,7|[Trojan] 新加坡3|@ripaojiedian
+- name: 6,7,8|[Trojan] sgSG_1|2.1MB/s
   network: tcp
   password: BxceQaOe
   port: 41973
@@ -256,67 +256,8 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 8,9|[SS] usUS²_2|3.1MB/s|0%|GPT⁺|X|[广播|...
-  password: yoNzQ7Q6qbC1Mx5QpGvdPsHpRsqkvQxk
-  port: 9443
-  server: 144.31.131.64
-  type: ss
-  udp: true
-- cipher: chacha20-ietf
-  name: 8|[SS] sgSG_1|2.2MB/s
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  type: ss
-- delay: 1190
-  name: 8|[Trojan] usUS_6|2.1MB/s
-  network: ws
-  password: trojan
-  port: 8001
-  server: 178.157.50.221
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- delay: 1344
-  name: 8|[Trojan] usUS_7|2.2MB/s
-  network: ws
-  password: trojan
-  port: 28006
-  server: 38.83.41.89
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- delay: 1299
-  name: 8|[Trojan] hkHK_2|1.3MB/s
-  network: ws
-  password: trojan
-  port: 7000
-  server: 202.85.53.77
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
 - delay: 2054
-  name: 8|[Trojan] krKR_1|2.5MB/s
+  name: 8|[Trojan] krKR_1|1.2MB/s
   network: ws
   password: trojan
   port: 29999
@@ -330,42 +271,131 @@ proxies:
       Host: jflsjlaf.pages.dev
     max-early-data: 2560
     path: /
-- delay: 2724
-  name: 8|[Trojan] nlNL_4|1.3MB/s
+- name: 8|[Trojan] usUS_2|2.0MB/s
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: false
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /
+- delay: 2362
+  name: 8|[Trojan] usUS_5|1.8MB/s
+  network: ws
+  password: trojan
+  port: 28080
+  server: 38.83.41.89
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- delay: 2152
+  name: 8|[Trojan] jpJP_2|1.4MB/s
+  network: ws
+  password: trojan
+  port: 587
+  server: 217.142.250.195
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- delay: 914
+  name: 8|[Trojan] krKR_2|1.8MB/s
+  network: ws
+  password: trojan
+  port: 14534
+  server: 211.252.47.147
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- delay: 1318
+  name: 8|[Trojan] krKR_3|1.2MB/s
+  network: ws
+  password: trojan
+  port: 11310
+  server: 211.106.184.129
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- delay: 938
+  name: 8|[Trojan] krKR_4|1.3MB/s
+  network: ws
+  password: trojan
+  port: 11434
+  server: 118.35.208.37
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- delay: 2068
+  name: 8|[Trojan] krKR_5|1.4MB/s
+  network: ws
+  password: trojan
+  port: 20000
+  server: 211.110.32.47
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- delay: 1656
+  name: 8|[Trojan] auAU_1|3.0MB/s
+  network: ws
+  password: trojan
+  port: 12580
+  server: 52.64.121.20
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- delay: 2230
+  name: 8|[Trojan] deDE_4|1.1MB/s
   network: ws
   password: trojan
   port: 8444
-  server: 152.53.200.167
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- delay: 2692
-  name: 8|[Trojan] itIT_1|2.3MB/s
-  network: ws
-  password: trojan
-  port: 9443
-  server: 18.102.110.23
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- delay: 2009
-  name: 8|[Trojan] fiFI_5|1.5MB/s
-  network: ws
-  password: trojan
-  port: 9864
-  server: 185.188.30.107
+  server: 38.180.48.182
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
@@ -394,6 +424,13 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 69de9a52-36b0-4265-a3cf-d06bcefe713d
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: 9|[SS] usUS²_2|3.1MB/s|0%|GPT⁺|X|[广播|...
+  password: yoNzQ7Q6qbC1Mx5QpGvdPsHpRsqkvQxk
+  port: 9443
+  server: 144.31.131.64
+  type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 9|[SS] vnVN²_2|0.6MB/s|GPT|YT-US|X|Hi...

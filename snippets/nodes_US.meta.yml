@@ -173,58 +173,17 @@ proxies:
     max-early-data: 2048
     path: /
   xudp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 9|[Vmess] usUS²_1|1.8MB/s|GPT|X
-  network: tcp
-  port: 30003
-  server: a.cdn-bilibili.cn
-  skip-cert-verify: true
-  type: vmess
-  uuid: 69de9a52-36b0-4265-a3cf-d06bcefe713d
-- auth: dongtaiwang.com
-  name: 9|[Hysteria2] deDE²_1|4.0MB/s|0%|GPT⁺|YT-US|...
-  password: dongtaiwang.com
-  port: 43608
-  server: 89.144.35.34
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 9|[SS] usUS²_2|3.1MB/s|0%|GPT⁺|X|[广播|...
-  password: yoNzQ7Q6qbC1Mx5QpGvdPsHpRsqkvQxk
-  port: 9443
-  server: 144.31.131.64
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 9|[SS] vnVN²_2|0.6MB/s|GPT|YT-US|X|Hi...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.36
-  type: ss
-- auth: ae845cbd-08fb-4346-929a-e28a6f3960a8
-  name: 9|[Hysteria2] aeAE²_1|1.1MB/s|28%|GPT⁺|GM|YT...
-  obfs: salamander
-  obfs-password: Faf^fv#mQCMKxxSM
-  password: ae845cbd-08fb-4346-929a-e28a6f3960a8
-  port: 30000
-  server: sg2.shiyuandian.shop
-  skip-cert-verify: true
-  sni: sg2.shiyuandian.shop
-  type: hysteria2
-  udp: true
-- name: 9|[Http] usUS²_3|6.0MB/s|X|History
-  password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|[VLESS] US_speednode_0005
   port: 443
-  server: 4a5864a9-t9zts0-tbicd9-1go3q.se.oshuawei.com
-  sni: 4a5864a9-t9zts0-tbicd9-1go3q.se.oshuawei.com
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: '!!str c39cc7310a'
+  server: 143.20.236.51
+  servername: yahoo.com
+  skip-cert-verify: false
   tls: true
-  type: http
-  username: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c

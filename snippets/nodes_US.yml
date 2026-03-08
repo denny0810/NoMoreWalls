@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 2|[Vmess] US56｜机房｜低风险
+  name: 1|[Vmess] US56｜机房｜低风险
   network: tcp
   port: '30804'
   server: v4.hdacd.com
@@ -10,14 +10,14 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 2|[Vmess] US58｜机房｜低风险
+  name: 1|[Vmess] US58｜机房｜低风险
   network: tcp
   port: '30824'
   server: v24.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 2|[Trojan] US59｜家宽｜非常安全
+- name: 1|[Trojan] US59｜家宽｜非常安全
   network: tcp
   password: adf2550f-8b87-4ea1-aa80-e7fc8f65a68a
   port: 35502
@@ -27,7 +27,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 2|[Vmess] US60｜机房｜低风险
+  name: 1|[Vmess] US60｜机房｜低风险
   network: ws
   port: '443'
   server: gbnh.1oo.ccwu.cc
@@ -41,7 +41,7 @@ proxies:
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alpn:
   - http/1.1
-  name: 2|[Trojan] US61｜机房｜低风险
+  name: 1|[Trojan] US61｜机房｜低风险
   network: ws
   password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   port: 443
@@ -53,7 +53,7 @@ proxies:
     headers:
       Host: mjki.1nn.ccwu.cc
     path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- name: 2|[Trojan] US62｜机房｜低风险
+- name: 1|[Trojan] US62｜机房｜低风险
   network: ws
   password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   port: 443
@@ -68,8 +68,8 @@ proxies:
 - name: 6,7|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 4920
-  server: 54.199.149.138
+  port: 3057
+  server: 160.16.72.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -84,8 +84,8 @@ proxies:
 - name: 6,7|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2960
-  server: 43.198.86.230
+  port: 28680
+  server: 13.115.170.99
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

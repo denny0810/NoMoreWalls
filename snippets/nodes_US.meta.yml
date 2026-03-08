@@ -25,7 +25,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   delay: 1190
-  name: 8|[Trojan] usUS_1|2.5MB/s
+  name: 8|[Trojan] usUS_1|1.7MB/s
   network: ws
   password: trojan
   port: 8001
@@ -40,24 +40,181 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  delay: 1682
-  name: 8|[Trojan] usUS_2|2.0MB/s
+  encryption: none
+  name: 8|[VLESS] usUS_2|1008KB/s
   network: ws
-  password: trojan
-  port: 587
-  server: 38.95.73.40
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
+  port: 2096
+  server: 5.10.215.8
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.101 Safari/537.36
+    path: /sg-lnd
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: 8|[VLESS] usUS_3|2.5MB/s
+  network: ws
+  port: 2053
+  server: cf5.danfeng.eu.org
+  servername: snippet.sheilabelinda.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.sheilabelinda.ndjp.net
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: 8|[VLESS] usUS_4|2.2MB/s
+  network: ws
+  port: 39738
+  server: 38.244.5.247
+  servername: snippet.sheilabelinda.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.sheilabelinda.ndjp.net
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: 8|[VLESS] usUS_5|1.4MB/s
+  network: ws
+  port: 39738
+  server: 38.244.5.99
+  servername: snippet.gfw.nn.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.gfw.nn.kg
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: 8|[VLESS] usUS_6|1.5MB/s
+  network: ws
+  port: 39738
+  server: 38.244.5.168
+  servername: snippet.fgfw.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ndjp.net
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: 8|[VLESS] usUS_7|3.5MB/s
+  network: ws
+  port: 11000
+  server: 67.230.180.33
+  servername: snippet.fgfw.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.indevs.in
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: 8|[VLESS] usUS_8|3.0MB/s
+  network: ws
+  port: 39738
+  server: 38.244.5.40
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: 8|[VLESS] usUS_9|3.0MB/s
+  network: ws
+  port: 443
+  server: 154.17.24.183
+  servername: snippet.fgfw.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ndjp.net
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: 8|[VLESS] usUS_10|2.6MB/s
+  network: ws
+  port: 49345
+  server: 154.12.52.204
+  servername: snippet.sheilabelinda.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.sheilabelinda.ndjp.net
+    path: /danfeng
+- client-fingerprint: random
+  name: 8|[VLESS] usUS_11|1.6MB/s
+  network: ws
+  port: 443
+  server: 104.19.144.74
+  servername: bt5hpm5jf6.chinam.eu.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: jflsjlaf.pages.dev
+      Host: bt5hpm5jf6.chinam.eu.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.75 Safari/537.36
     max-early-data: 2560
-    path: /
+    path: /danfeng
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|[VLESS] US_speednode_0005
+  name: 11|[VLESS] US_speednode_0037
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -69,3 +226,113 @@ proxies:
   type: vless
   udp: true
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: chrome
+  name: 11|[VLESS] US_speednode_0038
+  network: ws
+  port: 443
+  server: 198.62.62.248
+  servername: tar.alabama-tigr.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+  ws-opts:
+    headers:
+      Host: tar.alabama-tigr.info
+    path: /love
+- name: 11|[VLESS] US_speednode_0039
+  network: ws
+  port: 443
+  server: 45.12.145.80
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 11|[VLESS] US_speednode_0040
+  port: 18959
+  reality-opts:
+    public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
+    short-id: '!!str d557c6895d014075'
+  server: 157.254.223.44
+  servername: itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
+- name: 11|[Trojan] US_speednode_0041
+  network: ws
+  password: trojan
+  port: 7071
+  server: 154.17.234.78
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|[VLESS] US_speednode_0042
+  port: 443
+  reality-opts:
+    public-key: 4YI0QbJYHCyl4-VWZPWAMccOmUW0c_XDE_rEZc-dNC0
+  server: 144.31.63.7
+  servername: deout.funvideorus.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 716a8171-09d1-4b5c-b816-34e6537b60ae
+- name: 11|[VLESS] US_speednode_0043
+  network: ws
+  port: 443
+  server: 68.64.179.243
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- name: 11|[VLESS] US_speednode_0044
+  network: ws
+  port: 443
+  server: 68.64.179.250
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- name: 11|[VLESS] US_speednode_0045
+  network: ws
+  port: 443
+  server: 68.64.179.96
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2

@@ -156,24 +156,8 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  fingerprint: ''
-  name: 8|[Vmess] jpJP_1|3.7MB/s
-  network: ws
-  port: 443
-  server: highspeedtesting01.publicvm.com
-  servername: highspeedtesting01.publicvm.com
-  tls: true
-  type: vmess
-  udp: false
-  uuid: a301c77c-e549-494e-a1e2-b386412f4d11
-  ws-opts:
-    headers:
-      Host: highspeedtesting01.publicvm.com
-    path: /gredfbgr
 - delay: 1190
-  name: 8|[Trojan] usUS_1|2.5MB/s
+  name: 8|[Trojan] usUS_1|1.7MB/s
   network: ws
   password: trojan
   port: 8001
@@ -187,36 +171,23 @@ proxies:
       Host: jflsjlaf.pages.dev
     max-early-data: 2560
     path: /
-- delay: 1682
-  name: 8|[Trojan] usUS_2|2.0MB/s
+- alterId: '0'
+  cipher: auto
+  name: 8|[Vmess] jpJP_3|1.1MB/s
   network: ws
-  password: trojan
-  port: 587
-  server: 38.95.73.40
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
+  port: 443
+  server: highspeedtesting01.publicvm.com
+  servername: highspeedtesting01.publicvm.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: a301c77c-e549-494e-a1e2-b386412f4d11
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- delay: 1772
-  name: 8|[Trojan] krKR_2|2.0MB/s
-  network: ws
-  password: trojan
-  port: 11434
-  server: 114.207.99.233
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
+      Host: highspeedtesting01.publicvm.com
+    path: /gredfbgr
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 9|[SS] vnVN²_1|0.9MB/s|GPT⁺|X|Succeed
@@ -258,3 +229,36 @@ proxies:
     headers:
       Host: www.bing.com
     path: /alvin9999.com
+- name: 11|[Trojan] KR_speednode_0009
+  network: ws
+  password: trojan
+  port: 11434
+  server: 114.207.99.233
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
+- name: 11|[Trojan] SC_speednode_0036
+  password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-
+  port: 443
+  server: 8443.golden-cards.me
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 11|[Trojan] US_speednode_0041
+  network: ws
+  password: trojan
+  port: 7071
+  server: 154.17.234.78
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /

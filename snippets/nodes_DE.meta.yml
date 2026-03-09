@@ -28,24 +28,54 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 7|[VLESS] deDE_1|1.0MB/s
-  network: grpc
-  port: 2053
+  flow: xtls-rprx-vision
+  name: 7|[VLESS] deDE_3|2.6MB/s
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: -W4bzjVM_4jgVMYzPj1Mw6IOl_TYv_tqojpEaLb2XGw
-    short-id: '!!str 23'
-  server: 64.188.83.117
-  servername: www.apple.com
+    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+    short-id: '!!str 4fa44664f6a566d3'
+  server: 5.254.85.151
+  servername: germany.scroogethebest.com
   tls: true
   type: vless
   udp: true
-  uuid: 71322f86-f37a-4929-ada0-05e6a2688145
+  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
   xudp: true
 - client-fingerprint: chrome
+  name: 7|[VLESS] deDE_2|2.4MB/s
+  network: ws
+  port: 8005
+  server: 45.145.42.170
+  servername: sub.mot.ip-ddns.com
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+    path: /
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 7|[TUIC] deDE_4|1.1MB/s
+  password: dongtaiwang.com
+  port: 10088
+  reduce-rtt: false
+  request-timeout: 0
+  server: ip1.758733.xyz
+  skip-cert-verify: true
+  sni: apple.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: 9bbd1f42-7ae7-4239-bd10-a68de95e3295
+  version: 5
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 10|[VLESS] DE_speednode_0006
+  name: 8,10|[VLESS] DE_speednode_0006
+  network: tcp
   port: 433
   reality-opts:
     public-key: Bz2HLyFLCOrdtrxIgBPFIIb7BJFfLpnqJ1u-pw0Gpwo
@@ -57,6 +87,27 @@ proxies:
   type: vless
   udp: true
   uuid: c8181481-8544-49da-b4dd-46a3ddb27cae
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 8|[VLESS] deDE²_2|2.9MB/s|GPT|X
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: whYmACpNNY4B3Yv8iBJ9AmxokZL2Tb7O210utmzvGSo
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: 84.201.4.191
+  servername: cdn.uxfeedback.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: a774f61d-a518-4c61-902f-807797da6caf
+  xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: random

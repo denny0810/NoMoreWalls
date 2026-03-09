@@ -16,10 +16,11 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] SG7｜机房｜低风险
+  name: 1,7,8|[Vmess] sgSG²_2|5.3MB/s|39%|GPT|GM|X|H...
   network: tcp
-  port: '30812'
+  port: 30812
   server: v12.hdacd.com
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -92,12 +93,14 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 1|[Vmess] US54｜机房｜低风险
+  name: 1,7|[Vmess] usUS_2|2.0MB/s
   network: tcp
-  port: '30808'
+  port: 30808
   server: v8.hdacd.com
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
@@ -129,9 +132,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] AU4｜机房｜低风险
+  name: 1,8|[Vmess] auAU²_2|5.3MB/s|GPT⁺|YT|X|[广播|...
   network: ws
-  port: '12889'
+  port: 12889
   server: 85.211.242.85
   tls: false
   type: vmess
@@ -142,9 +145,9 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 1|[Vmess] SG8｜机房｜低风险
+  name: 1,7|[Vmess] sgSG_1|2.4MB/s
   network: tcp
-  port: '30845'
+  port: 30845
   server: v45.hdacd.com
   tls: false
   type: vmess
@@ -491,108 +494,96 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: '0'
-  cipher: auto
-  name: 7|[Vmess] jpJP_2|2.3MB/s
+- name: 7,8,10|[VLESS] US_speednode_0054
   network: ws
   port: 443
-  server: highspeedtesting01.publicvm.com
-  servername: highspeedtesting01.publicvm.com
+  server: 198.62.62.248
+  servername: tar.alabama-tigr.info
   skip-cert-verify: false
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: a301c77c-e549-494e-a1e2-b386412f4d11
+  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
   ws-opts:
     headers:
-      Host: highspeedtesting01.publicvm.com
-    path: /gredfbgr
-  xudp: true
+      Host: tar.alabama-tigr.info
+    path: /love
 - encryption: none
-  name: 7|[VLESS] krKR_1|1.8MB/s
+  name: 7,8|[VLESS] gbGB²_2|6.9MB/s|22%|GPT|X|Hist...
   network: ws
-  port: 12184
-  server: 218.155.23.9
-  servername: ylnhh.cc.cd
+  port: 443
+  server: 198.62.62.235
+  servername: bank.alaska-tigr.info
   tls: true
   type: vless
   udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
   ws-opts:
     headers:
-      Host: ylnhh.cc.cd
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /Telegram🇨🇳@WangCai2
+      Host: bank.alaska-tigr.info
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    path: /love
   xudp: true
-- encryption: none
-  name: 7|[VLESS] krKR_2|1.4MB/s
-  network: ws
-  port: 15380
-  server: 211.33.238.198
-  servername: ylnhh.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /Telegram🇨🇳@WangCai2
-  xudp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 7|[Hysteria] usUS_1|1.5MB/s
-  port: 38845
-  protocol: udp
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  udp: true
-  up: 11 Mbps
-- alterId: 0
-  cipher: auto
-  name: 7|[Vmess] ❓Other_1|2.1MB/s
+- flow: xtls-rprx-vision
+  name: 7,10|[VLESS] US_speednode_0055
   network: tcp
-  port: 9006
-  server: select-hk.ddnskunlun.com
+  port: 43643
+  reality-opts:
+    public-key: U_AczMjOIM-_AgDZrEtTBrInB4lcZxXpGB5CCNeqSCs
+    short-id: '0708e917'
+  server: 204.197.163.238
+  servername: www.bing.com
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- encryption: none
-  name: 7|[VLESS] sgSG_1|1.0MB/s
-  network: ws
-  port: 8443
-  server: 43.160.248.66
-  servername: ylnhh.cc.cd
   tls: true
   type: vless
   udp: true
+  uuid: ff111801-768c-4d23-8f46-e90ef677c80d
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 7|[VLESS] deDE_3|2.6MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+    short-id: '4fa44664f6a566d3'
+  server: 5.254.85.151
+  servername: germany.scroogethebest.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
+  xudp: true
+- name: 7|[VLESS] sgSG_3|1.2MB/s
+  network: ws
+  port: 443
+  server: 194.87.10.77
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
   uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   ws-opts:
     headers:
       Host: ylnhh.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
     path: /Telegram🇨🇳@WangCai2
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  encryption: none
-  name: 7|[VLESS] usUS_2|1.0MB/s
+- name: 7,8|[VLESS] krKR¹-SG⁰_1|3.4MB/s|5%|GPT⁺|X
   network: ws
-  port: 28017
-  server: 38.83.41.89
+  port: 17988
+  server: 222.117.162.245
+  servername: snippet.fgfw.ndjp.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ndjp.net
+    path: /danfeng
+- name: 7|[VLESS] krKR_2|1.2MB/s
+  network: ws
+  port: 10250
+  server: 175.200.150.97
   servername: snippet.gfw.nn.kg
-  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
@@ -600,76 +591,76 @@ proxies:
     headers:
       Host: snippet.gfw.nn.kg
     path: /danfeng
-- delay: 2005
-  name: 7|[Trojan] krKR_3|1.7MB/s
+- name: 7|[VLESS] krKR_3|1.3MB/s
   network: ws
-  password: trojan
-  port: 11434
-  server: 220.93.106.4
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- delay: 1574
-  name: 7|[Trojan] krKR_4|1.0MB/s
-  network: ws
-  password: trojan
-  port: 10003
-  server: 118.34.36.61
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 7|[VLESS] usUS_3|1.0MB/s
-  network: ws
-  port: 443
-  server: 192.0.63.88
-  servername: snippet.fgfw.indevs.in
+  port: 15284
+  server: 221.146.116.77
+  servername: ylnhh.cc.cd
   tls: true
   type: vless
-  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- name: 7|[VLESS] krKR_4|1.1MB/s
+  network: ws
+  port: 50001
+  server: 106.251.70.75
+  servername: snippet.gfw.nn.kg
+  tls: true
+  type: vless
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
     headers:
-      Host: snippet.fgfw.indevs.in
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
+      Host: snippet.gfw.nn.kg
     path: /danfeng
-  xudp: true
+- name: 7|[VLESS] krKR_5|1.2MB/s
+  network: ws
+  port: 12735
+  server: 118.42.204.220
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- name: 7|[VLESS] deDE_2|2.4MB/s
+  network: ws
+  port: 8005
+  server: 45.145.42.170
+  servername: sub.mot.ip-ddns.com
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+    path: /
 - encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 7|[VLESS] deDE_1|1.0MB/s
-  network: grpc
-  port: 2053
-  reality-opts:
-    public-key: -W4bzjVM_4jgVMYzPj1Mw6IOl_TYv_tqojpEaLb2XGw
-    short-id: '23'
-  server: 64.188.83.117
-  servername: www.apple.com
+  name: 7|[VLESS] krKR_6|1008KB/s
+  network: ws
+  port: 21510
+  server: 116.93.199.28
+  servername: ylnhh.cc.cd
   tls: true
   type: vless
   udp: true
-  uuid: 71322f86-f37a-4929-ada0-05e6a2688145
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /Telegram🇨🇳@WangCai2
   xudp: true
 - encryption: none
-  name: 7|[VLESS] krKR_5|1.2MB/s
+  name: 7|[VLESS] krKR_7|1.3MB/s
   network: ws
-  port: 10082
-  server: 211.198.173.100
+  port: 21257
+  server: 119.192.158.53
   servername: ylnhh.cc.cd
   tls: true
   type: vless
@@ -679,78 +670,90 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.111 Safari/537.36
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /Telegram🇨🇳@WangCai2
   xudp: true
-- name: 7|[VLESS] krKR_6|1.2MB/s
+- encryption: none
+  name: 7|[VLESS] krKR_8|1.3MB/s
   network: ws
-  port: 50011
-  server: 119.194.117.229
+  port: 26373
+  server: 211.238.83.146
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /Telegram🇨🇳@WangCai2
+  xudp: true
+- name: 7|[Http] sgSG_4|3.2MB/s
+  password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+  port: 17235
+  server: bfd3bd42-tbqsg0-td6rm6-1o8ak.cm4.oshuawei.com
+  sni: bfd3bd42-tbqsg0-td6rm6-1o8ak.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 7,8,10|[VLESS] US_speednode_0053
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: 'c39cc7310a'
+  server: 143.20.236.51
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  xudp: true
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 7|[TUIC] deDE_4|1.1MB/s
+  password: dongtaiwang.com
+  port: 10088
+  reduce-rtt: false
+  request-timeout: 0
+  server: ip1.758733.xyz
+  skip-cert-verify: true
+  sni: apple.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: 9bbd1f42-7ae7-4239-bd10-a68de95e3295
+  version: 5
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 7|[VLESS] twTW_1|1.1MB/s
+  network: ws
+  port: 443
+  server: 114.33.57.170
   servername: snippet.fgfw.ndjp.net
   tls: true
   type: vless
+  udp: true
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
     headers:
       Host: snippet.fgfw.ndjp.net
     path: /danfeng
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 8|[SS] vnVN²_1|0.9MB/s|GPT⁺|YT|X|Hist...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.79
-  type: ss
-- cipher: chacha20-ietf
-  name: 8|[SS] hkHK²_1|0.6MB/s|X|History
-  password: asd123456
-  port: 8388
-  server: 103.149.183.80
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇨🇳 CN
-  name: 8|[SS] vnVN²_2|1.8MB/s|X|History
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.112
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 8|[SS] vnVN²_3|0.9MB/s|GPT⁺|YT-US|X|H...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.70
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 8|[SS] vnVN²_4|1.3MB/s|GPT|GM|YT|X|[原...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.26
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 8|[SS] vnVN²_5|2.3MB/s|GPT|YT-US|X|Hi...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.33
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 8|[SS] vnVN²_6|0.6MB/s|GPT|X|History
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.128
-  type: ss
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 8,10|[VLESS] KR_speednode_0032
+  name: 7|[VLESS] jpJP_1|1.1MB/s
   network: ws
-  port: 32920
-  server: 203.170.125.48
+  port: 443
+  server: 47.74.39.85
   servername: snippet.gfw.nn.kg
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -759,94 +762,445 @@ proxies:
     headers:
       Host: snippet.gfw.nn.kg
     path: /danfeng
-- name: 8|[Socks5] 🏴‍☠_1idID²_1|0.6MB/s|1.2MB/s|X...
-  password: ''
-  port: 8199
-  server: 223.25.110.37
+- name: 7|[Http] twTW_2|3.2MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 7|[Http] twTW_3|1.5MB/s
+  password: mrwdfNTD8M79LCukCieldrqZWqs=
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
   skip-cert-verify: true
-  type: socks5
-  username: ''
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 8|[SS] vnVN²_7|0.8MB/s|GPT|X|History
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.222
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 8|[SS] vnVN²_8|1.7MB/s|GPT⁺|X|[原生|机房]
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.21
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 8|[SS] vnVN²_9|1.1MB/s|GPT|X|History|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.220
-  type: ss
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 8|[Vmess] usUS²_1|4.6MB/s|X|History|[广播|...
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 7,8,10|[Http] CN_speednode_0005
+  password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+  port: 27233
+  server: 4d2f203f-ta1og0-ta00rd-1o8ak.cm4.oshuawei.com
+  sni: 4d2f203f-ta1og0-ta00rd-1o8ak.cm4.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+- name: 7|[Http] thTH_1|2.5MB/s
+  password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+  port: 32232
+  server: 496dcf7c-t9zts0-ta00rd-1o8ak.id.oshuawei.com
+  sni: 496dcf7c-t9zts0-ta00rd-1o8ak.id.oshuawei.com
+  tls: true
+  type: http
+  username: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+- name: 7|[Http] jpJP_3|1013KB/s
+  password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+  port: 443
+  server: 4c129820-t9zts0-ta00rd-1o8ak.jp.oshuawei.com
+  sni: 4c129820-t9zts0-ta00rd-1o8ak.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+- name: 7|[VLESS] hkHK_1|2.4MB/s
   network: ws
-  port: 2086
-  server: hb.seacloudmachinery.com
-  servername: hb.seacloudmachinery.com
-  skip-cert-verify: false
+  port: 443
+  server: n1761184278.74qxv.top
+  servername: n1761184278.74qxv.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b451930-1211-4ffe-90a8-80ca5bb801b4
+  ws-opts:
+    headers:
+      Host: n1761184278.74qxv.top
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /1b451930-1211-4ffe-90a8-80ca5bb801b4
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 7|[Vmess] usUS_3|3.2MB/s
+  network: ws
+  port: 443
+  server: 130.250.137.199
+  servername: ous3.dean52.top
+  skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
   ws-opts:
-    headers: {}
-    path: /telegram id @rootface
-  xudp: true
-- name: 8|[Http] hkHK²_2|3.8MB/s|YT-CN|X|Histor...
-  password: <password>
-  port: 8443
-  server: 9e8b2077-t9zts0-tdq4vj-1l0qa.hkt.cdnhuawei.com
-  sni: 9e8b2077-t9zts0-tdq4vj-1l0qa.hkt.cdnhuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
-- name: 8|[Http] krKR²_1|0.9MB/s|YT|X|History
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  sni: testkr3.ssv.vc
-  tls: true
-  type: http
-  udp: true
-  username: test
+    headers:
+      Host: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
 - alpn:
-  - http/1.1
+  - http%2F1.1
   client-fingerprint: random
-  name: 8|[VLESS] krKR¹-SG⁰_2|2.0MB/s|5%|D+|X|[广...
+  name: 8|[VLESS] deDE¹-SG⁰_1|1.6MB/s|GPT|X
   network: ws
-  port: 17988
-  server: 125.137.81.171
-  servername: snippet.fgfw.ndjp.net
+  port: 8443
+  server: 152.53.143.195
+  servername: snippet.gfw.nn.kg
   tls: true
   type: vless
   udp: true
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
     headers:
-      Host: snippet.fgfw.ndjp.net
+      Host: snippet.gfw.nn.kg
     path: /danfeng
+- country: 🇭🇰HK
+  name: 8|[Trojan] hkHK²_1|1.2MB/s|2%|X
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.253
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 8|[VLESS] eeEE²_1|2.7MB/s|X
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
+    short-id: '992f3294e2336744'
+  server: ndt.fasti.win
+  servername: ndt.fasti.win
+  tls: true
+  type: vless
+  udp: true
+  uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
+  xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 8|[VLESS] 🏴‍☠_1🔥Join+Telegram:@Farah_VPN...
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '23'
+  server: best4.pineappled.org
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 71322f86-f37a-4929-ada0-05e6a2688145
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🇪🇸 ES
+  name: 8|[SS] esES²_1|1.7MB/s|100%|GPT|X|His...
+  password: UkXRsXvR6buDMG2Y
+  port: 9001
+  server: 5.188.181.201
+  type: ss
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 8,10|[VLESS] DE_speednode_0006
+  network: tcp
+  port: 433
+  reality-opts:
+    public-key: Bz2HLyFLCOrdtrxIgBPFIIb7BJFfLpnqJ1u-pw0Gpwo
+    short-id: '374dc2'
+  server: 78.47.172.250
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c8181481-8544-49da-b4dd-46a3ddb27cae
+  xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 8|[VLESS] gbGB²_1|5.2MB/s|0%|GPT⁺|D+|X|[...
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '23'
+  server: uk2.pineappled.org
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 71322f86-f37a-4929-ada0-05e6a2688145
+  xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 8|[VLESS] plPL²_1|3.2MB/s|0%|GPT⁺|X|[广播|...
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
+    short-id: 'feedbacc'
+  server: 45.144.51.136
+  servername: pl.fasti.win
+  tls: true
+  type: vless
+  udp: true
+  uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  name: 8|[SS] vnVN²_10|1.1MB/s|GPT|GM|X|Hist...
+  name: 8|[SS] vnVN²_1|1.8MB/s|X|History|[原生|...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.109
+  server: 103.186.154.183
   type: ss
+- encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 8|[VLESS] esES²_2|2.5MB/s|38%|GPT|X
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
+    short-id: 'feedbacc'
+  server: es.fasti.win
+  servername: es.fasti.win
+  tls: true
+  type: vless
+  udp: true
+  uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
+  xudp: true
+- country: 🇬🇧GB
+  name: 8,10|[Trojan] SC_speednode_0052
+  network: tcp
+  password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-
+  port: 443
+  server: 8443.golden-cards.me
+  skip-cert-verify: true
+  sni: 8443.golden-cards.me
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 8|[SS] vnVN²_2|2.7MB/s|X|History
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.190
+  type: ss
+- name: 8|[Http] hkHK²_2|11.4MB/s|X|History|[原生...
+  password: <password>
+  port: 8443
+  server: d91b51ab-t9zts0-tbmeud-1th9y.hkt.cdnhuawei.com
+  sni: d91b51ab-t9zts0-tbmeud-1th9y.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: 12a81f5a-fa9e-11ef-8400-f23c9164ca5d
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 8|[Vmess] caCA²_1|3.9MB/s|X|History
+  network: tcp
+  port: 30846
+  server: v46.hdacd.com
+  servername: v46.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 8|[VLESS] deDE²_2|2.9MB/s|GPT|X
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: whYmACpNNY4B3Yv8iBJ9AmxokZL2Tb7O210utmzvGSo
+    short-id: '6ba85179e30d4fc2'
+  server: 84.201.4.191
+  servername: cdn.uxfeedback.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: a774f61d-a518-4c61-902f-807797da6caf
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 8|[SS] vnVN²_3|2.1MB/s|GPT⁺|GM|X|Hist...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.244
+  type: ss
+- encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 8|[VLESS] ruRU²_1|5.1MB/s|X
+  network: tcp
+  port: 2777
+  reality-opts:
+    public-key: HyxhIAJ1VbVX77n76vXAps81yWRVbKCr8AC_71sM5Ao
+    short-id: '0f4dacf08722a29f'
+  server: 51.250.26.81
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7559ad2a-a419-4fd7-bc6a-9350a017f72a
+  xudp: true
+- name: 8,10|[Trojan] HK_speednode_0015
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.253
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 8|[Vmess] gbGB²_4|3.2MB/s|X
+  network: tcp
+  port: 30573
+  server: ali.kavrtest.ir
+  servername: ali.kavrtest.ir
+  tls: true
+  type: vmess
+  udp: true
+  uuid: cfd46598-6814-4198-9273-e78339b14b9f
+  xudp: true
+- name: 8|[Http] hkHK²_4|16.5MB/s|X|History
+  password: <password>
+  port: 8443
+  server: 02d5920d-tbdts0-thntyd-1f596.hkt.cdnhuawei.com
+  sni: 02d5920d-tbdts0-thntyd-1f596.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: e3975a05-b89e-11ec-a50d-f23c91cfbbc9
+- cipher: aes-256-cfb
+  name: 8|[SS] vnVN²_4|2.8MB/s|GPT⁺|YT|X|Hist...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.140
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 8|[VLESS] gbGB¹-SG⁰_1|2.0MB/s|GPT|D+|X|[...
+  network: ws
+  port: 443
+  server: 192.0.63.107
+  servername: snippet.gfw.nn.kg
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.gfw.nn.kg
+    path: /danfeng
+- alpn:
+  - h2
+  name: 8|[Anytls] zaZA²_1|5.7MB/s|0%|GPT⁺|YT-CN|...
+  password: dongtaiwang.com
+  port: 59901
+  server: 45.221.98.14
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇪🇸 ES
+  name: 8|[SS] esES²_3|2.0MB/s|100%|GPT⁺|X|Hi...
+  password: M3t2ZEQcMGRWBjRa
+  port: 9011
+  server: 5.188.181.201
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 8|[Vmess] auAU²_1|11.7MB/s|GPT⁺|YT|X|[广播...
+  network: ws
+  port: 12889
+  server: 85.211.242.85
+  servername: baidu.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 37c67a5e-2b2a-49b2-a197-889e80b28bee
+  ws-opts:
+    path: /
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 8|[VLESS] jpJP²_2|6.8MB/s|0%|GPT⁺|X|Hist...
+  network: tcp
+  port: 27724
+  reality-opts:
+    public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
+    short-id: ''
+  server: 116.80.44.144
+  servername: www.yahoo.co.jp
+  tls: true
+  type: vless
+  udp: true
+  uuid: ebd8539d-e249-4a39-8f90-e8585e8cc35e
+  xudp: true
+- name: 8|[Socks5] sgSG²_1|5.9MB/s|X|History
+  password: ''
+  port: 1080
+  server: 159.223.53.194
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- cipher: aes-256-cfb
+  country: 🇨🇳 CN
+  name: 8|[SS] vnVN²_5|2.0MB/s|GPT⁺|GM|YT-KH|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.23
+  type: ss
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 8,10|[VLESS] CH_speednode_0002
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+    short-id: '4fa44664f6a566d3'
+  server: estonia.scroogethebest.com
+  servername: estonia.scroogethebest.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e2e1ddaa-1acf-4c4c-a211-92284f6440ed
 - cipher: aes-256-gcm
   name: 9|[SS] group->ss SS节点-ipv6
   password: alvin9999.com
@@ -903,20 +1257,6 @@ proxies:
   type: vless
   udp: true
   uuid: 3130fccb-e72e-468d-b2ce-0721bb3058c8
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 10|[VLESS] CH_speednode_0002
-  port: 443
-  reality-opts:
-    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
-    short-id: '4fa44664f6a566d3'
-  server: estonia.scroogethebest.com
-  servername: estonia.scroogethebest.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e2e1ddaa-1acf-4c4c-a211-92284f6440ed
 - alpn:
   - http/1.1
   client-fingerprint: random
@@ -934,27 +1274,6 @@ proxies:
     headers:
       Host: snippet.fgfw.ye.gs
     path: /danfeng
-- name: 10|[Http] CN_speednode_0005
-  password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
-  port: 27233
-  server: 4d2f203f-ta1og0-ta00rd-1o8ak.cm4.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 8bb68d04-6973-11ee-b518-f23c9164ca5d
-- flow: xtls-rprx-vision
-  name: 10|[VLESS] DE_speednode_0006
-  port: 433
-  reality-opts:
-    public-key: Bz2HLyFLCOrdtrxIgBPFIIb7BJFfLpnqJ1u-pw0Gpwo
-    short-id: '374dc2'
-  server: 78.47.172.250
-  servername: www.microsoft.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c8181481-8544-49da-b4dd-46a3ddb27cae
 - alpn:
   - http/1.1
   client-fingerprint: random
@@ -984,14 +1303,6 @@ proxies:
   type: vless
   udp: true
   uuid: d6415904-ebd7-43da-a4a0-26a627aa20fb
-- name: 10|[Trojan] HK_speednode_0015
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.253
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 - name: 10|[Http] HK_speednode_0016
   password: <password>
   port: 8443
@@ -1208,6 +1519,23 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 10|[VLESS] KR_speednode_0032
+  network: ws
+  port: 32920
+  server: 203.170.125.48
+  servername: snippet.gfw.nn.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.gfw.nn.kg
+    path: /danfeng
 - alpn:
   - http/1.1
   client-fingerprint: random
@@ -1476,54 +1804,6 @@ proxies:
   type: vless
   udp: true
   uuid: b3da836c-d6d8-03e8-ba4a-0a7a54491924
-- name: 10|[Trojan] SC_speednode_0052
-  password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-
-  port: 443
-  server: 8443.golden-cards.me
-  skip-cert-verify: true
-  sni: 8443.golden-cards.me
-  type: trojan
-  udp: true
-- flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0053
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: 'c39cc7310a'
-  server: 143.20.236.51
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- name: 10|[VLESS] US_speednode_0054
-  network: ws
-  port: 443
-  server: 198.62.62.248
-  servername: tar.alabama-tigr.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
-  ws-opts:
-    headers:
-      Host: tar.alabama-tigr.info
-    path: /love
-- flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0055
-  port: 43643
-  reality-opts:
-    public-key: U_AczMjOIM-_AgDZrEtTBrInB4lcZxXpGB5CCNeqSCs
-    short-id: '0708e917'
-  server: 204.197.163.238
-  servername: www.bing.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ff111801-768c-4d23-8f46-e90ef677c80d
 - name: 10|[VLESS] US_speednode_0056
   network: ws
   port: 443

@@ -28,12 +28,15 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 1|[Vmess] US54｜机房｜低风险
+  client-fingerprint: chrome
+  name: 1,7|[Vmess] usUS_2|2.0MB/s
   network: tcp
-  port: '30808'
+  port: 30808
   server: v8.hdacd.com
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 5,6|[Trojan] 美国|@ripaojiedian
   network: tcp
@@ -59,36 +62,19 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 8|[SS] vnVN²_3|0.9MB/s|GPT⁺|YT-US|X|H...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.70
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 8|[SS] vnVN²_5|2.3MB/s|GPT|YT-US|X|Hi...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.33
-  type: ss
-- alpn:
-  - ''
-  alterId: '0'
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 8|[Vmess] usUS²_1|4.6MB/s|X|History|[广播|...
+  name: 7|[Vmess] usUS_3|3.2MB/s
   network: ws
-  port: 2086
-  server: hb.seacloudmachinery.com
-  servername: hb.seacloudmachinery.com
-  skip-cert-verify: false
+  port: 443
+  server: 130.250.137.199
+  servername: ous3.dean52.top
+  skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
   ws-opts:
-    headers: {}
-    path: /telegram id @rootface
-  xudp: true
+    headers:
+      Host: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c

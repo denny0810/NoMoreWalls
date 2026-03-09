@@ -35,7 +35,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 6,7|[Trojan] 美国|@ripaojiedian
+- name: 5,6|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4019
@@ -43,7 +43,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 6,7|[Trojan] 美国2|@ripaojiedian
+- name: 5,6|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 3057
@@ -51,7 +51,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 6,7|[Trojan] 美国3|@ripaojiedian
+- name: 5,6|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 9718
@@ -64,7 +64,7 @@ proxies:
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 55 Mbps
-  name: 8|[Hysteria] usUS_1|1.5MB/s
+  name: 7|[Hysteria] usUS_1|1.5MB/s
   port: 38845
   protocol: udp
   server: 208.87.243.151
@@ -77,7 +77,7 @@ proxies:
   - http/1.1
   client-fingerprint: random
   encryption: none
-  name: 8|[VLESS] usUS_2|1.0MB/s
+  name: 7|[VLESS] usUS_2|1.0MB/s
   network: ws
   port: 28017
   server: 38.83.41.89
@@ -93,7 +93,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 8|[VLESS] usUS_3|1.0MB/s
+  name: 7|[VLESS] usUS_3|1.0MB/s
   network: ws
   port: 443
   server: 192.0.63.88
@@ -111,14 +111,14 @@ proxies:
   xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 9|[SS] vnVN²_3|0.9MB/s|GPT⁺|YT-US|X|H...
+  name: 8|[SS] vnVN²_3|0.9MB/s|GPT⁺|YT-US|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.70
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 9|[SS] vnVN²_5|2.3MB/s|GPT|YT-US|X|Hi...
+  name: 8|[SS] vnVN²_5|2.3MB/s|GPT|YT-US|X|Hi...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.33
@@ -128,7 +128,7 @@ proxies:
   alterId: '0'
   cipher: auto
   client-fingerprint: chrome
-  name: 9|[Vmess] usUS²_1|4.6MB/s|X|History|[广播|...
+  name: 8|[Vmess] usUS²_1|4.6MB/s|X|History|[广播|...
   network: ws
   port: 2086
   server: hb.seacloudmachinery.com
@@ -144,7 +144,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|[VLESS] US_speednode_0037
+  name: 10|[VLESS] US_speednode_0053
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -157,7 +157,7 @@ proxies:
   udp: true
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - client-fingerprint: chrome
-  name: 11|[VLESS] US_speednode_0038
+  name: 10|[VLESS] US_speednode_0054
   network: ws
   port: 443
   server: 198.62.62.248
@@ -171,88 +171,21 @@ proxies:
     headers:
       Host: tar.alabama-tigr.info
     path: /love
-- name: 11|[VLESS] US_speednode_0039
-  network: ws
-  port: 443
-  server: 45.12.145.80
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 11|[VLESS] US_speednode_0040
-  port: 18959
-  reality-opts:
-    public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
-    short-id: '!!str d557c6895d014075'
-  server: 157.254.223.44
-  servername: itunes.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
-- name: 11|[Trojan] US_speednode_0041
-  network: ws
-  password: trojan
-  port: 7071
-  server: 154.17.234.78
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|[VLESS] US_speednode_0042
-  port: 443
+  name: 10|[VLESS] US_speednode_0055
+  port: 43643
   reality-opts:
-    public-key: 4YI0QbJYHCyl4-VWZPWAMccOmUW0c_XDE_rEZc-dNC0
-  server: 144.31.63.7
-  servername: deout.funvideorus.net
+    public-key: U_AczMjOIM-_AgDZrEtTBrInB4lcZxXpGB5CCNeqSCs
+    short-id: '!!str 0708e917'
+  server: 204.197.163.238
+  servername: www.bing.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 716a8171-09d1-4b5c-b816-34e6537b60ae
-- name: 11|[VLESS] US_speednode_0043
-  network: ws
-  port: 443
-  server: 68.64.179.243
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
-- name: 11|[VLESS] US_speednode_0044
-  network: ws
-  port: 443
-  server: 68.64.179.250
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
-- name: 11|[VLESS] US_speednode_0045
+  uuid: ff111801-768c-4d23-8f46-e90ef677c80d
+- name: 10|[VLESS] US_speednode_0056
   network: ws
   port: 443
   server: 68.64.179.96
@@ -266,3 +199,43 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
+- name: 10|[VLESS] US_speednode_0057
+  network: ws
+  port: 443
+  server: 68.64.179.243
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  name: 10|[VLESS] US_speednode_0058
+  port: 8081
+  reality-opts:
+    public-key: EJKcPSl0dv7mtU26gg6tUmKPw_aDvO2AHraRgNn6B14
+    short-id: '!!str 425ba80cd1a821a8'
+  server: 64.188.64.63
+  servername: www.vk.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b8e03ade-a2a1-4cbb-b002-5e1148049735
+- client-fingerprint: chrome
+  name: 10|[VLESS] US_speednode_0059
+  port: 8081
+  reality-opts:
+    public-key: EJKcPSl0dv7mtU26gg6tUmKPw_aDvO2AHraRgNn6B14
+    short-id: '!!str 425ba80cd1a821a8'
+  server: gfm.vpnhub.shop
+  servername: www.vk.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b8e03ade-a2a1-4cbb-b002-5e1148049735

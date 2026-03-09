@@ -25,7 +25,7 @@ proxies:
     headers:
       Host: mashdt.pages.dev
     path: '%2Ftr'
-- name: 4|[Hysteria2] hk HK
+- name: 3|[Hysteria2] hk HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
   server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
@@ -34,14 +34,14 @@ proxies:
   type: hysteria2
 - alterId: 2
   cipher: auto
-  name: 6|[Vmess] hk 香港|@ripaojiedian
+  name: 5|[Vmess] hk 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 6,7|[Trojan] 香港3|@ripaojiedian
+- name: 5,6|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 443
@@ -49,7 +49,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 6,7|[Trojan] 香港4|@ripaojiedian
+- name: 5,6|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 6313
@@ -57,7 +57,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 6,7|[Trojan] 香港5|@ripaojiedian
+- name: 5,6|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 6313
@@ -67,7 +67,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 7|[Vmess] 香港|@ripaojiedian
+  name: 6|[Vmess] 香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -76,22 +76,24 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf
-  name: 9|[SS] hkHK²_1|0.6MB/s|X|History
+  name: 8|[SS] hkHK²_1|0.6MB/s|X|History
   password: asd123456
   port: 8388
   server: 103.149.183.80
   type: ss
-- name: 11|[VLESS] HK_speednode_0007
-  network: ws
+- name: 10|[Trojan] HK_speednode_0015
+  password: BxceQaOe
   port: 443
-  server: 83.229.123.173
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  server: 58.152.25.253
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
   udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
+- name: 10|[Http] HK_speednode_0016
+  password: <password>
+  port: 8443
+  server: 15b72b06-ta1og0-ts3rye-mrtr.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9

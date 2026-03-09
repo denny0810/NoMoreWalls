@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 1|[Vmess] HK55｜机房｜低风险
+  name: 0|[Vmess] HK55｜机房｜低风险
   network: tcp
   port: '30809'
   server: v9.hdacd.com
@@ -35,17 +35,16 @@ proxies:
 - name: 5,6|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1792
-  server: 18.162.54.136
+  port: 6313
+  server: 175.41.228.17
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: 5,6,8|[Trojan] hkHK²_1|5.5MB/s|2%|YT-CN|D+|X|...
+- name: 5,6|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 443
-  server: 58.152.25.253
+  port: 6313
+  server: 13.113.163.95
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -59,23 +58,37 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  encryption: none
-  name: 7|[VLESS] hkHK_1|2.4MB/s
+- client-fingerprint: chrome
+  name: 7|[Trojan] hkHK_1|1.3MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.253
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 7|[VLESS] hkHK_2|1.6MB/s
   network: ws
-  port: 8010
-  server: 54.46.72.234
-  servername: snippet.sheilabelinda.ndjp.net
-  skip-cert-verify: false
+  port: 8443
+  server: 83.229.121.78
+  servername: ylnhh.cc.cd
   tls: true
   type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   ws-opts:
     headers:
-      Host: snippet.sheilabelinda.ndjp.net
-    path: /danfeng
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- name: 7|[Http] hkHK_3|1.1MB/s
+  password: <password>
+  port: 8443
+  server: d1c1e5d3-t9zts0-tct1rd-1o0ch.hkt.cdnhuawei.com
+  sni: d1c1e5d3-t9zts0-tct1rd-1o0ch.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: d49e545e-0daf-11ee-a91f-f23c913c8d2b
 - name: 8|[Socks5] hkHK²_2|12.0MB/s|X|History
   password: ''
   port: 58367

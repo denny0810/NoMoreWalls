@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 1|[Vmess] JP9｜机房｜低风险
+  name: 0|[Vmess] JP9｜机房｜低风险
   network: tcp
   port: '30806'
   server: v6.hdacd.com
@@ -11,8 +11,8 @@ proxies:
 - name: 5,6|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 43.207.71.166
+  port: 3022
+  server: 18.183.166.8
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -20,57 +20,22 @@ proxies:
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 2001
-  server: 160.16.72.33
+  server: 160.16.70.180
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 5,6|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 34818
-  server: 160.16.72.33
+  port: 4937
+  server: 160.16.70.180
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: random
-  encryption: none
-  name: 7|[VLESS] jpJP_1|2.2MB/s
-  network: ws
-  port: 443
-  server: 172.64.229.213
-  servername: snippet.fgfw.ye.gs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.ye.gs
-    path: /danfeng
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 7|[VLESS] jpJP_2|1.0MB/s
-  network: tcp
-  port: 39975
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-    short-id: '!!str '
-  server: 116.80.58.239
-  servername: cloudcircus.jp
-  tls: true
-  type: vless
-  udp: true
-  uuid: 15b84012-d261-4b4c-807a-061bb4a901fd
-  xudp: true
 - alterId: '0'
   cipher: auto
   client-fingerprint: chrome
-  name: 7|[Vmess] jpJP_3|1.1MB/s
+  name: 7|[Vmess] jpJP_1|3.5MB/s
   network: ws
   port: 443
   server: highspeedtesting01.publicvm.com

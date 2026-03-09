@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] DE3｜机房｜高风险 (黑名单)
+  name: 0|[Vmess] DE3｜机房｜高风险 (黑名单)
   network: tcp
   port: '180'
   server: 82.198.246.97
@@ -26,25 +26,20 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- client-fingerprint: random
-  name: 7|[VLESS] deDE_1|1012KB/s
-  network: ws
-  port: 1006
-  server: 89.58.43.93
-  servername: bt5hpm5jf6.chinam.eu.org
-  tls: true
-  type: vless
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 7|[Hysteria] deDE_1|1.8MB/s
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: bt5hpm5jf6.chinam.eu.org
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    max-early-data: 2560
-    path: /danfeng
-  xudp: true
+  up: 500
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

@@ -1,4 +1,40 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 1|[Vmess] US49｜机房｜低风险
+  network: tcp
+  port: '34114'
+  server: 103.181.164.237
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 2
+  cipher: auto
+  name: 1|[Vmess] US50｜机房｜低风险
+  network: tcp
+  port: '30829'
+  server: v29.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 1|[Vmess] US56｜机房｜低风险
+  network: tcp
+  port: '30824'
+  server: v24.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 1|[Vmess] US54｜机房｜低风险
+  network: tcp
+  port: '30808'
+  server: v8.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 6,7|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
@@ -23,92 +59,54 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 8|[Http] usUS_1|1.2MB/s
-  password: 21a74582-f139-11ed-ab21-f23c913c8d2b
-  port: 15229
-  server: 7ffdbca5-tboxs0-tetg39-146qr.cu.oshuawei.com
-  sni: 7ffdbca5-tboxs0-tetg39-146qr.cu.oshuawei.com
-  tls: true
-  type: http
-  username: 21a74582-f139-11ed-ab21-f23c913c8d2b
-- down: ''
-  fingerprint: ''
-  name: 8|[Hysteria2] usUS_2|2.5MB/s
-  obfs: ''
-  obfs-password: ''
-  password: alvin9999.com
-  port: 30088
-  server: 157.254.223.24
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 8|[Hysteria] usUS_1|1.5MB/s
+  port: 38845
+  protocol: udp
+  server: 208.87.243.151
   skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
-  up: ''
-- client-fingerprint: chrome
-  delay: 1682
-  name: 8|[Trojan] usUS_3|1.9MB/s
-  network: ws
-  password: trojan
-  port: 587
-  server: 38.95.73.40
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  delay: 1190
-  name: 8|[Trojan] usUS_4|1.6MB/s
-  network: ws
-  password: trojan
-  port: 8001
-  server: 178.157.50.221
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
+  sni: www.bing.com
+  type: hysteria
+  udp: true
+  up: 11 Mbps
 - alpn:
   - http/1.1
   client-fingerprint: random
   encryption: none
-  name: 8|[VLESS] usUS_5|2.0MB/s
+  name: 8|[VLESS] usUS_2|1.0MB/s
   network: ws
-  port: 443
-  server: 154.17.24.183
-  servername: snippet.fgfw.ndjp.net
+  port: 28017
+  server: 38.83.41.89
+  servername: snippet.gfw.nn.kg
   skip-cert-verify: false
   tls: true
   type: vless
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
     headers:
-      Host: snippet.fgfw.ndjp.net
+      Host: snippet.gfw.nn.kg
     path: /danfeng
-- client-fingerprint: random
-  name: 8|[VLESS] usUS_6|1.5MB/s
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 8|[VLESS] usUS_3|1.0MB/s
   network: ws
   port: 443
-  server: 8.39.125.241
-  servername: bt5hpm5jf6.chinam.eu.org
+  server: 192.0.63.88
+  servername: snippet.fgfw.indevs.in
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: bt5hpm5jf6.chinam.eu.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.112 Safari/537.36
-    max-early-data: 2560
+      Host: snippet.fgfw.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: /danfeng
   xudp: true
 - cipher: aes-256-cfb

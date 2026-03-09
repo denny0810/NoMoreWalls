@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 2|[Vmess] DE3｜机房｜高风险 (黑名单)
+  name: 1|[Vmess] DE23｜机房｜高风险 (黑名单)
   network: tcp
   port: '180'
   server: 82.198.246.97
@@ -26,43 +26,22 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- client-fingerprint: random
-  name: 8|[VLESS] deDE_1|1.5MB/s
-  network: ws
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 8|[VLESS] deDE_1|1.0MB/s
+  network: grpc
   port: 2053
-  server: 188.241.241.20
-  servername: bt5hpm5jf6.chinam.eu.org
+  reality-opts:
+    public-key: -W4bzjVM_4jgVMYzPj1Mw6IOl_TYv_tqojpEaLb2XGw
+    short-id: '!!str 23'
+  server: 64.188.83.117
+  servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: bt5hpm5jf6.chinam.eu.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    max-early-data: 2560
-    path: /danfeng
-  xudp: true
-- client-fingerprint: random
-  name: 8|[VLESS] deDE_2|1.4MB/s
-  network: ws
-  port: 1006
-  server: 89.58.43.93
-  servername: bt5hpm5jf6.chinam.eu.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: bt5hpm5jf6.chinam.eu.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    max-early-data: 2560
-    path: /danfeng
+  uuid: 71322f86-f37a-4929-ada0-05e6a2688145
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision

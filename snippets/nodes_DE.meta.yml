@@ -1,14 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] DE3｜机房｜高风险 (黑名单)
+  name: 2|[Vmess] DE3｜机房｜高风险 (黑名单)
   network: tcp
   port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 3|[Hysteria2] DE
+- name: 4|[Hysteria2] DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -16,7 +16,7 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: '3,4|[Hysteria2] کانال تلگرام : Free_VPN_CH@'
+- name: '4,5|[Hysteria2] کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -26,45 +26,47 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 7|[Hysteria] deDE_1|1.8MB/s
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
+- client-fingerprint: random
+  name: 8|[VLESS] deDE_1|1.5MB/s
+  network: ws
+  port: 2053
+  server: 188.241.241.20
+  servername: bt5hpm5jf6.chinam.eu.org
+  tls: true
+  type: vless
   udp: true
-  up: 500
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  h2-opts: {}
-  http-opts: {}
-  name: 8|[Vmess] deDE²_1|0.5MB/s|X|History
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  country: 🇩🇪DE
-  name: 8|[Trojan] deDE²_3|2.7MB/s|X
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.79.165.50
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: bt5hpm5jf6.chinam.eu.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    max-early-data: 2560
+    path: /danfeng
+  xudp: true
+- client-fingerprint: random
+  name: 8|[VLESS] deDE_2|1.4MB/s
+  network: ws
+  port: 1006
+  server: 89.58.43.93
+  servername: bt5hpm5jf6.chinam.eu.org
+  tls: true
+  type: vless
   udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: bt5hpm5jf6.chinam.eu.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    max-early-data: 2560
+    path: /danfeng
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] DE_speednode_0004
+  name: 11|[VLESS] DE_speednode_0004
   port: 443
   reality-opts:
     public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
@@ -76,7 +78,7 @@ proxies:
   type: vless
   udp: true
   uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
-- name: 10|[VLESS] DE_speednode_0005
+- name: 11|[VLESS] DE_speednode_0005
   network: ws
   port: 8005
   server: 45.145.42.170

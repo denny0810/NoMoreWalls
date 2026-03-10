@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 0|[Vmess] US70｜机房｜低风险
+  name: 1|[Vmess] US70｜机房｜低风险
   network: tcp
   port: '30829'
   server: v29.hdacd.com
@@ -10,14 +10,14 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 0|[Vmess] US76｜机房｜低风险
+  name: 1|[Vmess] US76｜机房｜低风险
   network: tcp
   port: '30808'
   server: v8.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 4,5|[Trojan] 美国|@ripaojiedian
+- name: 5,6|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 3057
@@ -25,7 +25,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 美国2|@ripaojiedian
+- name: 5,6|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 3057
@@ -33,7 +33,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 美国3|@ripaojiedian
+- name: 5,6|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 4864
@@ -44,7 +44,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 6|[VLESS] usUS_1|1.0MB/s
+  name: 7|[VLESS] usUS_1|1.0MB/s
   network: ws
   port: 443
   server: 192.0.54.136
@@ -60,7 +60,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 6|[VLESS] usUS_2|1.1MB/s
+  name: 7|[VLESS] usUS_2|1.1MB/s
   network: ws
   port: 443
   server: 192.0.63.88
@@ -75,7 +75,7 @@ proxies:
     path: /danfeng
 - client-fingerprint: chrome
   delay: 1081
-  name: 6|[Trojan] usUS_3|1.7MB/s
+  name: 7|[Trojan] usUS_3|1.7MB/s
   network: ws
   password: trojan
   port: 8444
@@ -91,28 +91,28 @@ proxies:
     path: /
 - cipher: aes-256-cfb
   country: 🇨🇳 CN
-  name: 7|[SS] vnVN²_2|0.6MB/s|GPT|YT-US|X|Hi...
+  name: 8|[SS] vnVN²_2|0.6MB/s|GPT|YT-US|X|Hi...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.82
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  name: 7|[SS] vnVN²_6|2.2MB/s|GPT⁺|YT-US|X|S...
+  name: 8|[SS] vnVN²_6|2.2MB/s|GPT⁺|YT-US|X|S...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.190
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  name: 7|[SS] vnVN²_8|3.0MB/s|GPT⁺|YT-US|X|S...
+  name: 8|[SS] vnVN²_8|3.0MB/s|GPT⁺|YT-US|X|S...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.183
   type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 9|[VLESS] US_speednode_0053
+  name: 10|[VLESS] US_speednode_0053
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -126,7 +126,7 @@ proxies:
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 9|[VLESS] US_speednode_0055
+  name: 10|[VLESS] US_speednode_0055
   port: 43643
   reality-opts:
     public-key: U_AczMjOIM-_AgDZrEtTBrInB4lcZxXpGB5CCNeqSCs
@@ -138,7 +138,7 @@ proxies:
   type: vless
   udp: true
   uuid: ff111801-768c-4d23-8f46-e90ef677c80d
-- name: 9|[VLESS] US_speednode_0056
+- name: 10|[VLESS] US_speednode_0056
   network: ws
   port: 443
   server: 68.64.179.96
@@ -152,7 +152,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
-- name: 9|[VLESS] US_speednode_0057
+- name: 10|[VLESS] US_speednode_0057
   network: ws
   port: 443
   server: 68.64.179.243
@@ -167,7 +167,7 @@ proxies:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
 - client-fingerprint: chrome
-  name: 9|[VLESS] US_speednode_0058
+  name: 10|[VLESS] US_speednode_0058
   port: 8081
   reality-opts:
     public-key: EJKcPSl0dv7mtU26gg6tUmKPw_aDvO2AHraRgNn6B14
@@ -180,7 +180,7 @@ proxies:
   udp: true
   uuid: b8e03ade-a2a1-4cbb-b002-5e1148049735
 - client-fingerprint: chrome
-  name: 9|[VLESS] US_speednode_0059
+  name: 10|[VLESS] US_speednode_0059
   port: 8081
   reality-opts:
     public-key: EJKcPSl0dv7mtU26gg6tUmKPw_aDvO2AHraRgNn6B14

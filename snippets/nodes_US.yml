@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 1|[Vmess] US49｜机房｜低风险
+  name: 2|[Vmess] US49｜机房｜低风险
   network: tcp
   port: '34114'
   server: 103.181.164.237
@@ -10,7 +10,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
-  name: 1|[Vmess] US50｜机房｜低风险
+  name: 2|[Vmess] US50｜机房｜低风险
   network: tcp
   port: '30829'
   server: v29.hdacd.com
@@ -19,7 +19,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 1|[Vmess] US56｜机房｜低风险
+  name: 2|[Vmess] US56｜机房｜低风险
   network: tcp
   port: '30824'
   server: v24.hdacd.com
@@ -29,7 +29,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 1,7|[Vmess] usUS_2|2.0MB/s
+  name: 2,8|[Vmess] usUS_2|2.0MB/s
   network: tcp
   port: 30808
   server: v8.hdacd.com
@@ -38,34 +38,34 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 5,6|[Trojan] 美国|@ripaojiedian
+- name: 6,7|[Trojan] 美国|@ripaojiedian
   network: tcp
-  password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 4019
-  server: 160.16.70.180
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 5,6|[Trojan] 美国2|@ripaojiedian
-  network: tcp
-  password: f7dbed8b1ca85124e793ba6c0bcfd0db
+  password: f389ed926e512e15f382dc3804029474
   port: 3057
-  server: 160.16.70.180
+  server: 160.16.72.205
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 美国3|@ripaojiedian
+- name: 6,7|[Trojan] 美国2|@ripaojiedian
+  network: tcp
+  password: f389ed926e512e15f382dc3804029474
+  port: 3057
+  server: 160.16.106.99
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 6,7|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9718
-  server: 18.162.42.82
+  port: 4864
+  server: 16.163.149.149
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 7|[Vmess] usUS_3|3.2MB/s
+  name: 8|[Vmess] usUS_3|3.2MB/s
   network: ws
   port: 443
   server: 130.250.137.199

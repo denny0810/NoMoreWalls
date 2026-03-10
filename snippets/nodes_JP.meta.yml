@@ -1,32 +1,32 @@
 proxies:
-- name: 5,6|[Trojan] 日本|@ripaojiedian
+- name: 6,7|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3022
-  server: 18.183.166.8
+  port: 21508
+  server: 13.230.222.150
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 5,6|[Trojan] 日本2|@ripaojiedian
+- name: 6,7|[Trojan] 日本2|@ripaojiedian
   network: tcp
-  password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 2001
-  server: 160.16.70.180
+  password: f389ed926e512e15f382dc3804029474
+  port: 34818
+  server: 160.16.106.99
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 日本3|@ripaojiedian
+- name: 6,7|[Trojan] 日本3|@ripaojiedian
   network: tcp
-  password: f7dbed8b1ca85124e793ba6c0bcfd0db
+  password: f389ed926e512e15f382dc3804029474
   port: 4937
-  server: 160.16.70.180
+  server: 160.16.106.99
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 7|[VLESS] jpJP_1|1.1MB/s
+  name: 8|[VLESS] jpJP_1|1.1MB/s
   network: ws
   port: 443
   server: 47.74.39.85
@@ -39,7 +39,7 @@ proxies:
     headers:
       Host: snippet.gfw.nn.kg
     path: /danfeng
-- name: 7,8,10|[Http] CN_speednode_0005
+- name: 8,9,11|[Http] CN_speednode_0005
   password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
   port: 27233
   server: 4d2f203f-ta1og0-ta00rd-1o8ak.cm4.oshuawei.com
@@ -48,7 +48,7 @@ proxies:
   type: http
   udp: true
   username: 8bb68d04-6973-11ee-b518-f23c9164ca5d
-- name: 7|[Http] jpJP_3|1013KB/s
+- name: 8|[Http] jpJP_3|1013KB/s
   password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
   port: 443
   server: 4c129820-t9zts0-ta00rd-1o8ak.jp.oshuawei.com
@@ -59,7 +59,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 8|[VLESS] jpJP²_2|6.8MB/s|0%|GPT⁺|X|Hist...
+  name: 9|[VLESS] jpJP²_2|6.8MB/s|0%|GPT⁺|X|Hist...
   network: tcp
   port: 27724
   reality-opts:

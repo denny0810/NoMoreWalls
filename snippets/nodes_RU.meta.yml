@@ -1,7 +1,54 @@
 proxies:
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 10|[VLESS] RU_speednode_0050
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 8|[VLESS] ruRU_1|2.4MB/s
+  network: tcp
+  port: 2777
+  reality-opts:
+    public-key: HyxhIAJ1VbVX77n76vXAps81yWRVbKCr8AC_71sM5Ao
+    short-id: '!!str 0f4dacf08722a29f'
+  server: 51.250.7.49
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7559ad2a-a419-4fd7-bc6a-9350a017f72a
+  xudp: true
+- name: 9|[Socks5] ruRU²_1|5.7MB/s|X
+  password: ''
+  port: 1080
+  server: 94.103.92.224
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 9|[VLESS] ruRU²_2|0.9MB/s|X|[原生|机房]
+  network: tcp
+  port: 2777
+  reality-opts:
+    public-key: HyxhIAJ1VbVX77n76vXAps81yWRVbKCr8AC_71sM5Ao
+    short-id: '!!str 0f4dacf08722a29f'
+  server: 51.250.40.147
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7559ad2a-a419-4fd7-bc6a-9350a017f72a
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|[VLESS] RU_speednode_0050
   port: 16409
   reality-opts:
     public-key: G9mVzpnzkZkCJz-2yBZlDcPifowapcFvKNacVDroynk
@@ -15,7 +62,7 @@ proxies:
   uuid: 1537344c-663d-45d7-aeee-0c89e3430fff
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 10|[VLESS] RU_speednode_0051
+  name: 11|[VLESS] RU_speednode_0051
   port: 52006
   reality-opts:
     public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik

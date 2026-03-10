@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] DE23｜机房｜高风险 (黑名单)
+  name: 2|[Vmess] DE23｜机房｜高风险 (黑名单)
   network: tcp
   port: '180'
   server: 82.198.246.97
@@ -10,16 +10,16 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 1,9|[Vmess] sgSG²_2|5.3MB/s|39%|GPT|GM|X|H...
+  name: 2|[Vmess] SG7｜机房｜低风险
   network: tcp
-  port: 30812
+  port: '30812'
   server: v12.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 1|[Vmess] FR3｜机房｜低风险
+  name: 2|[Vmess] FR3｜机房｜低风险
   network: tcp
   port: '30835'
   server: v35.hdacd.com
@@ -28,14 +28,14 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 64
   cipher: auto
-  name: 1|[Vmess] US49｜机房｜低风险
+  name: 2|[Vmess] US49｜机房｜低风险
   network: tcp
   port: '34114'
   server: 103.181.164.237
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 1|[Trojan] SE2｜机房｜低风险
+- name: 2|[Trojan] SE2｜机房｜低风险
   network: tcp
   password: af4b064a9c39472fb34ad8b113acdc6b
   port: 443
@@ -45,7 +45,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 1|[Vmess] US50｜机房｜低风险
+  name: 2|[Vmess] US50｜机房｜低风险
   network: tcp
   port: '30829'
   server: v29.hdacd.com
@@ -54,7 +54,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 1|[Vmess] US56｜机房｜低风险
+  name: 2|[Vmess] US56｜机房｜低风险
   network: tcp
   port: '30824'
   server: v24.hdacd.com
@@ -63,7 +63,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
   - h3%2Ch2%2Chttp%2F1.1
-  name: 1|[Trojan] HK39｜机房｜低风险
+  name: 2|[Trojan] HK39｜机房｜低风险
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -77,7 +77,7 @@ proxies:
     path: '%2F'
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] NL8｜机房｜低风险
+  name: 2|[Vmess] NL8｜机房｜低风险
   network: tcp
   port: '30830'
   server: v30.hdacd.com
@@ -86,7 +86,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 1|[Vmess] US54｜机房｜低风险
+  name: 2|[Vmess] US54｜机房｜低风险
   network: tcp
   port: '30808'
   server: v8.hdacd.com
@@ -95,7 +95,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] ID4｜家宽｜非常安全
+  name: 2|[Vmess] ID4｜家宽｜非常安全
   network: ws
   port: '443'
   server: 68.64.179.210
@@ -109,7 +109,7 @@ proxies:
     path: /vvip
 - alterId: 0
   cipher: auto
-  name: 1|[Vmess] AU1｜机房｜低风险
+  name: 2|[Vmess] AU1｜机房｜低风险
   network: ws
   port: '443'
   server: sy4.620720.xyz
@@ -123,9 +123,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1,9|[Vmess] auAU²_2|5.3MB/s|GPT⁺|YT|X|[广播|...
+  name: 2|[Vmess] AU4｜机房｜低风险
   network: ws
-  port: 12889
+  port: '12889'
   server: 85.211.242.85
   tls: false
   type: vmess
@@ -136,14 +136,14 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 1|[Vmess] SG8｜机房｜低风险
+  name: 2|[Vmess] SG8｜机房｜低风险
   network: tcp
   port: '30845'
   server: v45.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 1|[Trojan] HK40｜机房｜低风险
+- name: 2|[Trojan] HK40｜机房｜低风险
   network: ws
   password: bpb-trojan
   port: 443
@@ -351,128 +351,69 @@ proxies:
       Host: jflsjlaf.pages.dev
     max-early-data: 2560
     path: /
-- country: 🇭🇰HK
-  name: 9|[Trojan] hkHK²_1|1.2MB/s|2%|X
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.253
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  country: 🇪🇸 ES
-  name: 9|[SS] esES²_1|1.7MB/s|100%|GPT|X|His...
-  password: UkXRsXvR6buDMG2Y
-  port: 9001
-  server: 5.188.181.201
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 9|[SS] vnVN²_1|1.8MB/s|X|History|[原生|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.183
-  type: ss
-- country: 🇬🇧GB
-  name: 9,11|[Trojan] SC_speednode_0052
-  network: tcp
-  password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-
-  port: 443
-  server: 8443.golden-cards.me
-  skip-cert-verify: true
-  sni: 8443.golden-cards.me
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 9|[SS] vnVN²_2|2.7MB/s|X|History
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.190
-  type: ss
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 9|[Vmess] caCA²_1|3.9MB/s|X|History
-  network: tcp
-  port: 30846
-  server: v46.hdacd.com
-  servername: v46.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 9|[SS] vnVN²_3|2.1MB/s|GPT⁺|GM|X|Hist...
+  name: 9|[SS] vnVN²_1|1.7MB/s|GPT⁺|X|History
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.69
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇨🇳 CN
+  name: 9|[SS] vnVN²_2|0.6MB/s|GPT|YT-US|X|Hi...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.82
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 9|[SS] vnVN²_3|1.0MB/s|X|History
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.64
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 9|[SS] vnVN²_4|2.7MB/s|GPT⁺|GM|YT|X|S...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.244
   type: ss
-- name: 9,11|[Trojan] HK_speednode_0015
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.253
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 9|[Vmess] gbGB²_4|3.2MB/s|X
-  network: tcp
-  port: 30573
-  server: ali.kavrtest.ir
-  servername: ali.kavrtest.ir
-  tls: true
-  type: vmess
-  udp: true
-  uuid: cfd46598-6814-4198-9273-e78339b14b9f
-  xudp: true
 - cipher: aes-256-cfb
-  name: 9|[SS] vnVN²_4|2.8MB/s|GPT⁺|YT|X|Hist...
+  country: 🏁ZZ
+  name: 9|[SS] vnVN²_5|2.0MB/s|GPT⁺|GM|YT|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.140
+  server: 103.186.154.233
   type: ss
-  udp: true
 - cipher: aes-256-cfb
-  country: 🇪🇸 ES
-  name: 9|[SS] esES²_3|2.0MB/s|100%|GPT⁺|X|Hi...
-  password: M3t2ZEQcMGRWBjRa
-  port: 9011
-  server: 5.188.181.201
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 9|[Vmess] auAU²_1|11.7MB/s|GPT⁺|YT|X|[广播...
-  network: ws
-  port: 12889
-  server: 85.211.242.85
-  servername: baidu.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 37c67a5e-2b2a-49b2-a197-889e80b28bee
-  ws-opts:
-    path: /
-- cipher: aes-256-cfb
-  country: 🇨🇳 CN
-  name: 9|[SS] vnVN²_5|2.0MB/s|GPT⁺|GM|YT-KH|...
+  country: 🏁 ZZ
+  name: 9|[SS] vnVN²_6|2.2MB/s|GPT⁺|YT-US|X|S...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.23
+  server: 103.186.154.190
   type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 9|[SS] vnVN²_7|1.9MB/s|GPT|GM|YT|X|Hi...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.234
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 9|[SS] vnVN²_8|3.0MB/s|GPT⁺|YT-US|X|S...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.183
+  type: ss
+- cipher: aes-256-cfb
+  name: 9|[SS] vnVN²_9|1.7MB/s|GPT⁺|GM|YT|X|H...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.156
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: 10|[SS] group->ss SS节点-ipv6
   password: alvin9999.com
@@ -493,6 +434,14 @@ proxies:
     headers:
       Host: www.bing.com
     path: /alvin9999.com
+- name: 11|[Trojan] HK_speednode_0015
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.253
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
 - name: 11|[Trojan] KR_speednode_0031
   network: ws
   password: trojan
@@ -506,3 +455,11 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
+- name: 11|[Trojan] SC_speednode_0052
+  password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-
+  port: 443
+  server: 8443.golden-cards.me
+  skip-cert-verify: true
+  sni: 8443.golden-cards.me
+  type: trojan
+  udp: true

@@ -1,14 +1,5 @@
 proxies:
 - alpn:
-  - h2
-  name: 9|[Anytls] zaZA²_1|5.7MB/s|0%|GPT⁺|YT-CN|...
-  password: dongtaiwang.com
-  port: 59901
-  server: 45.221.98.14
-  skip-cert-verify: true
-  type: anytls
-  udp: true
-- alpn:
   - http/1.1
   client-fingerprint: random
   name: 11|[VLESS] CN_speednode_0004
@@ -25,3 +16,11 @@ proxies:
     headers:
       Host: snippet.fgfw.ye.gs
     path: /danfeng
+- name: 11|[Http] CN_speednode_0005
+  password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+  port: 27233
+  server: 4d2f203f-ta1og0-ta00rd-1o8ak.cm4.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 8bb68d04-6973-11ee-b518-f23c9164ca5d

@@ -1,7 +1,7 @@
 proxies:
 - alpn:
   - h3%2Ch2%2Chttp%2F1.1
-  name: 1|[Trojan] HK39｜机房｜低风险
+  name: 2|[Trojan] HK39｜机房｜低风险
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -13,7 +13,7 @@ proxies:
     headers:
       Host: snll100.pages.dev
     path: '%2F'
-- name: 1|[Trojan] HK40｜机房｜低风险
+- name: 2|[Trojan] HK40｜机房｜低风险
   network: ws
   password: bpb-trojan
   port: 443
@@ -83,14 +83,11 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  country: 🇭🇰HK
-  name: 9|[Trojan] hkHK²_1|1.2MB/s|2%|X
-  network: tcp
+- name: 11|[Trojan] HK_speednode_0015
   password: BxceQaOe
   port: 443
   server: 58.152.25.253
   skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true

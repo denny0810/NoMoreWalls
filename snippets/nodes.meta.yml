@@ -1,5 +1,5 @@
 proxies:
-- name: 2|[Socks5] KR4｜家宽｜高风险 (黑名单)
+- name: 1|[Socks5] KR4｜家宽｜高风险 (黑名单)
   port: 1090
   server: 121.169.46.116
   tls: false
@@ -7,7 +7,7 @@ proxies:
   username: T2clM0QlM0Q6
 - alterId: 0
   cipher: auto
-  name: 2|[Vmess] DE23｜机房｜高风险 (黑名单)
+  name: 1|[Vmess] DE23｜机房｜高风险 (黑名单)
   network: tcp
   port: '180'
   server: 82.198.246.97
@@ -16,7 +16,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 2|[Vmess] SG7｜机房｜低风险
+  name: 1|[Vmess] SG7｜机房｜低风险
   network: tcp
   port: '30812'
   server: v12.hdacd.com
@@ -25,7 +25,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 2|[Vmess] FR3｜机房｜低风险
+  name: 1|[Vmess] FR3｜机房｜低风险
   network: tcp
   port: '30835'
   server: v35.hdacd.com
@@ -34,14 +34,14 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 64
   cipher: auto
-  name: 2|[Vmess] US49｜机房｜低风险
+  name: 1|[Vmess] US49｜机房｜低风险
   network: tcp
   port: '34114'
   server: 103.181.164.237
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 2|[Trojan] SE2｜机房｜低风险
+- name: 1|[Trojan] SE2｜机房｜低风险
   network: tcp
   password: af4b064a9c39472fb34ad8b113acdc6b
   port: 443
@@ -51,7 +51,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 2|[Vmess] US50｜机房｜低风险
+  name: 1|[Vmess] US50｜机房｜低风险
   network: tcp
   port: '30829'
   server: v29.hdacd.com
@@ -60,7 +60,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 2|[Vmess] US56｜机房｜低风险
+  name: 1|[Vmess] US56｜机房｜低风险
   network: tcp
   port: '30824'
   server: v24.hdacd.com
@@ -69,7 +69,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
   - h3%2Ch2%2Chttp%2F1.1
-  name: 2|[Trojan] HK39｜机房｜低风险
+  name: 1|[Trojan] HK39｜机房｜低风险
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -83,7 +83,7 @@ proxies:
     path: '%2F'
 - alterId: 0
   cipher: auto
-  name: 2|[Vmess] NL8｜机房｜低风险
+  name: 1|[Vmess] NL8｜机房｜低风险
   network: tcp
   port: '30830'
   server: v30.hdacd.com
@@ -92,7 +92,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 2|[Vmess] US54｜机房｜低风险
+  name: 1|[Vmess] US54｜机房｜低风险
   network: tcp
   port: '30808'
   server: v8.hdacd.com
@@ -101,7 +101,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 2|[Vmess] ID4｜家宽｜非常安全
+  name: 1|[Vmess] ID4｜家宽｜非常安全
   network: ws
   port: '443'
   server: 68.64.179.210
@@ -115,7 +115,7 @@ proxies:
     path: /vvip
 - alterId: 0
   cipher: auto
-  name: 2|[Vmess] AU1｜机房｜低风险
+  name: 1|[Vmess] AU1｜机房｜低风险
   network: ws
   port: '443'
   server: sy4.620720.xyz
@@ -129,7 +129,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 2|[Vmess] AU4｜机房｜低风险
+  name: 1|[Vmess] AU4｜机房｜低风险
   network: ws
   port: '12889'
   server: 85.211.242.85
@@ -142,14 +142,14 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 2|[Vmess] SG8｜机房｜低风险
+  name: 1|[Vmess] SG8｜机房｜低风险
   network: tcp
   port: '30845'
   server: v45.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 2|[Trojan] HK40｜机房｜低风险
+- name: 1|[Trojan] HK40｜机房｜低风险
   network: ws
   password: bpb-trojan
   port: 443
@@ -409,7 +409,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 6,7,8|[Trojan] jpJP_1|3.4MB/s
+- name: 6,7|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 21508
@@ -449,7 +449,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 6,7,8|[Trojan] sgSG_2|2.4MB/s
+- name: 6,7|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 25343
@@ -506,376 +506,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 8|[VLESS] hkHK_1|1000KB/s
-  network: ws
-  port: 443
-  server: 68.64.179.250
-  servername: ylnhh.cc.cd
-  tls: true
-  type: vless
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
-- name: 8|[VLESS] krKR_1|1.1MB/s
-  network: ws
-  port: 30020
-  server: 121.139.183.69
-  servername: ylnhh.cc.cd
-  tls: true
-  type: vless
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
-- name: 8,11|[VLESS] KR_speednode_0024
-  network: ws
-  port: 11265
-  server: 211.48.77.114
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
-- name: 8,11|[VLESS] KR_speednode_0040
-  network: ws
-  port: 20201
-  server: 121.187.96.157
-  servername: snippet.gfw.nn.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.gfw.nn.kg
-    path: /danfeng
-- name: 8,11|[VLESS] KR_speednode_0042
-  network: ws
-  port: 19318
-  server: 211.245.79.29
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
-- flow: xtls-rprx-vision
-  name: 8,11|[VLESS] DE_speednode_0006
-  network: tcp
-  port: 433
-  reality-opts:
-    public-key: Bz2HLyFLCOrdtrxIgBPFIIb7BJFfLpnqJ1u-pw0Gpwo
-    short-id: '374dc2'
-  server: 78.47.172.250
-  servername: www.microsoft.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c8181481-8544-49da-b4dd-46a3ddb27cae
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 8|[VLESS] usUS_2|1021KB/s
-  network: ws
-  port: 443
-  server: 192.0.54.200
-  servername: snippet.gfw.nn.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.gfw.nn.kg
-    path: /danfeng
-- alterId: '0'
-  cipher: auto
-  name: 8|[Vmess] usUS_3|4.8MB/s
-  network: tcp
-  port: 30003
-  server: a.cdn-bilibili.cn
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 69de9a52-36b0-4265-a3cf-d06bcefe713d
-  xudp: true
-- name: 8|[Http] myMY_1|2.2MB/s
-  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-  port: 31233
-  server: bf75547d-ta1og0-tarubk-1qkeg.my.oshuawei.com
-  sni: bf75547d-ta1og0-tarubk-1qkeg.my.oshuawei.com
-  tls: true
-  type: http
-  username: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-- encryption: none
-  name: 8|[VLESS] krKR_4|1.2MB/s
-  network: ws
-  port: 26011
-  server: 220.124.144.20
-  servername: ylnhh.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.86 Safari/537.36
-    path: /Telegram🇨🇳@WangCai2
-  xudp: true
-- name: 8|[Trojan] jpJP_2|1.9MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 21508
-  server: 13.230.222.150
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: 8|[Trojan] sgSG_3|1.8MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 25343
-  server: 54.168.85.73
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 8,9|[VLESS] nlNL²_1|0.6MB/s|GPT|X
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '23'
-  server: nl4.pineappled.org
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 71322f86-f37a-4929-ada0-05e6a2688145
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 8|[VLESS] nlNL_2|1.6MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '23'
-  server: best4.pineappled.org
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 71322f86-f37a-4929-ada0-05e6a2688145
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  encryption: none
-  name: 8|[VLESS] usUS_4|2.0MB/s
-  network: ws
-  port: 443
-  server: 69.63.199.105
-  servername: snippet.gfw.nn.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.gfw.nn.kg
-    path: /danfeng
-- delay: 1272
-  name: 8|[Trojan] krKR_5|2.6MB/s
-  network: ws
-  password: trojan
-  port: 27015
-  server: 211.252.46.215
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- delay: 1806
-  name: 8|[Trojan] krKR_6|1.4MB/s
-  network: ws
-  password: trojan
-  port: 10035
-  server: 223.222.74.163
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 8|[VLESS] atAT_1|1.1MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: wgoLhL4pRP0y6fu6He4qW_ElohCM_ANWJF3HEoUhNz4
-    short-id: '9c2378562188c3cb'
-  server: 152.53.47.91
-  servername: austria.denditop.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: 256c5f48-4908-4255-83d1-c86cb58f22b4
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 8|[VLESS] deDE_2|1.7MB/s
-  network: tcp
-  port: 7443
-  reality-opts:
-    public-key: l1aZ57psAgXXvK_uYa4EUNWlZi91sBg7Cc8hC5pB3j0
-    short-id: 'abcd1234'
-  server: 212.233.97.151
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 45da1143-48d7-4eb7-897f-e924c55212c4
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  encryption: none
-  name: 8|[VLESS] jpJP_3|1.8MB/s
-  network: ws
-  port: 59124
-  server: 151.242.165.136
-  servername: snippet.fgfw.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.indevs.in
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /danfeng
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 8|[VLESS] trTR_1|1.8MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6r6uq4tZym5wRhJ5uti-h-UvN6uatQodMcG8rBU79Q4
-    short-id: ''
-  server: tr-general.vps-m.ru
-  servername: booking.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0509acee-63e3-4364-95cc-21c601f059be
-  xudp: true
-- name: 8|[VLESS] sgSG_4|2.7MB/s
-  network: ws
-  port: 8880
-  server: 172.64.147.104
-  type: vless
-  udp: true
-  uuid: 2f0f84ed-9e4c-40ef-8a6c-286839e11a63
-  ws-opts:
-    headers:
-      Host: hmedrza.ghwhdr51.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
-    path: /%2F512
-  xudp: true
-- encryption: none
-  name: 8|[VLESS] sgSG_5|2.5MB/s
-  network: ws
-  port: 80
-  server: 162.159.34.121
-  type: vless
-  udp: true
-  uuid: 0ca855d9-7c03-40eb-929b-919f934abdc3
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: amirvpn.amirhm00100.workers.dev
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
-        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
-    max-early-data: 2048
-    path: /
-  xudp: true
-- encryption: none
-  name: 8|[VLESS] usUS_5|1.0MB/s
-  network: ws
-  port: 80
-  server: 104.17.15.87
-  type: vless
-  udp: true
-  uuid: f929cc78-e2a1-4ce3-8051-3e9538405144
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: britain.xydcqd.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/57.0.2987.133 Safari/537.36
-    max-early-data: 2048
-    path: /@WireXnet
-  xudp: true
-- grpc-opts:
-    grpc-service-name: e9fKNGws5QOzdjv6FWWwqHfDg
-  name: 8|[VLESS] usUS_6|1.1MB/s
-  network: grpc
-  port: 443
-  server: bnmjki.1xe.ccwu.cc
-  servername: bnmjki.1xe.ccwu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 025cb923-a637-4d35-a504-0c1d7a277617
-  xudp: true
-- name: 8|[VLESS] sgSG_6|3.1MB/s
+- name: 8|[VLESS] sgSG_1|2.9MB/s
   network: ws
   port: 2087
   server: mfa.gov.ua
@@ -893,19 +524,198 @@ proxies:
     max-early-data: 2560
     path: /
   xudp: true
-- name: 8|[VLESS] usUS_7|1.1MB/s
+- encryption: none
+  name: 8,11|[VLESS] US_speednode_0054
   network: ws
-  port: 2095
-  server: www.fbi.gov
+  port: 443
+  server: 198.62.62.248
+  servername: tar.alabama-tigr.info
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
   ws-opts:
     headers:
-      Host: cnmfangbinxing.cnmfangbinxing-0.workers.dev
+      Host: tar.alabama-tigr.info
+    path: /love
+  xudp: true
+- encryption: none
+  name: 8|[VLESS] krKR_1|1.1MB/s
+  network: ws
+  port: 12000
+  server: 183.109.80.50
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /Telegram🇨🇳@WangCai2
+  xudp: true
+- encryption: none
+  name: 8|[VLESS] krKR_2|1.1MB/s
+  network: ws
+  port: 15284
+  server: 221.146.116.77
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+        like Gecko) Chrome/60.0.3112.101 Safari/537.36
+    path: /Telegram🇨🇳@WangCai2
+  xudp: true
+- encryption: none
+  name: 8|[VLESS] krKR_3|1.0MB/s
+  network: ws
+  port: 10405
+  server: 222.110.16.126
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.162 Safari/537.36
+    path: /Telegram🇨🇳@WangCai2
+  xudp: true
+- encryption: none
+  name: 8|[VLESS] krKR_4|1.1MB/s
+  network: ws
+  port: 11937
+  server: 220.78.129.86
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /Telegram🇨🇳@WangCai2
+  xudp: true
+- encryption: none
+  name: 8|[VLESS] hkHK_1|1.1MB/s
+  network: ws
+  port: 443
+  server: 68.64.179.250
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /Telegram🇨🇳@WangCai2
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 8|[VLESS] usUS_1|1.0MB/s
+  network: ws
+  port: 443
+  server: 192.0.54.136
+  servername: snippet.fgfw.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.indevs.in
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 8|[VLESS] usUS_2|1.1MB/s
+  network: ws
+  port: 443
+  server: 192.0.63.88
+  servername: snippet.fgfw.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.indevs.in
+    path: /danfeng
+- delay: 1081
+  name: 8|[Trojan] usUS_3|1.7MB/s
+  network: ws
+  password: trojan
+  port: 8444
+  server: 216.40.87.100
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
     path: /
+- name: 8|[Trojan] krKR_5|1.3MB/s
+  network: ws
+  password: trojan
+  port: 27015
+  server: 211.252.46.215
+  skip-cert-verify: false
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
+- name: 8|[VLESS] sgSG_2|3.6MB/s
+  network: ws
+  port: 80
+  server: cf.090227.xyz
+  type: vless
+  udp: true
+  uuid: 5aa7d17e-7dc2-46dd-9acf-c3c97440259b
+  ws-opts:
+    headers:
+      Host: sss.yaml7.ggff.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 9|[VLESS] nlNL²_1|0.6MB/s|GPT|X
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '23'
+  server: nl4.pineappled.org
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 71322f86-f37a-4929-ada0-05e6a2688145
   xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
@@ -1065,6 +875,19 @@ proxies:
   type: http
   udp: true
   username: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+- flow: xtls-rprx-vision
+  name: 11|[VLESS] DE_speednode_0006
+  port: 433
+  reality-opts:
+    public-key: Bz2HLyFLCOrdtrxIgBPFIIb7BJFfLpnqJ1u-pw0Gpwo
+    short-id: '374dc2'
+  server: 78.47.172.250
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c8181481-8544-49da-b4dd-46a3ddb27cae
 - alpn:
   - http/1.1
   client-fingerprint: random
@@ -1197,6 +1020,20 @@ proxies:
   network: ws
   port: 12511
   server: 121.168.144.41
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- name: 11|[VLESS] KR_speednode_0024
+  network: ws
+  port: 11265
+  server: 211.48.77.114
   servername: ylnhh.cc.cd
   skip-cert-verify: false
   tls: true
@@ -1422,10 +1259,38 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
+- name: 11|[VLESS] KR_speednode_0040
+  network: ws
+  port: 20201
+  server: 121.187.96.157
+  servername: snippet.gfw.nn.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.gfw.nn.kg
+    path: /danfeng
 - name: 11|[VLESS] KR_speednode_0041
   network: ws
   port: 16034
   server: 211.198.215.67
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- name: 11|[VLESS] KR_speednode_0042
+  network: ws
+  port: 19318
+  server: 211.245.79.29
   servername: ylnhh.cc.cd
   skip-cert-verify: false
   tls: true
@@ -1582,20 +1447,6 @@ proxies:
   type: vless
   udp: true
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- name: 11|[VLESS] US_speednode_0054
-  network: ws
-  port: 443
-  server: 198.62.62.248
-  servername: tar.alabama-tigr.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
-  ws-opts:
-    headers:
-      Host: tar.alabama-tigr.info
-    path: /love
 - flow: xtls-rprx-vision
   name: 11|[VLESS] US_speednode_0055
   port: 43643

@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 2|[Vmess] SG7｜机房｜低风险
+  name: 1|[Vmess] SG7｜机房｜低风险
   network: tcp
   port: '30812'
   server: v12.hdacd.com
@@ -10,7 +10,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 2|[Vmess] SG8｜机房｜低风险
+  name: 1|[Vmess] SG8｜机房｜低风险
   network: tcp
   port: '30845'
   server: v45.hdacd.com
@@ -33,8 +33,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: 6,7,8|[Trojan] sgSG_2|2.4MB/s
+- name: 6,7|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 25343
@@ -42,13 +41,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: 8|[Trojan] sgSG_3|1.8MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 25343
-  server: 54.168.85.73
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true

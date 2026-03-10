@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 2|[Vmess] DE23｜机房｜高风险 (黑名单)
+  name: 1|[Vmess] DE23｜机房｜高风险 (黑名单)
   network: tcp
   port: '180'
   server: 82.198.246.97
@@ -28,8 +28,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 8,11|[VLESS] DE_speednode_0006
-  network: tcp
+  name: 11|[VLESS] DE_speednode_0006
   port: 433
   reality-opts:
     public-key: Bz2HLyFLCOrdtrxIgBPFIIb7BJFfLpnqJ1u-pw0Gpwo
@@ -41,26 +40,6 @@ proxies:
   type: vless
   udp: true
   uuid: c8181481-8544-49da-b4dd-46a3ddb27cae
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 8|[VLESS] deDE_2|1.7MB/s
-  network: tcp
-  port: 7443
-  reality-opts:
-    public-key: l1aZ57psAgXXvK_uYa4EUNWlZi91sBg7Cc8hC5pB3j0
-    short-id: '!!str abcd1234'
-  server: 212.233.97.151
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 45da1143-48d7-4eb7-897f-e924c55212c4
-  xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: random

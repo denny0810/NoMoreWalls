@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 2|[Vmess] US49｜机房｜低风险
+  name: 1|[Vmess] US49｜机房｜低风险
   network: tcp
   port: '34114'
   server: 103.181.164.237
@@ -10,7 +10,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
-  name: 2|[Vmess] US50｜机房｜低风险
+  name: 1|[Vmess] US50｜机房｜低风险
   network: tcp
   port: '30829'
   server: v29.hdacd.com
@@ -19,7 +19,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 2|[Vmess] US56｜机房｜低风险
+  name: 1|[Vmess] US56｜机房｜低风险
   network: tcp
   port: '30824'
   server: v24.hdacd.com
@@ -28,7 +28,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 2|[Vmess] US54｜机房｜低风险
+  name: 1|[Vmess] US54｜机房｜低风险
   network: tcp
   port: '30808'
   server: v8.hdacd.com
@@ -59,113 +59,54 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: 8,11|[VLESS] KR_speednode_0024
-  network: ws
-  port: 11265
-  server: 211.48.77.114
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 8|[VLESS] usUS_2|1021KB/s
+  name: 8|[VLESS] usUS_1|1.0MB/s
   network: ws
   port: 443
-  server: 192.0.54.200
-  servername: snippet.gfw.nn.kg
+  server: 192.0.54.136
+  servername: snippet.fgfw.indevs.in
   tls: true
   type: vless
   udp: true
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
     headers:
-      Host: snippet.gfw.nn.kg
+      Host: snippet.fgfw.indevs.in
     path: /danfeng
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: 8|[Vmess] usUS_3|4.8MB/s
-  network: tcp
-  port: 30003
-  server: a.cdn-bilibili.cn
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 69de9a52-36b0-4265-a3cf-d06bcefe713d
-  xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: random
-  encryption: none
-  name: 8|[VLESS] usUS_4|2.0MB/s
+  name: 8|[VLESS] usUS_2|1.1MB/s
   network: ws
   port: 443
-  server: 69.63.199.105
-  servername: snippet.gfw.nn.kg
-  skip-cert-verify: false
+  server: 192.0.63.88
+  servername: snippet.fgfw.indevs.in
   tls: true
   type: vless
+  udp: true
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
     headers:
-      Host: snippet.gfw.nn.kg
+      Host: snippet.fgfw.indevs.in
     path: /danfeng
 - client-fingerprint: chrome
-  encryption: none
-  name: 8|[VLESS] usUS_5|1.0MB/s
+  delay: 1081
+  name: 8|[Trojan] usUS_3|1.7MB/s
   network: ws
-  port: 80
-  server: 104.17.15.87
-  type: vless
-  udp: true
-  uuid: f929cc78-e2a1-4ce3-8051-3e9538405144
+  password: trojan
+  port: 8444
+  server: 216.40.87.100
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: britain.xydcqd.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/57.0.2987.133 Safari/537.36
-    max-early-data: 2048
-    path: /@WireXnet
-  xudp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: e9fKNGws5QOzdjv6FWWwqHfDg
-  name: 8|[VLESS] usUS_6|1.1MB/s
-  network: grpc
-  port: 443
-  server: bnmjki.1xe.ccwu.cc
-  servername: bnmjki.1xe.ccwu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 025cb923-a637-4d35-a504-0c1d7a277617
-  xudp: true
-- client-fingerprint: chrome
-  name: 8|[VLESS] usUS_7|1.1MB/s
-  network: ws
-  port: 2095
-  server: www.fbi.gov
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-0.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
     path: /
-  xudp: true
 - cipher: aes-256-cfb
   country: 🇨🇳 CN
   name: 9|[SS] vnVN²_2|0.6MB/s|GPT|YT-US|X|Hi...
@@ -201,21 +142,6 @@ proxies:
   type: vless
   udp: true
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: chrome
-  name: 11|[VLESS] US_speednode_0054
-  network: ws
-  port: 443
-  server: 198.62.62.248
-  servername: tar.alabama-tigr.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
-  ws-opts:
-    headers:
-      Host: tar.alabama-tigr.info
-    path: /love
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 11|[VLESS] US_speednode_0055

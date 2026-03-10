@@ -2,25 +2,23 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 2,8,9|[Vmess] sgSG²_2|5.3MB/s|39%|GPT|GM|X|H...
+  name: 0,8|[Vmess] sgSG²_2|5.3MB/s|39%|GPT|GM|X|H...
   network: tcp
   port: 30812
   server: v12.hdacd.com
-  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: 2,8|[Vmess] sgSG_1|2.4MB/s
+  name: 0|[Vmess] SG8｜机房｜低风险
   network: tcp
-  port: 30845
+  port: '30845'
   server: v45.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 4|[Hysteria2] SG
+- name: 3|[Hysteria2] SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: sg3.oomz.ru
@@ -28,7 +26,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 6,7|[Trojan] 新加坡|@ripaojiedian
+- name: 5,6|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 3419
@@ -36,7 +34,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 6,7|[Trojan] 新加坡2|@ripaojiedian
+- name: 5,6|[Trojan] 新加坡2|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 4674
@@ -44,7 +42,8 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 6,7|[Trojan] 新加坡3|@ripaojiedian
+- client-fingerprint: chrome
+  name: 5,6,7|[Trojan] sgSG_2|2.4MB/s
   network: tcp
   password: BxceQaOe
   port: 25343
@@ -53,27 +52,68 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: 8|[VLESS] sgSG_3|1.2MB/s
+  name: 7|[Trojan] sgSG_3|1.8MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 25343
+  server: 54.168.85.73
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 7|[VLESS] sgSG_4|2.7MB/s
   network: ws
-  port: 443
-  server: 194.87.10.77
-  servername: ylnhh.cc.cd
-  tls: true
+  port: 8880
+  server: 172.64.147.104
   type: vless
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  udp: true
+  uuid: 2f0f84ed-9e4c-40ef-8a6c-286839e11a63
   ws-opts:
     headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
-- name: 8|[Http] sgSG_4|3.2MB/s
-  password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
-  port: 17235
-  server: bfd3bd42-tbqsg0-td6rm6-1o8ak.cm4.oshuawei.com
-  sni: bfd3bd42-tbqsg0-td6rm6-1o8ak.cm4.oshuawei.com
+      Host: hmedrza.ghwhdr51.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
+    path: /%2F512
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 7|[VLESS] sgSG_5|2.5MB/s
+  network: ws
+  port: 80
+  server: 162.159.34.121
+  type: vless
+  udp: true
+  uuid: 0ca855d9-7c03-40eb-929b-919f934abdc3
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: amirvpn.amirhm00100.workers.dev
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+    max-early-data: 2048
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 7|[VLESS] sgSG_6|3.1MB/s
+  network: ws
+  port: 2087
+  server: mfa.gov.ua
+  servername: fx7evx71.fx02.ccwu.cc
   tls: true
-  type: http
-  username: 8bb68d04-6973-11ee-b518-f23c9164ca5d
-- name: 9|[Socks5] sgSG²_1|5.9MB/s|X|History
+  type: vless
+  udp: true
+  uuid: 77777777-6663-4ef2-b26b-ed2d70642678
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: fx7evx71.fx02.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- name: 8|[Socks5] sgSG²_1|5.9MB/s|X|History
   password: ''
   port: 1080
   server: 159.223.53.194

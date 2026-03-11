@@ -2,7 +2,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 2,9|[Vmess] usUS²_1|1.5MB/s|GPT|X|History
+  name: 1,8|[Vmess] usUS²_1|1.5MB/s|GPT|X|History
   network: tcp
   port: 30829
   server: v29.hdacd.com
@@ -11,56 +11,52 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 2|[Vmess] US76｜机房｜低风险
+  name: 1|[Vmess] US76｜机房｜低风险
   network: tcp
   port: '30808'
   server: v8.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 6,7|[Trojan] 美国|@ripaojiedian
+- name: 5,6|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 3057
-  server: 160.16.72.205
+  server: 160.16.214.104
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 6,7|[Trojan] 美国2|@ripaojiedian
-  network: tcp
-  password: f389ed926e512e15f382dc3804029474
-  port: 3057
-  server: 160.16.106.99
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 6,7|[Trojan] 美国3|@ripaojiedian
+- name: 5,6|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4864
-  server: 16.163.149.149
+  port: 5390
+  server: 18.163.80.240
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 8|[Vmess] usUS_1|1.9MB/s
-  network: tcp
-  port: 30003
-  server: a.cdn-bilibili.cn
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 69de9a52-36b0-4265-a3cf-d06bcefe713d
+- client-fingerprint: chrome
+  delay: 1682
+  name: 7|[Trojan] usUS_5|2.2MB/s
+  network: ws
+  password: trojan
+  port: 587
+  server: 38.95.73.40
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 9|[Vmess] usUS²_2|3.9MB/s|3%|GPT⁺|GM|X|H...
+  name: 8|[Vmess] usUS²_2|3.9MB/s|3%|GPT⁺|GM|X|H...
   network: ws
   port: 443
   server: 147.185.161.199

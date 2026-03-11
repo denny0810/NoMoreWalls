@@ -1,5 +1,37 @@
 proxies:
-- name: 11|[Trojan] KR_speednode_0031
+- client-fingerprint: chrome
+  delay: 2005
+  name: 7|[Trojan] krKR_12|2.0MB/s
+  network: ws
+  password: trojan
+  port: 11434
+  server: 220.93.106.4
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 924
+  name: 7|[Trojan] krKR_13|2.2MB/s
+  network: ws
+  password: trojan
+  port: 29999
+  server: 59.20.121.139
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- name: 10|[Trojan] KR_speednode_0031
   network: ws
   password: trojan
   port: 11001

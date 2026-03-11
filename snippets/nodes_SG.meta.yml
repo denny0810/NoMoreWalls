@@ -1,10 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 2,9|[Vmess] sgSG²_1|0.6MB/s|GPT|X|History|...
+  name: 1|[Vmess] SG13｜机房｜低风险
   network: tcp
-  port: 30812
+  port: '30812'
   server: v12.hdacd.com
   tls: false
   type: vmess
@@ -33,8 +32,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: 6,7,8|[Trojan] sgSG_1|1.7MB/s
+- name: 6,7|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 52951
@@ -42,33 +40,37 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- name: 8|[Anytls] sgSG_1|3.2MB/s
+  password: fe0fda62-79ff-467e-bef4-983322c1d21b
+  port: 60003
+  server: hknodev4.nekocloud.top
+  skip-cert-verify: true
+  sni: baidu.com
+  type: anytls
+  udp: true
 - client-fingerprint: chrome
-  name: 8|[VLESS] sgSG_2|2.2MB/s
+  name: 8|[VLESS] sgSG_2|3.4MB/s
   network: ws
-  port: 443
-  server: 34.143.159.175
-  servername: ylnhh.cc.cd
+  port: 2087
+  server: cf.9999669.xyz
+  servername: hfnb8xmvw3h14.fx02.ccwu.cc
   tls: true
   type: vless
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
-- client-fingerprint: chrome
-  name: 8|[VLESS] sgSG_3|2.3MB/s
-  network: ws
-  port: 8080
-  server: 198.41.222.50
-  type: vless
   udp: true
-  uuid: 27950cc1-85b4-4ecc-ad3a-4507360504af
+  uuid: 77777777-6663-4ef2-b26b-ed2d70642678
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: 031.electrocellco-cf-031.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      Host: hfnb8xmvw3h14.fx02.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.111 Safari/537.36
     max-early-data: 2560
-    path: /eyJqdW5rIjoiQjE1UDBKNGN6UnEzNjg2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIxMy4yMTEuMjkiLCIzMS40NC4yLjU3IiwiNzcuMjQ2LjEwOC4xMzAiXX0=
+    path: /
   xudp: true
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 9|[SS] sgSG²_1|2.4MB/s|X|History
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.16
+  type: ss

@@ -1,15 +1,14 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 2|[Vmess] JP4｜机房｜低风险
+  name: 1|[Vmess] JP4｜机房｜低风险
   network: tcp
   port: '30806'
   server: v6.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 6,7,8|[Trojan] jpJP_2|1.7MB/s
+- name: 6,7|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 3022
@@ -34,18 +33,62 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  delay: 2152
-  name: 8|[Trojan] jpJP_3|1.6MB/s
+  encryption: none
+  name: 8|[VLESS] jpJP_1|1.8MB/s
   network: ws
-  password: trojan
-  port: 587
-  server: 217.142.250.195
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
+  port: 8443
+  server: 43.165.180.71
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
+      Host: ylnhh.cc.cd
+      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: /Telegram🇨🇳@WangCai2
+  xudp: true
+- name: 8|[Anytls] jpJP_2|3.1MB/s
+  password: fe0fda62-79ff-467e-bef4-983322c1d21b
+  port: 32455
+  server: 43.165.171.42
+  skip-cert-verify: true
+  sni: baidu.com
+  type: anytls
+  udp: true
+- down: 10
+  name: 8|[Hysteria2] jpJP_3|1.1MB/s
+  password: acdbf3ef-5421-4feb-8342-39b0e437ef5a
+  port: 24165
+  ports: 20000-30000
+  server: jp.zfork.com
+  skip-cert-verify: true
+  sni: cn.bing.com
+  type: hysteria2
+  up: 50
+- name: 8|[Anytls] jpJP_4|2.0MB/s
+  password: fe0fda62-79ff-467e-bef4-983322c1d21b
+  port: 60004
+  server: hknodev4.nekocloud.top
+  skip-cert-verify: true
+  sni: baidu.com
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 8|[VLESS] jpJP_5|3.3MB/s
+  network: tcp
+  port: 61111
+  reality-opts:
+    public-key: Le7Qcuw8WuEHD4dsLVtVoOSM7ZixD7p0YT_JpsLR0W4
+    short-id: '!!str 5d'
+  server: tokyo.high-speed-test-01.online
+  servername: www.nintendo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4c165520-7050-43d6-ab92-e6640d8e0501
+  xudp: true

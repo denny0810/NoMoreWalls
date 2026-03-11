@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 2|[Vmess] DE29｜机房｜高风险 (黑名单)
+  name: 1|[Vmess] DE29｜机房｜高风险 (黑名单)
   network: tcp
   port: '180'
   server: 82.198.246.97
@@ -26,40 +26,23 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|[Socks5] deDE²_1|3.6MB/s|X|History
-  password: ''
-  port: 1080
-  server: 193.233.254.82
-  skip-cert-verify: true
-  type: socks5
-  username: ''
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 9|[VLESS] deDE²_2|4.4MB/s|X
-  network: tcp
-  port: 443
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 8|[VLESS] deDE_1|1010KB/s
+  network: grpc
+  port: 2053
   reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 87.229.97.231
-  servername: yahoo.com
+    public-key: -W4bzjVM_4jgVMYzPj1Mw6IOl_TYv_tqojpEaLb2XGw
+    short-id: '!!str 23'
+  server: 64.188.83.117
+  servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  uuid: 71322f86-f37a-4929-ada0-05e6a2688145
   xudp: true
-- name: 9|[Socks5] deDE²_3|3.6MB/s|X
-  password: ''
-  port: 1080
-  server: 178.63.132.235
-  skip-cert-verify: true
-  type: socks5
-  username: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 11|[VLESS] DE_speednode_0006

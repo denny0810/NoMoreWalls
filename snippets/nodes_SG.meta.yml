@@ -8,7 +8,15 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 3|[Hysteria2] SG
+- name: 4|[Hysteria2] 新加坡1
+  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  port: 2055
+  server: xjp1.mangshe.xyz
+  skip-cert-verify: true
+  sni: xjp1.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 4|[Hysteria2] SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: sg3.oomz.ru
@@ -16,7 +24,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 5,6|[Trojan] 新加坡|@ripaojiedian
+- name: 6,7|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 3419
@@ -24,7 +32,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 新加坡2|@ripaojiedian
+- name: 6,7|[Trojan] 新加坡2|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 4674
@@ -32,7 +40,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 新加坡3|@ripaojiedian
+- name: 6,7|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 52951
@@ -40,7 +48,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 7|[Anytls] sgSG_1|3.2MB/s
+- name: 8|[Anytls] sgSG_1|1.5MB/s
   password: fe0fda62-79ff-467e-bef4-983322c1d21b
   port: 60003
   server: hknodev4.nekocloud.top
@@ -48,29 +56,24 @@ proxies:
   sni: baidu.com
   type: anytls
   udp: true
-- client-fingerprint: chrome
-  name: 7|[VLESS] sgSG_2|3.4MB/s
-  network: ws
-  port: 2087
-  server: cf.9999669.xyz
-  servername: hfnb8xmvw3h14.fx02.ccwu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 77777777-6663-4ef2-b26b-ed2d70642678
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: hfnb8xmvw3h14.fx02.ccwu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.111 Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  name: 8|[SS] sgSG²_1|2.4MB/s|X|History
+  name: 9|[SS] sgSG²_1|2.4MB/s|X|History
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.16
   type: ss
+- name: 11|[VLESS] SG_speednode_0022
+  network: ws
+  port: 8443
+  server: 43.160.248.66
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳+@WangCai2

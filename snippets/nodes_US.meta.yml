@@ -17,7 +17,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 5,6|[Trojan] 美国|@ripaojiedian
+- name: 6,7|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 3057
@@ -26,7 +26,7 @@ proxies:
   sni: www.nintendogames.net
   tfo: false
   type: trojan
-- name: 5,6|[Trojan] 美国2|@ripaojiedian
+- name: 6,7|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 4920
@@ -35,7 +35,7 @@ proxies:
   sni: www.nintendogames.net
   tfo: false
   type: trojan
-- name: 5,6|[Trojan] 美国3|@ripaojiedian
+- name: 6,7|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 23287
@@ -44,149 +44,46 @@ proxies:
   sni: t.me%2Fripaojiedian
   tfo: false
   type: trojan
-- name: 7|[Anytls] usUS_1|2.5MB/s
-  password: fe0fda62-79ff-467e-bef4-983322c1d21b
-  port: 60001
-  server: 43.162.108.172
-  skip-cert-verify: true
-  sni: baidu.com
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 7|[VLESS] usUS_2|2.4MB/s
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 8|[Vmess] usUS_2|1.5MB/s
   network: tcp
-  port: 43643
-  reality-opts:
-    public-key: U_AczMjOIM-_AgDZrEtTBrInB4lcZxXpGB5CCNeqSCs
-    short-id: '!!str 0708e917'
-  server: 204.197.163.238
-  servername: www.bing.com
-  tls: true
-  type: vless
-  uuid: ff111801-768c-4d23-8f46-e90ef677c80d
-- client-fingerprint: chrome
-  name: 7|[VLESS] usUS_5|3.1MB/s
-  network: tcp
-  port: 18959
-  reality-opts:
-    public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
-    short-id: '!!str d557c6895d014075'
-  server: 157.254.223.44
-  servername: itunes.apple.com
+  port: 64014
+  server: pub.ap20260228.com
   skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 7|[Hysteria] usUS_4|3.3MB/s
-  port: 38845
-  protocol: udp
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  udp: true
-  up: 11 Mbps
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 7|[VLESS] usUS_6|1.3MB/s
-  network: ws
-  port: 443
-  server: 192.0.63.165
-  servername: snippet.fgfw.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.de5.net
-    path: /danfeng
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 7|[VLESS] usUS_7|1.3MB/s
-  network: ws
-  port: 443
-  server: 192.0.54.156
-  servername: snippet.fgfw.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.de5.net
-    path: /danfeng
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 7|[VLESS] usUS_8|1.2MB/s
-  network: ws
-  port: 443
-  server: 192.0.63.95
-  servername: snippet.fgfw.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.de5.net
-    path: /danfeng
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 7|[VLESS] usUS_9|1.2MB/s
-  network: ws
-  port: 443
-  server: 192.0.54.103
-  servername: snippet.fgfw.ccwu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.ccwu.cc
-    path: /danfeng
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 7|[VLESS] usUS_10|2.5MB/s
-  network: ws
-  port: 8443
-  server: 143.20.207.149
-  servername: snippet.fgfw.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.de5.net
-    path: /danfeng
+  tls: false
+  type: vmess
+  uuid: a739e782-1682-38a5-9153-aad09d779ae9
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
+  name: 9|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.251
   type: ss
-- name: 8|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
+- name: 9|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
   password: ''
   port: 7070
   server: 20.83.154.79
   skip-cert-verify: true
   type: socks5
   username: ''
-- name: 10|[VLESS] US_speednode_0024
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|[VLESS] US_speednode_0023
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: '!!str c39cc7310a'
+  server: 143.20.236.51
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- name: 11|[VLESS] US_speednode_0024
   network: ws
   port: 443
   server: 68.64.179.96
@@ -202,7 +99,7 @@ proxies:
     path: /Telegram🇨🇳@WangCai2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0027
+  name: 11|[VLESS] US_speednode_0027
   port: 443
   reality-opts:
     public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
@@ -216,7 +113,7 @@ proxies:
   uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0028
+  name: 11|[VLESS] US_speednode_0028
   port: 443
   reality-opts:
     public-key: CwmIRtPbbb0VDHYxHTiDxF1xtVDG4Jr90RJZvCKQzXQ
@@ -229,7 +126,7 @@ proxies:
   uuid: 420a0e21-08c6-4e94-a965-41226b38b674
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0029
+  name: 11|[VLESS] US_speednode_0029
   port: 4546
   reality-opts:
     public-key: 3DLDFzq0NAYBMrhDOaMM04A_Ictohao2yWOY1NdrJCk
@@ -242,7 +139,7 @@ proxies:
   uuid: 7f37b28b-cfcb-4c2a-ae41-8f2ddc9325dd
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0030
+  name: 11|[VLESS] US_speednode_0030
   port: 4546
   reality-opts:
     public-key: 3DLDFzq0NAYBMrhDOaMM04A_Ictohao2yWOY1NdrJCk
@@ -253,7 +150,7 @@ proxies:
   type: vless
   udp: true
   uuid: b52989b9-09dc-4ca0-b722-e6fe3e8a0313
-- name: 10|[VLESS] US_speednode_0031
+- name: 11|[VLESS] US_speednode_0031
   network: ws
   port: 443
   server: 192.0.63.91

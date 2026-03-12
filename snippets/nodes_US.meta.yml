@@ -17,7 +17,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 5,6|[Trojan] 美国|@ripaojiedian
+- name: 6,7|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 3057
@@ -26,7 +26,7 @@ proxies:
   sni: www.nintendogames.net
   tfo: false
   type: trojan
-- name: 5,6|[Trojan] 美国2|@ripaojiedian
+- name: 6,7|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 4920
@@ -35,7 +35,7 @@ proxies:
   sni: www.nintendogames.net
   tfo: false
   type: trojan
-- name: 5,6|[Trojan] 美国3|@ripaojiedian
+- name: 6,7|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 23287
@@ -45,43 +45,48 @@ proxies:
   tfo: false
   type: trojan
 - alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 7|[Hysteria] usUS_1|1.7MB/s
-  port: 38845
-  protocol: udp
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  udp: true
-  up: 11 Mbps
-- client-fingerprint: chrome
-  delay: 1682
-  name: 7|[Trojan] usUS_2|2.1MB/s
+  - http/1.1
+  client-fingerprint: random
+  name: 8|[VLESS] usUS_2|3.3MB/s
   network: ws
-  password: trojan
-  port: 587
-  server: 38.95.73.40
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
+  port: 443
+  server: 192.0.63.157
+  servername: snippet.fgfw.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
+      Host: snippet.fgfw.ccwu.cc
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
+        Safari/537.36
+    path: /danfeng
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: 8|[VLESS] usUS_3|3.0MB/s
+  network: tcp
+  port: 10001
+  reality-opts:
+    public-key: kKX1o7FhJLyDaVE6sqXUcYpUIuFUgij_ueRYc_E4JhM
+    short-id: '!!str 1a24af87'
+  server: 172.234.130.82
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53cd8178-2ee6-43d9-a2a7-881f287fd408
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
+  name: 9|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.251
   type: ss
-- name: 8|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
+- name: 9|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
   password: ''
   port: 7070
   server: 20.83.154.79
@@ -90,7 +95,7 @@ proxies:
   username: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0023
+  name: 11|[VLESS] US_speednode_0023
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -102,7 +107,7 @@ proxies:
   type: vless
   udp: true
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- name: 10|[VLESS] US_speednode_0024
+- name: 11|[VLESS] US_speednode_0024
   network: ws
   port: 443
   server: 68.64.179.96
@@ -118,7 +123,7 @@ proxies:
     path: /Telegram🇨🇳@WangCai2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0027
+  name: 11|[VLESS] US_speednode_0027
   port: 443
   reality-opts:
     public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
@@ -132,7 +137,7 @@ proxies:
   uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0028
+  name: 11|[VLESS] US_speednode_0028
   port: 443
   reality-opts:
     public-key: CwmIRtPbbb0VDHYxHTiDxF1xtVDG4Jr90RJZvCKQzXQ
@@ -145,7 +150,7 @@ proxies:
   uuid: 420a0e21-08c6-4e94-a965-41226b38b674
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0029
+  name: 11|[VLESS] US_speednode_0029
   port: 4546
   reality-opts:
     public-key: 3DLDFzq0NAYBMrhDOaMM04A_Ictohao2yWOY1NdrJCk
@@ -158,7 +163,7 @@ proxies:
   uuid: 7f37b28b-cfcb-4c2a-ae41-8f2ddc9325dd
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0030
+  name: 11|[VLESS] US_speednode_0030
   port: 4546
   reality-opts:
     public-key: 3DLDFzq0NAYBMrhDOaMM04A_Ictohao2yWOY1NdrJCk
@@ -169,7 +174,7 @@ proxies:
   type: vless
   udp: true
   uuid: b52989b9-09dc-4ca0-b722-e6fe3e8a0313
-- name: 10|[VLESS] US_speednode_0031
+- name: 11|[VLESS] US_speednode_0031
   network: ws
   port: 443
   server: 192.0.63.91

@@ -1,11 +1,11 @@
 proxies:
-- name: 2|[Socks5] HK19｜家宽｜非常安全
+- name: 1|[Socks5] HK19｜家宽｜非常安全
   port: 443
   server: a3f83f3b-t7bj40-tg010c-1r7od.hkt2.cdnhuawei.com
   tls: false
   type: socks5
   username: NmQ1NjQzNmMtMTUwZC0xMWYwLWIwYzgtZjIzYzkxM2M4ZDJiOjxwYXNzd29yZD4%3D
-- name: 2|[Socks5] HK20｜家宽｜非常安全
+- name: 1|[Socks5] HK20｜家宽｜非常安全
   port: 443
   server: d28b916c-t7vwg0-tcc9uq-1rnrp.hkt2.cdnhuawei.com
   tls: false
@@ -13,14 +13,14 @@ proxies:
   username: OTg5YWE0MDYtZWE5Yi0xMWVmLTk3ZGEtZjIzYzkxY2ZiYmM5OjxwYXNzd29yZD4%3D
 - alterId: 2
   cipher: auto
-  name: 2|[Vmess] HK21｜机房｜低风险
+  name: 1|[Vmess] HK21｜机房｜低风险
   network: tcp
   port: '30809'
   server: v9.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 2|[Trojan] HK23｜家宽｜非常安全
+- name: 1|[Trojan] HK23｜家宽｜非常安全
   network: tcp
   password: af4b064a9c39472fb34ad8b113acdc6b
   port: 443
@@ -28,7 +28,7 @@ proxies:
   skip-cert-verify: true
   sni: 183.179.43.254
   type: trojan
-- name: 4|[Hysteria2] hk HK
+- name: 3|[Hysteria2] hk HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
   server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
@@ -37,7 +37,7 @@ proxies:
   type: hysteria2
 - alterId: 2
   cipher: auto
-  name: 6|[Vmess] hk 香港|@ripaojiedian
+  name: 5|[Vmess] hk 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -45,7 +45,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 6,7|[Trojan] 香港3|@ripaojiedian
+- name: 5,6|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 921
@@ -54,7 +54,7 @@ proxies:
   sni: www.nintendogames.net
   tfo: false
   type: trojan
-- name: 6,7|[Trojan] 香港4|@ripaojiedian
+- name: 5,6|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 5823
@@ -63,7 +63,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   tfo: false
   type: trojan
-- name: 6,7|[Trojan] 香港5|@ripaojiedian
+- name: 5,6|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
@@ -74,7 +74,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 7|[Vmess] 香港|@ripaojiedian
+  name: 6|[Vmess] 香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -85,18 +85,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 8|[Vmess] hkHK_1|1.1MB/s
-  network: tcp
-  port: 50024
-  server: 120.232.240.91
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: ef35bcc2-b0ae-4fd3-bc77-d82162696a2d
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 8|[Vmess] hkHK_2|1.9MB/s
+  name: 7|[Vmess] hkHK_1|1.8MB/s
   network: ws
   port: 16632
   server: m.cnmjin.net
@@ -108,26 +97,14 @@ proxies:
     headers:
       Host: b7a3672ec50a345fff716208019ba38f.mobgslb.tbcache.com
     path: /
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 8|[VLESS] hkHK_3|3.2MB/s
-  network: ws
-  port: 26688
-  server: 45.121.138.23
-  servername: snippet.fgfw.de5.net
-  tls: true
-  type: vless
+- cipher: aes-256-gcm
+  name: 7|[SS] hkHK_2|2.5MB/s
+  password: UnXzRXhUMbaV7SpL
+  port: 6356
+  server: c721s1.portablesubmarines.com
+  type: ss
   udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.de5.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/53.0.2785.143 Safari/537.36
-    path: /danfeng
-  xudp: true
-- name: 11|[VLESS] HK_speednode_0007
+- name: 10|[VLESS] HK_speednode_0007
   network: ws
   port: 443
   server: 83.229.123.173

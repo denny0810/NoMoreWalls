@@ -1,14 +1,14 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 2|[Vmess] JP4｜机房｜低风险
+  name: 1|[Vmess] JP4｜机房｜低风险
   network: tcp
   port: '30806'
   server: v6.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 6,7|[Trojan] 日本|@ripaojiedian
+- name: 5,6|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 3022
@@ -17,7 +17,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   tfo: false
   type: trojan
-- name: 6,7|[Trojan] 日本2|@ripaojiedian
+- name: 5,6|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 34818
@@ -26,7 +26,7 @@ proxies:
   sni: www.nintendogames.net
   tfo: false
   type: trojan
-- name: 6,7|[Trojan] 日本3|@ripaojiedian
+- name: 5,6|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 4937
@@ -35,22 +35,57 @@ proxies:
   sni: www.nintendogames.net
   tfo: false
   type: trojan
-- alpn:
-  - h3
-  client-fingerprint: random
-  name: 8|[VLESS] jpJP_1|3.0MB/s
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 7|[Vmess] jpJP_1|1.8MB/s
   network: ws
-  port: 443
-  server: saas.sin.fan
-  servername: 1242758a.soos.bbroot.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 69b09907-eaec-9621-9e8c-8a9ff930e268
+  port: 16617
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a2e68fdf-3339-41e9-aaab-9bb97f07479c
   ws-opts:
     headers:
-      Host: 1242758a.soos.bbroot.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
-  xudp: true
+      Host: b7a3672ec50a345fff716208019ba38f.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 7|[Vmess] jpJP_2|1.8MB/s
+  network: ws
+  port: 16617
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a2e68fdf-3339-41e9-aaab-9bb97f07479c
+  ws-opts:
+    headers:
+      Host: b7a3672ec50a345fff716208019ba38f.mobgslb.tbcache.com
+    path: /
+- name: 7|[Anytls] jpJP_3|2.1MB/s
+  password: fe0fda62-79ff-467e-bef4-983322c1d21b
+  port: 8048
+  server: jpyxvm.ccwink.cc
+  skip-cert-verify: true
+  sni: baidu.com
+  type: anytls
+  udp: true
+- name: 7|[Anytls] jpJP_4|1.8MB/s
+  password: fe0fda62-79ff-467e-bef4-983322c1d21b
+  port: 56300
+  server: jpyxvm.ccwink.cc
+  skip-cert-verify: true
+  sni: baidu.com
+  type: anytls
+  udp: true
+- name: 7|[Anytls] jpJP_5|1.7MB/s
+  password: fe0fda62-79ff-467e-bef4-983322c1d21b
+  port: 32455
+  server: tokyo-ociee.faforex.eu.org
+  skip-cert-verify: true
+  sni: baidu.com
+  type: anytls
+  udp: true

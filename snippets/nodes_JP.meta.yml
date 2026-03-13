@@ -1,14 +1,15 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 2|[Vmess] JP4｜机房｜低风险
+  name: 1|[Vmess] JP4｜机房｜低风险
   network: tcp
   port: '30806'
   server: v6.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 6,7|[Trojan] 日本|@ripaojiedian
+- client-fingerprint: chrome
+  name: 5,6,7|[Trojan] jpJP_2|3.3MB/s
   network: tcp
   password: BxceQaOe
   port: 4945
@@ -16,7 +17,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 6,7|[Trojan] 日本2|@ripaojiedian
+- name: 5,6|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 34818
@@ -24,7 +25,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 6,7|[Trojan] 日本3|@ripaojiedian
+- name: 5,6|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 4937
@@ -32,11 +33,29 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 8|[Anytls] jpJP_1|2.0MB/s
-  password: fe0fda62-79ff-467e-bef4-983322c1d21b
-  port: 8048
-  server: jpyxvm.ccwink.cc
-  skip-cert-verify: true
-  sni: baidu.com
-  type: anytls
+- auth: df314131-ee4a-4857-a84e-e39c3eeac89d
+  name: 7|[Hysteria2] jpJP_1|1.7MB/s
+  password: df314131-ee4a-4857-a84e-e39c3eeac89d
+  port: 21095
+  ports: 21001-21999
+  server: jp.xn--ehqa22b.site
+  skip-cert-verify: false
+  sni: jp.xn--ehqa22b.site
+  type: hysteria2
   udp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 7|[VLESS] jpJP_3|4.9MB/s
+  network: tcp
+  port: 61234
+  reality-opts:
+    public-key: Ck5v8Ja1m7hmsS5ahJaKZr3Z6ARwQWnX15jxDJtLwzM
+    short-id: '!!str 9c'
+  server: high-speed-test-01.linkpc.net
+  servername: www.nintendo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef092640-433a-4f17-99bd-d5d206435606
+  xudp: true

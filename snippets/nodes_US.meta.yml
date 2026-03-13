@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 2|[Vmess] US74｜机房｜低风险
+  name: 1|[Vmess] US74｜机房｜低风险
   network: tcp
   port: '34114'
   server: 103.181.164.237
@@ -10,7 +10,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alpn:
   - h3%2Ch2%2Chttp%2F1.1
-  name: 2|[Trojan] US80｜机房｜低风险
+  name: 1|[Trojan] US80｜机房｜低风险
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -22,13 +22,13 @@ proxies:
     headers:
       Host: snll667.pages.dev
     path: '%2F'
-- name: 2|[Socks5] US145｜机房｜低风险
+- name: 1|[Socks5] US145｜机房｜低风险
   port: 1080
   server: 174.138.61.184
   tls: false
   type: socks5
   username: Og%3D%3D
-- name: 2|[Trojan] US146｜机房｜低风险
+- name: 1|[Trojan] US146｜机房｜低风险
   network: tcp
   password: af4b064a9c39472fb34ad8b113acdc6b
   port: 443
@@ -36,7 +36,7 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- name: 6,7|[Trojan] 美国|@ripaojiedian
+- name: 5,6|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 4920
@@ -44,8 +44,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: 6,7,8|[Trojan] usUS_5|1.1MB/s
+- name: 5,6|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 4920
@@ -53,7 +52,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 6,7|[Trojan] 美国3|@ripaojiedian
+- name: 5,6|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 5390
@@ -62,75 +61,24 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: 8|[Trojan] usUS_1|1.4MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 172.66.44.230
-  skip-cert-verify: false
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    max-early-data: 2560
-    path: /tro8sFW1S91B6sZrM1
-- name: 8|[Http] usUS_2|2.0MB/s
-  password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-  port: 15229
-  server: 5bd34cd0-tbwcg0-tdcuqa-jjv2.cu.oshuawei.com
-  sni: 5bd34cd0-tbwcg0-tdcuqa-jjv2.cu.oshuawei.com
-  tls: true
-  type: http
-  username: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-- cipher: chacha20-ietf-poly1305
-  name: 8|[SS] usUS_3|1.9MB/s
-  password: eb9aff96-654d-4b84-bfbd-30d57a927e4d
-  port: 43111
-  server: us06.network-cdn-gw-yd.net
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|[SS] usUS_4|1.1MB/s
-  password: eb9aff96-654d-4b84-bfbd-30d57a927e4d
-  port: 44401
-  server: us01.network-cdn-gw-yd.net
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 8|[VLESS] usUS_6|1.0MB/s
-  network: ws
+  encryption: none
+  grpc-opts:
+    grpc-service-name: violet
+  name: 7|[VLESS] usUS_3|2.1MB/s
+  network: grpc
   port: 443
-  server: 192.0.54.7
-  servername: snippet.fgfw.ccwu.cc
-  tls: true
+  server: usbad.osaip.net
   type: vless
   udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.ccwu.cc
-    path: /danfeng
-- name: 8|[Anytls] usUS_7|1.0MB/s
-  password: fe0fda62-79ff-467e-bef4-983322c1d21b
-  port: 60001
-  server: 43.162.108.172
-  skip-cert-verify: true
-  sni: baidu.com
-  type: anytls
-  udp: true
+  uuid: 66945d41-c929-4ac9-8cec-e06c2d3cb635
+  xudp: true
 - client-fingerprint: chrome
-  delay: 1682
-  name: 8|[Trojan] usUS_8|2.6MB/s
+  delay: 1148
+  name: 7|[Trojan] usUS_4|2.5MB/s
   network: ws
   password: trojan
-  port: 587
-  server: 38.95.73.40
+  port: 54321
+  server: 154.12.53.125
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
@@ -140,28 +88,61 @@ proxies:
       Host: jflsjlaf.pages.dev
     max-early-data: 2560
     path: /
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 8|[Hysteria] usUS_9|2.0MB/s
-  port: 38845
-  protocol: udp
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
+- auth: 1ae9f3fa-46a3-4ccf-ac29-990ec9673022
+  name: 7|[Hysteria2] usUS_5|2.0MB/s
+  password: 1ae9f3fa-46a3-4ccf-ac29-990ec9673022
+  port: 8080
+  server: svt1.fq.ito8.com
+  sni: svt1.fq.ito8.com
+  type: hysteria2
   udp: true
-  up: 11 Mbps
+- client-fingerprint: chrome
+  name: 7|[VLESS] usUS_6|2.1MB/s
+  network: ws
+  port: 30001
+  server: 154.21.82.210
+  servername: f7on3t1zlwlvhmkz6ji6w7uk72k.sate.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: f7on3t1zlwlvhmkz6ji6w7uk72k.sate.qzz.io
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: 7|[Vmess] usUS_7|2.0MB/s
+  network: tcp
+  port: 64014
+  server: pub.ap20260228.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a739e782-1682-38a5-9153-aad09d779ae9
+  xudp: true
+- client-fingerprint: chrome
+  name: 7|[Trojan] usUS_8|2.0MB/s
+  network: tcp
+  password: d5fa43f9-1ace-4b8f-b865-627e67b1fe37
+  port: 42554
+  server: us03.stimaysmhy8.com
+  skip-cert-verify: false
+  sni: jsygouer.weixin-baidu-qq.com
+  type: trojan
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 9|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
+  name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.251
   type: ss
-- name: 9|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
+- name: 8|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
   password: ''
   port: 7070
   server: 20.83.154.79
@@ -170,7 +151,7 @@ proxies:
   username: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|[VLESS] US_speednode_0023
+  name: 10|[VLESS] US_speednode_0023
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -182,7 +163,7 @@ proxies:
   type: vless
   udp: true
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- name: 11|[VLESS] US_speednode_0024
+- name: 10|[VLESS] US_speednode_0024
   network: ws
   port: 443
   server: 68.64.179.96
@@ -198,7 +179,7 @@ proxies:
     path: /Telegram🇨🇳@WangCai2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|[VLESS] US_speednode_0027
+  name: 10|[VLESS] US_speednode_0027
   port: 443
   reality-opts:
     public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
@@ -212,7 +193,7 @@ proxies:
   uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|[VLESS] US_speednode_0028
+  name: 10|[VLESS] US_speednode_0028
   port: 443
   reality-opts:
     public-key: CwmIRtPbbb0VDHYxHTiDxF1xtVDG4Jr90RJZvCKQzXQ
@@ -225,7 +206,7 @@ proxies:
   uuid: 420a0e21-08c6-4e94-a965-41226b38b674
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|[VLESS] US_speednode_0029
+  name: 10|[VLESS] US_speednode_0029
   port: 4546
   reality-opts:
     public-key: 3DLDFzq0NAYBMrhDOaMM04A_Ictohao2yWOY1NdrJCk
@@ -238,7 +219,7 @@ proxies:
   uuid: 7f37b28b-cfcb-4c2a-ae41-8f2ddc9325dd
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|[VLESS] US_speednode_0030
+  name: 10|[VLESS] US_speednode_0030
   port: 4546
   reality-opts:
     public-key: 3DLDFzq0NAYBMrhDOaMM04A_Ictohao2yWOY1NdrJCk
@@ -249,7 +230,7 @@ proxies:
   type: vless
   udp: true
   uuid: b52989b9-09dc-4ca0-b722-e6fe3e8a0313
-- name: 11|[VLESS] US_speednode_0031
+- name: 10|[VLESS] US_speednode_0031
   network: ws
   port: 443
   server: 192.0.63.91

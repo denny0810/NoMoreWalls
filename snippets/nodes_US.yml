@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 2|[Vmess] US74｜机房｜低风险
+  name: 1|[Vmess] US74｜机房｜低风险
   network: tcp
   port: '34114'
   server: 103.181.164.237
@@ -10,7 +10,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alpn:
   - h3%2Ch2%2Chttp%2F1.1
-  name: 2|[Trojan] US80｜机房｜低风险
+  name: 1|[Trojan] US80｜机房｜低风险
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -22,7 +22,7 @@ proxies:
     headers:
       Host: snll667.pages.dev
     path: '%2F'
-- name: 2|[Trojan] US146｜机房｜低风险
+- name: 1|[Trojan] US146｜机房｜低风险
   network: tcp
   password: af4b064a9c39472fb34ad8b113acdc6b
   port: 443
@@ -30,7 +30,7 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- name: 6,7|[Trojan] 美国|@ripaojiedian
+- name: 5,6|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 4920
@@ -38,8 +38,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: 6,7,8|[Trojan] usUS_5|1.1MB/s
+- name: 5,6|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 4920
@@ -47,7 +46,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 6,7|[Trojan] 美国3|@ripaojiedian
+- name: 5,6|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 5390
@@ -56,43 +55,12 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: 8|[Trojan] usUS_1|1.4MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 172.66.44.230
-  skip-cert-verify: false
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    max-early-data: 2560
-    path: /tro8sFW1S91B6sZrM1
-- cipher: chacha20-ietf-poly1305
-  name: 8|[SS] usUS_3|1.9MB/s
-  password: eb9aff96-654d-4b84-bfbd-30d57a927e4d
-  port: 43111
-  server: us06.network-cdn-gw-yd.net
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|[SS] usUS_4|1.1MB/s
-  password: eb9aff96-654d-4b84-bfbd-30d57a927e4d
-  port: 44401
-  server: us01.network-cdn-gw-yd.net
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  delay: 1682
-  name: 8|[Trojan] usUS_8|2.6MB/s
+  delay: 1148
+  name: 7|[Trojan] usUS_4|2.5MB/s
   network: ws
   password: trojan
-  port: 587
-  server: 38.95.73.40
+  port: 54321
+  server: 154.12.53.125
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
@@ -102,9 +70,31 @@ proxies:
       Host: jflsjlaf.pages.dev
     max-early-data: 2560
     path: /
+- alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: 7|[Vmess] usUS_7|2.0MB/s
+  network: tcp
+  port: 64014
+  server: pub.ap20260228.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a739e782-1682-38a5-9153-aad09d779ae9
+  xudp: true
+- client-fingerprint: chrome
+  name: 7|[Trojan] usUS_8|2.0MB/s
+  network: tcp
+  password: d5fa43f9-1ace-4b8f-b865-627e67b1fe37
+  port: 42554
+  server: us03.stimaysmhy8.com
+  skip-cert-verify: false
+  sni: jsygouer.weixin-baidu-qq.com
+  type: trojan
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 9|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
+  name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.251

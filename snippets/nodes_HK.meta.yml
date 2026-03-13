@@ -1,7 +1,7 @@
 proxies:
 - alpn:
   - h3%2Ch2%2Chttp%2F1.1
-  name: 2|[Trojan] HK67｜机房｜低风险
+  name: 1|[Trojan] HK67｜机房｜低风险
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -15,7 +15,7 @@ proxies:
     path: '%2F'
 - alpn:
   - h3%2Ch2%2Chttp%2F1.1
-  name: 2|[Trojan] HK68｜机房｜低风险
+  name: 1|[Trojan] HK68｜机房｜低风险
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -27,7 +27,7 @@ proxies:
     headers:
       Host: snll667.pages.dev
     path: '%2F'
-- name: 2|[Hysteria2] HK74｜家宽｜非常安全
+- name: 1|[Hysteria2] HK74｜家宽｜非常安全
   password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
   port: 443
   server: 079c035a-t5bb40-t6tn6w-jjv2.hk1.hyhuawei.com
@@ -35,23 +35,16 @@ proxies:
   sni: 079c035a-t5bb40-t6tn6w-jjv2.hk1.hyhuawei.com
   tls: false
   type: hysteria2
-- name: 4|[Hysteria2] hk HK
-  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-  port: 443
-  server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
-  sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
-  tls: false
-  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: 6|[Vmess] hk 香港|@ripaojiedian
+  name: 5|[Vmess] hk 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 6,7|[Trojan] 香港3|@ripaojiedian
+- name: 5,6|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 921
@@ -59,7 +52,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 6,7|[Trojan] 香港4|@ripaojiedian
+- name: 5,6|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
@@ -67,8 +60,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: 6,7,8|[Trojan] hkHK_3|1.2MB/s
+- name: 5,6|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 6313
@@ -78,7 +70,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 7|[Vmess] 香港|@ripaojiedian
+  name: 6|[Vmess] 香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -86,21 +78,38 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: 8|[SS] hkHK_1|1.1MB/s
-  password: eb9aff96-654d-4b84-bfbd-30d57a927e4d
-  port: 48819
-  server: hkp9.network-cdn-gw-yd.net
-  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  name: 7|[VLESS] hkHK_2|1.1MB/s
+  network: ws
+  port: 8443
+  server: 83.229.121.78
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|[SS] hkHK_2|1.2MB/s
-  password: eb9aff96-654d-4b84-bfbd-30d57a927e4d
-  port: 48820
-  server: hkp11.network-cdn-gw-yd.net
-  type: ss
-  udp: true
-- name: 11|[VLESS] HK_speednode_0007
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /Telegram🇨🇳@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  name: 7|[VLESS] hkHK_3|1.6MB/s
+  network: ws
+  port: 443
+  server: 68.64.179.250
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- name: 10|[VLESS] HK_speednode_0007
   network: ws
   port: 443
   server: 83.229.123.173

@@ -60,81 +60,20 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: violet
-  name: 8|[VLESS] usUS_3|2.1MB/s
-  network: grpc
-  port: 443
-  server: usbad.osaip.net
-  type: vless
-  udp: true
-  uuid: 66945d41-c929-4ac9-8cec-e06c2d3cb635
-  xudp: true
-- client-fingerprint: chrome
-  delay: 1148
-  name: 8|[Trojan] usUS_4|2.5MB/s
-  network: ws
-  password: trojan
-  port: 54321
-  server: 154.12.53.125
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 8|[Hysteria] usUS_1|1.7MB/s
+  port: 38845
+  protocol: udp
+  server: 208.87.243.151
   skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- auth: 1ae9f3fa-46a3-4ccf-ac29-990ec9673022
-  name: 8|[Hysteria2] usUS_5|2.0MB/s
-  password: 1ae9f3fa-46a3-4ccf-ac29-990ec9673022
-  port: 8080
-  server: svt1.fq.ito8.com
-  sni: svt1.fq.ito8.com
-  type: hysteria2
+  sni: www.bing.com
+  type: hysteria
   udp: true
-- client-fingerprint: chrome
-  name: 8|[VLESS] usUS_6|2.1MB/s
-  network: ws
-  port: 30001
-  server: 154.21.82.210
-  servername: f7on3t1zlwlvhmkz6ji6w7uk72k.sate.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: f7on3t1zlwlvhmkz6ji6w7uk72k.sate.qzz.io
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: 8|[Vmess] usUS_7|2.0MB/s
-  network: tcp
-  port: 64014
-  server: pub.ap20260228.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a739e782-1682-38a5-9153-aad09d779ae9
-  xudp: true
-- client-fingerprint: chrome
-  name: 8|[Trojan] usUS_8|2.0MB/s
-  network: tcp
-  password: d5fa43f9-1ace-4b8f-b865-627e67b1fe37
-  port: 42554
-  server: us03.stimaysmhy8.com
-  skip-cert-verify: false
-  sni: jsygouer.weixin-baidu-qq.com
-  type: trojan
+  up: 11 Mbps
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 9|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

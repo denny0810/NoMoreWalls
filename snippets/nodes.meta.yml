@@ -954,46 +954,24 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: randomized
-  fingerprint: ''
-  name: 8|[VLESS] sgSG_1|3.0MB/s
+- name: 8|[VLESS] sgSG_4|2.0MB/s
   network: ws
-  port: 2087
-  server: 104.18.32.47
-  servername: ed6geslk00b6rndj55k65gj8mbdjuoxi.pages.dev
+  port: 443
+  server: 34.143.159.175
+  servername: ylnhh.cc.cd
   tls: true
   type: vless
-  udp: false
-  uuid: 68ee25ac-514e-4e00-81ed-67a0ba23954a
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: ed6geslk00b6rndj55k65gj8mbdjuoxi.pages.dev
-    max-early-data: 2560
-    path: /eyJqdW5rIjoiS0ZJaGhSaG14Z0NMeCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE0Ni4xMDMuMTE0LjEzNCJdfQ==
-- name: 8|[Http] sgSG_4|2.0MB/s
-  password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-  port: 17235
-  server: 7073dc46-tby740-tdd7ea-19xg1.cm4.oshuawei.com
-  sni: 7073dc46-tby740-tdd7ea-19xg1.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-- name: 8|[Trojan] jpJP_2|1.0MB/s
-  network: tcp
-  password: d5fa43f9-1ace-4b8f-b865-627e67b1fe37
-  port: 35203
-  server: jp05.stimaysmhy8.com
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- name: 8,11|[VLESS] NL_speednode_0021
+  network: ws
+  port: 443
+  server: 77.93.91.159
+  servername: ylnhh.cc.cd
   skip-cert-verify: false
-  sni: jsygouer.weixin-baidu-qq.com
-  type: trojan
-  udp: true
-- encryption: none
-  name: 8|[VLESS] hkHK_2|1.1MB/s
-  network: ws
-  port: 8443
-  server: 83.229.121.78
-  servername: ylnhh.cc.cd
   tls: true
   type: vless
   udp: true
@@ -1001,167 +979,100 @@ proxies:
   ws-opts:
     headers:
       Host: ylnhh.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
     path: /Telegram🇨🇳@WangCai2
-  xudp: true
-- encryption: none
-  grpc-opts:
-    grpc-service-name: violet
-  name: 8|[VLESS] usUS_3|2.1MB/s
-  network: grpc
-  port: 443
-  server: usbad.osaip.net
-  type: vless
-  udp: true
-  uuid: 66945d41-c929-4ac9-8cec-e06c2d3cb635
-  xudp: true
-- flow: xtls-rprx-vision
-  name: 8|[VLESS] jpJP_5|4.3MB/s
-  network: tcp
-  port: 61234
-  reality-opts:
-    public-key: Ck5v8Ja1m7hmsS5ahJaKZr3Z6ARwQWnX15jxDJtLwzM
-    short-id: '9c'
-  server: high-speed-test-01.linkpc.net
-  servername: www.nintendo.com
-  tls: true
-  type: vless
-  uuid: ef092640-433a-4f17-99bd-d5d206435606
-- name: 8|[VLESS] hkHK_3|1.6MB/s
+- alterId: 0
+  cipher: auto
+  name: 8|[Vmess] twTW_1|2.6MB/s
   network: ws
-  port: 443
-  server: 68.64.179.250
-  servername: ylnhh.cc.cd
-  tls: true
-  type: vless
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  port: 12888
+  server: gtm1.ktmwan.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: bbd785de-9793-4453-be40-6a3fdc418203
   ws-opts:
     headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
-- delay: 1148
-  name: 8|[Trojan] usUS_4|2.5MB/s
-  network: ws
-  password: trojan
-  port: 54321
-  server: 154.12.53.125
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
+      Host: baidu.com
     path: /
-- auth: 1ae9f3fa-46a3-4ccf-ac29-990ec9673022
-  name: 8|[Hysteria2] usUS_5|2.0MB/s
-  password: 1ae9f3fa-46a3-4ccf-ac29-990ec9673022
-  port: 8080
-  server: svt1.fq.ito8.com
-  sni: svt1.fq.ito8.com
-  type: hysteria2
-  udp: true
-- allowInsecure: '1'
-  alpn:
-  - h2
-  fp: chrome
-  name: 8,9|[Anytls] zaZA²_1|5.3MB/s|0%|GPT⁺|YT-CN|...
-  password: dongtaiwang.com
-  port: 59901
-  server: 45.221.98.14
-  skip-cert-verify: true
-  type: anytls
-  udp: true
-- name: 8|[VLESS] usUS_6|2.1MB/s
+- alterId: '0'
+  cipher: auto
+  name: 8|[Vmess] jpJP_1|1.1MB/s
   network: ws
-  port: 30001
-  server: 154.21.82.210
-  servername: f7on3t1zlwlvhmkz6ji6w7uk72k.sate.qzz.io
-  tls: true
-  type: vless
+  port: 16617
+  server: t.cnmjcn.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
+  uuid: 38207de1-de96-4f78-867b-7be6b41ef1dd
   ws-opts:
     headers:
-      Host: f7on3t1zlwlvhmkz6ji6w7uk72k.sate.qzz.io
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: random
-  encryption: none
-  name: 8|[VLESS] ❓Other_1|1.6MB/s
-  network: ws
-  port: 2083
-  server: 104.24.35.187
-  servername: lirpeuijr.chinav.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: lirpeuijr.chinav.indevs.in
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/46.0.2490.71 Safari/537.36
-    path: /danfeng
+      Host: 3dfc06a29f8ae09dec34988159d21bee.mobgslb.tbcache.com
+    path: /
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: 8|[Vmess] usUS_7|2.0MB/s
-  network: tcp
-  port: 64014
-  server: pub.ap20260228.com
+  name: 8|[Vmess] vnVN_1|1.1MB/s
+  network: ws
+  port: 12891
+  server: gtm1.ktmwan.net
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: a739e782-1682-38a5-9153-aad09d779ae9
+  uuid: bbd785de-9793-4453-be40-6a3fdc418203
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 8|[Vmess] hkHK_1|2.0MB/s
+  network: ws
+  port: 12890
+  server: gtm1.ktmwan.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bbd785de-9793-4453-be40-6a3fdc418203
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
   xudp: true
 - alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 8|[Vmess] auAU_1|1.4MB/s
-  network: tcp
-  port: 64003
-  server: pub.ap20260228.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 8|[Hysteria] usUS_1|1.7MB/s
+  port: 38845
+  protocol: udp
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
   udp: true
-  uuid: a739e782-1682-38a5-9153-aad09d779ae9
-  xudp: true
-- client-fingerprint: safari
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 8|[VLESS] chCH_1|1.2MB/s
-  network: tcp
-  port: 23151
-  reality-opts:
-    public-key: eP0MKUFOcNVSVFbHT8GgBLP4LIHZFq8JuVGlCAlH1HI
-    short-id: ''
-  server: 3.fr.vles.space
-  servername: cms-res-web.online.sberbank.ru
+  up: 11 Mbps
+- encryption: none
+  name: 8|[VLESS] krKR_1|1.3MB/s
+  network: ws
+  port: 23297
+  server: 112.167.47.83
+  servername: ylnhh.cc.cd
   tls: true
   type: vless
   udp: true
-  uuid: b52989b9-09dc-4ca0-b722-e6fe3e8a0313
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
+        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+    path: /Telegram🇨🇳@WangCai2
   xudp: true
-- name: 8|[Trojan] usUS_8|2.0MB/s
-  network: tcp
-  password: d5fa43f9-1ace-4b8f-b865-627e67b1fe37
-  port: 42554
-  server: us03.stimaysmhy8.com
-  skip-cert-verify: false
-  sni: jsygouer.weixin-baidu-qq.com
-  type: trojan
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 9|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...
@@ -1169,6 +1080,15 @@ proxies:
   port: 38388
   server: 103.186.154.172
   type: ss
+- alpn:
+  - h2
+  name: 9|[Anytls] zaZA²_1|5.3MB/s|0%|GPT⁺|YT-CN|...
+  password: dongtaiwang.com
+  port: 59901
+  server: 45.221.98.14
+  skip-cert-verify: true
+  type: anytls
+  udp: true
 - cipher: aes-256-cfb
   country: 🇨🇳 CN
   name: 9|[SS] vnVN²_2|1.6MB/s|GPT|X|History
@@ -1473,20 +1393,6 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳+@WangCai2
-- name: 11|[VLESS] NL_speednode_0021
-  network: ws
-  port: 443
-  server: 77.93.91.159
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
 - name: 11|[VLESS] SG_speednode_0022
   network: ws
   port: 8443

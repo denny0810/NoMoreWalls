@@ -366,64 +366,68 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 8|[Trojan] jpJP_2|1.0MB/s
-  network: tcp
-  password: d5fa43f9-1ace-4b8f-b865-627e67b1fe37
-  port: 35203
-  server: jp05.stimaysmhy8.com
-  skip-cert-verify: false
-  sni: jsygouer.weixin-baidu-qq.com
-  type: trojan
-  udp: true
-- delay: 1148
-  name: 8|[Trojan] usUS_4|2.5MB/s
+- alterId: 0
+  cipher: auto
+  name: 8|[Vmess] twTW_1|2.6MB/s
   network: ws
-  password: trojan
-  port: 54321
-  server: 154.12.53.125
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
+  port: 12888
+  server: gtm1.ktmwan.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: bbd785de-9793-4453-be40-6a3fdc418203
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
+      Host: baidu.com
     path: /
 - alterId: '0'
   cipher: auto
-  name: 8|[Vmess] usUS_7|2.0MB/s
-  network: tcp
-  port: 64014
-  server: pub.ap20260228.com
+  name: 8|[Vmess] jpJP_1|1.1MB/s
+  network: ws
+  port: 16617
+  server: t.cnmjcn.cyou
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: a739e782-1682-38a5-9153-aad09d779ae9
+  uuid: 38207de1-de96-4f78-867b-7be6b41ef1dd
+  ws-opts:
+    headers:
+      Host: 3dfc06a29f8ae09dec34988159d21bee.mobgslb.tbcache.com
+    path: /
   xudp: true
-- alpn:
-  - ''
-  alterId: '0'
+- alterId: '0'
   cipher: auto
-  name: 8|[Vmess] auAU_1|1.4MB/s
-  network: tcp
-  port: 64003
-  server: pub.ap20260228.com
+  name: 8|[Vmess] vnVN_1|1.1MB/s
+  network: ws
+  port: 12891
+  server: gtm1.ktmwan.net
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: a739e782-1682-38a5-9153-aad09d779ae9
+  uuid: bbd785de-9793-4453-be40-6a3fdc418203
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
   xudp: true
-- name: 8|[Trojan] usUS_8|2.0MB/s
-  network: tcp
-  password: d5fa43f9-1ace-4b8f-b865-627e67b1fe37
-  port: 42554
-  server: us03.stimaysmhy8.com
+- alterId: '0'
+  cipher: auto
+  name: 8|[Vmess] hkHK_1|2.0MB/s
+  network: ws
+  port: 12890
+  server: gtm1.ktmwan.net
   skip-cert-verify: false
-  sni: jsygouer.weixin-baidu-qq.com
-  type: trojan
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bbd785de-9793-4453-be40-6a3fdc418203
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 9|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

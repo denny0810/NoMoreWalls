@@ -1,5 +1,5 @@
 proxies:
-- name: 1|[Trojan] SG6｜机房｜高风险 (黑名单)
+- name: 2|[Trojan] SG6｜机房｜高风险 (黑名单)
   network: tcp
   password: af4b064a9c39472fb34ad8b113acdc6b
   port: 443
@@ -7,33 +7,33 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
-- name: 5,6|[Trojan] 新加坡|@ripaojiedian
+- name: 6,7|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 3419
-  server: 160.16.85.33
+  port: 4674
+  server: 160.16.132.38
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 新加坡2|@ripaojiedian
+- name: 6,7|[Trojan] 新加坡2|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
-  port: 4674
-  server: 160.16.85.33
+  port: 3419
+  server: 160.16.132.38
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 新加坡3|@ripaojiedian
+- name: 6,7|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 52951
-  server: 13.231.110.103
+  port: 29666
+  server: 43.199.43.18
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: randomized
   fingerprint: ''
-  name: 7|[VLESS] sgSG_1|3.0MB/s
+  name: 8|[VLESS] sgSG_1|3.0MB/s
   network: ws
   port: 2087
   server: 104.18.32.47
@@ -48,7 +48,7 @@ proxies:
       Host: ed6geslk00b6rndj55k65gj8mbdjuoxi.pages.dev
     max-early-data: 2560
     path: /eyJqdW5rIjoiS0ZJaGhSaG14Z0NMeCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE0Ni4xMDMuMTE0LjEzNCJdfQ==
-- name: 7|[Http] sgSG_4|2.0MB/s
+- name: 8|[Http] sgSG_4|2.0MB/s
   password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
   port: 17235
   server: 7073dc46-tby740-tdd7ea-19xg1.cm4.oshuawei.com
@@ -58,12 +58,12 @@ proxies:
   username: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  name: 8|[SS] sgSG²_1|2.4MB/s|X|History
+  name: 9|[SS] sgSG²_1|2.4MB/s|X|History
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.16
   type: ss
-- name: 10|[VLESS] SG_speednode_0022
+- name: 11|[VLESS] SG_speednode_0022
   network: ws
   port: 8443
   server: 43.160.248.66

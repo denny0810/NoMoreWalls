@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 1|[Vmess] US74｜机房｜低风险
+  name: 2|[Vmess] US74｜机房｜低风险
   network: tcp
   port: '34114'
   server: 103.181.164.237
@@ -10,7 +10,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alpn:
   - h3%2Ch2%2Chttp%2F1.1
-  name: 1|[Trojan] US80｜机房｜低风险
+  name: 2|[Trojan] US80｜机房｜低风险
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -22,7 +22,7 @@ proxies:
     headers:
       Host: snll667.pages.dev
     path: '%2F'
-- name: 1|[Trojan] US146｜机房｜低风险
+- name: 2|[Trojan] US146｜机房｜低风险
   network: tcp
   password: af4b064a9c39472fb34ad8b113acdc6b
   port: 443
@@ -30,33 +30,33 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- name: 5,6|[Trojan] 美国|@ripaojiedian
+- name: 6,7|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
-  port: 4920
-  server: 54.238.23.69
+  port: 4019
+  server: 52.68.61.114
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 美国2|@ripaojiedian
+- name: 6,7|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 4920
-  server: 54.248.177.86
+  server: 18.181.152.121
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 美国3|@ripaojiedian
+- name: 6,7|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 5390
-  server: 16.163.105.149
+  port: 45947
+  server: 95.40.28.8
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
   delay: 1148
-  name: 7|[Trojan] usUS_4|2.5MB/s
+  name: 8|[Trojan] usUS_4|2.5MB/s
   network: ws
   password: trojan
   port: 54321
@@ -73,7 +73,7 @@ proxies:
 - alterId: '0'
   cipher: auto
   client-fingerprint: chrome
-  name: 7|[Vmess] usUS_7|2.0MB/s
+  name: 8|[Vmess] usUS_7|2.0MB/s
   network: tcp
   port: 64014
   server: pub.ap20260228.com
@@ -84,7 +84,7 @@ proxies:
   uuid: a739e782-1682-38a5-9153-aad09d779ae9
   xudp: true
 - client-fingerprint: chrome
-  name: 7|[Trojan] usUS_8|2.0MB/s
+  name: 8|[Trojan] usUS_8|2.0MB/s
   network: tcp
   password: d5fa43f9-1ace-4b8f-b865-627e67b1fe37
   port: 42554
@@ -94,7 +94,7 @@ proxies:
   type: trojan
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
+  name: 9|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.251

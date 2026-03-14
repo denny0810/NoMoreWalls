@@ -127,20 +127,32 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: '0'
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 8|[VLESS] jpJP_1|2.5MB/s
+  network: tcp
+  port: 31411
+  reality-opts:
+    public-key: ZkyNg1t5tbUhpuI2wntM2xStOz3k0taZJDLaoJ17CHo
+    short-id: '!!str b4fae2dd'
+  server: 52.199.179.21
+  servername: www.apple.com.cn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3fe0153a-1608-4658-a9d0-9d73106dab33
+  xudp: true
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 8|[Vmess] jpJP_1|1.1MB/s
-  network: ws
-  port: 16617
-  server: t.cnmjcn.cyou
+  name: 8|[Vmess] jpJP_2|3.3MB/s
+  network: tcp
+  port: 6003
+  server: cn02.365cloud5878.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 38207de1-de96-4f78-867b-7be6b41ef1dd
-  ws-opts:
-    headers:
-      Host: 3dfc06a29f8ae09dec34988159d21bee.mobgslb.tbcache.com
-    path: /
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
   xudp: true

@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 2|[Vmess] US74｜机房｜低风险
+  name: 1|[Vmess] US74｜机房｜低风险
   network: tcp
   port: '34114'
   server: 103.181.164.237
@@ -10,7 +10,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alpn:
   - h3%2Ch2%2Chttp%2F1.1
-  name: 2|[Trojan] US80｜机房｜低风险
+  name: 1|[Trojan] US80｜机房｜低风险
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -22,13 +22,13 @@ proxies:
     headers:
       Host: snll667.pages.dev
     path: '%2F'
-- name: 2|[Socks5] US145｜机房｜低风险
+- name: 1|[Socks5] US145｜机房｜低风险
   port: 1080
   server: 174.138.61.184
   tls: false
   type: socks5
   username: Og%3D%3D
-- name: 2|[Trojan] US146｜机房｜低风险
+- name: 1|[Trojan] US146｜机房｜低风险
   network: tcp
   password: af4b064a9c39472fb34ad8b113acdc6b
   port: 443
@@ -60,59 +60,12 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: 8,11|[VLESS] US_speednode_0058
-  network: ws
-  port: 443
-  server: 192.0.63.216
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng
-- client-fingerprint: chrome
-  name: 8|[VLESS] usUS_2|2.5MB/s
-  network: ws
-  port: 443
-  server: 192.0.63.76
-  servername: snippet.danfeng.theworkpc.com
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    max-early-data: 2560
-    path: /danfeng
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 8,11|[VLESS] US_speednode_0051
-  network: ws
-  port: 443
-  server: 192.0.54.130
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 55 Mbps
-  name: 8|[Hysteria] usUS_4|2.1MB/s
+  name: 8|[Hysteria] usUS_1|1.1MB/s
   port: 38845
   protocol: udp
   server: 208.87.243.151
@@ -121,24 +74,35 @@ proxies:
   type: hysteria
   udp: true
   up: 11 Mbps
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 8|[VLESS] usUS_5|1001KB/s
-  network: ws
-  port: 8500
-  server: 204.197.163.166
-  servername: snippet.danfeng.theworkpc.com
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 8|[VLESS] usUS_2|2.6MB/s
+  network: tcp
+  port: 19001
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    short-id: '!!str '
+  server: malaysia01.jumperservice.com
+  servername: www.speedtest.net
   tls: true
   type: vless
   udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Slackware/Chrome/12.0.742.100 Safari/534.30
-    path: /danfeng
+  uuid: d13545be-5c06-4283-cdf3-a364201bf9fb
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 8|[VLESS] usUS_3|2.1MB/s
+  network: tcp
+  port: 19001
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    short-id: '!!str '
+  server: malaysia01.jumperservice.com
+  servername: www.speedtest.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: e675787a-48db-45f9-9902-13b1b941446c
   xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
@@ -154,6 +118,20 @@ proxies:
   skip-cert-verify: true
   type: socks5
   username: ''
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|[VLESS] US_speednode_0041
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: '!!str c39cc7310a'
+  server: 143.20.236.51
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - name: 11|[Trojan] US_speednode_0042
   network: ws
   password: iwangjie
@@ -285,6 +263,23 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
+  name: 11|[VLESS] US_speednode_0051
+  network: ws
+  port: 443
+  server: 192.0.54.130
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
   name: 11|[VLESS] US_speednode_0052
   network: ws
   port: 443
@@ -368,6 +363,20 @@ proxies:
     headers:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
+- name: 11|[VLESS] US_speednode_0058
+  network: ws
+  port: 443
+  server: 192.0.63.216
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng
 - name: 11|[VLESS] US_speednode_0059
   network: ws
   port: 443

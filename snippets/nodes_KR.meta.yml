@@ -1,46 +1,23 @@
 proxies:
-- name: 2,9,11|[Socks5] KR_speednode_0022
+- name: 1,9,11|[Socks5] KR_speednode_0022
   port: 1090
   server: 121.169.46.116
   tls: false
   type: socks5
   udp: true
   username: T2clM0QlM0Q6
-- client-fingerprint: chrome
-  encryption: none
-  name: 8,11|[VLESS] KR_speednode_0026
-  network: ws
-  port: 22410
-  server: 211.48.77.114
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 8|[VLESS] krKR_2|1.5MB/s
-  network: ws
-  port: 12281
-  server: 118.42.204.220
-  servername: ylnhh.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /Telegram🇨🇳@WangCai2
-  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 8|[Hysteria2] krKR_1|3.6MB/s
+  obfs: ''
+  obfs-password: ''
+  password: fe0fda62-79ff-467e-bef4-983322c1d21b
+  port: 56309
+  server: kr.ccwink.cc
+  skip-cert-verify: true
+  sni: kr.ccwink.cc
+  type: hysteria2
+  up: ''
 - name: 11|[VLESS] KR_speednode_0023
   network: ws
   port: 10973
@@ -83,3 +60,17 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
+- name: 11|[VLESS] KR_speednode_0026
+  network: ws
+  port: 22410
+  server: 211.48.77.114
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /

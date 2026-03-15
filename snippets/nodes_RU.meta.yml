@@ -1,39 +1,4 @@
 proxies:
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 8|[VLESS] ruRU_1|2.1MB/s
-  network: grpc
-  port: 7443
-  reality-opts:
-    public-key: -aYYOZ3t8L1J5B7qSR45-IjwNTQq6RuE5yzv-rQbOhM
-    short-id: '!!str b566e851'
-  server: 89.208.85.78
-  servername: www.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2563b829-866c-4c0f-8270-a91cffbfe852
-  xudp: true
-- client-fingerprint: firefox
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 8|[VLESS] ruRU_2|1.3MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: d-XqNbiYbaZbxNUrIoikQmrO4tnE_CByJ53pN-VT10I
-    short-id: '!!str c5765518'
-  server: 176.98.178.184
-  servername: www.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2563b829-866c-4c0f-8270-a91cffbfe852
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 11|[VLESS] RU_speednode_0030
@@ -89,6 +54,19 @@ proxies:
   type: vless
   udp: true
   uuid: f1a19caa-2917-4556-a045-e60adb002048
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|[VLESS] RU_speednode_0034
+  port: 7445
+  reality-opts:
+    public-key: 1nX2U0-rg8Lw6Bz0i16x1YItJUs8X9CsvzQjCk-DOhA
+  server: 51.250.75.192
+  servername: api-maps.yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 04310c16-0aed-43ce-9cdb-e8cbc6966ef5
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 11|[VLESS] RU_speednode_0035

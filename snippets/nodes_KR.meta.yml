@@ -1,12 +1,27 @@
 proxies:
-- name: 2,9,11|[Socks5] KR_speednode_0022
+- name: 1,8,10|[Socks5] KR_speednode_0022
   port: 1090
   server: 121.169.46.116
   tls: false
   type: socks5
   udp: true
   username: T2clM0QlM0Q6
-- name: 11|[VLESS] KR_speednode_0023
+- client-fingerprint: chrome
+  name: 7|[Trojan] krKR_1|1.2MB/s
+  network: ws
+  password: trojan
+  port: 10003
+  server: 118.34.36.61
+  skip-cert-verify: false
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /
+- name: 10|[VLESS] KR_speednode_0023
   network: ws
   port: 10973
   server: 119.195.168.105
@@ -20,7 +35,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
-- name: 11|[VLESS] KR_speednode_0024
+- name: 10|[VLESS] KR_speednode_0024
   network: ws
   port: 8443
   server: 59.3.3.161
@@ -34,7 +49,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳+@WangCai2
-- name: 11|[VLESS] KR_speednode_0025
+- name: 10|[VLESS] KR_speednode_0025
   network: ws
   port: 8443
   server: 59.3.3.161
@@ -48,7 +63,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
-- name: 11|[VLESS] KR_speednode_0026
+- name: 10|[VLESS] KR_speednode_0026
   network: ws
   port: 22410
   server: 211.48.77.114

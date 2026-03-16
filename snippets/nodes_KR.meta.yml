@@ -1,23 +1,72 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 7|[VLESS] krKR_1|1.1MB/s
+- client-fingerprint: chrome
+  name: 7|[VLESS] krKR_1|1.2MB/s
   network: ws
-  port: 28080
-  server: 222.103.177.64
-  servername: danfeng.sylu.cc
+  port: 50001
+  server: 121.178.121.161
+  servername: snippet.danfeng.kozow.com
   tls: true
   type: vless
   udp: true
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: danfeng.sylu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      Host: snippet.danfeng.kozow.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.71 Safari/537.36
+    max-early-data: 2560
     path: /danfeng
   xudp: true
+- client-fingerprint: chrome
+  name: 7|[VLESS] krKR_2|1.2MB/s
+  network: ws
+  port: 30303
+  server: 220.65.73.2
+  servername: danfeng.sylu.cc
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: danfeng.sylu.cc
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: 7|[VLESS] krKR_3|3.2MB/s
+  network: ws
+  port: 26257
+  server: 211.228.64.93
+  servername: snippet.danfeng.kozow.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.111 Safari/537.36
+    max-early-data: 2560
+    path: /danfeng
+  xudp: true
+- client-fingerprint: chrome
+  name: 7|[VLESS] krKR_4|2.1MB/s
+  network: ws
+  port: 10911
+  server: 118.139.224.150
+  servername: danfeng.sylu.cc
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: danfeng.sylu.cc
+    max-early-data: 2560
+    path: /danfeng
 - name: 8,10|[Socks5] KR_speednode_0022
   port: 1090
   server: 121.169.46.116

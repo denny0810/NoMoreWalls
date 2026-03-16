@@ -9,7 +9,8 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 10|[VLESS] DE_speednode_0012
+- client-fingerprint: chrome
+  name: 7,10|[VLESS] DE_speednode_0012
   network: ws
   port: 8005
   server: 45.145.42.170
@@ -23,3 +24,37 @@ proxies:
     headers:
       Host: sub.mot.ip-ddns.com
     path: /
+- client-fingerprint: chrome
+  name: 7,10|[VLESS] IR_speednode_0020
+  network: ws
+  port: 8085
+  server: 62.60.156.158
+  servername: sub.mot.ip-ddns.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7|[VLESS] deDE_3|2.5MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '!!str 23'
+  server: uk1.santexnika24.com
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 096d2cea-e1d5-4b68-ada3-6349a272ecad
+  xudp: true

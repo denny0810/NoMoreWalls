@@ -24,7 +24,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: 7|[VLESS] sgSG_1|1.8MB/s
+  name: 7|[VLESS] sgSG_1|3.0MB/s
   network: ws
   port: 443
   server: 104.18.41.43
@@ -39,21 +39,103 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  encryption: none
-  name: 7,10|[VLESS] SG_speednode_0037
+  name: 7|[VLESS] sgSG_2|3.1MB/s
   network: ws
   port: 443
-  server: 34.143.159.175
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
+  server: 172.64.156.0
+  servername: r.icy.de5.net
   tls: true
   type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: 7|[VLESS] sgSG_3|1.3MB/s
+  network: ws
+  port: 443
+  server: 104.18.40.56
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 7|[Vmess] sgSG_4|1.5MB/s
+  network: ws
+  port: 16618
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5473c5aa-0091-4f14-81ec-af3f2827f608
   ws-opts:
     headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
+      Host: d1f51b7747dc55e19ac9ef8c6e941480.mobgslb.tbcache.com
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 7|[VLESS] sgSG_6|2.5MB/s
+  network: ws
+  port: 80
+  server: 162.159.34.121
+  type: vless
+  udp: true
+  uuid: 0ca855d9-7c03-40eb-929b-919f934abdc3
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: amirvpn.amirhm00100.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.101 Safari/537.36
+    max-early-data: 2048
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 7|[VLESS] sgSG_7|2.3MB/s
+  network: ws
+  port: 80
+  server: 198.41.211.114
+  type: vless
+  udp: true
+  uuid: 0ca855d9-7c03-40eb-929b-919f934abdc3
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: amirvpn.amirhm00100.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    max-early-data: 2048
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 7|[VLESS] sgSG_8|1.3MB/s
+  network: ws
+  port: 80
+  server: 104.18.32.47
+  type: vless
+  udp: true
+  uuid: 787b3724-16c8-4e58-a038-2b8013cdc6d9
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: c3linogp4x20x5acoguup217nstesdu1.nobodyface4b13.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /eyJqdW5rIjoiTG1jRlUwNjNwVUxvYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
   xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
@@ -76,6 +158,20 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳+@WangCai2
+- name: 10|[VLESS] SG_speednode_0037
+  network: ws
+  port: 443
+  server: 34.143.159.175
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
 - name: 10|[VLESS] SG_speednode_0038
   network: ws
   port: 8443
@@ -90,3 +186,17 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳+@WangCai2
+- name: 10|[VLESS] SG_speednode_0039
+  network: ws
+  port: 19457
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2

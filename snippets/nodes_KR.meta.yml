@@ -1,19 +1,39 @@
 proxies:
-- client-fingerprint: chrome
-  name: 7|[Trojan] krKR_1|1.2MB/s
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 7|[VLESS] krKR_1|2.3MB/s
   network: ws
-  password: trojan
-  port: 10003
-  server: 118.34.36.61
-  skip-cert-verify: false
-  sni: jflsjlaf.pages.dev
-  type: trojan
+  port: 32677
+  server: 112.186.25.177
+  servername: danfeng.sylu.cc
+  tls: true
+  type: vless
   udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
+      Host: danfeng.sylu.cc
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 7|[VLESS] krKR_2|1.3MB/s
+  network: ws
+  port: 10911
+  server: 118.139.224.150
+  servername: danfeng.sylu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: danfeng.sylu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /danfeng
+  xudp: true
 - name: 8,10|[Socks5] KR_speednode_0022
   port: 1090
   server: 121.169.46.116

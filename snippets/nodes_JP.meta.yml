@@ -1,6 +1,5 @@
 proxies:
-- client-fingerprint: chrome
-  name: 3,4,5|[Trojan] jpJP_5|3.3MB/s
+- name: 4,5|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 21508
@@ -8,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 3,4|[Trojan] 日本2|@ripaojiedian
+- name: 4,5|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 4937
@@ -16,7 +15,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 3,4|[Trojan] 日本3|@ripaojiedian
+- name: 4,5|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 2001
@@ -25,13 +24,51 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 5|[VLESS] jpJP_1|1.8MB/s
+  name: 6|[VLESS] jpJP_1|3.5MB/s
   network: ws
   port: 443
-  server: 162.159.44.142
+  server: 172.64.229.85
   servername: r.icy.de5.net
   tls: true
   type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 6|[Trojan] jpJP_2|3.7MB/s
+  network: tcp
+  password: IL37892054
+  port: 443
+  server: fleet-bonefish.rooster465.autos
+  skip-cert-verify: true
+  sni: fleet-bonefish.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  name: 6|[Trojan] jpJP_3|3.3MB/s
+  network: tcp
+  password: IL37892054
+  port: 443
+  server: on-airedale.rooster465.autos
+  skip-cert-verify: true
+  sni: on-airedale.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  name: 6|[VLESS] jpJP_4|2.7MB/s
+  network: ws
+  port: 443
+  server: 162.159.38.78
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  udp: true
   uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
@@ -40,53 +77,26 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  name: 5|[VLESS] jpJP_2|1.6MB/s
-  network: ws
+  name: 6|[Trojan] jpJP_5|3.1MB/s
+  network: tcp
+  password: IL37892054
   port: 443
-  server: 162.159.45.232
-  servername: r.icy.de5.net
-  tls: true
-  type: vless
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: r.icy.de5.net
-    max-early-data: 2560
-    path: /
-- name: 5|[Anytls] jpJP_4|4.6MB/s
-  password: d150ba57-67b9-4eae-b18f-0e956ee9c075
-  port: 45612
-  server: 43.206.253.86
+  server: close-wasp.rooster465.autos
   skip-cert-verify: true
-  type: anytls
+  sni: close-wasp.rooster465.autos
+  type: trojan
   udp: true
-- name: 5|[Http] jpJP_6|2.0MB/s
-  password: 2ec58858-976b-11ea-82ef-f23c9164ca5d
-  port: 27233
-  server: 28017045-t9zts0-tahh2s-tng5.cm4.oshuawei.com
-  sni: 28017045-t9zts0-tahh2s-tng5.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: 2ec58858-976b-11ea-82ef-f23c9164ca5d
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: 5|[Vmess] jpJP_7|2.3MB/s
-  network: ws
-  port: 16617
-  server: planb.mojcn.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- client-fingerprint: chrome
+  name: 6|[Trojan] jpJP_6|3.8MB/s
+  network: tcp
+  password: IL37892054
+  port: 443
+  server: sharp-dogfish.rooster465.autos
+  skip-cert-verify: true
+  sni: sharp-dogfish.rooster465.autos
+  type: trojan
   udp: true
-  uuid: 4b4cf9ae-386e-4c7e-940c-02321bb3064a
-  ws-opts:
-    headers:
-      Host: 260f93620c1dac01c833d8d3e2918d81.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- name: 8|[VLESS] JP_speednode_0021
+- name: 9|[VLESS] JP_speednode_0021
   network: ws
   port: 443
   server: 188.253.23.98

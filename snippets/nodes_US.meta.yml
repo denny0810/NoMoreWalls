@@ -1,5 +1,5 @@
 proxies:
-- name: 3,4|[Trojan] 美国|@ripaojiedian
+- name: 4,5|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 3057
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 3,4|[Trojan] 美国2|@ripaojiedian
+- name: 4,5|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 4019
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 3,4|[Trojan] 美国3|@ripaojiedian
+- name: 4,5|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 8401
@@ -23,120 +23,74 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: 5|[VLESS] usUS_1|2.8MB/s
-  network: ws
-  port: 443
-  server: 104.18.40.56
-  servername: r.icy.de5.net
-  tls: true
-  type: vless
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: r.icy.de5.net
-    max-early-data: 2560
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 5|[SS] usUS_2|1.9MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-  port: 2377
-  server: 88.210.36.108
-  type: ss
-  udp: true
 - alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 5|[VLESS] usUS_3|1.3MB/s
+  - ''
+  alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: 6|[Vmess] usUS_1|2.5MB/s
   network: ws
-  port: 2053
-  server: 154.92.9.157
-  servername: snippet.danfeng.ee.cd
-  tls: true
-  type: vless
+  port: 52513
+  server: aflzzul.meiquankongjian.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
   ws-opts:
     headers:
-      Host: snippet.danfeng.ee.cd
-    path: /danfeng
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 5|[VLESS] usUS_4|1005KB/s
-  network: ws
-  port: 443
-  server: 192.0.63.162
-  servername: snippet.danfeng.casacam.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.casacam.net
-    path: /danfeng
-- client-fingerprint: chrome
-  delay: 1066
-  name: 5|[Trojan] usUS_5|2.1MB/s
-  network: ws
-  password: trojan
-  port: 7071
-  server: 154.17.234.78
+      Host: aflzzul.meiquankongjian.com
+    path: /564dfa20/
+  xudp: true
+- allowInsecure: '1'
+  alpn:
+  - h2
+  name: 6,7|[Anytls] zaZA²_1|5.3MB/s|0%|GPT⁺|YT-CN|...
+  password: dongtaiwang.com
+  port: 59901
+  server: 45.221.98.14
   skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 5|[VLESS] usUS_6|1.8MB/s
-  network: ws
-  port: 37563
-  server: 154.9.242.79
-  servername: snippet.danfeng.casacam.net
+  sni: 45.221.98.14
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] usUS_3|2.4MB/s
+  network: tcp
+  port: 19001
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    short-id: '!!str '
+  server: malaysia01.jumperservice.com
+  servername: www.speedtest.net
   tls: true
   type: vless
   udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.casacam.net
-    path: /danfeng
+  uuid: d13545be-5c06-4283-cdf3-a364201bf9fb
+  xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: 5|[VLESS] usUS_7|2.1MB/s
-  network: ws
-  port: 80
-  server: 172.67.164.139
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] usUS_4|2.1MB/s
+  network: tcp
+  port: 19001
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    short-id: '!!str '
+  server: malaysia01.jumperservice.com
+  servername: www.speedtest.net
+  tls: true
   type: vless
   udp: true
-  uuid: 60c4d55d-bee3-4719-9568-aabf45153f9f
-  ws-opts:
-    headers:
-      Host: nj89.0f0.ccwu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /gPvZ4oCcNDyuc3szX7xhuvpEm
+  uuid: e675787a-48db-45f9-9902-13b1b941446c
   xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 6|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
+  name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.251
   type: ss
-- name: 6|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
+- name: 7|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
   password: ''
   port: 7070
   server: 20.83.154.79
@@ -145,7 +99,7 @@ proxies:
   username: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 8|[VLESS] US_speednode_0041
+  name: 9|[VLESS] US_speednode_0041
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -157,7 +111,7 @@ proxies:
   type: vless
   udp: true
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- name: 8|[Trojan] US_speednode_0042
+- name: 9|[Trojan] US_speednode_0042
   network: ws
   password: iwangjie
   port: 15805
@@ -170,7 +124,7 @@ proxies:
     headers:
       Host: nodes.830901.xyz
     path: /
-- name: 8|[Trojan] US_speednode_0043
+- name: 9|[Trojan] US_speednode_0043
   network: ws
   password: Aimer
   port: 2053
@@ -183,7 +137,7 @@ proxies:
     headers:
       Host: epge.muarua.filegear-sg.me
     path: /
-- name: 8|[Trojan] US_speednode_0044
+- name: 9|[Trojan] US_speednode_0044
   network: ws
   password: Aimer
   port: 2053
@@ -197,7 +151,7 @@ proxies:
       Host: epge.muarua.filegear-sg.me
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 8|[VLESS] US_speednode_0045
+  name: 9|[VLESS] US_speednode_0045
   port: 18959
   reality-opts:
     public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
@@ -209,7 +163,7 @@ proxies:
   type: vless
   udp: true
   uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
-- name: 8|[VLESS] US_speednode_0046
+- name: 9|[VLESS] US_speednode_0046
   network: ws
   port: 443
   server: 68.64.179.243
@@ -223,7 +177,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
-- name: 8|[VLESS] US_speednode_0047
+- name: 9|[VLESS] US_speednode_0047
   network: ws
   port: 443
   server: 68.64.179.96
@@ -237,7 +191,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
-- name: 8|[VLESS] US_speednode_0048
+- name: 9|[VLESS] US_speednode_0048
   network: ws
   port: 444
   server: 206.245.157.134
@@ -254,7 +208,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 8|[VLESS] US_speednode_0049
+  name: 9|[VLESS] US_speednode_0049
   network: ws
   port: 443
   server: 192.0.54.250
@@ -271,7 +225,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 8|[VLESS] US_speednode_0050
+  name: 9|[VLESS] US_speednode_0050
   network: ws
   port: 7000
   server: 23.137.255.63
@@ -288,7 +242,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 8|[VLESS] US_speednode_0051
+  name: 9|[VLESS] US_speednode_0051
   network: ws
   port: 443
   server: 192.0.54.130
@@ -305,7 +259,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 8|[VLESS] US_speednode_0052
+  name: 9|[VLESS] US_speednode_0052
   network: ws
   port: 443
   server: 192.0.63.76
@@ -320,7 +274,7 @@ proxies:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng
 - client-fingerprint: safari
-  name: 8|[VLESS] US_speednode_0053
+  name: 9|[VLESS] US_speednode_0053
   network: ws
   port: 443
   server: 63.141.128.188
@@ -336,7 +290,7 @@ proxies:
     path: /djjc/jp1
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 8|[VLESS] US_speednode_0054
+  name: 9|[VLESS] US_speednode_0054
   port: 19001
   reality-opts:
     public-key: IiuIighvDsor2v-vb5s3IJbNiqwLw568auiqoXxc7FM
@@ -349,7 +303,7 @@ proxies:
   uuid: b5be8e3f-a17d-479c-ebdb-9c3265c2cab7
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 8|[VLESS] US_speednode_0055
+  name: 9|[VLESS] US_speednode_0055
   port: 19001
   reality-opts:
     public-key: IiuIighvDsor2v-vb5s3IJbNiqwLw568auiqoXxc7FM
@@ -360,7 +314,7 @@ proxies:
   type: vless
   udp: true
   uuid: 719b17cb-004b-4029-b3fb-e98fafdb0271
-- name: 8|[VLESS] US_speednode_0056
+- name: 9|[VLESS] US_speednode_0056
   network: ws
   port: 30001
   server: 144.31.75.246
@@ -374,7 +328,7 @@ proxies:
     headers:
       Host: sub.mot.ip-ddns.com
     path: /
-- name: 8|[VLESS] US_speednode_0057
+- name: 9|[VLESS] US_speednode_0057
   network: ws
   port: 443
   server: 192.0.63.49
@@ -388,7 +342,7 @@ proxies:
     headers:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
-- name: 8|[VLESS] US_speednode_0058
+- name: 9|[VLESS] US_speednode_0058
   network: ws
   port: 443
   server: 192.0.63.216
@@ -402,7 +356,7 @@ proxies:
     headers:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng
-- name: 8|[VLESS] US_speednode_0059
+- name: 9|[VLESS] US_speednode_0059
   network: ws
   port: 443
   server: 192.0.63.115
@@ -416,7 +370,7 @@ proxies:
     headers:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
-- name: 8|[VLESS] US_speednode_0060
+- name: 9|[VLESS] US_speednode_0060
   network: ws
   port: 443
   server: 192.0.63.216
@@ -430,7 +384,7 @@ proxies:
     headers:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
-- name: 8|[VLESS] US_speednode_0061
+- name: 9|[VLESS] US_speednode_0061
   network: ws
   port: 443
   server: 192.0.63.76
@@ -444,7 +398,7 @@ proxies:
     headers:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
-- name: 8|[VLESS] US_speednode_0062
+- name: 9|[VLESS] US_speednode_0062
   network: ws
   port: 443
   server: 192.0.54.250
@@ -459,7 +413,7 @@ proxies:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
 - client-fingerprint: ios
-  name: 8|[VLESS] US_speednode_0063
+  name: 9|[VLESS] US_speednode_0063
   network: ws
   port: 443
   server: 63.141.128.188

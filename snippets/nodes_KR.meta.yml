@@ -2,27 +2,64 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 5|[VLESS] krKR_1|1.2MB/s
+  name: 6|[VLESS] krKR_1|1.0MB/s
   network: ws
-  port: 18979
-  server: 14.52.191.85
-  servername: snippet.danfeng.gv.uy
+  port: 26520
+  server: 118.37.71.145
+  servername: danfeng.sylu.cc
   tls: true
   type: vless
   udp: true
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
     headers:
-      Host: snippet.danfeng.gv.uy
+      Host: danfeng.sylu.cc
     path: /danfeng
-- name: 6,8|[Socks5] KR_speednode_0022
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 6|[VLESS] krKR_2|2.0MB/s
+  network: ws
+  port: 20150
+  server: 211.216.185.56
+  servername: dd4973b2.lfree.cn.mt
+  tls: true
+  type: vless
+  udp: true
+  uuid: 69b73277-99ed-6b7f-f52b-79b98093e7ae
+  ws-opts:
+    headers:
+      Host: dd4973b2.lfree.cn.mt
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] krKR_3|1.4MB/s
+  network: ws
+  port: 36666
+  server: 146.56.108.27
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Chrome/12.0.742.100 Safari/534.30
+    path: /Telegram🇨🇳@WangCai2
+  xudp: true
+- name: 7,9|[Socks5] KR_speednode_0022
   port: 1090
   server: 121.169.46.116
   tls: false
   type: socks5
   udp: true
   username: T2clM0QlM0Q6
-- name: 8|[VLESS] KR_speednode_0023
+- name: 9|[VLESS] KR_speednode_0023
   network: ws
   port: 10973
   server: 119.195.168.105
@@ -36,7 +73,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
-- name: 8|[VLESS] KR_speednode_0024
+- name: 9|[VLESS] KR_speednode_0024
   network: ws
   port: 8443
   server: 59.3.3.161
@@ -50,7 +87,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳+@WangCai2
-- name: 8|[VLESS] KR_speednode_0025
+- name: 9|[VLESS] KR_speednode_0025
   network: ws
   port: 8443
   server: 59.3.3.161
@@ -64,7 +101,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
-- name: 8|[VLESS] KR_speednode_0026
+- name: 9|[VLESS] KR_speednode_0026
   network: ws
   port: 22410
   server: 211.48.77.114

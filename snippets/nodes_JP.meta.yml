@@ -1,5 +1,5 @@
 proxies:
-- name: 4,5|[Trojan] 日本|@ripaojiedian
+- name: 5,6|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 21508
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 4,5|[Trojan] 日本2|@ripaojiedian
+- name: 5,6|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 4937
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 日本3|@ripaojiedian
+- name: 5,6|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 2001
@@ -24,7 +24,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 6|[VLESS] jpJP_1|3.5MB/s
+  name: 7|[VLESS] jpJP_1|3.5MB/s
   network: ws
   port: 443
   server: 172.64.229.85
@@ -43,7 +43,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: 6|[Trojan] jpJP_2|3.7MB/s
+  name: 7|[Trojan] jpJP_2|3.7MB/s
   network: tcp
   password: IL37892054
   port: 443
@@ -52,7 +52,7 @@ proxies:
   sni: fleet-bonefish.rooster465.autos
   type: trojan
 - client-fingerprint: chrome
-  name: 6|[Trojan] jpJP_3|3.3MB/s
+  name: 7|[Trojan] jpJP_3|3.3MB/s
   network: tcp
   password: IL37892054
   port: 443
@@ -61,7 +61,7 @@ proxies:
   sni: on-airedale.rooster465.autos
   type: trojan
 - client-fingerprint: chrome
-  name: 6|[VLESS] jpJP_4|2.7MB/s
+  name: 7|[VLESS] jpJP_4|2.7MB/s
   network: ws
   port: 443
   server: 162.159.38.78
@@ -77,7 +77,7 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  name: 6|[Trojan] jpJP_5|3.1MB/s
+  name: 7|[Trojan] jpJP_5|3.1MB/s
   network: tcp
   password: IL37892054
   port: 443
@@ -87,7 +87,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 6|[Trojan] jpJP_6|3.8MB/s
+  name: 7|[Trojan] jpJP_6|3.8MB/s
   network: tcp
   password: IL37892054
   port: 443
@@ -96,17 +96,30 @@ proxies:
   sni: sharp-dogfish.rooster465.autos
   type: trojan
   udp: true
-- name: 9|[VLESS] JP_speednode_0021
+- name: 10|[VLESS] JP_speednode_0009
   network: ws
   port: 443
-  server: 188.253.23.98
-  servername: kuangbao.xiejiang.dpdns.org
+  server: 138.2.62.8
+  servername: ylnhh.cc.cd
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   ws-opts:
     headers:
-      Host: kuangbao.xiejiang.dpdns.org
-    path: /?ed=2560
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  name: 10|[VLESS] JP_speednode_0010
+  port: 45863
+  reality-opts:
+    public-key: LV-5v6aj0hx9D6wn8rFr3R86dcHtvumamPYvyfIzGRw
+    short-id: '!!str 23a6bb69'
+  server: 167.88.185.116
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4dd53a07-5457-4a5a-8242-a9dd98221246

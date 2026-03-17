@@ -2,7 +2,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 6|[VLESS] krKR_1|1.0MB/s
+  name: 7|[VLESS] krKR_1|1.0MB/s
   network: ws
   port: 26520
   server: 118.37.71.145
@@ -18,7 +18,7 @@ proxies:
 - alpn:
   - h3
   client-fingerprint: random
-  name: 6|[VLESS] krKR_2|2.0MB/s
+  name: 7|[VLESS] krKR_2|2.0MB/s
   network: ws
   port: 20150
   server: 211.216.185.56
@@ -36,7 +36,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 6|[VLESS] krKR_3|1.4MB/s
+  name: 7|[VLESS] krKR_3|1.4MB/s
   network: ws
   port: 36666
   server: 146.56.108.27
@@ -52,17 +52,29 @@ proxies:
         Chrome/12.0.742.100 Safari/534.30
     path: /Telegram🇨🇳@WangCai2
   xudp: true
-- name: 7,9|[Socks5] KR_speednode_0022
+- name: 8|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
   port: 1090
   server: 121.169.46.116
   tls: false
   type: socks5
-  udp: true
   username: T2clM0QlM0Q6
-- name: 9|[VLESS] KR_speednode_0023
+- name: 10|[Trojan] KR_speednode_0011
   network: ws
-  port: 10973
-  server: 119.195.168.105
+  password: trojan
+  port: 11434
+  server: 114.207.99.233
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
+- name: 10|[VLESS] KR_speednode_0012
+  network: ws
+  port: 23297
+  server: 112.167.47.83
   servername: ylnhh.cc.cd
   skip-cert-verify: false
   tls: true
@@ -73,37 +85,9 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
-- name: 9|[VLESS] KR_speednode_0024
+- name: 10|[VLESS] KR_speednode_0013
   network: ws
-  port: 8443
-  server: 59.3.3.161
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳+@WangCai2
-- name: 9|[VLESS] KR_speednode_0025
-  network: ws
-  port: 8443
-  server: 59.3.3.161
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
-- name: 9|[VLESS] KR_speednode_0026
-  network: ws
-  port: 22410
+  port: 11265
   server: 211.48.77.114
   servername: ylnhh.cc.cd
   skip-cert-verify: false
@@ -114,4 +98,21 @@ proxies:
   ws-opts:
     headers:
       Host: ylnhh.cc.cd
-    path: /
+    path: /Telegram🇨🇳@WangCai2
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 10|[VLESS] KR_speednode_0014
+  network: ws
+  port: 12473
+  server: 222.113.144.175
+  servername: chinam.sylu.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: chinam.sylu.net
+    path: /danfeng

@@ -1,57 +1,35 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 7|[VLESS] krKR_1|1.0MB/s
+- client-fingerprint: chrome
+  name: 7|[VLESS] krKR_1|1.1MB/s
   network: ws
-  port: 26520
-  server: 118.37.71.145
-  servername: danfeng.sylu.cc
+  port: 26257
+  server: 211.228.64.93
+  servername: snippet.danfeng.kozow.com
   tls: true
   type: vless
   udp: true
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: danfeng.sylu.cc
+      Host: snippet.danfeng.kozow.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.111 Safari/537.36
+    max-early-data: 2560
     path: /danfeng
-- alpn:
-  - h3
-  client-fingerprint: random
-  name: 7|[VLESS] krKR_2|2.0MB/s
-  network: ws
-  port: 20150
-  server: 211.216.185.56
-  servername: dd4973b2.lfree.cn.mt
-  tls: true
-  type: vless
-  udp: true
-  uuid: 69b73277-99ed-6b7f-f52b-79b98093e7ae
-  ws-opts:
-    headers:
-      Host: dd4973b2.lfree.cn.mt
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] krKR_3|1.4MB/s
-  network: ws
-  port: 36666
-  server: 146.56.108.27
-  servername: ylnhh.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Chrome/12.0.742.100 Safari/534.30
-    path: /Telegram🇨🇳@WangCai2
-  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 7|[Hysteria2] krKR_2|2.5MB/s
+  obfs: ''
+  obfs-password: ''
+  password: fe0fda62-79ff-467e-bef4-983322c1d21b
+  port: 56309
+  server: kr.ccwink.cc
+  skip-cert-verify: true
+  sni: kr.ccwink.cc
+  type: hysteria2
+  up: ''
 - name: 8|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
   port: 1090
   server: 121.169.46.116

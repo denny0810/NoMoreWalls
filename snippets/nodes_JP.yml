@@ -23,41 +23,20 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: 7|[Trojan] jpJP_2|3.7MB/s
-  network: tcp
-  password: IL37892054
-  port: 443
-  server: fleet-bonefish.rooster465.autos
-  skip-cert-verify: true
-  sni: fleet-bonefish.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 7|[Trojan] jpJP_3|3.3MB/s
-  network: tcp
-  password: IL37892054
-  port: 443
-  server: on-airedale.rooster465.autos
-  skip-cert-verify: true
-  sni: on-airedale.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 7|[Trojan] jpJP_5|3.1MB/s
-  network: tcp
-  password: IL37892054
-  port: 443
-  server: close-wasp.rooster465.autos
-  skip-cert-verify: true
-  sni: close-wasp.rooster465.autos
-  type: trojan
+- alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: 7|[Vmess] jpJP_6|3.2MB/s
+  network: ws
+  port: 16617
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- client-fingerprint: chrome
-  name: 7|[Trojan] jpJP_6|3.8MB/s
-  network: tcp
-  password: IL37892054
-  port: 443
-  server: sharp-dogfish.rooster465.autos
-  skip-cert-verify: true
-  sni: sharp-dogfish.rooster465.autos
-  type: trojan
-  udp: true
+  uuid: 9e83a537-1ce5-4bc8-aeca-c5df66febcb4
+  ws-opts:
+    headers:
+      Host: eaa345f1c00a3c951d60cf487909a2cb.mobgslb.tbcache.com
+    path: /
+  xudp: true

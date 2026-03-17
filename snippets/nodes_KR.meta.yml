@@ -1,80 +1,28 @@
 proxies:
-- client-fingerprint: chrome
-  name: 6|[VLESS] krKR_1|1.2MB/s
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 7|[VLESS] krKR_1|1.2MB/s
   network: ws
-  port: 50001
-  server: 121.178.121.161
-  servername: snippet.danfeng.kozow.com
+  port: 18979
+  server: 14.52.191.85
+  servername: snippet.danfeng.gv.uy
   tls: true
   type: vless
   udp: true
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: snippet.danfeng.kozow.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.71 Safari/537.36
-    max-early-data: 2560
+      Host: snippet.danfeng.gv.uy
     path: /danfeng
-  xudp: true
-- client-fingerprint: chrome
-  name: 6|[VLESS] krKR_2|1.2MB/s
-  network: ws
-  port: 30303
-  server: 220.65.73.2
-  servername: danfeng.sylu.cc
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: danfeng.sylu.cc
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  name: 6|[VLESS] krKR_3|3.2MB/s
-  network: ws
-  port: 26257
-  server: 211.228.64.93
-  servername: snippet.danfeng.kozow.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng.kozow.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.111 Safari/537.36
-    max-early-data: 2560
-    path: /danfeng
-  xudp: true
-- client-fingerprint: chrome
-  name: 6|[VLESS] krKR_4|2.1MB/s
-  network: ws
-  port: 10911
-  server: 118.139.224.150
-  servername: danfeng.sylu.cc
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: danfeng.sylu.cc
-    max-early-data: 2560
-    path: /danfeng
-- name: 7,9|[Socks5] KR_speednode_0022
+- name: 8,10|[Socks5] KR_speednode_0022
   port: 1090
   server: 121.169.46.116
   tls: false
   type: socks5
   udp: true
   username: T2clM0QlM0Q6
-- name: 9|[VLESS] KR_speednode_0023
+- name: 10|[VLESS] KR_speednode_0023
   network: ws
   port: 10973
   server: 119.195.168.105
@@ -88,7 +36,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
-- name: 9|[VLESS] KR_speednode_0024
+- name: 10|[VLESS] KR_speednode_0024
   network: ws
   port: 8443
   server: 59.3.3.161
@@ -102,7 +50,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳+@WangCai2
-- name: 9|[VLESS] KR_speednode_0025
+- name: 10|[VLESS] KR_speednode_0025
   network: ws
   port: 8443
   server: 59.3.3.161
@@ -116,7 +64,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
-- name: 9|[VLESS] KR_speednode_0026
+- name: 10|[VLESS] KR_speednode_0026
   network: ws
   port: 22410
   server: 211.48.77.114

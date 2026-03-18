@@ -3,55 +3,41 @@ proxies:
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 3057
-  server: 160.16.72.33
+  server: 160.16.106.99
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 5,6|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 4019
-  server: 160.16.70.180
+  port: 4920
+  server: 13.231.19.155
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 5,6|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 8401
-  server: 16.163.155.36
+  port: 37223
+  server: 43.207.164.92
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 7|[Vmess] usUS_1|1.5MB/s
-  network: ws
-  port: 16648
-  server: m.cnmjin.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 0bc2e282-126d-4519-8cb8-ade27c35bd46
-  ws-opts:
-    headers:
-      Host: 36fcadc98196aae7004669b1c147cc95.mobgslb.tbcache.com
-    path: /
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: 7vMsF4VUu8UUW956ZWMrlIrw
+- client-fingerprint: chrome
   name: 7|[Trojan] usUS_3|2.5MB/s
-  network: grpc
-  password: 2bfded8d-6a7c-4c18-aaa5-fc65b955d50c
-  port: 443
-  server: gggbnhj.10o.ccwu.cc
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
   skip-cert-verify: false
-  sni: gggbnhj.10o.ccwu.cc
+  sni: epge.muarua.filegear-sg.me
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

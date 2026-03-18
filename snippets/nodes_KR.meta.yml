@@ -1,35 +1,22 @@
 proxies:
 - client-fingerprint: chrome
-  name: 7|[VLESS] krKR_1|1.1MB/s
+  encryption: none
+  name: 7|[VLESS] krKR_1|2.1MB/s
   network: ws
-  port: 26257
-  server: 211.228.64.93
-  servername: snippet.danfeng.kozow.com
+  port: 10554
+  server: 182.31.252.120
+  servername: snippet.fgfw.ndjp.net
   tls: true
   type: vless
   udp: true
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: snippet.danfeng.kozow.com
+      Host: snippet.fgfw.ndjp.net
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.111 Safari/537.36
-    max-early-data: 2560
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
     path: /danfeng
   xudp: true
-- down: ''
-  fingerprint: ''
-  name: 7|[Hysteria2] krKR_2|2.5MB/s
-  obfs: ''
-  obfs-password: ''
-  password: fe0fda62-79ff-467e-bef4-983322c1d21b
-  port: 56309
-  server: kr.ccwink.cc
-  skip-cert-verify: true
-  sni: kr.ccwink.cc
-  type: hysteria2
-  up: ''
 - name: 8|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
   port: 1090
   server: 121.169.46.116

@@ -3,106 +3,144 @@ proxies:
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 3057
-  server: 160.16.72.33
+  server: 160.16.106.99
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 5,6|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 4019
-  server: 160.16.70.180
+  port: 4920
+  server: 13.231.19.155
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 5,6|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 8401
-  server: 16.163.155.36
+  port: 37223
+  server: 43.207.164.92
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 7|[Vmess] usUS_1|1.5MB/s
-  network: ws
-  port: 16648
-  server: m.cnmjin.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 0bc2e282-126d-4519-8cb8-ade27c35bd46
-  ws-opts:
-    headers:
-      Host: 36fcadc98196aae7004669b1c147cc95.mobgslb.tbcache.com
-    path: /
 - client-fingerprint: chrome
-  name: 7|[VLESS] usUS_2|1.6MB/s
+  name: 7|[VLESS] usUS_1|1.2MB/s
   network: ws
-  port: 12281
-  server: 118.42.204.220
-  servername: ylnhh.cc.cd
+  port: 443
+  server: 192.0.63.56
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: 7vMsF4VUu8UUW956ZWMrlIrw
-  name: 7|[Trojan] usUS_3|2.5MB/s
-  network: grpc
-  password: 2bfded8d-6a7c-4c18-aaa5-fc65b955d50c
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: 7|[VLESS] usUS_2|1007KB/s
+  network: tcp
   port: 443
-  server: gggbnhj.10o.ccwu.cc
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: '!!str 2da72ce6'
+  server: 174.136.205.68
+  servername: navi.bankrate.com
+  tls: true
+  type: vless
+  uuid: 3a13fc3e-6eea-4d64-b6cd-5359f279596e
+- client-fingerprint: chrome
+  name: 7|[Trojan] usUS_3|2.5MB/s
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
   skip-cert-verify: false
-  sni: gggbnhj.10o.ccwu.cc
+  sni: epge.muarua.filegear-sg.me
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 7|[VLESS] usUS_4|1.2MB/s
-  network: ws
-  port: 443
-  server: www.investec.com
-  servername: n4slq25g4kg.chinam.eu.org
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7|[VLESS] usUS_4|1.8MB/s
+  network: tcp
+  port: 19001
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    short-id: '!!str '
+  server: malaysia01.jumperservice.com
+  servername: www.speedtest.net
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: n4slq25g4kg.chinam.eu.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2272.104 Safari/537.36
-    max-early-data: 2560
-    path: /danfeng
+  uuid: d13545be-5c06-4283-cdf3-a364201bf9fb
   xudp: true
 - client-fingerprint: chrome
-  name: 7|[VLESS] usUS_5|1.4MB/s
+  name: 7|[VLESS] usUS_5|1.5MB/s
   network: ws
   port: 443
-  server: unpkg.com
-  servername: n4slq25g4kg.chinam.eu.org
+  server: 104.17.28.89
+  servername: r.icy.de5.net
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: n4slq25g4kg.chinam.eu.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/53.0.2785.143 Safari/537.36
+      Host: r.icy.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
     max-early-data: 2560
-    path: /danfeng
+    path: /
   xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7|[VLESS] usUS_6|2.3MB/s
+  network: tcp
+  port: 14159
+  reality-opts:
+    public-key: csHT_eLH0xSFUjQ7C1_PkE7s2uWqW67fU_J_S6blDjA
+    short-id: '!!str a5cf'
+  server: us-east-2.vpnd.io
+  servername: amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 50424c5b-de6c-4d2e-980c-74114761bfd3
+  xudp: true
+- client-fingerprint: chrome
+  name: 7|[VLESS] usUS_7|3.0MB/s
+  network: ws
+  port: 443
+  server: 104.19.85.38
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

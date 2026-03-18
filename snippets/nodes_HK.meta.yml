@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 5|[Vmess] hk 香港|@ripaojiedian
+  name: 4|[Vmess] hk 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -10,14 +10,14 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 5|[Vmess] hk 香港2|@ripaojiedian
+  name: 4|[Vmess] hk 香港2|@ripaojiedian
   port: 6001
   server: cn01.365cloud8754.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
-- name: 5,6|[Trojan] 香港3|@ripaojiedian
+- name: 4,5|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 19256
@@ -25,7 +25,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 香港4|@ripaojiedian
+- name: 4,5|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
@@ -33,7 +33,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 5,6|[Trojan] 香港5|@ripaojiedian
+- name: 4,5|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 921
@@ -43,7 +43,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 6|[Vmess] 香港|@ripaojiedian
+  name: 5|[Vmess] 香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -53,7 +53,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: aes-128-gcm
-  name: 6|[Vmess] 香港2|@ripaojiedian
+  name: 5|[Vmess] 香港2|@ripaojiedian
   network: tcp
   port: '6001'
   server: cn01.365cloud8754.com
@@ -64,7 +64,7 @@ proxies:
 - alterId: '0'
   cipher: auto
   client-fingerprint: chrome
-  name: 7|[Vmess] hkHK_1|2.5MB/s
+  name: 6|[Vmess] hkHK_1|2.5MB/s
   network: ws
   port: 16632
   server: planb.mojcn.com
@@ -81,7 +81,7 @@ proxies:
 - alterId: '0'
   cipher: auto
   client-fingerprint: chrome
-  name: 7|[Vmess] hkHK_2|2.4MB/s
+  name: 6|[Vmess] hkHK_2|2.4MB/s
   network: ws
   port: 16622
   server: planb.mojcn.com
@@ -98,7 +98,7 @@ proxies:
 - alterId: '0'
   cipher: auto
   client-fingerprint: chrome
-  name: 7|[Vmess] hkHK_3|1.0MB/s
+  name: 6|[Vmess] hkHK_3|1.0MB/s
   network: ws
   port: 16632
   server: t.cnmjcn.cyou
@@ -112,7 +112,7 @@ proxies:
       Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
     path: /
   xudp: true
-- name: 7|[Anytls] hkHK_4|1.1MB/s
+- name: 6|[Anytls] hkHK_4|1.1MB/s
   password: 9594f8cc-da22-4504-9bcb-b8f219fe28ec
   port: 60005
   server: jpaws.ccwink.photos
@@ -120,7 +120,7 @@ proxies:
   sni: jpaws.ccwink.photos
   type: anytls
   udp: true
-- name: 7|[Anytls] hkHK_5|4.6MB/s
+- name: 6|[Anytls] hkHK_5|4.6MB/s
   password: 9594f8cc-da22-4504-9bcb-b8f219fe28ec
   port: 60006
   server: hkaws.ccwink.photos
@@ -130,7 +130,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   delay: 1472
-  name: 7|[Trojan] hkHK_6|1.6MB/s
+  name: 6|[Trojan] hkHK_6|1.6MB/s
   network: ws
   password: trojan
   port: 23456

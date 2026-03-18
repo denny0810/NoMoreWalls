@@ -139,85 +139,21 @@ proxies:
   tls: false
   type: vmess
   uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
-- name: 7|[Trojan] nlNL_1|1.2MB/s
-  network: ws
-  password: trojan
-  port: 8444
-  server: 152.53.200.167
-  skip-cert-verify: false
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /
-- name: 7|[Trojan] usUS_3|2.5MB/s
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
-  sni: epge.muarua.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
-    path: /
-- cipher: aes-256-cfb
-  name: 7|[SS] esES_1|1.4MB/s
-  password: ZET59LF6DvCC8KVt
-  port: 9005
-  server: 5.188.181.201
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] myMY_1|1.3MB/s
+  password: b02b9065-defa-495a-bef1-cd55c67dbdf6
+  port: 33339
+  server: ddnn2.whtjdasha.com
   type: ss
-- delay: 2321
-  name: 7|[Trojan] nlNL_2|2.2MB/s
-  network: ws
-  password: trojan
-  port: 82
-  server: 136.244.105.89
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
+  udp: true
+- name: 7|[Trojan] nlNL_1|1.1MB/s
+  network: tcp
+  password: IL37892054
+  port: 443
+  server: apt-magpie.rooster465.autos
+  skip-cert-verify: false
+  sni: apt-magpie.rooster465.autos
   type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- delay: 1832
-  name: 7|[Trojan] ieIE_2|1.5MB/s
-  network: ws
-  password: trojan
-  port: 8444
-  server: 194.4.51.171
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- delay: 2067
-  name: 7|[Trojan] nlNL_3|1.4MB/s
-  network: ws
-  password: trojan
-  port: 2480
-  server: 141.11.250.187
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 8|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

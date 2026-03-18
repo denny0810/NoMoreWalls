@@ -61,3 +61,28 @@ proxies:
   tls: false
   type: vmess
   uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
+- name: 7|[Anytls] hkHK_2|4.3MB/s
+  password: 9594f8cc-da22-4504-9bcb-b8f219fe28ec
+  port: 60005
+  server: hkaws.ccwink.photos
+  skip-cert-verify: true
+  sni: hkaws.ccwink.photos
+  type: anytls
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 10|[VLESS] HK_speednode_0008
+  network: ws
+  port: 3389
+  server: 203.168.131.110
+  servername: snippet.chinav.eu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.chinav.eu.cc
+    path: /danfeng

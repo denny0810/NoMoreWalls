@@ -9,19 +9,24 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 7|[VLESS] deDE_1|1.2MB/s
-  network: ws
-  port: 8085
-  server: 62.60.156.158
-  servername: sub.mot.ip-ddns.com
+- client-fingerprint: firefox
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7|[VLESS] deDE_1|1.5MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: RHUQAGJ_MYNKsZt2XO_DATEm1cQh0Rdpz83DTCGSKl0
+    short-id: '!!str 2e1971f5'
+  server: 217.198.12.6
+  servername: 0ru84.tcpdoor.net
   tls: true
   type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: sub.mot.ip-ddns.com
-    path: /
+  udp: true
+  uuid: 2563b829-866c-4c0f-8270-a91cffbfe852
+  xudp: true
 - name: 10|[VLESS] DE_speednode_0004
   network: ws
   port: 8005

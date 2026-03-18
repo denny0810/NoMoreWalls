@@ -23,57 +23,78 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: 7|[Anytls] usUS_1|3.0MB/s
+  password: fe0fda62-79ff-467e-bef4-983322c1d21b
+  port: 30002
+  server: hkaws.ccwink.photos
+  skip-cert-verify: true
+  sni: hkaws.ccwink.photos
+  type: anytls
+  udp: true
 - client-fingerprint: chrome
-  name: 7|[VLESS] usUS_1|1.2MB/s
+  name: 7|[VLESS] usUS_2|1.0MB/s
   network: ws
   port: 443
-  server: 192.0.63.56
-  servername: snippet.danfeng.kozow.com
-  skip-cert-verify: false
+  server: 104.19.58.74
+  servername: r.icy.de5.net
   tls: true
   type: vless
   udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: snippet.danfeng.kozow.com
+      Host: r.icy.de5.net
     max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 7|[VLESS] usUS_3|1.1MB/s
+  network: ws
+  port: 443
+  server: 192.0.54.216
+  servername: snippet.fgfw.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ndjp.net
     path: /danfeng
 - client-fingerprint: chrome
-  name: 7|[VLESS] usUS_2|1007KB/s
+  name: 7|[VLESS] usUS_4|2.1MB/s
+  network: ws
+  port: 80
+  server: 172.67.192.224
+  type: vless
+  udp: true
+  uuid: d5604db8-1f31-403d-a315-d8bafc70f7d2
+  ws-opts:
+    headers:
+      Host: mki.1nn.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /1Aeip9N4V6m20grcpQ8L96b
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 7|[VLESS] usUS_5|3.0MB/s
   network: tcp
   port: 443
   reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: '!!str 2da72ce6'
-  server: 174.136.205.68
-  servername: navi.bankrate.com
+    public-key: t5K7Ki14k_3usYeaV38jwpJkezNwerWYJnCSd1z7hhk
+    short-id: '!!str 0451'
+  server: testno226.2568954.xyz
+  servername: www.apple.com
   tls: true
   type: vless
-  uuid: 3a13fc3e-6eea-4d64-b6cd-5359f279596e
-- client-fingerprint: chrome
-  name: 7|[Trojan] usUS_3|2.5MB/s
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
-  sni: epge.muarua.filegear-sg.me
-  type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
-    path: /
-- client-fingerprint: firefox
+  uuid: 2f0a3a26-8384-4bbf-f91a-e41e252b30c5
+  xudp: true
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 7|[VLESS] usUS_4|1.8MB/s
+  name: 7|[VLESS] usUS_6|2.0MB/s
   network: tcp
   port: 19001
   reality-opts:
@@ -84,63 +105,8 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: d13545be-5c06-4283-cdf3-a364201bf9fb
+  uuid: e675787a-48db-45f9-9902-13b1b941446c
   xudp: true
-- client-fingerprint: chrome
-  name: 7|[VLESS] usUS_5|1.5MB/s
-  network: ws
-  port: 443
-  server: 104.17.28.89
-  servername: r.icy.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: r.icy.de5.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 7|[VLESS] usUS_6|2.3MB/s
-  network: tcp
-  port: 14159
-  reality-opts:
-    public-key: csHT_eLH0xSFUjQ7C1_PkE7s2uWqW67fU_J_S6blDjA
-    short-id: '!!str a5cf'
-  server: us-east-2.vpnd.io
-  servername: amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 50424c5b-de6c-4d2e-980c-74114761bfd3
-  xudp: true
-- client-fingerprint: chrome
-  name: 7|[VLESS] usUS_7|3.0MB/s
-  network: ws
-  port: 443
-  server: 104.19.85.38
-  servername: r.icy.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: r.icy.de5.net
-    max-early-data: 2560
-    path: /
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

@@ -24,26 +24,31 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: 6|[VLESS] sgSG_1|1.0MB/s
+  encryption: none
+  name: 6|[VLESS] sgSG_1|2.1MB/s
   network: ws
   port: 443
-  server: 104.18.41.43
+  server: 162.159.48.142
   servername: r.icy.de5.net
   tls: true
   type: vless
+  udp: true
   uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: r.icy.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
     max-early-data: 2560
     path: /
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 6|[VLESS] sgSG_2|2.1MB/s
+  name: 6|[VLESS] sgSG_2|1.2MB/s
   network: ws
   port: 443
-  server: 162.159.24.111
+  server: 104.18.40.56
   servername: r.icy.de5.net
   tls: true
   type: vless
@@ -54,57 +59,60 @@ proxies:
     headers:
       Host: r.icy.de5.net
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
+        Gecko) Chrome/48.0.2564.116 Safari/537.36
     max-early-data: 2560
     path: /
   xudp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 6|[Vmess] sgSG_3|2.6MB/s
+  network: ws
+  port: 16618
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
+  ws-opts:
+    headers:
+      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 6|[Vmess] sgSG_4|2.6MB/s
+  network: ws
+  port: 16618
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 8fe47794-bb25-446c-a1f7-7408a1d0b9c3
+  ws-opts:
+    headers:
+      Host: 7b30e34ac69c2cef7dbe9bd6e2484f6f.mobgslb.tbcache.com
+    path: /
 - client-fingerprint: chrome
-  name: 6|[VLESS] sgSG_3|2.3MB/s
+  encryption: none
+  name: 6|[VLESS] sgSG_5|2.5MB/s
   network: ws
   port: 443
-  server: 162.159.7.2
+  server: vip2.kaixincloud.top
   servername: r.icy.de5.net
   tls: true
   type: vless
+  udp: true
   uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: r.icy.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
     max-early-data: 2560
     path: /
-- client-fingerprint: chrome
-  name: 6|[VLESS] sgSG_4|2.4MB/s
-  network: ws
-  port: 443
-  server: 108.162.195.58
-  servername: r.icy.de5.net
-  tls: true
-  type: vless
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: r.icy.de5.net
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  fingerprint: ''
-  name: 6|[VLESS] sgSG_5|2.3MB/s
-  network: ws
-  port: 443
-  server: vip1.kaixincloud.top
-  servername: r.icy.de5.net
-  tls: true
-  type: vless
-  udp: false
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: r.icy.de5.net
-    max-early-data: 2560
-    path: /
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] sgSG²_1|2.4MB/s|X|History

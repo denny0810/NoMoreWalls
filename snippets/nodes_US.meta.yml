@@ -23,93 +23,9 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 6|[Anytls] usUS_1|1.6MB/s
-  password: 9594f8cc-da22-4504-9bcb-b8f219fe28ec
-  port: 30002
-  server: hkaws.ccwink.photos
-  skip-cert-verify: true
-  sni: hkaws.ccwink.photos
-  type: anytls
-  udp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 6|[Hysteria] usUS_2|1.2MB/s
-  port: 38845
-  protocol: udp
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  udp: true
-  up: 11 Mbps
-- client-fingerprint: chrome
-  name: 6|[VLESS] usUS_3|2.5MB/s
-  network: tcp
-  port: 18959
-  reality-opts:
-    public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
-    short-id: '!!str d557c6895d014075'
-  server: 157.254.223.44
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_4|1.2MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-    tls: false
-  port: 2377
-  server: 88.210.36.108
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_5|1018KB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-    tls: false
-  port: 2377
-  server: 88.210.36.106
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 6|[VLESS] usUS_6|1.9MB/s
-  network: ws
-  port: 443
-  server: 192.0.54.251
-  servername: snippet.fgfw.ndjp.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.ndjp.net
-    path: /danfeng
-- cipher: aes-256-gcm
-  name: 6|[SS] usUS_7|1.4MB/s
-  password: a2Xs6phuuHphRrYy
-  port: 5755
-  server: c32s1.portablesubmarines.com
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - client-fingerprint: chrome
   delay: 2362
-  name: 6|[Trojan] usUS_8|1.1MB/s
+  name: 6|[Trojan] usUS_1|1.3MB/s
   network: ws
   password: trojan
   port: 28080
@@ -124,32 +40,96 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  delay: 1344
-  name: 6|[Trojan] usUS_9|2.1MB/s
+  name: 6|[VLESS] usUS_2|2.1MB/s
   network: ws
-  password: trojan
-  port: 28006
-  server: 38.83.41.89
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
+  port: 2053
+  server: convera.com
+  servername: mzees9mh.danfeng.gv.uy
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: jflsjlaf.pages.dev
+      Host: mzees9mh.danfeng.gv.uy
     max-early-data: 2560
-    path: /
-- allowInsecure: '1'
-  alpn:
-  - h2
-  name: 6,7|[Anytls] zaZA²_1|5.3MB/s|0%|GPT⁺|YT-CN|...
-  password: dongtaiwang.com
-  port: 59901
-  server: 45.221.98.14
-  skip-cert-verify: true
-  sni: 45.221.98.14
-  type: anytls
+    path: /danfeng
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 6|[VLESS] usUS_3|1.7MB/s
+  network: tcp
+  port: 19001
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    short-id: '!!str '
+  server: malaysia01.jumperservice.com
+  servername: www.speedtest.net
+  tls: true
+  type: vless
   udp: true
+  uuid: e675787a-48db-45f9-9902-13b1b941446c
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 6|[VLESS] usUS_4|1.9MB/s
+  network: tcp
+  port: 19001
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    short-id: '!!str '
+  server: malaysia01.jumperservice.com
+  servername: www.speedtest.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: d13545be-5c06-4283-cdf3-a364201bf9fb
+  xudp: true
+- client-fingerprint: random
+  name: 6|[VLESS] usUS_5|1.0MB/s
+  network: ws
+  port: 22621
+  server: 69.63.201.19
+  servername: snippet.danfeng.rr.kg
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.rr.kg
+    max-early-data: 2560
+    path: /danfeng
+- allowInsecure: '1'
+  name: 6|[Anytls] usUS_6|1.2MB/s
+  password: tzjz55
+  port: 8443
+  server: 155.94.145.166
+  skip-cert-verify: true
+  type: anytls
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] usUS_7|2.5MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: t5K7Ki14k_3usYeaV38jwpJkezNwerWYJnCSd1z7hhk
+    short-id: '!!str 0451'
+  server: testno226.2568954.xyz
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f0a3a26-8384-4bbf-f91a-e41e252b30c5
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

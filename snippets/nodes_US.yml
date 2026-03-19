@@ -23,60 +23,12 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_4|1.2MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-    tls: false
-  port: 2377
-  server: 88.210.36.108
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_5|1018KB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-    tls: false
-  port: 2377
-  server: 88.210.36.106
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 6|[SS] usUS_7|1.4MB/s
-  password: a2Xs6phuuHphRrYy
-  port: 5755
-  server: c32s1.portablesubmarines.com
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - client-fingerprint: chrome
   delay: 2362
-  name: 6|[Trojan] usUS_8|1.1MB/s
+  name: 6|[Trojan] usUS_1|1.3MB/s
   network: ws
   password: trojan
   port: 28080
-  server: 38.83.41.89
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  delay: 1344
-  name: 6|[Trojan] usUS_9|2.1MB/s
-  network: ws
-  password: trojan
-  port: 28006
   server: 38.83.41.89
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev

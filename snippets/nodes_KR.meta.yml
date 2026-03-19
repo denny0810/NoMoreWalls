@@ -1,4 +1,55 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 6|[VLESS] krKR_1|1.5MB/s
+  network: tcp
+  port: 19001
+  reality-opts:
+    public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
+    short-id: '!!str '
+  server: krp01.jumperservice.com
+  servername: addons.mozilla.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6eeb820e-89ef-4b60-9060-ddcaea0580f0
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 6|[VLESS] krKR_2|1.7MB/s
+  network: ws
+  port: 15018
+  server: 61.79.126.130
+  servername: snippet.chinav.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.chinav.eu.cc
+    path: /danfeng
+- client-fingerprint: chrome
+  delay: 966
+  name: 6|[Trojan] krKR_3|1.7MB/s
+  network: ws
+  password: trojan
+  port: 11000
+  server: 220.92.22.170
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
 - name: 7|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
   port: 1090
   server: 121.169.46.116

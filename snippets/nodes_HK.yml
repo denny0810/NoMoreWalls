@@ -33,8 +33,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: 4,5,6|[Trojan] hkHK_5|1.8MB/s
+- name: 4,5|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 6313
@@ -53,16 +52,27 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 5,6|[Vmess] hkHK_3|3.0MB/s
+  cipher: aes-128-gcm
+  name: 5|[Vmess] 香港2|@ripaojiedian
   network: tcp
-  port: 6001
+  port: '6001'
   server: cn01.365cloud8754.com
   servername: ''
+  tls: false
+  type: vmess
+  uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 6|[Vmess] hkHK_1|1.4MB/s
+  network: ws
+  port: 16622
+  server: m.cnmjin.net
   skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
-  uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
-  xudp: true
+  uuid: 8fe47794-bb25-446c-a1f7-7408a1d0b9c3
+  ws-opts:
+    headers:
+      Host: 7b30e34ac69c2cef7dbe9bd6e2484f6f.mobgslb.tbcache.com
+    path: /

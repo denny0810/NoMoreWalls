@@ -1,5 +1,5 @@
 proxies:
-- name: 4,5|[Trojan] 新加坡|@ripaojiedian
+- name: 5,6|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 4674
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 新加坡2|@ripaojiedian
+- name: 5,6|[Trojan] 新加坡2|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 3419
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 新加坡3|@ripaojiedian
+- name: 5,6|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 29666
@@ -26,36 +26,39 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 6|[Vmess] sgSG_3|2.6MB/s
+  name: 7|[Vmess] sgSG_3|3.7MB/s
   network: ws
   port: 16618
   server: m.cnmjin.net
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
+  udp: true
+  uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
   ws-opts:
     headers:
-      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
+      Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
     path: /
-- alterId: 0
+- alterId: '0'
   cipher: auto
   client-fingerprint: chrome
-  name: 6|[Vmess] sgSG_4|2.6MB/s
+  name: 7|[Vmess] sgSG_5|2.1MB/s
   network: ws
   port: 16618
-  server: m.cnmjin.net
+  server: planb.mojcn.com
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 8fe47794-bb25-446c-a1f7-7408a1d0b9c3
+  udp: true
+  uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
   ws-opts:
     headers:
-      Host: 7b30e34ac69c2cef7dbe9bd6e2484f6f.mobgslb.tbcache.com
+      Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
     path: /
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  name: 7|[SS] sgSG²_1|2.4MB/s|X|History
+  name: 8|[SS] sgSG²_1|2.4MB/s|X|History
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.16

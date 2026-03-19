@@ -1,27 +1,46 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 6|[VLESS] krKR_1|1.5MB/s
-  network: tcp
-  port: 19001
-  reality-opts:
-    public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
-    short-id: '!!str '
-  server: krp01.jumperservice.com
-  servername: addons.mozilla.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6eeb820e-89ef-4b60-9060-ddcaea0580f0
-  xudp: true
+  delay: 1112
+  name: 7|[Trojan] krKR_1|1.4MB/s
+  network: ws
+  password: trojan
+  port: 10003
+  server: 221.146.116.77
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 938
+  name: 7|[Trojan] krKR_2|2.5MB/s
+  network: ws
+  password: trojan
+  port: 11434
+  server: 118.35.208.37
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- name: 8|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
+  port: 1090
+  server: 121.169.46.116
+  tls: false
+  type: socks5
+  username: T2clM0QlM0Q6
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 6,9|[VLESS] KR_speednode_0023
+  name: 10|[VLESS] KR_speednode_0023
   network: ws
   port: 15018
   server: 61.79.126.130
@@ -35,9 +54,7 @@ proxies:
     headers:
       Host: snippet.chinav.eu.cc
     path: /danfeng
-- client-fingerprint: chrome
-  delay: 966
-  name: 6,9|[Trojan] KR_speednode_0024
+- name: 10|[Trojan] KR_speednode_0024
   network: ws
   password: trojan
   port: 11000
@@ -50,16 +67,10 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
-- name: 7|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
-  port: 1090
-  server: 121.169.46.116
-  tls: false
-  type: socks5
-  username: T2clM0QlM0Q6
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 9|[VLESS] KR_speednode_0025
+  name: 10|[VLESS] KR_speednode_0025
   network: ws
   port: 12345
   server: 121.174.43.148

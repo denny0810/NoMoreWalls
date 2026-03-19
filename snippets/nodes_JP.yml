@@ -1,5 +1,5 @@
 proxies:
-- name: 4,5|[Trojan] 日本|@ripaojiedian
+- name: 5,6|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 3022
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 4,5|[Trojan] 日本2|@ripaojiedian
+- name: 5,6|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 4937
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 日本3|@ripaojiedian
+- name: 5,6|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 2001
@@ -26,11 +26,16 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 6|[Vmess] jpJP_2|1.0MB/s
-  network: tcp
-  port: 5755
-  server: c32s4.portablesubmarines.com
+  name: 7|[Vmess] jpJP_1|3.6MB/s
+  network: ws
+  port: 16617
+  server: m.cnmjin.net
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 70181e68-9ec6-4007-837e-86b28746c2dc
+  udp: true
+  uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
+  ws-opts:
+    headers:
+      Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
+    path: /

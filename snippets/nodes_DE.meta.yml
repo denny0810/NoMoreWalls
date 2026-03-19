@@ -10,28 +10,34 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 6|[VLESS] deDE_1|2.3MB/s
+  delay: 2230
+  name: 6|[Trojan] deDE_1|1.0MB/s
   network: ws
-  port: 8005
-  server: 45.145.42.170
-  servername: sub.mot.ip-ddns.com
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
+  password: trojan
+  port: 8444
+  server: 38.180.48.182
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: sub.mot.ip-ddns.com
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  name: 6|[VLESS] deDE_2|2.5MB/s
+  delay: 1755
+  name: 6|[Trojan] deDE_2|1.4MB/s
   network: ws
-  port: 8085
-  server: 62.60.156.158
-  servername: sub.mot.ip-ddns.com
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
+  password: trojan
+  port: 2525
+  server: 46.62.132.84
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: sub.mot.ip-ddns.com
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
     path: /

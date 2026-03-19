@@ -21,11 +21,12 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 6|[VLESS] krKR_2|1.7MB/s
+  name: 6,9|[VLESS] KR_speednode_0023
   network: ws
   port: 15018
   server: 61.79.126.130
   servername: snippet.chinav.eu.cc
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -36,7 +37,7 @@ proxies:
     path: /danfeng
 - client-fingerprint: chrome
   delay: 966
-  name: 6|[Trojan] krKR_3|1.7MB/s
+  name: 6,9|[Trojan] KR_speednode_0024
   network: ws
   password: trojan
   port: 11000
@@ -44,11 +45,10 @@ proxies:
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
+  udp: true
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: jflsjlaf.pages.dev
-    max-early-data: 2560
     path: /
 - name: 7|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
   port: 1090
@@ -56,3 +56,20 @@ proxies:
   tls: false
   type: socks5
   username: T2clM0QlM0Q6
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 9|[VLESS] KR_speednode_0025
+  network: ws
+  port: 12345
+  server: 121.174.43.148
+  servername: snippet.chinat.eu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.chinat.eu.cc
+    path: /danfeng

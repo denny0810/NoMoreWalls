@@ -145,55 +145,43 @@ proxies:
   tls: false
   type: vmess
   uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
-- name: 7|[Trojan] luLU_1|1.4MB/s
+- name: 7|[Trojan] twTW_1|1004KB/s
   network: tcp
   password: 3ac6a6ca99f74941b1eaf892818e2ddb
   port: 443
-  server: 45.12.144.61
+  server: 220.130.75.219
   skip-cert-verify: true
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 7|[SS] usUS_1|1.1MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-  port: 2377
-  server: 23.247.137.68
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|[SS] usUS_2|1.0MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-  port: 2377
-  server: 23.247.137.73
-  type: ss
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: randomized
-  name: 7|[Trojan] usUS_6|1.5MB/s
+- delay: 1112
+  name: 7|[Trojan] krKR_1|1.3MB/s
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: koma-yt.pages.dev
-  skip-cert-verify: false
-  sni: Koma-YT.PAGeS.Dev
+  password: trojan
+  port: 10003
+  server: 221.146.116.77
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
   type: trojan
-  udp: true
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      Host: jflsjlaf.pages.dev
     max-early-data: 2560
-    path: /tro8sFW1S91B6sZrM1
+    path: /
+- delay: 924
+  name: 7|[Trojan] krKR_2|1.7MB/s
+  network: ws
+  password: trojan
+  port: 29999
+  server: 59.20.121.139
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 8|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

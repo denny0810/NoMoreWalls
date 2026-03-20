@@ -1,5 +1,5 @@
 proxies:
-- name: '2,3|[Hysteria2] کانال تلگرام : Free_VPN_CH@'
+- name: '3,4|[Hysteria2] کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -9,3 +9,36 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  name: 7|[VLESS] deDE_1|1.7MB/s
+  network: ws
+  port: 8005
+  server: 45.145.42.170
+  servername: sub.mot.ip-ddns.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 7|[VLESS] deDE_2|1.9MB/s
+  network: tcp
+  port: 443
+  server: de106.mechvpn.online
+  servername: de106.mechvpn.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 729764b1-149c-49f2-b170-322544df7b5b

@@ -145,23 +145,21 @@ proxies:
   tls: false
   type: vmess
   uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
-- encryption: none
-  name: 7,10|[VLESS] US_speednode_0039
+- name: 7|[VLESS] jpJP_1|1.3MB/s
   network: ws
   port: 443
-  server: 192.0.63.134
-  servername: snippet.danfeng.kozow.com
-  skip-cert-verify: false
+  server: 172.64.52.81
+  servername: r.icy.de5.net
   tls: true
   type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: snippet.danfeng.kozow.com
-    path: /danfeng
-  xudp: true
-- name: 7|[VLESS] sgSG_1|2.2MB/s
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- name: 7|[VLESS] sgSG_1|1.3MB/s
   network: ws
   port: 443
   server: 172.64.156.0
@@ -177,10 +175,85 @@ proxies:
       Host: r.icy.de5.net
     max-early-data: 2560
     path: /
-- name: 7|[VLESS] usUS_2|1.5MB/s
+- name: 7|[VLESS] deDE_1|1.6MB/s
+  network: ws
+  port: 8005
+  server: 45.145.42.170
+  servername: sub.mot.ip-ddns.com
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+    path: /
+- alpn:
+  - http/1.1
+  encryption: none
+  name: 7|[VLESS] gbGB_1|2.8MB/s
   network: ws
   port: 443
-  server: vip2.kaixincloud.top
+  server: 192.200.160.20
+  servername: 639073677243557970.camry-perma.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee248e40-9468-4ef6-81b7-707a1e47c54a
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 639073677243557970.camry-perma.info
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /yaeungws
+  xudp: true
+- name: 7|[VLESS] usUS_1|2.5MB/s
+  network: tcp
+  port: 18959
+  reality-opts:
+    public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
+    short-id: 'd557c6895d014075'
+  server: 157.254.223.44
+  servername: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
+  xudp: true
+- flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7|[VLESS] krKR_1|1.3MB/s
+  network: tcp
+  port: 443
+  server: ako.pagate.top
+  servername: ako.pagate.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+  xudp: true
+- encryption: none
+  name: 7|[VLESS] usUS_2|1.3MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 83ZRQEAaJx3rV-EDhk5TFnBoDjTr7TfGKlq7FgA-WRY
+    short-id: '58a3'
+  server: 45.136.149.145
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ddb913e5-492f-42e8-baec-93c9c5d333d6
+  xudp: true
+- name: 7|[VLESS] deDE_2|1.8MB/s
+  network: ws
+  port: 443
+  server: www.visa.cn
   servername: r.icy.de5.net
   skip-cert-verify: false
   tls: true
@@ -193,87 +266,253 @@ proxies:
       Host: r.icy.de5.net
     max-early-data: 2560
     path: /
-- name: 7|[Trojan] twTW_1|1004KB/s
-  network: tcp
-  password: 3ac6a6ca99f74941b1eaf892818e2ddb
-  port: 443
-  server: 220.130.75.219
-  skip-cert-verify: true
-  type: trojan
-- name: 7|[VLESS] jpJP_1|2.8MB/s
+- name: 7|[VLESS] jpJP_2|1.1MB/s
   network: ws
   port: 443
-  server: 172.64.52.81
+  server: alist.sm.uy
   servername: r.icy.de5.net
-  tls: true
-  type: vless
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: r.icy.de5.net
-    max-early-data: 2560
-    path: /
-- name: 7|[VLESS] sgSG_2|1.1MB/s
-  network: ws
-  port: 443
-  server: 104.18.40.56
-  servername: r.icy.de5.net
-  tls: true
-  type: vless
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: r.icy.de5.net
-    max-early-data: 2560
-    path: /
-- delay: 1112
-  name: 7|[Trojan] krKR_1|1.3MB/s
-  network: ws
-  password: trojan
-  port: 10003
-  server: 221.146.116.77
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- delay: 924
-  name: 7|[Trojan] krKR_2|1.7MB/s
-  network: ws
-  password: trojan
-  port: 29999
-  server: 59.20.121.139
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- name: 7|[VLESS] usUS_3|2.6MB/s
-  network: ws
-  port: 30001
-  server: 154.21.82.210
-  servername: f7on3t1zlwlvhmkz6ji6w7uk72k.sate.qzz.io
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- name: 7|[Trojan] mdMD_1|1.1MB/s
+  network: tcp
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  port: 443
+  server: 89.221.225.71
+  skip-cert-verify: true
+  type: trojan
+- name: 7|[Trojan] usUS_3|1.3MB/s
+  network: tcp
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  port: 443
+  server: 194.33.45.157
+  skip-cert-verify: true
+  type: trojan
+- name: 7|[VLESS] usUS_4|1.2MB/s
+  network: ws
+  port: 443
+  server: 104.19.58.74
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- name: 7|[VLESS] usUS_5|1.0MB/s
+  network: ws
+  port: 443
+  server: 104.17.28.89
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- name: 7|[VLESS] usUS_6|2.3MB/s
+  network: ws
+  port: 443
+  server: 104.19.85.38
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- name: 7|[Http] idID_1|2.9MB/s
+  password: 1239028c-a825-11ed-a0ca-f23c9164ca5d
+  port: 32233
+  server: b5f66cfa-tcb5s0-te4ijj-1fqef.id.oshuawei.com
+  sni: b5f66cfa-tcb5s0-te4ijj-1fqef.id.oshuawei.com
+  tls: true
+  type: http
+  username: 1239028c-a825-11ed-a0ca-f23c9164ca5d
+- name: 7|[Trojan] usUS_7|1.0MB/s
+  network: ws
+  password: 36639485-60a0-4853-856c-40ac05f4b00d
+  port: 443
+  server: 104.18.185.26
+  sni: null.us1234567891.xyz
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: f7on3t1zlwlvhmkz6ji6w7uk72k.sate.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
+      Host: null.us1234567891.xyz
+    path: /music
+- name: 7|[Http] krKR_2|1.7MB/s
+  password: 1239028c-a825-11ed-a0ca-f23c9164ca5d
+  port: 31433
+  server: 7e8535f9-tcb5s0-te4ijj-1fqef.kr.oshuawei.com
+  sni: 7e8535f9-tcb5s0-te4ijj-1fqef.kr.oshuawei.com
+  tls: true
+  type: http
+  username: 1239028c-a825-11ed-a0ca-f23c9164ca5d
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] usUS_8|1.5MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 23.247.137.73
+  type: ss
+  udp: true
+- name: 7|[Http] hkHK_1|3.1MB/s
+  password: <password>
+  port: 8443
+  server: 503cc7e8-ta1og0-taz53d-1j0y6.hkt.cdnhuawei.com
+  sni: 503cc7e8-ta1og0-taz53d-1j0y6.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: 1cce7df2-251c-11ee-9409-f23c9164ca5d
+- alterId: 2
+  cipher: auto
+  name: 7|[Vmess] sgSG_2|3.0MB/s
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 7|[Http] krKR_3|2.8MB/s
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  sni: testkr3.ssv.vc
+  tls: true
+  type: http
+  username: test
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] usUS_9|1.8MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 23.247.137.68
+  type: ss
+  udp: true
+- name: 7|[Http] twTW_1|2.0MB/s
+  password: mrwdfNTD8M79LCukCieldrqZWqs=
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: true
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- alpn:
+  - h2
+  name: 7,8|[Anytls] zaZA²_1|5.3MB/s|0%|GPT⁺|YT-CN|...
+  password: dongtaiwang.com
+  port: 59901
+  server: 45.221.98.14
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- flow: xtls-rprx-vision
+  name: 7|[VLESS] deDE_3|1.2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: xpv3OgIQ4ND_ZaiLxjHk1JsykVAVUY73UkyxPlU8Clc
+    short-id: '695f0df252f9889d'
+  server: der.jojack.ru
+  servername: der.jojack.ru
+  tls: true
+  type: vless
+  uuid: c67f81df-34e8-4cb3-ab43-599585775fa9
+- encryption: none
+  name: 7|[VLESS] usUS_10|1.8MB/s
+  network: tcp
+  port: 34045
+  reality-opts:
+    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+    short-id: 'e8ab71d0'
+  server: 64.23.143.23
+  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+- disable-sni: true
+  name: 7|[Trojan] usUS_11|1.8MB/s
+  network: tcp
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  port: 443
+  server: 77.247.126.137
+  skip-cert-verify: true
+  sni: ''
+  tfo: false
+  type: trojan
+- delay: 1728
+  name: 7|[Trojan] nlNL_1|1.9MB/s
+  network: ws
+  password: trojan
+  port: 12000
+  server: 91.84.102.94
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- allowInsecure: '1'
+  alpn:
+  - h3
+  congestion-controller: bbr
+  name: 7|[TUIC] deDE_4|1.3MB/s
+  password: dongtaiwang.com
+  port: 10088
+  server: ip1.758733.xyz
+  skip-cert-verify: true
+  sni: apple.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: 9bbd1f42-7ae7-4239-bd10-a68de95e3295
+  version: 5
+- delay: 2911
+  name: 7|[Trojan] atAT_1|2.3MB/s
+  network: ws
+  password: trojan
+  port: 8888
+  server: 152.53.45.251
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 8|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...
@@ -281,15 +520,6 @@ proxies:
   port: 38388
   server: 103.186.154.172
   type: ss
-- alpn:
-  - h2
-  name: 8|[Anytls] zaZA²_1|5.3MB/s|0%|GPT⁺|YT-CN|...
-  password: dongtaiwang.com
-  port: 59901
-  server: 45.221.98.14
-  skip-cert-verify: true
-  type: anytls
-  udp: true
 - cipher: aes-256-cfb
   country: 🇨🇳 CN
   name: 8|[SS] vnVN²_2|1.6MB/s|GPT|X|History
@@ -680,6 +910,20 @@ proxies:
   network: ws
   port: 443
   server: 192.0.63.230
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
+    path: /danfeng
+- name: 10|[VLESS] US_speednode_0039
+  network: ws
+  port: 443
+  server: 192.0.63.134
   servername: snippet.danfeng.kozow.com
   skip-cert-verify: false
   tls: true

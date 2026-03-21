@@ -184,7 +184,7 @@ proxies:
   type: trojan
   udp: true
 - delay: 906
-  name: 6|[Trojan] hkHK_5|1.6MB/s
+  name: 6,9|[Trojan] US_speednode_0039
   network: ws
   password: trojan
   port: 8025
@@ -192,14 +192,13 @@ proxies:
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
+  udp: true
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: jflsjlaf.pages.dev
-    max-early-data: 2560
     path: /
 - delay: 938
-  name: 6|[Trojan] krKR_1|1.1MB/s
+  name: 6,9|[Trojan] KR_speednode_0026
   network: ws
   password: trojan
   port: 11434
@@ -207,14 +206,13 @@ proxies:
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
+  udp: true
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: jflsjlaf.pages.dev
-    max-early-data: 2560
     path: /
 - delay: 2068
-  name: 6|[Trojan] krKR_2|1.6MB/s
+  name: 6,9|[Trojan] KR_speednode_0021
   network: ws
   password: trojan
   port: 20000
@@ -222,11 +220,10 @@ proxies:
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
+  udp: true
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: jflsjlaf.pages.dev
-    max-early-data: 2560
     path: /
 - alpn:
   - h3
@@ -334,31 +331,76 @@ proxies:
     headers:
       Host: www.bing.com
     path: /alvin9999.com
-- name: 9|[Trojan] AU_speednode_0002
+- name: 9|[Trojan] AU_speednode_0004
   password: IL37892054
   port: 443
-  server: engaged-ram.rooster465.autos
+  server: enhanced-crayfish.rooster465.autos
   skip-cert-verify: false
+  sni: enhanced-crayfish.rooster465.autos
   type: trojan
   udp: true
-- name: 9|[Trojan] KR_speednode_0024
-  network: ws
-  password: trojan
-  port: 11000
-  server: 220.92.22.170
+- name: 9|[Trojan] MD_speednode_0028
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  port: 443
+  server: 89.221.225.71
   skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: /
-- name: 9|[Trojan] PL_speednode_0026
+- name: 9|[Trojan] PL_speednode_0029
   password: IL37892054
   port: 443
   server: outgoing-ladybird.rooster465.autos
   skip-cert-verify: false
   sni: outgoing-ladybird.rooster465.autos
+  type: trojan
+  udp: true
+- name: 9|[Trojan] PL_speednode_0030
+  password: IL37892054
+  port: 443
+  server: fluent-stingray.crayfish192.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 9|[Trojan] PL_speednode_0031
+  password: IL37892054
+  port: 443
+  server: fluent-stingray.crayfish192.xyz
+  skip-cert-verify: true
+  sni: fluent-stingray.crayfish192.xyz
+  type: trojan
+  udp: true
+- name: 9|[Trojan] PL_speednode_0032
+  password: IL37892054
+  port: 443
+  server: outgoing-ladybird.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: 9|[Trojan] SG_speednode_0034
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  port: 443
+  server: 185.151.146.40
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 9|[Trojan] TW_speednode_0036
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  port: 443
+  server: 85.237.206.249
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 9|[Trojan] US_speednode_0065
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  port: 443
+  server: 77.247.126.137
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 9|[Trojan] US_speednode_0068
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  port: 443
+  server: 194.33.45.157
+  skip-cert-verify: true
   type: trojan
   udp: true

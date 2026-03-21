@@ -81,7 +81,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   delay: 906
-  name: 6|[Trojan] hkHK_5|1.6MB/s
+  name: 6,9|[Trojan] US_speednode_0039
   network: ws
   password: trojan
   port: 8025
@@ -89,16 +89,32 @@ proxies:
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
+  udp: true
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: jflsjlaf.pages.dev
-    max-early-data: 2560
     path: /
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 9|[VLESS] HK_speednode_0021
+  name: 9|[VLESS] HK_speednode_0010
+  network: ws
+  port: 3389
+  server: 203.168.131.110
+  servername: snippet.chinav.eu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.chinav.eu.cc
+    path: /danfengfp=random
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 9|[VLESS] HK_speednode_0011
   network: ws
   port: 3389
   server: 203.168.131.110

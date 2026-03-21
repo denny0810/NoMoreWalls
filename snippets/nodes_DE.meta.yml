@@ -1,5 +1,5 @@
 proxies:
-- name: '3,4|[Hysteria2] کانال تلگرام : Free_VPN_CH@ #2'
+- name: '2,3|[Hysteria2] کانال تلگرام : Free_VPN_CH@ #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -11,7 +11,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '4|[Hysteria2] de - DE - @FreeOnlineVPN #1'
+  name: '3|[Hysteria2] de - DE - @FreeOnlineVPN #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -20,7 +20,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '4|[Hysteria2] کانال تلگرام : Free_VPN_CH@ #4'
+- name: '3|[Hysteria2] کانال تلگرام : Free_VPN_CH@ #4'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -30,7 +30,39 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: 10|[VLESS] DE_speednode_0007
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] deDE_1|2.3MB/s
+  network: ws
+  port: 80
+  server: nnet.online
+  type: vless
+  udp: true
+  uuid: 1007b7c2-2170-4ba4-a68d-ec31fbb4bf74
+  ws-opts:
+    headers:
+      Host: nnet.online
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /vless-ntls
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] deDE_2|1.3MB/s
+  network: ws
+  port: 80
+  server: vpn.nnet.online
+  type: vless
+  udp: true
+  uuid: 5e80724d-4737-4b0c-9c95-c76e986b05f1
+  ws-opts:
+    headers:
+      Host: nnet.online
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /vless-ntls
+  xudp: true
+- name: 9|[VLESS] DE_speednode_0007
   network: ws
   port: 8005
   server: 45.145.42.170

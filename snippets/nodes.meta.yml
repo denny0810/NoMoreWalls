@@ -89,6 +89,14 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
+- name: 3,9|[Hysteria2] group->v2ray Hysteria2节点3-ipv6
+  password: dongtaiwang.com
+  port: 11130
+  server: 2a14:7583:295c::a
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
 - name: 3|[Hysteria2] a@oneclickvpnkeys
   password: zhangyang
   port: 6443
@@ -127,19 +135,6 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 4,7|[Hysteria2] gbGB_1|1.8MB/s
-  obfs: salamander
-  obfs-password: YxNSWNJUQkeKDiPc
-  password: 86bfdc9d-64b0-447b-9316-2e3cc8712690
-  port: 65001
-  server: uk01.nekocloud.top
-  skip-cert-verify: true
-  sni: buylite.music.apple.com
-  tls: false
-  type: hysteria2
-  up: ''
 - name: 4|[Hysteria2] 🩵+@Azarakhsh_Proxy+🩷
   obfs: salamander
   obfs-password: KevinZakarian
@@ -222,16 +217,6 @@ proxies:
 - name: '4|[Hysteria2] کانال تلگرام : Free_VPN_CH@ #6'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 5.175.249.174
-  skip-cert-verify: false
-  sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: 4|[Hysteria2] @FooTNooD
-  obfs: salamander
-  obfs-password: '@AliXTso-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
   port: 35000
   server: 5.175.249.174
@@ -633,6 +618,18 @@ proxies:
       Host: r.icy.de5.net
     max-early-data: 2560
     path: /
+- down: ''
+  fingerprint: ''
+  name: 7|[Hysteria2] gbGB_1|1.8MB/s
+  obfs: salamander
+  obfs-password: YxNSWNJUQkeKDiPc
+  password: 86bfdc9d-64b0-447b-9316-2e3cc8712690
+  port: 65001
+  server: uk01.nekocloud.top
+  skip-cert-verify: true
+  sni: buylite.music.apple.com
+  type: hysteria2
+  up: ''
 - name: 7|[VLESS] jpJP_5|2.9MB/s
   network: ws
   port: 443
@@ -780,14 +777,6 @@ proxies:
     headers:
       Host: www.bing.com
     path: /alvin9999.com
-- name: 9|[Hysteria2] group->v2ray Hysteria2节点3-ipv6
-  password: dongtaiwang.com
-  port: 11130
-  server: 2a14:7583:295c::a
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
 - alpn:
   - http/1.1
   name: 10|[VLESS] AE_speednode_0001

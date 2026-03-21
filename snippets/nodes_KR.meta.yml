@@ -1,37 +1,36 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 7|[VLESS] krKR_1|1.3MB/s
-  network: tcp
-  port: 443
-  server: ako.pagate.top
-  servername: ako.pagate.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-  xudp: true
-- name: 7|[Http] krKR_2|1.7MB/s
-  password: 1239028c-a825-11ed-a0ca-f23c9164ca5d
-  port: 31433
-  server: 7e8535f9-tcb5s0-te4ijj-1fqef.kr.oshuawei.com
-  sni: 7e8535f9-tcb5s0-te4ijj-1fqef.kr.oshuawei.com
-  tls: true
-  type: http
-  username: 1239028c-a825-11ed-a0ca-f23c9164ca5d
-- name: 7|[Http] krKR_3|2.8MB/s
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
+  delay: 938
+  name: 7|[Trojan] krKR_1|1.1MB/s
+  network: ws
+  password: trojan
+  port: 11434
+  server: 118.35.208.37
   skip-cert-verify: true
-  sni: testkr3.ssv.vc
-  tls: true
-  type: http
-  username: test
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 2068
+  name: 7|[Trojan] krKR_2|1.6MB/s
+  network: ws
+  password: trojan
+  port: 20000
+  server: 211.110.32.47
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
 - name: 8|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
   port: 1090
   server: 121.169.46.116

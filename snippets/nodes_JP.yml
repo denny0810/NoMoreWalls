@@ -7,7 +7,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 5,6|[Trojan] 日本2|@ripaojiedian
+- client-fingerprint: chrome
+  name: 5,6,7|[Trojan] jpJP_5|2.4MB/s
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 2001
@@ -23,3 +24,13 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- client-fingerprint: chrome
+  name: 7|[Trojan] jpJP_8|3.3MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 4945
+  server: 13.231.224.38
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true

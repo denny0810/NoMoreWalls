@@ -24,12 +24,27 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: 7|[VLESS] sgSG_1|1.3MB/s
+  name: 7|[VLESS] sgSG_2|1.9MB/s
+  network: ws
+  port: 2053
+  server: blog.646474.xyz
+  servername: q6x65zp4w.gfw.hidns.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: q6x65zp4w.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: 7|[VLESS] sgSG_3|2.1MB/s
   network: ws
   port: 443
-  server: 172.64.156.0
+  server: 162.159.7.2
   servername: r.icy.de5.net
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -40,18 +55,86 @@ proxies:
       Host: r.icy.de5.net
     max-early-data: 2560
     path: /
-- alterId: 2
+- client-fingerprint: chrome
+  name: 7|[VLESS] sgSG_4|1.0MB/s
+  network: ws
+  port: 443
+  server: 162.159.24.111
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: 7|[Trojan] sgSG_5|2.8MB/s
+  network: ws
+  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
+  port: 443
+  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
+  skip-cert-verify: false
+  sni: _acme-challenge.sb.cloudns.biz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 7|[VLESS] sgSG_6|3.3MB/s
+  network: tcp
+  port: 8443
+  server: sg02.05e57c23-bae7-41a0-aeef-8e75566fc3dd.genshinimpact.cyou
+  servername: cdn-sg02.download.pikoport.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5cd276be-1988-4416-b9dd-0d91cf857dee
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 7|[VLESS] sgSG_7|2.7MB/s
+  network: ws
+  port: 80
+  server: 162.159.34.121
+  type: vless
+  udp: true
+  uuid: 0ca855d9-7c03-40eb-929b-919f934abdc3
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: amirvpn.amirhm00100.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
+        Safari/537.36
+    max-early-data: 2048
+    path: /
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
   cipher: auto
   client-fingerprint: chrome
-  name: 7|[Vmess] sgSG_2|3.0MB/s
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: true
+  name: 7|[Vmess] sgSG_8|3.3MB/s
+  network: ws
+  port: 16618
+  server: m.cnmjin.net
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 8fe47794-bb25-446c-a1f7-7408a1d0b9c3
+  ws-opts:
+    headers:
+      Host: 7b30e34ac69c2cef7dbe9bd6e2484f6f.mobgslb.tbcache.com
+    path: /
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 8|[SS] sgSG²_1|2.4MB/s|X|History

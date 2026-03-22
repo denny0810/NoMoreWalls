@@ -23,20 +23,115 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 7|[Hysteria] usUS_1|1.5MB/s
-  port: 38845
-  protocol: udp
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
+- client-fingerprint: chrome
+  name: 7|[VLESS] usUS_1|1.0MB/s
+  network: ws
+  port: 443
+  server: 104.19.85.38
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: 7|[VLESS] usUS_2|1010KB/s
+  network: ws
+  port: 443
+  server: 104.17.28.89
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: 7|[Trojan] usUS_3|1.1MB/s
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: false
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
   udp: true
-  up: 11 Mbps
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.135 Safari/537.36
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- client-fingerprint: chrome
+  name: 7,10|[VLESS] US_speednode_0067
+  network: tcp
+  port: 18959
+  reality-opts:
+    public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
+    short-id: '!!str d557c6895d014075'
+  server: 157.254.223.44
+  servername: itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 7|[VLESS] usUS_6|2.5MB/s
+  network: tcp
+  port: 10006
+  reality-opts:
+    public-key: XUVBEFyxevBwoGwVlo31vXMR_wQ0h0UnhzC4jCeakkc
+    short-id: '!!str 590bdc3b6dad'
+  server: hk.tfree.top
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  xudp: true
+- client-fingerprint: chrome
+  delay: 1148
+  name: 7|[Trojan] usUS_7|2.0MB/s
+  network: ws
+  password: trojan
+  port: 54321
+  server: 154.12.53.125
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: 7|[VLESS] usUS_8|2.5MB/s
+  network: ws
+  port: 20000
+  server: 69.63.212.105
+  servername: rpx-rd33nh3.mesa.ip-ddns.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: rpx-rd33nh3.mesa.ip-ddns.com
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
@@ -469,19 +564,6 @@ proxies:
   type: vless
   udp: true
   uuid: d8e5386f-5b56-4a5a-87e2-26fecd735356
-- client-fingerprint: chrome
-  name: 10|[VLESS] US_speednode_0067
-  port: 18959
-  reality-opts:
-    public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
-    short-id: '!!str d557c6895d014075'
-  server: 157.254.223.44
-  servername: itunes.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
 - name: 10|[Trojan] US_speednode_0068
   password: 3ac6a6ca99f74941b1eaf892818e2ddb
   port: 443

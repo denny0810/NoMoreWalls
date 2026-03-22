@@ -24,10 +24,33 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: 7|[VLESS] sgSG_1|3.2MB/s
+  name: 7|[VLESS] sgSG_1|2.5MB/s
   network: ws
   port: 443
-  server: vip2.kaixincloud.top
+  server: vip1.kaixincloud.top
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: 7|[Trojan] sgSG_2|1.0MB/s
+  network: tcp
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  port: 443
+  server: 185.151.146.64
+  skip-cert-verify: true
+  type: trojan
+- client-fingerprint: chrome
+  name: 7|[VLESS] sgSG_3|2.7MB/s
+  network: ws
+  port: 443
+  server: 108.162.195.58
   servername: r.icy.de5.net
   tls: true
   type: vless
@@ -39,6 +62,60 @@ proxies:
       Host: r.icy.de5.net
     max-early-data: 2560
     path: /
+- client-fingerprint: chrome
+  disable-sni: true
+  name: 7|[VLESS] sgSG_4|1.0MB/s
+  network: ws
+  port: 80
+  server: 162.159.134.61
+  servername: ''
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 26f85c0f-c741-4695-b1aa-d3f2d07d1b68
+  ws-opts:
+    headers:
+      Host: path.xyz-my.eu.org
+    path: /vless
+- client-fingerprint: chrome
+  encryption: none
+  name: 7|[VLESS] sgSG_5|3.5MB/s
+  network: ws
+  port: 443
+  server: 172.64.154.211
+  servername: sanYUuu.paGES.dEV
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a667767-995c-4892-9719-f52c3db2b0f2
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sanYUuu.paGES.dEV
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /eyJqdW5rIjoiQVpjSG1wcDBtd0lHbm05byIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 7|[VLESS] sgSG_6|3.4MB/s
+  network: ws
+  port: 80
+  server: 162.159.34.121
+  type: vless
+  udp: true
+  uuid: 0ca855d9-7c03-40eb-929b-919f934abdc3
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: amirvpn.amirhm00100.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    max-early-data: 2048
+    path: /
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 8|[SS] sgSG²_1|2.4MB/s|X|History

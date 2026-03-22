@@ -31,36 +31,20 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] deDE_1|2.3MB/s
-  network: ws
-  port: 80
-  server: nnet.online
+  grpc-opts:
+    grpc-service-name: TestChatGRPC
+  name: 7|[VLESS] deDE_1|1.3MB/s
+  network: grpc
+  port: 2443
+  reality-opts:
+    public-key: AoKYF8pZgifrpH-L5yAeut_qoLKxgh8qCaX2Q4X8BD0
+    short-id: '!!str a1b2c3d4'
+  server: 138.201.202.168
+  servername: www.microsoft.com
+  tls: true
   type: vless
   udp: true
-  uuid: 1007b7c2-2170-4ba4-a68d-ec31fbb4bf74
-  ws-opts:
-    headers:
-      Host: nnet.online
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /vless-ntls
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] deDE_2|1.3MB/s
-  network: ws
-  port: 80
-  server: vpn.nnet.online
-  type: vless
-  udp: true
-  uuid: 5e80724d-4737-4b0c-9c95-c76e986b05f1
-  ws-opts:
-    headers:
-      Host: nnet.online
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /vless-ntls
+  uuid: c01733dd-3e58-4da9-910b-cdd4560295bc
   xudp: true
 - name: 10|[VLESS] DE_speednode_0007
   network: ws

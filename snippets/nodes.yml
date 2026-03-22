@@ -46,7 +46,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 5,6|[Trojan] 日本2|@ripaojiedian
+- name: 5,6,7|[Trojan] jpJP_4|2.3MB/s
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 34818
@@ -54,7 +54,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 日本3|@ripaojiedian
+- name: 5,6,7|[Trojan] jpJP_5|1.1MB/s
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 2001
@@ -120,12 +120,70 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- delay: 924
-  name: 7|[Trojan] krKR_1|2.4MB/s
+- name: 7|[Trojan] sgSG_2|1.0MB/s
+  network: tcp
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  port: 443
+  server: 185.151.146.64
+  skip-cert-verify: true
+  type: trojan
+- name: 7|[Trojan] twTW_1|1.1MB/s
+  network: tcp
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  port: 443
+  server: 220.130.75.217
+  skip-cert-verify: true
+  type: trojan
+- name: 7|[Trojan] usUS_3|1.1MB/s
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: false
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.135 Safari/537.36
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- delay: 1148
+  name: 7|[Trojan] usUS_7|2.0MB/s
   network: ws
   password: trojan
-  port: 29999
-  server: 59.20.121.139
+  port: 54321
+  server: 154.12.53.125
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- delay: 1318
+  name: 7|[Trojan] krKR_1|1.9MB/s
+  network: ws
+  password: trojan
+  port: 11310
+  server: 211.106.184.129
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- delay: 1806
+  name: 7|[Trojan] krKR_2|1.1MB/s
+  network: ws
+  password: trojan
+  port: 10035
+  server: 223.222.74.163
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan

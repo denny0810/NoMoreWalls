@@ -1,14 +1,14 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 5|[Vmess] hk 香港|@ripaojiedian
+  name: 4|[Vmess] hk 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 5,6|[Trojan] 香港3|@ripaojiedian
+- name: 4,5|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 6196
@@ -16,7 +16,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 香港4|@ripaojiedian
+- name: 4,5|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 38837
@@ -24,7 +24,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 5,6|[Trojan] 香港5|@ripaojiedian
+- name: 4,5|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 5268
@@ -34,7 +34,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 6|[Vmess] 香港|@ripaojiedian
+  name: 5|[Vmess] 香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -42,38 +42,10 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] hkHK_1|2.6MB/s
-  network: ws
-  port: 7000
-  server: 202.85.53.77
-  servername: kuangbao.xiejiang.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.125 Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
-- name: 7|[Http] hkHK_2|1.1MB/s
-  password: <password>
-  port: 8443
-  server: f19dd713-t9zts0-taklwz-12bd.hkt.cdnhuawei.com
-  sni: f19dd713-t9zts0-taklwz-12bd.hkt.cdnhuawei.com
-  tls: true
-  type: http
-  username: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 10|[VLESS] HK_speednode_0010
+  name: 9|[VLESS] HK_speednode_0010
   network: ws
   port: 3389
   server: 203.168.131.110
@@ -90,7 +62,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 10|[VLESS] HK_speednode_0011
+  name: 9|[VLESS] HK_speednode_0011
   network: ws
   port: 3389
   server: 203.168.131.110

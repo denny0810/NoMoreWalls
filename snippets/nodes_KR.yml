@@ -1,5 +1,20 @@
 proxies:
-- name: 10|[Trojan] KR_speednode_0021
+- client-fingerprint: chrome
+  name: 6|[Trojan] krKR_2|2.2MB/s
+  network: ws
+  password: trojan
+  port: 10003
+  server: 118.34.36.61
+  skip-cert-verify: false
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /
+- name: 9|[Trojan] KR_speednode_0021
   network: ws
   password: trojan
   port: 20000
@@ -12,7 +27,7 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
-- name: 10|[Trojan] KR_speednode_0026
+- name: 9|[Trojan] KR_speednode_0026
   network: ws
   password: trojan
   port: 11434

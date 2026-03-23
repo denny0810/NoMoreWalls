@@ -22,6 +22,22 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: TestChatGRPC
+  name: 7|[VLESS] chCH_1|1.4MB/s
+  network: grpc
+  port: 2443
+  reality-opts:
+    public-key: ZMvMtsHKNd39qVM9CuPLMEXUL19ViL4Qqqk1y5mMjko
+    short-id: '!!str a1b2c3d4'
+  server: 45.148.101.234
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c01733dd-3e58-4da9-910b-cdd4560295bc
+  xudp: true
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 10|[VLESS] CH_speednode_0005
   port: 443

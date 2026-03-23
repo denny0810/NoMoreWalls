@@ -1,4 +1,24 @@
 proxies:
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7|[VLESS] ruRU_1|2.2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw
+    short-id: '!!str 50'
+  server: 85.239.37.39
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6ad51558-76cf-4865-8da4-c91fff28b158
+  xudp: true
 - name: 10|[VLESS] RU_speednode_0033
   network: ws
   port: 443

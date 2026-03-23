@@ -1,45 +1,8 @@
 proxies:
-- client-fingerprint: random
-  name: 6|[VLESS] krKR_1|1.9MB/s
-  network: ws
-  port: 20201
-  server: 220.71.1.32
-  servername: itz4m3m5v7.chinav.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: itz4m3m5v7.chinav.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  name: 6|[Trojan] krKR_2|2.2MB/s
-  network: ws
-  password: trojan
-  port: 10003
-  server: 118.34.36.61
-  skip-cert-verify: false
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
-    path: /
-- name: 7|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
-  port: 1090
-  server: 121.169.46.116
-  tls: false
-  type: socks5
-  username: T2clM0QlM0Q6
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 9|[VLESS] KR_speednode_0016
+  name: 6,9|[VLESS] KR_speednode_0016
+  network: tcp
   port: 19001
   reality-opts:
     public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
@@ -52,7 +15,8 @@ proxies:
   uuid: 455fc271-3ee2-493b-8c75-9324b4851e2f
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 9|[VLESS] KR_speednode_0017
+  name: 6,9|[VLESS] KR_speednode_0017
+  network: tcp
   port: 19001
   reality-opts:
     public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
@@ -63,6 +27,36 @@ proxies:
   type: vless
   udp: true
   uuid: 6eeb820e-89ef-4b60-9060-ddcaea0580f0
+- name: 6|[Anytls] krKR_3|2.5MB/s
+  password: 638254cc-d8ab-4724-8da5-96a01c1de195
+  port: 8443
+  server: kr01.nekocloud.top
+  skip-cert-verify: true
+  sni: gw.alicdn.com
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  delay: 1806
+  name: 6|[Trojan] krKR_4|1.3MB/s
+  network: ws
+  password: trojan
+  port: 10035
+  server: 223.222.74.163
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- name: 7|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
+  port: 1090
+  server: 121.169.46.116
+  tls: false
+  type: socks5
+  username: T2clM0QlM0Q6
 - client-fingerprint: random
   name: 9|[VLESS] KR_speednode_0018
   network: ws

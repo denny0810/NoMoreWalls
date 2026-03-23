@@ -22,14 +22,8 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 6,9|[VLESS] CH_speednode_0005
-  network: tcp
+  name: 9|[VLESS] CH_speednode_0005
   port: 443
   reality-opts:
     public-key: iCY6H8CpnIfqmIkEABduJEAeJrnYS089R1-jKEyVp3w
@@ -41,4 +35,3 @@ proxies:
   type: vless
   udp: true
   uuid: fd37be2f-f8d1-47de-97e8-13c28107d31e
-  xudp: true

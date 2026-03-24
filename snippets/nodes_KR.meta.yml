@@ -1,13 +1,12 @@
 proxies:
-- name: 8|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
-  port: 1090
-  server: 121.169.46.116
-  tls: false
-  type: socks5
-  username: T2clM0QlM0Q6
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 10|[VLESS] KR_speednode_0016
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7,10|[VLESS] KR_speednode_0016
+  network: tcp
   port: 19001
   reality-opts:
     public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
@@ -18,6 +17,61 @@ proxies:
   type: vless
   udp: true
   uuid: 455fc271-3ee2-493b-8c75-9324b4851e2f
+  xudp: true
+- client-fingerprint: chrome
+  name: 7|[Trojan] krKR_2|2.1MB/s
+  network: tcp
+  password: WF42809561
+  port: 443
+  server: brave-cattle.rooster465.autos
+  sni: brave-cattle.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  name: 7|[Trojan] krKR_3|1.7MB/s
+  network: tcp
+  password: WF42809561
+  port: 443
+  server: sterling-fowl.rooster465.autos
+  sni: sterling-fowl.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  name: 7|[Trojan] krKR_4|2.3MB/s
+  network: tcp
+  password: WF42809561
+  port: 443
+  server: desired-tahr.rooster465.autos
+  sni: desired-tahr.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  name: 7|[Trojan] krKR_5|1.7MB/s
+  network: tcp
+  password: WF42809561
+  port: 443
+  server: curious-oryx.rooster465.autos
+  sni: curious-oryx.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  name: 7|[Trojan] krKR_6|1.4MB/s
+  network: tcp
+  password: WF42809561
+  port: 443
+  server: evident-gnat.rooster465.autos
+  sni: evident-gnat.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  name: 7|[Trojan] krKR_7|1.8MB/s
+  network: tcp
+  password: WF42809561
+  port: 443
+  server: darling-mutt.rooster465.autos
+  sni: darling-mutt.rooster465.autos
+  type: trojan
+- name: 8|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
+  port: 1090
+  server: 121.169.46.116
+  tls: false
+  type: socks5
+  username: T2clM0QlM0Q6
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 10|[VLESS] KR_speednode_0017

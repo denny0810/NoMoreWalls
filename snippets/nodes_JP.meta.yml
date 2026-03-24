@@ -1,5 +1,5 @@
 proxies:
-- name: 5,6|[Trojan] 日本|@ripaojiedian
+- name: 3,4|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 32536
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 5,6|[Trojan] 日本2|@ripaojiedian
+- name: 3,4|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   port: 2001
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 日本3|@ripaojiedian
+- name: 3,4|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   port: 34818
@@ -24,37 +24,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 7|[VLESS] jpJP_1|1.6MB/s
-  network: ws
-  port: 443
-  server: vip2.kaixincloud.top
-  servername: r.icy.de5.net
-  tls: true
-  type: vless
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: r.icy.de5.net
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  name: 7|[VLESS] jpJP_2|1.1MB/s
-  network: ws
-  port: 443
-  server: cloudflare.182682.xyz
-  servername: snip.aww.pp.ua
-  tls: true
-  type: vless
-  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.aww.pp.ua
-    max-early-data: 2560
-    path: /zrf
-- client-fingerprint: chrome
-  name: 7|[VLESS] jpJP_3|1.4MB/s
+  name: 5|[VLESS] jpJP_1|1.1MB/s
   network: ws
   port: 443
   server: 162.159.45.232
@@ -69,66 +39,166 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  name: 7|[VLESS] jpJP_4|2.6MB/s
+  name: 5|[VLESS] jpJP_2|4.6MB/s
   network: ws
   port: 443
-  server: 162.159.44.193
-  servername: snip2.zrfme.site
+  server: vip1.kaixincloud.top
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: 5|[VLESS] jpJP_3|2.5MB/s
+  network: ws
+  port: 443
+  server: 172.64.229.85
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: 5|[VLESS] jpJP_4|1.3MB/s
+  network: ws
+  port: 443
+  server: 162.159.38.78
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: 5|[VLESS] jpJP_5|1.0MB/s
+  network: ws
+  port: 443
+  server: 162.159.39.239
+  servername: snip1.zrfme.site
   tls: true
   type: vless
   uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: snip2.zrfme.site
+      Host: snip1.zrfme.site
     max-early-data: 2560
     path: /zrf
 - client-fingerprint: chrome
-  name: 7|[Trojan] jpJP_7|3.4MB/s
+  name: 5|[VLESS] jpJP_6|1.5MB/s
+  network: ws
+  port: 443
+  server: 172.64.52.210
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: 5|[Trojan] jpJP_7|3.3MB/s
   network: tcp
   password: WF42809561
   port: 443
-  server: skilled-polliwog.rooster465.autos
-  sni: skilled-polliwog.rooster465.autos
+  server: evolving-platypus.rooster465.autos
+  sni: evolving-platypus.rooster465.autos
   type: trojan
 - client-fingerprint: chrome
-  name: 7|[Trojan] jpJP_8|1.7MB/s
+  name: 5|[Trojan] jpJP_8|1.6MB/s
   network: tcp
   password: WF42809561
   port: 443
-  server: exciting-turtle.rooster465.autos
-  sni: exciting-turtle.rooster465.autos
+  server: valued-mullet.rooster465.autos
+  sni: valued-mullet.rooster465.autos
   type: trojan
 - client-fingerprint: chrome
-  name: 7|[Trojan] jpJP_9|1.1MB/s
+  name: 5|[Trojan] jpJP_9|1.1MB/s
   network: tcp
   password: WF42809561
   port: 443
-  server: climbing-sawfly.rooster465.autos
-  sni: climbing-sawfly.rooster465.autos
+  server: brief-glider.rooster465.autos
+  sni: brief-glider.rooster465.autos
   type: trojan
 - client-fingerprint: chrome
-  name: 7|[Trojan] jpJP_10|2.5MB/s
+  name: 5|[Trojan] jpJP_10|1.4MB/s
   network: tcp
-  password: IL37892054
+  password: WF42809561
   port: 443
-  server: thankful-mustang.rooster465.autos
-  skip-cert-verify: true
-  sni: thankful-mustang.rooster465.autos
+  server: needed-haddock.rooster465.autos
+  sni: needed-haddock.rooster465.autos
   type: trojan
-  udp: true
 - client-fingerprint: chrome
-  name: 7|[Trojan] jpJP_11|2.0MB/s
+  name: 5|[Trojan] jpJP_11|1.5MB/s
   network: tcp
-  password: IL37892054
+  password: WF42809561
   port: 443
-  server: welcome-owl.rooster465.autos
-  skip-cert-verify: true
-  sni: welcome-owl.rooster465.autos
+  server: hopeful-burro.rooster465.autos
+  sni: hopeful-burro.rooster465.autos
   type: trojan
-  udp: true
+- client-fingerprint: chrome
+  name: 5|[Trojan] jpJP_12|1.2MB/s
+  network: tcp
+  password: WF42809561
+  port: 443
+  server: awake-shiner.rooster465.autos
+  sni: awake-shiner.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  name: 5|[Trojan] jpJP_13|2.1MB/s
+  network: tcp
+  password: WF42809561
+  port: 443
+  server: live-drake.rooster465.autos
+  sni: live-drake.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  name: 5|[Trojan] jpJP_14|1023KB/s
+  network: tcp
+  password: WF42809561
+  port: 443
+  server: intimate-adder.rooster465.autos
+  sni: intimate-adder.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  name: 5|[Trojan] jpJP_15|1.1MB/s
+  network: tcp
+  password: WF42809561
+  port: 443
+  server: vast-werewolf.rooster465.autos
+  sni: vast-werewolf.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  name: 5|[Trojan] jpJP_16|3.3MB/s
+  network: tcp
+  password: WF42809561
+  port: 443
+  server: moved-bluegill.rooster465.autos
+  sni: moved-bluegill.rooster465.autos
+  type: trojan
 - client-fingerprint: random
-  name: 10|[VLESS] JP_speednode_0014
+  name: 8|[VLESS] JP_speednode_0014
   network: ws
   port: 39738
   server: 103.214.168.247
@@ -144,7 +214,7 @@ proxies:
     path: /danfeng
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 10|[VLESS] JP_speednode_0015
+  name: 8|[VLESS] JP_speednode_0015
   port: 2443
   reality-opts:
     public-key: u8FFKKLif3K14_SqiDEF834Rpp4zETdOYt2mFrrsSnQ

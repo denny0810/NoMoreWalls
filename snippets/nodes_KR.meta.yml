@@ -1,12 +1,45 @@
 proxies:
+- client-fingerprint: chrome
+  name: 5|[Trojan] krKR_1|2.7MB/s
+  network: tcp
+  password: WF42809561
+  port: 443
+  server: ready-lion.rooster465.autos
+  sni: ready-lion.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  name: 5|[Trojan] krKR_2|2.0MB/s
+  network: tcp
+  password: WF42809561
+  port: 443
+  server: powerful-squid.rooster465.autos
+  sni: powerful-squid.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  delay: 1318
+  name: 5|[Trojan] krKR_3|1.5MB/s
+  network: ws
+  password: trojan
+  port: 11310
+  server: 211.106.184.129
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- name: 6|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
+  port: 1090
+  server: 121.169.46.116
+  tls: false
+  type: socks5
+  username: T2clM0QlM0Q6
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 7,10|[VLESS] KR_speednode_0016
-  network: tcp
+  name: 8|[VLESS] KR_speednode_0016
   port: 19001
   reality-opts:
     public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
@@ -17,64 +50,9 @@ proxies:
   type: vless
   udp: true
   uuid: 455fc271-3ee2-493b-8c75-9324b4851e2f
-  xudp: true
-- client-fingerprint: chrome
-  name: 7|[Trojan] krKR_2|2.1MB/s
-  network: tcp
-  password: WF42809561
-  port: 443
-  server: brave-cattle.rooster465.autos
-  sni: brave-cattle.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 7|[Trojan] krKR_3|1.7MB/s
-  network: tcp
-  password: WF42809561
-  port: 443
-  server: sterling-fowl.rooster465.autos
-  sni: sterling-fowl.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 7|[Trojan] krKR_4|2.3MB/s
-  network: tcp
-  password: WF42809561
-  port: 443
-  server: desired-tahr.rooster465.autos
-  sni: desired-tahr.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 7|[Trojan] krKR_5|1.7MB/s
-  network: tcp
-  password: WF42809561
-  port: 443
-  server: curious-oryx.rooster465.autos
-  sni: curious-oryx.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 7|[Trojan] krKR_6|1.4MB/s
-  network: tcp
-  password: WF42809561
-  port: 443
-  server: evident-gnat.rooster465.autos
-  sni: evident-gnat.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 7|[Trojan] krKR_7|1.8MB/s
-  network: tcp
-  password: WF42809561
-  port: 443
-  server: darling-mutt.rooster465.autos
-  sni: darling-mutt.rooster465.autos
-  type: trojan
-- name: 8|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
-  port: 1090
-  server: 121.169.46.116
-  tls: false
-  type: socks5
-  username: T2clM0QlM0Q6
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] KR_speednode_0017
+  name: 8|[VLESS] KR_speednode_0017
   port: 19001
   reality-opts:
     public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
@@ -86,7 +64,7 @@ proxies:
   udp: true
   uuid: 6eeb820e-89ef-4b60-9060-ddcaea0580f0
 - client-fingerprint: random
-  name: 10|[VLESS] KR_speednode_0018
+  name: 8|[VLESS] KR_speednode_0018
   network: ws
   port: 20201
   server: 220.71.1.32
@@ -103,7 +81,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 10|[VLESS] KR_speednode_0019
+  name: 8|[VLESS] KR_speednode_0019
   network: ws
   port: 37810
   server: 211.193.169.223
@@ -120,7 +98,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 10|[VLESS] KR_speednode_0020
+  name: 8|[VLESS] KR_speednode_0020
   network: ws
   port: 12345
   server: 121.174.43.148
@@ -134,7 +112,7 @@ proxies:
     headers:
       Host: snippet.chinat.eu.cc
     path: /danfeng
-- name: 10|[Trojan] KR_speednode_0021
+- name: 8|[Trojan] KR_speednode_0021
   network: ws
   password: trojan
   port: 20000
@@ -148,7 +126,7 @@ proxies:
       Host: jflsjlaf.pages.dev
     path: /
 - client-fingerprint: chrome
-  name: 10|[VLESS] KR_speednode_0022
+  name: 8|[VLESS] KR_speednode_0022
   network: ws
   port: 16993
   server: 222.113.18.207
@@ -165,7 +143,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 10|[VLESS] KR_speednode_0023
+  name: 8|[VLESS] KR_speednode_0023
   network: ws
   port: 10162
   server: 106.251.70.75
@@ -182,7 +160,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 10|[VLESS] KR_speednode_0024
+  name: 8|[VLESS] KR_speednode_0024
   network: ws
   port: 50006
   server: 175.199.169.221
@@ -197,7 +175,7 @@ proxies:
       Host: snippet.fgfw.de5.net
     path: /danfeng
 - client-fingerprint: chrome
-  name: 10|[VLESS] KR_speednode_0025
+  name: 8|[VLESS] KR_speednode_0025
   network: ws
   port: 11371
   server: 121.152.61.147
@@ -211,7 +189,7 @@ proxies:
     headers:
       Host: snippet.fgfw.de5.net
     path: /danfeng
-- name: 10|[Trojan] KR_speednode_0026
+- name: 8|[Trojan] KR_speednode_0026
   network: ws
   password: trojan
   port: 11434
@@ -226,7 +204,7 @@ proxies:
     path: /
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 10|[VLESS] KR_speednode_0027
+  name: 8|[VLESS] KR_speednode_0027
   port: 2443
   reality-opts:
     public-key: BmqEE16ux216I-WcezMLroZxIoV09PfeMS-xhyfWTVs

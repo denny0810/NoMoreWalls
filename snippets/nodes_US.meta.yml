@@ -1,5 +1,5 @@
 proxies:
-- name: 4,5|[Trojan] 美国|@ripaojiedian
+- name: 5,6|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   port: 3700
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 美国2|@ripaojiedian
+- name: 5,6|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   port: 29370
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 美国3|@ripaojiedian
+- name: 5,6|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 15407
@@ -23,93 +23,63 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
+- client-fingerprint: qq
+  encryption: none
   flow: xtls-rprx-vision
   http-opts:
     headers: {}
     path:
     - /
-  name: 6|[VLESS] usUS_1|1.6MB/s
+  name: 7|[VLESS] usUS_1|2.5MB/s
   network: tcp
-  port: 49836
+  port: 10121
   reality-opts:
-    public-key: GO5Oj6pvIPmAz3D-c1B5FZy4ZeVpnPQzcX1cZcnS9i0
-    short-id: '!!str b6d67bd8896d16'
-  server: panda.cumotech.com
-  servername: tesla.com
+    public-key: 4DdA8dBVn5zB_UTbgBY45YqM0HU8zrjXYdzg3-wz5Rg
+    short-id: '!!str 9c2a7d4e5f18b6a3'
+  server: 150.241.83.152
+  servername: apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 2b7118d9-04c0-4c2f-8a2d-fe44bef73c7b
+  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
   xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] usUS_2|1.2MB/s
-  network: tcp
-  port: 49836
-  reality-opts:
-    public-key: GO5Oj6pvIPmAz3D-c1B5FZy4ZeVpnPQzcX1cZcnS9i0
-    short-id: '!!str b6d67bd8896d16'
-  server: 64.186.249.72
-  servername: tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2b7118d9-04c0-4c2f-8a2d-fe44bef73c7b
-  xudp: true
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] usUS_3|1.0MB/s
-  network: tcp
-  port: 443
-  server: s174.okgg.top
-  servername: u710947u02d5s174.okgg.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] usUS_4|1.1MB/s
+- delay: 1434
+  name: 7|[Trojan] usUS_2|2.8MB/s
   network: ws
-  port: 52513
-  server: aflzzul.meiquankongjian.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+  password: trojan
+  port: 50000
+  server: 38.60.89.136
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: aflzzul.meiquankongjian.com
-    path: /564dfa20/
-  xudp: true
-- name: 6|[VLESS] usUS_5|2.0MB/s
-  network: ws
-  port: 2052
-  server: www.visa.com.sg
-  type: vless
-  udp: true
-  uuid: 25efc727-e853-49ba-9609-3c20009d0e7a
-  ws-opts:
-    headers:
-      Host: winbiss-0tpka6-v1.winbiss.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
     path: /
-  xudp: true
+- client-fingerprint: chrome
+  name: 7|[Trojan] usUS_3|1.6MB/s
+  network: ws
+  password: trojan
+  port: 7071
+  server: 154.17.234.78
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
+  name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.251
   type: ss
-- name: 7|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
+- name: 8|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
   password: ''
   port: 7070
   server: 20.83.154.79
@@ -117,7 +87,7 @@ proxies:
   type: socks5
   username: ''
 - client-fingerprint: randomized
-  name: 9|[VLESS] US_speednode_0037
+  name: 10|[VLESS] US_speednode_0037
   network: ws
   port: 2095
   server: www.npmjs.com
@@ -132,7 +102,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing-nmsl-ccc.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 9|[VLESS] US_speednode_0038
+  name: 10|[VLESS] US_speednode_0038
   network: ws
   port: 2095
   server: www.udemy.com
@@ -146,7 +116,7 @@ proxies:
     headers:
       Host: fuckingfangbinxing.cnm-fangbinxing-nmsl-ccc.workers.dev
     path: /
-- name: 9|[Trojan] US_speednode_0039
+- name: 10|[Trojan] US_speednode_0039
   network: ws
   password: trojan
   port: 8025
@@ -159,7 +129,7 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
-- name: 9|[VLESS] US_speednode_0040
+- name: 10|[VLESS] US_speednode_0040
   network: ws
   port: 443
   server: 172.64.229.85
@@ -174,7 +144,7 @@ proxies:
       Host: r.icy.de5.net
     path: /?ed=2560
 - client-fingerprint: randomized
-  name: 9|[VLESS] US_speednode_0041
+  name: 10|[VLESS] US_speednode_0041
   network: ws
   port: 2095
   server: ns.cloudflare.com
@@ -189,7 +159,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing-nmsl-ccc.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 9|[VLESS] US_speednode_0042
+  name: 10|[VLESS] US_speednode_0042
   network: ws
   port: 2095
   server: www.wto.org
@@ -203,7 +173,7 @@ proxies:
     headers:
       Host: fuckingfangbinxing.cnm-fangbinxing-nmsl-ccc.workers.dev
     path: /
-- name: 9|[VLESS] US_speednode_0043
+- name: 10|[VLESS] US_speednode_0043
   network: ws
   port: 443
   server: 162.159.38.78
@@ -217,7 +187,7 @@ proxies:
     headers:
       Host: r.icy.de5.net
     path: /?ed=2560
-- name: 9|[VLESS] US_speednode_0044
+- name: 10|[VLESS] US_speednode_0044
   network: ws
   port: 443
   server: 162.159.24.111
@@ -233,7 +203,7 @@ proxies:
     path: /?ed=2560
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 9|[VLESS] US_speednode_0045
+  name: 10|[VLESS] US_speednode_0045
   port: 19001
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
@@ -245,7 +215,7 @@ proxies:
   udp: true
   uuid: d13545be-5c06-4283-cdf3-a364201bf9fb
 - client-fingerprint: chrome
-  name: 9|[VLESS] US_speednode_0046
+  name: 10|[VLESS] US_speednode_0046
   network: ws
   port: 443
   server: 162.159.7.2
@@ -259,7 +229,7 @@ proxies:
     headers:
       Host: r.icy.de5.net
     path: /?ed=2560
-- name: 9|[VLESS] US_speednode_0047
+- name: 10|[VLESS] US_speednode_0047
   network: ws
   port: 443
   server: 172.64.229.165
@@ -273,7 +243,7 @@ proxies:
     headers:
       Host: r.icy.de5.net
     path: /?ed=2560
-- name: 9|[VLESS] US_speednode_0048
+- name: 10|[VLESS] US_speednode_0048
   network: ws
   port: 443
   server: www.visa.cn
@@ -287,7 +257,7 @@ proxies:
     headers:
       Host: r.icy.de5.net
     path: /?ed=2560
-- name: 9|[VLESS] US_speednode_0049
+- name: 10|[VLESS] US_speednode_0049
   network: ws
   port: 443
   server: 192.0.54.131
@@ -301,7 +271,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng?ed=2560
-- name: 9|[VLESS] US_speednode_0050
+- name: 10|[VLESS] US_speednode_0050
   network: ws
   port: 443
   server: 192.0.63.230
@@ -315,7 +285,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng?ed=2560
-- name: 9|[VLESS] US_speednode_0051
+- name: 10|[VLESS] US_speednode_0051
   network: ws
   port: 443
   server: 192.0.63.56
@@ -329,7 +299,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng?ed=2560
-- name: 9|[VLESS] US_speednode_0052
+- name: 10|[VLESS] US_speednode_0052
   network: ws
   port: 443
   server: 192.0.54.225
@@ -343,7 +313,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng?ed=2560
-- name: 9|[VLESS] US_speednode_0053
+- name: 10|[VLESS] US_speednode_0053
   network: ws
   port: 443
   server: 192.0.63.134
@@ -357,7 +327,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng?ed=2560
-- name: 9|[VLESS] US_speednode_0054
+- name: 10|[VLESS] US_speednode_0054
   network: ws
   port: 443
   server: 192.0.54.188
@@ -372,7 +342,7 @@ proxies:
       Host: snippet.danfeng.kozow.com
     path: /danfeng?ed=2560
 - client-fingerprint: chrome
-  name: 9|[VLESS] US_speednode_0055
+  name: 10|[VLESS] US_speednode_0055
   network: ws
   port: 443
   server: 104.17.155.101
@@ -386,7 +356,7 @@ proxies:
     headers:
       Host: wu.090881.xyz
     path: /products/proxyip=ProxyIP.SG.CMLiussss.net/proxyip=ProxyIP.SG.CMLiussss.net
-- name: 9|[VLESS] US_speednode_0056
+- name: 10|[VLESS] US_speednode_0056
   network: ws
   port: 443
   server: 172.64.156.0
@@ -401,7 +371,7 @@ proxies:
       Host: r.icy.de5.net
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 9|[VLESS] US_speednode_0057
+  name: 10|[VLESS] US_speednode_0057
   network: ws
   port: 443
   server: vip1.kaixincloud.top
@@ -415,7 +385,7 @@ proxies:
     headers:
       Host: r.icy.de5.net
     path: /?ed=2560
-- name: 9|[VLESS] US_speednode_0058
+- name: 10|[VLESS] US_speednode_0058
   network: ws
   port: 443
   server: 192.0.63.56
@@ -430,7 +400,7 @@ proxies:
       Host: snippet.danfeng.kozow.com
     path: /danfeng
 - client-fingerprint: chrome
-  name: 9|[VLESS] US_speednode_0059
+  name: 10|[VLESS] US_speednode_0059
   network: ws
   port: 443
   server: 162.159.44.142
@@ -446,7 +416,7 @@ proxies:
     path: /?ed=2560
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 9|[VLESS] US_speednode_0060
+  name: 10|[VLESS] US_speednode_0060
   port: 2443
   reality-opts:
     public-key: Rp0axdMMyjBY3su8yFECX1rMCcg90y0HcCHalmxs73Y
@@ -458,7 +428,7 @@ proxies:
   type: vless
   udp: true
   uuid: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
-- name: 9|[VLESS] US_speednode_0061
+- name: 10|[VLESS] US_speednode_0061
   network: ws
   port: 443
   server: 192.0.54.131
@@ -472,7 +442,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng
-- name: 9|[VLESS] US_speednode_0062
+- name: 10|[VLESS] US_speednode_0062
   network: ws
   port: 443
   server: 192.0.63.230
@@ -486,7 +456,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng
-- name: 9|[VLESS] US_speednode_0063
+- name: 10|[VLESS] US_speednode_0063
   network: ws
   port: 443
   server: 192.0.54.188
@@ -500,7 +470,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng
-- name: 9|[VLESS] US_speednode_0064
+- name: 10|[VLESS] US_speednode_0064
   network: ws
   port: 443
   server: 192.0.63.134
@@ -514,7 +484,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng
-- name: 9|[Trojan] US_speednode_0065
+- name: 10|[Trojan] US_speednode_0065
   password: 3ac6a6ca99f74941b1eaf892818e2ddb
   port: 443
   server: 77.247.126.137
@@ -523,7 +493,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 9|[VLESS] US_speednode_0066
+  name: 10|[VLESS] US_speednode_0066
   port: 443
   reality-opts:
     public-key: I69t4VQEvCY-NlQuMVHGggvJ2aNo18gWstkmA-uQWxE
@@ -535,7 +505,7 @@ proxies:
   udp: true
   uuid: d8e5386f-5b56-4a5a-87e2-26fecd735356
 - client-fingerprint: chrome
-  name: 9|[VLESS] US_speednode_0067
+  name: 10|[VLESS] US_speednode_0067
   port: 18959
   reality-opts:
     public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
@@ -547,7 +517,7 @@ proxies:
   type: vless
   udp: true
   uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
-- name: 9|[Trojan] US_speednode_0068
+- name: 10|[Trojan] US_speednode_0068
   password: 3ac6a6ca99f74941b1eaf892818e2ddb
   port: 443
   server: 194.33.45.157
@@ -557,7 +527,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 9|[VLESS] US_speednode_0069
+  name: 10|[VLESS] US_speednode_0069
   network: ws
   port: 8443
   server: 143.14.22.98
@@ -571,7 +541,7 @@ proxies:
     headers:
       Host: snippet.chinat.eu.cc
     path: /danfeng
-- name: 9|[VLESS] US_speednode_0070
+- name: 10|[VLESS] US_speednode_0070
   network: ws
   port: 443
   server: 192.200.160.20

@@ -21,6 +21,26 @@ proxies:
   sni: api.kermanshahi.org@freenettir
   tls: false
   type: hysteria2
+- client-fingerprint: randomized
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7|[VLESS] chCH_1|1.4MB/s
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: tZ-tscsitfHIe63_9FAqruCnJaNFhRaKCnR8G-e4-CM
+    short-id: '!!str ae'
+  server: 83.228.241.85
+  servername: images.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6cabb434-f480-478a-9586-a5667167eeb1
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 10|[VLESS] CH_speednode_0005

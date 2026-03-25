@@ -1,4 +1,21 @@
 proxies:
+- client-fingerprint: randomized
+  encryption: none
+  grpc-opts:
+    grpc-service-name: max.ru
+  name: 7|[VLESS] ruRU_1|1.4MB/s
+  network: grpc
+  port: 40443
+  reality-opts:
+    public-key: _A6MVT9TnnPfZKZ7Zqqag6Z1zy46sMFieoaQcMA03XY
+    short-id: '!!str 57a6'
+  server: 45.89.190.83
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5a1b1f3-3cb6-4eb0-bdd6-77241f797bb8
+  xudp: true
 - name: 10|[VLESS] RU_speednode_0033
   network: ws
   port: 443

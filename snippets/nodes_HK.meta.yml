@@ -1,14 +1,14 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 5|[Vmess] hk 香港|@ripaojiedian
+  name: 4|[Vmess] hk 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 5,6|[Trojan] 香港3|@ripaojiedian
+- name: 4,5|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   port: 921
@@ -16,7 +16,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 香港4|@ripaojiedian
+- name: 4,5|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 36854
@@ -24,7 +24,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 5,6|[Trojan] 香港5|@ripaojiedian
+- name: 4,5|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 6313
@@ -34,7 +34,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 6|[Vmess] 香港|@ripaojiedian
+  name: 5|[Vmess] 香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -42,46 +42,10 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 7|[Http] hkHK_1|3.2MB/s
-  password: 0b869f32-657e-11ee-a90c-f23c9313b177
-  port: 8443
-  server: 55942b88-ta0g00-taad0h-24c4.hkmpro.wkuaishou.com
-  sni: 55942b88-ta0g00-taad0h-24c4.hkmpro.wkuaishou.com
-  tls: true
-  type: http
-  username: 0b869f32-657e-11ee-a90c-f23c9313b177
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 7|[VLESS] hkHK_2|2.2MB/s
-  network: ws
-  port: 51198
-  server: 103.69.129.71
-  servername: snippet.fgfw.ndjp.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.ndjp.net
-    path: /danfeng
-- down: ''
-  fingerprint: ''
-  name: 7|[Hysteria2] hkHK_3|1.3MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-  port: 443
-  server: 22f48047-t6pb40-tasftf-duku.hk1.hyhuawei.com
-  skip-cert-verify: false
-  sni: 22f48047-t6pb40-tasftf-duku.hk1.hyhuawei.com
-  type: hysteria2
-  up: ''
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 10|[VLESS] HK_speednode_0010
+  name: 9|[VLESS] HK_speednode_0010
   network: ws
   port: 3389
   server: 203.168.131.110
@@ -98,7 +62,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 10|[VLESS] HK_speednode_0011
+  name: 9|[VLESS] HK_speednode_0011
   network: ws
   port: 3389
   server: 203.168.131.110

@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 美国3|@ripaojiedian
+- name: 5,6,7|[Trojan] usUS_5|2.2MB/s
   network: tcp
   password: BxceQaOe
   port: 49534
@@ -23,7 +23,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 7|[Trojan] usUS_7|2.4MB/s
+- name: 7|[Trojan] usUS_1|1.2MB/s
   network: tcp
   password: de7d6444-a7a8-4b3a-bf26-bc6939bb0279
   port: 443
@@ -32,13 +32,14 @@ proxies:
   sni: n2.chateditimage.com
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|[SS] usUS_5|2.1MB/s
-  password: 3e133e6f-606c-45ac-997e-96a03243df7c
-  port: 10020
-  server: us1-ss.flyparts.cn
-  type: ss
-  udp: true
+- name: 7|[Trojan] usUS_3|2.3MB/s
+  network: tcp
+  password: 4123ae62-0999-4984-8ead-091630e594a9
+  port: 443
+  server: n1.chateditimage.com
+  skip-cert-verify: true
+  sni: n1.chateditimage.com
+  type: trojan
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

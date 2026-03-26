@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 美国3|@ripaojiedian
+- name: 5,6,7|[Trojan] usUS_5|2.2MB/s
   network: tcp
   password: BxceQaOe
   port: 49534
@@ -23,46 +23,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 7|[VLESS] usUS_1|1.7MB/s
-  network: tcp
-  port: 443
-  server: s175.okgg.top
-  servername: u710947ud086s175.okgg.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  xudp: true
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 7|[VLESS] usUS_2|1.7MB/s
-  network: tcp
-  port: 443
-  server: s174.okgg.top
-  servername: u710947u02d5s174.okgg.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  xudp: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 7|[VLESS] usUS_3|1.2MB/s
-  network: tcp
-  port: 10121
-  reality-opts:
-    public-key: 4DdA8dBVn5zB_UTbgBY45YqM0HU8zrjXYdzg3-wz5Rg
-    short-id: '!!str 9c2a7d4e5f18b6a3'
-  server: 150.241.83.152
-  servername: apple.com
-  tls: true
-  type: vless
-  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
-- name: 7|[Trojan] usUS_7|2.4MB/s
+- name: 7|[Trojan] usUS_1|1.2MB/s
   network: tcp
   password: de7d6444-a7a8-4b3a-bf26-bc6939bb0279
   port: 443
@@ -71,14 +32,7 @@ proxies:
   sni: n2.chateditimage.com
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|[SS] usUS_5|2.1MB/s
-  password: 3e133e6f-606c-45ac-997e-96a03243df7c
-  port: 10020
-  server: us1-ss.flyparts.cn
-  type: ss
-  udp: true
-- name: 7|[Hysteria2] usUS_6|3.7MB/s
+- name: 7|[Hysteria2] usUS_2|2.1MB/s
   password: fGIvSUXOYn7WYPNAc2PmjYuIKbw
   port: 29794
   server: 38.165.21.126
@@ -86,6 +40,14 @@ proxies:
   sni: bing.com
   tfo: false
   type: hysteria2
+- name: 7|[Trojan] usUS_3|2.3MB/s
+  network: tcp
+  password: 4123ae62-0999-4984-8ead-091630e594a9
+  port: 443
+  server: n1.chateditimage.com
+  skip-cert-verify: true
+  sni: n1.chateditimage.com
+  type: trojan
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

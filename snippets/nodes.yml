@@ -38,7 +38,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 5,6|[Trojan] 日本|@ripaojiedian
+- name: 5,6,7|[Trojan] jpJP_8|3.2MB/s
   network: tcp
   password: BxceQaOe
   port: 3022
@@ -102,7 +102,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 美国3|@ripaojiedian
+- name: 5,6,7|[Trojan] usUS_5|2.2MB/s
   network: tcp
   password: BxceQaOe
   port: 49534
@@ -120,29 +120,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 7|[Trojan] nlNL_1|1.2MB/s
-  network: tcp
-  password: WF42809561
-  port: 443
-  server: fun-seagull.rooster465.autos
-  skip-cert-verify: true
-  sni: fun-seagull.rooster465.autos
-  type: trojan
-- cipher: aes-256-gcm
-  name: 7|[SS] deDE_1|4.1MB/s
-  password: 139b5705-8566-404e-8de7-18e97c719ebc
-  port: 7002
-  server: gm.academicbest.dpdns.org
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|[SS] twTW_2|1.2MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: nbmrcg0034458by.cybervena.com
-  type: ss
-  udp: true
-- name: 7|[Trojan] usUS_7|2.4MB/s
+- name: 7|[Trojan] usUS_1|1.2MB/s
   network: tcp
   password: de7d6444-a7a8-4b3a-bf26-bc6939bb0279
   port: 443
@@ -151,61 +129,42 @@ proxies:
   sni: n2.chateditimage.com
   type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 7|[Vmess] sgSG_4|2.3MB/s
+- name: 7|[Trojan] usUS_3|2.3MB/s
   network: tcp
-  port: 30845
-  server: v45.hdacd.com
+  password: 4123ae62-0999-4984-8ead-091630e594a9
+  port: 443
+  server: n1.chateditimage.com
   skip-cert-verify: true
-  tls: false
+  sni: n1.chateditimage.com
+  type: trojan
+- name: 7|[Trojan] jpJP_9|4.5MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 3022
+  server: 13.113.229.223
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 7|[Vmess] idID_1|1.7MB/s
+  network: ws
+  port: 443
+  server: 8.223.63.189
+  servername: mn1ray.jagoanvip.xyz
+  skip-cert-verify: false
+  tls: true
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf
-  name: 7|[SS] sgSG_5|1.7MB/s
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  type: ss
-- name: 7|[Trojan] plPL_2|3.0MB/s
-  network: tcp
-  password: WF42809561
-  port: 443
-  server: funky-platypus.rooster465.autos
-  skip-cert-verify: true
-  sni: funky-platypus.rooster465.autos
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|[SS] twTW_3|1.3MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001213klw.cybervena.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|[SS] usUS_5|2.1MB/s
-  password: 3e133e6f-606c-45ac-997e-96a03243df7c
-  port: 10020
-  server: us1-ss.flyparts.cn
-  type: ss
-  udp: true
-- delay: 1769
-  name: 7|[Trojan] caCA_1|1003KB/s
-  network: ws
-  password: trojan
-  port: 9527
-  server: 217.197.97.121
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 8|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

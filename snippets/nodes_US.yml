@@ -2,56 +2,43 @@ proxies:
 - name: 5,6|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  port: 3700
-  server: 160.16.70.180
+  port: 3057
+  server: 13.230.200.237
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 5,6|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  port: 29370
-  server: 18.183.109.249
+  port: 4019
+  server: 52.192.225.14
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 5,6|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 15407
-  server: 18.183.109.144
+  port: 49534
+  server: 18.166.177.165
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- delay: 1434
-  name: 7|[Trojan] usUS_2|2.8MB/s
-  network: ws
-  password: trojan
-  port: 50000
-  server: 38.60.89.136
+- name: 7|[Trojan] usUS_7|2.4MB/s
+  network: tcp
+  password: de7d6444-a7a8-4b3a-bf26-bc6939bb0279
+  port: 443
+  server: n2.chateditimage.com
   skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  name: 7|[Trojan] usUS_3|1.6MB/s
-  network: ws
-  password: trojan
-  port: 7071
-  server: 154.17.234.78
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
+  sni: n2.chateditimage.com
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] usUS_5|2.1MB/s
+  password: 3e133e6f-606c-45ac-997e-96a03243df7c
+  port: 10020
+  server: us1-ss.flyparts.cn
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

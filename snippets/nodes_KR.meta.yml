@@ -1,41 +1,6 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  name: 7|[Vmess] krKR_2|1.8MB/s
-  network: ws
-  port: 443
-  server: chuncheon03.zgjok.com
-  servername: chuncheon03.zgjok.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 81d5cac4-d039-4874-9a20-c391f580012d
-  ws-opts:
-    headers:
-      Host: chuncheon03.zgjok.com
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇰🇷KR
-  delay: 1916
-  h2-opts: {}
-  http-opts: {}
-  name: 7|[Vmess] krKR_3|1.6MB/s
-  network: ws
-  port: 443
-  server: chuncheon02.zgjok.com
-  servername: chuncheon02.zgjok.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d1a1cb91-0f1f-41eb-a307-631bba00f1bb
-  ws-opts:
-    headers:
-      HOST: chuncheon02.zgjok.com
-    path: /
 - delay: 1772
-  name: 7|[Trojan] krKR_4|1.8MB/s
+  name: 7|[Trojan] krKR_1|1.2MB/s
   network: ws
   password: trojan
   port: 11434
@@ -49,21 +14,16 @@ proxies:
       Host: jflsjlaf.pages.dev
     max-early-data: 2560
     path: /
-- delay: 1352
-  name: 7|[Trojan] krKR_5|1.1MB/s
-  network: ws
-  password: trojan
-  port: 17988
-  server: 175.126.186.39
+- name: 7|[Http] krKR_2|1.5MB/s
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
   skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
+  sni: testkr3.ssv.vc
+  tls: true
+  type: http
+  udp: true
+  username: test
 - name: 8|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
   port: 1090
   server: 121.169.46.116

@@ -24,11 +24,12 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: 7|[VLESS] sgSG_2|1.0MB/s
+  encryption: none
+  name: 7|[VLESS] sgSG_1|1.7MB/s
   network: ws
   port: 443
-  server: 8.35.211.69
-  servername: snip.ere.de5.net
+  server: 198.41.223.179
+  servername: snip.zrfme.site
   tls: true
   type: vless
   udp: true
@@ -36,9 +37,47 @@ proxies:
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: snip.ere.de5.net
+      Host: snip.zrfme.site
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
     max-early-data: 2560
     path: /zrf
+  xudp: true
+- name: 7|[VLESS] sgSG_2|1.4MB/s
+  network: ws
+  port: 443
+  server: 8.39.125.51
+  servername: snip.wif.pp.ua
+  tls: true
+  type: vless
+  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.wif.pp.ua
+    max-early-data: 2560
+    path: /zrf
+- name: 7|[VLESS] sgSG_3|1014KB/s
+  network: ws
+  port: 443
+  server: 8.39.125.203
+  servername: snip1.xcf.de5.net
+  tls: true
+  type: vless
+  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip1.xcf.de5.net
+    max-early-data: 2560
+    path: /zrf
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] sgSG_4|1.9MB/s
+  password: f8582f56-85e5-48f0-9909-163d473e2296
+  port: 28902
+  server: efzhuzhu02.idsduf.com
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 8|[SS] sgSG²_1|2.4MB/s|X|History

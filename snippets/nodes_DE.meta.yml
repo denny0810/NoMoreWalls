@@ -9,6 +9,26 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  name: 7|[VLESS] deDE_1|1.1MB/s
+  network: ws
+  port: 443
+  server: 172.67.77.155
+  servername: snip.zrfs.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.zrfs.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    max-early-data: 2560
+    path: /zrf
+  xudp: true
 - name: 10|[VLESS] DE_speednode_0007
   network: ws
   port: 8005

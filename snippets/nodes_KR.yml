@@ -1,35 +1,5 @@
 proxies:
-- delay: 1772
-  name: 7|[Trojan] krKR_1|1.2MB/s
-  network: ws
-  password: trojan
-  port: 11434
-  server: 114.207.99.233
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7|[Vmess] krKR_2|4.4MB/s
-  network: ws
-  port: 443
-  server: chuncheon03.zgjok.com
-  servername: chuncheon03.zgjok.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 81d5cac4-d039-4874-9a20-c391f580012d
-  ws-opts:
-    headers:
-      Host: chuncheon03.zgjok.com
-    path: /
-- name: 10|[Trojan] KR_speednode_0021
+- name: 9|[Trojan] KR_speednode_0021
   network: ws
   password: trojan
   port: 20000
@@ -42,7 +12,7 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
-- name: 10|[Trojan] KR_speednode_0026
+- name: 9|[Trojan] KR_speednode_0026
   network: ws
   password: trojan
   port: 11434

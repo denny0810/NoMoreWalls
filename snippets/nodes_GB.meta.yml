@@ -1,68 +1,44 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 7|[VLESS] gbGB_1|1.1MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: WfCGASxNxAvNzJZH6Onu5HB2Nup4ZHB_Lpyru_1aqWA
-    short-id: '!!str fbb0342cef1b13ea'
-  server: pol.pinkweb.one
-  servername: pol.pinkweb.one
-  tls: true
-  type: vless
-  uuid: 4dde0df3-aa67-417c-882e-28beb3886961
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: violet
-  name: 7|[VLESS] gbGB_2|1.7MB/s
-  network: grpc
-  port: 25055
-  server: sgskb.osaip.net
-  servername: sgskb.osaip.net
-  tls: true
-  type: vless
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] gbGB_1|1.7MB/s
+  network: ws
+  port: 45712
+  server: gb01.jsylianjie5.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  uuid: 4f4a8ac0-e88c-4db4-a2e0-59cb31ed57d7
+  uuid: 71165393-5252-4fea-ac96-c36b508720c8
+  ws-opts:
+    headers:
+      Host: gb01.jsylianjie5.com
+    path: /
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: violet
-  name: 7|[VLESS] gbGB_3|3.0MB/s
-  network: grpc
-  port: 25055
-  server: sgskb.osaip.net
-  servername: sgskb.osaip.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab8ca81-80ea-445e-ba31-f900007c2e4e
-  xudp: true
-- client-fingerprint: chrome
+- alpn:
+  - http/1.1
+  client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
   http-opts:
     headers: {}
     path:
     - /
-  name: 7|[VLESS] gbGB_4|3.1MB/s
+  name: 6|[VLESS] gbGB_2|1.0MB/s
   network: tcp
   port: 443
-  reality-opts:
-    public-key: iCY6H8CpnIfqmIkEABduJEAeJrnYS089R1-jKEyVp3w
-    short-id: '!!str 5589c1'
-  server: 45.150.65.43
-  servername: us1.frostbot.ru
+  server: 185.93.105.107
+  servername: sub.sbrf-cdn342.ru
   tls: true
   type: vless
   udp: true
-  uuid: fd37be2f-f8d1-47de-97e8-13c28107d31e
+  uuid: c4f2dee2-14e3-4c02-91e9-31c7917e239c
   xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 10|[VLESS] GB_speednode_0009
+  name: 9|[VLESS] GB_speednode_0009
   port: 2443
   reality-opts:
     public-key: 498LE1B8NFnfagrOnGGmuh80KqgKXMKiHbgcpxRqBB0

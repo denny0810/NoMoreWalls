@@ -14,16 +14,21 @@ proxies:
       Host: jflsjlaf.pages.dev
     max-early-data: 2560
     path: /
-- name: 7|[Http] krKR_2|1.5MB/s
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  sni: testkr3.ssv.vc
+- alterId: 0
+  cipher: auto
+  name: 7|[Vmess] krKR_2|4.4MB/s
+  network: ws
+  port: 443
+  server: chuncheon03.zgjok.com
+  servername: chuncheon03.zgjok.com
+  skip-cert-verify: false
   tls: true
-  type: http
-  udp: true
-  username: test
+  type: vmess
+  uuid: 81d5cac4-d039-4874-9a20-c391f580012d
+  ws-opts:
+    headers:
+      Host: chuncheon03.zgjok.com
+    path: /
 - name: 8|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
   port: 1090
   server: 121.169.46.116

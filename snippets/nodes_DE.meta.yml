@@ -1,43 +1,23 @@
 proxies:
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 7|[VLESS] deDE_1|2.0MB/s
-  network: tcp
-  port: 64000
-  reality-opts:
-    public-key: dlBsx7pNsGbUWcVaeIiXqPs4s8sENsJRzPGnsZ8CH0Q
-    short-id: '!!str cbfdda0fad80decc'
-  server: 94.156.179.208
-  servername: notion.so
-  tls: true
-  type: vless
-  udp: true
-  uuid: 916de9ac-1fe3-4c93-887a-ce4285d0bb9b
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 7|[VLESS] deDE_2|1.9MB/s
-  network: tcp
-  port: 443
-  server: 213.176.67.123
-  servername: nlcdn9.dramatorg.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6c05419-9338-44fc-926d-918c55bacf44
-  xudp: true
-- name: 10|[VLESS] DE_speednode_0007
+- delay: 2230
+  name: 6|[Trojan] deDE_1|1005KB/s
   network: ws
-  port: 8005
-  server: 45.145.42.170
+  password: trojan
+  port: 8444
+  server: 38.180.48.182
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- name: 9|[VLESS] DE_speednode_0006
+  network: ws
+  port: 4001
+  server: 185.94.29.156
   servername: sub.mot.ip-ddns.com
   skip-cert-verify: true
   tls: true

@@ -1,1 +1,16 @@
-proxies: []
+proxies:
+- delay: 2230
+  name: 6|[Trojan] deDE_1|1005KB/s
+  network: ws
+  password: trojan
+  port: 8444
+  server: 38.180.48.182
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /

@@ -1,5 +1,5 @@
 proxies:
-- name: 5,6|[Trojan] 日本|@ripaojiedian
+- name: 4,5|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 1951
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 5,6|[Trojan] 日本2|@ripaojiedian
+- name: 4,5|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   port: 34818
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 日本3|@ripaojiedian
+- name: 4,5|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   port: 4937
@@ -23,53 +23,3 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 7|[VLESS] jpJP_1|2.1MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: nVzI4EQkvZtvcZfM75BLJIPOZozAAx95orRYalEUr0g
-    short-id: '!!str 06ca00b73f645afc'
-  server: jp3.miyazono-kaori.com
-  servername: lol.dyn.riotcdn.net
-  tls: true
-  type: vless
-  uuid: a7f51913-f3a6-456c-81d3-8a6dd8b6b11e
-- name: 7|[Http] jpJP_2|2.0MB/s
-  password: b585dac6-dc69-11ef-9f1c-f23c913c8d2b
-  port: 27233
-  server: 96da8662-t9zts0-tb5nzx-1mqag.cm4.oshuawei.com
-  sni: 96da8662-t9zts0-tb5nzx-1mqag.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: b585dac6-dc69-11ef-9f1c-f23c913c8d2b
-- client-fingerprint: random
-  name: 10|[VLESS] JP_speednode_0014
-  network: ws
-  port: 39738
-  server: 103.214.168.247
-  servername: snippet.fgfw.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.de5.net
-    path: /danfeng
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 10|[VLESS] JP_speednode_0015
-  port: 2443
-  reality-opts:
-    public-key: u8FFKKLif3K14_SqiDEF834Rpp4zETdOYt2mFrrsSnQ
-    short-id: '!!str b15116d00de0'
-  server: 217.142.227.120
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5

@@ -14,7 +14,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 5,6,7|[Trojan] hkHK_2|1.5MB/s
+- name: 5,6|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   port: 21413
@@ -54,7 +54,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6,7|[Trojan] jpJP_2|1.7MB/s
+- name: 5,6|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   port: 9201
@@ -94,7 +94,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6,7|[Trojan] usUS_3|1.3MB/s
+- name: 5,6|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   port: 29370
@@ -120,84 +120,33 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 7|[Trojan] usUS_1|1.5MB/s
-  network: ws
-  password: KB09sLgezt
-  port: 39126
-  server: ccnew.jakesolo.eu.org
-  skip-cert-verify: true
-  sni: ccnew.jakesolo.eu.org
-  tfo: false
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ccnew.jakesolo.eu.org
-    path: /tro
-- name: 7|[Trojan] nlNL_1|2.0MB/s
+- delay: 2230
+  name: 7|[Trojan] deDE_1|1.9MB/s
   network: ws
   password: trojan
   port: 8444
-  server: 152.53.60.198
+  server: 38.180.48.182
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 7|[Vmess] usUS_5|1.2MB/s
+  network: raw
+  port: 180
+  server: 82.198.246.97
   skip-cert-verify: false
-  sni: jflsjlaf.pages.dev
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 7|[SS] nlNL_2|2.5MB/s
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.191
-  type: ss
-- delay: 1066
-  name: 7|[Trojan] usUS_15|1.7MB/s
-  network: ws
-  password: trojan
-  port: 7071
-  server: 154.17.234.78
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- delay: 2339
-  name: 7|[Trojan] deDE_4|1.7MB/s
-  network: ws
-  password: trojan
-  port: 8444
-  server: 212.23.200.10
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- delay: 2764
-  name: 7|[Trojan] nlNL_3|1.4MB/s
-  network: ws
-  password: trojan
-  port: 8444
-  server: 152.53.200.83
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 8|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

@@ -1,48 +1,10 @@
 proxies:
-- auth: aYIRTa8rLh9qRDIrcUakSfzpWUhPcCKD
-  name: 7|[Hysteria2] deDE_1|1.9MB/s
-  password: aYIRTa8rLh9qRDIrcUakSfzpWUhPcCKD
-  port: 12152
-  server: www.lightenq.buzz
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  udp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: GrpcFuckRKN
-  name: 7|[VLESS] deDE_2|1.4MB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: LwP6wU-_noj6mjituSmH8ZLNr54499NTDneUEEXPcAs
-    short-id: '!!str c0ffee12'
-  server: 194.48.250.226
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f00984ef-f57e-41db-9182-b25f7bc3a1e2
-- name: 7|[VLESS] deDE_3|1.0MB/s
-  network: ws
-  port: 2086
-  server: 188.114.98.0
-  tls: false
-  type: vless
-  udp: true
-  uuid: 73829173-bb56-442b-a8d4-ec732c020945
-  ws-opts:
-    headers:
-      Host: a3ssa.vaslbsh.com
-    path: /
-    v2ray-http-upgrade: true
-- delay: 2339
-  name: 7|[Trojan] deDE_4|1.7MB/s
+- delay: 2230
+  name: 7|[Trojan] deDE_1|1.9MB/s
   network: ws
   password: trojan
   port: 8444
-  server: 212.23.200.10
+  server: 38.180.48.182
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
@@ -52,6 +14,25 @@ proxies:
       Host: jflsjlaf.pages.dev
     max-early-data: 2560
     path: /
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7|[VLESS] deDE_2|2.4MB/s
+  network: tcp
+  port: 16579
+  reality-opts:
+    public-key: H0LmyOHq4pLUS06_gdmP4SjvrwsLTcBO3Y5K-T-hIAA
+    short-id: '!!str 6d7a'
+  server: 64.188.106.201
+  servername: www.intel.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 513d2421-7ab5-49c1-b300-c71c3525ce26
+  xudp: true
 - name: 10|[VLESS] DE_speednode_0006
   network: ws
   port: 4001

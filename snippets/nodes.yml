@@ -14,7 +14,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 4,5|[Trojan] 香港3|@ripaojiedian
+- name: 4,5,6|[Trojan] hkHK_2|1.5MB/s
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   port: 21413
@@ -54,7 +54,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 日本3|@ripaojiedian
+- name: 4,5,6|[Trojan] jpJP_2|1.7MB/s
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   port: 9201
@@ -94,7 +94,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 美国2|@ripaojiedian
+- name: 4,5,6|[Trojan] usUS_3|1.3MB/s
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   port: 29370
@@ -120,90 +120,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 6,9|[Trojan] NL_speednode_0015
-  network: tcp
-  password: strong-secret-pass-777
-  port: 4443
-  server: 94.131.105.125
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] twTW_2|1.2MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: namrcg002771r35.cybervena.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] twTW_3|1.6MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: n8mrcg0060292s3.cybervena.com
-  type: ss
-  udp: true
-- name: 6|[Trojan] atAT_1|1.3MB/s
-  network: ws
-  password: trojan
-  port: 8888
-  server: 152.53.45.251
-  skip-cert-verify: false
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/68.0.3440.106 Safari/537.36
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] twTW_4|2.2MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001257bhv.cybervena.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] twTW_5|1.6MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg007153btm.cybervena.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] twTW_6|1.7MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001121x36.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] twTW_7|1.6MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: nbmrcg003505rnd.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] twTW_8|1.9MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: n8mrcg0059595fa.cybervena.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] twTW_10|1.3MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: n8mrcg0059894bj.cybervena.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] twTW_12|1.8MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
-  type: ss
-  udp: true
-- name: 6|[Trojan] usUS_8|2.5MB/s
+- name: 6|[Trojan] usUS_1|1.5MB/s
   network: ws
   password: KB09sLgezt
   port: 39126
@@ -216,13 +133,71 @@ proxies:
     headers:
       Host: ccnew.jakesolo.eu.org
     path: /tro
-- cipher: aes-256-cfb
-  name: 6|[SS] frFR_1|2.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.37.222.70
-  type: ss
+- name: 6|[Trojan] nlNL_1|2.0MB/s
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.60.198
+  skip-cert-verify: false
+  sni: jflsjlaf.pages.dev
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] nlNL_2|2.5MB/s
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.191
+  type: ss
+- delay: 1066
+  name: 6|[Trojan] usUS_15|1.7MB/s
+  network: ws
+  password: trojan
+  port: 7071
+  server: 154.17.234.78
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- delay: 2339
+  name: 6|[Trojan] deDE_4|1.7MB/s
+  network: ws
+  password: trojan
+  port: 8444
+  server: 212.23.200.10
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- delay: 2764
+  name: 6|[Trojan] nlNL_3|1.4MB/s
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.200.83
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...
@@ -341,6 +316,13 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
+- name: 9|[Trojan] NL_speednode_0015
+  password: strong-secret-pass-777
+  port: 4443
+  server: 94.131.105.125
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: 9|[Trojan] US_speednode_0019
   network: ws
   password: trojan

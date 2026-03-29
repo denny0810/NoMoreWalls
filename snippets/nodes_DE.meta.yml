@@ -1,31 +1,57 @@
 proxies:
-- name: 6|[VLESS] deDE_1|3.2MB/s
-  network: ws
-  port: 2053
-  server: 188.34.160.97
-  servername: sni.111000.v6.navy
-  tls: true
-  type: vless
+- auth: aYIRTa8rLh9qRDIrcUakSfzpWUhPcCKD
+  name: 6|[Hysteria2] deDE_1|1.9MB/s
+  password: aYIRTa8rLh9qRDIrcUakSfzpWUhPcCKD
+  port: 12152
+  server: www.lightenq.buzz
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: /?ed=2560&telegram🇨🇳 @wangcai2
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] deDE_2|2.7MB/s
-  network: tcp
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: GrpcFuckRKN
+  name: 6|[VLESS] deDE_2|1.4MB/s
+  network: grpc
   port: 443
   reality-opts:
-    public-key: UV34T0S_VyVcChA2Tb9MIbg4tr1mHGMr_Lw5Gvb17F8
-    short-id: '!!str 66ed2fdd'
-  server: 130.162.220.137
-  servername: www.lamer.com
+    public-key: LwP6wU-_noj6mjituSmH8ZLNr54499NTDneUEEXPcAs
+    short-id: '!!str c0ffee12'
+  server: 194.48.250.226
+  servername: www.microsoft.com
   tls: true
   type: vless
   udp: true
-  uuid: dc6a6c45-b13c-4f1d-8729-19b4d8bba4aa
+  uuid: f00984ef-f57e-41db-9182-b25f7bc3a1e2
+- name: 6|[VLESS] deDE_3|1.0MB/s
+  network: ws
+  port: 2086
+  server: 188.114.98.0
+  tls: false
+  type: vless
+  udp: true
+  uuid: 73829173-bb56-442b-a8d4-ec732c020945
+  ws-opts:
+    headers:
+      Host: a3ssa.vaslbsh.com
+    path: /
+    v2ray-http-upgrade: true
+- delay: 2339
+  name: 6|[Trojan] deDE_4|1.7MB/s
+  network: ws
+  password: trojan
+  port: 8444
+  server: 212.23.200.10
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
 - name: 9|[VLESS] DE_speednode_0006
   network: ws
   port: 4001

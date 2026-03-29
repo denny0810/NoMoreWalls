@@ -1,37 +1,21 @@
 proxies:
-- delay: 2230
-  name: 6|[Trojan] deDE_1|1.9MB/s
-  network: ws
-  password: trojan
-  port: 8444
-  server: 38.180.48.182
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
 - client-fingerprint: chrome
   encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 6|[VLESS] deDE_2|2.4MB/s
-  network: tcp
-  port: 16579
-  reality-opts:
-    public-key: H0LmyOHq4pLUS06_gdmP4SjvrwsLTcBO3Y5K-T-hIAA
-    short-id: '!!str 6d7a'
-  server: 64.188.106.201
-  servername: www.intel.com
+  name: 6|[VLESS] deDE_1|1.2MB/s
+  network: ws
+  port: 8443
+  server: 51.91.100.159
+  servername: sni.111000.v6.navy
   tls: true
   type: vless
   udp: true
-  uuid: 513d2421-7ab5-49c1-b300-c71c3525ce26
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
   xudp: true
 - name: 9|[VLESS] DE_speednode_0006
   network: ws

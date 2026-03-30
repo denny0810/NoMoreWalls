@@ -1,31 +1,12 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 6|[VLESS] krKR_1|1.5MB/s
-  network: tcp
-  port: 19001
-  reality-opts:
-    public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
-    short-id: '!!str '
-  server: krp01.jumperservice.com
-  servername: addons.mozilla.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 455fc271-3ee2-493b-8c75-9324b4851e2f
-  xudp: true
-- name: 7,9|[Socks5] KR_speednode_0009
+- name: 8,10|[Socks5] KR_speednode_0009
   port: 1090
   server: 121.169.46.116
   tls: false
   type: socks5
   udp: true
   username: T2clM0QlM0Q6
-- name: 9|[Http] KR_speednode_0010
+- name: 10|[Http] KR_speednode_0010
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
@@ -35,7 +16,7 @@ proxies:
   udp: true
   username: test
 - client-fingerprint: chrome
-  name: 9|[VLESS] KR_speednode_0011
+  name: 10|[VLESS] KR_speednode_0011
   network: ws
   port: 30035
   server: 106.255.89.151

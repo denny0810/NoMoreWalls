@@ -1,23 +1,73 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] deDE_1|1.2MB/s
+- name: 7|[VLESS] deDE_1|3.6MB/s
   network: ws
-  port: 8443
-  server: 51.91.100.159
+  port: 2053
+  server: 82.117.245.58
   servername: sni.111000.v6.navy
   tls: true
   type: vless
-  udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: sni.111000.v6.navy
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-  xudp: true
-- name: 9|[VLESS] DE_speednode_0006
+    path: /?ed=2560&telegram🇨🇳+@wangcai2
+- name: 7|[VLESS] deDE_2|2.1MB/s
+  network: ws
+  port: 2053
+  server: 188.241.241.29
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: /
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: GrpcFuckRKN
+  name: 7|[VLESS] deDE_3|1.4MB/s
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: LwP6wU-_noj6mjituSmH8ZLNr54499NTDneUEEXPcAs
+    short-id: '!!str c0ffee12'
+  server: 194.48.250.226
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f00984ef-f57e-41db-9182-b25f7bc3a1e2
+- name: 7|[VLESS] deDE_4|1.3MB/s
+  network: ws
+  port: 2086
+  server: 188.114.98.0
+  tls: false
+  type: vless
+  udp: true
+  uuid: 73829173-bb56-442b-a8d4-ec732c020945
+  ws-opts:
+    headers:
+      Host: a3ssa.vaslbsh.com
+    path: /
+    v2ray-http-upgrade: true
+- delay: 2230
+  name: 7|[Trojan] deDE_5|2.2MB/s
+  network: ws
+  password: trojan
+  port: 8444
+  server: 38.180.48.182
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- name: 10|[VLESS] DE_speednode_0006
   network: ws
   port: 4001
   server: 185.94.29.156

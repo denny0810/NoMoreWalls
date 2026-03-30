@@ -1,4 +1,56 @@
 proxies:
+- client-fingerprint: chrome
+  name: 7|[VLESS] deDE_1|1.8MB/s
+  network: ws
+  port: 2022
+  server: 91.107.250.117
+  servername: sub.mot.ip-ddns.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/34.0.1847.131 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 7|[VLESS] deDE_2|3.0MB/s
+  network: ws
+  port: 12648
+  server: 23.27.25.75
+  servername: urfbqo42.danfeng.gv.uy
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: urfbqo42.danfeng.gv.uy
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.162 Safari/537.36
+    max-early-data: 2560
+    path: /danfeng
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 7|[VLESS] deDE_3|1.9MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: p9OR29TWTl-GViMyOHeQWWd0WZI63MkiK49O3CZ62QA
+    short-id: '!!str ba9f3c7d5e1a8b4c'
+  server: 77.110.125.12
+  servername: dzen.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06306128-7995-46ed-84ed-afabc88c7cd1
+  xudp: true
 - name: 10|[VLESS] DE_speednode_0004
   network: ws
   port: 4001

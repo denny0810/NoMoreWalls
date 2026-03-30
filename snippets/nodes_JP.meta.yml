@@ -23,34 +23,3 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- delay: 2152
-  name: 7|[Trojan] jpJP_1|1.2MB/s
-  network: ws
-  password: trojan
-  port: 587
-  server: 217.142.250.195
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 7|[VLESS] jpJP_2|3.3MB/s
-  network: ws
-  port: 3389
-  server: 203.168.131.110
-  servername: snippet.chinav.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.chinav.eu.cc
-    path: /danfeng

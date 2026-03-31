@@ -1,5 +1,5 @@
 proxies:
-- name: 4,5|[Trojan] 美国|@ripaojiedian
+- name: 5,6|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
   port: 3057
@@ -8,7 +8,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 4,5,6|[Trojan] usUS_3|1.8MB/s
+  name: 5,6,7|[Trojan] usUS_3|1.8MB/s
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
   port: 3700
@@ -17,7 +17,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: 4,5|[Trojan] 美国3|@ripaojiedian
+- name: 5,6|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 44386
@@ -25,7 +25,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 6,9|[VLESS] US_speednode_0024
+- name: 7,10|[VLESS] US_speednode_0024
   network: ws
   port: 443
   server: 192.0.63.56
@@ -39,7 +39,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng
-- name: 6|[VLESS] usUS_4|1.1MB/s
+- name: 7|[VLESS] usUS_4|1.1MB/s
   network: ws
   port: 443
   server: 192.0.63.18
@@ -53,7 +53,7 @@ proxies:
       Host: snippet.danfeng.loc.cc
     max-early-data: 2560
     path: /danfeng
-- name: 6|[Http] usUS_5|1.2MB/s
+- name: 7|[Http] usUS_5|1.2MB/s
   password: d720a490-d56b-11ef-a1cb-f23c9313b177
   port: 3443
   server: ee213061-tcvj40-tebxrw-64gc.los.west.wctype.com
@@ -61,21 +61,33 @@ proxies:
   tls: true
   type: http
   username: d720a490-d56b-11ef-a1cb-f23c9313b177
+- down: ''
+  fingerprint: ''
+  name: 7|[Hysteria2] usUS_6|2.5MB/s
+  obfs: ''
+  obfs-password: ''
+  password: bb7d8763-4afa-465f-b066-35786781ced2
+  port: 49930
+  server: 216.236.26.19
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  up: ''
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
+  name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.251
   type: ss
-- name: 7|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
+- name: 8|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
   password: ''
   port: 7070
   server: 20.83.154.79
   skip-cert-verify: true
   type: socks5
   username: ''
-- name: 9|[VLESS] US_speednode_0020
+- name: 10|[VLESS] US_speednode_0020
   network: ws
   port: 443
   server: 192.0.63.56
@@ -89,7 +101,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng?ed=2560
-- name: 9|[VLESS] US_speednode_0021
+- name: 10|[VLESS] US_speednode_0021
   network: ws
   port: 443
   server: 192.0.63.134
@@ -103,7 +115,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng?ed=2560
-- name: 9|[VLESS] US_speednode_0022
+- name: 10|[VLESS] US_speednode_0022
   network: ws
   port: 443
   server: 192.0.54.188
@@ -117,7 +129,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng
-- name: 9|[VLESS] US_speednode_0023
+- name: 10|[VLESS] US_speednode_0023
   network: ws
   port: 443
   server: 192.0.54.131
@@ -131,7 +143,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng
-- name: 9|[VLESS] US_speednode_0025
+- name: 10|[VLESS] US_speednode_0025
   network: ws
   port: 443
   server: 192.0.63.134
@@ -147,7 +159,7 @@ proxies:
     path: /danfeng
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 9|[VLESS] US_speednode_0027
+  name: 10|[VLESS] US_speednode_0027
   port: 10121
   reality-opts:
     public-key: 4DdA8dBVn5zB_UTbgBY45YqM0HU8zrjXYdzg3-wz5Rg
@@ -159,7 +171,7 @@ proxies:
   type: vless
   udp: true
   uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
-- name: 9|[Trojan] US_speednode_0028
+- name: 10|[Trojan] US_speednode_0028
   network: ws
   password: trojan
   port: 7071
@@ -174,7 +186,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 9|[VLESS] US_speednode_0029
+  name: 10|[VLESS] US_speednode_0029
   port: 43229
   reality-opts:
     public-key: JzUmS6a7nFt54YhvIe-KE31-W8WWJxcgQJt_q_-HbSQ
@@ -186,7 +198,7 @@ proxies:
   type: vless
   udp: true
   uuid: bb7d8763-4afa-465f-b066-35786781ced2
-- name: 9|[VLESS] US_speednode_0030
+- name: 10|[VLESS] US_speednode_0030
   network: ws
   port: 443
   server: 192.0.63.49
@@ -200,7 +212,7 @@ proxies:
     headers:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
-- name: 9|[VLESS] US_speednode_0031
+- name: 10|[VLESS] US_speednode_0031
   network: ws
   port: 443
   server: 192.0.63.115
@@ -214,7 +226,7 @@ proxies:
     headers:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
-- name: 9|[VLESS] US_speednode_0032
+- name: 10|[VLESS] US_speednode_0032
   network: ws
   port: 443
   server: 166.117.33.104

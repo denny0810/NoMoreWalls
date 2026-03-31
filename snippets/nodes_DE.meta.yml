@@ -1,79 +1,37 @@
 proxies:
 - client-fingerprint: chrome
-  name: 7|[VLESS] deDE_1|1.1MB/s
+  name: 7|[VLESS] deDE_1|1.8MB/s
   network: ws
-  port: 8005
-  server: 45.145.42.170
-  servername: sub.mot.ip-ddns.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: sub.mot.ip-ddns.com
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
-        Safari/537.36
-    path: /
-  xudp: true
-- alpn:
-  - 'http/1.1
-
-    '
-  client-fingerprint: chrome
-  name: 7|[VLESS] deDE_2|1.4MB/s
-  network: ws
-  port: 2010
-  server: 89.58.13.151
-  servername: snippet.danfeng.dedyn.io
+  port: 8080
+  server: 202.61.200.220
+  servername: snippet.danfeng.kozow.com
   tls: true
   type: vless
   udp: true
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
     headers:
-      Host: snippet.danfeng.dedyn.io
+      Host: snippet.danfeng.kozow.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /danfeng
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 7|[VLESS] deDE_3|1.2MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: fsbp0vmCXnkqXfD7kyb7fv8JdJBZsENkKNkJzChmo0Y
-    short-id: '!!str 9262e44c3f4093f0'
-  server: 141.98.190.220
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6d0e9ded-d23d-4ffb-b165-7bc757be84d3
   xudp: true
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 7,10|[VLESS] BG_speednode_0002
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bIrjdFXa11enXVcWEvxVbSXwiNgUdatvw4Htn8xBxTw
-    short-id: '!!str a1b323d4'
-  server: al.darknet.cv
-  servername: al.darknet.cv
-  skip-cert-verify: false
+  name: 7|[VLESS] deDE_2|1.6MB/s
+  network: ws
+  port: 8443
+  server: 85.208.139.98
+  servername: sni.111000.dynv6.net
   tls: true
   type: vless
   udp: true
-  uuid: d62ded27-cd76-4f67-b30a-3b2a3d656099
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
   xudp: true
 - name: 10|[VLESS] DE_speednode_0005
   network: ws

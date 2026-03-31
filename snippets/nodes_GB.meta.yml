@@ -1,1 +1,20 @@
-proxies: []
+proxies:
+- alpn:
+  - http/1.1
+  client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 6|[VLESS] gbGB_1|1.1MB/s
+  network: tcp
+  port: 443
+  server: 185.93.105.113
+  servername: sub.sbrf-cdn342.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: c4f2dee2-14e3-4c02-91e9-31c7917e239c
+  xudp: true

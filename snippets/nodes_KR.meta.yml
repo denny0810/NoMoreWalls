@@ -1,36 +1,31 @@
 proxies:
-- client-fingerprint: chrome
-  name: 7|[Trojan] krKR_1|2.3MB/s
-  network: ws
-  password: trojan
-  port: 10003
-  server: 221.146.116.77
-  skip-cert-verify: false
-  sni: jflsjlaf.pages.dev
-  type: trojan
+- name: 6,9|[Http] KR_speednode_0011
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  sni: testkr3.ssv.vc
+  tls: true
+  type: http
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/56.0.2924.87 Safari/537.36
-    path: /
+  username: test
 - alpn:
-  - http/1.1
+  - http%2f1.1
   client-fingerprint: random
-  name: 7|[VLESS] krKR_2|1.3MB/s
+  name: 6|[VLESS] krKR_2|1.3MB/s
   network: ws
-  port: 15018
-  server: 61.79.126.130
-  servername: snippet.chinav.eu.cc
+  port: 50000
+  server: 106.242.64.238
+  servername: snippet.fgfw.ndjp.net
   tls: true
   type: vless
   udp: true
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
     headers:
-      Host: snippet.chinav.eu.cc
+      Host: snippet.fgfw.ndjp.net
     path: /danfeng
-- name: 8,10|[Socks5] KR_speednode_0010
+- name: 7,9|[Socks5] KR_speednode_0010
   port: 1090
   server: 121.169.46.116
   tls: false
@@ -40,7 +35,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 10|[VLESS] KR_speednode_0008
+  name: 9|[VLESS] KR_speednode_0008
   network: ws
   port: 50006
   server: 175.199.169.221
@@ -57,7 +52,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 10|[VLESS] KR_speednode_0009
+  name: 9|[VLESS] KR_speednode_0009
   network: ws
   port: 37810
   server: 211.193.169.223
@@ -71,17 +66,8 @@ proxies:
     headers:
       Host: snippet.fgfw.de5.net
     path: /danfeng
-- name: 10|[Http] KR_speednode_0011
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: test
 - client-fingerprint: chrome
-  name: 10|[VLESS] KR_speednode_0012
+  name: 9|[VLESS] KR_speednode_0012
   network: ws
   port: 23791
   server: 106.246.54.30
@@ -96,7 +82,7 @@ proxies:
       Host: snippet.danfeng.loc.cc
     path: /danfeng?ed=2560
 - client-fingerprint: chrome
-  name: 10|[VLESS] KR_speednode_0013
+  name: 9|[VLESS] KR_speednode_0013
   network: ws
   port: 37020
   server: 121.157.243.134
@@ -111,7 +97,7 @@ proxies:
       Host: snippet.danfeng.loc.cc
     path: /danfeng?ed=2560
 - client-fingerprint: chrome
-  name: 10|[VLESS] KR_speednode_0014
+  name: 9|[VLESS] KR_speednode_0014
   network: ws
   port: 12100
   server: 112.219.110.147
@@ -126,7 +112,7 @@ proxies:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
 - client-fingerprint: chrome
-  name: 10|[VLESS] KR_speednode_0015
+  name: 9|[VLESS] KR_speednode_0015
   network: ws
   port: 30050
   server: 210.111.173.152
@@ -141,7 +127,7 @@ proxies:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
 - client-fingerprint: chrome
-  name: 10|[VLESS] KR_speednode_0016
+  name: 9|[VLESS] KR_speednode_0016
   network: ws
   port: 32768
   server: 27.119.233.26
@@ -156,7 +142,7 @@ proxies:
       Host: snippet.fgfw.de5.net
     path: /danfeng
 - client-fingerprint: random
-  name: 10|[VLESS] KR_speednode_0017
+  name: 9|[VLESS] KR_speednode_0017
   network: ws
   port: 22222
   server: 118.40.112.188
@@ -171,7 +157,7 @@ proxies:
       Host: snippet.danfeng.casacam.net
     path: /danfeng
 - client-fingerprint: chrome
-  name: 10|[VLESS] KR_speednode_0018
+  name: 9|[VLESS] KR_speednode_0018
   network: ws
   port: 18987
   server: 221.159.78.220

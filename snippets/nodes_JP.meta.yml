@@ -1,5 +1,5 @@
 proxies:
-- name: 5,6|[Trojan] 日本|@ripaojiedian
+- name: 4,5|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 3357
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 5,6|[Trojan] 日本2|@ripaojiedian
+- name: 4,5|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
   port: 4937
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 日本3|@ripaojiedian
+- name: 4,5|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
   port: 4380
@@ -23,3 +23,35 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- client-fingerprint: chrome
+  name: 6|[VLESS] jpJP_1|1.3MB/s
+  network: ws
+  port: 2053
+  server: cfxr.eu.org
+  servername: ui4waovxqh.chinav.eu.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: ui4waovxqh.chinav.eu.org
+    max-early-data: 2560
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 6|[VLESS] jpJP_2|3.2MB/s
+  network: ws
+  port: 3389
+  server: 203.168.131.110
+  servername: snippet.chinav.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.chinav.eu.cc
+    path: /danfeng

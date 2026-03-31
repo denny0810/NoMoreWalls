@@ -1,52 +1,40 @@
 proxies:
-- name: 7|[VLESS] deDE_1|1.0MB/s
+- client-fingerprint: chrome
+  name: 6|[VLESS] deDE_1|1.1MB/s
   network: ws
-  port: 2086
-  server: 188.114.98.0
-  tls: false
-  type: vless
-  udp: true
-  uuid: 73829173-bb56-442b-a8d4-ec732c020945
-  ws-opts:
-    headers:
-      Host: a3ssa.vaslbsh.com
-    path: /
-    v2ray-http-upgrade: true
-- delay: 2339
-  name: 7|[Trojan] deDE_2|2.1MB/s
-  network: ws
-  password: trojan
-  port: 8444
-  server: 212.23.200.10
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- client-fingerprint: randomized
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 7|[VLESS] deDE_3|2.0MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: LW4kZEMbix1PIESoiJUi8pSl-uIaupCXn9LHq9znVDQ
-    short-id: '!!str '
-  server: 176.108.245.143
-  servername: pimg.mycdn.me
+  port: 8005
+  server: 45.145.42.170
+  servername: sub.mot.ip-ddns.com
   tls: true
   type: vless
   udp: true
-  uuid: 47f8f942-37aa-421b-bbcf-148426752cf1
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
+        Safari/537.36
+    path: /
   xudp: true
+- alpn:
+  - 'http/1.1
+
+    '
+  client-fingerprint: chrome
+  name: 6|[VLESS] deDE_2|1.4MB/s
+  network: ws
+  port: 2010
+  server: 89.58.13.151
+  servername: snippet.danfeng.dedyn.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.dedyn.io
+    path: /danfeng
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -54,35 +42,39 @@ proxies:
     headers: {}
     path:
     - /
-  name: 7|[VLESS] deDE_4|1.8MB/s
+  name: 6|[VLESS] deDE_3|1.2MB/s
   network: tcp
-  port: 45936
+  port: 443
   reality-opts:
-    public-key: 4vdSv-TQfUAq8rDQTwMoYzeP87gA__VhxWuUsBdSsQM
-    short-id: '!!str e2'
-  server: 144.31.49.154
-  servername: nwebstore.dmtr.ru
+    public-key: fsbp0vmCXnkqXfD7kyb7fv8JdJBZsENkKNkJzChmo0Y
+    short-id: '!!str 9262e44c3f4093f0'
+  server: 141.98.190.220
+  servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: 4b3c02fd-4b1c-44c4-9f97-5b8d9cde104f
+  uuid: 6d0e9ded-d23d-4ffb-b165-7bc757be84d3
   xudp: true
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
   http-opts:
     headers: {}
     path:
     - /
-  name: 7|[VLESS] deDE_5|2.5MB/s
+  name: 6|[VLESS] deDE_4|1.3MB/s
   network: tcp
   port: 443
-  server: kinode14.dramatorg.net
-  servername: kinode14.dramatorg.net
+  reality-opts:
+    public-key: bIrjdFXa11enXVcWEvxVbSXwiNgUdatvw4Htn8xBxTw
+    short-id: '!!str a1b323d4'
+  server: al.darknet.cv
+  servername: al.darknet.cv
   tls: true
   type: vless
   udp: true
-  uuid: f25eb463-e242-4fa9-b174-c305af3ab95e
+  uuid: d62ded27-cd76-4f67-b30a-3b2a3d656099
   xudp: true
-- name: 10|[VLESS] DE_speednode_0004
+- name: 9|[VLESS] DE_speednode_0004
   network: ws
   port: 4001
   server: 185.94.29.156
@@ -96,7 +88,7 @@ proxies:
     headers:
       Host: sub.mot.ip-ddns.com
     path: /
-- name: 10|[VLESS] DE_speednode_0005
+- name: 9|[VLESS] DE_speednode_0005
   network: ws
   port: 4002
   server: 37.114.50.157

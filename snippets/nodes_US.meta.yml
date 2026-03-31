@@ -1,5 +1,5 @@
 proxies:
-- name: 5,6|[Trojan] 美国|@ripaojiedian
+- name: 4,5|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
   port: 3057
@@ -7,7 +7,8 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 美国2|@ripaojiedian
+- client-fingerprint: chrome
+  name: 4,5,6|[Trojan] usUS_3|1.8MB/s
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
   port: 3700
@@ -15,7 +16,8 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 美国3|@ripaojiedian
+  udp: true
+- name: 4,5|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 44386
@@ -23,7 +25,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 7,10|[VLESS] US_speednode_0024
+- name: 6,9|[VLESS] US_speednode_0024
   network: ws
   port: 443
   server: 192.0.63.56
@@ -37,88 +39,43 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng
-- client-fingerprint: chrome
-  name: 7|[Trojan] usUS_2|1.9MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 172.66.44.230
-  skip-cert-verify: false
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    max-early-data: 2560
-    path: /tro8sFW1S91B6sZrM1
-- client-fingerprint: chrome
-  name: 7|[VLESS] usUS_4|2.4MB/s
+- name: 6|[VLESS] usUS_4|1.1MB/s
   network: ws
   port: 443
-  server: 192.0.54.62
+  server: 192.0.63.18
   servername: snippet.danfeng.loc.cc
   tls: true
   type: vless
-  udp: true
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: snippet.danfeng.loc.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2272.101 Safari/537.36
     max-early-data: 2560
     path: /danfeng
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 7|[Vmess] usUS_6|1.2MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 7|[VLESS] usUS_7|2.3MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: WLWyVI1HkSqvIKRAfc-9G0MQjxqdz6idM_hkkiAuLQ0
-    short-id: '!!str a2b223d4'
-  server: ee2.darknet.run
-  servername: ee2.darknet.run
+- name: 6|[Http] usUS_5|1.2MB/s
+  password: d720a490-d56b-11ef-a1cb-f23c9313b177
+  port: 3443
+  server: ee213061-tcvj40-tebxrw-64gc.los.west.wctype.com
+  sni: ee213061-tcvj40-tebxrw-64gc.los.west.wctype.com
   tls: true
-  type: vless
-  udp: true
-  uuid: 5a981f48-1d24-4b75-8022-756cc3129867
-  xudp: true
+  type: http
+  username: d720a490-d56b-11ef-a1cb-f23c9313b177
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
+  name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.251
   type: ss
-- name: 8|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
+- name: 7|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
   password: ''
   port: 7070
   server: 20.83.154.79
   skip-cert-verify: true
   type: socks5
   username: ''
-- name: 10|[VLESS] US_speednode_0020
+- name: 9|[VLESS] US_speednode_0020
   network: ws
   port: 443
   server: 192.0.63.56
@@ -132,7 +89,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng?ed=2560
-- name: 10|[VLESS] US_speednode_0021
+- name: 9|[VLESS] US_speednode_0021
   network: ws
   port: 443
   server: 192.0.63.134
@@ -146,7 +103,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng?ed=2560
-- name: 10|[VLESS] US_speednode_0022
+- name: 9|[VLESS] US_speednode_0022
   network: ws
   port: 443
   server: 192.0.54.188
@@ -160,7 +117,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng
-- name: 10|[VLESS] US_speednode_0023
+- name: 9|[VLESS] US_speednode_0023
   network: ws
   port: 443
   server: 192.0.54.131
@@ -174,7 +131,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng
-- name: 10|[VLESS] US_speednode_0025
+- name: 9|[VLESS] US_speednode_0025
   network: ws
   port: 443
   server: 192.0.63.134
@@ -190,7 +147,7 @@ proxies:
     path: /danfeng
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0027
+  name: 9|[VLESS] US_speednode_0027
   port: 10121
   reality-opts:
     public-key: 4DdA8dBVn5zB_UTbgBY45YqM0HU8zrjXYdzg3-wz5Rg
@@ -202,7 +159,7 @@ proxies:
   type: vless
   udp: true
   uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
-- name: 10|[Trojan] US_speednode_0028
+- name: 9|[Trojan] US_speednode_0028
   network: ws
   password: trojan
   port: 7071
@@ -217,7 +174,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0029
+  name: 9|[VLESS] US_speednode_0029
   port: 43229
   reality-opts:
     public-key: JzUmS6a7nFt54YhvIe-KE31-W8WWJxcgQJt_q_-HbSQ
@@ -229,7 +186,7 @@ proxies:
   type: vless
   udp: true
   uuid: bb7d8763-4afa-465f-b066-35786781ced2
-- name: 10|[VLESS] US_speednode_0030
+- name: 9|[VLESS] US_speednode_0030
   network: ws
   port: 443
   server: 192.0.63.49
@@ -243,7 +200,7 @@ proxies:
     headers:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
-- name: 10|[VLESS] US_speednode_0031
+- name: 9|[VLESS] US_speednode_0031
   network: ws
   port: 443
   server: 192.0.63.115
@@ -257,7 +214,7 @@ proxies:
     headers:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
-- name: 10|[VLESS] US_speednode_0032
+- name: 9|[VLESS] US_speednode_0032
   network: ws
   port: 443
   server: 166.117.33.104

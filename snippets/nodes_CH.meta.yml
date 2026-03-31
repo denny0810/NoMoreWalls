@@ -1,4 +1,35 @@
 proxies:
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7|[VLESS] chCH_1|1.8MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: x8Uvr-IcUd8isTk2Av0QK5EmBTjxxbPHyoinm--FBFo
+    short-id: '!!str '
+  server: ne03.kubservice.icu
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 542e9145-0ba4-4a0a-868a-0adce45a79ce
+  xudp: true
+- encryption: none
+  grpc-opts:
+    grpc-service-name: pol-x1.plugvpn.ru
+  name: 7|[VLESS] chCH_2|2.4MB/s
+  network: grpc
+  port: 443
+  server: pol-x1.plugvpn.ru
+  type: vless
+  udp: true
+  uuid: c8d65a3a-5002-4dff-bfd6-d4b9ef90b9cc
+  xudp: true
 - name: 10|[VLESS] CH_speednode_0001
   network: ws
   port: 4433

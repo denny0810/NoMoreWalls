@@ -1,55 +1,86 @@
 proxies:
-- client-fingerprint: chrome
-  name: 7|[VLESS] deDE_1|1.8MB/s
+- name: 7|[VLESS] deDE_1|1.0MB/s
   network: ws
-  port: 2022
-  server: 91.107.250.117
-  servername: sub.mot.ip-ddns.com
-  tls: true
+  port: 2086
+  server: 188.114.98.0
+  tls: false
   type: vless
   udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
+  uuid: 73829173-bb56-442b-a8d4-ec732c020945
   ws-opts:
     headers:
-      Host: sub.mot.ip-ddns.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/34.0.1847.131 Safari/537.36
+      Host: a3ssa.vaslbsh.com
     path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] deDE_2|3.0MB/s
+    v2ray-http-upgrade: true
+- delay: 2339
+  name: 7|[Trojan] deDE_2|2.1MB/s
   network: ws
-  port: 12648
-  server: 23.27.25.75
-  servername: urfbqo42.danfeng.gv.uy
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  password: trojan
+  port: 8444
+  server: 212.23.200.10
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: urfbqo42.danfeng.gv.uy
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.162 Safari/537.36
+      Host: jflsjlaf.pages.dev
     max-early-data: 2560
-    path: /danfeng
-  xudp: true
-- client-fingerprint: chrome
+    path: /
+- client-fingerprint: randomized
   encryption: none
-  name: 7|[VLESS] deDE_3|1.9MB/s
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7|[VLESS] deDE_3|2.0MB/s
   network: tcp
   port: 443
   reality-opts:
-    public-key: p9OR29TWTl-GViMyOHeQWWd0WZI63MkiK49O3CZ62QA
-    short-id: '!!str ba9f3c7d5e1a8b4c'
-  server: 77.110.125.12
-  servername: dzen.ru
+    public-key: LW4kZEMbix1PIESoiJUi8pSl-uIaupCXn9LHq9znVDQ
+    short-id: '!!str '
+  server: 176.108.245.143
+  servername: pimg.mycdn.me
   tls: true
   type: vless
   udp: true
-  uuid: 06306128-7995-46ed-84ed-afabc88c7cd1
+  uuid: 47f8f942-37aa-421b-bbcf-148426752cf1
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7|[VLESS] deDE_4|1.8MB/s
+  network: tcp
+  port: 45936
+  reality-opts:
+    public-key: 4vdSv-TQfUAq8rDQTwMoYzeP87gA__VhxWuUsBdSsQM
+    short-id: '!!str e2'
+  server: 144.31.49.154
+  servername: nwebstore.dmtr.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4b3c02fd-4b1c-44c4-9f97-5b8d9cde104f
+  xudp: true
+- client-fingerprint: chrome
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7|[VLESS] deDE_5|2.5MB/s
+  network: tcp
+  port: 443
+  server: kinode14.dramatorg.net
+  servername: kinode14.dramatorg.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: f25eb463-e242-4fa9-b174-c305af3ab95e
   xudp: true
 - name: 10|[VLESS] DE_speednode_0004
   network: ws

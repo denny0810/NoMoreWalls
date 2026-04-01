@@ -1,39 +1,20 @@
 proxies:
-- alpn:
-  - 'http/1.1
-
-    '
-  client-fingerprint: chrome
-  name: 5|[VLESS] frFR_1|1.4MB/s
-  network: ws
-  port: 8443
-  server: 95.182.97.7
-  servername: snippet.danfeng.gleeze.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.gleeze.com
-    path: /danfeng
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   encryption: none
-  flow: xtls-rprx-vision
   http-opts:
     headers: {}
     path:
     - /
-  name: 5|[VLESS] frFR_2|1.1MB/s
+  name: 7|[VLESS] frFR_1|1.7MB/s
   network: tcp
-  port: 8443
+  port: 443
   reality-opts:
-    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
-    short-id: '!!str 364994a6f61fc955'
-  server: 45.151.30.160
-  servername: rbc.ru
+    public-key: fXdtB8vImCUJMQBLcCNK7p1v3rVzx6HllaDLk8Vc4EU
+    short-id: '!!str 239dcd11'
+  server: 57.128.81.193
+  servername: www.samsung.com
   tls: true
   type: vless
   udp: true
-  uuid: 98060071-bb2e-4b2e-81f4-6c7f6b0d1e19
+  uuid: 53821f3c-5b03-456a-89f3-f8379f130752
   xudp: true

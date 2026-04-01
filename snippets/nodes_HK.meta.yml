@@ -42,29 +42,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 7|[Hysteria2] hkHK_1|1.5MB/s
-  password: bd515574-3b10-11ee-ac14-f23c9164ca5d
-  port: 443
-  server: ad72fc1d-t70f40-tb016b-1m7l4.hk1.hyhuawei.com
-  skip-cert-verify: true
-  sni: ad72fc1d-t70f40-tb016b-1m7l4.hk1.hyhuawei.com
-  type: hysteria2
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 7|[VLESS] hkHK_2|2.5MB/s
-  network: ws
-  port: 51198
-  server: 103.69.129.71
-  servername: snippet.fgfw.ndjp.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.ndjp.net
-    path: /danfeng
 - alpn:
   - http/1.1
   client-fingerprint: random

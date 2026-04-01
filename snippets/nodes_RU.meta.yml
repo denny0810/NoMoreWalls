@@ -1,18 +1,39 @@
 proxies:
-- client-fingerprint: random
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
   http-opts:
     headers: {}
     path:
     - /
-  name: 7,10|[VLESS] US_speednode_0055
+  name: 7,10|[VLESS] US_speednode_0059
   network: tcp
   port: 8443
   reality-opts:
     public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0
     short-id: '!!str f1071c148a5aefc4'
-  server: braskivo.ru
+  server: 194.36.39.78
+  servername: rbc.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee740b72-87f6-45e4-a680-85d8d1cc3df1
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7,10|[VLESS] US_speednode_0058
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0
+    short-id: '!!str f1071c148a5aefc4'
+  server: 194.36.39.144
   servername: rbc.ru
   skip-cert-verify: false
   tls: true

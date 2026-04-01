@@ -25,24 +25,24 @@ proxies:
 - name: 5,6|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
-  port: 921
-  server: 52.192.141.223
+  port: 21413
+  server: 43.207.198.5
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 5,6|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 22075
-  server: 43.199.33.41
+  port: 9211
+  server: 43.198.185.44
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 5,6|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 6313
-  server: 3.112.217.47
+  port: 5823
+  server: 13.231.153.129
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -50,23 +50,23 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 3357
-  server: 3.112.217.47
+  server: 13.231.153.129
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 5,6|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
-  port: 4937
-  server: 160.16.132.38
+  port: 34818
+  server: 13.231.153.129
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 5,6|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
-  port: 4380
-  server: 160.16.85.33
+  port: 34818
+  server: 52.195.170.179
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -74,7 +74,7 @@ proxies:
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
   port: 4674
-  server: 160.16.85.33
+  server: 13.231.153.129
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -82,39 +82,39 @@ proxies:
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
   port: 4674
-  server: 153.121.65.107
+  server: 160.16.124.17
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 5,6|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 25675
-  server: 16.162.188.208
+  port: 12070
+  server: 95.40.68.20
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 5,6|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
-  port: 3057
-  server: 160.16.132.38
+  port: 29370
+  server: 52.195.170.179
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 5,6|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
-  port: 3700
-  server: 52.192.219.241
+  port: 29370
+  server: 13.231.153.129
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 5,6|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 44386
-  server: 18.167.134.238
+  port: 38692
+  server: 95.40.68.20
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -128,266 +128,33 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 7|[Vmess] usUS_1|2.6MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  servername: www.bing.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- encryption: none
-  name: 7,10|[VLESS] US_speednode_0053
+- name: 7,10|[VLESS] DE_speednode_0005
   network: ws
-  port: 443
-  server: 192.0.63.216
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng
-  xudp: true
-- encryption: none
-  name: 7|[VLESS] usUS_3|1.0MB/s
-  network: ws
-  port: 443
-  server: 192.0.63.76
-  servername: snippet.danfeng.theworkpc.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.167 Safari/537.36
-    max-early-data: 2560
-    path: /danfeng
-  xudp: true
-- name: 7,10|[Http] KR_speednode_0023
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  sni: testkr3.ssv.vc
-  tls: true
-  type: http
-  udp: true
-  username: test
-- alterId: 0
-  cipher: auto
-  name: 7|[Vmess] caCA_1|1019KB/s
-  network: ws
-  port: 12897
-  server: gtm1.ktmwan.net
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6d5d1d83-b04e-4c5d-873e-b027d59e0b36
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7|[Vmess] auAU_1|1.8MB/s
-  network: ws
-  port: 12889
-  server: gtm1.ktmwan.net
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6d5d1d83-b04e-4c5d-873e-b027d59e0b36
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-- auth: 6d5d1d83-b04e-4c5d-873e-b027d59e0b36
-  name: 7|[Hysteria2] sgSG_1|2.4MB/s
-  password: 6d5d1d83-b04e-4c5d-873e-b027d59e0b36
-  port: 18383
-  server: sg1.ktmhyld.com
-  skip-cert-verify: true
-  sni: sg1.ktmhyld.com
-  type: hysteria2
-  udp: true
-- auth: 6d5d1d83-b04e-4c5d-873e-b027d59e0b36
-  name: 7|[Hysteria2] twTW_1|2.5MB/s
-  password: 6d5d1d83-b04e-4c5d-873e-b027d59e0b36
-  port: 18386
-  server: tw1.ktmhyld.com
-  skip-cert-verify: true
-  sni: tw1.ktmhyld.com
-  type: hysteria2
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 7|[Vmess] jpJP_1|2.6MB/s
-  network: tcp
-  port: 23611
-  server: traffic.a1.szx.gfw250.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 547892de-f03b-3f75-b48f-f75313b129ed
-- alterId: 2
-  cipher: auto
-  name: 7|[Vmess] jpJP_2|1.2MB/s
-  network: tcp
-  port: 23617
-  server: traffic.a1.szx.gfw250.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 547892de-f03b-3f75-b48f-f75313b129ed
-- name: 7|[VLESS] krKR_2|1008KB/s
-  network: ws
-  port: 11965
-  server: 218.157.158.21
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    max-early-data: 2560
-    path: /danfeng
-- name: 7,10|[VLESS] US_speednode_0048
-  network: ws
-  port: 443
-  server: 192.0.54.216
-  servername: snippet.fgfw.ndjp.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.ndjp.net
-    path: /danfeng
-- alterId: 2
-  cipher: auto
-  name: 7|[Vmess] usUS_5|1.1MB/s
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 7|[VLESS] sgSG_2|2.6MB/s
-  network: ws
-  port: 30003
-  server: 140.235.10.14
+  port: 4001
+  server: 185.94.29.156
   servername: sub.mot.ip-ddns.com
+  skip-cert-verify: true
   tls: true
   type: vless
+  udp: true
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
       Host: sub.mot.ip-ddns.com
     path: /
-- name: 7|[VLESS] usUS_6|1.2MB/s
-  network: ws
-  port: 443
-  server: 112.126.1.114
-  servername: snippet.danfeng.eu.org
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.eu.org
-    path: /danfeng
-- encryption: none
-  grpc-opts:
-    grpc-service-name: pol-x1.plugvpn.ru
-  name: 7|[VLESS] chCH_1|2.4MB/s
-  network: grpc
-  port: 443
-  server: pol-x1.plugvpn.ru
-  type: vless
-  udp: true
-  uuid: c8d65a3a-5002-4dff-bfd6-d4b9ef90b9cc
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 7|[Vmess] usUS_7|2.5MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
 - encryption: none
   flow: xtls-rprx-vision
   http-opts:
     headers: {}
     path:
     - /
-  name: 7|[VLESS] ltLT_1|2.7MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ILMt6fBfPy6WXRjjJzFClzY5fG04xeLcIal5OFKN0Wg
-    short-id: 'a1b113d4'
-  server: lt4.darknet.run
-  servername: lt4.darknet.run
-  tls: true
-  type: vless
-  udp: true
-  uuid: 54796d50-66e2-4c50-816a-33f5a7a31136
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 7|[Vmess] sgSG_3|1.9MB/s
-  network: tcp
-  port: 51556
-  server: 103.181.164.145
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  xudp: true
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 7,10|[VLESS] US_speednode_0055
+  name: 7,10|[VLESS] US_speednode_0059
   network: tcp
   port: 8443
   reality-opts:
     public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0
     short-id: 'f1071c148a5aefc4'
-  server: braskivo.ru
+  server: 194.36.39.78
   servername: rbc.ru
   skip-cert-verify: false
   tls: true
@@ -395,67 +162,220 @@ proxies:
   udp: true
   uuid: ee740b72-87f6-45e4-a680-85d8d1cc3df1
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|[SS] hkHK_1|1.5MB/s
-  password: 5d522fb6-4c75-44b3-a1ec-bfd5794ec503
-  port: 49904
-  server: hkp4.network-cdn-gw-yd.net
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|[SS] hkHK_2|1.9MB/s
-  password: 5d522fb6-4c75-44b3-a1ec-bfd5794ec503
-  port: 49903
-  server: hkp3.network-cdn-gw-yd.net
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|[SS] myMY_1|1.2MB/s
-  password: 5d522fb6-4c75-44b3-a1ec-bfd5794ec503
-  port: 43307
-  server: mas1.network-cdn-gw-yd.net
-  type: ss
-  udp: true
-- name: 7|[VLESS] krKR_3|1.9MB/s
-  network: ws
-  port: 30047
-  server: 211.194.210.183
-  servername: snippet.danfeng.loc.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng.loc.cc
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    max-early-data: 2560
-    path: /danfeng
-  xudp: true
-- name: 7|[VLESS] ❓Other_1|3.5MB/s
-  network: ws
-  port: 10035
-  server: 27.119.233.90
-  servername: snippet.danfeng.theworkpc.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    max-early-data: 2560
-    path: /danfeng
-  xudp: true
-- name: 7|[VLESS] usUS_8|2.4MB/s
+- name: 7,10|[VLESS] US_speednode_0061
   network: ws
   port: 443
-  server: 192.0.54.29
+  server: 192.0.63.18
+  servername: snippet.danfeng.loc.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.loc.cc
+    path: /danfeng
+- alterId: 0
+  cipher: auto
+  name: 7|[Vmess] usUS_2|2.0MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.46
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 7|[VLESS] mdMD_1|1.1MB/s
+  network: ws
+  port: 443
+  server: 192.200.160.20
+  servername: 639073677243791121.camry-perma.info
+  tls: true
+  type: vless
+  uuid: 92b82d0f-d2f8-4f6f-b177-08f681a337e6
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 639073677243791121.camry-perma.info
+    max-early-data: 2560
+    path: /njvqoews
+- name: 7|[VLESS] usUS_3|2.2MB/s
+  network: ws
+  port: 443
+  server: 192.0.63.124
+  servername: snippet.chinat.eu.cc
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.chinat.eu.cc
+    path: /danfeng
+- name: 7|[Trojan] nlNL_1|2.6MB/s
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.200.98
+  skip-cert-verify: false
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /
+- name: 7|[Trojan] nlNL_2|1.0MB/s
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.200.167
+  skip-cert-verify: false
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /
+- name: 7|[Trojan] usUS_4|2.2MB/s
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: false
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.116 Safari/537.36
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 7|[Http] phPH_1|1.1MB/s
+  password: d720a490-d56b-11ef-a1cb-f23c9313b177
+  port: 3243
+  server: 5a16d445-tcvj40-tebxrw-64gc.sksapisrv.com
+  sni: 5a16d445-tcvj40-tebxrw-64gc.sksapisrv.com
+  tls: true
+  type: http
+  username: d720a490-d56b-11ef-a1cb-f23c9313b177
+- alpn:
+  - 'http/1.1
+
+    '
+  name: 7|[VLESS] frFR_1|1.4MB/s
+  network: ws
+  port: 8443
+  server: 95.182.97.7
+  servername: snippet.danfeng.gleeze.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.gleeze.com
+    path: /danfeng
+- encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7|[VLESS] frFR_2|1.1MB/s
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
+    short-id: '364994a6f61fc955'
+  server: 45.151.30.160
+  servername: rbc.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 98060071-bb2e-4b2e-81f4-6c7f6b0d1e19
+  xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7,10|[VLESS] US_speednode_0058
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0
+    short-id: 'f1071c148a5aefc4'
+  server: 194.36.39.144
+  servername: rbc.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee740b72-87f6-45e4-a680-85d8d1cc3df1
+  xudp: true
+- cipher: aes-256-gcm
+  name: 7|[SS] clCL_1|2.2MB/s
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 38.54.20.59
+  type: ss
+  udp: true
+- name: 7|[Anytls] hkHK_1|1.7MB/s
+  password: d720a490-d56b-11ef-a1cb-f23c9313b177
+  port: 8300
+  server: f2bf4378-t9l0g0-t9idoa-64gc.hkt.east.wctype.com
+  skip-cert-verify: true
+  sni: f2bf4378-t9l0g0-t9idoa-64gc.hkt.east.wctype.com
+  type: anytls
+  udp: true
+- name: 7|[Anytls] hkHK_2|1.6MB/s
+  password: d720a490-d56b-11ef-a1cb-f23c9313b177
+  port: 8300
+  server: b7fd6a5e-t9lmo0-t9izwa-64gc.hkt.east.wctype.com
+  skip-cert-verify: true
+  sni: b7fd6a5e-t9lmo0-t9izwa-64gc.hkt.east.wctype.com
+  type: anytls
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 7|[VLESS] krKR_1|1.9MB/s
+  network: ws
+  port: 10162
+  server: 106.251.70.75
+  servername: snippet.chinav.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.chinav.eu.cc
+    path: /danfeng
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 7,10|[VLESS] US_speednode_0046
+  network: tcp
+  port: 10121
+  reality-opts:
+    public-key: 4DdA8dBVn5zB_UTbgBY45YqM0HU8zrjXYdzg3-wz5Rg
+    short-id: '9c2a7d4e5f18b6a3'
+  server: 150.241.83.152
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
+- name: 7|[VLESS] usUS_6|1.6MB/s
+  network: ws
+  port: 443
+  server: 192.0.63.181
   servername: snippet.danfeng.loc.cc
   tls: true
   type: vless
@@ -466,84 +386,26 @@ proxies:
     headers:
       Host: snippet.danfeng.loc.cc
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/37.0.2062.120 Safari/537.36
+        Gecko) Chrome/53.0.2785.143 Safari/537.36
     max-early-data: 2560
     path: /danfeng
   xudp: true
-- name: 7|[VLESS] usUS_9|1.1MB/s
-  network: ws
-  port: 443
-  server: 192.0.54.49
-  servername: snippet.danfeng.loc.cc
-  tls: true
-  type: vless
+- name: 7|[Anytls] usUS_7|1.7MB/s
+  password: d720a490-d56b-11ef-a1cb-f23c9313b177
+  port: 8300
+  server: e43a650c-t9w4g0-tb5234-64gc.los.west.wctype.com
+  skip-cert-verify: true
+  sni: e43a650c-t9w4g0-tb5234-64gc.los.west.wctype.com
+  type: anytls
   udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng.loc.cc
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
-    max-early-data: 2560
-    path: /danfeng
-  xudp: true
-- name: 7|[VLESS] usUS_10|2.7MB/s
-  network: ws
-  port: 443
-  server: 192.0.63.180
-  servername: snippet.danfeng.loc.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng.loc.cc
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
-        Safari/537.36
-    max-early-data: 2560
-    path: /danfeng
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 7|[Vmess] usUS_11|2.7MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.46
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
 - alpn:
   - 'http/1.1
 
     '
-  name: 7|[VLESS] usUS_12|2.8MB/s
+  name: 7|[VLESS] usUS_8|2.7MB/s
   network: ws
   port: 443
-  server: 192.0.63.175
-  servername: snippet.danfeng.gleeze.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.gleeze.com
-    path: /danfeng
-- alpn:
-  - 'http/1.1
-
-    '
-  name: 7|[VLESS] usUS_13|1.6MB/s
-  network: ws
-  port: 443
-  server: 192.0.63.73
+  server: 192.0.54.70
   servername: snippet.danfeng.dedyn.io
   tls: true
   type: vless
@@ -553,6 +415,102 @@ proxies:
     headers:
       Host: snippet.danfeng.dedyn.io
     path: /danfeng
+- name: 7|[VLESS] deDE_2|3.1MB/s
+  network: ws
+  port: 2086
+  server: 188.114.98.0
+  tls: false
+  type: vless
+  udp: true
+  uuid: 73829173-bb56-442b-a8d4-ec732c020945
+  ws-opts:
+    headers:
+      Host: a3ssa.vaslbsh.com
+    path: /
+    v2ray-http-upgrade: true
+- allowInsecure: '1'
+  alpn:
+  - h2
+  name: 7,8|[Anytls] zaZA²_1|5.3MB/s|0%|GPT⁺|YT-CN|...
+  password: dongtaiwang.com
+  port: 59901
+  server: 45.221.98.14
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- alpn:
+  - 'http/1.1
+
+    '
+  name: 7|[VLESS] seSE_1|1.9MB/s
+  network: ws
+  port: 8443
+  server: 31.57.62.173
+  servername: snippet.danfeng.dedyn.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.dedyn.io
+    path: /danfeng
+- encryption: none
+  name: 7|[VLESS] usUS_9|2.5MB/s
+  network: ws
+  port: 2086
+  server: 104.21.233.186
+  type: vless
+  udp: true
+  uuid: 636de463-b509-4631-adc6-400b21733278
+  ws-opts:
+    headers:
+      Host: index.harmony610.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /vgn80ag4q5o0oxj5
+  xudp: true
+- alterId: 2
+  cipher: auto
+  name: 7|[Vmess] hkHK_3|1.7MB/s
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] twTW_1|1.2MB/s
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: 111.248.71.161
+  type: ss
+  udp: true
+- client-fingerprint: randomized
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7|[VLESS] deDE_3|1.5MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: jz0B2jWDq_AJ4Bf2B1LYllYvWevT2KaVxYIQl_92TAg
+    short-id: ''
+  server: 178.72.168.76
+  servername: pimg.mycdn.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d6a9ab2-9809-46c6-be50-803dd29d49d5
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 8|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...
@@ -560,15 +518,6 @@ proxies:
   port: 38388
   server: 103.186.154.172
   type: ss
-- alpn:
-  - h2
-  name: 8|[Anytls] zaZA²_1|5.3MB/s|0%|GPT⁺|YT-CN|...
-  password: dongtaiwang.com
-  port: 59901
-  server: 45.221.98.14
-  skip-cert-verify: true
-  type: anytls
-  udp: true
 - cipher: aes-256-cfb
   country: 🇨🇳 CN
   name: 8|[SS] vnVN²_2|1.6MB/s|GPT|X|History
@@ -700,20 +649,6 @@ proxies:
   type: http
   udp: true
   username: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
-- name: 10|[VLESS] DE_speednode_0005
-  network: ws
-  port: 4001
-  server: 185.94.29.156
-  servername: sub.mot.ip-ddns.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: sub.mot.ip-ddns.com
-    path: /
 - name: 10|[VLESS] DE_speednode_0006
   network: ws
   port: 4002
@@ -908,6 +843,15 @@ proxies:
     headers:
       Host: snippet.fgfw.de5.net
     path: /danfeng
+- name: 10|[Http] KR_speednode_0023
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
 - alpn:
   - http/1.1
   client-fingerprint: random
@@ -1174,20 +1118,6 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0046
-  port: 10121
-  reality-opts:
-    public-key: 4DdA8dBVn5zB_UTbgBY45YqM0HU8zrjXYdzg3-wz5Rg
-    short-id: '9c2a7d4e5f18b6a3'
-  server: 150.241.83.152
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
 - client-fingerprint: random
   name: 10|[VLESS] US_speednode_0047
   port: 443
@@ -1200,6 +1130,20 @@ proxies:
   type: vless
   udp: true
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- name: 10|[VLESS] US_speednode_0048
+  network: ws
+  port: 443
+  server: 192.0.54.216
+  servername: snippet.fgfw.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ndjp.net
+    path: /danfeng
 - name: 10|[VLESS] US_speednode_0049
   network: ws
   port: 443
@@ -1256,6 +1200,34 @@ proxies:
     headers:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
+- name: 10|[VLESS] US_speednode_0053
+  network: ws
+  port: 443
+  server: 192.0.63.216
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 10|[VLESS] US_speednode_0055
+  port: 8443
+  reality-opts:
+    public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0
+    short-id: 'f1071c148a5aefc4'
+  server: braskivo.ru
+  servername: rbc.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee740b72-87f6-45e4-a680-85d8d1cc3df1
 - flow: xtls-rprx-vision
   name: 10|[VLESS] US_speednode_0056
   port: 443
@@ -1277,32 +1249,6 @@ proxies:
   type: vless
   udp: true
   uuid: f25eb463-e242-4fa9-b174-c305af3ab95e
-- flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0058
-  port: 8443
-  reality-opts:
-    public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0
-    short-id: 'f1071c148a5aefc4'
-  server: 194.36.39.144
-  servername: rbc.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee740b72-87f6-45e4-a680-85d8d1cc3df1
-- flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0059
-  port: 8443
-  reality-opts:
-    public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0
-    short-id: 'f1071c148a5aefc4'
-  server: 194.36.39.78
-  servername: rbc.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee740b72-87f6-45e4-a680-85d8d1cc3df1
 - alpn:
   - http/1.1
   client-fingerprint: random
@@ -1319,18 +1265,4 @@ proxies:
   ws-opts:
     headers:
       Host: snippet.chinav.eu.cc
-    path: /danfeng
-- name: 10|[VLESS] US_speednode_0061
-  network: ws
-  port: 443
-  server: 192.0.63.18
-  servername: snippet.danfeng.loc.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.loc.cc
     path: /danfeng

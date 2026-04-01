@@ -11,24 +11,24 @@ proxies:
 - name: 5,6|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
-  port: 921
-  server: 52.192.141.223
+  port: 21413
+  server: 43.207.198.5
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 5,6|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 22075
-  server: 43.199.33.41
+  port: 9211
+  server: 43.198.185.44
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 5,6|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 6313
-  server: 3.112.217.47
+  port: 5823
+  server: 13.231.153.129
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -42,17 +42,18 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: 7|[SS] hkHK_1|1.5MB/s
-  password: 5d522fb6-4c75-44b3-a1ec-bfd5794ec503
-  port: 49904
-  server: hkp4.network-cdn-gw-yd.net
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|[SS] hkHK_2|1.9MB/s
-  password: 5d522fb6-4c75-44b3-a1ec-bfd5794ec503
-  port: 49903
-  server: hkp3.network-cdn-gw-yd.net
-  type: ss
-  udp: true
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 7|[Vmess] hkHK_3|1.7MB/s
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /

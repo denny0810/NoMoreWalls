@@ -1,50 +1,20 @@
 proxies:
-- name: 7,10|[Http] KR_speednode_0023
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  sni: testkr3.ssv.vc
-  tls: true
-  type: http
-  udp: true
-  username: test
-- client-fingerprint: chrome
-  name: 7|[VLESS] krKR_2|1008KB/s
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 7|[VLESS] krKR_1|1.9MB/s
   network: ws
-  port: 11965
-  server: 218.157.158.21
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: false
+  port: 10162
+  server: 106.251.70.75
+  servername: snippet.chinav.eu.cc
   tls: true
   type: vless
   udp: true
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: snippet.danfeng.theworkpc.com
-    max-early-data: 2560
+      Host: snippet.chinav.eu.cc
     path: /danfeng
-- client-fingerprint: chrome
-  name: 7|[VLESS] krKR_3|1.9MB/s
-  network: ws
-  port: 30047
-  server: 211.194.210.183
-  servername: snippet.danfeng.loc.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng.loc.cc
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    max-early-data: 2560
-    path: /danfeng
-  xudp: true
 - name: 8,10|[Socks5] KR_speednode_0022
   port: 1090
   server: 121.169.46.116
@@ -110,6 +80,15 @@ proxies:
     headers:
       Host: snippet.fgfw.de5.net
     path: /danfeng
+- name: 10|[Http] KR_speednode_0023
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
 - alpn:
   - http/1.1
   client-fingerprint: random

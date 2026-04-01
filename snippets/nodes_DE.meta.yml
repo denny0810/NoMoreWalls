@@ -1,5 +1,5 @@
 proxies:
-- name: 10|[VLESS] DE_speednode_0005
+- name: 7,10|[VLESS] DE_speednode_0005
   network: ws
   port: 4001
   server: 185.94.29.156
@@ -13,6 +13,39 @@ proxies:
     headers:
       Host: sub.mot.ip-ddns.com
     path: /
+- name: 7|[VLESS] deDE_2|3.1MB/s
+  network: ws
+  port: 2086
+  server: 188.114.98.0
+  tls: false
+  type: vless
+  udp: true
+  uuid: 73829173-bb56-442b-a8d4-ec732c020945
+  ws-opts:
+    headers:
+      Host: a3ssa.vaslbsh.com
+    path: /
+    v2ray-http-upgrade: true
+- client-fingerprint: randomized
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7|[VLESS] deDE_3|1.5MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: jz0B2jWDq_AJ4Bf2B1LYllYvWevT2KaVxYIQl_92TAg
+    short-id: '!!str '
+  server: 178.72.168.76
+  servername: pimg.mycdn.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d6a9ab2-9809-46c6-be50-803dd29d49d5
+  xudp: true
 - name: 10|[VLESS] DE_speednode_0006
   network: ws
   port: 4002

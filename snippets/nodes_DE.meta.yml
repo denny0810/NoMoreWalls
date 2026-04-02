@@ -1,44 +1,24 @@
 proxies:
-- name: 7|[Http] deDE_1|1.0MB/s
-  password: bd515574-3b10-11ee-ac14-f23c9164ca5d
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7|[VLESS] deDE_1|2.5MB/s
+  network: tcp
   port: 443
-  server: fb542e7c-ta1og0-tb016b-1m7l4.de.oshuawei.com
-  sni: fb542e7c-ta1og0-tb016b-1m7l4.de.oshuawei.com
+  reality-opts:
+    public-key: jHFbh_fa3jmZfcZZMmN3xME4JLGoDFHC8_X1EZHK8kU
+    short-id: '!!str 0bc73dd1f045'
+  server: 152.89.244.84
+  servername: www.intel.com
   tls: true
-  type: http
-  username: bd515574-3b10-11ee-ac14-f23c9164ca5d
-- name: 7|[Http] deDE_2|1.1MB/s
-  password: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
-  port: 443
-  server: 4903dd4b-ta1og0-td95qh-1isea.de.oshuawei.com
-  sni: 4903dd4b-ta1og0-td95qh-1isea.de.oshuawei.com
-  tls: true
-  type: http
-  username: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
-- name: 7|[Http] deDE_3|1.0MB/s
-  password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
-  port: 443
-  server: 8c8dd530-t9zts0-tbnk1n-ueq.de.oshuawei.com
-  sni: 8c8dd530-t9zts0-tbnk1n-ueq.de.oshuawei.com
-  tls: true
-  type: http
-  username: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
-- name: 7|[Http] deDE_4|1006KB/s
-  password: 8da5616c-8566-11ee-9a21-f23c9164ca5d
-  port: 443
-  server: 79150d9f-t9zts0-tqo482-1ppvf.de.oshuawei.com
-  sni: 79150d9f-t9zts0-tqo482-1ppvf.de.oshuawei.com
-  tls: true
-  type: http
-  username: 8da5616c-8566-11ee-9a21-f23c9164ca5d
-- name: 7|[Http] deDE_5|1.2MB/s
-  password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
-  port: 443
-  server: 7fef687f-ta1og0-tbao5v-gacy.de.oshuawei.com
-  sni: 7fef687f-ta1og0-tbao5v-gacy.de.oshuawei.com
-  tls: true
-  type: http
-  username: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
+  type: vless
+  udp: true
+  uuid: 713a5d33-50db-4a44-aff4-56b273c207da
+  xudp: true
 - name: 10|[VLESS] DE_speednode_0005
   network: ws
   port: 4001

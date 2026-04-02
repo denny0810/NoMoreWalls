@@ -120,53 +120,98 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 1
-  cipher: auto
-  name: 7|[Vmess] jpJP_1|3.3MB/s
+- name: 7,10|[Trojan] NL_speednode_0029
   network: tcp
-  port: 448
-  server: 7e2fw1g-g05.jp04-1d-vm0.entry.fr0528.art
+  password: strong-secret-pass-777
+  port: 4443
+  server: 94.131.105.125
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 7|[Vmess] pePE_1|2.2MB/s
+  network: tcp
+  port: 443
+  server: pe1.bctuo.top
   skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
-  uuid: f151b844-c067-3520-a654-791bf073b1a0
-- alterId: 1
+  uuid: 31801968-9877-4ef5-be87-56503c34a69d
+- alterId: 0
   cipher: auto
-  name: 7|[Vmess] jpJP_2|3.1MB/s
+  name: 7|[Vmess] usUS_3|1.6MB/s
   network: tcp
-  port: 21585
-  server: 18gz71q-g05.jp03-j7-vm0.entry.fr0528.art
-  servername: 18gz71q-g05.jp03-j7-vm0.entry.fr0528.art
+  port: 180
+  server: 82.198.246.250
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vmess
-  udp: true
-  uuid: f151b844-c067-3520-a654-791bf073b1a0
-- alterId: 1
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
   cipher: auto
-  name: 7|[Vmess] jpJP_3|4.2MB/s
+  name: 7|[Vmess] usUS_2|1.4MB/s
   network: tcp
-  port: 21585
-  server: segz79q-g05.jp01-nn-vm0.entry.fr0528.art
-  servername: segz79q-g05.jp01-nn-vm0.entry.fr0528.art
+  port: 180
+  server: 82.198.246.46
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vmess
-  udp: true
-  uuid: f151b844-c067-3520-a654-791bf073b1a0
-- alterId: 1
-  cipher: auto
-  name: 7|[Vmess] jpJP_4|3.7MB/s
-  network: tcp
-  port: 28787
-  server: stgff9q-g05.jp06-jz-vm0.entry.fr0528.art
-  servername: stgff9q-g05.jp06-jz-vm0.entry.fr0528.art
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] twTW_1|2.1MB/s
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg007144ll4.cybervena.com
+  type: ss
+- cipher: chacha20-ietf
+  name: 7|[SS] sgSG_4|3.0MB/s
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
+- name: 7|[Trojan] nlNL_1|2.1MB/s
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.200.98
   skip-cert-verify: false
-  tls: true
-  type: vmess
+  sni: jflsjlaf.pages.dev
+  type: trojan
   udp: true
-  uuid: f151b844-c067-3520-a654-791bf073b1a0
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] twTW_2|3.2MB/s
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg007116sfa.cybervena.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] twTW_4|1.3MB/s
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: 111.250.214.183
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] twTW_5|1.9MB/s
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001287h3p.cybervena.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] twTW_6|1.2MB/s
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg0011305nw.cybervena.com
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 8|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...
@@ -249,13 +294,6 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
-- name: 10|[Trojan] NL_speednode_0029
-  password: strong-secret-pass-777
-  port: 4443
-  server: 94.131.105.125
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: 10|[Trojan] NL_speednode_0030
   password: strong-secret-pass-777
   port: 4443

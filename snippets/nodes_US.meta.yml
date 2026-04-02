@@ -23,6 +23,41 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 7,10|[VLESS] US_speednode_0046
+  network: tcp
+  port: 10121
+  reality-opts:
+    public-key: 4DdA8dBVn5zB_UTbgBY45YqM0HU8zrjXYdzg3-wz5Rg
+    short-id: '!!str 9c2a7d4e5f18b6a3'
+  server: 150.241.83.152
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
+- alterId: 0
+  cipher: auto
+  name: 7|[Vmess] usUS_3|1.6MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 7|[Vmess] usUS_2|1.4MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.46
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
@@ -191,20 +226,6 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0046
-  port: 10121
-  reality-opts:
-    public-key: 4DdA8dBVn5zB_UTbgBY45YqM0HU8zrjXYdzg3-wz5Rg
-    short-id: '!!str 9c2a7d4e5f18b6a3'
-  server: 150.241.83.152
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
 - client-fingerprint: random
   name: 10|[VLESS] US_speednode_0047
   port: 443
@@ -337,20 +358,6 @@ proxies:
   type: vless
   udp: true
   uuid: f25eb463-e242-4fa9-b174-c305af3ab95e
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0058
-  port: 8443
-  reality-opts:
-    public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0
-    short-id: '!!str f1071c148a5aefc4'
-  server: 194.36.39.144
-  servername: rbc.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee740b72-87f6-45e4-a680-85d8d1cc3df1
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 10|[VLESS] US_speednode_0059

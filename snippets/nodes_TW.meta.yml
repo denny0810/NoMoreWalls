@@ -1,51 +1,24 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] twTW_1|2.1MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg007144ll4.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] twTW_2|3.2MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg007116sfa.cybervena.com
-  type: ss
-  udp: true
-- name: 6|[Http] twTW_3|3.6MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: twmoon1-cdn-route.couldflare-cdn.com
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 7|[VLESS] twTW_1|1.4MB/s
+  network: tcp
+  port: 35000
+  reality-opts:
+    public-key: PNLQpvgDvd7WV1OKgNSBWGJHj9i0RuzodFmdhkwxQ3g
+    short-id: '!!str cef493ec'
+  server: hinet2.nekohub.xyz
+  servername: dl.google.com
   tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] twTW_4|1.3MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: 111.250.214.183
-  type: ss
+  type: vless
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] twTW_5|1.9MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001287h3p.cybervena.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] twTW_6|1.2MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg0011305nw.cybervena.com
-  type: ss
-  udp: true
+  uuid: 5781d3c7-a91e-4e93-9769-65de4f3dda0f
+  xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 9|[VLESS] TW_speednode_0033
+  name: 10|[VLESS] TW_speednode_0033
   network: ws
   port: 12345
   server: 106.105.161.54

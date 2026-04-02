@@ -23,23 +23,132 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- encryption: none
-  name: 7|[VLESS] usUS_2|1.3MB/s
+- client-fingerprint: chrome
+  name: 7|[VLESS] usUS_2|1.5MB/s
   network: ws
-  port: 80
-  server: www.speedtest.net
+  port: 443
+  server: 104.19.58.118
+  servername: us1-us1.aiopen.sbs
+  tls: true
+  type: vless
+  uuid: 57d24033-f998-45c1-b973-16747ea76ce9
+  ws-opts:
+    headers:
+      Host: us1-us1.aiopen.sbs
+    path: /kbjc/us1
+- alterId: '0'
+  cipher: auto
+  name: 7|[Vmess] usUS_4|2.5MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 7|[Vmess] usUS_6|1.9MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  servername: www.bing.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alpn:
+  - ''
+  alterId: '2'
+  cipher: auto
+  name: 7|[Vmess] usUS_7|1.3MB/s
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7,10|[VLESS] US_speednode_0046
+  network: tcp
+  port: 10121
+  reality-opts:
+    public-key: 4DdA8dBVn5zB_UTbgBY45YqM0HU8zrjXYdzg3-wz5Rg
+    short-id: '!!str 9c2a7d4e5f18b6a3'
+  server: 150.241.83.152
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: 5152ff5b-56f7-400c-bc1d-2f1dd1ac1e13
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: 010.electrocellco-cf-010.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    max-early-data: 2560
-    path: /eyJqdW5rIjoiM3JsR054alF6R2JFTTEiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMjUuNy4yNC4yNTEiXX0=
+  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
   xudp: true
+- name: 7|[Http] usUS_9|1.1MB/s
+  password: fc5ba91a-acd7-11ef-97e0-f23c9164ca5d
+  port: 443
+  server: fbd79892-t9zts0-tryjtz-12ach.jp.oshuawei.com
+  sni: fbd79892-t9zts0-tryjtz-12ach.jp.oshuawei.com
+  tls: true
+  type: http
+  username: fc5ba91a-acd7-11ef-97e0-f23c9164ca5d
+- name: 7|[Http] usUS_10|1.2MB/s
+  password: c11ff50c-f582-11ee-94df-f23c9164ca5d
+  port: 443
+  server: c4c1f78e-t9zts0-tl09la-1q91p.jp.oshuawei.com
+  sni: c4c1f78e-t9zts0-tl09la-1q91p.jp.oshuawei.com
+  tls: true
+  type: http
+  username: c11ff50c-f582-11ee-94df-f23c9164ca5d
+- name: 7|[Http] usUS_11|1.3MB/s
+  password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
+  port: 443
+  server: 75575881-t9zts0-tarsld-1gevg.jp.oshuawei.com
+  sni: 75575881-t9zts0-tarsld-1gevg.jp.oshuawei.com
+  tls: true
+  type: http
+  username: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
+- name: 7|[Http] usUS_12|1.3MB/s
+  password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
+  port: 443
+  server: f47d7a3e-ta1og0-tbao5v-gacy.jp.oshuawei.com
+  sni: f47d7a3e-ta1og0-tbao5v-gacy.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
+- name: 7|[Http] usUS_13|1.2MB/s
+  password: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
+  port: 443
+  server: e74ab57a-t9zts0-tnfe2z-1s4hc.jp.oshuawei.com
+  sni: e74ab57a-t9zts0-tnfe2z-1s4hc.jp.oshuawei.com
+  tls: true
+  type: http
+  username: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 7|[Vmess] usUS_14|1.8MB/s
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
@@ -208,20 +317,6 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0046
-  port: 10121
-  reality-opts:
-    public-key: 4DdA8dBVn5zB_UTbgBY45YqM0HU8zrjXYdzg3-wz5Rg
-    short-id: '!!str 9c2a7d4e5f18b6a3'
-  server: 150.241.83.152
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
 - client-fingerprint: random
   name: 10|[VLESS] US_speednode_0047
   port: 443

@@ -50,15 +50,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 7,10|[Http] CN_speednode_0005
-  password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
-  port: 5228
-  server: 4091d0ef-ta1og0-tiqsce-t6fv.cm4.oshuawei.com
-  sni: 4091d0ef-ta1og0-tiqsce-t6fv.cm4.oshuawei.com
-  tls: true
-  type: http
+- cipher: chacha20-ietf
+  name: 7|[SS] hkHK_1|1.0MB/s
+  password: asd123456
+  port: 8388
+  server: 103.149.183.80
+  type: ss
   udp: true
-  username: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
 - name: 10|[Http] HK_speednode_0034
   password: <password>
   port: 8443
@@ -99,6 +97,20 @@ proxies:
   type: http
   udp: true
   username: walless
+- name: 10|[VLESS] HK_speednode_0039
+  network: ws
+  port: 7443
+  server: 222.167.202.52
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /222.167.202.52:7443
 - name: 10|[VLESS] HK_speednode_0040
   network: ws
   port: 7443

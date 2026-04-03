@@ -166,128 +166,66 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- auth: dongtaiwang.com
-  insecure: '1'
-  mport: 41000-42000
-  name: 7,9|[Hysteria2] group->v2ray Hysteria2节点
-  password: dongtaiwang.com
-  port: 40022
-  server: 62.210.25.116
+- name: 7,10|[Http] KR_speednode_0060
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
   skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- name: 7,10|[VLESS] HK_speednode_0039
-  network: ws
-  port: 7443
-  server: 222.167.202.52
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: /222.167.202.52:7443
-- name: 7,10|[Http] CN_speednode_0005
-  password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
-  port: 5228
-  server: 4091d0ef-ta1og0-tiqsce-t6fv.cm4.oshuawei.com
-  sni: 4091d0ef-ta1og0-tiqsce-t6fv.cm4.oshuawei.com
+  sni: testkr3.ssv.vc
   tls: true
   type: http
   udp: true
-  username: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 7|[VLESS] usUS_2|1.5MB/s
-  network: tcp
+  username: test
+- name: 7|[Http] deDE_1|1020KB/s
+  password: f93486ce-cc84-11ed-9e98-f23c913c8d2b
   port: 443
-  server: s173.okgg.top
-  servername: u710947ua226s173.okgg.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-- name: 7,10|[Http] US_speednode_0070
-  password: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
-  port: 443
-  server: 0381022d-tcxds0-tdt3k0-jx5r.de.oshuawei.com
-  sni: 0381022d-tcxds0-tdt3k0-jx5r.de.oshuawei.com
+  server: 49e7c9f8-tcz8g0-tlvq5w-1jcwu.de.oshuawei.com
+  sni: 49e7c9f8-tcz8g0-tlvq5w-1jcwu.de.oshuawei.com
   tls: true
   type: http
+  username: f93486ce-cc84-11ed-9e98-f23c913c8d2b
+- cipher: chacha20-ietf
+  name: 7|[SS] hkHK_1|1.0MB/s
+  password: asd123456
+  port: 8388
+  server: 103.149.183.80
+  type: ss
   udp: true
-  username: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
-- name: 7,10|[Http] US_speednode_0071
-  password: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
-  port: 443
-  server: d0921ded-tcz8g0-teei0c-1ryup.de.oshuawei.com
-  sni: d0921ded-tcz8g0-teei0c-1ryup.de.oshuawei.com
+- name: 7|[Http] twTW_1|1.2MB/s
+  password: mrwdfNTD8M79LCukCieldrqZWqs=
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: true
+  sni: twmoon1-cdn-route.couldflare-cdn.com
   tls: true
   type: http
-  udp: true
-  username: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
-- encryption: none
-  grpc-opts:
-    grpc-service-name: pol-x1.plugvpn.ru
-  name: 7|[VLESS] chCH_1|1.6MB/s
-  network: grpc
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 7|[Http] deDE_2|1004KB/s
+  password: 9cc3c03e-21fd-11ee-a642-f23c91369f2d
   port: 443
-  server: 138.124.64.28
-  type: vless
-  udp: true
-  uuid: c8d65a3a-5002-4dff-bfd6-d4b9ef90b9cc
-  xudp: true
-- encryption: none
-  name: 7|[VLESS] sgSG_4|3.3MB/s
-  network: ws
-  port: 80
-  server: 162.159.34.121
-  type: vless
-  udp: true
-  uuid: 0ca855d9-7c03-40eb-929b-919f934abdc3
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: amirvpn.amirhm00100.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    max-early-data: 2048
-    path: /
-  xudp: true
-- name: 7|[VLESS] usUS_3|1.6MB/s
-  network: ws
-  port: 2052
-  server: www.visa.com.sg
-  type: vless
-  udp: true
-  uuid: 25efc727-e853-49ba-9609-3c20009d0e7a
-  ws-opts:
-    headers:
-      Host: winbiss-0tpka6-v1.winbiss.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /
-  xudp: true
-- name: 7|[Trojan] nlNL_1|1.2MB/s
-  network: ws
-  password: bpb-trojan
+  server: 8f350064-t9zts0-tqx9ef-1k0yf.de.oshuawei.com
+  sni: 8f350064-t9zts0-tqx9ef-1k0yf.de.oshuawei.com
+  tls: true
+  type: http
+  username: 9cc3c03e-21fd-11ee-a642-f23c91369f2d
+- name: 7|[Http] deDE_3|1.1MB/s
+  password: dcccacba-fa44-11ef-8400-f23c9164ca5d
   port: 443
-  server: vless.herogoing.top
-  skip-cert-verify: false
-  sni: vless.herogoing.top
-  type: trojan
+  server: f0b8b06c-tcxds0-td23wa-1j6h0.de.oshuawei.com
+  sni: f0b8b06c-tcxds0-td23wa-1j6h0.de.oshuawei.com
+  tls: true
+  type: http
+  username: dcccacba-fa44-11ef-8400-f23c9164ca5d
+- allowInsecure: '1'
+  alpn:
+  - h2
+  name: 7,8|[Anytls] zaZA²_1|5.3MB/s|0%|GPT⁺|YT-CN|...
+  password: dongtaiwang.com
+  port: 59901
+  server: 45.221.98.14
+  skip-cert-verify: true
+  type: anytls
   udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    max-early-data: 2560
-    path: /tr
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 8|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...
@@ -295,15 +233,6 @@ proxies:
   port: 38388
   server: 103.186.154.172
   type: ss
-- alpn:
-  - h2
-  name: 8|[Anytls] zaZA²_1|5.3MB/s|0%|GPT⁺|YT-CN|...
-  password: dongtaiwang.com
-  port: 59901
-  server: 45.221.98.14
-  skip-cert-verify: true
-  type: anytls
-  udp: true
 - cipher: aes-256-cfb
   country: 🇨🇳 CN
   name: 8|[SS] vnVN²_2|1.6MB/s|GPT|X|History
@@ -392,6 +321,14 @@ proxies:
     headers:
       Host: www.bing.com
     path: /alvin9999.com
+- name: 9|[Hysteria2] group->v2ray Hysteria2节点
+  password: dongtaiwang.com
+  port: 40022
+  server: 62.210.25.116
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
 - name: 10|[Trojan] AT_speednode_0001
   network: ws
   password: trojan
@@ -438,6 +375,14 @@ proxies:
     headers:
       Host: sub.mot.ip-ddns.com
     path: /
+- name: 10|[Http] CN_speednode_0005
+  password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
+  port: 5228
+  server: 4091d0ef-ta1og0-tiqsce-t6fv.cm4.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
 - name: 10|[Http] CN_speednode_0006
   password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
   port: 5228
@@ -698,6 +643,20 @@ proxies:
   type: http
   udp: true
   username: walless
+- name: 10|[VLESS] HK_speednode_0039
+  network: ws
+  port: 7443
+  server: 222.167.202.52
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /222.167.202.52:7443
 - name: 10|[VLESS] HK_speednode_0040
   network: ws
   port: 7443
@@ -958,15 +917,6 @@ proxies:
   sni: tttyder.wsone.icu
   type: trojan
   udp: true
-- name: 10|[Http] KR_speednode_0060
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: test
 - name: 10|[Trojan] NL_speednode_0061
   password: strong-secret-pass-777
   port: 4443
@@ -1038,6 +988,22 @@ proxies:
   type: http
   udp: true
   username: walless
+- name: 10|[Http] US_speednode_0070
+  password: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
+  port: 443
+  server: 0381022d-tcxds0-tdt3k0-jx5r.de.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
+- name: 10|[Http] US_speednode_0071
+  password: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
+  port: 443
+  server: d0921ded-tcz8g0-teei0c-1ryup.de.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: 10|[VLESS] US_speednode_0072

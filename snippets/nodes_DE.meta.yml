@@ -1,5 +1,14 @@
 proxies:
-- name: 6,9|[VLESS] DE_speednode_0005
+- name: 7|[Trojan] deDE_1|1.5MB/s
+  network: tcp
+  password: 16833ac4-1bdb-4d5e-88ec-e3c4f7a28895
+  port: 24446
+  server: vde4.stableq.top
+  skip-cert-verify: false
+  sni: vde4.stableq.top
+  type: trojan
+  udp: true
+- name: 10|[VLESS] DE_speednode_0005
   network: ws
   port: 4001
   server: 185.94.29.156
@@ -13,20 +22,7 @@ proxies:
     headers:
       Host: sub.mot.ip-ddns.com
     path: /
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] deDE_2|1.3MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UV34T0S_VyVcChA2Tb9MIbg4tr1mHGMr_Lw5Gvb17F8
-    short-id: '!!str 66ed2fdd'
-  server: 130.162.220.137
-  servername: www.lamer.com
-  tls: true
-  type: vless
-  uuid: 57d24033-f998-45c1-b973-16747ea76ce9
-- name: 9|[VLESS] DE_speednode_0006
+- name: 10|[VLESS] DE_speednode_0006
   network: ws
   port: 4002
   server: 37.114.50.157

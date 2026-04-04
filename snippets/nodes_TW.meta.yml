@@ -1,19 +1,16 @@
 proxies:
-- name: 6|[Http] twTW_1|1.9MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
+- alpn:
+  - http/1.1
+  name: 7|[VLESS] twTW_1|1.6MB/s
+  network: ws
+  port: 12345
+  server: 106.105.161.54
+  servername: snippet.chinat.eu.cc
   skip-cert-verify: false
-  sni: twmoon1-cdn-route.couldflare-cdn.com
   tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 6|[Http] twTW_2|1.1MB/s
-  password: mrwdfNTD8M79LCukCieldrqZWqs=
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: true
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.chinat.eu.cc
+    path: /danfengfp

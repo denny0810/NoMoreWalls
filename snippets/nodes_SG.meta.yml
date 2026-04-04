@@ -1,5 +1,5 @@
 proxies:
-- name: 4,5|[Trojan] 新加坡|@ripaojiedian
+- name: 5,6|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
   port: 4674
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 新加坡2|@ripaojiedian
+- name: 5,6|[Trojan] 新加坡2|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
   port: 4674
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 新加坡3|@ripaojiedian
+- name: 5,6|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 28033
@@ -23,27 +23,17 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- encryption: none
-  name: 6|[VLESS] sgSG_3|3.3MB/s
-  network: ws
-  port: 8080
-  server: 198.41.222.50
-  servername: 198.41.222.50
-  type: vless
+- name: 7|[Anytls] sgSG_3|4.2MB/s
+  password: 9594f8cc-da22-4504-9bcb-b8f219fe28ec
+  port: 60003
+  server: hkaws.ccwink.photos
+  skip-cert-verify: true
+  sni: hkaws.ccwink.photos
+  type: anytls
   udp: true
-  uuid: c9b45f2f-6cbe-4a86-b4d2-a327f4055a59
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: 001.electrocellco-cf-001.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.86 Safari/537.36
-    max-early-data: 2560
-    path: /eyJqdW5rIjoiRzBvTDBuZEFVIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIxMy4yMTEuMjkiLCIzMS40NC4yLjU3IiwiNzcuMjQ2LjEwOC4xMzAiXX0=
-  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  name: 7|[SS] sgSG²_1|2.4MB/s|X|History
+  name: 8|[SS] sgSG²_1|2.4MB/s|X|History
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.16

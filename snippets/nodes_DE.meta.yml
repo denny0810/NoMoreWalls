@@ -1,25 +1,62 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 6|[VLESS] deDE_1|1023KB/s
+  name: 7|[VLESS] deDE_1|1.7MB/s
   network: tcp
   port: 443
   reality-opts:
-    public-key: fsbp0vmCXnkqXfD7kyb7fv8JdJBZsENkKNkJzChmo0Y
-    short-id: '!!str 9262e44c3f4093f0'
-  server: 141.98.190.220
-  servername: ads.x5.ru
+    public-key: yZh74kxd_k5PvamyrFDIS_rYRLUhy5xpc4v1lU_Gdk0
+    short-id: '!!str f085548164eba3de'
+  server: 45.148.117.94
+  servername: yandex.ru
   tls: true
   type: vless
-  udp: true
-  uuid: 6d0e9ded-d23d-4ffb-b165-7bc757be84d3
-  xudp: true
-- name: 9|[VLESS] DE_speednode_0032
+  uuid: 443fd8ea-3cfd-4286-a4e2-91276e41fe51
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 7|[VLESS] deDE_2|2.3MB/s
+  network: tcp
+  port: 52006
+  reality-opts:
+    public-key: o_ZQuEx_ealt_YkqgtYRqFhee0pzFkg9ObUhODLTAB8
+    short-id: '!!str 1f7854fbfe'
+  server: nkd0880w35.vk-maps.net
+  servername: api4.vk-maps.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: f1881fb7-3d7c-42d4-ab52-1a9eebf6fb71
+- encryption: none
+  name: 7|[VLESS] deDE_3|2.5MB/s
+  network: ws
+  port: 2086
+  server: 188.114.98.0
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 73829173-bb56-442b-a8d4-ec732c020945
+  ws-opts:
+    headers:
+      Host: a3ssa.vaslbsh.com
+    path: /
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
+- client-fingerprint: chrome
+  name: 7|[VLESS] deDE_4|3.2MB/s
+  network: ws
+  port: 18081
+  server: 74.119.192.89
+  servername: sub.mot.ip-ddns.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+    path: /
+- name: 10|[VLESS] DE_speednode_0032
   network: ws
   port: 4001
   server: 185.94.29.156
@@ -33,7 +70,7 @@ proxies:
     headers:
       Host: sub.mot.ip-ddns.com
     path: /
-- name: 9|[VLESS] DE_speednode_0033
+- name: 10|[VLESS] DE_speednode_0033
   network: ws
   port: 4002
   server: 37.114.50.157

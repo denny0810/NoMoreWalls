@@ -1,14 +1,14 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 4|[Vmess] hk 香港|@ripaojiedian
+  name: 5|[Vmess] hk 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 4,5|[Trojan] 香港3|@ripaojiedian
+- name: 5,6|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
   port: 921
@@ -16,7 +16,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 香港4|@ripaojiedian
+- name: 5,6|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 2001
@@ -24,7 +24,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 4,5|[Trojan] 香港5|@ripaojiedian
+- name: 5,6|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 6313
@@ -34,7 +34,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 5|[Vmess] 香港|@ripaojiedian
+  name: 6|[Vmess] 香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -42,7 +42,23 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 9|[Http] HK_speednode_0034
+- name: 7|[Anytls] hkHK_1|3.5MB/s
+  password: 9594f8cc-da22-4504-9bcb-b8f219fe28ec
+  port: 60001
+  server: hkaws.ccwink.photos
+  skip-cert-verify: true
+  sni: hkaws.ccwink.photos
+  type: anytls
+  udp: true
+- name: 7|[Anytls] hkHK_3|4.7MB/s
+  password: 9594f8cc-da22-4504-9bcb-b8f219fe28ec
+  port: 60006
+  server: hkaws.ccwink.photos
+  skip-cert-verify: true
+  sni: hkaws.ccwink.photos
+  type: anytls
+  udp: true
+- name: 10|[Http] HK_speednode_0034
   password: <password>
   port: 8443
   server: 5e10aa15-t9zts0-toa9ad-4w8.hkt.cdnhuawei.com
@@ -50,7 +66,7 @@ proxies:
   type: http
   udp: true
   username: ba7a37e3-033a-e1ab-06f6-9027aa4630f5
-- name: 9|[Http] HK_speednode_0035
+- name: 10|[Http] HK_speednode_0035
   password: <password>
   port: 8443
   server: bd00c917-ta1og0-tfpsin-1q3dm.hkt.cdnhuawei.com
@@ -58,7 +74,7 @@ proxies:
   type: http
   udp: true
   username: c1785de0-212f-11ef-92aa-f23c9164ca5d
-- name: 9|[Http] HK_speednode_0036
+- name: 10|[Http] HK_speednode_0036
   password: <password>
   port: 8443
   server: 9ea0b168-t9zts0-tfjz9x-1t5n1.hkt.cdnhuawei.com
@@ -66,7 +82,7 @@ proxies:
   type: http
   udp: true
   username: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
-- name: 9|[Http] HK_speednode_0037
+- name: 10|[Http] HK_speednode_0037
   password: <password>
   port: 8443
   server: f868c076-t9zts0-tqx9ef-1k0yf.hkt.cdnhuawei.com
@@ -74,7 +90,7 @@ proxies:
   type: http
   udp: true
   username: 9cc3c03e-21fd-11ee-a642-f23c91369f2d
-- name: 9|[Http] HK_speednode_0038
+- name: 10|[Http] HK_speednode_0038
   password: 275728c9-07a2-4f21-807f-4e2189f02929
   port: 4440
   server: 4-nqc2turr.mix.dexiansheng.com
@@ -82,7 +98,7 @@ proxies:
   type: http
   udp: true
   username: walless
-- name: 9|[VLESS] HK_speednode_0039
+- name: 10|[VLESS] HK_speednode_0039
   network: ws
   port: 7443
   server: 222.167.202.52
@@ -96,7 +112,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.52:7443
-- name: 9|[VLESS] HK_speednode_0040
+- name: 10|[VLESS] HK_speednode_0040
   network: ws
   port: 7443
   server: 222.167.202.23
@@ -110,7 +126,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.23:7443
-- name: 9|[VLESS] HK_speednode_0041
+- name: 10|[VLESS] HK_speednode_0041
   network: ws
   port: 7443
   server: 222.167.202.21
@@ -124,7 +140,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.21:7443
-- name: 9|[VLESS] HK_speednode_0042
+- name: 10|[VLESS] HK_speednode_0042
   network: ws
   port: 7443
   server: 222.167.202.16
@@ -138,7 +154,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.16:7443
-- name: 9|[VLESS] HK_speednode_0043
+- name: 10|[VLESS] HK_speednode_0043
   network: ws
   port: 7443
   server: 222.167.202.6
@@ -152,7 +168,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.6:7443
-- name: 9|[VLESS] HK_speednode_0044
+- name: 10|[VLESS] HK_speednode_0044
   network: ws
   port: 7443
   server: 222.167.202.14
@@ -166,7 +182,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.14:7443
-- name: 9|[VLESS] HK_speednode_0045
+- name: 10|[VLESS] HK_speednode_0045
   network: ws
   port: 7443
   server: 222.167.202.2
@@ -180,7 +196,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.2:7443
-- name: 9|[VLESS] HK_speednode_0046
+- name: 10|[VLESS] HK_speednode_0046
   network: ws
   port: 7443
   server: 222.167.202.45
@@ -194,7 +210,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.45:7443
-- name: 9|[VLESS] HK_speednode_0047
+- name: 10|[VLESS] HK_speednode_0047
   network: ws
   port: 7443
   server: 222.167.202.70
@@ -208,7 +224,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.70:7443
-- name: 9|[VLESS] HK_speednode_0048
+- name: 10|[VLESS] HK_speednode_0048
   network: ws
   port: 7443
   server: 222.167.202.47
@@ -222,7 +238,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.47:7443
-- name: 9|[VLESS] HK_speednode_0049
+- name: 10|[VLESS] HK_speednode_0049
   network: ws
   port: 7443
   server: 222.167.202.31
@@ -236,7 +252,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.31:7443
-- name: 9|[VLESS] HK_speednode_0050
+- name: 10|[VLESS] HK_speednode_0050
   network: ws
   port: 7443
   server: 222.167.202.32
@@ -250,7 +266,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.32:7443
-- name: 9|[VLESS] HK_speednode_0051
+- name: 10|[VLESS] HK_speednode_0051
   network: ws
   port: 7443
   server: 222.167.202.35
@@ -264,7 +280,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.35:7443
-- name: 9|[VLESS] HK_speednode_0052
+- name: 10|[VLESS] HK_speednode_0052
   network: ws
   port: 7443
   server: 222.167.202.33
@@ -278,7 +294,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.33:7443
-- name: 9|[VLESS] HK_speednode_0053
+- name: 10|[VLESS] HK_speednode_0053
   network: ws
   port: 7443
   server: 222.167.202.10
@@ -292,7 +308,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.10:7443
-- name: 9|[VLESS] HK_speednode_0054
+- name: 10|[VLESS] HK_speednode_0054
   network: ws
   port: 7443
   server: 222.167.202.4
@@ -306,7 +322,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.4:7443
-- name: 9|[VLESS] HK_speednode_0055
+- name: 10|[VLESS] HK_speednode_0055
   network: ws
   port: 7443
   server: 222.167.202.22
@@ -320,7 +336,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.22:7443
-- name: 9|[VLESS] HK_speednode_0056
+- name: 10|[VLESS] HK_speednode_0056
   network: ws
   port: 7443
   server: 222.167.202.60
@@ -334,7 +350,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.60:7443
-- name: 9|[VLESS] HK_speednode_0057
+- name: 10|[VLESS] HK_speednode_0057
   network: ws
   port: 7443
   server: 222.167.202.50

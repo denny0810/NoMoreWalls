@@ -1,35 +1,24 @@
 proxies:
-- name: 6|[Http] deDE_1|1001KB/s
-  password: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 6|[VLESS] deDE_1|1023KB/s
+  network: tcp
   port: 443
-  server: 396e9856-t9zts0-tb08pe-luwe.de.oshuawei.com
-  sni: 396e9856-t9zts0-tb08pe-luwe.de.oshuawei.com
+  reality-opts:
+    public-key: fsbp0vmCXnkqXfD7kyb7fv8JdJBZsENkKNkJzChmo0Y
+    short-id: '!!str 9262e44c3f4093f0'
+  server: 141.98.190.220
+  servername: ads.x5.ru
   tls: true
-  type: http
-  username: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
-- encryption: none
-  name: 6|[VLESS] deDE_2|2.4MB/s
-  network: ws
-  port: 80
-  server: 104.20.63.52
   type: vless
   udp: true
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
-  ws-opts:
-    headers:
-      Host: vip.yaml7.ggff.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.76 Safari/537.36
-    path: /
+  uuid: 6d0e9ded-d23d-4ffb-b165-7bc757be84d3
   xudp: true
-- name: 6|[Http] deDE_3|1006KB/s
-  password: b1b9acea-4627-11ed-a8bf-f23c91cfbbc9
-  port: 443
-  server: 00a83861-td1340-te2uko-1g47a.de.oshuawei.com
-  sni: 00a83861-td1340-te2uko-1g47a.de.oshuawei.com
-  tls: true
-  type: http
-  username: b1b9acea-4627-11ed-a8bf-f23c91cfbbc9
 - name: 9|[VLESS] DE_speednode_0032
   network: ws
   port: 4001

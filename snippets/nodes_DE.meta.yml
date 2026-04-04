@@ -1,16 +1,35 @@
 proxies:
-- name: 7|[VLESS] deDE_1|2.4MB/s
-  network: ws
+- name: 7|[Http] deDE_1|1001KB/s
+  password: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
   port: 443
-  server: 31.59.58.232
-  servername: vpn.allstatepizza.com
+  server: 396e9856-t9zts0-tb08pe-luwe.de.oshuawei.com
+  sni: 396e9856-t9zts0-tb08pe-luwe.de.oshuawei.com
   tls: true
+  type: http
+  username: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
+- encryption: none
+  name: 7|[VLESS] deDE_2|2.4MB/s
+  network: ws
+  port: 80
+  server: 104.20.63.52
   type: vless
-  uuid: 7d96b1fc-0738-4c51-b5c9-64cce89c30b7
+  udp: true
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
   ws-opts:
     headers:
-      Host: vpn.allstatepizza.com
-    path: /ray
+      Host: vip.yaml7.ggff.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: /
+  xudp: true
+- name: 7|[Http] deDE_3|1006KB/s
+  password: b1b9acea-4627-11ed-a8bf-f23c91cfbbc9
+  port: 443
+  server: 00a83861-td1340-te2uko-1g47a.de.oshuawei.com
+  sni: 00a83861-td1340-te2uko-1g47a.de.oshuawei.com
+  tls: true
+  type: http
+  username: b1b9acea-4627-11ed-a8bf-f23c91cfbbc9
 - name: 10|[VLESS] DE_speednode_0032
   network: ws
   port: 4001

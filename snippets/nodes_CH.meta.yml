@@ -4,7 +4,7 @@ proxies:
   http-opts:
     path:
     - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-  name: 7|[VLESS] chCH_1|2.7MB/s
+  name: 7|[VLESS] chCH_1|1.3MB/s
   network: http
   port: 22
   server: 172.65.111.43
@@ -12,6 +12,25 @@ proxies:
   tls: false
   type: vless
   uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7|[VLESS] chCH_2|1.3MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0
+    short-id: '!!str 86b80f1e713a33ad'
+  server: che.pink-service.ru
+  servername: che.pink-service.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 52c3e040-f7a4-4f69-86a4-13019fde4584
+  xudp: true
 - name: 10|[VLESS] CH_speednode_0004
   network: ws
   port: 4433

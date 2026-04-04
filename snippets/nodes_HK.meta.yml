@@ -12,15 +12,15 @@ proxies:
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
   port: 921
-  server: 13.193.218.6
+  server: 16.162.33.118
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 5,6|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9211
-  server: 95.40.35.187
+  port: 2001
+  server: 54.168.216.209
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -28,7 +28,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 6313
-  server: 3.112.236.46
+  server: 3.112.197.74
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -42,13 +42,46 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf
-  name: 7|[SS] hkHK_1|1.0MB/s
-  password: asd123456
-  port: 8388
-  server: 103.149.183.80
-  type: ss
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 7,10|[VLESS] US_speednode_0072
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: j5sQbSLF4SeU7XHU27W56ZuveT-O6HwxX2wi5neM4UM
+    short-id: '!!str abcdef00'
+  server: vleesvpn-app-nl01.gw-vpn.click
+  servername: plus.im
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: b605b776-b676-430e-8957-00f1e0166bee
+- name: 7,10|[Http] CN_speednode_0006
+  password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
+  port: 5228
+  server: 9ae34110-t9zts0-tb592v-4lg6.cm4.oshuawei.com
+  sni: 9ae34110-t9zts0-tb592v-4lg6.cm4.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
+- name: 7|[Http] hkHK_3|1.8MB/s
+  password: 3437f34e-1b77-11eb-8684-f23c913c8d2b
+  port: 5228
+  server: faf8a2df-ta1og0-tlm64c-xm0q.cm4.oshuawei.com
+  sni: faf8a2df-ta1og0-tlm64c-xm0q.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: 3437f34e-1b77-11eb-8684-f23c913c8d2b
+- name: 7|[Http] hkHK_5|1.2MB/s
+  password: 80aa5178-f936-11ed-8ce6-f23c91369f2d
+  port: 5228
+  server: c677ee82-t9zts0-tysu9z-1nq4g.cm4.oshuawei.com
+  sni: c677ee82-t9zts0-tysu9z-1nq4g.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: 80aa5178-f936-11ed-8ce6-f23c91369f2d
 - name: 10|[Http] HK_speednode_0034
   password: <password>
   port: 8443

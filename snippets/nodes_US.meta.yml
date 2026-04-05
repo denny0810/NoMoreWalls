@@ -23,42 +23,29 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- encryption: none
-  name: 7|[VLESS] usUS_1|2.8MB/s
-  network: ws
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 7|[TUIC] usUS_1|1.5MB/s
+  password: a9bc8cf2-329b-4dd8-8c95-42821cd86d06
+  port: 46635
+  server: 3.a521.eu.org
+  sni: 3.a521.eu.org
+  type: tuic
+  udp: 'true'
+  udp-relay-mode: native
+  uuid: a9bc8cf2-329b-4dd8-8c95-42821cd86d06
+  version: '5'
+- name: 7|[Hysteria2] usUS_2|1.7MB/s
+  obfs: salamander
+  obfs-password: OrT7yQQIMqcvKdet
+  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
   port: 443
-  server: 166.117.33.104
-  servername: snippet.danfeng.theworkpc.com
+  server: usa-hy2.onetaplink.app
   skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 7|[VLESS] usUS_2|1.3MB/s
-  network: tcp
-  port: 42428
-  reality-opts:
-    public-key: ccICtTNR2BXmdCzazGcyci16c7O1kJIv6ugDM6xY2XY
-    short-id: '!!str 24adcebe'
-  server: 144.31.94.4
-  servername: eh.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 27d0c642-693c-4070-83b4-0e9803ba71b3
-  xudp: true
+  sni: hy2-usa.onetaplink.app
+  tfo: false
+  type: hysteria2
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

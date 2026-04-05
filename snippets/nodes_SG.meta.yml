@@ -23,32 +23,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 7|[Anytls] sgSG_1|1.5MB/s
-  password: 9594f8cc-da22-4504-9bcb-b8f219fe28ec
-  port: 60003
-  server: hkaws.ccwink.photos
-  skip-cert-verify: true
-  sni: hkaws.ccwink.photos
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] sgSG_2|1018KB/s
-  network: ws
-  port: 2096
-  server: webmail.eclass.lk
-  servername: free-server.techsonic.ggff.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: b8ae3c37-37d6-4d4d-93fc-1ce0bc329ba0
-  ws-opts:
-    headers:
-      Host: free-server.techsonic.ggff.net
-      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
-        like Gecko) Chrome/5.0.342.1 Safari/533.2
-    path: /@Tech_Sonic
-  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 7|[Vmess] sgSG_1|1.5MB/s
+  network: tcp
+  port: 30812
+  server: v12.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 8|[SS] sgSG²_1|2.4MB/s|X|History

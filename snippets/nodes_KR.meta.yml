@@ -1,4 +1,51 @@
 proxies:
+- name: 7|[VLESS] krKR_1|2.4MB/s
+  network: ws
+  port: 25105
+  server: 59.14.58.161
+  servername: snippet.fgfw.ndjp.net
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ndjp.net
+    path: /danfeng
+- client-fingerprint: chrome
+  name: 7|[VLESS] krKR_2|3.0MB/s
+  network: ws
+  port: 10088
+  server: 211.245.68.145
+  servername: snippet.danfeng.theworkpc.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.90 Safari/537.36
+    max-early-data: 2560
+    path: /danfeng
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 7|[VLESS] krKR_3|2.5MB/s
+  network: ws
+  port: 23253
+  server: 222.97.154.26
+  servername: snippet.chinav.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.chinav.eu.cc
+    path: /danfeng
 - name: 8|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
   port: 1090
   server: 121.169.46.116

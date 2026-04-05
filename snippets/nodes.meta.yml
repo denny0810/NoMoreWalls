@@ -144,7 +144,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 7|[Anytls] jpJP_2|3.3MB/s
+- name: 7|[Anytls] jpJP_3|3.2MB/s
   password: 9594f8cc-da22-4504-9bcb-b8f219fe28ec
   port: 60004
   server: jpaws.ccwink.photos
@@ -152,105 +152,281 @@ proxies:
   sni: jpaws.ccwink.photos
   type: anytls
   udp: true
-- name: 7|[Anytls] sgSG_1|1.5MB/s
-  password: 9594f8cc-da22-4504-9bcb-b8f219fe28ec
-  port: 60003
-  server: hkaws.ccwink.photos
-  skip-cert-verify: true
-  sni: hkaws.ccwink.photos
-  type: anytls
-  udp: true
 - alpn:
-  - h3%2Ch2%2Chttp%2F1.1
-  encryption: none
-  name: 7|[VLESS] jpJP_4|1.1MB/s
-  network: ws
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 7|[Vmess] usUS_2|1.0MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 7|[VLESS] hkHK_1|1.1MB/s
+  network: tcp
   port: 443
-  server: 162.159.38.121
-  servername: xiao.xiao0772.ccwu.cc
+  reality-opts:
+    public-key: j5sQbSLF4SeU7XHU27W56ZuveT-O6HwxX2wi5neM4UM
+    short-id: 'abcdef00'
+  server: vleesvpn-app-nl02.gw-vpn.click
+  servername: plus.im
+  tls: true
+  type: vless
+  uuid: b605b776-b676-430e-8957-00f1e0166bee
+- alterId: 0
+  cipher: auto
+  name: 7|[Vmess] sgSG_1|1.5MB/s
+  network: tcp
+  port: 30812
+  server: v12.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 7,10|[VLESS] US_speednode_0072
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: j5sQbSLF4SeU7XHU27W56ZuveT-O6HwxX2wi5neM4UM
+    short-id: 'abcdef00'
+  server: vleesvpn-app-nl01.gw-vpn.click
+  servername: plus.im
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: cee53ba2-31d6-4821-8bef-d55f2f05f120
+  uuid: b605b776-b676-430e-8957-00f1e0166bee
+- alterId: 0
+  cipher: auto
+  name: 7|[Vmess] usUS_3|1.5MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.46
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 7|[VLESS] usUS_4|1.1MB/s
+  network: ws
+  port: 443
+  server: 192.0.63.115
+  servername: snippet.danfeng.theworkpc.com
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    max-early-data: 2560
+    path: /danfeng
+- name: 7,10|[VLESS] HK_speednode_0040
+  network: ws
+  port: 7443
+  server: 222.167.202.23
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
-      Host: xiao.xiao0772.ccwu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /
+      Host: 2026.hhhhh.eu.org
+    path: /222.167.202.23:7443
+- name: 7|[VLESS] krKR_1|2.4MB/s
+  network: ws
+  port: 25105
+  server: 59.14.58.161
+  servername: snippet.fgfw.ndjp.net
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ndjp.net
+    path: /danfeng
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 7|[Hysteria] deDE_1|2.1MB/s
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 500
+- flow: xtls-rprx-vision
+  name: 7,10|[VLESS] RU_speednode_0063
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: FZbK0E3QBK7QslwVEXimX6vmXC8cb6826lSLJUkIEgU
+  server: 217.114.11.246
+  servername: max.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9768f14f-a790-4c78-b1d9-60cc0e9d99a0
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 7|[VLESS] hkHK_3|3.4MB/s
+  network: ws
+  port: 51198
+  server: 103.69.129.71
+  servername: snippet.fgfw.ndjp.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ndjp.net
+    path: /danfeng
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 7|[Vmess] hkHK_4|1.1MB/s
+  network: ws
+  port: 52511
+  server: aflzzul.meiquankongjian.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+  ws-opts:
+    headers:
+      Host: aflzzul.meiquankongjian.com
+    path: /564dfa20/
   xudp: true
-- allowInsecure: '1'
-  name: 7|[Anytls] hkHK_3|4.2MB/s
+- name: 7|[Http] twTW_1|3.3MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 7|[Anytls] hkHK_5|2.4MB/s
   password: 9594f8cc-da22-4504-9bcb-b8f219fe28ec
-  port: 60001
+  port: 60005
   server: jpaws.ccwink.photos
   skip-cert-verify: true
   sni: jpaws.ccwink.photos
   type: anytls
   udp: true
-- name: 7|[Anytls] hkHK_2|3.2MB/s
+- name: 7|[Anytls] hkHK_6|1.6MB/s
   password: 9594f8cc-da22-4504-9bcb-b8f219fe28ec
-  port: 60001
+  port: 60006
   server: hkaws.ccwink.photos
   skip-cert-verify: true
   sni: hkaws.ccwink.photos
   type: anytls
   udp: true
-- name: 7|[Trojan] nlNL_1|2.6MB/s
+- name: 7|[VLESS] krKR_2|3.0MB/s
   network: ws
-  password: humanity
-  port: 443
-  server: v3.dabache.top
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /assignment#✅@AR14N24b🤖بهترین+راهکار+رفع+مشکل+اتصال+به+پروکسی/فیلترشکن+🧠#کانفیگ+#proxy+#v2ray+#اینترنت
-- encryption: none
-  name: 7|[VLESS] sgSG_2|1018KB/s
-  network: ws
-  port: 2096
-  server: webmail.eclass.lk
-  servername: free-server.techsonic.ggff.net
+  port: 10088
+  server: 211.245.68.145
+  servername: snippet.danfeng.theworkpc.com
   tls: true
   type: vless
   udp: true
-  uuid: b8ae3c37-37d6-4d4d-93fc-1ce0bc329ba0
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: free-server.techsonic.ggff.net
-      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
-        like Gecko) Chrome/5.0.342.1 Safari/533.2
-    path: /@Tech_Sonic
+      Host: snippet.danfeng.theworkpc.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.90 Safari/537.36
+    max-early-data: 2560
+    path: /danfeng
   xudp: true
 - alpn:
-  - h3
-  congestion-controller: bbr
-  name: 7|[TUIC] usUS_1|1.5MB/s
-  password: a9bc8cf2-329b-4dd8-8c95-42821cd86d06
-  port: 46635
-  server: 3.a521.eu.org
-  sni: 3.a521.eu.org
-  type: tuic
-  udp: 'true'
-  udp-relay-mode: native
-  uuid: a9bc8cf2-329b-4dd8-8c95-42821cd86d06
-  version: '5'
-- name: 7|[Hysteria2] usUS_2|1.7MB/s
-  obfs: salamander
-  obfs-password: OrT7yQQIMqcvKdet
-  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
-  port: 443
-  server: usa-hy2.onetaplink.app
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 7|[Vmess] usUS_5|1.1MB/s
+  network: ws
+  port: 52513
+  server: aflzzul.meiquankongjian.com
   skip-cert-verify: false
-  sni: hy2-usa.onetaplink.app
-  tfo: false
-  type: hysteria2
-- name: 7|[Anytls] hkHK_4|3.4MB/s
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+  ws-opts:
+    headers:
+      Host: aflzzul.meiquankongjian.com
+    path: /564dfa20/
+  xudp: true
+- alterId: 2
+  cipher: auto
+  name: 7|[Vmess] hkHK_7|1.2MB/s
+  network: ws
+  port: 80
+  server: fd1f9857-t8ysg0-t8xyf4-1l0qa.hkt.gotochinatown.net
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 7|[Vmess] hkHK_8|1.1MB/s
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: hkt.gotochinatown.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 398e0d38-8649-11ef-959c-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- alterId: '2'
+  cipher: auto
+  name: 7|[Vmess] usUS_6|1.5MB/s
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- name: 7|[Anytls] twTW_2|2.5MB/s
+  password: 9594f8cc-da22-4504-9bcb-b8f219fe28ec
+  port: 60002
+  server: jpaws.ccwink.photos
+  skip-cert-verify: true
+  sni: jpaws.ccwink.photos
+  type: anytls
+  udp: true
+- name: 7|[Anytls] hkHK_9|1.1MB/s
   password: 9594f8cc-da22-4504-9bcb-b8f219fe28ec
   port: 60006
   server: jpaws.ccwink.photos
@@ -258,6 +434,55 @@ proxies:
   sni: jpaws.ccwink.photos
   type: anytls
   udp: true
+- alterId: 2
+  cipher: auto
+  name: 7|[Vmess] hkHK_10|1.4MB/s
+  network: ws
+  port: 80
+  server: 0087a9d8-t8nog0-ta5nd4-e06r.hkt.gotochinatown.net
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 7|[VLESS] krKR_3|2.5MB/s
+  network: ws
+  port: 23253
+  server: 222.97.154.26
+  servername: snippet.chinav.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.chinav.eu.cc
+    path: /danfeng
+- encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7|[VLESS] nlNL_1|3.1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Q15z1J7L4r_PNKs9E3n5kAPxGsVlahY4ff3nOM8v3E8
+    short-id: 'f716fd72'
+  server: 178.173.252.81
+  servername: hls-svod.itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0f771058-7892-4d46-b77e-a69e811b9cbc
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 8|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...
@@ -698,20 +923,6 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.52:7443
-- name: 10|[VLESS] HK_speednode_0040
-  network: ws
-  port: 7443
-  server: 222.167.202.23
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: /222.167.202.23:7443
 - name: 10|[VLESS] HK_speednode_0041
   network: ws
   port: 7443
@@ -982,18 +1193,6 @@ proxies:
   sni: 94.131.105.125
   type: trojan
   udp: true
-- flow: xtls-rprx-vision
-  name: 10|[VLESS] RU_speednode_0063
-  port: 443
-  reality-opts:
-    public-key: FZbK0E3QBK7QslwVEXimX6vmXC8cb6826lSLJUkIEgU
-  server: 217.114.11.246
-  servername: max.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9768f14f-a790-4c78-b1d9-60cc0e9d99a0
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 10|[VLESS] TR_speednode_0064
@@ -1054,17 +1253,3 @@ proxies:
   type: http
   udp: true
   username: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0072
-  port: 443
-  reality-opts:
-    public-key: j5sQbSLF4SeU7XHU27W56ZuveT-O6HwxX2wi5neM4UM
-    short-id: 'abcdef00'
-  server: vleesvpn-app-nl01.gw-vpn.click
-  servername: plus.im
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b605b776-b676-430e-8957-00f1e0166bee

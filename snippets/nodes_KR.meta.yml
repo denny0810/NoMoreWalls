@@ -1,11 +1,49 @@
 proxies:
+- client-fingerprint: chrome
+  name: 6|[VLESS] krKR_1|1.1MB/s
+  network: ws
+  port: 30047
+  server: 211.194.210.183
+  servername: snippet.danfeng.loc.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.loc.cc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    max-early-data: 2560
+    path: /danfeng
+  xudp: true
+- client-fingerprint: chrome
+  name: 6|[VLESS] krKR_2|1.1MB/s
+  network: ws
+  port: 10035
+  server: 27.119.233.90
+  servername: snippet.danfeng.theworkpc.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /danfeng
+  xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 7|[VLESS] krKR_1|1.1MB/s
+  name: 6|[VLESS] krKR_3|1.4MB/s
   network: ws
-  port: 23253
-  server: 222.97.154.26
+  port: 15018
+  server: 61.79.126.130
   servername: snippet.chinav.eu.cc
   tls: true
   type: vless
@@ -16,111 +54,52 @@ proxies:
       Host: snippet.chinav.eu.cc
     path: /danfeng
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 7|[VLESS] krKR_2|2.4MB/s
-  network: tcp
-  port: 19001
-  reality-opts:
-    public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
-    short-id: '!!str '
-  server: krp01.jumperservice.com
-  servername: addons.mozilla.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6eeb820e-89ef-4b60-9060-ddcaea0580f0
-  xudp: true
-- client-fingerprint: chrome
-  name: 7|[VLESS] krKR_3|2.0MB/s
-  network: ws
-  port: 18810
-  server: 14.37.180.168
-  servername: snippet.fgfw.ccwu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.fgfw.ccwu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    max-early-data: 2560
-    path: /danfeng
-  xudp: true
-- client-fingerprint: chrome
-  name: 7|[VLESS] krKR_4|1.2MB/s
-  network: ws
-  port: 23791
-  server: 58.239.237.226
-  servername: snippet.fgfw.ccwu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.fgfw.ccwu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/31.0.1650.57 Safari/537.36
-    max-early-data: 2560
-    path: /danfeng
-  xudp: true
-- client-fingerprint: chrome
-  name: 7|[VLESS] krKR_5|1.0MB/s
-  network: ws
-  port: 11965
-  server: 218.157.158.21
-  servername: snippet.danfeng.theworkpc.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    max-early-data: 2560
-    path: /danfeng
-  xudp: true
-- client-fingerprint: chrome
   encryption: none
-  name: 7|[VLESS] krKR_6|1.2MB/s
-  network: ws
-  port: 16992
-  server: 222.109.40.96
-  servername: snippet.fgfw.ccwu.cc
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] krKR_4|1.2MB/s
+  network: tcp
+  port: 443
+  server: ako.pagate.top
+  servername: ako.pagate.top
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.ccwu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.79 Safari/537.36
-    path: /danfeng
-  xudp: true
-- name: 8|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
+  uuid: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+- name: 7|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
   port: 1090
   server: 121.169.46.116
   tls: false
   type: socks5
   username: T2clM0QlM0Q6
-- name: 10|[Http] KR_speednode_0060
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 9|[VLESS] KR_speednode_0007
+  network: ws
+  port: 10162
+  server: 106.251.70.75
+  servername: snippet.chinav.eu.cc
+  skip-cert-verify: false
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: test
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.chinav.eu.cc
+    path: /danfeng
+- client-fingerprint: chrome
+  name: 9|[VLESS] KR_speednode_0008
+  network: ws
+  port: 20244
+  server: 211.194.9.159
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560

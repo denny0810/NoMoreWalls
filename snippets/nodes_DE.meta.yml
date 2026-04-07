@@ -10,93 +10,30 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 6|[VLESS] deDE_1|1.3MB/s
+  name: 6|[VLESS] deDE_1|2.5MB/s
   network: tcp
-  port: 8443
+  port: 15891
   reality-opts:
-    public-key: FVL0r87K3-vUP2KXQX1juLMFEHJtvxwKM-nm6_PYllc
-    short-id: '!!str cafe01234567'
-  server: 104.194.158.108
-  servername: www.apple.com
+    public-key: XX4FqSGIg5SsFouxBjPFHSG1SU1rPP5ek6D944aPjWc
+    short-id: '!!str '
+  server: n20.948905.xyz
+  servername: www.python.org
   tls: true
   type: vless
   udp: true
-  uuid: f374a660-2dc5-11f1-9ec5-baabcd4be2cd
-  xudp: true
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 6|[TUIC] deDE_2|2.9MB/s
-  password: dongtaiwang.com
-  port: 10088
-  reduce-rtt: false
-  request-timeout: 0
-  server: ip1.758733.xyz
-  skip-cert-verify: true
-  sni: apple.com
-  type: tuic
-  udp-relay-mode: native
-  uuid: 9bbd1f42-7ae7-4239-bd10-a68de95e3295
-  version: 5
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 6|[VLESS] deDE_3|1.3MB/s
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: FVL0r87K3-vUP2KXQX1juLMFEHJtvxwKM-nm6_PYllc
-    short-id: '!!str cafe01234567'
-  server: 81.19.141.96
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ca05976a-2dea-11f1-9ec5-baabcd4be2cd
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] deDE_4|3.7MB/s
-  network: ws
-  port: 2053
-  server: 188.241.241.29
-  servername: sni.111000.v6.navy
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.111000.v6.navy
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    max-early-data: 2560
-    path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2=
-  xudp: true
+  uuid: 2c5584e1-6546-4db2-811d-356d0c7b2028
 - encryption: none
-  name: 6|[VLESS] deDE_5|2.4MB/s
+  name: 6|[VLESS] deDE_2|2.3MB/s
   network: ws
-  port: 80
-  server: 104.21.72.233
+  port: 2086
+  server: cdn.7zz.cn
+  skip-cert-verify: false
+  tls: false
   type: vless
-  udp: true
-  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
+  uuid: 73829173-bb56-442b-a8d4-ec732c020945
   ws-opts:
     headers:
-      Host: tt.andishehparenting.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      Host: a3ssa.vaslbsh.com
     path: /
-  xudp: true
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true

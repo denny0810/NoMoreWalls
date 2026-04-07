@@ -1,5 +1,5 @@
 proxies:
-- name: 4,5|[Trojan] 日本|@ripaojiedian
+- name: 4,5,6|[Trojan] jpJP_10|3.2MB/s
   network: tcp
   password: BxceQaOe
   port: 16919
@@ -23,19 +23,24 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] jpJP_5|2.7MB/s
-  network: ws
-  port: 52512
-  server: aflzzul.meiquankongjian.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- client-fingerprint: chrome
+  name: 6|[Trojan] jpJP_9|2.5MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 16919
+  server: 18.183.184.216
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
   udp: true
-  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+- client-fingerprint: chrome
+  name: 6|[Trojan] jpJP_12|3.0MB/s
+  network: ws
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  port: 443
+  server: 172.64.52.251
+  skip-cert-verify: false
+  sni: sg680.pages.dev
+  type: trojan
   ws-opts:
-    headers:
-      Host: aflzzul.meiquankongjian.com
-    path: /564dfa20/
-  xudp: true
+    path: /

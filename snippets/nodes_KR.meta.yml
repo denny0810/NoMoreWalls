@@ -1,31 +1,14 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] krKR_1|1.7MB/s
-  network: raw
-  port: 443
-  server: ako.pagate.top
-  servername: ako.pagate.top
+- name: 6|[Http] krKR_1|2.5MB/s
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  sni: testkr3.ssv.vc
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-  xudp: true
-- client-fingerprint: chrome
-  name: 6|[VLESS] krKR_2|1.7MB/s
-  network: ws
-  port: 30035
-  server: 106.255.89.151
-  servername: sub.mot.ip-ddns.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: sub.mot.ip-ddns.com
-    path: /
+  username: test
 - name: 7|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
   port: 1090
   server: 121.169.46.116

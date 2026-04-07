@@ -23,20 +23,25 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- encryption: none
-  name: 6|[VLESS] sgSG_2|2.9MB/s
-  network: ws
-  port: 80
-  server: vip2.kaixincloud.top
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 6|[VLESS] sgSG_1|2.9MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wgoLhL4pRP0y6fu6He4qW_ElohCM_ANWJF3HEoUhNz4
+    short-id: '!!str 9c2378562188c3cb'
+  server: 5.199.164.117
+  servername: sg.denditop.site
+  tls: true
   type: vless
   udp: true
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
-  ws-opts:
-    headers:
-      Host: vip.yaml7.ggff.net
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
-    path: /
+  uuid: 27ee826f-f3a3-478f-831c-a8d1fe1e5eb2
   xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ

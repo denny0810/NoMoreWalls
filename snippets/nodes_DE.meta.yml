@@ -9,38 +9,76 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- encryption: none
-  name: 6|[VLESS] deDE_1|2.0MB/s
-  network: ws
-  port: 2086
-  server: cdn.7zz.cn
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 73829173-bb56-442b-a8d4-ec732c020945
-  ws-opts:
-    headers:
-      Host: a3ssa.vaslbsh.com
-    path: /
-    v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
-- name: 6|[VLESS] deDE_2|1.5MB/s
-  network: ws
-  port: 2086
-  server: 188.114.98.0
-  tls: false
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] deDE_1|1.2MB/s
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: FVL0r87K3-vUP2KXQX1juLMFEHJtvxwKM-nm6_PYllc
+    short-id: '!!str cafe01234567'
+  server: 81.19.141.91
+  servername: www.apple.com
+  tls: true
   type: vless
   udp: true
-  uuid: 73829173-bb56-442b-a8d4-ec732c020945
+  uuid: f3a1017d-1ebf-11f1-8cae-c3845d39d2de
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] deDE_2|3.9MB/s
+  network: ws
+  port: 8443
+  server: 51.91.100.128
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: a3ssa.vaslbsh.com
+      Host: sni.111000.v6.navy
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
+        Safari/537.36
     path: /
-    v2ray-http-upgrade: true
-- name: 6|[Hysteria2] deDE_3|2.5MB/s
-  password: 0f771058-7892-4d46-b77e-a69e811b9cbc
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] deDE_3|2.2MB/s
+  network: ws
+  port: 2053
+  server: 188.241.241.29
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.111000.v6.navy
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    max-early-data: 2560
+    path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2=
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 6|[VLESS] deDE_4|3.2MB/s
+  network: tcp
   port: 443
-  server: 84.200.91.118
-  skip-cert-verify: true
-  sni: hls-svod.itunes.apple.com
-  type: hysteria2
+  reality-opts:
+    public-key: NLARt-womsWqopLrSLNpfp3bHXy3Pg08_LbFUQPhpjU
+    short-id: '!!str 0f4dacf82203e11f'
+  server: de.api-yandex.net
+  servername: de.api-yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8b65efc9-03a3-4758-8a2e-4b66a1e75062
+  xudp: true

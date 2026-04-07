@@ -1,29 +1,8 @@
 proxies:
-- client-fingerprint: random
-  name: 7|[VLESS] krKR_1|2.0MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-  server: 47.80.13.250
-  servername: api.company-target.com
-  tls: true
-  type: vless
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- name: 7|[Http] krKR_2|2.5MB/s
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  sni: testkr3.ssv.vc
-  tls: true
-  type: http
-  udp: true
-  username: test
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 7|[VLESS] krKR_3|1.4MB/s
+  name: 6|[VLESS] krKR_1|1.7MB/s
   network: raw
   port: 443
   server: ako.pagate.top
@@ -33,7 +12,21 @@ proxies:
   udp: true
   uuid: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
   xudp: true
-- name: 8|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
+- client-fingerprint: chrome
+  name: 6|[VLESS] krKR_2|1.7MB/s
+  network: ws
+  port: 30035
+  server: 106.255.89.151
+  servername: sub.mot.ip-ddns.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+    path: /
+- name: 7|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
   port: 1090
   server: 121.169.46.116
   tls: false
@@ -42,7 +35,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 10|[VLESS] KR_speednode_0007
+  name: 9|[VLESS] KR_speednode_0007
   network: ws
   port: 10162
   server: 106.251.70.75
@@ -57,7 +50,7 @@ proxies:
       Host: snippet.chinav.eu.cc
     path: /danfeng
 - client-fingerprint: chrome
-  name: 10|[VLESS] KR_speednode_0008
+  name: 9|[VLESS] KR_speednode_0008
   network: ws
   port: 20244
   server: 211.194.9.159

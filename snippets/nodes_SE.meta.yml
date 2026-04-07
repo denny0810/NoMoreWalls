@@ -1,15 +1,19 @@
 proxies:
-- encryption: none
-  name: 7|[VLESS] seSE_1|1.3MB/s
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] seSE_1|1.7MB/s
   network: ws
-  port: 2053
-  server: 185.82.126.64
+  port: 443
+  server: 31.128.32.98
   servername: sni.111000.v6.navy
-  skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: sni.111000.v6.navy
+      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
+  xudp: true

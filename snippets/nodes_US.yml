@@ -23,36 +23,23 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_3|2.5MB/s
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-usb2-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 38.244.42.24
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_4|2.5MB/s
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-usa2-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 38.105.28.221
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_11|4.4MB/s
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-diy02-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 38.244.47.161
-  type: ss
+- client-fingerprint: chrome
+  name: 6|[Trojan] usUS_4|2.5MB/s
+  network: ws
+  password: Trevely
+  port: 443
+  server: 154.17.11.46
+  skip-cert-verify: true
+  sni: subtale.trevely.us.kg
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    max-early-data: 2560
+    path: /
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

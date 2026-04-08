@@ -23,104 +23,48 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: 6|[VLESS] usUS_1|1.6MB/s
-  network: ws
-  port: 443
-  server: 192.200.160.19
-  servername: sni.111000.v6.navy
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.111000.v6.navy
-    max-early-data: 2560
-    path: /
 - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] usUS_2|2.4MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-019.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-019.fastervpn.world
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_3|2.5MB/s
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-usb2-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 38.244.42.24
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_4|2.5MB/s
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-usa2-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 38.105.28.221
-  type: ss
-- name: 6|[Hysteria2] usUS_5|1.5MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-022.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-022.fastervpn.world
-  type: hysteria2
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] usUS_6|1.3MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-023.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-023.fastervpn.world
-  type: hysteria2
-- name: 6|[Hysteria2] usUS_7|1.5MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-018.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-018.fastervpn.world
-  type: hysteria2
-- name: 6|[Hysteria2] usUS_8|1.6MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-011.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-011.fastervpn.world
-  type: hysteria2
-- name: 6|[Hysteria2] usUS_9|1.5MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-008.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-008.fastervpn.world
-  type: hysteria2
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] usUS_10|3.3MB/s
+  name: 6|[Hysteria2] usUS_1|1.1MB/s
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: vpn-us-024.fastervpn.world
   skip-cert-verify: true
   sni: vpn-us-024.fastervpn.world
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_11|4.4MB/s
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-diy02-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 38.244.47.161
-  type: ss
+- name: 6|[Hysteria2] usUS_2|1.4MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-021.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-021.fastervpn.world
+  type: hysteria2
+- name: 6|[Hysteria2] usUS_3|2.0MB/s
+  obfs: salamander
+  obfs-password: OrT7yQQIMqcvKdet
+  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  port: 443
+  server: usa-hy2.onetaplink.app
+  skip-cert-verify: false
+  sni: hy2-usa.onetaplink.app
+  tfo: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 6|[Trojan] usUS_4|2.5MB/s
+  network: ws
+  password: Trevely
+  port: 443
+  server: 154.17.11.46
+  skip-cert-verify: true
+  sni: subtale.trevely.us.kg
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    max-early-data: 2560
+    path: /
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

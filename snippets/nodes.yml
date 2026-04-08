@@ -14,7 +14,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 4,5,6|[Trojan] hkHK_3|1.3MB/s
+- name: 4,5|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
   port: 21413
@@ -22,7 +22,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] hkHK_4|1.1MB/s
+- name: 4,5|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 9211
@@ -38,7 +38,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 4,5,6|[Trojan] jpJP_4|2.6MB/s
+- name: 4,5,6|[Trojan] jpJP_3|1003KB/s
   network: tcp
   password: BxceQaOe
   port: 3122
@@ -120,27 +120,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] usUS_3|2.5MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- cipher: chacha20-ietf
-  name: 6|[SS] sgSG_2|1.7MB/s
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  type: ss
-- name: 6|[Trojan] jpJP_5|3.4MB/s
+- name: 6|[Trojan] jpJP_4|2.0MB/s
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -150,6 +130,81 @@ proxies:
   type: trojan
   ws-opts:
     path: /
+- name: 6|[Trojan] jpJP_5|1.6MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 3122
+  server: 3.113.10.3
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 6|[Vmess] sgSG_3|1.2MB/s
+  network: tcp
+  port: 23616
+  server: 16.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 805e4fe5-de7d-3214-83a0-6d014dc97506
+- cipher: aes-128-gcm
+  name: 6|[SS] gbGB_1|1.2MB/s
+  password: c1e93142-d092-4bc6-8723-0352ae6b1d74
+  port: 10929
+  server: mn.qwer-cn.org
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 6|[SS] ieIE_1|1.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 46.137.38.144
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] usUS_3|2.5MB/s
+  password: somebody
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-usb2-a7xr.update.microsoft.com
+    mode: http
+  port: 30011
+  server: 38.244.42.24
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] usUS_4|2.5MB/s
+  password: somebody
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-usa2-a7xr.update.microsoft.com
+    mode: http
+  port: 30011
+  server: 38.105.28.221
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] usUS_11|4.4MB/s
+  password: somebody
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-diy02-a7xr.update.microsoft.com
+    mode: http
+  port: 30011
+  server: 38.244.47.161
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] auAU_1|3.4MB/s
+  password: somebody
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-au-a7xr.update.microsoft.com
+    mode: http
+  port: 30011
+  server: 193.177.220.147
+  type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

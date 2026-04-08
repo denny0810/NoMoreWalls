@@ -1,5 +1,5 @@
 proxies:
-- name: 4,5,6|[Trojan] jpJP_4|2.6MB/s
+- name: 4,5,6|[Trojan] jpJP_3|1003KB/s
   network: tcp
   password: BxceQaOe
   port: 3122
@@ -24,22 +24,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 6|[VLESS] jpJP_1|2.3MB/s
-  network: ws
-  port: 443
-  server: 162.159.38.197
-  servername: snip.wrr.pp.ua
-  tls: true
-  type: vless
-  uuid: 5ca37755-ee04-431b-8b9a-9740d396b29b
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.wrr.pp.ua
-    max-early-data: 2560
-    path: /Telegram@lsmoo&
-- client-fingerprint: chrome
-  name: 6|[VLESS] jpJP_3|2.4MB/s
+  name: 6|[VLESS] jpJP_1|2.2MB/s
   network: ws
   port: 443
   server: 108.162.198.172
@@ -54,7 +39,22 @@ proxies:
     max-early-data: 2560
     path: /Telegram@lsmoo&
 - client-fingerprint: chrome
-  name: 6|[Trojan] jpJP_5|3.4MB/s
+  name: 6|[VLESS] jpJP_2|1.2MB/s
+  network: ws
+  port: 443
+  server: 162.159.38.197
+  servername: snip.wrr.pp.ua
+  tls: true
+  type: vless
+  uuid: 5ca37755-ee04-431b-8b9a-9740d396b29b
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.wrr.pp.ua
+    max-early-data: 2560
+    path: /Telegram@lsmoo&
+- client-fingerprint: chrome
+  name: 6|[Trojan] jpJP_4|2.0MB/s
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -64,3 +64,78 @@ proxies:
   type: trojan
   ws-opts:
     path: /
+- client-fingerprint: chrome
+  name: 6|[Trojan] jpJP_5|1.6MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 3122
+  server: 3.113.10.3
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 6|[VLESS] jpJP_6|4.4MB/s
+  network: ws
+  port: 443
+  server: blog.811520.xyz
+  servername: snip.addd.pp.ua
+  tls: true
+  type: vless
+  uuid: 5ca37755-ee04-431b-8b9a-9740d396b29b
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.addd.pp.ua
+    max-early-data: 2560
+    path: /Telegram@lsmoo&
+- name: 6|[VLESS] jpJP_7|1.8MB/s
+  network: ws
+  port: 443
+  server: 172.64.52.29
+  servername: snip.zrr.pp.ua
+  tls: true
+  type: vless
+  uuid: 5ca37755-ee04-431b-8b9a-9740d396b29b
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.zrr.pp.ua
+    max-early-data: 2560
+    path: /Telegram@lsmoo&
+- client-fingerprint: chrome
+  name: 6|[VLESS] jpJP_8|1.1MB/s
+  network: ws
+  port: 443
+  server: cf-cname.xingpingcn.top
+  servername: 1-dfd.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 1-dfd.pages.dev
+    path: /
+- name: 6|[VLESS] jpJP_9|1.8MB/s
+  network: ws
+  port: 443
+  server: 172.64.52.232
+  servername: snip.zrfs.nn.kg
+  tls: true
+  type: vless
+  uuid: 5ca37755-ee04-431b-8b9a-9740d396b29b
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.zrfs.nn.kg
+    max-early-data: 2560
+    path: /Telegram@lsmoo&
+- auth: b688ce0f-9201-4e8e-a67a-f3be2c6aa201
+  name: 6|[Hysteria2] jpJP_10|2.9MB/s
+  password: b688ce0f-9201-4e8e-a67a-f3be2c6aa201
+  port: 1443
+  server: jp.mjhy2.com
+  skip-cert-verify: true
+  sni: jp.mjhy2.com
+  type: hysteria2
+  udp: true

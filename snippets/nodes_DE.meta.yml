@@ -1,5 +1,5 @@
 proxies:
-- name: 2|[Hysteria2] de - DE - @FreeOnlineVPN
+- name: 1|[Hysteria2] de - DE - @FreeOnlineVPN
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -9,7 +9,44 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|[VLESS] DE_speednode_0006
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: 5|[Vmess] deDE_1|2.3MB/s
+  network: ws
+  port: 2087
+  server: base-cdn.igetmac.ir
+  servername: de-tun-h1.i-hubshell-dl.com
+  tls: true
+  type: vmess
+  udp: false
+  uuid: f09efeab-9bac-4e2e-b3a4-da1128fc2140
+  ws-opts:
+    headers:
+      Host: de-tun-h1.i-hubshell-dl.com
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 5|[VLESS] deDE_2|2.5MB/s
+  network: tcp
+  port: 7443
+  reality-opts:
+    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+    short-id: '!!str be0ce047'
+  server: 159.195.77.197
+  servername: chat.deepseek.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8f8380ae-9f5d-4cb5-8f5f-0f70fbe054a9
+  xudp: true
+- name: 8|[VLESS] DE_speednode_0006
   network: ws
   port: 4001
   server: 185.94.29.156
@@ -23,7 +60,7 @@ proxies:
     headers:
       Host: sub.mot.ip-ddns.com
     path: /
-- name: 9|[VLESS] DE_speednode_0007
+- name: 8|[VLESS] DE_speednode_0007
   network: ws
   port: 4002
   server: 37.114.50.157

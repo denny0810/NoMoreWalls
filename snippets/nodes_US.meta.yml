@@ -1,85 +1,165 @@
 proxies:
-- name: 4,5|[Trojan] 美国|@ripaojiedian
+- name: 3,4|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
-  port: 4019
-  server: 160.16.85.33
+  port: 3057
+  server: 160.16.124.17
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 美国2|@ripaojiedian
+- name: 3,4|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
   port: 4019
-  server: 3.112.47.136
+  server: 160.16.124.17
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 美国3|@ripaojiedian
+- name: 3,4|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 49534
-  server: 43.199.190.147
+  port: 23255
+  server: 95.40.120.247
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] usUS_1|1.1MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-024.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-024.fastervpn.world
-  type: hysteria2
-- name: 6|[Hysteria2] usUS_2|1.4MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-021.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-021.fastervpn.world
-  type: hysteria2
-- name: 6|[Hysteria2] usUS_3|2.0MB/s
-  obfs: salamander
-  obfs-password: OrT7yQQIMqcvKdet
-  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
-  port: 443
-  server: usa-hy2.onetaplink.app
+- alterId: '0'
+  cipher: auto
+  name: 5|[Vmess] usUS_1|1.9MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.250
   skip-cert-verify: false
-  sni: hy2-usa.onetaplink.app
-  tfo: false
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 6|[Trojan] usUS_4|2.5MB/s
-  network: ws
-  password: Trevely
-  port: 443
-  server: 154.17.11.46
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 5|[Vmess] usUS_2|2.1MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.97
   skip-cert-verify: true
-  sni: subtale.trevely.us.kg
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- client-fingerprint: chrome
+  name: 5|[Trojan] usUS_3|2.0MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.86 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  encryption: none
+  name: 5|[VLESS] usUS_4|1.4MB/s
+  network: ws
+  port: 443
+  server: 209.102.207.120
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 5|[Vmess] usUS_5|2.7MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.46
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 5|[VLESS] usUS_6|2.1MB/s
+  network: tcp
+  port: 26946
+  server: 77.110.122.205
+  tls: false
+  type: vless
+  uuid: 99f06929-4311-489c-91cc-ef1c582e5dfa
+- client-fingerprint: chrome
+  name: 5|[VLESS] usUS_7|1.2MB/s
+  network: ws
+  port: 443
+  server: 192.200.160.19
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.111000.v6.navy
     max-early-data: 2560
     path: /
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 5|[Vmess] usUS_8|1.1MB/s
+  network: tcp
+  port: 22379
+  server: 98.159.108.13
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0f15e38d-3bdf-4dc0-aeb4-01085838d7b3
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 5|[VLESS] usUS_9|2.5MB/s
+  network: ws
+  port: 2087
+  server: 104.19.36.80
+  servername: xqkxw.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8a30cf48-9fa2-46c5-8815-2822b12852e0
+  ws-opts:
+    headers:
+      Host: xqkxw.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2272.101 Safari/537.36
+    path: /
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
+  name: 6|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.251
   type: ss
-- name: 7|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
+- name: 6|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
   password: ''
   port: 7070
   server: 20.83.154.79
   skip-cert-verify: true
   type: socks5
   username: ''
-- name: 9|[VLESS] US_speednode_0043
+- name: 8|[VLESS] US_speednode_0043
   network: ws
   port: 443
   server: 135.84.74.155
@@ -93,7 +173,7 @@ proxies:
     headers:
       Host: sni.111000.v6.navy
     path: /
-- name: 9|[VLESS] US_speednode_0044
+- name: 8|[VLESS] US_speednode_0044
   network: ws
   port: 443
   server: 94.131.101.135

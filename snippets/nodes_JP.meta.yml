@@ -1,97 +1,48 @@
 proxies:
-- name: 4,5|[Trojan] 日本|@ripaojiedian
+- name: 3,4|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 3122
-  server: 3.113.10.3
+  server: 176.34.1.172
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 4,5|[Trojan] 日本2|@ripaojiedian
+- name: 3,4|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
-  port: 34818
-  server: 160.16.132.38
+  port: 4380
+  server: 160.16.124.17
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 日本3|@ripaojiedian
+- name: 3,4|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
   port: 2001
-  server: 52.192.18.255
+  server: 57.180.66.105
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: 6|[VLESS] jpJP_1|1.3MB/s
-  network: ws
-  port: 443
-  server: 108.162.198.172
-  servername: snip.cfv.pp.ua
-  tls: true
-  type: vless
-  uuid: 5ca37755-ee04-431b-8b9a-9740d396b29b
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.cfv.pp.ua
-    max-early-data: 2560
-    path: /Telegram@lsmoo&
-- name: 6|[VLESS] jpJP_2|1.1MB/s
-  network: ws
-  port: 443
-  server: 172.64.52.232
-  servername: snip.zrfs.nn.kg
-  tls: true
-  type: vless
-  uuid: 5ca37755-ee04-431b-8b9a-9740d396b29b
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.zrfs.nn.kg
-    max-early-data: 2560
-    path: /Telegram@lsmoo&
-- client-fingerprint: chrome
-  name: 6|[VLESS] jpJP_3|3.3MB/s
-  network: ws
-  port: 443
-  server: 162.159.44.217
-  servername: snip.syt.pp.ua
-  tls: true
-  type: vless
-  uuid: 5ca37755-ee04-431b-8b9a-9740d396b29b
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.syt.pp.ua
-    max-early-data: 2560
-    path: /Telegram@lsmoo&
 - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] jpJP_4|2.3MB/s
+  name: 5|[Hysteria2] jpJP_2|1.6MB/s
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: vpn-jp-016.fastervpn.world
+  server: vpn-jp-013.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-jp-016.fastervpn.world
+  sni: vpn-jp-013.fastervpn.world
   type: hysteria2
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] jpJP_5|4.9MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  udp: true
+- name: 5|[VLESS] jpJP_3|3.1MB/s
+  network: ws
   port: 443
-  server: vpn-jp-018.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-jp-018.fastervpn.world
-  type: hysteria2
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] jpJP_6|2.1MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-jp-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-jp-001.fastervpn.world
-  type: hysteria2
-- name: 9|[Trojan] JP_speednode_0035
+  server: 43.165.174.229
+  servername: dongjing1.zqjsqapi.com
+  tls: true
+  type: vless
+  uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
+  ws-opts:
+    path: /proxy
+- name: 8|[Trojan] JP_speednode_0035
   network: ws
   password: trojan
   port: 587

@@ -24,16 +24,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] jpJP_1|1.4MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-jp-013.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-jp-013.fastervpn.world
-  type: hysteria2
-  udp: true
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] jpJP_2|3.3MB/s
+  name: 6|[Hysteria2] jpJP_1|1.6MB/s
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: vpn-jp-018.fastervpn.world
@@ -41,24 +32,8 @@ proxies:
   sni: vpn-jp-018.fastervpn.world
   type: hysteria2
   udp: true
-- client-fingerprint: chrome
-  name: 6|[VLESS] jpJP_3|2.7MB/s
-  network: ws
-  port: 443
-  server: cf.130519.xyz
-  servername: tg.wag13.ggff.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: tg.wag13.ggff.net
-    max-early-data: 2560
-    path: /
 - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] jpJP_5|3.1MB/s
+  name: 6|[Hysteria2] jpJP_2|3.5MB/s
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: vpn-jp-001.fastervpn.world
@@ -66,12 +41,32 @@ proxies:
   sni: vpn-jp-001.fastervpn.world
   type: hysteria2
 - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] jpJP_6|1.2MB/s
+  name: 6|[Hysteria2] jpJP_4|2.2MB/s
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: vpn-jp-016.fastervpn.world
+  server: vpn-jp-012.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-jp-016.fastervpn.world
+  sni: vpn-jp-012.fastervpn.world
+  type: hysteria2
+  udp: true
+- auth: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  name: 6|[Hysteria2] jpJP_5|2.8MB/s
+  obfs: salamander
+  obfs-password: CF7WJGiw6r1c8imX
+  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  port: 5443
+  server: jp-hy2.onetaplink.app
+  skip-cert-verify: false
+  sni: hy2-jp.onetaplink.app
+  type: hysteria2
+  udp: true
+- name: 6|[Hysteria2] jpJP_6|1.1MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-006.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-006.fastervpn.world
+  tfo: false
   type: hysteria2
 - name: 9|[Trojan] JP_speednode_0035
   network: ws

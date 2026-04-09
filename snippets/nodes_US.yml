@@ -23,52 +23,17 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - ''
-  alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 6|[Vmess] usUS_1|2.1MB/s
+  name: 6|[Vmess] usUS_1|1.1MB/s
   network: tcp
   port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
+  server: 82.198.246.97
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_5|2.4MB/s
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-diy02-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 38.244.47.161
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_6|3.1MB/s
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-usa3-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 38.95.121.189
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_7|1.3MB/s
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-usa5-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 45.8.112.156
-  type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

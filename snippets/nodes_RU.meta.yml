@@ -1,5 +1,22 @@
 proxies:
 - client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 6|[VLESS] ruRU_1|4.1MB/s
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: Cjo-VhzN_X2qW8pR1badFB7nsNrBZtQvpapMzRPvwCM
+    short-id: '!!str 0a5f9ee7e9a0350d'
+  server: home.quietgarden.live
+  servername: home.quietgarden.live
+  tls: true
+  type: vless
+  udp: true
+  uuid: d4a8c4b0-6375-44ab-93f0-0be6c7594fe6
+  xudp: true
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 9|[VLESS] RU_speednode_0041
   port: 443

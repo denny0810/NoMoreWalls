@@ -112,63 +112,100 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - ''
-  alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 6|[Vmess] usUS_1|2.1MB/s
+  name: 6|[Vmess] usUS_1|1.1MB/s
   network: tcp
   port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- alterId: 2
-  cipher: auto
-  name: 6|[Vmess] sgSG_1|1.6MB/s
-  network: tcp
-  port: 23616
-  server: 16.mamamajd.site
+  server: 82.198.246.97
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 4c0aa3cd-00a4-303d-b867-7644c08e95c2
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_5|2.4MB/s
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-diy02-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 38.244.47.161
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 6|[Trojan] nlNL_1|2.4MB/s
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.60.198
   skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_6|3.1MB/s
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-usa3-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 38.95.121.189
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_7|1.3MB/s
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-usa5-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 45.8.112.156
-  type: ss
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /
+- name: 6|[Trojan] atAT_2|1.3MB/s
+  network: ws
+  password: trojan
+  port: 8888
+  server: 152.53.45.251
+  skip-cert-verify: false
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Chrome/12.0.742.100 Safari/534.30
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] sgSG_3|1.1MB/s
+  network: ws
+  port: 16618
+  server: t.cnmjcn.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b688ce0f-9201-4e8e-a67a-f3be2c6aa201
+  ws-opts:
+    headers:
+      Host: 7a297964a2b31dafd3529ef4d14574b9.mobgslb.tbcache.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 6|[Vmess] hkHK_1|1.1MB/s
+  network: ws
+  port: 80
+  server: d488651b-t8wxs0-tm23vf-1jk6u.hkt.gotochinatown.net
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] twTW_1|2.0MB/s
+  network: ws
+  port: 16616
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b688ce0f-9201-4e8e-a67a-f3be2c6aa201
+  ws-opts:
+    headers:
+      Host: 7a297964a2b31dafd3529ef4d14574b9.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- name: 6|[Trojan] jpJP_4|3.1MB/s
+  network: ws
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  port: 443
+  server: 172.64.52.251
+  skip-cert-verify: false
+  sni: sg680.pages.dev
+  type: trojan
+  ws-opts:
+    path: /
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

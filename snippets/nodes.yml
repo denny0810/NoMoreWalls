@@ -112,172 +112,72 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] usUS_1|1.9MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] usUS_3|2.7MB/s
+  password: e777513e-9df5-4dc3-bc84-74e564345a81
+  port: 13012
+  server: usgpt.slianrk.com
+  type: ss
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] usUS_2|2.1MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] sgSG_1|1.7MB/s
-  network: tcp
-  port: 30812
-  server: v12.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 6|[Trojan] mdMD_2|2.5MB/s
-  network: tcp
-  password: strong-secret-pass-777
-  port: 4443
-  server: 94.131.105.125
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 6|[Trojan] usUS_3|2.0MB/s
+- name: 6|[Trojan] sgSG_2|2.0MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 172.66.44.230
-  skip-cert-verify: false
+  port: 2096
+  server: 172.64.147.106
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
-  udp: true
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.86 Safari/537.36
-    max-early-data: 2560
-    path: /tro8sFW1S91B6sZrM1
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] usUS_5|2.7MB/s
+      Host: Koma-YT.PAGeS.Dev
+    path: /tr
+- name: 6|[Trojan] usUS_5|2.6MB/s
+  network: ws
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  port: 443
+  server: 172.64.52.251
+  skip-cert-verify: false
+  sni: sg680.pages.dev
+  type: trojan
+  ws-opts:
+    path: /
+- name: 6|[Trojan] nlNL_1|2.5MB/s
   network: tcp
-  port: 180
-  server: 82.198.246.46
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: '2'
-  cipher: auto
-  name: 6|[Vmess] hkHK_1|1023KB/s
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-  xudp: true
-- cipher: chacha20-ietf
-  name: 6|[SS] sgSG_2|1.3MB/s
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
+  password: M08tvzYWtUEJNtbpHp
+  port: 443
+  server: 194.124.216.185
+  skip-cert-verify: true
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] auAU_1|1.4MB/s
+  password: somebody
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-au-a7xr.update.microsoft.com
+    mode: http
+  port: 30011
+  server: 193.177.220.147
   type: ss
-  udp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] usUS_8|1.1MB/s
-  network: tcp
-  port: 22379
-  server: 98.159.108.13
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f15e38d-3bdf-4dc0-aeb4-01085838d7b3
-  xudp: true
-- alterId: '2'
-  cipher: auto
-  name: 6|[Vmess] hkHK_2|1.1MB/s
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f13f964e-f06c-11ec-a858-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-  xudp: true
-- alterId: '2'
-  cipher: auto
-  name: 6|[Vmess] hkHK_3|1.2MB/s
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f860f2da-5035-11ed-bb74-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-  xudp: true
-- alterId: 0
-  cipher: auto
-  fingerprint: ''
-  name: 6|[Vmess] deDE_1|2.3MB/s
-  network: ws
-  port: 2087
-  server: base-cdn.igetmac.ir
-  servername: de-tun-h1.i-hubshell-dl.com
-  tls: true
-  type: vmess
-  udp: false
-  uuid: f09efeab-9bac-4e2e-b3a4-da1128fc2140
-  ws-opts:
-    headers:
-      Host: de-tun-h1.i-hubshell-dl.com
-    path: /
-- cipher: aes-256-cfb
-  name: 6|[SS] esES_1|1.1MB/s
-  password: VcFuyXvND2yQWSFY
-  port: 9054
-  server: 5.188.181.201
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] usUS_14|2.7MB/s
+  password: somebody
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-usa2-a7xr.update.microsoft.com
+    mode: http
+  port: 30011
+  server: 38.105.28.221
   type: ss
-- cipher: aes-256-cfb
-  name: 6|[SS] vnVN_1|1.0MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.138
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] usUS_15|2.8MB/s
+  password: somebody
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-usa1-a7xr.update.microsoft.com
+    mode: http
+  port: 30011
+  server: 154.17.238.59
   type: ss
-  udp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

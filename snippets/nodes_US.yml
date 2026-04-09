@@ -23,70 +23,44 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] usUS_1|1.9MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] usUS_3|2.7MB/s
+  password: e777513e-9df5-4dc3-bc84-74e564345a81
+  port: 13012
+  server: usgpt.slianrk.com
+  type: ss
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] usUS_2|2.1MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: chrome
-  name: 6|[Trojan] usUS_3|2.0MB/s
+  name: 6|[Trojan] usUS_5|2.6MB/s
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 172.66.44.230
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  port: 443
+  server: 172.64.52.251
   skip-cert-verify: false
-  sni: Koma-YT.PAGeS.Dev
+  sni: sg680.pages.dev
   type: trojan
-  udp: true
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.86 Safari/537.36
-    max-early-data: 2560
-    path: /tro8sFW1S91B6sZrM1
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] usUS_5|2.7MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.46
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] usUS_8|1.1MB/s
-  network: tcp
-  port: 22379
-  server: 98.159.108.13
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f15e38d-3bdf-4dc0-aeb4-01085838d7b3
-  xudp: true
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] usUS_14|2.7MB/s
+  password: somebody
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-usa2-a7xr.update.microsoft.com
+    mode: http
+  port: 30011
+  server: 38.105.28.221
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] usUS_15|2.8MB/s
+  password: somebody
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-usa1-a7xr.update.microsoft.com
+    mode: http
+  port: 30011
+  server: 154.17.238.59
+  type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

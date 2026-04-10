@@ -23,78 +23,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 6|[Hysteria2] usUS_1|2.0MB/s
-  obfs: salamander
-  obfs-password: OrT7yQQIMqcvKdet
-  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
-  port: 443
-  server: usa-hy2.onetaplink.app
-  skip-cert-verify: false
-  sni: hy2-usa.onetaplink.app
-  tfo: false
-  type: hysteria2
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] usUS_3|2.3MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-006.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-006.fastervpn.world
-  type: hysteria2
-  udp: true
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] usUS_4|2.6MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-023.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-023.fastervpn.world
-  type: hysteria2
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] usUS_5|1.7MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-024.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-024.fastervpn.world
-  type: hysteria2
-- name: 6|[Hysteria2] usUS_6|2.8MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-022.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-022.fastervpn.world
-  type: hysteria2
-- name: 6|[Hysteria2] usUS_7|1.1MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-011.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-011.fastervpn.world
-  type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] usUS_8|1010KB/s
-  network: tcp
-  port: 42428
-  reality-opts:
-    _spider-x: /
-    public-key: ccICtTNR2BXmdCzazGcyci16c7O1kJIv6ugDM6xY2XY
-    short-id: '!!str 24adcebe'
-  server: a3.buzz-vpn.com
-  servername: eh.vk.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 27d0c642-693c-4070-83b4-0e9803ba71b3
-- name: 6|[Hysteria2] usUS_9|1.1MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-020.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-020.fastervpn.world
-  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] usUS_1|2.7MB/s
+  password: somebody
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-usa2-a7xr.update.microsoft.com
+    mode: http
+  port: 30011
+  server: 38.105.28.221
+  type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

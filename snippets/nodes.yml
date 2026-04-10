@@ -104,7 +104,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 6|[Trojan] jpJP_1|3.3MB/s
+- name: 6|[Trojan] jpJP_2|1000KB/s
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -114,53 +114,31 @@ proxies:
   type: trojan
   ws-opts:
     path: /
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] jpJP_2|1.2MB/s
-  network: ws
-  port: 16617
-  server: m.cnmjin.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b688ce0f-9201-4e8e-a67a-f3be2c6aa201
-  ws-opts:
-    headers:
-      Host: 7a297964a2b31dafd3529ef4d14574b9.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] jpJP_5|1.8MB/s
-  network: ws
-  port: 12883
-  server: gtm1.ktmwan.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 21324e77-b4d2-4fca-8884-5e8b75836d2a
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-  xudp: true
-- name: 6|[Trojan] nlNL_1|1.2MB/s
-  network: tcp
-  password: M08tvzYWtUEJNtbpHp
-  port: 443
-  server: 194.124.216.192
-  skip-cert-verify: true
-  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 6|[SS] auAU_1|2.2MB/s
+  name: 6|[SS] usUS_1|2.7MB/s
   password: somebody
   plugin: obfs
   plugin-opts:
-    host: 20xteamxa9-au-a7xr.update.microsoft.com
+    host: 20xteamxa9-usa2-a7xr.update.microsoft.com
     mode: http
   port: 30011
-  server: 193.177.220.147
+  server: 38.105.28.221
   type: ss
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 6|[Vmess] sgSG_2|2.2MB/s
+  network: http
+  port: 52323
+  server: 34.143.213.97
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f47fc3c-5d65-4908-86ce-a57ca8cf9329
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

@@ -9,20 +9,13 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- disable-sni: true
-  down: ''
-  fingerprint: ''
-  name: 3,6|[Hysteria2] frFR_1|2.5MB/s
-  obfs: ''
-  obfs-password: ''
+- name: 3|[Hysteria2] 🐵15@oneclickvpnkeys
   password: 0d892bc7-41c5-4dc5-90bb-40dfc0043dd5
   port: 443
   server: 51.195.241.243
   skip-cert-verify: true
-  sni: ''
   tls: false
   type: hysteria2
-  up: ''
 - name: 3|[Hysteria2] nl - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
@@ -59,9 +52,7 @@ proxies:
   sni: reddeadfan.rd-team.ru
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 3,6|[Hysteria2] itIT_1|1.8MB/s
+- name: 3|[Hysteria2] 🐵39@oneclickvpnkeys
   obfs: salamander
   obfs-password: cry_me_a_r1ver_2026
   password: strong-secret-pass-777
@@ -71,7 +62,6 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-  up: ''
 - cipher: aes-256-cfb
   name: '4,5|[SS] tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -177,104 +167,357 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- auth: b688ce0f-9201-4e8e-a67a-f3be2c6aa201
-  name: 6|[Hysteria2] jpJP_1|2.0MB/s
-  password: b688ce0f-9201-4e8e-a67a-f3be2c6aa201
-  port: 1443
-  server: jp.mjhy2.com
-  skip-cert-verify: true
-  sni: jp.mjhy2.com
-  type: hysteria2
-  udp: true
-- name: 6|[Trojan] jpJP_2|1000KB/s
-  network: ws
-  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
-  port: 443
-  server: 172.64.52.251
-  skip-cert-verify: false
-  sni: sg680.pages.dev
-  type: trojan
-  ws-opts:
-    path: /
 - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] sgSG_1|2.7MB/s
+  name: 6|[Hysteria2] sgSG_1|3.1MB/s
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: vpn-sg-002.fastervpn.world
   skip-cert-verify: true
   sni: vpn-sg-002.fastervpn.world
   type: hysteria2
-- name: 6|[Http] krKR_1|1.2MB/s
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  sni: testkr3.ssv.vc
-  tls: true
-  type: http
-  udp: true
-  username: test
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_1|2.7MB/s
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-usa2-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 38.105.28.221
-  type: ss
-- encryption: none
-  http-opts:
-    path:
-    - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-  name: 6|[VLESS] chCH_1|2.0MB/s
-  network: http
-  port: 22
-  server: 172.65.111.43
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-- auth: 0d892bc7-41c5-4dc5-90bb-40dfc0043dd5
-  name: 6|[Hysteria2] frFR_2|2.7MB/s
-  password: 0d892bc7-41c5-4dc5-90bb-40dfc0043dd5
-  port: 50000
-  server: 51.195.241.243
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  udp: true
-- alterId: 0
+- alpn:
+  - ''
+  alterId: '0'
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: 6|[Vmess] sgSG_2|2.2MB/s
-  network: http
-  port: 52323
-  server: 34.143.213.97
-  skip-cert-verify: true
+  name: 6|[Vmess] usUS_2|2.6MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 5f47fc3c-5d65-4908-86ce-a57ca8cf9329
-- encryption: none
-  name: 6|[VLESS] sgSG_4|3.2MB/s
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- name: 6|[VLESS] sgSG_2|1.1MB/s
   network: ws
-  port: 80
-  server: vip2.kaixincloud.top
+  port: 443
+  server: xinjiapo1.zqjsqapi.com
+  servername: xinjiapo1.zqjsqapi.com
+  tls: true
   type: vless
-  udp: true
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
   ws-opts:
     headers:
-      Host: vip.yaml7.ggff.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.101 Safari/537.36
+      Host: xinjiapo1.zqjsqapi.com
+    path: /proxy
+- name: 6|[VLESS] itIT_1|1.2MB/s
+  network: ws
+  port: 7443
+  server: 222.167.202.26
+  servername: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /222.167.202.26:7443
+- name: 6,9|[Trojan] AT_speednode_0002
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.200.98
+  skip-cert-verify: false
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
+- name: 6|[Trojan] usUS_3|1.2MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- auth: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  name: 6|[Hysteria2] jpJP_1|2.0MB/s
+  obfs: salamander
+  obfs-password: CF7WJGiw6r1c8imX
+  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  port: 5443
+  server: jp-hy2.onetaplink.app
+  skip-cert-verify: false
+  sni: hy2-jp.onetaplink.app
+  type: hysteria2
+  udp: true
+- name: 6|[VLESS] jpJP_2|1.8MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: '2da72ce6'
+  server: 176.97.73.155
+  servername: navi.bankrate.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 101c17fe-257b-4372-bdab-544103d0538d
+- name: 6|[Http] twTW_1|3.2MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] twTW_2|1005KB/s
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: nbmrcg0034686rw.cybervena.com
+  type: ss
+  udp: true
+- encryption: none
+  name: 6|[VLESS] sgSG_5|1.2MB/s
+  network: ws
+  port: 443
+  server: 129.150.46.113
+  servername: 3-deu.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 3-deu.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /proxyip=ProxyIP.DE.owg.dpdns.org
+  xudp: true
+- encryption: none
+  name: 6|[VLESS] twTW_3|1.9MB/s
+  network: ws
+  port: 8443
+  server: 1.168.191.235
+  servername: 3-vud.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 3-vud.pages.dev
+      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /proxyip=ProxyIP.DE.owg.dpdns.org
+  xudp: true
+- encryption: none
+  name: 6|[VLESS] jpJP_3|2.7MB/s
+  network: ws
+  port: 443
+  server: 160.191.40.194
+  servername: 3-93f.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 3-93f.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.81 Safari/537.36
+    path: /proxyip=ProxyIP.DE.owg.dpdns.org
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] vnVN_1|1.1MB/s
+  network: ws
+  port: 12891
+  server: gtm1.ktmwan.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 21324e77-b4d2-4fca-8884-5e8b75836d2a
+  ws-opts:
+    headers:
+      Host: baidu.com
     path: /
   xudp: true
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] inIN_1|1.3MB/s
+  network: ws
+  port: 12887
+  server: gtm1.ktmwan.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 21324e77-b4d2-4fca-8884-5e8b75836d2a
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] usUS_4|2.3MB/s
+  password: somebody
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-diy02-a7xr.update.microsoft.com
+    mode: http
+  port: 30011
+  server: 38.244.47.161
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 6|[SS] esES_1|1.5MB/s
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
+  server: 5.188.181.201
+  type: ss
+- name: 6|[Http] auAU_1|2.3MB/s
+  port: 443
+  server: 103.62.50.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+- encryption: none
+  grpc-opts:
+    grpc-service-name: yandex.ru
+  name: 6|[VLESS] atAT_1|2.9MB/s
+  network: grpc
+  port: 1443
+  reality-opts:
+    public-key: asw-c8jLA8GT6tydb7teY46doPq-silOzQUFUkERxh0
+    short-id: '80e0'
+  server: at.pfvpn.cfd
+  servername: yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0642ee71-53ad-403b-a210-97782ed3d94c
+  xudp: true
+- alpn:
+  - http/1.1
+  - h2
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 6|[VLESS] deDE_1|2.6MB/s
+  network: grpc
+  port: 2053
+  server: reserve.pilates.rodeo
+  servername: nice.ducks.tel
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
+  xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 6|[VLESS] chCH_1|2.6MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: gwuAehnMX6e-n1fxIenfjx43j3qXXi7Cb4wfnW5VyBQ
+    short-id: 'f04729f65b9ea261'
+  server: se1.samovargate.com
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82b5b465-3307-4a25-acef-abd1649bbedf
+  xudp: true
+- encryption: none
+  name: 6|[VLESS] gbGB_1|2.2MB/s
+  network: ws
+  port: 8443
+  server: 57.129.137.206
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 6|[VLESS] deDE_2|3.0MB/s
+  network: tcp
+  port: 443
+  server: 93.94.51.101
+  servername: deu549.worldbypass.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 405ba2d6-7fcb-4cdd-9c77-4ecc616d77c8
+  xudp: true
+- cipher: aes-256-cfb
+  name: 6|[SS] vnVN_2|1.0MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.39
+  type: ss
+  udp: true
+- name: 6|[Hysteria2] usUS_6|1.8MB/s
+  obfs: salamander
+  obfs-password: OrT7yQQIMqcvKdet
+  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  port: 443
+  server: usa-hy2.onetaplink.app
+  skip-cert-verify: false
+  sni: hy2-usa.onetaplink.app
+  tfo: false
+  type: hysteria2
+- name: 6|[Hysteria2] usUS_7|1.1MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-011.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-011.fastervpn.world
+  type: hysteria2
+- name: 6|[Hysteria2] usUS_8|1.0MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-020.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-020.fastervpn.world
+  type: hysteria2
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 6|[Hysteria2] usUS_9|2.6MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-023.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-023.fastervpn.world
+  type: hysteria2
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 6|[Hysteria2] usUS_10|2.4MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-024.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-024.fastervpn.world
+  type: hysteria2
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...
@@ -392,19 +635,6 @@ proxies:
   password: trojan
   port: 8444
   server: 152.53.200.167
-  skip-cert-verify: false
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: /
-- name: 9|[Trojan] AT_speednode_0002
-  network: ws
-  password: trojan
-  port: 8444
-  server: 152.53.200.98
   skip-cert-verify: false
   sni: jflsjlaf.pages.dev
   type: trojan

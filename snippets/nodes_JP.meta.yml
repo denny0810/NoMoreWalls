@@ -2,48 +2,22 @@ proxies:
 - name: 4,5|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3122
-  server: 176.34.1.172
+  port: 4746
+  server: 57.180.63.46
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 4,5|[Trojan] 日本2|@ripaojiedian
-  network: tcp
-  password: 187dda4498be9ac4f28db939d5940185
-  port: 4380
-  server: 160.16.124.17
-  skip-cert-verify: false
-  sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
-  port: 2001
-  server: 57.180.66.105
+  port: 4380
+  server: 13.193.223.51
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] jpJP_1|1.6MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-jp-018.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-jp-018.fastervpn.world
-  type: hysteria2
-  udp: true
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] jpJP_2|1.4MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-jp-016.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-jp-016.fastervpn.world
-  type: hysteria2
-  udp: true
 - down: ''
   fingerprint: ''
-  name: 6|[Hysteria2] jpJP_3|2.5MB/s
+  name: 6|[Hysteria2] jpJP_1|1.8MB/s
   obfs: ''
   obfs-password: ''
   password: 9d9519a0-7df0-42a4-a765-29512ab65f5c
@@ -54,7 +28,7 @@ proxies:
   type: hysteria2
   up: ''
 - client-fingerprint: chrome
-  name: 6|[Trojan] jpJP_4|3.1MB/s
+  name: 6|[Trojan] jpJP_2|2.1MB/s
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -64,6 +38,46 @@ proxies:
   type: trojan
   ws-opts:
     path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] jpJP_3|2.1MB/s
+  network: ws
+  port: 2087
+  server: 162.159.44.100
+  servername: fu.baiproxy.us.ci
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: fu.baiproxy.us.ci
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] jpJP_4|2.0MB/s
+  network: ws
+  port: 2053
+  server: 162.159.44.66
+  servername: fu.baiproxy.us.ci
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: fu.baiproxy.us.ci
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
 - name: 9|[Trojan] JP_speednode_0035
   network: ws
   password: trojan

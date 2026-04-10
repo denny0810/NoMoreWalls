@@ -9,54 +9,21 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 6|[VLESS] deDE_1|1.1MB/s
+- encryption: none
+  name: 6|[VLESS] deDE_1|3.0MB/s
   network: ws
-  port: 2086
-  server: 188.114.98.0
-  tls: false
+  port: 80
+  server: 104.26.13.31
   type: vless
   udp: true
-  uuid: 73829173-bb56-442b-a8d4-ec732c020945
+  uuid: fe665bb7-a558-42bc-9ba7-a59288ee4b93
   ws-opts:
     headers:
-      Host: a3ssa.vaslbsh.com
+      Host: floral-term-d21f.wafajax493.workers.dev
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
     path: /
-    v2ray-http-upgrade: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 6|[VLESS] deDE_2|3.3MB/s
-  network: tcp
-  port: 7443
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-    short-id: '!!str be0ce047'
-  server: 159.195.77.197
-  servername: chat.deepseek.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8f8380ae-9f5d-4cb5-8f5f-0f70fbe054a9
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] deDE_3|3.8MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Ic2uiGhkBgJUsY0CZUBqa1y22V_BO7F4S93Zgk_ir2c
-    short-id: '!!str 0c1553316a645758'
-  server: 45.77.66.142
-  servername: www.zalando.de
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 43488128-319e-f480-64ea-0acdc712e2a8
 - name: 9|[VLESS] DE_speednode_0006
   network: ws
   port: 4001

@@ -34,6 +34,22 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 6|[Http] hkHK_1|1.1MB/s
+  password: <password>
+  port: 8443
+  server: bc50d550-t9zts0-tbeopq-1s0a7.hkt.cdnhuawei.com
+  sni: bc50d550-t9zts0-tbeopq-1s0a7.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
+- name: 6|[Hysteria2] hkHK_2|1.5MB/s
+  password: 9c23940e-efd8-4763-bfb5-54739b50893d
+  port: 8443
+  server: 156.226.173.8
+  skip-cert-verify: true
+  sni: hy5.hy2yydsapi.top
+  tfo: false
+  type: hysteria2
 - name: 9|[VLESS] HK_speednode_0014
   network: ws
   port: 7443

@@ -15,20 +15,8 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- down: ''
-  fingerprint: ''
-  name: 6|[Hysteria2] jpJP_1|1.8MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 9d9519a0-7df0-42a4-a765-29512ab65f5c
-  port: 55000
-  server: 151.241.130.90
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  up: ''
 - client-fingerprint: chrome
-  name: 6|[Trojan] jpJP_2|2.1MB/s
+  name: 6|[Trojan] jpJP_1|3.3MB/s
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -38,46 +26,62 @@ proxies:
   type: trojan
   ws-opts:
     path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] jpJP_3|2.1MB/s
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] jpJP_2|1.2MB/s
   network: ws
-  port: 2087
-  server: 162.159.44.100
-  servername: fu.baiproxy.us.ci
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  port: 16617
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b688ce0f-9201-4e8e-a67a-f3be2c6aa201
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: fu.baiproxy.us.ci
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    max-early-data: 2560
+      Host: 7a297964a2b31dafd3529ef4d14574b9.mobgslb.tbcache.com
+    path: /
+- auth: b688ce0f-9201-4e8e-a67a-f3be2c6aa201
+  name: 6|[Hysteria2] jpJP_3|3.8MB/s
+  password: b688ce0f-9201-4e8e-a67a-f3be2c6aa201
+  port: 1443
+  server: jp.mjhy2.com
+  skip-cert-verify: true
+  sni: jp.mjhy2.com
+  type: hysteria2
+  udp: true
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 6|[Hysteria2] jpJP_4|2.0MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-016.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-016.fastervpn.world
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] jpJP_5|1.8MB/s
+  network: ws
+  port: 12883
+  server: gtm1.ktmwan.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 21324e77-b4d2-4fca-8884-5e8b75836d2a
+  ws-opts:
+    headers:
+      Host: baidu.com
     path: /
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] jpJP_4|2.0MB/s
-  network: ws
-  port: 2053
-  server: 162.159.44.66
-  servername: fu.baiproxy.us.ci
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: fu.baiproxy.us.ci
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 6|[Hysteria2] jpJP_7|4.8MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-018.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-018.fastervpn.world
+  type: hysteria2
 - name: 9|[Trojan] JP_speednode_0035
   network: ws
   password: trojan

@@ -23,97 +23,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_1|1.3MB/s
-  password: e777513e-9df5-4dc3-bc84-74e564345a81
-  port: 13012
-  server: usgpt.slianrk.com
-  type: ss
-  udp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] usUS_4|2.8MB/s
-  network: tcp
-  port: 22379
-  server: 98.159.108.13
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f15e38d-3bdf-4dc0-aeb4-01085838d7b3
-  xudp: true
-- alterId: 1
-  cipher: auto
-  name: 6|[Vmess] usUS_3|2.2MB/s
-  network: tcp
-  port: 22324
-  server: 67.220.72.237
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] usUS_5|2.9MB/s
-  network: ws
-  port: 2087
-  server: 104.19.36.80
-  servername: xqkxw.ccwu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8a30cf48-9fa2-46c5-8815-2822b12852e0
-  ws-opts:
-    headers:
-      Host: xqkxw.ccwu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 6|[VLESS] usUS_6|2.6MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UJkmcmOs56af7Fsa5n3Z9wo8u5DgsZc6TKFW9dCyoDE
-    short-id: '!!str '
-  server: 144.31.233.15
-  servername: yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9c93762c-5632-43fe-83bf-96607488f42b
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_7|1.4MB/s
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-usc1-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 23.177.40.226
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_8|1.8MB/s
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-usa1-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 154.17.238.59
-  type: ss
-- name: 6|[Hysteria2] usUS_9|2.5MB/s
+- name: 6|[Hysteria2] usUS_1|2.0MB/s
   obfs: salamander
   obfs-password: OrT7yQQIMqcvKdet
   password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
@@ -122,6 +32,68 @@ proxies:
   skip-cert-verify: false
   sni: hy2-usa.onetaplink.app
   tfo: false
+  type: hysteria2
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 6|[Hysteria2] usUS_3|2.3MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-006.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-006.fastervpn.world
+  type: hysteria2
+  udp: true
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 6|[Hysteria2] usUS_4|2.6MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-023.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-023.fastervpn.world
+  type: hysteria2
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 6|[Hysteria2] usUS_5|1.7MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-024.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-024.fastervpn.world
+  type: hysteria2
+- name: 6|[Hysteria2] usUS_6|2.8MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-022.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-022.fastervpn.world
+  type: hysteria2
+- name: 6|[Hysteria2] usUS_7|1.1MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-011.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-011.fastervpn.world
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] usUS_8|1010KB/s
+  network: tcp
+  port: 42428
+  reality-opts:
+    _spider-x: /
+    public-key: ccICtTNR2BXmdCzazGcyci16c7O1kJIv6ugDM6xY2XY
+    short-id: '!!str 24adcebe'
+  server: a3.buzz-vpn.com
+  servername: eh.vk.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 27d0c642-693c-4070-83b4-0e9803ba71b3
+- name: 6|[Hysteria2] usUS_9|1.1MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-020.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-020.fastervpn.world
   type: hysteria2
 - cipher: aes-256-cfb
   country: 🏁ZZ

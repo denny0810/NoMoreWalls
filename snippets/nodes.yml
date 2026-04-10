@@ -104,23 +104,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] twTW_1|1.0MB/s
-  network: ws
-  port: 16616
-  server: m.cnmjin.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b688ce0f-9201-4e8e-a67a-f3be2c6aa201
-  ws-opts:
-    headers:
-      Host: 7a297964a2b31dafd3529ef4d14574b9.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- name: 6|[Trojan] jpJP_2|2.1MB/s
+- name: 6|[Trojan] jpJP_1|3.3MB/s
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -130,92 +114,53 @@ proxies:
   type: trojan
   ws-opts:
     path: /
-- name: 6,9|[Trojan] AT_speednode_0002
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] jpJP_2|1.2MB/s
   network: ws
-  password: trojan
-  port: 8444
-  server: 152.53.200.98
+  port: 16617
+  server: m.cnmjin.net
   skip-cert-verify: false
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  udp: true
+  tls: false
+  type: vmess
+  uuid: b688ce0f-9201-4e8e-a67a-f3be2c6aa201
   ws-opts:
     headers:
-      Host: jflsjlaf.pages.dev
+      Host: 7a297964a2b31dafd3529ef4d14574b9.mobgslb.tbcache.com
     path: /
-- name: 6,9|[Trojan] NL_speednode_0040
-  network: tcp
-  password: strong-secret-pass-777
-  port: 4443
-  server: 94.131.105.125
-  skip-cert-verify: true
-  sni: 94.131.105.125
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_1|1.3MB/s
-  password: e777513e-9df5-4dc3-bc84-74e564345a81
-  port: 13012
-  server: usgpt.slianrk.com
-  type: ss
-  udp: true
-- alpn:
-  - ''
-  alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 6|[Vmess] usUS_4|2.8MB/s
-  network: tcp
-  port: 22379
-  server: 98.159.108.13
+  name: 6|[Vmess] jpJP_5|1.8MB/s
+  network: ws
+  port: 12883
+  server: gtm1.ktmwan.net
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 0f15e38d-3bdf-4dc0-aeb4-01085838d7b3
-  xudp: true
-- alterId: 1
-  cipher: auto
-  name: 6|[Vmess] usUS_3|2.2MB/s
-  network: tcp
-  port: 22324
-  server: 67.220.72.237
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_7|1.4MB/s
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-usc1-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 23.177.40.226
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_8|1.8MB/s
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-usa1-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 154.17.238.59
-  type: ss
-- name: 6|[Trojan] sgSG_2|2.6MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 172.64.147.106
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+  uuid: 21324e77-b4d2-4fca-8884-5e8b75836d2a
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /tr
+      Host: baidu.com
+    path: /
+  xudp: true
+- name: 6|[Trojan] nlNL_1|1.2MB/s
+  network: tcp
+  password: M08tvzYWtUEJNtbpHp
+  port: 443
+  server: 194.124.216.192
+  skip-cert-verify: true
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] auAU_1|2.2MB/s
+  password: somebody
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-au-a7xr.update.microsoft.com
+    mode: http
+  port: 30011
+  server: 193.177.220.147
+  type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...
@@ -298,6 +243,19 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
+- name: 9|[Trojan] AT_speednode_0002
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.200.98
+  skip-cert-verify: false
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
 - name: 9|[Trojan] ID_speednode_0032
   password: M7v%w11Se*
   port: 443
@@ -319,3 +277,11 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
+- name: 9|[Trojan] NL_speednode_0040
+  password: strong-secret-pass-777
+  port: 4443
+  server: 94.131.105.125
+  skip-cert-verify: true
+  sni: 94.131.105.125
+  type: trojan
+  udp: true

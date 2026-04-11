@@ -23,82 +23,59 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 6|[VLESS] sgSG_1|2.8MB/s
-  network: ws
+- name: 6|[Hysteria2] sgSG_2|2.0MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: da.mfa.gov.ua
-  servername: 1-axj.pages.dev
+  server: vpn-sg-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
+  type: hysteria2
+- allowInsecure: '1'
+  alpn:
+  - h3
+  client-fingerprint: chrome
+  ech: vmiss.664667.xyz+https://223.5.5.5/dns-query
+  encryption: none
+  fp: chrome
+  host: sb.664667.xyz
+  insecure: '1'
+  name: 6|[VLESS] sgSG_3|1.3MB/s
+  network: ws
+  path: /?ed=2048
+  port: 443
+  security: tls
+  server: vmiss.664667.xyz
+  servername: sb.664667.xyz
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  uuid: a572e268-337e-419a-a281-2bc442e8d898
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: 1-axj.pages.dev
-    path: /proxyip=ProxyIP.DE.owg.dpdns.org
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 6|[Trojan] sgSG_3|3.1MB/s
-  network: ws
-  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
-  port: 443
-  server: 104.18.41.19
-  skip-cert-verify: false
-  sni: sg680.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: sg680.pages.dev
+      Host: sb.664667.xyz
+    max-early-data: 2048
     path: /
 - alpn:
-  - h3
   - h2
-  - http/1.1
   client-fingerprint: chrome
-  name: 6|[Trojan] sgSG_4|2.3MB/s
-  network: ws
-  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
-  port: 443
-  server: 172.64.159.213
-  skip-cert-verify: false
-  sni: sg680.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: sg680.pages.dev
-    path: /
-- client-fingerprint: chrome
   encryption: none
-  name: 6|[VLESS] sgSG_5|1.3MB/s
+  name: 6|[VLESS] sgSG_4|1.3MB/s
   network: ws
   port: 8443
-  server: 8.35.211.86
-  servername: aier.eu.cc
-  skip-cert-verify: false
+  server: partner.zoom.us
+  servername: darknet-free.alexid.org
   tls: true
   type: vless
-  uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+  udp: true
+  uuid: 39eb8c33-ee7f-4980-b3e5-684aaf390f56
   ws-opts:
     headers:
-      Host: aier.eu.cc
+      Host: darknet-free.alexid.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.75 Safari/537.36
     path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] sgSG_6|2.9MB/s
-  network: ws
-  port: 2087
-  server: 104.18.47.87
-  servername: aier.eu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-  ws-opts:
-    headers:
-      Host: aier.eu.cc
-    path: /
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] sgSG²_1|2.4MB/s|X|History

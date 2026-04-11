@@ -23,7 +23,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 6|[Hysteria2] usUS_1|1.4MB/s
+- name: 6|[Hysteria2] usUS_1|1.2MB/s
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 443
   server: 134.195.101.199
@@ -31,80 +31,32 @@ proxies:
   sni: www.apple.com
   type: hysteria2
   udp: true
-- name: 6,9|[Http] US_speednode_0032
-  password: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
-  port: 443
-  server: a2cb60c5-t9zts0-td95qh-1isea.sj.oshuawei.com
-  sni: a2cb60c5-t9zts0-td95qh-1isea.sj.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_3|2.7MB/s
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-diy02-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 38.244.47.161
-  type: ss
-  udp: true
-- mport: 35000-39000
-  name: 6|[Hysteria2] usUS_4|3.2MB/s
-  password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
-  port: 35000
-  ports: 35000-39000
-  server: 208.87.242.77
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-  udp: true
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] usUS_5|1.9MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-024.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-024.fastervpn.world
-  type: hysteria2
-- name: 6|[Hysteria2] usUS_6|2.2MB/s
-  obfs: salamander
-  obfs-password: OrT7yQQIMqcvKdet
-  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
-  port: 443
-  server: usa-hy2.onetaplink.app
-  skip-cert-verify: false
-  sni: hy2-usa.onetaplink.app
-  tfo: false
-  type: hysteria2
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+- client-fingerprint: chrome
   encryption: none
-  fp: chrome
-  host: snippet.danfeng.rr.kg
-  insecure: '0'
-  name: 6|[VLESS] usUS_7|2.8MB/s
+  name: 6|[VLESS] usUS_2|2.1MB/s
   network: ws
-  path: /danfeng?ed=2560
-  port: 39233
-  security: tls
-  server: 69.63.196.154
-  servername: snippet.danfeng.rr.kg
-  skip-cert-verify: false
+  port: 443
+  server: openai.com
+  servername: 3-7ts.pages.dev
   tls: true
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  udp: true
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: snippet.danfeng.rr.kg
-    max-early-data: 2560
-    path: /danfeng
+      Host: 3-7ts.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /proxyip=ProxyIP.DE.owg.dpdns.org
+  xudp: true
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 6|[Hysteria2] usUS_3|1.4MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-023.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-023.fastervpn.world
+  type: hysteria2
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
@@ -133,6 +85,14 @@ proxies:
     headers:
       Host: sni.111000.v6.navy
     path: /
+- name: 9|[Http] US_speednode_0032
+  password: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
+  port: 443
+  server: a2cb60c5-t9zts0-td95qh-1isea.sj.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
 - name: 9|[Trojan] US_speednode_0033
   network: ws
   password: trojan

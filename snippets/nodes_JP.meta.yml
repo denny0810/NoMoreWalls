@@ -25,24 +25,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   encryption: none
-  name: 6|[VLESS] jpJP_1|3.7MB/s
-  network: ws
-  port: 443
-  server: 52.194.202.85
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: /52.194.202.85:443
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] jpJP_2|2.7MB/s
+  name: 6|[VLESS] jpJP_1|2.6MB/s
   network: ws
   port: 443
   server: 23.151.104.39
@@ -57,96 +40,80 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /23.151.104.39:443
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] jpJP_3|4.4MB/s
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 6|[Trojan] jpJP_2|1.3MB/s
   network: ws
-  port: 49230
-  server: 45.153.246.204
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  port: 443
+  server: 172.64.229.148
+  skip-cert-verify: false
+  sni: sg680.pages.dev
+  type: trojan
   ws-opts:
     headers:
-      Host: 2026.hhhhh.eu.org
-    path: /45.153.246.204:49230
+      Host: sg680.pages.dev
+    path: /
 - client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] jpJP_4|2.5MB/s
+  name: 6|[Trojan] jpJP_3|2.1MB/s
   network: ws
-  port: 37831
-  server: 45.129.9.21
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  port: 443
+  server: 172.64.52.251
+  skip-cert-verify: false
+  sni: sg680.pages.dev
+  type: trojan
+  ws-opts:
+    path: /
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 6|[Trojan] jpJP_4|1.5MB/s
+  network: ws
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  port: 443
+  server: 162.159.38.51
+  skip-cert-verify: false
+  sni: sg680.pages.dev
+  type: trojan
   ws-opts:
     headers:
-      Host: 2026.hhhhh.eu.org
-    path: /45.129.9.21:37831
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] jpJP_5|1.4MB/s
+      Host: sg680.pages.dev
+    path: /
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 6|[Trojan] jpJP_5|2.4MB/s
   network: ws
-  port: 44082
-  server: 45.153.246.204
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  port: 2096
+  server: 108.162.198.11
+  skip-cert-verify: false
+  sni: sg680.pages.dev
+  type: trojan
   ws-opts:
     headers:
-      Host: 2026.hhhhh.eu.org
-    path: /45.153.246.204:44082
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] jpJP_6|1.3MB/s
-  network: ws
-  port: 33275
-  server: 45.128.210.237
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: /45.128.210.237:33275
+      Host: sg680.pages.dev
+    path: /
 - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] jpJP_8|1.7MB/s
+  name: 6|[Hysteria2] jpJP_6|3.5MB/s
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: vpn-jp-016.fastervpn.world
+  server: vpn-jp-001.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-jp-016.fastervpn.world
+  sni: vpn-jp-001.fastervpn.world
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] jpJP_10|1.5MB/s
-  network: ws
+- name: 6|[Hysteria2] jpJP_7|2.0MB/s
+  password: GEbo3x7TXbmNkdmABqS4mZP7Ax5fjFBPbheKauGJJ9Sw
   port: 8443
-  server: 38.207.130.242
-  servername: 2026.hhhhh.eu.org
+  server: dbp.qzz.io
   skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: /38.207.130.242:8443
+  sni: dbp.qzz.io
+  type: hysteria2

@@ -1,5 +1,5 @@
 proxies:
-- name: 4,5|[Trojan] 新加坡|@ripaojiedian
+- name: 4,5,6|[Trojan] sgSG_6|2.4MB/s
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
   port: 4674
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 新加坡3|@ripaojiedian
+- name: 4,5,6|[Trojan] sgSG_7|1.6MB/s
   network: tcp
   password: BxceQaOe
   port: 25675
@@ -23,45 +23,78 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] sgSG_1|3.1MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-sg-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-sg-002.fastervpn.world
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 6|[VLESS] sgSG_2|1.1MB/s
-  network: ws
-  port: 443
-  server: xinjiapo1.zqjsqapi.com
-  servername: xinjiapo1.zqjsqapi.com
-  tls: true
-  type: vless
-  uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
-  ws-opts:
-    headers:
-      Host: xinjiapo1.zqjsqapi.com
-    path: /proxy
 - client-fingerprint: chrome
   encryption: none
-  name: 6|[VLESS] sgSG_5|1.2MB/s
+  name: 6|[VLESS] sgSG_8|1.1MB/s
   network: ws
   port: 443
-  server: 129.150.46.113
-  servername: 3-deu.pages.dev
+  server: openai.com
+  servername: 3-7ts.pages.dev
   tls: true
   type: vless
   udp: true
   uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   ws-opts:
     headers:
-      Host: 3-deu.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+      Host: 3-7ts.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /proxyip=ProxyIP.DE.owg.dpdns.org
   xudp: true
+- client-fingerprint: chrome
+  name: 6|[Trojan] sgSG_9|2.1MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 25675
+  server: 43.199.69.64
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- name: 6|[Trojan] sgSG_10|3.3MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 172.64.147.106
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /tr
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 6|[Trojan] sgSG_11|3.0MB/s
+  network: ws
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  port: 443
+  server: 162.159.34.231
+  skip-cert-verify: false
+  sni: sg680.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sg680.pages.dev
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] sgSG_12|3.1MB/s
+  network: ws
+  port: 2053
+  server: 173.245.58.120
+  servername: aier.eu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+  ws-opts:
+    headers:
+      Host: aier.eu.cc
+    path: /
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] sgSG²_1|2.4MB/s|X|History

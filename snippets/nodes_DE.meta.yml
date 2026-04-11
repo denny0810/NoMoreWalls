@@ -9,39 +9,23 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- alpn:
-  - http/1.1
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 6|[VLESS] deDE_1|2.6MB/s
-  network: grpc
-  port: 2053
-  server: reserve.pilates.rodeo
-  servername: nice.ducks.tel
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
-  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 6|[VLESS] deDE_2|3.0MB/s
-  network: tcp
+  name: 6|[VLESS] deDE_1|1.6MB/s
+  network: ws
   port: 443
-  server: 93.94.51.101
-  servername: deu549.worldbypass.org
+  server: time.is
+  servername: 2-7fc.pages.dev
   tls: true
   type: vless
   udp: true
-  uuid: 405ba2d6-7fcb-4cdd-9c77-4ecc616d77c8
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 2-7fc.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.167 Safari/537.36
+    path: /proxyip=ProxyIP.DE.owg.dpdns.org
   xudp: true
 - name: 9|[VLESS] DE_speednode_0006
   network: ws

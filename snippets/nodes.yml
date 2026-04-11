@@ -62,7 +62,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] sgSG_6|2.4MB/s
+- name: 4,5|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
   port: 4674
@@ -78,7 +78,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] sgSG_7|1.6MB/s
+- name: 4,5|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 25675
@@ -121,55 +121,31 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
-  name: 6|[SS] nlNL_1|1.7MB/s
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: 6|[SS] nlNL_1|1.0MB/s
+  password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
-  server: 82.38.31.99
+  server: 82.38.31.189
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] hkHK_1|2.1MB/s
-  network: ws
-  port: 16622
-  server: planb.mojcn.com
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] usUS_3|2.7MB/s
+  password: somebody
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-diy02-a7xr.update.microsoft.com
+    mode: http
+  port: 30011
+  server: 38.244.47.161
+  type: ss
   udp: true
-  uuid: 9c57c421-1d87-475b-8ec1-5595a304b19d
-  ws-opts:
-    headers:
-      Host: 6a52001e3651ccdc8ef7740494916ad2.mobgslb.tbcache.com
-    path: /%2F
-- name: 6|[Trojan] sgSG_9|2.1MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 25675
-  server: 43.199.69.64
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: 6|[Trojan] sgSG_10|3.3MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 172.64.147.106
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /tr
 - alpn:
   - h3
   - h2
   - http/1.1
-  name: 6|[Trojan] sgSG_11|3.0MB/s
+  name: 6|[Trojan] sgSG_3|3.1MB/s
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
-  server: 162.159.34.231
+  server: 104.18.41.19
   skip-cert-verify: false
   sni: sg680.pages.dev
   type: trojan
@@ -181,69 +157,11 @@ proxies:
   - h3
   - h2
   - http/1.1
-  name: 6|[Trojan] jpJP_2|1.9MB/s
+  name: 6|[Trojan] sgSG_4|2.3MB/s
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
-  server: 172.64.229.148
-  skip-cert-verify: false
-  sni: sg680.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: sg680.pages.dev
-    path: /
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: 6|[Trojan] jpJP_3|2.8MB/s
-  network: ws
-  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
-  port: 2096
-  server: saas.sin.fan
-  skip-cert-verify: false
-  sni: sg680.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: sg680.pages.dev
-    path: /
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: 6|[Trojan] jpJP_4|1.8MB/s
-  network: ws
-  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
-  port: 2096
-  server: 108.162.198.11
-  skip-cert-verify: false
-  sni: sg680.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: sg680.pages.dev
-    path: /
-- name: 6|[Trojan] jpJP_5|2.2MB/s
-  network: ws
-  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
-  port: 443
-  server: 172.64.52.251
-  skip-cert-verify: false
-  sni: sg680.pages.dev
-  type: trojan
-  ws-opts:
-    path: /
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: 6|[Trojan] jpJP_6|2.4MB/s
-  network: ws
-  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
-  port: 443
-  server: 162.159.38.51
+  server: 172.64.159.213
   skip-cert-verify: false
   sni: sg680.pages.dev
   type: trojan

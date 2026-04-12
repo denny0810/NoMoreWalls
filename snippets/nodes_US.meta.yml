@@ -23,64 +23,87 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_1|2.4MB/s
-  password: 8ba6a37d-8715-440d-942a-a3e6c23a9290
-  port: 33144
-  server: xgrr.sdnlv0.cn
-  type: ss
+- client-fingerprint: chrome
+  name: 6|[VLESS] usUS_1|1.4MB/s
+  network: ws
+  port: 443
+  server: 209.102.207.120
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
   udp: true
-- mport: 35000-39000
-  name: 6|[Hysteria2] usUS_2|1.9MB/s
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: /
+- name: 6|[VLESS] usUS_2|1.3MB/s
+  network: ws
+  port: 443
+  server: 104.19.58.118
+  servername: us1-us1.aiopen.sbs
+  tls: true
+  type: vless
+  uuid: 340dee85-bfd7-4395-8d2e-87dbc2781a13
+  ws-opts:
+    headers:
+      Host: us1-us1.aiopen.sbs
+    path: /kbjc/us1
+- name: 6|[Hysteria2] usUS_5|2.0MB/s
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
-  port: 35000
-  ports: 35000-39000
-  server: 208.87.242.77
+  port: 443
+  server: 134.195.101.199
   skip-cert-verify: true
   sni: www.apple.com
   type: hysteria2
   udp: true
-- name: 6|[Hysteria2] usUS_3|1.2MB/s
-  obfs: salamander
-  obfs-password: OrT7yQQIMqcvKdet
-  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
-  port: 443
-  server: usa-hy2.onetaplink.app
-  skip-cert-verify: false
-  sni: hy2-usa.onetaplink.app
-  tfo: false
-  type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_4|1.4MB/s
-  password: 8ba6a37d-8715-440d-942a-a3e6c23a9290
-  port: 39368
-  server: xgrr.sdnlv0.cn
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- name: 6|[VLESS] usUS_5|1.0MB/s
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] usUS_6|1.4MB/s
   network: ws
-  port: 6879
-  server: 38.207.132.128
-  servername: 2026.hhhhh.eu.org
+  port: 443
+  server: cdn.veilvpn.fans
+  servername: cdn.veilvpn.fans
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  uuid: 30980fc4-8789-42df-80d1-0c8e5cd26881
   ws-opts:
     headers:
-      Host: 2026.hhhhh.eu.org
-    path: /38.207.132.128%3A6879
-  xudp: true
+      Host: cdn.veilvpn.fans
+    path: /vpnhu
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
 - cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_6|1.9MB/s
-  password: 8ba6a37d-8715-440d-942a-a3e6c23a9290
-  port: 11515
-  server: xgrr.sdnlv0.cn
-  skip-cert-verify: false
+  name: 6|[SS] usUS_7|1.5MB/s
+  password: somebody
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-usa5-a7xr.update.microsoft.com
+    mode: http
+  port: 30011
+  server: 45.8.112.156
   type: ss
-  udp: false
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 6|[VLESS] [OpenRay] us US-14797|2.0MB/s
+  network: tcp
+  port: 1443
+  reality-opts:
+    public-key: 2-PK2RY8YRcxqD01Me8ZSRK91iSgE3Zls2P0WFwxqig
+    short-id: '!!str b8a8f008c9'
+  server: de19.fastlanehosting.ru
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e4d0612-41b5-4b44-a8f1-1f7cda6b6f78
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

@@ -23,28 +23,56 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] jpJP_3|2.4MB/s
-  password: 8ba6a37d-8715-440d-942a-a3e6c23a9290
-  port: 48973
-  server: xgrr.sdnlv0.cn
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- client-fingerprint: chrome
-  name: 6|[VLESS] jpJP_4|1.5MB/s
-  network: ws
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 6|[Hysteria2] jpJP_1|1.3MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: 23.151.104.39
-  servername: 2026.hhhhh.eu.org
+  server: vpn-jp-016.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-016.fastervpn.world
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] jpJP_2|3.5MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+    short-id: '!!str '
+  server: 47.74.44.99
+  servername: images-na.ssl-images-amazon.com
   tls: true
   type: vless
   udp: true
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /23.151.104.39:443
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] jpJP_3|1.4MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+    short-id: '!!str '
+  server: 8.209.224.201
+  servername: www.autodesk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] jpJP_4|2.0MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+    short-id: '!!str '
+  server: 8.211.150.180
+  servername: images-na.ssl-images-amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
   xudp: true

@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 4,5|[Trojan] 日本2|@ripaojiedian
+- name: 4,5,6|[Trojan] jpJP_2|3.4MB/s
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
   port: 9201
@@ -28,7 +28,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 6|[Trojan] jpJP_1|1.1MB/s
+  name: 6|[Trojan] jpJP_1|1.7MB/s
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 2096
@@ -40,22 +40,134 @@ proxies:
     headers:
       Host: sg680.pages.dev
     path: /
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 6|[VLESS] jpJP_3|1.7MB/s
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] jpJP_3|3.3MB/s
   network: ws
-  port: 37572
-  server: 155.117.155.253
-  servername: snippet.danfeng.rr.kg
+  port: 443
+  server: 13.113.26.46
+  servername: 3-a2s.pages.dev
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   ws-opts:
     headers:
-      Host: snippet.danfeng.rr.kg
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /danfeng
+      Host: 3-a2s.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 6|[VLESS] jpJP_4|1.1MB/s
+  network: ws
+  port: 44082
+  server: 45.153.246.204
+  servername: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /45.153.246.204:44082
+  xudp: true
+- client-fingerprint: chrome
+  name: 6|[VLESS] jpJP_5|1.0MB/s
+  network: ws
+  port: 49230
+  server: 45.153.246.204
+  servername: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /45.153.246.204:49230
+  xudp: true
+- client-fingerprint: chrome
+  name: 6|[VLESS] jpJP_6|1.0MB/s
+  network: ws
+  port: 16090
+  server: 210.156.180.102
+  servername: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.77 Safari/537.36
+    path: /210.156.180.102:16090
+  xudp: true
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 6|[Trojan] jpJP_7|1.5MB/s
+  network: ws
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  port: 2096
+  server: saas.sin.fan
+  skip-cert-verify: false
+  sni: sg680.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sg680.pages.dev
+    path: /
+- mport: 35000-39000
+  name: 6|[Hysteria2] jpJP_9|2.4MB/s
+  password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
+  port: 35000
+  ports: 35000-39000
+  server: 103.62.49.76
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- name: 6|[Hysteria2] jpJP_10|1.1MB/s
+  obfs: salamander
+  obfs-password: CF7WJGiw6r1c8imX
+  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  port: 5443
+  server: jp-hy2.onetaplink.app
+  sni: hy2-jp.onetaplink.app
+  type: hysteria2
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 6|[Hysteria2] jpJP_11|1.6MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-016.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-016.fastervpn.world
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 6|[VLESS] jpJP_12|1.1MB/s
+  network: ws
+  port: 443
+  server: cf.008500.xyz
+  servername: tg.wag13.ggff.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: tg.wag13.ggff.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /
   xudp: true

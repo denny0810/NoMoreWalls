@@ -23,16 +23,22 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_1|1.4MB/s
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-usc1-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 23.177.40.226
-  type: ss
+- name: 6|[Hysteria2] usUS_2|1.0MB/s
+  password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
+  port: 443
+  server: 134.195.101.199
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 6|[Hysteria2] usUS_3|1.1MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-023.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-023.fastervpn.world
+  type: hysteria2
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

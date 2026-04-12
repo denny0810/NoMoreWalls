@@ -46,7 +46,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 4,5|[Trojan] 日本2|@ripaojiedian
+- name: 4,5,6|[Trojan] jpJP_2|3.4MB/s
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
   port: 9201
@@ -62,7 +62,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 新加坡|@ripaojiedian
+- name: 4,5,6|[Trojan] sgSG_2|2.6MB/s
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
   port: 4674
@@ -120,45 +120,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: 6|[Trojan] jpJP_1|1.1MB/s
-  network: ws
-  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
-  port: 2096
-  server: 108.162.198.11
-  skip-cert-verify: false
-  sni: sg680.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: sg680.pages.dev
-    path: /
-- alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] frFR_1|1.3MB/s
-  network: tcp
-  port: 22324
-  server: 45.80.215.80
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_1|1.4MB/s
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-usc1-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 23.177.40.226
-  type: ss
-- name: 6|[Trojan] sgSG_1|1.1MB/s
+- name: 6|[Trojan] sgSG_1|1.3MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2096
@@ -170,6 +132,53 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /tr
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: 6|[Trojan] jpJP_1|1.7MB/s
+  network: ws
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  port: 2096
+  server: 108.162.198.11
+  skip-cert-verify: false
+  sni: sg680.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sg680.pages.dev
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] https://t.me/ForceRunVPN-hk-Ho...
+  password: 8ba6a37d-8715-440d-942a-a3e6c23a9290
+  port: 39707
+  server: xgrr.sdnlv0.cn
+  type: ss
+  udp: true
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: 6|[Trojan] jpJP_7|1.5MB/s
+  network: ws
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  port: 2096
+  server: saas.sin.fan
+  skip-cert-verify: false
+  sni: sg680.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sg680.pages.dev
+    path: /
+- name: 6|[Trojan] nlNL_1|1.8MB/s
+  network: tcp
+  password: M08tvzYWtUEJNtbpHp
+  port: 443
+  server: 194.124.216.194
+  skip-cert-verify: true
+  sni: nl-4.tr202512.com
+  type: trojan
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...
@@ -221,24 +230,24 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   name: 8|[SS] group->ss SS节点-ipv6
-  password: alvin9999.com
-  port: 12345
-  server: 2001:bc8:32d7:225::2
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 11111
+  server: 2a14:7584:d118::a
   type: ss
 - alterId: 0
   cipher: auto
-  name: 8|[Vmess] VMESS节点2-ipv6
+  name: 8|[Vmess] vmess-ws-warp
   network: ws
-  port: '23456'
-  server: 2001:bc8:32d7:225::1
+  port: '27802'
+  server: 2a14:7584:d117::a
   servername: ''
   tls: false
   type: vmess
-  uuid: bd48e0ac-e90e-4451-a4f2-abf061cfb890
+  uuid: b9887ee9-606b-4665-a4ea-7443ca049a68
   ws-opts:
     headers:
-      Host: www.bing.com
-    path: /alvin9999.com
+      Host: ''
+    path: /github.com/Alvin9999-newpac/fanqiang
 - name: 9|[Trojan] NL_speednode_0027
   password: strong-secret-pass-777
   port: 4443

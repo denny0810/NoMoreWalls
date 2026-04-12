@@ -23,22 +23,64 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 6|[Hysteria2] usUS_2|1.0MB/s
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] usUS_1|2.4MB/s
+  password: 8ba6a37d-8715-440d-942a-a3e6c23a9290
+  port: 33144
+  server: xgrr.sdnlv0.cn
+  type: ss
+  udp: true
+- mport: 35000-39000
+  name: 6|[Hysteria2] usUS_2|1.9MB/s
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
-  port: 443
-  server: 134.195.101.199
+  port: 35000
+  ports: 35000-39000
+  server: 208.87.242.77
   skip-cert-verify: true
   sni: www.apple.com
   type: hysteria2
   udp: true
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] usUS_3|1.1MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+- name: 6|[Hysteria2] usUS_3|1.2MB/s
+  obfs: salamander
+  obfs-password: OrT7yQQIMqcvKdet
+  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
   port: 443
-  server: vpn-us-023.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-023.fastervpn.world
+  server: usa-hy2.onetaplink.app
+  skip-cert-verify: false
+  sni: hy2-usa.onetaplink.app
+  tfo: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] usUS_4|1.4MB/s
+  password: 8ba6a37d-8715-440d-942a-a3e6c23a9290
+  port: 39368
+  server: xgrr.sdnlv0.cn
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- name: 6|[VLESS] usUS_5|1.0MB/s
+  network: ws
+  port: 6879
+  server: 38.207.132.128
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /38.207.132.128%3A6879
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] usUS_6|1.9MB/s
+  password: 8ba6a37d-8715-440d-942a-a3e6c23a9290
+  port: 11515
+  server: xgrr.sdnlv0.cn
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

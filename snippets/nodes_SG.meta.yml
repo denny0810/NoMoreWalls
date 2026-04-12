@@ -1,5 +1,5 @@
 proxies:
-- name: 4,5,6|[Trojan] sgSG_2|2.6MB/s
+- name: 4,5|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
   port: 4674
@@ -23,78 +23,69 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 6|[Trojan] sgSG_1|1.3MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 172.64.147.106
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /tr
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] sgSG_3|2.4MB/s
-  network: ws
-  port: 2083
-  server: 104.18.46.87
-  servername: aier.eu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-  ws-opts:
-    headers:
-      Host: aier.eu.cc
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] sgSG_4|1.8MB/s
-  network: ws
-  port: 2087
-  server: 198.41.223.121
-  servername: aier.eu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-  ws-opts:
-    headers:
-      Host: aier.eu.cc
-    path: /
-- name: 6|[Anytls] sgSG_5|3.7MB/s
-  password: 9e0f72bb-7ad6-4383-994a-497569a94d74
-  port: 60003
-  server: jpaws.ccwink.photos
-  skip-cert-verify: true
-  sni: baidu.com
-  type: anytls
-  udp: true
-- name: 6|[Hysteria2] sgSG_6|2.0MB/s
+- name: 6|[Hysteria2] sgSG_1|1.2MB/s
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: vpn-sg-001.fastervpn.world
   skip-cert-verify: true
   sni: vpn-sg-001.fastervpn.world
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] sgSG_4|2.0MB/s
+  password: 8ba6a37d-8715-440d-942a-a3e6c23a9290
+  port: 33229
+  server: xgrr.sdnlv0.cn
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 6|[VLESS] sgSG_7|1.1MB/s
+  name: 6|[VLESS] sgSG_5|2.0MB/s
   network: ws
   port: 443
-  server: staticdelivery.nexusmods.com
-  servername: wu.ssdxz.cn
+  server: tajikistan.mfa.gov.ua
+  servername: 3-a2s.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 3-a2s.pages.dev
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 6|[VLESS] sgSG_6|1.7MB/s
+  network: ws
+  port: 443
+  server: www.shopify.com
+  servername: we.ssdxz.cn
   tls: true
   type: vless
   udp: true
   uuid: 29ff2954-dfea-4d20-8089-059cfa861453
   ws-opts:
     headers:
-      Host: wu.ssdxz.cn
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      Host: we.ssdxz.cn
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.111 Safari/537.36
+    path: /proxyip=ProxyIP.SG.CMLiussss.net/proxyip=tw.william.us.ci,ProxyIP.SG.CMLiussss.net
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] sgSG_7|1.5MB/s
+  network: ws
+  port: 443
+  server: serviceshub.samsclub.com
+  servername: we.ssdxz.cn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29ff2954-dfea-4d20-8089-059cfa861453
+  ws-opts:
+    headers:
+      Host: we.ssdxz.cn
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /proxyip=ProxyIP.SG.CMLiussss.net/proxyip=tw.william.us.ci,ProxyIP.SG.CMLiussss.net
   xudp: true
 - cipher: aes-256-cfb

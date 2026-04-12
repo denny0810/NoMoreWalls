@@ -46,7 +46,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 4,5,6|[Trojan] jpJP_2|3.4MB/s
+- name: 4,5|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
   port: 9201
@@ -62,7 +62,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] sgSG_2|2.6MB/s
+- name: 4,5|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
   port: 4674
@@ -120,65 +120,89 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 6|[Trojan] sgSG_1|1.3MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 172.64.147.106
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /tr
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: 6|[Trojan] jpJP_1|1.7MB/s
-  network: ws
-  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
-  port: 2096
-  server: 108.162.198.11
-  skip-cert-verify: false
-  sni: sg680.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: sg680.pages.dev
-    path: /
+- cipher: aes-256-cfb
+  name: 6|[SS] nlNL_1|1.2MB/s
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.17.169
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 6|[SS] https://t.me/ForceRunVPN-hk-Ho...
+  name: 6|[SS] gbGB_1|2.0MB/s
   password: 8ba6a37d-8715-440d-942a-a3e6c23a9290
-  port: 39707
+  port: 31032
   server: xgrr.sdnlv0.cn
   type: ss
   udp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: 6|[Trojan] jpJP_7|1.5MB/s
-  network: ws
-  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
-  port: 2096
-  server: saas.sin.fan
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] sgSG_4|2.0MB/s
+  password: 8ba6a37d-8715-440d-942a-a3e6c23a9290
+  port: 33229
+  server: xgrr.sdnlv0.cn
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] usUS_1|2.4MB/s
+  password: 8ba6a37d-8715-440d-942a-a3e6c23a9290
+  port: 33144
+  server: xgrr.sdnlv0.cn
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] idID_1|1.4MB/s
+  password: 8ba6a37d-8715-440d-942a-a3e6c23a9290
+  port: 28659
+  server: xgrr.sdnlv0.cn
   skip-cert-verify: false
-  sni: sg680.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: sg680.pages.dev
-    path: /
-- name: 6|[Trojan] nlNL_1|1.8MB/s
-  network: tcp
-  password: M08tvzYWtUEJNtbpHp
-  port: 443
-  server: 194.124.216.194
-  skip-cert-verify: true
-  sni: nl-4.tr202512.com
-  type: trojan
+  type: ss
+  udp: false
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] usUS_4|1.4MB/s
+  password: 8ba6a37d-8715-440d-942a-a3e6c23a9290
+  port: 39368
+  server: xgrr.sdnlv0.cn
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] jpJP_3|2.4MB/s
+  password: 8ba6a37d-8715-440d-942a-a3e6c23a9290
+  port: 48973
+  server: xgrr.sdnlv0.cn
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] twTW_1|1.9MB/s
+  password: 8ba6a37d-8715-440d-942a-a3e6c23a9290
+  port: 50971
+  server: xgrr.sdnlv0.cn
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] 🏁 未知-EA65FF6F|1.6MB/s
+  password: 8ba6a37d-8715-440d-942a-a3e6c23a9290
+  port: 54920
+  server: xgrr.sdnlv0.cn
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] arAR_1|1.1MB/s
+  password: 8ba6a37d-8715-440d-942a-a3e6c23a9290
+  port: 15152
+  server: xgrr.sdnlv0.cn
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] usUS_6|1.9MB/s
+  password: 8ba6a37d-8715-440d-942a-a3e6c23a9290
+  port: 11515
+  server: xgrr.sdnlv0.cn
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

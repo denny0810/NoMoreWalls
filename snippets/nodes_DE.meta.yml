@@ -9,38 +9,45 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- encryption: none
-  name: 6|[VLESS] deDE_1|1.1MB/s
-  network: ws
-  port: 2086
-  server: cdn.7zz.cn
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 73829173-bb56-442b-a8d4-ec732c020945
-  ws-opts:
-    headers:
-      Host: a3ssa.vaslbsh.com
-    path: /
-    v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
 - client-fingerprint: chrome
-  name: 6|[VLESS] deDE_2|1.1MB/s
-  network: xhttp
-  port: 8443
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 6|[VLESS] deDE_1|1.1MB/s
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: _lZginSKes-akVMyp5tFJEARAvbjkVf3PuAfkCuI92U
-    short-id: '!!str 80dfa2b1'
-  server: de.farkil.shop
-  servername: ads.x5.ru
-  skip-cert-verify: false
+    public-key: Q2tOlk0AlcufziQD1uUzBzb8Y2a_0Jp1Dq2KCnC1Z08
+    short-id: '!!str '
+  server: 89.167.52.122
+  servername: eh.vk.com
   tls: true
   type: vless
   udp: true
-  uuid: e231c40a-8606-5ba8-9fcc-0aafaafbc186
-  xhttp-opts:
-    mode: stream-one
-    path: /xhttp
+  uuid: 0eca1f22-e5a1-4888-a0fa-c2345e87cf2f
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 6|[VLESS] deDE_2|1.5MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Q2tOlk0AlcufziQD1uUzBzb8Y2a_0Jp1Dq2KCnC1Z08
+    short-id: '!!str '
+  server: 204.168.163.95
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0eca1f22-e5a1-4888-a0fa-c2345e87cf2f
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision

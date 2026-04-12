@@ -9,40 +9,38 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- encryption: none
-  name: 6|[VLESS] deDE_1|2.1MB/s
-  network: ws
-  port: 2086
-  server: cdn.7zz.cn
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 73829173-bb56-442b-a8d4-ec732c020945
-  ws-opts:
-    headers:
-      Host: a3ssa.vaslbsh.com
-    path: /
-    v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 6|[VLESS] deDE_2|1.1MB/s
-  network: ws
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] deDE_1|1.1MB/s
+  network: tcp
   port: 443
-  server: 18.245.54.3
-  servername: d2241b25w3zftf.cloudfront.net
+  server: 93.94.51.101
+  servername: deu549.worldbypass.org
   tls: true
   type: vless
   udp: true
-  uuid: 97b2cd5b-b98d-494f-8f97-3a06e8c1bbd2
-  ws-opts:
-    headers:
-      Host: d2241b25w3zftf.cloudfront.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /
+  uuid: 405ba2d6-7fcb-4cdd-9c77-4ecc616d77c8
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 6|[VLESS] deDE_2|1.9MB/s
+  network: tcp
+  port: 42428
+  reality-opts:
+    public-key: ccICtTNR2BXmdCzazGcyci16c7O1kJIv6ugDM6xY2XY
+    short-id: '!!str 24adcebe'
+  server: a3.buzz-vpn.com
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 27d0c642-693c-4070-83b4-0e9803ba71b3
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision

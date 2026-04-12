@@ -18,15 +18,15 @@ proxies:
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
   port: 52687
-  server: 95.40.33.204
+  server: 43.199.200.208
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9211
-  server: 13.193.220.142
+  port: 39507
+  server: 18.162.243.187
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -42,31 +42,31 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 4746
-  server: 18.177.145.165
+  server: 18.163.16.38
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 4,5|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
-  port: 34818
-  server: 13.113.192.91
+  port: 9201
+  server: 13.231.242.181
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
-  port: 2001
-  server: 18.177.145.165
-  skip-cert-verify: true
+  port: 9201
+  server: 160.16.72.205
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
   port: 4674
-  server: 3.112.132.73
+  server: 18.181.196.7
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -81,16 +81,16 @@ proxies:
 - name: 4,5|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 25675
-  server: 43.199.69.64
+  port: 30726
+  server: 43.199.69.179
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 4,5|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
-  port: 3057
-  server: 18.177.145.165
+  port: 4019
+  server: 57.180.7.56
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -98,15 +98,15 @@ proxies:
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
   port: 3057
-  server: 13.113.192.91
+  server: 160.16.106.99
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 44386
-  server: 54.46.53.176
+  port: 14919
+  server: 16.163.129.49
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -120,60 +120,11 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] is 冰岛 | ISL|1.3MB/s
-  password: 8ba6a37d-8715-440d-942a-a3e6c23a9290
-  port: 36086
-  server: xgrr.sdnlv0.cn
-  type: ss
-  udp: true
 - alpn:
   - h3
   - h2
   - http/1.1
-  name: 6|[Trojan] jpJP_2|1.3MB/s
-  network: ws
-  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
-  port: 443
-  server: 172.64.229.148
-  skip-cert-verify: false
-  sni: sg680.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: sg680.pages.dev
-    path: /
-- name: 6|[Trojan] jpJP_3|2.1MB/s
-  network: ws
-  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
-  port: 443
-  server: 172.64.52.251
-  skip-cert-verify: false
-  sni: sg680.pages.dev
-  type: trojan
-  ws-opts:
-    path: /
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: 6|[Trojan] jpJP_4|1.5MB/s
-  network: ws
-  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
-  port: 443
-  server: 162.159.38.51
-  skip-cert-verify: false
-  sni: sg680.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: sg680.pages.dev
-    path: /
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: 6|[Trojan] jpJP_5|2.4MB/s
+  name: 6|[Trojan] jpJP_1|1.1MB/s
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 2096
@@ -185,6 +136,40 @@ proxies:
     headers:
       Host: sg680.pages.dev
     path: /
+- alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] frFR_1|1.3MB/s
+  network: tcp
+  port: 22324
+  server: 45.80.215.80
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] usUS_1|1.4MB/s
+  password: somebody
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-usc1-a7xr.update.microsoft.com
+    mode: http
+  port: 30011
+  server: 23.177.40.226
+  type: ss
+- name: 6|[Trojan] sgSG_1|1.1MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 172.64.147.106
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /tr
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

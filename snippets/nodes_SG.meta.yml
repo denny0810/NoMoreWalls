@@ -3,7 +3,7 @@ proxies:
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
   port: 4674
-  server: 3.112.132.73
+  server: 18.181.196.7
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -18,64 +18,23 @@ proxies:
 - name: 4,5|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 25675
-  server: 43.199.69.64
+  port: 30726
+  server: 43.199.69.179
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 6|[Hysteria2] sgSG_2|2.0MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-sg-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
-  type: hysteria2
-- allowInsecure: '1'
-  alpn:
-  - h3
-  client-fingerprint: chrome
-  ech: vmiss.664667.xyz+https://223.5.5.5/dns-query
-  encryption: none
-  fp: chrome
-  host: sb.664667.xyz
-  insecure: '1'
-  name: 6|[VLESS] sgSG_3|1.3MB/s
+- name: 6|[Trojan] sgSG_1|1.1MB/s
   network: ws
-  path: /?ed=2048
-  port: 443
-  security: tls
-  server: vmiss.664667.xyz
-  servername: sb.664667.xyz
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 172.64.147.106
   skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: a572e268-337e-419a-a281-2bc442e8d898
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sb.664667.xyz
-    max-early-data: 2048
-    path: /
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] sgSG_4|1.3MB/s
-  network: ws
-  port: 8443
-  server: partner.zoom.us
-  servername: darknet-free.alexid.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 39eb8c33-ee7f-4980-b3e5-684aaf390f56
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   ws-opts:
     headers:
-      Host: darknet-free.alexid.org
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.75 Safari/537.36
-    path: /
-  xudp: true
+      Host: Koma-YT.PAGeS.Dev
+    path: /tr
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] sgSG²_1|2.4MB/s|X|History

@@ -62,7 +62,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 新加坡|@ripaojiedian
+- name: 4,5,6|[Trojan] sgSG_2|1.3MB/s
   network: tcp
   password: 1a98450e6f743b1b66a8bebfe3ea93e9
   port: 4674
@@ -70,7 +70,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 新加坡2|@ripaojiedian
+- name: 4,5,6|[Trojan] sgSG_3|1.1MB/s
   network: tcp
   password: 1a98450e6f743b1b66a8bebfe3ea93e9
   port: 4674
@@ -94,7 +94,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 美国2|@ripaojiedian
+- name: 4,5,6|[Trojan] usUS_2|1.1MB/s
   network: tcp
   password: 1a98450e6f743b1b66a8bebfe3ea93e9
   port: 4019
@@ -120,45 +120,51 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 6|[Trojan] atAT_1|1.2MB/s
+  network: ws
+  password: trojan
+  port: 8888
+  server: 152.53.45.251
+  skip-cert-verify: false
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
+    path: /
 - alterId: 0
   cipher: auto
-  name: 6|[Vmess] hkHK_2|2.6MB/s
+  name: 6|[Vmess] hkHK_2|2.7MB/s
   network: tcp
   port: 7754
   server: efan.dnsefan04881.com
   type: vmess
-  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_7|1.5MB/s
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-usa5-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 45.8.112.156
-  type: ss
-- name: 6|[Trojan] ieIE_1|1.8MB/s
+  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
+- name: 6|[Trojan] sgSG_4|1.3MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 172.64.147.106
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /tr
+- name: 6|[Trojan] nlNL_4|1.3MB/s
   network: ws
   password: trojan
   port: 8444
-  server: 194.4.51.171
+  server: 152.53.200.185
   sni: jflsjlaf.pages.dev
   type: trojan
   ws-opts:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] hkHK_3|1.7MB/s
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-hkg5-a7xr.update.microsoft.com
-    mode: http
-  port: 33011
-  server: 8.138.251.145
-  type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

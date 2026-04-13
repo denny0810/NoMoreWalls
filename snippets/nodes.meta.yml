@@ -211,14 +211,13 @@ proxies:
       Host: 6a52001e3651ccdc8ef7740494916ad2.mobgslb.tbcache.com
     path: /
 - auth: dongtaiwang.com
-  name: 6,8|[Hysteria2] group->v2ray Hysteria2节点
+  name: 6|[Hysteria2] frFR_1|1.9MB/s
   password: dongtaiwang.com
   port: 40022
   ports: 41000-42000
   server: 163.172.113.118
   skip-cert-verify: true
   sni: www.microsoft.com
-  tls: false
   type: hysteria2
   udp: true
 - client-fingerprint: firefox
@@ -554,6 +553,14 @@ proxies:
     headers:
       Host: ''
     path: /github.com/Alvin9999-newpac/fanqiang
+- name: 8|[Hysteria2] group->v2ray hysteria2
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 12855
+  server: 83.243.86.103
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
 - flow: xtls-rprx-vision
   name: 9|[VLESS] GB_speednode_0002
   port: 443

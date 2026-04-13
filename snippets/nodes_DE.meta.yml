@@ -9,3 +9,27 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] deDE_1|2.0MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: EdEtwDL3a_V9midkIqik19C3xo7VvefseGkDM5jBWGM
+    short-id: '!!str ba34cbf836e99bf6'
+  server: ge.wireguardvpnbotik.com
+  servername: cdnv-img.perekrestok.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 658786e5-f302-48e2-b321-f4dc6da2a398
+  xudp: true
+- name: 6|[Hysteria2] deDE_2|1.4MB/s
+  password: fb211338854624f161f1Ea3D9584E2DEFE7c10A3
+  port: 8443
+  server: sde.dbp.qzz.io
+  skip-cert-verify: true
+  sni: dbp.qzz.io
+  type: hysteria2

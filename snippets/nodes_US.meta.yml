@@ -23,51 +23,30 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 6|[VLESS] usUS_2|1.7MB/s
-  network: grpc
-  port: 9250
-  server: 138.124.123.236
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 7abc4045-39aa-44db-bfd2-a57462ccb4a8
-  xudp: true
-- name: 6|[Hysteria2] usUS_4|1.1MB/s
-  password: zjh94544549ok
-  port: 22631
-  server: us3.p.xn--876a.net
-  sni: us3.p.xn--876a.net
+- name: 6|[Hysteria2] usUS_3|2.0MB/s
+  password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
+  port: 443
+  server: 134.195.101.199
+  skip-cert-verify: true
+  sni: www.apple.com
   type: hysteria2
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  host: snippet.danfeng.rr.kg
-  insecure: '0'
-  name: 6|[VLESS] usUS_5|1.3MB/s
+  udp: true
+- encryption: none
+  name: 6|[VLESS] usUS_5|1014KB/s
   network: ws
-  path: /danfeng?ed=2560
-  port: 39233
-  security: tls
-  server: 69.63.196.154
-  servername: snippet.danfeng.rr.kg
+  port: 443
+  server: 128.1.190.149
+  servername: 3-7v4.pages.dev
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  udp: true
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: snippet.danfeng.rr.kg
-    max-early-data: 2560
-    path: /danfeng
+      Host: 3-7v4.pages.dev
+    path: /
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

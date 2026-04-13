@@ -187,7 +187,7 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - down: 2000
-  name: 6|[Hysteria2] hkHK_1|1.5MB/s
+  name: 6|[Hysteria2] hkHK_1|2.1MB/s
   password: 9e0f72bb-7ad6-4383-994a-497569a94d74
   port: 58
   server: jpaws.ccwink.photos
@@ -197,133 +197,119 @@ proxies:
   up: 2000
 - alterId: 0
   cipher: auto
-  name: 6|[Vmess] hkHK_2|1.7MB/s
-  network: ws
-  port: 16622
-  server: planb.mojcn.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9c57c421-1d87-475b-8ec1-5595a304b19d
-  ws-opts:
-    headers:
-      Host: 6a52001e3651ccdc8ef7740494916ad2.mobgslb.tbcache.com
-    path: /
-- auth: dongtaiwang.com
-  name: 6|[Hysteria2] frFR_1|1.9MB/s
-  password: dongtaiwang.com
-  port: 40022
-  ports: 41000-42000
-  server: 163.172.113.118
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] krKR_1|1.2MB/s
+  name: 6|[Vmess] hkHK_2|1.9MB/s
   network: tcp
-  port: 19001
-  reality-opts:
-    public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
-  server: krp01.jumperservice.com
-  servername: addons.mozilla.org
-  tls: true
-  type: vless
-  uuid: 455fc271-3ee2-493b-8c75-9324b4851e2f
+  port: 7754
+  server: efan.dnsefan04881.com
+  type: vmess
+  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
 - alterId: 0
   cipher: auto
-  name: 6|[Vmess] jpJP_1|2.2MB/s
-  network: ws
-  port: 16617
-  server: m.cnmjin.net
-  skip-cert-verify: false
-  tls: false
+  name: 6|[Vmess] hkHK_3|1.3MB/s
+  network: tcp
+  port: 7754
+  server: efan.dnsefan04881.com
   type: vmess
-  udp: true
-  uuid: b688ce0f-9201-4e8e-a67a-f3be2c6aa201
-  ws-opts:
-    headers:
-      Host: 7a297964a2b31dafd3529ef4d14574b9.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 6|[VLESS] usUS_2|1.7MB/s
-  network: grpc
-  port: 9250
-  server: 138.124.123.236
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 7abc4045-39aa-44db-bfd2-a57462ccb4a8
-  xudp: true
-- encryption: none
-  name: 6|[VLESS] sgSG_3|2.1MB/s
-  network: ws
-  port: 2083
-  server: 104.18.45.86
-  servername: aier.eu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-  ws-opts:
-    headers:
-      Host: aier.eu.cc
-    path: /
-- encryption: none
-  name: 6|[VLESS] sgSG_4|2.4MB/s
-  network: ws
-  port: 2083
-  server: 198.41.223.86
-  servername: aier.eu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-  ws-opts:
-    headers:
-      Host: aier.eu.cc
-    path: /
-- encryption: none
-  name: 6|[VLESS] sgSG_5|1.0MB/s
-  network: ws
-  port: 2083
-  server: 104.18.46.87
-  servername: aier.eu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-  ws-opts:
-    headers:
-      Host: aier.eu.cc
-    path: /
-- name: 6|[Hysteria2] usUS_4|1.1MB/s
-  password: zjh94544549ok
-  port: 22631
-  server: us3.p.xn--876a.net
-  sni: us3.p.xn--876a.net
+  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+- auth: 9e0f72bb-7ad6-4383-994a-497569a94d74
+  down: 2000
+  name: 6|[Hysteria2] hkHK_4|2.2MB/s
+  password: 9e0f72bb-7ad6-4383-994a-497569a94d74
+  port: 88
+  server: hkaws.ccwink.photos
+  skip-cert-verify: true
+  sni: hkak.ccwink.cc
   type: hysteria2
+  udp: true
+  up: 2000
+- name: 6|[VLESS] sgSG_4|2.8MB/s
+  network: ws
+  port: 443
+  server: cfyx.dnspod.20237737.xyz
+  servername: wy.ssdxz.cn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29ff2954-dfea-4d20-8089-059cfa861453
+  ws-opts:
+    headers:
+      Host: wy.ssdxz.cn
+    path: /proxyip=ProxyIP.SG.CMLiussss.net/proxyip=tw.william.us.ci,ProxyIP.SG.CMLiussss.net
+- name: 6|[Hysteria2] usUS_3|2.0MB/s
+  password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
+  port: 443
+  server: 134.195.101.199
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- encryption: none
+  name: 6|[VLESS] usUS_5|1014KB/s
+  network: ws
+  port: 443
+  server: 128.1.190.149
+  servername: 3-7v4.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 3-7v4.pages.dev
+    path: /
+  xudp: true
+- mport: 35000-39000
+  name: 6|[Hysteria2] brBR_1|1.5MB/s
+  password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
+  port: 35000
+  ports: 35000-39000
+  server: 167.234.251.78
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] deDE_1|2.0MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: EdEtwDL3a_V9midkIqik19C3xo7VvefseGkDM5jBWGM
+    short-id: 'ba34cbf836e99bf6'
+  server: ge.wireguardvpnbotik.com
+  servername: cdnv-img.perekrestok.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 658786e5-f302-48e2-b321-f4dc6da2a398
+  xudp: true
+- mport: 35000-39000
+  name: 6|[Hysteria2] jp 日本-D811D1C9|1.4MB/s
+  password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
+  port: 35000
+  ports: 35000-39000
+  server: 103.62.49.76
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
 - allowInsecure: '0'
   alpn:
   - http/1.1
   ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
-  host: snippet.danfeng.rr.kg
+  host: snippet.gfw.qzz.io
   insecure: '0'
-  name: 6|[VLESS] usUS_5|1.3MB/s
+  name: 6|[VLESS] jpJP_5|1.6MB/s
   network: ws
   path: /danfeng?ed=2560
-  port: 39233
+  port: 8606
   security: tls
-  server: 69.63.196.154
-  servername: snippet.danfeng.rr.kg
+  server: 31.57.172.25
+  servername: snippet.gfw.qzz.io
   skip-cert-verify: false
   tls: true
   type: vless
@@ -331,84 +317,78 @@ proxies:
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: snippet.danfeng.rr.kg
+      Host: snippet.gfw.qzz.io
     max-early-data: 2560
     path: /danfeng
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] jpJP_2|1.2MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+- encryption: none
+  flow: ''
+  name: 6|[VLESS] myMY_1|1.9MB/s
+  network: tcp
   port: 443
-  server: vpn-jp-016.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-jp-016.fastervpn.world
-  type: hysteria2
-- name: 6|[Hysteria2] hkHK_3|1.6MB/s
-  password: 7845e26a-328b-4b26-8922-d358f6474596
-  port: 4643
-  server: 45.192.192.120
-  skip-cert-verify: true
-  tfo: false
-  type: hysteria2
-- down: 800
-  name: 6|[Hysteria2] nlNL_3|2.0MB/s
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: 19f13a35-64cb-49c7-8e6f-21e472fb4983
-  port: 45103
-  server: sg6.stableq.top
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+  server: 47.250.173.194
+  servername: www.autodesk.com
   skip-cert-verify: false
-  sni: sg6.stableq.top
-  type: hysteria2
-  up: 300
-- name: 6|[Hysteria2] hkHK_4|2.5MB/s
-  obfs: salamander
-  obfs-password: sbE3r6694Lbhi2Jt
-  password: de8e0342-ea12-4f9d-bc2a-e62409e1913f
-  port: 20001
-  server: 66yun-link1.66jc.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  xudp: true
+- name: 6|[Anytls] sgSG_5|2.1MB/s
+  password: 9e0f72bb-7ad6-4383-994a-497569a94d74
+  port: 60003
+  server: jpaws.ccwink.photos
   skip-cert-verify: true
-  sni: hkzz.66jc.xyz
-  tfo: false
-  type: hysteria2
-- name: 6|[Hysteria2] 🏁 未知-880FB0F0|2.4MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-sg-001.fastervpn.world
+  sni: baidu.com
+  type: anytls
+  udp: true
+- name: 6|[Hysteria2] hkHK_5|1.6MB/s
+  password: 9e0f72bb-7ad6-4383-994a-497569a94d74
+  port: 56309
+  server: hkt.ccwink.cc
   skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
+  sni: hkt.ccwink.cc
   type: hysteria2
-- name: 6|[VLESS] sgSG_7|1.4MB/s
+- name: 6|[Hysteria2] deDE_2|1.4MB/s
+  password: fb211338854624f161f1Ea3D9584E2DEFE7c10A3
+  port: 8443
+  server: sde.dbp.qzz.io
+  skip-cert-verify: true
+  sni: dbp.qzz.io
+  type: hysteria2
+- name: 6|[VLESS] sgSG_6|2.9MB/s
   network: ws
   port: 443
-  server: www.shopify.com
-  servername: we.ssdxz.cn
+  server: staticdelivery.nexusmods.com
+  servername: wu.ssdxz.cn
   tls: true
   type: vless
   udp: true
   uuid: 29ff2954-dfea-4d20-8089-059cfa861453
   ws-opts:
     headers:
-      Host: we.ssdxz.cn
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/39.0.2171.95 Safari/537.36
+      Host: wu.ssdxz.cn
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
     path: /proxyip=ProxyIP.SG.CMLiussss.net/proxyip=tw.william.us.ci,ProxyIP.SG.CMLiussss.net
   xudp: true
-- encryption: none
-  name: 6|[VLESS] sgSG_8|1023KB/s
-  network: ws
+- http-opts:
+    headers: {}
+    path:
+    - /
+  name: 6|[VLESS] hkHK_6|3.1MB/s
+  network: tcp
   port: 443
-  server: serviceshub.samsclub.com
-  servername: we.ssdxz.cn
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+    short-id: ''
+  server: 8.210.126.83
+  servername: siteintercept.qualtrics.com
   tls: true
   type: vless
   udp: true
-  uuid: 29ff2954-dfea-4d20-8089-059cfa861453
-  ws-opts:
-    headers:
-      Host: we.ssdxz.cn
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    path: /proxyip=ProxyIP.SG.CMLiussss.net/proxyip=tw.william.us.ci,ProxyIP.SG.CMLiussss.net
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
   xudp: true
 - encryption: none
   flow: xtls-rprx-vision
@@ -416,38 +396,18 @@ proxies:
     headers: {}
     path:
     - /
-  name: 6,9|[VLESS] SC_speednode_0020
+  name: 6|[VLESS] ltLT_1|1.3MB/s
   network: tcp
-  port: 52000
+  port: 443
   reality-opts:
-    public-key: dUMRGt4pHvNO-YjS6lWsEZhoiHe6DH1Dw92nqVAx_T0
-    short-id: 'f1002d6b'
-  server: direct.illusion-vpn.ru
-  servername: ozon.ru
-  skip-cert-verify: false
+    public-key: h7CCbT_1gwxhQGM-4_pZkNRbAe_I6YFQM6jO9x6uORw
+    short-id: ''
+  server: 188.214.129.172
+  servername: flowwow.com
   tls: true
   type: vless
   udp: true
-  uuid: bf263367-bb63-4663-b4a1-34946107a72e
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 6|[VLESS] chCH_1|1.3MB/s
-  network: tcp
-  port: 52000
-  reality-opts:
-    public-key: KXqoXRnGxHCnTT17cRpFRhKNj_3km3DnWEJ5L3FtSwg
-    short-id: 'edd8887128ea'
-  server: swiss-2.illusion-vpn.ru
-  servername: music.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: fd2bfdd2-68eb-49b0-98ad-ed82f901edde
+  uuid: 1c45e98c-8a4a-45e7-acc5-3a3cc962f463
   xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
@@ -528,17 +488,17 @@ proxies:
   type: ss
 - name: 8|[VLESS] group->v2ray VLESS-xhttp-Reali...
   network: xhttp
-  port: 32202
+  port: 15530
   reality-opts:
-    public-key: bGe_-nAtOq6_w_2mv6pcmD8RzJP65Tti-vyMP2hAwDc
-    short-id: 'f57d8f26'
-  server: 62.210.24.143
-  servername: www.amazon.com
+    public-key: w8JMWRzOsYUuBeI0i_te745nBRlDocMOTgGMMZLioik
+    short-id: 'aa45df0f'
+  server: 178.18.147.163
+  servername: www.microsoft.com
   tls: false
   type: vless
-  uuid: 28148be2-61a7-4f36-8adb-030cc9f82bd0
+  uuid: ac121f97-544b-47b3-bf91-eca9c45db548
   ws-opts:
-    path: '%2FG3EEoH63'
+    path: '%2Fgithub.com%2FAlvin9999-newpac%2Ffanqiang'
 - alterId: 0
   cipher: auto
   name: 8|[Vmess] vmess-ipv6
@@ -796,6 +756,19 @@ proxies:
   type: vless
   udp: true
   uuid: 43488128-319e-f480-64ea-0acdc712e2a8
+- flow: xtls-rprx-vision
+  name: 9|[VLESS] SC_speednode_0020
+  port: 52000
+  reality-opts:
+    public-key: dUMRGt4pHvNO-YjS6lWsEZhoiHe6DH1Dw92nqVAx_T0
+    short-id: 'f1002d6b'
+  server: direct.illusion-vpn.ru
+  servername: ozon.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: bf263367-bb63-4663-b4a1-34946107a72e
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 9|[VLESS] TR_speednode_0021

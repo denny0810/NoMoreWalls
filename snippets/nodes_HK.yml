@@ -44,9 +44,16 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 6|[Vmess] hkHK_2|2.7MB/s
-  network: tcp
-  port: 7754
-  server: efan.dnsefan04881.com
+  name: 6|[Vmess] hkHK_2|1.7MB/s
+  network: ws
+  port: 16622
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
+  udp: true
+  uuid: 9c57c421-1d87-475b-8ec1-5595a304b19d
+  ws-opts:
+    headers:
+      Host: 6a52001e3651ccdc8ef7740494916ad2.mobgslb.tbcache.com
+    path: /

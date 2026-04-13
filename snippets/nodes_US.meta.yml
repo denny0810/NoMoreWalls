@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] usUS_2|1.1MB/s
+- name: 4,5|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: 1a98450e6f743b1b66a8bebfe3ea93e9
   port: 4019
@@ -23,77 +23,51 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- down: ''
-  fingerprint: ''
-  name: 6|[Hysteria2] usUS_3|1.6MB/s
-  obfs: salamander
-  obfs-password: CvxXZnSth1bVJKGFP2cof4rI52ifHJ2W
-  password: rstnnl:7ltZBmta4ahLenTIoywBy3R1Z1PV7ZGf
-  port: 8932
-  server: nrealistic.nn-foto.ru
-  skip-cert-verify: true
-  sni: nrealistic.nn-foto.ru
-  type: hysteria2
-  up: ''
-- mport: 35000-39000
-  name: 6|[Hysteria2] usUS_4|2.5MB/s
-  password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
-  port: 35000
-  ports: 35000-39000
-  server: 208.87.242.77
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-  udp: true
-- name: 6|[Hysteria2] usUS_5|2.4MB/s
-  obfs: salamander
-  obfs-password: OrT7yQQIMqcvKdet
-  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
-  port: 443
-  server: usa-hy2.onetaplink.app
+- encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 6|[VLESS] usUS_2|1.7MB/s
+  network: grpc
+  port: 9250
+  server: 138.124.123.236
   skip-cert-verify: false
-  sni: hy2-usa.onetaplink.app
-  tfo: false
-  type: hysteria2
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] usUS_6|1.6MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-023.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-023.fastervpn.world
-  type: hysteria2
-- name: 6|[Anytls] usUS_7|1.5MB/s
-  password: 9e0f72bb-7ad6-4383-994a-497569a94d74
-  port: 30002
-  server: 144.24.7.139
-  skip-cert-verify: true
-  sni: baidu.com
-  type: anytls
+  tls: false
+  type: vless
   udp: true
-- name: 6|[Anytls] usUS_8|1.5MB/s
-  password: 9e0f72bb-7ad6-4383-994a-497569a94d74
-  port: 60001
-  server: 43.162.108.172
-  skip-cert-verify: true
-  sni: baidu.com
-  type: anytls
-  udp: true
-- name: 6|[VLESS] usUS_9|1.1MB/s
+  uuid: 7abc4045-39aa-44db-bfd2-a57462ccb4a8
+  xudp: true
+- name: 6|[Hysteria2] usUS_4|1.1MB/s
+  password: zjh94544549ok
+  port: 22631
+  server: us3.p.xn--876a.net
+  sni: us3.p.xn--876a.net
+  type: hysteria2
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  host: snippet.danfeng.rr.kg
+  insecure: '0'
+  name: 6|[VLESS] usUS_5|1.3MB/s
   network: ws
-  port: 6879
-  server: 38.207.132.128
-  servername: 2026.hhhhh.eu.org
+  path: /danfeng?ed=2560
+  port: 39233
+  security: tls
+  server: 69.63.196.154
+  servername: snippet.danfeng.rr.kg
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: 2026.hhhhh.eu.org
-    path: /38.207.132.128%3A6879
-  xudp: true
+      Host: snippet.danfeng.rr.kg
+    max-early-data: 2560
+    path: /danfeng
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

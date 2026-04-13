@@ -62,7 +62,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] sgSG_2|1.3MB/s
+- name: 4,5|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: 1a98450e6f743b1b66a8bebfe3ea93e9
   port: 4674
@@ -70,7 +70,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] sgSG_3|1.1MB/s
+- name: 4,5|[Trojan] 新加坡2|@ripaojiedian
   network: tcp
   password: 1a98450e6f743b1b66a8bebfe3ea93e9
   port: 4674
@@ -94,7 +94,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] usUS_2|1.1MB/s
+- name: 4,5|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: 1a98450e6f743b1b66a8bebfe3ea93e9
   port: 4019
@@ -120,51 +120,37 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 6|[Trojan] atAT_1|1.2MB/s
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] hkHK_2|1.7MB/s
   network: ws
-  password: trojan
-  port: 8888
-  server: 152.53.45.251
+  port: 16622
+  server: planb.mojcn.com
   skip-cert-verify: false
-  sni: jflsjlaf.pages.dev
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
+  uuid: 9c57c421-1d87-475b-8ec1-5595a304b19d
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
+      Host: 6a52001e3651ccdc8ef7740494916ad2.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 6|[Vmess] hkHK_2|2.7MB/s
-  network: tcp
-  port: 7754
-  server: efan.dnsefan04881.com
+  name: 6|[Vmess] jpJP_1|2.2MB/s
+  network: ws
+  port: 16617
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
-- name: 6|[Trojan] sgSG_4|1.3MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 172.64.147.106
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+  udp: true
+  uuid: b688ce0f-9201-4e8e-a67a-f3be2c6aa201
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /tr
-- name: 6|[Trojan] nlNL_4|1.3MB/s
-  network: ws
-  password: trojan
-  port: 8444
-  server: 152.53.200.185
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
+      Host: 7a297964a2b31dafd3529ef4d14574b9.mobgslb.tbcache.com
     path: /
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

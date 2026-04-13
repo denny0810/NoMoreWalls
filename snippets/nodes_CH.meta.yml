@@ -1,5 +1,25 @@
 proxies:
 - client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 6|[VLESS] chCH_1|1.3MB/s
+  network: tcp
+  port: 52000
+  reality-opts:
+    public-key: KXqoXRnGxHCnTT17cRpFRhKNj_3km3DnWEJ5L3FtSwg
+    short-id: '!!str edd8887128ea'
+  server: swiss-2.illusion-vpn.ru
+  servername: music.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: fd2bfdd2-68eb-49b0-98ad-ed82f901edde
+  xudp: true
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 9|[VLESS] CH_speednode_0002
   port: 443

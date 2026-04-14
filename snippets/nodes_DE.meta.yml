@@ -1,5 +1,5 @@
 proxies:
-- name: 1|[Hysteria2] de - DE - @FreeOnlineVPN
+- name: 2|[Hysteria2] de - DE - @FreeOnlineVPN
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -12,24 +12,56 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 5|[VLESS] deDE_1|2.0MB/s
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 6|[VLESS] deDE_2|1.2MB/s
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
+    short-id: '!!str 2344766a270a6298'
+  server: 159.195.82.187
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] deDE_3|1.0MB/s
+  network: ws
+  port: 443
+  server: 18.245.54.3
+  servername: d24f6c9l7fxvak.cloudfront.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 97b2cd5b-b98d-494f-8f97-3a06e8c1bbd2
+  ws-opts:
+    headers:
+      Host: d24f6c9l7fxvak.cloudfront.net
+    path: /
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] deDE_4|1.1MB/s
   network: tcp
   port: 443
   reality-opts:
-    public-key: EdEtwDL3a_V9midkIqik19C3xo7VvefseGkDM5jBWGM
-    short-id: '!!str ba34cbf836e99bf6'
-  server: ge.wireguardvpnbotik.com
-  servername: cdnv-img.perekrestok.ru
+    _spider-x: /
+    public-key: DoZSKLwNQjogQMlE7oEEuB8TqpNa-umXzG-2Q6dTTEY
+    short-id: '!!str 4fa44664f6a566d3'
+  server: gr.milas.click
+  servername: gr.milas.click
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 658786e5-f302-48e2-b321-f4dc6da2a398
+  uuid: 913c6074-a747-492b-a7e9-5abfcad6369d
   xudp: true
-- name: 5|[Hysteria2] deDE_2|1.4MB/s
-  password: fb211338854624f161f1Ea3D9584E2DEFE7c10A3
-  port: 8443
-  server: sde.dbp.qzz.io
-  skip-cert-verify: true
-  sni: dbp.qzz.io
-  type: hysteria2

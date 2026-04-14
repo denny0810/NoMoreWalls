@@ -1,1 +1,42 @@
-proxies: []
+proxies:
+- name: 6|[Hysteria2] frFR_1|1.5MB/s
+  password: dongtaiwang.com
+  port: 40022
+  ports: 41000-42000
+  server: 163.172.113.118
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tfo: false
+  type: hysteria2
+- name: 6|[VLESS] frFR_2|1.0MB/s
+  network: ws
+  port: 8443
+  server: 51.91.254.153
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed
+- client-fingerprint: firefox
+  encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 6|[VLESS] frFR_3|1.8MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: fXdtB8vImCUJMQBLcCNK7p1v3rVzx6HllaDLk8Vc4EU
+    short-id: '!!str 239dcd11'
+  server: 57.128.81.193
+  servername: www.samsung.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53821f3c-5b03-456a-89f3-f8379f130752
+  xudp: true

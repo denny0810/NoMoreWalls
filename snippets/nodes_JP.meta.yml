@@ -1,61 +1,59 @@
 proxies:
-- name: 3,4|[Trojan] 日本|@ripaojiedian
+- name: 4,5|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1783
-  server: 43.199.78.183
+  port: 3022
+  server: 52.194.222.108
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 3,4|[Trojan] 日本2|@ripaojiedian
+- name: 4,5|[Trojan] 日本2|@ripaojiedian
   network: tcp
-  password: 1a98450e6f743b1b66a8bebfe3ea93e9
-  port: 2001
-  server: 18.183.171.241
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 4937
+  server: 13.231.134.78
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 3,4|[Trojan] 日本3|@ripaojiedian
+- name: 4,5|[Trojan] 日本3|@ripaojiedian
   network: tcp
-  password: 1a98450e6f743b1b66a8bebfe3ea93e9
-  port: 4380
-  server: 18.183.171.241
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 9201
+  server: 43.207.115.26
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- mport: 35000-39000
-  name: 5|[Hysteria2] jp 日本-D811D1C9|1.4MB/s
-  password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
-  port: 35000
-  ports: 35000-39000
-  server: 103.62.49.76
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-  udp: true
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+- client-fingerprint: chrome
   encryption: none
-  fp: chrome
-  host: snippet.gfw.qzz.io
-  insecure: '0'
-  name: 5|[VLESS] jpJP_5|1.6MB/s
+  name: 6|[VLESS] jpJP_2|1.6MB/s
   network: ws
-  path: /danfeng?ed=2560
-  port: 8606
-  security: tls
-  server: 31.57.172.25
-  servername: snippet.gfw.qzz.io
-  skip-cert-verify: false
+  port: 443
+  server: 126.220.82.161
+  servername: 3-7gj.pages.dev
   tls: true
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  udp: true
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: snippet.gfw.qzz.io
-    max-early-data: 2560
-    path: /danfeng
+      Host: 3-7gj.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/32.0.1700.107 Safari/537.36
+    path: /
+  xudp: true
+- name: 6|[Http] jpJP_3|2.4MB/s
+  password: f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b
+  port: 27233
+  server: 230c5934-t9zts0-tdadcv-1hd7v.cm4.oshuawei.com
+  sni: 230c5934-t9zts0-tdadcv-1hd7v.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b
+- name: 6|[Hysteria2] jpJP_4|1.5MB/s
+  obfs: salamander
+  obfs-password: CF7WJGiw6r1c8imX
+  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  port: 5443
+  server: jp-hy2.onetaplink.app
+  sni: hy2-jp.onetaplink.app
+  type: hysteria2

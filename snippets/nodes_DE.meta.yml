@@ -1,35 +1,16 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] deDE_1|1010KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: n00VSaVEImUfNI-8882Ecum-Er2KIHLg32Y-MWQGeh8
-  server: 142.132.146.241
-  servername: hypixel.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1c45e98c-8a4a-45e7-acc5-3a3cc962f463
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] deDE_3|1.1MB/s
+- encryption: none
+  name: 6|[VLESS] deDE_1|2.3MB/s
   network: ws
-  port: 443
-  server: 18.245.54.3
-  servername: d2241b25w3zftf.cloudfront.net
-  tls: true
+  port: 80
+  server: 172.64.149.54
   type: vless
   udp: true
-  uuid: 97b2cd5b-b98d-494f-8f97-3a06e8c1bbd2
+  uuid: 5f0cfc58-dfca-4ef9-a7f6-54cdb7f70446
   ws-opts:
     headers:
-      Host: d2241b25w3zftf.cloudfront.net
+      Host: cdn.phacode.ir
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/69.0.3497.100 Safari/537.36
+        Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /
   xudp: true

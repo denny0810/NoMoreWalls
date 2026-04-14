@@ -1,21 +1,53 @@
 proxies:
-- client-fingerprint: random
+- client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 6|[VLESS] ruRU_1|1.8MB/s
-  network: tcp
-  port: 443
+  flow: ''
+  grpc-opts:
+    grpc-service-name: xyz
+  name: 6|[VLESS] ruRU_1|1.6MB/s
+  network: grpc
+  port: 2041
   reality-opts:
-    public-key: DoZSKLwNQjogQMlE7oEEuB8TqpNa-umXzG-2Q6dTTEY
-    short-id: '!!str 4fa44664f6a566d3'
-  server: 171.22.181.107
-  servername: uk.milas.click
+    public-key: qAzDiElJXS4orwLfz63SFhCJ-EB1AGXMoL3mSc0mNV0
+  server: ru1.clgate.network
+  servername: cloudcdn-m9-15.cdn.yandex.net
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 913c6074-a747-492b-a7e9-5abfcad6369d
+  uuid: ccc4d100-07ec-4dbd-a054-50216788e15e
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 6|[VLESS] ruRU_2|1.4MB/s
+  network: grpc
+  port: 5432
+  reality-opts:
+    public-key: WNsIqrfrK3gEmFFkeP2Ja8lvt9vGpFyxV612QdqYPC8
+    short-id: '!!str 489da765'
+  server: 45.144.30.81
+  servername: www.samsung.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8c5b018-f51a-4137-be8a-50a451630589
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 6|[VLESS] ruRU_3|1.1MB/s
+  network: grpc
+  port: 5432
+  reality-opts:
+    public-key: WNsIqrfrK3gEmFFkeP2Ja8lvt9vGpFyxV612QdqYPC8
+    short-id: '!!str 489da765'
+  server: ru150.tcpnet.fun
+  servername: www.samsung.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8c5b018-f51a-4137-be8a-50a451630589
   xudp: true

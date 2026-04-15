@@ -39,21 +39,23 @@ proxies:
       Host: ws248_2.baidu.com
     path: /
 - client-fingerprint: chrome
-  name: 6|[VLESS] jpJP_2|3.2MB/s
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] jpJP_5|3.4MB/s
   network: ws
-  port: 2083
-  server: v1.dabache.top
-  servername: wk1.f1w.de5.net
+  port: 3389
+  server: 203.168.131.105
+  servername: q40ivxuck.danfeng.qzz.io
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: wk1.f1w.de5.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+      Host: q40ivxuck.danfeng.qzz.io
     max-early-data: 2560
-    path: /
-  xudp: true
+    path: /danfeng

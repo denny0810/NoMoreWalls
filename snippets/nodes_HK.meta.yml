@@ -43,7 +43,7 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - down: 2000
-  name: 6|[Hysteria2] hkHK_1|1.5MB/s
+  name: 6|[Hysteria2] hkHK_1|1.7MB/s
   password: 9e0f72bb-7ad6-4383-994a-497569a94d74
   port: 58
   server: jpaws.ccwink.photos
@@ -51,14 +51,23 @@ proxies:
   sni: moak.ccwink.cc
   type: hysteria2
   up: 2000
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] hkHK_2|1.1MB/s
-  network: tcp
-  port: 7754
-  server: vm51544542.dns8656815.com
-  type: vmess
-  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
+- down: 2000
+  name: 6|[Hysteria2] hkHK_2|2.8MB/s
+  password: 9e0f72bb-7ad6-4383-994a-497569a94d74
+  port: 88
+  server: hkaws.ccwink.photos
+  skip-cert-verify: true
+  sni: hkak.ccwink.cc
+  type: hysteria2
+  up: 2000
+- name: 6|[Hysteria2] hkHK_3|1.6MB/s
+  password: 9e0f72bb-7ad6-4383-994a-497569a94d74
+  port: 88
+  server: jpaws.ccwink.photos
+  skip-cert-verify: true
+  sni: hkak.ccwink.cc
+  tfo: false
+  type: hysteria2
 - name: 9|[VLESS] HK_speednode_0003
   network: ws
   port: 7443

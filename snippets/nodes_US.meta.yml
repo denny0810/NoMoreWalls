@@ -23,72 +23,50 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] usUS_1|1.3MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  fp: firefox
-  headerType: none
-  name: 6|[VLESS] usUS_4|1.1MB/s
-  network: tcp
-  pbk: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
-  port: 12345
-  reality-opts:
-    public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
-    server-name: dash.cloudflare.com
-    short-id: '!!str '
-  security: reality
-  server: px-x02.xiaoxiaobujidao.xyz
-  servername: dash.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 9b5b522d-e150-495d-9aa3-b4b74cd8981d
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] usUS_5|1.4MB/s
-  network: ws
-  port: 6235
-  server: 207.174.133.117
-  servername: baidu.com
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] usUS_1|2.4MB/s
+  password: somebody
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-usa2-a7xr.update.microsoft.com
+    mode: http
+  port: 30011
+  server: 38.105.28.221
+  type: ss
+- name: 6|[Hysteria2] usUS_2|2.0MB/s
+  password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
+  port: 443
+  server: 134.195.101.199
   skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: www.apple.com
+  type: hysteria2
   udp: true
-  uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d142
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /xxxxhttp
-  xudp: true
-- client-fingerprint: chrome
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
   encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 6|[VLESS] usUS_6|1.1MB/s
-  network: tcp
-  port: 1443
-  reality-opts:
-    public-key: 2-PK2RY8YRcxqD01Me8ZSRK91iSgE3Zls2P0WFwxqig
-    short-id: '!!str b8a8f008c9'
-  server: de19.fastlanehosting.ru
-  servername: eh.vk.com
+  fp: chrome
+  host: snippet.danfeng.rr.kg
+  insecure: '0'
+  name: 6|[VLESS] usUS_3|1.0MB/s
+  network: ws
+  path: /danfeng?ed=2560
+  port: 443
+  security: tls
+  server: 45.62.114.91
+  servername: snippet.danfeng.rr.kg
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: 7e4d0612-41b5-4b44-a8f1-1f7cda6b6f78
-  xudp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.rr.kg
+    max-early-data: 2560
+    path: /danfeng
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

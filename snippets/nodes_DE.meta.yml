@@ -4,56 +4,45 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 6|[VLESS] deDE_1|1.3MB/s
-  network: xhttp
-  port: 8443
-  server: 104.17.71.206
-  servername: h9-7.digicala.online
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    headers:
-      Host: h9-7.digicala.online
-    mode: stream-up
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] deDE_2|1.4MB/s
+  name: 6|[VLESS] deDE_1|2.0MB/s
   network: ws
-  port: 2053
-  server: 188.114.98.0
-  servername: ir.tegular.ir
+  port: 8443
+  server: 172.64.152.23
+  servername: line.smartphone1.top
   tls: true
   type: vless
   udp: true
-  uuid: f5042692-412d-43fd-9855-20f21f631be4
+  uuid: b179aef9-46a6-4e21-9a15-d21139c705b9
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: ir.tegular.ir
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    max-early-data: 2560
-    path: /iraneman/doosetdaram/
+      Host: line.smartphone1.top
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/56.0.2924.87 Safari/537.36
+    path: /shop
   xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 6|[VLESS] deDE_3|1.7MB/s
-  network: tcp
+- name: 6,8|[Hysteria2] group->v2ray hysteria2
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 12855
+  server: 83.243.86.103
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tfo: false
+  tls: false
+  type: hysteria2
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] deDE_3|2.0MB/s
+  network: xhttp
   port: 443
-  reality-opts:
-    public-key: niiQUWkfq_H7K9kDI7rZVMId2WvlmafWLWknL1Cu2QA
-    short-id: '!!str e3ec60fe5f53a97c'
-  server: germany.coverprotect.info
-  servername: germany.coverprotect.info
+  server: ips.cf3.mobileemdad.top
+  servername: dl5.mobileemdad.top
   tls: true
   type: vless
   udp: true
-  uuid: 4ce98305-2c38-4e1f-aa7b-ef6f77bbfc7c
+  uuid: edf4be4f-33c9-4039-9555-ffc8e3ba2f35
+  xhttp-opts:
+    mode: auto
+    path: /cloudapi
   xudp: true

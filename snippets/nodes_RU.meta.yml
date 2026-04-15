@@ -1,1 +1,50 @@
-proxies: []
+proxies:
+- alpn:
+  - http%2525252F1.1
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] ruRU_1|2.4MB/s
+  network: tcp
+  port: 52006
+  server: cluster11.anti-vpn.ru
+  servername: cluster11.anti-vpn.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 6|[VLESS] ruRU_2|1.5MB/s
+  network: grpc
+  port: 5432
+  reality-opts:
+    public-key: WNsIqrfrK3gEmFFkeP2Ja8lvt9vGpFyxV612QdqYPC8
+    short-id: '!!str 489da765'
+  server: ru150.tcpnet.fun
+  servername: www.samsung.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8c5b018-f51a-4137-be8a-50a451630589
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 6|[VLESS] ruRU_3|1.2MB/s
+  network: grpc
+  port: 5432
+  reality-opts:
+    public-key: WNsIqrfrK3gEmFFkeP2Ja8lvt9vGpFyxV612QdqYPC8
+    short-id: '!!str 489da765'
+  server: 45.144.30.81
+  servername: www.samsung.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8c5b018-f51a-4137-be8a-50a451630589
+  xudp: true

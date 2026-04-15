@@ -150,31 +150,83 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 6|[Trojan] sgSG_1|2.7MB/s
+- alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] hkHK_2|1.2MB/s
+  network: tcp
+  port: 7754
+  server: efan.dnsefan04881.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] usUS_1|1.4MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] hkHK_3|1.2MB/s
+  password: aed6e687-58a9-4836-ba62-7d8184c94df4
+  port: 47705
+  server: hk15.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] hkHK_4|1.0MB/s
+  network: tcp
+  port: 7754
+  server: vm51544542.dns8656815.com
+  type: vmess
+  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+- alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] hkHK_8|1.4MB/s
+  network: tcp
+  port: 7754
+  server: vm51544542.dns8656815.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
+  xudp: true
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 6|[Vmess] hkHK_7|1.3MB/s
+  network: tcp
+  port: 7754
+  server: efan.dnsefan04881.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
+  xudp: true
+- name: 6|[Trojan] usUS_4|1.1MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2096
-  server: 172.64.147.106
+  server: 8.6.112.0
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /tr
-- name: 6,9|[Trojan] US_speednode_0014
-  network: ws
-  password: trojan
-  port: 54321
-  server: 154.12.53.125
-  skip-cert-verify: false
-  sni: jflsjlaf.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: jflsjlaf.pages.dev
-    path: /
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/55.0.2883.87 Safari/537.36
+    path: /tr
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...
@@ -244,3 +296,16 @@ proxies:
     headers:
       Host: ''
     path: /github.com/Alvin9999-newpac/fanqiang
+- name: 9|[Trojan] US_speednode_0014
+  network: ws
+  password: trojan
+  port: 54321
+  server: 154.12.53.125
+  skip-cert-verify: false
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /

@@ -2,44 +2,93 @@ proxies:
 - name: 4,5|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4019
-  server: 43.207.115.26
+  port: 3057
+  server: 13.114.50.40
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 3057
-  server: 13.231.134.78
+  port: 4019
+  server: 54.199.47.118
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 23255
-  server: 16.162.122.123
+  port: 44386
+  server: 16.162.191.83
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- auth: 38428a74-c651-47a5-b2c9-4bec5a1809cf
-  name: 6|[Hysteria2] usUS_1|1.9MB/s
-  password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
-  port: 35000
-  server: 208.87.242.77
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] usUS_1|1.3MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 6|[VLESS] usUS_4|1.1MB/s
+  network: tcp
+  pbk: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
+  port: 12345
+  reality-opts:
+    public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
+    server-name: dash.cloudflare.com
+    short-id: '!!str '
+  security: reality
+  server: px-x02.xiaoxiaobujidao.xyz
+  servername: dash.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 9b5b522d-e150-495d-9aa3-b4b74cd8981d
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] usUS_5|1.4MB/s
+  network: ws
+  port: 6235
+  server: 207.174.133.117
+  servername: baidu.com
   skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
+  tls: true
+  type: vless
   udp: true
-- name: 6|[Hysteria2] usUS_2|1.9MB/s
-  password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
-  port: 443
-  server: 134.195.101.199
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
+  uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d142
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /xxxxhttp
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 6|[VLESS] usUS_6|1.1MB/s
+  network: tcp
+  port: 1443
+  reality-opts:
+    public-key: 2-PK2RY8YRcxqD01Me8ZSRK91iSgE3Zls2P0WFwxqig
+    short-id: '!!str b8a8f008c9'
+  server: de19.fastlanehosting.ru
+  servername: eh.vk.com
+  tls: true
+  type: vless
   udp: true
+  uuid: 7e4d0612-41b5-4b44-a8f1-1f7cda6b6f78
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

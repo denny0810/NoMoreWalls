@@ -1,16 +1,59 @@
 proxies:
-- encryption: none
-  name: 6|[VLESS] deDE_1|2.3MB/s
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] deDE_1|1.3MB/s
+  network: xhttp
+  port: 8443
+  server: 104.17.71.206
+  servername: h9-7.digicala.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    headers:
+      Host: h9-7.digicala.online
+    mode: stream-up
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] deDE_2|1.4MB/s
   network: ws
-  port: 80
-  server: 172.64.149.54
+  port: 2053
+  server: 188.114.98.0
+  servername: ir.tegular.ir
+  tls: true
   type: vless
   udp: true
-  uuid: 5f0cfc58-dfca-4ef9-a7f6-54cdb7f70446
+  uuid: f5042692-412d-43fd-9855-20f21f631be4
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: cdn.phacode.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /
+      Host: ir.tegular.ir
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    max-early-data: 2560
+    path: /iraneman/doosetdaram/
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 6|[VLESS] deDE_3|1.7MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: niiQUWkfq_H7K9kDI7rZVMId2WvlmafWLWknL1Cu2QA
+    short-id: '!!str e3ec60fe5f53a97c'
+  server: germany.coverprotect.info
+  servername: germany.coverprotect.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4ce98305-2c38-4e1f-aa7b-ef6f77bbfc7c
   xudp: true

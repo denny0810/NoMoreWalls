@@ -18,7 +18,7 @@ proxies:
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 52687
-  server: 18.162.54.192
+  server: 54.46.54.246
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -26,7 +26,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 6313
-  server: 52.194.222.108
+  server: 54.199.28.140
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -34,15 +34,15 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 6313
-  server: 3.112.196.41
+  server: 54.65.154.235
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 4,5|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3022
-  server: 52.194.222.108
+  port: 3357
+  server: 18.182.9.204
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -50,15 +50,15 @@ proxies:
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4937
-  server: 13.231.134.78
+  server: 13.114.50.40
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 9201
-  server: 43.207.115.26
+  port: 2001
+  server: 54.199.47.118
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -66,7 +66,7 @@ proxies:
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4674
-  server: 52.194.222.108
+  server: 13.114.50.40
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -74,42 +74,72 @@ proxies:
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4674
-  server: 43.207.115.26
+  server: 52.194.218.62
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 25675
-  server: 16.162.119.43
+  port: 28033
+  server: 95.40.88.248
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 4,5|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4019
-  server: 43.207.115.26
+  port: 3057
+  server: 13.114.50.40
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 3057
-  server: 13.231.134.78
+  port: 4019
+  server: 54.199.47.118
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 23255
-  server: 16.162.122.123
+  port: 44386
+  server: 16.162.191.83
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 4,5|[Vmess] 台湾|@ripaojiedian
+  network: ws
+  port: '11612'
+  server: tw53_2.cowvpn.space
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 0bf1cead-bdd4-4692-b3d4-6866ccb9f37a
+  ws-opts:
+    headers:
+      Host: ws53_2.baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 4,5|[Vmess] 日本4|@ripaojiedian
+  network: ws
+  port: '11612'
+  server: jp248_2.cowvpn.space
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 0bf1cead-bdd4-4692-b3d4-6866ccb9f37a
+  ws-opts:
+    headers:
+      Host: ws248_2.baidu.com
+    path: /
 - alterId: 2
   cipher: auto
   name: 5|[Vmess] 香港|@ripaojiedian
@@ -120,6 +150,63 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] usUS_1|1.3MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] hkHK_1|1.0MB/s
+  network: tcp
+  port: 7754
+  server: vm51544542.dns8656815.com
+  type: vmess
+  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] idID-48.193.40.231-32|1.0MB/s
+  network: tcp
+  port: 30830
+  server: v30.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-headers:
+    Host: mfyousheng.nl.eu.org
+  ws-path: /
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 6|[Vmess] hkHK_2|2.2MB/s
+  network: tcp
+  port: 7754
+  server: efan.dnsefan04881.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] nlNL_4|1.0MB/s
+  network: tcp
+  port: 30830
+  server: 85.211.250.188
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

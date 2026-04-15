@@ -41,11 +41,12 @@ proxies:
     path: /danfeng
   xudp: true
 - client-fingerprint: chrome
-  name: 6|[VLESS] usUS_2|2.5MB/s
+  name: 6,9|[VLESS] SG_speednode_0011
   network: ws
   port: 443
   server: 43.168.16.112
   servername: q40ivxuck.danfeng.qzz.io
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -53,8 +54,6 @@ proxies:
   ws-opts:
     headers:
       Host: q40ivxuck.danfeng.qzz.io
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
-        Gecko) Chrome/11.0.696.3 Safari/534.24
     path: /danfeng
   xudp: true
 - allowInsecure: '0'
@@ -66,7 +65,7 @@ proxies:
   fp: chrome
   host: snippet.gfw.qzz.io
   insecure: '0'
-  name: 6|[VLESS] usUS_3|1.4MB/s
+  name: 6,9|[VLESS] US_speednode_0013
   network: ws
   path: /danfeng?ed=2560
   port: 25557
@@ -76,18 +75,17 @@ proxies:
   skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: snippet.gfw.qzz.io
-    max-early-data: 2560
     path: /danfeng
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 6|[VLESS] usUS_4|1.3MB/s
+  name: 6,9|[VLESS] US_speednode_0015
   network: ws
   port: 443
   server: 74.120.174.180
@@ -99,25 +97,25 @@ proxies:
   udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: q40ivxuck.danfeng.qzz.io
-    max-early-data: 2560
     path: /danfeng
 - client-fingerprint: chrome
-  name: 6|[Trojan] usUS_5|1.7MB/s
+  name: 6,9|[Trojan] US_speednode_0014
   network: ws
   password: trojan
   port: 54321
   server: 154.12.53.125
+  skip-cert-verify: false
   sni: jflsjlaf.pages.dev
   type: trojan
+  udp: true
   ws-opts:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
 - encryption: none
-  name: 6|[VLESS] usUS_6|1.2MB/s
+  name: 6,9|[VLESS] US_speednode_0021
   network: ws
   port: 8443
   server: 162.159.45.202
@@ -125,6 +123,7 @@ proxies:
   skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: dcda262b-0d36-4032-edd9-da4fd2d53711
   ws-opts:
     headers:
@@ -144,16 +143,35 @@ proxies:
   skip-cert-verify: true
   type: socks5
   username: ''
-- name: 9|[Trojan] US_speednode_0023
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 9|[VLESS] US_speednode_0012
   network: ws
-  password: trojan
-  port: 8025
-  server: 54.46.72.234
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
+  port: 443
+  server: 18.245.54.3
+  servername: d2241b25w3zftf.cloudfront.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: 97b2cd5b-b98d-494f-8f97-3a06e8c1bbd2
   ws-opts:
     headers:
-      Host: jflsjlaf.pages.dev
+      Host: d2241b25w3zftf.cloudfront.net
     path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 9|[VLESS] US_speednode_0022
+  port: 7443
+  reality-opts:
+    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+    short-id: '!!str d82fb387'
+  server: 144.31.122.171
+  servername: chat.deepseek.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 248d1886-8ae0-4079-a281-4d21bdb74ba4

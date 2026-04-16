@@ -1,14 +1,14 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 3|[Vmess] hk 香港|@ripaojiedian
+  name: 4|[Vmess] hk 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 3,4|[Trojan] 香港3|@ripaojiedian
+- name: 4,5|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 52687
@@ -16,7 +16,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 3,4|[Trojan] 香港4|@ripaojiedian
+- name: 4,5|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 39507
@@ -24,7 +24,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 3,4|[Trojan] 香港5|@ripaojiedian
+- name: 4,5|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 11097
@@ -34,7 +34,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 4|[Vmess] 香港|@ripaojiedian
+  name: 5|[Vmess] 香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -42,45 +42,35 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] hkHK_1|1.1MB/s
+  password: aed6e687-58a9-4836-ba62-7d8184c94df4
+  port: 32060
+  server: hk1.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- down: 2000
+  name: 6|[Hysteria2] hkHK_2|1.2MB/s
+  password: 9e0f72bb-7ad6-4383-994a-497569a94d74
+  port: 58
+  server: jpaws.ccwink.photos
+  skip-cert-verify: true
+  sni: moak.ccwink.cc
+  type: hysteria2
+  up: 2000
 - alterId: '0'
   cipher: auto
-  name: 5|[Vmess] hkHK_2|1.4MB/s
+  name: 6|[Vmess] hkHK_3|1.4MB/s
   network: tcp
-  port: 7754
-  server: efan.dnsefan04881.com
+  port: 58712
+  server: a.cdn-bilibili.cn
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+  uuid: 4951cd5b-6cf9-409b-a33f-94e9309a850a
   xudp: true
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 5|[Vmess] hkHK_3|2.0MB/s
-  network: tcp
-  port: 7754
-  server: efan.dnsefan04881.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 5|[Vmess] hkHK_4|1.1MB/s
-  network: tcp
-  port: 7754
-  server: vm51544542.dns8656815.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
-  xudp: true
-- name: 8|[VLESS] HK_speednode_0012
+- name: 9|[VLESS] HK_speednode_0012
   network: ws
   port: 7443
   server: 222.167.202.2

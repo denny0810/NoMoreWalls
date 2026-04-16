@@ -22,7 +22,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 香港4|@ripaojiedian
+- name: 4,5,6|[Trojan] hkHK_2|1.6MB/s
   network: tcp
   password: BxceQaOe
   port: 39507
@@ -30,7 +30,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 4,5|[Trojan] 香港5|@ripaojiedian
+- name: 4,5,6|[Trojan] hkHK_3|1.1MB/s
   network: tcp
   password: BxceQaOe
   port: 11097
@@ -38,7 +38,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 4,5|[Trojan] 日本|@ripaojiedian
+- name: 4,5,6|[Trojan] jpJP_4|3.1MB/s
   network: tcp
   password: BxceQaOe
   port: 3022
@@ -120,83 +120,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] hkHK_2|1.2MB/s
-  network: tcp
-  port: 7754
-  server: efan.dnsefan04881.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] usUS_1|1.4MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
-  name: 6|[SS] hkHK_3|1.2MB/s
-  password: aed6e687-58a9-4836-ba62-7d8184c94df4
-  port: 47705
-  server: hk15.network-cdn-gw-yd.net
+  name: 6|[SS] twTW_1|1.3MB/s
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001137m5a.cybervena.com
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] hkHK_4|1.0MB/s
-  network: tcp
-  port: 7754
-  server: vm51544542.dns8656815.com
-  type: vmess
-  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
-- alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] hkHK_8|1.4MB/s
-  network: tcp
-  port: 7754
-  server: vm51544542.dns8656815.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
-  xudp: true
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 6|[Vmess] hkHK_7|1.3MB/s
-  network: tcp
-  port: 7754
-  server: efan.dnsefan04881.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
-  xudp: true
-- name: 6|[Trojan] usUS_4|1.1MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 8.6.112.0
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/55.0.2883.87 Safari/537.36
-    path: /tr
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

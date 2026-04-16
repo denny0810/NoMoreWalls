@@ -1,12 +1,4 @@
 proxies:
-- name: 3|[Hysteria2] 🍏91@oneclickvpnkeys
-  password: 4d092122-268a-4a1a-b23f-83931c5abc3a
-  port: 2056
-  server: 37.114.49.38
-  skip-cert-verify: true
-  sni: flkf.mangshe.xyz
-  tls: false
-  type: hysteria2
 - name: 3|[Hysteria2] 🌻81@oneclickvpnkeys
   obfs: salamander
   obfs-password: cry_me_a_r1ver_2026
@@ -48,7 +40,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 香港4|@ripaojiedian
+- name: 4,5,6|[Trojan] hkHK_2|1.6MB/s
   network: tcp
   password: BxceQaOe
   port: 39507
@@ -56,7 +48,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 4,5|[Trojan] 香港5|@ripaojiedian
+- name: 4,5,6|[Trojan] hkHK_3|1.1MB/s
   network: tcp
   password: BxceQaOe
   port: 11097
@@ -64,7 +56,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 4,5|[Trojan] 日本|@ripaojiedian
+- name: 4,5,6|[Trojan] jpJP_4|3.1MB/s
   network: tcp
   password: BxceQaOe
   port: 3022
@@ -146,123 +138,82 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] hkHK_2|1.2MB/s
-  network: tcp
-  port: 7754
-  server: efan.dnsefan04881.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] usUS_2|1.6MB/s
+  network: ws
+  port: 443
+  server: 154.26.181.85
+  servername: q40ivxuck.danfeng.qzz.io
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
   udp: true
-  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] usUS_1|1.4MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.250
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: q40ivxuck.danfeng.qzz.io
+    max-early-data: 2560
+    path: /danfeng
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] usUS_3|1.1MB/s
+  network: ws
+  port: 39738
+  server: 38.22.237.197
+  servername: q40ivxuck.danfeng.qzz.io
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: q40ivxuck.danfeng.qzz.io
+    max-early-data: 2560
+    path: /danfeng
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] usUS_4|1.4MB/s
+  network: ws
+  port: 58710
+  server: 154.17.224.206
+  servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    max-early-data: 2560
+    path: /danfeng
 - cipher: chacha20-ietf-poly1305
-  name: 6|[SS] hkHK_3|1.2MB/s
-  password: aed6e687-58a9-4836-ba62-7d8184c94df4
-  port: 47705
-  server: hk15.network-cdn-gw-yd.net
+  name: 6|[SS] twTW_1|1.3MB/s
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001137m5a.cybervena.com
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] hkHK_4|1.0MB/s
-  network: tcp
-  port: 7754
-  server: vm51544542.dns8656815.com
-  type: vmess
-  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
-- alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] hkHK_8|1.4MB/s
-  network: tcp
-  port: 7754
-  server: vm51544542.dns8656815.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
-  xudp: true
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 6|[Vmess] hkHK_7|1.3MB/s
-  network: tcp
-  port: 7754
-  server: efan.dnsefan04881.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
-  xudp: true
-- encryption: none
-  name: 6|[VLESS] jpJP_2|2.1MB/s
-  network: ws
-  port: 443
-  server: 108.162.198.161
-  servername: 3-7ny.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: 3-7ny.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-    path: /proxyip=ProxyIP.DE.owg.dpdns.org
-  xudp: true
-- name: 6|[Trojan] usUS_4|1.1MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 8.6.112.0
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/55.0.2883.87 Safari/537.36
-    path: /tr
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] frFR_1|1.3MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: _xzl59bcUYD9QUSKFyboqCC_9eUnaXUUKWA19oQWFHU
-    short-id: '8d17b7ebab7b99d7'
-  server: 51.68.155.153
-  servername: www.allegro.pl
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 43488128-319e-f480-64ea-0acdc712e2a8
 - ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 6|[VLESS] deDE_1|1.1MB/s
+  name: 6|[VLESS] usUS_5|1.4MB/s
   network: ws
-  port: 2053
-  server: 172.104.142.102
-  servername: q40ivxuck.danfeng.qzz.io
-  skip-cert-verify: true
+  port: 443
+  server: 128.14.66.101
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
@@ -271,76 +222,18 @@ proxies:
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: q40ivxuck.danfeng.qzz.io
+      Host: s3vz.user-service.chinav.indevs.in
     max-early-data: 2560
     path: /danfeng
-- alpn:
-  - http%2525252F1.1
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] ruRU_1|2.4MB/s
-  network: tcp
-  port: 52006
-  server: cluster11.anti-vpn.ru
-  servername: cluster11.anti-vpn.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-  xudp: true
-- name: 6|[Hysteria2] jpJP_4|2.1MB/s
-  password: GEbo3x7TXbmNkdmABqS4mZP7Ax5fjFBPbheKauGJJ9Sw
-  port: 8443
-  server: dbp.qzz.io
-  skip-cert-verify: true
-  sni: dbp.qzz.io
-  type: hysteria2
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  host: snippet.gfw.qzz.io
-  insecure: '0'
-  name: 6|[VLESS] jpJP_5|1.2MB/s
-  network: ws
-  path: /danfeng?ed=2560
-  port: 7228
-  security: tls
-  server: 188.253.123.71
-  servername: snippet.gfw.qzz.io
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.gfw.qzz.io
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: firefox
-  name: 6|[VLESS] frFR_2|1.4MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: fXdtB8vImCUJMQBLcCNK7p1v3rVzx6HllaDLk8Vc4EU
-    short-id: '239dcd11'
-  server: 57.128.81.193
-  servername: www.samsung.com
-  tls: true
-  type: vless
-  uuid: 53821f3c-5b03-456a-89f3-f8379f130752
 - ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 6|[VLESS] twTW_1|1.6MB/s
+  name: 6|[VLESS] deDE_1|1.3MB/s
   network: ws
-  port: 443
-  server: 114.37.210.183
-  servername: q40ivxuck.danfeng.qzz.io
-  skip-cert-verify: true
+  port: 2087
+  server: 159.223.21.209
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
@@ -349,42 +242,59 @@ proxies:
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: q40ivxuck.danfeng.qzz.io
+      Host: s3vz.user-service.chinav.indevs.in
     max-early-data: 2560
     path: /danfeng
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 6|[VLESS] ruRU_2|1.5MB/s
-  network: grpc
-  port: 5432
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] gbGB_1|1.5MB/s
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: WNsIqrfrK3gEmFFkeP2Ja8lvt9vGpFyxV612QdqYPC8
-    short-id: '489da765'
-  server: ru150.tcpnet.fun
-  servername: www.samsung.com
+    public-key: -ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk
+    short-id: 'c6118398'
+  server: 2.26.91.110
+  servername: gateway.icloud.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f8c5b018-f51a-4137-be8a-50a451630589
+  uuid: d5f95f47-9399-49c6-a76b-aa6b289609ba
   xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 6|[VLESS] ruRU_3|1.2MB/s
-  network: grpc
-  port: 5432
+- name: 6|[VLESS] usUS_6|1.5MB/s
+  network: ws
+  port: 80
+  server: 104.17.19.26
+  type: vless
+  udp: true
+  uuid: 43158d39-8066-4df4-b74e-2ab29f207e0a
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 29.alij47649.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    max-early-data: 2048
+    path: /
+  xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 6|[VLESS] seSE_1|1.5MB/s
+  network: tcp
+  port: 52000
   reality-opts:
-    public-key: WNsIqrfrK3gEmFFkeP2Ja8lvt9vGpFyxV612QdqYPC8
-    short-id: '489da765'
-  server: 45.144.30.81
-  servername: www.samsung.com
+    public-key: 4Fs4rORU_bK5Nwy9qvmVw3dAxS91bIG5cQYOmXl7zDA
+    short-id: '3d67b0666a5e09a0'
+  server: tr-1.illusion-vpn.ru
+  servername: ozon.ru
   tls: true
   type: vless
   udp: true
-  uuid: f8c5b018-f51a-4137-be8a-50a451630589
+  uuid: fd2bfdd2-68eb-49b0-98ad-ed82f901edde
   xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ

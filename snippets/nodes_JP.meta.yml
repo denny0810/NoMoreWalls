@@ -1,5 +1,5 @@
 proxies:
-- name: 4,5|[Trojan] 日本|@ripaojiedian
+- name: 4,5,6|[Trojan] jpJP_4|3.1MB/s
   network: tcp
   password: BxceQaOe
   port: 3022
@@ -23,54 +23,3 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] jpJP_2|2.1MB/s
-  network: ws
-  port: 443
-  server: 108.162.198.161
-  servername: 3-7ny.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: 3-7ny.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-    path: /proxyip=ProxyIP.DE.owg.dpdns.org
-  xudp: true
-- name: 6|[Hysteria2] jpJP_4|2.1MB/s
-  password: GEbo3x7TXbmNkdmABqS4mZP7Ax5fjFBPbheKauGJJ9Sw
-  port: 8443
-  server: dbp.qzz.io
-  skip-cert-verify: true
-  sni: dbp.qzz.io
-  type: hysteria2
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  host: snippet.gfw.qzz.io
-  insecure: '0'
-  name: 6|[VLESS] jpJP_5|1.2MB/s
-  network: ws
-  path: /danfeng?ed=2560
-  port: 7228
-  security: tls
-  server: 188.253.123.71
-  servername: snippet.gfw.qzz.io
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.gfw.qzz.io
-    max-early-data: 2560
-    path: /danfeng

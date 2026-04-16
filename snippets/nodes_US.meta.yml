@@ -24,79 +24,36 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] usUS_2|1.6MB/s
+  name: 6|[VLESS] usUS_1|1.0MB/s
   network: ws
   port: 443
-  server: 154.26.181.85
-  servername: q40ivxuck.danfeng.qzz.io
-  skip-cert-verify: true
-  tfo: false
+  server: 104.19.58.118
+  servername: us1-us1.aiopen.sbs
   tls: true
   type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: fadab0a4-861d-4ebf-89ac-c9b34aef631a
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: q40ivxuck.danfeng.qzz.io
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] usUS_3|1.1MB/s
-  network: ws
-  port: 39738
-  server: 38.22.237.197
-  servername: q40ivxuck.danfeng.qzz.io
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: q40ivxuck.danfeng.qzz.io
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] usUS_4|1.4MB/s
-  network: ws
-  port: 58710
-  server: 154.17.224.206
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] usUS_5|1.4MB/s
-  network: ws
+      Host: us1-us1.aiopen.sbs
+    path: /kbjc/us1
+- down: ''
+  fingerprint: ''
+  name: 6|[Hysteria2] usUS_2|2.1MB/s
+  obfs: ''
+  obfs-password: ''
+  password: fadab0a4-861d-4ebf-89ac-c9b34aef631a
   port: 443
-  server: 128.14.66.101
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
+  server: 134.195.101.199
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  up: ''
+- client-fingerprint: chrome
+  name: 6|[VLESS] usUS_3|2.0MB/s
+  network: ws
+  port: 2053
+  server: quick-edit.devprod.cloudflare.dev
+  servername: qgljeuqx.stream-node-us.sh21.eu.org
   tls: true
   type: vless
   udp: true
@@ -104,25 +61,32 @@ proxies:
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: s3vz.user-service.chinav.indevs.in
+      Host: qgljeuqx.stream-node-us.sh21.eu.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.87 Safari/537.36
     max-early-data: 2560
     path: /danfeng
-- name: 6|[VLESS] usUS_6|1.5MB/s
-  network: ws
-  port: 80
-  server: 104.17.19.26
-  type: vless
-  udp: true
-  uuid: 43158d39-8066-4df4-b74e-2ab29f207e0a
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: 29.alij47649.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    max-early-data: 2048
-    path: /
   xudp: true
+- name: 6|[Hysteria2] usUS_4|1.0MB/s
+  password: fadab0a4-861d-4ebf-89ac-c9b34aef631a
+  port: 36636
+  ports: 35000-39000
+  server: 129.153.25.59
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  tfo: false
+  type: hysteria2
+- auth: rstnnl:7ltZBmta4ahLenTIoywBy3R1Z1PV7ZGf
+  name: 6|[Hysteria2] usUS_6|2.1MB/s
+  obfs: salamander
+  obfs-password: CvxXZnSth1bVJKGFP2cof4rI52ifHJ2W
+  password: rstnnl:7ltZBmta4ahLenTIoywBy3R1Z1PV7ZGf
+  port: 8932
+  server: nrealistic.nn-foto.ru
+  skip-cert-verify: true
+  sni: nrealistic.nn-foto.ru
+  type: hysteria2
+  udp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

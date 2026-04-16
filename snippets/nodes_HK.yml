@@ -16,7 +16,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] hkHK_2|1.6MB/s
+- name: 4,5|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 39507
@@ -24,7 +24,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 4,5,6|[Trojan] hkHK_3|1.1MB/s
+- name: 4,5|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 11097
@@ -42,3 +42,41 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] hkHK_2|1.4MB/s
+  network: tcp
+  port: 7754
+  server: efan.dnsefan04881.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+  xudp: true
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 6|[Vmess] hkHK_3|2.0MB/s
+  network: tcp
+  port: 7754
+  server: efan.dnsefan04881.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] hkHK_4|1.1MB/s
+  network: tcp
+  port: 7754
+  server: vm51544542.dns8656815.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
+  xudp: true

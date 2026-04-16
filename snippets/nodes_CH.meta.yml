@@ -1,1 +1,41 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 6|[VLESS] chCH_1|2.1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: DoZSKLwNQjogQMlE7oEEuB8TqpNa-umXzG-2Q6dTTEY
+    short-id: '!!str 4fa44664f6a566d3'
+  server: es.milas.click
+  servername: es.milas.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: 913c6074-a747-492b-a7e9-5abfcad6369d
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 6|[VLESS] chCH_2|2.1MB/s
+  network: tcp
+  port: 4355
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 159.195.35.239
+  servername: files.moscownews24.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b5d4737-0665-4b36-a941-0299f5362491
+  xudp: true

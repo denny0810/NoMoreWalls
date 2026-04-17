@@ -5,7 +5,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 6|[VLESS] krKR_1|1.0MB/s
+  name: 5|[VLESS] krKR_1|1.0MB/s
   network: tcp
   port: 19001
   reality-opts:
@@ -22,7 +22,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 6|[VLESS] krKR_2|1.2MB/s
+  name: 5,8|[VLESS] KR_speednode_0009
   network: ws
   port: 18889
   server: 218.144.49.230
@@ -34,13 +34,11 @@ proxies:
   udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: s3vz.user-service.chinav.indevs.in
-    max-early-data: 2560
     path: /danfeng
 - client-fingerprint: chrome
-  name: 6|[VLESS] krKR_3|1.0MB/s
+  name: 5|[VLESS] krKR_3|1.0MB/s
   network: ws
   port: 10243
   server: 183.97.195.179
@@ -59,7 +57,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 6|[VLESS] krKR_4|1.0MB/s
+  name: 5|[VLESS] krKR_4|1.0MB/s
   network: ws
   port: 32768
   server: 125.143.196.122
@@ -76,9 +74,32 @@ proxies:
       Host: q40ivxuck.danfeng.qzz.io
     max-early-data: 2560
     path: /danfeng
-- name: 7|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
+- name: 6,8|[Socks5] KR_speednode_0008
   port: 1090
   server: 121.169.46.116
   tls: false
   type: socks5
+  udp: true
   username: T2clM0QlM0Q6
+- name: 8|[Http] KR_speednode_0007
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 8|[VLESS] KR_speednode_0010
+  port: 50911
+  reality-opts:
+    public-key: RGQRcZVfFRt6ioLDvH7HOicOXJcwonHFVqOgbix2w3w
+  server: 144.24.74.102
+  servername: www.iij.ad.jp
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 820409af-997a-41c4-9e51-46f373951a39

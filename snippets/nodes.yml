@@ -120,11 +120,23 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 5|[Trojan] sgSG_1|3.2MB/s
+- name: 5|[Trojan] jpJP_3|2.3MB/s
   network: ws
   password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-  port: 2096
-  server: mfa.gov.ua
+  port: 443
+  server: 172.64.229.173
+  skip-cert-verify: true
+  sni: cm22-bgphhh.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: cm22-bgphhh.pages.dev
+    path: /hot/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
+- name: 5|[Trojan] sgSG_1|1.5MB/s
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 2053
+  server: 172.64.145.93
   skip-cert-verify: true
   sni: cm22-bgphhh.pages.dev
   type: trojan
@@ -132,35 +144,45 @@ proxies:
     headers:
       Host: cm22-bgphhh.pages.dev
     path: /
-- alterId: 0
-  cipher: auto
-  name: 5|[Vmess] 🕳️91@oneclickvpnkeys|2.5MB/s
-  network: ws
-  port: 16645
-  server: planb.mojcn.com
-  type: vmess
-  udp: true
-  uuid: 3958aab8-fa85-43ac-ae60-537f4e642d9f
-  ws-opts:
-    headers:
-      Host: b8503d97efa57c667a0dcb7e848917ca.mobgslb.tbcache.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /
-  xudp: true
-- name: 5|[Trojan] jpJP_5|1.5MB/s
+- name: 5|[Trojan] sgSG_2|2.4MB/s
   network: ws
   password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-  port: 443
-  server: ct.877774.xyz
+  port: 2087
+  server: 172.64.146.66
   sni: cm22-bgphhh.pages.dev
   type: trojan
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: cm22-bgphhh.pages.dev
-    max-early-data: 2560
+    path: /
+- name: 5|[Trojan] jpJP_4|1.7MB/s
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 443
+  server: 172.64.229.174
+  skip-cert-verify: true
+  sni: cm22-bgphhh.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: cm22-bgphhh.pages.dev
     path: /hot/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
+- name: 5|[Trojan] sgSG_5|2.4MB/s
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 443
+  server: ct.090227.xyz
+  skip-cert-verify: false
+  sni: cm22-bgphhh.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    max-early-data: 2560
+    path: /dl/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 6|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

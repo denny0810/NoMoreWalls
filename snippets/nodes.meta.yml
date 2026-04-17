@@ -1,12 +1,15 @@
 proxies:
-- name: 2|[Hysteria2] 🚹47@oneclickvpnkeys
+- auth: dongtaiwang.com
+  name: 2,5|[Hysteria2] fr 法国-79FCDF1D|2.1MB/s
   password: dongtaiwang.com
   port: 40022
+  ports: 41000-42000
   server: 163.172.113.118
   skip-cert-verify: true
   sni: www.microsoft.com
   tls: false
   type: hysteria2
+  udp: true
 - cipher: aes-256-cfb
   name: '3,4|[SS] tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -128,147 +131,124 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- down: 2000
-  name: 5|[Hysteria2] hkHK_1|1.6MB/s
-  password: 9e0f72bb-7ad6-4383-994a-497569a94d74
-  port: 58
-  server: jpaws.ccwink.photos
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 5|[Hysteria2] usUS_2|2.0MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-006.fastervpn.world
   skip-cert-verify: true
-  sni: moak.ccwink.cc
+  sni: vpn-us-006.fastervpn.world
   type: hysteria2
-  up: 2000
-- name: 5|[Trojan] sgSG_1|3.2MB/s
-  network: ws
-  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-  port: 2096
-  server: mfa.gov.ua
-  skip-cert-verify: true
-  sni: cm22-bgphhh.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: cm22-bgphhh.pages.dev
-    path: /
+  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 5|[VLESS] krKR_1|1.0MB/s
+  name: 5,8|[VLESS] KR_speednode_0010
   network: tcp
-  port: 19001
+  port: 50911
   reality-opts:
-    public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
-    short-id: ''
-  server: krp01.jumperservice.com
-  servername: addons.mozilla.org
+    public-key: RGQRcZVfFRt6ioLDvH7HOicOXJcwonHFVqOgbix2w3w
+  server: 144.24.74.102
+  servername: www.iij.ad.jp
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 455fc271-3ee2-493b-8c75-9324b4851e2f
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 5|[Vmess] 🕳️91@oneclickvpnkeys|2.5MB/s
-  network: ws
-  port: 16645
-  server: planb.mojcn.com
-  type: vmess
-  udp: true
-  uuid: 3958aab8-fa85-43ac-ae60-537f4e642d9f
-  ws-opts:
-    headers:
-      Host: b8503d97efa57c667a0dcb7e848917ca.mobgslb.tbcache.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /
-  xudp: true
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 5|[VLESS] usUS_1|1.0MB/s
-  network: ws
-  port: 47893
-  server: 45.139.193.173
-  servername: q40ivxuck.danfeng.qzz.io
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: q40ivxuck.danfeng.qzz.io
-    max-early-data: 2560
-    path: /danfeng
-- name: 5|[Trojan] jpJP_5|1.5MB/s
+  uuid: 820409af-997a-41c4-9e51-46f373951a39
+- name: 5|[Trojan] jpJP_3|2.3MB/s
   network: ws
   password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
   port: 443
-  server: ct.877774.xyz
+  server: 172.64.229.173
+  skip-cert-verify: true
   sni: cm22-bgphhh.pages.dev
   type: trojan
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: cm22-bgphhh.pages.dev
-    max-early-data: 2560
     path: /hot/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
-- name: 5|[Hysteria2] gbGB_1|1.1MB/s
-  obfs: salamander
-  obfs-password: cry_me_a_r1ver_2026
-  password: strong-secret-pass-777
-  port: 444
-  server: 45.140.167.209
+- name: 5|[Trojan] sgSG_1|1.5MB/s
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 2053
+  server: 172.64.145.93
   skip-cert-verify: true
-  sni: www.microsoft.com
+  sni: cm22-bgphhh.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: cm22-bgphhh.pages.dev
+    path: /
+- name: 5|[Trojan] sgSG_2|2.4MB/s
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 2087
+  server: 172.64.146.66
+  sni: cm22-bgphhh.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: cm22-bgphhh.pages.dev
+    path: /
+- name: 5|[Trojan] jpJP_4|1.7MB/s
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 443
+  server: 172.64.229.174
+  skip-cert-verify: true
+  sni: cm22-bgphhh.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: cm22-bgphhh.pages.dev
+    path: /hot/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
+- name: 5|[Hysteria2] usUS_3|1.2MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-018.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-018.fastervpn.world
+  type: hysteria2
+- alpn:
+  - h3
+  name: 5|[Hysteria2] krKR_2|3.4MB/s
+  password: 820409af-997a-41c4-9e51-46f373951a39
+  port: 50914
+  server: 144.24.74.102
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: 5|[Hysteria2] hkHK_1|1.0MB/s
+  password: 3286b74d-a633-401f-8e22-6e8e61c5f1d9
+  port: 5555
+  server: 45.192.195.52
+  skip-cert-verify: true
   tfo: false
   type: hysteria2
+- name: 5|[Trojan] sgSG_5|2.4MB/s
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 443
+  server: ct.090227.xyz
+  skip-cert-verify: false
+  sni: cm22-bgphhh.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    max-early-data: 2560
+    path: /dl/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
 - ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 5,8|[VLESS] KR_speednode_0009
+  name: 5|[VLESS] krKR_3|1.1MB/s
   network: ws
-  port: 18889
-  server: 218.144.49.230
+  port: 30005
+  server: 121.139.161.31
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    path: /danfeng
-- name: 5|[VLESS] krKR_3|1.0MB/s
-  network: ws
-  port: 10243
-  server: 183.97.195.179
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    path: /danfeng
-  xudp: true
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 5|[VLESS] krKR_4|1.0MB/s
-  network: ws
-  port: 32768
-  server: 125.143.196.122
-  servername: q40ivxuck.danfeng.qzz.io
-  skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
@@ -277,58 +257,9 @@ proxies:
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: q40ivxuck.danfeng.qzz.io
+      Host: s3vz.user-service.chinav.indevs.in
     max-early-data: 2560
     path: /danfeng
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 5|[VLESS] itIT_1|1.4MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 5yAKDAAQ6mDjzplTCDL0D7xBiAmgRxWBOcTQuy5XAB8
-    short-id: '353df31b921e9884'
-  server: bl3-mwscloud.onnstreaming.ru
-  servername: bl3-mwscloud.onnstreaming.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
-  xudp: true
-- name: 5|[VLESS] plPL_1|1.5MB/s
-  network: ws
-  port: 2087
-  server: cdn.prostovpn.website
-  servername: cdn.prostovpn.website
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5b1c5027-5bc6-4ee2-b287-001b05fba219
-  ws-opts:
-    headers:
-      Host: cdn.prostovpn.website
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /ws-cdn
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 5|[VLESS] ruRU_1|2.0MB/s
-  network: grpc
-  port: 5432
-  reality-opts:
-    public-key: WNsIqrfrK3gEmFFkeP2Ja8lvt9vGpFyxV612QdqYPC8
-    short-id: '489da765'
-  server: 45.144.30.81
-  servername: www.samsung.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f8c5b018-f51a-4137-be8a-50a451630589
-  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 6|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...
@@ -499,19 +430,20 @@ proxies:
   type: http
   udp: true
   username: test
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 8|[VLESS] KR_speednode_0010
-  port: 50911
-  reality-opts:
-    public-key: RGQRcZVfFRt6ioLDvH7HOicOXJcwonHFVqOgbix2w3w
-  server: 144.24.74.102
-  servername: www.iij.ad.jp
+- name: 8|[VLESS] KR_speednode_0009
+  network: ws
+  port: 18889
+  server: 218.144.49.230
+  servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 820409af-997a-41c4-9e51-46f373951a39
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    path: /danfeng
 - flow: xtls-rprx-vision
   name: 8|[VLESS] RO_speednode_0011
   port: 443

@@ -23,27 +23,22 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 5|[VLESS] usUS_1|1.0MB/s
-  network: ws
-  port: 47893
-  server: 45.139.193.173
-  servername: q40ivxuck.danfeng.qzz.io
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 5|[Hysteria2] usUS_2|2.0MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-006.fastervpn.world
   skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
+  sni: vpn-us-006.fastervpn.world
+  type: hysteria2
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: q40ivxuck.danfeng.qzz.io
-    max-early-data: 2560
-    path: /danfeng
+- name: 5|[Hysteria2] usUS_3|1.2MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-018.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-018.fastervpn.world
+  type: hysteria2
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 6|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

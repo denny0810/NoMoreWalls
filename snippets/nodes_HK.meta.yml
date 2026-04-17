@@ -12,15 +12,15 @@ proxies:
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 52687
-  server: 95.40.85.50
+  server: 16.162.188.94
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 39507
-  server: 18.183.212.72
+  port: 11097
+  server: 16.163.144.91
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -42,15 +42,8 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] hkHK_1|1.1MB/s
-  password: aed6e687-58a9-4836-ba62-7d8184c94df4
-  port: 32060
-  server: hk1.network-cdn-gw-yd.net
-  type: ss
-  udp: true
 - down: 2000
-  name: 6|[Hysteria2] hkHK_2|1.2MB/s
+  name: 6|[Hysteria2] hkHK_1|1.9MB/s
   password: 9e0f72bb-7ad6-4383-994a-497569a94d74
   port: 58
   server: jpaws.ccwink.photos
@@ -58,17 +51,62 @@ proxies:
   sni: moak.ccwink.cc
   type: hysteria2
   up: 2000
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] hkHK_2|2.0MB/s
+  network: tcp
+  port: 7754
+  server: vm51544542.dns8656815.com
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
 - alterId: '0'
   cipher: auto
-  name: 6|[Vmess] hkHK_3|1.4MB/s
+  name: 6|[Vmess] hkHK_3|1.6MB/s
   network: tcp
-  port: 58712
-  server: a.cdn-bilibili.cn
+  port: 7754
+  server: efan.dnsefan04881.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 4951cd5b-6cf9-409b-a33f-94e9309a850a
+  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+  xudp: true
+- down: 2000
+  name: 6|[Hysteria2] hkHK_4|1.3MB/s
+  password: 9e0f72bb-7ad6-4383-994a-497569a94d74
+  port: 88
+  server: jpaws.ccwink.photos
+  skip-cert-verify: true
+  sni: hkak.ccwink.cc
+  type: hysteria2
+  up: 2000
+- alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] hkHK_5|2.3MB/s
+  network: tcp
+  port: 7754
+  server: vm51544542.dns8656815.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+  xudp: true
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 6|[Vmess] hkHK_6|2.0MB/s
+  network: tcp
+  port: 7754
+  server: efan.dnsefan04881.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
   xudp: true
 - name: 9|[VLESS] HK_speednode_0012
   network: ws

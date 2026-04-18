@@ -38,16 +38,27 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/68.0.3440.106 Safari/537.36
     path: /
-- name: 6|[Trojan] jpJP_3|1.5MB/s
+- name: 6|[Trojan] jpJP_5|1001KB/s
   network: ws
   password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
   port: 443
-  server: ct.877774.xyz
+  server: 172.64.229.217
+  skip-cert-verify: true
   sni: cm22-bgphhh.pages.dev
   type: trojan
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: cm22-bgphhh.pages.dev
-    max-early-data: 2560
+    path: /hot/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
+- name: 6|[Trojan] jpJP_7|1.1MB/s
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 443
+  server: 172.64.229.195
+  skip-cert-verify: true
+  sni: cm22-bgphhh.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: cm22-bgphhh.pages.dev
     path: /hot/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80

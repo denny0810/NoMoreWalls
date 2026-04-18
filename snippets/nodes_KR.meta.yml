@@ -1,55 +1,14 @@
 proxies:
-- alpn:
-  - h3
-  name: 6|[Hysteria2] krKR_1|1.7MB/s
-  password: 820409af-997a-41c4-9e51-46f373951a39
-  port: 50914
-  server: 144.24.74.102
+- name: 6,9|[Http] KR_speednode_0007
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
   skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] krKR_2|1.0MB/s
-  network: ws
-  port: 17000
-  server: 121.159.188.143
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
+  sni: testkr3.ssv.vc
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] krKR_3|1.6MB/s
-  network: ws
-  port: 10243
-  server: 222.98.23.9
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    max-early-data: 2560
-    path: /danfeng
+  username: test
 - name: 7,9|[Socks5] KR_speednode_0008
   port: 1090
   server: 121.169.46.116
@@ -57,15 +16,6 @@ proxies:
   type: socks5
   udp: true
   username: T2clM0QlM0Q6
-- name: 9|[Http] KR_speednode_0007
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: test
 - client-fingerprint: chrome
   name: 9|[VLESS] KR_speednode_0009
   network: ws

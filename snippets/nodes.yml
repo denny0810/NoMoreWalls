@@ -120,52 +120,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 6|[Trojan] jpJP_1|1.2MB/s
-  network: ws
-  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-  port: 2087
-  server: cf.877774.xyz
-  skip-cert-verify: false
-  sni: cm22-bgphhh.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/68.0.3440.106 Safari/537.36
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] hkHK_1|2.3MB/s
-  password: aed6e687-58a9-4836-ba62-7d8184c94df4
-  port: 32058
-  server: hk3.network-cdn-gw-yd.net
-  type: ss
-  udp: true
-- name: 6|[Trojan] jpJP_5|1001KB/s
-  network: ws
-  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-  port: 443
-  server: 172.64.229.217
-  skip-cert-verify: true
-  sni: cm22-bgphhh.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: cm22-bgphhh.pages.dev
-    path: /hot/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
-- name: 6|[Trojan] sgSG_2|1.6MB/s
-  network: ws
-  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-  port: 443
-  server: 172.64.153.208
-  skip-cert-verify: true
-  sni: cm22-bgphhh.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: cm22-bgphhh.pages.dev
-    path: /dl/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
-- name: 6|[Trojan] jpJP_7|1.1MB/s
+- name: 6|[Trojan] jpJP_1|1.1MB/s
   network: ws
   password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
   port: 443
@@ -177,29 +132,66 @@ proxies:
     headers:
       Host: cm22-bgphhh.pages.dev
     path: /hot/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
-- name: 6|[Trojan] sgSG_3|1.2MB/s
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] hkHK_1|1.1MB/s
+  network: tcp
+  port: 7754
+  server: efan.dnsefan04881.com
+  type: vmess
+  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
+- name: 6|[Trojan] usUS_2|1.4MB/s
   network: ws
   password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-  port: 2087
-  server: 172.64.146.66
+  port: 443
+  server: 104.18.40.47
   sni: cm22-bgphhh.pages.dev
   type: trojan
   ws-opts:
     headers:
       Host: cm22-bgphhh.pages.dev
     path: /
-- name: 6|[Trojan] sgSG_7|1.6MB/s
+- name: 6|[Trojan] jpJP_2|1.2MB/s
   network: ws
   password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-  port: 2096
-  server: mfa.gov.ua
+  port: 443
+  server: 172.64.229.161
   skip-cert-verify: true
   sni: cm22-bgphhh.pages.dev
   type: trojan
   ws-opts:
     headers:
       Host: cm22-bgphhh.pages.dev
-    path: /
+    path: /hot/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
+- name: 6|[Trojan] jpJP_5|2.8MB/s
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 443
+  server: ct.877774.xyz
+  sni: cm22-bgphhh.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cm22-bgphhh.pages.dev
+    max-early-data: 2560
+    path: /hot/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
+- cipher: aes-256-cfb
+  name: 6|[SS] plPL_1|1.0MB/s
+  password: 9XwYyZsK8SNzQDtY
+  port: 9059
+  server: 217.30.10.70
+  type: ss
+  udp: true
+- name: 6|[Trojan] jpJP_8|1.4MB/s
+  network: tcp
+  password: 07cb3d6e-fe43-4a7b-a071-897db2f6bc98
+  port: 50000
+  server: jp200m.jiasu.asia
+  skip-cert-verify: true
+  sni: jp200m.jiasu.asia
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

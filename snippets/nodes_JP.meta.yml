@@ -23,47 +23,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: 6|[Trojan] jpJP_1|1.2MB/s
-  network: ws
-  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-  port: 2087
-  server: cf.877774.xyz
-  skip-cert-verify: false
-  sni: cm22-bgphhh.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/68.0.3440.106 Safari/537.36
-    path: /
-- client-fingerprint: chrome
-  name: 6|[VLESS] jpJP_4|1.2MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: '!!str 2da72ce6'
-  server: 176.97.73.155
-  servername: navi.bankrate.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57cff22e-e5dd-4e87-837d-662d2db60b64
-- name: 6|[Trojan] jpJP_5|1001KB/s
-  network: ws
-  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-  port: 443
-  server: 172.64.229.217
-  skip-cert-verify: true
-  sni: cm22-bgphhh.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: cm22-bgphhh.pages.dev
-    path: /hot/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
-- name: 6|[Trojan] jpJP_7|1.1MB/s
+- name: 6|[Trojan] jpJP_1|1.1MB/s
   network: ws
   password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
   port: 443
@@ -75,3 +35,66 @@ proxies:
     headers:
       Host: cm22-bgphhh.pages.dev
     path: /hot/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
+- name: 6|[Trojan] jpJP_2|1.2MB/s
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 443
+  server: 172.64.229.161
+  skip-cert-verify: true
+  sni: cm22-bgphhh.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: cm22-bgphhh.pages.dev
+    path: /hot/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
+- name: 6|[Trojan] jpJP_5|2.8MB/s
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 443
+  server: ct.877774.xyz
+  sni: cm22-bgphhh.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cm22-bgphhh.pages.dev
+    max-early-data: 2560
+    path: /hot/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] jpJP_6|4.5MB/s
+  network: ws
+  port: 443
+  server: 154.36.186.185
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    max-early-data: 2560
+    path: /danfeng
+- name: 6|[Hysteria2] jpJP_7|2.1MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-007.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-007.fastervpn.world
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 6|[Trojan] jpJP_8|1.4MB/s
+  network: tcp
+  password: 07cb3d6e-fe43-4a7b-a071-897db2f6bc98
+  port: 50000
+  server: jp200m.jiasu.asia
+  skip-cert-verify: true
+  sni: jp200m.jiasu.asia
+  type: trojan
+  udp: true

@@ -1,14 +1,63 @@
 proxies:
-- name: 6,9|[Http] KR_speednode_0007
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  sni: testkr3.ssv.vc
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] krKR_1|2.2MB/s
+  network: ws
+  port: 37020
+  server: 124.57.36.207
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: test
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] krKR_2|1.0MB/s
+  network: ws
+  port: 30005
+  server: 121.139.161.31
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: 6|[VLESS] krKR_3|2.0MB/s
+  network: ws
+  port: 10022
+  server: 123.98.220.86
+  servername: s3vz.user-service.chinav.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /danfeng
+  xudp: true
 - name: 7,9|[Socks5] KR_speednode_0008
   port: 1090
   server: 121.169.46.116
@@ -16,6 +65,15 @@ proxies:
   type: socks5
   udp: true
   username: T2clM0QlM0Q6
+- name: 9|[Http] KR_speednode_0007
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
 - client-fingerprint: chrome
   name: 9|[VLESS] KR_speednode_0009
   network: ws

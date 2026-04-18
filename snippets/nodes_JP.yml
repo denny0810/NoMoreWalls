@@ -1,13 +1,21 @@
 proxies:
-- name: 4,5|[Trojan] 日本|@ripaojiedian
+- name: 3,4|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3357
-  server: 57.180.60.151
+  port: 1783
+  server: 57.180.27.122
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 4,5|[Trojan] 日本2|@ripaojiedian
+- name: 3,4|[Trojan] 日本2|@ripaojiedian
+  network: tcp
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 4937
+  server: 160.16.85.33
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 3,4|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4380
@@ -15,35 +23,31 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 日本3|@ripaojiedian
-  network: tcp
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4380
-  server: 160.16.85.33
+- client-fingerprint: chrome
+  name: 5|[Trojan] jpJP_1|1.2MB/s
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 2087
+  server: cf.877774.xyz
   skip-cert-verify: false
-  sni: www.nintendogames.net
+  sni: cm22-bgphhh.pages.dev
   type: trojan
-- name: 6|[Trojan] jpJP_3|2.3MB/s
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/68.0.3440.106 Safari/537.36
+    path: /
+- name: 5|[Trojan] jpJP_3|1.5MB/s
   network: ws
   password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
   port: 443
-  server: 172.64.229.173
-  skip-cert-verify: true
+  server: ct.877774.xyz
   sni: cm22-bgphhh.pages.dev
   type: trojan
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: cm22-bgphhh.pages.dev
-    path: /hot/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
-- name: 6|[Trojan] jpJP_4|1.7MB/s
-  network: ws
-  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-  port: 443
-  server: 172.64.229.174
-  skip-cert-verify: true
-  sni: cm22-bgphhh.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: cm22-bgphhh.pages.dev
+    max-early-data: 2560
     path: /hot/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80

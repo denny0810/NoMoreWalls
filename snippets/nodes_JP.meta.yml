@@ -1,13 +1,21 @@
 proxies:
-- name: 4,5|[Trojan] 日本|@ripaojiedian
+- name: 3,4|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3357
-  server: 57.180.60.151
+  port: 1783
+  server: 57.180.27.122
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 4,5|[Trojan] 日本2|@ripaojiedian
+- name: 3,4|[Trojan] 日本2|@ripaojiedian
+  network: tcp
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 4937
+  server: 160.16.85.33
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 3,4|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4380
@@ -15,35 +23,67 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 日本3|@ripaojiedian
-  network: tcp
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4380
-  server: 160.16.85.33
+- client-fingerprint: chrome
+  name: 5|[Trojan] jpJP_1|1.2MB/s
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 2087
+  server: cf.877774.xyz
   skip-cert-verify: false
-  sni: www.nintendogames.net
+  sni: cm22-bgphhh.pages.dev
   type: trojan
-- name: 6|[Trojan] jpJP_3|2.3MB/s
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/68.0.3440.106 Safari/537.36
+    path: /
+- name: 5|[Trojan] jpJP_3|1.5MB/s
   network: ws
   password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
   port: 443
-  server: 172.64.229.173
-  skip-cert-verify: true
+  server: ct.877774.xyz
   sni: cm22-bgphhh.pages.dev
   type: trojan
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: cm22-bgphhh.pages.dev
+    max-early-data: 2560
     path: /hot/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
-- name: 6|[Trojan] jpJP_4|1.7MB/s
-  network: ws
-  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+- name: 5|[Hysteria2] jpJP_4|2.1MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: 172.64.229.174
+  server: vpn-jp-007.fastervpn.world
   skip-cert-verify: true
-  sni: cm22-bgphhh.pages.dev
-  type: trojan
+  sni: vpn-jp-007.fastervpn.world
+  type: hysteria2
+- name: 5|[Hysteria2] jpJP_5|1.9MB/s
+  obfs: salamander
+  obfs-password: CF7WJGiw6r1c8imX
+  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  port: 5443
+  server: jp-hy2.onetaplink.app
+  sni: hy2-jp.onetaplink.app
+  type: hysteria2
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 5|[VLESS] jpJP_6|1.1MB/s
+  network: ws
+  port: 443
+  server: 212.50.245.5
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: cm22-bgphhh.pages.dev
-    path: /hot/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
+      Host: s3vz.user-service.chinav.indevs.in
+    max-early-data: 2560
+    path: /danfeng

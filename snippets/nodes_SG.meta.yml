@@ -23,20 +23,41 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] sgSG_2|1.1MB/s
-  network: tcp
-  port: 30812
-  server: v12.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
+- name: 6|[Trojan] sgSG_1|1.0MB/s
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 443
+  server: 172.64.149.159
+  skip-cert-verify: true
+  sni: cm22-bgphhh.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: cm22-bgphhh.pages.dev
+    path: /dl/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
+- name: 6|[Trojan] sgSG_2|1.1MB/s
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 443
+  server: 104.18.38.97
+  skip-cert-verify: true
+  sni: cm22-bgphhh.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: cm22-bgphhh.pages.dev
+    path: /dl/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
+- name: 6|[Trojan] sgSG_4|1.5MB/s
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 2087
+  server: 172.64.146.66
+  sni: cm22-bgphhh.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: cm22-bgphhh.pages.dev
+    path: /
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] sgSG²_1|2.4MB/s|X|History

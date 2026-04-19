@@ -1,18 +1,19 @@
 proxies:
-- encryption: none
-  name: 6|[VLESS] deDE_1|1.0MB/s
-  network: ws
-  port: 80
-  server: 8.6.112.0
-  type: vless
-  udp: true
-  uuid: 9df1a806-e305-4a80-b03b-860bcad00442
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.111000.dynv6.azazilvpn.sbs
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.87 Safari/537.36
-    max-early-data: 2560
-    path: /XnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn
-  xudp: true
+- name: 6,8|[Hysteria2] group->v2ray hysteria2
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 12855
+  server: 83.243.86.103
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tfo: false
+  tls: false
+  type: hysteria2
+- name: 6,8|[Hysteria2] group->ss hysteria2
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 29900
+  server: 178.18.147.66
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tfo: false
+  tls: false
+  type: hysteria2

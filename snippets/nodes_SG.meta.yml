@@ -23,40 +23,53 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 6|[Trojan] sgSG_1|1.0MB/s
+- ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 6|[Trojan] sgSG_2|2.9MB/s
   network: ws
-  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
   port: 443
-  server: 172.64.149.159
-  skip-cert-verify: true
-  sni: cm22-bgphhh.pages.dev
+  server: yg1.ygkkk.dpdns.org
+  skip-cert-verify: false
+  sni: v.vivia.cc.cd
   type: trojan
   ws-opts:
     headers:
-      Host: cm22-bgphhh.pages.dev
-    path: /dl/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
-- name: 6|[Trojan] sgSG_2|1.1MB/s
+      Host: v.vivia.cc.cd
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] sgSG_3|2.4MB/s
   network: ws
-  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
   port: 443
-  server: 104.18.38.97
-  skip-cert-verify: true
-  sni: cm22-bgphhh.pages.dev
-  type: trojan
+  server: 01-qq.com
+  servername: 3-7v4.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   ws-opts:
     headers:
-      Host: cm22-bgphhh.pages.dev
-    path: /dl/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
-- name: 6|[Trojan] sgSG_4|1.5MB/s
+      Host: 3-7v4.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: /
+  xudp: true
+- ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 6|[Trojan] sgSG_4|4.3MB/s
   network: ws
-  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-  port: 2087
-  server: 172.64.146.66
-  sni: cm22-bgphhh.pages.dev
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
+  port: 443
+  server: cf.090227.xyz
+  skip-cert-verify: false
+  sni: v.vivia.cc.cd
   type: trojan
   ws-opts:
     headers:
-      Host: cm22-bgphhh.pages.dev
+      Host: v.vivia.cc.cd
     path: /
 - cipher: aes-256-cfb
   country: 🏁 ZZ

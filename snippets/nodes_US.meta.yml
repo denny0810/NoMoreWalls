@@ -23,60 +23,60 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 6|[VLESS] usUS_1|2.5MB/s
-  network: ws
-  port: 80
-  server: 104.16.63.239
-  type: vless
-  udp: true
-  uuid: 04969b01-ac6a-4056-b5cd-852ccf45f100
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: netherlands.vipserver14.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    max-early-data: 2048
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 6|[VLESS] usUS_2|1.5MB/s
-  network: ws
-  port: 443
-  server: 64.186.245.70
-  servername: s3vz.user-service.chinav.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
-    path: /danfeng
-  xudp: true
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] usUS_3|1020KB/s
-  network: ws
-  port: 8443
-  server: 142.171.18.112
-  servername: s3vz.user-service.chinav.indevs.in
+- alterId: '0'
+  cipher: aes-128-gcm
+  name: 6|[Vmess] usUS_2|1.0MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.37
   skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
+  tls: false
+  type: vmess
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    max-early-data: 2560
-    path: /danfeng
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 6|[Hysteria2] usUS_3|2.2MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-019.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-019.fastervpn.world
+  type: hysteria2
+  up: ''
+- name: 6|[Hysteria2] 🔴us[🎬🤖📺🔍]_github.com/Ruk1ng001...
+  password: fc4dd6fd-4a35-42f5-8208-bbb089747292
+  port: 10004
+  server: 46.38.157.183
+  skip-cert-verify: true
+  sni: 46.38.157.183
+  type: hysteria2
+- down: ''
+  fingerprint: ''
+  name: '6|[Hysteria2] 🔴us[🎬🤖📺🔍]_github.com/Ruk1ng001... #1'
+  obfs: ''
+  obfs-password: ''
+  password: a722e51b-325e-4238-a480-02fe7d0dab28
+  port: 10003
+  server: 46.38.157.183
+  skip-cert-verify: true
+  sni: 46.38.157.183
+  type: hysteria2
+  up: ''
+- auth: rstnnl:7ltZBmta4ahLenTIoywBy3R1Z1PV7ZGf
+  name: 6|[Hysteria2] usUS_5|1.3MB/s
+  obfs: salamander
+  obfs-password: CvxXZnSth1bVJKGFP2cof4rI52ifHJ2W
+  password: rstnnl:7ltZBmta4ahLenTIoywBy3R1Z1PV7ZGf
+  port: 8932
+  server: nrealistic.nn-foto.ru
+  skip-cert-verify: true
+  sni: nrealistic.nn-foto.ru
+  type: hysteria2
+  udp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

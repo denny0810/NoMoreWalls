@@ -42,3 +42,24 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers:
+      Host:
+      - wcs.adobe.com
+    path:
+    - /
+  name: 5|[VLESS] hkHK_1|1.4MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+    short-id: '!!str '
+  server: 8.218.127.218
+  servername: wcs.adobe.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  xudp: true

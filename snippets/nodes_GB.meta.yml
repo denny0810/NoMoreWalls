@@ -1,5 +1,25 @@
 proxies:
 - client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 5|[VLESS] gbGB_2|1.2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: pgG2grngQEtOFJImLfz0AEm-O2IodM2jCY4aMCYQI1U
+    short-id: '!!str 4d2c4fa29e40fb49'
+  server: 213.193.252.98
+  servername: velik.normbot.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 91bbe282-f2ba-46a6-8752-36ae55279169
+  xudp: true
+- client-fingerprint: chrome
   name: 8|[VLESS] GB_speednode_0006
   network: ws
   port: 443

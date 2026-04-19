@@ -1,1 +1,38 @@
-proxies: []
+proxies:
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 5|[VLESS] deDE_3|1.0MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: D4JbWDBAWpkliHmRshHmsJ20d52qNucFMJQJrP8wIz0
+    short-id: '!!str 71a1419f8b4b8168'
+  server: euclients-de.onnstreaming.ru
+  servername: euclients-de.onnstreaming.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 5|[VLESS] deDE_4|1.3MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '!!str 23'
+  server: pol1.pineappled.org
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: dd09a21b-c1ac-4fde-83bb-dc09f85416b6
+  xudp: true

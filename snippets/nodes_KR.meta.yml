@@ -1,12 +1,30 @@
 proxies:
-- name: 6,8|[Socks5] KR_speednode_0008
+- client-fingerprint: random
+  name: 6|[VLESS] krKR_3|1.4MB/s
+  network: ws
+  port: 20024
+  server: 124.61.52.107
+  servername: subtale.trevely.de5.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 44580ef5-b588-4de8-9784-bb1de1573702
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: subtale.trevely.de5.net
+    max-early-data: 2560
+    path: /
+  xudp: true
+- name: 7,9|[Socks5] KR_speednode_0008
   port: 1090
   server: 121.169.46.116
   tls: false
   type: socks5
   udp: true
   username: T2clM0QlM0Q6
-- name: 8|[Http] KR_speednode_0007
+- name: 9|[Http] KR_speednode_0007
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
@@ -16,7 +34,7 @@ proxies:
   udp: true
   username: test
 - client-fingerprint: chrome
-  name: 8|[VLESS] KR_speednode_0009
+  name: 9|[VLESS] KR_speednode_0009
   network: ws
   port: 18889
   server: 218.144.49.230
@@ -32,7 +50,7 @@ proxies:
     path: /danfeng
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 8|[VLESS] KR_speednode_0010
+  name: 9|[VLESS] KR_speednode_0010
   port: 50911
   reality-opts:
     public-key: RGQRcZVfFRt6ioLDvH7HOicOXJcwonHFVqOgbix2w3w

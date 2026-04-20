@@ -1,25 +1,25 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: edge
   encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 5|[VLESS] ruRU_2|1.6MB/s
-  network: tcp
-  port: 52006
-  server: cluster-russia-1.firstvideocdn.ru
-  servername: cluster-russia-1.firstvideocdn.ru
+  grpc-opts:
+    grpc-service-name: api
+  name: 6|[VLESS] ruRU_1|1.3MB/s
+  network: grpc
+  port: 23356
+  reality-opts:
+    public-key: REbCbLiQwWzmUHZgBc-oCO0CMtwgvWURtWkFjNfcQkk
+    short-id: '!!str 4149657667076e2b'
+  server: stage.flowwow.app
+  servername: icloud.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+  uuid: 37691d1d-72f2-41ae-b95a-36c4d4bedf01
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 8|[VLESS] RU_speednode_0013
+  name: 9|[VLESS] RU_speednode_0013
   port: 443
   reality-opts:
     public-key: DoZSKLwNQjogQMlE7oEEuB8TqpNa-umXzG-2Q6dTTEY

@@ -23,6 +23,36 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 6|[Trojan] sgSG_3|2.9MB/s
+  network: ws
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
+  port: 443
+  server: cf.090227.xyz
+  skip-cert-verify: false
+  sni: v.vivia.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: v.vivia.cc.cd
+    path: /
+- ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 6|[Trojan] sgSG_4|1009KB/s
+  network: ws
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
+  port: 443
+  server: dianxin.19931101.xyz
+  skip-cert-verify: false
+  sni: v.vivia.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: v.vivia.cc.cd
+    path: /
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] sgSG²_1|2.4MB/s|X|History

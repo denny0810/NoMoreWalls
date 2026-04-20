@@ -120,29 +120,62 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] twTW_1|3.3MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 403880e.default.nintendo.eu:164892
-    mode: tls
-  port: 2377
-  server: 403880e.r8.gladns.com
-  type: ss
-  udp: true
-- alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] hkHK_1|2.6MB/s
-  network: tcp
-  port: 7754
-  server: efan.dnsefan04881.com
+- ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 6|[Trojan] sgSG_3|2.9MB/s
+  network: ws
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
+  port: 443
+  server: cf.090227.xyz
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
-  xudp: true
+  sni: v.vivia.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: v.vivia.cc.cd
+    path: /
+- ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 6|[Trojan] usUS_3|1.6MB/s
+  network: ws
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
+  port: 443
+  server: yg1.ygkkk.dpdns.org
+  skip-cert-verify: false
+  sni: v.vivia.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: v.vivia.cc.cd
+    path: /
+- ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 6|[Trojan] sgSG_4|1009KB/s
+  network: ws
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
+  port: 443
+  server: dianxin.19931101.xyz
+  skip-cert-verify: false
+  sni: v.vivia.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: v.vivia.cc.cd
+    path: /
+- name: 6|[Trojan] plPL_1|1.2MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.147.104
+  sni: www.creationlong.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.creationlong.org
+    path: /assignment
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

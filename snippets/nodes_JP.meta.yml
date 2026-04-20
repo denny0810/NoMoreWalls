@@ -23,3 +23,34 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- client-fingerprint: firefox
+  ech: encryptedsni.com+https://dns.alidns.com/dns-query
+  encryption: none
+  name: 6|[VLESS] jpJP_1|1.7MB/s
+  network: ws
+  port: 3389
+  security: tls
+  server: 203.168.131.112
+  servername: juzi8186.qea.ccwu.cc
+  tls: true
+  type: vless
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: juzi8186.qea.ccwu.cc
+    max-early-data: 2560
+    path: /albums/txt/juzibaipiao
+- client-fingerprint: chrome
+  name: 9|[VLESS] JP_speednode_0008
+  port: 443
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: '!!str 2da72ce6'
+  server: 176.97.73.155
+  servername: navi.bankrate.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b277abf-e0d6-44d8-85c6-f6c7afc0aec5

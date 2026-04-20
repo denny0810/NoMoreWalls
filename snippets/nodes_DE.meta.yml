@@ -1,21 +1,30 @@
 proxies:
-- client-fingerprint: random
-  encryption: none
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 6|[VLESS] deDE_1|1.6MB/s
+  name: 6,9|[VLESS] DK_speednode_0002
   network: tcp
-  port: 443
+  port: 9443
   reality-opts:
-    public-key: ayJjf8TJwT_INFKDDHk9uv3zyoERmbG2gECNX1fwFxo
-    short-id: '!!str ac7f3b2d5e01948b'
-  server: de.plus-hit.ru
-  servername: de.plus-hit.ru
+    public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
+    short-id: '!!str 2344766a270a6298'
+  server: 159.195.82.187
+  servername: yahoo.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 2c78c246-5556-47bf-9a22-0ed5d6237389
-  xudp: true
+  uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 9|[VLESS] DE_speednode_0001
+  port: 443
+  reality-opts:
+    public-key: Ic2uiGhkBgJUsY0CZUBqa1y22V_BO7F4S93Zgk_ir2c
+    short-id: '!!str 0c1553316a645758'
+  server: 45.77.66.142
+  servername: www.zalando.de
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 43488128-319e-f480-64ea-0acdc712e2a8

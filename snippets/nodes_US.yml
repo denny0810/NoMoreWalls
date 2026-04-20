@@ -23,21 +23,26 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 6|[Trojan] usUS_3|1.6MB/s
-  network: ws
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  port: 443
-  server: yg1.ygkkk.dpdns.org
-  skip-cert-verify: false
-  sni: v.vivia.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: v.vivia.cc.cd
-    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 6|[Vmess] usUS_3|2.6MB/s
+  network: none
+  port: 35902
+  server: 38.175.219.66
+  tls: false
+  type: vmess
+  uuid: 4167a503-aa2a-4ddd-fbc0-247d2d2aba0b
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 6|[Vmess] usUS_4|3.3MB/s
+  network: none
+  port: 29433
+  server: 38.49.45.33
+  tls: false
+  type: vmess
+  uuid: 6503aa00-a9d0-4605-de91-d87386265d6c
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

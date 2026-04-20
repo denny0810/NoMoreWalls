@@ -23,48 +23,62 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 6|[Trojan] sgSG_3|2.9MB/s
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] sgSG_1|1.8MB/s
   network: ws
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  port: 443
-  server: cf.090227.xyz
-  skip-cert-verify: false
-  sni: v.vivia.cc.cd
-  type: trojan
+  port: 18246
+  security: tls
+  server: 121.182.16.235
+  servername: s3vz.user-service.chinav.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] sgSG_2|1.4MB/s
+  network: ws
+  port: 12345
+  server: 211.51.105.92
+  servername: s3vz.user-service.chinav.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: v.vivia.cc.cd
-    path: /
-- ech-opts:
+      Host: s3vz.user-service.chinav.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /danfeng
+  xudp: true
+- client-fingerprint: chrome
+  ech-opts:
     enable: true
-    query-server-name: cloudflare-ech.com
-  name: 6|[Trojan] sgSG_4|1009KB/s
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] sgSG_3|2.1MB/s
   network: ws
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
   port: 443
-  server: dianxin.19931101.xyz
+  server: 43.159.0.73
+  servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
-  sni: v.vivia.cc.cd
-  type: trojan
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: v.vivia.cc.cd
-    path: /
-- down: ''
-  fingerprint: ''
-  name: 6|[Hysteria2] 🔴sg[🎬🤖📺🔍]_github.com/Ruk1ng001...
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-sg-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
-  type: hysteria2
-  up: ''
+      Host: s3vz.user-service.chinav.indevs.in
+    max-early-data: 2560
+    path: /danfeng
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] sgSG²_1|2.4MB/s|X|History

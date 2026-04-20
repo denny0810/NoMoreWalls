@@ -42,20 +42,59 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
+- client-fingerprint: firefox
   encryption: none
   name: 6|[VLESS] hkHK_1|1.1MB/s
   network: ws
-  port: 39050
-  security: tls
-  server: 149.104.31.138
-  servername: snippet.gfw.qzz.io
+  port: 8443
+  server: 161.81.68.211
+  servername: juzi8186.qea.ccwu.cc
   tls: true
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  udp: true
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: snippet.gfw.qzz.io
-    path: /danfeng
+      Host: juzi8186.qea.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
+    max-early-data: 2560
+    path: /knowledge/juzibaipiao
+  xudp: true
+- client-fingerprint: chrome
+  name: 9|[VLESS] HK_speednode_0004
+  port: 443
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+  server: 47.242.64.181
+  servername: cms.suse.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- client-fingerprint: chrome
+  name: 9|[VLESS] HK_speednode_0005
+  port: 443
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+  server: 8.218.121.213
+  servername: siteintercept.qualtrics.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- client-fingerprint: chrome
+  name: 9|[VLESS] HK_speednode_0006
+  port: 443
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+  server: 8.217.49.16
+  servername: wwwimages2.adobe.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee

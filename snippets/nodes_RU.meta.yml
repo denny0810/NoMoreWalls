@@ -1,20 +1,17 @@
 proxies:
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 6|[VLESS] ruRU_1|1.9MB/s
-  network: tcp
-  port: 52006
-  server: 82.202.249.3
-  servername: cluster-russia-1.firstvideocdn.ru
+  grpc-opts:
+    grpc-service-name: /sequre/grpc/
+  name: 6|[VLESS] ruRU_1|1.4MB/s
+  network: grpc
+  port: 443
+  server: 87.249.49.51.vhub.pro
+  servername: 87.249.49.51.vhub.pro
   tls: true
   type: vless
   udp: true
-  uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+  uuid: 832f76f8-fca3-4efa-80be-870e123ad764
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision

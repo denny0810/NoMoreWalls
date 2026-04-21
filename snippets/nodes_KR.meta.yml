@@ -3,10 +3,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 6|[VLESS] krKR_1|1.6MB/s
+  name: 6|[VLESS] krKR_1|1.2MB/s
   network: ws
-  port: 25010
-  server: 112.172.55.228
+  port: 32412
+  server: 222.116.186.100
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -21,57 +21,35 @@ proxies:
     max-early-data: 2560
     path: /danfeng
 - alpn:
-  - 'http/1.1
-
-    '
+  - http%2F1.1%0A
   client-fingerprint: chrome
-  ech: encryptedsni.com+https://doh.443888.xyz/danfeng
   encryption: none
-  name: 6|[VLESS] krKR_2|1011KB/s
+  name: 6|[VLESS] krKR_2|1.6MB/s
   network: ws
-  port: 11300
-  security: tls
-  server: 222.97.221.28
+  port: 12345
+  server: 59.30.42.194
   servername: snzeys.edge-node-a1.fgfw.qzz.io
   tls: true
   type: vless
+  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: snzeys.edge-node-a1.fgfw.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
     max-early-data: 2560
     path: /danfeng
-- alpn:
-  - 'http/1.1
-
-    '
-  client-fingerprint: chrome
-  ech: encryptedsni.com+https://doh.443888.xyz/danfeng
-  encryption: none
-  name: 6|[VLESS] 🔴kr[🤖📺🔍]_github.com/Ruk1ng001_...
-  network: ws
-  port: 27017
-  security: tls
-  server: 222.118.102.62
-  servername: snzeys.edge-node-a1.fgfw.qzz.io
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snzeys.edge-node-a1.fgfw.qzz.io
-    max-early-data: 2560
-    path: /danfeng
+  xudp: true
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 6|[VLESS] krKR_3|1.4MB/s
+  name: 6|[VLESS] krKR_3|1.1MB/s
   network: ws
-  port: 11211
-  server: 121.149.124.119
+  port: 20332
+  server: 125.136.32.130
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -89,87 +67,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 6|[VLESS] krKR_4|1.3MB/s
+  name: 6|[VLESS] krKR_4|1.4MB/s
   network: ws
-  port: 37810
-  server: 115.40.244.240
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] krKR_5|1.4MB/s
-  network: tcp
-  port: 9090
-  reality-opts:
-    public-key: ODzKAEHv91mzcUNt-DDm_Z-WYrkkufRhltaUWJ6xikY
-    short-id: '!!str '
-  server: kr1.chinablog.xyz
-  servername: www.liblib.art
-  tls: true
-  type: vless
-  udp: true
-  uuid: 360f1d71-f8dd-4c71-aa4f-347486312dca
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] krKR_6|1.6MB/s
-  network: ws
-  port: 18852
-  server: 112.165.123.197
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] krKR_7|1.4MB/s
-  network: ws
-  port: 11371
-  server: 125.141.32.222
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] krKR_8|1.4MB/s
-  network: ws
-  port: 20201
-  server: 121.171.166.184
+  port: 18245
+  server: 222.96.225.210
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false

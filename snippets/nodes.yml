@@ -120,89 +120,38 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] usUS_1|1.3MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] hkHK_1|1.8MB/s
-  network: ws
-  port: 16622
-  server: planb.mojcn.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 861f9ab1-8191-42d6-9586-a2465fa92480
-  ws-opts:
-    headers:
-      Host: 9e3d3e5074b0178dc40cdd3a1e9717ca.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 6|[Trojan] sgSG_1|1.0MB/s
-  network: ws
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  port: 443
-  server: cf.090227.xyz
-  skip-cert-verify: false
-  sni: v.vivia.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: v.vivia.cc.cd
-    path: /
-- ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 6|[Trojan] sgSG_2|1.1MB/s
-  network: ws
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  port: 443
-  server: mfa.gov.ua
-  skip-cert-verify: false
-  sni: v.vivia.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: v.vivia.cc.cd
-    path: /
-- name: 6|[Trojan] ieIE_1|1.5MB/s
+- name: 6|[Trojan] usUS_1|1.1MB/s
   network: ws
   password: trojan
-  port: 8444
-  server: 194.4.51.171
+  port: 7071
+  server: 154.17.234.78
+  skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
   ws-opts:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
-- name: 6|[Trojan] usUS_5|1.4MB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 152.53.236.205
+- name: 6|[Trojan] twTW_1|1.9MB/s
+  network: tcp
+  password: e5c22f63-e473-496a-beff-fdc5655008c1
+  port: 2096
+  server: tvhinet.lajichang.xyz
   skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
+  sni: bing.com
   type: trojan
+- alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] nlNL_1|1.1MB/s
+  network: raw
+  port: 30830
+  server: v30.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.111 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...
@@ -252,12 +201,6 @@ proxies:
   port: 38388
   server: 103.186.155.16
   type: ss
-- cipher: aes-256-gcm
-  name: 8|[SS] group->ss SS节点-ipv6
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 11111
-  server: 2a14:7584:d118::a
-  type: ss
 - alterId: 0
   cipher: auto
   name: 8|[Vmess] vmess-ws-ipv6
@@ -272,3 +215,9 @@ proxies:
     headers:
       Host: ''
     path: /github.com/Alvin9999-newpac/fanqiang
+- cipher: aes-256-gcm
+  name: 8|[SS] group->ss SS节点-ipv6
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 11111
+  server: 2a14:7584:d118::a
+  type: ss

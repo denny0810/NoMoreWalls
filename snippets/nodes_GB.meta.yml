@@ -1,25 +1,17 @@
 proxies:
-- name: 6|[VLESS] gbGB_1|1.1MB/s
-  network: ws
-  port: 8443
-  server: 57.128.181.125
-  servername: sni.111000.v6.rocks
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 6|[VLESS] gbGB_2|1.0MB/s
-  network: ws
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 6|[Hysteria2] gbGB_1|1.2MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: 98.98.142.247
-  servername: sni.111000.v6.rocks
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+  server: vpn-uk-004.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-uk-004.fastervpn.world
+  type: hysteria2
+- auth: 57dd1b56-34da-4113-8495-83c2f9a9548d
+  name: 6|[Hysteria2] gbGB_2|1.6MB/s
+  password: 57dd1b56-34da-4113-8495-83c2f9a9548d
+  port: 8444
+  server: 82.152.18.94
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2

@@ -122,84 +122,40 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 6|[Vmess] hkHK_1|2.5MB/s
+  name: 6|[Vmess] usUS_1|1.3MB/s
   network: tcp
-  port: 7754
-  server: vm51544542.dns8656815.com
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] hkHK_2|1.6MB/s
-  network: tcp
-  port: 7754
-  server: efan.dnsefan04881.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
-- name: 6|[Trojan] usUS_2|2.5MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 8.6.112.0
+  port: 180
+  server: 82.198.246.9
   skip-cert-verify: false
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /tr
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 6|[Vmess] deDE_2|1.3MB/s
-  network: http
-  port: 17662
-  server: 77.90.11.178
   tls: false
   type: vmess
-  uuid: eafa523f-3472-4efc-f1c5-6ce25b3910a9
-- name: 6|[Trojan] deDE_3|1.3MB/s
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] hkHK_1|1.8MB/s
   network: ws
-  password: '1234567890'
-  port: 8443
-  server: 167.235.60.23
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
+  port: 16622
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 861f9ab1-8191-42d6-9586-a2465fa92480
   ws-opts:
     headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 6|[Trojan] deDE_5|1.0MB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 57.129.43.125
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+      Host: 9e3d3e5074b0178dc40cdd3a1e9717ca.mobgslb.tbcache.com
+    path: /
+  xudp: true
 - ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: 6|[Trojan] jpJP_2|3.3MB/s
+  name: 6|[Trojan] sgSG_1|1.0MB/s
   network: ws
   password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
   port: 443
-  server: dianxin.19931101.xyz
+  server: cf.090227.xyz
   skip-cert-verify: false
   sni: v.vivia.cc.cd
   type: trojan
@@ -207,6 +163,46 @@ proxies:
     headers:
       Host: v.vivia.cc.cd
     path: /
+- ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 6|[Trojan] sgSG_2|1.1MB/s
+  network: ws
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
+  port: 443
+  server: mfa.gov.ua
+  skip-cert-verify: false
+  sni: v.vivia.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: v.vivia.cc.cd
+    path: /
+- name: 6|[Trojan] ieIE_1|1.5MB/s
+  network: ws
+  password: trojan
+  port: 8444
+  server: 194.4.51.171
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
+- name: 6|[Trojan] usUS_5|1.4MB/s
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 152.53.236.205
+  skip-cert-verify: true
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.111 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

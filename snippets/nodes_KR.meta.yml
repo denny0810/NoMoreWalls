@@ -1,46 +1,9 @@
 proxies:
 - client-fingerprint: chrome
-  name: 6,9|[VLESS] KR_speednode_0011
-  network: ws
-  port: 37810
-  server: 222.97.154.26
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    path: /danfeng
-- alpn:
-  - http%2F1.1%0A
-  client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] krKR_2|1.1MB/s
-  network: ws
-  port: 12345
-  server: 59.30.42.194
-  servername: snzeys.edge-node-a1.fgfw.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snzeys.edge-node-a1.fgfw.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    max-early-data: 2560
-    path: /danfeng
-  xudp: true
-- client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 6|[VLESS] krKR_3|1.3MB/s
+  name: 6|[VLESS] krKR_1|1.6MB/s
   network: ws
   port: 25010
   server: 112.172.55.228
@@ -57,42 +20,169 @@ proxies:
       Host: s3vz.user-service.chinav.indevs.in
     max-early-data: 2560
     path: /danfeng
-- client-fingerprint: chrome
+- alpn:
+  - 'http/1.1
+
+    '
+  client-fingerprint: chrome
+  ech: encryptedsni.com+https://doh.443888.xyz/danfeng
   encryption: none
-  name: 6|[VLESS] krKR_4|2.0MB/s
+  name: 6|[VLESS] krKR_2|1011KB/s
   network: ws
-  port: 18889
-  server: 218.144.49.230
-  servername: s3vz.user-service.chinav.indevs.in
+  port: 11300
+  security: tls
+  server: 222.97.221.28
+  servername: snzeys.edge-node-a1.fgfw.qzz.io
   tls: true
   type: vless
-  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: s3vz.user-service.chinav.indevs.in
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
-    path: /danfengfp=chrome
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] krKR_5|2.1MB/s
-  network: ws
-  port: 12000
-  server: 183.108.45.234
-  servername: s3vz.user-service.chinav.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+      Host: snzeys.edge-node-a1.fgfw.qzz.io
+    max-early-data: 2560
     path: /danfeng
-  xudp: true
+- alpn:
+  - 'http/1.1
+
+    '
+  client-fingerprint: chrome
+  ech: encryptedsni.com+https://doh.443888.xyz/danfeng
+  encryption: none
+  name: 6|[VLESS] 🔴kr[🤖📺🔍]_github.com/Ruk1ng001_...
+  network: ws
+  port: 27017
+  security: tls
+  server: 222.118.102.62
+  servername: snzeys.edge-node-a1.fgfw.qzz.io
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snzeys.edge-node-a1.fgfw.qzz.io
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] krKR_3|1.4MB/s
+  network: ws
+  port: 11211
+  server: 121.149.124.119
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] krKR_4|1.3MB/s
+  network: ws
+  port: 37810
+  server: 115.40.244.240
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] krKR_5|1.4MB/s
+  network: tcp
+  port: 9090
+  reality-opts:
+    public-key: ODzKAEHv91mzcUNt-DDm_Z-WYrkkufRhltaUWJ6xikY
+    short-id: '!!str '
+  server: kr1.chinablog.xyz
+  servername: www.liblib.art
+  tls: true
+  type: vless
+  udp: true
+  uuid: 360f1d71-f8dd-4c71-aa4f-347486312dca
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] krKR_6|1.6MB/s
+  network: ws
+  port: 18852
+  server: 112.165.123.197
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] krKR_7|1.4MB/s
+  network: ws
+  port: 11371
+  server: 125.141.32.222
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] krKR_8|1.4MB/s
+  network: ws
+  port: 20201
+  server: 121.171.166.184
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    max-early-data: 2560
+    path: /danfeng
 - name: 7,9|[Socks5] KR_speednode_0009
   port: 1090
   server: 121.169.46.116
@@ -105,6 +195,21 @@ proxies:
   network: ws
   port: 10000
   server: 210.178.81.61
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    path: /danfeng
+- client-fingerprint: chrome
+  name: 9|[VLESS] KR_speednode_0011
+  network: ws
+  port: 37810
+  server: 222.97.154.26
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tls: true

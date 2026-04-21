@@ -1,70 +1,49 @@
 proxies:
-- cipher: auto
-  client-fingerprint: chrome
-  name: 6|[VLESS] deDE_1|1.0MB/s
-  network: none
-  port: 2087
-  server: 178.104.118.247
-  tls: false
-  type: vless
-  uuid: a34a5f3e-e9fa-40a6-f3af-2984adbd701b
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 6|[Vmess] deDE_2|1.3MB/s
-  network: http
-  port: 17662
-  server: 77.90.11.178
-  tls: false
-  type: vmess
-  uuid: eafa523f-3472-4efc-f1c5-6ce25b3910a9
-- name: 6|[Trojan] deDE_3|1.3MB/s
+- name: 6|[VLESS] deDE_1|1.2MB/s
   network: ws
-  password: '!!str 1234567890'
-  port: 8443
-  server: 167.235.60.23
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  encryption: none
-  flow: ''
-  grpc-opts:
-    grpc-service-name: google.pubsub.v1.Subscriber
-  name: 6|[VLESS] deDE_4|1.6MB/s
-  network: grpc
   port: 443
-  reality-opts:
-    public-key: Duxwa0WD9RhAy4EsGdWgo2ALlOUWGfZ2KCVLKEP_214
-    short-id: '!!str 1a7f3b9e2c40'
-  server: 85.93.10.211
-  servername: www.bing.com
-  skip-cert-verify: false
+  server: 144.91.77.167
+  servername: sni.111000.dns.army
   tls: true
   type: vless
-  udp: true
-  uuid: 6d524f6e-deea-4f8a-a71d-f32a952e23e5
-  xudp: true
-- name: 6|[Trojan] deDE_5|1.0MB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 57.129.43.125
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: kfm-bn0.pages.dev
+      Host: sni.111000.dns.army
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- encryption: none
+  name: 6|[VLESS] deDE_2|1.3MB/s
+  network: tcp
+  port: 8443
+  server: respect679.duckdns.org
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: a1421a9c-6d88-4cb5-903d-6b3ea2dcd4ab
+  xudp: true
+- insecure: '1'
+  name: 6,8|[Hysteria2] group->ss hysteria2节点
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 29900
+  server: 178.18.147.66
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: 6|[VLESS] deDE_4|1.4MB/s
+  network: ws
+  port: 80
+  server: 104.18.12.149
+  type: vless
+  udp: true
+  uuid: fc53bae5-92f5-4572-9ce8-9e56901479f1
+  ws-opts:
+    headers:
+      Host: 尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞3亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com.
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: /amo-mohammad
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 9|[VLESS] DE_speednode_0001

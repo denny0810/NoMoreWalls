@@ -42,24 +42,19 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 6|[Vmess] hkHK_1|2.5MB/s
-  network: tcp
-  port: 7754
-  server: vm51544542.dns8656815.com
+  name: 6|[Vmess] hkHK_1|1.8MB/s
+  network: ws
+  port: 16622
+  server: planb.mojcn.com
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] hkHK_2|1.6MB/s
-  network: tcp
-  port: 7754
-  server: efan.dnsefan04881.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+  uuid: 861f9ab1-8191-42d6-9586-a2465fa92480
+  ws-opts:
+    headers:
+      Host: 9e3d3e5074b0178dc40cdd3a1e9717ca.mobgslb.tbcache.com
+    path: /
+  xudp: true

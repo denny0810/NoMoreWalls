@@ -23,27 +23,36 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  ech-opts:
+- ech-opts:
     enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] sgSG_1|1.6MB/s
+    query-server-name: cloudflare-ech.com
+  name: 6|[Trojan] sgSG_1|1.0MB/s
   network: ws
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
   port: 443
-  server: 43.159.0.73
-  servername: s3vz.user-service.chinav.indevs.in
+  server: cf.090227.xyz
   skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  sni: v.vivia.cc.cd
+  type: trojan
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    max-early-data: 2560
-    path: /danfeng
+      Host: v.vivia.cc.cd
+    path: /
+- ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 6|[Trojan] sgSG_2|1.1MB/s
+  network: ws
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
+  port: 443
+  server: mfa.gov.ua
+  skip-cert-verify: false
+  sni: v.vivia.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: v.vivia.cc.cd
+    path: /
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] sgSG²_1|2.4MB/s|X|History

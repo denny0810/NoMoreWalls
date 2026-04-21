@@ -23,18 +23,93 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 5|[Trojan] usUS_1|1.1MB/s
-  network: ws
-  password: trojan
-  port: 7071
-  server: 154.17.234.78
+- alterId: 0
+  cipher: auto
+  name: 5|[Vmess] usUS_3|1.2MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- auth: rstnnl:7ltZBmta4ahLenTIoywBy3R1Z1PV7ZGf
+  name: 5|[Hysteria2] usUS_2|1.6MB/s
+  obfs: salamander
+  obfs-password: CvxXZnSth1bVJKGFP2cof4rI52ifHJ2W
+  password: rstnnl:7ltZBmta4ahLenTIoywBy3R1Z1PV7ZGf
+  port: 8932
+  server: nrealistic.nn-foto.ru
   skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
+  sni: nrealistic.nn-foto.ru
+  type: hysteria2
+  udp: true
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 5|[VLESS] usUS_5|2.6MB/s
+  network: tcp
+  port: 8081
+  reality-opts:
+    public-key: bilDohzULHmvZE7BP9ym6URVT6R1DM06v2LLqNo7lh0
+    short-id: '!!str a1b2c3d4'
+  server: 207.57.128.27
+  servername: aws.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 39b977fd-0596-40d1-b2ff-f7cf200d45b9
+  xudp: true
+- multiplexing: MULTIPLEXING_LOW
+  name: 5|[Mieru] usUS_6|1.4MB/s
+  password: dongtaiwang.com
+  port: 33990
+  server: 157.254.223.48
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 5|[VLESS] usUS_7|1008KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: DoZSKLwNQjogQMlE7oEEuB8TqpNa-umXzG-2Q6dTTEY
+    short-id: '!!str 4fa44664f6a566d3'
+  server: 132.243.175.149
+  servername: se.milas.click
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 913c6074-a747-492b-a7e9-5abfcad6369d
+  xudp: true
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 5|[VLESS] usUS_8|1.4MB/s
+  network: ws
+  port: 9003
+  server: 144.34.230.153
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: jflsjlaf.pages.dev
-    path: /
+      Host: s3vz.user-service.chinav.indevs.in
+    max-early-data: 2560
+    path: /danfeng
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 6|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

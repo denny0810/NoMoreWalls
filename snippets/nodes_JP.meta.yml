@@ -2,45 +2,49 @@ proxies:
 - name: 4,5|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1783
-  server: 13.192.183.245
+  port: 1951
+  server: 18.177.137.225
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 4,5|[Trojan] 日本2|@ripaojiedian
   network: tcp
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 34818
-  server: 54.249.109.55
+  password: 1774240c00db2b77d5a99f6540c47b69
+  port: 9201
+  server: 3.112.12.32
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 日本3|@ripaojiedian
   network: tcp
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4380
-  server: 54.249.109.55
+  password: 1774240c00db2b77d5a99f6540c47b69
+  port: 9201
+  server: 18.183.89.184
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: firefox
-  ech: encryptedsni.com+https://dns.alidns.com/dns-query
-  encryption: none
-  name: 6|[VLESS] jpJP_1|1.7MB/s
+- name: 6|[Hysteria2] jpJP_1|1.6MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-001.fastervpn.world
+  type: hysteria2
+- ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 6|[Trojan] jpJP_2|3.3MB/s
   network: ws
-  port: 3389
-  security: tls
-  server: 203.168.131.112
-  servername: juzi8186.qea.ccwu.cc
-  tls: true
-  type: vless
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
+  port: 443
+  server: dianxin.19931101.xyz
+  skip-cert-verify: false
+  sni: v.vivia.cc.cd
+  type: trojan
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: juzi8186.qea.ccwu.cc
-    max-early-data: 2560
-    path: /albums/txt/juzibaipiao
+      Host: v.vivia.cc.cd
+    path: /
 - client-fingerprint: chrome
   name: 9|[VLESS] JP_speednode_0008
   port: 443

@@ -1,19 +1,70 @@
 proxies:
+- cipher: auto
+  client-fingerprint: chrome
+  name: 6|[VLESS] deDE_1|1.0MB/s
+  network: none
+  port: 2087
+  server: 178.104.118.247
+  tls: false
+  type: vless
+  uuid: a34a5f3e-e9fa-40a6-f3af-2984adbd701b
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 6|[Vmess] deDE_2|1.3MB/s
+  network: http
+  port: 17662
+  server: 77.90.11.178
+  tls: false
+  type: vmess
+  uuid: eafa523f-3472-4efc-f1c5-6ce25b3910a9
+- name: 6|[Trojan] deDE_3|1.3MB/s
+  network: ws
+  password: '!!str 1234567890'
+  port: 8443
+  server: 167.235.60.23
+  skip-cert-verify: true
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 6,9|[VLESS] DK_speednode_0002
-  network: tcp
-  port: 9443
+  encryption: none
+  flow: ''
+  grpc-opts:
+    grpc-service-name: google.pubsub.v1.Subscriber
+  name: 6|[VLESS] deDE_4|1.6MB/s
+  network: grpc
+  port: 443
   reality-opts:
-    public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
-    short-id: '!!str 2344766a270a6298'
-  server: 159.195.82.187
-  servername: yahoo.com
+    public-key: Duxwa0WD9RhAy4EsGdWgo2ALlOUWGfZ2KCVLKEP_214
+    short-id: '!!str 1a7f3b9e2c40'
+  server: 85.93.10.211
+  servername: www.bing.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
+  uuid: 6d524f6e-deea-4f8a-a71d-f32a952e23e5
+  xudp: true
+- name: 6|[Trojan] deDE_5|1.0MB/s
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 57.129.43.125
+  skip-cert-verify: true
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 9|[VLESS] DE_speednode_0001

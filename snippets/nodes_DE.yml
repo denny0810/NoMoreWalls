@@ -1,1 +1,39 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 6|[Vmess] deDE_2|1.3MB/s
+  network: http
+  port: 17662
+  server: 77.90.11.178
+  tls: false
+  type: vmess
+  uuid: eafa523f-3472-4efc-f1c5-6ce25b3910a9
+- name: 6|[Trojan] deDE_3|1.3MB/s
+  network: ws
+  password: '!!str 1234567890'
+  port: 8443
+  server: 167.235.60.23
+  skip-cert-verify: true
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 6|[Trojan] deDE_5|1.0MB/s
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 57.129.43.125
+  skip-cert-verify: true
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳

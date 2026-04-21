@@ -1,48 +1,43 @@
 proxies:
 - name: 4,5|[Trojan] 美国|@ripaojiedian
   network: tcp
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4019
-  server: 54.249.109.55
+  password: 1774240c00db2b77d5a99f6540c47b69
+  port: 3057
+  server: 18.166.177.72
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 美国2|@ripaojiedian
   network: tcp
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 3057
-  server: 13.115.246.132
+  password: 1774240c00db2b77d5a99f6540c47b69
+  port: 4019
+  server: 160.16.72.205
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 49534
-  server: 18.183.182.241
+  port: 23255
+  server: 18.166.177.72
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 6|[Vmess] usUS_3|2.6MB/s
-  network: none
-  port: 35902
-  server: 38.175.219.66
-  tls: false
-  type: vmess
-  uuid: 4167a503-aa2a-4ddd-fbc0-247d2d2aba0b
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 6|[Vmess] usUS_4|3.3MB/s
-  network: none
-  port: 29433
-  server: 38.49.45.33
-  tls: false
-  type: vmess
-  uuid: 6503aa00-a9d0-4605-de91-d87386265d6c
+- client-fingerprint: chrome
+  name: 6|[Trojan] usUS_2|2.5MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 8.6.112.0
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /tr
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

@@ -1,26 +1,41 @@
 proxies:
-- name: 5|[Trojan] deDE_4|1.8MB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 138.124.32.121
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] deDE_2|1.4MB/s
+  network: tcp
+  port: 2053
+  server: node-de.connectsuite.org
+  servername: node-de.connectsuite.org
+  tls: true
+  type: vmess
+  uuid: 9309640e-d299-484a-a0e8-c9b975d94822
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 6|[Vmess] deDE_3|1.7MB/s
+  network: http
+  port: 80
+  server: 77.90.11.178
+  tls: false
+  type: vmess
+  uuid: b3cdfe2d-5eac-4b0d-a8eb-d3f6a647e13f
+- alpn:
+  - h2
+  - http/1.1
+  alterId: 0
+  cipher: auto
+  name: 6|[Vmess] deDE_5|2.1MB/s
+  network: tcp
+  port: 2053
+  server: node-de.connectsuite.org
+  servername: node-de.connectsuite.org
   skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  ws-opts:
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 5|[Trojan] deDE_6|1.6MB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 152.53.228.86
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+  uuid: 9309640e-d299-484a-a0e8-c9b975d94822
+  xudp: true

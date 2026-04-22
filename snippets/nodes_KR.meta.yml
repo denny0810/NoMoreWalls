@@ -1,40 +1,5 @@
 proxies:
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 5|[VLESS] krKR_1|2.0MB/s
-  network: tcp
-  port: 9090
-  reality-opts:
-    public-key: ODzKAEHv91mzcUNt-DDm_Z-WYrkkufRhltaUWJ6xikY
-    short-id: '!!str '
-  server: kr1.chinablog.xyz
-  servername: www.liblib.art
-  tls: true
-  type: vless
-  udp: true
-  uuid: 360f1d71-f8dd-4c71-aa4f-347486312dca
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 5|[VLESS] krKR_2|1.2MB/s
-  network: ws
-  port: 37215
-  server: 222.98.185.243
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- name: 6,8|[Socks5] KR_speednode_0009
+- name: 7,9|[Socks5] KR_speednode_0009
   port: 1090
   server: 121.169.46.116
   tls: false
@@ -42,7 +7,7 @@ proxies:
   udp: true
   username: T2clM0QlM0Q6
 - client-fingerprint: chrome
-  name: 8|[VLESS] KR_speednode_0010
+  name: 9|[VLESS] KR_speednode_0010
   network: ws
   port: 10000
   server: 210.178.81.61
@@ -57,7 +22,7 @@ proxies:
       Host: s3vz.user-service.chinav.indevs.in
     path: /danfeng
 - client-fingerprint: chrome
-  name: 8|[VLESS] KR_speednode_0011
+  name: 9|[VLESS] KR_speednode_0011
   network: ws
   port: 37810
   server: 222.97.154.26
@@ -72,7 +37,7 @@ proxies:
       Host: s3vz.user-service.chinav.indevs.in
     path: /danfeng
 - client-fingerprint: chrome
-  name: 8|[VLESS] KR_speednode_0012
+  name: 9|[VLESS] KR_speednode_0012
   network: ws
   port: 12000
   server: 59.11.151.238

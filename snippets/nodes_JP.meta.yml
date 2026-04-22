@@ -23,13 +23,37 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 6|[Hysteria2] 🔴jp[🎬🤖📺🔍]_github.com/Ruk1ng001...
+- name: 6|[Hysteria2] jpJP_1|1.6MB/s
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: vpn-jp-002.fastervpn.world
   skip-cert-verify: true
   sni: vpn-jp-002.fastervpn.world
   type: hysteria2
+- down: ''
+  fingerprint: ''
+  name: 6|[Hysteria2] jpJP_2|1.5MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-003.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-003.fastervpn.world
+  type: hysteria2
+  up: ''
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] jpJP_3|1.5MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 403880e.default.microsoft.io:164892
+    mode: tls
+  port: 2377
+  server: 403880e.j6.gladns.com
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - client-fingerprint: chrome
   name: 9|[VLESS] JP_speednode_0008
   port: 443

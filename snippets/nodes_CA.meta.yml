@@ -1,29 +1,8 @@
 proxies:
-- name: 6|[VLESS] caCA_1|1.0MB/s
-  network: ws
-  port: 2053
-  server: 23.173.104.198
-  servername: sni.111000.v6.rocks
+- name: 6|[Hysteria2] caCA_1|1.3MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-ca-002.fastervpn.world
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 6|[VLESS] caCA_2|1.2MB/s
-  network: ws
-  port: 2053
-  server: 23.173.104.221
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+  sni: vpn-ca-002.fastervpn.world
+  type: hysteria2

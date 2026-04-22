@@ -1,14 +1,16 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    path:
-    - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-  name: 6|[VLESS] chCH_1|1.3MB/s
-  network: http
-  port: 22
-  server: 172.65.111.43
-  skip-cert-verify: false
-  tls: false
+- encryption: none
+  name: 6|[VLESS] chCH_1|1.4MB/s
+  network: ws
+  port: 30047
+  server: 138.124.32.188
   type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
+  udp: true
+  uuid: 595ae3f9-5a91-4eaa-82a3-28a221cf8f7f
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/35.0.1916.153 Safari/537.36
+    path: /
+  xudp: true

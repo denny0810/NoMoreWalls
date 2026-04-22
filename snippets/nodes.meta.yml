@@ -567,20 +567,6 @@ proxies:
   port: 38388
   server: 103.186.155.16
   type: ss
-- cipher: aes-256-gcm
-  name: 8|[SS] group->ss SS节点-ipv6
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 11111
-  server: 2a14:7584:d118::a
-  type: ss
-- name: 8|[Hysteria2] group->ss hysteria2节点
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 29900
-  server: 178.18.147.66
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
 - name: 8|[VLESS] group->v2ray VLESS-xhttp-Reali...
   network: xhttp
   port: 15530
@@ -612,6 +598,20 @@ proxies:
   password: github.com/Alvin9999-newpac/fanqiang
   port: 38563
   server: 83.243.86.103
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- cipher: aes-256-gcm
+  name: 8|[SS] group->ss SS节点-ipv6
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 11111
+  server: 2a14:7584:d118::a
+  type: ss
+- name: 8|[Hysteria2] group->ss hysteria2节点
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 29900
+  server: 178.18.147.66
   skip-cert-verify: true
   sni: www.microsoft.com
   tls: false

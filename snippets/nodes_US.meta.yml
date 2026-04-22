@@ -1,31 +1,31 @@
 proxies:
-- name: 3,4|[Trojan] 美国|@ripaojiedian
-  network: tcp
-  password: 1774240c00db2b77d5a99f6540c47b69
-  port: 3057
-  server: 18.166.177.72
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 3,4|[Trojan] 美国2|@ripaojiedian
+- name: 4,5|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
   port: 4019
-  server: 160.16.72.205
+  server: 160.16.124.17
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 3,4|[Trojan] 美国3|@ripaojiedian
+- name: 4,5|[Trojan] 美国2|@ripaojiedian
+  network: tcp
+  password: 1774240c00db2b77d5a99f6540c47b69
+  port: 4019
+  server: 95.40.58.97
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 4,5|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 23255
-  server: 18.166.177.72
+  port: 17871
+  server: 54.46.121.89
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 5|[Vmess] usUS_3|1.2MB/s
+  name: 6|[Vmess] usUS_3|1.2MB/s
   network: tcp
   port: 180
   server: 82.198.246.233
@@ -36,7 +36,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
 - auth: rstnnl:7ltZBmta4ahLenTIoywBy3R1Z1PV7ZGf
-  name: 5|[Hysteria2] usUS_2|1.6MB/s
+  name: 6|[Hysteria2] usUS_2|1.6MB/s
   obfs: salamander
   obfs-password: CvxXZnSth1bVJKGFP2cof4rI52ifHJ2W
   password: rstnnl:7ltZBmta4ahLenTIoywBy3R1Z1PV7ZGf
@@ -52,7 +52,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 5|[VLESS] usUS_5|2.6MB/s
+  name: 6|[VLESS] usUS_5|2.6MB/s
   network: tcp
   port: 8081
   reality-opts:
@@ -66,7 +66,7 @@ proxies:
   uuid: 39b977fd-0596-40d1-b2ff-f7cf200d45b9
   xudp: true
 - multiplexing: MULTIPLEXING_LOW
-  name: 5|[Mieru] usUS_6|1.4MB/s
+  name: 6|[Mieru] usUS_6|1.4MB/s
   password: dongtaiwang.com
   port: 33990
   server: 157.254.223.48
@@ -75,7 +75,7 @@ proxies:
   username: dongtaiwang.com
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 5|[VLESS] usUS_7|1008KB/s
+  name: 6|[VLESS] usUS_7|1008KB/s
   network: tcp
   port: 443
   reality-opts:
@@ -93,7 +93,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 5|[VLESS] usUS_8|1.4MB/s
+  name: 6|[VLESS] usUS_8|1.4MB/s
   network: ws
   port: 9003
   server: 144.34.230.153
@@ -112,12 +112,12 @@ proxies:
     path: /danfeng
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 6|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
+  name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.251
   type: ss
-- name: 6|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
+- name: 7|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
   password: ''
   port: 7070
   server: 20.83.154.79
@@ -126,7 +126,7 @@ proxies:
   username: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 8|[VLESS] US_speednode_0022
+  name: 9|[VLESS] US_speednode_0022
   port: 443
   reality-opts:
     public-key: tB6tQr-pmLTdMM8DVOb9KsS27lDkAjjelbdu_Gp1SR0
@@ -140,7 +140,7 @@ proxies:
   uuid: c5bbdac7-6ff5-4762-87bf-870f55a03581
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 8|[VLESS] US_speednode_0024
+  name: 9|[VLESS] US_speednode_0024
   port: 443
   reality-opts:
     public-key: -ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk
@@ -155,7 +155,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 8|[VLESS] US_speednode_0025
+  name: 9|[VLESS] US_speednode_0025
   network: ws
   port: 443
   server: 165.140.241.29
@@ -171,7 +171,7 @@ proxies:
     path: /danfeng?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 8|[VLESS] US_speednode_0026
+  name: 9|[VLESS] US_speednode_0026
   port: 4454
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
@@ -184,7 +184,7 @@ proxies:
   uuid: fb99f4f0-181d-4117-be22-df9856fbbc06
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 8|[VLESS] US_speednode_0027
+  name: 9|[VLESS] US_speednode_0027
   port: 4495
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
@@ -197,7 +197,7 @@ proxies:
   uuid: fb99f4f0-181d-4117-be22-df9856fbbc06
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 8|[VLESS] US_speednode_0028
+  name: 9|[VLESS] US_speednode_0028
   port: 443
   reality-opts:
     public-key: NOhuaiHfc8Tv7VrFKnNgr-VN594kxtUCslNEBhySvXQ
@@ -211,7 +211,7 @@ proxies:
   uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 8|[VLESS] US_speednode_0029
+  name: 9|[VLESS] US_speednode_0029
   port: 4510
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc

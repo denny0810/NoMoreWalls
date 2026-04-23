@@ -1,5 +1,5 @@
 proxies:
-- name: 4,5|[Trojan] 新加坡|@ripaojiedian
+- name: 3,4|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
   port: 5594
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 新加坡2|@ripaojiedian
+- name: 3,4|[Trojan] 新加坡2|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
   port: 32876
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 新加坡3|@ripaojiedian
+- name: 3,4|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 30726
@@ -23,34 +23,41 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 6|[Vmess] sgSG_1|1.4MB/s
+  name: 5|[Vmess] sgSG_1|1.3MB/s
   network: ws
   port: 16618
-  server: planb.mojcn.com
+  server: m.cnmjin.net
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 67eaec01-666a-44f1-b71c-e1dcc38d3513
+  udp: true
+  uuid: 8d95151d-d626-4ed2-83ac-29631f44085b
   ws-opts:
     headers:
-      Host: 98cc1200ce2e4eb0159554c6c82d6146.mobgslb.tbcache.com
+      Host: d26bc33c22885694ea3e533bfbf33059.mobgslb.tbcache.com
     path: /
-- name: 6|[Trojan] sgSG_2|1.1MB/s
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 5|[Vmess] sgSG_2|1.6MB/s
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 172.64.152.23
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+  port: 16618
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f272295-fb23-4ffc-a076-f75e6d4e4ce0
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /tr
+      Host: 2a0805d553d3abef159d2f4a1afa5914.mobgslb.tbcache.com
+    path: /
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  name: 7|[SS] sgSG²_1|2.4MB/s|X|History
+  name: 6|[SS] sgSG²_1|2.4MB/s|X|History
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.16

@@ -1,5 +1,5 @@
 proxies:
-- name: 4,5|[Trojan] 美国|@ripaojiedian
+- name: 3,4|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
   port: 4019
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 美国2|@ripaojiedian
+- name: 3,4|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
   port: 3057
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 美国3|@ripaojiedian
+- name: 3,4|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 14919
@@ -23,37 +23,20 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] usUS_1|1.0MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
 - client-fingerprint: chrome
-  name: 6|[VLESS] usUS_2|1.2MB/s
+  name: 5|[Trojan] usUS_1|2.1MB/s
   network: ws
-  port: 443
-  server: 91.193.58.208
-  servername: sni.111000.v6.rocks
-  tls: true
-  type: vless
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: Koma-YT.PAGeS.Dev
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/47.0.2526.106 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-  xudp: true
+    path: /tr
 - client-fingerprint: chrome
-  name: 6|[VLESS] usUS_3|1.2MB/s
+  name: 5|[VLESS] usUS_2|1.4MB/s
   network: ws
   port: 443
   server: 91.193.58.84
@@ -71,22 +54,50 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 6|[Vmess] usUS_4|1.0MB/s
-  network: ws
-  port: 16648
-  server: planb.mojcn.com
+  name: 5|[Vmess] usUS_3|1008KB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.37
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 67eaec01-666a-44f1-b71c-e1dcc38d3513
-  ws-opts:
-    headers:
-      Host: 98cc1200ce2e4eb0159554c6c82d6146.mobgslb.tbcache.com
-    path: /
-- name: 6|[VLESS] usUS_5|1.2MB/s
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- auth: rstnnl:7ltZBmta4ahLenTIoywBy3R1Z1PV7ZGf
+  name: 5|[Hysteria2] usUS_4|1.8MB/s
+  obfs: salamander
+  obfs-password: CvxXZnSth1bVJKGFP2cof4rI52ifHJ2W
+  password: rstnnl:7ltZBmta4ahLenTIoywBy3R1Z1PV7ZGf
+  port: 8932
+  server: nrealistic.nn-foto.ru
+  skip-cert-verify: true
+  sni: nrealistic.nn-foto.ru
+  type: hysteria2
+  udp: true
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 5|[Hysteria2] us 美国 | USA 4|1.8MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-006.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-006.fastervpn.world
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 5|[Vmess] usUS_5|2.0MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 5|[VLESS] usUS_6|1.3MB/s
   network: ws
   port: 443
-  server: 91.193.58.161
+  server: 91.193.58.118
   servername: sni.111000.v6.rocks
   tls: true
   type: vless
@@ -95,136 +106,74 @@ proxies:
     headers:
       Host: sni.111000.v6.rocks
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] usUS_6|2.0MB/s
+- name: 5|[VLESS] usUS_7|1.4MB/s
   network: ws
   port: 443
-  server: 154.218.15.105
-  servername: pchlzn.cdn-a.gfw.hidns.co
+  server: 91.193.58.200
+  servername: sni.111000.v6.rocks
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.rocks
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 5|[Vmess] usUS_8|1.0MB/s
+  network: ws
+  port: 12885
+  server: gtm1.ktmwan.net
   skip-cert-verify: false
-  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 91fea313-f8f9-46ae-b9ea-eeb599962e2b
+  ws-opts:
+    headers:
+      Host: gtm1.ktmwan.net
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 5|[VLESS] usUS_9|2.1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: OEZ3C-1OCSYBikqcWudtPP3PpQq2RAI7rFPxWoTCDSc
+    short-id: '!!str bffe9292'
+  server: 132.226.147.10
+  servername: musicstatus.tv.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: pchlzn.cdn-a.gfw.hidns.co
-    max-early-data: 2560
-    path: /danfeng
-- multiplexing: MULTIPLEXING_LOW
-  name: 6|[Mieru] usUS_7|1.0MB/s
-  password: dongtaiwang.com
-  port: 33990
-  server: 157.254.223.48
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- client-fingerprint: chrome
-  name: 6|[Trojan] usUS_8|1.3MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: Koma-YT.PAGeS.Dev
+  uuid: bba65652-b714-4832-ba62-cbf861ea2dbe
+  xudp: true
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 5|[Hysteria2] usUS_10|1.2MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-005.fastervpn.world
   skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /tr
-- cipher: chacha20-ietf-poly1305
-  country: 🏁ZZ
-  name: 6|[SS] usUS_9|1.0MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 403880e.default.microsoft.is:164892
-    mode: tls
-  port: 2377
-  server: 403880e.q8.gladns.com
-  type: ss
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] usUS_10|1002KB/s
-  network: ws
-  port: 443
-  server: 64.186.249.49
-  servername: pchlzn.cdn-a.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: pchlzn.cdn-a.gfw.hidns.co
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] usUS_11|2.0MB/s
-  network: ws
-  port: 443
-  server: 97.64.20.29
-  servername: pchlzn.cdn-a.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: pchlzn.cdn-a.gfw.hidns.co
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] usUS_12|2.1MB/s
-  network: ws
-  port: 443
-  server: 103.149.145.120
-  servername: pchlzn.cdn-a.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: pchlzn.cdn-a.gfw.hidns.co
-    max-early-data: 2560
-    path: /danfeng
+  sni: vpn-us-005.fastervpn.world
+  type: hysteria2
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
+  name: 6|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.251
   type: ss
-- name: 7|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
+- name: 6|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
   password: ''
   port: 7070
   server: 20.83.154.79
   skip-cert-verify: true
   type: socks5
   username: ''
-- name: 9|[Trojan] US_speednode_0137
+- name: 8|[Trojan] US_speednode_0137
   network: ws
   password: '!!str 1234567890'
   port: 8443
@@ -237,7 +186,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 9|[Trojan] US_speednode_0138
+- name: 8|[Trojan] US_speednode_0138
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -250,7 +199,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 9|[Trojan] US_speednode_0139
+- name: 8|[Trojan] US_speednode_0139
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -263,7 +212,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 9|[Trojan] US_speednode_0140
+- name: 8|[Trojan] US_speednode_0140
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -276,7 +225,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 9|[Trojan] US_speednode_0142
+- name: 8|[Trojan] US_speednode_0142
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -290,7 +239,7 @@ proxies:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 9|[VLESS] US_speednode_0143
+  name: 8|[VLESS] US_speednode_0143
   port: 443
   reality-opts:
     public-key: A1OvYDljz8ZJr7_1xe4j2H1AHsMuYEKifyjdWhdybzk
@@ -302,7 +251,7 @@ proxies:
   type: vless
   udp: true
   uuid: 73c0a723-c0ab-4ad8-8f25-799b9bd54e36
-- name: 9|[Trojan] US_speednode_0144
+- name: 8|[Trojan] US_speednode_0144
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -315,7 +264,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 9|[Trojan] US_speednode_0145
+- name: 8|[Trojan] US_speednode_0145
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -328,7 +277,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /
-- name: 9|[Trojan] US_speednode_0146
+- name: 8|[Trojan] US_speednode_0146
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -341,7 +290,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /
-- name: 9|[VLESS] US_speednode_0147
+- name: 8|[VLESS] US_speednode_0147
   network: ws
   port: 443
   server: 44.32.224.207
@@ -355,7 +304,7 @@ proxies:
     headers:
       Host: sni.111000.v6.rocks
     path: /?ed=2560
-- name: 9|[VLESS] US_speednode_0148
+- name: 8|[VLESS] US_speednode_0148
   network: ws
   port: 443
   server: 64.188.73.248
@@ -369,7 +318,7 @@ proxies:
     headers:
       Host: sni.111000.v6.rocks
     path: /?ed=2560
-- name: 9|[VLESS] US_speednode_0149
+- name: 8|[VLESS] US_speednode_0149
   network: ws
   port: 443
   server: 144.31.19.131
@@ -383,7 +332,7 @@ proxies:
     headers:
       Host: sni.111000.v6.rocks
     path: /?ed=2560
-- name: 9|[VLESS] US_speednode_0150
+- name: 8|[VLESS] US_speednode_0150
   network: ws
   port: 2053
   server: 44.32.224.198
@@ -397,7 +346,7 @@ proxies:
     headers:
       Host: sni.111000.v6.rocks
     path: /?ed=2560
-- name: 9|[VLESS] US_speednode_0151
+- name: 8|[VLESS] US_speednode_0151
   network: ws
   port: 443
   server: 144.31.132.176
@@ -411,7 +360,7 @@ proxies:
     headers:
       Host: sni.111000.v6.rocks
     path: /?ed=2560
-- name: 9|[Trojan] US_speednode_0152
+- name: 8|[Trojan] US_speednode_0152
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -424,7 +373,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 9|[VLESS] US_speednode_0153
+- name: 8|[VLESS] US_speednode_0153
   network: ws
   port: 443
   server: 44.32.224.196
@@ -438,7 +387,7 @@ proxies:
     headers:
       Host: sni.111000.v6.rocks
     path: /?ed=2560
-- name: 9|[VLESS] US_speednode_0154
+- name: 8|[VLESS] US_speednode_0154
   network: ws
   port: 443
   server: 44.32.224.197
@@ -452,7 +401,7 @@ proxies:
     headers:
       Host: sni.111000.v6.rocks
     path: /?ed=2560
-- name: 9|[VLESS] US_speednode_0155
+- name: 8|[VLESS] US_speednode_0155
   network: ws
   port: 2053
   server: 44.32.224.208
@@ -466,7 +415,7 @@ proxies:
     headers:
       Host: sni.111000.v6.rocks
     path: /?ed=2560
-- name: 9|[VLESS] US_speednode_0156
+- name: 8|[VLESS] US_speednode_0156
   network: ws
   port: 443
   server: 144.31.116.136
@@ -480,7 +429,7 @@ proxies:
     headers:
       Host: sni.latonyamadeline.ndjp.net
     path: /
-- name: 9|[VLESS] US_speednode_0157
+- name: 8|[VLESS] US_speednode_0157
   network: ws
   port: 443
   server: 144.31.7.95
@@ -494,7 +443,7 @@ proxies:
     headers:
       Host: sni.111000.v6.rocks
     path: /?ed=2560
-- name: 9|[VLESS] US_speednode_0158
+- name: 8|[VLESS] US_speednode_0158
   network: ws
   port: 443
   server: 83.219.97.178
@@ -508,7 +457,7 @@ proxies:
     headers:
       Host: sni.111000.v6.rocks
     path: /?ed=2560
-- name: 9|[Trojan] US_speednode_0159
+- name: 8|[Trojan] US_speednode_0159
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -521,7 +470,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 9|[Trojan] US_speednode_0160
+- name: 8|[Trojan] US_speednode_0160
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -534,7 +483,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 9|[VLESS] US_speednode_0161
+- name: 8|[VLESS] US_speednode_0161
   network: ws
   port: 2053
   server: 44.32.224.207
@@ -548,7 +497,7 @@ proxies:
     headers:
       Host: sni.111000.v6.rocks
     path: /?ed=2560
-- name: 9|[VLESS] US_speednode_0162
+- name: 8|[VLESS] US_speednode_0162
   network: ws
   port: 443
   server: 44.32.224.195
@@ -562,7 +511,7 @@ proxies:
     headers:
       Host: sni.111000.v6.rocks
     path: /?ed=2560
-- name: 9|[Trojan] US_speednode_0163
+- name: 8|[Trojan] US_speednode_0163
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -575,7 +524,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 9|[Trojan] US_speednode_0164
+- name: 8|[Trojan] US_speednode_0164
   network: ws
   password: '!!str 1234567890'
   port: 8443
@@ -588,7 +537,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 9|[Trojan] US_speednode_0165
+- name: 8|[Trojan] US_speednode_0165
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -601,7 +550,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 9|[VLESS] US_speednode_0166
+- name: 8|[VLESS] US_speednode_0166
   network: ws
   port: 443
   server: 169.40.4.32
@@ -615,7 +564,7 @@ proxies:
     headers:
       Host: sni.111000.v6.rocks
     path: /?ed=2560
-- name: 9|[VLESS] US_speednode_0167
+- name: 8|[VLESS] US_speednode_0167
   network: ws
   port: 8443
   server: 169.40.2.93
@@ -629,7 +578,7 @@ proxies:
     headers:
       Host: sni.111000.v6.rocks
     path: /?ed=2560
-- name: 9|[VLESS] US_speednode_0168
+- name: 8|[VLESS] US_speednode_0168
   network: ws
   port: 443
   server: 169.40.1.34

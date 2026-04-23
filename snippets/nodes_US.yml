@@ -1,5 +1,5 @@
 proxies:
-- name: 4,5|[Trojan] 美国|@ripaojiedian
+- name: 3,4|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
   port: 4019
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 美国2|@ripaojiedian
+- name: 3,4|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
   port: 3057
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 美国3|@ripaojiedian
+- name: 3,4|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 14919
@@ -23,9 +23,21 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: '0'
+- client-fingerprint: chrome
+  name: 5|[Trojan] usUS_1|2.1MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: Koma-YT.PAGeS.Dev
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /tr
+- alterId: 0
   cipher: auto
-  name: 6|[Vmess] usUS_1|1.0MB/s
+  name: 5|[Vmess] usUS_3|1008KB/s
   network: tcp
   port: 180
   server: 82.198.246.37
@@ -37,49 +49,40 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 6|[Vmess] usUS_4|1.0MB/s
-  network: ws
-  port: 16648
-  server: planb.mojcn.com
+  name: 5|[Vmess] usUS_5|2.0MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.233
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 67eaec01-666a-44f1-b71c-e1dcc38d3513
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 5|[Vmess] usUS_8|1.0MB/s
+  network: ws
+  port: 12885
+  server: gtm1.ktmwan.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 91fea313-f8f9-46ae-b9ea-eeb599962e2b
   ws-opts:
     headers:
-      Host: 98cc1200ce2e4eb0159554c6c82d6146.mobgslb.tbcache.com
+      Host: gtm1.ktmwan.net
     path: /
-- client-fingerprint: chrome
-  name: 6|[Trojan] usUS_8|1.3MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: Koma-YT.PAGeS.Dev
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /tr
-- cipher: chacha20-ietf-poly1305
-  country: 🏁ZZ
-  name: 6|[SS] usUS_9|1.0MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 403880e.default.microsoft.is:164892
-    mode: tls
-  port: 2377
-  server: 403880e.q8.gladns.com
-  type: ss
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
+  name: 6|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.251
   type: ss
-- name: 9|[Trojan] US_speednode_0137
+- name: 8|[Trojan] US_speednode_0137
   network: ws
   password: '!!str 1234567890'
   port: 8443
@@ -92,7 +95,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 9|[Trojan] US_speednode_0138
+- name: 8|[Trojan] US_speednode_0138
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -105,7 +108,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 9|[Trojan] US_speednode_0139
+- name: 8|[Trojan] US_speednode_0139
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -118,7 +121,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 9|[Trojan] US_speednode_0140
+- name: 8|[Trojan] US_speednode_0140
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -131,7 +134,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 9|[Trojan] US_speednode_0142
+- name: 8|[Trojan] US_speednode_0142
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -144,7 +147,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 9|[Trojan] US_speednode_0144
+- name: 8|[Trojan] US_speednode_0144
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -157,7 +160,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 9|[Trojan] US_speednode_0145
+- name: 8|[Trojan] US_speednode_0145
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -170,7 +173,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /
-- name: 9|[Trojan] US_speednode_0146
+- name: 8|[Trojan] US_speednode_0146
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -183,7 +186,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /
-- name: 9|[Trojan] US_speednode_0152
+- name: 8|[Trojan] US_speednode_0152
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -196,7 +199,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 9|[Trojan] US_speednode_0159
+- name: 8|[Trojan] US_speednode_0159
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -209,7 +212,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 9|[Trojan] US_speednode_0160
+- name: 8|[Trojan] US_speednode_0160
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -222,7 +225,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 9|[Trojan] US_speednode_0163
+- name: 8|[Trojan] US_speednode_0163
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -235,7 +238,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 9|[Trojan] US_speednode_0164
+- name: 8|[Trojan] US_speednode_0164
   network: ws
   password: '!!str 1234567890'
   port: 8443
@@ -248,7 +251,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 9|[Trojan] US_speednode_0165
+- name: 8|[Trojan] US_speednode_0165
   network: ws
   password: '!!str 1234567890'
   port: 443

@@ -25,16 +25,53 @@ proxies:
   type: trojan
 - alterId: '0'
   cipher: auto
-  name: 6|[Vmess] usUS_1|2.1MB/s
+  name: 6|[Vmess] usUS_1|1.0MB/s
   network: tcp
   port: 180
-  server: 82.198.246.233
+  server: 82.198.246.37
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] usUS_4|1.0MB/s
+  network: ws
+  port: 16648
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 67eaec01-666a-44f1-b71c-e1dcc38d3513
+  ws-opts:
+    headers:
+      Host: 98cc1200ce2e4eb0159554c6c82d6146.mobgslb.tbcache.com
+    path: /
+- client-fingerprint: chrome
+  name: 6|[Trojan] usUS_8|1.3MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: Koma-YT.PAGeS.Dev
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /tr
+- cipher: chacha20-ietf-poly1305
+  country: 🏁ZZ
+  name: 6|[SS] usUS_9|1.0MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 403880e.default.microsoft.is:164892
+    mode: tls
+  port: 2377
+  server: 403880e.q8.gladns.com
+  type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

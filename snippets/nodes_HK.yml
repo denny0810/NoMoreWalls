@@ -42,17 +42,17 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] hkHK_1|1.3MB/s
-  network: ws
-  port: 16632
-  server: planb.mojcn.com
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 033db0ca-703e-4484-a717-77b8900acd7b
-  ws-opts:
-    headers:
-      Host: 5f34ddd3745456d7ab987287b3f66a2c.mobgslb.tbcache.com
-    path: /%2F
+- cipher: aes-128-gcm
+  name: 6|[SS] hkHK_1|1.2MB/s
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: aoe.o.eoa.ccwu.cc
+    mode: websocket
+    mux: false
+    path: /?enc\=aes-128-gcm
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 38.207.132.101
+  type: ss

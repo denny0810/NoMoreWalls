@@ -23,25 +23,32 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 6|[Hysteria2] jpJP_1|1.6MB/s|1.3MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] jpJP_1|1.1MB/s
+  network: ws
+  port: 16617
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 67eaec01-666a-44f1-b71c-e1dcc38d3513
+  ws-opts:
+    headers:
+      Host: 98cc1200ce2e4eb0159554c6c82d6146.mobgslb.tbcache.com
+    path: /
+- name: 6|[VLESS] jpJP_2|1.3MB/s
+  network: ws
   port: 443
-  server: vpn-jp-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-jp-002.fastervpn.world
-  type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 6|[Hysteria2] 🔴jp[🎬🤖📺🔍]_github.com/Ruk1ng001...
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-jp-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-jp-004.fastervpn.world
-  type: hysteria2
-  up: ''
+  server: 8.222.193.153
+  servername: sni.111000.v6.rocks
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.rocks
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - client-fingerprint: chrome
   name: 9|[VLESS] JP_speednode_0008
   port: 443

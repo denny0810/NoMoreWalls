@@ -25,23 +25,191 @@ proxies:
   type: trojan
 - alterId: '0'
   cipher: auto
-  name: 6|[Vmess] usUS_1|2.1MB/s
+  name: 6|[Vmess] usUS_1|1.0MB/s
   network: tcp
   port: 180
-  server: 82.198.246.233
+  server: 82.198.246.37
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
-- name: 6|[Hysteria2] usUS_2|2.0MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+- client-fingerprint: chrome
+  name: 6|[VLESS] usUS_2|1.2MB/s
+  network: ws
   port: 443
-  server: vpn-us-003.fastervpn.world
+  server: 91.193.58.208
+  servername: sni.111000.v6.rocks
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.rocks
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/47.0.2526.106 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+  xudp: true
+- client-fingerprint: chrome
+  name: 6|[VLESS] usUS_3|1.2MB/s
+  network: ws
+  port: 443
+  server: 91.193.58.84
+  servername: sni.111000.v6.rocks
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.rocks
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.101 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] usUS_4|1.0MB/s
+  network: ws
+  port: 16648
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 67eaec01-666a-44f1-b71c-e1dcc38d3513
+  ws-opts:
+    headers:
+      Host: 98cc1200ce2e4eb0159554c6c82d6146.mobgslb.tbcache.com
+    path: /
+- name: 6|[VLESS] usUS_5|1.2MB/s
+  network: ws
+  port: 443
+  server: 91.193.58.161
+  servername: sni.111000.v6.rocks
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.rocks
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] usUS_6|2.0MB/s
+  network: ws
+  port: 443
+  server: 154.218.15.105
+  servername: pchlzn.cdn-a.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: pchlzn.cdn-a.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng
+- multiplexing: MULTIPLEXING_LOW
+  name: 6|[Mieru] usUS_7|1.0MB/s
+  password: dongtaiwang.com
+  port: 33990
+  server: 157.254.223.48
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- client-fingerprint: chrome
+  name: 6|[Trojan] usUS_8|1.3MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: Koma-YT.PAGeS.Dev
   skip-cert-verify: true
-  sni: vpn-us-003.fastervpn.world
-  type: hysteria2
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /tr
+- cipher: chacha20-ietf-poly1305
+  country: 🏁ZZ
+  name: 6|[SS] usUS_9|1.0MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 403880e.default.microsoft.is:164892
+    mode: tls
+  port: 2377
+  server: 403880e.q8.gladns.com
+  type: ss
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] usUS_10|1002KB/s
+  network: ws
+  port: 443
+  server: 64.186.249.49
+  servername: pchlzn.cdn-a.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: pchlzn.cdn-a.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] usUS_11|2.0MB/s
+  network: ws
+  port: 443
+  server: 97.64.20.29
+  servername: pchlzn.cdn-a.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: pchlzn.cdn-a.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] usUS_12|2.1MB/s
+  network: ws
+  port: 443
+  server: 103.149.145.120
+  servername: pchlzn.cdn-a.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: pchlzn.cdn-a.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

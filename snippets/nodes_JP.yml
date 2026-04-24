@@ -2,55 +2,24 @@ proxies:
 - name: 4,5|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3278
-  server: 54.249.58.71
+  port: 3022
+  server: 13.115.45.57
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 4,5|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
-  port: 2001
-  server: 54.249.58.71
+  port: 4937
+  server: 95.40.21.164
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
-  port: 4380
-  server: 43.199.32.10
+  port: 2001
+  server: 18.182.55.2
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- cipher: aes-128-gcm
-  name: 6|[SS] jpJP_1|2.3MB/s
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: aoe.o.eoa.ccwu.cc
-    mode: websocket
-    mux: false
-    path: /?enc\=aes-128-gcm
-    tls: true
-  port: 2083
-  server: 54.199.22.197
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] jpJP_2|1.9MB/s
-  network: ws
-  port: 12883
-  server: gtm1.ktmwan.net
-  servername: baidu.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 91fea313-f8f9-46ae-b9ea-eeb599962e2b
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
-  xudp: true

@@ -3,7 +3,7 @@ proxies:
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
   port: 4019
-  server: 13.231.43.53
+  server: 52.193.48.211
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -11,153 +11,39 @@ proxies:
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
   port: 3057
-  server: 43.199.32.10
+  server: 18.182.55.2
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 14919
-  server: 52.195.168.226
+  port: 23255
+  server: 18.166.61.147
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: 6|[Trojan] usUS_1|2.1MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: Koma-YT.PAGeS.Dev
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /tr
-- client-fingerprint: chrome
-  name: 6|[VLESS] usUS_2|1.4MB/s
-  network: ws
-  port: 443
-  server: 91.193.58.84
-  servername: sni.111000.v6.rocks
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.101 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] usUS_3|1008KB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- auth: rstnnl:7ltZBmta4ahLenTIoywBy3R1Z1PV7ZGf
-  name: 6|[Hysteria2] usUS_4|1.8MB/s
-  obfs: salamander
-  obfs-password: CvxXZnSth1bVJKGFP2cof4rI52ifHJ2W
-  password: rstnnl:7ltZBmta4ahLenTIoywBy3R1Z1PV7ZGf
-  port: 8932
-  server: nrealistic.nn-foto.ru
-  skip-cert-verify: true
-  sni: nrealistic.nn-foto.ru
-  type: hysteria2
-  udp: true
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] us 美国 | USA 4|1.8MB/s
+- name: 6|[Hysteria2] usUS_1|2.2MB/s
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: vpn-us-006.fastervpn.world
+  server: vpn-us-001.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-us-006.fastervpn.world
+  sni: vpn-us-001.fastervpn.world
   type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] usUS_5|2.0MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 6|[VLESS] usUS_6|1.3MB/s
-  network: ws
-  port: 443
-  server: 91.193.58.118
-  servername: sni.111000.v6.rocks
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 6|[VLESS] usUS_7|1.4MB/s
-  network: ws
-  port: 443
-  server: 91.193.58.200
-  servername: sni.111000.v6.rocks
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] usUS_8|1.0MB/s
-  network: ws
-  port: 12885
-  server: gtm1.ktmwan.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 91fea313-f8f9-46ae-b9ea-eeb599962e2b
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] usUS_9|2.1MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: OEZ3C-1OCSYBikqcWudtPP3PpQq2RAI7rFPxWoTCDSc
-    short-id: '!!str bffe9292'
-  server: 132.226.147.10
-  servername: musicstatus.tv.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: bba65652-b714-4832-ba62-cbf861ea2dbe
-  xudp: true
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] usUS_10|1.2MB/s
+- name: 6|[Hysteria2] usUS_2|2.0MB/s
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: vpn-us-005.fastervpn.world
+  server: vpn-us-003.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-us-005.fastervpn.world
+  sni: vpn-us-003.fastervpn.world
+  type: hysteria2
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 6|[Hysteria2] usUS_3|1.4MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-017.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-017.fastervpn.world
   type: hysteria2
 - cipher: aes-256-cfb
   country: 🏁ZZ

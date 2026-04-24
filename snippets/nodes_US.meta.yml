@@ -23,28 +23,37 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 6|[Hysteria2] usUS_1|2.2MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-001.fastervpn.world
-  type: hysteria2
-- name: 6|[Hysteria2] usUS_2|2.0MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-003.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-003.fastervpn.world
-  type: hysteria2
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] usUS_3|1.4MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-017.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-017.fastervpn.world
-  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] usUS_1|1.4MB/s
+  network: ws
+  port: 16648
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 881da2de-238e-425e-a7e7-389f4842e545
+  ws-opts:
+    headers:
+      Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
+    path: /
+- client-fingerprint: chrome
+  name: 6|[Trojan] usUS_2|1.1MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

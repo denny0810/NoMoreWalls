@@ -23,47 +23,57 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: update
-  name: 6|[VLESS] sgSG_2|1.1MB/s
-  network: grpc
-  port: 10037
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: sg2-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: A537EA13-778F-4967-953F-EE29617B8E55
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: 6|[Hysteria2] 🔴sg[🎬🤖📺🔍]_github.com/Ruk1ng001...
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-sg-003.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-sg-003.fastervpn.world
-  type: hysteria2
-  up: ''
-- name: 6|[Trojan] sgSG_3|1.4MB/s
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] sgSG_1|2.3MB/s
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 172.64.147.106
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+  port: 16618
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a866018e-c985-48bd-8f9b-18030b28dfb4
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /tr
+      Host: b8a18b80fb6319752f0b13d6461d3426.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] sgSG_2|1001KB/s
+  network: ws
+  port: 16618
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a866018e-c985-48bd-8f9b-18030b28dfb4
+  ws-opts:
+    headers:
+      Host: b8a18b80fb6319752f0b13d6461d3426.mobgslb.tbcache.com
+    path: /
+- name: 6|[Hysteria2] sgSG_3|1.2MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-sg-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-sg-002.fastervpn.world
+  type: hysteria2
+- alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] sgSG_4|1.4MB/s
+  network: ws
+  port: 16618
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1a97d136-a66b-4959-a9cc-42ab7fee9462
+  ws-opts:
+    headers:
+      Host: 77ca334818bda4db538ebedbe42e0859.mobgslb.tbcache.com
+    path: /
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] sgSG²_1|2.4MB/s|X|History

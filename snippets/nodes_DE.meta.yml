@@ -1,78 +1,31 @@
 proxies:
-- client-fingerprint: chrome
-  name: 6|[Trojan] deDE_1|1.5MB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 138.124.229.34
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 6|[Trojan] deDE_2|1.3MB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 138.124.32.121
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 6|[Trojan] deDE_3|1.0MB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 138.124.32.120
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/68.0.3440.106 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] deDE_4|2.2MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-de-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-de-001.fastervpn.world
-  type: hysteria2
-  udp: true
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] deDE_5|1.4MB/s
+  name: 6|[Hysteria2] deDE_1|1004KB/s
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: vpn-de-002.fastervpn.world
   skip-cert-verify: true
   sni: vpn-de-002.fastervpn.world
   type: hysteria2
-- encryption: none
+- client-fingerprint: random
+  encryption: none
   flow: xtls-rprx-vision
-  name: 6|[VLESS] deDE_6|1.1MB/s
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 6|[VLESS] deDE_3|1.5MB/s
   network: tcp
-  port: 52006
-  server: cluster-de-2.firstvideocdn.ru
-  servername: cluster-de-2.firstvideocdn.ru
-  skip-cert-verify: false
+  port: 443
+  reality-opts:
+    public-key: ayJjf8TJwT_INFKDDHk9uv3zyoERmbG2gECNX1fwFxo
+    short-id: '!!str 7c8e3d4a9b1f26d3'
+  server: de.plus-hit.ru
+  servername: de.plus-hit.ru
   tls: true
   type: vless
   udp: true
-  uuid: 75807638-6f19-01f4-ae08-38492ee85c88
+  uuid: 627a8c42-d978-4ecb-ab17-c4fc927474f8
   xudp: true
 - name: 9|[VLESS] DE_speednode_0058
   network: ws

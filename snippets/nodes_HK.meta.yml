@@ -42,60 +42,98 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] hkHK_1|2.5MB/s
-  network: tcp
-  port: 7754
-  server: vm51544542.dns8656815.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] hkHK_2|2.7MB/s
-  network: tcp
-  port: 7754
-  server: efan.dnsefan04881.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
-  xudp: true
 - alterId: 0
   cipher: auto
-  name: 6|[Vmess] hkHK_3|1.6MB/s
-  network: tcp
-  port: 7754
-  server: vm51544542.dns8656815.com
+  name: 6|[Vmess] hkHK_1|1003KB/s
+  network: ws
+  port: 16622
+  server: planb.mojcn.com
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+  uuid: a866018e-c985-48bd-8f9b-18030b28dfb4
+  ws-opts:
+    headers:
+      Host: b8a18b80fb6319752f0b13d6461d3426.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] hkHK_2|1.3MB/s
+  network: ws
+  port: 16622
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 881da2de-238e-425e-a7e7-389f4842e545
+  ws-opts:
+    headers:
+      Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
+    path: /
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: movie
-  name: 6|[VLESS] hkHK_4|1.5MB/s
+  name: 6|[VLESS] hkHK_3|2.1MB/s
   network: grpc
-  port: 10129
+  port: 10128
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: '!!str 686c0ef0'
-  server: hk4-r.link-t7.com
+  server: hk3-r.link-t7.com
   servername: s0.awsstatic.com
   tls: true
   type: vless
   udp: true
   uuid: A537EA13-778F-4967-953F-EE29617B8E55
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: update
+  name: 6|[VLESS] 🔴hk[🎬📺🔍]_github.com/Ruk1ng001_...
+  network: grpc
+  port: 10126
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: hk1-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: A537EA13-778F-4967-953F-EE29617B8E55
+  xudp: true
+- encryption: none
+  name: 6|[VLESS] hkHK_4|2.5MB/s
+  network: ws
+  port: 80
+  server: api.kunkunout.cn
+  type: vless
+  udp: true
+  uuid: a50a83bd-1fe8-4dd4-ba55-48f80190f527
+  ws-opts:
+    headers:
+      Host: hkg-east-asia-01.8886698.xyz
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /download
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] hkHK_5|1.1MB/s
+  network: ws
+  port: 16622
+  server: t.cnmjcn.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1a97d136-a66b-4959-a9cc-42ab7fee9462
+  ws-opts:
+    headers:
+      Host: 77ca334818bda4db538ebedbe42e0859.mobgslb.tbcache.com
+    path: /
   xudp: true
 - name: 9|[VLESS] HK_speednode_0097
   network: ws

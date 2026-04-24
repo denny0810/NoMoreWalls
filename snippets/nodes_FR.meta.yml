@@ -1,27 +1,11 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] frFR_1|1.3MB/s
-  network: ws
-  port: 16645
-  server: t.cnmjcn.cyou
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 881da2de-238e-425e-a7e7-389f4842e545
-  ws-opts:
-    headers:
-      Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
-    path: /
-- down: ''
-  fingerprint: ''
-  name: 6|[Hysteria2] frFR_2|1.8MB/s
-  obfs: ''
-  obfs-password: ''
+- auth: dongtaiwang.com
+  name: 6|[Hysteria2] frFR_1|1.3MB/s
   password: dongtaiwang.com
-  port: 40022
+  port: 41283
+  ports: 40022,41000-42000
   server: 163.172.113.118
   skip-cert-verify: true
   sni: www.microsoft.com
   type: hysteria2
-  up: ''
+  udp: true

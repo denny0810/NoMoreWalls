@@ -42,26 +42,36 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: movie
+  name: 6|[VLESS] hkHK_1|3.3MB/s
+  network: grpc
+  port: 10129
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: hk4-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: A537EA13-778F-4967-953F-EE29617B8E55
+  xudp: true
+- name: 6|[Hysteria2] 🔴hk[🎬📺🔍]_github.com/Ruk1ng001_...
+  password: 6e73dc5f-5261-4bb0-b116-c28a2144cd7b
+  port: 1443
+  server: hk.mjhy2.com
+  skip-cert-verify: true
+  sni: hk.mjhy2.com
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 6|[Vmess] hkHK_1|1003KB/s
+  name: 6|[Vmess] hkHK_2|1.6MB/s
   network: ws
-  port: 16622
+  port: 16632
   server: planb.mojcn.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: a866018e-c985-48bd-8f9b-18030b28dfb4
-  ws-opts:
-    headers:
-      Host: b8a18b80fb6319752f0b13d6461d3426.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] hkHK_2|1.3MB/s
-  network: ws
-  port: 16622
-  server: m.cnmjin.net
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -70,71 +80,6 @@ proxies:
     headers:
       Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
     path: /
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: movie
-  name: 6|[VLESS] hkHK_3|2.1MB/s
-  network: grpc
-  port: 10128
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: hk3-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: A537EA13-778F-4967-953F-EE29617B8E55
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: update
-  name: 6|[VLESS] 🔴hk[🎬📺🔍]_github.com/Ruk1ng001_...
-  network: grpc
-  port: 10126
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: hk1-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: A537EA13-778F-4967-953F-EE29617B8E55
-  xudp: true
-- encryption: none
-  name: 6|[VLESS] hkHK_4|2.5MB/s
-  network: ws
-  port: 80
-  server: api.kunkunout.cn
-  type: vless
-  udp: true
-  uuid: a50a83bd-1fe8-4dd4-ba55-48f80190f527
-  ws-opts:
-    headers:
-      Host: hkg-east-asia-01.8886698.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /download
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] hkHK_5|1.1MB/s
-  network: ws
-  port: 16622
-  server: t.cnmjcn.cyou
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1a97d136-a66b-4959-a9cc-42ab7fee9462
-  ws-opts:
-    headers:
-      Host: 77ca334818bda4db538ebedbe42e0859.mobgslb.tbcache.com
-    path: /
-  xudp: true
 - name: 9|[VLESS] HK_speednode_0097
   network: ws
   port: 8443

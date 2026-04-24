@@ -1,60 +1,68 @@
 proxies:
 - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] krKR_2|1.5MB/s|2.5MB/s
+  name: 6|[Hysteria2] krKR_1|2.1MB/s
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: vpn-kr-001.fastervpn.world
+  server: vpn-kr-003.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-kr-001.fastervpn.world
+  sni: vpn-kr-003.fastervpn.world
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 6|[VLESS] krKR_1|2.4MB/s
-  network: tcp
-  port: 19001
-  reality-opts:
-    public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
-    short-id: '!!str '
-  server: krp01.jumperservice.com
-  servername: addons.mozilla.org
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] krKR_2|1.2MB/s
+  network: ws
+  port: 32412
+  server: 222.116.186.100
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 455fc271-3ee2-493b-8c75-9324b4851e2f
-  xudp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    max-early-data: 2560
+    path: /danfeng
 - client-fingerprint: chrome
-  name: 6|[Trojan] krKR_2|1022KB/s
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] krKR_3|1.7MB/s
+  network: ws
+  port: 11211
+  server: 121.149.124.119
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: 6|[Trojan] krKR_4|1.5MB/s
   network: ws
   password: '!!str 1234567890'
-  port: 30303
-  server: 211.197.101.56
+  port: 12300
+  server: 210.113.231.202
   skip-cert-verify: true
   sni: kfm-bn0.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 6|[Trojan] krKR_3|1.1MB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 23791
-  server: 220.118.233.240
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - name: 7,9|[Socks5] KR_speednode_0107
   port: 1090

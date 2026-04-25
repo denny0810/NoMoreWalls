@@ -23,34 +23,66 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - ''
-  alterId: '0'
+- alterId: '0'
   cipher: auto
-  name: 6|[Vmess] usUS_1|1011KB/s
+  name: 6|[Vmess] usUS_1|1.4MB/s
   network: tcp
   port: 180
-  server: 82.198.246.250
+  server: 82.198.246.9
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
-- name: 6|[Hysteria2] usUS_2|1.1MB/s
+- client-fingerprint: chrome
+  name: 6|[Trojan] usUS_2|1.1MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- name: 6|[Trojan] usUS_3|2.1MB/s
+  network: tcp
+  password: 3f96f3d1-8bd9-49a1-b8e4-c776908c30a5
+  port: 50000
+  server: us200m.jiasu.asia
+  skip-cert-verify: true
+  sni: us200m.jiasu.asia
+  type: trojan
+  udp: true
+- name: 6|[Hysteria2] usUS_4|1.4MB/s
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: vpn-us-018.fastervpn.world
+  server: vpn-us-016.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-us-018.fastervpn.world
+  sni: vpn-us-016.fastervpn.world
   type: hysteria2
+- multiplexing: MULTIPLEXING_LOW
+  name: 6|[Mieru] usUS_5|1.8MB/s
+  password: dongtaiwang.com
+  port: 33990
+  server: 157.254.223.48
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
 - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] usUS_3|1.1MB/s
+  name: 6|[Hysteria2] usUS_6|1.6MB/s
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: vpn-us-017.fastervpn.world
+  server: vpn-us-005.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-us-017.fastervpn.world
+  sni: vpn-us-005.fastervpn.world
   type: hysteria2
 - cipher: aes-256-cfb
   country: 🏁ZZ
@@ -157,19 +189,6 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 9|[Trojan] US_speednode_0145
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 64.188.70.233
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /
 - name: 9|[Trojan] US_speednode_0146
   network: ws
   password: '!!str 1234567890'

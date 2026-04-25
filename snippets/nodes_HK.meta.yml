@@ -42,40 +42,117 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 6|[Vmess] hkHK_5|1.7MB/s
+  network: tcp
+  port: 7754
+  server: vm51544542.dns8656815.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] hkHK_2|1.6MB/s
+  network: tcp
+  port: 7754
+  server: vm51544542.dns8656815.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] hkHK_3|1.4MB/s
+  network: tcp
+  port: 7754
+  server: efan.dnsefan04881.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] hkHK_4|1.4MB/s
+  network: tcp
+  port: 7754
+  server: efan.dnsefan04881.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
+  xudp: true
 - alterId: 0
   cipher: auto
-  name: 6|[Vmess] hkHK_1|1.3MB/s
+  name: 6|[Vmess] hkHK_6|1013KB/s
   network: ws
   port: 16622
   server: planb.mojcn.com
   type: vmess
   udp: true
-  uuid: 1c9bfd97-6e19-4942-a225-5f1b6f143370
+  uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
   ws-opts:
     headers:
-      Host: 997a4439f9df5fc29fda3811532f740b.mobgslb.tbcache.com
+      Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
     path: /
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] hkHK_2|1.8MB/s
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] hkHK_7|1.0MB/s
   network: ws
-  port: 443
-  server: 103.3.26.26
-  servername: ynwta9.api-edge.fgfw.qzz.io
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
+  port: 16622
+  server: t.cnmjcn.cyou
+  type: vmess
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-    max-early-data: 2560
-    path: /danfeng
+      Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] hkHK_8|1.2MB/s
+  network: ws
+  port: 16632
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
+  ws-opts:
+    headers:
+      Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] hkHK_9|1.0MB/s
+  network: ws
+  port: 16632
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7927975e-9616-412b-b508-983ab960377d
+  ws-opts:
+    headers:
+      Host: 8597cd680dc75db1c8ac6d9942dcf0e6.mobgslb.tbcache.com
+    path: /
+  xudp: true
 - name: 9|[VLESS] HK_speednode_0097
   network: ws
   port: 8443

@@ -120,53 +120,227 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
+- name: 6|[Trojan] deDE_1|2.1MB/s
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 159.195.44.151
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- alpn:
+  - ''
+  alterId: 0
   cipher: auto
-  name: 6|[Vmess] usUS_2|1.0MB/s
+  name: 6|[Vmess] hkHK_5|1.7MB/s
   network: tcp
-  port: 180
-  server: 82.198.246.37
+  port: 7754
+  server: vm51544542.dns8656815.com
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  udp: true
+  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] hkHK_2|1.6MB/s
+  network: tcp
+  port: 7754
+  server: vm51544542.dns8656815.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
+  xudp: true
+- name: 6|[Trojan] krKR_1|1.8MB/s
+  network: ws
+  password: '1234567890'
+  port: 18081
+  server: 220.124.181.77
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] hkHK_3|1.4MB/s
+  network: tcp
+  port: 7754
+  server: efan.dnsefan04881.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] hkHK_4|1.4MB/s
+  network: tcp
+  port: 7754
+  server: efan.dnsefan04881.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
+  xudp: true
+- name: 6|[Trojan] krKR_2|1.0MB/s
+  network: ws
+  password: '1234567890'
+  port: 10911
+  server: 220.77.136.79
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- cipher: aes-128-gcm
+  name: 6|[SS] sgSG_1|1.5MB/s
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: aoe.o.eoa.ccwu.cc
+    mode: websocket
+    mux: false
+    path: /?enc\=aes-128-gcm
+    tls: true
+  port: 443
+  server: cf.cloudflare.182682.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 6|[Vmess] hkHK_1|1.3MB/s
+  name: 6|[Vmess] hkHK_6|1013KB/s
   network: ws
   port: 16622
   server: planb.mojcn.com
   type: vmess
   udp: true
-  uuid: 1c9bfd97-6e19-4942-a225-5f1b6f143370
+  uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
   ws-opts:
     headers:
-      Host: 997a4439f9df5fc29fda3811532f740b.mobgslb.tbcache.com
+      Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 6|[Vmess] sgSG_2|1.8MB/s
+  name: 6|[Vmess] hkHK_7|1.0MB/s
+  network: ws
+  port: 16622
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
+  ws-opts:
+    headers:
+      Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] hkHK_8|1.2MB/s
+  network: ws
+  port: 16632
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
+  ws-opts:
+    headers:
+      Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] sgSG_2|2.2MB/s
   network: ws
   port: 16618
-  server: planb.mojcn.com
+  server: m.cnmjin.net
   type: vmess
-  uuid: 705f9dfc-07a7-44b8-bd43-15d32abfa61d
+  udp: true
+  uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
   ws-opts:
     headers:
-      Host: 943b57a4316253b5c6ef402731b11d57.mobgslb.tbcache.com
+      Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
     path: /
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 6|[Vmess] usUS_6|1.2MB/s
-  network: raw
-  port: 180
-  server: 82.198.246.37
+  name: 6|[Vmess] hkHK_9|1.0MB/s
+  network: ws
+  port: 16632
+  server: planb.mojcn.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: 7927975e-9616-412b-b508-983ab960377d
+  ws-opts:
+    headers:
+      Host: 8597cd680dc75db1c8ac6d9942dcf0e6.mobgslb.tbcache.com
+    path: /
   xudp: true
+- name: 6|[Trojan] krKR_3|1.1MB/s
+  network: ws
+  password: '1234567890'
+  port: 25448
+  server: 118.41.26.148
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 6|[Trojan] krKR_4|1.4MB/s
+  network: ws
+  password: '1234567890'
+  port: 24289
+  server: 220.95.85.46
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 6|[Vmess] deDE_3|1.6MB/s
+  network: http
+  port: 80
+  server: 77.90.11.178
+  tls: false
+  type: vmess
+  uuid: b3cdfe2d-5eac-4b0d-a8eb-d3f6a647e13f
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

@@ -3,72 +3,55 @@ proxies:
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
   port: 4019
-  server: 52.193.48.211
+  server: 13.231.195.214
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
-  port: 3057
-  server: 18.182.55.2
+  port: 4019
+  server: 160.16.106.99
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 23255
-  server: 18.166.61.147
+  port: 14919
+  server: 3.112.254.113
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
+- alpn:
+  - ''
+  alterId: '0'
   cipher: auto
-  name: 6|[Vmess] usUS_1|1.1MB/s
-  network: ws
-  port: 16626
-  server: planb.mojcn.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 881da2de-238e-425e-a7e7-389f4842e545
-  ws-opts:
-    headers:
-      Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
-    path: /
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] usUS_2|1.1MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-002.fastervpn.world
-  type: hysteria2
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] usUS_3|1.8MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-005.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-005.fastervpn.world
-  type: hysteria2
-- alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] usUS_4|1015KB/s
-  network: ws
-  port: 16626
-  server: planb.mojcn.com
+  name: 6|[Vmess] usUS_1|1011KB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.250
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 5f272295-fb23-4ffc-a076-f75e6d4e4ce0
-  ws-opts:
-    headers:
-      Host: 2a0805d553d3abef159d2f4a1afa5914.mobgslb.tbcache.com
-    path: /
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
+- name: 6|[Hysteria2] usUS_2|1.1MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-018.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-018.fastervpn.world
+  type: hysteria2
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 6|[Hysteria2] usUS_3|1.1MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-017.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-017.fastervpn.world
+  type: hysteria2
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

@@ -3,63 +3,49 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 3022
-  server: 13.115.45.57
+  server: 13.231.195.214
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 4,5|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
-  port: 4937
-  server: 95.40.21.164
+  port: 4380
+  server: 13.231.195.214
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
-  port: 2001
-  server: 18.182.55.2
+  port: 4380
+  server: 160.16.132.38
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- down: ''
-  fingerprint: ''
-  name: 6|[Hysteria2] jpJP_1|3.3MB/s
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: A537EA13-778F-4967-953F-EE29617B8E55
-  port: 20832
-  server: jp5.dexlos.com
-  skip-cert-verify: false
-  sni: jp5.dexlos.com
+- name: 6|[Hysteria2] jpJP_1|1.2MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-001.fastervpn.world
   type: hysteria2
-  up: ''
+- name: 6|[Hysteria2] jpJP_2|1.8MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-002.fastervpn.world
+  type: hysteria2
 - down: ''
   fingerprint: ''
   name: 6|[Hysteria2] 🔴jp[🎬🤖📺🔍]_github.com/Ruk1ng001...
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: A537EA13-778F-4967-953F-EE29617B8E55
-  port: 20442
-  server: jp3.dexlos.com
-  skip-cert-verify: false
-  sni: jp3.dexlos.com
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-004.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-004.fastervpn.world
   type: hysteria2
   up: ''
-- alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] jpJP_2|1.4MB/s
-  network: ws
-  port: 16617
-  server: planb.mojcn.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f272295-fb23-4ffc-a076-f75e6d4e4ce0
-  ws-opts:
-    headers:
-      Host: 2a0805d553d3abef159d2f4a1afa5914.mobgslb.tbcache.com
-    path: /
-  xudp: true

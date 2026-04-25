@@ -18,23 +18,23 @@ proxies:
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
   port: 52687
-  server: 18.162.152.196
+  server: 13.230.190.29
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 5823
-  server: 54.238.64.8
+  port: 9211
+  server: 43.199.78.220
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 4,5|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 22075
-  server: 43.199.67.80
+  port: 4886
+  server: 43.199.206.175
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -42,31 +42,31 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 3022
-  server: 13.115.45.57
+  server: 13.231.195.214
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 4,5|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
-  port: 4937
-  server: 95.40.21.164
+  port: 4380
+  server: 13.231.195.214
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
-  port: 2001
-  server: 18.182.55.2
+  port: 4380
+  server: 160.16.132.38
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
-  port: 32876
-  server: 54.193.48.211
+  port: 3057
+  server: 160.16.106.99
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -82,7 +82,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 25675
-  server: 16.162.220.143
+  server: 54.46.5.109
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -90,23 +90,23 @@ proxies:
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
   port: 4019
-  server: 52.193.48.211
+  server: 13.231.195.214
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
-  port: 3057
-  server: 18.182.55.2
+  port: 4019
+  server: 160.16.106.99
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 23255
-  server: 18.166.61.147
+  port: 14919
+  server: 3.112.254.113
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -120,94 +120,139 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
+- alpn:
+  - ''
+  alterId: '0'
   cipher: auto
-  name: 6|[Vmess] sgSG_3|2.1MB/s
-  network: ws
-  port: 16618
-  server: planb.mojcn.com
+  name: 6|[Vmess] usUS_1|1011KB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.250
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 881da2de-238e-425e-a7e7-389f4842e545
-  ws-opts:
-    headers:
-      Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
-    path: /
-- alterId: 0
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
   cipher: auto
-  name: 6|[Vmess] hkHK_2|1.6MB/s
-  network: ws
-  port: 16632
-  server: planb.mojcn.com
+  name: 6|[Vmess] hkHK_1|2.3MB/s
+  network: tcp
+  port: 7754
+  server: efan.dnsefan04881.com
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 881da2de-238e-425e-a7e7-389f4842e545
-  ws-opts:
-    headers:
-      Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
-    path: /
-- alterId: 0
+  udp: true
+  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
   cipher: auto
-  name: 6|[Vmess] usUS_1|1.1MB/s
-  network: ws
-  port: 16626
-  server: planb.mojcn.com
+  name: 6|[Vmess] hkHK_2|1.3MB/s
+  network: tcp
+  port: 7754
+  server: vm51544542.dns8656815.com
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 881da2de-238e-425e-a7e7-389f4842e545
-  ws-opts:
-    headers:
-      Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
-    path: /
-- name: 6|[Trojan] krKR_4|1.5MB/s
+  udp: true
+  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+  xudp: true
+- name: 6|[Trojan] krKR_1|1.2MB/s
   network: ws
   password: '1234567890'
-  port: 12300
-  server: 210.113.231.202
-  skip-cert-verify: true
+  port: 11965
+  server: 14.45.224.171
+  skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] usUS_4|1015KB/s
+- name: 6|[Trojan] krKR_2|1.0MB/s
   network: ws
-  port: 16626
-  server: planb.mojcn.com
+  password: '1234567890'
+  port: 25448
+  server: 118.41.26.148
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-  uuid: 5f272295-fb23-4ffc-a076-f75e6d4e4ce0
   ws-opts:
     headers:
-      Host: 2a0805d553d3abef159d2f4a1afa5914.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] jpJP_2|1.4MB/s
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 6|[Trojan] krKR_3|1.6MB/s
   network: ws
-  port: 16617
-  server: planb.mojcn.com
+  password: '1234567890'
+  port: 10035
+  server: 175.197.105.20
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-  uuid: 5f272295-fb23-4ffc-a076-f75e6d4e4ce0
   ws-opts:
     headers:
-      Host: 2a0805d553d3abef159d2f4a1afa5914.mobgslb.tbcache.com
-    path: /
-  xudp: true
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 6|[Trojan] krKR_4|1.2MB/s
+  network: ws
+  password: '1234567890'
+  port: 20002
+  server: 112.187.247.37
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 6|[Trojan] krKR_8|1.4MB/s
+  network: ws
+  password: '1234567890'
+  port: 1777
+  server: 138.2.120.74
+  skip-cert-verify: true
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 6|[Trojan] krKR_9|1.2MB/s
+  network: ws
+  password: '1234567890'
+  port: 28017
+  server: 49.142.200.31
+  skip-cert-verify: true
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 6|[Trojan] krKR_10|1.6MB/s
+  network: ws
+  password: '1234567890'
+  port: 19530
+  server: 222.116.195.135
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

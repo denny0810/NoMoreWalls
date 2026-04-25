@@ -2,8 +2,8 @@ proxies:
 - name: 4,5|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
-  port: 32876
-  server: 54.193.48.211
+  port: 3057
+  server: 160.16.106.99
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -19,48 +19,29 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 25675
-  server: 16.162.220.143
+  server: 54.46.5.109
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 6|[Hysteria2] sgSG_1|1.9MB/s
+- name: 6|[Hysteria2] sgSG_1|1.9MB/s|3.3MB/s
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: vpn-sg-002.fastervpn.world
   skip-cert-verify: true
   sni: vpn-sg-002.fastervpn.world
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: update
-  name: 6|[VLESS] sgSG_2|1.1MB/s
-  network: grpc
-  port: 10037
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: sg2-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: A537EA13-778F-4967-953F-EE29617B8E55
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] sgSG_3|2.1MB/s
-  network: ws
-  port: 16618
-  server: planb.mojcn.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 881da2de-238e-425e-a7e7-389f4842e545
-  ws-opts:
-    headers:
-      Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
-    path: /
+- down: ''
+  fingerprint: ''
+  name: 6|[Hysteria2] 🔴sg[🎬🤖📺🔍]_github.com/Ruk1ng001...
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-sg-003.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-sg-003.fastervpn.world
+  type: hysteria2
+  up: ''
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] sgSG²_1|2.4MB/s|X|History

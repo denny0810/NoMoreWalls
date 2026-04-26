@@ -1,5 +1,5 @@
 proxies:
-- name: 4,5|[Trojan] 新加坡|@ripaojiedian
+- name: 3,4|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
   port: 3057
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 新加坡2|@ripaojiedian
+- name: 3,4|[Trojan] 新加坡2|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
   port: 32876
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 新加坡3|@ripaojiedian
+- name: 3,4|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 30726
@@ -24,7 +24,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-128-gcm
-  name: 6|[SS] sgSG_1|1.5MB/s
+  name: 5|[SS] sgSG_1|1.3MB/s
   password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
   plugin: v2ray-plugin
   plugin-opts:
@@ -37,27 +37,45 @@ proxies:
   server: cf.cloudflare.182682.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] sgSG_2|2.2MB/s
+- client-fingerprint: random
+  encryption: none
+  name: 5|[VLESS] sgSG_2|1.7MB/s
   network: ws
-  port: 16618
-  server: m.cnmjin.net
-  type: vmess
+  port: 443
+  server: ct.877774.xyz
+  servername: do-sgp1.862400.xyz
+  tls: true
+  type: vless
   udp: true
-  uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
+  uuid: 3ae99729-5326-4f70-937d-fcdc6910f9c7
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: do-sgp1.862400.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    max-early-data: 2048
+    path: /announcement
+  xudp: true
+- name: 5|[Trojan] sgSG_3|1.0MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 172.64.152.23
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   ws-opts:
     headers:
-      Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
-    path: /
+      Host: Koma-YT.PAGeS.Dev
+    path: /tr
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  name: 7|[SS] sgSG²_1|2.4MB/s|X|History
+  name: 6|[SS] sgSG²_1|2.4MB/s|X|History
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.16
   type: ss
-- name: 9|[VLESS] SG_speednode_0129
+- name: 8|[VLESS] SG_speednode_0129
   network: ws
   port: 443
   server: 8.223.63.189
@@ -71,7 +89,7 @@ proxies:
     headers:
       Host: sni.111000.v6.rocks
     path: /?ed=2560
-- name: 9|[VLESS] SG_speednode_0130
+- name: 8|[VLESS] SG_speednode_0130
   network: ws
   port: 443
   server: 83.147.252.92
@@ -85,7 +103,7 @@ proxies:
     headers:
       Host: sni.111000.v6.rocks
     path: /?ed=2560
-- name: 9|[VLESS] SG_speednode_0131
+- name: 8|[VLESS] SG_speednode_0131
   network: ws
   port: 443
   server: 83.147.252.227
@@ -99,7 +117,7 @@ proxies:
     headers:
       Host: sni.111000.v6.rocks
     path: /?ed=2560
-- name: 9|[VLESS] SG_speednode_0132
+- name: 8|[VLESS] SG_speednode_0132
   network: ws
   port: 443
   server: 83.147.254.14
@@ -113,7 +131,7 @@ proxies:
     headers:
       Host: sni.111000.v6.rocks
     path: /?ed=2560
-- name: 9|[VLESS] SG_speednode_0133
+- name: 8|[VLESS] SG_speednode_0133
   network: ws
   port: 443
   server: 83.147.254.238

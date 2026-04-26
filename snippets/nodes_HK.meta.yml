@@ -50,15 +50,27 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- disable-sni: true
+  down: ''
+  fingerprint: ''
+  name: 6|[Hysteria2] hkHK_1|1.6MB/s
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 813fbbe3-4679-4a7f-afd3-c2e5319b5e3b
+  port: 40000
+  server: hk-aws-15.hi2026.net
+  skip-cert-verify: true
+  sni: ''
+  type: hysteria2
+  up: ''
 - alterId: 0
   cipher: auto
-  name: 6|[Vmess] hkHK_1|1.0MB/s
-  network: ws
-  port: 16622
-  server: m.cnmjin.net
+  name: 6|[Vmess] hkHK_2|1.1MB/s
+  network: tcp
+  port: 7754
+  server: efan.dnsefan04881.com
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
-  ws-opts:
-    headers:
-      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
-    path: /
+  udp: true
+  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30

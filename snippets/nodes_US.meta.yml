@@ -23,67 +23,57 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- down: ''
-  fingerprint: ''
-  name: 6|[Hysteria2] usUS_1|1.2MB/s|1.0MB/s|1.1MB/s
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-002.fastervpn.world
-  type: hysteria2
-  up: ''
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] usUS_1|1.4MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 6|[VLESS] usUS_2|1.3MB/s
-  network: ws
-  port: 8880
-  server: 181.214.1.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime39.workers.dev
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- down: ''
-  fingerprint: ''
-  name: '6|[Hysteria2] B - us US 09 TG: @nodpai|1.7MB...'
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-005.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-005.fastervpn.world
-  type: hysteria2
-  up: ''
-- name: 6|[Hysteria2] usUS_4|2.1MB/s
+- name: 6|[Hysteria2] usUS_1|1.2MB/s
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: vpn-us-001.fastervpn.world
   skip-cert-verify: true
   sni: vpn-us-001.fastervpn.world
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] usUS_2|1.0MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 6|[Hysteria2] usUS_3|2.0MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-003.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-003.fastervpn.world
+  type: hysteria2
+- name: 6|[Hysteria2] us 美国-C09D43B4|2.1MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-004.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-004.fastervpn.world
+  tfo: false
+  type: hysteria2
+- name: 6|[Hysteria2] usUS_4|1.3MB/s
+  obfs: salamander
+  obfs-password: OrT7yQQIMqcvKdet
+  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  port: 443
+  server: usa-hy2.onetaplink.app
+  skip-cert-verify: false
+  sni: hy2-usa.onetaplink.app
+  tfo: false
+  type: hysteria2
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 6|[VLESS] us 美国-9FC1C193|1.4MB/s
+  name: 6|[VLESS] usUS_5|1.1MB/s
   network: ws
-  port: 39738
-  server: 38.244.5.139
-  servername: ynwta9.api-edge.fgfw.qzz.io
+  port: 443
+  server: 34.219.244.174
+  servername: mug.support.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -93,21 +83,9 @@ proxies:
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
+      Host: mug.support.gfw.hidns.co
     max-early-data: 2560
     path: /danfeng
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] usUS_6|1.7MB/s
-  network: raw
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

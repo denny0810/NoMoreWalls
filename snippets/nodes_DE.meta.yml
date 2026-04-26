@@ -1,72 +1,50 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 6|[Vmess] deDE_1|1.1MB/s
-  network: http
-  port: 80
-  server: 77.90.11.178
-  tls: false
-  type: vmess
-  uuid: b3cdfe2d-5eac-4b0d-a8eb-d3f6a647e13f
-- name: 6|[Hysteria2] deDE_2|1.8MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 12855
-  server: 83.243.86.103
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tfo: false
-  type: hysteria2
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] deDE_3|1.1MB/s
-  network: tcp
-  port: 52006
-  server: 178.72.181.87
-  servername: cluster-de-2.firstvideocdn.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75807638-6f19-01f4-ae08-38492ee85c88
-  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 6|[VLESS] deDE_4|1.1MB/s
-  network: xhttp
-  port: 22443
+  grpc-opts:
+    grpc-service-name: secure
+  name: 6|[VLESS] deDE_1|1.5MB/s
+  network: grpc
+  port: 443
   reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: '!!str 31'
-  server: 45.15.147.22
-  servername: s3.yandex.net
+    public-key: A4j57sDAA97uICmt2HhAW7PWMaV39gE6jy_VokhmI1k
+    short-id: '!!str 7c08356a875ff541'
+  server: 64.188.91.223
+  servername: germany3.nbbconnect.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: c603d9a2-a89a-4b62-ac96-346d3b52620c
-  xhttp-opts:
-    mode: stream-one
-    path: /assets/v2/pkg
+  uuid: 1becdc51-1b1a-4fb5-bbfb-06433b3f9dec
   xudp: true
-- name: 9|[VLESS] DE_speednode_0058
-  network: ws
-  port: 8443
-  server: 193.23.219.205
-  servername: sni.latonyamadeline.ndjp.net
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 9|[VLESS] DE_speednode_0035
+  port: 443
+  reality-opts:
+    public-key: fN3l3mYSDO44IWNPHWOQo2JMUw2isUGoOqrS6hCFfBQ
+    short-id: '!!str d1f93724859d75ac'
+  server: pl2-gws4.onnstreaming.ru
+  servername: pl2-gws4.onnstreaming.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
+- name: 9|[Trojan] DE_speednode_0036
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 193.23.218.192
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: sni.latonyamadeline.ndjp.net
-    path: /?ed=2560
-- name: 9|[Trojan] DE_speednode_0059
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: 9|[Trojan] DE_speednode_0037
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -79,53 +57,11 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 9|[VLESS] DE_speednode_0060
-  port: 443
-  reality-opts:
-    public-key: fN3l3mYSDO44IWNPHWOQo2JMUw2isUGoOqrS6hCFfBQ
-    short-id: '!!str d1f93724859d75ac'
-  server: pl2-gws4.onnstreaming.ru
-  servername: pl2-gws4.onnstreaming.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
-- name: 9|[VLESS] DE_speednode_0061
-  network: ws
-  port: 443
-  server: 193.23.200.38
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: 9|[VLESS] DE_speednode_0062
-  network: ws
-  port: 44406
-  server: 194.107.126.20
-  servername: sni.latonyamadeline.ndjp.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-    path: /?ed=2560
-- name: 9|[Trojan] DE_speednode_0063
+- name: 9|[Trojan] DE_speednode_0038
   network: ws
   password: '!!str 1234567890'
   port: 443
-  server: 87.251.88.215
+  server: 185.219.84.221
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
@@ -134,20 +70,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 9|[Trojan] DE_speednode_0064
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 185.65.202.222
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 9|[Trojan] DE_speednode_0065
+- name: 9|[Trojan] DE_speednode_0039
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -160,3 +83,69 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
+- name: 9|[Trojan] DE_speednode_0040
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 202.61.195.167
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: 9|[Trojan] DE_speednode_0041
+  network: ws
+  password: '!!str 1234567890'
+  port: 8443
+  server: 194.164.198.156
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: 9|[Trojan] DE_speednode_0042
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 185.219.84.221
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: 9|[Trojan] DE_speednode_0043
+  network: ws
+  password: '!!str 1234567890'
+  port: 2053
+  server: 202.61.226.121
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: 9|[VLESS] DE_speednode_0044
+  network: ws
+  port: 443
+  server: srv190.towersflowerss.com
+  servername: srv190.towersflowerss.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
+  ws-opts:
+    headers:
+      Host: srv190.towersflowerss.com
+    path: /

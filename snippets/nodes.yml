@@ -359,6 +359,12 @@ proxies:
   port: 38388
   server: 103.186.155.16
   type: ss
+- cipher: aes-256-gcm
+  name: 8|[SS] SS节点-ipv6
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 11111
+  server: 2a14:7584:d118::d
+  type: ss
 - alterId: 0
   cipher: auto
   name: 8|[Vmess] vmess-ipv6
@@ -373,12 +379,6 @@ proxies:
     headers:
       Host: ''
     path: /github.com/Alvin9999-newpac/fanqiang
-- cipher: aes-256-gcm
-  name: 8|[SS] SS节点-ipv6
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 11111
-  server: 2a14:7584:d118::d
-  type: ss
 - name: 9|[Trojan] AT_speednode_0001
   network: ws
   password: '1234567890'

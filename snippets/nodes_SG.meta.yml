@@ -23,8 +23,24 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] sgSG_1|1.4MB/s
+  network: ws
+  port: 16618
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 87b04f1c-cd5f-43b0-a385-e9712f7a3db5
+  ws-opts:
+    headers:
+      Host: c4459e1e5ab171d4aecf29bb98f5e420.mobgslb.tbcache.com
+    path: /
+  xudp: true
 - cipher: aes-128-gcm
-  name: 6|[SS] sgSG_1|1.9MB/s
+  name: 6|[SS] sgSG_2|2.1MB/s
   password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
   plugin: v2ray-plugin
   plugin-opts:
@@ -34,40 +50,56 @@ proxies:
     path: /?enc\=aes-128-gcm
     tls: true
   port: 443
-  server: cmcc.090227.xyz
+  server: cdn.31514926.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] sgSG_2|1.6MB/s
+- name: 6|[Trojan] sgSG_3|1.6MB/s
   network: ws
-  port: 16618
-  server: t.cnmjcn.cyou
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 172.64.152.23
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   ws-opts:
     headers:
-      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] sgSG_3|2.4MB/s
+      Host: Koma-YT.PAGeS.Dev
+    path: /tr
+- client-fingerprint: chrome
+  name: 6|[Trojan] sgSG_4|2.5MB/s
   network: ws
-  port: 16618
-  server: planb.mojcn.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 172.64.149.54
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   udp: true
-  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
   ws-opts:
     headers:
-      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
-    path: /
-  xudp: true
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /tr
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] sgSG_5|1.3MB/s
+  network: ws
+  port: 27017
+  server: 119.196.39.18
+  servername: mug.support.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: mug.support.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] sgSG²_1|2.4MB/s|X|History

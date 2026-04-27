@@ -1,22 +1,10 @@
 proxies:
-- name: 6,9|[Trojan] IQ_speednode_0066
+- client-fingerprint: chrome
+  name: 6|[Trojan] deDE_1|1.0MB/s
   network: ws
   password: '!!str 1234567890'
   port: 443
-  server: 178.17.48.170
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /
-- name: 6|[Trojan] deDE_2|1.1MB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 138.124.32.121
+  server: 152.53.236.205
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
@@ -24,43 +12,25 @@ proxies:
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: kfm-bn0.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
     max-early-data: 2560
     path: /
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 6|[Trojan] deDE_3|1.0MB/s
+- client-fingerprint: chrome
+  name: 6|[Trojan] deDE_3|1.1MB/s
   network: ws
-  password: mSzFVhUczD
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 104.20.6.134
-  skip-cert-verify: false
-  sni: abest.api-tel.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-        Gecko) Chrome/26.0.1410.64 Safari/537.31
-    path: /
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 6|[Trojan] deDE_6|1.6MB/s
-  network: ws
-  password: mSzFVhUczD
-  port: 443
-  server: 104.20.5.134
-  skip-cert-verify: false
-  sni: abest.api-tel.xyz
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /tr
 - name: 9|[Trojan] DE_speednode_0036
   network: ws
   password: '!!str 1234567890'

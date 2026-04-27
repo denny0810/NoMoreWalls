@@ -2,29 +2,29 @@ proxies:
 - name: 4,5|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3122
-  server: 18.183.73.62
+  port: 3357
+  server: 18.181.191.24
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 4,5|[Trojan] 日本2|@ripaojiedian
+- name: 4,5|[Trojan] 日本3|@ripaojiedian
   network: tcp
-  password: 1774240c00db2b77d5a99f6540c47b69
+  password: 69ecb45889d99f31b8ccc10bf8f76a72
   port: 2001
-  server: 18.183.73.62
+  server: 52.197.216.139
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 日本3|@ripaojiedian
+- name: 4,5|[Trojan] 日本2|@ripaojiedian
   network: tcp
-  password: 1774240c00db2b77d5a99f6540c47b69
+  password: 69ecb45889d99f31b8ccc10bf8f76a72
   port: 9201
-  server: 18.183.73.62
+  server: 43.198.79.128
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - cipher: aes-128-gcm
-  name: 6|[SS] jpJP_1|1.2MB/s
+  name: 6|[SS] jpJP_1|1.7MB/s
   password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
   plugin: v2ray-plugin
   plugin-opts:
@@ -38,7 +38,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 6|[SS] jpJP_2|2.1MB/s
+  name: 6|[SS] jpJP_2|1.2MB/s
   password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
   plugin: v2ray-plugin
   plugin-opts:
@@ -47,7 +47,53 @@ proxies:
     mux: false
     path: /?enc\=aes-128-gcm
     tls: true
-  port: 2083
-  server: 54.199.22.197
+  port: 443
+  server: freeyx.cloudflare88.eu.org
   type: ss
   udp: true
+- cipher: aes-128-gcm
+  name: 6|[SS] jpJP_3|1.7MB/s
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: aoe.o.eoa.ccwu.cc
+    mode: websocket
+    mux: false
+    path: /?enc\=aes-128-gcm
+    tls: true
+  port: 443
+  server: cdn.31514926.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] jpJP_4|3.3MB/s
+  network: ws
+  port: 2053
+  server: 162.159.44.66
+  servername: fu.baiproxy.us.ci
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: fu.baiproxy.us.ci
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 6|[Hysteria2] 🔴jp[🎬🤖📺🔍]_github.com/Ruk1ng001...
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-004.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-004.fastervpn.world
+  type: hysteria2
+  up: ''

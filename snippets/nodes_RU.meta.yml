@@ -1,4 +1,18 @@
 proxies:
+- name: 6|[VLESS] ruRU_1|1.5MB/s
+  network: ws
+  port: 7000
+  server: st.xbs54as9c6.ru
+  type: vless
+  udp: true
+  uuid: 75356919-6ece-455c-ba7a-9f042a60d2c5
+  ws-opts:
+    headers:
+      Host: market.yandex.ru
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /stream
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 9|[VLESS] RU_speednode_0086

@@ -23,179 +23,79 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 6|[Hysteria2] usUS_1|1.1MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-004.fastervpn.world
-  tfo: false
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] usUS_2|1.1MB/s
+- alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] usUS_1|1.8MB/s
   network: tcp
-  port: 52335
-  reality-opts:
-    public-key: lwhFlU5V70GDf5OKTFeIAPC5uMKfvlGb3Y6nE-MmRmI
-    short-id: '!!str 72'
-  server: 85.209.153.60
-  servername: www.deepl.com
-  tls: true
-  type: vless
-  uuid: 6ec3c298-1058-43bd-81e3-54b155c4ae21
-- name: 6|[Hysteria2] usUS_3|2.0MB/s|1.7MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-003.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-003.fastervpn.world
-  type: hysteria2
-- name: 6|[VLESS] usUS_3|1.6MB/s
-  network: ws
-  port: 8880
-  server: 192.200.160.50
-  servername: vms.lifetime43.workers.dev
+  port: 180
+  server: 82.198.246.37
   skip-cert-verify: false
   tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] usUS_2|1.6MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] usUS_3|1.3MB/s
+  network: tcp
+  port: 29709
+  server: 216.167.126.14
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: c19c51e3-11ff-4f1c-92c6-200784acd4fc
+- name: 6|[VLESS] usUS_4|1.6MB/s
+  network: ws
+  port: 8880
+  server: 216.24.57.201
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: www.udemy.com.joss.jak.biz.id
+    path: /Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 6|[VLESS] usUS_5|1.1MB/s
+  network: ws
+  port: 8880
+  server: 92.53.190.201
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: www.udemy.com.joss.jak.biz.id
+    path: /Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2🇨🇳
+- encryption: none
+  name: 6|[VLESS] usUS_6|2.5MB/s
+  network: ws
+  port: 80
+  server: 104.16.63.239
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 04969b01-ac6a-4056-b5cd-852ccf45f100
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: vms.lifetime43.workers.dev
-    max-early-data: 2560
+      Host: netherlands.vipserver14.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.110 Safari/537.36
+    max-early-data: 2048
     path: /
-- alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] usUS_6|1.2MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
-- name: 6|[VLESS] usUS_5|1.0MB/s
-  network: ws
-  port: 8880
-  server: 192.200.160.50
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime43.workers.dev
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] usUS_7|1016KB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- client-fingerprint: qq
-  encryption: none
-  grpc-opts:
-    grpc-service-name: UpdateService
-  name: 6|[VLESS] usUS_8|1.6MB/s
-  network: grpc
-  port: 2083
-  reality-opts:
-    public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
-    short-id: '!!str 6da16b1335651b38'
-  server: us2.appav.net
-  servername: barclays.co.uk
-  tls: true
-  type: vless
-  udp: true
-  uuid: b345f1db-e3ac-41c2-b1fa-d7f28d3a49c9
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 6|[VLESS] usUS_9|1.8MB/s
-  network: tcp
-  port: 9443
-  reality-opts:
-    public-key: p75gT6zCDyjl0mx_idUuXC-5pv-d_XfRB1IOkd3t-x4
-    short-id: '!!str 406b12590e157047'
-  server: us.convert24.ru
-  servername: www.bing.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 67d3388c-f5cf-0005-9a13-c3c13d459cc0
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] usUS_10|1.0MB/s
-  network: tcp
-  port: 10920
-  server: 156.236.76.85
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0902d6db-11d9-4d5d-e260-116796ecd58c
-- name: 6|[Hysteria2] usUS_11|1.7MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-016.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-016.fastervpn.world
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] usUS_12|2.0MB/s
-  network: tcp
-  port: 57138
-  server: 216.167.46.226
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b18ae1c7-b9ef-433c-ebd0-36bb9c62cf86
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] us 美国-C3070C05|1.1MB/s
-  network: ws
-  port: 39738
-  server: 38.244.5.218
-  servername: mug.support.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: mug.support.gfw.hidns.co
-    max-early-data: 2560
-    path: /danfeng
-- name: 6|[Hysteria2] usUS_13|2.0MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-021.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-021.fastervpn.world
-  type: hysteria2
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

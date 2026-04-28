@@ -23,46 +23,29 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] usUS_1|1.1MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 2
-  cipher: auto
-  name: 6|[Vmess] usUS_2|1017KB/s
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- encryption: none
+  name: 6|[VLESS] usUS_1|1.1MB/s
+  network: ws
+  port: 8880
+  server: africa.visa.com
+  type: vless
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 5b002005-7fb1-413e-8cbd-08e50c87c2ea
+  ws-opts:
+    headers:
+      Host: wetfleagidc-8tsbi8xd-v3.wet-flea-gidc.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    path: /?ed=2560Join---V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz
   xudp: true
-- name: 6|[Hysteria2] usUS_3|1.1MB/s
-  obfs: salamander
-  obfs-password: ODczNTFlNmQ0YWVlZGUzOQ==
-  password: bc989a09-5419-4985-909e-5e5c6501f314
-  port: 36002
-  server: 81.31.232.60
-  skip-cert-verify: true
-  sni: hk1.zongyunti.site
-  tfo: false
-  type: hysteria2
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 6|[VLESS] usUS_4|1.1MB/s
+  name: 6|[VLESS] usUS_2|1.2MB/s
   network: ws
-  port: 39738
-  server: 38.244.5.229
+  port: 443
+  server: 89.208.254.23
   servername: mug.support.gfw.hidns.co
   skip-cert-verify: false
   tfo: false

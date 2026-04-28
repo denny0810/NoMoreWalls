@@ -1,45 +1,15 @@
 proxies:
-- name: 6|[Hysteria2] gb 英国-FF75EC41|1.8MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-uk-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-uk-002.fastervpn.world
-  tfo: false
-  type: hysteria2
 - client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] gbGB_1|1.2MB/s
-  network: ws
+  flow: xtls-rprx-vision
+  name: 9|[VLESS] GB_speednode_0008
   port: 443
-  server: 64.176.180.194
-  servername: mug.support.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: mug.support.gfw.hidns.co
-    max-early-data: 2560
-    path: /danfeng
-- name: 6|[VLESS] gbGB_2|2.1MB/s
-  network: ws
-  port: 10001
-  server: 212.135.36.177
-  servername: v-twb3pri554n5bp5vfep.mikuru.ip-ddns.com
+  reality-opts:
+    public-key: I-ltGSV73Fd08VfuP_XZ-mAAb2ZE3Ag4a_8ftaX0bz0
+    short-id: '!!str fe28038a'
+  server: gr-1.illusion-proxy.ru
+  servername: gr-1.illusion-proxy.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: v-twb3pri554n5bp5vfep.mikuru.ip-ddns.com
-    path: /%40Marisa_kristi
-  xudp: true
+  uuid: bf263367-bb63-4663-b4a1-34946107a72e

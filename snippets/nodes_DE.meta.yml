@@ -1,57 +1,92 @@
 proxies:
 - client-fingerprint: chrome
-  name: 6|[Trojan] deDE_1|1.0MB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 152.53.236.205
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    max-early-data: 2560
-    path: /
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: firefox
-  encryption: none
-  name: 6|[VLESS] deDE_2|1.5MB/s
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] deDE_1|2.0MB/s
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
+    short-id: '!!str 2344766a270a6298'
+  server: 159.195.82.187
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
+- name: 6|[VLESS] deDE_2|1.6MB/s
   network: ws
   port: 2083
-  server: 104.20.6.134
+  server: xn-dns.onlineblog.ir
   servername: xn-de.shakhle.ir.
   tls: true
   type: vless
-  udp: true
   uuid: b24484be-a335-472c-8dff-060ccd2b8f3b
   ws-opts:
     headers:
       Host: xn-de.shakhle.ir.
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/46.0.2490.71 Safari/537.36
     path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 6|[Trojan] deDE_3|1.1MB/s
+- name: 6|[VLESS] deDE_3|1.0MB/s
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 104.20.6.134
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
+  port: 8443
+  server: 77.110.103.243
+  servername: support.zoom.us.joss.jak.biz.id
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /tr
+      Host: support.zoom.us.joss.jak.biz.id
+    path: /Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 6|[VLESS] deDE_4|1.6MB/s
+  network: ws
+  port: 8443
+  server: 62.60.151.252
+  servername: santong.joss.jak.biz.id
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: santong.joss.jak.biz.id
+    path: /Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 6|[VLESS] deDE_5|1.3MB/s
+  network: ws
+  port: 443
+  server: 85.192.31.252
+  servername: santong.joss.jak.biz.id
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: santong.joss.jak.biz.id
+    path: /Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 6|[VLESS] deDE_6|1.3MB/s
+  network: ws
+  port: 443
+  server: 193.232.178.63
+  servername: santong.joss.jak.biz.id
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: santong.joss.jak.biz.id
+    path: /Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2🇨🇳
+- encryption: none
+  name: 6|[VLESS] deDE_7|1.2MB/s
+  network: ws
+  port: 80
+  server: 104.20.5.134
+  type: vless
+  udp: true
+  uuid: fc53bae5-92f5-4572-9ce8-9e56901479f1
+  ws-opts:
+    headers:
+      Host: 尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞3亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/32.0.1700.107 Safari/537.36
+    path: /amo-mohammad
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 9|[VLESS] DE_speednode_0035

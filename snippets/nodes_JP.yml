@@ -2,66 +2,38 @@ proxies:
 - name: 4,5|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3357
-  server: 18.181.191.24
+  port: 1951
+  server: 54.249.198.171
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 4,5|[Trojan] 日本3|@ripaojiedian
-  network: tcp
-  password: 69ecb45889d99f31b8ccc10bf8f76a72
-  port: 2001
-  server: 52.197.216.139
-  skip-cert-verify: false
-  sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: 69ecb45889d99f31b8ccc10bf8f76a72
-  port: 9201
-  server: 43.198.79.128
+  port: 4380
+  server: 52.197.180.134
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- cipher: aes-128-gcm
-  name: 6|[SS] jpJP_1|2.5MB/s
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: aoe.o.eoa.ccwu.cc
-    mode: websocket
-    mux: false
-    path: /?enc\=aes-128-gcm
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: yg2.ygkkk.dpdns.org
-  type: ss
-- cipher: aes-128-gcm
-  name: 6|[SS] jpJP_2|3.1MB/s
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: aoe.o.eoa.ccwu.cc
-    mode: websocket
-    mux: false
-    path: /?enc\=aes-128-gcm
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: cf.tencentapp.cn
-  type: ss
-- cipher: aes-128-gcm
-  name: 6|[SS] jpJP_3|2.1MB/s
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: aoe.o.eoa.ccwu.cc
-    mode: websocket
-    mux: false
-    path: /?enc\=aes-128-gcm
-    tls: true
-  port: 443
-  server: freeyx.cloudflare88.eu.org
-  type: ss
-  udp: true
+- name: 4,5|[Trojan] 日本3|@ripaojiedian
+  network: tcp
+  password: 69ecb45889d99f31b8ccc10bf8f76a72
+  port: 4380
+  server: 57.180.240.230
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] jpJP_1|1.5MB/s
+  network: ws
+  port: 22013
+  server: 76c3.earthdraft.onezz.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 7d81d7ed-03f4-331a-ab0d-e9a7425f05e0
+  ws-opts:
+    headers:
+      Host: ithome.com
+    path: /chat

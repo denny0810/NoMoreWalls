@@ -1,4 +1,16 @@
 proxies:
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 6|[TUIC] gbGB_1|1.9MB/s
+  password: strong-secret-pass-777
+  port: 50043
+  server: 45.140.167.209
+  skip-cert-verify: true
+  type: tuic
+  udp-relay-mode: native
+  uuid: e033ef6e-ab4b-47d4-a523-ff568d2c8dbb
+  version: 5
 - name: 9|[Trojan] GB_speednode_0052
   network: ws
   password: '!!str 1234567890'

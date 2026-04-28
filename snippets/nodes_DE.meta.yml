@@ -1,4 +1,33 @@
 proxies:
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 6|[Hysteria2] deDE_1|1.8MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-de-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-de-001.fastervpn.world
+  type: hysteria2
+- alpn:
+  - h3
+  - h2
+  client-fingerprint: firefox
+  encryption: none
+  name: 6|[VLESS] deDE_2|1.1MB/s
+  network: ws
+  port: 2083
+  server: 104.20.6.134
+  servername: xn-de.shakhle.ir.
+  tls: true
+  type: vless
+  udp: true
+  uuid: b24484be-a335-472c-8dff-060ccd2b8f3b
+  ws-opts:
+    headers:
+      Host: xn-de.shakhle.ir.
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 9|[VLESS] DE_speednode_0005

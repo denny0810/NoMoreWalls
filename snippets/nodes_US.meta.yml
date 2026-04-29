@@ -42,52 +42,58 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] usUS_1|1.1MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: OEZ3C-1OCSYBikqcWudtPP3PpQq2RAI7rFPxWoTCDSc
-    short-id: '!!str bffe9292'
-  server: 132.226.147.10
-  servername: musicstatus.tv.apple.com
+- name: 6|[VLESS] usUS_1|1.1MB/s
+  network: ws
+  port: 2053
+  server: 142.248.219.48
+  servername: subsources.pages.dev
   tls: true
   type: vless
   udp: true
-  uuid: 4749475d-3a47-4175-a934-92e247127ed7
-- name: 6|[Http] usUS_2|1.1MB/s
-  password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
-  port: 443
-  server: 49d2c279-te9j40-tfpmu9-1m0fq.sj.hyhuawei.com
-  sni: 49d2c279-te9j40-tfpmu9-1m0fq.sj.hyhuawei.com
-  tls: true
-  type: http
-  username: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
+  uuid: 6d1dfcdf-f221-4765-b104-30216a977914
+  ws-opts:
+    headers:
+      Host: subsources.pages.dev
+    path: /?ed=2560fp=random
+- encryption: none
+  name: 6|[VLESS] usUS_2|1.3MB/s
+  network: ws
+  port: 52573
+  server: 154.64.238.106
+  type: vless
+  udp: true
+  uuid: 47875ae5-09bb-4d6c-c212-4ced5fa8d1ee
+  ws-opts:
+    headers:
+      Host: 154.64.238.106
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /
+  xudp: true
 - down: ''
   fingerprint: ''
-  name: 6|[Hysteria2] usUS_3|1.7MB/s
+  name: 6|[Hysteria2] usUS_3|1.8MB/s
   obfs: ''
   obfs-password: ''
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: vpn-us-006.fastervpn.world
+  server: vpn-us-004.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-us-006.fastervpn.world
+  sni: vpn-us-004.fastervpn.world
   type: hysteria2
   up: ''
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] usUS_4|1.1MB/s
-  network: raw
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
+- down: ''
+  fingerprint: ''
+  name: '6|[Hysteria2] B - us US 20 TG: @nodpai|2.1MB...'
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-003.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-003.fastervpn.world
+  type: hysteria2
+  up: ''
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

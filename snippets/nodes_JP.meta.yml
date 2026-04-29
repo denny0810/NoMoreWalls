@@ -23,29 +23,58 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: 6|[Trojan] jpJP_1|3.3MB/s
+- client-fingerprint: ios
+  encryption: none
+  name: 6|[VLESS] jpJP_1|1.3MB/s
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 17081
-  server: 176.119.148.212
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+  port: 36008
+  server: 147.79.20.221
+  servername: v-twb3pri554n5bp5vfep.mikuru.ip-ddns.com
+  tls: true
+  type: vless
   udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
+      Host: v-twb3pri554n5bp5vfep.mikuru.ip-ddns.com
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
+        like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] jpJP_2|1.7MB/s
+  network: ws
+  port: 8082
+  server: 103.117.102.220
+  servername: kt58ndxywnrrgg.majusti.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: kt58ndxywnrrgg.majusti.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.101 Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- name: 6|[Hysteria2] jpJP_3|2.3MB/s
+  password: f8af73ed-363a-4dfb-b99f-65bd8ad1a329
+  port: 6533
+  server: jpaws.ccwink.photos
+  skip-cert-verify: true
+  sni: jpdigital.ccwink.cc
+  tfo: false
+  type: hysteria2
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 6|[VLESS] jpJP_2|1.0MB/s
+  name: 6|[VLESS] jpJP_4|1.7MB/s
   network: ws
-  port: 19597
-  server: 185.239.224.106
+  port: 443
+  server: 38.47.126.48
   servername: mug.support.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -59,34 +88,6 @@ proxies:
       Host: mug.support.gfw.hidns.co
     max-early-data: 2560
     path: /danfeng
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 6|[Hysteria2] jpJP_3|1.7MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-jp-016.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-jp-016.fastervpn.world
-  type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 6|[VLESS] jpJP_4|2.2MB/s
-  network: tcp
-  port: 39975
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-    short-id: '!!str '
-  server: 116.80.58.239
-  servername: cloudcircus.jp
-  tls: true
-  type: vless
-  udp: true
-  uuid: 15b84012-d261-4b4c-807a-061bb4a901fd
-  xudp: true
 - client-fingerprint: random
   name: 9|[VLESS] JP_speednode_0010
   network: ws

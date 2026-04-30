@@ -23,15 +23,74 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 6|[Anytls] jpJP_1|1.6MB/s
-  password: a003db5a-3b24-4f4d-ada8-80bb4e4bf1f6
-  port: 443
-  server: aws-linkjp6.hellomoon.sbs
+- name: 6|[Trojan] jpJP_1|3.2MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 140.235.37.69
   skip-cert-verify: true
-  sni: www.apple.com.cn
-  type: anytls
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: firefox
+  name: 6|[VLESS] jpJP_2|1.0MB/s
+  network: ws
+  port: 443
+  server: cf.008500.xyz
+  servername: vless.lrdxw.club
+  tls: true
+  type: vless
   udp: true
-  xudp: true
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vless.lrdxw.club
+    max-early-data: 2560
+    path: /
+- client-fingerprint: firefox
+  name: 6|[VLESS] jpJP_3|1.1MB/s
+  network: ws
+  port: 443
+  server: sub.danfeng.eu.org
+  servername: vless.lrdxw.club
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vless.lrdxw.club
+    max-early-data: 2560
+    path: /
+- name: 6|[Hysteria2] 🔴jp[🎬🤖📺🔍]_github.com/Ruk1ng001...
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-018.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-018.fastervpn.world
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 6|[Trojan] jpJP_4|2.1MB/s
+  network: ws
+  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  port: 443
+  server: cf.008500.xyz
+  skip-cert-verify: true
+  sni: vless.lrdxw.club
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    max-early-data: 2560
+    path: /
 - client-fingerprint: random
   name: 9|[VLESS] JP_speednode_0010
   network: ws

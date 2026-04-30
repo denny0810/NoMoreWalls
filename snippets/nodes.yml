@@ -150,7 +150,13 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 6|[Trojan] sgSG_1|3.3MB/s
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] nlNL_1|1.1MB/s
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.146
+  type: ss
+- name: 6|[Trojan] sgSG_1|1.4MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2096
@@ -161,76 +167,108 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /tr
-- name: 6|[Trojan] usUS_1|1.8MB/s
+- name: 6|[Trojan] jpJP_1|3.2MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 172.66.44.230
-  skip-cert-verify: false
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/55.0.2883.87 Safari/537.36
-    max-early-data: 2560
-    path: /tro8sFW1S91B6sZrM1
-- name: 6|[Trojan] hkHK_4|2.2MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 43.168.16.112
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 6|[Trojan] usUS_3|1.3MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 194.59.5.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Chrome/12.0.742.100 Safari/534.30
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 6|[Trojan] sgSG_2|2.3MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 172.64.147.106
+  server: 140.235.37.69
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /tr
-- name: 6|[Trojan] sgSG_4|1.5MB/s
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 6|[Trojan] deDE_1|1.8MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 172.64.149.54
-  skip-cert-verify: false
+  port: 443
+  server: 89.167.100.106
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 6|[Trojan] krKR_1|1.6MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 30019
+  server: 210.99.119.3
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- disable-sni: true
+  name: 6|[Trojan] kr 韩国-3A2154BF|1.2MB/s
+  network: tcp
+  password: dc17386d-4383-49f8-b11c-d9ea04ca2f7f
+  port: 28808
+  server: svip-hg.xiaobaivpn.icu
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+- disable-sni: true
+  name: 6|[Trojan] kr 韩国-780A125B|1.2MB/s
+  network: tcp
+  password: dc17386d-4383-49f8-b11c-d9ea04ca2f7f
+  port: 28809
+  server: svip-hg.xiaobaivpn.icu
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+- name: 6|[Trojan] jpJP_4|2.1MB/s
+  network: ws
+  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  port: 443
+  server: cf.008500.xyz
+  skip-cert-verify: true
+  sni: vless.lrdxw.club
   type: trojan
   udp: true
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /tr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    max-early-data: 2560
+    path: /
+- name: 6|[Trojan] sgSG_5|1.4MB/s
+  network: ws
+  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  port: 443
+  server: cdns.doon.eu.org
+  skip-cert-verify: true
+  sni: vless.lrdxw.club
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    max-early-data: 2560
+    path: /
+- name: 6|[Trojan] [OpenRay] Dynamic-17370|1.6MB/...
+  network: ws
+  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  port: 443
+  server: cf.zhetengsha.eu.org
+  skip-cert-verify: true
+  sni: vless.lrdxw.club
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    max-early-data: 2560
+    path: /
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

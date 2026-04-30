@@ -23,7 +23,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 6|[Trojan] sgSG_1|3.3MB/s
+- name: 6|[Trojan] sgSG_1|1.4MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2096
@@ -34,28 +34,11 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /tr
-- name: 6|[Trojan] sgSG_2|2.3MB/s
+- client-fingerprint: chrome
+  name: 6|[VLESS] sgSG_2|1.0MB/s
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
   port: 2096
-  server: 172.64.147.106
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /tr
-- alpn:
-  - 'http/1.1
-
-    '
-  client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] sgSG_3|2.6MB/s
-  network: ws
-  port: 443
-  server: 64.186.254.41
+  server: cf9.danfeng.eu.org
   servername: ltaeqp.cdn-assets.fgfw.indevs.in
   tls: true
   type: vless
@@ -65,52 +48,73 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: ltaeqp.cdn-assets.fgfw.indevs.in
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
     max-early-data: 2560
     path: /danfeng
+- client-fingerprint: chrome
+  name: 6|[VLESS] sgSG_3|1.1MB/s
+  network: ws
+  port: 443
+  server: store.ubi.com
+  servername: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: '6|[VLESS] B - sg SG 06 TG: @nodpai|3.6MB...'
+  network: ws
+  port: 443
+  server: cf.090227.xyz
+  servername: 177-e06.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 177-e06.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /fp=chrome
   xudp: true
 - client-fingerprint: chrome
-  name: 6|[Trojan] sgSG_4|1.5MB/s
+  name: 6|[VLESS] sgSG_4|2.4MB/s
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 172.64.149.54
-  skip-cert-verify: false
-  sni: Koma-YT.PAGeS.Dev
+  port: 443
+  server: openai.com
+  servername: 177-e06.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 177-e06.pages.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /fp=chrome
+  xudp: true
+- client-fingerprint: chrome
+  name: 6|[Trojan] sgSG_5|1.4MB/s
+  network: ws
+  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  port: 443
+  server: cdns.doon.eu.org
+  skip-cert-verify: true
+  sni: vless.lrdxw.club
   type: trojan
   udp: true
   ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /tr
-- name: 6|[Anytls] sgSG_5|1.1MB/s
-  password: a003db5a-3b24-4f4d-ada8-80bb4e4bf1f6
-  port: 36202
-  server: aws-linksg3.hellomoon.sbs
-  skip-cert-verify: false
-  sni: aws-linksg3.hellomoon.sbs
-  type: anytls
-  udp: true
-  xudp: true
-- encryption: none
-  name: 6|[VLESS] sgSG_6|1.2MB/s
-  network: ws
-  port: 80
-  server: 104.18.41.75
-  type: vless
-  udp: true
-  uuid: 0ca855d9-7c03-40eb-929b-919f934abdc3
-  ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: amirvpn.amirhm00100.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.118 Safari/537.36
-    max-early-data: 2048
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    max-early-data: 2560
     path: /
-  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] sgSG²_1|2.4MB/s|X|History

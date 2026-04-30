@@ -1,12 +1,25 @@
 proxies:
-- name: 6|[Hysteria2] gbGB_1|1.2MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] gbGB_1|1.2MB/s
+  network: xhttp
   port: 443
-  server: vpn-uk-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-uk-002.fastervpn.world
-  tfo: false
-  type: hysteria2
+  reality-opts:
+    public-key: uaEkEXSQRlY5bI3NzvoYWtkjQ0Xd_Qhpgl3Pgf4pIFM
+    short-id: '!!str 3b0498c3'
+  server: 87.120.219.56
+  servername: amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d007de67-c0e9-5ab8-b706-5c94069655aa
+  xhttp-opts:
+    headers:
+      Host: amazon.com
+    mode: auto
+    path: /zQLurjYmCcfzs6k4e7Sz
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 9|[VLESS] GB_speednode_0008

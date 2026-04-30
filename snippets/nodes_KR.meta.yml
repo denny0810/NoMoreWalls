@@ -1,26 +1,33 @@
 proxies:
-- client-fingerprint: chrome
-  name: 6|[VLESS] krKR_1|1.8MB/s
+- alpn:
+  - 'http/1.1
+
+    '
+  client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] krKR_1|1.0MB/s
   network: ws
   port: 10911
-  server: 211.197.136.183
-  servername: xfxl35a.node-edge.gfw.hidns.co
+  server: 221.165.219.121
+  servername: ltaeqp.cdn-assets.fgfw.indevs.in
   tls: true
   type: vless
   udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+      Host: ltaeqp.cdn-assets.fgfw.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
+    max-early-data: 2560
     path: /danfeng
   xudp: true
 - client-fingerprint: chrome
-  name: 6|[VLESS] krKR_2|1.9MB/s
+  name: 6|[VLESS] krKR_2|1.3MB/s
   network: ws
-  port: 10005
-  server: 210.123.225.3
+  port: 10912
+  server: 183.103.4.162
   servername: xfxl35a.node-edge.gfw.hidns.co
   tls: true
   type: vless
@@ -29,18 +36,26 @@ proxies:
   ws-opts:
     headers:
       Host: xfxl35a.node-edge.gfw.hidns.co
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
     path: /danfeng
   xudp: true
-- name: 6|[Anytls] krKR_3|1.2MB/s
-  password: a003db5a-3b24-4f4d-ada8-80bb4e4bf1f6
-  port: 31018
-  server: aws-linkkr1.hellomoon.sbs
-  skip-cert-verify: false
-  sni: aws-linkkr1.hellomoon.sbs
-  type: anytls
+- client-fingerprint: chrome
+  name: 6|[VLESS] krKR_3|1.5MB/s
+  network: ws
+  port: 20201
+  server: 221.145.251.131
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  tls: true
+  type: vless
   udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xfxl35a.node-edge.gfw.hidns.co
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
+        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+    path: /danfeng
   xudp: true
 - name: 7|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
   port: 1090

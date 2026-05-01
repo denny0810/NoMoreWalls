@@ -1,37 +1,13 @@
 proxies:
-- down: ''
-  fingerprint: ''
-  name: 6|[Hysteria2] deDE_1|2.2MB/s
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 18.195.203.186
+- name: 6,8|[Hysteria2] hysteria2-warp
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 12855
+  server: 83.243.86.103
   skip-cert-verify: true
-  sni: vpn-de-002.fastervpn.world
-  type: hysteria2
-  up: ''
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] deDE_2|1.3MB/s
-  network: ws
-  port: 8888
-  server: 84.200.193.104
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  skip-cert-verify: false
+  sni: www.microsoft.com
   tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    max-early-data: 2560
-    path: /danfeng
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 9|[VLESS] DE_speednode_0005

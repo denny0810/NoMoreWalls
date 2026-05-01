@@ -43,13 +43,15 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 5|[Vmess] 美国4|@ripaojiedian
+  name: 5,6|[Vmess] usUS_2|1.0MB/s
   network: tcp
-  port: '180'
+  port: 180
   server: 82.198.246.250
   servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
@@ -61,45 +63,9 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+- down: ''
+  fingerprint: ''
   name: 6|[Hysteria2] usUS_1|1.6MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-002.fastervpn.world
-  type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] usUS_2|1.4MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: fN3l3mYSDO44IWNPHWOQo2JMUw2isUGoOqrS6hCFfBQ
-    short-id: '!!str d1f93724859d75ac'
-  server: 193.23.200.15
-  servername: pl2-gws4.onnstreaming.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: '6|[Hysteria2] B - us US 18 TG: @nodpai|2.1MB...'
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-006.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-006.fastervpn.world
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '6|[Hysteria2] B - us US 16 TG: @nodpai|1.9MB...'
   obfs: ''
   obfs-password: ''
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
@@ -109,104 +75,125 @@ proxies:
   sni: vpn-us-004.fastervpn.world
   type: hysteria2
   up: ''
-- encryption: none
-  name: 6|[VLESS] usUS_3|2.6MB/s
-  network: ws
-  port: 8880
-  server: 104.18.4.46
-  type: vless
+- alterId: 2
+  cipher: auto
+  name: 6|[Vmess] usUS_3|1.6MB/s
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  uuid: 5b002005-7fb1-413e-8cbd-08e50c87c2ea
-  ws-opts:
-    headers:
-      Host: wetfleagidc-8tsbi8xd-v3.wet-flea-gidc.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
-- name: 6|[Http] usUS_4|1.1MB/s
-  password: fcf7573c-faa4-11ef-8a67-f23c913c8d2b
-  port: 443
-  server: 5a3706cb-tef340-tfu5x5-18jxd.sj.hyhuawei.com
-  sni: 5a3706cb-tef340-tfu5x5-18jxd.sj.hyhuawei.com
-  tls: true
-  type: http
-  username: fcf7573c-faa4-11ef-8a67-f23c913c8d2b
-- name: 6|[Trojan] usUS_5|2.0MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2083
-  server: 31.172.79.138
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 6|[Trojan] usUS_6|1.1MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 5.78.78.178
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] usUS_7|1.3MB/s
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] usUS_4|1.8MB/s
   network: ws
   port: 443
-  server: 69.63.203.14
-  servername: xfxl35a.node-edge.gfw.hidns.co
+  server: cg1c02.waimaojd.com
+  servername: cg1c02.waimaojd.com
   skip-cert-verify: false
-  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10
+  ws-opts:
+    headers: {}
+    path: /api/v1/graphql
+  xudp: true
+- encryption: none
+  name: 6|[VLESS] usUS_5|1.4MB/s
+  network: ws
+  port: 20128
+  server: 154.36.130.55
+  servername: sni.111000.dns.army
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
+      Host: sni.111000.dns.army
     max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] usUS_8|1004KB/s
+    path: /?https://t.me/WangCai2🇨🇳
+  xudp: true
+- encryption: none
+  name: 6|[VLESS] usUS_6|1.1MB/s
   network: ws
-  port: 443
-  server: 154.26.189.132
-  servername: xfxl35a.node-edge.gfw.hidns.co
+  port: 51528
+  server: 154.36.130.71
+  servername: sni.111000.dns.army
   skip-cert-verify: false
-  tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
+      Host: sni.111000.dns.army
     max-early-data: 2560
-    path: /danfeng
-- name: 6|[Trojan] usUS_9|1.1MB/s
+    path: /?https://t.me/WangCai2🇨🇳
+  xudp: true
+- encryption: none
+  name: 6|[VLESS] usUS_7|1.1MB/s
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 95.182.101.74
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+  port: 19739
+  server: 38.207.171.169
+  servername: sni.111000.dns.army
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.111000.dns.army
+    max-early-data: 2560
+    path: /?https://t.me/WangCai2🇨🇳
+  xudp: true
+- encryption: none
+  name: 6|[VLESS] usUS_8|1.1MB/s
+  network: ws
+  port: 34320
+  server: 154.36.130.55
+  servername: sni.111000.dns.army
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.111000.dns.army
+    max-early-data: 2560
+    path: /?https://t.me/WangCai2🇨🇳
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] usUS_9|1.6MB/s
+  network: ws
+  port: 443
+  server: 154.17.23.98
+  servername: sni.skylee4.cloudns.ch
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
+      Host: sni.skylee4.cloudns.ch
+    path: /proxyip=ProxyIP.CMLiussss.net
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

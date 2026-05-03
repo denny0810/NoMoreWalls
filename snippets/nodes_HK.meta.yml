@@ -10,17 +10,17 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 4,5|[Trojan] 香港3|@ripaojiedian
   network: tcp
-  password: 69ecb45889d99f31b8ccc10bf8f76a72
+  password: ba62c023f9bce796ae334fecb20ef7cc
   port: 2008
-  server: 95.40.115.145
+  server: 54.250.182.223
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3685
-  server: 52.198.36.96
+  port: 5383
+  server: 43.199.41.19
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -34,3 +34,44 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 6|[Http] hkHK_1|1.1MB/s
+  password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
+  port: 5228
+  server: 07c60f77-teisg0-twuk0i-1hzyr.cm4.oshuawei.com
+  sni: 07c60f77-teisg0-twuk0i-1hzyr.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
+- client-fingerprint: chrome
+  name: 6|[VLESS] hkHK_2|1.3MB/s
+  network: ws
+  port: 23667
+  server: 38.147.175.124
+  servername: sni.111000.dns.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dns.army
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+  xudp: true
+- client-fingerprint: edge
+  name: 6|[VLESS] hkHK_3|1.3MB/s
+  network: ws
+  port: 443
+  server: rhciuib.synccut.de
+  servername: rhciuib.synccut.de
+  tls: true
+  type: vless
+  udp: true
+  uuid: cf5a8e10-758c-4564-87a4-a2eeecbd5ed4
+  ws-opts:
+    headers:
+      Host: rhciuib.synccut.de
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /video_clip

@@ -16,26 +16,58 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] 🔴jp[🎬🤖📺🔍]_github.com/Ruk1ng001...
+  encryption: none
+  grpc-opts:
+    grpc-service-name: update
+  name: 6|[VLESS] 🔴jp[🎬📺🔍]_github.com/Ruk1ng001_...
+  network: grpc
+  port: 10032
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: jp2-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: EF3507AC-123A-4A39-9B4C-7D9BD69F8913
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] jpJP_1|1.7MB/s
   network: ws
-  port: 39738
-  server: 47.91.31.4
+  port: 443
+  server: 5.34.222.227
   servername: ynwta9.api-edge.fgfw.qzz.io
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vless
   udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: ynwta9.api-edge.fgfw.qzz.io
-    max-early-data: 2560
-    path: /danfeng
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /danfengfp=chrome
+  xudp: true
+- client-fingerprint: chrome
+  name: 6|[VLESS] jpJP_2|1.7MB/s
+  network: ws
+  port: 443
+  server: 151.242.164.33
+  servername: ynwta9.api-edge.fgfw.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: ynwta9.api-edge.fgfw.qzz.io
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile
+        Safari/537.36
+    path: /danfengfp=chrome
+  xudp: true
 - client-fingerprint: random
   name: 9|[VLESS] JP_speednode_0010
   network: ws

@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 6|[VLESS] krKR_1|1.2MB/s
+  name: 6|[VLESS] krKR_1|1.2MB/s|1.1MB/s
   network: ws
   port: 27015
   server: 59.29.161.191
@@ -16,49 +16,6 @@ proxies:
         (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
     path: /danfeng?ed=2560fp=chrome
   xudp: true
-- alpn:
-  - 'http/1.1
-
-    '
-  client-fingerprint: chrome
-  ech: encryptedsni.com+https://doh.443888.xyz/danfeng
-  encryption: none
-  name: 6|[VLESS] 🔴kr[🎬🤖📺🔍]_github.com/Ruk1ng001...
-  network: ws
-  port: 10909
-  security: tls
-  server: 211.230.85.30
-  servername: yvl5fy.data-cache.chinam.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: yvl5fy.data-cache.chinam.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] krKR_2|1.3MB/s
-  network: ws
-  port: 29999
-  server: 183.102.55.197
-  servername: ynwta9.api-edge.fgfw.qzz.io
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-    max-early-data: 2560
-    path: /danfeng
 - name: 7|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
   port: 1090
   server: 121.169.46.116

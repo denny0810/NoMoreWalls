@@ -16,25 +16,10 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: 6|[Trojan] sgSG_1|1.1MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 77.110.121.125
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.106 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: update
-  name: 6|[VLESS] 🔴sg[🎬📺🔍]_github.com/Ruk1ng001_...
+  name: 6|[VLESS] sgSG_1|1.1MB/s
   network: grpc
   port: 10036
   reality-opts:
@@ -47,22 +32,48 @@ proxies:
   udp: true
   uuid: EF3507AC-123A-4A39-9B4C-7D9BD69F8913
   xudp: true
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  host: x.2.q.9.a.v.3.m.8.c.t.y.1.k.f.z.7.b.h.6.w.b.1.j.danfeng.com.cfd
+  insecure: '0'
+  name: 6|[VLESS] sgSG_2|1.4MB/s
+  network: ws
+  path: /danfeng?ed=2560
+  port: 443
+  security: tls
+  server: 43.159.4.80
+  servername: x.2.q.9.a.v.3.m.8.c.t.y.1.k.f.z.7.b.h.6.w.b.1.j.danfeng.com.cfd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: x.2.q.9.a.v.3.m.8.c.t.y.1.k.f.z.7.b.h.6.w.b.1.j.danfeng.com.cfd
+    max-early-data: 2560
+    path: /danfeng
 - client-fingerprint: chrome
   encryption: none
-  grpc-opts:
-    grpc-service-name: update
-  name: '6|[VLESS] 🔴sg[🎬📺🔍]_github.com/Ruk1ng001_... #1'
-  network: grpc
-  port: 10037
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: sg2-r.link-t7.com
-  servername: s0.awsstatic.com
+  name: 6|[VLESS] sgSG_3|1.6MB/s
+  network: ws
+  port: 2083
+  server: 162.159.43.121
+  servername: kalami-eew.pages.dev
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: EF3507AC-123A-4A39-9B4C-7D9BD69F8913
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
+  ws-opts:
+    headers:
+      Host: kalami-eew.pages.dev
+    path: /
   xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ

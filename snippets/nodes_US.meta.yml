@@ -61,113 +61,81 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: firefox
-  name: 6|[VLESS] usUS_1|1.7MB/s
-  network: ws
-  port: 8443
-  server: 45.202.113.123
-  servername: py7k82mu.api-node-02.gfw.hidns.co
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: py7k82mu.api-node-02.gfw.hidns.co
-    max-early-data: 2560
-    path: /danfeng
-- name: 6|[Http] usUS_2|1016KB/s
-  password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-  port: 443
-  server: d7882375-temhs0-teykgk-19xg1.sj.hyhuawei.com
-  sni: d7882375-temhs0-teykgk-19xg1.sj.hyhuawei.com
-  tls: true
-  type: http
-  username: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
 - alpn:
-  - 'http/1.1
-
-    '
-  client-fingerprint: firefox
-  encryption: none
-  name: 6|[VLESS] usUS_3|2.5MB/s
-  network: ws
-  port: 443
-  server: 64.64.236.127
-  servername: n63n17.mail.sh21.eu.org
+  - ''
+  alterId: '2'
+  cipher: auto
+  name: 6|[Vmess] US美国(mibei77.com 米贝节点分享)-12|1....
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
   skip-cert-verify: false
-  tls: true
-  type: vless
+  tls: false
+  type: vmess
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: n63n17.mail.sh21.eu.org
-    max-early-data: 2560
-    path: /danfeng
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
-- alpn:
-  - 'http/1.1
-
-    '
-  client-fingerprint: firefox
-  encryption: none
-  name: 6|[VLESS] usUS_4|2.7MB/s
+- name: 6|[Trojan] usUS_1|1.7MB/s
   network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 69.63.210.15
-  servername: xjv.node-proxy.chinam.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 163.192.47.40
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: xjv.node-proxy.chinam.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-  xudp: true
-- name: 6|[Http] usUS_5|1.1MB/s
-  password: f860f2da-5035-11ed-bb74-f23c9164ca5d
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 6|[Trojan] usUS_2|1.2MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: c7118180-temhs0-tnt75r-1k8ga.u12.oshuawei.com
-  sni: c7118180-temhs0-tnt75r-1k8ga.u12.oshuawei.com
-  tls: true
-  type: http
-  username: f860f2da-5035-11ed-bb74-f23c9164ca5d
+  server: 205.233.181.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  name: 6|[VLESS] usUS_6|1.3MB/s
+  name: 6|[Trojan] usUS_3|1.0MB/s
   network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 64.186.230.63
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  tls: true
-  type: vless
+  server: 45.8.157.80
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.86 Safari/537.36
-    path: /danfeng?ed=2560fp=chromefp=chrome
-  xudp: true
-- alpn:
-  - 'http/1.1
-
-    '
-  client-fingerprint: firefox
-  encryption: none
-  name: 6|[VLESS] v2go | us US | VLESS | 2884|2....
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 6|[Trojan] usUS_4|2.2MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 44.217.235.114
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] usUS_5|1.1MB/s
   network: ws
   port: 443
-  server: 144.34.230.205
-  servername: akrip7.beta-edge.fgfw.indevs.in
+  server: 156.154.245.83
+  servername: mug.support.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
   udp: true
@@ -175,12 +143,9 @@ proxies:
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: akrip7.beta-edge.fgfw.indevs.in
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      Host: mug.support.gfw.hidns.co
     max-early-data: 2560
     path: /danfeng
-  xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

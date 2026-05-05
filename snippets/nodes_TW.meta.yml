@@ -1,4 +1,30 @@
 proxies:
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  host: snippet.gfw.qzz.io
+  insecure: '0'
+  name: 6|[VLESS] twTW_1|1.1MB/s
+  network: ws
+  path: /danfeng?ed=2560
+  port: 443
+  security: tls
+  server: 43.213.148.173
+  servername: snippet.gfw.qzz.io
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.gfw.qzz.io
+    max-early-data: 2560
+    path: /danfeng
 - client-fingerprint: firefox
   name: 9|[VLESS] TW_speednode_0021
   network: ws

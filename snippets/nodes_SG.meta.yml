@@ -1,5 +1,5 @@
 proxies:
-- name: 5|[Trojan] 新加坡|@ripaojiedian
+- name: 4,5|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
   port: 4840
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 5|[Trojan] 新加坡2|@ripaojiedian
+- name: 4,5|[Trojan] 新加坡2|@ripaojiedian
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
   port: 2511
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 5|[Trojan] 新加坡3|@ripaojiedian
+- name: 4,5|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 2074
@@ -23,21 +23,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 6|[VLESS] sg 新加坡 | SGP 3|1.1MB/s
-  network: ws
-  port: 2053
-  server: 85.192.61.91
-  servername: ynwta9.api-edge.fgfw.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-    path: /danfeng
 - client-fingerprint: chrome
-  name: 6|[Trojan] sgSG_1|1.0MB/s
+  name: 6|[Trojan] sgSG_1|2.8MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -51,6 +38,60 @@ proxies:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /tr | 免费机场TG@proxyshareCN |
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  encryption: none
+  flow: ''
+  grpc-opts:
+    grpc-service-name: update
+  name: 6|[VLESS] sgSG_2|2.3MB/s
+  network: grpc
+  port: 10036
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: sg1-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: EF3507AC-123A-4A39-9B4C-7D9BD69F8913
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] sgSG_3|2.0MB/s
+  network: ws
+  port: 2096
+  server: 198.41.223.87
+  servername: kalami-eew.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
+  ws-opts:
+    headers:
+      Host: kalami-eew.pages.dev
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] sgSG_4|2.5MB/s
+  network: ws
+  port: 2083
+  server: 104.18.37.121
+  servername: kalami-eew.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
+  ws-opts:
+    headers:
+      Host: kalami-eew.pages.dev
+    path: /
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] sgSG²_1|2.4MB/s|X|History

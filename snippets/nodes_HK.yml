@@ -1,6 +1,31 @@
 proxies:
 - alterId: 2
   cipher: auto
+  name: 4|[Vmess] hk 香港|@ripaojiedian
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 4,5|[Trojan] 香港3|@ripaojiedian
+  network: tcp
+  password: ba62c023f9bce796ae334fecb20ef7cc
+  port: 53018
+  server: 18.163.28.173
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 4,5|[Trojan] 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 63131
+  server: 13.231.158.129
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alterId: 2
+  cipher: auto
   name: 5|[Vmess] 香港|@ripaojiedian
   network: tcp
   port: '30807'
@@ -9,32 +34,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 5|[Trojan] 香港3|@ripaojiedian
-  network: tcp
-  password: ba62c023f9bce796ae334fecb20ef7cc
-  port: 53018
-  server: 18.163.28.173
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 5|[Trojan] 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 63131
-  server: 13.231.158.129
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 6|[Trojan] hkHK_2|1.3MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 149.104.6.78
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2

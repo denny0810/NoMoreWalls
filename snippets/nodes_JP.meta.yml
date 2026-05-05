@@ -1,120 +1,66 @@
 proxies:
-- name: 4,5|[Trojan] 日本|@ripaojiedian
+- name: 5|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 443
-  server: 116.80.80.121
+  port: 6463
+  server: bb.bejkn.cn
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 4,5|[Trojan] 日本3|@ripaojiedian
+- name: 5|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
   port: 11541
-  server: 52.194.186.225
+  server: 16.163.148.1
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: update
-  name: 6|[VLESS] jpJP_1|1.3MB/s
-  network: grpc
-  port: 10031
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: jp1-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: EF3507AC-123A-4A39-9B4C-7D9BD69F8913
-  xudp: true
-- alpn:
-  - 'http/1.1
-
-    '
-  client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] v2go | jp JP | VLESS | 2058|3....
+- name: 5|[Trojan] 日本3|@ripaojiedian
+  network: tcp
+  password: ba62c023f9bce796ae334fecb20ef7cc
+  port: 8066
+  server: 16.163.148.1
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 6|[Trojan] jpJP_1|1.3MB/s
   network: ws
-  port: 443
-  server: 47.74.45.134
-  servername: akrip7.beta-edge.fgfw.indevs.in
-  tls: true
-  type: vless
+  password: 8r<[9'l6hAO#8ZQi
+  port: 7438
+  server: 38.47.104.140
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: akrip7.beta-edge.fgfw.indevs.in
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-    max-early-data: 2560
-    path: /danfeng
-  xudp: true
-- alpn:
-  - 'http/1.1
-
-    '
-  client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] jpJP_2|1.1MB/s
-  network: ws
-  port: 20413
-  server: 45.155.220.217
-  servername: n63n17.mail.sh21.eu.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: n63n17.mail.sh21.eu.org
-      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    max-early-data: 2560
-    path: /danfeng
-  xudp: true
-- encryption: none
-  name: 6|[VLESS] jpJP_3|1.1MB/s
-  network: ws
-  port: 8443
-  server: 47.245.62.4
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.111000.v6.rocks
-    max-early-data: 2560
-    path: /?https://t.me/WangCai2🇨🇳
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] jpJP_4|3.0MB/s
-  network: ws
-  port: 2053
-  server: 108.162.198.139
-  servername: kalami-eew.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
   ws-opts:
     headers:
-      Host: kalami-eew.pages.dev
-    path: /
-  xudp: true
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 6|[Trojan] jpJP_2|2.0MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 16847
+  server: 91.200.242.118
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '6|[Trojan] B - jp JP 12 TG: @nodpai|1.3MB...'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 42841
+  server: 43.165.190.11
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: random
   name: 9|[VLESS] JP_speednode_0010
   network: ws

@@ -1,45 +1,60 @@
 proxies:
-- name: 6|[VLESS] kr 韩国 275|1.0MB/s
-  network: ws
-  port: 29015
-  server: 211.192.237.97
-  servername: ynwta9.api-edge.fgfw.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-    path: /danfeng
 - client-fingerprint: chrome
-  name: 6|[VLESS] krKR_1|1.2MB/s
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] 🔴kr[🎬🤖📺🔍]_github.com/Ruk1ng001...
   network: ws
-  port: 38699
-  server: 121.154.97.193
+  port: 27017
+  server: 121.151.210.54
   servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
   udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: xfxl35a.node-edge.gfw.hidns.co
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.101 Safari/537.36
-    path: /danfeng?ed=2560fp=firefox
+    max-early-data: 2560
+    path: /danfeng
+- alpn:
+  - 'http/1.1
+
+    '
+  client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] krKR_1|1.4MB/s
+  network: ws
+  port: 14430
+  server: 119.195.0.158
+  servername: n63n17.mail.sh21.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: n63n17.mail.sh21.eu.org
+    max-early-data: 2560
+    path: /danfeng
   xudp: true
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] kr 韩国-C1CE9C4D|1.0MB/s
+- alpn:
+  - 'http/1.1
+
+    '
+  client-fingerprint: firefox
+  encryption: none
+  name: 6|[VLESS] kr 韩国-758B246B|1.1MB/s
   network: ws
-  port: 18005
-  server: 122.43.47.245
-  servername: xfxl35a.node-edge.gfw.hidns.co
+  port: 10002
+  server: 59.1.19.92
+  servername: akrip7.beta-edge.fgfw.indevs.in
   skip-cert-verify: false
-  tfo: false
   tls: true
   type: vless
   udp: true
@@ -47,20 +62,21 @@ proxies:
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
+      Host: akrip7.beta-edge.fgfw.indevs.in
     max-early-data: 2560
     path: /danfeng
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] krKR_2|1.1MB/s
+  xudp: true
+- alpn:
+  - 'http/1.1
+
+    '
+  client-fingerprint: firefox
+  encryption: none
+  name: 6|[VLESS] krKR_2|1.4MB/s
   network: ws
-  port: 30005
-  server: 183.104.118.33
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
+  port: 25010
+  server: 121.155.96.19
+  servername: xw0d9r.cdn-edge-sg.chinam.indevs.in
   tls: true
   type: vless
   udp: true
@@ -68,9 +84,36 @@ proxies:
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
+      Host: xw0d9r.cdn-edge-sg.chinam.indevs.in
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     max-early-data: 2560
     path: /danfeng
+  xudp: true
+- alpn:
+  - 'http/1.1
+
+    '
+  client-fingerprint: firefox
+  encryption: none
+  name: 6|[VLESS] krKR_3|1.4MB/s
+  network: ws
+  port: 11300
+  server: 118.36.233.194
+  servername: pl4oj.mirror.fgfw.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: pl4oj.mirror.fgfw.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    max-early-data: 2560
+    path: /danfeng
+  xudp: true
 - name: 7|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
   port: 1090
   server: 121.169.46.116

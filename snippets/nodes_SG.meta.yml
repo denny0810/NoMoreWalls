@@ -23,21 +23,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: 6|[Trojan] sgSG_1|2.8MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 188.164.248.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /tr | 免费机场TG@proxyshareCN |
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -45,7 +30,7 @@ proxies:
   flow: ''
   grpc-opts:
     grpc-service-name: update
-  name: 6|[VLESS] sgSG_2|2.3MB/s
+  name: 6|[VLESS] sgSG_1|1.9MB/s
   network: grpc
   port: 10036
   reality-opts:
@@ -58,39 +43,28 @@ proxies:
   type: vless
   udp: true
   uuid: EF3507AC-123A-4A39-9B4C-7D9BD69F8913
-- client-fingerprint: chrome
+- alpn:
+  - 'http/1.1
+
+    '
+  client-fingerprint: firefox
   encryption: none
-  name: 6|[VLESS] sgSG_3|2.0MB/s
+  name: 6|[VLESS] sgSG_2|4.5MB/s
   network: ws
-  port: 2096
-  server: 198.41.223.87
-  servername: kalami-eew.pages.dev
+  port: 443
+  server: 43.159.4.165
+  servername: m16itazc.api-core.chinat.indevs.in
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: kalami-eew.pages.dev
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] sgSG_4|2.5MB/s
-  network: ws
-  port: 2083
-  server: 104.18.37.121
-  servername: kalami-eew.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
-  ws-opts:
-    headers:
-      Host: kalami-eew.pages.dev
-    path: /
+      Host: m16itazc.api-core.chinat.indevs.in
+    max-early-data: 2560
+    path: /danfeng
   xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ

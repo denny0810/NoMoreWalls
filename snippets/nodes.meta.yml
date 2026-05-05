@@ -27,16 +27,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 3|[Hysteria2] @B2vasl1
-  obfs: salamander
-  obfs-password: kish-data-center
-  password: tgut4USqOM
-  port: 443
-  server: srm.kishonline.online
-  skip-cert-verify: false
-  sni: srm.kishonline.online
-  tls: false
-  type: hysteria2
 - cipher: aes-256-cfb
   name: '4,5|[SS] tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -188,56 +178,10 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 6|[Trojan] sgSG_1|2.8MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 188.164.248.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /tr | 免费机场TG@proxyshareCN |
-- name: 6|[VLESS] kr 韩国 275|1.0MB/s
-  network: ws
-  port: 29015
-  server: 211.192.237.97
-  servername: ynwta9.api-edge.fgfw.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-    path: /danfeng
-- alterId: 0
-  cipher: auto
-  encryption: none
-  flow: ''
-  grpc-opts:
-    grpc-service-name: update
-  name: 6|[VLESS] sgSG_2|2.3MB/s
-  network: grpc
-  port: 10036
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '686c0ef0'
-  server: sg1-r.link-t7.com
-  servername: s0.awsstatic.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: EF3507AC-123A-4A39-9B4C-7D9BD69F8913
 - encryption: none
   grpc-opts:
     grpc-service-name: movie
-  name: 6|[VLESS] hkHK_1|1.7MB/s
+  name: 6|[VLESS] hkHK_1|1.5MB/s
   network: grpc
   port: 10129
   reality-opts:
@@ -250,60 +194,363 @@ proxies:
   udp: true
   uuid: EF3507AC-123A-4A39-9B4C-7D9BD69F8913
   xudp: true
-- encryption: none
-  name: 6|[VLESS] 🔴jp[🎬🤖📺]_github.com/Ruk1ng001_...
+- alterId: 0
+  cipher: auto
+  encryption: none
+  flow: ''
+  grpc-opts:
+    grpc-service-name: update
+  name: 6|[VLESS] sgSG_1|1.9MB/s
+  network: grpc
+  port: 10036
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '686c0ef0'
+  server: sg1-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: EF3507AC-123A-4A39-9B4C-7D9BD69F8913
+- client-fingerprint: firefox
+  name: 6|[VLESS] usUS_1|1.7MB/s
   network: ws
-  port: 443
-  server: 142.91.108.144
-  servername: xfxl35a.node-edge.gfw.hidns.co
+  port: 8443
+  server: 45.202.113.123
+  servername: py7k82mu.api-node-02.gfw.hidns.co
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /danfeng
-  xudp: true
-- name: 6|[VLESS] krKR_1|1.2MB/s
-  network: ws
-  port: 38699
-  server: 121.154.97.193
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.101 Safari/537.36
-    path: /danfeng?ed=2560fp=firefox
-  xudp: true
-- encryption: none
-  name: 6|[VLESS] usUS_1|1.0MB/s
-  network: ws
-  port: 80
-  server: 104.16.63.239
-  type: vless
-  udp: true
-  uuid: 04969b01-ac6a-4056-b5cd-852ccf45f100
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: netherlands.vipserver14.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    max-early-data: 2048
-    path: /
+      Host: py7k82mu.api-node-02.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng
+- name: 6|[Http] usUS_2|1016KB/s
+  password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+  port: 443
+  server: d7882375-temhs0-teykgk-19xg1.sj.hyhuawei.com
+  sni: d7882375-temhs0-teykgk-19xg1.sj.hyhuawei.com
+  tls: true
+  type: http
+  username: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+- encryption: none
+  grpc-opts:
+    grpc-service-name: update
+  name: 6|[VLESS] hkHK_2|2.1MB/s
+  network: grpc
+  port: 10127
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '686c0ef0'
+  server: hk2-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: EF3507AC-123A-4A39-9B4C-7D9BD69F8913
   xudp: true
-- name: 6|[VLESS] usUS_2|1.4MB/s
+- name: 6|[Trojan] hkHK_3|1.4MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 43.161.221.27
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Slackware/Chrome/12.0.742.100 Safari/534.30
+    path: /trTelegram🇨🇳 @WangCai2
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] 🔴kr[🎬🤖📺🔍]_github.com/Ruk1ng001...
+  network: ws
+  port: 27017
+  server: 121.151.210.54
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: xfxl35a.node-edge.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng
+- alpn:
+  - 'http/1.1
+
+    '
+  client-fingerprint: firefox
+  encryption: none
+  name: 6|[VLESS] sgSG_2|4.5MB/s
   network: ws
   port: 443
-  server: 149.248.36.162
+  server: 43.159.4.165
+  servername: m16itazc.api-core.chinat.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: m16itazc.api-core.chinat.indevs.in
+    max-early-data: 2560
+    path: /danfeng
+  xudp: true
+- name: 6|[VLESS] jpJP_1|1.1MB/s
+  network: ws
+  port: 20389
+  server: 45.155.220.217
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xfxl35a.node-edge.gfw.hidns.co
+    path: /danfeng
+  xudp: true
+- alpn:
+  - 'http/1.1
+
+    '
+  encryption: none
+  name: 6|[VLESS] krKR_1|1.4MB/s
+  network: ws
+  port: 14430
+  server: 119.195.0.158
+  servername: n63n17.mail.sh21.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: n63n17.mail.sh21.eu.org
+    max-early-data: 2560
+    path: /danfeng
+  xudp: true
+- alpn:
+  - 'http/1.1
+
+    '
+  client-fingerprint: firefox
+  encryption: none
+  name: 6|[VLESS] kr 韩国-758B246B|1.1MB/s
+  network: ws
+  port: 10002
+  server: 59.1.19.92
+  servername: akrip7.beta-edge.fgfw.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: akrip7.beta-edge.fgfw.indevs.in
+    max-early-data: 2560
+    path: /danfeng
+  xudp: true
+- encryption: none
+  name: 6|[VLESS] jpJP_2|2.0MB/s
+  network: ws
+  port: 443
+  server: 108.162.198.139
+  servername: kalami-eew.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
+  ws-opts:
+    headers:
+      Host: kalami-eew.pages.dev
+    path: /
+  xudp: true
+- name: 6|[Trojan] jpJP_3|3.3MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 108.162.198.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alpn:
+  - 'http/1.1
+
+    '
+  client-fingerprint: firefox
+  encryption: none
+  name: 6|[VLESS] usUS_3|2.5MB/s
+  network: ws
+  port: 443
+  server: 64.64.236.127
+  servername: n63n17.mail.sh21.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: n63n17.mail.sh21.eu.org
+    max-early-data: 2560
+    path: /danfeng
+  xudp: true
+- alpn:
+  - 'http/1.1
+
+    '
+  client-fingerprint: firefox
+  encryption: none
+  name: 6|[VLESS] usUS_4|2.7MB/s
+  network: ws
+  port: 443
+  server: 69.63.210.15
+  servername: xjv.node-proxy.chinam.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: xjv.node-proxy.chinam.indevs.in
+    max-early-data: 2560
+    path: /danfeng
+  xudp: true
+- name: 6|[Http] usUS_5|1.1MB/s
+  password: f860f2da-5035-11ed-bb74-f23c9164ca5d
+  port: 443
+  server: c7118180-temhs0-tnt75r-1k8ga.u12.oshuawei.com
+  sni: c7118180-temhs0-tnt75r-1k8ga.u12.oshuawei.com
+  tls: true
+  type: http
+  username: f860f2da-5035-11ed-bb74-f23c9164ca5d
+- name: 6|[Trojan] caCA_1|1018KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 23.173.104.214
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- encryption: none
+  name: 6|[VLESS] nlNL_1|1.3MB/s
+  network: ws
+  port: 2053
+  server: 46.8.229.218
+  servername: sni.111000.v6.army
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.111000.v6.army
+    max-early-data: 2560
+    path: /?https://t.me/WangCai2🇨🇳
+  xudp: true
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 6|[TUIC] cyCY_1|1.1MB/s
+  password: strong-secret-pass-777
+  port: 50043
+  server: 45.82.245.37
+  skip-cert-verify: true
+  type: tuic
+  udp-relay-mode: native
+  uuid: e033ef6e-ab4b-47d4-a523-ff568d2c8dbb
+  version: 5
+- name: 6|[Trojan] gbGB_1|1.1MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2083
+  server: 51.89.226.75
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 6|[Trojan] frFR_1|1.3MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 95.182.97.46
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 6|[Hysteria2] cyCY_2|1.1MB/s
+  obfs: salamander
+  obfs-password: cry_me_a_r1ver_2026
+  password: strong-secret-pass-777
+  port: 444
+  server: 45.15.140.128
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tfo: false
+  type: hysteria2
+- name: 6,8|[Hysteria2] hysteria2-warp
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 12855
+  server: 83.243.86.103
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tfo: false
+  tls: false
+  type: hysteria2
+- down: ''
+  fingerprint: ''
+  name: 6|[Hysteria2] jpJP_4|3.4MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 9e0f72bb-7ad6-4383-994a-497569a94d74
+  port: 6533
+  server: jpaws.ccwink.photos
+  skip-cert-verify: true
+  sni: jpdigital.ccwink.cc
+  type: hysteria2
+  up: ''
+- name: 6|[VLESS] usUS_6|1.3MB/s
+  network: ws
+  port: 443
+  server: 64.186.230.63
   servername: xfxl35a.node-edge.gfw.hidns.co
   tls: true
   type: vless
@@ -313,312 +560,109 @@ proxies:
     headers:
       Host: xfxl35a.node-edge.gfw.hidns.co
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/51.0.2704.103 Safari/537.36
-    path: /danfeng
+        like Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /danfeng?ed=2560fp=chromefp=chrome
   xudp: true
-- encryption: none
-  name: 6|[VLESS] fiFI_1|1.3MB/s
+- alpn:
+  - 'http/1.1
+
+    '
+  client-fingerprint: firefox
+  encryption: none
+  name: 6|[VLESS] v2go | us US | VLESS | 2884|2....
   network: ws
   port: 443
-  server: fl-2-direct.djarbnet.ru
-  servername: fl-2-direct.djarbnet.ru
+  server: 144.34.230.205
+  servername: akrip7.beta-edge.fgfw.indevs.in
   tls: true
   type: vless
   udp: true
-  uuid: 427589c7-f170-4cf3-90d6-8a5864107ddc
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: fl-2-direct.djarbnet.ru
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+      Host: akrip7.beta-edge.fgfw.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /getupdates
+    max-early-data: 2560
+    path: /danfeng
   xudp: true
-- name: 6|[Trojan] usUS_3|1.9MB/s
+- alpn:
+  - 'http/1.1
+
+    '
+  client-fingerprint: firefox
+  encryption: none
+  name: 6|[VLESS] krKR_2|1.4MB/s
+  network: ws
+  port: 25010
+  server: 121.155.96.19
+  servername: xw0d9r.cdn-edge-sg.chinam.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: xw0d9r.cdn-edge-sg.chinam.indevs.in
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /danfeng
+  xudp: true
+- alpn:
+  - 'http/1.1
+
+    '
+  client-fingerprint: firefox
+  encryption: none
+  name: 6|[VLESS] krKR_3|1.4MB/s
+  network: ws
+  port: 11300
+  server: 118.36.233.194
+  servername: pl4oj.mirror.fgfw.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: pl4oj.mirror.fgfw.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    max-early-data: 2560
+    path: /danfeng
+  xudp: true
+- name: 6|[Trojan] deDE_1|1.1MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 103.160.204.253
-  skip-cert-verify: true
+  port: 2053
+  server: 89.19.44.48
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/45.0.2454.93 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 6|[Trojan] [OpenRay] nl NL-6055|1.2MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 85.155.125.23
+  skip-cert-verify: false
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /tr | 免费机场TG@proxyshareCN |
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] kr 韩国-C1CE9C4D|1.0MB/s
-  network: ws
-  port: 18005
-  server: 122.43.47.245
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    max-early-data: 2560
-    path: /danfeng
-- name: 6|[Trojan] usUS_4|1.4MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 92.243.74.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] krKR_2|1.1MB/s
-  network: ws
-  port: 30005
-  server: 183.104.118.33
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    max-early-data: 2560
-    path: /danfeng
-- name: 6|[Trojan] usUS_5|2.0MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 45.40.151.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- encryption: none
-  name: 6|[VLESS] sgSG_3|2.0MB/s
-  network: ws
-  port: 2096
-  server: 198.41.223.87
-  servername: kalami-eew.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
-  ws-opts:
-    headers:
-      Host: kalami-eew.pages.dev
-    path: /
-  xudp: true
-- encryption: none
-  name: 6|[VLESS] sgSG_4|2.5MB/s
-  network: ws
-  port: 2083
-  server: 104.18.37.121
-  servername: kalami-eew.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
-  ws-opts:
-    headers:
-      Host: kalami-eew.pages.dev
-    path: /
-  xudp: true
-- multiplexing: MULTIPLEXING_LOW
-  name: 6|[Mieru] zaZA_1|1.8MB/s
-  password: dongtaiwang.com
-  port: 28866
-  server: 45.221.98.11
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- name: 6|[Hysteria2] frFR_1|1.2MB/s
-  password: dongtaiwang.com
-  port: 41581
-  server: 163.172.113.118
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] nlNL_1|1.1MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '23'
-  server: 94.249.175.54
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 629d2ccc-3a2a-4dd3-83d2-86b25fc8783e
-  xudp: true
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] usUS_6|1.0MB/s
-  network: ws
-  port: 443
-  server: 131.143.251.121
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] usUS_7|1.5MB/s
-  network: ws
-  port: 443
-  server: 64.186.250.125
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    max-early-data: 2560
-    path: /danfeng
-- name: 6|[Hysteria2] nlNL_2|1.6MB/s
-  obfs: salamander
-  obfs-password: CvxXZnSth1bVJKGFP2cof4rI52ifHJ2W
-  password: rstnnl:7ltZBmta4ahLenTIoywBy3R1Z1PV7ZGf
-  port: 8932
-  server: nrealistic.nn-foto.ru
-  skip-cert-verify: true
-  sni: nrealistic.nn-foto.ru
-  tfo: false
-  type: hysteria2
-- name: 6|[VLESS] usUS_8|1.1MB/s
-  network: ws
-  port: 8443
-  server: 31.56.229.21
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfeng
-  xudp: true
-- name: 6|[Trojan] usUS_9|1.1MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 5.78.79.91
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 6|[Trojan] usUS_10|1.5MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 154.17.8.126
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 6|[Trojan] frFR_2|2.0MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 31.59.120.180
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 6|[Trojan] frFR_3|2.1MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 31.56.146.122
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 6|[Trojan] frFR_4|1.3MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 95.182.98.251
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 6|[Trojan] frFR_5|1.6MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 31.59.103.95
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 6|[Trojan] deDE_1|1.7MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 185.94.166.203
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...
@@ -696,14 +740,6 @@ proxies:
   port: 11111
   server: 2a02:6ea0:d32f::f8fe:349b
   type: ss
-- name: 8|[Hysteria2] hysteria2-warp
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 12855
-  server: 83.243.86.103
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
 - name: 8|[VLESS] VLESS-xhttp-Reality-Vision
   network: xhttp
   port: 15530

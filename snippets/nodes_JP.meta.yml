@@ -23,35 +23,15 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- alpn:
-  - http/1.1
-  - ''
-  client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] 🔴jp[📺🔍]_github.com/Ruk1ng001_3...
-  network: ws
-  port: 443
-  security: tls
-  server: 13.231.5.138
-  servername: xjv.node-proxy.chinam.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: xjv.node-proxy.chinam.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 6|[VLESS] jpJP_1|1.1MB/s
+  name: 6|[VLESS] jpJP_1|1.5MB/s
   network: ws
-  port: 39738
-  server: 47.91.31.4
-  servername: ynwta9.api-edge.fgfw.qzz.io
+  port: 443
+  server: 191.96.29.86
+  servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -61,31 +41,23 @@ proxies:
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
+      Host: xfxl35a.node-edge.gfw.hidns.co
     max-early-data: 2560
     path: /danfeng
-- alpn:
-  - 'http/1.1
-
-    '
-  client-fingerprint: firefox
-  encryption: none
-  name: 6|[VLESS] jpJP_2|1.1MB/s
+- name: 6|[VLESS] jpJP_2|3.7MB/s
   network: ws
-  port: 39738
-  server: 8.209.201.159
-  servername: iuh1.auth-proxy.chinat.indevs.in
+  port: 2096
+  server: 108.162.198.139
+  servername: kalami-eew.pages.dev
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: iuh1.auth-proxy.chinat.indevs.in
-    max-early-data: 2560
-    path: /danfeng
+      Host: kalami-eew.pages.dev
+    path: /fp
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision

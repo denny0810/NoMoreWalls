@@ -42,11 +42,44 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 6|[Trojan] hkHK_1|1.7MB/s
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] hkHK_1|1.7MB/s
+  network: tcp
+  port: 443
+  server: hk1.ap221.com
+  servername: hk.ap221.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3a54d818-82c2-49b8-b01a-e8f8e59d59c5
+- name: 6|[Trojan] hkHK_2|1.2MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 8.223.63.189
+  server: 43.154.4.49
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] hkHK_3|3.5MB/s
+  network: tcp
+  port: 443
+  server: hk1.ap221.com
+  servername: hk.ap221.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 74988350-8b14-4924-b8a2-c3aac967bf28
+- name: 6|[Trojan] hkHK_4|1.3MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 68.64.178.42
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -54,26 +87,6 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 6|[Http] hkHK_2|1.1MB/s
-  password: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
-  port: 5228
-  server: f0678fd0-tekn40-tfzlyg-1kcpe.cm4.oshuawei.com
-  sni: f0678fd0-tekn40-tfzlyg-1kcpe.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
-- name: 6|[Trojan] hkHK_3|1.2MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 217.60.38.113
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳
 - name: 9|[Trojan] HK_speednode_0011
   password: BxceQaOe
   port: 11233

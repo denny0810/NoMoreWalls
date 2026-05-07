@@ -25,7 +25,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision-udp443-udp443
-  name: 6|[VLESS] sgSG_1|2.1MB/s
+  name: 6|[VLESS] sgSG_1|1022KB/s
   network: tcp
   port: 443
   server: sg1.ap221.com
@@ -35,23 +35,25 @@ proxies:
   udp: true
   uuid: 4e7bd311-d91e-4a85-aa08-121313cf50d9
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] sgSG_2|2.4MB/s
-  network: ws
-  port: 2087
-  server: 173.245.59.86
-  servername: kalami-eew.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
-  ws-opts:
-    headers:
-      Host: kalami-eew.pages.dev
-    path: /
-  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 6|[Hysteria2] sgSG_2|1.1MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-sg-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
+  type: hysteria2
+  up: ''
+- name: 6|[Hysteria2] sgSG_3|2.2MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-sg-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-sg-002.fastervpn.world
+  type: hysteria2
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] sgSG²_1|2.4MB/s|X|History

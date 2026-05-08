@@ -11,16 +11,16 @@ proxies:
 - name: 4,5|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
-  port: 53018
-  server: 54.46.50.228
-  skip-cert-verify: true
+  port: 2008
+  server: 16.162.192.117
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 13693
-  server: 18.181.180.183
+  port: 4327
+  server: 18.183.218.93
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -42,23 +42,8 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] hkHK_2|3.6MB/s
-  network: tcp
-  port: 443
-  security: tls
-  server: hk1.ap221.com
-  servername: hk.ap221.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e7bd311-d91e-4a85-aa08-121313cf50d9
 - client-fingerprint: chrome
-  name: 6|[Trojan] hkHK_3|1.6MB/s
+  name: 6|[Trojan] hkHK_1|1.1MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -74,60 +59,34 @@ proxies:
         like Gecko) Chrome/62.0.3202.89 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision-udp443
-  name: 6|[VLESS] hkHK_4|3.6MB/s
-  network: tcp
-  port: 443
-  server: hk1.ap221.com
-  servername: hk.ap221.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 74988350-8b14-4924-b8a2-c3aac967bf28
-  xudp: true
-- name: 6|[Trojan] hkHK_5|3.2MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 11233
-  server: bb.bejkn.cn
+  name: 6|[Trojan] hkHK_2|2.1MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 25258
+  server: 38.147.163.152
   skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  sni: Koma-YT.PAGeS.Dev
   type: trojan
-- client-fingerprint: chrome
-  name: 6|[VLESS] hkHK_6|1.0MB/s
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] hkHK_3|2.4MB/s
   network: ws
   port: 443
-  server: 185.216.118.63
-  servername: gogo4.kmj.qzz.io
+  server: cf.scpnb.top
+  servername: encoding-arthritis-annual-either.trycloudflare.com
   skip-cert-verify: false
   tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: gogo4.kmj.qzz.io
-    path: /
-- alpn:
-  - 'http/1.1
-
-    '
-  client-fingerprint: firefox
-  encryption: none
-  name: 6|[VLESS] hkHK_7|2.0MB/s
-  network: ws
-  port: 1234
-  server: 111.194.4.205
-  servername: nfhv9rz.relay-api.chinat.indevs.in
-  tls: true
-  type: vless
+  type: vmess
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: c4a44712-7ded-477a-9a0a-8656958ed7fc
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: nfhv9rz.relay-api.chinat.indevs.in
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
-        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
-    max-early-data: 2560
-    path: /danfeng
+      Host: encoding-arthritis-annual-either.trycloudflare.com
+    path: /c4a44712-7ded-477a-9a0a-8656958ed7fc-vm
   xudp: true

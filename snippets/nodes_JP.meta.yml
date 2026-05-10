@@ -23,7 +23,40 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 6,9|[VLESS] JP_speednode_0029
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] jpJP_1|1.3MB/s
+  network: ws
+  port: 16617
+  server: planb.mojcn.com
+  type: vmess
+  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
+  ws-opts:
+    headers:
+      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
+    path: /
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] jpJP_2|1.5MB/s
+  network: ws
+  port: 10250
+  server: 218.55.175.15
+  servername: yn80.api-backend.fgfw.qzz.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: yn80.api-backend.fgfw.qzz.io
+    max-early-data: 2560
+    path: /danfeng
+- name: 9|[VLESS] JP_speednode_0029
   network: ws
   port: 31772
   server: 8.211.174.145
@@ -37,27 +70,6 @@ proxies:
     headers:
       Host: sas0dpjv2rmyx842.makuyo.dpdns.org
     path: /@Marisa_kristi
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] jpJP_2|3.1MB/s
-  network: ws
-  port: 30005
-  server: 103.27.77.131
-  servername: psp09.data.chinav.eu.org
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: psp09.data.chinav.eu.org
-    max-early-data: 2560
-    path: /danfeng
 - name: 9|[VLESS] JP_speednode_0030
   network: ws
   port: 21219

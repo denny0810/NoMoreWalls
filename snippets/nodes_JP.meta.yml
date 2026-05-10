@@ -1,25 +1,100 @@
 proxies:
-- name: 4,5|[Trojan] 日本|@ripaojiedian
-  network: tcp
+- name: 4|[Trojan] jp 日本|@ripaojiedian
   password: BxceQaOe
   port: 6463
   server: 54.178.153.235
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 4,5|[Trojan] 日本2|@ripaojiedian
-  network: tcp
+- name: 4|[Trojan] jp 日本2|@ripaojiedian
   password: 7ebc402f3383366fe4f554abd8625439
   port: 11541
   server: 16.162.87.210
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 日本3|@ripaojiedian
-  network: tcp
+- name: 4|[Trojan] jp 日本3|@ripaojiedian
   password: 7ebc402f3383366fe4f554abd8625439
   port: 24184
   server: 16.162.87.210
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- name: 5|[Trojan] 日本|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 4099
+  server: 54.64.30.114
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 5|[Trojan] 日本2|@ripaojiedian
+  network: tcp
+  password: 7ebc402f3383366fe4f554abd8625439
+  port: 8066
+  server: 54.46.109.238
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 5|[Trojan] 日本3|@ripaojiedian
+  network: tcp
+  password: 7ebc402f3383366fe4f554abd8625439
+  port: 24184
+  server: 18.167.37.32
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: aes-256-cfb
+  name: 6|[SS] jpJP_1|1.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.231.5.85
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 6|[SS] jpJP_2|1.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.112.29.249
+  type: ss
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 6|[VLESS] jpJP_3|2.2MB/s
+  network: tcp
+  port: 10000
+  reality-opts:
+    public-key: oI7007MxeTkbtPDusMp6R-Cu9ZwmDf2N4ZxtH2P7yGA
+    short-id: '!!str e23fabed8d44'
+  server: jpsb.zhenzhang.org
+  servername: buylite.music.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 60f999c6-e65b-4ea7-a061-b925ec9a8c53
+  xudp: true
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] jpJP_4|1.6MB/s
+  network: ws
+  port: 50005
+  server: 185.184.223.73
+  servername: psp09.data.chinav.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: psp09.data.chinav.eu.org
+    max-early-data: 2560
+    path: /danfeng

@@ -1,19 +1,17 @@
 proxies:
-- client-fingerprint: chrome
-  name: 9|[VLESS] CH_speednode_0004
-  network: ws
-  port: 443
-  server: 138.124.32.78
-  servername: sni.latonyamadeline.ndjp.net
-  skip-cert-verify: true
-  tls: true
+- encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
+  name: 6|[VLESS] chCH_1|2.8MB/s
+  network: http
+  port: 22
+  server: 172.65.111.43
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-    path: /
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
 - client-fingerprint: chrome
   name: 9|[VLESS] CH_speednode_0005
   network: ws

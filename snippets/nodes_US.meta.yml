@@ -51,86 +51,195 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 5|[Vmess] 美国5|@ripaojiedian
+  name: 5,6|[Vmess] usUS_1|1.7MB/s
   network: tcp
-  port: '180'
+  port: 180
   server: 82.198.246.233
   servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 6|[Hysteria2] usUS_1|2.3MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-002.fastervpn.world
-  tfo: false
-  type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_2|1017KB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: feb7fa9:154948
-    mode: tls
-  port: 2377
-  server: 88.210.36.107
-  type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 6|[Trojan] usUS_3|1.1MB/s
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- name: 6|[Trojan] usUS_2|1.5MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 160.153.1.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 6|[Trojan] usUS_3|1.3MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 45.40.145.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 6|[Trojan] usUS_4|1.0MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
-  server: 31.58.50.143
+  server: 154.17.8.126
   sni: Koma-YT.PAGeS.Dev
   type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 6|[Trojan] usUS_5|1.1MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 138.124.123.201
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] usUS_6|2.3MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Trgs6eM1aVyx42Qqdley2U8n8MqzjdBPVTr1oh_UmHg
+    short-id: '!!str d46731040a'
+  server: 45.63.50.34
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
   udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 6|[Trojan] usUS_4|1.2MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
+  uuid: 45aa07ae-46b1-4441-8961-7b50a35e4dcc
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] usUS_7|3.8MB/s
+  network: tcp
   port: 443
-  server: 50.228.203.26
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 6|[Trojan] usUS_5|2.0MB/s
+  reality-opts:
+    public-key: Z-KeqdlgTRIs57xvxltQYk3bSxTpEsKGDRs5Ib63YkE
+    short-id: '!!str d47ed0f2520a'
+  server: 45.78.79.20
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 45aa07ae-46b1-4441-8961-7b50a35e4dcc
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] usUS_8|2.9MB/s
+  network: tcp
+  port: 50513
+  reality-opts:
+    public-key: BL4bEP5My8N4j8hOkg-lI-JVrFou4eC7nSzD6Gk19DU
+    short-id: '!!str 79394c306dd3'
+  server: 38.207.190.137
+  servername: ts3.tc.mm.bing.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6245c3d6-348f-44a4-f18b-9d13168a3425
+  xudp: true
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] usUS_9|1.4MB/s
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 154.211.8.210
+  servername: psp09.data.chinav.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: psp09.data.chinav.eu.org
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] usUS_10|3.1MB/s
+  network: ws
+  port: 443
+  server: 64.186.234.243
+  servername: psp09.data.chinav.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: psp09.data.chinav.eu.org
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] usUS_11|2.3MB/s
+  network: ws
+  port: 443
+  server: 166.117.140.55
+  servername: psp09.data.chinav.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: psp09.data.chinav.eu.org
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] usUS_12|1.6MB/s
+  network: ws
   port: 8443
-  server: 51.81.209.21
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+  server: 129.158.241.2
+  servername: psp09.data.chinav.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 6|[Trojan] usUS_6|2.3MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 45.61.140.116
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+      Host: psp09.data.chinav.eu.org
+    max-early-data: 2560
+    path: /danfeng
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

@@ -23,39 +23,26 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] jpJP_1|1.3MB/s
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] jpJP_1|3.6MB/s
   network: ws
-  port: 16617
-  server: planb.mojcn.com
-  type: vmess
-  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
-  ws-opts:
-    headers:
-      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
-    path: /
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] jpJP_2|1.5MB/s
-  network: ws
-  port: 10250
-  server: 218.55.175.15
-  servername: yn80.api-backend.fgfw.qzz.io
-  skip-cert-verify: false
-  tfo: false
+  port: 48631
+  server: 45.129.8.233
+  servername: sni.111000.v6.army
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: yn80.api-backend.fgfw.qzz.io
+      Host: sni.111000.v6.army
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/53.0.2785.143 Safari/537.36
     max-early-data: 2560
-    path: /danfeng
+    path: /
+  xudp: true
 - name: 9|[VLESS] JP_speednode_0029
   network: ws
   port: 31772

@@ -23,19 +23,26 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- cipher: aes-256-gcm
-  name: 6|[SS] sgSG_1|4.7MB/s
-  password: dada1203
-  port: 80
-  server: 47.128.72.35
-  type: ss
+- client-fingerprint: chrome
+  name: 6|[Trojan] sgSG_1|1.3MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 108.162.192.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - alterId: '0'
   cipher: auto
-  name: 6|[Vmess] sgSG_2|2.6MB/s
+  name: 6|[Vmess] sgSG_2|1.3MB/s
   network: ws
   port: 16618
-  server: m.cnmjin.net
+  server: planb.mojcn.com
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -48,10 +55,10 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: 6|[Vmess] sgSG_3|2.3MB/s
+  name: 6|[Vmess] sgSG_3|1.5MB/s
   network: ws
   port: 16618
-  server: planb.mojcn.com
+  server: t.cnmjcn.cyou
   skip-cert-verify: false
   tls: false
   type: vmess

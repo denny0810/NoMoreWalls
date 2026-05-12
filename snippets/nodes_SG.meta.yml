@@ -23,45 +23,33 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] sgSG_1|4.6MB/s
+- alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] sgSG_1|1007KB/s
   network: ws
-  port: 443
-  server: 18.142.9.51
-  servername: gogo.wknm.dpdns.org
-  tls: true
-  type: vless
+  port: 16618
+  server: t.cnmjcn.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
   ws-opts:
     headers:
-      Host: gogo.wknm.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/69.0.3497.100 Safari/537.36
+      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
     path: /
   xudp: true
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] sgSG_3|3.5MB/s
-  network: ws
-  port: 443
-  server: 103.26.8.186
-  servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
+- down: 300
+  name: 6|[Hysteria2] sgSG_2|1.0MB/s
+  obfs: salamander
+  obfs-password: 9noYJA0bODeBONED
+  password: e447d628-0acb-4154-b9db-0ec5557455c3
+  port: 45103
+  server: v2sg6.stableq.top
   skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
-    max-early-data: 2560
-    path: /danfeng
+  sni: v2sg6.stableq.top
+  type: hysteria2
+  up: 300
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] sgSG²_1|2.4MB/s|X|History

@@ -23,77 +23,58 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 6|[Trojan] jpJP_2|1.4MB/s
+- alpn:
+  - h3
+  down: ''
+  fingerprint: ''
+  name: 6|[Hysteria2] jpJP_1|2.9MB/s
+  obfs: ''
+  obfs-password: ''
+  password: c5533e6c-6d4f-4b01-b1c8-4fb952631e73
+  port: 25004
+  server: jp.1001101.xyz
+  skip-cert-verify: false
+  sni: jp.1001101.xyz
+  type: hysteria2
+  up: ''
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] jpJP_2|2.5MB/s
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 172.238.6.57
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] jpJP_3|1.3MB/s
-  network: ws
-  port: 443
-  server: 103.85.25.5
-  servername: gogo.vks.dpdns.org
+  server: 142.248.139.237
+  servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: gogo.vks.dpdns.org
-      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
-        like Gecko) Chrome/5.0.342.1 Safari/533.2
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] jpJP_4|2.0MB/s
+      Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
+    max-early-data: 2560
+    path: /danfeng
+- encryption: none
+  name: 6|[VLESS] jpJP_3|1.4MB/s
   network: ws
-  port: 443
-  server: 142.248.137.22
-  servername: gogo.onetap.qzz.io
+  port: 8443
+  server: 47.245.62.4
+  servername: sni.111000.v6.rocks
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: gogo.onetap.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.101 Safari/537.36
-    path: /
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] jpJP_5|2.1MB/s
-  password: 889e7055-e174-43a2-9004-a8f55f5d9784
-  port: 35603
-  server: gw.lydwan.com
-  type: ss
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] jpJP_6|2.3MB/s
-  network: ws
-  port: 443
-  server: 38.207.130.236
-  servername: gogo.qzzio.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: gogo.qzzio.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /
+      Host: sni.111000.v6.rocks
+    max-early-data: 2560
+    path: /?https://t.me/WangCai2🇨🇳
   xudp: true
 - name: 9|[VLESS] JP_speednode_0029
   network: ws

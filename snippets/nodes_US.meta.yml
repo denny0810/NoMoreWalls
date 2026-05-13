@@ -3,23 +3,23 @@ proxies:
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
   port: 6604
-  server: 95.40.11.168
+  server: 54.248.28.2
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 52249
-  server: 13.231.222.58
+  port: 6604
+  server: 35.75.5.164
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 38692
-  server: 54.46.15.57
+  port: 14919
+  server: 3.115.10.179
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -41,99 +41,69 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 5|[Vmess] 美国4|@ripaojiedian
+  name: 5,6|[Vmess] usUS_5|1.2MB/s
   network: tcp
-  port: '180'
+  port: 180
   server: 82.198.246.250
   servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
 - alterId: 0
   cipher: auto
-  name: 5|[Vmess] 美国5|@ripaojiedian
+  name: 5,6|[Vmess] usUS_7|1.4MB/s
   network: tcp
-  port: '180'
+  port: 180
   server: 82.198.246.233
   servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - h3
-  name: 6|[Hysteria2] usUS_1|2.8MB/s
-  password: c5533e6c-6d4f-4b01-b1c8-4fb952631e73
-  port: 25004
-  server: dmit.solistrumo.com
-  sni: dmit.solistrumo.com
-  type: hysteria2
-  udp: true
-- disable-sni: true
-  down: ''
-  fingerprint: ''
-  name: 6|[Hysteria2] usUS_2|1.3MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 4ea3d542-c5a9-4f8e-9bce-d6f0e75e0fda
-  port: 31663
-  server: 107.172.224.252
-  skip-cert-verify: true
-  sni: ''
-  type: hysteria2
-  up: ''
-- alpn:
-  - h3
-  name: 6|[Hysteria2] usUS_3|1.2MB/s
-  password: c5533e6c-6d4f-4b01-b1c8-4fb952631e73
-  port: 25004
-  server: dmit.adminsis.xyz
-  sni: dmit.adminsis.xyz
-  type: hysteria2
-  udp: true
-- alpn:
-  - h3
-  disable-sni: true
-  name: 6|[Hysteria2] usUS_4|1.1MB/s
-  password: c5533e6c-6d4f-4b01-b1c8-4fb952631e73
-  port: 25004
-  server: app.aaxab.com
-  skip-cert-verify: true
-  sni: ''
-  type: hysteria2
-  udp: true
-- alpn:
-  - h3
-  name: 6|[Hysteria2] usUS_5|1.1MB/s
-  password: c5533e6c-6d4f-4b01-b1c8-4fb952631e73
-  port: 25004
-  server: bwg.11022.net
-  sni: bwg.11022.net
-  type: hysteria2
-  udp: true
-- alpn:
-  - h3
-  name: 6|[Hysteria2] usUS_6|2.2MB/s
-  password: c5533e6c-6d4f-4b01-b1c8-4fb952631e73
-  port: 25004
-  server: racknerd.18kv.com
-  sni: racknerd.18kv.com
-  type: hysteria2
-  udp: true
+  xudp: true
 - multiplexing: MULTIPLEXING_LOW
-  name: 6|[Mieru] usUS_7|1013KB/s
+  name: 6|[Mieru] usUS_1|1.3MB/s
   password: dongtaiwang.com
   port: 28866
   server: 45.221.98.11
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- name: 6|[Trojan] usUS_8|1.1MB/s
+- alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] usUS_3|2.0MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.9
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 6|[Vmess] usUS_6|3.6MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- name: 6|[Trojan] usUS_8|1.2MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 50.62.89.253
+  server: 92.243.74.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -141,22 +111,11 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 6|[Trojan] usUS_9|1021KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 8.6.112.0
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /tr
-- name: 6|[Trojan] usUS_10|1.0MB/s
+- name: 6|[Trojan] usUS_9|1.3MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 155.248.213.201
+  server: 199.68.156.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -164,26 +123,70 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 6|[Trojan] usUS_11|1.1MB/s
+- name: 6|[Trojan] usUS_10|1021KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 142.93.23.229
+  server: 64.227.109.151
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 1248
-  name: 6|[SS] usUS_12|1.3MB/s
-  password: amazonskr05
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 6|[Trojan] usUS_11|1.7MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 3.145.151.197
-  type: ss
+  server: 103.116.7.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Slackware/Chrome/12.0.742.100 Safari/534.30
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 6|[Trojan] usUS_12|2.0MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 192.0.54.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 6|[Trojan] usUS_13|1.0MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 45.128.76.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /tr+|+免费机场TG@proxyshareCN+|+
+- name: 6|[Trojan] usUS_14|2.2MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 50.62.173.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
@@ -328,20 +331,6 @@ proxies:
     headers:
       Host: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
     path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 9|[VLESS] US_speednode_0060
-  port: 443
-  reality-opts:
-    public-key: ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU
-    short-id: '!!str 0123456789abcdef'
-  server: 144.31.157.163
-  servername: www.deepl.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ae8ddd8e-00af-48e5-bd57-05074a1bbffb
 - client-fingerprint: randomized
   name: 9|[VLESS] US_speednode_0061
   network: ws

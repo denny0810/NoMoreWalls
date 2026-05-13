@@ -1,36 +1,21 @@
 proxies:
 - client-fingerprint: chrome
-  name: 6|[Trojan] krKR_1|2.3MB/s
+  encryption: none
+  name: 6|[VLESS] krKR_5|3.6MB/s
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 18469
-  server: 59.16.228.103
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+  port: 443
+  server: 52.79.103.202
+  servername: gogo.vks.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 6|[Trojan] krKR_2|1.1MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 18001
-  server: 220.118.248.123
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
+      Host: gogo.vks.dpdns.org
+    path: /
+  xudp: true
 - name: 7,9|[Socks5] KR_speednode_0034
   port: 1090
   server: 121.169.46.116

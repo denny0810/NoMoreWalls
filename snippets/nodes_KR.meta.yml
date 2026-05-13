@@ -1,21 +1,16 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] krKR_5|3.6MB/s
-  network: ws
+- down: ''
+  fingerprint: ''
+  name: 6|[Hysteria2] krKR_1|2.9MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: 52.79.103.202
-  servername: gogo.vks.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: gogo.vks.dpdns.org
-    path: /
-  xudp: true
+  server: vpn-kr-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-kr-001.fastervpn.world
+  type: hysteria2
+  up: ''
 - name: 7|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
   port: 1090
   server: 121.169.46.116

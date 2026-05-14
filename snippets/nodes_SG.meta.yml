@@ -23,49 +23,32 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 6|[Hysteria2] sgSG_1|3.3MB/s
+- down: ''
+  fingerprint: ''
+  name: 6|[Hysteria2] sgSG_1|3.1MB/s
+  obfs: ''
+  obfs-password: ''
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: vpn-sg-002.fastervpn.world
+  server: vpn-sg-003.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-sg-002.fastervpn.world
+  sni: vpn-sg-003.fastervpn.world
   type: hysteria2
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] sgSG_2|2.4MB/s
-  network: tcp
-  port: 35308
-  reality-opts:
-    _spider-x: /
-    public-key: 4g1kpdmdbN6aNxeBYMj9WherunH9JSXsI_nKZTDiewE
-    short-id: '!!str fef8dcb8cafe30'
-  server: 18.141.49.252
-  servername: www.tesla.com
+  up: ''
+- cipher: aes-128-gcm
+  name: 6|[SS] sgSG_2|4.2MB/s
+  password: '!!str 666'
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: edcloudwasm.nellewizaijn.workers.dev
+    mode: websocket
+    mux: 0
+    skip-cert-verify: false
+  port: 80
+  server: youxuan.cf.090227.xyz
   skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 779d227c-f7be-4b9d-a4a9-1197c734b4e7
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] sgSG_3|2.3MB/s
-  network: tcp
-  port: 38967
-  reality-opts:
-    _spider-x: /
-    public-key: TFAGMtH1LB503O0SJadbPxBs8S_LACshWQpEIAyuS1g
-    short-id: '!!str 9b1cdc34dd5664'
-  server: 18.143.151.84
-  servername: www.icloud.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 20ae58df-d562-40b3-908c-21b4881315d4
-  xudp: true
+  type: ss
+  udp: false
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] sgSG²_1|2.4MB/s|X|History

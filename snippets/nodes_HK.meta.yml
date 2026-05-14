@@ -34,42 +34,24 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 6|[Trojan] hkHK_1|1.4MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 8.223.63.150
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] hkHK_2|2.9MB/s
-  network: ws
-  port: 8443
-  server: 23.27.0.170
-  servername: g4y4886.mail-relay.chinam.indevs.in
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] hkHK_1|1.3MB/s
+  network: tcp
+  port: 57502
+  reality-opts:
+    _spider-x: /
+    public-key: IOAu39FSiRk_VX4sfzCVZorWhUY0ikftPdHqcmNoY1c
+    short-id: '!!str ebfeeffb94d5bd5d'
+  server: 64.49.46.225
+  servername: www.tesla.com
   skip-cert-verify: false
-  tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: g4y4886.mail-relay.chinam.indevs.in
-    max-early-data: 2560
-    path: /danfeng
+  uuid: a4caef32-090f-4f17-b7fa-2808f205620d
+  xudp: true
 - name: 9|[VLESS] HK_speednode_0018
   network: ws
   port: 27015

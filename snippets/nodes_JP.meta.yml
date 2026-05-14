@@ -23,36 +23,94 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- down: ''
-  fingerprint: ''
-  name: 6|[Hysteria2] jpJP_1|3.3MB/s
-  obfs: ''
-  obfs-password: ''
+- name: 6|[Trojan] jpJP_1|1.8MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 64.176.36.61
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 6|[Hysteria2] jpJP_2|1.9MB/s
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: vpn-jp-002.fastervpn.world
+  server: vpn-jp-001.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-jp-002.fastervpn.world
+  sni: vpn-jp-001.fastervpn.world
   type: hysteria2
-  up: ''
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] jpJP_2|2.2MB/s
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] jpJP_3|1.1MB/s
   network: ws
   port: 443
-  server: 103.201.130.47
-  servername: shkiau5c.api-node-a1.chinam.indevs.in
-  skip-cert-verify: false
-  tfo: false
+  server: 8.211.147.175
+  servername: gogo.vks.dpdns.org
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: shkiau5c.api-node-a1.chinam.indevs.in
-    max-early-data: 2560
-    path: /danfeng
+      Host: gogo.vks.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/34.0.1847.131 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 6|[Trojan] jpJP_4|1.8MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 64.110.104.30
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
+        Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 6|[VLESS] jpJP_5|1.5MB/s
+  network: xhttp
+  port: 1004
+  reality-opts:
+    _spider-x: /
+    public-key: k_ma7UZk0S-2BACEHGCs59PY62Gz9WP2qIAqD7QxilM
+    short-id: '!!str f9a0b1c2'
+  server: 45.192.241.49
+  servername: endfield.gryphline.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e1cbf5d-8ab6-4332-9e41-8810866e6dcb
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 6|[VLESS] jpJP_6|2.2MB/s
+  network: xhttp
+  port: 1005
+  reality-opts:
+    _spider-x: /
+    public-key: 7wB1ByHxwYsqX83WOY43ezH4xbvpkJCW1buZVOqhoBg
+    short-id: '!!str 3d4e5f6a'
+  server: 45.192.241.49
+  servername: lolesports.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fc05466a-5142-4c89-b196-8571bc5d9719
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true

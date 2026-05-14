@@ -23,28 +23,49 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 6|[Http] sgSG_1|1.0MB/s
-  password: 16955d72-1794-11f0-a035-f23c95b6f51d
-  port: 3233
-  server: 4b41083b-tea5c0-tequ5b-dnss.fourtwo.cdnbytescm.com
-  sni: 4b41083b-tea5c0-tequ5b-dnss.fourtwo.cdnbytescm.com
-  tls: true
-  type: http
-  username: 16955d72-1794-11f0-a035-f23c95b6f51d
-- client-fingerprint: chrome
-  name: 6|[Trojan] sgSG_2|1.0MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
+- name: 6|[Hysteria2] sgSG_1|3.3MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: 108.162.194.253
+  server: vpn-sg-002.fastervpn.world
   skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+  sni: vpn-sg-002.fastervpn.world
+  type: hysteria2
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] sgSG_2|2.4MB/s
+  network: tcp
+  port: 35308
+  reality-opts:
+    _spider-x: /
+    public-key: 4g1kpdmdbN6aNxeBYMj9WherunH9JSXsI_nKZTDiewE
+    short-id: '!!str fef8dcb8cafe30'
+  server: 18.141.49.252
+  servername: www.tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+  uuid: 779d227c-f7be-4b9d-a4a9-1197c734b4e7
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] sgSG_3|2.3MB/s
+  network: tcp
+  port: 38967
+  reality-opts:
+    _spider-x: /
+    public-key: TFAGMtH1LB503O0SJadbPxBs8S_LACshWQpEIAyuS1g
+    short-id: '!!str 9b1cdc34dd5664'
+  server: 18.143.151.84
+  servername: www.icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 20ae58df-d562-40b3-908c-21b4881315d4
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] sgSG²_1|2.4MB/s|X|History

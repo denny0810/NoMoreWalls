@@ -871,20 +871,6 @@ proxies:
   port: 38388
   server: 103.186.155.16
   type: ss
-- cipher: aes-256-gcm
-  name: 8|[SS] SS节点-ipv6
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 11111
-  server: 2a02:6ea0:d32f::f8fe:349b
-  type: ss
-- name: '8|[Hysteria2] hysteria2节点 #1'
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 29900
-  server: 178.18.147.66
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
 - name: 8|[VLESS] VLESS-xhttp-Reality-Vision
   network: xhttp
   port: 15530
@@ -912,6 +898,20 @@ proxies:
     headers:
       Host: ''
     path: /github.com/Alvin9999-newpac/fanqiang
+- name: '8|[Hysteria2] hysteria2节点 #1'
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 29900
+  server: 178.18.147.66
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- cipher: aes-256-gcm
+  name: 8|[SS] SS节点-ipv6
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 11111
+  server: 2a02:6ea0:d32f::f8fe:349b
+  type: ss
 - name: 9|[VLESS] AE_speednode_0001
   network: ws
   port: 443

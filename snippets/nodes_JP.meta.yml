@@ -23,68 +23,79 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- down: ''
-  fingerprint: ''
-  name: 6|[Hysteria2] jpJP_1|1.5MB/s
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-jp-003.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-jp-003.fastervpn.world
-  type: hysteria2
-  up: ''
-- name: 6|[Trojan] jpJP_2|1.0MB/s
+- name: 6|[Trojan] jpJP_2|1.9MB/s
   network: ws
-  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 172.64.53.190
+  server: 43.207.197.79
   skip-cert-verify: true
-  sni: snll667.pages.dev
+  sni: Koma-YT.PAGeS.Dev
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      Host: snll667.pages.dev
-    path: //
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] jpJP_3|1.8MB/s
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] jpJP_3|1.2MB/s
   network: ws
-  port: 443
-  server: 96.126.130.101
-  servername: wybfkrp6.gateway-edge.danfeng.cyou
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  port: 16617
+  server: m.cnmjin.net
+  type: vmess
+  uuid: ccb2a1ea-285f-4dda-b798-6ad925aa784b
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: wybfkrp6.gateway-edge.danfeng.cyou
-    max-early-data: 2560
-    path: /danfeng
+      Host: 4c38377a449c350ad3b4c6858225defb.mobgslb.tbcache.com
+    path: /
 - client-fingerprint: chrome
-  name: 6|[VLESS] jpJP_4|2.2MB/s
+  name: 6|[VLESS] jpJP_4|1.9MB/s
   network: xhttp
-  port: 1004
+  port: 1005
   reality-opts:
     _spider-x: /
-    public-key: k_ma7UZk0S-2BACEHGCs59PY62Gz9WP2qIAqD7QxilM
-    short-id: '!!str f9a0b1c2'
+    public-key: 7wB1ByHxwYsqX83WOY43ezH4xbvpkJCW1buZVOqhoBg
+    short-id: '!!str 3d4e5f6a'
   server: 45.192.241.49
-  servername: endfield.gryphline.com
+  servername: lolesports.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 7e1cbf5d-8ab6-4332-9e41-8810866e6dcb
+  uuid: fc05466a-5142-4c89-b196-8571bc5d9719
   xhttp-opts:
     mode: auto
     path: /
   xudp: true
+- client-fingerprint: chrome
+  name: 6|[VLESS] jpJP_5|2.1MB/s
+  network: xhttp
+  port: 1001
+  reality-opts:
+    _spider-x: /
+    public-key: 15j0YeKJyH2c6bsgDc10HuounWbxSVyJPHa36uS5mSE
+    short-id: '!!str 6f7a8b9c'
+  server: 45.192.241.49
+  servername: valorant.secure.dyn.riotcdn.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65a9dd63-ccd2-4a64-8bec-7caa648a9ee0
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 9|[VLESS] JP_speednode_0017
+  port: 443
+  reality-opts:
+    public-key: rwZxMeKJhN-LkKkP-u6qXYFzSlbuyqxYzloqaOpFLUM
+    short-id: '!!str e98e89a0'
+  server: 188.253.17.104
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63f26629-a4a4-4550-bffc-afabb3b5b3c3

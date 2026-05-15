@@ -1,4 +1,16 @@
 proxies:
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: db
+  name: 6|[Trojan] twTW_1|1.5MB/s
+  network: grpc
+  password: 3f5bc61547b1f0d9
+  port: 443
+  server: 125.227.86.48
+  skip-cert-verify: true
+  sni: TG.freecodes
+  type: trojan
 - name: 9|[VLESS] TW_speednode_0034
   network: ws
   port: 17820

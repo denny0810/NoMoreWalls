@@ -2,66 +2,105 @@ proxies:
 - name: 4,5|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4633
-  server: 18.183.7.25
+  port: 6463
+  server: 16.162.220.210
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 4,5|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 11541
-  server: 16.162.100.5
+  port: 24184
+  server: 18.180.158.187
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 8066
-  server: 3.112.61.186
+  port: 24184
+  server: 18.166.75.171
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- down: ''
+  fingerprint: ''
+  name: 6|[Hysteria2] jpJP_1|2.3MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-003.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-003.fastervpn.world
+  type: hysteria2
+  up: ''
 - client-fingerprint: chrome
+  name: 6|[Trojan] jpJP_2|1.1MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 64.110.104.30
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
+        Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: firefox
   ech-opts:
-    _dns: https://dns.alidns.com/dns-query
     enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 6|[VLESS] jpJP_2|1.4MB/s
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] jpJP_4|1.3MB/s
   network: ws
   port: 443
-  server: 96.126.130.217
-  servername: gogo5.kmj.qzz.io
+  server: 216.23.84.65
+  servername: g4y4886.mail-relay.chinam.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: g4y4886.mail-relay.chinam.indevs.in
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: 6|[VLESS] jpJP_5|2.5MB/s
+  network: xhttp
+  port: 1001
+  reality-opts:
+    _spider-x: /
+    public-key: 15j0YeKJyH2c6bsgDc10HuounWbxSVyJPHa36uS5mSE
+    short-id: '!!str 6f7a8b9c'
+  server: 45.192.241.49
+  servername: valorant.secure.dyn.riotcdn.net
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: gogo5.kmj.qzz.io
+  uuid: 65a9dd63-ccd2-4a64-8bec-7caa648a9ee0
+  xhttp-opts:
+    mode: auto
     path: /
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: qq
-  encryption: none
-  name: 6|[VLESS] jpJP_3|1.5MB/s
+- name: 6|[Trojan] jpJP_6|2.5MB/s
   network: ws
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
-  server: 195.209.82.149
-  servername: s28233.cdn.ngenix.net
-  tls: true
-  type: vless
+  server: 172.64.53.190
+  skip-cert-verify: true
+  sni: snll667.pages.dev
+  type: trojan
   udp: true
-  uuid: 09ef62a3-6b24-Fade-93b9-bf48de615a4d
   ws-opts:
     headers:
-      Host: s28233.cdn.ngenix.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.110 Safari/537.36
-    path: /
-  xudp: true
+      Host: snll667.pages.dev
+    path: //

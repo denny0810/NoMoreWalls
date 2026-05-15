@@ -25,7 +25,7 @@ proxies:
   type: trojan
 - down: ''
   fingerprint: ''
-  name: 6|[Hysteria2] jpJP_1|2.3MB/s
+  name: 6|[Hysteria2] jpJP_1|1.5MB/s
   obfs: ''
   obfs-password: ''
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
@@ -35,63 +35,7 @@ proxies:
   sni: vpn-jp-003.fastervpn.world
   type: hysteria2
   up: ''
-- client-fingerprint: chrome
-  name: 6|[Trojan] jpJP_2|1.1MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 64.110.104.30
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
-        Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] jpJP_4|1.3MB/s
-  network: ws
-  port: 443
-  server: 216.23.84.65
-  servername: g4y4886.mail-relay.chinam.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: g4y4886.mail-relay.chinam.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  name: 6|[VLESS] jpJP_5|2.5MB/s
-  network: xhttp
-  port: 1001
-  reality-opts:
-    _spider-x: /
-    public-key: 15j0YeKJyH2c6bsgDc10HuounWbxSVyJPHa36uS5mSE
-    short-id: '!!str 6f7a8b9c'
-  server: 45.192.241.49
-  servername: valorant.secure.dyn.riotcdn.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65a9dd63-ccd2-4a64-8bec-7caa648a9ee0
-  xhttp-opts:
-    mode: auto
-    path: /
-  xudp: true
-- name: 6|[Trojan] jpJP_6|2.5MB/s
+- name: 6|[Trojan] jpJP_2|1.0MB/s
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -104,3 +48,43 @@ proxies:
     headers:
       Host: snll667.pages.dev
     path: //
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] jpJP_3|1.8MB/s
+  network: ws
+  port: 443
+  server: 96.126.130.101
+  servername: wybfkrp6.gateway-edge.danfeng.cyou
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: wybfkrp6.gateway-edge.danfeng.cyou
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: 6|[VLESS] jpJP_4|2.2MB/s
+  network: xhttp
+  port: 1004
+  reality-opts:
+    _spider-x: /
+    public-key: k_ma7UZk0S-2BACEHGCs59PY62Gz9WP2qIAqD7QxilM
+    short-id: '!!str f9a0b1c2'
+  server: 45.192.241.49
+  servername: endfield.gryphline.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e1cbf5d-8ab6-4332-9e41-8810866e6dcb
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true

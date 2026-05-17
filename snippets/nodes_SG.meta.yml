@@ -25,37 +25,30 @@ proxies:
   type: trojan
 - down: ''
   fingerprint: ''
-  name: 6|[Hysteria2] sgSG_1|1.0MB/s
+  name: 6|[Hysteria2] sgSG_1|3.3MB/s
   obfs: ''
   obfs-password: ''
-  password: 60207953-ef79-4f8f-8062-63c281f34c6b
-  port: 8080
-  server: hkmax03.476579.xyz
-  skip-cert-verify: false
-  sni: hkmax03.476579.xyz
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-sg-003.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-sg-003.fastervpn.world
   type: hysteria2
   up: ''
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] sgSG_2|1.2MB/s
-  network: ws
-  port: 8443
-  server: 5.223.56.239
-  servername: klng2.stream-cdn.sh21.eu.org
+- cipher: aes-128-gcm
+  name: 6|[SS] sgSG_2|4.4MB/s
+  password: '!!str 666'
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: edcloudwasm.nellewizaijn.workers.dev
+    mode: websocket
+    mux: 0
+    skip-cert-verify: false
+  port: 80
+  server: youxuan.cf.090227.xyz
   skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: klng2.stream-cdn.sh21.eu.org
-    max-early-data: 2560
-    path: /danfeng
+  type: ss
+  udp: false
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] sgSG²_1|2.4MB/s|X|History

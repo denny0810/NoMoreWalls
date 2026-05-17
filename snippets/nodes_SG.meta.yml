@@ -1,44 +1,4 @@
 proxies:
-- name: 2|[Hysteria2] sgSG_@WangCai_8
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 13.212.116.135
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: '2|[Hysteria2] sgSG_@WangCai_8 #1'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 13.212.141.33
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: '2|[Hysteria2] sgSG_@WangCai_8 #2'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 13.212.202.17
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: '2|[Hysteria2] sgSG_@WangCai_8 #3'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 13.212.49.151
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: '2|[Hysteria2] sgSG_@WangCai_8 #4'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 13.229.96.50
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
 - name: 4,5|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
@@ -63,6 +23,39 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- down: ''
+  fingerprint: ''
+  name: 6|[Hysteria2] sgSG_1|1.0MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 60207953-ef79-4f8f-8062-63c281f34c6b
+  port: 8080
+  server: hkmax03.476579.xyz
+  skip-cert-verify: false
+  sni: hkmax03.476579.xyz
+  type: hysteria2
+  up: ''
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 6|[VLESS] sgSG_2|1.2MB/s
+  network: ws
+  port: 8443
+  server: 5.223.56.239
+  servername: klng2.stream-cdn.sh21.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: klng2.stream-cdn.sh21.eu.org
+    max-early-data: 2560
+    path: /danfeng
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] sgSG²_1|2.4MB/s|X|History

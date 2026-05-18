@@ -23,40 +23,46 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- down: ''
-  fingerprint: ''
-  name: 6|[Hysteria2] jpJP_1|1.2MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 68652433-b940-4d49-9297-702c49ff410d
-  port: 23066
-  ports: 23066,20000-40000
-  server: 45.130.166.185
-  skip-cert-verify: true
-  sni: net-64.yuetong.online
-  type: hysteria2
-  up: ''
-- name: 6|[Hysteria2] jpJP_2|1.9MB/s
-  password: 68652433-b940-4d49-9297-702c49ff410d
-  port: 26526
-  ports: 23066,20000-40000
-  server: 45.130.166.185
-  skip-cert-verify: true
-  sni: net-64.yuetong.online
-  tfo: false
-  type: hysteria2
-- name: 6|[Trojan] jpJP_4|1.9MB/s
+- client-fingerprint: random
+  name: 6|[VLESS] jpJP_1|1.7MB/s
+  network: ws
+  port: 443
+  server: dx.mmhh.eu.cc
+  servername: hhlfy.twiladaphne.ndjp.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /
+- client-fingerprint: random
+  name: 6|[VLESS] jpJP_2|1.0MB/s
+  network: ws
+  port: 443
+  server: yd.mmhh.eu.cc
+  servername: hhlfy.twiladaphne.ndjp.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /
+- name: 6|[Trojan] jpJP_3|1.5MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2083
-  server: 64.176.38.23
+  port: 443
+  server: 43.207.197.79
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳
+    path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: 9|[VLESS] JP_speednode_0017

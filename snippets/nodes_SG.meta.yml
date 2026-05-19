@@ -23,47 +23,67 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 6|[Vmess] sgSG_1|1.3MB/s
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- down: ''
-  fingerprint: ''
-  name: 6|[Hysteria2] sgSG_2|1.1MB/s
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-sg-003.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-sg-003.fastervpn.world
-  type: hysteria2
-  up: ''
 - client-fingerprint: chrome
-  name: 6|[VLESS] sgSG_3|1.2MB/s
+  name: 6|[Trojan] sgSG_1|1.1MB/s
   network: ws
-  port: 10001
-  server: 103.122.244.22
-  servername: jbp7i.data-edge.chinav.indevs.in
-  tls: true
-  type: vless
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 172.64.147.106
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: jbp7i.data-edge.chinav.indevs.in
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /danfeng?ed=2560fp=firefox
-  xudp: true
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /tr
+- name: 6|[Http] sgSG_2|1.5MB/s
+  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  port: 3253
+  server: 5311840a-te8ao0-telzv3-4550.fourtwo.cdnbytescm.com
+  sni: 5311840a-te8ao0-telzv3-4550.fourtwo.cdnbytescm.com
+  tls: true
+  type: http
+  username: 6286105c-fb6d-11ef-be96-f23c93136cb3
+- down: ''
+  fingerprint: ''
+  name: 6|[Hysteria2] sgSG_3|1.3MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 54407de7-ef98-4849-b1fb-837a5092d368
+  port: 36129
+  ports: 36129,20000-40000
+  server: 142.91.98.83
+  skip-cert-verify: true
+  sni: up-1mk.yuetong.online
+  type: hysteria2
+  up: ''
+- name: 6|[Trojan] sgSG_4|1.8MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 85.155.98.71
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- cipher: aes-128-gcm
+  name: 6|[SS] sgSG_5|3.9MB/s
+  password: '!!str 666'
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: edcloudwasm.nellewizaijn.workers.dev
+    mode: websocket
+    mux: 0
+    skip-cert-verify: false
+  port: 80
+  server: youxuan.cf.090227.xyz
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] sgSG²_1|2.4MB/s|X|History

@@ -23,67 +23,27 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: 6|[Trojan] sgSG_1|1.1MB/s
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] sgSG_1|2.2MB/s
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
   port: 2096
-  server: 172.64.147.106
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /tr
-- name: 6|[Http] sgSG_2|1.5MB/s
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  port: 3253
-  server: 5311840a-te8ao0-telzv3-4550.fourtwo.cdnbytescm.com
-  sni: 5311840a-te8ao0-telzv3-4550.fourtwo.cdnbytescm.com
+  server: centurylink.es
+  servername: finite-node.rtxconfigz.com
   tls: true
-  type: http
-  username: 6286105c-fb6d-11ef-be96-f23c93136cb3
-- down: ''
-  fingerprint: ''
-  name: 6|[Hysteria2] sgSG_3|1.3MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 54407de7-ef98-4849-b1fb-837a5092d368
-  port: 36129
-  ports: 36129,20000-40000
-  server: 142.91.98.83
-  skip-cert-verify: true
-  sni: up-1mk.yuetong.online
-  type: hysteria2
-  up: ''
-- name: 6|[Trojan] sgSG_4|1.8MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 85.155.98.71
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+  type: vless
+  udp: true
+  uuid: 5d3edd3f-7e6a-4c3d-a00e-9723c42cb2b4
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- cipher: aes-128-gcm
-  name: 6|[SS] sgSG_5|3.9MB/s
-  password: '!!str 666'
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: edcloudwasm.nellewizaijn.workers.dev
-    mode: websocket
-    mux: 0
-    skip-cert-verify: false
-  port: 80
-  server: youxuan.cf.090227.xyz
-  skip-cert-verify: false
-  type: ss
-  udp: false
+      Host: finite-node.rtxconfigz.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] sgSG²_1|2.4MB/s|X|History

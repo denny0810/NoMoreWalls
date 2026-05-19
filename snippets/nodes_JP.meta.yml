@@ -16,6 +16,57 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] jpJP_1|2.1MB/s
+  network: ws
+  port: 16090
+  server: 210.156.180.102
+  servername: dcsrzh.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: dcsrzh.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/57.0.2987.133 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] jpJP_2|1.1MB/s
+  network: tcp
+  port: 55307
+  reality-opts:
+    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
+    short-id: '!!str 4bcbc85d'
+  server: 216.23.108.4
+  servername: download.windowsupdate.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
+- client-fingerprint: chrome
+  name: 6|[VLESS] jpJP_3|1.3MB/s
+  network: ws
+  port: 443
+  server: 158.51.110.12
+  servername: pagescm.freen5.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  ws-opts:
+    headers:
+      Host: pagescm.freen5.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /showfp=chrome
+  xudp: true
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 9|[VLESS] JP_speednode_0014
   port: 16874

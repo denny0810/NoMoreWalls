@@ -42,6 +42,39 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 6|[Trojan] hkHK_1|1.6MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 8.223.63.189
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram
+- alpn:
+  - h2
+  - http/1.1
+  name: 6|[Anytls] hkHK_2|1.5MB/s
+  password: cf1d67c8-3bfe-37e1-bc2e-76aaec9923e4
+  port: 22213
+  server: aisa.bblink88.com
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: 6|[Anytls] hkHK_3|1.1MB/s
+  password: cf1d67c8-3bfe-37e1-bc2e-76aaec9923e4
+  port: 22211
+  server: aisa.bblink88.com
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: anytls
+  udp: true
 - name: 9|[VLESS] HK_speednode_0012
   network: ws
   port: 32237

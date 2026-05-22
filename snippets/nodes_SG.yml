@@ -2,49 +2,36 @@ proxies:
 - name: 4,5|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
-  port: 2511
-  server: 13.230.33.127
+  port: 3842
+  server: 43.206.93.224
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 新加坡2|@ripaojiedian
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
-  port: 1180
-  server: 13.230.33.127
+  port: 3842
+  server: 16.162.192.39
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1275
-  server: 5243.199.69.35
+  port: 4203
+  server: 3.112.27.3
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- cipher: aes-128-gcm
-  name: 6|[SS] sgSG_1|3.2MB/s
-  password: '!!str 666'
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: edcloudwasm.nellewizaijn.workers.dev
-    mode: websocket
-    mux: false
-    skip-cert-verify: false
-  port: 80
-  server: youxuan.cf.090227.xyz
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- name: 6|[Trojan] sgSG_6|1.8MB/s
+- name: 6|[Trojan] sgSG_1|1.4MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 108.162.196.253
+  server: 43.160.207.175
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
+  udp: true
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev

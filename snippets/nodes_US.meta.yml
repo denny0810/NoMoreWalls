@@ -61,66 +61,136 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 6|[Hysteria2] usUS_1|1.5MB/s
-  password: 9edc413e-3fdb-4277-b70b-53fff007d4f4
-  port: 50269
-  server: 38.135.25.224
-  skip-cert-verify: true
-  sni: apps.apple.com
-  tfo: false
-  type: hysteria2
-- name: 6|[Trojan] usUS_2|2.3MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 141.193.27.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 6|[Trojan] usUS_3|1.5MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 199.119.137.41
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 6|[Trojan] usUS_4|1.9MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 107.151.188.118
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] usUS_5|2.1MB/s
+- alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] usUS_1|1.4MB/s
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: 1HeKf_8KDjfzXfUi9P7WBaGStMvr96TKdUbofpkwBzQ
-    short-id: '!!str 8bd29483ded126b4'
-  server: 88.216.68.50
-  servername: wikihow.com
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- client-fingerprint: chrome
+  name: 6|[VLESS] usUS_3|2.1MB/s
+  network: ws
+  port: 8443
+  server: 154.26.181.106
+  servername: sni.skylee4.cloudns.ch
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f815b837-8504-41f9-9a06-bd3c72d2fcf3
+  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+  ws-opts:
+    headers:
+      Host: sni.skylee4.cloudns.ch
+    path: /proxyip=ProxyIP.CMLiussss.net
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] usUS_4|2.5MB/s
+  network: ws
+  port: 443
+  server: 154.17.5.177
+  servername: sni.skylee4.cloudns.ch
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+  ws-opts:
+    headers:
+      Host: sni.skylee4.cloudns.ch
+    path: /proxyip
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] usUS_5|2.1MB/s
+  network: ws
+  port: 443
+  server: 64.186.232.95
+  servername: sni.skylee4.cloudns.ch
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+  ws-opts:
+    headers:
+      Host: sni.skylee4.cloudns.ch
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /proxyip=ProxyIP.CMLiussss.net
+  xudp: true
+- client-fingerprint: chrome
+  name: 6|[VLESS] usUS_6|2.1MB/s
+  network: ws
+  port: 8443
+  server: 69.63.199.39
+  servername: sni.skylee4.cloudns.ch
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+  ws-opts:
+    headers:
+      Host: sni.skylee4.cloudns.ch
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /proxyip=ProxyIP.CMLiussss.net
+  xudp: true
+- client-fingerprint: edge
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] usUS_7|1.8MB/s
+  network: tcp
+  port: 22231
+  server: 85.234.114.30
+  servername: r1.mizulina.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  xudp: true
+- client-fingerprint: edge
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 6,9|[VLESS] RU_speednode_0029
+  network: raw
+  port: 22231
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  xudp: true
+- alterId: '2'
+  cipher: auto
+  name: 6|[Vmess] usUS_9|1.2MB/s
+  network: tcp
+  port: 30829
+  server: 85.211.192.215
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- alterId: 2
+  cipher: auto
+  name: 6|[Vmess] usUS_10|1.5MB/s
+  network: tcp
+  port: 30829
+  server: 103.182.97.12
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ

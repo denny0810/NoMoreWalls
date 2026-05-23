@@ -1,5 +1,5 @@
 proxies:
-- name: 3,4|[Trojan] 美国|@ripaojiedian
+- name: 4,5|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: 635340b47bddf8f41c123dc6f2b5f7ce
   port: 6604
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 3,4|[Trojan] 美国2|@ripaojiedian
+- name: 4,5|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: 635340b47bddf8f41c123dc6f2b5f7ce
   port: 2663
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 3,4|[Trojan] 美国3|@ripaojiedian
+- name: 4,5|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 8359
@@ -25,7 +25,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 3|[Vmess] us 美国4|@ripaojiedian
+  name: 4|[Vmess] us 美国4|@ripaojiedian
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
@@ -34,7 +34,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 3|[Vmess] us 美国5|@ripaojiedian
+  name: 4|[Vmess] us 美国5|@ripaojiedian
   port: 180
   server: 82.198.246.233
   skip-cert-verify: false
@@ -43,7 +43,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 4|[Vmess] 美国4|@ripaojiedian
+  name: 5|[Vmess] 美国4|@ripaojiedian
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -53,7 +53,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 4|[Vmess] 美国5|@ripaojiedian
+  name: 5|[Vmess] 美国5|@ripaojiedian
   network: tcp
   port: '180'
   server: 82.198.246.233
@@ -61,187 +61,75 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 5|[Hysteria2] usUS_1|1.9MB/s
-  password: bce6c821-200d-421f-bf3d-7159e5246ea0
-  port: 33333
-  server: hy2.123266.xyz
+- name: 6|[Hysteria2] usUS_1|1.5MB/s
+  password: 9edc413e-3fdb-4277-b70b-53fff007d4f4
+  port: 50269
+  server: 38.135.25.224
   skip-cert-verify: true
-  sni: hy2.123266.xyz
+  sni: apps.apple.com
   tfo: false
   type: hysteria2
+- name: 6|[Trojan] usUS_2|2.3MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 141.193.27.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 6|[Trojan] usUS_3|1.5MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 199.119.137.41
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 6|[Trojan] usUS_4|1.9MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 107.151.188.118
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 5,8|[VLESS] GB_speednode_0015
+  name: 6|[VLESS] usUS_5|2.1MB/s
   network: tcp
   port: 443
   reality-opts:
-    public-key: ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU
-    short-id: '!!str 67ccfc02'
-  server: 2.26.3.148
-  servername: www.deepl.com
+    public-key: 1HeKf_8KDjfzXfUi9P7WBaGStMvr96TKdUbofpkwBzQ
+    short-id: '!!str 8bd29483ded126b4'
+  server: 88.216.68.50
+  servername: wikihow.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d511e429-e32b-46a7-ac07-a0fffa9b634c
+  uuid: f815b837-8504-41f9-9a06-bd3c72d2fcf3
   xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 5|[VLESS] usUS_4|1.0MB/s
-  network: tcp
-  port: 18038
-  reality-opts:
-    public-key: UDLhjunZjP-5A6KBMeuWe3qp_FusLAshcQIcCF7EZh8
-    short-id: '!!str ce9f790791426d83'
-  server: 144.31.82.47
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a42c8b66-d0a7-4b49-9143-b98f1c84edba
-  xudp: true
-- name: 5|[Trojan] usUS_5|1.3MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 38.77.187.51
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 5|[Trojan] usUS_6|1.7MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 77.110.114.56
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- encryption: none
-  name: 5|[VLESS] usUS_7|3.2MB/s
-  network: ws
-  port: 8880
-  server: 89.116.250.40
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime10.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-  xudp: true
-- client-fingerprint: chrome
-  name: 5|[VLESS] usUS_8|1.8MB/s
-  network: ws
-  port: 443
-  server: 69.63.213.78
-  servername: w9rw8g1k.node-c.danfeng.gv.uy
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: w9rw8g1k.node-c.danfeng.gv.uy
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /danfeng?ed=2560fp=firefox
-  xudp: true
-- cipher: aes-256-cfb
-  name: 5|[SS] usUS_9|2.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.207.245.144
-  type: ss
-- name: 5|[Trojan] usUS_10|1.3MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 64.181.218.67
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 5|[Trojan] usUS_11|1.1MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 66.154.110.182
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 5|[Trojan] usUS_12|1.4MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 50.228.203.26
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 5|[Trojan] usUS_13|1.0MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 148.135.70.157
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 5|[Trojan] usUS_14|1.0MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 51.81.209.21
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 5|[Trojan] usUS_15|2.1MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 64.227.109.151
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 6|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
+  name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.251
   type: ss
-- name: 6|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
+- name: 7|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
   password: ''
   port: 7070
   server: 20.83.154.79
@@ -249,7 +137,7 @@ proxies:
   type: socks5
   username: ''
 - client-fingerprint: randomized
-  name: 8|[VLESS] US_speednode_0036
+  name: 9|[VLESS] US_speednode_0036
   network: ws
   port: 2095
   server: cf.090227.xyz
@@ -264,7 +152,7 @@ proxies:
       Host: fuckingfangbinxing.cnmfangbinxing-p.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 8|[VLESS] US_speednode_0037
+  name: 9|[VLESS] US_speednode_0037
   network: ws
   port: 2095
   server: www.npmjs.com
@@ -279,7 +167,7 @@ proxies:
       Host: fuckingfangbinxing.cnmfangbinxing-p.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 8|[VLESS] US_speednode_0038
+  name: 9|[VLESS] US_speednode_0038
   network: ws
   port: 2095
   server: ns.cloudflare.com
@@ -294,7 +182,7 @@ proxies:
       Host: fuckingfangbinxing.cnmfangbinxing-p.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 8|[VLESS] US_speednode_0039
+  name: 9|[VLESS] US_speednode_0039
   network: ws
   port: 2095
   server: docs.cloudflare.com
@@ -309,7 +197,7 @@ proxies:
       Host: fuckingfangbinxing.cnmfangbinxing-p.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 8|[VLESS] US_speednode_0040
+  name: 9|[VLESS] US_speednode_0040
   network: ws
   port: 2095
   server: www.wto.org
@@ -324,7 +212,7 @@ proxies:
       Host: fuckingfangbinxing.cnmfangbinxing-p.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 8|[VLESS] US_speednode_0041
+  name: 9|[VLESS] US_speednode_0041
   network: ws
   port: 2095
   server: www.epicgames.com
@@ -339,7 +227,7 @@ proxies:
       Host: fuckingfangbinxing.cnmfangbinxing-p.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 8|[VLESS] US_speednode_0042
+  name: 9|[VLESS] US_speednode_0042
   network: ws
   port: 2095
   server: developers.cloudflare.com
@@ -354,7 +242,7 @@ proxies:
       Host: fuckingfangbinxing.cnmfangbinxing-p.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 8|[VLESS] US_speednode_0043
+  name: 9|[VLESS] US_speednode_0043
   network: ws
   port: 2095
   server: www.whatismyip.net
@@ -369,7 +257,7 @@ proxies:
       Host: fuckingfangbinxing.cnmfangbinxing-p.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 8|[VLESS] US_speednode_0044
+  name: 9|[VLESS] US_speednode_0044
   network: ws
   port: 2095
   server: cdnjs.com
@@ -384,7 +272,7 @@ proxies:
       Host: fuckingfangbinxing.cnmfangbinxing-p.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 8|[VLESS] US_speednode_0045
+  name: 9|[VLESS] US_speednode_0045
   network: ws
   port: 2095
   server: openai.com
@@ -400,7 +288,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 8|[VLESS] US_speednode_0046
+  name: 9|[VLESS] US_speednode_0046
   port: 443
   reality-opts:
     public-key: ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU
@@ -411,7 +299,7 @@ proxies:
   type: vless
   udp: true
   uuid: d511e429-e32b-46a7-ac07-a0fffa9b634c
-- name: 8|[VLESS] US_speednode_0047
+- name: 9|[VLESS] US_speednode_0047
   network: ws
   port: 8443
   server: 64.186.225.13
@@ -425,7 +313,7 @@ proxies:
     headers:
       Host: sni.skylee4.cloudns.ch
     path: /proxyip=ProxyIP.CMLiussss.net
-- name: 8|[Trojan] US_speednode_0048
+- name: 9|[Trojan] US_speednode_0048
   network: ws
   password: bpb-trojan
   port: 443
@@ -440,7 +328,7 @@ proxies:
     path: /tr?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 8|[VLESS] US_speednode_0049
+  name: 9|[VLESS] US_speednode_0049
   port: 443
   reality-opts:
     public-key: JbxZQuL2t4eews1QuA8O4jpsU_NXPMpmzKwlxSQj5Sk

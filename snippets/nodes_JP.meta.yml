@@ -23,17 +23,53 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: 6|[VLESS] jpJP_1|3.7MB/s
+- name: 6|[VLESS] jpJP_1|2.4MB/s
   network: ws
   port: 443
-  server: 172.64.53.241
-  servername: sni.skylee4.cloudns.ch
+  server: 172.64.229.163
+  servername: pagescm.freen34.cc.cd
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
   ws-opts:
     headers:
-      Host: sni.skylee4.cloudns.ch
-    path: /
+      Host: pagescm.freen34.cc.cd
+    path: /contact/pages
+  xudp: true
+- client-fingerprint: chrome
+  name: 6|[VLESS] jpJP_2|2.9MB/s
+  network: ws
+  port: 3389
+  server: 203.168.131.105
+  servername: qznql.node-proxy.chinat.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: qznql.node-proxy.chinat.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /danfeng?ed=2560fp=firefox
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] jpJP_3|2.4MB/s
+  network: ws
+  port: 443
+  server: dustyvless-nrt-934ad9.fly.dev
+  servername: dustyvless-nrt-934ad9.fly.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: a92eb27d-d7b4-5945-a8a2-36910acfa28a
+  ws-opts:
+    headers:
+      Host: dustyvless-nrt-934ad9.fly.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /4pt-gO4kNuNG
+  xudp: true

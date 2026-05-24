@@ -61,81 +61,205 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 6|[VLESS] usUS_1|2.9MB/s
-  network: ws
-  port: 2053
-  server: convera.com
-  servername: nai3.api-gateway-01.chinat.indevs.in
-  tls: true
-  type: vless
+- multiplexing: MULTIPLEXING_LOW
+  name: 6|[Mieru] usUS_1|2.0MB/s
+  password: dongtaiwang.com
+  port: 28866
+  server: 45.221.98.11
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] usUS_2|1.3MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nai3.api-gateway-01.chinat.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- name: 6|[VLESS] usUS_2|1.1MB/s
-  network: ws
-  port: 2053
-  server: china.embassy.gov.au
-  servername: nai3.api-gateway-01.chinat.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nai3.api-gateway-01.chinat.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- name: 6|[Trojan] usUS_3|1.1MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 167.68.4.253
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 6|[Hysteria2] usUS_3|1.5MB/s
+  obfs: ''
+  obfs-password: ''
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  port: 33333
+  server: hy2.123266.xyz
   skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+  sni: hy2.123266.xyz
+  type: hysteria2
+  up: ''
 - name: 6|[Trojan] usUS_4|1.2MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 162.251.82.253
-  skip-cert-verify: true
+  port: 2083
+  server: 31.172.79.138
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: firefox
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 6|[VLESS] usUS_6|1.3MB/s
-  network: ws
-  port: 31222
-  server: 43.153.68.102
-  servername: juzi8186.qea.ccwu.cc
+    path: /trTelegram🇨🇳+@WangCai2
+- cipher: aes-256-gcm
+  name: 6|[SS] usUS_5|1.2MB/s
+  password: uwmRUOVM5ljNAtPj
+  port: 443
+  server: 154.53.57.143
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] usUS_6|1022KB/s
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: PLXxLvvGJ9t0QOkMF_C8Ss44wN8EDBxBDyD5t95U23s
+    short-id: '!!str 41'
+  server: us-62s.dataload-cdn.ru
+  servername: www.vk.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+  uuid: 69a2af58-d74a-44ca-864a-e09b493f4274
+  xudp: true
+- client-fingerprint: chrome
+  name: 6|[Trojan] usUS_7|1.3MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 199.119.137.77
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: juzi8186.qea.ccwu.cc
-    max-early-data: 2560
-    path: /register/juzibaipiao
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] usUS_8|2.7MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc
+    short-id: '!!str '
+  server: 47.253.226.114
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 055a1ce8-2a16-4a0d-a2c2-22826c9b2413
+  xudp: true
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] usUS_9|1.6MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8
+    short-id: '!!str 5629431325884ff0'
+  server: sha1.o4ka-internet.com
+  servername: sha1.o4ka-internet.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 42ba03da-78cf-413e-9e79-1128ee6ddb30
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] usUS_10|1.3MB/s
+  network: ws
+  port: 443
+  server: vless-node-zvphrlyh.fly.dev
+  servername: vless-node-zvphrlyh.fly.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 54ff9029-d159-5c6f-a606-7c3328dcb735
+  ws-opts:
+    headers:
+      Host: vless-node-zvphrlyh.fly.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /cEb10rMo_99q
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] usUS_11|2.2MB/s
+  network: ws
+  port: 443
+  server: vless-node-usclstvf.fly.dev
+  servername: vless-node-usclstvf.fly.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: ab14dd9b-2816-4851-a0f8-7e60c270a11f
+  ws-opts:
+    headers:
+      Host: vless-node-usclstvf.fly.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /Et6z8Nvg1JQ
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] usUS_12|1.4MB/s
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: JbxZQuL2t4eews1QuA8O4jpsU_NXPMpmzKwlxSQj5Sk
+    short-id: '!!str f690c1046814dc9d'
+  server: 144.31.50.134
+  servername: www.icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: dc540911-cd1d-41e9-9301-ecb5a507b788
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] usUS_13|2.5MB/s
+  network: ws
+  port: 443
+  server: cf.scpnb.top
+  servername: explicit-freeware-animation-greg.trycloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6a4e7e55-9f07-4c54-abdd-72b9820f4cb3
+  ws-opts:
+    headers:
+      Host: explicit-freeware-animation-greg.trycloudflare.com
+    path: /6a4e7e55-9f07-4c54-abdd-72b9820f4cb3-vm
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] usUS_14|2.5MB/s
+  network: ws
+  port: 8222
+  server: 104.168.1.102
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0d9bd1bc-6d14-44f2-8bfa-dd6210d1b14f
+  ws-opts:
+    headers: {}
+    path: /
   xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ

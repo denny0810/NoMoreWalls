@@ -1,25 +1,25 @@
 proxies:
 - name: 4,5|[Trojan] 美国|@ripaojiedian
   network: tcp
-  password: 635340b47bddf8f41c123dc6f2b5f7ce
-  port: 5224
-  server: 18.181.205.14
+  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  port: 2663
+  server: 18.183.203.240
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 美国2|@ripaojiedian
   network: tcp
-  password: 635340b47bddf8f41c123dc6f2b5f7ce
-  port: 2663
-  server: 43.206.93.224
+  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  port: 6604
+  server: 13.113.236.116
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 8359
-  server: 13.114.188.23
+  port: 17801
+  server: 54.250.202.23
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -51,30 +51,13 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 5|[Vmess] 美国5|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.233
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- multiplexing: MULTIPLEXING_LOW
-  name: 6|[Mieru] usUS_1|2.0MB/s
-  password: dongtaiwang.com
-  port: 28866
-  server: 45.221.98.11
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
 - alterId: '0'
   cipher: auto
-  name: 6|[Vmess] usUS_2|1.3MB/s
+  name: 5,6|[Vmess] usUS_9|2.6MB/s
   network: tcp
   port: 180
-  server: 82.198.246.97
+  server: 82.198.246.233
+  servername: ''
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -83,7 +66,7 @@ proxies:
   xudp: true
 - down: ''
   fingerprint: ''
-  name: 6|[Hysteria2] usUS_3|1.5MB/s
+  name: 6|[Hysteria2] usUS_1|2.5MB/s
   obfs: ''
   obfs-password: ''
   password: bce6c821-200d-421f-bf3d-7159e5246ea0
@@ -93,174 +76,71 @@ proxies:
   sni: hy2.123266.xyz
   type: hysteria2
   up: ''
-- name: 6|[Trojan] usUS_4|1.2MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2083
-  server: 31.172.79.138
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- cipher: aes-256-gcm
-  name: 6|[SS] usUS_5|1.2MB/s
-  password: uwmRUOVM5ljNAtPj
+- cipher: aes-256-cfb
+  name: 6|[SS] usUS_2|3.9MB/s
+  password: amazonskr05
   port: 443
-  server: 154.53.57.143
-  skip-cert-verify: false
+  server: 100.26.47.172
   type: ss
-  udp: false
+  udp: true
+- cipher: aes-128-gcm
+  name: 6|[SS] usUS_3|2.6MB/s
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.244
+  type: ss
+  udp: true
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 6|[VLESS] usUS_6|1022KB/s
+  name: 6|[VLESS] usUS_4|1.3MB/s
   network: tcp
-  port: 8443
+  port: 23576
   reality-opts:
-    public-key: PLXxLvvGJ9t0QOkMF_C8Ss44wN8EDBxBDyD5t95U23s
-    short-id: '!!str 41'
-  server: us-62s.dataload-cdn.ru
-  servername: www.vk.ru
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '!!str 01'
+  server: 15.204.97.206
+  servername: fuck.rkn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  xudp: true
+- client-fingerprint: edge
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 6,9|[VLESS] RU_speednode_0029
+  network: tcp
+  port: 22231
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 69a2af58-d74a-44ca-864a-e09b493f4274
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
   xudp: true
-- client-fingerprint: chrome
-  name: 6|[Trojan] usUS_7|1.3MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 199.119.137.77
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] usUS_8|2.7MB/s
-  network: tcp
+- cipher: aes-128-gcm
+  name: 6|[SS] usUS_6|3.4MB/s
+  password: shadowsocks
   port: 443
-  reality-opts:
-    public-key: Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc
-    short-id: '!!str '
-  server: 47.253.226.114
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
+  server: 156.146.38.167
+  type: ss
   udp: true
-  uuid: 055a1ce8-2a16-4a0d-a2c2-22826c9b2413
-  xudp: true
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] usUS_9|1.6MB/s
-  network: tcp
+- cipher: aes-256-cfb
+  name: 6|[SS] usUS_7|2.7MB/s
+  password: amazonskr05
   port: 443
-  reality-opts:
-    public-key: V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8
-    short-id: '!!str 5629431325884ff0'
-  server: sha1.o4ka-internet.com
-  servername: sha1.o4ka-internet.com
-  tls: true
-  type: vless
+  server: 54.234.5.174
+  type: ss
   udp: true
-  uuid: 42ba03da-78cf-413e-9e79-1128ee6ddb30
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] usUS_10|1.3MB/s
-  network: ws
+- cipher: aes-128-gcm
+  name: 6|[SS] usUS_8|3.1MB/s
+  password: shadowsocks
   port: 443
-  server: vless-node-zvphrlyh.fly.dev
-  servername: vless-node-zvphrlyh.fly.dev
-  tls: true
-  type: vless
+  server: 156.146.38.170
+  type: ss
   udp: true
-  uuid: 54ff9029-d159-5c6f-a606-7c3328dcb735
-  ws-opts:
-    headers:
-      Host: vless-node-zvphrlyh.fly.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /cEb10rMo_99q
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] usUS_11|2.2MB/s
-  network: ws
-  port: 443
-  server: vless-node-usclstvf.fly.dev
-  servername: vless-node-usclstvf.fly.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab14dd9b-2816-4851-a0f8-7e60c270a11f
-  ws-opts:
-    headers:
-      Host: vless-node-usclstvf.fly.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /Et6z8Nvg1JQ
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] usUS_12|1.4MB/s
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: JbxZQuL2t4eews1QuA8O4jpsU_NXPMpmzKwlxSQj5Sk
-    short-id: '!!str f690c1046814dc9d'
-  server: 144.31.50.134
-  servername: www.icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: dc540911-cd1d-41e9-9301-ecb5a507b788
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] usUS_13|2.5MB/s
-  network: ws
-  port: 443
-  server: cf.scpnb.top
-  servername: explicit-freeware-animation-greg.trycloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6a4e7e55-9f07-4c54-abdd-72b9820f4cb3
-  ws-opts:
-    headers:
-      Host: explicit-freeware-animation-greg.trycloudflare.com
-    path: /6a4e7e55-9f07-4c54-abdd-72b9820f4cb3-vm
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] usUS_14|2.5MB/s
-  network: ws
-  port: 8222
-  server: 104.168.1.102
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0d9bd1bc-6d14-44f2-8bfa-dd6210d1b14f
-  ws-opts:
-    headers: {}
-    path: /
-  xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

@@ -24,7 +24,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-128-gcm
-  name: 6|[SS] sgSG_1|4.8MB/s
+  name: 6|[SS] sgSG_1|1.8MB/s
   password: '!!str 666'
   plugin: v2ray-plugin
   plugin-opts:
@@ -37,6 +37,38 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] sgSG_2|3.9MB/s
+  network: xhttp
+  port: 443
+  server: 198.41.223.119
+  servername: de.xn--q9jyb4c.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 406d8436-0eb9-4eb2-84fb-960e076ffba6
+  xhttp-opts:
+    mode: stream-one
+    path: /de
+  xudp: true
+- encryption: none
+  name: 6|[VLESS] sgSG_3|4.3MB/s
+  network: ws
+  port: 80
+  server: 162.159.19.202
+  type: vless
+  udp: true
+  uuid: e284098e-7ffd-4fce-a9d3-ea6bc98ce629
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: empty-sea-3392.amir-1385-poo.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    max-early-data: 2048
+    path: /
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] sgSG²_1|2.4MB/s|X|History

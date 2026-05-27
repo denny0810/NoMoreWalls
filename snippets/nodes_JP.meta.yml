@@ -23,19 +23,73 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 6|[Trojan] jpJP_1|3.3MB/s
+- name: 6|[VLESS] jpJP_1|2.6MB/s
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 108.162.198.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
+  port: 9586
+  security: tls
+  server: 103.232.213.244
+  servername: oia8or7k8rs5.zrf.xx.kg
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+      Host: oia8or7k8rs5.zrf.xx.kg
+    path: /@Marisa_kristifp=chrome
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] jpJP_2|3.5MB/s
+  network: ws
+  port: 18836
+  server: 172.237.12.208
+  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 6|[Hysteria2] jpJP_3|1.0MB/s
+  obfs: salamander
+  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
+  password: 505cb813-5647-4898-918c-cde760d515a8
+  port: 60000
+  server: jp03.769970.xyz
+  skip-cert-verify: true
+  sni: jp03.769970.xyz
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 6|[Hysteria2] jpJP_4|1.6MB/s
+  obfs: salamander
+  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
+  password: f6836112-e9f3-4803-a366-5606ac214324
+  port: 60000
+  server: jp03.769970.xyz
+  skip-cert-verify: true
+  sni: jp03.769970.xyz
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 6|[Hysteria2] jpJP_5|1.7MB/s
+  obfs: salamander
+  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
+  password: df1a0967-5b79-41ec-8d12-915e9056c6e2
+  port: 60000
+  server: jp03.769970.xyz
+  skip-cert-verify: true
+  sni: jp03.769970.xyz
+  type: hysteria2
+  up: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 9|[VLESS] JP_speednode_0013

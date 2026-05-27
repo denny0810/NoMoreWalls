@@ -1,120 +1,50 @@
 proxies:
 - alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 6|[Hysteria] deDE_1|1.4MB/s
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 500
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] deDE_2|2.4MB/s
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: Crjd0I6hcasRXZcfNf7cs-YtJLpQ8u-t1CbwHIDAciU
-    short-id: '!!str 478dc6'
-  server: 178.215.238.148
-  servername: eh.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 21c1132b-068c-46fb-880e-3268f6a30e7f
-  xudp: true
-- alpn:
+  - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 6|[VLESS] deDE_3|2.6MB/s
-  network: ws
-  port: 2083
-  server: 104.20.6.134
-  servername: sd.hercule.sbs
+  name: 6|[VLESS] deDE_1|3.5MB/s
+  network: xhttp
+  port: 443
+  server: 198.41.223.119
+  servername: panel-free.emergency-service.org
   tls: true
   type: vless
   udp: true
-  uuid: 8fb031ca-e004-4b92-bcfe-cd3d3a585327
-  ws-opts:
-    headers:
-      Host: sd.hercule.sbs
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/31.0.1650.57 Safari/537.36
-    path: /chat
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] deDE_4|2.7MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: cfUhtLnzbk64OElaQyatq_UyNs0ij9R41gtpmhVKPX4
-    short-id: '!!str 024be7dd'
-  server: 109.120.140.86
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9311cca4-c996-4d25-b482-11372eb6641e
-  xudp: true
-- encryption: none
-  name: 6|[VLESS] deDE_5|2.7MB/s
-  network: tcp
-  port: 443
-  server: 91.107.128.90
-  type: vless
-  udp: true
-  uuid: 34986bb9-0175-416b-98b8-22dd78ebcc71
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] deDE_6|2.3MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: tcGias3ywS5uxXzg5Bv-TNtxclCganaj3iFSjjHgMSQ
-    short-id: '!!str f37fb7531c60780d'
-  server: 94.156.112.71
-  servername: germany2.stardevs.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: f00984ef-f57e-41db-9182-b25f7bc3a1e2
+  uuid: e234245f-b66e-4eef-b8cb-6298500221ba
+  xhttp-opts:
+    host: panel-free.emergency-service.org
+    mode: auto
+    path: /
   xudp: true
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.bgqmvppyqaHyHPHZXMTlM49okx_O5AWML7IZkg1UZSs
-  name: 6|[VLESS] deDE_7|2.7MB/s
+  encryption: none
+  name: 6|[VLESS] deDE_2|1.3MB/s
   network: xhttp
-  port: 443
-  server: 66.81.247.104
-  servername: 1-cloudflare.lapis-lazuli.tech
+  port: 2053
+  server: 198.41.223.119
+  servername: nightgemshop.emergency-service.org
   tls: true
   type: vless
   udp: true
-  uuid: 58225ed2-9017-4204-8852-1b5cc1311fb8
+  uuid: 9aaf56a4-a173-461d-b3d4-8560ba723ade
   xhttp-opts:
     mode: auto
-    path: /c544c1d5248bf014e3a8
+    path: /
   xudp: true
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 6|[VLESS] deDE_8|2.5MB/s
+  name: 6|[VLESS] deDE_3|1.2MB/s
   network: xhttp
   port: 8443
-  server: 104.16.117.43
+  server: 104.16.79.73
   servername: panel.shabrang.online
   tls: true
   type: vless
@@ -127,14 +57,38 @@ proxies:
     x-padding-bytes: 100-1000
   xudp: true
 - alpn:
-  - h3
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  down: '55'
-  name: 6|[Hysteria] deDE_9|2.4MB/s
-  port: 10066
-  protocol: udp
-  server: 62.210.29.98
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: '11'
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] deDE_4|1.1MB/s
+  network: xhttp
+  port: 8443
+  server: 104.16.6.70
+  servername: panel.shabrang.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 98bed45e-c30a-4e81-ac85-d1249ecf904e
+  xhttp-opts:
+    host: panel.shabrang.online
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] deDE_5|2.5MB/s
+  network: tcp
+  port: 8444
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '!!str abcd'
+  server: 89.125.20.89
+  servername: yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 386066cb-9257-42da-8f2e-cae2096a6097
+  xudp: true

@@ -61,42 +61,64 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] usUS_1|1.0MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] usUS_2|1.6MB/s
+  network: raw
+  port: 443
+  server: s881.ccgfw.top
+  servername: s881.ccgfw.top
+  tls: true
+  type: vless
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: 7402e534-54dc-34cc-ac5b-c85ac6e236fd
   xudp: true
 - client-fingerprint: chrome
-  name: 6|[VLESS] usUS_2|2.3MB/s
-  network: tcp
+  encryption: none
+  name: 6|[VLESS] usUS_3|1.5MB/s
+  network: xhttp
   port: 443
   reality-opts:
-    _spider-x: /
-    public-key: RCp37oAO4E30SKBraaFaeUXeqvLGS7yH40VHl5a_6RE
-    short-id: '!!str 87ab'
-  server: 193.233.202.1
-  servername: yahoo.com
+    public-key: AhQkw1Ydp_ZkXnE7UbIZvwHk9KE_Bf5_TkojYZZUuGs
+    short-id: '!!str 2da46294d6a521B2'
+  server: 155.212.146.195
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 91a3f712-c4e0-42a0-9475-bdd551a06e73
+  xhttp-opts:
+    host: ads.x5.ru
+    path: /api/v3/f29479507adb
+  xudp: true
+- client-fingerprint: edge
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 6,9|[VLESS] RU_speednode_0044
+  network: raw
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 838e036b-f229-480b-b0ef-86b1dc711add
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
   xudp: true
-- encryption: none
-  name: 6|[VLESS] usUS_3|2.0MB/s
+- client-fingerprint: edge
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 6,9|[VLESS] RU_speednode_0043
   network: raw
-  port: 52729
-  server: 31.59.40.53
+  port: 443
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: e0a98968-eb18-417a-87e7-c8933aac5f13
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
   xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ

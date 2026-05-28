@@ -1,21 +1,16 @@
 proxies:
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] frFR_1|1.3MB/s
-  network: xhttp
-  port: 2087
-  server: 165.215.250.14
-  servername: ws.kheybar.store
-  skip-cert-verify: false
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] frFR_1|2.1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: -ZGvjjYToghwA3TZfntrabePL-dWYt-i5C_SO8pSRWY
+    short-id: '!!str '
+  server: fran.ummapeople.online
+  servername: fran.ummapeople.online
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: ws.kheybar.store
-    mode: auto
-    path: /login
+  uuid: ac195240-6005-412b-9829-1e56e5d5c52a
   xudp: true

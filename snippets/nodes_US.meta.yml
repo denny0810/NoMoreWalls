@@ -41,16 +41,19 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 4|[Vmess] 美国4|@ripaojiedian
+  name: 4,5|[Vmess] usUS_4|1.1MB/s
   network: tcp
-  port: '180'
+  port: 180
   server: 82.198.246.250
   servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
 - alterId: 0
   cipher: auto
   name: 4|[Vmess] 美国5|@ripaojiedian
@@ -62,63 +65,197 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 5|[VLESS] usUS_2|1.6MB/s
-  network: raw
+  name: 5|[VLESS] usUS_1|2.6MB/s
+  network: tcp
   port: 443
-  server: s881.ccgfw.top
-  servername: s881.ccgfw.top
+  reality-opts:
+    public-key: JbVabf_OI9mnt7gzn9hIj_8h7yyDzAqDP6XfhvhULjU
+    short-id: '!!str f37fb7531c60780d'
+  server: 2.26.54.52
+  servername: germanyplay.stardevs.top
   tls: true
   type: vless
   udp: true
-  uuid: 7402e534-54dc-34cc-ac5b-c85ac6e236fd
+  uuid: f00984ef-f57e-41db-9182-b25f7bc3a1e2
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 5|[Vmess] usUS_2|1.7MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 5|[Trojan] usUS_3|2.5MB/s
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 104.18.20.213
+  skip-cert-verify: false
+  sni: www.app-cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    max-early-data: 2048
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 5|[Trojan] usUS_5|2.1MB/s
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 14.102.228.76
+  skip-cert-verify: true
+  sni: www.app-cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
+        Safari/537.36
+    max-early-data: 2048
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 5|[Trojan] usUS_6|3.3MB/s
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 45.130.125.76
+  skip-cert-verify: true
+  sni: www.app-cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    max-early-data: 2048
+    path: /
+- name: 5|[VLESS] usUS_7|1.9MB/s
+  network: ws
+  port: 8880
+  server: 45.153.7.30
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vms.lifetime11.workers.dev
+    max-early-data: 2560
+    path: /?https://t.me/YouTube@小青科学网🇨🇳
+- name: 5|[VLESS] usUS_8|1.3MB/s
+  network: ws
+  port: 8880
+  server: 45.153.7.40
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vms.lifetime11.workers.dev
+    max-early-data: 2560
+    path: /?https://t.me/YouTube@小青科学网🇨🇳
+- encryption: none
+  name: 5|[VLESS] usUS_9|1.7MB/s
+  network: ws
+  port: 80
+  server: cfip.1323123.xyz
+  type: vless
+  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: zyzzzoao.xn--fiqv8j.eu.org
+    max-early-data: 2048
+    path: /
+- name: 5|[VLESS] usUS_10|1.5MB/s
+  network: ws
+  port: 8880
+  server: 66.45.118.40
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vms.lifetime43.workers.dev
+    max-early-data: 2560
+    path: /?https://t.me/youtube@ZYFXS🇨🇳
+- encryption: none
+  name: 5|[VLESS] usUS_11|1.3MB/s
+  network: ws
+  port: 8880
+  server: 92.53.190.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vms.lifetime20.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    max-early-data: 2560
+    path: /?https://t.me/youtube@ZYFXS🇨🇳
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 5|[VLESS] usUS_3|1.5MB/s
+  name: 5|[VLESS] usUS_13|1.2MB/s
   network: xhttp
   port: 443
   reality-opts:
-    public-key: AhQkw1Ydp_ZkXnE7UbIZvwHk9KE_Bf5_TkojYZZUuGs
-    short-id: '!!str 2da46294d6a521B2'
-  server: 155.212.146.195
-  servername: ads.x5.ru
+    _spider-x: /
+    public-key: iIhrPpoPQN1gDf8coQ8o54-oTRdYFpLD7I7e9tHF0EE
+    short-id: '!!str a977328085692dc8'
+  server: srv-0bc3dc.21freedom.net
+  servername: vk.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 91a3f712-c4e0-42a0-9475-bdd551a06e73
+  uuid: 7be400d9-67ad-4819-bd06-c889308f12d0
   xhttp-opts:
-    host: ads.x5.ru
-    path: /api/v3/f29479507adb
+    host: vk.com
+    mode: auto
+    path: /api/v1/abf98177
   xudp: true
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 5,8|[VLESS] RU_speednode_0044
-  network: raw
-  port: 22231
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: false
+- client-fingerprint: chrome
+  name: 5|[VLESS] usUS_14|2.7MB/s
+  network: ws
+  port: 2093
+  server: 146.235.219.13
+  servername: ooa858iqkhza12.mesa.ip-ddns.com
   tls: true
   type: vless
   udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  xudp: true
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 5,8|[VLESS] RU_speednode_0043
-  network: raw
-  port: 443
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: ooa858iqkhza12.mesa.ip-ddns.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /@Marisa_kristifp=chrome
   xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ

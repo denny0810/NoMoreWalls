@@ -1,6 +1,25 @@
 proxies:
 - alpn:
   - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 5|[VLESS] frFR_1|2.6MB/s
+  network: xhttp
+  port: 2087
+  server: 130.250.137.171
+  servername: ws.kheybar.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: ws.kheybar.store
+    mode: auto
+    path: /login
+  xudp: true
+- alpn:
+  - h2
   name: 8|[VLESS] FR_speednode_0017
   port: 8443
   server: cdg-1.fromblancwithlove.com

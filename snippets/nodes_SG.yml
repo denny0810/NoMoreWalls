@@ -23,48 +23,10 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 6|[Trojan] sgSG_1|2.1MB/s
-  network: ws
-  password: mitivpn
-  port: 2096
-  server: 104.18.32.47
-  skip-cert-verify: true
-  sni: www.app-cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    max-early-data: 2048
-    path: /
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 6|[Trojan] sgSG_2|2.8MB/s
-  network: ws
-  password: mitivpn
-  port: 8443
-  server: 104.18.32.47
-  skip-cert-verify: true
-  sni: www.app-cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
-    max-early-data: 2048
-    path: /
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 6|[Vmess] sgSG_3|1.6MB/s
-  network: raw
+  name: 6|[Vmess] sgSG_2|2.5MB/s
+  network: tcp
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: false

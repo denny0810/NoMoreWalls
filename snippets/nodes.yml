@@ -158,79 +158,17 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
+- cipher: aes-256-cfb
+  name: 6|[SS] deDE_1|1.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 63.180.239.185
+  type: ss
+  udp: true
+- alterId: '0'
   cipher: auto
-  name: 6|[Vmess] krKR_2|1.1MB/s
-  network: ws
-  port: 33204
-  server: yd4.ainivp.com
-  servername: yd4.ainivp.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: yd4.ainivp.com
-    path: /ray
-- alpn:
-  - http/1.1
-  name: 6|[Trojan] sgSG_1|2.1MB/s
-  network: ws
-  password: mitivpn
-  port: 2096
-  server: 104.18.32.47
-  skip-cert-verify: true
-  sni: www.app-cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    max-early-data: 2048
-    path: /
-- alpn:
-  - http/1.1
-  name: 6|[Trojan] sgSG_2|2.8MB/s
-  network: ws
-  password: mitivpn
-  port: 8443
-  server: 104.18.32.47
-  skip-cert-verify: true
-  sni: www.app-cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
-    max-early-data: 2048
-    path: /
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] cyCY_1|2.5MB/s
-  network: ws
-  port: 80
-  server: 45.128.72.44
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a2170d39-140a-47f9-85b8-084078856c36
-  ws-opts:
-    headers: {}
-    path: /api/v1
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] hkHK_1|1.7MB/s
-  network: raw
+  name: 6|[Vmess] hkHK_2|2.6MB/s
+  network: tcp
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: false
@@ -239,10 +177,10 @@ proxies:
   udp: true
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
   xudp: true
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 6|[Vmess] sgSG_3|1.6MB/s
-  network: raw
+  name: 6|[Vmess] sgSG_2|2.5MB/s
+  network: tcp
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: false
@@ -251,13 +189,328 @@ proxies:
   udp: true
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
   xudp: true
-- cipher: aes-256-cfb
-  name: 6|[SS] deDE_10|4.1MB/s
-  password: amazonskr05
+- alpn:
+  - http/1.1
+  name: 6|[Trojan] usUS_1|3.2MB/s
+  network: ws
+  password: Mitivpn
   port: 443
-  server: 63.180.239.185
+  server: 216.24.57.7
+  skip-cert-verify: true
+  sni: www.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.101 Safari/537.36
+    max-early-data: 2048
+    path: /
+- alpn:
+  - http/1.1
+  name: 6|[Trojan] usUS_2|2.9MB/s
+  network: ws
+  password: Mitivpn
+  port: 2053
+  server: 45.130.125.91
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.77 Safari/537.36
+    max-early-data: 2048
+    path: /
+- alpn:
+  - http/1.1
+  name: 6|[Trojan] usUS_3|2.6MB/s
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: 216.24.57.7
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    max-early-data: 2048
+    path: /
+- alpn:
+  - http/1.1
+  name: 6|[Trojan] usUS_5|2.7MB/s
+  network: ws
+  password: Mitivpn
+  port: 2053
+  server: 45.130.125.76
+  skip-cert-verify: false
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
+    max-early-data: 2048
+    path: /
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] nlNL_1|2.1MB/s
+  network: ws
+  port: 2087
+  server: 45.130.125.76
+  servername: wIn.CcNnx.IR
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 78e64117-fb24-4e32-adaa-788ab7876cd3
+  ws-opts:
+    headers:
+      Host: wIn.CcNnx.IR
+    path: /@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] usUS_8|2.1MB/s
+  network: tcp
+  port: 11129
+  server: dotu-usv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- alpn:
+  - http/1.1
+  name: 6|[Trojan] usUS_9|3.4MB/s
+  network: ws
+  password: Mitivpn
+  port: 2053
+  server: 45.130.125.241
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    max-early-data: 2048
+    path: /
+- alpn:
+  - http/1.1
+  name: 6|[Trojan] usUS_10|2.7MB/s
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: 216.24.57.6
+  skip-cert-verify: false
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.81 Safari/537.36
+    max-early-data: 2048
+    path: /
+- alpn:
+  - http/1.1
+  name: 6|[Trojan] usUS_11|1.5MB/s
+  network: ws
+  password: Mitivpn
+  port: 2053
+  server: 104.17.121.9
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.85 Safari/537.36
+    max-early-data: 2048
+    path: /
+- alpn:
+  - http/1.1
+  name: 6|[Trojan] usUS_12|2.0MB/s
+  network: ws
+  password: Mitivpn
+  port: 2053
+  server: 104.17.121.71
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    max-early-data: 2048
+    path: /
+- alpn:
+  - http/1.1
+  name: 6|[Trojan] usUS_13|2.4MB/s
+  network: ws
+  password: Mitivpn
+  port: 8443
+  server: 45.130.125.237
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.110 Safari/537.36
+    max-early-data: 2048
+    path: /
+- alpn:
+  - http/1.1
+  name: 6|[Trojan] usUS_14|3.2MB/s
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: 216.24.57.7
+  skip-cert-verify: true
+  sni: cdn.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.135 Safari/537.36
+    max-early-data: 2048
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  name: 6|[Trojan] deDE_9|2.1MB/s
+  network: ws
+  password: jprlmigrrmcmeu1u
+  port: 2053
+  server: 104.18.32.47
+  skip-cert-verify: false
+  sni: ai999.seemed369.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.71 Safari/537.36
+    max-early-data: 2048
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] jpJP_1|1.5MB/s
+  network: tcp
+  port: 6003
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] deDE_10|2.8MB/s
+  password: 453u6Gcei04NyXbrWLKa0M
+  port: 443
+  server: 5.230.184.16
   type: ss
   udp: true
+- alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] usUS_16|3.5MB/s
+  network: tcp
+  port: 11127
+  server: dotu-usv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- alpn:
+  - http/1.1
+  name: 6|[Trojan] usUS_17|2.7MB/s
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: 216.24.57.6
+  skip-cert-verify: true
+  sni: www.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    max-early-data: 2048
+    path: /
+- alpn:
+  - http/1.1
+  name: 6|[Trojan] usUS_18|3.2MB/s
+  network: ws
+  password: Mitivpn
+  port: 2053
+  server: 104.17.121.171
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    max-early-data: 2048
+    path: /
+- cipher: aes-256-cfb
+  name: 6|[SS] caCA_1|2.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 15.157.68.13
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  name: 6|[Trojan] usUS_19|3.1MB/s
+  network: ws
+  password: Mitivpn
+  port: 2053
+  server: 104.17.121.30
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    max-early-data: 2048
+    path: /
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

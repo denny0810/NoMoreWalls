@@ -1,53 +1,67 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 6|[Trojan] deDE_1|1.0MB/s
-  network: ws
-  password: Mitivpn
-  port: 443
-  server: www.hitgram.ir
-  skip-cert-verify: false
-  sni: www.hitgram.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Chrome/12.0.742.100 Safari/534.30
-    max-early-data: 2048
-    path: /
 - encryption: none
-  name: 6|[VLESS] deDE_2|2.4MB/s
+  name: 6|[VLESS] deDE_1|3.3MB/s
   network: ws
-  port: 2086
-  server: 104.17.150.76
+  port: 80
+  server: 204.168.234.22
   type: vless
   udp: true
-  uuid: de989f46-ce7c-4d94-9c58-5ccd80e8d7a1
+  uuid: 997b5119-c015-4203-b402-0eb0f60b77c3
   ws-opts:
     headers:
-      Host: war2.unlimiteddev-service2881.ir
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+      Host: nobody.fastspeed.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /ws
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] deDE_2|2.6MB/s
+  network: xhttp
+  port: 443
+  server: 45.130.125.5
+  servername: cd1.fix98.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2067e90-ca33-47ee-b55e-8ff7ce1e51f5
+  xhttp-opts:
+    mode: auto
+    path: /game
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] deDE_3|2.6MB/s
+  network: ws
+  port: 2083
+  server: 63.141.128.3
+  servername: chan1.newappdominfastlogin4.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ae065531-7a26-4c3f-82cf-7c2ee9effcde
+  ws-opts:
+    headers:
+      Host: chan1.newappdominfastlogin4.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /
   xudp: true
-- cipher: aes-256-cfb
-  name: 6|[SS] deDE_3|1.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.159.110.250
-  type: ss
-- alpn:
-  - h3
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  down: '55'
-  name: 6|[Hysteria] deDE_4|1.9MB/s
-  port: 10066
-  protocol: udp
-  server: 62.210.29.98
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: '11'
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] deDE_4|2.5MB/s
+  network: raw
+  port: 8443
+  reality-opts:
+    public-key: Crjd0I6hcasRXZcfNf7cs-YtJLpQ8u-t1CbwHIDAciU
+    short-id: '!!str 478dc6'
+  server: 178.215.238.148
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 21c1132b-068c-46fb-880e-3268f6a30e7f
+  xudp: true

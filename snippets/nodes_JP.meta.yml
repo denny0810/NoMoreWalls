@@ -1,5 +1,5 @@
 proxies:
-- name: 4,5,6|[Trojan] jpJP_2|3.6MB/s
+- name: 4,5|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 53307
@@ -23,32 +23,3 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: 6|[Trojan] jpJP_3|1.9MB/s
-  network: tcp
-  password: q6UYkw9nUn6MYZz8Sp
-  port: 443
-  server: ty-2.tr202604.com
-  skip-cert-verify: false
-  sni: ty-2.tr202604.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 6|[VLESS] jpJP_4|4.7MB/s
-  network: ws
-  port: 2083
-  server: v1.dabache.top
-  servername: wk1.f1w.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: wk1.f1w.de5.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true

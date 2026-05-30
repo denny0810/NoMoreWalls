@@ -1,4 +1,14 @@
 proxies:
+- name: 2,3|[Hysteria2] @KAFING_2
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 181.214.99.162
+  skip-cert-verify: true
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
 - cipher: aes-256-cfb
   name: 6|[SS] deDE_1|1.2MB/s
   password: amazonskr05
@@ -7,18 +17,19 @@ proxies:
   type: ss
   udp: true
 - encryption: none
-  name: 6|[VLESS] deDE_2|1.1MB/s
+  name: 6,9|[VLESS] SG_speednode_0021
   network: ws
   port: 80
   server: cdn.irandoc.info
+  servername: cdn.irandoc.info
+  skip-cert-verify: false
+  tls: false
   type: vless
   udp: true
   uuid: fb206250-709c-44d7-b887-08f66dd7a974
   ws-opts:
     headers:
       Host: cdn.irandoc.info
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /16475/mci
   xudp: true
 - client-fingerprint: chrome

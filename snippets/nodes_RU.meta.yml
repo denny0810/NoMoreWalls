@@ -1,20 +1,34 @@
 proxies:
-- client-fingerprint: randomized
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] ruRU_1|2.1MB/s
-  network: tcp
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: /sequre/grpc
+  name: 5|[VLESS] ruRU_1|1.0MB/s
+  network: grpc
   port: 443
-  reality-opts:
-    public-key: APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI
-  server: 185.139.214.254
-  servername: cloudcdn-m9-15.cdn.yandex.net
+  server: 185.14.46.20.blanesik.space
+  servername: 185.14.46.20.blanesik.space
   tls: true
   type: vless
   udp: true
-  uuid: c55a51d9-48bd-11f1-941f-54db13ea7d40
+  uuid: a1b19834-a5e3-4d49-9301-aaa3fb248f49
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 8|[VLESS] RU_speednode_0037
+  port: 22231
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 9|[VLESS] RU_speednode_0036
+  name: 8|[VLESS] RU_speednode_0036
   port: 443
   server: 85.234.114.53
   servername: r1.mizulina.top
@@ -25,7 +39,7 @@ proxies:
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 9|[VLESS] RU_speednode_0038
+  name: 8|[VLESS] RU_speednode_0038
   port: 22231
   server: 85.234.114.53
   servername: r1.mizulina.top
@@ -35,7 +49,7 @@ proxies:
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: chrome
-  name: 9|[VLESS] RU_speednode_0039
+  name: 8|[VLESS] RU_speednode_0039
   port: 443
   reality-opts:
     public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk

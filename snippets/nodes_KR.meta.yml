@@ -1,14 +1,22 @@
 proxies:
-- name: 6|[Http] krKR_1|1.5MB/s
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  sni: testkr3.ssv.vc
+- client-fingerprint: chrome
+  name: 5|[VLESS] krKR_1|1.1MB/s
+  network: ws
+  port: 11019
+  server: 165.246.171.218
+  servername: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
   tls: true
-  type: http
-  username: test
-- name: 7|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36
+    path: /@Marisa_kristifp=chrome
+  xudp: true
+- name: 6|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
   port: 1090
   server: 121.169.46.116
   tls: false

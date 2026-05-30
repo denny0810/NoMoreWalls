@@ -1,1 +1,21 @@
-proxies: []
+proxies:
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 5|[VLESS] frFR_1|3.4MB/s
+  network: xhttp
+  port: 8443
+  server: 104.20.42.250
+  servername: f101001010.imsoon.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47022b4b-bbad-4bb4-a004-87c2d7538a28
+  xhttp-opts:
+    host: f101001010.imsoon.org
+    mode: auto
+    path: /Telegram@SoonTeam
+    x-padding-bytes: 100-1000
+  xudp: true

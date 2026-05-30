@@ -1,14 +1,14 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 4|[Vmess] hk 香港|@ripaojiedian
+  name: 3|[Vmess] hk 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 4,5|[Trojan] 香港3|@ripaojiedian
+- name: 3,4|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 53018
@@ -16,7 +16,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 香港4|@ripaojiedian
+- name: 3,4,5|[Trojan] hkHK_1|3.5MB/s
   network: tcp
   password: BxceQaOe
   port: 50712
@@ -24,7 +24,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 4,5|[Trojan] 香港5|@ripaojiedian
+- name: 3,4|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 11233
@@ -34,7 +34,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 5|[Vmess] 香港|@ripaojiedian
+  name: 4|[Vmess] 香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -42,23 +42,19 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] hkHK_1|2.8MB/s
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 5|[VLESS] hkHK_2|1.3MB/s
   network: tcp
-  port: 6001
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-  xudp: true
-- name: 6|[Http] hkHK_2|1.1MB/s
-  password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
-  port: 5228
-  server: e7ab8a8f-t9zts0-tcw58g-1p0be.cm4.oshuawei.com
-  sni: e7ab8a8f-t9zts0-tcw58g-1p0be.cm4.oshuawei.com
+  port: 13413
+  reality-opts:
+    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
+    short-id: '!!str a1b2c3d4'
+  server: zzjp1.ainivp.com
+  servername: www.microsoft.com
   tls: true
-  type: http
-  username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+  type: vless
+  udp: true
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  xudp: true

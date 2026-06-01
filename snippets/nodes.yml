@@ -38,7 +38,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 4,5,6,9|[Trojan] HK_speednode_0023
+- name: 4,5,9|[Trojan] HK_speednode_0023
   network: tcp
   password: BxceQaOe
   port: 47655
@@ -71,7 +71,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] sgSG_1|1.4MB/s
+- name: 4,5|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 29440
@@ -95,7 +95,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,9|[Trojan] US_speednode_0053
+- name: 4,5,6,9|[Trojan] US_speednode_0053
   network: tcp
   password: BxceQaOe
   port: 2520
@@ -152,77 +152,31 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] sgSG_2|1.2MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)c18ca9e:213221
-    mode: tls
-  port: 2377
-  server: 13.229.249.124
-  type: ss
+- name: 6|[Trojan] usUS_5|2.6MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 2520
+  server: 95.40.4.37
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
   udp: true
-- name: 6|[Trojan] azAZ_1|1.2MB/s
+- name: 6|[Trojan] chCH_2|1.3MB/s
   network: tcp
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41943
+  port: 45553
   server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
-  type: trojan
-- name: 6|[Trojan] deDE_3|1.2MB/s
-  network: tcp
-  password: ASoZeIVwzX4w4wxwig
-  port: 443
-  server: de-3.tr202605.com
-  skip-cert-verify: false
-  sni: de-3.tr202605.com
+  sni: ch.01.naiun.bilibili.com
   type: trojan
   udp: true
-- name: 6|[Trojan] gbGB_1|1.6MB/s
+- name: 6,9|[Trojan] GB_speednode_0020
   network: tcp
-  password: ASoZeIVwzX4w4wxwig
-  port: 443
-  server: uk-1.tr202605.com
-  skip-cert-verify: false
-  sni: uk-1.tr202605.com
-  type: trojan
-  udp: true
-- name: 6|[Trojan] nlNL_5|1.4MB/s
-  network: tcp
-  password: LSS6HLnp7IeEEJUcox
-  port: 443
-  server: nl-1.tr202607.com
+  password: da292191-b895-3264-b41c-200512b8f965
+  port: 40017
+  server: a.twodnwnpoe.xyz
   skip-cert-verify: true
-  sni: nl-1.tr202607.com
-  type: trojan
-  udp: true
-- name: 6|[Trojan] gbGB_2|1.4MB/s
-  network: tcp
-  password: LSS6HLnp7IeEEJUcox
-  port: 443
-  server: uk-1.tr202607.com
-  skip-cert-verify: true
-  sni: uk-1.tr202607.com
-  type: trojan
-  udp: true
-- name: 6|[Trojan] nlNL_7|2.1MB/s
-  network: tcp
-  password: RJbtIstwtcU5buDY3r
-  port: 443
-  server: nl-1.tr202604.com
-  skip-cert-verify: false
-  sni: nl-1.tr202604.com
-  type: trojan
-  udp: true
-- name: 6|[Trojan] jpJP_3|2.1MB/s
-  network: tcp
-  password: q6UYkw9nUn6MYZz8Sp
-  port: 443
-  server: ty-2.tr202604.com
-  skip-cert-verify: false
-  sni: ty-2.tr202604.com
+  sni: water.waittomorrow.top
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -308,13 +262,5 @@ proxies:
   server: a.twodnwnpoe.xyz
   skip-cert-verify: true
   sni: i.comfortableyou.top
-  type: trojan
-  udp: true
-- name: 9|[Trojan] GB_speednode_0020
-  password: da292191-b895-3264-b41c-200512b8f965
-  port: 40017
-  server: a.twodnwnpoe.xyz
-  skip-cert-verify: true
-  sni: water.waittomorrow.top
   type: trojan
   udp: true

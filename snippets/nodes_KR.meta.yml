@@ -1,14 +1,13 @@
 proxies:
-- name: 6,9|[Http] KR_speednode_0025
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  sni: testkr3.ssv.vc
-  tls: true
-  type: http
+- alpn:
+  - h3
+  name: 6|[Hysteria2] krKR_1|1.5MB/s
+  password: ff488c48-b745-4d65-a6a1-0339be0b7fd7
+  port: 15219
+  server: okrs01.7770123.xyz
+  sni: okrs01.7770123.xyz
+  type: hysteria2
   udp: true
-  username: test
 - name: 7,9|[Socks5] KR_speednode_0028
   port: 1090
   server: 121.169.46.116
@@ -16,6 +15,15 @@ proxies:
   type: socks5
   udp: true
   username: Og%3D%3D
+- name: 9|[Http] KR_speednode_0025
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 9|[VLESS] KR_speednode_0029

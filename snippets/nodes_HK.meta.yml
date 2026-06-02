@@ -1,4 +1,12 @@
 proxies:
+- name: 3|[Hysteria2] hk43621 | ⚡️Telegram = t.me/SO...
+  password: IG9Sundefinedvx6RJ
+  port: 58771
+  server: 47.76.94.197
+  skip-cert-verify: true
+  sni: go.microsoft.com
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
   name: 4|[Vmess] hk 香港|@ripaojiedian
@@ -11,24 +19,24 @@ proxies:
 - name: 4,5|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
-  port: 2008
-  server: 13.115.175.169
-  skip-cert-verify: false
+  port: 53018
+  server: 18.163.33.60
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 50712
-  server: 13.231.249.183
+  port: 11541
+  server: 43.198.204.47
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 4,5|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11233
-  server: 18.162.145.230
+  port: 50712
+  server: 18.183.163.141
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -42,12 +50,35 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 6,9|[Trojan] GB_speednode_0020
-  network: tcp
-  password: da292191-b895-3264-b41c-200512b8f965
-  port: 40017
-  server: a.twodnwnpoe.xyz
+- name: 6|[Anytls] hkHK_1|1.0MB/s
+  password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
+  port: 8443
+  server: c7f72645-te24g0-twuk0i-1hzyr.hkt2.cdnhuawei.com
   skip-cert-verify: true
-  sni: water.waittomorrow.top
+  sni: c7f72645-te24g0-twuk0i-1hzyr.hkt2.cdnhuawei.com
+  type: anytls
+- client-fingerprint: chrome
+  name: 6|[Anytls] hkHK_2|1.0MB/s
+  password: d720a490-d56b-11ef-a1cb-f23c9313b177
+  port: 8300
+  server: 1b30bbb8-t9wqo0-tb5ob4-64gc.hkt.east.wctype.com
+  skip-cert-verify: true
+  sni: 1b30bbb8-t9wqo0-tb5ob4-64gc.hkt.east.wctype.com
+  type: anytls
+  udp: true
+- name: 6|[Http] hkHK_3|1.3MB/s
+  password: <password>
+  port: 8443
+  server: f868c076-t9zts0-tqx9ef-1k0yf.hkt.cdnhuawei.com
+  sni: f868c076-t9zts0-tqx9ef-1k0yf.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: 9cc3c03e-21fd-11ee-a642-f23c91369f2d
+- name: 9|[Trojan] HK_speednode_0023
+  password: BxceQaOe
+  port: 47655
+  server: 43.199.61.178
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
   type: trojan
   udp: true

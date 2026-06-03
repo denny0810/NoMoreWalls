@@ -1,263 +1,31 @@
 proxies:
-- cipher: aes-256-cfb
-  name: '3,4|[SS] tg频道:@ripaojiedian #1'
-  password: amazonskr05
-  port: 443
-  server: 63.180.254.10
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 3|[Vmess] hk 香港|@ripaojiedian
-  port: 30807
-  server: v10.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 3,4|[Trojan] 香港3|@ripaojiedian
-  network: tcp
-  password: d84665c37878196ecf983cf6910e3b44
-  port: 53018
-  server: 18.181.199.223
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 3,4|[Trojan] 香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 11031
-  server: 95.40.4.37
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 3,4|[Trojan] 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 50712
-  server: 18.183.163.141
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 3,4|[Trojan] 日本|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 30022
-  server: 43.207.209.201
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 3,4|[Trojan] 日本2|@ripaojiedian
-  network: tcp
-  password: d84665c37878196ecf983cf6910e3b44
-  port: 11541
-  server: 43.198.204.47
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 3,4|[Trojan] 日本3|@ripaojiedian
-  network: tcp
-  password: d84665c37878196ecf983cf6910e3b44
-  port: 8066
-  server: 18.181.199.223
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 3,4|[Trojan] 新加坡|@ripaojiedian
-  network: tcp
-  password: d84665c37878196ecf983cf6910e3b44
-  port: 2511
-  server: 18.162.232.155
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 3,4|[Trojan] 新加坡2|@ripaojiedian
-  network: tcp
-  password: d84665c37878196ecf983cf6910e3b44
-  port: 3842
-  server: 18.181.199.223
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 3,4|[Trojan] 新加坡3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 10478
-  server: 43.199.217.71
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 3,4|[Trojan] 美国2|@ripaojiedian
-  network: tcp
-  password: d84665c37878196ecf983cf6910e3b44
-  port: 6604
-  server: 18.162.232.155
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 3,4|[Trojan] 美国3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 2702
-  server: 95.40.68.150
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 3|[Vmess] us 美国4|@ripaojiedian
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 2
-  cipher: auto
-  name: 4|[Vmess] 香港|@ripaojiedian
+  name: 敏感时期，更新暂停
   network: tcp
-  port: '30807'
-  server: v10.hdacd.com
-  servername: ''
+  port: '1'
+  server: 0.0.0.0
+  servername: web.51.la
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 4|[Vmess] 美国4|@ripaojiedian
+  name: 如有需要，自行搭建
   network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
+  port: '2'
+  server: 0.0.0.0
+  servername: web.51.la
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 5,8|[Trojan] JP_speednode_0022
-  network: tcp
-  password: d84665c37878196ecf983cf6910e3b44
-  port: 1180
-  server: 18.181.199.223
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- name: 5|[Trojan] usUS_2|1.6MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 2520
-  server: 95.40.4.37
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- alpn:
-  - http/1.1
-  name: 5|[Trojan] frFR_1|1.6MB/s
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22223
-  server: 13.36.49.197
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 6|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.172
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇨🇳 CN
-  name: 6|[SS] vnVN²_2|1.6MB/s|GPT|X|History
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.80
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 6|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.251
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 6|[SS] vnVN²_4|2.2MB/s|GPT⁺|YT|X
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.17
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 6|[SS] vnVN²_5|0.8MB/s|GPT⁺|GM|YT|X|S...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.206
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 6|[SS] vnVN²_6|0.5MB/s|GPT|YT|X|Histo...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.173
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 6|[SS] sgSG²_1|2.4MB/s|X|History
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.16
-  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 7|[Vmess] vmess-ws-ipv6
-  network: ws
-  port: '24202'
-  server: 2a02:6ea0:d32f::f8fe:349b
-  servername: ''
+  name: 庆祝中华人民共和国成立76周年！
+  network: tcp
+  port: '3'
+  server: 0.0.0.0
+  servername: web.51.la
   tls: false
   type: vmess
-  uuid: b20a7042-70ff-4376-a79f-b68f9edb7519
-  ws-opts:
-    headers:
-      Host: ''
-    path: /github.com/Alvin9999-newpac/fanqiang
-- cipher: aes-256-gcm
-  name: 7|[SS] SS节点-ipv6
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 11111
-  server: 2a02:6ea0:d32f::f8fe:349b
-  type: ss
-- name: 8|[Trojan] JP_speednode_0023
-  password: BxceQaOe
-  port: 4099
-  server: 18.183.163.141
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-  udp: true
-- name: 8|[Trojan] US_speednode_0050
-  password: BxceQaOe
-  port: 2520
-  server: 95.40.4.37
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: 8|[Trojan] US_speednode_0052
-  password: BxceQaOe
-  port: 2520
-  server: 95.40.4.37
-  skip-cert-verify: true
-  sni: 95.40.4.37
-  type: trojan
-  udp: true
-- name: 8|[Trojan] US_speednode_0054
-  password: BxceQaOe
-  port: 17801
-  server: 95.40.68.192
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888

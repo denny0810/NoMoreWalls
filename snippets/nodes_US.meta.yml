@@ -1,1 +1,127 @@
-proxies: []
+proxies:
+- name: 4,5|[Trojan] 美国|@ripaojiedian
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 5224
+  server: 18.167.173.1
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 4,5|[Trojan] 美国2|@ripaojiedian
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 6604
+  server: 18.167.173.1
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 4,5|[Trojan] 美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 22057
+  server: 18.166.154.20
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 4|[Vmess] us 美国4|@ripaojiedian
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 5|[Vmess] 美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- multiplexing: MULTIPLEXING_LOW
+  name: 6|[Mieru] usUS_1|2.2MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- client-fingerprint: randomized
+  name: 6|[Trojan] usUS_2|1.1MB/s
+  network: ws
+  password: d0298536-d670-4045-bbb1-ddd5ea68683e
+  port: 443
+  server: 104.19.174.68
+  skip-cert-verify: false
+  sni: azadnet-5vk.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /azadnet-5vk.pages.dev/?PROT_TYPE=trojan
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.251
+  type: ss
+- name: 7|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
+  password: ''
+  port: 7070
+  server: 20.83.154.79
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- client-fingerprint: chrome
+  name: 9|[VLESS] US_speednode_0045
+  port: 443
+  reality-opts:
+    public-key: HlxgAXuwwby0lujjT2LKBPF0udWK4SVjtMPyKtiNdEw
+    short-id: '!!str 232cd9a21e42'
+  server: 31.207.5.73
+  servername: www.amd.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6d088fbd-528d-4f2a-be26-317dcda3c6ee
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 9|[VLESS] US_speednode_0046
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: M1a5zeQ6Ckoo1UybbRYD8696xaWb-fRcCY-7iaQ4wCA
+    short-id: '!!str fd3f0f2bce8083fe'
+  server: nld02.helpbot.click
+  servername: nld02.helpbot.click
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b95e6017-d54e-4016-b651-91c86aeaa463
+- name: 9|[Http] US_speednode_0047
+  password: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
+  port: 443
+  server: 8e2d06c5-teisg0-ts3rye-mrtr.jp.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
+- name: 9|[Http] US_speednode_0048
+  password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
+  port: 443
+  server: 3c3915de-t9zts0-ta5i1s-1j61y.jp.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: f13f964e-f06c-11ec-a858-f23c91cfbbc9

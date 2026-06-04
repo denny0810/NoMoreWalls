@@ -42,23 +42,28 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: randomized
-  name: 6|[Trojan] usUS_2|1.1MB/s
-  network: ws
-  password: d0298536-d670-4045-bbb1-ddd5ea68683e
-  port: 443
-  server: 104.19.174.68
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 6|[Vmess] usUS_4|1.9MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  servername: <nil>
   skip-cert-verify: false
-  sni: azadnet-5vk.pages.dev
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
-    max-early-data: 2560
-    path: /azadnet-5vk.pages.dev/?PROT_TYPE=trojan
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- cipher: aes-128-gcm
+  name: 6|[SS] usUS_10|2.1MB/s
+  password: 3px0wmx0e81145g568ga
+  port: 10880
+  server: 69.164.240.86
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

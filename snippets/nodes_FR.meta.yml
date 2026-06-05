@@ -1,5 +1,5 @@
 proxies:
-- name: 5,7|[Hysteria2] hysteria2-ipv4-2
+- name: 6,8|[Hysteria2] hysteria2-ipv4-2
   password: github.com/Alvin9999-newpac/fanqiang
   port: 64772
   server: 62.210.26.173
@@ -8,7 +8,7 @@ proxies:
   tfo: false
   tls: false
   type: hysteria2
-- name: 5,7|[Hysteria2] hysteria2-ipv4
+- name: 6,8|[Hysteria2] hysteria2-ipv4
   password: github.com/Alvin9999-newpac/fanqiang
   port: 64772
   server: 62.210.29.98
@@ -17,3 +17,19 @@ proxies:
   tfo: false
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] frFR_3|1.8MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 34754
+  reality-opts:
+    public-key: eMijZKuJlNEciXbhyzdbewk-ot_JLMZVaA42bxKFcBM
+    short-id: '!!str c9eb0359fac0c345'
+  server: transparency.cloud-fr.appcore.org
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 35762c02-ff2b-4526-b41b-e96e5d99528b

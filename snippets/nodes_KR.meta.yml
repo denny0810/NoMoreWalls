@@ -1,33 +1,4 @@
 proxies:
-- name: 6,9|[Http] KR_speednode_0016
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  sni: testkr3.ssv.vc
-  tls: true
-  type: http
-  udp: true
-  username: test
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] krKR_2|1.4MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 21796
-  reality-opts:
-    _spider-x: /
-    public-key: dHK4t7AbVKnDxl6ondRWcwkkt4FDkrK89ugEzZfDuzw
-    short-id: '!!str 804d6574da9180'
-  server: 43.203.252.196
-  servername: www.sony.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: cd91af31-0c74-4bce-aac3-bdae367c84fa
-  xudp: true
 - name: 7,9|[Socks5] KR_speednode_0018
   port: 1090
   server: 121.169.46.116
@@ -63,6 +34,15 @@ proxies:
   type: vless
   udp: true
   uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
+- name: 9|[Http] KR_speednode_0016
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
 - name: 9|[Http] KR_speednode_0019
   password: 8f99107c-f091-11ee-9935-f23c9164ca5d
   port: 31433

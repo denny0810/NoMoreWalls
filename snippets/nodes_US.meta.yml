@@ -1,5 +1,5 @@
 proxies:
-- name: 1|[Hysteria2] 美国2
+- name: 2|[Hysteria2] 美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
   server: mg2.mangshe.xyz
@@ -7,7 +7,7 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 3,4|[Trojan] 美国|@ripaojiedian
+- name: 4,5|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 17005
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 3,4|[Trojan] 美国2|@ripaojiedian
+- name: 4,5|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 49277
@@ -23,7 +23,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 3,4|[Trojan] 美国3|@ripaojiedian
+- name: 4,5|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 41889
@@ -33,7 +33,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 3|[Vmess] us 美国4|@ripaojiedian
+  name: 4|[Vmess] us 美国4|@ripaojiedian
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
@@ -42,7 +42,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 4|[Vmess] 美国4|@ripaojiedian
+  name: 5|[Vmess] 美国4|@ripaojiedian
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -51,49 +51,113 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - multiplexing: MULTIPLEXING_LOW
-  name: 5|[Mieru] usUS_1|2.4MB/s
+  name: 6|[Mieru] usUS_1|2.6MB/s
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- client-fingerprint: chrome
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  fp: edge
-  headerType: none
-  name: 5|[VLESS] usUS_2|2.6MB/s
-  network: tcp
-  pbk: gGJ8dmjhQ4MhgvLp5yd7tZlBOw04c4d7WflhpXTC3BQ
-  port: 20006
-  reality-opts:
-    public-key: gGJ8dmjhQ4MhgvLp5yd7tZlBOw04c4d7WflhpXTC3BQ
-    server-name: s0.awsstatic.com
-    short-id: '!!str f37272ec74'
-  security: reality
-  server: usa.xmm.maimaiyun.shop
-  servername: s0.awsstatic.com
-  sid: f37272ec74
-  spx: /
+  name: 6|[VLESS] usUS_2|1.4MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: client.lightnin.click
+  servername: sni.lightnin.click
   tls: true
   type: vless
-  uuid: 924106da-29ec-4822-bd13-703021e2a4f8
+  udp: true
+  uuid: c5e850d4-c551-457c-8dba-beb0ccbad963
+  ws-opts:
+    headers:
+      Host: un.lightnin.click
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
+        Gecko) Chrome/26.0.1410.64 Safari/537.31
+    path: /
+  xudp: true
+- name: 6|[Http] usUS_3|1023KB/s
+  password: 16955d72-1794-11f0-a035-f23c95b6f51d
+  port: 443
+  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
+  sni: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
+  tls: true
+  type: http
+  username: 16955d72-1794-11f0-a035-f23c95b6f51d
+- encryption: none
+  name: 6|[VLESS] usUS_4|2.1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: 66.235.200.40
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vms.lifetime47.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    max-early-data: 2560
+    path: /?https://t.me/youtube@ZYFXS🇨🇳
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] usUS_5|1.2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: eJlKZq9C1kDSoLaod29cDbS0OFBx9nOGsSQNwq2-fyk
+    short-id: '!!str ad041ff6'
+  server: 130.94.45.81
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e817899-2466-425c-a671-7ab5f25d08e8
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] usUS_6|1.5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2083
+  server: 104.17.110.11
+  servername: ip.proxystore11.shop
+  tls: true
+  type: vless
+  udp: true
+  uuid: 507ea9ea-aebe-40f4-8724-8d57d77c3088
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: ip.proxystore11.shop
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/44.0.2403.157 Safari/537.36
+    max-early-data: 2560
+    path: /sale
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 6|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
+  name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.251
   type: ss
-- name: 6|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
+- name: 7|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
   password: ''
   port: 7070
   server: 20.83.154.79
   skip-cert-verify: true
   type: socks5
   username: ''
-- name: 8|[VLESS] US_speednode_0049
+- name: 9|[VLESS] US_speednode_0049
   network: ws
   port: 80
   server: 199.232.197.131
@@ -107,7 +171,35 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 8|[VLESS] US_speednode_0052
+- name: 9|[VLESS] US_speednode_0050
+  network: ws
+  port: 80
+  server: 199.232.197.131
+  servername: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- name: 9|[VLESS] US_speednode_0051
+  network: ws
+  port: 80
+  server: 151.101.2.219
+  servername: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- name: 9|[VLESS] US_speednode_0052
   network: ws
   port: 80
   server: 151.101.0.1

@@ -1,5 +1,5 @@
 proxies:
-- name: 2|[Hysteria2] 美国2
+- name: 1|[Hysteria2] 美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
   server: mg2.mangshe.xyz
@@ -7,33 +7,33 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 4,5|[Trojan] 美国|@ripaojiedian
+- name: 3,4|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 17005
-  server: 18.162.187.25
+  server: 43.198.107.157
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 美国2|@ripaojiedian
+- name: 3,4|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 49277
-  server: 18.183.118.126
+  server: 43.207.198.215
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 美国3|@ripaojiedian
+- name: 3,4|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 22057
-  server: 18.166.228.198
+  port: 41889
+  server: 18.162.213.254
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 4|[Vmess] us 美国4|@ripaojiedian
+  name: 3|[Vmess] us 美国4|@ripaojiedian
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
@@ -42,7 +42,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 5|[Vmess] 美国4|@ripaojiedian
+  name: 4|[Vmess] 美国4|@ripaojiedian
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -51,7 +51,7 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - multiplexing: MULTIPLEXING_LOW
-  name: 6|[Mieru] usUS_1|2.4MB/s
+  name: 5|[Mieru] usUS_1|2.4MB/s
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
@@ -63,7 +63,7 @@ proxies:
   flow: xtls-rprx-vision
   fp: edge
   headerType: none
-  name: 6|[VLESS] usUS_2|2.6MB/s
+  name: 5|[VLESS] usUS_2|2.6MB/s
   network: tcp
   pbk: gGJ8dmjhQ4MhgvLp5yd7tZlBOw04c4d7WflhpXTC3BQ
   port: 20006
@@ -81,19 +81,19 @@ proxies:
   uuid: 924106da-29ec-4822-bd13-703021e2a4f8
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
+  name: 6|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.251
   type: ss
-- name: 7|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
+- name: 6|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
   password: ''
   port: 7070
   server: 20.83.154.79
   skip-cert-verify: true
   type: socks5
   username: ''
-- name: 9|[VLESS] US_speednode_0049
+- name: 8|[VLESS] US_speednode_0049
   network: ws
   port: 80
   server: 199.232.197.131
@@ -107,7 +107,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 9|[VLESS] US_speednode_0052
+- name: 8|[VLESS] US_speednode_0052
   network: ws
   port: 80
   server: 151.101.0.1

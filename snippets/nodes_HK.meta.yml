@@ -1,5 +1,5 @@
 proxies:
-- name: 2|[Hysteria2] hk HK
+- name: 1|[Hysteria2] hk HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
   server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
@@ -8,14 +8,14 @@ proxies:
   type: hysteria2
 - alterId: 2
   cipher: auto
-  name: 4|[Vmess] hk 香港|@ripaojiedian
+  name: 3|[Vmess] hk 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 4,5|[Trojan] 香港3|@ripaojiedian
+- name: 3,4|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 53018
@@ -23,7 +23,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 香港4|@ripaojiedian
+- name: 3,4|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -31,7 +31,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 4,5|[Trojan] 香港5|@ripaojiedian
+- name: 3,4|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -41,7 +41,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 5|[Vmess] 香港|@ripaojiedian
+  name: 4|[Vmess] 香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -49,3 +49,44 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 5|[VLESS] hkHK_1|2.5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 186.246.9.168
+  servername: sellflow.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: ff19693c-11f3-4df9-8713-79a85a5ca090
+  xudp: true
+- encryption: none
+  headerType: none
+  name: 5|[VLESS] hkHK_2|3.5MB/s
+  network: tcp
+  port: 10000
+  security: none
+  server: 207.174.133.169
+  type: vless
+  uuid: d26598cf-2cdf-4219-80d0-94646dff160d
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 5|[Trojan] hkHK_3|2.3MB/s
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  server: 103.74.192.228
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    max-early-data: 2048
+    path: /

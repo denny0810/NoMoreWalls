@@ -9,27 +9,28 @@ proxies:
   sni: www.wordreference.com
   tls: false
   type: hysteria2
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  client-fingerprint: chrome
-  name: 7|[VLESS] seSE_1|1.1MB/s
-  network: ws
-  packet-encoding: xudp
+- name: '4|[Hysteria2] se@V2RayyNGvpnse #1'
+  obfs: salamander
+  obfs-password: T$me$V2RayyNGVpn@V2RayyNGvpn
+  password: T$me$V2RayyNGvpn
   port: 443
-  server: 141.193.213.20
-  servername: post.foxpbot.xyz
+  server: 70.34.206.217
+  skip-cert-verify: true
+  sni: www.wordreference.com
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  name: 7|[VLESS] seSE_1|2.5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 8443
+  server: 45.159.12.232
+  servername: ams1.fromblancwithlove.com
   tls: true
   type: vless
   udp: true
-  uuid: b9acf68e-8530-4465-8c17-8157127be634
-  ws-opts:
-    headers:
-      Host: post.foxpbot.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.81 Safari/537.36
-    path: /
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
   xudp: true
 - client-fingerprint: chrome
   name: 10|[VLESS] SE_speednode_0055

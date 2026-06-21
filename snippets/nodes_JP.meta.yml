@@ -110,7 +110,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 5,6|[Trojan] 日本|@ripaojiedian
+- name: 5,6,10|[Trojan] JP_speednode_0011
   network: tcp
   password: BxceQaOe
   port: 5408
@@ -118,6 +118,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+  udp: true
 - name: 5,6|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
@@ -151,7 +152,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 7|[VLESS] jpJP_2|3.3MB/s
+  name: 7,10|[VLESS] US_speednode_0131
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -160,6 +161,7 @@ proxies:
     short-id: '!!str 0f4dacf88202e05f'
   server: 142.91.108.139
   servername: jp.api-yandex.net
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true

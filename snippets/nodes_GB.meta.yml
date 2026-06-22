@@ -2,7 +2,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 6|[VLESS] gbGB_1|1.4MB/s
+  name: 7|[VLESS] gbGB_1|1.4MB/s
   network: tcp
   packet-encoding: xudp
   port: 8443
@@ -18,7 +18,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 6,9|[VLESS] BR_speednode_0001
+  name: 7,10|[VLESS] BR_speednode_0005
   network: tcp
   packet-encoding: xudp
   port: 8443
@@ -33,7 +33,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 6|[VLESS] gbGB_3|2.4MB/s
+  name: 7|[VLESS] gbGB_3|2.4MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -49,7 +49,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 6|[VLESS] gbGB_4|3.1MB/s
+  name: 7|[VLESS] gbGB_4|3.1MB/s
   network: tcp
   packet-encoding: xudp
   port: 8443
@@ -60,17 +60,25 @@ proxies:
   udp: true
   uuid: 9cc56b5d-2a44-4fd1-91e3-659b06255c11
   xudp: true
+- name: 10|[Http] GB_speednode_0007
+  password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+  port: 443
+  server: 802344f1-ta1og0-tgzvop-hns7.uk.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 9|[VLESS] GB_speednode_0008
-  port: 443
+  name: 10|[VLESS] GB_speednode_0008
+  port: 9443
   reality-opts:
-    public-key: 4HjtN0YBEbiECAB-A-arFQUHlozgxpSEZx5g4436fF4
-    short-id: '!!str 99cf4c707e103c1e'
-  server: 87.121.105.33
-  servername: deepl.com
+    public-key: ge0f9vA5DqMbVVJZVXqssr_qDrKVz7GEIvngsdedIj4
+    short-id: '!!str 879f01a4ae1d324e'
+  server: 82.21.92.47
+  servername: usanode.dostupnet.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: a9a91808-8e7a-4f8d-9658-ab1b94f199e8
+  uuid: ebcb836a-ab7a-424f-a07c-aba25c70da69

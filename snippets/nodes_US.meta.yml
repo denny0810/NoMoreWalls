@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 1|[Vmess] US74｜机房｜低风险
+  name: 0|[Vmess] US74｜机房｜低风险
   network: tcp
   port: '34114'
   server: 103.181.164.237
@@ -10,7 +10,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alpn:
   - h3%2Ch2%2Chttp%2F1.1
-  name: 1|[Trojan] US80｜机房｜低风险
+  name: 0|[Trojan] US80｜机房｜低风险
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -22,13 +22,13 @@ proxies:
     headers:
       Host: snll667.pages.dev
     path: '%2F'
-- name: 1|[Socks5] US145｜机房｜低风险
+- name: 0|[Socks5] US145｜机房｜低风险
   port: 1080
   server: 174.138.61.184
   tls: false
   type: socks5
   username: Og%3D%3D
-- name: 1|[Trojan] US146｜机房｜低风险
+- name: 0|[Trojan] US146｜机房｜低风险
   network: tcp
   password: af4b064a9c39472fb34ad8b113acdc6b
   port: 443
@@ -36,7 +36,7 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- name: 3|[Hysteria2] 美国2
+- name: 2|[Hysteria2] 美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
   server: mg2.mangshe.xyz
@@ -44,7 +44,7 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 3|[Hysteria2] usUS_@WangCai_8
+- name: 2|[Hysteria2] usUS_@WangCai_8
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 34.220.246.198
@@ -52,7 +52,7 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 5,6|[Trojan] 美国2|@ripaojiedian
+- name: 4,5|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: 230012981ba34c12fec11deca0379005
   port: 49277
@@ -60,7 +60,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 美国3|@ripaojiedian
+- name: 4,5|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 22657
@@ -69,7 +69,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - multiplexing: MULTIPLEXING_LOW
-  name: 7|[Mieru] usUS_1|1.1MB/s
+  name: 6|[Mieru] usUS_1|1.1MB/s
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
@@ -79,7 +79,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 7|[Trojan] usUS_2|1.1MB/s
+  name: 6|[Trojan] usUS_2|1.1MB/s
   network: ws
   password: MiTiVPN
   port: 443
@@ -96,7 +96,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 7|[Trojan] usUS_3|1.2MB/s
+  name: 6|[Trojan] usUS_3|1.2MB/s
   network: ws
   password: MITIVPN
   port: 443
@@ -113,7 +113,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 7|[Trojan] usUS_4|2.6MB/s
+  name: 6|[Trojan] usUS_4|2.6MB/s
   network: ws
   password: MITIVPN
   port: 443
@@ -130,7 +130,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 7|[Trojan] usUS_5|2.6MB/s
+  name: 6|[Trojan] usUS_5|2.6MB/s
   network: ws
   password: MiTiVPN
   port: 443
@@ -144,7 +144,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /MiTiVPN=Se
-- name: 7|[Http] usUS_6|1.1MB/s
+- name: 6|[Http] usUS_6|1.1MB/s
   password: 16955d72-1794-11f0-a035-f23c95b6f51d
   port: 443
   server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
@@ -158,7 +158,7 @@ proxies:
   grpc-opts:
     grpc-service-name: movie
   mode: gun
-  name: 7|[VLESS] usUS_7|1.5MB/s
+  name: 6|[VLESS] usUS_7|1.5MB/s
   network: grpc
   pbk: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
   port: 10240
@@ -180,7 +180,7 @@ proxies:
   grpc-opts:
     grpc-service-name: movie
   mode: gun
-  name: 7|[VLESS] usUS_8|1.3MB/s
+  name: 6|[VLESS] usUS_8|1.3MB/s
   network: grpc
   pbk: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
   port: 10239
@@ -199,7 +199,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 7|[VLESS] usUS_9|3.1MB/s
+  name: 6|[VLESS] usUS_9|3.1MB/s
   network: tcp
   packet-encoding: xudp
   port: 22335
@@ -215,7 +215,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 7|[VLESS] usUS_10|1.6MB/s
+  name: 6|[VLESS] usUS_10|1.6MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -233,7 +233,7 @@ proxies:
     path: /ws
   xudp: true
 - encryption: none
-  name: 7|[VLESS] usUS_11|1.2MB/s
+  name: 6|[VLESS] usUS_11|1.2MB/s
   network: ws
   packet-encoding: xudp
   port: 80
@@ -250,7 +250,7 @@ proxies:
     max-early-data: 2560
     path: /
   xudp: true
-- name: 7|[VLESS] usUS_12|1.1MB/s
+- name: 6|[VLESS] usUS_12|1.1MB/s
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -267,12 +267,12 @@ proxies:
   xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
+  name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.251
   type: ss
-- name: 8|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
+- name: 7|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
   password: ''
   port: 7070
   server: 20.83.154.79
@@ -280,7 +280,7 @@ proxies:
   type: socks5
   username: ''
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0025
+  name: 9|[VLESS] US_speednode_0025
   network: ws
   port: 2095
   server: blog.cloudflare.com
@@ -295,7 +295,7 @@ proxies:
       Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0026
+  name: 9|[VLESS] US_speednode_0026
   network: ws
   port: 2095
   server: www.fbi.gov
@@ -310,7 +310,7 @@ proxies:
       Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0027
+  name: 9|[VLESS] US_speednode_0027
   network: ws
   port: 2095
   server: www.shopify.com
@@ -325,7 +325,7 @@ proxies:
       Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0028
+  name: 9|[VLESS] US_speednode_0028
   network: ws
   port: 2095
   server: www.epicgames.com
@@ -340,7 +340,7 @@ proxies:
       Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0029
+  name: 9|[VLESS] US_speednode_0029
   network: ws
   port: 2095
   server: ns.cloudflare.com
@@ -355,7 +355,7 @@ proxies:
       Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0030
+  name: 9|[VLESS] US_speednode_0030
   network: ws
   port: 2095
   server: cf.090227.xyz
@@ -370,7 +370,7 @@ proxies:
       Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0031
+  name: 9|[VLESS] US_speednode_0031
   network: ws
   port: 2095
   server: cloudflare-dns.com
@@ -385,7 +385,7 @@ proxies:
       Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0032
+  name: 9|[VLESS] US_speednode_0032
   network: ws
   port: 2095
   server: docs.cloudflare.com
@@ -400,7 +400,7 @@ proxies:
       Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0033
+  name: 9|[VLESS] US_speednode_0033
   network: ws
   port: 2095
   server: www.wto.org
@@ -415,7 +415,7 @@ proxies:
       Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0034
+  name: 9|[VLESS] US_speednode_0034
   network: ws
   port: 2095
   server: developers.cloudflare.com
@@ -430,7 +430,7 @@ proxies:
       Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0035
+  name: 9|[VLESS] US_speednode_0035
   network: ws
   port: 2095
   server: support.cloudflare.com
@@ -445,7 +445,7 @@ proxies:
       Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0036
+  name: 9|[VLESS] US_speednode_0036
   network: ws
   port: 2095
   server: cdnjs.com
@@ -460,7 +460,7 @@ proxies:
       Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0037
+  name: 9|[VLESS] US_speednode_0037
   network: ws
   port: 2095
   server: www.npmjs.com
@@ -475,7 +475,7 @@ proxies:
       Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0038
+  name: 9|[VLESS] US_speednode_0038
   network: ws
   port: 2095
   server: www.udemy.com
@@ -490,7 +490,7 @@ proxies:
       Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 10|[VLESS] US_speednode_0039
+  name: 9|[VLESS] US_speednode_0039
   network: ws
   port: 2095
   server: www.whatismyip.net

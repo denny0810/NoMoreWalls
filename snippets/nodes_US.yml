@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 0|[Vmess] US74｜机房｜低风险
+  name: 1|[Vmess] US74｜机房｜低风险
   network: tcp
   port: '34114'
   server: 103.181.164.237
@@ -10,7 +10,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alpn:
   - h3%2Ch2%2Chttp%2F1.1
-  name: 0|[Trojan] US80｜机房｜低风险
+  name: 1|[Trojan] US80｜机房｜低风险
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -22,7 +22,7 @@ proxies:
     headers:
       Host: snll667.pages.dev
     path: '%2F'
-- name: 0|[Trojan] US146｜机房｜低风险
+- name: 1|[Trojan] US146｜机房｜低风险
   network: tcp
   password: af4b064a9c39472fb34ad8b113acdc6b
   port: 443
@@ -30,24 +30,32 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- name: 4,5|[Trojan] 美国2|@ripaojiedian
+- name: 5,6|[Trojan] 美国|@ripaojiedian
   network: tcp
-  password: 230012981ba34c12fec11deca0379005
+  password: 4e4910ec52552e36aa43a870a179da83
   port: 49277
-  server: 54.46.30.217
+  server: 13.230.33.22
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 美国3|@ripaojiedian
+- name: 5,6|[Trojan] 美国2|@ripaojiedian
+  network: tcp
+  password: 4e4910ec52552e36aa43a870a179da83
+  port: 17005
+  server: 13.230.33.22
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 5,6|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 22657
-  server: 16.163.142.40
+  port: 44265
+  server: 43.198.243.211
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: 6|[Trojan] usUS_3|3.3MB/s
+  name: 7|[Trojan] usUS_3|3.3MB/s
   network: tcp
   password: 7e70223b-f331-41d5-9313-02b8d2df2885
   port: 58995
@@ -57,7 +65,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 6|[Trojan] usUS_5|1.5MB/s
+  name: 7|[Trojan] usUS_5|1.5MB/s
   network: tcp
   password: 63872b0d-87dd-4474-b690-92773af2922e
   port: 42531
@@ -66,7 +74,7 @@ proxies:
   sni: d.usj1.cat.bilibili.com
   type: trojan
   udp: true
-- name: 6|[Trojan] usUS_9|1.3MB/s
+- name: 7|[Trojan] usUS_9|1.3MB/s
   network: tcp
   password: 7e70223b-f331-41d5-9313-02b8d2df2885
   port: 50888
@@ -74,7 +82,7 @@ proxies:
   skip-cert-verify: true
   sni: d.usj1.cat.bilibili.com
   type: trojan
-- name: 6|[Trojan] usUS_10|1.1MB/s
+- name: 7|[Trojan] usUS_10|1.1MB/s
   network: tcp
   password: 7e70223b-f331-41d5-9313-02b8d2df2885
   port: 13320
@@ -86,7 +94,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 6|[Trojan] usUS_11|2.0MB/s
+  name: 7|[Trojan] usUS_11|2.0MB/s
   network: ws
   password: 0cb2739d-98b8-45ce-b52c-4305c40975a6
   port: 443
@@ -102,12 +110,12 @@ proxies:
     path: /0cb2739d-98b8-45ce-b52c-4305c40975a6-tr
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
+  name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.251
   type: ss
-- name: 9|[Trojan] US_speednode_0063
+- name: 10|[Trojan] US_speednode_0063
   network: ws
   password: Mitivpn
   port: 443

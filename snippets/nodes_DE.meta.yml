@@ -144,14 +144,6 @@ proxies:
   sni: de.xn--ehqa22b.site
   tls: false
   type: hysteria2
-- name: 3,4|[Hysteria2] 🦖10@oneclickvpnkeys
-  password: 2bed923d-0204-4993-ae38-59281c98bfd9
-  port: 28443
-  server: 2a0b:4142:a86::2
-  skip-cert-verify: true
-  sni: c9a0c4942b7edk1v6.587458.xyz
-  tls: false
-  type: hysteria2
 - name: 3|[Hysteria2] DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -180,3 +172,41 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  name: 7|[VLESS] deDE_1|3.6MB/s
+  network: ws
+  port: 8443
+  server: 104.20.2.221
+  servername: bycf.lzjnb.shop
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 6c7a6a6a-6a6a-4000-8000-000000000002
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: bycf.lzjnb.shop
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 7|[VLESS] deDE_2|1.9MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: Gerlight.soltankabos.ir
+  servername: amtal9.soltankabos.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 15b7bde3-292a-4d82-91ea-d56a60f69321
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: amtal9.soltankabos.ir
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/52.0.2743.116 Safari/537.36
+    max-early-data: 2560
+    path: /ws
+  xudp: true

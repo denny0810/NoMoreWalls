@@ -1,5 +1,5 @@
 proxies:
-- name: 1|[Trojan] SG6｜机房｜高风险 (黑名单)
+- name: 0|[Trojan] SG6｜机房｜高风险 (黑名单)
   network: tcp
   password: af4b064a9c39472fb34ad8b113acdc6b
   port: 443
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
-- name: 3|[Hysteria2] 新加坡1
+- name: 2|[Hysteria2] 新加坡1
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2055
   server: xjp1.mangshe.xyz
@@ -15,15 +15,39 @@ proxies:
   sni: xjp1.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 3|[Hysteria2] sgSG_@WangCai_8
+- name: 2|[Hysteria2] sgSG_@WangCai_8
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 47.129.160.62
+  server: 18.143.174.148
   skip-cert-verify: true
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 3|[Hysteria2] SG
+- name: '2|[Hysteria2] sgSG_@WangCai_8 #1'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 47.129.3.178
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: '2|[Hysteria2] sgSG_@WangCai_8 #2'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 54.179.153.191
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: '2|[Hysteria2] sgSG_@WangCai_8 #3'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 54.255.238.222
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 2|[Hysteria2] SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: sg3.oomz.ru
@@ -31,7 +55,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 5,6|[Trojan] 新加坡2|@ripaojiedian
+- name: 4,5|[Trojan] 新加坡2|@ripaojiedian
   network: tcp
   password: b8494776252056a1b62e77c4ff6a6d61
   port: 29642
@@ -39,7 +63,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 新加坡3|@ripaojiedian
+- name: 4,5|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 41421
@@ -48,7 +72,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: 7|[VLESS] sgSG_1|3.8MB/s
+  name: 6|[VLESS] sgSG_1|2.9MB/s
   network: ws
   port: 443
   server: 172.64.146.86
@@ -63,22 +87,7 @@ proxies:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
 - client-fingerprint: chrome
-  name: 7|[VLESS] sgSG_2|1.5MB/s
-  network: ws
-  port: 443
-  server: 162.159.43.121
-  servername: support.zoom.us.yxls.eu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
-- client-fingerprint: chrome
-  name: 7|[VLESS] sgSG_3|2.5MB/s
+  name: 6|[VLESS] sgSG_2|2.3MB/s
   network: ws
   port: 443
   server: 162.159.2.228
@@ -92,24 +101,9 @@ proxies:
     headers:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
-- client-fingerprint: chrome
-  name: 7|[VLESS] sgSG_4|4.0MB/s
-  network: ws
-  port: 443
-  server: 162.159.23.117
-  servername: support.zoom.us.yxls.eu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  name: 8|[SS] sgSG²_1|2.4MB/s|X|History
+  name: 7|[SS] sgSG²_1|2.4MB/s|X|History
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.16

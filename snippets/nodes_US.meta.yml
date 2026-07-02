@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 0|[Vmess] US74｜机房｜低风险
+  name: 1|[Vmess] US74｜机房｜低风险
   network: tcp
   port: '34114'
   server: 103.181.164.237
@@ -10,7 +10,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alpn:
   - h3%2Ch2%2Chttp%2F1.1
-  name: 0|[Trojan] US80｜机房｜低风险
+  name: 1|[Trojan] US80｜机房｜低风险
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -22,13 +22,13 @@ proxies:
     headers:
       Host: snll667.pages.dev
     path: '%2F'
-- name: 0|[Socks5] US145｜机房｜低风险
+- name: 1|[Socks5] US145｜机房｜低风险
   port: 1080
   server: 174.138.61.184
   tls: false
   type: socks5
   username: Og%3D%3D
-- name: 0|[Trojan] US146｜机房｜低风险
+- name: 1|[Trojan] US146｜机房｜低风险
   network: tcp
   password: af4b064a9c39472fb34ad8b113acdc6b
   port: 443
@@ -36,7 +36,7 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- name: 2|[Hysteria2] 美国2
+- name: 3|[Hysteria2] 美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
   server: mg2.mangshe.xyz
@@ -44,7 +44,7 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 4,5|[Trojan] 美国|@ripaojiedian
+- name: 5,6|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: b8494776252056a1b62e77c4ff6a6d61
   port: 17005
@@ -52,7 +52,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 美国2|@ripaojiedian
+- name: 5,6|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: b8494776252056a1b62e77c4ff6a6d61
   port: 49277
@@ -60,7 +60,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 美国3|@ripaojiedian
+- name: 5,6|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 44265
@@ -68,89 +68,101 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: 6|[VLESS] usUS_1|2.7MB/s
-  network: ws
-  port: 443
-  server: support.zoom.us
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6680846a-8a57-4dfd-9a0e-63209cfc8535
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-amz
-- client-fingerprint: chrome
-  name: 6|[VLESS] usUS_2|2.4MB/s
-  network: ws
-  port: 443
-  server: support.zoom.us
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
 - multiplexing: MULTIPLEXING_LOW
-  name: 6|[Mieru] usUS_3|2.8MB/s
+  name: 7|[Mieru] usUS_1|3.4MB/s
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- client-fingerprint: chrome
-  name: 6|[VLESS] usUS_4|2.1MB/s
+- encryption: none
+  name: 7|[VLESS] usUS_2|2.7MB/s
   network: ws
   packet-encoding: xudp
-  port: 443
-  server: ansooyefilter-channel.up.railway.app
-  servername: ansooyefilter-channel.up.railway.app
-  tls: true
+  port: 8880
+  server: 104.254.140.30
   type: vless
   udp: true
-  uuid: 3aff2f4c-cbe7-b6f1-d1b2-86ad0a8d78c2
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.110 Safari/537.36
-    path: /ws/3aff2f4c-cbe7-b6f1-d1b2-86ad0a8d78c2
+      Host: vms.lifetime54.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
+    max-early-data: 2560
+    path: /
   xudp: true
-- name: 6|[Socks5] usUS_5|3.2MB/s
-  password: ''
-  port: 1080
-  server: 142.248.80.110
-  skip-cert-verify: true
-  type: socks5
-  username: ''
+- encryption: none
+  name: 7|[VLESS] usUS_3|1.6MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: 185.148.106.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime54.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
+        Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: 7|[VLESS] usUS_4|2.0MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8080
+  server: 198.41.215.140
+  servername: kourosh-asli-ncjeuv.kourosh-gnlroc.workers.dev
+  type: vless
+  udp: true
+  uuid: 764ce064-b6e7-4279-a014-4547883eee15
+  ws-opts:
+    headers:
+      Host: kourosh-asli-ncjeuv.kourosh-gnlroc.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /kouroshasli_panel
+  xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] usUS_6|2.5MB/s
+  name: 7|[VLESS] usUS_5|2.6MB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: 170.114.46.6
-  servername: support.zoom.us.yxls.eu.cc
+  server: 162.159.46.222
+  servername: racknerd.henso.wiki
   tls: true
   type: vless
   udp: true
-  uuid: 6680846a-8a57-4dfd-9a0e-63209cfc8535
+  uuid: 9fb8b6a8-5094-42e3-a949-26bc63551345
   ws-opts:
     headers:
-      Host: support.zoom.us.yxls.eu.cc
+      Host: racknerd.henso.wiki
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /9fb8b6a8-5094-42e3-a949-26bc63551345-vless
+  xudp: true
+- name: 7|[VLESS] usUS_6|2.6MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: 104.16.8.66
+  type: vless
+  udp: true
+  uuid: 2f5c68d9-182f-4d8b-ab53-9358a04387b7
+  ws-opts:
+    headers:
+      Host: broad-truth-e988.258-217.workers.dev
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
-    path: /sg-amz
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] usUS_7|1.6MB/s
+  name: 7|[VLESS] usUS_7|2.8MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -159,61 +171,22 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 6680846a-8a57-4dfd-9a0e-63209cfc8535
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
   ws-opts:
     headers:
       Host: support.zoom.us.yxls.eu.cc
-      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
-        like Gecko) Chrome/5.0.342.1 Safari/533.2
-    path: /sg-amz
-  xudp: true
-- name: 6|[VLESS] usUS_8|3.6MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: 172.64.88.168
-  type: vless
-  udp: true
-  uuid: b4883d27-3151-4adf-92b1-841c0dccd1ea
-  ws-opts:
-    headers:
-      Host: damp-surf-aacf.296-8ed.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
-        Safari/537.36
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-  xudp: true
-- name: 6|[Http] usUS_9|2.5MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 6|[VLESS] usUS_10|2.7MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: 104.17.21.32
-  type: vless
-  udp: true
-  uuid: d1eeb74f-e5ea-45eb-9934-5376bfeb5ba4
-  ws-opts:
-    headers:
-      Host: fragrant-shape-07a0.269-144.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /pyip=ProxyIP.SG.CMLiussss.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /sg-melbi
   xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
+  name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.251
   type: ss
-- name: 7|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
+- name: 8|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
   password: ''
   port: 7070
   server: 20.83.154.79
@@ -222,7 +195,7 @@ proxies:
   username: ''
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 9|[VLESS] US_speednode_0055
+  name: 10|[VLESS] US_speednode_0055
   port: 14005
   reality-opts:
     public-key: sKWozGVep6wrIm63253QviGBtMLVrGB_W1JJHLEHi0s
@@ -236,7 +209,7 @@ proxies:
   uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 9|[VLESS] US_speednode_0056
+  name: 10|[VLESS] US_speednode_0056
   port: 443
   reality-opts:
     public-key: JlcNtRODuC4k8GhBFuXwjps9cRe3asq453_RLd3o9E8
@@ -248,7 +221,7 @@ proxies:
   type: vless
   udp: true
   uuid: 057f3c26-0fe7-4315-aabc-90c79d413d70
-- name: 9|[Http] US_speednode_0058
+- name: 10|[Http] US_speednode_0058
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443
   server: e760451b-ta1og0-tan99f-1rdqg.jp.oshuawei.com
@@ -256,7 +229,7 @@ proxies:
   type: http
   udp: true
   username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
-- name: 9|[Http] US_speednode_0059
+- name: 10|[Http] US_speednode_0059
   password: 1b609740-eec2-11ef-8543-f23c93136cb3
   port: 443
   server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
@@ -264,7 +237,7 @@ proxies:
   type: http
   udp: true
   username: 1b609740-eec2-11ef-8543-f23c93136cb3
-- name: 9|[Http] US_speednode_0060
+- name: 10|[Http] US_speednode_0060
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 443
   server: cffa61bc-t9zts0-tatrrz-yjq0.jp.oshuawei.com
@@ -272,7 +245,7 @@ proxies:
   type: http
   udp: true
   username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-- name: 9|[Http] US_speednode_0061
+- name: 10|[Http] US_speednode_0061
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 443
   server: 786f666d-t9zts0-tatrrz-yjq0.sjc.oshuawei.com
@@ -280,7 +253,7 @@ proxies:
   type: http
   udp: true
   username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-- name: 9|[Http] US_speednode_0062
+- name: 10|[Http] US_speednode_0062
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443
   server: d6a15dd2-tegxs0-tejxhc-1rdqg.se.oshuawei.com
@@ -288,7 +261,7 @@ proxies:
   type: http
   udp: true
   username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
-- name: 9|[Trojan] US_speednode_0063
+- name: 10|[Trojan] US_speednode_0063
   network: ws
   password: Mitivpn
   port: 443

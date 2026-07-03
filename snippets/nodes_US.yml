@@ -59,49 +59,52 @@ proxies:
   client-fingerprint: chrome
   name: 7|[Trojan] usUS_1|1.9MB/s
   network: ws
-  password: MiTiVPN
-  port: 443
-  server: assets.fiverr.com
-  skip-cert-verify: false
-  sni: sw.App-Cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
-        Chrome/v1.0.0 Safari/538.1
-    path: /MiTiVPN=Se
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 7|[Trojan] usUS_2|2.6MB/s
-  network: ws
   password: MITIVPN
   port: 443
-  server: assets.fiverr.com
+  server: 94.140.0.40
   skip-cert-verify: false
   sni: Usa.App-Cloud.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.81 Safari/537.36
     path: /MiTiVPN=Usa
-- cipher: aes-256-cfb
-  name: 7|[SS] usUS_8|1.9MB/s
-  password: amazonskr05
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 7|[Trojan] usUS_6|2.1MB/s
+  network: ws
+  password: MiTiVPN
   port: 443
-  server: 3.133.132.79
-  type: ss
+  server: 104.16.72.101
+  skip-cert-verify: false
+  sni: N--l.App-Cloud.ir
+  type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 7|[SS] usUS_9|1.6MB/s
-  password: amazonskr05
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /MiTiVPN=NL
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 7|[Trojan] usUS_7|1.6MB/s
+  network: ws
+  password: MITIVPN
   port: 443
-  server: 3.147.127.17
-  type: ss
+  server: www.speedtest.net
+  skip-cert-verify: false
+  sni: germany.App-Cloud.ir
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /MiTiVPN=De
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

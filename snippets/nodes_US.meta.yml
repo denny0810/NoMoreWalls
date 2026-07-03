@@ -80,38 +80,21 @@ proxies:
   client-fingerprint: chrome
   name: 7|[Trojan] usUS_1|1.9MB/s
   network: ws
-  password: MiTiVPN
-  port: 443
-  server: assets.fiverr.com
-  skip-cert-verify: false
-  sni: sw.App-Cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
-        Chrome/v1.0.0 Safari/538.1
-    path: /MiTiVPN=Se
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 7|[Trojan] usUS_2|2.6MB/s
-  network: ws
   password: MITIVPN
   port: 443
-  server: assets.fiverr.com
+  server: 94.140.0.40
   skip-cert-verify: false
   sni: Usa.App-Cloud.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.81 Safari/537.36
     path: /MiTiVPN=Usa
 - client-fingerprint: chrome
   encryption: none
-  name: 7|[VLESS] usUS_3|2.9MB/s
+  name: 7|[VLESS] usUS_2|1.5MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -124,84 +107,91 @@ proxies:
   ws-opts:
     headers:
       Host: nbhhh.mrcool.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: /proxyip=Telegram-WangCai2🇨🇳
   xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 7|[VLESS] usUS_3|2.8MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 172.64.79.244
+  servername: ldp2642.brucewang777.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
+  ws-opts:
+    headers:
+      Host: ldp2642.brucewang777.eu.cc
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /proxyip=ProxyIP.US.CMLiussss.Net
+  xudp: true
 - multiplexing: MULTIPLEXING_LOW
-  name: 7|[Mieru] usUS_4|1.8MB/s
+  name: 7|[Mieru] usUS_4|3.1MB/s
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 7|[VLESS] usUS_5|1.5MB/s
-  network: tcp
+  name: 7|[VLESS] usUS_5|2.4MB/s
+  network: ws
   packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-    short-id: '!!str '
-  server: premium-us.geodema.network
-  servername: www.nvidia.com
+  port: 8443
+  server: 162.159.251.87
+  servername: ldp2642.brucewang777.eu.cc
   tls: true
   type: vless
   udp: true
-  uuid: 952c6b34-9451-0064-9f05-75b5f32b9892
-  xudp: true
-- name: 7|[VLESS] usUS_6|1.5MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: 104.16.107.139
-  type: vless
-  udp: true
-  uuid: 3c04e891-dc32-40a3-bcd0-d5e8283a6a03
+  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
   ws-opts:
     headers:
-      Host: polished-firefly-3e2d.20-645.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/55.0.2883.87 Safari/537.36
-    path: /pyip=ProxyIP.KR.CMLiussss.net
+      Host: ldp2642.brucewang777.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /proxyip=ProxyIP.US.CMLiussss.Net
   xudp: true
-- name: 7|[VLESS] usUS_7|1.7MB/s
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 7|[Trojan] usUS_6|2.1MB/s
   network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: 104.16.106.213
-  type: vless
+  password: MiTiVPN
+  port: 443
+  server: 104.16.72.101
+  skip-cert-verify: false
+  sni: N--l.App-Cloud.ir
+  type: trojan
   udp: true
-  uuid: d503ca85-91c2-426d-98ce-7a6f44666be1
   ws-opts:
     headers:
-      Host: winter-hall-a0a2.74-532.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /pyip=ProxyIP.US.CMLiussss.net
-  xudp: true
-- cipher: aes-256-cfb
-  name: 7|[SS] usUS_8|1.9MB/s
-  password: amazonskr05
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /MiTiVPN=NL
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 7|[Trojan] usUS_7|1.6MB/s
+  network: ws
+  password: MITIVPN
   port: 443
-  server: 3.133.132.79
-  type: ss
+  server: www.speedtest.net
+  skip-cert-verify: false
+  sni: germany.App-Cloud.ir
+  type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 7|[SS] usUS_9|1.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.147.127.17
-  type: ss
-  udp: true
-- name: 7|[Http] usUS_10|3.1MB/s
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /MiTiVPN=De
+- name: 7|[Http] usUS_8|2.5MB/s
   password: ''
   port: 443
   server: 38.28.193.1

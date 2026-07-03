@@ -44,6 +44,13 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
+- name: 4|[Hysteria2] usUS_1 | ⬇️ 766KB/s
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 54.191.165.99
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: 5,6|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: b8494776252056a1b62e77c4ff6a6d61
@@ -71,74 +78,40 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 7|[Trojan] usUS_1|2.7MB/s
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 104.16.72.41
-  skip-cert-verify: false
-  sni: De.App-Cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /MiTiVPN=De
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 7|[Trojan] usUS_2|2.8MB/s
+  name: 7|[Trojan] usUS_1|1.9MB/s
   network: ws
   password: MiTiVPN
   port: 443
-  server: 185.133.35.22
+  server: assets.fiverr.com
   skip-cert-verify: false
-  sni: Finl.App-Cloud.ir
+  sni: sw.App-Cloud.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
-    path: /MiTiVPN=fL
+      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
+        Chrome/v1.0.0 Safari/538.1
+    path: /MiTiVPN=Se
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 7|[Trojan] usUS_3|2.7MB/s
+  name: 7|[Trojan] usUS_2|2.6MB/s
   network: ws
   password: MITIVPN
   port: 443
-  server: 94.140.0.40
+  server: assets.fiverr.com
   skip-cert-verify: false
   sni: Usa.App-Cloud.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /MiTiVPN=Usa
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 7|[Trojan] usUS_4|2.6MB/s
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: assets.fiverr.com
-  skip-cert-verify: false
-  sni: fl.App-Cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
-    path: /MiTiVPN=fL
 - client-fingerprint: chrome
   encryption: none
-  name: 7|[VLESS] usUS_5|2.7MB/s
+  name: 7|[VLESS] usUS_3|2.9MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -151,224 +124,87 @@ proxies:
   ws-opts:
     headers:
       Host: nbhhh.mrcool.kdns.fr
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /proxyip=Telegram-WangCai2🇨🇳
   xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 7|[Trojan] usUS_6|3.3MB/s
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: www.speedtest.net
-  skip-cert-verify: false
-  sni: germany.App-Cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: /MiTiVPN=De
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 7|[Trojan] usUS_7|2.2MB/s
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: assets.fiverr.com
-  skip-cert-verify: false
-  sni: Usa.App-Cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /MiTiVPN=Usa
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 7|[Trojan] usUS_8|1.5MB/s
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: assets.fiverr.com
-  skip-cert-verify: false
-  sni: Nl.App-Cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    path: /MiTiVPN=NL
-- alterId: 2
-  cipher: auto
-  name: 7|[Vmess] usUS_9|3.4MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- name: 7|[Socks5] usUS_10|2.1MB/s
-  password: ''
-  port: 1080
-  server: 47.253.211.16
-  type: socks5
-  username: ''
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 7|[Trojan] usUS_11|3.4MB/s
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 88.216.67.230
-  skip-cert-verify: false
-  sni: Nel.App-Cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /MiTiVPN=NL
+- multiplexing: MULTIPLEXING_LOW
+  name: 7|[Mieru] usUS_4|1.8MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 7|[VLESS] usUS_12|2.1MB/s
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 7|[VLESS] usUS_5|1.5MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: MFuAxjdSnjCk_8Vi_-KGyWryFfSmm902nVhACDSIzBw
-    short-id: '!!str d9d688fc488ae13b'
-  server: 46.8.98.70
-  servername: us1.panel11.ru
+    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
+    short-id: '!!str '
+  server: premium-us.geodema.network
+  servername: www.nvidia.com
   tls: true
   type: vless
   udp: true
-  uuid: 1bd98268-1a22-4cf9-804d-b8a7650b1304
+  uuid: 952c6b34-9451-0064-9f05-75b5f32b9892
   xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] usUS_13|1.8MB/s
+- name: 7|[VLESS] usUS_6|1.5MB/s
   network: ws
   packet-encoding: xudp
-  port: 443
-  server: web-production-0bb3af.up.railway.app
-  servername: web-production-0bb3af.up.railway.app
-  tls: true
+  port: 8880
+  server: 104.16.107.139
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 3c04e891-dc32-40a3-bcd0-d5e8283a6a03
   ws-opts:
     headers:
-      Host: web-production-0bb3af.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /ws/Test_Link
+      Host: polished-firefly-3e2d.20-645.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/55.0.2883.87 Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 7|[VLESS] usUS_14|2.1MB/s
+- name: 7|[VLESS] usUS_7|1.7MB/s
   network: ws
   packet-encoding: xudp
-  port: 443
-  server: node-877017628-4d038b-production.up.railway.app
-  servername: node-877017628-4d038b-production.up.railway.app
-  tls: true
+  port: 8880
+  server: 104.16.106.213
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: d503ca85-91c2-426d-98ce-7a6f44666be1
   ws-opts:
     headers:
-      Host: node-877017628-4d038b-production.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /ws/talafreevpn
+      Host: winter-hall-a0a2.74-532.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- name: 7|[Socks5] usUS_15|3.1MB/s
-  password: ''
-  port: 1080
-  server: 142.248.80.110
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 7|[VLESS] usUS_16|3.8MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 2096
-  reality-opts:
-    public-key: mChFHtaRmeuO2aDuDPqZvBFaCz6f34sVJIKuJcAR130
-    short-id: '!!str 2e40144ddc07e8e1'
-  server: free08.tunnely.ru
-  servername: free08.tunnely.ru
-  tls: true
-  type: vless
+- cipher: aes-256-cfb
+  name: 7|[SS] usUS_8|1.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.133.132.79
+  type: ss
   udp: true
-  uuid: eda79879-1614-4cdd-be3b-3ea2724ab396
-  xudp: true
-- name: 7|[Http] usUS_17|2.1MB/s
+- cipher: aes-256-cfb
+  name: 7|[SS] usUS_9|1.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.147.127.17
+  type: ss
+  udp: true
+- name: 7|[Http] usUS_10|3.1MB/s
   password: ''
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 7|[Http] usUS_18|2.6MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 7|[Http] usUS_19|2.6MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 7|[Http] usUS_20|2.1MB/s
-  password: ''
-  port: 9002
-  server: 156.146.59.14
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 7|[Http] usUS_21|1.9MB/s
-  password: ''
-  port: 9002
-  server: 156.146.59.43
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 7|[Http] usUS_22|3.2MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.219
+  port: 443
+  server: 38.28.193.1
   skip-cert-verify: true
   tls: true
   type: http

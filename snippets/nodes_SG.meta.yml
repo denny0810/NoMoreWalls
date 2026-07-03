@@ -39,26 +39,46 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  name: 7|[Hysteria2] sgSG_1|3.5MB/s
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 7|[Trojan] sgSG_1|3.4MB/s
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 172.64.32.75
+  skip-cert-verify: false
+  sni: united.App-Cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /MiTiVPN=Usa
+- down: ''
+  fingerprint: ''
+  name: 7|[Hysteria2] sgSG_2|3.7MB/s
+  obfs: ''
+  obfs-password: ''
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-sg-003.fastervpn.world
   skip-cert-verify: true
   sni: vpn-sg-003.fastervpn.world
   type: hysteria2
-  udp: true
+  up: ''
 - client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 7|[VLESS] sgSG_2|2.6MB/s
+  name: 7|[VLESS] sgSG_3|3.5MB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: 162.159.34.23
+  server: 162.159.1.37
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -69,127 +89,35 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 7|[VLESS] sgSG_3|2.9MB/s
+- name: 7|[VLESS] sgSG_4|3.5MB/s
   network: ws
   packet-encoding: xudp
-  port: 443
-  server: 162.159.24.39
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
+  port: 8880
+  server: 162.159.48.193
   type: vless
   udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  uuid: ba746959-18e7-471c-b00f-fa5cdd930abf
   ws-opts:
     headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 7|[VLESS] sgSG_4|2.8MB/s
+      Host: crimson-bread-c38e.295.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+  xudp: true
+- name: 7|[VLESS] sgSG_5|2.2MB/s
   network: ws
   packet-encoding: xudp
-  port: 8443
-  server: 172.64.35.37
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
+  port: 8880
+  server: 162.159.46.0
   type: vless
   udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  uuid: 01c2fb74-10b5-452d-b893-67cb528b6a8d
   ws-opts:
     headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 7|[VLESS] sgSG_5|2.7MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 162.159.42.163
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 7|[VLESS] sgSG_6|3.4MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: 162.159.21.235
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 7|[VLESS] sgSG_7|3.5MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: 104.18.45.249
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 7|[VLESS] sgSG_8|2.1MB/s
-  network: raw
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: uDC0dV4encJJZ84nnweP4g8ggzgaxGGphSYfhV2ATxw
-    short-id: '!!str 0963b9822ae8b87e'
-  server: 128.199.142.119
-  servername: www.maybank2u.com.sg
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2864749a-b45d-52c3-0f36-e64224f5480f
+      Host: lucky-field-0220.191-de2.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ

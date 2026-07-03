@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 0|[Vmess] US74｜机房｜低风险
+  name: 1|[Vmess] US74｜机房｜低风险
   network: tcp
   port: '34114'
   server: 103.181.164.237
@@ -10,7 +10,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alpn:
   - h3%2Ch2%2Chttp%2F1.1
-  name: 0|[Trojan] US80｜机房｜低风险
+  name: 1|[Trojan] US80｜机房｜低风险
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -22,7 +22,7 @@ proxies:
     headers:
       Host: snll667.pages.dev
     path: '%2F'
-- name: 0|[Trojan] US146｜机房｜低风险
+- name: 1|[Trojan] US146｜机房｜低风险
   network: tcp
   password: af4b064a9c39472fb34ad8b113acdc6b
   port: 443
@@ -49,15 +49,15 @@ proxies:
 - name: 5,6|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 44265
-  server: 18.162.152.114
+  port: 2366
+  server: 16.163.155.249
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 7|[Trojan] usUS_1|3.3MB/s
+  name: 7|[Trojan] usUS_1|2.7MB/s
   network: ws
   password: MITIVPN
   port: 443
@@ -68,30 +68,30 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /MiTiVPN=De
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 7|[Trojan] usUS_2|3.3MB/s
+  name: 7|[Trojan] usUS_2|2.8MB/s
   network: ws
   password: MiTiVPN
   port: 443
-  server: 104.19.230.21
+  server: 185.133.35.22
   skip-cert-verify: false
-  sni: Nl.App-Cloud.ir
+  sni: Finl.App-Cloud.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/46.0.2490.71 Safari/537.36
-    path: /MiTiVPN=NL
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /MiTiVPN=fL
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 7|[Trojan] usUS_5|2.8MB/s
+  name: 7|[Trojan] usUS_3|2.7MB/s
   network: ws
   password: MITIVPN
   port: 443
@@ -102,12 +102,80 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.86 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
     path: /MiTiVPN=Usa
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 7|[Trojan] usUS_4|2.6MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: assets.fiverr.com
+  skip-cert-verify: false
+  sni: fl.App-Cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    path: /MiTiVPN=fL
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 7|[Trojan] usUS_6|3.3MB/s
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: www.speedtest.net
+  skip-cert-verify: false
+  sni: germany.App-Cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /MiTiVPN=De
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 7|[Trojan] usUS_7|2.2MB/s
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: assets.fiverr.com
+  skip-cert-verify: false
+  sni: Usa.App-Cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /MiTiVPN=Usa
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 7|[Trojan] usUS_8|1.5MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: assets.fiverr.com
+  skip-cert-verify: false
+  sni: Nl.App-Cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /MiTiVPN=NL
 - alterId: 2
   cipher: auto
-  name: 7|[Vmess] usUS_6|3.2MB/s
+  name: 7|[Vmess] usUS_9|3.4MB/s
   network: tcp
   packet-encoding: xudp
   port: 30845
@@ -118,6 +186,23 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 7|[Trojan] usUS_11|3.4MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 88.216.67.230
+  skip-cert-verify: false
+  sni: Nel.App-Cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /MiTiVPN=NL
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

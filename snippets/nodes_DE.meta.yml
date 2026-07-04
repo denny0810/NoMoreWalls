@@ -193,68 +193,18 @@ proxies:
   sni: https://www.calmloud.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: api.v1.StreamService
-  name: 7|[VLESS] deDE_1|2.2MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: KJoHsAShwQt-FYE2OGEekwDbeeYe-S1A0YBU8W5uYGc
-    short-id: '!!str 064c2d37308aeeb6'
-  server: hub.oneoknews.com
-  servername: hub.oneoknews.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 564397f8-4805-4433-ab5b-a24aa133bac2
-  xudp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
-  name: 7|[VLESS] deDE_2|2.1MB/s
+- name: 7|[VLESS] deDE_1|2.0MB/s
   network: ws
   packet-encoding: xudp
-  port: 443
-  server: 199.232.9.94
-  servername: speedtest.net
-  tls: true
+  port: 8880
+  server: 162.159.156.214
   type: vless
   udp: true
-  uuid: 86fdb625-1a7f-4784-99a6-a96b3a80fc6d
+  uuid: 12cebf33-2f96-48a3-af37-c2231e5cef75
   ws-opts:
     headers:
-      Host: hamshahriesfahan.com
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-    path: /vip1
+      Host: throbbing-moon-a07c.90-ec4.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- name: 7|[VLESS] deDE_3|3.8MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 6764
-  server: bernarg.hardvezoo.ir
-  type: vless
-  udp: true
-  uuid: 544129ad-a0bd-4af8-8887-5ff7c414217e
-  ws-opts:
-    headers:
-      Host: bernarg.hardvezoo.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.110 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 7|[Trojan] deDE_4|2.3MB/s
-  network: tcp
-  password: DkQbKDcxEcKj6CoK6erBrQPsgnB7n7nM
-  port: 5222
-  server: dc-38-de.netzrun.at
-  skip-cert-verify: false
-  sni: dc-38-de.netzrun.at
-  type: trojan
-  udp: true

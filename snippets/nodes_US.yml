@@ -46,7 +46,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 美国3|@ripaojiedian
+- name: 5,6,7|[Trojan] usUS_3|2.9MB/s
   network: tcp
   password: BxceQaOe
   port: 34638
@@ -54,19 +54,15 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: 7|[SS] usUS_3|2.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.148.210.179
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 7|[SS] usUS_9|2.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.133.132.79
-  type: ss
+- client-fingerprint: chrome
+  name: 7|[Trojan] usUS_4|2.7MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 34638
+  server: 18.162.53.72
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
   udp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ

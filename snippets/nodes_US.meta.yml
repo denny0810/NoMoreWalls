@@ -60,7 +60,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6,7|[Trojan] usUS_3|2.9MB/s
+- name: 5,6|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 34638
@@ -68,7 +68,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 7|[VLESS] usUS_2|2.9MB/s
+- name: 7|[VLESS] usUS_1|2.9MB/s
   network: ws
   port: 443
   server: 8.133.176.42
@@ -82,6 +82,36 @@ proxies:
     headers:
       Host: nbhhh.mrcool.kdns.fr
     path: /proxyip=3cfb8e26.tp30304.ip.090227.xyz
+- multiplexing: MULTIPLEXING_LOW
+  name: 7|[Mieru] usUS_2|2.1MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- name: 7|[VLESS] usUS_3|2.4MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: 104.16.106.213
+  type: vless
+  udp: true
+  uuid: b4a18856-301d-4bb2-b729-6afcb700faf5
+  ws-opts:
+    headers:
+      Host: red-flower-a2bf.363.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+  xudp: true
+- cipher: aes-256-cfb
+  name: 7|[SS] usUS_4|1.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.136.233.197
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

@@ -276,7 +276,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 5,6|[Trojan] 香港5|@ripaojiedian
+- name: 5,6,7|[Trojan] hkHK_2|2.0MB/s
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -348,7 +348,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6,7|[Trojan] usUS_4|2.1MB/s
+- name: 5,6,7|[Trojan] usUS_2|2.7MB/s
   network: tcp
   password: BxceQaOe
   port: 11353
@@ -366,16 +366,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 7|[Trojan] hkHK_1|3.7MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 27161
-  server: 16.162.220.240
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 7|[Trojan] usUS_1|2.5MB/s
+- name: 7|[Trojan] usUS_1|2.1MB/s
   network: tcp
   password: BxceQaOe
   port: 11353
@@ -384,228 +375,7 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- alpn:
-  - http/1.1
-  name: 7|[Trojan] usUS_2|3.1MB/s
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.16.72.2
-  skip-cert-verify: true
-  sni: sww-w.MaQror.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=sw
-- alpn:
-  - http/1.1
-  name: 7|[Trojan] usUS_3|1.8MB/s
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 45.80.111.7
-  skip-cert-verify: true
-  sni: u---as.MaQror.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=usa
-- name: 7|[Trojan] jpJP_1|5.2MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: smooth-sculpin.rooster465.autos
-  skip-cert-verify: true
-  sni: smooth-sculpin.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] krKR_1|3.9MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: fun-salmon.rooster465.autos
-  skip-cert-verify: true
-  sni: fun-salmon.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] krKR_2|3.5MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: adapting-giraffe.rooster465.autos
-  skip-cert-verify: true
-  sni: adapting-giraffe.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] jpJP_2|2.0MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: precious-racer.rooster465.autos
-  skip-cert-verify: true
-  sni: precious-racer.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] jpJP_3|2.7MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: giving-perch.rooster465.autos
-  skip-cert-verify: true
-  sni: giving-perch.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] jpJP_4|2.5MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: smiling-fowl.rooster465.autos
-  skip-cert-verify: true
-  sni: smiling-fowl.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] hkHK_2|3.5MB/s
-  network: tcp
-  password: 1df3ece1218bedba28c6c6ac726a07bb
-  port: 39001
-  server: 114.80.8.128
-  skip-cert-verify: true
-  sni: www.yrtok.com
-  type: trojan
-  udp: true
-- name: 7|[Trojan] jpJP_5|5.1MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: excited-alien.rooster465.autos
-  skip-cert-verify: true
-  sni: excited-alien.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] sgSG_1|4.0MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: shining-piranha.rooster465.autos
-  skip-cert-verify: true
-  sni: shining-piranha.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] jpJP_6|5.0MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: factual-titmouse.rooster465.autos
-  skip-cert-verify: true
-  sni: factual-titmouse.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] jpJP_7|3.0MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: nice-elephant.rooster465.autos
-  skip-cert-verify: true
-  sni: nice-elephant.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] jpJP_8|2.6MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: pleased-mammal.rooster465.autos
-  skip-cert-verify: true
-  sni: pleased-mammal.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] jpJP_9|2.8MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: relaxing-mayfly.rooster465.autos
-  skip-cert-verify: true
-  sni: relaxing-mayfly.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] jpJP_10|3.7MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: assuring-werewolf.rooster465.autos
-  skip-cert-verify: true
-  sni: assuring-werewolf.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] jpJP_11|3.7MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: mature-lamprey.rooster465.autos
-  skip-cert-verify: true
-  sni: mature-lamprey.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] krKR_3|4.8MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: bright-quagga.rooster465.autos
-  skip-cert-verify: true
-  sni: bright-quagga.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] jpJP_12|3.5MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: key-flounder.rooster465.autos
-  skip-cert-verify: true
-  sni: key-flounder.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] jpJP_13|3.4MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: bright-cicada.rooster465.autos
-  skip-cert-verify: true
-  sni: bright-cicada.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] jpJP_14|5.3MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: noble-tahr.rooster465.autos
-  skip-cert-verify: true
-  sni: noble-tahr.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] jpJP_15|2.6MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: saved-tuna.rooster465.autos
-  skip-cert-verify: true
-  sni: saved-tuna.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] jpJP_16|4.9MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: firm-krill.rooster465.autos
-  skip-cert-verify: true
-  sni: firm-krill.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] krKR_4|3.4MB/s
+- name: 7|[Trojan] krKR_1|3.7MB/s
   network: tcp
   password: XG59623478
   port: 443
@@ -614,7 +384,97 @@ proxies:
   sni: faithful-panther.rooster465.autos
   type: trojan
   udp: true
-- name: 7|[Trojan] usUS_6|1.6MB/s
+- name: 7|[Trojan] jpJP_1|5.2MB/s
+  network: tcp
+  password: XG59623478
+  port: 443
+  server: firm-krill.rooster465.autos
+  skip-cert-verify: true
+  sni: firm-krill.rooster465.autos
+  type: trojan
+  udp: true
+- name: 7|[Trojan] jpJP_2|5.0MB/s
+  network: tcp
+  password: XG59623478
+  port: 443
+  server: mature-lamprey.rooster465.autos
+  skip-cert-verify: true
+  sni: mature-lamprey.rooster465.autos
+  type: trojan
+  udp: true
+- name: 7|[Trojan] jpJP_3|3.1MB/s
+  network: tcp
+  password: XG59623478
+  port: 443
+  server: smooth-sculpin.rooster465.autos
+  skip-cert-verify: true
+  sni: smooth-sculpin.rooster465.autos
+  type: trojan
+  udp: true
+- name: 7|[Trojan] jpJP_4|5.2MB/s
+  network: tcp
+  password: XG59623478
+  port: 443
+  server: composed-sheep.rooster465.autos
+  skip-cert-verify: true
+  sni: composed-sheep.rooster465.autos
+  type: trojan
+  udp: true
+- name: 7|[Trojan] krKR_2|3.3MB/s
+  network: tcp
+  password: XG59623478
+  port: 443
+  server: adapting-giraffe.rooster465.autos
+  skip-cert-verify: true
+  sni: adapting-giraffe.rooster465.autos
+  type: trojan
+  udp: true
+- name: 7|[Trojan] hkHK_1|4.8MB/s
+  network: tcp
+  password: 1df3ece1218bedba28c6c6ac726a07bb
+  port: 39001
+  server: 114.80.8.128
+  skip-cert-verify: true
+  sni: www.yrtok.com
+  type: trojan
+  udp: true
+- name: 7|[Trojan] sgSG_3|4.3MB/s
+  network: tcp
+  password: XG59623478
+  port: 443
+  server: shining-piranha.rooster465.autos
+  skip-cert-verify: true
+  sni: shining-piranha.rooster465.autos
+  type: trojan
+  udp: true
+- name: 7|[Trojan] jpJP_5|5.0MB/s
+  network: tcp
+  password: XG59623478
+  port: 443
+  server: relaxing-mayfly.rooster465.autos
+  skip-cert-verify: true
+  sni: relaxing-mayfly.rooster465.autos
+  type: trojan
+  udp: true
+- name: 7|[Trojan] jpJP_6|6.0MB/s
+  network: tcp
+  password: XG59623478
+  port: 443
+  server: assuring-werewolf.rooster465.autos
+  skip-cert-verify: true
+  sni: assuring-werewolf.rooster465.autos
+  type: trojan
+  udp: true
+- name: 7|[Trojan] jpJP_7|3.9MB/s
+  network: tcp
+  password: XG59623478
+  port: 443
+  server: wise-rhino.rooster465.autos
+  skip-cert-verify: true
+  sni: wise-rhino.rooster465.autos
+  type: trojan
+  udp: true
+- name: 7|[Trojan] usUS_3|1.8MB/s
   network: tcp
   password: XG59623478
   port: 443
@@ -623,43 +483,25 @@ proxies:
   sni: next-ringtail.rooster465.autos
   type: trojan
   udp: true
-- name: 7|[Trojan] jpJP_17|3.3MB/s
+- name: 7|[Trojan] jpJP_8|5.2MB/s
   network: tcp
   password: XG59623478
   port: 443
-  server: careful-tadpole.rooster465.autos
+  server: immense-eagle.rooster465.autos
   skip-cert-verify: true
-  sni: careful-tadpole.rooster465.autos
+  sni: immense-eagle.rooster465.autos
   type: trojan
   udp: true
-- name: 7|[Trojan] sgSG_2|2.7MB/s
+- name: 7|[Trojan] jpJP_9|5.5MB/s
   network: tcp
   password: XG59623478
   port: 443
-  server: real-ewe.rooster465.autos
+  server: allowing-ram.rooster465.autos
   skip-cert-verify: true
-  sni: real-ewe.rooster465.autos
+  sni: allowing-ram.rooster465.autos
   type: trojan
   udp: true
-- name: 7|[Trojan] jpJP_18|5.3MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: content-joey.rooster465.autos
-  skip-cert-verify: true
-  sni: content-joey.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] krKR_5|2.6MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: steady-lemming.rooster465.autos
-  skip-cert-verify: true
-  sni: steady-lemming.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] jpJP_19|3.9MB/s
+- name: 7|[Trojan] jpJP_10|2.5MB/s
   network: tcp
   password: XG59623478
   port: 443
@@ -668,34 +510,7 @@ proxies:
   sni: tops-puma.rooster465.autos
   type: trojan
   udp: true
-- name: 7|[Trojan] sgSG_3|3.7MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: flexible-pony.rooster465.autos
-  skip-cert-verify: true
-  sni: flexible-pony.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] sgSG_4|3.9MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: logical-ram.rooster465.autos
-  skip-cert-verify: true
-  sni: logical-ram.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] sgSG_5|2.8MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: live-drake.rooster465.autos
-  skip-cert-verify: true
-  sni: live-drake.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] jpJP_20|5.4MB/s
+- name: 7|[Trojan] jpJP_11|5.2MB/s
   network: tcp
   password: XG59623478
   port: 443
@@ -704,25 +519,16 @@ proxies:
   sni: prepared-hawk.rooster465.autos
   type: trojan
   udp: true
-- name: 7|[Trojan] jpJP_21|5.5MB/s
+- name: 7|[Trojan] jpJP_12|3.7MB/s
   network: tcp
   password: XG59623478
   port: 443
-  server: distinct-llama.rooster465.autos
+  server: united-grouse.rooster465.autos
   skip-cert-verify: true
-  sni: distinct-llama.rooster465.autos
+  sni: united-grouse.rooster465.autos
   type: trojan
   udp: true
-- name: 7|[Trojan] jpJP_22|1.9MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: novel-kitten.rooster465.autos
-  skip-cert-verify: true
-  sni: novel-kitten.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] sgSG_6|4.0MB/s
+- name: 7|[Trojan] sgSG_4|3.7MB/s
   network: tcp
   password: XG59623478
   port: 443
@@ -731,16 +537,7 @@ proxies:
   sni: clean-elf.rooster465.autos
   type: trojan
   udp: true
-- name: 7|[Trojan] jpJP_23|3.5MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: equipped-moth.rooster465.autos
-  skip-cert-verify: true
-  sni: equipped-moth.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] sgSG_7|2.8MB/s
+- name: 7|[Trojan] sgSG_5|5.4MB/s
   network: tcp
   password: XG59623478
   port: 443
@@ -749,34 +546,7 @@ proxies:
   sni: obliging-oyster.rooster465.autos
   type: trojan
   udp: true
-- name: 7|[Trojan] krKR_6|3.7MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: topical-fox.rooster465.autos
-  skip-cert-verify: true
-  sni: topical-fox.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] frFR_1|2.5MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: new-antelope.rooster465.autos
-  skip-cert-verify: true
-  sni: new-antelope.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] sgSG_8|3.6MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: wealthy-gobbler.rooster465.autos
-  skip-cert-verify: true
-  sni: wealthy-gobbler.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] jpJP_24|3.3MB/s
+- name: 7|[Trojan] jpJP_13|3.8MB/s
   network: tcp
   password: XG59623478
   port: 443
@@ -785,52 +555,16 @@ proxies:
   sni: complete-chipmunk.rooster465.autos
   type: trojan
   udp: true
-- name: 7|[Trojan] jpJP_25|3.7MB/s
+- name: 7|[Trojan] usUS_4|2.0MB/s
   network: tcp
   password: XG59623478
   port: 443
-  server: working-tomcat.rooster465.autos
+  server: pleased-lobster.rooster465.autos
   skip-cert-verify: true
-  sni: working-tomcat.rooster465.autos
+  sni: pleased-lobster.rooster465.autos
   type: trojan
   udp: true
-- name: 7|[Trojan] krKR_7|5.0MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: perfect-slug.rooster465.autos
-  skip-cert-verify: true
-  sni: perfect-slug.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] sgSG_9|3.7MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: harmless-pegasus.rooster465.autos
-  skip-cert-verify: true
-  sni: harmless-pegasus.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] jpJP_26|5.1MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: grateful-owl.rooster465.autos
-  skip-cert-verify: true
-  sni: grateful-owl.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] jpJP_27|5.1MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: internal-krill.rooster465.autos
-  skip-cert-verify: true
-  sni: internal-krill.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] jpJP_28|5.2MB/s
+- name: 7|[Trojan] jpJP_14|5.0MB/s
   network: tcp
   password: XG59623478
   port: 443
@@ -839,52 +573,16 @@ proxies:
   sni: ruling-toucan.rooster465.autos
   type: trojan
   udp: true
-- name: 7|[Trojan] krKR_8|4.1MB/s
+- name: 7|[Trojan] jpJP_15|5.3MB/s
   network: tcp
   password: XG59623478
   port: 443
-  server: mutual-puma.rooster465.autos
+  server: allowed-hermit.rooster465.autos
   skip-cert-verify: true
-  sni: mutual-puma.rooster465.autos
+  sni: allowed-hermit.rooster465.autos
   type: trojan
   udp: true
-- name: 7|[Trojan] jpJP_29|4.0MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: complete-cockatoo.rooster465.autos
-  skip-cert-verify: true
-  sni: complete-cockatoo.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] jpJP_30|5.3MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: up-dinosaur.rooster465.autos
-  skip-cert-verify: true
-  sni: up-dinosaur.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] krKR_21|4.4MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: darling-emu.rooster465.autos
-  skip-cert-verify: true
-  sni: darling-emu.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] krKR_10|3.4MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: whole-perch.rooster465.autos
-  skip-cert-verify: true
-  sni: whole-perch.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] jpJP_31|3.7MB/s
+- name: 7|[Trojan] jpJP_16|6.3MB/s
   network: tcp
   password: XG59623478
   port: 443
@@ -893,7 +591,7 @@ proxies:
   sni: modest-coral.rooster465.autos
   type: trojan
   udp: true
-- name: 7|[Trojan] jpJP_32|3.4MB/s
+- name: 7|[Trojan] jpJP_17|5.4MB/s
   network: tcp
   password: XG59623478
   port: 443
@@ -902,7 +600,7 @@ proxies:
   sni: relaxed-unicorn.rooster465.autos
   type: trojan
   udp: true
-- name: 7|[Trojan] jpJP_33|5.0MB/s
+- name: 7|[Trojan] jpJP_18|3.9MB/s
   network: tcp
   password: XG59623478
   port: 443
@@ -911,7 +609,7 @@ proxies:
   sni: funny-hen.rooster465.autos
   type: trojan
   udp: true
-- name: 7|[Trojan] krKR_11|1.7MB/s
+- name: 7|[Trojan] krKR_3|3.5MB/s
   network: tcp
   password: XG59623478
   port: 443
@@ -920,61 +618,7 @@ proxies:
   sni: exotic-chicken.rooster465.autos
   type: trojan
   udp: true
-- name: 7|[Trojan] sgSG_10|4.5MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: calm-muskrat.rooster465.autos
-  skip-cert-verify: true
-  sni: calm-muskrat.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] krKR_12|1.5MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: main-dragon.rooster465.autos
-  skip-cert-verify: true
-  sni: main-dragon.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] krKR_13|3.9MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: game-thrush.rooster465.autos
-  skip-cert-verify: true
-  sni: game-thrush.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] jpJP_34|3.2MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: worthy-labrador.rooster465.autos
-  skip-cert-verify: true
-  sni: worthy-labrador.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] krKR_14|4.4MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: pet-albacore.rooster465.autos
-  skip-cert-verify: true
-  sni: pet-albacore.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] nlNL_1|3.2MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: renewed-chigger.rooster465.autos
-  skip-cert-verify: true
-  sni: renewed-chigger.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] jpJP_35|5.3MB/s
+- name: 7|[Trojan] jpJP_19|5.2MB/s
   network: tcp
   password: XG59623478
   port: 443
@@ -983,52 +627,25 @@ proxies:
   sni: peaceful-muskrat.rooster465.autos
   type: trojan
   udp: true
-- name: 7|[Trojan] sgSG_11|3.5MB/s
+- name: 7|[Trojan] jpJP_20|5.0MB/s
   network: tcp
   password: XG59623478
   port: 443
-  server: elegant-marten.rooster465.autos
+  server: rational-joey.rooster465.autos
   skip-cert-verify: true
-  sni: elegant-marten.rooster465.autos
+  sni: rational-joey.rooster465.autos
   type: trojan
   udp: true
-- name: 7|[Trojan] jpJP_36|5.1MB/s
+- name: 7|[Trojan] jpJP_21|4.9MB/s
   network: tcp
   password: XG59623478
   port: 443
-  server: learning-wren.rooster465.autos
+  server: dashing-bedbug.rooster465.autos
   skip-cert-verify: true
-  sni: learning-wren.rooster465.autos
+  sni: dashing-bedbug.rooster465.autos
   type: trojan
   udp: true
-- name: 7|[Trojan] jpJP_37|3.2MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: charmed-cheetah.rooster465.autos
-  skip-cert-verify: true
-  sni: charmed-cheetah.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] krKR_15|2.0MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: hopeful-leopard.rooster465.autos
-  skip-cert-verify: true
-  sni: hopeful-leopard.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] sgSG_12|1.6MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: guided-warthog.rooster465.autos
-  skip-cert-verify: true
-  sni: guided-warthog.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] sgSG_13|2.1MB/s
+- name: 7|[Trojan] sgSG_6|3.5MB/s
   network: tcp
   password: XG59623478
   port: 443
@@ -1037,16 +654,7 @@ proxies:
   sni: close-wasp.rooster465.autos
   type: trojan
   udp: true
-- name: 7|[Trojan] jpJP_38|3.8MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: pleased-albacore.rooster465.autos
-  skip-cert-verify: true
-  sni: pleased-albacore.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] krKR_16|3.6MB/s
+- name: 7|[Trojan] krKR_4|3.8MB/s
   network: tcp
   password: XG59623478
   port: 443
@@ -1055,25 +663,7 @@ proxies:
   sni: rich-gelding.rooster465.autos
   type: trojan
   udp: true
-- name: 7|[Trojan] krKR_17|3.4MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: adjusted-turtle.rooster465.autos
-  skip-cert-verify: true
-  sni: adjusted-turtle.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] krKR_18|3.7MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: eager-camel.rooster465.autos
-  skip-cert-verify: true
-  sni: eager-camel.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] krKR_19|3.9MB/s
+- name: 7|[Trojan] krKR_5|4.6MB/s
   network: tcp
   password: XG59623478
   port: 443
@@ -1082,7 +672,7 @@ proxies:
   sni: wealthy-bengal.rooster465.autos
   type: trojan
   udp: true
-- name: 7|[Trojan] jpJP_39|3.7MB/s
+- name: 7|[Trojan] jpJP_22|4.0MB/s
   network: tcp
   password: XG59623478
   port: 443
@@ -1091,7 +681,7 @@ proxies:
   sni: moved-bluegill.rooster465.autos
   type: trojan
   udp: true
-- name: 7|[Trojan] sgSG_14|4.7MB/s
+- name: 7|[Trojan] sgSG_7|4.7MB/s
   network: tcp
   password: XG59623478
   port: 443
@@ -1100,23 +690,31 @@ proxies:
   sni: tough-shark.rooster465.autos
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 7|[Vmess] frFR_4|2.1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 16645
-  server: 130.33.96.204
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- name: 7|[Trojan] usUS_5|1.9MB/s
+  network: tcp
+  password: XG59623478
+  port: 443
+  server: funny-squid.rooster465.autos
+  skip-cert-verify: true
+  sni: funny-squid.rooster465.autos
+  type: trojan
   udp: true
-  uuid: 2dd31bd9-e22c-471a-a9cc-9128fc768326
+- alpn:
+  - http/1.1
+  name: 7|[Trojan] jpJP_23|3.5MB/s
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 162.159.38.119
+  skip-cert-verify: true
+  sni: de-ms.Maqror.ir
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: 4921b448814c533740d0eb52bb6b64b2.mobgslb.tbcache.com
-    path: /
-  xudp: true
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=DEE
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 8|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

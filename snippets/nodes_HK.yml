@@ -52,7 +52,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 5,6,7|[Trojan] hkHK_3|3.1MB/s
+- name: 5,6|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -70,21 +70,22 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 7|[Trojan] hkHK_1|2.1MB/s
+- client-fingerprint: chrome
+  name: 7|[Trojan] hkHK_1|3.7MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 27161
+  server: 16.162.220.240
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 7|[Trojan] hkHK_2|3.5MB/s
   network: tcp
   password: 1df3ece1218bedba28c6c6ac726a07bb
   port: 39001
   server: 114.80.8.128
   skip-cert-verify: true
   sni: www.yrtok.com
-  type: trojan
-  udp: true
-- name: 7|[Trojan] hkHK_2|1.5MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: growing-oyster.rooster465.autos
-  skip-cert-verify: true
-  sni: growing-oyster.rooster465.autos
   type: trojan
   udp: true

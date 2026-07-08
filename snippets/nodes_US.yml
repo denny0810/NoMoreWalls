@@ -46,7 +46,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6,7|[Trojan] usUS_2|2.7MB/s
+- name: 5,6|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 11353
@@ -54,43 +54,36 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: 7|[Trojan] usUS_1|2.1MB/s
+- alterId: 2
+  cipher: auto
+  name: 7|[Vmess] usUS_9|3.1MB/s
   network: tcp
-  password: BxceQaOe
-  port: 11353
-  server: 16.162.220.240
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
+  packet-encoding: xudp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- name: 7|[Trojan] usUS_3|1.8MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: next-ringtail.rooster465.autos
-  skip-cert-verify: true
-  sni: next-ringtail.rooster465.autos
-  type: trojan
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 7|[Vmess] usUS_13|2.0MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: dingyue.zhangxiao5118.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- name: 7|[Trojan] usUS_4|2.0MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: pleased-lobster.rooster465.autos
-  skip-cert-verify: true
-  sni: pleased-lobster.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|[Trojan] usUS_5|1.9MB/s
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: funny-squid.rooster465.autos
-  skip-cert-verify: true
-  sni: funny-squid.rooster465.autos
-  type: trojan
-  udp: true
+  uuid: 7b386823-73c7-4ccc-ac08-8047b6e3cc6b
+  ws-opts:
+    headers:
+      Host: dingyue.zhangxiao5118.top
+    path: /36598kl
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

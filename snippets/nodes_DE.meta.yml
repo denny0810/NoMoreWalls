@@ -172,20 +172,20 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '4|[Hysteria2] de@V2RayyNGvpn #1'
+- name: 4|[Hysteria2] de@V2RayyNGvpnde
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-  password: TGzLlWQaFb
+  password: QjdEEystFJ
   port: 40460
   server: 91.107.152.188
   skip-cert-verify: true
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 4|[Hysteria2] V2RayyNGvpnde
+- name: '4|[Hysteria2] de@V2RayyNGvpn #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-  password: TWlkdqFSQH
+  password: TGzLlWQaFb
   port: 40460
   server: 91.107.152.188
   skip-cert-verify: true
@@ -200,25 +200,20 @@ proxies:
   sni: https://www.calmloud.com
   tls: false
   type: hysteria2
-- name: 7|[VLESS] deDE_2|2.0MB/s
-  network: ws
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 7|[VLESS] deDE_1|2.0MB/s
+  network: tcp
   packet-encoding: xudp
-  port: 8880
-  server: www.zsu.gov.ua
+  port: 443
+  reality-opts:
+    public-key: aEAdhhksLgyI_GWf7l_ES5hMZhigMAIWBn9emSXdaHc
+    short-id: '!!str 56f276ac52'
+  server: de1.miyazono-kaori.com
+  servername: www.siemens.com
+  tls: true
   type: vless
   udp: true
-  uuid: 5c7a171d-de8a-446d-accc-4d3cf7d473f4
-  ws-opts:
-    headers:
-      Host: purple-forest-b185.467.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /pyip=ProxyIP.SG.CMLiussss.net
+  uuid: 30bc91bf-229a-4c1e-a711-392eb86d0f76
   xudp: true
-- cipher: aes-256-gcm
-  name: 7|[SS] deDE_3|2.7MB/s
-  password: d4835152-04e6-3ad9-9c59-ad697a2c13c1
-  port: 20054
-  server: f.y.l.z.3.y.m.d.1.de01-ae5.entry.v51124-6.qpon
-  type: ss
-  udp: true

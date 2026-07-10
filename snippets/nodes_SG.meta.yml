@@ -23,7 +23,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 5,6,7|[Trojan] sgSG_4|2.8MB/s
+- name: 5,6|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: bb839d14960b7a4fb1e95a3aef990528
   port: 6357
@@ -31,7 +31,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6,7|[Trojan] sgSG_2|2.9MB/s
+- name: 5,6|[Trojan] 新加坡2|@ripaojiedian
   network: tcp
   password: bb839d14960b7a4fb1e95a3aef990528
   port: 6357
@@ -39,7 +39,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6,7|[Trojan] sgSG_5|2.6MB/s
+- name: 5,6|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 51396
@@ -47,8 +47,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: 7|[Trojan] sgSG_6|2.3MB/s
+- name: 7|[Trojan] sgSG_1|3.7MB/s
   network: ws
   password: '!!str 666'
   port: 443
@@ -59,8 +58,22 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
+- name: 7|[Trojan] sgSG_2|4.1MB/s
+  network: ws
+  password: '!!str 666'
+  port: 443
+  server: yx.cloudflare.182682.xyz
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
     path: /glasspanel/guest000_0_5de14443985f/
 - client-fingerprint: chrome
   ech-opts:
@@ -68,11 +81,11 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 7|[VLESS] sgSG_7|2.5MB/s
+  name: 7|[VLESS] sgSG_3|4.5MB/s
   network: ws
   packet-encoding: xudp
-  port: 8443
-  server: 207.148.125.245
+  port: 443
+  server: 172.64.42.44
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -83,71 +96,97 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
+- client-fingerprint: chrome
+  name: 7|[Trojan] sgSG_4|2.6MB/s
+  network: ws
+  password: '!!str 666'
+  port: 443
+  server: 104.18.33.225
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
+- client-fingerprint: chrome
+  name: 7|[Trojan] sgSG_5|3.7MB/s
+  network: ws
+  password: '!!str 666'
+  port: 443
+  server: 104.18.39.216
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
 - encryption: none
-  name: 7|[VLESS] sgSG_8|1.9MB/s
+  name: 7|[VLESS] sgSG_6|3.0MB/s
   network: ws
   packet-encoding: xudp
   port: 8880
-  server: chat.openai.com
+  server: 162.159.46.0
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: ddef628e-e3a8-43c4-85eb-bd767a5f3b13
   ws-opts:
     headers:
-      Host: vms.lifetime29.workers.dev
-      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /
-  xudp: true
-- encryption: none
-  name: 7|[VLESS] sgSG_9|2.6MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 108.162.192.206
-  servername: zeus-panel-otnc61.rtfastest.workers.dev
-  type: vless
-  udp: true
-  uuid: b73006bc-1a7a-44e2-9865-d8d302714adf
-  ws-opts:
-    headers:
-      Host: zeus-panel-otnc61.rtfastest.workers.dev
+      Host: autumn-forest-3479.121-488.workers.dev
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.86 Safari/537.36
-    path: /ZEUS_PANEL_BOT
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
-- encryption: none
-  name: 7|[VLESS] sgSG_10|2.6MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 108.162.193.0
-  servername: zeus-panel-otnc61.rtfastest.workers.dev
-  type: vless
-  udp: true
-  uuid: b73006bc-1a7a-44e2-9865-d8d302714adf
-  ws-opts:
-    headers:
-      Host: zeus-panel-otnc61.rtfastest.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /ZEUS_PANEL_BOT
-  xudp: true
-- name: 7|[VLESS] sgSG_11|2.2MB/s
+- name: 7|[VLESS] sgSG_7|2.5MB/s
   network: ws
   packet-encoding: xudp
   port: 8880
   server: themeforest.net
   type: vless
   udp: true
-  uuid: c2569d72-0ba1-44e8-986f-be445edb5f3d
+  uuid: 1563ad16-9ac7-4214-8eb7-303f745efb07
   ws-opts:
     headers:
-      Host: silent-union-ac36.315-33d.workers.dev
+      Host: silent-cake-fb8d.69-a76.workers.dev
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.76 Safari/537.36
+        Gecko) Chrome/31.0.1650.57 Safari/537.36
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+  xudp: true
+- name: 7|[VLESS] sgSG_8|2.0MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: codecanyon.net
+  type: vless
+  udp: true
+  uuid: 2d309706-de61-4c33-a086-3888e595b8eb
+  ws-opts:
+    headers:
+      Host: soft-scene-d370.55-7ff.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.106 Safari/537.36
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
+- client-fingerprint: chrome
+  name: 7|[Trojan] sgSG_9|3.8MB/s
+  network: ws
+  password: '!!str 666'
+  port: 443
+  server: 104.18.46.170
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 8|[SS] sgSG²_1|2.4MB/s|X|History

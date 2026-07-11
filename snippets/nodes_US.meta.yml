@@ -44,159 +44,122 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 5,6|[Trojan] 美国|@ripaojiedian
+- name: 5,6,7|[Trojan] usUS_8|2.1MB/s
   network: tcp
-  password: bb839d14960b7a4fb1e95a3aef990528
+  password: b1a42ca60884057bf527d8d38b618cfb
   port: 17005
-  server: 95.40.99.31
+  server: 18.163.105.231
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 美国2|@ripaojiedian
+- name: 5,6,7|[Trojan] usUS_9|2.6MB/s
   network: tcp
-  password: bb839d14960b7a4fb1e95a3aef990528
+  password: b1a42ca60884057bf527d8d38b618cfb
   port: 17005
-  server: 43.199.215.77
-  skip-cert-verify: true
+  server: 18.166.63.229
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 美国3|@ripaojiedian
+- name: 5,6,7|[Trojan] usUS_10|2.5MB/s
   network: tcp
   password: BxceQaOe
-  port: 34638
-  server: 18.162.154.153
+  port: 44265
+  server: 18.163.115.109
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: aes-256-cfb
-  name: 7|[SS] usUS_1|3.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.58.60.229
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] usUS_2|2.5MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: x4g-production-439a.up.railway.app
-  servername: x4g-production-439a.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8c90e1c0-bbec-27c9-d368-6e053d541e9d
-  ws-opts:
-    headers:
-      Host: x4g-production-439a.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /ws/8c90e1c0-bbec-27c9-d368-6e053d541e9d
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] usUS_3|2.3MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: x4g-production-439a.up.railway.app
-  servername: x4g-production-439a.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8c90e1c0-bbec-27c9-d368-6e053d541e9d
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /ws/8c90e1c0-bbec-27c9-d368-6e053d541e9d
-  xudp: true
-- cipher: aes-256-cfb
-  name: 7|[SS] usUS_4|3.1MB/s
+  name: 7|[SS] usUS_3|1.7MB/s
   password: amazonskr05
   port: 443
   server: 3.14.255.108
+  skip-cert-verify: true
   type: ss
   udp: true
+- client-fingerprint: chrome
+  name: 7|[VLESS] usUS_4|3.3MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 198.41.219.218
+  servername: zyzzzoao.xn--fiqv8j.eu.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
+  ws-opts:
+    headers:
+      Host: zyzzzoao.xn--fiqv8j.eu.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /?ed=2048fp=randomized
+  xudp: true
+- name: 7|[VLESS] usUS_5|1.8MB/s
+  network: ws
+  port: 80
+  server: 45.130.125.113
+  servername: zeus-panel-s3hlzp.zeus-t8jrk2.workers.dev
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 48daa5a5-5bca-4e01-9143-c42f1247b8a2
+  ws-opts:
+    headers:
+      Host: zeus-panel-s3hlzp.zeus-t8jrk2.workers.dev
+    path: /In_Panel_Rayeghan_Ast_Va_Gheyre_Ghabele_Foroosh
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 7|[Vmess] usUS_6|2.5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 30080
+  server: 143.198.235.98
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d76c0edb-8097-4371-8d97-722723756012
+  ws-opts:
+    headers: {}
+    path: /vm
+  xudp: true
+- multiplexing: MULTIPLEXING_LOW
+  name: 7|[Mieru] usUS_7|3.2MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- client-fingerprint: chrome
+  encryption: none
+  name: 7|[VLESS] usUS_11|2.0MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 141.193.213.10
+  servername: m.udemy.com.r3xxe.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: a321980f-54ce-432a-862a-76035b9d78ad
+  ws-opts:
+    headers:
+      Host: m.udemy.com.r3xxe.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /nl-tw
+  xudp: true
 - cipher: aes-256-cfb
-  name: 7|[SS] usUS_5|3.5MB/s
+  name: 7|[SS] usUS_12|2.5MB/s
   password: amazonskr05
   port: 443
-  server: 18.191.132.3
+  server: 3.129.218.147
   type: ss
   udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: ios
-  encryption: none
-  name: 7|[VLESS] usUS_6|2.0MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: x4g-production-6f32.up.railway.app
-  servername: x4g-production-6f32.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2e256a1f-4b58-8b5c-9e3e-79553fbb8efc
-  ws-opts:
-    headers:
-      Host: x4g-production-6f32.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/46.0.2490.71 Safari/537.36
-    path: /ws/2e256a1f-4b58-8b5c-9e3e-79553fbb8efc
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] usUS_7|1.5MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: pnl2626.dpdns.org
-  servername: pnl2626.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5335784a-332d-aec1-fa56-2929f50fe23c
-  ws-opts:
-    headers:
-      Host: pnl2626.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /ws/5335784a-332d-aec1-fa56-2929f50fe23c
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 7|[VLESS] usUS_8|1.9MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 40443
-  reality-opts:
-    public-key: 6AOnobBShzL_N96JRBNMfbL84_3myz8ZbKfZUEqRXiY
-    short-id: '!!str '
-  server: 69.48.229.50
-  servername: deepl.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
-  xudp: true
-- name: 7|[Http] usUS_9|3.3MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

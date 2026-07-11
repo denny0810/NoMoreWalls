@@ -3,33 +3,17 @@ proxies:
   name: 7|[SS] frFR_1|4.7MB/s
   password: amazonskr05
   port: 443
-  server: 15.237.218.22
+  server: 35.180.199.237
+  skip-cert-verify: true
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 7|[SS] frFR_2|2.6MB/s
+  name: 7|[SS] frFR_2|3.3MB/s
   password: amazonskr05
   port: 443
   server: 13.37.239.23
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 7|[SS] frFR_3|3.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.180.210.199
-  type: ss
-  udp: true
-- encryption: none
-  name: 7|[VLESS] frFR_4|3.5MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 22222
-  server: 13.38.233.14
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  xudp: true
 - name: 10|[Http] FR_speednode_0004
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443

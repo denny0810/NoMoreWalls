@@ -1,1 +1,22 @@
-proxies: []
+proxies:
+- client-fingerprint: random
+  encryption: none
+  name: 7|[VLESS] caCA_1|2.1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: ct.877774.xyz
+  servername: do-tor1.862400.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: c3c92540-ed74-469d-b2e9-ff4d67906a52
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: do-tor1.862400.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.110 Safari/537.36
+    max-early-data: 2048
+    path: /announcement
+  xudp: true

@@ -1,27 +1,89 @@
 proxies:
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   encryption: none
-  name: 7|[VLESS] frFR_1|3.4MB/s
-  network: ws
+  grpc-opts:
+    grpc-service-name: wlgrpc
+  name: 7|[VLESS] frFR_1|1.8MB/s
+  network: grpc
   packet-encoding: xudp
-  port: 8443
-  server: vps.tirexnet.kdns.fr
-  servername: vps.tirexnet.kdns.fr
+  port: 443
+  reality-opts:
+    public-key: Uwj82vGl-jAhU3VflWnTy7rISYi03slggjS32Zx8pkk
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: 77.221.152.151
+  servername: www.lefigaro.fr
   tls: true
   type: vless
   udp: true
-  uuid: 895b71ff-3957-4c27-af2a-1f1706c64beb
-  ws-opts:
-    headers:
-      Host: vps.tirexnet.kdns.fr
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
-        Safari/537.36
-    path: /tirexpath
+  uuid: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 7|[VLESS] frFR_2|2.5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: olcTApVIdrdt_bsMJaLsZ-8bYR73oMNzgCZJuR_4sFA
+    short-id: '!!str 7c83683ed7507a69'
+  server: 80.249.150.24
+  servername: dzen.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1281ef13-f1cd-493b-903e-4c2f4ffe1eba
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 7|[VLESS] frFR_3|2.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
+    short-id: '!!str 364994a6f61fc955'
+  server: 45.192.2.173
+  servername: yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1478d83f-3e0b-4d96-99cc-b514495e53c6
+  xudp: true
+- client-fingerprint: ios
+  encryption: none
+  name: 7|[VLESS] frFR_4|2.1MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 8443
+  server: xh.hrmp.kdns.fr
+  servername: xh.hrmp.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3dc9f16e-a3c2-494a-9e06-b77ceb488a2c
+  xhttp-opts:
+    host: xh.hrmp.kdns.fr
+    mode: auto
+    path: /tirexxhttp
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 7|[VLESS] frFR_5|2.8MB/s
+  network: raw
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: XvqUR-fhL0E9z9b_8q_uEvyE-lpC-l1D4CivPKSthh4
+    short-id: '!!str cbb840f5'
+  server: 51.195.94.187
+  servername: addons.mozilla.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c221de4-590b-41b8-8a3d-4c7dd6d0948f
   xudp: true
 - name: 10|[Http] FR_speednode_0004
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b

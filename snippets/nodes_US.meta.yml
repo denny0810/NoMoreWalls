@@ -47,166 +47,104 @@ proxies:
 - name: 5,6|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 17005
-  server: 18.163.77.5
+  port: 49277
+  server: 18.167.68.98
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 5,6|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 17005
-  server: 18.163.123.154
+  port: 49277
+  server: 16.163.103.15
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 5,6|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 35966
-  server: 95.40.32.2
+  port: 44265
+  server: 95.40.42.248
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] usUS_1|2.5MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: f35-ansooyee.up.railway.app
-  servername: f35-ansooyee.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 69209652-ebd8-6e2c-93c8-cbc7009824c9
-  ws-opts:
-    headers:
-      Host: f35-ansooyee.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /ws/69209652-ebd8-6e2c-93c8-cbc7009824c9
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] usUS_2|2.5MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: soskeynets-production-b766.up.railway.app
-  servername: test-production-b766.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: eb87009d-ce35-731c-853e-a72a8fda4f91
-  ws-opts:
-    headers:
-      Host: test-production-b766.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /ws/eb87009d-ce35-731c-853e-a72a8fda4f91
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] usUS_3|2.6MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: xhttp-production-315c.up.railway.app
-  servername: xhttp-production-315c.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5285a0ee-fb1b-01c6-7d3d-452fdbe0d09a
-  ws-opts:
-    headers:
-      Host: xhttp-production-315c.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /ws/5285a0ee-fb1b-01c6-7d3d-452fdbe0d09a
-  xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] usUS_4|2.6MB/s
+  name: 7|[Trojan] usUS_1|3.3MB/s
   network: tcp
-  packet-encoding: xudp
-  port: 51963
-  reality-opts:
-    public-key: 96R745HIUgKX33-bqiqB5F9uQFTacNEwP2W4ZYD7kVE
-    short-id: '!!str e2'
-  server: panel1.legendcr.ir
-  servername: www.yahoo.com
-  tls: true
-  type: vless
+  password: CF68213490
+  port: 443
+  server: polite-coyote.rooster465.autos
+  skip-cert-verify: false
+  sni: polite-coyote.rooster465.autos
+  type: trojan
   udp: true
-  uuid: ec99e107-8d2f-4767-a9ac-689424a55d3a
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|[SS] usUS_5|4.2MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @WangCai2)f6e348d:70852
-    mode: tls
-  port: 2377
-  server: 88.210.36.106
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|[SS] usUS_6|3.7MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @VPNine1)6db9d46:44797
-    mode: tls
-  port: 2377
-  server: 88.210.36.109
-  type: ss
+- client-fingerprint: chrome
+  name: 7|[Trojan] usUS_2|2.6MB/s
+  network: tcp
+  password: KV63147582
+  port: 443
+  server: popular-meerkat.rooster465.autos
+  skip-cert-verify: false
+  sni: popular-meerkat.rooster465.autos
+  type: trojan
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 7|[VLESS] usUS_7|3.6MB/s
+  name: 7|[VLESS] usUS_3|1.9MB/s
   network: tcp
   packet-encoding: xudp
-  port: 40082
+  port: 16016
   reality-opts:
-    public-key: GBCcf9j7irjlYN4Z5SW5ssP9ACHCnTvHk8PI9LHkqmI
-    short-id: '!!str d32620c540976780'
-  server: 159.75.20.13
-  servername: www.cloudflare.com
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: '!!str 48050fab'
+  server: 67.220.73.204
+  servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 26bb3a99-4583-4744-bb8e-a5c823ad29e9
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
   xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: ios
-  encryption: none
-  name: 7|[VLESS] usUS_8|2.6MB/s
+- name: 7|[VLESS] usUS_4|2.6MB/s
   network: ws
   packet-encoding: xudp
+  port: 2095
+  server: www.fbi.gov
+  servername: cnmfangbinxing.cnmfangbinxing-i.workers.dev
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 7|[VLESS] usUS_5|2.4MB/s
+  network: tcp
+  packet-encoding: xudp
   port: 443
-  server: x4g-production-4da6.up.railway.app
-  servername: x4g-production-4da6.up.railway.app
+  reality-opts:
+    public-key: kG6zs_B1ZlZ5kjeC0WWPSz4B60vk_VeWj_WYsl2mGBw
+    short-id: '!!str 8a0b9c6d'
+  server: 185.33.84.173
+  servername: cdn-up.perecbass.ru
   tls: true
   type: vless
   udp: true
-  uuid: 8bf78d04-b9f6-5fb8-973d-ed1d29bf0d87
-  ws-opts:
-    headers:
-      Host: x4g-production-4da6.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /ws/8bf78d04-b9f6-5fb8-973d-ed1d29bf0d87
+  uuid: c8b5f6c9-83ff-4ca1-be9c-f997a5b2f692
   xudp: true
+- name: 7|[Http] usUS_6|2.5MB/s
+  password: ''
+  port: 443
+  server: 38.28.193.188
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

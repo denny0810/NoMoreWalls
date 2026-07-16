@@ -9,10 +9,10 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 7|[Vmess] caCA_1|2.8MB/s
-  network: tcp
+  name: 7|[Vmess] caCA_1|3.2MB/s
+  network: raw
   packet-encoding: xudp
   port: 18339
   server: c87s5.portablesubmarines.com
@@ -22,3 +22,10 @@ proxies:
   udp: true
   uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
   xudp: true
+- name: 7|[Socks5] caCA_2|2.7MB/s
+  password: ''
+  port: 1088
+  server: 167.114.172.208
+  skip-cert-verify: true
+  type: socks5
+  username: ''

@@ -1,5 +1,5 @@
 proxies:
-- name: 0|[Trojan] SG6｜机房｜高风险 (黑名单)
+- name: 1|[Trojan] SG6｜机房｜高风险 (黑名单)
   network: tcp
   password: af4b064a9c39472fb34ad8b113acdc6b
   port: 443
@@ -7,14 +7,6 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
-- name: 3|[Hysteria2] 新加坡1
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2055
-  server: xjp1.mangshe.xyz
-  skip-cert-verify: true
-  sni: xjp1.mangshe.xyz
-  tls: false
-  type: hysteria2
 - name: 3|[Hysteria2] SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
@@ -23,7 +15,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 5,6,7|[Trojan] sgSG_2|2.2MB/s
+- name: 5,6|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 48738
@@ -48,62 +40,23 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: 7|[VLESS] sgSG_1|2.7MB/s
-  network: ws
-  port: 2083
-  server: 8.35.211.66
-  servername: vp30.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp30.cc.cd
-    path: /
-- name: 7|[VLESS] sgSG_3|2.5MB/s
+  name: 7|[VLESS] sgSG_1|1.8MB/s
   network: ws
   packet-encoding: xudp
-  port: 8880
-  server: themeforest.net
-  type: vless
-  udp: true
-  uuid: 1563ad16-9ac7-4214-8eb7-303f745efb07
-  ws-opts:
-    headers:
-      Host: silent-cake-fb8d.69-a76.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 7|[VLESS] sgSG_4|2.1MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 44443
-  reality-opts:
-    public-key: kk6t0xig_xZViUWnM-hjRGY_-P29fA6DUggL2eEkyRg
-    short-id: '!!str '
-  server: 193.233.91.118
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a31da5f0-2f95-4fad-92c5-125f1dc4aff0
-  xudp: true
-- client-fingerprint: chrome
-  name: 7|[Trojan] sgSG_5|3.5MB/s
-  network: tcp
-  password: NQ26071394
   port: 443
-  server: upward-squid.rooster465.autos
-  skip-cert-verify: false
-  sni: upward-squid.rooster465.autos
-  type: trojan
+  server: 104.18.45.137
+  servername: ruadl.sw8p.t9f.hh.hhyf.kdns.fr
+  tls: true
+  type: vless
   udp: true
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
+  ws-opts:
+    headers:
+      Host: ruadl.sw8p.t9f.hh.hhyf.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/37.0.2062.120 Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 8|[SS] sgSG²_1|2.4MB/s|X|History

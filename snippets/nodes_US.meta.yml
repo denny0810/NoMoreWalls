@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 0|[Vmess] US74｜机房｜低风险
+  name: 1|[Vmess] US74｜机房｜低风险
   network: tcp
   port: '34114'
   server: 103.181.164.237
@@ -10,7 +10,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alpn:
   - h3%2Ch2%2Chttp%2F1.1
-  name: 0|[Trojan] US80｜机房｜低风险
+  name: 1|[Trojan] US80｜机房｜低风险
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -22,13 +22,13 @@ proxies:
     headers:
       Host: snll667.pages.dev
     path: '%2F'
-- name: 0|[Socks5] US145｜机房｜低风险
+- name: 1|[Socks5] US145｜机房｜低风险
   port: 1080
   server: 174.138.61.184
   tls: false
   type: socks5
   username: Og%3D%3D
-- name: 0|[Trojan] US146｜机房｜低风险
+- name: 1|[Trojan] US146｜机房｜低风险
   network: tcp
   password: af4b064a9c39472fb34ad8b113acdc6b
   port: 443
@@ -36,15 +36,7 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- name: 3|[Hysteria2] 美国2
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2056
-  server: mg2.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg2.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 5,6,7|[Trojan] usUS_8|2.6MB/s
+- name: 5,6|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
@@ -60,7 +52,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6,7|[Trojan] usUS_12|2.6MB/s
+- name: 5,6|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 35966
@@ -68,241 +60,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: 7|[SS] usUS_1|2.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.190.176.112
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|[SS] usUS_2|2.1MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @WangCai2)f6e348d:70852
-    mode: tls
-  port: 2377
-  server: 88.210.36.106
-  type: ss
-- multiplexing: MULTIPLEXING_LOW
-  name: 7|[Mieru] usUS_3|2.9MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.swsMW_kMmHiPVGjj30BifBgm7BGZ3Y18UouzeGYh0jY
-  name: 7|[VLESS] usUS_4|2.1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 500
-  reality-opts:
-    public-key: x0NLtd30YSWLAnHOGxCz47SLXpN_153UPtmqNEQZE3Q
-    short-id: '!!str 79'
-  server: 191.40.4.88
-  servername: www.tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: aebe1bef-2ab4-4727-be3b-31f704b047c4
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: web.max.ru
-  name: 7|[VLESS] usUS_5|1.9MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 444
-  reality-opts:
-    public-key: X-YL5VNtlMNIaBrwaHt3hJCeF_gMT9gPRDDlK1Qg7Tc
-    short-id: '!!str 8321461729abcdef'
-  server: nl2.vrsvpn.com
-  servername: web.max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] usUS_6|1.8MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 69.46.46.22
-  servername: node-7946883854-80433a-production.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: c73caea8-84e0-53fa-af3b-05e08266514d
-  ws-opts:
-    headers:
-      Host: node-7946883854-80433a-production.up.railway.app
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /ws/nebla
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] usUS_7|2.2MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 69.46.46.22
-  servername: node-7946883854-80433a-production.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: node-7946883854-80433a-production.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /ws/nebla
-  xudp: true
-- client-fingerprint: chrome
-  name: 7|[VLESS] usUS_9|2.3MB/s
-  network: ws
-  port: 2053
-  server: 104.17.170.20
-  servername: vp30.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp30.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 7|[VLESS] usUS_10|2.5MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: us2.denverpresents.top
-  servername: us2.denverpresents.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: e2773a58-d303-4683-8346-ef21ea1ba20f
-  xhttp-opts:
-    host: us2.denverpresents.top
-    mode: auto
-    path: /assets/build/_app/immutable/chunks/stream-one/
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 7|[VLESS] usUS_11|1.9MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: 3x-ui-upgrade-production-47a9.up.railway.app
-  servername: 3x-ui-upgrade-production-47a9.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4baff4e1-2ba3-459e-9fd2-ebd386a9594b
-  xhttp-opts:
-    host: 3x-ui-upgrade-production-47a9.up.railway.app
-    mode: auto
-    path: /
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-  name: 7|[VLESS] usUS_13|2.5MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: _yzmX8WwaZJD4ddVgOZWJsx6r0lJzhTrTbkQLhwiWXk
-    short-id: '!!str c8540a3e9e1d8136'
-  server: usr.moktana.app
-  servername: usr.moktana.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 696915f2-5ad4-452b-987c-d83d29d0503a
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 7|[VLESS] usUS_14|2.0MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 2087
-  reality-opts:
-    public-key: kqCqlxubsl4d8UCWI2kRRmO1qKX_NodCFwuYhEGKBi0
-    short-id: '!!str c226283c4de5b1ad'
-  server: 2.26.5.151
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: c0d40301-6308-4841-808e-3bd63f05f224
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 7|[VLESS] usUS_15|1.6MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 31516
-  reality-opts:
-    public-key: kwsYRITkG2Z9WAhuTAPoP3eqG-mpFkfnXoQV4cjsRx0
-    short-id: '!!str 07c418eb'
-  server: z7mp4a9xq2k8f3r-r9.edg3.org
-  servername: v5-dy-e.ixigua.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 29db9d7a-2ce0-4d54-9c96-669fedc63f44
-  xudp: true
-- cipher: aes-256-cfb
-  name: 7|[SS] usUS_16|2.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.119.139.60
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 7|[SS] usUS_17|2.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.117.152.49
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 7|[SS] usUS_18|1.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.133.148.7
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 7|[SS] usUS_19|1.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.145.162.175
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 7|[SS] usUS_20|2.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.59.56.221
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

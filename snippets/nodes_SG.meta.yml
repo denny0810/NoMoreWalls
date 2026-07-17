@@ -1,5 +1,5 @@
 proxies:
-- name: 1|[Trojan] SG6｜机房｜高风险 (黑名单)
+- name: 0|[Trojan] SG6｜机房｜高风险 (黑名单)
   network: tcp
   password: af4b064a9c39472fb34ad8b113acdc6b
   port: 443
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
-- name: 3|[Hysteria2] 新加坡1
+- name: 2|[Hysteria2] 新加坡1
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2055
   server: xjp1.mangshe.xyz
@@ -15,7 +15,7 @@ proxies:
   sni: xjp1.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 3|[Hysteria2] SG
+- name: 2|[Hysteria2] SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: sg3.oomz.ru
@@ -23,7 +23,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 5,6|[Trojan] 新加坡|@ripaojiedian
+- name: 4,5|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 48738
@@ -31,7 +31,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 新加坡2|@ripaojiedian
+- name: 4,5|[Trojan] 新加坡2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 6357
@@ -39,7 +39,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6,7|[Trojan] sgSG_13|2.9MB/s
+- name: 4,5,6|[Trojan] sgSG_13|2.9MB/s
   network: tcp
   password: BxceQaOe
   port: 9149
@@ -47,7 +47,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 7|[Trojan] sgSG_1|4.7MB/s
+- name: 6|[Trojan] sgSG_1|4.7MB/s
   network: tcp
   password: NQ26071394
   port: 443
@@ -55,7 +55,7 @@ proxies:
   skip-cert-verify: true
   sni: proper-marlin.rooster465.autos
   type: trojan
-- name: 7|[Trojan] sgSG_2|5.4MB/s
+- name: 6|[Trojan] sgSG_2|5.4MB/s
   network: tcp
   password: NQ26071394
   port: 443
@@ -63,7 +63,7 @@ proxies:
   skip-cert-verify: true
   sni: usable-dogfish.rooster465.autos
   type: trojan
-- name: 7|[Trojan] sgSG_3|3.9MB/s
+- name: 6|[Trojan] sgSG_3|3.9MB/s
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
@@ -76,7 +76,7 @@ proxies:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
 - auth: 86ca095c-694a-494f-b035-a486cc327282
-  name: 7|[Hysteria2] sgSG_4|3.6MB/s
+  name: 6|[Hysteria2] sgSG_4|3.6MB/s
   password: 86ca095c-694a-494f-b035-a486cc327282
   port: 3488
   server: c4.bestai.beauty
@@ -84,7 +84,7 @@ proxies:
   sni: admin.blob.core.windows.net
   type: hysteria2
   udp: true
-- name: 7|[Trojan] sgSG_5|3.8MB/s
+- name: 6|[Trojan] sgSG_5|3.8MB/s
   network: tcp
   password: NQ26071394
   port: 443
@@ -92,7 +92,7 @@ proxies:
   skip-cert-verify: true
   sni: eminent-hagfish.rooster465.autos
   type: trojan
-- name: 7|[Trojan] sgSG_6|3.7MB/s
+- name: 6|[Trojan] sgSG_6|3.7MB/s
   network: tcp
   password: NQ26071394
   port: 443
@@ -101,7 +101,7 @@ proxies:
   sni: verified-ringtail.rooster465.autos
   type: trojan
 - client-fingerprint: chrome
-  name: 7|[Trojan] sgSG_7|1.6MB/s
+  name: 6|[Trojan] sgSG_7|1.6MB/s
   network: tcp
   password: BxceQaOe
   port: 9149
@@ -111,7 +111,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 7|[VLESS] sgSG_8|4.0MB/s
+  name: 6|[VLESS] sgSG_8|4.0MB/s
   network: ws
   port: 2053
   server: 198.41.223.30
@@ -125,7 +125,7 @@ proxies:
       Host: vp33.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 7|[VLESS] sgSG_9|4.0MB/s
+  name: 6|[VLESS] sgSG_9|4.0MB/s
   network: ws
   port: 2096
   server: 188.164.248.190
@@ -139,7 +139,7 @@ proxies:
       Host: vp40.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 7|[VLESS] sgSG_10|4.2MB/s
+  name: 6|[VLESS] sgSG_10|4.2MB/s
   network: ws
   port: 2096
   server: 8.35.211.81
@@ -152,7 +152,7 @@ proxies:
     headers:
       Host: vp37.cc.cd
     path: /
-- name: 7|[Trojan] sgSG_11|5.1MB/s
+- name: 6|[Trojan] sgSG_11|5.1MB/s
   network: tcp
   password: NQ26071394
   port: 443
@@ -161,7 +161,7 @@ proxies:
   sni: helping-newt.rooster465.autos
   type: trojan
   udp: true
-- name: 7|[VLESS] sgSG_12|2.5MB/s
+- name: 6|[VLESS] sgSG_12|2.5MB/s
   network: ws
   port: 2096
   server: 104.17.70.206
@@ -179,7 +179,7 @@ proxies:
   - h3
   client-fingerprint: chrome
   encryption: none
-  name: 7|[VLESS] sgSG_14|4.0MB/s
+  name: 6|[VLESS] sgSG_14|4.0MB/s
   network: ws
   packet-encoding: xudp
   port: 2087
@@ -200,7 +200,7 @@ proxies:
   - h3
   client-fingerprint: random
   encryption: none
-  name: 7|[VLESS] sgSG_15|4.3MB/s
+  name: 6|[VLESS] sgSG_15|4.3MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -219,7 +219,7 @@ proxies:
   xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  name: 8|[SS] sgSG²_1|2.4MB/s|X|History
+  name: 7|[SS] sgSG²_1|2.4MB/s|X|History
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.16

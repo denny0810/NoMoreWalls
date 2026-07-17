@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 1|[Vmess] US74｜机房｜低风险
+  name: 0|[Vmess] US74｜机房｜低风险
   network: tcp
   port: '34114'
   server: 103.181.164.237
@@ -10,7 +10,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alpn:
   - h3%2Ch2%2Chttp%2F1.1
-  name: 1|[Trojan] US80｜机房｜低风险
+  name: 0|[Trojan] US80｜机房｜低风险
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -22,13 +22,13 @@ proxies:
     headers:
       Host: snll667.pages.dev
     path: '%2F'
-- name: 1|[Socks5] US145｜机房｜低风险
+- name: 0|[Socks5] US145｜机房｜低风险
   port: 1080
   server: 174.138.61.184
   tls: false
   type: socks5
   username: Og%3D%3D
-- name: 1|[Trojan] US146｜机房｜低风险
+- name: 0|[Trojan] US146｜机房｜低风险
   network: tcp
   password: af4b064a9c39472fb34ad8b113acdc6b
   port: 443
@@ -36,7 +36,7 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- name: 3|[Hysteria2] 美国2
+- name: 2|[Hysteria2] 美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
   server: mg2.mangshe.xyz
@@ -44,7 +44,7 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 5,6|[Trojan] 美国|@ripaojiedian
+- name: 4,5|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
@@ -52,7 +52,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 美国2|@ripaojiedian
+- name: 4,5|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
@@ -60,7 +60,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6,7|[Trojan] usUS_10|2.7MB/s
+- name: 4,5,6|[Trojan] usUS_10|2.7MB/s
   network: tcp
   password: BxceQaOe
   port: 35966
@@ -73,7 +73,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: sync.v2.FeedService
-  name: 7|[VLESS] usUS_1|1.7MB/s
+  name: 6|[VLESS] usUS_1|1.7MB/s
   network: grpc
   port: 443
   reality-opts:
@@ -87,7 +87,7 @@ proxies:
   uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
 - alterId: 2
   cipher: auto
-  name: 7|[Vmess] usUS_2|2.6MB/s
+  name: 6|[Vmess] usUS_2|2.6MB/s
   network: tcp
   packet-encoding: xudp
   port: 30808
@@ -99,7 +99,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
 - cipher: aes-256-cfb
-  name: 7|[SS] usUS_3|2.3MB/s
+  name: 6|[SS] usUS_3|2.3MB/s
   password: amazonskr05
   port: 443
   server: 18.190.176.112
@@ -109,7 +109,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: home.v1.ApiService
-  name: 7|[VLESS] usUS_4|1.5MB/s
+  name: 6|[VLESS] usUS_4|1.5MB/s
   network: grpc
   packet-encoding: xudp
   port: 443
@@ -124,7 +124,7 @@ proxies:
   uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
   xudp: true
 - client-fingerprint: chrome
-  name: 7|[Trojan] usUS_16|2.8MB/s
+  name: 6|[Trojan] usUS_16|2.8MB/s
   network: tcp
   password: BxceQaOe
   port: 35966
@@ -137,7 +137,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: 7|[Vmess] usUS_6|1.7MB/s
+  name: 6|[Vmess] usUS_6|1.7MB/s
   network: tcp
   packet-encoding: xudp
   port: 16025
@@ -149,7 +149,7 @@ proxies:
   uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
   xudp: true
 - client-fingerprint: chrome
-  name: 7|[VLESS] usUS_8|2.3MB/s
+  name: 6|[VLESS] usUS_8|2.3MB/s
   network: ws
   port: 2096
   server: 198.41.209.7
@@ -163,7 +163,7 @@ proxies:
       Host: vp33.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 7|[VLESS] usUS_9|2.2MB/s
+  name: 6|[VLESS] usUS_9|2.2MB/s
   network: ws
   port: 2083
   server: 104.19.48.233
@@ -176,7 +176,7 @@ proxies:
     headers:
       Host: vp34.cc.cd
     path: /
-- name: 7|[VLESS] usUS_11|2.4MB/s
+- name: 6|[VLESS] usUS_11|2.4MB/s
   network: ws
   port: 443
   server: 162.159.39.151
@@ -190,7 +190,7 @@ proxies:
     headers:
       Host: 40t1.wxgqlfx.vip
     path: /TG@wxgqlfx
-- name: 7|[VLESS] usUS_12|2.6MB/s
+- name: 6|[VLESS] usUS_12|2.6MB/s
   network: ws
   port: 443
   server: 108.162.198.108
@@ -204,7 +204,7 @@ proxies:
     headers:
       Host: 40t1.wxgqlfx.vip
     path: /TG@wxgqlfx
-- name: 7|[VLESS] usUS_13|2.2MB/s
+- name: 6|[VLESS] usUS_13|2.2MB/s
   network: ws
   port: 443
   server: 172.64.229.110
@@ -218,7 +218,7 @@ proxies:
     headers:
       Host: 40t1.wxgqlfx.vip
     path: /TG@wxgqlfx
-- name: 7|[VLESS] usUS_14|1.8MB/s
+- name: 6|[VLESS] usUS_14|1.8MB/s
   network: ws
   port: 443
   server: 162.159.24.217
@@ -232,7 +232,7 @@ proxies:
     headers:
       Host: 40t1.wxgqlfx.vip
     path: /TG@wxgqlfx
-- name: 7|[VLESS] usUS_15|2.2MB/s
+- name: 6|[VLESS] usUS_15|2.2MB/s
   network: ws
   port: 443
   server: 104.17.208.223
@@ -247,7 +247,7 @@ proxies:
       Host: 40t1.wxgqlfx.vip
     path: /TG@wxgqlfx
 - client-fingerprint: chrome
-  name: 7|[Trojan] usUS_17|2.1MB/s
+  name: 6|[Trojan] usUS_17|2.1MB/s
   network: tcp
   password: CF68213490
   port: 443
@@ -260,7 +260,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: media.v1.SyncService
-  name: 7|[VLESS] usUS_18|1.5MB/s
+  name: 6|[VLESS] usUS_18|1.5MB/s
   network: grpc
   packet-encoding: xudp
   port: 443
@@ -278,7 +278,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: gw.v1.MetricsService
-  name: 7|[VLESS] usUS_19|2.0MB/s
+  name: 6|[VLESS] usUS_19|2.0MB/s
   network: grpc
   packet-encoding: xudp
   port: 443
@@ -296,7 +296,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: media.v1.SyncService
-  name: 7|[VLESS] usUS_20|1.5MB/s
+  name: 6|[VLESS] usUS_20|1.5MB/s
   network: grpc
   packet-encoding: xudp
   port: 443
@@ -314,7 +314,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: node.v2.StreamService
-  name: 7|[VLESS] usUS_21|1.6MB/s
+  name: 6|[VLESS] usUS_21|1.6MB/s
   network: grpc
   packet-encoding: xudp
   port: 443
@@ -332,7 +332,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: node.v2.RelayService
-  name: 7|[VLESS] usUS_22|2.0MB/s
+  name: 6|[VLESS] usUS_22|2.0MB/s
   network: grpc
   packet-encoding: xudp
   port: 443
@@ -350,7 +350,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: sync.v2.FeedService
-  name: 7|[VLESS] usUS_23|1.5MB/s
+  name: 6|[VLESS] usUS_23|1.5MB/s
   network: grpc
   packet-encoding: xudp
   port: 443
@@ -368,7 +368,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: edge.v2.RelayService
-  name: 7|[VLESS] usUS_24|1.5MB/s
+  name: 6|[VLESS] usUS_24|1.5MB/s
   network: grpc
   packet-encoding: xudp
   port: 443
@@ -386,7 +386,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: api.v2.ObjectService
-  name: 7|[VLESS] usUS_25|2.4MB/s
+  name: 6|[VLESS] usUS_25|2.4MB/s
   network: grpc
   packet-encoding: xudp
   port: 443
@@ -400,7 +400,7 @@ proxies:
   udp: true
   uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
   xudp: true
-- name: 7|[VLESS] usUS_26|1.6MB/s
+- name: 6|[VLESS] usUS_26|1.6MB/s
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -416,7 +416,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
 - client-fingerprint: chrome
-  name: 7|[VLESS] usUS_27|3.4MB/s
+  name: 6|[VLESS] usUS_27|3.4MB/s
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -435,12 +435,12 @@ proxies:
   xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
+  name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.251
   type: ss
-- name: 8|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
+- name: 7|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
   password: ''
   port: 7070
   server: 20.83.154.79
@@ -449,7 +449,7 @@ proxies:
   username: ''
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0055
+  name: 9|[VLESS] US_speednode_0055
   port: 14005
   reality-opts:
     public-key: sKWozGVep6wrIm63253QviGBtMLVrGB_W1JJHLEHi0s
@@ -463,7 +463,7 @@ proxies:
   uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0056
+  name: 9|[VLESS] US_speednode_0056
   port: 443
   reality-opts:
     public-key: JlcNtRODuC4k8GhBFuXwjps9cRe3asq453_RLd3o9E8
@@ -475,7 +475,7 @@ proxies:
   type: vless
   udp: true
   uuid: 057f3c26-0fe7-4315-aabc-90c79d413d70
-- name: 10|[Http] US_speednode_0058
+- name: 9|[Http] US_speednode_0058
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443
   server: e760451b-ta1og0-tan99f-1rdqg.jp.oshuawei.com
@@ -483,7 +483,7 @@ proxies:
   type: http
   udp: true
   username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
-- name: 10|[Http] US_speednode_0059
+- name: 9|[Http] US_speednode_0059
   password: 1b609740-eec2-11ef-8543-f23c93136cb3
   port: 443
   server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
@@ -491,7 +491,7 @@ proxies:
   type: http
   udp: true
   username: 1b609740-eec2-11ef-8543-f23c93136cb3
-- name: 10|[Http] US_speednode_0060
+- name: 9|[Http] US_speednode_0060
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 443
   server: cffa61bc-t9zts0-tatrrz-yjq0.jp.oshuawei.com
@@ -499,7 +499,7 @@ proxies:
   type: http
   udp: true
   username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-- name: 10|[Http] US_speednode_0061
+- name: 9|[Http] US_speednode_0061
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 443
   server: 786f666d-t9zts0-tatrrz-yjq0.sjc.oshuawei.com
@@ -507,7 +507,7 @@ proxies:
   type: http
   udp: true
   username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-- name: 10|[Http] US_speednode_0062
+- name: 9|[Http] US_speednode_0062
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443
   server: d6a15dd2-tegxs0-tejxhc-1rdqg.se.oshuawei.com
@@ -515,7 +515,7 @@ proxies:
   type: http
   udp: true
   username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
-- name: 10|[Trojan] US_speednode_0063
+- name: 9|[Trojan] US_speednode_0063
   network: ws
   password: Mitivpn
   port: 443

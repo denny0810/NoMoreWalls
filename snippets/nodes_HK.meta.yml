@@ -1,7 +1,7 @@
 proxies:
 - alpn:
   - h3%2Ch2%2Chttp%2F1.1
-  name: 0|[Trojan] HK67｜机房｜低风险
+  name: 1|[Trojan] HK67｜机房｜低风险
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -15,7 +15,7 @@ proxies:
     path: '%2F'
 - alpn:
   - h3%2Ch2%2Chttp%2F1.1
-  name: 0|[Trojan] HK68｜机房｜低风险
+  name: 1|[Trojan] HK68｜机房｜低风险
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -27,7 +27,7 @@ proxies:
     headers:
       Host: snll667.pages.dev
     path: '%2F'
-- name: 0|[Hysteria2] HK74｜家宽｜非常安全
+- name: 1|[Hysteria2] HK74｜家宽｜非常安全
   password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
   port: 443
   server: 079c035a-t5bb40-t6tn6w-jjv2.hk1.hyhuawei.com
@@ -35,7 +35,7 @@ proxies:
   sni: 079c035a-t5bb40-t6tn6w-jjv2.hk1.hyhuawei.com
   tls: false
   type: hysteria2
-- name: 2|[Hysteria2] hk HK
+- name: 3|[Hysteria2] hk HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
   server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
@@ -44,14 +44,14 @@ proxies:
   type: hysteria2
 - alterId: 2
   cipher: auto
-  name: 4|[Vmess] hk 香港|@ripaojiedian
+  name: 5|[Vmess] hk 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 4,5|[Trojan] 香港3|@ripaojiedian
+- name: 5,6|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 13118
@@ -59,7 +59,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 香港4|@ripaojiedian
+- name: 5,6|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 7674
@@ -67,7 +67,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 4,5|[Trojan] 香港5|@ripaojiedian
+- name: 5,6|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 27167
@@ -77,7 +77,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 5|[Vmess] 香港|@ripaojiedian
+  name: 6|[Vmess] 香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -85,36 +85,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 6|[Trojan] hkHK_1|2.8MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 7674
-  server: 18.163.5.109
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] hkHK_2|2.3MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2053
-  server: 23.133.52.10
-  servername: s5gydl.936.us.ci
-  tls: true
-  type: vless
-  udp: true
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  ws-opts:
-    headers:
-      Host: s5gydl.936.us.ci
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  xudp: true
-- name: 9|[Http] HK_speednode_0008
+- name: 10|[Http] HK_speednode_0008
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 8443
   server: 19016135-te7og0-tfo5nb-yjq0.hkt.cdnhuawei.com

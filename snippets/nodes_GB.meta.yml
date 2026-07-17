@@ -1,33 +1,38 @@
 proxies:
-- name: 4|[Hysteria2] gbV2RayyNGvpnکانال ما gb
-  obfs: salamander
-  obfs-password: TeLeGRam=V2RayyNGvpn
-  password: V2RayyNGvpn
-  port: 58410
-  server: 51.89.225.225
-  skip-cert-verify: true
-  sni: www.oracle.com
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 7|[VLESS] gbGB_1|2.2MB/s
-  network: grpc
+  name: 6|[VLESS] gbGB_1|2.6MB/s
+  network: ws
   packet-encoding: xudp
-  port: 2087
-  reality-opts:
-    public-key: YPbKkg4p8zdxymjtC0qBiDkiMIlu0Iutu5zEbgR46So
-    short-id: '!!str c226283c4de5b1ad'
-  server: 31.76.113.160
-  servername: ads.x5.ru
+  port: 443
+  server: 104.25.249.215
+  servername: dfujbv.mobilevisionn.ir
   tls: true
   type: vless
   udp: true
-  uuid: b90064cf-3f61-4f37-b549-a72100a8c9db
+  uuid: 4de09ba9-eaea-404e-a28d-c548f52e9b8c
+  ws-opts:
+    headers:
+      Host: dfujbv.mobilevisionn.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /DBFyQJ5aNatpJCSSukvp8c
   xudp: true
-- name: 10|[Trojan] GB_speednode_0005
+- grpc-opts:
+    grpc-service-name: ge1grpc
+  name: 6|[VLESS] gbGB_2|2.0MB/s
+  network: grpc
+  port: 8443
+  server: ge1.cyphervpn.pro
+  servername: ge1.cyphervpn.pro
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8bba3194-4856-46d1-8319-075817d87eb1
+- name: 9|[Trojan] GB_speednode_0005
   network: ws
   password: MITIVPN
   port: 443
@@ -40,7 +45,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: 10|[Http] GB_speednode_0006
+- name: 9|[Http] GB_speednode_0006
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 443
   server: 663a898a-t9zts0-tatrrz-yjq0.uk.oshuawei.com
@@ -48,7 +53,7 @@ proxies:
   type: http
   udp: true
   username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-- name: 10|[Http] GB_speednode_0007
+- name: 9|[Http] GB_speednode_0007
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443
   server: 48997541-t9zts0-tan99f-1rdqg.uk.oshuawei.com

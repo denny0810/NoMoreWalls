@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 1|[Vmess] US74｜机房｜低风险
+  name: 0|[Vmess] US74｜机房｜低风险
   network: tcp
   port: '34114'
   server: 103.181.164.237
@@ -10,7 +10,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alpn:
   - h3%2Ch2%2Chttp%2F1.1
-  name: 1|[Trojan] US80｜机房｜低风险
+  name: 0|[Trojan] US80｜机房｜低风险
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -22,7 +22,7 @@ proxies:
     headers:
       Host: snll667.pages.dev
     path: '%2F'
-- name: 1|[Trojan] US146｜机房｜低风险
+- name: 0|[Trojan] US146｜机房｜低风险
   network: tcp
   password: af4b064a9c39472fb34ad8b113acdc6b
   port: 443
@@ -30,52 +30,80 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- name: 5,6|[Trojan] 美国|@ripaojiedian
+- name: 5,6,7|[Trojan] usUS_8|2.6MB/s
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 49277
-  server: 18.167.68.98
+  port: 17005
+  server: 18.166.55.241
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 5,6|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 49277
-  server: 16.163.103.15
+  port: 17005
+  server: 43.198.71.42
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 美国3|@ripaojiedian
+- name: 5,6,7|[Trojan] usUS_12|2.6MB/s
   network: tcp
   password: BxceQaOe
-  port: 44265
-  server: 95.40.42.248
+  port: 35966
+  server: 18.163.5.109
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: aes-256-cfb
-  name: 7|[SS] usUS_23|3.5MB/s
+  name: 7|[SS] usUS_1|2.5MB/s
   password: amazonskr05
   port: 443
-  server: 18.226.248.109
+  server: 18.190.176.112
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 7|[Trojan] usUS_24|3.1MB/s
-  network: tcp
-  password: bIsrw94HH7zmhmvmGskKIb4HbmOZdcCR
-  port: 58615
-  server: 148.72.168.35
-  skip-cert-verify: true
-  sni: 148.72.168.35
-  type: trojan
-  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] usUS_2|2.1MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @WangCai2)f6e348d:70852
+    mode: tls
+  port: 2377
+  server: 88.210.36.106
+  type: ss
 - cipher: aes-256-cfb
-  name: 7|[SS] usUS_25|3.5MB/s
+  name: 7|[SS] usUS_16|2.5MB/s
   password: amazonskr05
   port: 443
-  server: 18.221.194.108
+  server: 18.119.139.60
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 7|[SS] usUS_17|2.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.117.152.49
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 7|[SS] usUS_18|1.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.133.148.7
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 7|[SS] usUS_19|1.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.145.162.175
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 7|[SS] usUS_20|2.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.59.56.221
   type: ss
   udp: true
 - cipher: aes-256-cfb

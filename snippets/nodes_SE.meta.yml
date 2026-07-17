@@ -1,1 +1,34 @@
-proxies: []
+proxies:
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 7|[VLESS] seSE_1|2.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 1c7TsslPz_gsvzX4ENkEa36Pp3gm-M3SRLhvqtGaAz4
+    short-id: '!!str e8e019c424ccb765'
+  server: st.onnstreaming.ru
+  servername: st.onnstreaming.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: d1c624fc-d0b0-49c7-8afa-e15a5949bc17
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 7|[VLESS] seSE_2|1.7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: dotcvtU55OCUPuizRM0JAkzxHiaf1p0-ZgnxeAgrh3Y
+    short-id: '!!str 32c12b179291c5e8'
+  server: swed1.panel11.ru
+  servername: swed1.panel11.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: aeb9e730-5f9e-404d-a8af-9e2e68dc7f5d
+  xudp: true

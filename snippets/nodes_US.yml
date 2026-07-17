@@ -46,7 +46,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6,7|[Trojan] usUS_4|2.7MB/s
+- name: 5,6,7|[Trojan] usUS_10|2.7MB/s
   network: tcp
   password: BxceQaOe
   port: 35966
@@ -55,8 +55,28 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
+- alterId: 2
+  cipher: auto
+  name: 7|[Vmess] usUS_2|2.6MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- cipher: aes-256-cfb
+  name: 7|[SS] usUS_3|2.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.190.176.112
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 7|[Trojan] usUS_8|2.1MB/s
+  name: 7|[Trojan] usUS_16|2.8MB/s
   network: tcp
   password: BxceQaOe
   port: 35966
@@ -65,12 +85,30 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 7|[SS] usUS_11|1.7MB/s
-  password: amazonskr05
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 7|[Vmess] usUS_6|1.7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 16025
+  server: c722s801.portablesubmarines.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+  xudp: true
+- client-fingerprint: chrome
+  name: 7|[Trojan] usUS_17|2.1MB/s
+  network: tcp
+  password: CF68213490
   port: 443
-  server: 3.145.162.175
-  type: ss
+  server: alert-monster.rooster465.autos
+  skip-cert-verify: false
+  sni: alert-monster.rooster465.autos
+  type: trojan
   udp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ

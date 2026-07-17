@@ -234,11 +234,11 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: 7|[VLESS] deDE_1|2.6MB/s
+  name: 7|[VLESS] deDE_1|3.2MB/s
   network: xhttp
   packet-encoding: xudp
   port: 8443
-  server: love.ns.cloudflare.com
+  server: bayan.ns.cloudflare.com
   servername: vamosargentina.dpdns.org
   tls: true
   type: vless
@@ -250,22 +250,26 @@ proxies:
     path: /
     x-padding-bytes: 100-1000
   xudp: true
-- down: ''
-  fingerprint: ''
-  name: 7|[Hysteria2] deDE_2|2.2MB/s
-  obfs: salamander
-  obfs-password: u3do5j2gss7mfri9
-  password: 9204bccb42c743799c6069feccb7832d
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 7|[VLESS] deDE_2|2.2MB/s
+  network: tcp
+  packet-encoding: xudp
   port: 443
-  server: de1.jamezwin.org
-  skip-cert-verify: false
-  sni: de1.jamezwin.org
-  type: hysteria2
-  up: ''
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '!!str 7a76f3c4b9dd'
+  server: jdvymxi.cvewfjg.shop
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+  xudp: true
 - cipher: aes-256-cfb
-  name: 7|[SS] deDE_3|1.5MB/s
+  name: 7|[SS] deDE_3|1.6MB/s
   password: amazonskr05
   port: 443
-  server: 18.197.189.148
+  server: 3.122.115.111
   type: ss
   udp: true

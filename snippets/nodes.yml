@@ -268,7 +268,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 香港4|@ripaojiedian
+- name: 4,5,6|[Trojan] hkHK_3|2.6MB/s
   network: tcp
   password: BxceQaOe
   port: 7674
@@ -276,7 +276,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 4,5|[Trojan] 香港5|@ripaojiedian
+- name: 4,5,6|[Trojan] hkHK_4|1.5MB/s
   network: tcp
   password: BxceQaOe
   port: 50115
@@ -316,7 +316,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 新加坡2|@ripaojiedian
+- name: 4,5,6|[Trojan] sgSG_5|3.5MB/s
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 48738
@@ -324,7 +324,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 新加坡3|@ripaojiedian
+- name: 4,5,6|[Trojan] sgSG_6|3.5MB/s
   network: tcp
   password: BxceQaOe
   port: 32434
@@ -332,7 +332,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 4,5|[Trojan] 美国|@ripaojiedian
+- name: 4,5,6|[Trojan] usUS_11|2.6MB/s
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -340,7 +340,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 美国2|@ripaojiedian
+- name: 4,5,6|[Trojan] usUS_12|2.5MB/s
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
@@ -367,29 +367,88 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
-  name: 6|[SS] deDE_7|4.2MB/s
+  name: 6|[SS] deDE_1|4.3MB/s
   password: amazonskr05
   port: 443
-  server: 3.122.115.111
+  server: 3.71.12.190
   type: ss
-  udp: true
-- name: 6|[Trojan] plPL_1|2.1MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.147.104
-  skip-cert-verify: false
-  sni: www.creationlong.org
+- name: 6|[Trojan] esES_1|2.5MB/s
+  network: tcp
+  password: 2eutknankxtbgkwcajzt
+  port: 52794
+  server: 193.148.19.213
+  skip-cert-verify: true
+  sni: 193.148.19.213
   type: trojan
-  udp: true
+- cipher: aes-256-gcm
+  name: 6|[SS] hkHK_1|5.0MB/s
+  password: gXtfJmxrZ8Qkkd2k
+  port: 16025
+  server: c722s1.portablesubmarines.com
+  type: ss
+- name: 6|[Trojan] sgSG_1|3.6MB/s
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  skip-cert-verify: true
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /assignment
+      Host: space.byu.id.yxls.eu.cc
+    path: /in-pdr
+- cipher: aes-256-cfb
+  name: 6|[SS] usUS_3|2.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.221.194.108
+  type: ss
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] usUS_6|3.5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 16025
+  server: c722s801.portablesubmarines.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+  xudp: true
 - alterId: 0
   cipher: auto
-  name: 6|[Vmess] usUS_7|3.3MB/s
+  name: 6|[Vmess] nlNL_1|1.5MB/s
+  network: raw
+  packet-encoding: xudp
+  port: 10049
+  server: family.bucket.x9.kfc-520.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+  xudp: true
+- cipher: aes-256-cfb
+  name: 6|[SS] deDE_10|2.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 63.183.207.82
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 6|[SS] usUS_7|2.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.59.56.221
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] usUS_10|3.4MB/s
   network: raw
   packet-encoding: xudp
   port: 16025
@@ -400,6 +459,44 @@ proxies:
   udp: true
   uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
   xudp: true
+- name: 6|[Trojan] auAU_1|1.8MB/s
+  network: tcp
+  password: XG59623478
+  port: 443
+  server: 82.117.225.216
+  skip-cert-verify: false
+  sni: concise-buck.rooster465.autos
+  type: trojan
+  udp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] fiFI_4|3.2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 52525
+  server: 65.109.219.124
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 358f44f0-2686-46c8-9cc6-ec52abd66df4
+  xudp: true
+- cipher: aes-256-cfb
+  name: 6|[SS] gbGB_3|3.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.8.78.225
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 6|[SS] gbGB_4|2.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.171.62.49
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

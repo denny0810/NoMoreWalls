@@ -260,7 +260,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 4,5,6|[Trojan] hkHK_3|3.4MB/s
+- name: 4,5|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 47867
@@ -268,7 +268,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] hkHK_4|3.5MB/s
+- name: 4,5|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -284,7 +284,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 4,5,6|[Trojan] jpJP_5|3.4MB/s
+- name: 4,5|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 10624
@@ -292,7 +292,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 4,5,6|[Trojan] jpJP_6|2.9MB/s
+- name: 4,5|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 38937
@@ -300,7 +300,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] jpJP_7|3.4MB/s
+- name: 4,5|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 40138
@@ -308,7 +308,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] sgSG_7|2.5MB/s
+- name: 4,5|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 48738
@@ -316,7 +316,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] sgSG_5|3.4MB/s
+- name: 4,5|[Trojan] 新加坡2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 48738
@@ -324,7 +324,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] sgSG_8|2.5MB/s
+- name: 4,5,6|[Trojan] sgSG_3|3.4MB/s
   network: tcp
   password: BxceQaOe
   port: 41421
@@ -332,7 +332,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 4,5,6|[Trojan] usUS_7|2.1MB/s
+- name: 4,5|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -340,7 +340,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] usUS_8|1.6MB/s
+- name: 4,5|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -366,40 +366,29 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] jpJP_1|3.7MB/s
-  network: ws
-  port: 12883
-  server: cs.ktmcn.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 78f2e8f0-68ea-438e-84ec-d58c9416c680
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-- name: 6|[Trojan] sgSG_1|3.8MB/s
+- name: 6|[Trojan] sgSG_1|3.0MB/s
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
   server: 188.164.248.122
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: space.byu.id.yxls.eu.cc
   type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: space.byu.id.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
     path: /in-pdr
-- name: 6|[Trojan] usUS_3|2.7MB/s
+- name: 6|[Trojan] sgSG_4|3.6MB/s
   network: tcp
-  password: XG59623478
-  port: 443
-  server: possible-pup.rooster465.autos
+  password: BxceQaOe
+  port: 41421
+  server: 43.198.13.164
   skip-cert-verify: true
-  sni: possible-pup.rooster465.autos
+  sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

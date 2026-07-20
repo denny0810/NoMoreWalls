@@ -895,16 +895,6 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 3|[Hysteria2] de کانال ما ⭕@V2RayyNGvpnde
-  obfs: salamander
-  obfs-password: T-ME-V2RayyNGvpn
-  password: a6alb4YAgC
-  port: 25810
-  server: 91.107.174.32
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
 - name: '3|[Hysteria2] @KAFING_2 #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -963,16 +953,6 @@ proxies:
   server: 91.107.174.32
   skip-cert-verify: true
   sni: www.amd.com
-  tls: false
-  type: hysteria2
-- name: 3|[Hysteria2] ✅ t.me/bigAVPN ایران آزاد 👑
-  obfs: salamander
-  obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ
-  password: rs2mR3g9bZiMloftx6lZQ59Um1Ld
-  port: 9443
-  server: 80.66.81.78
-  skip-cert-verify: false
-  sni: tunel1.washing.help
   tls: false
   type: hysteria2
 - name: '3|[Hysteria2] @Surfboardv2ray #3'
@@ -1064,7 +1044,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] sgSG_3|3.4MB/s
+- name: 4,5|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 41421
@@ -1106,26 +1086,156 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 6|[Trojan] sgSG_1|3.0MB/s
+- name: 6|[Trojan] sgSG_1|4.0MB/s
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
   server: 188.164.248.122
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: space.byu.id.yxls.eu.cc
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
+      Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
-- encryption: none
-  name: 6|[VLESS] sgSG_2|2.6MB/s
+- client-fingerprint: random
+  name: 6|[VLESS] sgSG_2|1.6MB/s
+  network: ws
+  port: 8443
+  server: 162.159.34.128
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- name: 6|[VLESS] sgSG_3|4.0MB/s
+  network: ws
+  port: 2096
+  server: 172.64.145.94
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- name: 6|[VLESS] sgSG_4|4.5MB/s
+  network: ws
+  port: 2096
+  server: fw8je9.cf.3666888.xyz
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- alpn:
+  - h2
+  - http/1.1
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  name: 6|[VLESS] deDE_1|2.5MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 8443
+  server: 162.159.38.119
+  servername: o.vamosargentina.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: o.vamosargentina.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- alterId: 2
+  cipher: auto
+  name: 6|[Vmess] usUS_1|3.3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- client-fingerprint: random
+  name: 6|[VLESS] jpJP_1|2.9MB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: 162.159.10.87
+  server: 172.64.52.210
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /proxyip=ProxyIP.US.cmliussss.net
+  xudp: true
+- client-fingerprint: random
+  name: 6|[VLESS] sgSG_5|2.6MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 162.159.24.144
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /proxyip=ProxyIP.US.cmliussss.net
+  xudp: true
+- multiplexing: MULTIPLEXING_LOW
+  name: 6|[Mieru] usUS_2|2.2MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- encryption: none
+  name: 6|[VLESS] sgSG_6|2.9MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 172.64.146.86
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/32.0.1700.107 Safari/537.36
+    path: /sg-melbi
+  xudp: true
+- encryption: none
+  name: 6|[VLESS] sgSG_7|3.9MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 162.159.26.86
   servername: t1s1.rittbo.kdns.fr
   tls: true
   type: vless
@@ -1134,42 +1244,139 @@ proxies:
   ws-opts:
     headers:
       Host: t1s1.rittbo.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
     path: /
   xudp: true
-- multiplexing: MULTIPLEXING_LOW
-  name: 6|[Mieru] usUS_1|1.6MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- name: 6|[Trojan] sgSG_4|3.6MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 41421
-  server: 43.198.13.164
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- client-fingerprint: ios
+- client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: 6|[VLESS] vnVN_1|2.0MB/s
+  name: 6|[VLESS] nlNL_1|1.8MB/s
   network: tcp
   packet-encoding: xudp
-  port: 63090
+  port: 8443
   reality-opts:
-    public-key: dyEHdjgb6uB286_LVJdXIACwS50gdCr3fbhkAtC4_DY
-    short-id: 'f34493016ca111db'
+    public-key: LT_0j3zQkaqgtJHvyaG24xz0IfmXUswVCTeC75Qsgjo
+    short-id: '0905b6e16602f326'
+  server: 154.84.171.253
+  servername: storage.yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 49601021-a597-4551-b0ca-311cfa895273
+  xudp: true
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] idID_1|3.4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 51501
+  reality-opts:
+    public-key: wP6GcwZEkfpPp5aa4DELqaqWt2YnKC1t0XZ_v7j_WEo
+    short-id: '3b2fca002539d549'
   server: ipl2.lliinn.com
-  servername: bilibili-vn.biliimg.com
+  servername: iosapps.itunes.apple.com
   tls: true
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  xudp: true
+- name: 6|[Trojan] frFR_1|1.7MB/s
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: firm-warthog.rooster465.autos
+  skip-cert-verify: false
+  sni: firm-warthog.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: random
+  name: 6|[VLESS] jpJP_2|4.2MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 108.162.198.215
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /proxyip=ProxyIP.US.cmliussss.net
+  xudp: true
+- client-fingerprint: random
+  name: 6|[VLESS] jpJP_3|3.7MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 162.159.38.129
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /proxyip=ProxyIP.US.cmliussss.net
+  xudp: true
+- client-fingerprint: random
+  name: 6|[VLESS] jpJP_4|3.8MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 162.159.39.241
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /proxyip=ProxyIP.US.cmliussss.net
+  xudp: true
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] hkHK_1|1.8MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 34757
+  reality-opts:
+    public-key: VW9b1Lj_TPfa52PVrmLypSxQjRiV06sgG96uEd6oBRM
+    short-id: '551a216445'
+  server: ipl2.lliinn.com
+  servername: www.lamer.com.hk
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  xudp: true
+- client-fingerprint: random
+  name: 6|[VLESS] jpJP_5|2.9MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: 172.64.53.96
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /proxyip=ProxyIP.US.cmliussss.net
   xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ

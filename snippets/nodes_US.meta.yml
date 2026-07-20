@@ -68,6 +68,46 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- cipher: rc4-md5
+  name: 6|[SS] usUS_1|2.0MB/s
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 138.199.42.68
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] usUS_2|3.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM
+    short-id: '!!str 2e40144ddc07e8e1'
+  server: us04.tunnely.ru
+  servername: us04.tunnely.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 31649657-6c78-4c2c-b25b-5cd574b082b5
+  xudp: true
+- name: 6|[Http] usUS_3|2.8MB/s
+  password: ''
+  port: 9002
+  server: 156.146.59.12
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 6|[Http] usUS_4|2.5MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

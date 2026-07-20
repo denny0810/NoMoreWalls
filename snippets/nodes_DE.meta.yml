@@ -212,3 +212,84 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
+- encryption: none
+  name: 6|[VLESS] deDE_1|2.5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 22222
+  server: 3.75.155.42
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] deDE_2|2.4MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 167.82.101.210
+  servername: global.fastly.coM.
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2c19254-3f8d-4851-8861-fd2c4c26eca0
+  xhttp-opts:
+    host: farangis.global.ssl.fastly.neT.
+    mode: auto
+    path: /
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 30
+    x-padding-bytes: 100-1000
+  xudp: true
+- cipher: aes-256-cfb
+  name: 6|[SS] deDE_3|4.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 63.176.169.206
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 6|[Trojan] deDE_4|3.0MB/s
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: aware-pika.rooster465.autos
+  skip-cert-verify: false
+  sni: aware-pika.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 6|[VLESS] deDE_5|3.1MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 7443
+  reality-opts:
+    public-key: HQHil8nG-HZlQ0wPWXJpX4VvbrauBlCRH26tu4yVFQ4
+    short-id: '!!str bfa2ebf4'
+  server: 84.201.4.252
+  servername: www.telekom.de
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xudp: true
+- encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 6|[VLESS] deDE_6|2.2MB/s
+  network: http
+  packet-encoding: xudp
+  port: 8882
+  server: 31.56.206.222
+  type: vless
+  udp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  xudp: true

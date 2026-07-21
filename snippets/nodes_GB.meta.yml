@@ -1,4 +1,39 @@
 proxies:
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: 6|[VLESS] gbGB_1|2.1MB/s
+  network: xhttp
+  port: 443
+  server: lack.unlimitedprojects.fun
+  servername: lack.unlimitedprojects.fun
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6fa1b8eb-56f4-4f41-97dc-e0185bcfc575
+  xhttp-opts:
+    host: lack.unlimitedprojects.fun
+    mode: auto
+    path: /api/v1/data
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: auragrpc
+  name: 6|[VLESS] gbGB_2|1.5MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 8444
+  reality-opts:
+    public-key: DYhUefVTZg0ol7QLdgp6hqcZ_TjIt02uoZk8iQz4WHM
+    short-id: '!!str d6b2e9f1a4c8d3f5'
+  server: nl01.auragg.org
+  servername: cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  xudp: true
 - name: 9|[Trojan] GB_speednode_0005
   network: ws
   password: MITIVPN

@@ -54,24 +54,24 @@ proxies:
 - name: 4,5|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 13118
-  server: 18.167.109.142
+  port: 47867
+  server: 43.198.78.177
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 香港4|@ripaojiedian
+- name: 4,5,6|[Trojan] hkHK_4|3.4MB/s
   network: tcp
   password: BxceQaOe
-  port: 11035
-  server: 43.198.15.160
+  port: 27161
+  server: 43.198.11.229
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 4,5|[Trojan] 香港5|@ripaojiedian
+- name: 4,5,6|[Trojan] hkHK_5|3.5MB/s
   network: tcp
   password: BxceQaOe
-  port: 11231
-  server: 43.198.246.144
+  port: 27161
+  server: 43.198.17.21
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -85,6 +85,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- auth: hy2pass123
+  name: 6|[Hysteria2] hkHK_1|1.8MB/s
+  password: hy2pass123
+  port: 8443
+  server: hy2.zzrvic.com
+  skip-cert-verify: true
+  sni: hy2.zzrvic.com
+  type: hysteria2
 - name: 9|[Http] HK_speednode_0008
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 8443

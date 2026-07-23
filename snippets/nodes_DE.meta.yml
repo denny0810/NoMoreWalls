@@ -202,6 +202,27 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
+- name: 3|[Hysteria2] 📪20@oneclickvpnkeys
+  password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
+  port: 8443
+  server: 172.86.94.97
+  sni: de5-hy2.veilvpn.life
+  tls: false
+  type: hysteria2
+- name: 3|[Hysteria2] 📪9@oneclickvpnkeys
+  password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
+  port: 8433
+  server: 172.86.95.17
+  sni: de1-hy2.veilvpn.life
+  tls: false
+  type: hysteria2
+- name: 3|[Hysteria2] 📪42@oneclickvpnkeys
+  password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
+  port: 8433
+  server: de1-hy2.veilvpn.life
+  sni: de1-hy2.veilvpn.life
+  tls: false
+  type: hysteria2
 - name: '3|[Hysteria2] Telegram=V2RayyNGvpnde #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -222,19 +243,15 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- encryption: none
-  name: 6|[VLESS] deDE_1|2.3MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2095
-  server: cdnjs.com
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    path: /fp=randomized
-  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 6|[Hysteria2] deDE_1|2.0MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq
+  port: 443
+  server: prodfr.h2corp.org
+  skip-cert-verify: false
+  sni: prodfr.h2corp.org
+  type: hysteria2
+  up: ''

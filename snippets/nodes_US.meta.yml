@@ -44,14 +44,6 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 3|[Hysteria2] us120253 | ⚡️Telegram = t.me/S...
-  password: bce6c821-200d-421f-bf3d-7159e5246ea0
-  port: 33333
-  server: 155.248.209.237
-  skip-cert-verify: false
-  sni: hy2.123266.xyz
-  tls: false
-  type: hysteria2
 - name: 4,5|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
@@ -76,58 +68,21 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 6|[VLESS] usUS_1|2.2MB/s
-  network: ws
-  port: 80
-  server: 18.239.134.69
-  tls: false
-  type: vless
-  udp: true
-  uuid: f55ce6cc-3f6b-40fc-9e3b-abe26db17009
-  ws-opts:
-    headers:
-      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
-    path: /
-- multiplexing: MULTIPLEXING_LOW
-  name: 6|[Mieru] usUS_2|3.3MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- cipher: aes-256-cfb
-  name: 6|[SS] usUS_3|3.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.207.112.128
+- cipher: aes-128-gcm
+  name: 6|[SS] usUS_1|1.7MB/s
+  password: ba2a429e-dcaa-4d94-a651-99b0a920ee38
+  port: 40031
+  server: permission_level_01.unclemanco.com
   type: ss
-- name: 6|[VLESS] usUS_4|3.3MB/s
-  network: tcp
-  port: 52535
-  server: 154.19.184.40
-  source_repo: 0o0o0oo/proxy
-  source_url: https://raw.githubusercontent.com/0o0o0oo/proxy/main/nodes.yaml
-  tls: false
-  type: vless
   udp: true
-  uuid: a1ac8747-4fd7-486b-b099-19fbb45610be
-- name: 6|[Http] usUS_5|1.6MB/s
-  password: ''
-  port: 9002
-  server: 156.146.59.4
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 6|[Hysteria2] usUS_2|2.6MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-002.fastervpn.world
   skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 6|[Http] usUS_6|1.6MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
+  sni: vpn-us-002.fastervpn.world
+  type: hysteria2
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

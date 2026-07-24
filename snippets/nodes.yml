@@ -300,7 +300,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] jpJP_1|4.0MB/s
+- name: 4,5|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 38937
@@ -366,7 +366,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 6|[Trojan] sgSG_1|3.2MB/s
+- name: 6|[Trojan] sgSG_1|3.9MB/s
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
@@ -378,16 +378,10 @@ proxies:
     headers:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
-- cipher: aes-256-cfb
-  name: 6|[SS] usUS_3|3.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.207.112.128
-  type: ss
 - alpn:
   - h2
   - http/1.1
-  name: 6|[Trojan] sgSG_2|3.6MB/s
+  name: 6|[Trojan] sgSG_2|4.8MB/s
   network: ws
   password: MiTiVPN
   port: 443
@@ -398,9 +392,16 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.76 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=nls
+- cipher: aes-128-gcm
+  name: 6|[SS] usUS_1|1.7MB/s
+  password: ba2a429e-dcaa-4d94-a651-99b0a920ee38
+  port: 40031
+  server: permission_level_01.unclemanco.com
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...
@@ -450,12 +451,6 @@ proxies:
   port: 38388
   server: 103.186.155.16
   type: ss
-- cipher: aes-256-gcm
-  name: 8|[SS] SS-IPv6
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 22222
-  server: 2001:bc8:32d7:17b::100
-  type: ss
 - alterId: 0
   cipher: auto
   name: 8|[Vmess] vmess-ws-ipv6
@@ -470,6 +465,12 @@ proxies:
     headers:
       Host: ''
     path: /0zNW56sF
+- cipher: aes-256-gcm
+  name: 8|[SS] SS-IPv6
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 22222
+  server: 2001:bc8:32d7:17b::100
+  type: ss
 - name: 9|[Trojan] AE_speednode_0001
   network: ws
   password: MITIVPN

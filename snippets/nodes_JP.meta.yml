@@ -134,32 +134,12 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- disable-sni: true
-  down: ''
-  fingerprint: ''
-  name: 6|[Hysteria2] jpJP_1|3.8MB/s
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
-  port: 20649
-  server: jp4.dexlos.com
-  skip-cert-verify: false
-  sni: ''
-  type: hysteria2
-  up: ''
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] jpJP_2|5.1MB/s
+- name: 6|[Trojan] jpJP_1|1.5MB/s
   network: tcp
-  packet-encoding: xudp
-  port: 40000
-  reality-opts:
-    public-key: sxznpC9IgQjAjDJNQ82nYsAqcq4QcS41DM7BGeSSpjM
-    short-id: '!!str 05c02df4'
-  server: jp01.333210.best
-  servername: aws.amazon.com
-  tls: true
-  type: vless
+  password: AQ71834695
+  port: 443
+  server: alert-monster.rooster465.autos
+  skip-cert-verify: true
+  sni: alert-monster.rooster465.autos
+  type: trojan
   udp: true
-  uuid: 81c8de18-5513-4a28-ad0f-3c7ab5695361
-  xudp: true

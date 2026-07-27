@@ -44,7 +44,7 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 4,5,6|[Trojan] usUS_4|2.1MB/s
+- name: 4,5|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 17005
@@ -52,7 +52,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] usUS_5|2.4MB/s
+- name: 4,5|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
@@ -68,24 +68,28 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- auth: e1bd5c86-721c-4a2d-bdf8-ba50e522ec57
-  name: 6|[Hysteria2] usUS_1|2.5MB/s
-  password: e1bd5c86-721c-4a2d-bdf8-ba50e522ec57
-  port: 8881
-  server: uk.xfj123.top
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  type: hysteria2
 - down: ''
   fingerprint: ''
-  name: 6|[Hysteria2] usUS_6|3.9MB/s
+  name: 6|[Hysteria2] usUS_1|3.3MB/s
   obfs: ''
   obfs-password: ''
-  password: 28d38ce6-7c79-4e9d-9175-2186da5be395
-  port: 20000
-  server: 159.65.79.184
+  password: b78b3b0c-8b89-4a95-94f4-42a3edf9f1b3
+  port: 8992
+  server: 95.181.189.42
   skip-cert-verify: true
-  sni: addons.mozilla.org
+  sni: 95.181.189.42
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 6|[Hysteria2] usUS_2|1.9MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 042a1881-44e4-4781-bd40-bf75164faf4f
+  port: 443
+  server: usp.noesissite.ru
+  skip-cert-verify: false
+  sni: usp.noesissite.ru
   type: hysteria2
   up: ''
 - cipher: aes-256-cfb

@@ -268,7 +268,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] hkHK_2|3.9MB/s
+- name: 4,5|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -284,7 +284,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 4,5,6|[Trojan] jpJP_2|3.3MB/s
+- name: 4,5|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 45691
@@ -332,7 +332,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 4,5,6|[Trojan] usUS_3|2.5MB/s
+- name: 4,5|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 17005
@@ -340,8 +340,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
-- name: 4,5,6|[Trojan] usUS_4|2.1MB/s
+- name: 4,5|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
@@ -349,7 +348,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: 4,5|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -368,7 +366,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 6|[Trojan] noNO_1|2.5MB/s
+- name: 6|[Trojan] noNO_1|2.1MB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20085
@@ -376,7 +374,7 @@ proxies:
   skip-cert-verify: true
   sni: oplosgru-c.catcat321.com
   type: trojan
-- name: 6|[Trojan] uaUA_1|2.3MB/s
+- name: 6|[Trojan] uaUA_1|2.6MB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20066
@@ -385,7 +383,7 @@ proxies:
   sni: hk.catxstar.com
   type: trojan
   udp: true
-- name: 6|[Trojan] deDE_1|2.6MB/s
+- name: 6|[Trojan] deDE_1|1.9MB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -394,7 +392,7 @@ proxies:
   sni: de.catxstar.com
   type: trojan
   udp: true
-- name: 6|[Trojan] noNO_2|2.5MB/s
+- name: 6|[Trojan] noNO_2|2.1MB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20085
@@ -403,112 +401,16 @@ proxies:
   sni: hk.catxstar.com
   type: trojan
   udp: true
-- name: 6|[Trojan] thTH_1|2.7MB/s
+- name: 6|[Trojan] moMO_1|1.6MB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20023
+  port: 20068
   server: oplosgru-c.catcat321.com
   skip-cert-verify: true
-  sni: hk.catxstar.com
+  sni: oplosgru-c.catcat321.com
   type: trojan
   udp: true
-- name: 6|[Trojan] hkHK_3|3.9MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 11035
-  server: 95.40.61.23
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 6|[Trojan] jpJP_3|3.6MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 45691
-  server: 18.163.208.174
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: 6|[Trojan] frFR_1|3.1MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.146.211
-  skip-cert-verify: true
-  sni: www.gossipglove.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assignment
-- name: 6|[Trojan] noNO_3|2.3MB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20085
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
-- cipher: aes-128-gcm
-  name: 6|[SS] scSC_1|3.6MB/s
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 79ca942774.download.windowsupdate.com
-    mode: http
-  port: 9054
-  server: 260323.1.0.l3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 6|[SS] krKR_3|2.3MB/s
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 79ca942774.download.windowsupdate.com
-    mode: http
-  port: 9035
-  server: 260323.1.0.l3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 6|[SS] krKR_4|3.0MB/s
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 79ca942774.download.windowsupdate.com
-    mode: http
-  port: 9019
-  server: 260323.1.0.l3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 6|[SS] scSC_2|2.3MB/s
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 79ca942774.download.windowsupdate.com
-    mode: http
-  port: 9063
-  server: 260323.1.0.l3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 6|[SS] scSC_3|2.4MB/s
-  password: ayu1245
-  plugin: obfs
-  plugin-opts:
-    host: 79ca942774.download.windowsupdate.com
-    mode: http
-  port: 824
-  server: 260323.1.0.l3.unclemanco.com
-  type: ss
-  udp: true
-- name: 6|[Trojan] uaUA_2|2.6MB/s
+- name: 6|[Trojan] uaUA_3|2.1MB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20066
@@ -517,22 +419,13 @@ proxies:
   sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
-- name: 6|[Trojan] hkHK_4|5.6MB/s
+- name: 6|[Trojan] noNO_3|2.3MB/s
   network: tcp
-  password: 246fb793-8e5e-4015-943e-22f41e4ea4a5
-  port: 32029
-  server: 25c5dffa-d858-4b58-bbbb-bfc08e375d23.bnsepserv.com
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20085
+  server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: pull-flv-q1-admin.douyincdn.com
-  type: trojan
-  udp: true
-- name: 6|[Trojan] uaUA_3|2.4MB/s
-  network: tcp
-  password: 246fb793-8e5e-4015-943e-22f41e4ea4a5
-  port: 32019
-  server: 25c5dffa-d858-4b58-bbbb-bfc08e375d23.bnsepserv.com
-  skip-cert-verify: true
-  sni: pull-flv-q1-admin.douyincdn.com
+  sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
 - cipher: aes-256-cfb

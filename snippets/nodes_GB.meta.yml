@@ -1,20 +1,24 @@
 proxies:
-- auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  name: 6|[Hysteria2] gbGB_1|3.6MB/s
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: wopa7.api3-max.ru
-  skip-cert-verify: true
-  sni: wopa7.api3-max.ru
-  type: hysteria2
-- auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  name: 6|[Hysteria2] gbGB_2|2.6MB/s
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: taga9.api3-max.ru
-  skip-cert-verify: true
-  sni: taga9.api3-max.ru
-  type: hysteria2
+- encryption: none
+  name: 6|[VLESS] gbGB_1|2.7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 1447
+  server: 78.154.108.26
+  type: vless
+  udp: true
+  uuid: d8b42cd5-a149-4356-9e61-111111111111
+  xudp: true
+- encryption: none
+  name: 6|[VLESS] gbGB_3|3.2MB/s
+  network: tcpconfigprxy
+  packet-encoding: xudp
+  port: 1446
+  server: 78.154.108.51
+  type: vless
+  udp: true
+  uuid: d8b42cd5-a149-4356-9e61-111111111111
+  xudp: true
 - client-fingerprint: firefox
   name: 9|[VLESS] GB_speednode_0005
   network: tcp

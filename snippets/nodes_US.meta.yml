@@ -61,6 +61,29 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- multiplexing: MULTIPLEXING_LOW
+  name: 6|[Mieru] usUS_1|2.6MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- client-fingerprint: chrome
+  name: 6|[VLESS] usUS_2|2.6MB/s
+  network: ws
+  port: 8443
+  server: fast.nanniang.top
+  servername: us-akile.nanniang.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
+  ws-opts:
+    headers:
+      Host: us-akile.nanniang.top
+    path: /
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

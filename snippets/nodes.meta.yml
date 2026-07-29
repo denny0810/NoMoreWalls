@@ -717,24 +717,14 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 3|[Hysteria2] ir125314 | ⚡️Telegram = t.me/S...
+- name: 3|[Hysteria2] @filembad
   obfs: salamander
-  obfs-password: 4b6gmo4jujpapx99
-  password: AstroVPN_official
-  port: 8083
-  server: hystry.accuratenetworkchecker.ir
+  obfs-password: l960g2kn19nphlra
+  password: 84eyebdtl3tcbssn
+  port: 52060
+  server: assets.gateway-stream.com
   skip-cert-verify: false
-  sni: vhd.nth.gelzaro.ir
-  tls: false
-  type: hysteria2
-- name: '3|[Hysteria2] ir125314 | ⚡️Telegram = t.me/S... #1'
-  obfs: salamander
-  obfs-password: 4b6gmo4jujpapx99
-  password: AstroVPN_official
-  port: 8083
-  server: soskeynets.accuratenetworkchecker.ir
-  skip-cert-verify: false
-  sni: vhd.nth.gelzaro.ir
+  sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
 - name: 3|[Hysteria2] de@V2RayyNGvpnde
@@ -765,24 +755,6 @@ proxies:
   server: 179.61.132.96
   skip-cert-verify: true
   sni: 179.61.132.96
-  tls: false
-  type: hysteria2
-- name: 3|[Hysteria2] ⛲99@oneclickvpnkeys
-  password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
-  port: 443
-  server: 5.255.102.165
-  skip-cert-verify: true
-  sni: 5.255.102.165
-  tls: false
-  type: hysteria2
-- name: 3|[Hysteria2] de Telegram = V2RayyNGvpn 2de
-  obfs: salamander
-  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
-  password: T-me-V2RayyNGvpn
-  port: 443
-  server: 91.107.178.22
-  skip-cert-verify: true
-  sni: www.refersion.com
   tls: false
   type: hysteria2
 - name: 3|[Hysteria2] nl - NL - @FreeOnlineVPN
@@ -903,6 +875,16 @@ proxies:
   port: 44100
   server: pro2.riziro.ir
   sni: pro2.riziro.ir
+  tls: false
+  type: hysteria2
+- name: 3|[Hysteria2] fi125426 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: t-me-v2rayyngvpn
+  port: 443
+  server: 65.109.177.191
+  skip-cert-verify: true
+  sni: www.oracle.com
   tls: false
   type: hysteria2
 - name: 3|[Hysteria2] 📯41@oneclickvpnkeys
@@ -1046,89 +1028,128 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- auth: ba845a48-cfcb-48c4-ab8c-0836e360112e
-  name: 6|[Hysteria2] myMY_1|2.0MB/s
-  password: ba845a48-cfcb-48c4-ab8c-0836e360112e
-  port: 56787
-  server: ceo67.ceoiii.com
+- name: 6|[VLESS] fiFI_1|2.0MB/s
+  network: ws
+  port: 2053
+  server: 46.8.229.218
+  servername: forfreeuse.sub-flow.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- alpn:
+  - h3
+  auth: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+  name: 6|[Hysteria2] chCH_1|3.2MB/s
+  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+  port: 25447
+  server: 144.31.107.101
   skip-cert-verify: true
-  sni: ajax.microsoft.com
+  sni: devideo.h2corp.org
   type: hysteria2
+- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  name: 6|[Hysteria2] frFR_1|2.9MB/s
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-fr-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-fr-002.fastervpn.world
+  type: hysteria2
+- auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  name: 6|[Hysteria2] gbGB_1|2.3MB/s
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa3.api3-max.ru
+  skip-cert-verify: true
+  sni: wopa3.api3-max.ru
+  type: hysteria2
+- multiplexing: MULTIPLEXING_LOW
+  name: 6|[Mieru] usUS_1|2.6MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- alpn:
+  - http/1.1
+  name: 6|[Trojan] deDE_1|1.5MB/s
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: hyperon.site
+  skip-cert-verify: false
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /bkdicj
+- name: 6,9|[Trojan] CN_speednode_0009
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20066
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- name: 6|[Trojan] uaUA_2|2.4MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20066
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: oplosgru-c.catcat321.com
+  type: trojan
+  udp: true
+- name: 6|[Trojan] uaUA_3|2.0MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20066
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- name: 6|[VLESS] usUS_2|2.6MB/s
+  network: ws
+  port: 8443
+  server: fast.nanniang.top
+  servername: us-akile.nanniang.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
+  ws-opts:
+    headers:
+      Host: us-akile.nanniang.top
+    path: /
 - encryption: none
-  grpc-opts:
-    grpc-service-name: nexusGrpc
-  name: 6|[VLESS] alAL_1|1.7MB/s
-  network: grpc
+  name: 6|[VLESS] sgSG_1|2.3MB/s
+  network: ws
   packet-encoding: xudp
   port: 443
-  reality-opts:
-    public-key: CxMPFpwhcR9Ocp-Xy_1J08mo-atdHKUf58WLOy_XlgM
-    short-id: 'd9662905'
-  server: 144.31.129.42
-  servername: morphbinerkkw.ru
+  server: 172.64.146.86
+  servername: support.zoom.us.yxls.eu.cc
   tls: true
   type: vless
   udp: true
-  uuid: 7b81d175-d180-4ec8-bbc5-dfe80e8d3b68
-  xudp: true
-- name: 6|[VLESS] gbGB_1|2.2MB/s
-  network: ws
-  port: 8443
-  server: fast.nanniang.top
-  servername: uk-akile.nanniang.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
   ws-opts:
     headers:
-      Host: uk-akile.nanniang.top
-    path: /
-- name: 6|[VLESS] aqAQ_1|2.0MB/s
-  network: ws
-  port: 8443
-  server: fast.nanniang.top
-  servername: aq.nanniang.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
-  ws-opts:
-    headers:
-      Host: aq.nanniang.top
-    path: /
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: neurex
-  name: 6|[VLESS] atAT_1|1.8MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 16923
-  reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    short-id: '10ffb85da1c2d986'
-  server: 152.53.47.153
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab044a84-8263-42ab-a1f1-2fd5ebace70d
+      Host: support.zoom.us.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /sg-melbi
   xudp: true
-- down: ''
-  fingerprint: ''
-  name: 6|[Hysteria2] roRO_1|1.6MB/s
-  obfs: ''
-  obfs-password: ''
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 205.237.109.213
-  skip-cert-verify: false
-  sni: grape-turbo-fr.roxa.org
-  type: hysteria2
-  up: ''
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...
@@ -1285,14 +1306,6 @@ proxies:
   port: 9450
   server: rr1.tube-cat.com
   skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 9|[Trojan] CN_speednode_0009
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20066
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
 - name: 9|[VLESS] DE_speednode_0010

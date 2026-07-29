@@ -369,6 +369,49 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - http/1.1
+  name: 6|[Trojan] deDE_1|1.5MB/s
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: hyperon.site
+  skip-cert-verify: false
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /bkdicj
+- name: 6,9|[Trojan] CN_speednode_0009
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20066
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- name: 6|[Trojan] uaUA_2|2.4MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20066
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: oplosgru-c.catcat321.com
+  type: trojan
+  udp: true
+- name: 6|[Trojan] uaUA_3|2.0MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20066
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...
@@ -466,14 +509,6 @@ proxies:
   port: 9450
   server: rr1.tube-cat.com
   skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 9|[Trojan] CN_speednode_0009
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20066
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
 - name: 9|[Trojan] US_speednode_0134

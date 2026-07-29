@@ -36,33 +36,6 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- name: 3|[Hysteria2] 🐰48@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: bjmye80g9o99qohl
-  password: 1ecqm05bcdfcckq5
-  port: 59265
-  server: apic.dnso.ccwu.cc
-  skip-cert-verify: true
-  sni: apic.dnso.ccwu.cc
-  tls: false
-  type: hysteria2
-- name: '3|[Hysteria2] us125599 | ⚡️Telegram = t.me/S... #1'
-  obfs: salamander
-  obfs-password: bjmye80g9o99qohl
-  password: 1ecqm05bcdfcckq5
-  port: 59265
-  server: soskeynets.dnso.ccwu.cc
-  skip-cert-verify: true
-  sni: apic.dnso.ccwu.cc
-  tls: false
-  type: hysteria2
-- name: 3|[Hysteria2] us125595 | ⚡️Telegram = t.me/S...
-  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: 443
-  server: soskeynets.spectrumproxy.shop
-  sni: usa1.spectrumproxy.shop
-  tls: false
-  type: hysteria2
 - name: 4,5|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -87,6 +60,107 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  name: 6|[Hysteria2] usUS_1|2.5MB/s
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: taga2.api3-max.ru
+  skip-cert-verify: true
+  sni: taga2.api3-max.ru
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] usUS_2|2.6MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk
+    short-id: '!!str 0990d22f'
+  server: 167.17.69.171
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00144519-7e0d-476b-8d28-435576af9262
+  xudp: true
+- name: 6|[Http] usUS_3|3.6MB/s
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 6|[Http] usUS_4|3.1MB/s
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 6|[Http] usUS_5|2.1MB/s
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 6|[Http] usUS_6|1.6MB/s
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 6|[Http] usUS_7|2.5MB/s
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 6|[Http] usUS_8|3.2MB/s
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 6|[Http] usUS_9|2.4MB/s
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 6|[Http] usUS_10|1.8MB/s
+  port: 9002
+  server: 156.146.59.21
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 6|[Http] usUS_11|2.3MB/s
+  port: 9002
+  server: 156.146.59.8
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 6|[Http] usUS_12|2.1MB/s
+  port: 9002
+  server: 156.146.59.23
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 6|[Http] usUS_13|2.5MB/s
+  password: ''
+  port: 9002
+  server: 156.146.59.49
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 6|[Http] usUS_14|2.6MB/s
+  password: ''
+  port: 9002
+  server: 156.146.59.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

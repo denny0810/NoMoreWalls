@@ -334,7 +334,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 4,5,6,9|[Trojan] US_speednode_0163
+- name: 4,5,9|[Trojan] US_speednode_0163
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 17005
@@ -369,72 +369,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 6|[Trojan] deDE_2|2.6MB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-- name: 6,9|[Trojan] CN_speednode_0005
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] hkHK_1|2.1MB/s
-  network: ws
-  port: 33410
-  server: yd4.ainivp.com
-  servername: yd4.ainivp.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9301afcd-025e-781f-1abc-c10efabd1211
-  ws-opts:
-    headers:
-      Host: yd4.ainivp.com
-    path: /ray
-- cipher: aes-256-cfb
-  name: 6|[SS] seSE_1|2.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.53.198.63
-  type: ss
-  udp: true
-- name: 6,9|[Trojan] CN_speednode_0007
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
-- name: 6,9|[Trojan] CN_speednode_0009
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20066
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
-- name: 6|[Trojan] uaUA_2|2.7MB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20066
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: oplosgru-c.catcat321.com
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...
@@ -504,6 +438,14 @@ proxies:
   port: 22222
   server: 2001:bc8:32d7:17b::100
   type: ss
+- name: 9|[Trojan] CN_speednode_0005
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
 - name: 9|[Trojan] CN_speednode_0006
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -511,11 +453,27 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: 9|[Trojan] CN_speednode_0007
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
 - name: 9|[Trojan] CN_speednode_0008
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 9450
   server: rr1.tube-cat.com
   skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 9|[Trojan] CN_speednode_0009
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20066
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
 - name: 9|[Trojan] US_speednode_0134

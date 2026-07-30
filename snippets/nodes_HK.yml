@@ -36,7 +36,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 4,5|[Trojan] 香港3|@ripaojiedian
+- name: 4,5,6,9|[Trojan] HK_speednode_0010
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 13118
@@ -44,7 +44,8 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] hkHK_1|2.8MB/s
+  udp: true
+- name: 4,5,6,9|[Trojan] HK_speednode_0009
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -52,7 +53,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 4,5,6|[Trojan] hkHK_2|1.5MB/s
+  udp: true
+- name: 4,5,6,9|[Trojan] HK_speednode_0008
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -60,6 +62,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - alterId: 2
   cipher: auto
   name: 5|[Vmess] 香港|@ripaojiedian
@@ -70,3 +73,23 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  name: 6|[Trojan] hkHK_6|3.1MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 11035
+  server: 18.163.122.92
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 6|[Trojan] hkHK_7|3.5MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 27161
+  server: 16.163.138.98
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true

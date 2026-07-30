@@ -260,7 +260,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 4,5|[Trojan] 香港3|@ripaojiedian
+- name: 4,5,6,9|[Trojan] HK_speednode_0010
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 13118
@@ -268,7 +268,8 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] hkHK_1|2.8MB/s
+  udp: true
+- name: 4,5,6,9|[Trojan] HK_speednode_0009
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -276,7 +277,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 4,5,6|[Trojan] hkHK_2|1.5MB/s
+  udp: true
+- name: 4,5,6,9|[Trojan] HK_speednode_0008
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -284,7 +286,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 4,5,6|[Trojan] sgSG_1|3.4MB/s
+  udp: true
+- name: 4,5,9|[Trojan] US_speednode_0115
   network: tcp
   password: BxceQaOe
   port: 41421
@@ -292,7 +295,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 4,5,6|[Trojan] jpJP_1|2.6MB/s
+  udp: true
+- name: 4,5,6,9|[Trojan] HK_speednode_0012
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 40138
@@ -300,7 +304,8 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] jpJP_2|5.0MB/s
+  udp: true
+- name: 4,5,9|[Trojan] JP_speednode_0015
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
@@ -308,12 +313,13 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] sgSG_2|3.9MB/s
+  udp: true
+- name: 4,5,6|[Trojan] sgSG_3|3.7MB/s
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
   server: 43.199.32.78
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 4,5|[Trojan] 新加坡2|@ripaojiedian
@@ -324,7 +330,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] sgSG_3|3.1MB/s
+- name: 4,5,6,9|[Trojan] HK_speednode_0011
   network: tcp
   password: BxceQaOe
   port: 32434
@@ -332,7 +338,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 4,5,6|[Trojan] usUS_7|3.6MB/s
+  udp: true
+- name: 4,5,9|[Trojan] JP_speednode_0016
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
@@ -340,6 +347,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: 4|[Trojan] us 美国2|@ripaojiedian
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
@@ -347,7 +355,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 美国3|@ripaojiedian
+- name: 4,5,9|[Trojan] US_speednode_0128
   network: tcp
   password: BxceQaOe
   port: 15775
@@ -355,6 +363,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - alterId: 2
   cipher: auto
   name: 5|[Vmess] 香港|@ripaojiedian
@@ -365,7 +374,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 6|[Trojan] deDE_3|2.6MB/s
+- name: 6|[Trojan] deDE_2|3.1MB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -373,7 +382,7 @@ proxies:
   skip-cert-verify: true
   sni: de.catxstar.com
   type: trojan
-- name: 6|[Trojan] deDE_11|3.3MB/s
+- name: 6|[Trojan] deDE_4|1.9MB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -382,13 +391,31 @@ proxies:
   sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
-- name: 6|[Trojan] deDE_9|2.6MB/s
+- name: 6|[Trojan] hkHK_6|3.1MB/s
   network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
+  password: BxceQaOe
+  port: 11035
+  server: 18.163.122.92
   skip-cert-verify: true
-  sni: de.catxstar.com
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 6|[Trojan] hkHK_7|3.5MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 27161
+  server: 16.163.138.98
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 6|[Trojan] sgSG_4|3.3MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 32434
+  server: 43.198.12.180
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -460,26 +487,3 @@ proxies:
   port: 22222
   server: 2001:bc8:32d7:17b::100
   type: ss
-- name: 9|[Trojan] US_speednode_0081
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20066
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 9|[Trojan] US_speednode_0084
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20035
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: 9|[Trojan] US_speednode_0085
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20066
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: oplosgru-c.catcat321.com
-  type: trojan
-  udp: true

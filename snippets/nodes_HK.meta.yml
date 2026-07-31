@@ -89,7 +89,7 @@ proxies:
 - alpn:
   - h2%2Chttp%2F1.1
   client-fingerprint: qq
-  name: 6|[VLESS] hkHK_1|2.3MB/s
+  name: 6|[VLESS] hkHK_1|2.7MB/s
   network: xhttp
   port: 443
   server: hk.denverpresents.top
@@ -102,6 +102,14 @@ proxies:
     host: hk.denverpresents.top
     mode: auto
     path: /assets/build/_app/immutable/chunks/stream-one/
+- name: 6|[Anytls] hkHK_2|1012KB/s
+  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+  port: 443
+  server: c17b5a81-tdups0-tf8z9r-1pr35.hk2.hyhuawei.com
+  skip-cert-verify: true
+  sni: c17b5a81-tdups0-tf8z9r-1pr35.hk2.hyhuawei.com
+  type: anytls
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 9|[VLESS] HK_speednode_0008

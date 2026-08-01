@@ -23,7 +23,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] sgSG_2|4.2MB/s
+- name: 4,5|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 45744
@@ -31,35 +31,13 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- cipher: aes-256-gcm
+  name: 6|[SS] sgSG_1|2.6MB/s
+  password: 94571d62-a23f-364e-8065-2a740b342216
+  port: 20080
+  server: s.8.m.z.r.a.q.3.b.sg03-ae5.entry.v51124-1.qpon
+  type: ss
   udp: true
-- encryption: none
-  name: 6|[VLESS] sgSG_1|1.7MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: 173.245.59.40
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: vms.lifetime37.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
-- encryption: mlkem768x25519plus.native.0rtt.X89bst5pyjkexho_hHA5hJhmor55v0lFu-avO03xo3k
-  name: 6|[VLESS] sgSG_3|1.7MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 10962
-  server: qzc6tbpu04c4.dop69.com
-  type: vless
-  udp: true
-  uuid: d2c548f1-27c4-4364-bd70-feb2c159f534
-  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] sgSG²_1|2.4MB/s|X|History
@@ -68,31 +46,16 @@ proxies:
   server: 103.186.155.16
   type: ss
 - client-fingerprint: firefox
-  name: 9|[VLESS] SG_speednode_0086
-  network: ws
-  port: 30175
-  server: 3x.isoziyuan.com
-  servername: 3x.isoziyuan.com
-  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  name: 9|[VLESS] SG_speednode_0171
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6fwpt8WW46VND7VgVV5lQSteCUgJsZbRR092VDZ2nFs
+  server: most.lodkirmm.ru
+  servername: most.lodkirmm.ru
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 900e5a83-c6ef-4af5-85ab-627549a73196
-  ws-opts:
-    headers:
-      Host: 3x.isoziyuan.com
-    path: /
-- name: 9|[VLESS] SG_speednode_0087
-  network: ws
-  port: 30175
-  server: 3x.isoziyuan.com
-  servername: 3x.isoziyuan.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3633dcc3-0204-4842-bd7f-2faeef02001e
-  ws-opts:
-    headers:
-      Host: 3x.isoziyuan.com
-    path: /
+  uuid: ee6950b1-5a5a-4bb6-ae54-814070840281

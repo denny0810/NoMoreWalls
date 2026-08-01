@@ -38,7 +38,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,9|[Trojan] HK_speednode_0007
+- name: 4,5|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
@@ -46,8 +46,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
-- name: 4,5,6|[Trojan] usUS_6|3.3MB/s
+- name: 4,5,6,9|[Trojan] HK_speednode_0023
   network: tcp
   password: BxceQaOe
   port: 35966
@@ -56,9 +55,18 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
+- name: 6|[Trojan] usUS_1|3.3MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 35966
+  server: 43.198.98.22
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+  udp: true
 - alterId: '0'
   cipher: auto
-  name: 6|[Vmess] usUS_16|4.5MB/s
+  name: 6|[Vmess] usUS_2|3.1MB/s
   network: ws
   packet-encoding: xudp
   port: 24187
@@ -72,6 +80,15 @@ proxies:
     headers: {}
     path: /
   xudp: true
+- name: 6,9|[Trojan] HK_speednode_0024
+  network: tcp
+  password: BxceQaOe
+  port: 35966
+  server: 43.198.98.22
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
@@ -79,3 +96,16 @@ proxies:
   port: 38388
   server: 103.186.154.251
   type: ss
+- name: 9|[Trojan] US_speednode_0199
+  network: ws
+  password: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  port: 2096
+  server: jumao91.shop
+  skip-cert-verify: true
+  sni: jumao91.shop
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: jumao91.shop
+    path: /proxyip=45.207.156.255

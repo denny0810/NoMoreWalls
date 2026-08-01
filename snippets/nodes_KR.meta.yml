@@ -6,10 +6,10 @@ proxies:
   type: socks5
   username: T2clM0QlM0Q6
 - client-fingerprint: chrome
-  name: 6|[VLESS] krKR_1|1.3MB/s
+  name: 6|[VLESS] krKR_1|1.6MB/s
   network: ws
-  port: 19222
-  server: 220.79.9.247
+  port: 11019
+  server: 211.104.99.209
   servername: sni.ehb.cc.cd
   tls: true
   type: vless
@@ -19,12 +19,20 @@ proxies:
     headers:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- name: 6,9|[Socks5] US_speednode_0150
-  port: 50161
-  server: 168.107.13.220
-  tls: false
-  type: socks5
+- client-fingerprint: chrome
+  name: 6|[VLESS] krKR_2|2.6MB/s
+  network: ws
+  port: 12545
+  server: 211.220.53.131
+  servername: sni.ehb.cc.cd
+  tls: true
+  type: vless
   udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 9|[VLESS] KR_speednode_0015

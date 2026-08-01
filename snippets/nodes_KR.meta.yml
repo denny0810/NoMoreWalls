@@ -5,21 +5,22 @@ proxies:
   tls: false
   type: socks5
   username: T2clM0QlM0Q6
+- name: 6,9|[Http] KR_speednode_0034
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  sni: testkr3.ssv.vc
+  tls: true
+  type: http
+  udp: true
+  username: test
 - name: 6,9|[Socks5] US_speednode_0179
   port: 50161
   server: 168.107.13.220
   tls: false
   type: socks5
   udp: true
-- name: 9|[Http] KR_speednode_0034
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: test
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 9|[VLESS] KR_speednode_0035

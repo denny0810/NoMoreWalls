@@ -5,12 +5,7 @@ proxies:
   tls: false
   type: socks5
   username: T2clM0QlM0Q6
-- disable-sni: true
-  down: ''
-  fingerprint: ''
-  name: 2,6|[Hysteria2] krKR_1|3.8MB/s
-  obfs: ''
-  obfs-password: ''
+- name: 2|[Hysteria2] krKR
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
   port: 20801
   server: hg1.yuanbaojc.site
@@ -18,8 +13,6 @@ proxies:
   sni: 127.0.0.1
   tls: false
   type: hysteria2
-  udp: true
-  up: ''
 - name: 3|[Hysteria2] kr韩国家宽|高速01
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
   port: 20801
@@ -27,6 +20,26 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- auth: 300f8c21-6341-4503-a5db-c13d331c63c8
+  name: 6|[Hysteria2] krKR_1|4.6MB/s
+  password: 300f8c21-6341-4503-a5db-c13d331c63c8
+  port: 20801
+  server: hg1.yuanbaojc.site
+  skip-cert-verify: true
+  sni: hg1.yuanbaojc.site
+  type: hysteria2
+  udp: true
+- auth: b111a7bb-7be3-4d0b-9e7b-ea8f33d03e17
+  down: 1000
+  name: 6|[Hysteria2] krKR_2|6.0MB/s
+  password: b111a7bb-7be3-4d0b-9e7b-ea8f33d03e17
+  port: 18385
+  server: kr1.ktmhyld.com
+  skip-cert-verify: true
+  sni: kr1.ktmhyld.com
+  type: hysteria2
+  udp: true
+  up: 1000
 - client-fingerprint: chrome
   name: 9|[VLESS] KR_speednode_0069
   network: ws

@@ -10,7 +10,7 @@ proxies:
 - alpn:
   - h2
   client-fingerprint: random
-  name: 6|[VLESS] gbGB_1|1.2MB/s
+  name: 6|[VLESS] gbGB_1|1.4MB/s
   network: xhttp
   port: 443
   server: 188.72.103.3
@@ -41,6 +41,17 @@ proxies:
   port: 443
   server: 31.76.11.46.cdn-one.org
   skip-cert-verify: false
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: 9|[Trojan] GB_speednode_0035
+  network: grpc
+  password: 32b2m2w7hsdd93z7
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  sni: 31.76.11.46.cdn-one.org
   type: trojan
   udp: true
 - grpc-opts:

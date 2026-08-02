@@ -5,53 +5,10 @@ proxies:
   tls: false
   type: socks5
   username: T2clM0QlM0Q6
-- name: 3|[Hysteria2] kr韩国家宽|高速01
-  password: 300f8c21-6341-4503-a5db-c13d331c63c8
-  port: 20801
-  server: hg1.yuanbaojc.site
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 6|[Socks5] krKR_1|1.1MB/s
-  port: 50161
-  server: 168.107.13.220
-  tls: false
-  type: socks5
-  udp: true
-- client-fingerprint: chrome
-  name: 6|[VLESS] krKR_2|1.8MB/s
-  network: ws
-  port: 443
-  server: 211.49.57.179
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- client-fingerprint: chrome
-  name: 6|[VLESS] krKR_3|1.3MB/s
-  network: ws
-  port: 28973
-  server: 218.155.85.44
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
 - disable-sni: true
   down: ''
   fingerprint: ''
-  name: 6|[Hysteria2] krKR_4|4.8MB/s
+  name: 2,6|[Hysteria2] krKR_1|3.8MB/s
   obfs: ''
   obfs-password: ''
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
@@ -59,9 +16,17 @@ proxies:
   server: hg1.yuanbaojc.site
   skip-cert-verify: true
   sni: 127.0.0.1
+  tls: false
   type: hysteria2
   udp: true
   up: ''
+- name: 3|[Hysteria2] kr韩国家宽|高速01
+  password: 300f8c21-6341-4503-a5db-c13d331c63c8
+  port: 20801
+  server: hg1.yuanbaojc.site
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   name: 9|[VLESS] KR_speednode_0069
   network: ws

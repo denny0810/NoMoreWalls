@@ -268,7 +268,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6,9|[Trojan] HK_speednode_0051
+- name: 4,5,9|[Trojan] HK_speednode_0051
   network: tcp
   password: BxceQaOe
   port: 29443
@@ -349,7 +349,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6,9|[Trojan] HK_speednode_0052
+- name: 4,5,9|[Trojan] HK_speednode_0052
   network: tcp
   password: BxceQaOe
   port: 29085
@@ -370,6 +370,17 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
+  name: 6,9|[Trojan] GB_speednode_0034
+  network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  sni: 31.76.11.46.cdn-one.org
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
   name: 6,9|[Trojan] GB_speednode_0035
   network: grpc
   password: 32b2m2w7hsdd93z7
@@ -379,15 +390,19 @@ proxies:
   sni: 31.76.11.46.cdn-one.org
   type: trojan
   udp: true
-- name: 6|[Trojan] hkHK_3|3.5MB/s
+- alterId: '1'
+  cipher: auto
+  name: 6|[Vmess] jpJP_9|5.3MB/s
   network: tcp
-  password: BxceQaOe
-  port: 29443
-  server: 18.166.249.45
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
+  packet-encoding: xudp
+  port: 11777
+  server: r8f4n-g05.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
+  uuid: 8ee65c79-4487-32ff-b896-62c8dce05921
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...
@@ -463,17 +478,6 @@ proxies:
   port: 443
   server: 31.76.11.46.cdn-one.org
   skip-cert-verify: false
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: 9|[Trojan] GB_speednode_0034
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  sni: 31.76.11.46.cdn-one.org
   type: trojan
   udp: true
 - grpc-opts:

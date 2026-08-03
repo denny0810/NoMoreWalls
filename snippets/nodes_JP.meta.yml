@@ -127,26 +127,52 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] jpJP_1|3.3MB/s
+- name: 6,9|[Trojan] JP_speednode_0011
   network: tcp
-  packet-encoding: xudp
-  port: 29855
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: '!!str bc8e3658db7d1323'
-  server: v2.cdn.yye837u1f6xg.jjxdns.net
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
+  password: ND91608427
+  port: 443
+  server: upright-impala.rooster465.autos
+  skip-cert-verify: true
+  sni: upright-impala.rooster465.autos
+  type: trojan
   udp: true
-  uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
-  xudp: true
+- name: 6|[Trojan] jpJP_2|5.6MB/s
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: relaxing-bluebird.rooster465.autos
+  skip-cert-verify: true
+  sni: relaxing-bluebird.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 6,9|[Trojan] JP_speednode_0010
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: definite-sturgeon.rooster465.autos
+  skip-cert-verify: true
+  sni: definite-sturgeon.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 6|[Trojan] jpJP_4|3.1MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 162.159.44.100
+  skip-cert-verify: true
+  sni: Flll-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 6|[VLESS] jpJP_2|2.9MB/s
+  name: 6|[VLESS] jpJP_5|2.2MB/s
   network: tcp
   packet-encoding: xudp
   port: 39409
@@ -160,33 +186,3 @@ proxies:
   udp: true
   uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
   xudp: true
-- client-fingerprint: chrome
-  name: 9|[VLESS] JP_speednode_0067
-  network: ws
-  port: 443
-  server: 52.197.217.169
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net
-- client-fingerprint: chrome
-  name: 9|[VLESS] JP_speednode_0068
-  network: ws
-  port: 57554
-  server: 203.137.165.164
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net

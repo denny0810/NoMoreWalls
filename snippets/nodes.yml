@@ -260,7 +260,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 4,5,6|[Trojan] hkHK_2|4.6MB/s
+- name: 4,5|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39412
@@ -268,8 +268,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-  udp: true
-- name: 4,5,6|[Trojan] hkHK_3|4.5MB/s
+- name: 4,5|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 39412
@@ -277,7 +276,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - name: 4,5|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -286,7 +284,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 4,5,6|[Trojan] jpJP_2|3.0MB/s
+- name: 4,5|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 49811
@@ -294,7 +292,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-  udp: true
 - name: 4,5|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -327,7 +324,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] sgSG_1|4.0MB/s
+- name: 4,5,6|[Trojan] sgSG_3|1.1MB/s
   network: tcp
   password: BxceQaOe
   port: 9149
@@ -352,7 +349,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] usUS_8|3.3MB/s
+- name: 4,5|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 29085
@@ -360,7 +357,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - alterId: 2
   cipher: auto
   name: 5|[Vmess] 香港|@ripaojiedian
@@ -371,91 +367,17 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_1|1.6MB/s
-  password: bSOOjTnIutwmTb9nTnIKm3
-  port: 5223
-  server: creativeboxde2.zanity.net
-  type: ss
-  udp: true
-- name: 6,9|[Trojan] US_speednode_0277
+- name: 6|[Trojan] sgSG_1|3.9MB/s
   network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.22.218
   skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 6|[SS] usUS_6|2.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.196.207.151
-  type: ss
-  udp: true
-- name: 6,9|[Trojan] US_speednode_0243
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] usUS_9|1.9MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @VPNine1)7eb777f:123571
-    mode: tls
-  port: 2377
-  server: 88.210.36.106
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- grpc-opts:
-    grpc-service-name: /43588/G43plZahWW
-  name: 6|[Trojan] nlNL_3|1.6MB/s
-  network: grpc
-  password: 32b2m2w7hsdd93z7
-  port: 443
-  server: 2.26.96.251
-  skip-cert-verify: false
-  sni: titandarkness.mooo.com
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /43588/G43plZahWW
-  name: 6|[Trojan] nlNL_4|1.9MB/s
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 2.26.96.251
-  skip-cert-verify: false
-  sni: titandarkness.mooo.com
   type: trojan
   udp: true
 - alpn:
   - http/1.1
-  name: 6|[Trojan] nlNL_5|2.2MB/s
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 188.114.98.0
-  skip-cert-verify: true
-  sni: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alpn:
-  - http/1.1
-  name: 6|[Trojan] nlNL_6|2.0MB/s
+  name: 6|[Trojan] nlNL_1|1.5MB/s
   network: ws
   password: MiTiVPN
   port: 443
@@ -469,19 +391,59 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/41.0.2272.76 Safari/537.36
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 6|[Trojan] sgSG_4|3.4MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.22.218
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 6|[SS] twTW_1|4.2MB/s
+  name: 6|[SS] scSC_1|3.4MB/s
   password: 28789988-887e-4e41-83cd-27bbfb7999ad
-  port: 40028
+  port: 40003
   server: xunlinknode.csdjhajkshdjkas.com
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] deDE_9|2.4MB/s
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 152.70.26.250
-  type: ss
+- grpc-opts:
+    grpc-service-name: /43588/G43plZahWW
+  name: 6|[Trojan] nlNL_3|1.5MB/s
+  network: grpc
+  password: 32b2m2w7hsdd93z7
+  port: 443
+  server: titandarkness.mooo.com
+  skip-cert-verify: false
+  sni: titandarkness.mooo.com
+  type: trojan
+  udp: true
+- name: 6|[Trojan] krKR_1|5.1MB/s
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: saving-octopus.rooster465.autos
+  skip-cert-verify: true
+  sni: saving-octopus.rooster465.autos
+  type: trojan
+  udp: true
+- name: 6|[Trojan] krKR_2|5.1MB/s
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: definite-malamute.rooster465.autos
+  skip-cert-verify: true
+  sni: definite-malamute.rooster465.autos
+  type: trojan
+  udp: true
+- name: 6|[Trojan] krKR_3|5.0MB/s
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: moved-meerkat.rooster465.autos
+  skip-cert-verify: true
+  sni: moved-meerkat.rooster465.autos
+  type: trojan
   udp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
@@ -668,11 +630,27 @@ proxies:
   skip-cert-verify: false
   type: trojan
   udp: true
+- name: 9|[Trojan] US_speednode_0243
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
 - name: 9|[Trojan] US_speednode_0262
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- name: 9|[Trojan] US_speednode_0277
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
   type: trojan
   udp: true

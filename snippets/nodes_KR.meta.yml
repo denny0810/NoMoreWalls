@@ -7,7 +7,7 @@ proxies:
   username: T2clM0QlM0Q6
 - down: ''
   fingerprint: ''
-  name: 2,6|[Hysteria2] krKR_1|5.4MB/s
+  name: 2,6|[Hysteria2] krKR_4|2.0MB/s
   obfs: ''
   obfs-password: ''
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
@@ -26,49 +26,23 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- disable-sni: true
-  down: ''
-  fingerprint: ''
-  name: 6|[Hysteria2] krKR_2|5.2MB/s
-  obfs: ''
-  obfs-password: ''
+- auth: 300f8c21-6341-4503-a5db-c13d331c63c8
+  name: 6|[Hysteria2] krKR_1|4.8MB/s
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
   port: 20801
   server: 222.238.227.54
   skip-cert-verify: true
-  sni: 222.238.227.54
   type: hysteria2
   udp: true
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 6|[Hysteria2] krKR_3|3.6MB/s
-  obfs: ''
-  obfs-password: ''
+- auth: 300f8c21-6341-4503-a5db-c13d331c63c8
+  name: 6|[Hysteria2] krKR_2|4.3MB/s
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
   port: 20801
-  server: 222.238.227.54
+  server: hg1.yuanbaojc.site
   skip-cert-verify: true
-  sni: 127.0.0.1
+  sni: hg1.yuanbaojc.site
   type: hysteria2
   udp: true
-  up: ''
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] krKR_5|3.3MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 39215
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: '!!str bc8e3658db7d1323'
-  server: v2.cdn.yye837u1f6xg.jjxdns.net
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
-  xudp: true
 - client-fingerprint: chrome
   name: 9|[VLESS] KR_speednode_0069
   network: ws

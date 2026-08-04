@@ -2,16 +2,16 @@ proxies:
 - name: 4,5|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 49811
-  server: 16.162.191.180
+  port: 9408
+  server: 18.166.225.67
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 4,5|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 3415
-  server: 18.166.178.12
+  port: 44229
+  server: 18.163.100.58
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -23,34 +23,26 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: 6|[Trojan] jpJP_3|2.3MB/s
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: stunning-mite.rooster465.autos
-  skip-cert-verify: true
-  sni: stunning-mite.rooster465.autos
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] jpJP_1|1.7MB/s
+  password: f8744af0-8406-440f-9f90-45a4d004f3e9
+  port: 40102
+  server: cm1.kaochangcn.org
+  type: ss
   udp: true
-- name: 6|[Trojan] jpJP_2|2.7MB/s
-  network: tcp
-  password: ND91608427
+- cipher: aes-256-cfb
+  name: 6|[SS] jpJP_5|6.0MB/s
+  password: amazonskr05
   port: 443
-  server: becoming-hare.rooster465.autos
-  skip-cert-verify: true
-  sni: becoming-hare.rooster465.autos
-  type: trojan
+  server: 13.231.162.164
+  type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 6|[Trojan] jpJP_5|3.5MB/s
-  network: tcp
-  password: ND91608427
+- cipher: aes-256-cfb
+  name: 6|[SS] jpJP_9|5.3MB/s
+  password: amazonskr05
   port: 443
-  server: 13.192.236.67
-  skip-cert-verify: false
-  sni: immense-gnu.rooster465.autos
-  type: trojan
+  server: 13.231.179.245
+  type: ss
   udp: true
 - name: 9|[Trojan] JP_speednode_0010
   password: ND91608427

@@ -65,9 +65,16 @@ proxies:
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: 6|[Http] gbGB_1|2.8MB/s
+- name: 6|[Http] gbGB_1|1.2MB/s
   port: 9443
   server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] gbGB_2|1.3MB/s
+  port: 443
+  server: 193.36.118.210
   skip-cert-verify: true
   tls: true
   type: http
@@ -75,7 +82,7 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 6|[VLESS] gbGB_2|2.7MB/s
+  name: 6|[VLESS] gbGB_3|2.4MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -90,7 +97,7 @@ proxies:
   uuid: 18f71148-a3c7-40c7-b02a-be04da72efe3
   xudp: true
 - client-fingerprint: firefox
-  name: 6|[VLESS] gbGB_3|2.7MB/s
+  name: 6|[VLESS] gbGB_4|1.7MB/s
   network: tcp
   packet-encoding: xudp
   port: 443

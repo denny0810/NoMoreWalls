@@ -324,7 +324,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6,7|[Trojan] sgSG_2|3.1MB/s
+- name: 5,6|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 26704
@@ -332,7 +332,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-  udp: true
 - name: 5,6|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -367,23 +366,29 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 7|[Trojan] sgSG_1|1.1MB/s
+- name: 7|[Trojan] twTW_1|1.4MB/s
   network: tcp
   password: 55354c2b8ee339571bd657a9bb9858cc
-  port: 40783
-  server: 106.75.132.91
+  port: 39221
+  server: speed-01.aliyun-web-tracker.cn
   skip-cert-verify: true
+  sni: speed-01.aliyun-web-tracker.cn
   type: trojan
   udp: true
-- grpc-opts:
-    grpc-service-name: /43588/G43plZahWW
-  name: 7|[Trojan] brBR_1|1.1MB/s
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
+- cipher: aes-256-cfb
+  name: 7|[SS] jpJP_3|5.6MB/s
+  password: amazonskr05
   port: 443
-  server: 177.3.208.169
-  skip-cert-verify: false
-  sni: titandarkness.mooo.com
+  server: 13.231.227.228
+  type: ss
+  udp: true
+- name: 7|[Trojan] usUS_6|3.0MB/s
+  network: tcp
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: 53199
+  server: speed-01.aliyun-web-tracker.cn
+  skip-cert-verify: true
+  sni: speed-01.aliyun-web-tracker.cn
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -453,27 +458,3 @@ proxies:
   port: 22222
   server: 2001:bc8:32d7:17b::100
   type: ss
-- name: 10|[Trojan] HK_speednode_0008
-  password: ND91608427
-  port: 443
-  server: upright-hamster.rooster465.autos
-  skip-cert-verify: true
-  sni: upright-hamster.rooster465.autos
-  type: trojan
-  udp: true
-- name: 10|[Trojan] IE_speednode_0009
-  password: ND91608427
-  port: 443
-  server: skilled-lioness.rooster465.autos
-  skip-cert-verify: true
-  sni: skilled-lioness.rooster465.autos
-  type: trojan
-  udp: true
-- name: 10|[Trojan] LU_speednode_0012
-  password: ND91608427
-  port: 443
-  server: eager-louse.rooster465.autos
-  skip-cert-verify: true
-  sni: eager-louse.rooster465.autos
-  type: trojan
-  udp: true

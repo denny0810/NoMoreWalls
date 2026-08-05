@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 0|[Vmess] US74｜机房｜低风险
+  name: 1|[Vmess] US74｜机房｜低风险
   network: tcp
   port: '34114'
   server: 103.181.164.237
@@ -10,7 +10,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alpn:
   - h3%2Ch2%2Chttp%2F1.1
-  name: 0|[Trojan] US80｜机房｜低风险
+  name: 1|[Trojan] US80｜机房｜低风险
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -22,13 +22,13 @@ proxies:
     headers:
       Host: snll667.pages.dev
     path: '%2F'
-- name: 0|[Socks5] US145｜机房｜低风险
+- name: 1|[Socks5] US145｜机房｜低风险
   port: 1080
   server: 174.138.61.184
   tls: false
   type: socks5
   username: Og%3D%3D
-- name: 0|[Trojan] US146｜机房｜低风险
+- name: 1|[Trojan] US146｜机房｜低风险
   network: tcp
   password: af4b064a9c39472fb34ad8b113acdc6b
   port: 443
@@ -36,14 +36,14 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- name: 2|[Hysteria2] us美国
+- name: 3|[Hysteria2] us美国
   password: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
   port: 30001
   server: 155.117.19.221
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '2|[Hysteria2] us美国 #1'
+- name: '3|[Hysteria2] us美国 #1'
   password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
   port: 8080
   server: 23.95.75.151
@@ -51,14 +51,14 @@ proxies:
   sni: hopp-us.yyuyy.com
   tls: false
   type: hysteria2
-- name: '2|[Hysteria2] us美国 #2'
+- name: '3|[Hysteria2] us美国 #2'
   password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
   port: 8443
   server: 23.95.75.151
   sni: hopp-us.yyuyy.com
   tls: false
   type: hysteria2
-- name: 2|[Hysteria2] usUS
+- name: 3|[Hysteria2] usUS
   obfs: salamander
   obfs-password: XBvVbvzQCq6Ovbnh
   password: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
@@ -67,7 +67,7 @@ proxies:
   sni: usaw2.awo-link.com
   tls: false
   type: hysteria2
-- name: '2|[Hysteria2] usUS #1'
+- name: '3|[Hysteria2] usUS #1'
   password: c2948c84-748f-47f6-bc7a-b949ef279f85
   port: 443
   server: 78.159.240.215
@@ -75,7 +75,7 @@ proxies:
   sni: quic.tyr-agentstvo.tech
   tls: false
   type: hysteria2
-- name: 4,5|[Trojan] 美国|@ripaojiedian
+- name: 5,6|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -83,7 +83,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 美国2|@ripaojiedian
+- name: 5,6|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -91,7 +91,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] usUS_17|1.4MB/s
+- name: 5,6|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 53001
@@ -99,41 +99,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
-- multiplexing: MULTIPLEXING_LOW
-  name: 6|[Mieru] usUS_1|1.6MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  udp: true
-  username: dongtaiwang.com
-- cipher: aes-128-gcm
-  name: 6|[SS] usUS_3|3.2MB/s
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 2fce243671.download.windowsupdate.com
-    mode: http
-  port: 911
-  server: 260323.1.0.l3.unclemanco.com
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 6|[SS] usUS_4|2.5MB/s
-  password: ay2loud1
-  plugin: obfs
-  plugin-opts:
-    host: 2fce243671.download.windowsupdate.com
-    mode: http
-  port: 906
-  server: 260323.1.0.l3.unclemanco.com
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- name: 6,9|[Http] US_speednode_0056
+- name: 7,10|[Http] US_speednode_0056
   password: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
   port: 443
   server: 704f20b2-tcxds0-td95qh-1isea.sj.oshuawei.com
@@ -142,169 +108,45 @@ proxies:
   type: http
   udp: true
   username: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
-- name: 6,9|[Http] US_speednode_0058
-  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+- name: 7,10|[Http] US_speednode_0060
+  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
-  server: 28f9916a-tcxds0-tei4of-1qxa1.sj.oshuawei.com
-  sni: 28f9916a-tcxds0-tei4of-1qxa1.sj.oshuawei.com
+  server: 1ca4fab3-tcxds0-tujecz-1qkeg.sj.oshuawei.com
+  sni: 1ca4fab3-tcxds0-tujecz-1qkeg.sj.oshuawei.com
   tls: true
   type: http
   udp: true
-  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
-- cipher: aes-256-cfb
-  name: 6|[SS] usUS_7|3.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.85.61.177
-  type: ss
-  udp: true
-- name: 6|[Trojan] usUS_8|2.3MB/s
-  network: tcp
-  password: 5CRphqBLXI
-  port: 55604
-  server: 216.173.64.72
-  sni: b32-11.cmj0502.cn
-  type: trojan
-  udp: true
-- name: 6|[Http] usUS_9|1.4MB/s
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] usUS_10|1.7MB/s
-  port: 9002
-  server: 156.146.59.9
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Trojan] usUS_11|1.9MB/s
-  network: tcp
-  password: UaQmDQajuW
-  port: 55523
-  server: 185.132.54.106
-  sni: b32-10.cmj0502.cn
-  type: trojan
-  udp: true
-- name: 6|[Http] usUS_12|3.3MB/s
-  port: 9002
-  server: 156.146.59.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] usUS_13|1.0MB/s
-  port: 9002
-  server: 156.146.59.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] usUS_14|3.3MB/s
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] usUS_15|1.1MB/s
-  port: 9002
-  server: 156.146.59.41
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Socks5] usUS_16|3.4MB/s
-  port: 38182
-  server: 69.55.49.177
-  type: socks5
-  udp: true
-- client-fingerprint: firefox
-  name: 6|[VLESS] usUS_18|2.5MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: pro-de.emrata.top
-  servername: pro-de.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 18f71148-a3c7-0032-b02a-be04da72efe3
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 6|[VLESS] usUS_19|1.0MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
-    short-id: '!!str '
-  server: 2.26.79.39
-  servername: pro-se.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 18f71148-a3c7-40c7-b02a-be04da72efe3
-  xudp: true
-- client-fingerprint: firefox
-  name: 6|[VLESS] usUS_20|2.7MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
-    short-id: '!!str '
-  server: pro-se.emrata.top
-  servername: pro-se.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 18f71148-a3c7-40c7-b02a-be04da72efe3
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] usUS_21|1.0MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 10003
-  reality-opts:
-    public-key: BLxr2zh1eI34_v_CCzROgLIfUW6-ki5ZpbQiZ7LS80g
-    short-id: '!!str 98'
-  server: family.bucket.2.kfc-520.com
-  servername: www.amd.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
-  xudp: true
+  username: a305ac08-d136-11ee-b6db-f23c91cfbbc9
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
+  name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.251
   type: ss
-- name: 7|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
+- name: 8|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
   password: ''
   port: 7070
   server: 20.83.154.79
   skip-cert-verify: true
   type: socks5
   username: ''
-- name: 9|[Http] US_speednode_0057
+- name: 10|[Http] US_speednode_0057
   port: 9002
   server: 138.199.35.214
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|[VLESS] US_speednode_0059
+- name: 10|[Http] US_speednode_0058
+  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+  port: 443
+  server: 28f9916a-tcxds0-tei4of-1qxa1.sj.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+- name: 10|[VLESS] US_speednode_0059
   port: 443
   server: 45.78.73.241
   skip-cert-verify: false
@@ -312,17 +154,9 @@ proxies:
   type: vless
   udp: true
   uuid: b3b23e31-4972-4eec-9852-8de3eb6c7ef7
-- name: 9|[Http] US_speednode_0060
-  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-  port: 443
-  server: 1ca4fab3-tcxds0-tujecz-1qkeg.sj.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: a305ac08-d136-11ee-b6db-f23c91cfbbc9
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 9|[VLESS] US_speednode_0071
+  name: 10|[VLESS] US_speednode_0071
   network: tcp
   port: 993
   reality-opts:
@@ -334,21 +168,21 @@ proxies:
   type: vless
   udp: true
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-- name: 9|[Http] US_speednode_0062
+- name: 10|[Http] US_speednode_0062
   port: 443
   server: 38.28.193.188
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|[Http] US_speednode_0063
+- name: 10|[Http] US_speednode_0063
   port: 9002
   server: 138.199.35.198
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|[Http] US_speednode_0064
+- name: 10|[Http] US_speednode_0064
   password: 'null'
   port: 9002
   server: 138.199.35.217
@@ -357,7 +191,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 9|[Http] US_speednode_0065
+- name: 10|[Http] US_speednode_0065
   password: 'null'
   port: 9002
   server: 138.199.35.200
@@ -366,28 +200,28 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 9|[Http] US_speednode_0066
+- name: 10|[Http] US_speednode_0066
   port: 9002
   server: 138.199.35.213
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|[Http] US_speednode_0067
+- name: 10|[Http] US_speednode_0067
   port: 9002
   server: 138.199.35.199
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|[Http] US_speednode_0068
+- name: 10|[Http] US_speednode_0068
   port: 9002
   server: 138.199.35.219
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|[Http] US_speednode_0069
+- name: 10|[Http] US_speednode_0069
   port: 9002
   server: 138.199.35.207
   skip-cert-verify: true
@@ -396,7 +230,7 @@ proxies:
   udp: true
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 9|[VLESS] US_speednode_0070
+  name: 10|[VLESS] US_speednode_0070
   network: tcp
   port: 443
   reality-opts:
@@ -409,7 +243,7 @@ proxies:
   type: vless
   udp: true
   uuid: 6a0a5673-2406-4fd3-b0e9-8ecbd6d16a3a
-- name: 9|[Http] US_speednode_0072
+- name: 10|[Http] US_speednode_0072
   port: 9002
   server: 156.146.59.33
   skip-cert-verify: true

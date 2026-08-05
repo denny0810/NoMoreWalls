@@ -1,7 +1,7 @@
 proxies:
 - alpn:
   - h3%2Ch2%2Chttp%2F1.1
-  name: 0|[Trojan] HK67｜机房｜低风险
+  name: 1|[Trojan] HK67｜机房｜低风险
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -15,7 +15,7 @@ proxies:
     path: '%2F'
 - alpn:
   - h3%2Ch2%2Chttp%2F1.1
-  name: 0|[Trojan] HK68｜机房｜低风险
+  name: 1|[Trojan] HK68｜机房｜低风险
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -27,7 +27,7 @@ proxies:
     headers:
       Host: snll667.pages.dev
     path: '%2F'
-- name: 0|[Hysteria2] HK74｜家宽｜非常安全
+- name: 1|[Hysteria2] HK74｜家宽｜非常安全
   password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
   port: 443
   server: 079c035a-t5bb40-t6tn6w-jjv2.hk1.hyhuawei.com
@@ -35,7 +35,7 @@ proxies:
   sni: 079c035a-t5bb40-t6tn6w-jjv2.hk1.hyhuawei.com
   tls: false
   type: hysteria2
-- name: 2|[Hysteria2] hk香港
+- name: 3|[Hysteria2] hk香港
   password: 9abff4cd-ac3b-40ce-a3e7-f71f445d670f
   port: 443
   server: 82.47.32.31
@@ -45,14 +45,14 @@ proxies:
   type: hysteria2
 - alterId: 2
   cipher: auto
-  name: 4|[Vmess] hk 香港|@ripaojiedian
+  name: 5|[Vmess] hk 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 4,5|[Trojan] 香港3|@ripaojiedian
+- name: 5,6|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 17111
@@ -60,7 +60,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5,6|[Trojan] hkHK_6|2.1MB/s
+- name: 5,6|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 50115
@@ -68,8 +68,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
-- name: 4,5,6|[Trojan] hkHK_7|1.8MB/s
+- name: 5,6|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 11231
@@ -77,10 +76,9 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - alterId: 2
   cipher: auto
-  name: 5|[Vmess] 香港|@ripaojiedian
+  name: 6|[Vmess] 香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -88,54 +86,25 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: 6|[SS] hkHK_1|4.2MB/s
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  port: 19001
-  server: ss.047.node-for-bigairport.win
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 6|[SS] hkHK_4|5.4MB/s
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 2fce243671.download.windowsupdate.com
-    mode: http
-  port: 9052
-  server: 260323.1.0.l3.unclemanco.com
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- client-fingerprint: ios
-  name: 6|[VLESS] hkHK_5|4.4MB/s
-  network: ws
-  port: 443
-  server: cos-cdn-u.alicdn.win
-  servername: mms-statlc-7uopb-f.codeu.men
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: update
+  name: 7|[VLESS] hkHK_1|2.9MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 10126
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: hk1-r.link-t7.com
+  servername: s0.awsstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: c95edc3e-cb00-4504-ae38-9d36d96a08ca
-  ws-opts:
-    headers:
-      Host: mms-static-fetch-f.codeu.men
-    path: /newlogin/login.do
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: mm_grpc
-  name: 6|[Trojan] hkHK_8|2.3MB/s
-  network: grpc
-  password: 29db38f0-e302-3768-8867-0b9bf00c77e4cmynw
-  port: 443
-  server: kaizen-hk-2.gocmydns.com
-  skip-cert-verify: false
-  sni: www.zueuqnpjvcllc.co
-  type: trojan
-  udp: true
-- name: 9|[Trojan] HK_speednode_0008
+  uuid: 57A71E7F-E6B5-42BF-A4A6-47ECCBE7F50C
+  xudp: true
+- name: 10|[Trojan] HK_speednode_0008
   password: ND91608427
   port: 443
   server: upright-hamster.rooster465.autos

@@ -1,7 +1,7 @@
 proxies:
 - alpn:
   - h3%2Ch2%2Chttp%2F1.1
-  name: 1|[Trojan] TW3｜机房｜低风险
+  name: 0|[Trojan] TW3｜机房｜低风险
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 14147
@@ -13,12 +13,3 @@ proxies:
     headers:
       Host: snll667.pages.dev
     path: '%2F'
-- name: 7|[Trojan] twTW_2|1.3MB/s
-  network: tcp
-  password: 55354c2b8ee339571bd657a9bb9858cc
-  port: 39221
-  server: speed-01.aliyun-web-tracker.cn
-  skip-cert-verify: true
-  sni: speed-01.aliyun-web-tracker.cn
-  type: trojan
-  udp: true

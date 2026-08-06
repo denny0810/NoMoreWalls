@@ -103,7 +103,7 @@ proxies:
   sni: jp.xn--ehqa22b.site
   tls: false
   type: hysteria2
-- name: 5,6|[Trojan] 日本|@ripaojiedian
+- name: 4,5|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -111,7 +111,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 5,6|[Trojan] 日本2|@ripaojiedian
+- name: 4,5|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 44229
@@ -119,7 +119,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 日本3|@ripaojiedian
+- name: 4,5|[Trojan] 日本3|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 54876
@@ -127,12 +127,33 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 7|[VLESS] jpJP_1|1.5MB/s
+- name: 6|[Anytls] jpJP_1|6.2MB/s
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: 17962
+  server: jjz.jjznodenode.top
+  skip-cert-verify: true
+  sni: jjz.jjznodenode.top
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 6,9|[VLESS] US_speednode_0021
   network: tcp
-  packet-encoding: xudp
-  port: 10000
-  server: 14.137.238.144
+  port: 40724
+  reality-opts:
+    public-key: k7iIWZPJ27YpA5ilhmAiRQP1P6fNWzQIIJNTYCmV6xw
+    short-id: '!!str 0d17feea'
+  server: evacuee.papstore.xyz
+  servername: www.e-japannavi.com
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-  xudp: true
+  uuid: e7d317bd-9124-4eb0-ae76-4d3b8dc54e92
+- name: 6|[Socks5] jpJP_3|1.7MB/s
+  password: kZqh4Dk9rrkxfI4B
+  port: 8888
+  server: 45.192.198.137
+  type: socks5
+  udp: true
+  username: u1179940355

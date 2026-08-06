@@ -1,7 +1,7 @@
 proxies:
 - alpn:
   - h3%2Ch2%2Chttp%2F1.1
-  name: 0|[Trojan] HK67｜机房｜低风险
+  name: 1|[Trojan] HK67｜机房｜低风险
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -15,7 +15,7 @@ proxies:
     path: '%2F'
 - alpn:
   - h3%2Ch2%2Chttp%2F1.1
-  name: 0|[Trojan] HK68｜机房｜低风险
+  name: 1|[Trojan] HK68｜机房｜低风险
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -27,7 +27,7 @@ proxies:
     headers:
       Host: snll667.pages.dev
     path: '%2F'
-- name: 0|[Hysteria2] HK74｜家宽｜非常安全
+- name: 1|[Hysteria2] HK74｜家宽｜非常安全
   password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
   port: 443
   server: 079c035a-t5bb40-t6tn6w-jjv2.hk1.hyhuawei.com
@@ -35,7 +35,7 @@ proxies:
   sni: 079c035a-t5bb40-t6tn6w-jjv2.hk1.hyhuawei.com
   tls: false
   type: hysteria2
-- name: 2|[Hysteria2] hk香港
+- name: 3|[Hysteria2] hk香港
   password: 9abff4cd-ac3b-40ce-a3e7-f71f445d670f
   port: 443
   server: 82.47.32.31
@@ -43,16 +43,23 @@ proxies:
   sni: iosapps.itunes.apple.com
   tls: false
   type: hysteria2
+- name: 3|[Hysteria2] hkHK
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.29
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: 4|[Vmess] hk 香港|@ripaojiedian
+  name: 5|[Vmess] hk 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 4,5|[Trojan] 香港3|@ripaojiedian
+- name: 5,6|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 17111
@@ -60,7 +67,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 香港4|@ripaojiedian
+- name: 5,6|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 50115
@@ -68,7 +75,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 4,5|[Trojan] 香港5|@ripaojiedian
+- name: 5,6|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 11231
@@ -78,7 +85,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 5|[Vmess] 香港|@ripaojiedian
+  name: 6|[Vmess] 香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -86,11 +93,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 6|[Anytls] hkHK_1|5.1MB/s
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17960
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: hk.jjznodenode.top
-  type: anytls
-  udp: true

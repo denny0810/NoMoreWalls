@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 1|[Vmess] US74｜机房｜低风险
+  name: 0|[Vmess] US74｜机房｜低风险
   network: tcp
   port: '34114'
   server: 103.181.164.237
@@ -10,7 +10,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alpn:
   - h3%2Ch2%2Chttp%2F1.1
-  name: 1|[Trojan] US80｜机房｜低风险
+  name: 0|[Trojan] US80｜机房｜低风险
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
@@ -22,13 +22,13 @@ proxies:
     headers:
       Host: snll667.pages.dev
     path: '%2F'
-- name: 1|[Socks5] US145｜机房｜低风险
+- name: 0|[Socks5] US145｜机房｜低风险
   port: 1080
   server: 174.138.61.184
   tls: false
   type: socks5
   username: Og%3D%3D
-- name: 1|[Trojan] US146｜机房｜低风险
+- name: 0|[Trojan] US146｜机房｜低风险
   network: tcp
   password: af4b064a9c39472fb34ad8b113acdc6b
   port: 443
@@ -91,29 +91,22 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: random
-  name: 7|[VLESS] usUS_1|4.7MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: saas.sin.fan
-  servername: us-lax.862400.xyz
-  tls: true
-  type: vless
+- fingerprint: ''
+  name: 7|[Anytls] usUS_1|3.6MB/s
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: 17963
+  server: jjz.jjznodenode.top
+  skip-cert-verify: true
+  sni: jjz.jjznodenode.top
+  type: anytls
   udp: true
-  uuid: e23fad70-be58-4dea-b6c6-70f94b3abdd7
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: us-lax.862400.xyz
-    max-early-data: 2048
-    path: /announcement
+  username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 7|[VLESS] usUS_2|1.2MB/s
+  name: 7|[VLESS] usUS_2|1.1MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -126,29 +119,9 @@ proxies:
   ws-opts:
     headers:
       Host: Hk-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.s88r.iR
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.94 Safari/537.36
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/HK---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-  xudp: true
-- client-fingerprint: chrome
-  name: 7|[VLESS] usUS_3|1.6MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 104.17.126.160
-  servername: ohxnj.75kt.gdl.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: ohxnj.75kt.gdl.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    max-early-data: 2560
-    path: /
   xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ

@@ -1,6 +1,5 @@
 proxies:
-- auth: 99800091-8337-4112-8756-8cc60eb1ffa8
-  name: 3,7|[Hysteria2] nlNL_1|1.0MB/s
+- name: 3|[Hysteria2] ch瑞士
   password: 99800091-8337-4112-8756-8cc60eb1ffa8
   port: 10808
   server: nl6.unlockvpn.online
@@ -8,7 +7,6 @@ proxies:
   sni: nl6.unlockvpn.online
   tls: false
   type: hysteria2
-  udp: true
 - alpn:
   - h3
   name: '4|[Hysteria2] کانال تلگرام : Free_VPN_CH@ #1'
@@ -31,3 +29,10 @@ proxies:
   sni: api.kermanshahi.org@freenettir
   tls: false
   type: hysteria2
+- name: 7|[Http] chCH_1|1.6MB/s
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true

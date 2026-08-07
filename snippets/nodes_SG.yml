@@ -1,5 +1,5 @@
 proxies:
-- name: 0|[Trojan] SG6｜机房｜高风险 (黑名单)
+- name: 1|[Trojan] SG6｜机房｜高风险 (黑名单)
   network: tcp
   password: af4b064a9c39472fb34ad8b113acdc6b
   port: 443
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
-- name: 4,5|[Trojan] 新加坡|@ripaojiedian
+- name: 5,6|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 51396
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 新加坡2|@ripaojiedian
+- name: 5,6|[Trojan] 新加坡2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 51396
@@ -23,7 +23,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4,5|[Trojan] 新加坡3|@ripaojiedian
+- name: 5,6|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 26704
@@ -31,9 +31,22 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- alterId: 2
+  cipher: auto
+  name: 7|[Vmess] sgSG_2|5.3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  name: 7|[SS] sgSG²_1|2.4MB/s|X|History
+  name: 8|[SS] sgSG²_1|2.4MB/s|X|History
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.16

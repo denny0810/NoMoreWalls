@@ -1,7 +1,7 @@
 proxies:
 - alpn:
   - h3%2Ch2%2Chttp%2F1.1
-  name: 0|[Trojan] TW3｜机房｜低风险
+  name: 1|[Trojan] TW3｜机房｜低风险
   network: ws
   password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 14147
@@ -13,13 +13,11 @@ proxies:
     headers:
       Host: snll667.pages.dev
     path: '%2F'
-- name: 6|[Http] twTW_1|1.5MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
+- name: 7|[Anytls] twTW_1|4.5MB/s
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: 17964
+  server: jjz.jjznodenode.top
+  skip-cert-verify: true
+  sni: jjz.jjznodenode.top
+  type: anytls
   udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=

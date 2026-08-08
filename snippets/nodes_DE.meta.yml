@@ -151,30 +151,20 @@ proxies:
   sni: node-degame.bangboonet.ru
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 3,7|[Hysteria2] deDE_5|1.1MB/s
-  obfs: ''
-  obfs-password: ''
+- name: '3|[Hysteria2] 德国 #1'
   password: 71cada65-d23e-418c-88e4-a06188d14689
   port: 443
   server: 144.31.166.91
-  skip-cert-verify: false
   sni: de-two.quiet-rogue.site
   tls: false
   type: hysteria2
-  udp: true
-  up: ''
-- auth: 71cada65-d23e-418c-88e4-a06188d14689
-  name: 3,4,7|[Hysteria2] deDE_2|2.7MB/s
+- name: 3,4|[Hysteria2] 5🪁@oneclickvpnkeys
   password: 71cada65-d23e-418c-88e4-a06188d14689
   port: 443
   server: de-two.quiet-rogue.site
-  skip-cert-verify: true
   sni: de-two.quiet-rogue.site
   tls: false
   type: hysteria2
-  udp: true
 - name: '3|[Hysteria2] 德国 #3'
   password: 8645697d-51c1-4e90-aca5-ba63a0392f11
   port: 443
@@ -238,22 +228,7 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: fi1cosmos
-  name: 7|[VLESS] deDE_1|2.5MB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: f3Mwf_vaM2TDw1X8HZORkYPLY0-DE5smNYgHuhrQLTA
-  server: sk.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-- name: 7|[VLESS] deDE_3|1.7MB/s
+- name: 7|[VLESS] deDE_1|3.7MB/s
   network: ws
   port: 8880
   server: cd-site.benomiz.ir
@@ -266,16 +241,17 @@ proxies:
       Host: gr.gadawebi.ir
     path: /
     v2ray-http-upgrade: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 7|[VLESS] deDE_4|3.3MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
-  server: de8.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
-  tls: true
-  type: vless
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 7|[Hysteria] deDE_2|2.2MB/s
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
   udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
+  up: 500

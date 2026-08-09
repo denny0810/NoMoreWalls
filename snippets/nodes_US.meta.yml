@@ -100,23 +100,120 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 7|[VLESS] usUS_2|1.8MB/s
-  network: grpc
+  name: 7|[VLESS] usUS_1|1.9MB/s
+  network: tcp
   packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: iUc9JqWjFemnQo8R5fgiwssCjEdWmixB4X-mRJkx2VE
-    short-id: '!!str 3182f9ae'
-  server: 193.233.205.117
-  servername: media3.abvphelp.cc
+    public-key: O4of5fbG7Ns3fBdBF0bDU8Fa8q-mdk7YLgOgvAWPeF8
+    short-id: '!!str f85aebea'
+  server: 162.35.231.6
+  servername: media2.tcpdoor.net
   tls: true
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- client-fingerprint: chrome
+  name: 7|[VLESS] usUS_2|3.3MB/s
+  network: ws
+  port: 2053
+  server: www.shopify.com
+  servername: ccsus11-cdn-cdn.nekohub.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: f39d1fbc-272f-4482-a285-8c4f5a1581b6
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: ccsus11-cdn.nekohub.xyz
+    max-early-data: 4096
+    path: /vless_ws
+- client-fingerprint: chrome
+  name: 7|[VLESS] usUS_3|1.0MB/s
+  network: ws
+  port: 2053
+  server: www.visa.cn
+  servername: ccsus11-cdn-cdn.nekohub.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: f39d1fbc-272f-4482-a285-8c4f5a1581b6
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: ccsus11-cdn.nekohub.xyz
+    max-early-data: 4096
+    path: /vless_ws
+- client-fingerprint: chrome
+  name: 7|[VLESS] usUS_4|4.1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 80.251.213.187
+  servername: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
+    max-early-data: 2560
+    path: /
   xudp: true
+- client-fingerprint: chrome
+  name: 7|[VLESS] usUS_5|4.2MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 199.193.125.72
+  servername: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.143 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 7|[VLESS] usUS_6|4.1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 192.243.113.108
+  servername: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/37.0.2062.120 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- multiplexing: MULTIPLEXING_LOW
+  name: 7|[Mieru] usUS_7|1.4MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  udp: true
+  username: dongtaiwang.com
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

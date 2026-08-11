@@ -268,7 +268,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6,7,10|[Trojan] HK_speednode_0013
+- name: 5,6,10|[Trojan] HK_speednode_0013
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -359,51 +359,20 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 7|[Trojan] sgSG_3|5.4MB/s
-  network: tcp
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
+- name: 7|[Trojan] frFR_2|1.0MB/s
+  network: ws
+  password: humanity
   port: 443
-  server: starlink-sg6.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
+  server: 104.18.152.233
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
-- name: 7|[Trojan] sgSG_4|1.4MB/s
-  network: tcp
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 443
-  server: starlink-sg5.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 7|[Trojan] hkHK_4|1.8MB/s
-  network: tcp
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 21521
-  server: z-hk1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 7|[Trojan] moMO_1|4.6MB/s
-  network: tcp
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 21523
-  server: z-hk1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 7|[Trojan] bdBD_1|1.0MB/s
-  network: tcp
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 10010
-  server: z-sg1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /assignment
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 8|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

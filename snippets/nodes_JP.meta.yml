@@ -119,7 +119,7 @@ proxies:
   sni: freedom.chenlan.top
   tls: false
   type: hysteria2
-- name: 5,6,7|[Trojan] jpJP_2|4.1MB/s
+- name: 5,6|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 9408
@@ -127,7 +127,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-  udp: true
 - name: 5,6|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
@@ -144,7 +143,23 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 7|[Http] jpJP_1|1.7MB/s
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 7|[VLESS] jpJP_1|1.6MB/s
+  network: grpc
+  port: 10035
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: 18.179.40.96
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
+- name: 7|[Http] jpJP_2|1.5MB/s
   password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
   port: 443
   server: e9b9c37c-t9zts0-tcw58g-1p0be.jp.oshuawei.com
@@ -153,3 +168,11 @@ proxies:
   type: http
   udp: true
   username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+- name: 10|[Trojan] JP_speednode_0014
+  password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
+  port: 55682
+  server: t11.qifei.app
+  skip-cert-verify: true
+  sni: t11.qifei.app
+  type: trojan
+  udp: true

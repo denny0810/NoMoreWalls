@@ -42,6 +42,13 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: 3|[Hysteria2] hk HK
+  password: ec19e705-c8fe-4e9c-8cbe-c47038da0620
+  port: 18385
+  server: hk1.ktmhyld.com
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
   name: 5|[Vmess] hk 香港|@ripaojiedian
@@ -59,7 +66,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6,7|[Trojan] hkHK_1|1.1MB/s
+- name: 5,6|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -67,7 +74,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - name: 5,6|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe

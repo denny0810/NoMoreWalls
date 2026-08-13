@@ -5,14 +5,6 @@ proxies:
   tls: false
   type: socks5
   username: T2clM0QlM0Q6
-- name: 3|[Hysteria2] kr KR
-  password: 300f8c21-6341-4503-a5db-c13d331c63c8
-  port: 20801
-  server: hg1.yuanbaojc.site
-  skip-cert-verify: true
-  sni: hg1.yuanbaojc.site
-  tls: false
-  type: hysteria2
 - name: 3|[Hysteria2] 韩国
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -21,13 +13,19 @@ proxies:
   sni: vpn-kr-003.fastervpn.world
   tls: false
   type: hysteria2
-- name: 7|[Http] krKR_1|1.9MB/s
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  sni: testkr3.ssv.vc
+- client-fingerprint: firefox
+  encryption: none
+  name: 7|[VLESS] krKR_1|2.7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 2053
+  reality-opts:
+    public-key: nNohnS45XyaEcSAKchLKkCTEBzVUc-PZ6UfbKo83z0E
+    short-id: '!!str 44e0e12bb5fcebe2'
+  server: 151.245.106.49
+  servername: www.cloudflare.com
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: test
+  uuid: d6d7619a-6b7b-4a80-bd8c-5ddb645eba4a
+  xudp: true

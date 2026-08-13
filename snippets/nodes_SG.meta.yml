@@ -47,7 +47,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 新加坡3|@ripaojiedian
+- name: 5,6,7|[Trojan] sgSG_1|1.4MB/s
   network: tcp
   password: BxceQaOe
   port: 41421
@@ -55,13 +55,24 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 7|[Anytls] sgSG_1|4.9MB/s
+  udp: true
+- name: 7|[Anytls] sgSG_2|1.8MB/s
   password: 13f0acfa-38c1-4e82-a758-583aa31740df
   port: 60572
   server: sivp666.ipad1el.com
   sni: yzhou015.jdvipkuai.cc
   type: anytls
   udp: true
+- fingerprint: ''
+  name: 7|[Anytls] sgSG_3|4.3MB/s
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  port: 60572
+  server: 47.128.71.58
+  skip-cert-verify: true
+  sni: yzhou015.jdvipkuai.cc
+  type: anytls
+  udp: true
+  username: 13f0acfa-38c1-4e82-a758-583aa31740df
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 8|[SS] sgSG²_1|2.4MB/s|X|History

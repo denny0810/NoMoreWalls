@@ -113,15 +113,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 7|[Http] usUS_1|1.4MB/s
-  port: 443
-  server: berniesbodybla.fun
-  sni: berniesbodybla.fun
-  tls: true
-  type: http
-  udp: true
 - multiplexing: MULTIPLEXING_LOW
-  name: 7|[Mieru] usUS_2|1.0MB/s
+  name: 7|[Mieru] usUS_1|3.0MB/s
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
@@ -129,6 +122,20 @@ proxies:
   type: mieru
   udp: true
   username: dongtaiwang.com
+- name: 7|[Http] usUS_2|1.0MB/s
+  port: 443
+  server: berniesbodybla.fun
+  sni: berniesbodybla.fun
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] usUS_3|1021KB/s
+  port: 443
+  server: crosscards.site
+  sni: crosscards.site
+  tls: true
+  type: http
+  udp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

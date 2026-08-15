@@ -93,11 +93,12 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
+  encryption: none
   grpc-opts:
-    grpc-mode: gun
     grpc-service-name: update
-  name: 7|[VLESS] hkHK_1|3.4MB/s
+  name: 7|[VLESS] hkHK_1|2.8MB/s
   network: grpc
+  packet-encoding: xudp
   port: 10126
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
@@ -108,42 +109,18 @@ proxies:
   type: vless
   udp: true
   uuid: B1BF44DF-BADD-44EE-826A-12C27206993D
-- cipher: aes-256-gcm
-  name: 7|[SS] hkHK_2|6.0MB/s
-  password: 9306aebe-da01-3301-8bf0-8d24a461674e
-  port: 1814
-  server: x.2.w.9.p.e.y.8.d.hk05-ae5.entry.v51124-4.qpon
+  xudp: true
+- cipher: chacha20-ietf
+  name: 7|[SS] hkHK_2|1.7MB/s
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8115
+  server: cn03.somethingstranges.com
   type: ss
   udp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 7|[Vmess] hkHK_3|3.8MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: fd15f1d9-a3f5-41e3-a755-f3e7bb32d78d
-  ws-opts:
-    headers:
-      Host: 67102451140aedb1cbfa18e08d87aeeb.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- fingerprint: ''
-  name: 7|[Anytls] hkHK_4|5.4MB/s
-  password: 2fd892b8-4f6c-4597-977e-85ec8a82c7a2
-  port: 448
-  server: 119.147.134.47
-  skip-cert-verify: true
-  sni: ssp.vivo.com.cn
-  type: anytls
-  udp: true
-  username: 2fd892b8-4f6c-4597-977e-85ec8a82c7a2
 - name: 10|[Trojan] HK_speednode_0012
   password: BxceQaOe
   port: 27161

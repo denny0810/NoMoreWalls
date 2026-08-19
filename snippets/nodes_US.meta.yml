@@ -67,7 +67,7 @@ proxies:
   sni: grape-zet-ro-turbo.bumbleshrimp.com
   tls: false
   type: hysteria2
-- name: '3|[Hysteria2] 美国 #3'
+- name: 3,4|[Hysteria2] usUS-🚀@VPNine1
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -100,120 +100,199 @@ proxies:
   sni: node3.vpnushka.lol
   tls: false
   type: hysteria2
-- name: 5,6|[Trojan] 美国|@ripaojiedian
-  network: tcp
+- name: 4|[Hysteria2] 🍏100@oneclickvpnkeys
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 3.149.228.246
+  skip-cert-verify: true
+  sni: vpn-us-003.fastervpn.world
+  tls: false
+  type: hysteria2
+- name: 4|[Hysteria2] us|US|@wxgqlfx|20
+  password: ed77b662dbdf1a817d5eb75ae940cac4
+  port: 50160
+  server: 198-46-188-116.liao.kdns.fr
+  skip-cert-verify: true
+  sni: 198-46-188-116.liao.kdns.fr
+  tls: false
+  type: hysteria2
+- name: 5|[Trojan] us 美国|@ripaojiedian
   password: 6ec301428255a78a1d826988d86cc87e
   port: 39024
   server: 16.162.192.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 美国2|@ripaojiedian
-  network: tcp
+- name: 5|[Trojan] us 美国2|@ripaojiedian
   password: 6ec301428255a78a1d826988d86cc87e
   port: 39024
   server: 16.162.100.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 5,6|[Trojan] 美国3|@ripaojiedian
-  network: tcp
+- name: 5|[Trojan] us 美国3|@ripaojiedian
   password: BxceQaOe
   port: 53001
   server: 16.162.103.28
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 7|[Anytls] usUS_1|1.9MB/s
-  password: e7ed168e-2a59-49bd-a3f2-689c149dc344
-  port: 40991
-  server: umoso-eo669-zhse.clodom.com
+- cipher: aes-256-cfb
+  name: 7|[SS] usUS_1|3.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.145.35.194
+  type: ss
+  udp: true
+- name: 7,10|[Http] US_speednode_0143
+  port: 9002
+  server: 138.199.35.198
   skip-cert-verify: true
-  sni: us1.clodom.top
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 7,10|[VLESS] US_speednode_0130
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8BglmwULIVotYAbGXx3Vd1fXiGJbKSsWnZCGvm4Exl0
-    short-id: '!!str aebdb601b1371778'
-  server: 38.244.4.1
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-- client-fingerprint: chrome
-  name: 7|[VLESS] usUS_3|1.1MB/s
-  network: ws
-  port: 2083
-  server: 104.17.123.101
-  servername: wzknb.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
-  ws-opts:
-    headers:
-      Host: wzknb.pages.dev
-    path: /proxyip=167.253.153.215fp=chrome
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 7|[VLESS] usUS_4|2.4MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 69.46.46.150
-  servername: web-production-ca609.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a838e0a-21e4-4d0a-b467-3ad45686f34e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: web-production-ca609.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    max-early-data: 2048
-    path: /ws/vless/2a838e0a-21e4-4d0a-b467-3ad45686f34e
-  xudp: true
-- name: 7|[Http] usUS_5|3.3MB/s
-  port: 443
-  server: fullmanfirm.icu
-  skip-cert-verify: true
-  sni: fullmanfirm.icu
   tls: true
   type: http
   udp: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 7|[Vmess] usUS_3|1.9MB/s
+  network: http
+  port: 52080
+  server: 38.246.226.240
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
+- name: 7|[Http] usUS_4|1.6MB/s
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] usUS_5|3.1MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 7|[Http] usUS_6|2.0MB/s
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] usUS_7|3.4MB/s
+  password: None
+  port: 443
+  server: jgwynphotoarts.pro
+  skip-cert-verify: false
+  sni: jgwynphotoarts.pro
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] usUS_8|2.4MB/s
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] usUS_9|4.0MB/s
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] usUS_10|2.7MB/s
+  port: 9002
+  server: 156.146.59.44
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] usUS_11|1.9MB/s
+  port: 9002
+  server: 156.146.59.21
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] usUS_12|2.0MB/s
+  password: ''
+  port: 9002
+  server: 156.146.59.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 7|[Http] usUS_13|2.3MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.38
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] usUS_14|1.3MB/s
+  port: 9002
+  server: 156.146.59.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] usUS_15|2.6MB/s
+  password: ''
+  port: 9002
+  server: 156.146.59.46
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 7|[Http] usUS_16|1.3MB/s
+  port: 8090
+  server: 209.148.53.153
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- cipher: aes-256-cfb
+  name: 7|[SS] usUS_17|3.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.144.19.187
+  type: ss
+  udp: true
 - alpn:
-  - h3
+  - h2
   client-fingerprint: chrome
   encryption: none
-  name: 7|[VLESS] usUS_7|1002KB/s
+  name: 7|[VLESS] usUS_18|2.9MB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: adad-production.up.railway.app
-  servername: adad-production.up.railway.app
+  server: rvg-production-a8ad.up.railway.app
+  servername: rvg-production-a8ad.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: 47c6b6f5-f2d0-4965-8bd0-a0d33bbfa740
+  uuid: cfa68865-5010-b107-a538-85d6d97516b8
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: adad-production.up.railway.app
+      Host: rvg-production-a8ad.up.railway.app
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    max-early-data: 2048
-    path: /ws/vless/47c6b6f5-f2d0-4965-8bd0-a0d33bbfa740
+        Gecko) Chrome/31.0.1650.57 Safari/537.36
+    path: /ws/cfa68865-5010-b107-a538-85d6d97516b8
   xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
@@ -229,6 +308,21 @@ proxies:
   skip-cert-verify: true
   type: socks5
   username: ''
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|[VLESS] US_speednode_0130
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8BglmwULIVotYAbGXx3Vd1fXiGJbKSsWnZCGvm4Exl0
+    short-id: '!!str aebdb601b1371778'
+  server: 38.244.4.1
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
 - name: 10|[Http] US_speednode_0131
   password: 'null'
   port: 9002
@@ -340,13 +434,6 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 10|[Http] US_speednode_0143
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 10|[VLESS] US_speednode_0144

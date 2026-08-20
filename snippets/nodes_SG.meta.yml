@@ -15,63 +15,30 @@ proxies:
   sni: sg2.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: 5|[Trojan] sg 新加坡2|@ripaojiedian
+- name: 5,6|[Trojan] 新加坡|@ripaojiedian
+  network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 51396
+  port: 45744
   server: 16.162.100.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 5|[Trojan] sg 新加坡3|@ripaojiedian
+- name: 5,6|[Trojan] 新加坡2|@ripaojiedian
+  network: tcp
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 32434
+  server: 16.162.100.124
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 5,6|[Trojan] 新加坡3|@ripaojiedian
+  network: tcp
   password: BxceQaOe
-  port: 26704
-  server: 16.163.139.175
+  port: 45744
+  server: 16.162.100.208
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: 7|[SS] sgSG_1|1.3MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 120.232.253.90
-  type: ss
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: 7|[Hysteria2] sgSG_2|4.5MB/s
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 18.141.233.65
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
-  type: hysteria2
-  udp: true
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 7|[Hysteria2] sgSG_3|1.7MB/s
-  obfs: ''
-  obfs-password: ''
-  password: P6qkAwznuC076mbIR2cGPg==
-  port: 34567
-  server: 43.156.90.144
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  udp: true
-  up: ''
-- client-fingerprint: chrome
-  name: 7|[Trojan] sgSG_4|1.3MB/s
-  network: tcp
-  password: EQ30679154
-  port: 443
-  server: 18.143.129.104
-  skip-cert-verify: false
-  sni: picked-hamster.rooster465.autos
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 8|[SS] sgSG²_1|2.4MB/s|X|History

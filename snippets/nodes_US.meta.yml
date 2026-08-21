@@ -109,41 +109,27 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- multiplexing: MULTIPLEXING_LOW
-  name: 7|[Mieru] usUS_1|1.3MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  udp: true
-  username: dongtaiwang.com
-- auth: 57ec0f01-0c00-4a69-ad67-937b4735640b
-  name: 7|[Hysteria2] usUS_2|1.8MB/s
-  password: 57ec0f01-0c00-4a69-ad67-937b4735640b
-  port: 35193
-  server: 40t2.wxgqlfx.vip
+- name: 7|[Anytls] usUS_1|1.5MB/s
+  password: 3b32eb1c-150e-4eb4-8323-370844489508
+  port: 15503
+  server: sivp555.ascwt179.com
   skip-cert-verify: true
-  sni: 40t2.wxgqlfx.vip
-  type: hysteria2
+  sni: kr08.lunartrace.io
+  type: anytls
   udp: true
-- down: ''
-  fingerprint: ''
-  name: 7|[Hysteria2] usUS_3|2.4MB/s
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-us-004.fastervpn.world
+- name: 7,10|[Http] US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
   skip-cert-verify: true
-  sni: vpn-us-004.fastervpn.world
-  type: hysteria2
+  tls: true
+  type: http
   udp: true
-  up: ''
+  username: 'null'
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 7|[Trojan] usUS_4|2.3MB/s
+  name: 7|[Trojan] usUS_3|2.3MB/s
   network: ws
   password: MiTiVPN
   port: 443
@@ -157,6 +143,133 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/55.0.2883.87 Safari/537.36
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/f-l@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 7|[Vmess] usUS_4|4.3MB/s
+  network: http
+  port: 52080
+  server: 38.246.226.240
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
+- name: 7|[Http] usUS_5|1.4MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 7|[Http] usUS_6|3.2MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 7|[Http] usUS_7|3.4MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 7|[Http] usUS_8|3.2MB/s
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] usUS_9|3.4MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 7|[Http] usUS_10|3.4MB/s
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] usUS_11|3.0MB/s
+  port: 9002
+  server: 156.146.59.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] usUS_12|3.1MB/s
+  port: 9002
+  server: 156.146.59.39
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] usUS_13|2.8MB/s
+  port: 9002
+  server: 156.146.59.6
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] usUS_14|2.3MB/s
+  port: 9002
+  server: 156.146.59.3
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] usUS_15|1.0MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.20
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 7|[VLESS] usUS_16|2.3MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 2087
+  reality-opts:
+    public-key: iWxxH0TWB1Ciz6sEwtfjUVY61OcTDihou5IJfkt0O0Q
+    short-id: '!!str f2a4c6e8'
+  server: ru.lobbytech.ru
+  servername: vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d01d5a74-09fb-4e9e-b0d9-38b5fd77ad70
+  xudp: true
+- name: 7|[Http] usUS_17|1.6MB/s
+  password: ''
+  port: 9002
+  server: 156.146.59.17
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
@@ -186,15 +299,6 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-- name: 10|[Http] US_speednode_0131
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 10|[VLESS] US_speednode_0132

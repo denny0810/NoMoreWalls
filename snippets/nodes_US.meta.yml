@@ -36,11 +36,7 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- down: ''
-  fingerprint: ''
-  name: 3,7|[Hysteria2] frFR_6|1.4MB/s
-  obfs: ''
-  obfs-password: ''
+- name: 3,4|[Hysteria2] 🍥33@oneclickvpnkeys
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
   server: mg2.mangshe.xyz
@@ -48,8 +44,6 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-  udp: true
-  up: ''
 - name: 3|[Hysteria2] 美国
   password: CJtE4HLmxz859YMNiZM1NTuDRy7jjs8t
   port: 1443
@@ -115,26 +109,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: firefox
-  name: 7|[VLESS] usUS_1|1.3MB/s
-  network: xhttp
-  port: 12443
-  reality-opts:
-    public-key: RpGscXq4JjL79WvYtkJ62Uwqyonhlw5n08goe-1UQCs
-  server: 46.243.142.42
-  servername: strm.yandex.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8e85752d-c04f-427d-9d70-b10d144c8492
-  xhttp-opts:
-    host: strm.yandex.net
-    mode: stream-one
-    path: /static/v1/cache/a7c39e1f5b82d6049d31f7e8c205ab6d
-    x-padding-bytes: 50-150
-    x-padding-obfs-mode: false
 - multiplexing: MULTIPLEXING_LOW
-  name: 7|[Mieru] usUS_2|1.4MB/s
+  name: 7|[Mieru] usUS_1|2.7MB/s
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
@@ -142,15 +118,6 @@ proxies:
   type: mieru
   udp: true
   username: dongtaiwang.com
-- auth: 57ec0f01-0c00-4a69-ad67-937b4735640b
-  name: 7|[Hysteria2] usUS_3|1.1MB/s
-  password: 57ec0f01-0c00-4a69-ad67-937b4735640b
-  port: 35193
-  server: 40t2.wxgqlfx.vip
-  skip-cert-verify: true
-  sni: 40t2.wxgqlfx.vip
-  type: hysteria2
-  udp: true
 - name: 7,10|[Http] US_speednode_0134
   port: 443
   server: voteshirleysew.club
@@ -166,7 +133,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 7|[Http] usUS_7|2.5MB/s
+- name: 7|[Http] usUS_4|1.0MB/s
   port: 443
   server: purposebydesig.club
   skip-cert-verify: false
@@ -174,47 +141,44 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 7|[Http] usUS_8|1.7MB/s
-  password: None
-  port: 443
-  server: efr-marktplatz.club
-  skip-cert-verify: false
-  sni: efr-marktplatz.club
-  tls: true
-  type: http
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] usUS_5|4.2MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21105
+  server: 211.91.158.26
+  type: ss
   udp: true
-- name: 7|[Http] usUS_10|1.1MB/s
-  port: 443
-  server: jgwynphotoarts.pro
-  skip-cert-verify: false
-  sni: jgwynphotoarts.pro
-  tls: true
-  type: http
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] usUS_6|3.5MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21105
+  server: 211.91.158.44
+  type: ss
   udp: true
-- name: 7|[Http] usUS_11|2.0MB/s
-  port: 443
-  server: webdrone.club
-  sni: webdrone.club
-  tls: true
-  type: http
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] usUS_7|4.3MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21108
+  server: 211.91.158.44
+  type: ss
   udp: true
-- auth: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-  name: 7|[Hysteria2] usUS_12|2.4MB/s
-  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-  port: 8443
-  server: 222.167.212.81
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 7|[Trojan] usUS_8|1.0MB/s
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 45.205.0.6
   skip-cert-verify: true
-  sni: hopp-legend-se.roxa.org
-  type: hysteria2
+  sni: 333-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
+  type: trojan
   udp: true
-- name: 7|[Http] usUS_13|2.0MB/s
-  port: 443
-  server: goedkoopgeluid.icu
-  skip-cert-verify: true
-  sni: goedkoopgeluid.icu
-  tls: true
-  type: http
-  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/u-s@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

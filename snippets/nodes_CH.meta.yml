@@ -1,4 +1,12 @@
 proxies:
+- name: 4|[Hysteria2] 🧮46@oneclickvpnkeys
+  password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
+  port: 443
+  server: che01plrhy01.tcp-reset-club.net
+  skip-cert-verify: true
+  sni: che01plrhy01.tcp-reset-club.net
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   name: '4|[Hysteria2] کانال تلگرام : Free_VPN_CH@ #1'
@@ -11,17 +19,17 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 7|[Http] chCH_1|1.6MB/s
+- disable-sni: true
+  down: ''
+  fingerprint: ''
+  name: 7|[Hysteria2] chCH_1|2.1MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
   port: 443
-  server: 31.7.62.50
+  server: che01plrhy01.tcp-reset-club.net
   skip-cert-verify: true
-  tls: true
-  type: http
+  sni: 127.0.0.1
+  type: hysteria2
   udp: true
-- name: 7|[Http] chCH_2|1.8MB/s
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
+  up: ''

@@ -367,17 +367,30 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
-  name: 7|[SS] krKR_1|4.6MB/s
+  name: 7|[SS] krKR_1|5.7MB/s
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.138
   type: ss
   udp: true
+- alterId: 2
+  cipher: auto
+  name: 7|[Vmess] sgSG_1|5.0MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - alpn:
   - ''
-  alterId: '0'
+  alterId: 0
   cipher: auto
-  name: 7|[Vmess] hkHK_2|2.5MB/s
+  name: 7|[Vmess] hkHK_2|3.4MB/s
   network: ws
   packet-encoding: xudp
   port: 16632
@@ -394,44 +407,163 @@ proxies:
     path: /
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: 7|[SS] krKR_2|5.2MB/s
+  name: 7|[SS] usUS_1|2.8MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21107
+  port: 21105
   server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 7|[SS] jpJP_1|4.2MB/s
+  name: 7|[SS] gbGB_1|1.4MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21117
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] itIT_1|1.9MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21113
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] jpJP_1|1.0MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: 21109
   server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 7|[SS] gbGB_1|4.1MB/s
+  name: 7|[SS] gbGB_2|2.5MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: 21117
   server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 7|[SS] sgSG_1|3.9MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21121
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|[SS] usUS_4|3.8MB/s
+  name: 7|[SS] usUS_2|2.0MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: 21108
   server: 211.91.158.44
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 7|[SS] gbGB_2|2.3MB/s
+  name: 7|[SS] inIN_1|1.9MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21117
+  port: 21103
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] gbGB_5|2.1MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21104
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] itIT_3|4.4MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21113
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] krKR_2|1.4MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21114
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] deDE_4|3.4MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21118
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] jpJP_2|1.2MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21119
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] itIT_4|1.1MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21120
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] inIN_2|3.3MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21125
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] frFR_2|2.0MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21126
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] inIN_3|1.6MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21103
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] gbGB_6|1.2MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21104
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] usUS_4|1.8MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21105
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] ilIL_1|1.8MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21116
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] deDE_5|4.0MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21118
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] thTH_3|1.6MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21123
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] inIN_4|1.5MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21125
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] frFR_3|2.1MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21126
   server: 211.91.158.44
   type: ss
   udp: true

@@ -30,46 +30,30 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
-  name: 7|[SS] gbGB_1|1.7MB/s
+  name: 7|[SS] gbGB_1|1.6MB/s
   password: amazonskr05
   port: 443
   server: 13.135.252.176
   type: ss
   udp: true
-- name: 7|[Http] gbGB_2|1.8MB/s
+- name: 7|[Http] gbGB_2|1.6MB/s
   port: 443
-  server: 185.235.0.34
+  server: 185.235.0.2
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 7|[Http] gbGB_3|3.2MB/s
-  port: 443
-  server: 185.235.0.66
-  skip-cert-verify: true
-  tls: true
-  type: http
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] gbGB_3|3.6MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21117
+  server: 211.91.158.26
+  type: ss
   udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 7|[VLESS] gbGB_4|2.4MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
-    short-id: '!!str ff776ff77be48b88'
-  server: ang.freeinternat.com
-  servername: ang.freeinternat.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fbb74aa8-b89a-4f20-9504-6b25aadf6681
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: grpc
-  name: 7|[VLESS] gbGB_5|1.2MB/s
+  name: 7|[VLESS] gbGB_4|1.1MB/s
   network: grpc
   packet-encoding: xudp
   port: 2054
@@ -81,107 +65,19 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 626c0789-16d1-4815-be8b-bd03959d7d12
+  uuid: d900a139-8b5f-4758-8a32-389c6f36fc86
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 7|[VLESS] gbGB_6|2.3MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  server: 107.161.160.231
-  servername: lapa3.api3-max.ru
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] gbGB_5|3.7MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21117
+  server: 211.91.158.44
+  type: ss
   udp: true
-  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 7|[VLESS] gbGB_7|2.0MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  server: 107.161.160.64
-  servername: lapa2.api3-max.ru
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 7|[SS] gbGB_6|1.9MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21104
+  server: 211.91.158.44
+  type: ss
   udp: true
-  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 7|[VLESS] gbGB_8|3.3MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  server: 107.181.155.181
-  servername: wok7.api3-max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 7|[VLESS] gbGB_9|1.1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  server: 217.179.6.228
-  servername: lapa6.api3-max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 7|[VLESS] gbGB_10|1.1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  server: wok3.api3-max.ru
-  servername: wok3.api3-max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 7|[VLESS] gbGB_11|1.7MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  server: wok5.api3-max.ru
-  servername: wok5.api3-max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-  xudp: true

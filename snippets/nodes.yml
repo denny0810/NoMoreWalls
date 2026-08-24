@@ -261,11 +261,12 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-gcm
-  name: 5,6|[SS] 香港2|@ripaojiedian
+  name: 5,6,7|[SS] hkHK_1|2.3MB/s
   password: Butterfly123@qwe9527
   port: 10001
   server: 103.236.66.4
   type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: 5,6|[SS] 香港3|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -297,11 +298,12 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: 5,6|[SS] 日本2|@ripaojiedian
+  name: 5,6,7|[SS] jpJP_2|1.1MB/s
   password: Butterfly123@qwe9527
   port: 40001
   server: 103.236.66.4
   type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: 5,6|[SS] 日本3|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -317,11 +319,12 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: 5,6|[SS] 美国2|@ripaojiedian
+  name: 5,6,7|[SS] usUS_1|1.9MB/s
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: 5,6|[SS] 美国|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -352,7 +355,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 7|[Trojan] uaUA_1|3.3MB/s
+- cipher: aes-256-cfb
+  name: 7|[SS] jpJP_1|2.1MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.136
+  type: ss
+  udp: true
+- name: 7|[Trojan] uaUA_1|3.0MB/s
   network: tcp
   password: a126f35c-e832-4115-8593-b723ade3f7be
   port: 20066
@@ -361,7 +371,7 @@ proxies:
   sni: hk.catxstar.com
   type: trojan
   udp: true
-- name: 7|[Trojan] noNO_2|3.3MB/s
+- name: 7|[Trojan] noNO_2|2.7MB/s
   network: tcp
   password: a126f35c-e832-4115-8593-b723ade3f7be
   port: 20085
@@ -369,20 +379,6 @@ proxies:
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 7|[SS] gbGB_1|1.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.175.227.220
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 7|[SS] gbGB_3|3.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.8.123.237
-  type: ss
   udp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ

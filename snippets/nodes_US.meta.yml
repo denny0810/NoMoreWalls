@@ -1,41 +1,4 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 1|[Vmess] US74｜机房｜低风险
-  network: tcp
-  port: '34114'
-  server: 103.181.164.237
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alpn:
-  - h3%2Ch2%2Chttp%2F1.1
-  name: 1|[Trojan] US80｜机房｜低风险
-  network: ws
-  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
-  port: 443
-  server: 172.64.53.190
-  skip-cert-verify: true
-  sni: snll667.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snll667.pages.dev
-    path: '%2F'
-- name: 1|[Socks5] US145｜机房｜低风险
-  port: 1080
-  server: 174.138.61.184
-  tls: false
-  type: socks5
-  username: Og%3D%3D
-- name: 1|[Trojan] US146｜机房｜低风险
-  network: tcp
-  password: af4b064a9c39472fb34ad8b113acdc6b
-  port: 443
-  server: 194.33.45.157
-  skip-cert-verify: true
-  sni: 194.33.45.157
-  type: trojan
 - name: 3|[Hysteria2] usUS
   password: 17aVvwmiSU
   port: 10929
@@ -92,312 +55,117 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 5|[Trojan] us 美国|@ripaojiedian
-  password: d5517dedef425597a1b9fdbaad99544e
+- cipher: aes-256-gcm
+  name: 5,6|[SS] 美国2|@ripaojiedian
+  password: Butterfly123@qwe9527
+  port: 50003
+  server: 103.236.66.4
+  type: ss
+- cipher: aes-256-gcm
+  name: 5,6|[SS] 美国|@ripaojiedian
+  password: Butterfly123@qwe9527
+  port: 50001
+  server: 103.236.66.4
+  type: ss
+- name: 5,6|[Trojan] 美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
   port: 34039
-  server: 43.199.143.104
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 5|[Trojan] us 美国2|@ripaojiedian
-  password: d5517dedef425597a1b9fdbaad99544e
-  port: 39024
-  server: 95.40.14.234
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 5|[Trojan] us 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 39024
-  server: 43.199.155.17
+  server: 54.179.227.94
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] 美国2|@ripaojiedian
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 7|[VLESS] usUS_1|2.4MB/s
   network: ws
-  port: '443'
-  server: 3kCf86Ufi0U5xBDA.v.3dns.vip
-  servername: 3kCf86Ufi0U5xBDA.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 3kCf86Ufi0U5xBDA.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 6|[Vmess] 美国|@ripaojiedian
-  network: ws
-  port: '443'
-  server: lL0GIaPVZ6Zxkd94.v.3dns.vip
-  servername: lL0GIaPVZ6Zxkd94.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: lL0GIaPVZ6Zxkd94.v.3dns.vip
-    path: /ws-vmess
-- name: 6|[Trojan] 美国3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 39024
-  server: 54.46.3.138
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 7|[VLESS] usUS_1|1.1MB/s
-  network: tcp
-  port: 50159
-  reality-opts:
-    public-key: m4h311FFXc-2_cebf7mfjVxGMGCw7B4ADrRpgMsUxTw
-    short-id: '!!str 0fbe8f876366819f'
-  server: 154.17.224.207
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06431129-68ab-4ed0-adb4-e218715a5cac
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - fcbbcc4fc4.freeino.ir
-    path:
-    - /
-  name: 7|[VLESS] usUS_2|3.4MB/s
-  network: http
   packet-encoding: xudp
-  port: 4046
-  server: fcbbcc4fc4.freeino.ir
+  port: 443
+  server: sjzhehzs-production.up.railway.app
+  servername: sjzhehzs-production.up.railway.app
+  tls: true
   type: vless
   udp: true
-  uuid: 2b44a12a-2a00-48aa-a8db-0d182e34d888
+  uuid: 5331798d-827a-47b2-8a00-d62db5077812
+  ws-opts:
+    headers:
+      Host: sjzhehzs-production.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /ws/5331798d-827a-47b2-8a00-d62db5077812
   xudp: true
 - encryption: none
-  name: 7|[VLESS] usUS_3|1.0MB/s
+  name: 7|[VLESS] usUS_2|2.8MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: 50.62.194.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime37.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: 7|[VLESS] usUS_3|2.2MB/s
   network: ws
   packet-encoding: xudp
   port: 80
-  server: 18.239.134.69
+  server: 91.206.71.8
   type: vless
   udp: true
-  uuid: de27291c-15a9-4256-9ba7-ad517569877e
+  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
   ws-opts:
     headers:
-      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2272.101 Safari/537.36
-    path: /
+      Host: round-haze-8783.294.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /pyip=Telegram🇨🇳+@WangCai2
   xudp: true
-- name: 7,10|[Http] US_speednode_0131
-  password: 'null'
+- name: 7|[Http] usUS_4|1.8MB/s
   port: 9002
-  server: 138.199.35.216
+  server: 156.146.59.11
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: 'null'
-- cipher: chacha20-ietf-poly1305
-  name: 7|[SS] usUS_5|1.5MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21108
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- name: 7|[Http] usUS_6|2.8MB/s
-  password: 'null'
+- name: 7|[Http] usUS_5|1.6MB/s
   port: 9002
-  server: 138.199.35.200
+  server: 156.146.59.28
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: 'null'
-- name: 7|[Http] usUS_7|3.6MB/s
+- name: 7|[Http] usUS_6|1.1MB/s
   port: 9002
-  server: 138.199.35.206
+  server: 156.146.59.22
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 7|[Http] usUS_8|1.0MB/s
+- name: 7|[Http] usUS_7|2.8MB/s
   password: ''
   port: 9002
-  server: 138.199.35.199
+  server: 156.146.59.5
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
   username: ''
-- name: 7|[Http] usUS_9|4.1MB/s
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 7|[Http] usUS_10|3.8MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 7|[Http] usUS_11|1.4MB/s
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 7|[Http] usUS_12|1.0MB/s
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 7|[Http] usUS_13|3.1MB/s
+- name: 7|[Http] usUS_8|1.2MB/s
   password: None
   port: 9002
-  server: 138.199.35.218
+  server: 156.146.59.9
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 7|[Http] usUS_14|2.8MB/s
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 7|[Http] usUS_15|1.1MB/s
-  port: 16062
-  server: 172.85.99.150
-  type: http
-  udp: true
-- name: 7|[Http] usUS_16|3.7MB/s
-  password: 'null'
-  port: 9002
-  server: 156.146.59.23
-  skip-cert-verify: true
-  sni: 156.146.59.23
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 7|[Http] usUS_17|1.9MB/s
-  password: ''
-  port: 9002
-  server: 156.146.59.42
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 7|[Http] usUS_18|2.5MB/s
-  port: 9002
-  server: 156.146.59.30
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 7|[Http] usUS_19|1.3MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 7|[Http] usUS_20|2.4MB/s
-  port: 9002
-  server: 156.146.59.25
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 7|[Http] usUS_21|2.2MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.39
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 7|[Http] usUS_22|3.1MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.44
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 7|[Http] usUS_23|1.2MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 7|[Http] usUS_24|4.0MB/s
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|[SS] usUS_25|2.4MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21105
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 7|[VLESS] usUS_26|1.8MB/s
-  network: raw
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c
-    short-id: '!!str '
-  server: 143.246.196.157
-  servername: www.blocket.se
-  tls: true
-  type: vless
-  udp: true
-  uuid: 45c595fa-988f-11f1-8024-54db13ea7d40
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 7|[VLESS] usUS_27|3.4MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: Hm6KQquLcmDmYue0NuAmNJ7_3SfoFOezG0-HnMOttVc
-    short-id: '!!str 2017ab5272b58635'
-  server: 154.40.137.138
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 68644cac-5a44-4de7-ab56-d86b6f902088
-  xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
@@ -427,6 +195,15 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
+- name: 10|[Http] US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 10|[VLESS] US_speednode_0132

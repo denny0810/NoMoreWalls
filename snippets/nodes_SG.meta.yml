@@ -1,4 +1,12 @@
 proxies:
+- name: 1|[Trojan] SG6｜机房｜高风险 (黑名单)
+  network: tcp
+  password: af4b064a9c39472fb34ad8b113acdc6b
+  port: 443
+  server: 5.180.78.22
+  skip-cert-verify: true
+  sni: 5.180.78.22
+  type: trojan
 - name: 3|[Hysteria2] SG
   password: 9gWt2z3KdC9VI8kAQYVvvSvhT9e05CfI
   port: 12645
@@ -47,23 +55,32 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 7|[Trojan] sgSG_1|4.9MB/s
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.18.32.47
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 7|[VLESS] sgSG_1|4.5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 64294
+  reality-opts:
+    public-key: KmcS-yU6kDycbSojXgUYU1-fHwXmF1oBk_ke0gbGUy0
+    short-id: '!!str 7083'
+  server: jpaws.ccwink.photos
+  servername: docs.aws.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1
+  xudp: true
+- name: 7|[Trojan] sgSG_2|3.8MB/s
+  network: tcp
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 28749
+  server: dd1d1.catcat321.com
   skip-cert-verify: true
-  sni: fls-bbg--MiTiVPN---MiTiVPN-u.aPp-cLoud.IR
+  sni: d.sgj1.cat.bilibili.com
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/F-ls
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 8|[SS] sgSG²_1|2.4MB/s|X|History

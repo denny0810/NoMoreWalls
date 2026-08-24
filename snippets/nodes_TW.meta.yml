@@ -1,4 +1,18 @@
 proxies:
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  name: 1|[Trojan] TW3｜机房｜低风险
+  network: ws
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  port: 14147
+  server: 203.69.248.40
+  skip-cert-verify: true
+  sni: snll667.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snll667.pages.dev
+    path: '%2F'
 - name: 3|[Hysteria2] 台湾
   password: 85a88b70b5f2f73d0dcac92bd3934a5e
   port: 50160
@@ -12,11 +26,3 @@ proxies:
   port: 30001
   server: 36.33.35.105
   type: ss
-- name: 7|[Anytls] twTW_1|4.3MB/s
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 443
-  server: tw72.cybergalaxy.me
-  skip-cert-verify: true
-  sni: tw72.cybergalaxy.me
-  type: anytls
-  udp: true

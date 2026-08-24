@@ -1,4 +1,108 @@
 proxies:
+- name: 1|[Hysteria2] JP2｜机房｜低风险
+  password: b18a8d38-0005-415e-ad3a-fbdeaa7407c8
+  port: 21920
+  server: jp.xn--ehqa22b.site
+  skip-cert-verify: true
+  sni: jp.xn--ehqa22b.site
+  tls: false
+  type: hysteria2
+- name: 1|[Hysteria2] JP3｜机房｜低风险
+  password: ff7393c0-e88a-4f93-afef-6e8151ebad53
+  port: 21804
+  server: jp.xn--ehqa22b.site
+  skip-cert-verify: true
+  sni: jp.xn--ehqa22b.site
+  tls: false
+  type: hysteria2
+- name: 1|[Hysteria2] JP4｜机房｜低风险
+  password: b18a8d38-0005-415e-ad3a-fbdeaa7407c8
+  port: 21340
+  server: jp.xn--ehqa22b.site
+  skip-cert-verify: true
+  sni: jp.xn--ehqa22b.site
+  tls: false
+  type: hysteria2
+- name: 1|[Hysteria2] JP5｜机房｜低风险
+  password: ff7393c0-e88a-4f93-afef-6e8151ebad53
+  port: 21520
+  server: jp.xn--ehqa22b.site
+  skip-cert-verify: true
+  sni: jp.xn--ehqa22b.site
+  tls: false
+  type: hysteria2
+- name: 1|[Hysteria2] JP6｜机房｜低风险
+  password: 6e8aaa7f-56e4-451e-bb31-a9b2f8c8b38e
+  port: 21556
+  server: jp.xn--ehqa22b.site
+  skip-cert-verify: true
+  sni: jp.xn--ehqa22b.site
+  tls: false
+  type: hysteria2
+- name: 1|[Hysteria2] JP7｜机房｜低风险
+  password: aa98121d-728a-437c-a84f-99feb82a467f
+  port: 21108
+  server: jp.xn--ehqa22b.site
+  skip-cert-verify: true
+  sni: jp.xn--ehqa22b.site
+  tls: false
+  type: hysteria2
+- name: 1|[Hysteria2] JP8｜机房｜低风险
+  password: 1f3a8f7a-ce7d-4005-81ba-44e03a0022aa
+  port: 21844
+  server: jp.xn--ehqa22b.site
+  skip-cert-verify: true
+  sni: jp.xn--ehqa22b.site
+  tls: false
+  type: hysteria2
+- name: 1|[Hysteria2] JP9｜机房｜低风险
+  password: 9cf5c4ba-6939-40b2-a78a-98a582e233bc
+  port: 21118
+  server: jp.xn--ehqa22b.site
+  skip-cert-verify: true
+  sni: jp.xn--ehqa22b.site
+  tls: false
+  type: hysteria2
+- name: 1|[Hysteria2] JP10｜机房｜低风险
+  password: e998e2a0-ce11-4475-bf5f-2de6e3dad046
+  port: 21761
+  server: jp.xn--ehqa22b.site
+  skip-cert-verify: true
+  sni: jp.xn--ehqa22b.site
+  tls: false
+  type: hysteria2
+- name: 1|[Hysteria2] JP11｜机房｜低风险
+  password: f593def0-fa12-4ff7-8857-85894fedcb5a
+  port: 21407
+  server: jp.xn--ehqa22b.site
+  skip-cert-verify: true
+  sni: jp.xn--ehqa22b.site
+  tls: false
+  type: hysteria2
+- name: 1|[Hysteria2] JP12｜机房｜低风险
+  password: 727cd454-2df4-4ae9-9ad1-78f7d9823d30
+  port: 21522
+  server: jp.xn--ehqa22b.site
+  skip-cert-verify: true
+  sni: jp.xn--ehqa22b.site
+  tls: false
+  type: hysteria2
+- name: 1|[Hysteria2] JP20｜机房｜低风险
+  password: 46a64503-b76f-45b4-9948-6bac86e8d29e
+  port: 21476
+  server: jp.xn--ehqa22b.site
+  skip-cert-verify: true
+  sni: jp.xn--ehqa22b.site
+  tls: false
+  type: hysteria2
+- name: 1|[Hysteria2] JP21｜机房｜低风险
+  password: 46a64503-b76f-45b4-9948-6bac86e8d29e
+  port: 21949
+  server: jp.xn--ehqa22b.site
+  skip-cert-verify: true
+  sni: jp.xn--ehqa22b.site
+  tls: false
+  type: hysteria2
 - name: 3|[Hysteria2] 日本
   password: Foc_Mcxi45rM9v3ve_N92fdrK_10_Ssc5
   port: 8443
@@ -32,21 +136,48 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: 5,6|[SS] 日本2|@ripaojiedian
+  name: 5,6,7|[SS] jpJP_2|2.7MB/s
   password: Butterfly123@qwe9527
   port: 40001
   server: 103.236.66.4
   type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: 5,6|[SS] 日本3|@ripaojiedian
   password: Butterfly123@qwe9527
   port: 40002
   server: 103.236.66.4
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|[SS] jpJP_1|1.4MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21119
-  server: 211.91.158.26
-  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 7|[VLESS] jpJP_1|5.3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 53113
+  reality-opts:
+    public-key: BdFiTcTZt1oIRD_Q04KnxPjs_1cZFqjV-sbVGP49PVY
+    short-id: '!!str 238ba3b9e8'
+  server: jpaws.ccwink.photos
+  servername: docs.aws.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1
+  xudp: true
+- name: 7|[Anytls] jpJP_3|6.2MB/s
+  password: 752a9aac-91a7-4284-9d6e-234efae318b6
+  port: 17968
+  server: jjz.jjznodenode.top
+  sni: jjz.jjznodenode.top
+  type: anytls
+  udp: true
+- auth: 9c5be37406b6584005b8de0ee3734dd9
+  name: 7|[Hysteria2] jpJP_4|1.4MB/s
+  password: 9c5be37406b6584005b8de0ee3734dd9
+  port: 50160
+  server: 140.238.43.0
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
   udp: true

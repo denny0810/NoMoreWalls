@@ -103,6 +103,22 @@ proxies:
   sni: jp.xn--ehqa22b.site
   tls: false
   type: hysteria2
+- name: 3|[Hysteria2] 日本
+  password: Foc_Mcxi45rM9v3ve_N92fdrK_10_Ssc5
+  port: 8443
+  server: 185.39.31.117
+  skip-cert-verify: true
+  sni: grape-beer.yyuyy.com
+  tls: false
+  type: hysteria2
+- name: '3|[Hysteria2] 日本 #1'
+  password: ef18d810-719c-4bf1-83c6-615d01f217eb
+  port: 443
+  server: jp.cryptoofarm.com
+  skip-cert-verify: true
+  sni: jp.cryptoofarm.com
+  tls: false
+  type: hysteria2
 - name: 3|[Hysteria2] JP
   password: oU4tGn37oQ9JGmqnlTGkU3knrfAbclsq
   port: 32135
@@ -131,12 +147,13 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- name: 7|[Trojan] jpJP_1|2.8MB/s
-  network: tcp
+- client-fingerprint: chrome
+  name: 7|[Trojan] jpJP_3|1.7MB/s
+  network: raw
   password: 6519a715da174466
   port: 101
   server: jcnp178.pacemakere.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: jcnp178.pacemakere.com
   type: trojan
   udp: true

@@ -272,7 +272,7 @@ proxies:
   port: 10006
   server: 112.28.141.77
   type: ss
-- name: 5,6,7|[Trojan] hkHK_1|4.2MB/s
+- name: 5,6|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 2944
@@ -280,7 +280,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - name: 5,6|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -353,95 +352,63 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 7|[Trojan] noNO_2|3.2MB/s
-  network: tcp
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20085
-  server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: 7|[Trojan] uaUA_3|2.1MB/s
-  network: tcp
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20066
-  server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
-  name: 7|[SS] krKR_1|5.2MB/s
+  name: 7|[SS] krKR_1|2.5MB/s
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.138
   type: ss
   udp: true
-- name: 7|[Trojan] uaUA_2|2.5MB/s
+- name: 7|[Trojan] idID_1|1.3MB/s
+  network: tcp
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20056
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- name: 7|[Trojan] uaUA_2|1.3MB/s
   network: tcp
   password: a126f35c-e832-4115-8593-b723ade3f7be
   port: 20066
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 7|[Vmess] hkHK_2|4.4MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  servername: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+  ws-opts:
+    headers:
+      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- name: 7|[Trojan] noNO_1|3.0MB/s
+  network: tcp
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20085
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
   udp: true
-- name: 7|[Trojan] scSC_3|3.2MB/s
-  network: raw
-  password: 5e89314202a8405f
-  port: 101
-  server: kuso30.pacemakere.com
-  skip-cert-verify: false
-  sni: kuso30.pacemakere.com
-  type: trojan
-  udp: true
-- name: 7|[Trojan] usUS_1|1.0MB/s
-  network: tcp
-  password: c857562678594197
-  port: 20063
-  server: saj2000e.pacemakere.com
-  skip-cert-verify: true
-  sni: saj2000e.pacemakere.com
-  type: trojan
-  udp: true
-- name: 7|[Trojan] jpJP_3|1.7MB/s
-  network: raw
-  password: 6519a715da174466
-  port: 101
-  server: jcnp178.pacemakere.com
-  skip-cert-verify: false
-  sni: jcnp178.pacemakere.com
-  type: trojan
-  udp: true
-- name: 7|[Trojan] scSC_2|4.1MB/s
-  network: tcp
-  password: 3b9deff947c74dde
-  port: 101
-  server: kuso153.pacemakere.com
-  skip-cert-verify: true
-  sni: kuso153.pacemakere.com
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 7|[SS] gbGB_1|1.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.135.167.23
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 7|[SS] gbGB_2|1.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.132.52.104
-  type: ss
-  udp: true
-- name: 7|[Trojan] noNO_3|2.7MB/s
+- name: 7|[Trojan] thTH_1|1.4MB/s
   network: tcp
   password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20085
-  server: hkdcrtc-e.catcat321.com
+  port: 20023
+  server: kkvlvvq-a.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan

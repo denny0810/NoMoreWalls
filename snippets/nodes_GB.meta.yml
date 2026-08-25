@@ -37,3 +37,40 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
+- name: 7|[Http] gbGB_1|2.5MB/s
+  port: 443
+  server: 193.36.118.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] gbGB_2|3.1MB/s
+  port: 5002
+  server: 94.76.224.104
+  type: http
+  udp: true
+- name: 7|[Http] gbGB_3|3.1MB/s
+  password: None
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] gbGB_4|3.0MB/s
+  port: 443
+  server: 185.235.0.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- encryption: none
+  name: 7|[VLESS] gbGB_5|1.6MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 1041
+  server: 45.140.36.118
+  type: vless
+  udp: true
+  uuid: d8b42cd5-b149-4356-9e61-111111111111
+  xudp: true

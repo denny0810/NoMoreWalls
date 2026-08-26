@@ -275,24 +275,24 @@ proxies:
 - name: 5,6|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2944
-  server: 18.181.83.46
+  port: 1103
+  server: 95.40.24.109
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 5,6|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1103
-  server: 43.206.117.36
+  port: 4117
+  server: 54.250.197.209
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 5,6|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 16691
-  server: 95.40.27.43
+  port: 49811
+  server: 54.238.251.95
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -311,8 +311,8 @@ proxies:
 - name: 5,6|[Trojan] 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 32434
-  server: 95.40.27.43
+  port: 41421
+  server: 3.115.9.60
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -331,8 +331,8 @@ proxies:
 - name: 5,6|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 10418
-  server: 18.163.118.157
+  port: 53001
+  server: 95.40.24.249
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -352,76 +352,143 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 7|[Trojan] moMO_1|2.4MB/s
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 7|[Vmess] hkHK_1|3.2MB/s
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+  ws-opts:
+    headers:
+      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+    path: /
+- name: 7|[Trojan] noNO_1|1.8MB/s
   network: tcp
   password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20068
+  port: 20085
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- name: 7|[Trojan] uaUA_1|3.3MB/s
+  network: tcp
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20066
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- name: 7|[Trojan] frFR_3|2.8MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.19.229.21
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /assignment
+- name: 7|[Trojan] frFR_4|3.0MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.152
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /assignment
+- name: 7|[Trojan] frFR_5|1.5MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.175
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /assignment
+- name: 7|[Trojan] frFR_6|2.4MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.229
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
+- name: 7|[Trojan] frFR_7|1.9MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.3
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /assignment
+- cipher: aes-256-cfb
+  name: 7|[SS] ieIE_1|2.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.30.74.16
+  type: ss
+  udp: true
+- name: 7|[Trojan] itIT_1|1.2MB/s
+  network: tcp
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  port: 20065
   server: kkvlvvq-a.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 7|[SS] krKR_1|4.0MB/s
-  password: 1234!@#$
-  port: 1774
-  server: 49.254.204.133
-  type: ss
-  udp: true
-- name: 7|[Trojan] uaUA_1|3.1MB/s
-  network: tcp
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20066
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 7|[SS] caCA_1|4.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.182.226.235
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 7|[SS] caCA_2|3.2MB/s
+  name: 7|[SS] caCA_1|1.3MB/s
   password: amazonskr05
   port: 443
   server: 16.52.90.213
   type: ss
   udp: true
-- alpn:
-  - h2
-  name: 7|[Trojan] deDE_9|1.3MB/s
-  network: ws
-  password: epc3ufz9q4ocqeqh
-  port: 2087
-  server: uwu.blueknightnet.qzz.io
-  skip-cert-verify: false
-  sni: uwu.dianaw.cc.cd
+- name: 7|[Trojan] noNO_4|2.7MB/s
+  network: tcp
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20085
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 7|[Vmess] sgSG_3|1.6MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 53386
-  server: x-ui.zxhh.top
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 32e75662-c1ed-4e8d-f78c-3dcc685cc795
-  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 8|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

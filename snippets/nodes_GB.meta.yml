@@ -36,69 +36,38 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- name: '3|[Hysteria2] 英国 #4'
-  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-  port: 8080
-  server: 222.167.212.81
-  skip-cert-verify: true
-  sni: hopp-legend-se.roxa.org
-  tls: false
-  type: hysteria2
 - cipher: aes-256-cfb
-  name: 7|[SS] gbGB_1|1.1MB/s
+  name: 7|[SS] gbGB_1|1.9MB/s
   password: amazonskr05
   port: 443
-  server: 18.170.37.90
+  server: 18.132.203.206
   type: ss
   udp: true
-- name: 7|[Http] gbGB_2|1.4MB/s
-  port: 443
-  server: 37.120.233.50
+- name: 7|[Http] gbGB_2|2.1MB/s
+  password: None
+  port: 9443
+  server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 7|[VLESS] gbGB_3|2.2MB/s
-  network: xhttp
-  packet-encoding: xudp
+- name: 7|[Http] gbGB_3|2.6MB/s
   port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: '!!str 812609fa663c57fb'
-  server: 82.152.220.101
-  servername: api-v2.savesafe.run
+  server: 37.120.233.18
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xhttp-opts:
-    host: api-v2.savesafe.run
-    path: /
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 7|[VLESS] gbGB_4|1.7MB/s
-  network: xhttp
-  packet-encoding: xudp
+- cipher: aes-256-cfb
+  name: 7|[SS] gbGB_4|1.2MB/s
+  password: amazonskr05
   port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: '!!str 812609fa663c57fb'
-  server: 82.152.220.111
-  servername: api-v2.savesafe.run
-  tls: true
-  type: vless
+  server: 18.133.240.229
+  type: ss
   udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xhttp-opts:
-    host: api-v2.savesafe.run
-    path: /
-  xudp: true
 - client-fingerprint: firefox
   encryption: none
-  name: 7|[VLESS] gbGB_5|1.7MB/s
+  name: 7|[VLESS] gbGB_5|2.3MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -117,7 +86,7 @@ proxies:
   xudp: true
 - client-fingerprint: firefox
   encryption: none
-  name: 7|[VLESS] gbGB_6|3.5MB/s
+  name: 7|[VLESS] gbGB_6|1.0MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -136,7 +105,7 @@ proxies:
   xudp: true
 - client-fingerprint: firefox
   encryption: none
-  name: 7|[VLESS] gbGB_7|1.4MB/s
+  name: 7|[VLESS] gbGB_7|1008KB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -155,14 +124,14 @@ proxies:
   xudp: true
 - client-fingerprint: firefox
   encryption: none
-  name: 7|[VLESS] gbGB_8|1.1MB/s
+  name: 7|[VLESS] gbGB_8|2.3MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
     short-id: '!!str 812609fa663c57fb'
-  server: 82.152.220.161
+  server: 82.152.220.21
   servername: api-v2.savesafe.run
   tls: true
   type: vless
@@ -174,7 +143,7 @@ proxies:
   xudp: true
 - client-fingerprint: firefox
   encryption: none
-  name: 7|[VLESS] gbGB_9|1.3MB/s
+  name: 7|[VLESS] gbGB_9|1.0MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -193,7 +162,7 @@ proxies:
   xudp: true
 - client-fingerprint: firefox
   encryption: none
-  name: 7|[VLESS] gbGB_10|4.1MB/s
+  name: 7|[VLESS] gbGB_10|1.3MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -212,7 +181,7 @@ proxies:
   xudp: true
 - client-fingerprint: firefox
   encryption: none
-  name: 7|[VLESS] gbGB_11|1.6MB/s
+  name: 7|[VLESS] gbGB_11|1.9MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -231,14 +200,14 @@ proxies:
   xudp: true
 - client-fingerprint: firefox
   encryption: none
-  name: 7|[VLESS] gbGB_12|2.0MB/s
+  name: 7|[VLESS] gbGB_12|1.0MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
     short-id: '!!str 812609fa663c57fb'
-  server: 82.152.220.71
+  server: 82.152.220.61
   servername: api-v2.savesafe.run
   tls: true
   type: vless
@@ -250,7 +219,7 @@ proxies:
   xudp: true
 - client-fingerprint: firefox
   encryption: none
-  name: 7|[VLESS] gbGB_13|1.8MB/s
+  name: 7|[VLESS] gbGB_13|1.3MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -269,7 +238,7 @@ proxies:
   xudp: true
 - client-fingerprint: firefox
   encryption: none
-  name: 7|[VLESS] gbGB_14|1.3MB/s
+  name: 7|[VLESS] gbGB_14|1.1MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -277,6 +246,25 @@ proxies:
     public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
     short-id: '!!str 812609fa663c57fb'
   server: 82.152.220.91
+  servername: api-v2.savesafe.run
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  xhttp-opts:
+    host: api-v2.savesafe.run
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 7|[VLESS] gbGB_15|1.7MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
+    short-id: '!!str 812609fa663c57fb'
+  server: 82.152.220.101
   servername: api-v2.savesafe.run
   tls: true
   type: vless

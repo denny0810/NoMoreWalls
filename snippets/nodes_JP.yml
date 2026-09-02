@@ -1,5 +1,5 @@
 proxies:
-- name: 5,6|[Trojan] 日本|@ripaojiedian
+- name: 4,5|[Trojan] 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 9408
@@ -8,21 +8,27 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: 5,6|[SS] 日本2|@ripaojiedian
+  name: 4,5|[SS] 日本2|@ripaojiedian
   password: Butterfly123@qwe9527
   port: 40001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: 5,6|[SS] 日本3|@ripaojiedian
+  name: 4,5|[SS] 日本3|@ripaojiedian
   password: Butterfly123@qwe9527
   port: 40002
   server: 103.236.66.4
   type: ss
-- cipher: aes-256-cfb
-  name: 7|[SS] jpJP_2|4.4MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.137
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] jpJP_2|5.3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 21016
+  server: dog-jp.kunlun01dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  xudp: true

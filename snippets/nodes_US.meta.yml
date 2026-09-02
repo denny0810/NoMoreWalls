@@ -1,42 +1,5 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 1|[Vmess] US74｜机房｜低风险
-  network: tcp
-  port: '34114'
-  server: 103.181.164.237
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alpn:
-  - h3%2Ch2%2Chttp%2F1.1
-  name: 1|[Trojan] US80｜机房｜低风险
-  network: ws
-  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
-  port: 443
-  server: 172.64.53.190
-  skip-cert-verify: true
-  sni: snll667.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snll667.pages.dev
-    path: '%2F'
-- name: 1|[Socks5] US145｜机房｜低风险
-  port: 1080
-  server: 174.138.61.184
-  tls: false
-  type: socks5
-  username: Og%3D%3D
-- name: 1|[Trojan] US146｜机房｜低风险
-  network: tcp
-  password: af4b064a9c39472fb34ad8b113acdc6b
-  port: 443
-  server: 194.33.45.157
-  skip-cert-verify: true
-  sni: 194.33.45.157
-  type: trojan
-- name: 3|[Hysteria2] 美国
+- name: 2|[Hysteria2] 美国
   password: 3b8c82ed-fe66-472d-915e-034ccb57103f
   port: 443
   server: us.frkn.org
@@ -44,7 +7,7 @@ proxies:
   sni: us.frkn.org
   tls: false
   type: hysteria2
-- name: '3|[Hysteria2] 美国 #1'
+- name: '2|[Hysteria2] 美国 #1'
   password: 6dcb725e-947e-4bbe-bb35-903374d57179
   port: 443
   server: rm-eco-us-01.409648.xyz
@@ -52,7 +15,7 @@ proxies:
   sni: mkm.icu
   tls: false
   type: hysteria2
-- name: '3|[Hysteria2] 美国 #2'
+- name: '2|[Hysteria2] 美国 #2'
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -62,7 +25,7 @@ proxies:
   sni: nl1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: 3|[Hysteria2] usUS
+- name: 2|[Hysteria2] usUS
   password: d19b459e-fcc3-4f2a-8f2e-77e8701cd1d8
   port: 443
   server: ush2.shazamri.xyz
@@ -70,7 +33,7 @@ proxies:
   sni: ush2.shazamri.xyz
   tls: false
   type: hysteria2
-- name: 3|[Hysteria2] us139909 | ⚡️Telegram = t.me/S...
+- name: 2|[Hysteria2] us139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.213.89.22
@@ -78,7 +41,7 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: '3|[Hysteria2] 美国 #3'
+- name: '2|[Hysteria2] 美国 #3'
   password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
   port: 443
   server: faq.wwwinternetvideo.click
@@ -86,31 +49,19 @@ proxies:
   sni: cabinet.wwwinternetvideo.click
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 4|[Hysteria2] dc-udp-us USA-Kansas City, MO
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: 1m1xfvpaa5ek4omq
-  port: 52078
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
 - cipher: aes-256-gcm
-  name: 5,6|[SS] 美国2|@ripaojiedian
+  name: 4,5|[SS] 美国2|@ripaojiedian
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: 5,6|[SS] 美国|@ripaojiedian
+  name: 4,5|[SS] 美国|@ripaojiedian
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
-- name: 5,6|[Trojan] 美国3|@ripaojiedian
+- name: 4,5|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 52770
@@ -118,71 +69,37 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 7|[VLESS] usUS_1|1.7MB/s
-  network: ws
-  port: 443
-  server: 172.67.195.150
-  servername: 9-m20.dbfb5a2a-81c7-481a-b0cc-0f51aa86cc51.kdns.fr
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: movie
+  name: 6|[VLESS] usUS_1|1.8MB/s
+  network: grpc
+  port: 10240
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: us3-r.link-t7.com
+  servername: s0.awsstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
-  ws-opts:
-    headers:
-      Host: 9-m20.dbfb5a2a-81c7-481a-b0cc-0f51aa86cc51.kdns.fr
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
-- name: 7|[Http] usUS_2|2.9MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  tls: true
-  type: http
+  uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
+- cipher: aes-256-cfb
+  name: 6|[SS] usUS_2|1.3MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  type: ss
   udp: true
-- name: 7|[Http] usUS_3|3.6MB/s
+- name: 6,9|[Http] US_speednode_0134
   port: 443
-  server: tzoa.fun
-  skip-cert-verify: false
-  sni: tzoa.fun
+  server: voteshirleysew.club
+  sni: voteshirleysew.club
   tls: true
   type: http
   udp: true
-- name: 7|[Http] usUS_4|3.7MB/s
-  password: ''
-  port: 443
-  server: goedkoopgeluid.icu
-  skip-cert-verify: true
-  sni: goedkoopgeluid.icu
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 7|[Http] usUS_5|3.4MB/s
-  port: 443
-  server: purecambogiasl.live
-  skip-cert-verify: true
-  sni: purecambogiasl.live
-  tls: true
-  type: http
-  udp: true
-- name: 7|[Http] usUS_6|2.5MB/s
-  port: 443
-  server: berniesbodybla.fun
-  sni: berniesbodybla.fun
-  tls: true
-  type: http
-  udp: true
-- name: 7|[Http] usUS_7|3.0MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 7|[Http] usUS_8|3.9MB/s
+- name: 6|[Http] usUS_4|1.9MB/s
   port: 443
   server: jewelscollecti.icu
   skip-cert-verify: true
@@ -190,23 +107,14 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 7|[Http] usUS_9|3.3MB/s
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 7|[Http] usUS_10|2.3MB/s
-  password: None
+- name: 6|[Http] usUS_5|1.1MB/s
   port: 443
-  server: fullmanfirm.icu
-  skip-cert-verify: true
-  sni: fullmanfirm.icu
+  server: crosscards.site
+  sni: crosscards.site
   tls: true
   type: http
   udp: true
-- name: 7|[Http] usUS_11|2.5MB/s
+- name: 6|[Http] usUS_6|3.5MB/s
   password: None
   port: 443
   server: webdrone.club
@@ -215,128 +123,23 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 7|[Http] usUS_12|3.0MB/s
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
+- name: 6|[Http] usUS_8|1.8MB/s
+  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+  port: 443
+  server: 2bf1e5af-tdsv40-tf8z9r-1pr35.se.oshuawei.com
+  sni: 2bf1e5af-tdsv40-tf8z9r-1pr35.se.oshuawei.com
   tls: true
   type: http
   udp: true
-- name: 7|[Http] usUS_13|3.5MB/s
-  port: 443
-  server: 52.55.81.168
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 7|[VLESS] usUS_15|2.6MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: NvvQrD-Febpqip-6DM7al1RrjlwMzlEJzxCjtlgcu3Y
-    short-id: '!!str b9ab7b4fadce963c'
-  server: 23.237.192.18
-  servername: edge-us2.mystatic-cdn.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 252f7811-d86f-4dc2-97e0-83d3172ef4b8
-  xudp: true
-- client-fingerprint: chrome
-  name: 7|[VLESS] usUS_16|3.4MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2053
-  server: 142.248.218.34
-  servername: edge.yzkvm.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  ws-opts:
-    headers:
-      Host: edge.yzkvm.top
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /
-  xudp: true
-- encryption: none
-  name: 7|[VLESS] usUS_18|2.0MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 91.193.58.40
-  type: vless
-  udp: true
-  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
-  ws-opts:
-    headers:
-      Host: twilight-poetry-2bfe.218-699.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /pyip=Telegram-WangCai2
-  xudp: true
-- encryption: none
-  name: 7|[VLESS] usUS_19|3.0MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 91.193.58.8
-  type: vless
-  udp: true
-  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
-  ws-opts:
-    headers:
-      Host: twilight-poetry-2bfe.218-699.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    path: /pyip=Telegram-WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: 7|[VLESS] usUS_20|2.6MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 91.193.58.145
-  type: vless
-  udp: true
-  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
-  ws-opts:
-    headers:
-      Host: twilight-poetry-2bfe.218-699.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/53.0.2785.143 Safari/537.36
-    path: /pyip=telegram-wangcai2🇨🇳
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 7|[VLESS] usUS_21|1.2MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: 65d6SIYIqiX-SN4vx_BnNiQJ8Lnr0HAgUKoT7WgWRgI
-    short-id: '!!str ee169e93d3c277a1'
-  server: 193.160.71.247
-  servername: edge-uk2.mystatic-cdn.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 252f7811-d86f-4dc2-97e0-83d3172ef4b8
-  xudp: true
+  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
+  name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.251
   type: ss
-- name: 8|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
+- name: 7|[Socks5] 🏴‍☠_1usUS²_6|3.9MB/s|5.0MB/s|X...
   password: ''
   port: 7070
   server: 20.83.154.79
@@ -345,7 +148,7 @@ proxies:
   username: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0130
+  name: 9|[VLESS] US_speednode_0130
   network: tcp
   port: 443
   reality-opts:
@@ -358,7 +161,7 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-- name: 10|[Http] US_speednode_0131
+- name: 9|[Http] US_speednode_0131
   password: 'null'
   port: 9002
   server: 138.199.35.216
@@ -369,7 +172,7 @@ proxies:
   username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0132
+  name: 9|[VLESS] US_speednode_0132
   network: tcp
   port: 11094
   reality-opts:
@@ -382,22 +185,16 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- name: 10|[Http] US_speednode_0133
+- name: 9|[Http] US_speednode_0133
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 10|[Http] US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0135
+  name: 9|[VLESS] US_speednode_0135
   network: tcp
   port: 443
   reality-opts:
@@ -412,7 +209,7 @@ proxies:
   uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0136
+  name: 9|[VLESS] US_speednode_0136
   network: tcp
   port: 29893
   reality-opts:
@@ -427,7 +224,7 @@ proxies:
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0137
+  name: 9|[VLESS] US_speednode_0137
   network: tcp
   port: 39399
   reality-opts:
@@ -442,7 +239,7 @@ proxies:
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0138
+  name: 9|[VLESS] US_speednode_0138
   network: tcp
   port: 443
   reality-opts:
@@ -457,7 +254,7 @@ proxies:
   uuid: 055dce30-0ee3-44c3-b680-be1c95b8d6e7
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0139
+  name: 9|[VLESS] US_speednode_0139
   network: tcp
   port: 443
   reality-opts:
@@ -470,14 +267,14 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
-- name: 10|[Http] US_speednode_0140
+- name: 9|[Http] US_speednode_0140
   password: None
   port: 443
   server: purposebydesig.club
   tls: true
   type: http
   udp: true
-- name: 10|[Http] US_speednode_0141
+- name: 9|[Http] US_speednode_0141
   port: 443
   server: 38.28.193.188
   skip-cert-verify: true
@@ -486,7 +283,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0142
+  name: 9|[VLESS] US_speednode_0142
   network: tcp
   port: 39211
   reality-opts:
@@ -499,7 +296,7 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 10|[Http] US_speednode_0143
+- name: 9|[Http] US_speednode_0143
   port: 9002
   server: 138.199.35.198
   skip-cert-verify: true
@@ -508,7 +305,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|[VLESS] US_speednode_0144
+  name: 9|[VLESS] US_speednode_0144
   network: tcp
   port: 443
   reality-opts:

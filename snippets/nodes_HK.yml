@@ -1,35 +1,7 @@
 proxies:
-- alpn:
-  - h3%2Ch2%2Chttp%2F1.1
-  name: 1|[Trojan] HK67｜机房｜低风险
-  network: ws
-  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
-  port: 443
-  server: cf.877774.xyz
-  skip-cert-verify: true
-  sni: snll667.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snll667.pages.dev
-    path: '%2F'
-- alpn:
-  - h3%2Ch2%2Chttp%2F1.1
-  name: 1|[Trojan] HK68｜机房｜低风险
-  network: ws
-  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
-  port: 443
-  server: 95.40.61.115
-  skip-cert-verify: true
-  sni: snll667.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snll667.pages.dev
-    path: '%2F'
 - alterId: 2
   cipher: auto
-  name: 5|[Vmess] hk 香港|@ripaojiedian
+  name: 4|[Vmess] hk 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -37,18 +9,18 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-gcm
-  name: 5,6|[SS] 香港2|@ripaojiedian
+  name: 4,5|[SS] 香港2|@ripaojiedian
   password: Butterfly123@qwe9527
   port: 10001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: 5,6|[SS] 香港3|@ripaojiedian
+  name: 4,5|[SS] 香港3|@ripaojiedian
   password: Butterfly123@qwe9527
   port: 10006
   server: 112.28.141.77
   type: ss
-- name: 5,6|[Trojan] 香港4|@ripaojiedian
+- name: 4,5|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 7674
@@ -56,7 +28,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 5,6|[Trojan] 香港5|@ripaojiedian
+- name: 4,5|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 2944
@@ -66,7 +38,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 6|[Vmess] 香港|@ripaojiedian
+  name: 5|[Vmess] 香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -74,13 +46,31 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 7|[Vmess] hkHK_1|1.3MB/s
+  name: 6|[Vmess] hkHK_4|1.7MB/s
   network: ws
+  packet-encoding: xudp
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
+  ws-opts:
+    headers:
+      Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 6|[Vmess] hkHK_5|1.0MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 16632
+  server: t.cnmjcn.cyou
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
@@ -89,13 +79,14 @@ proxies:
     headers:
       Host: 686a7558df571afb1408b0e77ae4f687.mobgslb.tbcache.com
     path: /
-- alterId: 0
+  xudp: true
+- alterId: '0'
   cipher: auto
-  name: 7|[Vmess] hkHK_4|3.3MB/s
+  name: 6|[Vmess] hkHK_6|5.1MB/s
   network: ws
   packet-encoding: xudp
   port: 16632
-  server: t.cnmjcn.cyou
+  server: planb.mojcn.com.linuxlh.xin
   skip-cert-verify: false
   tls: false
   type: vmess

@@ -1,15 +1,19 @@
 proxies:
-- name: 6|[Http] seSE_1|3.0MB/s
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  encryption: none
+  name: 6|[VLESS] seSE_1|1.4MB/s
+  network: xhttp
+  packet-encoding: xudp
   port: 443
-  server: 146.70.242.146
-  skip-cert-verify: true
+  server: main.hvumyrpstghekb.top
+  servername: main.hvumyrpstghekb.top
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 6|[Http] seSE_2|3.6MB/s
-  port: 443
-  server: 146.70.242.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
+  uuid: bd29f019-85a2-43f6-b10a-e91dbdf58ee3
+  xhttp-opts:
+    host: main.hvumyrpstghekb.top
+    path: /hanBham0QSktwSruCtIbKI6PCsj
+  xudp: true

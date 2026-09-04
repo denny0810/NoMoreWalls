@@ -1,4 +1,22 @@
 proxies:
+- name: 2,3|[Hysteria2] [ru]t.me/ConfigV2RayNG
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
+  port: 443
+  server: 144.31.49.138
+  skip-cert-verify: false
+  sni: ru1.sferavpn.pro
+  tls: false
+  type: hysteria2
+- name: 3|[Hysteria2] ru161229 | ⚡️Telegram = t.me/S...
+  password: 41edb44c8e
+  port: 11592
+  server: srv-17e124.21freedom.net
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
 - name: 3|[Hysteria2] Telegram 🆔@cnetvpn ru
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
@@ -9,24 +27,22 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- name: 3|[Hysteria2] [ru]t.me/ConfigV2RayNG
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  password: cd74c0a406664a5bc0bac098220a2468
-  port: 443
-  server: 144.31.49.138
-  skip-cert-verify: false
-  sni: ru1.sferavpn.pro
+- alpn:
+  - h3
+  name: 3|[Hysteria2] ru161328 | ⚡️Telegram = t.me/S...
+  password: niEGIEcu9rRmRBoA3yYiKtFRv87BMRnFEpozCmNTHyY
+  port: 24444
+  server: give.internet-card.sbs
+  sni: bel7bel.internet-card.sbs
   tls: false
   type: hysteria2
 - client-fingerprint: edge
-  encryption: none
-  name: 6|[VLESS] ruRU_1|2.0MB/s
+  name: 6|[VLESS] ruRU_1|1.1MB/s
   network: ws
-  packet-encoding: xudp
   port: 443
-  server: ru05.abvpn.ru
+  server: 45.9.15.206
   servername: ru05.abvpn.ru
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -34,40 +50,21 @@ proxies:
   ws-opts:
     headers:
       Host: ru05.abvpn.ru
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /websocket
-  xudp: true
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 6|[VLESS] ruRU_2|4.1MB/s
-  network: tcp
+  name: 6|[VLESS] ruRU_2|1.1MB/s
+  network: raw
   packet-encoding: xudp
-  port: 443
+  port: 7444
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    public-key: -P8DgKISSG4jnLuj6ihZDqZs1_zt-juBrhVhTylHiAo
     short-id: '!!str '
-  server: 193.233.255.45
-  servername: sellflow.org
+  server: 78.159.247.123
+  servername: akamai.com
   tls: true
   type: vless
   udp: true
-  uuid: 0bc31c7f-1ee2-4dd3-929b-b61ae780eb3c
-  xudp: true
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] ruRU_3|1.2MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  server: ru-i.monkeyisland.xyz
-  servername: ru-i.monkeyisland.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf80b5fc-c445-4373-87e6-f8a22ad10d81
+  uuid: 0764541b-3e57-4b47-954b-51e996fae5fc
   xudp: true

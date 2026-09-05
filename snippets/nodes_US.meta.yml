@@ -43,22 +43,74 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] usUS_1|1.0MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 12329
-  reality-opts:
-    public-key: dpG1tE9V93FM9IJeYC5-n_7RJxX7jOwrWLbQJgZpFFo
-    short-id: '!!str '
-  server: 38.150.33.232
-  servername: www.amazon.com
-  tls: true
-  type: vless
+- cipher: aes-256-cfb
+  name: 6|[SS] usUS_1|3.5MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  type: ss
   udp: true
-  uuid: 6faa980b-4a0f-4b4d-99f2-03b468da8541
-  xudp: true
+- name: 6|[Http] usUS_2|1.2MB/s
+  password: None
+  port: 443
+  server: zebpay.site
+  skip-cert-verify: false
+  sni: zebpay.site
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] usUS_3|3.0MB/s
+  port: 443
+  server: webdrone.club
+  skip-cert-verify: false
+  sni: webdrone.club
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] usUS_4|1.1MB/s
+  port: 443
+  server: goedkoopgeluid.icu
+  skip-cert-verify: true
+  sni: goedkoopgeluid.icu
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] usUS_5|1.8MB/s
+  port: 443
+  server: fullmanfirm.icu
+  skip-cert-verify: true
+  sni: fullmanfirm.icu
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] usUS_6|2.5MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 6|[Http] usUS_7|1.0MB/s
+  password: None
+  port: 443
+  server: kimberlymilano.icu
+  skip-cert-verify: false
+  sni: kimberlymilano.icu
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 6|[Trojan] usUS_8|4.8MB/s
+  network: tcp
+  password: 2EXii6JlhaDvgSiTsC
+  port: 8444
+  server: ggboy.ggboyz.online
+  skip-cert-verify: true
+  sni: ggboy.ggboyz.online
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

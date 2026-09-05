@@ -7,19 +7,13 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  name: 6|[SS] krKR_1|3.0MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  type: ss
-  udp: true
 - client-fingerprint: chrome
+  encryption: none
   grpc-opts:
-    grpc-mode: gun
     grpc-service-name: update
-  name: 6|[VLESS] krKR_2|1.9MB/s
+  name: 6|[VLESS] krKR_1|4.9MB/s
   network: grpc
+  packet-encoding: xudp
   port: 10050
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
@@ -30,22 +24,7 @@ proxies:
   type: vless
   udp: true
   uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 6|[VLESS] krKR_3|3.0MB/s
-  network: grpc
-  port: 10048
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: kr3-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
+  xudp: true
 - name: 7|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
   port: 1090
   server: 121.169.46.116

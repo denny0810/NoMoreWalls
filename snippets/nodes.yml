@@ -107,25 +107,35 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
-  name: 6|[SS] krKR_1|3.0MB/s
+  name: 6|[SS] usUS_1|3.5MB/s
   password: 7eadc6dbe2ae
   port: 65443
-  server: 121.46.230.138
+  server: 121.46.230.232
   type: ss
   udp: true
-- alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] caCA_1|3.1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 11985
-  server: board-02.ddnskunlun.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: aes-256-cfb
+  name: 6|[SS] gbGB_1|1.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.40.17.62
+  type: ss
   udp: true
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-  xudp: true
+- cipher: aes-256-cfb
+  name: 6|[SS] ieIE_1|1.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.229.177.209
+  type: ss
+  udp: true
+- name: 6|[Trojan] usUS_8|4.8MB/s
+  network: tcp
+  password: 2EXii6JlhaDvgSiTsC
+  port: 8444
+  server: ggboy.ggboyz.online
+  skip-cert-verify: true
+  sni: ggboy.ggboyz.online
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

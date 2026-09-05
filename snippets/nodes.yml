@@ -107,12 +107,25 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
-  name: 6|[SS] krKR_1|2.2MB/s
+  name: 6|[SS] krKR_1|3.0MB/s
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.138
   type: ss
   udp: true
+- alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] caCA_1|3.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 11985
+  server: board-02.ddnskunlun.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

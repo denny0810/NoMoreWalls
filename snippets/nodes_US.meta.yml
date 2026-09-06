@@ -45,36 +45,75 @@ proxies:
   type: trojan
 - alpn:
   - h2
-  - http/1.1
-  - h3
   client-fingerprint: chrome
   encryption: none
-  name: 6|[VLESS] usUS_1|1.3MB/s
-  network: ws
+  name: 6|[VLESS] usUS_1|2.8MB/s
+  network: xhttp
   packet-encoding: xudp
   port: 443
-  server: ccs2g.pai50288.uk
-  servername: ccs2g.pai50288.uk
+  server: 69.46.46.106
+  servername: marble-prairie-10e2-production.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
+  uuid: cd23ed17-33d8-499b-8836-f16531081366
+  xhttp-opts:
+    host: marble-prairie-10e2-production.up.railway.app
+    mode: stream-up
+    path: /xhttp-siz10/stream-up/cd23ed17-33d8-499b-8836-f16531081366
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] usUS_2|3.3MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 172.67.204.201
+  servername: 7-m16.CHiaN-MAi-8.KDNs.FR
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
   ws-opts:
     headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.135 Safari/537.36
-    path: /pai50288
+      Host: 7-m16.CHiaN-MAi-8.KDNS.Fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.125 Safari/537.36
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
   xudp: true
-- name: 6|[Http] usUS_2|1.4MB/s
-  port: 443
-  server: efr-marktplatz.club
-  skip-cert-verify: false
-  sni: efr-marktplatz.club
+- name: 6,9|[Http] US_speednode_0143
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 6|[Http] usUS_3|2.3MB/s
+- name: 6|[Http] usUS_4|4.5MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 6|[Http] usUS_5|1.8MB/s
+  password: None
+  port: 443
+  server: purecambogiasl.live
+  skip-cert-verify: true
+  sni: purecambogiasl.live
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] usUS_6|1.5MB/s
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] usUS_7|4.5MB/s
   port: 443
   server: goedkoopgeluid.icu
   skip-cert-verify: true
@@ -82,41 +121,116 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 6|[Http] usUS_4|1.6MB/s
-  password: 'null'
+- name: 6|[Http] usUS_8|3.6MB/s
+  password: None
   port: 443
-  server: purecambogiasl.live
-  sni: purecambogiasl.live
+  server: crosscards.site
+  skip-cert-verify: false
+  sni: crosscards.site
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] usUS_9|4.5MB/s
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] usUS_10|3.8MB/s
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] usUS_11|4.7MB/s
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] usUS_12|4.6MB/s
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] usUS_13|3.2MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
   tls: true
   type: http
   udp: true
   username: 'null'
-- name: 6|[Http] usUS_5|1.3MB/s
+- name: 6|[Http] usUS_14|4.0MB/s
+  port: 443
+  server: webdrone.club
+  skip-cert-verify: false
+  sni: webdrone.club
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] usUS_15|3.3MB/s
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] usUS_16|4.2MB/s
+  password: None
+  port: 443
+  server: goedkoopgeluid.icu
+  skip-cert-verify: true
+  sni: goedkoopgeluid.icu
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] usUS_17|4.1MB/s
   password: ''
-  port: 9443
-  server: 38.95.111.226
+  port: 9002
+  server: 138.199.35.196
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
   username: ''
-- name: 6|[Http] usUS_6|2.4MB/s
+- name: 6|[Http] usUS_18|4.5MB/s
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] usUS_19|3.5MB/s
+  port: 443
+  server: berniesbodybla.fun
+  skip-cert-verify: false
+  sni: berniesbodybla.fun
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] usUS_20|3.4MB/s
+  port: 443
+  server: 52.55.81.168
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] usUS_21|2.1MB/s
   password: None
   port: 443
-  server: carolinafreigh.fun
-  skip-cert-verify: false
-  sni: carolinafreigh.fun
+  server: 52.55.81.168
+  skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 6|[Http] usUS_7|3.2MB/s
-  port: 443
-  server: jgwynphotoarts.pro
-  sni: jgwynphotoarts.pro
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] usUS_8|1.1MB/s
+- name: 6|[Http] usUS_22|2.6MB/s
   password: None
   port: 443
   server: 149.88.21.129
@@ -124,19 +238,15 @@ proxies:
   tls: true
   type: http
   udp: true
-- down: ''
-  fingerprint: ''
-  name: 6|[Hysteria2] usUS_9|4.1MB/s
-  obfs: salamander
-  obfs-password: ba30dfb1828334e12c5f5068df5680a4
-  password: 6483ecc41890f37033911d0facc8abf5
+- name: 6|[Http] usUS_23|3.6MB/s
+  password: e4b72b531a2d10900519
   port: 443
-  server: 166.0.16.142
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+  server: 147.182.216.4
+  sni: 93b6d804.acsnet.co
+  tls: true
+  type: http
   udp: true
-  up: ''
+  username: testuser1
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
@@ -307,13 +417,6 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 9|[Http] US_speednode_0143
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 9|[VLESS] US_speednode_0144

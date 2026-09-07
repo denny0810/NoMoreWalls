@@ -1,7 +1,24 @@
 proxies:
-- name: 6|[Http] seSE_1|1.8MB/s
+- name: 3|[Hysteria2] Telegram 🆔@cnetvpn se
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: vz86jgszv4zszchv
+  port: 52062
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 6|[Http] seSE_1|3.3MB/s
   port: 443
   server: 146.70.242.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] seSE_2|3.2MB/s
+  port: 443
+  server: 149.50.216.65
   skip-cert-verify: true
   tls: true
   type: http

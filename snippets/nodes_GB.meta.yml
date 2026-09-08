@@ -36,25 +36,30 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 6|[VLESS] gbGB_1|3.0MB/s
+  encryption: none
+  name: 6|[VLESS] gbGB_1|2.2MB/s
   network: tcp
+  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 130.12.102.26
+    short-id: '!!str '
+  server: 130.12.102.62
   servername: localhost
   tls: true
   type: vless
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  xudp: true
 - client-fingerprint: chrome
-  name: 6|[VLESS] gbGB_2|4.2MB/s
+  name: 6|[VLESS] gbGB_2|2.4MB/s
   network: tcp
   port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 130.12.102.62
+  server: freshjuniper.download
   servername: localhost
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -62,7 +67,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 6|[VLESS] gbGB_18|4.2MB/s
+  name: 6|[VLESS] gbGB_5|2.2MB/s
   network: raw
   packet-encoding: xudp
   port: 443
@@ -71,106 +76,16 @@ proxies:
     short-id: '!!str '
   server: brightharbor.download
   servername: localhost
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] gbGB_4|3.8MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: 130.12.102.125
-  servername: localhost
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] gbGB_19|1.4MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: freshjuniper.download
-  servername: freshjuniper.download
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: 6|[Hysteria2] gbGB_6|4.5MB/s
-  obfs: ''
-  obfs-password: ''
-  password: d1224950-ffab-4b9a-8696-431b40a6cfbd
-  port: 443
-  server: cze-02.node.lumixnet.com
-  skip-cert-verify: true
-  sni: cze-02.node.lumixnet.com
-  type: hysteria2
-  udp: true
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 6|[Hysteria2] gbGB_7|4.7MB/s
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-uk-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-uk-002.fastervpn.world
-  type: hysteria2
-  udp: true
-  up: ''
-- name: 6|[Http] gbGB_8|2.9MB/s
-  port: 443
-  server: 185.235.0.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] gbGB_9|3.1MB/s
-  port: 443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] gbGB_10|2.9MB/s
-  port: 443
-  server: 185.235.0.98
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] gbGB_11|1.2MB/s
-  port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] gbGB_12|3.3MB/s
-  port: 32766
-  server: 178.62.83.124
-  type: http
-  udp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 6|[VLESS] gbGB_13|4.3MB/s
+  name: 6|[VLESS] gbGB_4|4.3MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -184,72 +99,15 @@ proxies:
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
   xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] gbGB_14|3.9MB/s
-  network: tcp
-  packet-encoding: xudp
+- name: 6|[Http] gbGB_6|1.0MB/s
   port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: 194.34.175.158
-  servername: localhost
+  server: 212.102.63.31
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] gbGB_15|2.4MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: 194.34.175.218
-  servername: localhost
-  tls: true
-  type: vless
+- name: 6|[Http] gbGB_7|1.4MB/s
+  port: 32766
+  server: 178.62.83.124
+  type: http
   udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] gbGB_16|2.7MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: 194.34.175.70
-  servername: localhost
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: api
-  name: 6|[VLESS] gbGB_17|3.9MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 43435
-  reality-opts:
-    public-key: mc5GFUALNT1V4TgYZ4OWJHB2DQ-G-b4qLYsRlgWB-VQ
-    short-id: '!!str 37dc4f92a7470fa0'
-  server: 31.77.111.31
-  servername: cdn.higames.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2feda6f7-8baa-4591-a851-1e2037a58572
-  xudp: true

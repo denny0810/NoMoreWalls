@@ -35,100 +35,40 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 6|[VLESS] gbGB_1|3.8MB/s
-  network: tcp
+- name: 6|[Http] gbGB_1|2.3MB/s
   port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 130.12.102.125
-  servername: localhost
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- client-fingerprint: chrome
-  name: 6|[VLESS] gbGB_2|3.9MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: freshjuniper.download
-  servername: freshjuniper.download
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] gbGB_10|3.1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: brightharbor.download
-  servername: brightharbor.download
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  xudp: true
-- name: 6|[Http] gbGB_4|2.6MB/s
-  password: None
-  port: 443
-  server: 37.120.233.34
+  server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 6|[Http] gbGB_5|2.6MB/s
-  port: 443
-  server: 185.235.0.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] gbGB_6|2.9MB/s
-  port: 443
-  server: 185.235.0.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] gbGB_7|2.2MB/s
-  password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] gbGB_8|2.7MB/s
+- name: 6|[Http] gbGB_2|2.0MB/s
   port: 443
   server: 212.102.63.61
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] gbGB_9|3.3MB/s
-  network: tcp
-  packet-encoding: xudp
+- name: 6|[Http] gbGB_3|1.7MB/s
   port: 443
-  reality-opts:
-    public-key: yrVIq4JbtlfUJ47XyhymkkZlr5w5QwrOi74yv5aRBHM
-    short-id: '!!str 24a44934dc907f5f'
-  server: 94.156.250.10
-  servername: www.apple.com.cn
+  server: 37.120.233.50
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 8e2419a7-ef0d-4b19-b52b-3333a0edcba8
-  xudp: true
+- name: 6|[Http] gbGB_4|2.4MB/s
+  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  port: 443
+  server: f6cfde13-tcxds0-tqgocx-1plv4.uk.oshuawei.com
+  sni: f6cfde13-tcxds0-tqgocx-1plv4.uk.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
+- cipher: aes-256-cfb
+  name: 6|[SS] gbGB_5|3.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.170.35.229
+  type: ss
+  udp: true

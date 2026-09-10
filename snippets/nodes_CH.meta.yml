@@ -11,15 +11,8 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 6|[Http] chCH_1|3.4MB/s
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - auth: 3a702d4d1de4949005d8431220e040fb
-  name: 6|[Hysteria2] chCH_2|1.9MB/s
+  name: 6|[Hysteria2] chCH_1|1.4MB/s
   obfs: salamander
   obfs-password: c13f29db6a638ad2b211b9ce2669ef27
   password: 3a702d4d1de4949005d8431220e040fb
@@ -28,4 +21,19 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
+  udp: true
+- name: 6|[Http] chCH_2|2.7MB/s
+  password: None
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] chCH_3|1.1MB/s
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true

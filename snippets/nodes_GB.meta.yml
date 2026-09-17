@@ -19,58 +19,49 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 6|[Http] gbGB_1|2.4MB/s
-  password: None
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] gbGB_1|1.3MB/s
+  network: raw
+  packet-encoding: xudp
   port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
+  reality-opts:
+    public-key: Hbbi45lhaIjHmcZoXD84dVlGhHnVOTM8LvC3_kh3dis
+    short-id: '!!str ff3f36afdec470'
+  server: 31.76.39.253
+  servername: eng.jokervpn.space
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 6|[Http] gbGB_2|3.3MB/s
-  port: 443
-  server: 37.120.233.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] gbGB_3|3.1MB/s
-  password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] gbGB_4|2.5MB/s
+  uuid: 24b84bd3-baa3-4192-9625-23c9690ae6f6
+  xudp: true
+- name: 6|[Http] gbGB_3|2.2MB/s
+  password: ''
   port: 443
   server: 185.235.0.66
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] gbGB_5|1021KB/s
-  network: tcp
-  packet-encoding: xudp
+  username: ''
+- name: 6|[Http] gbGB_4|3.0MB/s
   port: 443
-  reality-opts:
-    public-key: yMoulSTnxnbOfAjWPfB244a29ms9HUkjgA1zLZ65Nzw
-    short-id: '!!str '
-  server: 31.76.111.152
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 24b84bd3-baa3-4192-9625-23c9690ae6f6
-  xudp: true
-- name: 6|[Http] gbGB_6|3.0MB/s
-  password: ''
-  port: 443
-  server: 185.235.0.2
+  server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: ''
+- name: 6|[Http] gbGB_5|1.7MB/s
+  port: 443
+  server: 185.235.0.98
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] gbGB_6|1.5MB/s
+  port: 443
+  server: 37.120.233.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true

@@ -1,20 +1,19 @@
 proxies:
-- name: 2|[Hysteria2] US
-  obfs: salamander
-  obfs-password: 7a5537b116d923fe572f85f1db7fe501
-  password: cbb5cf13f04b22883390f1a073753123
-  port: 443
-  server: 147.224.12.19
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: 2|[Hysteria2] us139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.213.89.22
   skip-cert-verify: true
   sni: vk.com
+  tls: false
+  type: hysteria2
+- name: 3|[Hysteria2] usUS-🚀@VPNine1
+  obfs: salamander
+  obfs-password: 5c8f1a3e7b2d9046c1f8a5e3b7d04f2a
+  password: d4a705d40356ef719212045528e04594
+  port: 443
+  server: 45.149.172.80
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - alpn:
@@ -73,85 +72,26 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: 6|[SS] usUS_1|1.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.141.200.225
-  type: ss
-  udp: true
-- name: 6|[Trojan] usUS_2|1.4MB/s
-  network: tcp
-  password: sg-trojan-2026
-  port: 443
-  server: 43.173.90.202
-  skip-cert-verify: true
-  sni: sg-proxy.local
-  type: trojan
-  udp: true
-- name: 6,9|[Http] US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
-  sni: voteshirleysew.club
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] usUS_4|1.3MB/s
-  port: 443
-  server: purposebydesig.club
-  skip-cert-verify: false
-  sni: purposebydesig.club
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] usUS_5|1.1MB/s
-  port: 443
-  server: crosscards.site
-  sni: crosscards.site
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] usUS_6|3.2MB/s
-  password: 'null'
-  port: 443
-  server: crosscards.site
-  sni: crosscards.site
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 6|[Http] usUS_7|2.0MB/s
-  port: 443
-  server: mmgr.club
-  skip-cert-verify: true
-  sni: mmgr.club
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] usUS_8|1.1MB/s
-  password: 'null'
-  port: 443
-  server: mmgr.club
-  sni: mmgr.club
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 6|[Http] usUS_9|1.2MB/s
-  port: 443
-  server: 149.88.21.129
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 6|[VLESS] usUS_1|1.0MB/s
+  network: ws
+  port: 2087
+  server: 104.19.47.206
+  servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 6|[Http] usUS_10|1.0MB/s
-  port: 443
-  server: jgwynphotoarts.pro
-  skip-cert-verify: false
-  sni: jgwynphotoarts.pro
-  tls: true
-  type: http
-  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /ad
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
@@ -209,6 +149,12 @@ proxies:
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 9|[Http] US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
   tls: true
   type: http
   udp: true

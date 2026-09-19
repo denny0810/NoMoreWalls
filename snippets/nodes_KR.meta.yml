@@ -1,4 +1,41 @@
 proxies:
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 6|[VLESS] krKR_1|4.9MB/s
+  network: ws
+  port: 8443
+  server: 168.110.112.196
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /pay/music
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] krKR_2|4.5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 6pZxjabeHoyJlsc2cP3Q5YK7G0bIOQwzWFyiarbUQXc
+    short-id: '!!str c8af1462debbc1'
+  server: kr2.miyazono-kaori.com
+  servername: www.coway.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c43389cf-4364-4bf3-8ee2-6ba81a9104f8
+  xudp: true
 - name: 7|[Socks5] krKR²_1|0.7MB/s|GPT|X|History
   port: 1090
   server: 121.169.46.116

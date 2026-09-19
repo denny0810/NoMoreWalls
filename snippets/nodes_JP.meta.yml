@@ -33,10 +33,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: 6|[VLESS] jpJP_1|2.6MB/s
+  name: 6|[VLESS] jpJP_1|4.5MB/s
   network: ws
-  port: 443
-  server: 64.176.60.226
+  port: 18443
+  server: 92.113.124.204
   servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
@@ -48,24 +48,4 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
     max-early-data: 2560
-    path: /documents
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 6|[VLESS] jpJP_2|4.0MB/s
-  network: ws
-  port: 443
-  server: 172.64.229.31
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /events/code/zh-cn
+    path: /directory/ads/news

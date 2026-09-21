@@ -9,7 +9,14 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 6|[Http] seSE_1|3.0MB/s
+- name: 6|[Http] seSE_1|1.1MB/s
+  port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] seSE_2|1015KB/s
   password: None
   port: 443
   server: 146.70.242.146
@@ -17,31 +24,11 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 6|[Http] seSE_2|3.0MB/s
+- name: 6|[Http] seSE_3|1.3MB/s
   password: None
   port: 443
-  server: 149.50.216.65
+  server: 146.70.242.130
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 6|[VLESS] seSE_3|3.4MB/s
-  network: ws
-  port: 443
-  server: 46.8.178.234
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /about/ads/articles

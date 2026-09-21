@@ -1,19 +1,13 @@
 proxies:
-- name: 6|[Http] gbGB_1|2.6MB/s
+- name: 6|[Http] gbGB_1|3.3MB/s
+  password: None
   port: 443
-  server: 185.235.0.66
+  server: 37.120.233.50
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 6|[Http] gbGB_2|3.2MB/s
-  port: 443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] gbGB_3|2.4MB/s
+- name: 6|[Http] gbGB_2|1.6MB/s
   password: None
   port: 443
   server: 37.120.233.18
@@ -21,7 +15,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 6|[Http] gbGB_4|2.6MB/s
+- name: 6|[Http] gbGB_3|2.8MB/s
   password: ''
   port: 443
   server: 212.102.63.61
@@ -30,27 +24,31 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 6|[Http] gbGB_5|3.0MB/s
+- name: 6|[Http] gbGB_4|1.9MB/s
+  port: 443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] gbGB_5|1.4MB/s
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] gbGB_6|1.2MB/s
   port: 443
   server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] gbGB_6|1.1MB/s
-  network: tcp
-  packet-encoding: xudp
+- name: 6|[Http] gbGB_7|2.1MB/s
   port: 443
-  server: roskaa6.api3-max.ru
-  servername: roskaa6.api3-max.ru
+  server: 212.102.63.1
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: cdd6bfce-781a-4454-b7d5-4778abb5c24f
-  xudp: true

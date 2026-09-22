@@ -12,36 +12,22 @@ proxies:
 - name: 6|[Http] seSE_1|2.3MB/s
   password: None
   port: 443
-  server: 146.70.242.146
+  server: 79.142.77.63
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- cipher: aes-256-cfb
-  name: 6|[SS] seSE_2|2.2MB/s
-  password: amazonskr05
+- name: 6|[Http] seSE_2|2.2MB/s
   port: 443
-  server: 16.170.163.124
-  type: ss
+  server: 149.50.216.65
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-- cipher: aes-256-cfb
-  name: 6|[SS] seSE_3|3.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 16.170.214.108
-  type: ss
-  udp: true
-- name: 6|[Http] seSE_4|3.2MB/s
+- name: 6|[Http] seSE_3|1.0MB/s
   password: None
   port: 443
   server: 146.70.242.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] seSE_5|1.8MB/s
-  port: 443
-  server: 79.142.77.63
   skip-cert-verify: true
   tls: true
   type: http

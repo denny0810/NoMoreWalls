@@ -7,25 +7,6 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 3|[Hysteria2] 🪐88@oneclickvpnkeys
-  password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
-  port: 8443
-  server: 159.223.157.129
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- cipher: aes-256-gcm
-  name: 4,5|[SS] 美国|@ripaojiedian
-  password: Butterfly123@qwe9527
-  port: 50001
-  server: 103.236.66.4
-  type: ss
-- cipher: aes-256-gcm
-  name: 4,5|[SS] 美国2|@ripaojiedian
-  password: Butterfly123@qwe9527
-  port: 50003
-  server: 103.236.66.4
-  type: ss
 - name: 4,5|[Trojan] 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -34,7 +15,90 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 6|[Http] usUS_1|2.8MB/s
+- alterId: 0
+  cipher: auto
+  name: 4,5|[Vmess] 印尼
+  network: ws
+  port: '443'
+  server: 24864168545164.oylfmxz.cn
+  servername: 24864168545164.oylfmxz.cn
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  ws-opts:
+    headers:
+      Host: 24864168545164.oylfmxz.cn
+    path: /
+- cipher: aes-128-gcm
+  name: 4|[SS] us 美国2-IEPL-GPT
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36608
+  server: gd2.bjnet2.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 4|[SS] us 美国|@ripaojiedian
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36608
+  server: gd.bjnet2.com
+  type: ss
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.random.0rtt.100-111-1111.75-0-111.50-0-3333.ujGwPjrSYI7GdKHFCqCefmLjOscWkoX4m_3s_1yZrEo
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] usUS_1|2.3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: lsDSttIgw1roTVhNzcliywH74lXtRShbmMOoxUjQtkw
+    short-id: '!!str b684d13617792bb2'
+  server: c9e32b0b8700d8dd.us-1.globalmymusic.com
+  servername: thestraightpath.ca
+  tls: true
+  type: vless
+  udp: true
+  uuid: 40490a7c-5b04-4fe3-8a68-29de9a96c091
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 6|[Hysteria2] usUS_2|2.2MB/s
+  obfs: salamander
+  obfs-password: maintell
+  password: maintell
+  port: 2053
+  server: 107.172.67.52
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+  udp: true
+  up: ''
+- encryption: none
+  name: 6|[VLESS] usUS_3|2.8MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8080
+  server: 188.114.97.6
+  type: vless
+  udp: true
+  uuid: 419b7a2c-9fa2-4870-b58a-0498ccc7d6c4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: server16.peekconfig.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    max-early-data: 2560
+    path: /eyJqdW5rIjoiYXdUWFpSYnZubU5hIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSIsIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=
+  xudp: true
+- name: 6|[Http] usUS_4|2.7MB/s
   port: 443
   server: 149.34.248.65
   skip-cert-verify: true
@@ -42,7 +106,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 6|[Anytls] usUS_2|2.1MB/s
+- name: 6|[Anytls] usUS_5|2.6MB/s
   password: github.com/Alvin9999-newpac/fanqiang
   port: 19000
   server: anytls2.864106.xyz
@@ -50,112 +114,70 @@ proxies:
   sni: anytls2.864106.xyz
   type: anytls
   udp: true
-- cipher: aes-256-cfb
-  name: 6|[SS] usUS_3|4.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.147.191.121
-  type: ss
-  udp: true
-- name: 6|[Http] usUS_4|2.7MB/s
+- name: 6|[Http] usUS_6|2.5MB/s
   port: 9443
   server: 38.95.111.226
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 6|[Http] usUS_5|3.3MB/s
-  password: ''
+- name: 6|[Http] usUS_7|2.8MB/s
+  password: None
   port: 9002
-  server: 138.199.35.203
+  server: 138.199.35.213
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: ''
-- name: 6|[Http] usUS_6|2.4MB/s
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] usUS_7|3.0MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
 - name: 6|[Http] usUS_8|1.1MB/s
-  password: ''
+  password: None
   port: 9002
-  server: 138.199.35.217
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] usUS_9|2.8MB/s
+  password: ''
+  port: 443
+  server: 149.88.21.129
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
   username: ''
-- name: 6|[Http] usUS_9|4.1MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 6|[VLESS] usUS_10|1.9MB/s
+  network: ws
+  port: 443
+  server: ghosts-spasm.quick-cdn.net
+  servername: ghosts-spasm.quick-cdn.net
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 6|[Http] usUS_10|3.4MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
+  uuid: 5d76bd7c-d538-432f-a7d8-9be364427a19
+  ws-opts:
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+    path: /ws
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] usUS_11|2.5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 0dIyov95G3A1ySANsJzdYY9DGLvaIFU8ofJf3Jtv1Ds
+    short-id: '!!str befa80d97af98b74'
+  server: 38.244.20.25
+  servername: www.apple.com
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 6|[Http] usUS_11|3.1MB/s
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] usUS_12|3.6MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 6|[Http] usUS_13|3.7MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] usUS_14|4.4MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 6|[Http] usUS_15|2.6MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
+  uuid: 5272cd9f-a028-4452-ad8a-9bc21f87bb19
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

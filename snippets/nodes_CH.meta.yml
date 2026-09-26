@@ -1,13 +1,18 @@
 proxies:
-- name: 3|[Hysteria2] [ ch ] | @Cfox_SerVer
-  password: we9_I1893UFj3149xbr1_k8qvJ8734ic_Mx82gH
-  port: 8443
-  server: 82.38.64.237
-  skip-cert-verify: false
-  sni: hopp-swizland-new.mysynology.net
-  tls: false
+- down: ''
+  fingerprint: ''
+  name: 6|[Hysteria2] chCH_1|1.8MB/s
+  obfs: salamander
+  obfs-password: c13f29db6a638ad2b211b9ce2669ef27
+  password: 3a702d4d1de4949005d8431220e040fb
+  port: 443
+  server: 152.67.75.161
+  skip-cert-verify: true
+  sni: www.bing.com
   type: hysteria2
-- name: 6|[Http] chCH_1|1.7MB/s
+  udp: true
+  up: ''
+- name: 6|[Http] chCH_2|4.0MB/s
   password: None
   port: 9443
   server: 37.120.213.210
@@ -15,20 +20,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- client-fingerprint: safari
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] chCH_2|2.6MB/s
-  network: tcp
-  packet-encoding: xudp
+- name: 6|[Http] chCH_3|2.9MB/s
   port: 443
-  reality-opts:
-    public-key: jcA9IJbcnbrkU-4hIZII-58SP0Z6c0BsjfD0l5Ns9ys
-    short-id: '!!str 7bfbb024'
-  server: 157.22.187.17
-  servername: www.amazon.com
+  server: 31.7.62.50
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: c260fba0-9609-4190-b0ba-1538c08c0d22
-  xudp: true

@@ -117,24 +117,32 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: 6|[SS] usUS_5|4.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.227.186.25
-  type: ss
-  udp: true
-- alterId: '0'
+- alpn:
+  - ''
+  alterId: '0'
   cipher: auto
-  name: 6|[Vmess] jpJP_2|3.5MB/s
-  network: ws
-  port: 81
-  server: 147.78.242.19
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 6|[Vmess] deDE_1|3.8MB/s
+  network: http
+  packet-encoding: xudp
+  port: 10803
+  server: 5.45.97.147
+  skip-cert-verify: false
+  tls: false
   type: vmess
   udp: true
-  uuid: 357b37cc-d0d2-47ef-aa1a-0a668447999e
-  ws-opts:
-    path: /
+  uuid: 018fbfb7-721a-49a9-b9f5-fb55d92592b6
+  xudp: true
+- cipher: aes-256-cfb
+  name: 6|[SS] jpJP_1|3.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.113.166.191
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

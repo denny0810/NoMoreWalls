@@ -204,34 +204,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 6|[Vmess] deDE_11|2.3MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8080
-  server: 8ggixlxj2bf9.dop69.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2f28bb4b-5322-4cfd-9627-e52205c5e052
-  ws-opts:
-    headers:
-      Host: rt.orvexa.ir
-    path: /
-  xudp: true
 - alterId: 0
   cipher: auto
-  name: 6|[Vmess] jpJP_3|3.0MB/s
+  name: 6|[Vmess] jpJP_1|2.6MB/s
   network: ws
-  packet-encoding: xudp
   port: 2083
   server: cdn.sfacg.uk
   servername: or3.sfacg.uk
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vmess
   udp: true
@@ -240,7 +220,13 @@ proxies:
     headers:
       Host: or3.sfacg.uk
     path: /or3
-  xudp: true
+- cipher: aes-256-cfb
+  name: 6|[SS] usUS_12|3.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.234.217.115
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

@@ -37,98 +37,89 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
-- down: ''
+- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  down: ''
   fingerprint: ''
-  name: 6|[Hysteria2] usUS_1|3.7MB/s
+  name: 6|[Hysteria2] usUS_3|3.7MB/s
   obfs: ''
   obfs-password: ''
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: vpn-us-006.fastervpn.world
+  server: vpn-us-003.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-us-006.fastervpn.world
+  sni: vpn-us-003.fastervpn.world
   type: hysteria2
   udp: true
   up: ''
-- name: 6|[Http] usUS_2|1.5MB/s
-  port: 443
-  server: 149.88.21.129
+- auth: cloud:Wz8cE3yFhL9dXoSp
+  name: 6|[Hysteria2] usUS_2|4.1MB/s
+  password: cloud:Wz8cE3yFhL9dXoSp
+  port: 8443
+  server: ss.marmount.space
   skip-cert-verify: true
-  tls: true
-  type: http
+  sni: ss.marmount.space
+  type: hysteria2
   udp: true
-- name: 6,9|[Http] US_speednode_0140
-  password: None
+- down: ''
+  fingerprint: ''
+  name: 6|[Hysteria2] usUS_4|2.4MB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: purposebydesig.club
-  skip-cert-verify: false
-  sni: purposebydesig.club
-  tls: true
-  type: http
+  server: vpn-us-003.fastervpn.world
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  type: hysteria2
   udp: true
-- name: 6|[Http] usUS_4|2.9MB/s
-  port: 443
-  server: purposebydesig.club
-  sni: purposebydesig.club
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] usUS_5|1.9MB/s
+  up: ''
+- name: 6|[Http] usUS_5|1.1MB/s
   port: 9443
   server: 38.95.111.226
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 6|[Http] usUS_6|2.9MB/s
+- name: 6|[Http] usUS_6|1.9MB/s
+  password: 'null'
   port: 443
-  server: efr-marktplatz.club
-  skip-cert-verify: false
-  sni: efr-marktplatz.club
+  server: kimberlymilano.icu
+  sni: kimberlymilano.icu
   tls: true
   type: http
   udp: true
-- name: 6|[Http] usUS_7|2.2MB/s
-  port: 443
-  server: goedkoopgeluid.icu
+  username: 'null'
+- name: 6|[Anytls] usUS_7|1.7MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 19000
+  server: anytls2.864106.xyz
   skip-cert-verify: true
-  sni: goedkoopgeluid.icu
-  tls: true
-  type: http
+  sni: anytls2.864106.xyz
+  type: anytls
   udp: true
-- name: 6|[Http] usUS_8|3.8MB/s
+- name: 6|[Http] usUS_8|1.8MB/s
   port: 443
-  server: webdrone.club
-  sni: webdrone.club
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] usUS_9|1.5MB/s
-  port: 8090
-  server: 173.42.49.102
+  server: 12.202.180.10
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 6|[VLESS] usUS_10|1.2MB/s
-  network: ws
-  port: 443
-  server: cdn.8211992.xyz
-  servername: mao.mao114514.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- name: 6|[Hysteria2] usUS_9|3.4MB/s
+  password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
+  port: 19512
+  server: us1.xiaoliyu.us
+  skip-cert-verify: true
+  sni: us1.xiaoliyu.us
+  type: hysteria2
   udp: true
-  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
-  ws-opts:
-    headers:
-      Host: mao.mao114514.kdns.fr
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: 6|[Http] usUS_11|1.6MB/s
+- name: 6|[Http] usUS_10|1.1MB/s
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] usUS_11|1.3MB/s
   port: 443
   server: fullmanfirm.icu
   skip-cert-verify: true
@@ -136,32 +127,66 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 6|[Http] usUS_12|2.1MB/s
-  port: 8090
-  server: 24.142.229.178
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] usUS_13|1014KB/s
-  password: None
+- alpn:
+  - http/1.1
+  client-fingerprint: safari
+  name: 6|[VLESS] usUS_12|2.4MB/s
+  network: ws
+  packet-encoding: xudp
   port: 443
-  server: mmgr.club
-  skip-cert-verify: true
-  sni: mmgr.club
+  server: yigfdsgfuo88-production.up.railway.app
+  servername: yigfdsgfuo88-production.up.railway.app
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 6|[Http] usUS_14|1.1MB/s
-  password: ''
+  uuid: c00b96cd-defd-60c0-125c-89ae0a8d9ffc
+  ws-opts:
+    headers:
+      Host: yigfdsgfuo88-production.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.115 Safari/537.36
+    path: /ws/c00b96cd-defd-60c0-125c-89ae0a8d9ffc
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] usUS_13|1016KB/s
+  network: ws
+  packet-encoding: xudp
   port: 443
-  server: purecambogiasl.live
-  skip-cert-verify: true
-  sni: purecambogiasl.live
+  server: 45.147.48.28
+  servername: thus-k.netnode.cc.cd
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: ''
+  uuid: c92e12ca-ea66-4785-8675-652b35134117
+  ws-opts:
+    headers:
+      Host: thus-k.netnode.cc.cd
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /t.me/daily_free_vpn
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: ios
+  encryption: none
+  name: 6|[VLESS] usUS_14|1.9MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: victoryprovpn-production-c771.up.railway.app
+  servername: victoryprovpn-production-c771.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7e1ee2f-b600-a509-42e7-5884a1913f0d
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /ws/b7e1ee2f-b600-a509-42e7-5884a1913f0d
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
@@ -303,6 +328,13 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
+- name: 9|[Http] US_speednode_0140
+  password: None
+  port: 443
+  server: purposebydesig.club
+  tls: true
+  type: http
+  udp: true
 - name: 9|[Http] US_speednode_0141
   port: 443
   server: 38.28.193.188

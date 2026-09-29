@@ -44,7 +44,16 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
-- name: 6|[Anytls] usUS_1|1.0MB/s
+- auth: 531d9e93-53be-4f05-a9c1-33490d4da2f3
+  name: 6|[Hysteria2] usUS_1|4.3MB/s
+  password: 531d9e93-53be-4f05-a9c1-33490d4da2f3
+  port: 52125
+  server: 108.181.8.123
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- name: 6|[Anytls] usUS_2|1.4MB/s
   password: github.com/Alvin9999-newpac/fanqiang
   port: 19000
   server: anytls2.864106.xyz
@@ -52,21 +61,22 @@ proxies:
   sni: anytls2.864106.xyz
   type: anytls
   udp: true
-- name: 6|[Http] usUS_2|1.1MB/s
+- cipher: aes-256-cfb
+  name: 6|[SS] usUS_3|1.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.90.169.61
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- name: 6|[Http] usUS_4|1.7MB/s
   port: 443
   server: 68.235.56.51
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 6|[Http] usUS_3|3.3MB/s
-  port: 443
-  server: 68.235.56.59
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] usUS_4|3.6MB/s
+- name: 6|[Http] usUS_5|2.8MB/s
   password: ''
   port: 8443
   server: 154.81.36.92
@@ -75,6 +85,11 @@ proxies:
   type: http
   udp: true
   username: ''
+- name: 6|[Http] usUS_6|2.1MB/s
+  port: 443
+  server: 107.167.18.122
+  type: http
+  udp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

@@ -52,26 +52,12 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 6|[VLESS] jpJP_1|5.3MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TDbVu9oeQc6rjrsBcHuMs0tybjKy2EQQdZalmLvwSk0
-    short-id: '!!str 8ea105393d'
-  server: bgroup.jp3.ilovegairport.com
-  servername: ap-northeast-1.console.aws.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f354744d-21d9-4836-9934-4989e1c4d877
 - alpn:
   - h3
   - h2
   client-fingerprint: chrome
   encryption: none
-  name: 6|[VLESS] jpJP_2|5.4MB/s
+  name: 6|[VLESS] jpJP_1|4.7MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -85,8 +71,8 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/46.0.2490.71 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.110 Safari/537.36
     max-early-data: 2560
-    path: /fdip=sstp://vpn:vpn@VPNine1-vpn-200.opengw.net:443
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
   xudp: true

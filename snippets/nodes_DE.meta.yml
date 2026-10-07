@@ -9,14 +9,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 3|[Hysteria2] 🐞96@oneclickvpnkeys
-  password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
-  port: 4433
-  server: de1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  tls: false
-  type: hysteria2
 - name: 3|[Hysteria2] Telegram 🆔@cnetvpn de
   obfs: salamander
   obfs-password: 6cmj1dymhm79hopl
@@ -27,86 +19,32 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.KmObJcXK-X9Zx5HMeSkn-zchyyWJR3U2XMJDtWK2QEw
-  name: 6|[VLESS] deDE_1|1.8MB/s
-  network: xhttp
-  port: 8443
-  reality-opts:
-    public-key: GB3bGUtRma7-14YH-WK--1CR9GXXPHNqFUQz8v0YLBk
-    short-id: '!!str 1a4e3e64b9a568c5'
-  server: 2.28.142.170
-  servername: germanytest.tulnaro.ir
+- name: 3|[Hysteria2] 😊14@oneclickvpnkeys
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: germany3.h2corp.local
+  tls: false
+  type: hysteria2
+- name: 6|[Http] deDE_1|1.4MB/s
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: f774f037-6320-42e3-a97b-6d4a1f018dd5
-  xhttp-opts:
-    host: germanytest.tulnaro.ir
-    mode: auto
-    path: /
+- name: 6|[Http] deDE_2|1.8MB/s
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - cipher: aes-256-cfb
-  name: 6|[SS] deDE_2|1.8MB/s
+  name: 6|[SS] deDE_3|2.2MB/s
   password: amazonskr05
   port: 443
-  server: 18.159.149.158
+  server: 63.177.230.112
   type: ss
   udp: true
-- name: 6|[Http] deDE_3|1.0MB/s
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] deDE_4|1.5MB/s
-  port: 443
-  server: 37.203.35.28
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] deDE_5|3.4MB/s
-  port: 8443
-  server: 91.107.219.205
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] deDE_6|1.3MB/s
-  port: 443
-  server: 87.106.223.158
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] deDE_7|1.4MB/s
-  port: 443
-  server: 79.76.126.155
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- encryption: none
-  name: 6|[VLESS] deDE_8|2.0MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 39100
-  server: 46.225.255.204
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xudp: true
-- name: 6|[Http] deDE_9|1.8MB/s
-  password: ''
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''

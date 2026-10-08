@@ -7,6 +7,14 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
+- name: 3|[Hysteria2] us189951 | ⚡️Telegram = t.me/S...
+  password: dongtaiwang.com
+  port: 44356
+  server: hy2.561891.xyz
+  skip-cert-verify: false
+  sni: hy2.561891.xyz
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 4|[Vmess] us 美国|@ripaojiedian
@@ -53,6 +61,41 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 6|[SS] usUS_1|2.1MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: feb7fa9:154948
+    mode: tls
+  port: 2377
+  server: 88.210.36.107
+  type: ss
+  udp: true
+- name: 6|[Http] usUS_2|1.9MB/s
+  port: 443
+  server: 12.202.180.118
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] usUS_3|1.2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
+    short-id: '!!str '
+  server: 193.239.179.15
+  servername: worldoftanks.asia
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1d38d2b2-342f-4a01-93df-f24fb0277c70
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...

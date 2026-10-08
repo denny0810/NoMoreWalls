@@ -9,19 +9,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: 3|[Hysteria2] de189465 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: 1vwbgf5t1k61nxmi
-  password: 8d1729b01c1ad743179ed4558c8404b0
-  port: 8397
-  server: 193.42.11.245
-  sni: 193.42.11.245
-  tls: false
-  type: hysteria2
 - name: 3|[Hysteria2] Telegram 🆔@cnetvpn de
   obfs: salamander
   obfs-password: 6cmj1dymhm79hopl
@@ -32,3 +19,24 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
+- name: 3|[Hysteria2] de190017 | ⚡️Telegram = t.me/S...
+  password: cc4074d6-f450-4025-833a-a6e0100ceaff
+  port: 443
+  server: 45.88.12.155
+  skip-cert-verify: false
+  sni: crt.molniya.sbs
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  name: 6|[VLESS] deDE_1|1.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 2083
+  server: 141.98.7.193
+  servername: 141.98.7.193
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9e60f73-1618-491c-a85b-477bdc959ae6
+  xudp: true

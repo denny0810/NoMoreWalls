@@ -1,1 +1,23 @@
-proxies: []
+proxies:
+- name: 6|[Anytls] frFR_1|1.3MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 30099
+  server: ip5.934618.xyz
+  skip-cert-verify: true
+  sni: ip5.934618.xyz
+  type: anytls
+  udp: true
+- name: 6|[Http] frFR_2|1.0MB/s
+  port: 443
+  server: 13.37.226.59
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] frFR_3|2.7MB/s
+  port: 443
+  server: 13.37.228.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true

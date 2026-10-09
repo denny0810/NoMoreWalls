@@ -291,22 +291,47 @@ proxies:
   server: 18.196.88.40
   type: ss
   udp: true
-- name: 6|[Trojan] jpJP_1|5.6MB/s
-  network: ws
-  password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+- cipher: aes-256-cfb
+  name: 6|[SS] deDE_2|2.7MB/s
+  password: amazonskr05
   port: 443
-  server: jp3.998998.best
+  server: 3.79.59.187
+  type: ss
+  udp: true
+- name: 6|[Trojan] deDE_13|1.1MB/s
+  network: tcp
+  password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU
+  port: 443
+  server: ger2.fytpn.com
   skip-cert-verify: false
-  sni: nat11.outsidemyheart.space
+  sni: ger2.fytpn.com
   type: trojan
   udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    max-early-data: 2560
-    path: /w4e5yh0p945y3
+- name: 6|[Trojan] fiFI_1|2.3MB/s
+  network: tcp
+  password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU
+  port: 2097
+  server: ger6.fytpn.com
+  skip-cert-verify: false
+  sni: ger6.fytpn.com
+  type: trojan
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  alterId: '0'
+  cipher: auto
+  name: 6|[Vmess] lvLV_3|3.0MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 2083
+  server: 188.130.154.174
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 74c17cae-bf8b-4cda-8cdd-cf7983bf0a49
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...

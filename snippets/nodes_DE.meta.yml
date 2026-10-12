@@ -27,74 +27,46 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 6|[Http] deDE_1|3.5MB/s
-  port: 9002
-  server: 158.173.154.3
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] deDE_2|3.4MB/s
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] deDE_3|1020KB/s
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] deDE_4|2.2MB/s
-  port: 9002
-  server: 158.173.154.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] deDE_5|3.2MB/s
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] deDE_6|2.7MB/s
+- name: 6|[Http] deDE_1|1.2MB/s
+  password: None
   port: 443
   server: 149.36.50.129
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 6|[Http] deDE_7|1.1MB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
+- encryption: mlkem768x25519plus.native.0rtt.BheP3zTPlA3cijplJnfrJSIp9rYlrGqnqEOnYD-wA20
+  name: 6|[VLESS] deDE_2|1.1MB/s
+  network: ws
+  port: 8880
+  server: 188.114.99.0
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3ee10440-225e-4cbc-83ed-3c80b90bcb07
+  ws-opts:
+    headers:
+      Host: ovh-gr1.mahkhorshidi.ir
+    path: /notls
+- name: 6|[Http] deDE_3|1.0MB/s
+  port: 9443
+  server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] deDE_8|1.9MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: spiderpanel-development-g5884.lucity.app
-  servername: spiderpanel-development-g5884.lucity.app
+- name: 6|[Http] deDE_4|1.1MB/s
+  port: 9002
+  server: 158.173.154.4
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: cd0bd679-5760-4dd6-9340-576dd279228f
-  ws-opts:
-    headers:
-      Host: spiderpanel-development-g5884.lucity.app
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /ws/cd0bd679-5760-4dd6-9340-576dd279228f
-  xudp: true
+- name: 6|[Http] deDE_5|2.0MB/s
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true

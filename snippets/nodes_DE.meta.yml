@@ -27,9 +27,27 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.BjNG8wpxXidElQMwcKqn6YAVeg8IG8sSisuwtE8pGgg
+  name: 6|[VLESS] deDE_1|1.1MB/s
+  network: ws
+  port: 443
+  server: zhechengtoy.com
+  servername: zhechengtoy.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd73e80c-912e-4f8c-bd0f-92be89bcb6df
+  ws-opts:
+    headers:
+      Host: ded1up.hpcdn.shop
+    path: /14424/v7
+    v2ray-http-upgrade: true
 - client-fingerprint: chrome
   encryption: none
-  name: 6|[VLESS] deDE_1|3.8MB/s
+  name: 6|[VLESS] deDE_2|1.5MB/s
   network: xhttp
   packet-encoding: xudp
   port: 8448
@@ -47,7 +65,7 @@ proxies:
     mode: stream-one
     path: /assets/v2
   xudp: true
-- name: 6|[Http] deDE_2|2.3MB/s
+- name: 6|[Http] deDE_3|1.6MB/s
   password: None
   port: 443
   server: 149.36.50.1
@@ -55,64 +73,35 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 6|[Http] deDE_3|2.6MB/s
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] deDE_4|3.0MB/s
-  port: 443
-  server: 79.127.156.177
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] deDE_5|1.7MB/s
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] deDE_6|2.3MB/s
-  port: 443
-  server: 87.106.223.158
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] deDE_7|1.3MB/s
-  port: 9002
-  server: 158.173.154.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] deDE_8|2.9MB/s
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Http] deDE_9|1.8MB/s
+- name: 6|[Http] deDE_4|1.2MB/s
+  password: None
   port: 9443
-  server: 213.177.229.161
+  server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 6|[Http] deDE_10|1.2MB/s
+- name: 6|[Http] deDE_5|3.6MB/s
+  port: 9002
+  server: 158.173.154.3
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] deDE_7|2.6MB/s
+  network: tcp
+  packet-encoding: xudp
   port: 443
-  server: 194.67.110.12
-  skip-cert-verify: true
+  reality-opts:
+    public-key: e0RV9wRJdsQbQ0ugn5QUhJcTgWsSTVsKQTXMKweMDUg
+    short-id: '!!str '
+  server: 45.131.212.151
+  servername: de.lstu.ru
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 6|[Http] deDE_11|4.3MB/s
-  port: 80
-  server: 51.224.131.122
-  type: http
-  udp: true
+  uuid: 5aefad36-749b-401c-8b3b-547ef7d2253e
+  xudp: true

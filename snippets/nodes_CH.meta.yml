@@ -27,18 +27,32 @@ proxies:
   sni: hopp-swizland-new.mysynology.net
   tls: false
   type: hysteria2
-- name: 6|[Http] chCH_1|2.9MB/s
+- name: 6|[Http] chCH_1|1005KB/s
   port: 9443
   server: 149.88.27.33
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 6|[Http] chCH_2|2.1MB/s|R002-260618
+- name: 6|[Http] chCH_2|1.1MB/s
+  port: 443
+  server: 31.7.62.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] chCH_3|1.1MB/s|R002-260618
   port: 9443
   server: 37.120.213.210
   skip-cert-verify: true
   sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] chCH_4|1.1MB/s
+  port: 9443
+  server: 149.88.27.46
+  skip-cert-verify: true
   tls: true
   type: http
   udp: true

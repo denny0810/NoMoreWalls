@@ -37,28 +37,49 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 6|[Http] sgSG_1|2.1MB/s
+- client-fingerprint: unsafe
+  encryption: none
+  name: 6|[VLESS] sgSG_1|4.3MB/s
+  network: ws
+  packet-encoding: xudp
   port: 443
-  server: 156.146.56.97
-  skip-cert-verify: true
+  server: 172.64.150.43
+  servername: snip.edgeoneai.cc.cd
   tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: /
+  xudp: true
+- name: 6|[Http] sgSG_2|4.9MB/s
+  password: '!!str 1234'
+  port: 2080
+  server: 54.169.52.51
+  skip-cert-verify: true
   type: http
   udp: true
-- name: 6|[Socks5] sgSG_2|1.4MB/s
-  password: '!!str 8888'
-  port: 1080
-  server: 47.236.168.243
+  username: '1234'
+- name: 6|[Http] sgSG_3|4.2MB/s
+  password: '!!str 1234'
+  port: 2080
+  server: 54.151.156.21
   skip-cert-verify: true
-  type: socks5
-  udp: true
-  username: '8888'
-- name: 6|[Http] sgSG_3|2.6MB/s
-  port: 9443
-  server: 149.88.99.209
-  skip-cert-verify: true
-  tls: true
   type: http
   udp: true
+  username: '1234'
+- name: 6|[Http] sgSG_4|4.6MB/s
+  password: '!!str 1234'
+  port: 2080
+  server: 13.250.21.56
+  skip-cert-verify: true
+  type: http
+  udp: true
+  username: '1234'
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] sgSG²_1|2.4MB/s|X|History

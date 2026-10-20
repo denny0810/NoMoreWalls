@@ -1,4 +1,27 @@
 proxies:
+- name: 6|[Http] frFR_1|3.3MB/s
+  port: 443
+  server: 82.65.162.76
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] frFR_2|2.7MB/s
+  port: 6103
+  server: 87.98.174.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] frFR_3|2.0MB/s
+  password: ''
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
 - name: 9|[Http] FR_speednode_0008
   port: 9443
   server: 138.199.47.247

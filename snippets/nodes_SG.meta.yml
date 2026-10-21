@@ -37,53 +37,14 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: unsafe
-  encryption: none
-  name: 6|[VLESS] sgSG_1|2.5MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 172.64.150.43
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /
-  xudp: true
-- name: 6|[Http] sgSG_2|1.5MB/s
+- name: 6|[Http] sgSG_1|1.7MB/s
   password: '!!str 1234'
   port: 2080
-  server: 47.129.235.22
+  server: 54.169.228.182
   skip-cert-verify: true
   type: http
   udp: true
   username: '1234'
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 6|[VLESS] sgSG_3|2.8MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 172.64.153.61
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /fdipfp=unsafe
-  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 7|[SS] sgSG²_1|2.4MB/s|X|History

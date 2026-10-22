@@ -1,4 +1,40 @@
 proxies:
+- name: 6|[Http] gbGB_1|1.6MB/s
+  port: 9443
+  server: 84.17.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] gbGB_2|3.0MB/s
+  port: 443
+  server: 84.17.50.193
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] gbGB_3|3.0MB/s
+  port: 9443
+  server: 84.233.178.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] gbGB_4|2.7MB/s
+  password: None
+  port: 443
+  server: 212.102.63.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] gbGB_5|1.2MB/s
+  port: 443
+  server: 212.102.63.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 9|[VLESS] GB_speednode_0013

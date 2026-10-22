@@ -37,86 +37,18 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] sgSG_1|4.1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 172.64.154.211
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: unsafe
-  encryption: none
-  name: 6|[VLESS] sgSG_2|4.7MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 172.64.150.43
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] sgSG_3|1.3MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 130.78.190.134
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.102 Safari/537.36
-    path: /
-  xudp: true
-- name: 6|[Http] sgSG_4|1.5MB/s
+- name: 6|[Http] sgSG_1|1.0MB/s
   password: '!!str 1234'
   port: 2080
-  server: 54.255.129.221
+  server: 13.212.249.115
   skip-cert-verify: true
   type: http
   udp: true
   username: '1234'
-- name: 6|[Http] sgSG_5|4.3MB/s
+- name: 6|[Http] sgSG_2|4.9MB/s
   password: '!!str 1234'
   port: 2080
-  server: 18.143.163.241
-  skip-cert-verify: true
-  type: http
-  udp: true
-  username: '1234'
-- name: 6|[Http] sgSG_6|1.4MB/s
-  password: '!!str 1234'
-  port: 2080
-  server: 13.212.207.226
+  server: 13.229.236.228
   skip-cert-verify: true
   type: http
   udp: true

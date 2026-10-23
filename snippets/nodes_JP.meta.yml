@@ -52,27 +52,21 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 6|[VLESS] jpJP_1|3.2MB/s
+- client-fingerprint: chrome
+  name: 6|[VLESS] jpJP_1|3.4MB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: saas.sin.fan
+  server: 168.93.214.124
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
   udp: true
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    max-early-data: 2560
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chromefp=chromefp=chrome
   xudp: true

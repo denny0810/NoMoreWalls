@@ -1,9 +1,15 @@
 proxies:
-- name: 3|[Hysteria2] 🐙32@oneclickvpnkeys
+- name: 3|[Hysteria2] 🐙71@oneclickvpnkeys
+  password: 78559873-84ef-4cab-a0b2-46d4cd20de4a
+  port: 2053
+  server: 144.31.230.51
+  sni: sweden.luxes.network
+  tls: false
+  type: hysteria2
+- name: 3|[Hysteria2] 🐙93@oneclickvpnkeys
   password: d4ca9415f0eac7897472e1e5b86d2e96
   port: 443
-  server: 50.7.38.243
-  sni: promo.betust.net
+  server: promo.betust.net
   tls: false
   type: hysteria2
 - name: 3|[Hysteria2] Telegram 🆔@cnetvpn se
@@ -16,3 +22,34 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- name: 6|[Http] seSE_1|3.0MB/s
+  port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 6|[Http] seSE_2|2.3MB/s
+  port: 443
+  server: 146.70.242.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 6|[VLESS] seSE_3|2.2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
+    short-id: '!!str afee962d'
+  server: 91.242.228.29
+  servername: se1.mycloud1.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
+  xudp: true

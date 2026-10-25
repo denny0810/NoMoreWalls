@@ -1,13 +1,259 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 1|[Vmess] DE41｜机房｜高风险 (黑名单)
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 64
+  cipher: auto
+  name: 1|[Vmess] US74｜机房｜低风险
+  network: tcp
+  port: '34114'
+  server: 103.181.164.237
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  name: 1|[Trojan] US80｜机房｜低风险
+  network: ws
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  port: 443
+  server: 172.64.53.190
+  skip-cert-verify: true
+  sni: snll667.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snll667.pages.dev
+    path: '%2F'
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  name: 1|[Trojan] TW3｜机房｜低风险
+  network: ws
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  port: 14147
+  server: 203.69.248.40
+  skip-cert-verify: true
+  sni: snll667.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snll667.pages.dev
+    path: '%2F'
+- alterId: 0
+  cipher: auto
+  name: 1|[Vmess] ID5｜家宽｜非常安全
+  network: ws
+  port: '443'
+  server: 8.223.63.150
+  servername: mn1ray.jagoanvip.xyz
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  name: 1|[Vmess] ID6｜家宽｜非常安全
+  network: ws
+  port: '443'
+  server: 34.143.159.175
+  servername: mn1ray.jagoanvip.xyz
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- name: 1|[Trojan] PE2｜机房｜低风险
+  network: tcp
+  password: af4b064a9c39472fb34ad8b113acdc6b
+  port: 443
+  server: 38.180.173.150
+  skip-cert-verify: true
+  sni: 38.180.173.150
+  type: trojan
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  name: 1|[Trojan] HK67｜机房｜低风险
+  network: ws
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  port: 443
+  server: cf.877774.xyz
+  skip-cert-verify: true
+  sni: snll667.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snll667.pages.dev
+    path: '%2F'
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  name: 1|[Trojan] HK68｜机房｜低风险
+  network: ws
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  port: 443
+  server: 95.40.61.115
+  skip-cert-verify: true
+  sni: snll667.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snll667.pages.dev
+    path: '%2F'
+- alterId: 0
+  cipher: auto
+  name: 1|[Vmess] ID17｜家宽｜非常安全
+  network: ws
+  port: '443'
+  server: 83.229.121.113
+  servername: mn1ray.jagoanvip.xyz
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  name: 1|[Vmess] ID24｜家宽｜非常安全
+  network: ws
+  port: '443'
+  server: 47.76.218.163
+  servername: mn1ray.jagoanvip.xyz
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  name: 1|[Vmess] ID10｜家宽｜非常安全
+  network: ws
+  port: '2087'
+  server: 103.224.80.7
+  servername: mn1ray.jagoanvip.xyz
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  name: 1|[Vmess] ID16｜家宽｜非常安全
+  network: ws
+  port: '443'
+  server: 38.55.194.138
+  servername: mn1ray.jagoanvip.xyz
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  name: 1|[Vmess] ID21｜家宽｜非常安全
+  network: ws
+  port: '443'
+  server: 149.104.31.55
+  servername: mn1ray.jagoanvip.xyz
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  name: 1|[Vmess] ID22｜家宽｜非常安全
+  network: ws
+  port: '443'
+  server: 38.55.193.19
+  servername: mn1ray.jagoanvip.xyz
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  name: 1|[Vmess] ID25｜家宽｜非常安全
+  network: ws
+  port: '443'
+  server: 43.134.87.15
+  servername: mn1ray.jagoanvip.xyz
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  name: 1|[Vmess] ID23｜家宽｜非常安全
+  network: ws
+  port: '443'
+  server: 38.55.193.78
+  servername: mn1ray.jagoanvip.xyz
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- name: 1|[Trojan] IN1｜机房｜低风险
+  network: tcp
+  password: af4b064a9c39472fb34ad8b113acdc6b
+  port: 443
+  server: 139.84.133.199
+  skip-cert-verify: true
+  sni: 139.84.133.199
+  type: trojan
+- name: 1|[Trojan] US146｜机房｜低风险
+  network: tcp
+  password: af4b064a9c39472fb34ad8b113acdc6b
+  port: 443
+  server: 194.33.45.157
+  skip-cert-verify: true
+  sni: 194.33.45.157
+  type: trojan
+- name: 1|[Trojan] SG6｜机房｜高风险 (黑名单)
+  network: tcp
+  password: af4b064a9c39472fb34ad8b113acdc6b
+  port: 443
+  server: 5.180.78.22
+  skip-cert-verify: true
+  sni: 5.180.78.22
+  type: trojan
 - cipher: aes-256-cfb
-  name: '4,5|[SS] tg频道:@ripaojiedian #1'
+  name: '5,6|[SS] tg频道:@ripaojiedian #1'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: 4|[Vmess] hk 香港|@ripaojiedian
+  name: 5|[Vmess] hk 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -16,7 +262,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 4|[Vmess] hk 香港3|@ripaojiedian
+  name: 5|[Vmess] hk 香港3|@ripaojiedian
   network: ws
   port: 443
   server: ADncdOvLHR4M1P36.v.3dns.vip
@@ -31,7 +277,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 4|[Vmess] hk 香港2|@ripaojiedian
+  name: 5|[Vmess] hk 香港2|@ripaojiedian
   network: ws
   port: 443
   server: kBONDXW9liFCi4h4.v.3dns.vip
@@ -46,7 +292,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 4|[Vmess] hk 香港4|@ripaojiedian
+  name: 5|[Vmess] hk 香港4|@ripaojiedian
   network: ws
   port: 443
   server: aZW0eunYVdvRe73k.v.3dns.vip
@@ -61,7 +307,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 4|[Vmess] hk 香港5|@ripaojiedian
+  name: 5|[Vmess] hk 香港5|@ripaojiedian
   network: ws
   port: 443
   server: syJ2gGUgMwBwQwQx.v.3dns.vip
@@ -76,7 +322,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 4|[Vmess] jp 日本|@ripaojiedian
+  name: 5|[Vmess] jp 日本|@ripaojiedian
   network: ws
   port: 443
   server: Z9FfBx3zs2q5O0BG.v.3dns.vip
@@ -91,7 +337,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 4|[Vmess] jp 日本2|@ripaojiedian
+  name: 5|[Vmess] jp 日本2|@ripaojiedian
   network: ws
   port: 443
   server: kQov7UKaDknXb8a3.v.3dns.vip
@@ -106,7 +352,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 4|[Vmess] jp 日本3|@ripaojiedian
+  name: 5|[Vmess] jp 日本3|@ripaojiedian
   network: ws
   port: 443
   server: kneNaKHeSXnZH259.v.3dns.vip
@@ -121,7 +367,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 4|[Vmess] sg 新加坡|@ripaojiedian
+  name: 5|[Vmess] sg 新加坡|@ripaojiedian
   network: ws
   port: 443
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
@@ -136,7 +382,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 4|[Vmess] sg 新加坡2|@ripaojiedian
+  name: 5|[Vmess] sg 新加坡2|@ripaojiedian
   network: ws
   port: 443
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
@@ -151,7 +397,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 4|[Vmess] kr 韩国|@ripaojiedian
+  name: 5|[Vmess] kr 韩国|@ripaojiedian
   network: ws
   port: 443
   server: 8nTzyR5KNivfabaT.v.3dns.vip
@@ -166,7 +412,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 4|[Vmess] us 美国|@ripaojiedian
+  name: 5|[Vmess] us 美国|@ripaojiedian
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -181,7 +427,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 4|[Vmess] us 美国2|@ripaojiedian
+  name: 5|[Vmess] us 美国2|@ripaojiedian
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -196,7 +442,7 @@ proxies:
     path: /ws-vmess
 - alterId: 2
   cipher: auto
-  name: 5|[Vmess] 香港|@ripaojiedian
+  name: 6|[Vmess] 香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -204,7 +450,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 5|[Trojan] 香港2|@ripaojiedian
+- name: 6|[Trojan] 香港2|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -212,7 +458,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 5|[Trojan] 香港3|@ripaojiedian
+- name: 6|[Trojan] 香港3|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10115
@@ -220,7 +466,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 5|[Trojan] 香港4|@ripaojiedian
+- name: 6|[Trojan] 香港4|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12107
@@ -228,7 +474,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 5|[Trojan] 香港5|@ripaojiedian
+- name: 6|[Trojan] 香港5|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12102
@@ -236,7 +482,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 5|[Trojan] 日本2|@ripaojiedian
+- name: 6|[Trojan] 日本2|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
@@ -244,7 +490,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 5|[Trojan] 新加坡|@ripaojiedian
+- name: 6|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -252,7 +498,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 5|[Trojan] 美国|@ripaojiedian
+- name: 6|[Trojan] 美国|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -260,7 +506,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 5|[Trojan] 美国2|@ripaojiedian
+- name: 6|[Trojan] 美国2|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -268,7 +514,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 5|[Trojan] 台湾|@ripaojiedian
+- name: 6|[Trojan] 台湾|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12142
@@ -276,7 +522,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 5|[Trojan] 韩国|@ripaojiedian
+- name: 6|[Trojan] 韩国|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 11171
@@ -284,64 +530,95 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- name: 7|[Trojan] twTW_1|3.0MB/s
+  network: tcp
+  password: 29086912-33e4-4e06-ba2b-60f1a195864f
+  port: 24999
+  server: tjtw.m2k699.com
+  skip-cert-verify: true
+  sni: www.itunes.com
+  type: trojan
+  udp: true
+- alterId: '2'
+  cipher: auto
+  name: 7|[Vmess] nlNL_2|1.9MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- name: 7|[Trojan] twTW_2|2.8MB/s
+  network: tcp
+  password: 29086912-33e4-4e06-ba2b-60f1a195864f
+  port: 24999
+  server: tjtw.m2k699.com
+  skip-cert-verify: false
+  sni: tjtw.m2k699.com
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  name: 7|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...
+  name: 8|[SS] vnVN²_1|2.1MB/s|GPT⁺|GM|X|Succ...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.172
   type: ss
 - cipher: aes-256-cfb
   country: 🇨🇳 CN
-  name: 7|[SS] vnVN²_2|1.6MB/s|GPT|X|History
+  name: 8|[SS] vnVN²_2|1.6MB/s|GPT|X|History
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.80
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
+  name: 8|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.251
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  name: 7|[SS] vnVN²_4|2.2MB/s|GPT⁺|YT|X
+  name: 8|[SS] vnVN²_4|2.2MB/s|GPT⁺|YT|X
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.17
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 7|[SS] vnVN²_5|0.8MB/s|GPT⁺|GM|YT|X|S...
+  name: 8|[SS] vnVN²_5|0.8MB/s|GPT⁺|GM|YT|X|S...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.206
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 7|[SS] vnVN²_6|0.5MB/s|GPT|YT|X|Histo...
+  name: 8|[SS] vnVN²_6|0.5MB/s|GPT|YT|X|Histo...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.173
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  name: 7|[SS] sgSG²_1|2.4MB/s|X|History
+  name: 8|[SS] sgSG²_1|2.4MB/s|X|History
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.16
   type: ss
 - cipher: aes-256-gcm
-  name: 8|[SS] SS-IPv6
+  name: 9|[SS] SS-IPv6
   password: github.com/Alvin9999-newpac/fanqiang
   port: 22222
   server: 2001:bc8:32d7:17b::100
   type: ss
 - alterId: 0
   cipher: auto
-  name: 8|[Vmess] vmess-ws-ipv6
+  name: 9|[Vmess] vmess-ws-ipv6
   network: ws
   port: '18901'
   server: 2001:bc8:32d7:1a9::5

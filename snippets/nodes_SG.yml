@@ -1,7 +1,15 @@
 proxies:
+- name: 1|[Trojan] SG6｜机房｜高风险 (黑名单)
+  network: tcp
+  password: af4b064a9c39472fb34ad8b113acdc6b
+  port: 443
+  server: 5.180.78.22
+  skip-cert-verify: true
+  sni: 5.180.78.22
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 4|[Vmess] sg 新加坡|@ripaojiedian
+  name: 5|[Vmess] sg 新加坡|@ripaojiedian
   network: ws
   port: 443
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
@@ -16,7 +24,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 4|[Vmess] sg 新加坡2|@ripaojiedian
+  name: 5|[Vmess] sg 新加坡2|@ripaojiedian
   network: ws
   port: 443
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
@@ -29,7 +37,7 @@ proxies:
     headers:
       Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
     path: /ws-vmess
-- name: 5|[Trojan] 新加坡|@ripaojiedian
+- name: 6|[Trojan] 新加坡|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -39,7 +47,7 @@ proxies:
   type: trojan
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  name: 7|[SS] sgSG²_1|2.4MB/s|X|History
+  name: 8|[SS] sgSG²_1|2.4MB/s|X|History
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.16

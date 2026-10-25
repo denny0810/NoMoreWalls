@@ -53,28 +53,19 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 6|[Http] usUS_1|2.2MB/s
-  port: 9443
-  server: 154.47.25.78
+- name: 6|[Http] usUS_1|1.2MB/s
+  port: 22222
+  server: 64.118.155.2
+  skip-cert-verify: true
+  type: http
+  udp: true
+- name: 6|[Http] usUS_2|3.7MB/s
+  port: 8443
+  server: 154.81.36.92
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 6,9|[Http] US_speednode_0056
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 6|[Socks5] usUS_3|3.0MB/s
-  password: ''
-  port: 7890
-  server: 39.106.201.108
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-  username: ''
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 7|[SS] vnVN²_3|2.9MB/s|GPT⁺|YT-US|X|H...
@@ -129,6 +120,13 @@ proxies:
   password: None
   port: 9443
   server: 198.44.138.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 9|[Http] US_speednode_0056
+  port: 443
+  server: 12.202.180.118
   skip-cert-verify: true
   tls: true
   type: http

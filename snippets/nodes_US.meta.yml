@@ -90,105 +90,76 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 7|[Trojan] usUS_1|1.4MB/s
+- name: 7|[Trojan] usUS_1|1002KB/s
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.122.7
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.searchnationwidecareerchangehelperandguidancetoday.com
   type: trojan
   udp: true
-- name: 7|[Http] usUS_2|4.2MB/s
+- name: 7|[Http] usUS_2|1.6MB/s
   port: 8443
   server: 154.81.36.92
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 7,10|[Http] US_speednode_0041
-  port: 443
-  server: 64.98.50.100
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 7|[Socks5] usUS_4|1.1MB/s
-  port: 22222
-  server: 193.25.215.182
-  type: socks5
-  udp: true
-- name: 7|[Http] usUS_5|3.1MB/s
+- name: 7|[Http] usUS_3|1.3MB/s
   port: 443
   server: 121.127.34.82
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 7|[Http] usUS_6|3.1MB/s
-  port: 443
-  server: 149.22.88.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 7|[Http] usUS_7|2.6MB/s
-  port: 9443
-  server: 198.44.135.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 7|[Http] usUS_8|3.0MB/s
-  port: 9443
-  server: 154.47.25.78
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 7|[Http] usUS_9|3.1MB/s
+- name: 7|[Http] usUS_4|1.8MB/s
+  password: None
   port: 9443
   server: 149.88.21.140
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 7|[Http] usUS_10|1.6MB/s
+- name: 7|[Http] usUS_5|2.6MB/s
   port: 443
-  server: 193.239.236.134
+  server: 167.88.60.242
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 7|[Http] usUS_11|1.7MB/s
-  port: 443
-  server: 198.44.135.27
+- name: 7|[Http] usUS_6|1.0MB/s
+  port: 9443
+  server: 198.44.138.27
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 7|[Http] usUS_12|1.6MB/s
+- name: 7|[Http] usUS_7|1.9MB/s
+  password: None
   port: 443
-  server: 68.235.56.59
+  server: 12.202.180.118
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 7|[Http] usUS_13|2.9MB/s
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc-nl-stream
+  name: 7|[VLESS] usUS_8|2.0MB/s
+  network: grpc
+  packet-encoding: xudp
   port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
+  reality-opts:
+    public-key: WJrP73M7px11xkHKhmEMKnaqUR-DPZnKbR2m_N3TwEE
+    short-id: '!!str 724d6cab'
+  server: 74.0.48.173
+  servername: nl-all.vless-bitrhythmia.top
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 7|[Http] usUS_14|4.8MB/s
-  password: ''
-  port: 9480
-  server: 104.129.203.85
-  skip-cert-verify: true
-  type: http
-  udp: true
-  username: ''
+  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
+  xudp: true
 - name: 10|[Http] US_speednode_0039
   port: 8443
   server: 44.248.167.117
@@ -199,6 +170,13 @@ proxies:
 - name: 10|[Http] US_speednode_0040
   port: 443
   server: 38.247.141.135
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 10|[Http] US_speednode_0041
+  port: 443
+  server: 64.98.50.100
   skip-cert-verify: true
   tls: true
   type: http

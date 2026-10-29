@@ -1,1 +1,31 @@
-proxies: []
+proxies:
+- name: 7|[Http] caCA_1|2.1MB/s
+  port: 9443
+  server: 198.44.157.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] caCA_2|1.2MB/s
+  password: None
+  port: 443
+  server: 206.223.183.16
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] caCA_3|1.4MB/s
+  password: None
+  port: 443
+  server: 206.223.183.13
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] caCA_4|2.4MB/s
+  port: 443
+  server: 4.172.245.121
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true

@@ -1,4 +1,11 @@
 proxies:
+- name: 7|[Http] ruRU_1|3.1MB/s
+  port: 8443
+  server: 87.242.85.187
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 10|[VLESS] RU_speednode_0029

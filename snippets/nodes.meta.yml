@@ -829,16 +829,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 4|[Hysteria2] hk203438 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
-  port: 5010
-  server: 152.32.254.68
-  skip-cert-verify: false
-  sni: nas.aizhzo.com
-  tls: false
-  type: hysteria2
 - name: 4|[Hysteria2] @vmess_ir
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
@@ -1216,7 +1206,111 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 7|[Http] itIT_1|2.7MB/s
+- encryption: mlkem768x25519plus.native.0rtt.sphudmOm4wKYnBGDTU6kl6-KH7fdQ1VzXp58hEAn3zU
+  flow: xtls-rprx-vision
+  name: 7|[VLESS] deDE_1|1.4MB/s
+  network: tcp
+  port: 59397
+  reality-opts:
+    public-key: 7w6m1Z7wZk1KX7bBlCi50t_8T-HdC8aMizOcIyqcaS4
+    short-id: '1430'
+  server: 185.44.64.166
+  servername: la.blogs.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ac36b6f8-d03d-46cb-808f-e655183fb76d
+- client-fingerprint: safari
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 3e99d50d5740985d
+  name: 7|[VLESS] nlNL_1|1.3MB/s
+  network: grpc
+  port: 443
+  server: 189.74.114.119
+  servername: api.mediaklenov.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: abd5755a-8b77-4ed4-afbd-f2ccbc08e6f5
+- grpc-opts:
+    grpc-service-name: grpc-video-call
+  name: 7|[Trojan] deDE_2|2.7MB/s
+  network: grpc
+  password: Pass-Client-1
+  port: 8446
+  server: 171.22.119.74
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 7|[VLESS] fiFI_1|2.3MB/s
+  network: xhttp
+  port: 61374
+  reality-opts:
+    public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
+  server: se-2.pythonsetupbib.online
+  servername: se-2.pythonsetupbib.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  xhttp-opts:
+    host: se-2.pythonsetupbib.online
+    mode: packet-up
+    path: /
+    x-padding-bytes: 100-500
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 7|[VLESS] usUS_2|1.7MB/s
+  network: raw
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: 'c39cc7310a'
+  server: 169.40.42.89
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 7|[Vmess] deDE_3|2.0MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: Qmh49RE8c0DCqpFU.v.3dns.vip
+  servername: Qmh49RE8c0DCqpFU.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: Qmh49RE8c0DCqpFU.v.3dns.vip
+    path: /ws-vmess
+  xudp: true
+- encryption: none
+  grpc-opts:
+    grpc-service-name: rex-eb0bf76b710ce763
+  name: 7|[VLESS] inIN_1|2.3MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 2443
+  reality-opts:
+    public-key: h85e28MxBgNyT9d9cNeOLVtWfHq6cT_1_oxZOTajtTg
+    short-id: '92c32de179e5d908'
+  server: hydra.yokkastars.com
+  servername: deepl.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5e679ccd-1586-4d5f-b87b-48251046cad8
+  xudp: true
+- name: 7|[Http] itIT_1|1.5MB/s
   password: None
   port: 443
   server: 185.183.105.146
@@ -1224,7 +1318,23 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 7|[Http] plPL_1|1.3MB/s
+- name: 7|[Http] atAT_1|1.7MB/s
+  password: None
+  port: 443
+  server: 146.70.244.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] atAT_2|3.5MB/s
+  password: None
+  port: 443
+  server: 146.70.244.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] plPL_1|1.5MB/s
   password: None
   port: 443
   server: 37.120.156.34
@@ -1232,50 +1342,411 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 7|[Http] deDE_1|1012KB/s
+- name: 7|[Http] deDE_4|2.3MB/s
   port: 443
   server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 7|[Http] luLU_1|2.3MB/s
+- name: 7|[Http] seSE_1|1.7MB/s
   password: None
   port: 443
-  server: 185.221.132.242
+  server: 146.70.242.146
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 7|[Http] chCH_1|2.7MB/s
-  port: 9443
-  server: 37.120.213.210
+- name: 7|[Http] seSE_2|2.0MB/s
+  password: None
+  port: 443
+  server: 146.70.242.130
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 7|[Http] usUS_1|3.3MB/s
-  port: 8443
-  server: 45.150.164.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 7|[Http] czCZ_1|1.0MB/s
+- name: 7|[Http] czCZ_1|3.0MB/s
+  password: None
   port: 443
   server: 185.216.35.130
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 7|[Http] czCZ_2|1.5MB/s
+- name: 7,10|[Http] FR_speednode_0009
+  port: 8090
+  server: 83.206.1.225
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7,10|[Http] FR_speednode_0010
+  password: 'null'
+  port: 23856
+  server: 51.159.225.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 7,10|[Http] LV_speednode_0021
+  password: None
+  port: 443
+  server: 185.219.159.16
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7,10|[Http] NL_speednode_0024
+  password: None
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] twTW_1|2.7MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 7|[Trojan] nlNL_4|2.7MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.66.0.172
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 7|[Http] beBE_1|2.4MB/s
+  port: 443
+  server: 146.70.123.98
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] nlNL_5|1.8MB/s
+  password: None
+  port: 443
+  server: 149.36.51.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] chCH_1|2.2MB/s
+  password: ''
+  port: 9443
+  server: 149.88.27.46
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 7|[Http] usUS_3|2.6MB/s
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] frFR_2|2.5MB/s
+  port: 9443
+  server: 138.199.47.247
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] deDE_5|2.2MB/s
+  password: None
+  port: 9002
+  server: 158.173.154.3
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] chCH_2|2.3MB/s|K001-260618
+  password: ''
+  port: 9443
+  server: 149.88.27.33
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 7|[Http] chCH_3|1.8MB/s
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] usUS_4|2.2MB/s
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] usUS_5|2.6MB/s
+  port: 443
+  server: 121.127.34.82
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] ruRU_1|3.1MB/s
+  port: 8443
+  server: 87.242.85.187
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] deDE_6|3.6MB/s
+  port: 9002
+  server: 158.173.154.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] ieIE_1|2.0MB/s
+  port: 9443
+  server: 149.88.96.12
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] nlNL_6|2.6MB/s
+  port: 443
+  server: 185.238.170.10
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] usUS_6|1.1MB/s
+  port: 443
+  server: 12.202.180.118
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] usUS_7|1.8MB/s
+  port: 443
+  server: 23.133.176.14
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] nlNL_7|4.3MB/s
+  password: None
+  port: 23856
+  server: 51.159.225.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] nlNL_8|4.8MB/s
+  port: 9002
+  server: 84.17.47.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] grGR_1|2.3MB/s
+  password: None
+  port: 443
+  server: 149.22.85.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] usUS_8|1022KB/s
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] lvLV_2|3.2MB/s
+  port: 443
+  server: 109.248.149.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] nlNL_9|3.0MB/s
+  port: 9002
+  server: 84.17.47.126
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] gbGB_1|1.3MB/s
+  password: None
+  port: 443
+  server: 185.164.138.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] usUS_9|1.8MB/s
+  password: ''
+  port: 443
+  server: 12.202.180.10
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 7|[Http] deDE_7|2.1MB/s
+  port: 9443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] esES_1|1.3MB/s
+  port: 443
+  server: 130.195.250.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] dkDK_1|3.2MB/s
+  port: 9443
+  server: 185.245.84.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] eeEE_1|1.1MB/s
+  port: 9443
+  server: 192.159.101.174
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] alAL_1|1.6MB/s|K001-260618
+  password: ''
+  port: 9443
+  server: 31.171.155.210
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 7|[Http] grGR_2|1.0MB/s
+  password: ''
+  port: 443
+  server: 149.22.85.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 7|[Http] deDE_8|2.6MB/s
+  password: None
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] gbGB_2|1.2MB/s
+  password: None
+  port: 443
+  server: 84.17.50.193
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] gbGB_3|2.1MB/s
+  password: None
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] ieIE_2|1.3MB/s|P002-260618
+  password: None
+  port: 443
+  server: 149.88.96.1
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] czCZ_2|3.2MB/s
   port: 443
   server: 185.216.35.66
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 7|[Http] itIT_2|1.1MB/s
+- name: 7|[Http] huHU_1|2.3MB/s
+  password: None
+  port: 443
+  server: 146.70.203.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] plPL_2|2.6MB/s
+  password: None
+  port: 443
+  server: 37.120.156.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] nlNL_10|3.2MB/s
+  port: 443
+  server: 5.255.118.82
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] nlNL_11|1.3MB/s
+  port: 9002
+  server: 84.17.47.147
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] ieIE_3|4.0MB/s
+  password: None
+  port: 443
+  server: 34.249.214.108
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] usUS_10|3.0MB/s
+  port: 443
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] lvLV_3|1.2MB/s
+  port: 443
+  server: 85.203.39.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] itIT_2|3.4MB/s
   password: None
   port: 443
   server: 185.183.105.130
@@ -1283,19 +1754,305 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 7|[Http] noNO_1|1.1MB/s
+- name: 7|[Http] caCA_1|2.4MB/s
   password: None
-  port: 9443
-  server: 146.70.170.210
+  port: 443
+  server: 206.223.183.21
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 7|[Socks5] usUS_2|2.4MB/s
-  port: 44499
-  server: 45.61.188.134
+- name: 7|[Http] usUS_11|1.8MB/s
+  password: None
+  port: 443
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] nlNL_12|2.2MB/s
+  port: 9090
+  server: 185.53.129.141
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] frFR_3|2.2MB/s
+  password: None
+  port: 8090
+  server: 82.96.128.175
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] gbGB_4|2.8MB/s
+  password: None
+  port: 9443
+  server: 84.17.50.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] esES_2|1.4MB/s
+  password: None
+  port: 443
+  server: 130.195.250.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] nlNL_13|4.4MB/s
+  password: ''
+  port: 443
+  server: 51.158.243.91
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 7|[Http] gbGB_5|1.1MB/s
+  password: None
+  port: 443
+  server: 212.102.63.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] alAL_2|1.4MB/s
+  port: 9443
+  server: 31.171.154.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] usUS_12|1.5MB/s|K001-260618
+  password: ''
+  port: 443
+  server: 149.34.248.65
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 7|[Http] geGE_1|2.7MB/s
+  password: None
+  port: 443
+  server: 195.54.178.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] sgSG_1|2.3MB/s
+  port: 443
+  server: 156.146.56.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] esES_3|2.2MB/s
+  password: None
+  port: 443
+  server: 82.102.17.178
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] usUS_13|1.4MB/s
+  port: 443
+  server: 162.244.227.36
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] frFR_4|2.0MB/s
+  port: 443
+  server: 84.235.228.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] rsRS_1|3.1MB/s
+  port: 443
+  server: 146.70.221.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] ptPT_1|2.3MB/s
+  port: 443
+  server: 149.22.86.14
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] hrHR_1|2.8MB/s
+  port: 443
+  server: 154.47.29.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] roRO_1|1.1MB/s
+  port: 9443
+  server: 169.150.199.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] hrHR_2|1.8MB/s|K001-260618
+  password: None
+  port: 443
+  server: 154.47.29.174
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 7|[Socks5] usUS_14|3.0MB/s
+  password: test123
+  port: 1080
+  server: 104.168.249.36
   type: socks5
   udp: true
+  username: test123
+- name: 7|[Http] seSE_3|2.9MB/s
+  port: 443
+  server: 79.142.77.63
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] nlNL_14|2.0MB/s
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 82.196.9.7
+  sni: 52c40907.acsnet.co
+  tls: true
+  type: http
+  udp: true
+  username: testuser1
+- name: 7|[Http] eeEE_2|1.3MB/s
+  port: 9443
+  server: 95.153.32.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] nlNL_15|2.8MB/s
+  port: 9443
+  server: 161.129.60.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] usUS_15|1.5MB/s
+  port: 8090
+  server: 184.188.139.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] frFR_5|3.4MB/s
+  port: 8090
+  server: 80.124.109.22
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] caCA_2|2.1MB/s
+  password: None
+  port: 443
+  server: 206.223.161.47
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] eeEE_3|1.1MB/s
+  password: None
+  port: 9443
+  server: 95.153.31.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 7|[VLESS] usUS_16|2.9MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: 'b390142456517acc'
+  server: 156.229.166.66
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a8945d73-e450-47ea-90cb-10062c8632b7
+  xudp: true
+- name: 7|[Http] idID_1|1.5MB/s
+  password: ''
+  port: 8080
+  server: 103.158.97.82
+  skip-cert-verify: true
+  type: http
+  udp: true
+  username: ''
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 7|[VLESS] seSE_4|2.2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: Dt6OmhEDOi-Y204u5jWdQsHIgof7g8i52NUnTGc-yjM
+    short-id: 'ecb6f8fb31668176'
+  server: 171.25.158.163
+  servername: s9se1.newagetechnologies.live
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  name: 7|[VLESS] deDE_9|3.2MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 217.60.183.95
+  servername: de-1e51a8f925.shamanapp.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: d666e16b-2b64-4499-bb32-896c26dc2e3d
+  xhttp-opts:
+    host: de-1e51a8f925.shamanapp.online
+    mode: packet-up
+    path: /ShamanXHTTP2026
+    uplink-data-placement: body
+  xudp: true
+- name: 7|[Http] sgSG_2|1.5MB/s
+  password: ''
+  port: 9090
+  server: 152.42.170.187
+  skip-cert-verify: true
+  type: http
+  udp: true
+  username: ''
+- name: 7|[Http] nlNL_16|3.5MB/s
+  password: 'null'
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
 - cipher: aes-256-gcm
   name: 9|[SS] SS-IPv6
   password: github.com/Alvin9999-newpac/fanqiang
@@ -1399,22 +2156,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 10|[Http] FR_speednode_0009
-  port: 8090
-  server: 83.206.1.225
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 10|[Http] FR_speednode_0010
-  password: 'null'
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
 - name: 10|[Http] FR_speednode_0011
   port: 23856
   server: 51.159.225.196
@@ -1473,14 +2214,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 10|[Http] LV_speednode_0021
-  password: None
-  port: 443
-  server: 185.219.159.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 10|[Http] NL_speednode_0022
   password: 'null'
   port: 443
@@ -1493,14 +2226,6 @@ proxies:
 - name: 10|[Http] NL_speednode_0023
   port: 9002
   server: 84.17.47.124
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 10|[Http] NL_speednode_0024
-  password: None
-  port: 9002
-  server: 84.17.47.148
   skip-cert-verify: true
   tls: true
   type: http

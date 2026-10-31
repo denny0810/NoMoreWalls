@@ -45,11 +45,20 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 7|[Http] sgSG_1|1.8MB/s
-  password: '!!str 1234'
-  port: 2080
-  server: 47.129.174.248
-  skip-cert-verify: true
-  type: http
+- alterId: 0
+  cipher: auto
+  name: 7|[Vmess] sgSG_1|1.2MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 53437
+  server: az-1.linkaa.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  username: '1234'
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: az-1.linkaa.xyz
+    path: /game/resources
+  xudp: true

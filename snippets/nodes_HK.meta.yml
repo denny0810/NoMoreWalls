@@ -148,7 +148,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 7|[Vmess] hkHK_1|2.0MB/s
+  name: 7|[Vmess] hkHK_1|1.3MB/s
   network: ws
   packet-encoding: xudp
   port: 53617
@@ -164,3 +164,8 @@ proxies:
       Host: az-1.linkaa.xyz
     path: /game/resources
   xudp: true
+- name: 7|[Socks5] hkHK_2|4.1MB/s
+  port: 1080
+  server: 34.150.120.78
+  type: socks5
+  udp: true

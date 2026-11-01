@@ -156,15 +156,15 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 7|[Http] jpJP_1|3.4MB/s
-  password: 'null'
-  port: 40583
-  server: 120.232.204.58
+- name: 7|[Trojan] jpJP_1|2.8MB/s
+  network: tcp
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 24133
+  server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
-  tls: true
-  type: http
+  sni: cm.g.doubleclick.net
+  type: trojan
   udp: true
-  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 10|[VLESS] JP_speednode_0018

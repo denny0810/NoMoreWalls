@@ -45,11 +45,12 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 7|[Http] sgSG_1|4.7MB/s
-  password: '!!str 1234'
-  port: 2080
-  server: 52.221.234.145
+- name: 7|[Trojan] sgSG_1|3.5MB/s
+  network: tcp
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 15589
+  server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
-  type: http
+  sni: cm.g.doubleclick.net
+  type: trojan
   udp: true
-  username: '1234'

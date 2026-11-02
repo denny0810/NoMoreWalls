@@ -21,10 +21,19 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 7|[Trojan] twTW_1|1.4MB/s
+- name: 7|[Trojan] twTW_1|3.0MB/s
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 47786
+  port: 54815
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 7|[Trojan] twTW_2|1.4MB/s
+  network: tcp
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 22003
   server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
   sni: cm.g.doubleclick.net

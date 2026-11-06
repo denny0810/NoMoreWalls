@@ -1,12 +1,32 @@
 proxies:
-- name: 7|[Http] gbGB_1|2.1MB/s
-  port: 9443
-  server: 84.233.178.33
+- client-fingerprint: chrome
+  encryption: none
+  name: 7|[VLESS] gbGB_1|1.4MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: www.sarzaminaryan.ir
+  servername: soliconf-gghosin4-cell.dormhost.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57e089a8-0cd1-48d0-b572-105c4804f6b8
+  ws-opts:
+    headers:
+      Host: soliconf-gghosin4-cell.dormhost.app
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    path: /jx-y8179aild6rsmj
+  xudp: true
+- name: 7|[Http] gbGB_2|1.9MB/s
+  password: None
+  port: 443
+  server: 84.17.50.193
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 7|[Http] gbGB_2|1.9MB/s
+- name: 7|[Http] gbGB_3|1.8MB/s
   password: None
   port: 9443
   server: 84.17.50.214
@@ -14,19 +34,30 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 7|[Http] gbGB_3|2.5MB/s|P002-260618
-  password: None
+- name: 7|[Http] gbGB_4|2.9MB/s
   port: 443
-  server: 212.102.63.31
+  server: 185.164.138.156
   skip-cert-verify: true
-  sub_tag: P002-260618
   tls: true
   type: http
   udp: true
-- name: 7|[Http] gbGB_4|2.1MB/s
-  password: None
+- name: 7|[Http] gbGB_5|2.8MB/s
   port: 9443
   server: 84.17.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] gbGB_6|1.5MB/s
+  port: 9443
+  server: 84.233.178.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 7|[Http] gbGB_7|1.0MB/s
+  port: 443
+  server: 37.120.233.18
   skip-cert-verify: true
   tls: true
   type: http

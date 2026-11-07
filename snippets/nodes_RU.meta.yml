@@ -6,13 +6,30 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 7|[Http] ruRU_2|3.3MB/s
-  port: 8443
-  server: 87.242.85.187
+- name: 7|[Socks5] ruRU_2|2.4MB/s
+  password: ''
+  port: 10800
+  server: 46.8.158.144
   skip-cert-verify: true
-  tls: true
-  type: http
+  type: socks5
   udp: true
+  username: ''
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 7|[VLESS] ruRU_3|2.9MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 7ZOPr8Vbg0jSLw91-ONdvxGzGfen9sRz1VMpmau72RY
+    short-id: '!!str 31a2cc'
+  server: ru1.aoyou.stream
+  servername: news.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1d2392a0-1713-4ea9-be88-8a1e5ddab6bd
+  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 10|[VLESS] RU_speednode_0029
